@@ -126,7 +126,9 @@ $Data->{scripts}->{Zzzz}->{collation_reorder} = 'others';
 for (keys %{$Data->{scripts}}) {
   if (($Data->{scripts}->{$_}->{unicode_id} // '') eq 'recommended') {
     $Data->{scripts}->{$_}->{collation_reorder} = $_
-        unless $_ eq 'Kana';
+        unless $_ eq 'Kana' or # Katakana
+               $_ eq 'Zyyy' or # Common
+               $_ eq 'Zinh'; # Inherited
   }
 }
 

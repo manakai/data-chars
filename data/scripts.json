@@ -1855,7 +1855,6 @@
          "xforms" : "Yi"
       },
       "Zinh" : {
-         "collation_reorder" : "Zinh",
          "desc" : [
             "Code for inherited script"
          ],
@@ -1891,7 +1890,6 @@
          "iso" : "Zxxx"
       },
       "Zyyy" : {
-         "collation_reorder" : "Zyyy",
          "desc" : [
             "Code for undetermined script"
          ],
