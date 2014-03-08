@@ -41,6 +41,18 @@ Each value is a JSON object with following name/value pairs:
     The ISO 15924 script code for the script, in titlecased canonical
     form.  This is also the value used in BCP 47 language tags.
 
+  preferred [string?]
+
+    More preferred ISO 15924 script code, if any, in titlecased
+    canonical form.
+
+  private [boolean]
+
+    Whether the |iso| script code is for private use or not.  Please
+    note that Unicode specifications assgins semantics for some
+    private use script codes such that there might also |unicode| or
+    |preferred| values for those scripts.
+
   u_nu [string?]
 
     The LDML identifier for the numbering system, in lowercase
