@@ -1,0 +1,2008 @@
+{
+   "scripts" : {
+      "Afak" : {
+         "desc" : [
+            "Afaka"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Afak"
+      },
+      "Aghb" : {
+         "desc" : [
+            "Caucasian Albanian"
+         ],
+         "ianareg" : "2012-11-01",
+         "iso" : "Aghb"
+      },
+      "Ahom" : {
+         "desc" : [
+            "Ahom",
+            "Tai Ahom"
+         ],
+         "ianareg" : "2013-12-02",
+         "iso" : "Ahom"
+      },
+      "Arab" : {
+         "collation_reorder" : "Arab",
+         "desc" : [
+            "Arabic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Arab",
+         "u_nu" : "arab",
+         "u_nu_desc" : "Arabic-Indic digits",
+         "unicode" : "Arabic",
+         "unicode_id" : "recommended",
+         "xforms" : "Arabic"
+      },
+      "Armi" : {
+         "desc" : [
+            "Imperial Aramaic"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Armi",
+         "unicode" : "Imperial_Aramaic",
+         "unicode_id" : "excluded",
+         "xforms" : "ImperialAramaic"
+      },
+      "Armn" : {
+         "collation_reorder" : "Armn",
+         "desc" : [
+            "Armenian"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Armn",
+         "u_nu" : "armn",
+         "u_nu_desc" : "Armenian upper case numerals — algorithmic",
+         "unicode" : "Armenian",
+         "unicode_id" : "recommended",
+         "xforms" : "Armenian"
+      },
+      "Avst" : {
+         "desc" : [
+            "Avestan"
+         ],
+         "ianareg" : "2007-07-28",
+         "iso" : "Avst",
+         "unicode" : "Avestan",
+         "unicode_id" : "excluded",
+         "xforms" : "Avestan"
+      },
+      "Bali" : {
+         "desc" : [
+            "Balinese"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Bali",
+         "u_nu" : "bali",
+         "u_nu_desc" : "Balinese digits",
+         "unicode" : "Balinese",
+         "unicode_id" : "limited",
+         "xforms" : "Balinese"
+      },
+      "Bamu" : {
+         "desc" : [
+            "Bamum"
+         ],
+         "ianareg" : "2009-07-30",
+         "iso" : "Bamu",
+         "unicode" : "Bamum",
+         "unicode_id" : "limited",
+         "xforms" : "Bamum"
+      },
+      "Bass" : {
+         "desc" : [
+            "Bassa Vah"
+         ],
+         "ianareg" : "2010-04-10",
+         "iso" : "Bass"
+      },
+      "Batk" : {
+         "desc" : [
+            "Batak"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Batk",
+         "unicode" : "Batak",
+         "unicode_id" : "limited",
+         "xforms" : "Batak"
+      },
+      "Beng" : {
+         "collation_reorder" : "Beng",
+         "desc" : [
+            "Bengali"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Beng",
+         "u_nu" : "beng",
+         "u_nu_desc" : "Bengali digits",
+         "unicode" : "Bengali",
+         "unicode_id" : "recommended",
+         "xforms" : "Bengali"
+      },
+      "Blis" : {
+         "desc" : [
+            "Blissymbols"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Blis"
+      },
+      "Bopo" : {
+         "collation_reorder" : "Bopo",
+         "desc" : [
+            "Bopomofo"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Bopo",
+         "unicode" : "Bopomofo",
+         "unicode_id" : "recommended",
+         "xforms" : "Bopomofo"
+      },
+      "Brah" : {
+         "desc" : [
+            "Brahmi"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Brah",
+         "u_nu" : "brah",
+         "u_nu_desc" : "Brahmi digits",
+         "unicode" : "Brahmi",
+         "unicode_id" : "excluded",
+         "xforms" : "Brahmi"
+      },
+      "Brai" : {
+         "desc" : [
+            "Braille"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Brai",
+         "unicode" : "Braille",
+         "xforms" : "Braille"
+      },
+      "Bugi" : {
+         "desc" : [
+            "Buginese"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Bugi",
+         "unicode" : "Buginese",
+         "unicode_id" : "excluded",
+         "xforms" : "Buginese"
+      },
+      "Buhd" : {
+         "desc" : [
+            "Buhid"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Buhd",
+         "unicode" : "Buhid",
+         "unicode_id" : "excluded",
+         "xforms" : "Buhid"
+      },
+      "Cakm" : {
+         "desc" : [
+            "Chakma"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Cakm",
+         "u_nu" : "cakm",
+         "u_nu_desc" : "Chakma digits",
+         "unicode" : "Chakma",
+         "unicode_id" : "limited",
+         "xforms" : "Chakma"
+      },
+      "Cans" : {
+         "desc" : [
+            "Unified Canadian Aboriginal Syllabics"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Cans",
+         "unicode" : "Canadian_Aboriginal",
+         "unicode_id" : "aspirational",
+         "xforms" : "CanadianAboriginal"
+      },
+      "Cari" : {
+         "desc" : [
+            "Carian"
+         ],
+         "ianareg" : "2006-07-21",
+         "iso" : "Cari",
+         "unicode" : "Carian",
+         "unicode_id" : "excluded",
+         "xforms" : "Carian"
+      },
+      "Cham" : {
+         "desc" : [
+            "Cham"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Cham",
+         "u_nu" : "cham",
+         "u_nu_desc" : "Cham digits",
+         "unicode" : "Cham",
+         "unicode_id" : "limited",
+         "xforms" : "Cham"
+      },
+      "Cher" : {
+         "desc" : [
+            "Cherokee"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Cher",
+         "unicode" : "Cherokee",
+         "unicode_id" : "limited",
+         "xforms" : "Cherokee"
+      },
+      "Cirt" : {
+         "desc" : [
+            "Cirth"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Cirt"
+      },
+      "Copt" : {
+         "desc" : [
+            "Coptic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Copt",
+         "unicode" : "Coptic",
+         "unicode_id" : "excluded",
+         "xforms" : "Coptic"
+      },
+      "Cprt" : {
+         "desc" : [
+            "Cypriot"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Cprt",
+         "unicode" : "Cypriot",
+         "unicode_id" : "excluded",
+         "xforms" : "Cypriot"
+      },
+      "Cyrl" : {
+         "collation_reorder" : "Cyrl",
+         "desc" : [
+            "Cyrillic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Cyrl",
+         "unicode" : "Cyrillic",
+         "unicode_id" : "recommended",
+         "xforms" : "Cyrillic"
+      },
+      "Cyrs" : {
+         "desc" : [
+            "Cyrillic (Old Church Slavonic variant)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Cyrs"
+      },
+      "Deva" : {
+         "collation_reorder" : "Deva",
+         "desc" : [
+            "Devanagari",
+            "Nagari"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Deva",
+         "u_nu" : "deva",
+         "u_nu_desc" : "Devanagari digits",
+         "unicode" : "Devanagari",
+         "unicode_id" : "recommended",
+         "xforms" : "Devanagari"
+      },
+      "Dsrt" : {
+         "desc" : [
+            "Deseret",
+            "Mormon"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Dsrt",
+         "unicode" : "Deseret",
+         "unicode_id" : "excluded",
+         "xforms" : "Deseret"
+      },
+      "Dupl" : {
+         "desc" : [
+            "Duployan shorthand",
+            "Duployan stenography"
+         ],
+         "ianareg" : "2010-08-16",
+         "iso" : "Dupl"
+      },
+      "Egyd" : {
+         "desc" : [
+            "Egyptian demotic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Egyd"
+      },
+      "Egyh" : {
+         "desc" : [
+            "Egyptian hieratic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Egyh"
+      },
+      "Egyp" : {
+         "desc" : [
+            "Egyptian hieroglyphs"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Egyp",
+         "unicode" : "Egyptian_Hieroglyphs",
+         "unicode_id" : "excluded",
+         "xforms" : "EgyptianHieroglyphs"
+      },
+      "Elba" : {
+         "desc" : [
+            "Elbasan"
+         ],
+         "ianareg" : "2010-08-16",
+         "iso" : "Elba"
+      },
+      "Ethi" : {
+         "collation_reorder" : "Ethi",
+         "desc" : [
+            "Ethiopic",
+            "Geʻez",
+            "Ge'ez"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Ethi",
+         "u_nu" : "ethi",
+         "u_nu_desc" : "Ethiopic numerals — algorithmic",
+         "unicode" : "Ethiopic",
+         "unicode_id" : "recommended",
+         "xforms" : "Ethiopic"
+      },
+      "Geok" : {
+         "desc" : [
+            "Khutsuri (Asomtavruli and Nuskhuri)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Geok"
+      },
+      "Geor" : {
+         "collation_reorder" : "Geor",
+         "desc" : [
+            "Georgian (Mkhedruli)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Geor",
+         "u_nu" : "geor",
+         "u_nu_desc" : "Georgian numerals — algorithmic",
+         "unicode" : "Georgian",
+         "unicode_id" : "recommended",
+         "xforms" : "Georgian"
+      },
+      "Glag" : {
+         "desc" : [
+            "Glagolitic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Glag",
+         "unicode" : "Glagolitic",
+         "unicode_id" : "excluded",
+         "xforms" : "Glagolitic"
+      },
+      "Goth" : {
+         "desc" : [
+            "Gothic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Goth",
+         "unicode" : "Gothic",
+         "unicode_id" : "excluded",
+         "xforms" : "Gothic"
+      },
+      "Gran" : {
+         "desc" : [
+            "Grantha"
+         ],
+         "ianareg" : "2009-12-09",
+         "iso" : "Gran"
+      },
+      "Grek" : {
+         "collation_reorder" : "Grek",
+         "desc" : [
+            "Greek"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Grek",
+         "u_nu" : "grek",
+         "u_nu_desc" : "Greek upper case numerals — algorithmic",
+         "unicode" : "Greek",
+         "unicode_id" : "recommended",
+         "xforms" : "Greek"
+      },
+      "Gujr" : {
+         "collation_reorder" : "Gujr",
+         "desc" : [
+            "Gujarati"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Gujr",
+         "u_nu" : "gujr",
+         "u_nu_desc" : "Gujarati digits",
+         "unicode" : "Gujarati",
+         "unicode_id" : "recommended",
+         "xforms" : "Gujarati"
+      },
+      "Guru" : {
+         "collation_reorder" : "Guru",
+         "desc" : [
+            "Gurmukhi"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Guru",
+         "u_nu" : "guru",
+         "u_nu_desc" : "Gurmukhi digits",
+         "unicode" : "Gurmukhi",
+         "unicode_id" : "recommended",
+         "xforms" : "Gurmukhi"
+      },
+      "Hang" : {
+         "collation_reorder" : "Hang",
+         "desc" : [
+            "Hangul",
+            "Hangŭl",
+            "Hangeul"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hang",
+         "unicode" : "Hangul",
+         "unicode_id" : "recommended",
+         "xforms" : "Hangul"
+      },
+      "Hani" : {
+         "collation_reorder" : "Hani",
+         "desc" : [
+            "Han",
+            "Hanzi",
+            "Kanji",
+            "Hanja"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hani",
+         "unicode" : "Han",
+         "unicode_id" : "recommended",
+         "xforms" : "Han"
+      },
+      "Hano" : {
+         "desc" : [
+            "Hanunoo",
+            "Hanunóo"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hano",
+         "unicode" : "Hanunoo",
+         "unicode_id" : "excluded",
+         "xforms" : "Hanunoo"
+      },
+      "Hans" : {
+         "desc" : [
+            "Han (Simplified variant)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hans",
+         "u_nu" : "hans",
+         "u_nu_desc" : "Simplified Chinese numerals — algorithmic",
+         "xforms" : "simplifiedHanzi"
+      },
+      "Hant" : {
+         "desc" : [
+            "Han (Traditional variant)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hant",
+         "u_nu" : "hant",
+         "u_nu_desc" : "Traditional Chinese numerals — algorithmic",
+         "xforms" : "traditionalHanzi"
+      },
+      "Hatr" : {
+         "desc" : [
+            "Hatran"
+         ],
+         "ianareg" : "2013-12-02",
+         "iso" : "Hatr"
+      },
+      "Hebr" : {
+         "collation_reorder" : "Hebr",
+         "desc" : [
+            "Hebrew"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hebr",
+         "u_nu" : "hebr",
+         "u_nu_desc" : "Hebrew numerals — algorithmic",
+         "unicode" : "Hebrew",
+         "unicode_id" : "recommended",
+         "xforms" : "Hebrew"
+      },
+      "Hira" : {
+         "collation_reorder" : "Hira",
+         "desc" : [
+            "Hiragana"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hira",
+         "unicode" : "Hiragana",
+         "unicode_id" : "recommended",
+         "xforms" : "Hiragana"
+      },
+      "Hluw" : {
+         "desc" : [
+            "Anatolian Hieroglyphs",
+            "Luwian Hieroglyphs",
+            "Hittite Hieroglyphs"
+         ],
+         "ianareg" : "2011-12-28",
+         "iso" : "Hluw"
+      },
+      "Hmng" : {
+         "desc" : [
+            "Pahawh Hmong"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hmng"
+      },
+      "Hrkt" : {
+         "desc" : [
+            "Japanese syllabaries (alias for Hiragana \u002B Katakana)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hrkt",
+         "unicode" : "Katakana_Or_Hiragana",
+         "xforms" : "KatakanaOrHiragana"
+      },
+      "Hung" : {
+         "desc" : [
+            "Old Hungarian",
+            "Hungarian Runic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Hung"
+      },
+      "Inds" : {
+         "desc" : [
+            "Indus",
+            "Harappan"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Inds"
+      },
+      "Ital" : {
+         "desc" : [
+            "Old Italic (Etruscan, Oscan, etc.)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Ital",
+         "unicode" : "Old_Italic",
+         "unicode_id" : "excluded",
+         "xforms" : "OldItalic"
+      },
+      "Java" : {
+         "desc" : [
+            "Javanese"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Java",
+         "u_nu" : "java",
+         "u_nu_desc" : "Javanese digits",
+         "unicode" : "Javanese",
+         "unicode_id" : "limited",
+         "xforms" : "Javanese"
+      },
+      "Jpan" : {
+         "desc" : [
+            "Japanese (alias for Han \u002B Hiragana \u002B Katakana)"
+         ],
+         "ianareg" : "2006-07-21",
+         "iso" : "Jpan",
+         "u_nu" : "jpan",
+         "u_nu_desc" : "Japanese numerals — algorithmic"
+      },
+      "Jurc" : {
+         "desc" : [
+            "Jurchen"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Jurc"
+      },
+      "Kali" : {
+         "desc" : [
+            "Kayah Li"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Kali",
+         "u_nu" : "kali",
+         "u_nu_desc" : "Kayah Li digits",
+         "unicode" : "Kayah_Li",
+         "unicode_id" : "limited",
+         "xforms" : "KayahLi"
+      },
+      "Kana" : {
+         "desc" : [
+            "Katakana"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Kana",
+         "unicode" : "Katakana",
+         "unicode_id" : "recommended",
+         "xforms" : "Katakana"
+      },
+      "Khar" : {
+         "desc" : [
+            "Kharoshthi"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Khar",
+         "unicode" : "Kharoshthi",
+         "unicode_id" : "excluded",
+         "xforms" : "Kharoshthi"
+      },
+      "Khmr" : {
+         "collation_reorder" : "Khmr",
+         "desc" : [
+            "Khmer"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Khmr",
+         "u_nu" : "khmr",
+         "u_nu_desc" : "Khmer digits",
+         "unicode" : "Khmer",
+         "unicode_id" : "recommended",
+         "xforms" : "Khmer"
+      },
+      "Khoj" : {
+         "desc" : [
+            "Khojki"
+         ],
+         "ianareg" : "2011-08-16",
+         "iso" : "Khoj"
+      },
+      "Knda" : {
+         "collation_reorder" : "Knda",
+         "desc" : [
+            "Kannada"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Knda",
+         "u_nu" : "knda",
+         "u_nu_desc" : "Kannada digits",
+         "unicode" : "Kannada",
+         "unicode_id" : "recommended",
+         "xforms" : "Kannada"
+      },
+      "Kore" : {
+         "desc" : [
+            "Korean (alias for Hangul \u002B Han)"
+         ],
+         "ianareg" : "2007-07-05",
+         "iso" : "Kore"
+      },
+      "Kpel" : {
+         "desc" : [
+            "Kpelle"
+         ],
+         "ianareg" : "2010-04-10",
+         "iso" : "Kpel"
+      },
+      "Kthi" : {
+         "desc" : [
+            "Kaithi"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Kthi",
+         "unicode" : "Kaithi",
+         "unicode_id" : "excluded",
+         "xforms" : "Kaithi"
+      },
+      "Lana" : {
+         "desc" : [
+            "Tai Tham",
+            "Lanna"
+         ],
+         "ianareg" : "2006-07-21",
+         "iso" : "Lana",
+         "u_nu" : "lana",
+         "u_nu_desc" : "Tai Tham Hora (secular) digits",
+         "unicode" : "Tai_Tham",
+         "unicode_id" : "limited",
+         "xforms" : "TaiTham"
+      },
+      "Laoo" : {
+         "collation_reorder" : "Laoo",
+         "desc" : [
+            "Lao"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Laoo",
+         "u_nu" : "laoo",
+         "u_nu_desc" : "Lao digits",
+         "unicode" : "Lao",
+         "unicode_id" : "recommended",
+         "xforms" : "Lao"
+      },
+      "Latf" : {
+         "desc" : [
+            "Latin (Fraktur variant)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Latf"
+      },
+      "Latg" : {
+         "desc" : [
+            "Latin (Gaelic variant)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Latg"
+      },
+      "Latn" : {
+         "collation_reorder" : "Latn",
+         "desc" : [
+            "Latin"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Latn",
+         "u_nu" : "latn",
+         "u_nu_desc" : "Latin digits",
+         "unicode" : "Latin",
+         "unicode_id" : "recommended",
+         "xforms" : "Latin"
+      },
+      "Lepc" : {
+         "desc" : [
+            "Lepcha",
+            "Róng"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Lepc",
+         "u_nu" : "lepc",
+         "u_nu_desc" : "Lepcha digits",
+         "unicode" : "Lepcha",
+         "unicode_id" : "limited",
+         "xforms" : "Lepcha"
+      },
+      "Limb" : {
+         "desc" : [
+            "Limbu"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Limb",
+         "u_nu" : "limb",
+         "u_nu_desc" : "Limbu digits",
+         "unicode" : "Limbu",
+         "unicode_id" : "limited",
+         "xforms" : "Limbu"
+      },
+      "Lina" : {
+         "desc" : [
+            "Linear A"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Lina"
+      },
+      "Linb" : {
+         "desc" : [
+            "Linear B"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Linb",
+         "unicode" : "Linear_B",
+         "unicode_id" : "excluded",
+         "xforms" : "LinearB"
+      },
+      "Lisu" : {
+         "desc" : [
+            "Lisu",
+            "Fraser"
+         ],
+         "ianareg" : "2009-03-13",
+         "iso" : "Lisu",
+         "unicode" : "Lisu",
+         "unicode_id" : "limited",
+         "xforms" : "Lisu"
+      },
+      "Loma" : {
+         "desc" : [
+            "Loma"
+         ],
+         "ianareg" : "2010-04-10",
+         "iso" : "Loma"
+      },
+      "Lyci" : {
+         "desc" : [
+            "Lycian"
+         ],
+         "ianareg" : "2006-07-21",
+         "iso" : "Lyci",
+         "unicode" : "Lycian",
+         "unicode_id" : "excluded",
+         "xforms" : "Lycian"
+      },
+      "Lydi" : {
+         "desc" : [
+            "Lydian"
+         ],
+         "ianareg" : "2006-07-21",
+         "iso" : "Lydi",
+         "unicode" : "Lydian",
+         "unicode_id" : "excluded",
+         "xforms" : "Lydian"
+      },
+      "Mahj" : {
+         "desc" : [
+            "Mahajani"
+         ],
+         "ianareg" : "2012-11-01",
+         "iso" : "Mahj"
+      },
+      "Mand" : {
+         "desc" : [
+            "Mandaic",
+            "Mandaean"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Mand",
+         "unicode" : "Mandaic",
+         "unicode_id" : "limited",
+         "xforms" : "Mandaic"
+      },
+      "Mani" : {
+         "desc" : [
+            "Manichaean"
+         ],
+         "ianareg" : "2007-07-28",
+         "iso" : "Mani"
+      },
+      "Maya" : {
+         "desc" : [
+            "Mayan hieroglyphs"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Maya"
+      },
+      "Mend" : {
+         "desc" : [
+            "Mende Kikakui"
+         ],
+         "ianareg" : "2010-04-10",
+         "iso" : "Mend"
+      },
+      "Merc" : {
+         "desc" : [
+            "Meroitic Cursive"
+         ],
+         "ianareg" : "2009-12-09",
+         "iso" : "Merc",
+         "unicode" : "Meroitic_Cursive",
+         "unicode_id" : "excluded",
+         "xforms" : "MeroiticCursive"
+      },
+      "Mero" : {
+         "desc" : [
+            "Meroitic Hieroglyphs"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Mero",
+         "unicode" : "Meroitic_Hieroglyphs",
+         "unicode_id" : "excluded",
+         "xforms" : "MeroiticHieroglyphs"
+      },
+      "Mlym" : {
+         "collation_reorder" : "Mlym",
+         "desc" : [
+            "Malayalam"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Mlym",
+         "u_nu" : "mlym",
+         "u_nu_desc" : "Malayalam digits",
+         "unicode" : "Malayalam",
+         "unicode_id" : "recommended",
+         "xforms" : "Malayalam"
+      },
+      "Modi" : {
+         "desc" : [
+            "Modi",
+            "Moḍī"
+         ],
+         "ianareg" : "2013-12-02",
+         "iso" : "Modi"
+      },
+      "Mong" : {
+         "desc" : [
+            "Mongolian"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Mong",
+         "u_nu" : "mong",
+         "u_nu_desc" : "Mongolian digits",
+         "unicode" : "Mongolian",
+         "unicode_id" : "aspirational",
+         "xforms" : "Mongolian"
+      },
+      "Moon" : {
+         "desc" : [
+            "Moon",
+            "Moon code",
+            "Moon script",
+            "Moon type"
+         ],
+         "ianareg" : "2007-01-26",
+         "iso" : "Moon"
+      },
+      "Mroo" : {
+         "desc" : [
+            "Mro",
+            "Mru"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Mroo"
+      },
+      "Mtei" : {
+         "desc" : [
+            "Meitei Mayek",
+            "Meithei",
+            "Meetei"
+         ],
+         "ianareg" : "2007-01-26",
+         "iso" : "Mtei",
+         "u_nu" : "mtei",
+         "u_nu_desc" : "Meetei Mayek digits",
+         "unicode" : "Meetei_Mayek",
+         "unicode_id" : "limited",
+         "xforms" : "MeeteiMayek"
+      },
+      "Mult" : {
+         "desc" : [
+            "Multani"
+         ],
+         "ianareg" : "2013-12-02",
+         "iso" : "Mult"
+      },
+      "Mymr" : {
+         "collation_reorder" : "Mymr",
+         "desc" : [
+            "Myanmar",
+            "Burmese"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Mymr",
+         "u_nu" : "mymr",
+         "u_nu_desc" : "Myanmar digits",
+         "unicode" : "Myanmar",
+         "unicode_id" : "recommended",
+         "xforms" : "Myanmar"
+      },
+      "Narb" : {
+         "desc" : [
+            "Old North Arabian",
+            "Ancient North Arabian"
+         ],
+         "ianareg" : "2010-04-10",
+         "iso" : "Narb"
+      },
+      "Nbat" : {
+         "desc" : [
+            "Nabataean"
+         ],
+         "ianareg" : "2010-04-10",
+         "iso" : "Nbat"
+      },
+      "Nkgb" : {
+         "desc" : [
+            "Nakhi Geba",
+            "'Na-'Khi ²Ggŏ-¹baw",
+            "Naxi Geba"
+         ],
+         "ianareg" : "2009-03-13",
+         "iso" : "Nkgb"
+      },
+      "Nkoo" : {
+         "desc" : [
+            "N’Ko",
+            "N'Ko"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Nkoo",
+         "u_nu" : "nkoo",
+         "u_nu_desc" : "N'Ko digits",
+         "unicode" : "Nko",
+         "unicode_id" : "limited",
+         "xforms" : "Nko"
+      },
+      "Nshu" : {
+         "desc" : [
+            "Nüshu"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Nshu"
+      },
+      "Ogam" : {
+         "desc" : [
+            "Ogham"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Ogam",
+         "unicode" : "Ogham",
+         "unicode_id" : "excluded",
+         "xforms" : "Ogham"
+      },
+      "Olck" : {
+         "desc" : [
+            "Ol Chiki",
+            "Ol Cemet'",
+            "Ol",
+            "Santali"
+         ],
+         "ianareg" : "2006-07-21",
+         "iso" : "Olck",
+         "u_nu" : "olck",
+         "u_nu_desc" : "Ol Chiki digits",
+         "unicode" : "Ol_Chiki",
+         "unicode_id" : "limited",
+         "xforms" : "OlChiki"
+      },
+      "Orkh" : {
+         "desc" : [
+            "Old Turkic",
+            "Orkhon Runic"
+         ],
+         "ianareg" : "2009-07-30",
+         "iso" : "Orkh",
+         "unicode" : "Old_Turkic",
+         "unicode_id" : "excluded",
+         "xforms" : "OldTurkic"
+      },
+      "Orya" : {
+         "collation_reorder" : "Orya",
+         "desc" : [
+            "Oriya"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Orya",
+         "u_nu" : "orya",
+         "u_nu_desc" : "Oriya digits",
+         "unicode" : "Oriya",
+         "unicode_id" : "recommended",
+         "xforms" : "Oriya"
+      },
+      "Osma" : {
+         "desc" : [
+            "Osmanya"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Osma",
+         "u_nu" : "osma",
+         "u_nu_desc" : "Osmanya digits",
+         "unicode" : "Osmanya",
+         "unicode_id" : "excluded",
+         "xforms" : "Osmanya"
+      },
+      "Palm" : {
+         "desc" : [
+            "Palmyrene"
+         ],
+         "ianareg" : "2010-04-10",
+         "iso" : "Palm"
+      },
+      "Pauc" : {
+         "desc" : [
+            "Pau Cin Hau"
+         ],
+         "ianareg" : "2013-12-02",
+         "iso" : "Pauc"
+      },
+      "Perm" : {
+         "desc" : [
+            "Old Permic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Perm"
+      },
+      "Phag" : {
+         "desc" : [
+            "Phags-pa"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Phag",
+         "unicode" : "Phags_Pa",
+         "unicode_id" : "excluded",
+         "xforms" : "PhagsPa"
+      },
+      "Phli" : {
+         "desc" : [
+            "Inscriptional Pahlavi"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Phli",
+         "unicode" : "Inscriptional_Pahlavi",
+         "unicode_id" : "excluded",
+         "xforms" : "InscriptionalPahlavi"
+      },
+      "Phlp" : {
+         "desc" : [
+            "Psalter Pahlavi"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Phlp"
+      },
+      "Phlv" : {
+         "desc" : [
+            "Book Pahlavi"
+         ],
+         "ianareg" : "2007-07-28",
+         "iso" : "Phlv"
+      },
+      "Phnx" : {
+         "desc" : [
+            "Phoenician"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Phnx",
+         "unicode" : "Phoenician",
+         "unicode_id" : "excluded",
+         "xforms" : "Phoenician"
+      },
+      "Plrd" : {
+         "desc" : [
+            "Miao",
+            "Pollard"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Plrd",
+         "unicode" : "Miao",
+         "unicode_id" : "aspirational",
+         "xforms" : "Miao"
+      },
+      "Prti" : {
+         "desc" : [
+            "Inscriptional Parthian"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Prti",
+         "unicode" : "Inscriptional_Parthian",
+         "unicode_id" : "excluded",
+         "xforms" : "InscriptionalParthian"
+      },
+      "Qaaa" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaaa",
+         "private" : 1
+      },
+      "Qaab" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaab",
+         "private" : 1
+      },
+      "Qaac" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaac",
+         "preferred" : "Copt",
+         "private" : 1,
+         "unicode" : "Coptic",
+         "xforms" : "Coptic"
+      },
+      "Qaad" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaad",
+         "private" : 1
+      },
+      "Qaae" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaae",
+         "private" : 1
+      },
+      "Qaaf" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaaf",
+         "private" : 1
+      },
+      "Qaag" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaag",
+         "private" : 1
+      },
+      "Qaah" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaah",
+         "private" : 1
+      },
+      "Qaai" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaai",
+         "preferred" : "Zinh",
+         "private" : 1,
+         "unicode" : "Inherited",
+         "xforms" : "Inherited"
+      },
+      "Qaaj" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaaj",
+         "private" : 1
+      },
+      "Qaak" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaak",
+         "private" : 1
+      },
+      "Qaal" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaal",
+         "private" : 1
+      },
+      "Qaam" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaam",
+         "private" : 1
+      },
+      "Qaan" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaan",
+         "private" : 1
+      },
+      "Qaao" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaao",
+         "private" : 1
+      },
+      "Qaap" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaap",
+         "private" : 1
+      },
+      "Qaaq" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaaq",
+         "private" : 1
+      },
+      "Qaar" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaar",
+         "private" : 1
+      },
+      "Qaas" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaas",
+         "private" : 1
+      },
+      "Qaat" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaat",
+         "private" : 1
+      },
+      "Qaau" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaau",
+         "private" : 1
+      },
+      "Qaav" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaav",
+         "private" : 1
+      },
+      "Qaaw" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaaw",
+         "private" : 1
+      },
+      "Qaax" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaax",
+         "private" : 1
+      },
+      "Qaay" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaay",
+         "private" : 1
+      },
+      "Qaaz" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaaz",
+         "private" : 1
+      },
+      "Qaba" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qaba",
+         "private" : 1
+      },
+      "Qabb" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabb",
+         "private" : 1
+      },
+      "Qabc" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabc",
+         "private" : 1
+      },
+      "Qabd" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabd",
+         "private" : 1
+      },
+      "Qabe" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabe",
+         "private" : 1
+      },
+      "Qabf" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabf",
+         "private" : 1
+      },
+      "Qabg" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabg",
+         "private" : 1
+      },
+      "Qabh" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabh",
+         "private" : 1
+      },
+      "Qabi" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabi",
+         "private" : 1
+      },
+      "Qabj" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabj",
+         "private" : 1
+      },
+      "Qabk" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabk",
+         "private" : 1
+      },
+      "Qabl" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabl",
+         "private" : 1
+      },
+      "Qabm" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabm",
+         "private" : 1
+      },
+      "Qabn" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabn",
+         "private" : 1
+      },
+      "Qabo" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabo",
+         "private" : 1
+      },
+      "Qabp" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabp",
+         "private" : 1
+      },
+      "Qabq" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabq",
+         "private" : 1
+      },
+      "Qabr" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabr",
+         "private" : 1
+      },
+      "Qabs" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabs",
+         "private" : 1
+      },
+      "Qabt" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabt",
+         "private" : 1
+      },
+      "Qabu" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabu",
+         "private" : 1
+      },
+      "Qabv" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabv",
+         "private" : 1
+      },
+      "Qabw" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabw",
+         "private" : 1
+      },
+      "Qabx" : {
+         "ianareg" : "2005-10-16",
+         "iso" : "Qabx",
+         "private" : 1
+      },
+      "Rjng" : {
+         "desc" : [
+            "Rejang",
+            "Redjang",
+            "Kaganga"
+         ],
+         "ianareg" : "2006-10-17",
+         "iso" : "Rjng",
+         "unicode" : "Rejang",
+         "unicode_id" : "excluded",
+         "xforms" : "Rejang"
+      },
+      "Roro" : {
+         "desc" : [
+            "Rongorongo"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Roro"
+      },
+      "Runr" : {
+         "desc" : [
+            "Runic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Runr",
+         "unicode" : "Runic",
+         "unicode_id" : "excluded",
+         "xforms" : "Runic"
+      },
+      "Samr" : {
+         "desc" : [
+            "Samaritan"
+         ],
+         "ianareg" : "2007-07-28",
+         "iso" : "Samr",
+         "unicode" : "Samaritan",
+         "unicode_id" : "excluded",
+         "xforms" : "Samaritan"
+      },
+      "Sara" : {
+         "desc" : [
+            "Sarati"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Sara"
+      },
+      "Sarb" : {
+         "desc" : [
+            "Old South Arabian"
+         ],
+         "ianareg" : "2009-07-30",
+         "iso" : "Sarb",
+         "unicode" : "Old_South_Arabian",
+         "unicode_id" : "excluded",
+         "xforms" : "OldSouthArabian"
+      },
+      "Saur" : {
+         "desc" : [
+            "Saurashtra"
+         ],
+         "ianareg" : "2006-07-21",
+         "iso" : "Saur",
+         "u_nu" : "saur",
+         "u_nu_desc" : "Saurashtra digits",
+         "unicode" : "Saurashtra",
+         "unicode_id" : "limited",
+         "xforms" : "Saurashtra"
+      },
+      "Sgnw" : {
+         "desc" : [
+            "SignWriting"
+         ],
+         "ianareg" : "2006-10-17",
+         "iso" : "Sgnw"
+      },
+      "Shaw" : {
+         "desc" : [
+            "Shavian",
+            "Shaw"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Shaw",
+         "unicode" : "Shavian",
+         "unicode_id" : "excluded",
+         "xforms" : "Shavian"
+      },
+      "Shrd" : {
+         "desc" : [
+            "Sharada",
+            "Śāradā"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Shrd",
+         "u_nu" : "shrd",
+         "u_nu_desc" : "Sharada digits",
+         "unicode" : "Sharada",
+         "unicode_id" : "excluded",
+         "xforms" : "Sharada"
+      },
+      "Sidd" : {
+         "desc" : [
+            "Siddham",
+            "Siddhaṃ",
+            "Siddhamātṛkā"
+         ],
+         "ianareg" : "2013-12-02",
+         "iso" : "Sidd"
+      },
+      "Sind" : {
+         "desc" : [
+            "Khudawadi",
+            "Sindhi"
+         ],
+         "ianareg" : "2010-08-16",
+         "iso" : "Sind"
+      },
+      "Sinh" : {
+         "collation_reorder" : "Sinh",
+         "desc" : [
+            "Sinhala"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Sinh",
+         "unicode" : "Sinhala",
+         "unicode_id" : "recommended",
+         "xforms" : "Sinhala"
+      },
+      "Sora" : {
+         "desc" : [
+            "Sora Sompeng"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Sora",
+         "u_nu" : "sora",
+         "u_nu_desc" : "Sora_Sompeng digits",
+         "unicode" : "Sora_Sompeng",
+         "unicode_id" : "excluded",
+         "xforms" : "SoraSompeng"
+      },
+      "Sund" : {
+         "desc" : [
+            "Sundanese"
+         ],
+         "ianareg" : "2006-07-21",
+         "iso" : "Sund",
+         "u_nu" : "sund",
+         "u_nu_desc" : "Sundanese digits",
+         "unicode" : "Sundanese",
+         "unicode_id" : "limited",
+         "xforms" : "Sundanese"
+      },
+      "Sylo" : {
+         "desc" : [
+            "Syloti Nagri"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Sylo",
+         "unicode" : "Syloti_Nagri",
+         "unicode_id" : "limited",
+         "xforms" : "SylotiNagri"
+      },
+      "Syrc" : {
+         "desc" : [
+            "Syriac"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Syrc",
+         "unicode" : "Syriac",
+         "unicode_id" : "limited",
+         "xforms" : "Syriac"
+      },
+      "Syre" : {
+         "desc" : [
+            "Syriac (Estrangelo variant)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Syre"
+      },
+      "Syrj" : {
+         "desc" : [
+            "Syriac (Western variant)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Syrj"
+      },
+      "Syrn" : {
+         "desc" : [
+            "Syriac (Eastern variant)"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Syrn"
+      },
+      "Tagb" : {
+         "desc" : [
+            "Tagbanwa"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Tagb",
+         "unicode" : "Tagbanwa",
+         "unicode_id" : "excluded",
+         "xforms" : "Tagbanwa"
+      },
+      "Takr" : {
+         "desc" : [
+            "Takri",
+            "Ṭākrī",
+            "Ṭāṅkrī"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Takr",
+         "u_nu" : "takr",
+         "u_nu_desc" : "Takri digits",
+         "unicode" : "Takri",
+         "unicode_id" : "excluded",
+         "xforms" : "Takri"
+      },
+      "Tale" : {
+         "desc" : [
+            "Tai Le"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Tale",
+         "unicode" : "Tai_Le",
+         "unicode_id" : "limited",
+         "xforms" : "TaiLe"
+      },
+      "Talu" : {
+         "desc" : [
+            "New Tai Lue"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Talu",
+         "u_nu" : "talu",
+         "u_nu_desc" : "New Tai Lue digits",
+         "unicode" : "New_Tai_Lue",
+         "unicode_id" : "limited",
+         "xforms" : "NewTaiLue"
+      },
+      "Taml" : {
+         "collation_reorder" : "Taml",
+         "desc" : [
+            "Tamil"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Taml",
+         "u_nu" : "taml",
+         "u_nu_desc" : "Tamil numerals — algorithmic",
+         "unicode" : "Tamil",
+         "unicode_id" : "recommended",
+         "xforms" : "Tamil"
+      },
+      "Tang" : {
+         "desc" : [
+            "Tangut"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Tang"
+      },
+      "Tavt" : {
+         "desc" : [
+            "Tai Viet"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Tavt",
+         "unicode" : "Tai_Viet",
+         "unicode_id" : "limited",
+         "xforms" : "TaiViet"
+      },
+      "Telu" : {
+         "collation_reorder" : "Telu",
+         "desc" : [
+            "Telugu"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Telu",
+         "u_nu" : "telu",
+         "u_nu_desc" : "Telugu digits",
+         "unicode" : "Telugu",
+         "unicode_id" : "recommended",
+         "xforms" : "Telugu"
+      },
+      "Teng" : {
+         "desc" : [
+            "Tengwar"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Teng"
+      },
+      "Tfng" : {
+         "desc" : [
+            "Tifinagh",
+            "Berber"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Tfng",
+         "unicode" : "Tifinagh",
+         "unicode_id" : "aspirational",
+         "xforms" : "Tifinagh"
+      },
+      "Tglg" : {
+         "desc" : [
+            "Tagalog",
+            "Baybayin",
+            "Alibata"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Tglg",
+         "unicode" : "Tagalog",
+         "unicode_id" : "excluded",
+         "xforms" : "Tagalog"
+      },
+      "Thaa" : {
+         "collation_reorder" : "Thaa",
+         "desc" : [
+            "Thaana"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Thaa",
+         "unicode" : "Thaana",
+         "unicode_id" : "recommended",
+         "xforms" : "Thaana"
+      },
+      "Thai" : {
+         "collation_reorder" : "Thai",
+         "desc" : [
+            "Thai"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Thai",
+         "u_nu" : "thai",
+         "u_nu_desc" : "Thai digits",
+         "unicode" : "Thai",
+         "unicode_id" : "recommended",
+         "xforms" : "Thai"
+      },
+      "Tibt" : {
+         "collation_reorder" : "Tibt",
+         "desc" : [
+            "Tibetan"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Tibt",
+         "u_nu" : "tibt",
+         "u_nu_desc" : "Tibetan digits",
+         "unicode" : "Tibetan",
+         "unicode_id" : "recommended",
+         "xforms" : "Tibetan"
+      },
+      "Tirh" : {
+         "desc" : [
+            "Tirhuta"
+         ],
+         "ianareg" : "2011-08-16",
+         "iso" : "Tirh"
+      },
+      "Ugar" : {
+         "desc" : [
+            "Ugaritic"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Ugar",
+         "unicode" : "Ugaritic",
+         "unicode_id" : "excluded",
+         "xforms" : "Ugaritic"
+      },
+      "Vaii" : {
+         "desc" : [
+            "Vai"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Vaii",
+         "u_nu" : "vaii",
+         "u_nu_desc" : "Vai digits",
+         "unicode" : "Vai",
+         "unicode_id" : "limited",
+         "xforms" : "Vai"
+      },
+      "Visp" : {
+         "desc" : [
+            "Visible Speech"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Visp"
+      },
+      "Wara" : {
+         "desc" : [
+            "Warang Citi",
+            "Varang Kshiti"
+         ],
+         "ianareg" : "2009-12-09",
+         "iso" : "Wara"
+      },
+      "Wole" : {
+         "desc" : [
+            "Woleai"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Wole"
+      },
+      "Xpeo" : {
+         "desc" : [
+            "Old Persian"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Xpeo",
+         "unicode" : "Old_Persian",
+         "unicode_id" : "excluded",
+         "xforms" : "OldPersian"
+      },
+      "Xsux" : {
+         "desc" : [
+            "Sumero-Akkadian cuneiform"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Xsux",
+         "unicode" : "Cuneiform",
+         "unicode_id" : "excluded",
+         "xforms" : "Cuneiform"
+      },
+      "Yiii" : {
+         "desc" : [
+            "Yi"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Yiii",
+         "unicode" : "Yi",
+         "unicode_id" : "aspirational",
+         "xforms" : "Yi"
+      },
+      "Zinh" : {
+         "collation_reorder" : "Zinh",
+         "desc" : [
+            "Code for inherited script"
+         ],
+         "iana_comments" : [
+            "Not intended for use as a language subtag"
+         ],
+         "ianareg" : "2009-04-03",
+         "iso" : "Zinh",
+         "unicode" : "Inherited",
+         "unicode_id" : "recommended",
+         "xforms" : "Inherited"
+      },
+      "Zmth" : {
+         "desc" : [
+            "Mathematical notation"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Zmth",
+         "xforms" : "math"
+      },
+      "Zsym" : {
+         "desc" : [
+            "Symbols"
+         ],
+         "ianareg" : "2007-12-05",
+         "iso" : "Zsym"
+      },
+      "Zxxx" : {
+         "desc" : [
+            "Code for unwritten documents"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Zxxx"
+      },
+      "Zyyy" : {
+         "collation_reorder" : "Zyyy",
+         "desc" : [
+            "Code for undetermined script"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Zyyy",
+         "unicode" : "Common",
+         "unicode_id" : "recommended"
+      },
+      "Zzzz" : {
+         "collation_reorder" : "others",
+         "desc" : [
+            "Code for uncoded script"
+         ],
+         "ianareg" : "2005-10-16",
+         "iso" : "Zzzz",
+         "unicode" : "Unknown"
+      },
+      "arabext" : {
+         "u_nu" : "arabext",
+         "u_nu_desc" : "Extended Arabic-Indic digits"
+      },
+      "armnlow" : {
+         "u_nu" : "armnlow",
+         "u_nu_desc" : "Armenian lower case numerals — algorithmic"
+      },
+      "currency" : {
+         "collation_reorder" : "currency"
+      },
+      "digit" : {
+         "collation_reorder" : "digit"
+      },
+      "finance" : {
+         "u_nu" : "finance",
+         "u_nu_desc" : "Financial numerals — may be algorithmic"
+      },
+      "fullwide" : {
+         "u_nu" : "fullwide",
+         "u_nu_desc" : "Full width digits"
+      },
+      "greklow" : {
+         "u_nu" : "greklow",
+         "u_nu_desc" : "Greek lower case numerals — algorithmic"
+      },
+      "hanidays" : {
+         "u_nu" : "hanidays",
+         "u_nu_desc" : "Han-character day-of-month numbering for lunar/other traditional calendars"
+      },
+      "hanidec" : {
+         "u_nu" : "hanidec",
+         "u_nu_desc" : "Positional decimal system using Chinese number ideographs as digits"
+      },
+      "hanja" : {
+         "xforms" : "hanja"
+      },
+      "hansfin" : {
+         "u_nu" : "hansfin",
+         "u_nu_desc" : "Simplified Chinese financial numerals — algorithmic"
+      },
+      "hantfin" : {
+         "u_nu" : "hantfin",
+         "u_nu_desc" : "Traditional Chinese financial numerals — algorithmic"
+      },
+      "ipa" : {
+         "xforms" : "ipa"
+      },
+      "jpanfin" : {
+         "u_nu" : "jpanfin",
+         "u_nu_desc" : "Japanese financial numerals — algorithmic"
+      },
+      "kanji" : {
+         "xforms" : "kanji"
+      },
+      "lanatham" : {
+         "u_nu" : "lanatham",
+         "u_nu_desc" : "Tai Tham Tham (ecclesiastical) digits"
+      },
+      "mymrshan" : {
+         "u_nu" : "mymrshan",
+         "u_nu_desc" : "Myanmar Shan digits"
+      },
+      "native" : {
+         "u_nu" : "native",
+         "u_nu_desc" : "Native digits"
+      },
+      "punct" : {
+         "collation_reorder" : "punct"
+      },
+      "roman" : {
+         "u_nu" : "roman",
+         "u_nu_desc" : "Roman upper case numerals — algorithmic"
+      },
+      "romanlow" : {
+         "u_nu" : "romanlow",
+         "u_nu_desc" : "Roman lowercase numerals — algorithmic"
+      },
+      "space" : {
+         "collation_reorder" : "space"
+      },
+      "symbol" : {
+         "collation_reorder" : "symbol"
+      },
+      "tamldec" : {
+         "u_nu" : "tamldec",
+         "u_nu_desc" : "Modern Tamil decimal digits"
+      },
+      "traditio" : {
+         "u_nu" : "traditio",
+         "u_nu_desc" : "Traditional numerals — may be algorithmic"
+      },
+      "user" : {
+         "xforms" : "user"
+      }
+   }
+}

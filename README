@@ -1,0 +1,37 @@
+data-chars
+~~~~~~~~~~
+
+Collection of definitions and properties related to characters.
+
+* Data files
+
+Data files are available in the "data/" directory.  Corresponding
+documentations are in the "doc/" directory.
+
+  scripts.json  Scripts
+
+* See also
+
+data-web-defs <https://github.com/manakai/data-web-defs/>
+
+List of language tags in the data-web-defs repository also contains
+list of scripts and numbering systems.
+
+There are lists of character references used in SGML, HTML, and XML in
+the data-web-defs repository.
+
+There are data on character encodings used in Web in the data-web-defs
+repository.
+
+* Maintainer
+
+Wakaba <wakaba@suikawiki.org>.
+
+These files are maintained as part of the manakai project
+<https://github.com/manakai/>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.  See also documents under the "doc/" directory,
+which might contain additional information.

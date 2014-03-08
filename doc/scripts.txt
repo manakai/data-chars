@@ -1,0 +1,103 @@
+scripts.json
+~~~~~~~~~~~~
+
+The |data/scripts.json| data file contains a list of various scripts.
+
+* Data structure
+
+The file contains a JSON object with a name/value pair, whose name is
+|scripts| and value is a JSON object.
+
+The JSON object contains name/value pairs representing scripts.  Names
+are short identifiers for the scripts and values are their
+descriptions.  Names are opaque strings and they should not be
+considered as significant.
+
+Each value is a JSON object with following name/value pairs:
+
+  collation_reorder [string?]
+
+    The value for the script which can be used in reorder_code
+    <http://www.unicode.org/reports/tr35/tr35-collation.html#Script_Reordering>,
+    if any.  Note that |Zxxx| can also be used as synonym for |others|
+    although it is not explicitly shown in the JSON data (as the
+    |collation_reorder| value is |others|).  The value is also used
+    for the |kr| key in BCP 47 "U" extension.
+
+  desc
+
+    If a value is specified, it is a JSON array containing short
+    descriptions (JSON strings) of the script, taken from IANA BCP 47
+    registry.
+
+  ianareg [string?]
+
+    The "YYYY-MM-DD" representation of the date the script is
+    registered with the IANA BCP 47 registry.  See |iso| field for the
+    registered value.
+
+  iso [string?]
+
+    The ISO 15924 script code for the script, in titlecased canonical
+    form.  This is also the value used in BCP 47 language tags.
+
+  u_nu [string?]
+
+    The LDML identifier for the numbering system, in lowercase
+    canonical form, if it is a numbering system and there is an
+    identifier assigned.  The value can be used as the type for the
+    |nu| key in BCP 47 "U" extension.  If the numbering system shares
+    the same identifier with the (non-number) script, they are merged
+    in same object in this JSON data file.
+
+  u_nu_desc [string?]
+
+    The short description for the numbering system, taken from the
+    Unicode registry for BCP 47 "U" extension, if it is a numbering
+    system and there is an identifier (i.e. |u_nu| has a string
+    value).
+
+  unicode [string?]
+
+    The Unicode Script Property Value for the script, if any.
+
+  unicode_id [string?]
+
+    Classification of the script in Unicode's identifier syntax.  If
+    specified, one of following values:
+
+      excluded      "Candidate Characters for Exclusions from Identifiers"
+      recommended   "Recommended Scripts"
+      aspirational  "Aspirational Use Scripts"
+      limited       "Limited Use Scripts"
+
+    Note that the table for Candidate Characters for Exclusions from
+    Identifiers does also contain characters selected by conditions
+    other than their scripts.
+
+  xforms [string?]
+
+    The script token for the script, used in XForms |inputmode|
+    attribute <http://www.w3.org/TR/xforms/#mode-scripts>, if any.
+
+* Sources
+
+ISO 15924 Registration Authority <http://unicode.org/iso15924/>.
+
+Unicode Script Property <http://www.unicode.org/reports/tr24/>.
+
+Unicode Locale Data Markup Language (LDML)
+<http://unicode.org/reports/tr35/>.
+
+IANA Language Subtag Registry
+<http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry>.
+
+Unicode Extensions for BCP 47
+<http://cldr.unicode.org/index/bcp47-extension>.
+
+Unicode Identifier and Pattern Syntax
+<http://www.unicode.org/reports/tr31/>.
+
+XForms <http://www.w3.org/TR/xforms/>.
+
+data-web-defs <https://github.com/manakai/data-web-defs/>.
