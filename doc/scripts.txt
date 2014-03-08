@@ -113,3 +113,11 @@ Unicode Identifier and Pattern Syntax
 XForms <http://www.w3.org/TR/xforms/>.
 
 data-web-defs <https://github.com/manakai/data-web-defs/>.
+
+* License
+
+The file partially derived from CLDR data.  Copyright © 1991-2014
+Unicode, Inc.  All rights reserved.  Distributed under the Terms of
+Use in <http://www.unicode.org/copyright.html>.  See
+<http://unicode.org/repos/cldr/trunk/unicode-license.txt> for full
+license text.
