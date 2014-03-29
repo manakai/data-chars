@@ -2,14 +2,19 @@ package Charinfo::Name;
 use strict;
 use warnings;
 use Path::Class;
+use JSON::Functions::XS qw(file2perl);
 
 my $CodeToNames;
 my $NameToCode;
 BEGIN {
-  my $data_f = file (__FILE__)->dir->parent->parent->parent->subdir ('local')->file ('names.pl');
-  my $data = do $data_f or die $@;
-  $CodeToNames = $data->[0];
-  $NameToCode = $data->[1];
+  my $data = file2perl file (__FILE__)->dir->parent->parent->parent->subdir ('data')->file ('names.json');
+  for my $key (keys %{$data->{code_to_name}}) {
+    my $code = hex $key;
+    my $def = $data->{code_to_name}->{$key};
+    $CodeToNames->{$code} = [$def->{name}];
+    push @{$CodeToNames->{$code}}, map { keys %$_ } grep { ref $_ eq 'HASH' } values %$def;
+    $NameToCode->{$_} = $code for grep { defined } @{$CodeToNames->{$code}};
+  }
 }
 
 my @L = ("G", "GG", "N", "D", "DD", "R", "M", "B", "BB", "S", "SS", "", "J", "JJ", "C", "K", "T", "P", "H");

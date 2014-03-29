@@ -1,0 +1,46 @@
+names.json
+~~~~~~~~~~
+
+This file contains list of character names.
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  code_to_name [object]
+
+    A JSON object whose names are code points and values are their
+    names.  Code points are represented in uppercase hexadecimal
+    number, where code points less than or equal to U+FFFF are
+    represented by four digits and code points greater than or equal
+    to U+10FFFF are represented by six digits.  Values are JSON
+    objects with following name/value pairs:
+
+      name [string?]
+
+        The character name for the code point.
+
+      correction, control, alternate, figment, abbreviation [object?]
+
+        Character name aliases with the given type, as in
+        NameAliases.txt.  Values are JSON objects whose names are
+        alias names and values are boolean true values.
+
+    Note that character names beginning with "CJK UNIFIED IDEOGRAPH-"
+    or "HANGUL SYLLABLE " are not included here.
+
+* Sources
+
+Unicode Character Database:
+
+  NamesList.txt
+  <http://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt>.
+
+  NameAliases.txt
+  <http://www.unicode.org/Public/UCD/latest/ucd/NameAliases.txt>.
+
+* License
+
+The file contains data generated from Unicode Character Database.
+Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
+<http://www.unicode.org/copyright.html#Exhibit1>.

@@ -29,7 +29,7 @@ pmbp-install: pmbp-upgrade
 ## ------ Data construction ------
 
 all-data: all-ucd unicode-general-category-latest \
-    unicode-prop-list-latest data/sets.json
+    unicode-prop-list-latest data/sets.json data/names.json
 
 clean-data:
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -58,6 +58,18 @@ data/scripts.json: bin/scripts.pl local/ucd/Scripts.txt \
     local/ucd/PropertyValueAliases.txt local/tr31.html \
     local/langtags.json
 	$(PERL) bin/scripts.pl > $@
+
+local/unicode/latest/NamesList.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UNIDATA/NamesList.txt
+local/unicode/latest/NameAliases.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UNIDATA/NameAliases.txt
+
+data/names.json: local/unicode/latest/NamesList.txt \
+    local/unicode/latest/NameAliases.txt \
+    bin/names.pl
+	$(PERL) bin/names.pl > $@
 
 unicode-general-category-2.0: local/unicode/2.0/UnicodeData.txt
 	$(PERL) bin/generate-general-category.pl 2.0 $<
@@ -138,7 +150,9 @@ local/unicode/latest/PropList.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/PropList.txt
 
-data/sets.json: bin/sets.pl
+data/sets.json: bin/sets.pl \
+    bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
+    src/set/*/*.expr
 	$(PERL) bin/sets.pl > $@
 
 ## ------ Tests ------
