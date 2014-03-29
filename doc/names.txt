@@ -57,6 +57,13 @@ The file contains a JSON object with following name/value pair:
         Non-normative Japanese name (日本語通用名称) for the character
         sequence, if any and known.  Source is JIS X 0213.
 
+  name_alias_types [object]
+
+    List of types of character name aliases, i.e. keys of
+    |code_to_names| other than |name|, |ja_name|, and |label|.  Names
+    of the object are types and values of the object are boolean true
+    values.
+
   range_to_prefix [object]
 
     A JSON object whose names are code point ranges and values are

@@ -136,4 +136,7 @@ $Data->{code_to_name}->{'4EDD'}->{name} ||= 'CJK UNIFIED IDEOGRAPH-4EDD';
   $Data->{code_to_name}->{'007F'}->{ja_name} = '削除';
 }
 
+$Data->{name_alias_types}->{$_} = 1
+    for qw(correction control alternate figment abbreviation);
+
 print perl2json_bytes_for_record $Data;

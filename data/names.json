@@ -110805,6 +110805,13 @@
          "label" : "noncharacter-FFFFF"
       }
    },
+   "name_alias_types" : {
+      "abbreviation" : 1,
+      "alternate" : 1,
+      "control" : 1,
+      "correction" : 1,
+      "figment" : 1
+   },
    "range_to_prefix" : {
       "100000 10FFFD" : {
          "label" : "private-use-"
