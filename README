@@ -9,6 +9,7 @@ Data files are available in the "data/" directory.  Corresponding
 documentations are in the "doc/" directory.
 
   scripts.json  Scripts
+  sets.json     Sets or classes
 
 * See also
 

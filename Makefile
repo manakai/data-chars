@@ -29,7 +29,7 @@ pmbp-install: pmbp-upgrade
 ## ------ Data construction ------
 
 all-data: all-ucd unicode-general-category-latest \
-    unicode-prop-list-latest
+    unicode-prop-list-latest data/sets.json
 
 clean-data:
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -137,6 +137,9 @@ local/unicode/5.2/PropList.txt:
 local/unicode/latest/PropList.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/PropList.txt
+
+data/sets.json: bin/sets.pl
+	$(PERL) bin/sets.pl > $@
 
 ## ------ Tests ------
 

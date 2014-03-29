@@ -1,0 +1,63 @@
+sets.json
+~~~~~~~~~
+
+This file contains character (or code point) sets (or classes)
+definitions.
+
+* Structure
+
+The file contains a JSON object with following name/value pairs:
+
+sets [object]
+
+  The value is a JSON object whose names are character set names and
+  values are JSON objects with following name/value pairs:
+
+    chars [string]
+
+      The list of the code points in the set, represented in following
+      format:
+
+        The first character is "[" and the last character is "]".  Any
+        character between them are character in the set except for "\"
+        with some following characters, "-", "[", and "]".  If there
+        is a "-" character between two characters, any character whose
+        code point is between code points of them are also in the set.
+        Characters "\u{" followed by one or more hexadecimal alphabet
+        ("[0-9A-F]") followed by a "}" indicate that the character
+        whose code point is equal to the hexadecimal number is in the
+        set.  Characters "\u" followed by four hexadecimal alphabet
+        indicate that the character whose code point is equal to the
+        hexadecimal number is in the set.
+
+* Sources
+
+ECMAScript 5.1.
+
+HTML Standard <http://www.whatwg.org/specs/web-apps/current-work/>.
+
+RFC 1034, RFC 1738, RFC 2234, RFC 2396, RFC 3454, RFC 3722, RFC 3920,
+RFC 2986, RFC 3987, RFC 5234, RFC 5322, RFC 5892, RFC 6122.
+
+Unicode Character Database
+<http://www.unicode.org/ucd/>.
+
+Unicode in XML and other Markup Languages
+<http://www.unicode.org/reports/tr20/>.
+
+URL Standard <http://url.spec.whatwg.org/>.
+
+Extensible Markup Language (XML) 1.0 (Fourth Edition)
+<http://www.w3.org/TR/2006/REC-xml-20060816/>.
+
+Extensible Markup Language (XML) 1.0 (Fifth Edition)
+<http://www.w3.org/TR/2008/REC-xml-20081126/>.
+
+Extensible Markup Language (XML) 1.1 (Second Edition)
+<http://www.w3.org/TR/2006/REC-xml11-20060816/>.
+
+* License
+
+The file contains data generated from Unicode Character Database.
+Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
+<http://www.unicode.org/copyright.html#Exhibit1>.
