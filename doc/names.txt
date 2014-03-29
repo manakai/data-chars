@@ -29,9 +29,16 @@ The file contains a JSON object with following name/value pair:
         The code point label for the code point, without "<" and ">",
         if any.
 
+      ja_name [string?]
+
+        Non-normative Japanese name (日本語通用名称) for the
+        character, if any and known.  Sources include JIS X 0202, JIS
+        X 0211, and JIS X 0213.
+
     Note that character names beginning with "CJK UNIFIED IDEOGRAPH-"
-    and code points whose labels begin with "private-use-",
-    "surrogate-", or "reserved-" are not included in this object.
+    (except for CJK UNIFIED IDEOGRAPH-4EDD) and code points whose
+    labels begin with "private-use-", "surrogate-", or "reserved-" are
+    not included in this object.
 
   code_seq_to_name [object]
 
@@ -44,6 +51,11 @@ The file contains a JSON object with following name/value pair:
 
         The name of the named character sequence represented by the
         code points.
+
+      ja_name [string?]
+
+        Non-normative Japanese name (日本語通用名称) for the character
+        sequence, if any and known.  Source is JIS X 0213.
 
   range_to_prefix [object]
 
@@ -99,6 +111,18 @@ Unicode Character Database:
 
   NamedSequences.txt
   <http://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt>.
+
+JIS X 0202:1998 Information technology -- Character code structure and
+extension techniques.
+
+JIS X 0211-1994 Information technology -- Control functions for coded
+character sets.
+
+JIS X 0213:2000 7-bit and 8-bit double byte coded extended Kanji sets
+for information interchange.
+
+Wikipedia:JIS X 0213非漢字一覧
+<http://ja.wikipedia.org/wiki/JIS_X_0213%E9%9D%9E%E6%BC%A2%E5%AD%97%E4%B8%80%E8%A6%A7>.
 
 * License
 

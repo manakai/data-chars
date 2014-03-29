@@ -72,7 +72,7 @@ local/unicode/latest/NamedSequences.txt:
 data/names.json: local/unicode/latest/NamesList.txt \
     local/unicode/latest/NameAliases.txt \
     local/unicode/latest/NamedSequences.txt \
-    bin/names.pl
+    bin/names.pl src/janames-jisx0213.json src/janames-jisx0211.json
 	$(PERL) bin/names.pl > $@
 
 unicode-general-category-2.0: local/unicode/2.0/UnicodeData.txt

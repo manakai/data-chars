@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use Path::Class;
 use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib')->stringify;
-use JSON::Functions::XS qw(perl2json_bytes_for_record);
+use JSON::Functions::XS qw(perl2json_bytes_for_record file2perl);
 
 my $temp_d = file (__FILE__)->dir->parent->subdir ('local', 'unicode', 'latest');
 my $names_list_f = $temp_d->file ('NamesList.txt');
@@ -104,6 +104,36 @@ for (
 ) {
   $Data->{range_to_prefix}->{join ' ', u $_->[0], u $_->[1]}->{label}
       = 'surrogate-';
+}
+
+{
+  my $janames_f = file (__FILE__)->dir->parent->file ('src', 'janames-jisx0213.json');
+  my $json = file2perl $janames_f;
+  for my $key (keys %$json) {
+    if ($key =~ / /) {
+      $Data->{code_seq_to_name}->{$key}->{ja_name} = $json->{$key};
+    } else {
+      $Data->{code_to_name}->{$key}->{ja_name} = $json->{$key};
+    }
+  }
+}
+
+$Data->{code_to_name}->{'4EDD'}->{name} ||= 'CJK UNIFIED IDEOGRAPH-4EDD';
+
+{
+  my $janames_f = file (__FILE__)->dir->parent->file ('src', 'janames-jisx0211.json');
+  my $json = file2perl $janames_f;
+  for my $key (keys %$json) {
+    $Data->{code_to_name}->{$key}->{ja_name} = $json->{$key};
+  }
+}
+
+{
+  ## JIS X 0202:1998
+  use utf8;
+  $Data->{code_to_name}->{'0020'}->{ja_name} = 'スペース';
+  $Data->{code_to_name}->{'001B'}->{ja_name} = 'エスケープ';
+  $Data->{code_to_name}->{'007F'}->{ja_name} = '削除';
 }
 
 print perl2json_bytes_for_record $Data;

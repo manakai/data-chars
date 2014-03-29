@@ -73,6 +73,7 @@
          "name" : "LATIN CAPITAL LETTER O WITH VERTICAL LINE BELOW AND ACUTE"
       },
       "00E6 0300" : {
+         "ja_name" : "グレーブアクセント付きAE小文字",
          "name" : "LATIN SMALL LETTER AE WITH GRAVE"
       },
       "00E8 0329" : {
@@ -184,33 +185,43 @@
          "name" : "LATIN SMALL LETTER U WITH OGONEK AND TILDE"
       },
       "0254 0300" : {
+         "ja_name" : "グレーブアクセント付きオープンO小文字",
          "name" : "LATIN SMALL LETTER OPEN O WITH GRAVE"
       },
       "0254 0301" : {
+         "ja_name" : "アキュートアクセント付きオープンO小文字",
          "name" : "LATIN SMALL LETTER OPEN O WITH ACUTE"
       },
       "0259 0300" : {
+         "ja_name" : "グレーブアクセント付きSCHWA小文字",
          "name" : "LATIN SMALL LETTER SCHWA WITH GRAVE"
       },
       "0259 0301" : {
+         "ja_name" : "アキュートアクセント付きSCHWA小文字",
          "name" : "LATIN SMALL LETTER SCHWA WITH ACUTE"
       },
       "025A 0300" : {
+         "ja_name" : "グレーブアクセントとフック付きSCHWA小文字",
          "name" : "LATIN SMALL LETTER HOOKED SCHWA WITH GRAVE"
       },
       "025A 0301" : {
+         "ja_name" : "アキュートアクセントとフック付きSCHWA小文字",
          "name" : "LATIN SMALL LETTER HOOKED SCHWA WITH ACUTE"
       },
       "028C 0300" : {
+         "ja_name" : "グレーブアクセント付きターンドV小文字",
          "name" : "LATIN SMALL LETTER TURNED V WITH GRAVE"
       },
       "028C 0301" : {
+         "ja_name" : "アキュートアクセント付きターンドV小文字",
          "name" : "LATIN SMALL LETTER TURNED V WITH ACUTE"
       },
       "02E5 02E9" : {
+         "ja_name" : "声調記号下降調",
          "name" : "MODIFIER LETTER EXTRA-HIGH EXTRA-LOW CONTOUR TONE BAR"
       },
       "02E9 02E5" : {
+         "ja_name" : "声調記号上昇調",
          "name" : "MODIFIER LETTER EXTRA-LOW EXTRA-HIGH CONTOUR TONE BAR"
       },
       "0626 0627" : {
@@ -1249,45 +1260,59 @@
          "name" : "KHMER INDEPENDENT VOWEL SIGN COENG QE"
       },
       "304B 309A" : {
+         "ja_name" : "半濁点付き平仮名か",
          "name" : "HIRAGANA LETTER BIDAKUON NGA"
       },
       "304D 309A" : {
+         "ja_name" : "半濁点付き平仮名き",
          "name" : "HIRAGANA LETTER BIDAKUON NGI"
       },
       "304F 309A" : {
+         "ja_name" : "半濁点付き平仮名く",
          "name" : "HIRAGANA LETTER BIDAKUON NGU"
       },
       "3051 309A" : {
+         "ja_name" : "半濁点付き平仮名け",
          "name" : "HIRAGANA LETTER BIDAKUON NGE"
       },
       "3053 309A" : {
+         "ja_name" : "半濁点付き平仮名こ",
          "name" : "HIRAGANA LETTER BIDAKUON NGO"
       },
       "30AB 309A" : {
+         "ja_name" : "半濁点付き片仮名カ",
          "name" : "KATAKANA LETTER BIDAKUON NGA"
       },
       "30AD 309A" : {
+         "ja_name" : "半濁点付き片仮名キ",
          "name" : "KATAKANA LETTER BIDAKUON NGI"
       },
       "30AF 309A" : {
+         "ja_name" : "半濁点付き片仮名ク",
          "name" : "KATAKANA LETTER BIDAKUON NGU"
       },
       "30B1 309A" : {
+         "ja_name" : "半濁点付き片仮名ケ",
          "name" : "KATAKANA LETTER BIDAKUON NGE"
       },
       "30B3 309A" : {
+         "ja_name" : "半濁点付き片仮名コ",
          "name" : "KATAKANA LETTER BIDAKUON NGO"
       },
       "30BB 309A" : {
+         "ja_name" : "半濁点付き片仮名セ",
          "name" : "KATAKANA LETTER AINU CE"
       },
       "30C4 309A" : {
+         "ja_name" : "半濁点付き片仮名ツ",
          "name" : "KATAKANA LETTER AINU TU"
       },
       "30C8 309A" : {
+         "ja_name" : "半濁点付き片仮名ト",
          "name" : "KATAKANA LETTER AINU TO"
       },
       "31F7 309A" : {
+         "ja_name" : "小書き半濁点付き片仮名フ",
          "name" : "KATAKANA LETTER AINU P"
       }
    },
@@ -1299,6 +1324,7 @@
          "control" : {
             "NULL" : 1
          },
+         "ja_name" : "空",
          "label" : "control-0000"
       },
       "0001" : {
@@ -1308,6 +1334,7 @@
          "control" : {
             "START OF HEADING" : 1
          },
+         "ja_name" : "ヘッディング開始",
          "label" : "control-0001"
       },
       "0002" : {
@@ -1317,6 +1344,7 @@
          "control" : {
             "START OF TEXT" : 1
          },
+         "ja_name" : "テキスト開始",
          "label" : "control-0002"
       },
       "0003" : {
@@ -1326,6 +1354,7 @@
          "control" : {
             "END OF TEXT" : 1
          },
+         "ja_name" : "テキスト終結",
          "label" : "control-0003"
       },
       "0004" : {
@@ -1335,6 +1364,7 @@
          "control" : {
             "END OF TRANSMISSION" : 1
          },
+         "ja_name" : "伝送終了",
          "label" : "control-0004"
       },
       "0005" : {
@@ -1344,6 +1374,7 @@
          "control" : {
             "ENQUIRY" : 1
          },
+         "ja_name" : "問合せ",
          "label" : "control-0005"
       },
       "0006" : {
@@ -1353,6 +1384,7 @@
          "control" : {
             "ACKNOWLEDGE" : 1
          },
+         "ja_name" : "肯定応答",
          "label" : "control-0006"
       },
       "0007" : {
@@ -1362,6 +1394,7 @@
          "control" : {
             "ALERT" : 1
          },
+         "ja_name" : "ベル",
          "label" : "control-0007"
       },
       "0008" : {
@@ -1371,6 +1404,7 @@
          "control" : {
             "BACKSPACE" : 1
          },
+         "ja_name" : "後退",
          "label" : "control-0008"
       },
       "0009" : {
@@ -1382,6 +1416,7 @@
             "CHARACTER TABULATION" : 1,
             "HORIZONTAL TABULATION" : 1
          },
+         "ja_name" : "文字タブ",
          "label" : "control-0009"
       },
       "000A" : {
@@ -1395,6 +1430,7 @@
             "LINE FEED" : 1,
             "NEW LINE" : 1
          },
+         "ja_name" : "改行",
          "label" : "control-000A"
       },
       "000B" : {
@@ -1405,6 +1441,7 @@
             "LINE TABULATION" : 1,
             "VERTICAL TABULATION" : 1
          },
+         "ja_name" : "行タブ",
          "label" : "control-000B"
       },
       "000C" : {
@@ -1414,6 +1451,7 @@
          "control" : {
             "FORM FEED" : 1
          },
+         "ja_name" : "書式送り",
          "label" : "control-000C"
       },
       "000D" : {
@@ -1423,6 +1461,7 @@
          "control" : {
             "CARRIAGE RETURN" : 1
          },
+         "ja_name" : "復帰",
          "label" : "control-000D"
       },
       "000E" : {
@@ -1433,6 +1472,7 @@
             "LOCKING-SHIFT ONE" : 1,
             "SHIFT OUT" : 1
          },
+         "ja_name" : "ロッキングシフト1, シフトアウト",
          "label" : "control-000E"
       },
       "000F" : {
@@ -1443,6 +1483,7 @@
             "LOCKING-SHIFT ZERO" : 1,
             "SHIFT IN" : 1
          },
+         "ja_name" : "ロッキングシフト0, シフトイン",
          "label" : "control-000F"
       },
       "0010" : {
@@ -1452,6 +1493,7 @@
          "control" : {
             "DATA LINK ESCAPE" : 1
          },
+         "ja_name" : "伝送制御拡張",
          "label" : "control-0010"
       },
       "0011" : {
@@ -1461,6 +1503,7 @@
          "control" : {
             "DEVICE CONTROL ONE" : 1
          },
+         "ja_name" : "装置制御1",
          "label" : "control-0011"
       },
       "0012" : {
@@ -1470,6 +1513,7 @@
          "control" : {
             "DEVICE CONTROL TWO" : 1
          },
+         "ja_name" : "装置制御2",
          "label" : "control-0012"
       },
       "0013" : {
@@ -1479,6 +1523,7 @@
          "control" : {
             "DEVICE CONTROL THREE" : 1
          },
+         "ja_name" : "装置制御3",
          "label" : "control-0013"
       },
       "0014" : {
@@ -1488,6 +1533,7 @@
          "control" : {
             "DEVICE CONTROL FOUR" : 1
          },
+         "ja_name" : "装置制御4",
          "label" : "control-0014"
       },
       "0015" : {
@@ -1497,6 +1543,7 @@
          "control" : {
             "NEGATIVE ACKNOWLEDGE" : 1
          },
+         "ja_name" : "否定応答",
          "label" : "control-0015"
       },
       "0016" : {
@@ -1506,6 +1553,7 @@
          "control" : {
             "SYNCHRONOUS IDLE" : 1
          },
+         "ja_name" : "同期信号",
          "label" : "control-0016"
       },
       "0017" : {
@@ -1515,6 +1563,7 @@
          "control" : {
             "END OF TRANSMISSION BLOCK" : 1
          },
+         "ja_name" : "伝送ブロック終結",
          "label" : "control-0017"
       },
       "0018" : {
@@ -1524,6 +1573,7 @@
          "control" : {
             "CANCEL" : 1
          },
+         "ja_name" : "取消",
          "label" : "control-0018"
       },
       "0019" : {
@@ -1533,6 +1583,7 @@
          "control" : {
             "END OF MEDIUM" : 1
          },
+         "ja_name" : "媒体終端",
          "label" : "control-0019"
       },
       "001A" : {
@@ -1542,6 +1593,7 @@
          "control" : {
             "SUBSTITUTE" : 1
          },
+         "ja_name" : "置換",
          "label" : "control-001A"
       },
       "001B" : {
@@ -1551,6 +1603,7 @@
          "control" : {
             "ESCAPE" : 1
          },
+         "ja_name" : "エスケープ",
          "label" : "control-001B"
       },
       "001C" : {
@@ -1561,6 +1614,7 @@
             "FILE SEPARATOR" : 1,
             "INFORMATION SEPARATOR FOUR" : 1
          },
+         "ja_name" : "情報分離標識4 (ファイル分離標識)",
          "label" : "control-001C"
       },
       "001D" : {
@@ -1571,6 +1625,7 @@
             "GROUP SEPARATOR" : 1,
             "INFORMATION SEPARATOR THREE" : 1
          },
+         "ja_name" : "情報分離標識3 (グループ分離標識)",
          "label" : "control-001D"
       },
       "001E" : {
@@ -1581,6 +1636,7 @@
             "INFORMATION SEPARATOR TWO" : 1,
             "RECORD SEPARATOR" : 1
          },
+         "ja_name" : "情報分離標識2 (レコード分離標識)",
          "label" : "control-001E"
       },
       "001F" : {
@@ -1591,294 +1647,390 @@
             "INFORMATION SEPARATOR ONE" : 1,
             "UNIT SEPARATOR" : 1
          },
+         "ja_name" : "情報分離標識1 (ユニット分離標識)",
          "label" : "control-001F"
       },
       "0020" : {
          "abbreviation" : {
             "SP" : 1
          },
+         "ja_name" : "スペース",
          "name" : "SPACE"
       },
       "0021" : {
+         "ja_name" : "感嘆符",
          "name" : "EXCLAMATION MARK"
       },
       "0022" : {
+         "ja_name" : "引用符, クォーテーションマーク",
          "name" : "QUOTATION MARK"
       },
       "0023" : {
+         "ja_name" : "番号記号, 井げた",
          "name" : "NUMBER SIGN"
       },
       "0024" : {
+         "ja_name" : "ドル記号",
          "name" : "DOLLAR SIGN"
       },
       "0025" : {
+         "ja_name" : "パーセント",
          "name" : "PERCENT SIGN"
       },
       "0026" : {
+         "ja_name" : "アンパサンド",
          "name" : "AMPERSAND"
       },
       "0027" : {
+         "ja_name" : "アポストロフィ",
          "name" : "APOSTROPHE"
       },
       "0028" : {
+         "ja_name" : "始め小括弧, 始め丸括弧",
          "name" : "LEFT PARENTHESIS"
       },
       "0029" : {
+         "ja_name" : "終わり小括弧, 終わり丸括弧",
          "name" : "RIGHT PARENTHESIS"
       },
       "002A" : {
+         "ja_name" : "星印, アステリスク",
          "name" : "ASTERISK"
       },
       "002B" : {
+         "ja_name" : "正符号, 加算記号",
          "name" : "PLUS SIGN"
       },
       "002C" : {
+         "ja_name" : "コンマ",
          "name" : "COMMA"
       },
       "002D" : {
+         "ja_name" : "ハイフンマイナス",
          "name" : "HYPHEN-MINUS"
       },
       "002E" : {
+         "ja_name" : "ピリオド",
          "name" : "FULL STOP"
       },
       "002F" : {
+         "ja_name" : "斜線",
          "name" : "SOLIDUS"
       },
       "0030" : {
+         "ja_name" : "0",
          "name" : "DIGIT ZERO"
       },
       "0031" : {
+         "ja_name" : "1",
          "name" : "DIGIT ONE"
       },
       "0032" : {
+         "ja_name" : "2",
          "name" : "DIGIT TWO"
       },
       "0033" : {
+         "ja_name" : "3",
          "name" : "DIGIT THREE"
       },
       "0034" : {
+         "ja_name" : "4",
          "name" : "DIGIT FOUR"
       },
       "0035" : {
+         "ja_name" : "5",
          "name" : "DIGIT FIVE"
       },
       "0036" : {
+         "ja_name" : "6",
          "name" : "DIGIT SIX"
       },
       "0037" : {
+         "ja_name" : "7",
          "name" : "DIGIT SEVEN"
       },
       "0038" : {
+         "ja_name" : "8",
          "name" : "DIGIT EIGHT"
       },
       "0039" : {
+         "ja_name" : "9",
          "name" : "DIGIT NINE"
       },
       "003A" : {
+         "ja_name" : "コロン",
          "name" : "COLON"
       },
       "003B" : {
+         "ja_name" : "セミコロン",
          "name" : "SEMICOLON"
       },
       "003C" : {
+         "ja_name" : "不等号(より小)",
          "name" : "LESS-THAN SIGN"
       },
       "003D" : {
+         "ja_name" : "等号",
          "name" : "EQUALS SIGN"
       },
       "003E" : {
+         "ja_name" : "不等号(より大)",
          "name" : "GREATER-THAN SIGN"
       },
       "003F" : {
+         "ja_name" : "疑問符",
          "name" : "QUESTION MARK"
       },
       "0040" : {
+         "ja_name" : "単価記号, アットマーク",
          "name" : "COMMERCIAL AT"
       },
       "0041" : {
+         "ja_name" : "ラテン大文字A",
          "name" : "LATIN CAPITAL LETTER A"
       },
       "0042" : {
+         "ja_name" : "ラテン大文字B",
          "name" : "LATIN CAPITAL LETTER B"
       },
       "0043" : {
+         "ja_name" : "ラテン大文字C",
          "name" : "LATIN CAPITAL LETTER C"
       },
       "0044" : {
+         "ja_name" : "ラテン大文字D",
          "name" : "LATIN CAPITAL LETTER D"
       },
       "0045" : {
+         "ja_name" : "ラテン大文字E",
          "name" : "LATIN CAPITAL LETTER E"
       },
       "0046" : {
+         "ja_name" : "ラテン大文字F",
          "name" : "LATIN CAPITAL LETTER F"
       },
       "0047" : {
+         "ja_name" : "ラテン大文字G",
          "name" : "LATIN CAPITAL LETTER G"
       },
       "0048" : {
+         "ja_name" : "ラテン大文字H",
          "name" : "LATIN CAPITAL LETTER H"
       },
       "0049" : {
+         "ja_name" : "ラテン大文字I",
          "name" : "LATIN CAPITAL LETTER I"
       },
       "004A" : {
+         "ja_name" : "ラテン大文字J",
          "name" : "LATIN CAPITAL LETTER J"
       },
       "004B" : {
+         "ja_name" : "ラテン大文字K",
          "name" : "LATIN CAPITAL LETTER K"
       },
       "004C" : {
+         "ja_name" : "ラテン大文字L",
          "name" : "LATIN CAPITAL LETTER L"
       },
       "004D" : {
+         "ja_name" : "ラテン大文字M",
          "name" : "LATIN CAPITAL LETTER M"
       },
       "004E" : {
+         "ja_name" : "ラテン大文字N",
          "name" : "LATIN CAPITAL LETTER N"
       },
       "004F" : {
+         "ja_name" : "ラテン大文字O",
          "name" : "LATIN CAPITAL LETTER O"
       },
       "0050" : {
+         "ja_name" : "ラテン大文字P",
          "name" : "LATIN CAPITAL LETTER P"
       },
       "0051" : {
+         "ja_name" : "ラテン大文字Q",
          "name" : "LATIN CAPITAL LETTER Q"
       },
       "0052" : {
+         "ja_name" : "ラテン大文字R",
          "name" : "LATIN CAPITAL LETTER R"
       },
       "0053" : {
+         "ja_name" : "ラテン大文字S",
          "name" : "LATIN CAPITAL LETTER S"
       },
       "0054" : {
+         "ja_name" : "ラテン大文字T",
          "name" : "LATIN CAPITAL LETTER T"
       },
       "0055" : {
+         "ja_name" : "ラテン大文字U",
          "name" : "LATIN CAPITAL LETTER U"
       },
       "0056" : {
+         "ja_name" : "ラテン大文字V",
          "name" : "LATIN CAPITAL LETTER V"
       },
       "0057" : {
+         "ja_name" : "ラテン大文字W",
          "name" : "LATIN CAPITAL LETTER W"
       },
       "0058" : {
+         "ja_name" : "ラテン大文字X",
          "name" : "LATIN CAPITAL LETTER X"
       },
       "0059" : {
+         "ja_name" : "ラテン大文字Y",
          "name" : "LATIN CAPITAL LETTER Y"
       },
       "005A" : {
+         "ja_name" : "ラテン大文字Z",
          "name" : "LATIN CAPITAL LETTER Z"
       },
       "005B" : {
+         "ja_name" : "始め大括弧, 始め角括弧",
          "name" : "LEFT SQUARE BRACKET"
       },
       "005C" : {
+         "ja_name" : "逆斜線",
          "name" : "REVERSE SOLIDUS"
       },
       "005D" : {
+         "ja_name" : "終わり大括弧, 終わり角括弧",
          "name" : "RIGHT SQUARE BRACKET"
       },
       "005E" : {
+         "ja_name" : "アクサンシルコンフレックス, サーカムフレックスアクセント",
          "name" : "CIRCUMFLEX ACCENT"
       },
       "005F" : {
+         "ja_name" : "アンダーライン",
          "name" : "LOW LINE"
       },
       "0060" : {
+         "ja_name" : "アクサングラーブ, グレーブアクセント",
          "name" : "GRAVE ACCENT"
       },
       "0061" : {
+         "ja_name" : "ラテン小文字A",
          "name" : "LATIN SMALL LETTER A"
       },
       "0062" : {
+         "ja_name" : "ラテン小文字B",
          "name" : "LATIN SMALL LETTER B"
       },
       "0063" : {
+         "ja_name" : "ラテン小文字C",
          "name" : "LATIN SMALL LETTER C"
       },
       "0064" : {
+         "ja_name" : "ラテン小文字D",
          "name" : "LATIN SMALL LETTER D"
       },
       "0065" : {
+         "ja_name" : "ラテン小文字E",
          "name" : "LATIN SMALL LETTER E"
       },
       "0066" : {
+         "ja_name" : "ラテン小文字F",
          "name" : "LATIN SMALL LETTER F"
       },
       "0067" : {
+         "ja_name" : "ラテン小文字G",
          "name" : "LATIN SMALL LETTER G"
       },
       "0068" : {
+         "ja_name" : "ラテン小文字H",
          "name" : "LATIN SMALL LETTER H"
       },
       "0069" : {
+         "ja_name" : "ラテン小文字I",
          "name" : "LATIN SMALL LETTER I"
       },
       "006A" : {
+         "ja_name" : "ラテン小文字J",
          "name" : "LATIN SMALL LETTER J"
       },
       "006B" : {
+         "ja_name" : "ラテン小文字K",
          "name" : "LATIN SMALL LETTER K"
       },
       "006C" : {
+         "ja_name" : "ラテン小文字L",
          "name" : "LATIN SMALL LETTER L"
       },
       "006D" : {
+         "ja_name" : "ラテン小文字M",
          "name" : "LATIN SMALL LETTER M"
       },
       "006E" : {
+         "ja_name" : "ラテン小文字N",
          "name" : "LATIN SMALL LETTER N"
       },
       "006F" : {
+         "ja_name" : "ラテン小文字O",
          "name" : "LATIN SMALL LETTER O"
       },
       "0070" : {
+         "ja_name" : "ラテン小文字P",
          "name" : "LATIN SMALL LETTER P"
       },
       "0071" : {
+         "ja_name" : "ラテン小文字Q",
          "name" : "LATIN SMALL LETTER Q"
       },
       "0072" : {
+         "ja_name" : "ラテン小文字R",
          "name" : "LATIN SMALL LETTER R"
       },
       "0073" : {
+         "ja_name" : "ラテン小文字S",
          "name" : "LATIN SMALL LETTER S"
       },
       "0074" : {
+         "ja_name" : "ラテン小文字T",
          "name" : "LATIN SMALL LETTER T"
       },
       "0075" : {
+         "ja_name" : "ラテン小文字U",
          "name" : "LATIN SMALL LETTER U"
       },
       "0076" : {
+         "ja_name" : "ラテン小文字V",
          "name" : "LATIN SMALL LETTER V"
       },
       "0077" : {
+         "ja_name" : "ラテン小文字W",
          "name" : "LATIN SMALL LETTER W"
       },
       "0078" : {
+         "ja_name" : "ラテン小文字X",
          "name" : "LATIN SMALL LETTER X"
       },
       "0079" : {
+         "ja_name" : "ラテン小文字Y",
          "name" : "LATIN SMALL LETTER Y"
       },
       "007A" : {
+         "ja_name" : "ラテン小文字Z",
          "name" : "LATIN SMALL LETTER Z"
       },
       "007B" : {
+         "ja_name" : "始め中括弧, 始め波括弧",
          "name" : "LEFT CURLY BRACKET"
       },
       "007C" : {
+         "ja_name" : "縦線",
          "name" : "VERTICAL LINE"
       },
       "007D" : {
+         "ja_name" : "終わり中括弧, 終わり波括弧",
          "name" : "RIGHT CURLY BRACKET"
       },
       "007E" : {
+         "ja_name" : "チルド",
          "name" : "TILDE"
       },
       "007F" : {
@@ -1888,6 +2040,7 @@
          "control" : {
             "DELETE" : 1
          },
+         "ja_name" : "削除",
          "label" : "control-007F"
       },
       "0080" : {
@@ -1915,6 +2068,7 @@
          "control" : {
             "BREAK PERMITTED HERE" : 1
          },
+         "ja_name" : "分割可",
          "label" : "control-0082"
       },
       "0083" : {
@@ -1924,6 +2078,7 @@
          "control" : {
             "NO BREAK HERE" : 1
          },
+         "ja_name" : "分割不可",
          "label" : "control-0083"
       },
       "0084" : {
@@ -1933,6 +2088,7 @@
          "control" : {
             "INDEX" : 1
          },
+         "ja_name" : "インデクス",
          "label" : "control-0084"
       },
       "0085" : {
@@ -1942,6 +2098,7 @@
          "control" : {
             "NEXT LINE" : 1
          },
+         "ja_name" : "次行",
          "label" : "control-0085"
       },
       "0086" : {
@@ -1951,6 +2108,7 @@
          "control" : {
             "START OF SELECTED AREA" : 1
          },
+         "ja_name" : "選択領域開始",
          "label" : "control-0086"
       },
       "0087" : {
@@ -1960,6 +2118,7 @@
          "control" : {
             "END OF SELECTED AREA" : 1
          },
+         "ja_name" : "選択領域終了",
          "label" : "control-0087"
       },
       "0088" : {
@@ -1970,6 +2129,7 @@
             "CHARACTER TABULATION SET" : 1,
             "HORIZONTAL TABULATION SET" : 1
          },
+         "ja_name" : "文字タブ設定",
          "label" : "control-0088"
       },
       "0089" : {
@@ -1980,6 +2140,7 @@
             "CHARACTER TABULATION WITH JUSTIFICATION" : 1,
             "HORIZONTAL TABULATION WITH JUSTIFICATION" : 1
          },
+         "ja_name" : "引寄せタブ",
          "label" : "control-0089"
       },
       "008A" : {
@@ -1990,6 +2151,7 @@
             "LINE TABULATION SET" : 1,
             "VERTICAL TABULATION SET" : 1
          },
+         "ja_name" : "行タブ設定",
          "label" : "control-008A"
       },
       "008B" : {
@@ -2000,6 +2162,7 @@
             "PARTIAL LINE DOWN" : 1,
             "PARTIAL LINE FORWARD" : 1
          },
+         "ja_name" : "部分行前進",
          "label" : "control-008B"
       },
       "008C" : {
@@ -2010,6 +2173,7 @@
             "PARTIAL LINE BACKWARD" : 1,
             "PARTIAL LINE UP" : 1
          },
+         "ja_name" : "部分行後退",
          "label" : "control-008C"
       },
       "008D" : {
@@ -2020,6 +2184,7 @@
             "REVERSE INDEX" : 1,
             "REVERSE LINE FEED" : 1
          },
+         "ja_name" : "逆改行",
          "label" : "control-008D"
       },
       "008E" : {
@@ -2030,6 +2195,7 @@
             "SINGLE SHIFT TWO" : 1,
             "SINGLE-SHIFT-2" : 1
          },
+         "ja_name" : "シングルシフト2",
          "label" : "control-008E"
       },
       "008F" : {
@@ -2040,6 +2206,7 @@
             "SINGLE SHIFT THREE" : 1,
             "SINGLE-SHIFT-3" : 1
          },
+         "ja_name" : "シングルシフト3",
          "label" : "control-008F"
       },
       "0090" : {
@@ -2049,6 +2216,7 @@
          "control" : {
             "DEVICE CONTROL STRING" : 1
          },
+         "ja_name" : "装置制御列",
          "label" : "control-0090"
       },
       "0091" : {
@@ -2059,6 +2227,7 @@
             "PRIVATE USE ONE" : 1,
             "PRIVATE USE-1" : 1
          },
+         "ja_name" : "私用1",
          "label" : "control-0091"
       },
       "0092" : {
@@ -2069,6 +2238,7 @@
             "PRIVATE USE TWO" : 1,
             "PRIVATE USE-2" : 1
          },
+         "ja_name" : "私用2",
          "label" : "control-0092"
       },
       "0093" : {
@@ -2078,6 +2248,7 @@
          "control" : {
             "SET TRANSMIT STATE" : 1
          },
+         "ja_name" : "送信状態設定",
          "label" : "control-0093"
       },
       "0094" : {
@@ -2087,6 +2258,7 @@
          "control" : {
             "CANCEL CHARACTER" : 1
          },
+         "ja_name" : "文字取消",
          "label" : "control-0094"
       },
       "0095" : {
@@ -2096,6 +2268,7 @@
          "control" : {
             "MESSAGE WAITING" : 1
          },
+         "ja_name" : "メッセージ待ち",
          "label" : "control-0095"
       },
       "0096" : {
@@ -2106,6 +2279,7 @@
             "START OF GUARDED AREA" : 1,
             "START OF PROTECTED AREA" : 1
          },
+         "ja_name" : "防護領域開始",
          "label" : "control-0096"
       },
       "0097" : {
@@ -2116,6 +2290,7 @@
             "END OF GUARDED AREA" : 1,
             "END OF PROTECTED AREA" : 1
          },
+         "ja_name" : "防護領域終了",
          "label" : "control-0097"
       },
       "0098" : {
@@ -2125,6 +2300,7 @@
          "control" : {
             "START OF STRING" : 1
          },
+         "ja_name" : "列開始",
          "label" : "control-0098"
       },
       "0099" : {
@@ -2143,6 +2319,7 @@
          "control" : {
             "SINGLE CHARACTER INTRODUCER" : 1
          },
+         "ja_name" : "単一文字開始",
          "label" : "control-009A"
       },
       "009B" : {
@@ -2152,6 +2329,7 @@
          "control" : {
             "CONTROL SEQUENCE INTRODUCER" : 1
          },
+         "ja_name" : "制御シーケンス開始",
          "label" : "control-009B"
       },
       "009C" : {
@@ -2161,6 +2339,7 @@
          "control" : {
             "STRING TERMINATOR" : 1
          },
+         "ja_name" : "列終了",
          "label" : "control-009C"
       },
       "009D" : {
@@ -2170,6 +2349,7 @@
          "control" : {
             "OPERATING SYSTEM COMMAND" : 1
          },
+         "ja_name" : "オペレーティングシステム指令",
          "label" : "control-009D"
       },
       "009E" : {
@@ -2179,6 +2359,7 @@
          "control" : {
             "PRIVACY MESSAGE" : 1
          },
+         "ja_name" : "私用メッセージ",
          "label" : "control-009E"
       },
       "009F" : {
@@ -2188,330 +2369,436 @@
          "control" : {
             "APPLICATION PROGRAM COMMAND" : 1
          },
+         "ja_name" : "応用プログラム指令",
          "label" : "control-009F"
       },
       "00A0" : {
          "abbreviation" : {
             "NBSP" : 1
          },
+         "ja_name" : "ノーブレークスペース",
          "name" : "NO-BREAK SPACE"
       },
       "00A1" : {
+         "ja_name" : "逆感嘆符",
          "name" : "INVERTED EXCLAMATION MARK"
       },
       "00A2" : {
+         "ja_name" : "セント記号",
          "name" : "CENT SIGN"
       },
       "00A3" : {
+         "ja_name" : "ポンド記号",
          "name" : "POUND SIGN"
       },
       "00A4" : {
+         "ja_name" : "不特定通貨記号",
          "name" : "CURRENCY SIGN"
       },
       "00A5" : {
+         "ja_name" : "円記号",
          "name" : "YEN SIGN"
       },
       "00A6" : {
+         "ja_name" : "破断線",
          "name" : "BROKEN BAR"
       },
       "00A7" : {
+         "ja_name" : "節記号",
          "name" : "SECTION SIGN"
       },
       "00A8" : {
+         "ja_name" : "ウムラウト, ダイエレシス",
          "name" : "DIAERESIS"
       },
       "00A9" : {
+         "ja_name" : "著作権表示記号",
          "name" : "COPYRIGHT SIGN"
       },
       "00AA" : {
+         "ja_name" : "女性序数標識",
          "name" : "FEMININE ORDINAL INDICATOR"
       },
       "00AB" : {
+         "ja_name" : "始め二重山括弧引用記号, 始めギュメ",
          "name" : "LEFT-POINTING DOUBLE ANGLE QUOTATION MARK"
       },
       "00AC" : {
+         "ja_name" : "否定",
          "name" : "NOT SIGN"
       },
       "00AD" : {
          "abbreviation" : {
             "SHY" : 1
          },
+         "ja_name" : "ソフトハイフン",
          "name" : "SOFT HYPHEN"
       },
       "00AE" : {
+         "ja_name" : "登録商標記号",
          "name" : "REGISTERED SIGN"
       },
       "00AF" : {
+         "ja_name" : "マクロン",
          "name" : "MACRON"
       },
       "00B0" : {
+         "ja_name" : "度",
          "name" : "DEGREE SIGN"
       },
       "00B1" : {
+         "ja_name" : "正又は負符号",
          "name" : "PLUS-MINUS SIGN"
       },
       "00B2" : {
+         "ja_name" : "上付き2",
          "name" : "SUPERSCRIPT TWO"
       },
       "00B3" : {
+         "ja_name" : "上付き3",
          "name" : "SUPERSCRIPT THREE"
       },
       "00B4" : {
+         "ja_name" : "アクサンテギュ, アキュートアクセント, プライム記号",
          "name" : "ACUTE ACCENT"
       },
       "00B5" : {
          "name" : "MICRO SIGN"
       },
       "00B6" : {
+         "ja_name" : "段落記号",
          "name" : "PILCROW SIGN"
       },
       "00B7" : {
+         "ja_name" : "中点(ラテン)",
          "name" : "MIDDLE DOT"
       },
       "00B8" : {
+         "ja_name" : "セディラ",
          "name" : "CEDILLA"
       },
       "00B9" : {
+         "ja_name" : "上付き1",
          "name" : "SUPERSCRIPT ONE"
       },
       "00BA" : {
+         "ja_name" : "男性序数標識",
          "name" : "MASCULINE ORDINAL INDICATOR"
       },
       "00BB" : {
+         "ja_name" : "終わり二重山括弧引用記号, 終わりギュメ",
          "name" : "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK"
       },
       "00BC" : {
+         "ja_name" : "4分の1",
          "name" : "VULGAR FRACTION ONE QUARTER"
       },
       "00BD" : {
+         "ja_name" : "2分の1",
          "name" : "VULGAR FRACTION ONE HALF"
       },
       "00BE" : {
+         "ja_name" : "4分の3",
          "name" : "VULGAR FRACTION THREE QUARTERS"
       },
       "00BF" : {
+         "ja_name" : "逆疑問符",
          "name" : "INVERTED QUESTION MARK"
       },
       "00C0" : {
+         "ja_name" : "グレーブアクセント付きA",
          "name" : "LATIN CAPITAL LETTER A WITH GRAVE"
       },
       "00C1" : {
+         "ja_name" : "アキュートアクセント付きA",
          "name" : "LATIN CAPITAL LETTER A WITH ACUTE"
       },
       "00C2" : {
+         "ja_name" : "サーカムフレックスアクセント付きA",
          "name" : "LATIN CAPITAL LETTER A WITH CIRCUMFLEX"
       },
       "00C3" : {
+         "ja_name" : "チルド付きA",
          "name" : "LATIN CAPITAL LETTER A WITH TILDE"
       },
       "00C4" : {
+         "ja_name" : "ダイエレシス付きA",
          "name" : "LATIN CAPITAL LETTER A WITH DIAERESIS"
       },
       "00C5" : {
+         "ja_name" : "上リング付きA",
          "name" : "LATIN CAPITAL LETTER A WITH RING ABOVE"
       },
       "00C6" : {
+         "ja_name" : "AE",
          "name" : "LATIN CAPITAL LETTER AE"
       },
       "00C7" : {
+         "ja_name" : "セディラ付きC",
          "name" : "LATIN CAPITAL LETTER C WITH CEDILLA"
       },
       "00C8" : {
+         "ja_name" : "グレーブアクセント付きE",
          "name" : "LATIN CAPITAL LETTER E WITH GRAVE"
       },
       "00C9" : {
+         "ja_name" : "アキュートアクセント付きE",
          "name" : "LATIN CAPITAL LETTER E WITH ACUTE"
       },
       "00CA" : {
+         "ja_name" : "サーカムフレックスアクセント付きE",
          "name" : "LATIN CAPITAL LETTER E WITH CIRCUMFLEX"
       },
       "00CB" : {
+         "ja_name" : "ダイエレシス付きE",
          "name" : "LATIN CAPITAL LETTER E WITH DIAERESIS"
       },
       "00CC" : {
+         "ja_name" : "グレーブアクセント付きI",
          "name" : "LATIN CAPITAL LETTER I WITH GRAVE"
       },
       "00CD" : {
+         "ja_name" : "アキュートアクセント付きI",
          "name" : "LATIN CAPITAL LETTER I WITH ACUTE"
       },
       "00CE" : {
+         "ja_name" : "サーカムフレックスアクセント付きI",
          "name" : "LATIN CAPITAL LETTER I WITH CIRCUMFLEX"
       },
       "00CF" : {
+         "ja_name" : "ダイエレシス付きI",
          "name" : "LATIN CAPITAL LETTER I WITH DIAERESIS"
       },
       "00D0" : {
+         "ja_name" : "アイスランド語ETH",
          "name" : "LATIN CAPITAL LETTER ETH"
       },
       "00D1" : {
+         "ja_name" : "チルド付きN",
          "name" : "LATIN CAPITAL LETTER N WITH TILDE"
       },
       "00D2" : {
+         "ja_name" : "グレーブアクセント付きO",
          "name" : "LATIN CAPITAL LETTER O WITH GRAVE"
       },
       "00D3" : {
+         "ja_name" : "アキュートアクセント付きO",
          "name" : "LATIN CAPITAL LETTER O WITH ACUTE"
       },
       "00D4" : {
+         "ja_name" : "サーカムフレックスアクセント付きO",
          "name" : "LATIN CAPITAL LETTER O WITH CIRCUMFLEX"
       },
       "00D5" : {
+         "ja_name" : "チルド付きO",
          "name" : "LATIN CAPITAL LETTER O WITH TILDE"
       },
       "00D6" : {
+         "ja_name" : "ダイエレシス付きO",
          "name" : "LATIN CAPITAL LETTER O WITH DIAERESIS"
       },
       "00D7" : {
+         "ja_name" : "乗算記号",
          "name" : "MULTIPLICATION SIGN"
       },
       "00D8" : {
+         "ja_name" : "ストローク付きO",
          "name" : "LATIN CAPITAL LETTER O WITH STROKE"
       },
       "00D9" : {
+         "ja_name" : "グレーブアクセント付きU",
          "name" : "LATIN CAPITAL LETTER U WITH GRAVE"
       },
       "00DA" : {
+         "ja_name" : "アキュートアクセント付きU",
          "name" : "LATIN CAPITAL LETTER U WITH ACUTE"
       },
       "00DB" : {
+         "ja_name" : "サーカムフレックスアクセント付きU",
          "name" : "LATIN CAPITAL LETTER U WITH CIRCUMFLEX"
       },
       "00DC" : {
+         "ja_name" : "ダイエレシス付きU",
          "name" : "LATIN CAPITAL LETTER U WITH DIAERESIS"
       },
       "00DD" : {
+         "ja_name" : "アキュートアクセント付きY",
          "name" : "LATIN CAPITAL LETTER Y WITH ACUTE"
       },
       "00DE" : {
+         "ja_name" : "アイスランド語THORN",
          "name" : "LATIN CAPITAL LETTER THORN"
       },
       "00DF" : {
+         "ja_name" : "ドイツ語エスツェット",
          "name" : "LATIN SMALL LETTER SHARP S"
       },
       "00E0" : {
+         "ja_name" : "グレーブアクセント付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH GRAVE"
       },
       "00E1" : {
+         "ja_name" : "アキュートアクセント付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH ACUTE"
       },
       "00E2" : {
+         "ja_name" : "サーカムフレックスアクセント付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH CIRCUMFLEX"
       },
       "00E3" : {
+         "ja_name" : "チルド付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH TILDE"
       },
       "00E4" : {
+         "ja_name" : "ダイエレシス付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH DIAERESIS"
       },
       "00E5" : {
+         "ja_name" : "上リング付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH RING ABOVE"
       },
       "00E6" : {
+         "ja_name" : "AE小文字",
          "name" : "LATIN SMALL LETTER AE"
       },
       "00E7" : {
+         "ja_name" : "セディラ付きC小文字",
          "name" : "LATIN SMALL LETTER C WITH CEDILLA"
       },
       "00E8" : {
+         "ja_name" : "グレーブアクセント付きE小文字",
          "name" : "LATIN SMALL LETTER E WITH GRAVE"
       },
       "00E9" : {
+         "ja_name" : "アキュートアクセント付きE小文字",
          "name" : "LATIN SMALL LETTER E WITH ACUTE"
       },
       "00EA" : {
+         "ja_name" : "サーカムフレックスアクセント付きE小文字",
          "name" : "LATIN SMALL LETTER E WITH CIRCUMFLEX"
       },
       "00EB" : {
+         "ja_name" : "ダイエレシス付きE小文字",
          "name" : "LATIN SMALL LETTER E WITH DIAERESIS"
       },
       "00EC" : {
+         "ja_name" : "グレーブアクセント付きI小文字",
          "name" : "LATIN SMALL LETTER I WITH GRAVE"
       },
       "00ED" : {
+         "ja_name" : "アキュートアクセント付きI小文字",
          "name" : "LATIN SMALL LETTER I WITH ACUTE"
       },
       "00EE" : {
+         "ja_name" : "サーカムフレックスアクセント付きI小文字",
          "name" : "LATIN SMALL LETTER I WITH CIRCUMFLEX"
       },
       "00EF" : {
+         "ja_name" : "ダイエレシス付きI小文字",
          "name" : "LATIN SMALL LETTER I WITH DIAERESIS"
       },
       "00F0" : {
+         "ja_name" : "アイスランド語ETH小文字",
          "name" : "LATIN SMALL LETTER ETH"
       },
       "00F1" : {
+         "ja_name" : "チルド付きN小文字",
          "name" : "LATIN SMALL LETTER N WITH TILDE"
       },
       "00F2" : {
+         "ja_name" : "グレーブアクセント付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH GRAVE"
       },
       "00F3" : {
+         "ja_name" : "アキュートアクセント付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH ACUTE"
       },
       "00F4" : {
+         "ja_name" : "サーカムフレックスアクセント付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH CIRCUMFLEX"
       },
       "00F5" : {
+         "ja_name" : "チルド付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH TILDE"
       },
       "00F6" : {
+         "ja_name" : "ダイエレシス付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH DIAERESIS"
       },
       "00F7" : {
+         "ja_name" : "除算記号",
          "name" : "DIVISION SIGN"
       },
       "00F8" : {
+         "ja_name" : "ストローク付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH STROKE"
       },
       "00F9" : {
+         "ja_name" : "グレーブアクセント付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH GRAVE"
       },
       "00FA" : {
+         "ja_name" : "アキュートアクセント付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH ACUTE"
       },
       "00FB" : {
+         "ja_name" : "サーカムフレックスアクセント付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH CIRCUMFLEX"
       },
       "00FC" : {
+         "ja_name" : "ダイエレシス付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH DIAERESIS"
       },
       "00FD" : {
+         "ja_name" : "アキュートアクセント付きY小文字",
          "name" : "LATIN SMALL LETTER Y WITH ACUTE"
       },
       "00FE" : {
+         "ja_name" : "アイスランド語THORN小文字",
          "name" : "LATIN SMALL LETTER THORN"
       },
       "00FF" : {
+         "ja_name" : "ダイエレシス付きY小文字",
          "name" : "LATIN SMALL LETTER Y WITH DIAERESIS"
       },
       "0100" : {
+         "ja_name" : "マクロン付きA",
          "name" : "LATIN CAPITAL LETTER A WITH MACRON"
       },
       "0101" : {
+         "ja_name" : "マクロン付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH MACRON"
       },
       "0102" : {
+         "ja_name" : "ブリーブ付きA",
          "name" : "LATIN CAPITAL LETTER A WITH BREVE"
       },
       "0103" : {
+         "ja_name" : "ブリーブ付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH BREVE"
       },
       "0104" : {
+         "ja_name" : "オゴネク付きA",
          "name" : "LATIN CAPITAL LETTER A WITH OGONEK"
       },
       "0105" : {
+         "ja_name" : "オゴネク付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH OGONEK"
       },
       "0106" : {
+         "ja_name" : "アキュートアクセント付きC",
          "name" : "LATIN CAPITAL LETTER C WITH ACUTE"
       },
       "0107" : {
+         "ja_name" : "アキュートアクセント付きC小文字",
          "name" : "LATIN SMALL LETTER C WITH ACUTE"
       },
       "0108" : {
+         "ja_name" : "サーカムフレックスアクセント付きC",
          "name" : "LATIN CAPITAL LETTER C WITH CIRCUMFLEX"
       },
       "0109" : {
+         "ja_name" : "サーカムフレックスアクセント付きC小文字",
          "name" : "LATIN SMALL LETTER C WITH CIRCUMFLEX"
       },
       "010A" : {
@@ -2521,27 +2808,34 @@
          "name" : "LATIN SMALL LETTER C WITH DOT ABOVE"
       },
       "010C" : {
+         "ja_name" : "キャロン付きC",
          "name" : "LATIN CAPITAL LETTER C WITH CARON"
       },
       "010D" : {
+         "ja_name" : "キャロン付きC小文字",
          "name" : "LATIN SMALL LETTER C WITH CARON"
       },
       "010E" : {
+         "ja_name" : "キャロン付きD",
          "name" : "LATIN CAPITAL LETTER D WITH CARON"
       },
       "010F" : {
+         "ja_name" : "キャロン付きD小文字",
          "name" : "LATIN SMALL LETTER D WITH CARON"
       },
       "0110" : {
          "name" : "LATIN CAPITAL LETTER D WITH STROKE"
       },
       "0111" : {
+         "ja_name" : "ストローク付きD小文字",
          "name" : "LATIN SMALL LETTER D WITH STROKE"
       },
       "0112" : {
+         "ja_name" : "マクロン付きE",
          "name" : "LATIN CAPITAL LETTER E WITH MACRON"
       },
       "0113" : {
+         "ja_name" : "マクロン付きE小文字",
          "name" : "LATIN SMALL LETTER E WITH MACRON"
       },
       "0114" : {
@@ -2557,21 +2851,27 @@
          "name" : "LATIN SMALL LETTER E WITH DOT ABOVE"
       },
       "0118" : {
+         "ja_name" : "オゴネク付きE",
          "name" : "LATIN CAPITAL LETTER E WITH OGONEK"
       },
       "0119" : {
+         "ja_name" : "オゴネク付きE小文字",
          "name" : "LATIN SMALL LETTER E WITH OGONEK"
       },
       "011A" : {
+         "ja_name" : "キャロン付きE",
          "name" : "LATIN CAPITAL LETTER E WITH CARON"
       },
       "011B" : {
+         "ja_name" : "キャロン付きE小文字",
          "name" : "LATIN SMALL LETTER E WITH CARON"
       },
       "011C" : {
+         "ja_name" : "サーカムフレックスアクセント付きG",
          "name" : "LATIN CAPITAL LETTER G WITH CIRCUMFLEX"
       },
       "011D" : {
+         "ja_name" : "サーカムフレックスアクセント付きG小文字",
          "name" : "LATIN SMALL LETTER G WITH CIRCUMFLEX"
       },
       "011E" : {
@@ -2593,15 +2893,18 @@
          "name" : "LATIN SMALL LETTER G WITH CEDILLA"
       },
       "0124" : {
+         "ja_name" : "サーカムフレックスアクセント付きH",
          "name" : "LATIN CAPITAL LETTER H WITH CIRCUMFLEX"
       },
       "0125" : {
+         "ja_name" : "サーカムフレックスアクセント付きH小文字",
          "name" : "LATIN SMALL LETTER H WITH CIRCUMFLEX"
       },
       "0126" : {
          "name" : "LATIN CAPITAL LETTER H WITH STROKE"
       },
       "0127" : {
+         "ja_name" : "ストローク付きH小文字, 無声咽頭摩擦音",
          "name" : "LATIN SMALL LETTER H WITH STROKE"
       },
       "0128" : {
@@ -2611,9 +2914,11 @@
          "name" : "LATIN SMALL LETTER I WITH TILDE"
       },
       "012A" : {
+         "ja_name" : "マクロン付きI",
          "name" : "LATIN CAPITAL LETTER I WITH MACRON"
       },
       "012B" : {
+         "ja_name" : "マクロン付きI小文字",
          "name" : "LATIN SMALL LETTER I WITH MACRON"
       },
       "012C" : {
@@ -2641,9 +2946,11 @@
          "name" : "LATIN SMALL LIGATURE IJ"
       },
       "0134" : {
+         "ja_name" : "サーカムフレックスアクセント付きJ",
          "name" : "LATIN CAPITAL LETTER J WITH CIRCUMFLEX"
       },
       "0135" : {
+         "ja_name" : "サーカムフレックスアクセント付きJ小文字",
          "name" : "LATIN SMALL LETTER J WITH CIRCUMFLEX"
       },
       "0136" : {
@@ -2656,9 +2963,11 @@
          "name" : "LATIN SMALL LETTER KRA"
       },
       "0139" : {
+         "ja_name" : "アキュートアクセント付きL",
          "name" : "LATIN CAPITAL LETTER L WITH ACUTE"
       },
       "013A" : {
+         "ja_name" : "アキュートアクセント付きL小文字",
          "name" : "LATIN SMALL LETTER L WITH ACUTE"
       },
       "013B" : {
@@ -2668,9 +2977,11 @@
          "name" : "LATIN SMALL LETTER L WITH CEDILLA"
       },
       "013D" : {
+         "ja_name" : "キャロン付きL",
          "name" : "LATIN CAPITAL LETTER L WITH CARON"
       },
       "013E" : {
+         "ja_name" : "キャロン付きL小文字",
          "name" : "LATIN SMALL LETTER L WITH CARON"
       },
       "013F" : {
@@ -2680,15 +2991,19 @@
          "name" : "LATIN SMALL LETTER L WITH MIDDLE DOT"
       },
       "0141" : {
+         "ja_name" : "ストローク付きL",
          "name" : "LATIN CAPITAL LETTER L WITH STROKE"
       },
       "0142" : {
+         "ja_name" : "ストローク付きL小文字",
          "name" : "LATIN SMALL LETTER L WITH STROKE"
       },
       "0143" : {
+         "ja_name" : "アキュートアクセント付きN",
          "name" : "LATIN CAPITAL LETTER N WITH ACUTE"
       },
       "0144" : {
+         "ja_name" : "アキュートアクセント付きN小文字",
          "name" : "LATIN SMALL LETTER N WITH ACUTE"
       },
       "0145" : {
@@ -2698,9 +3013,11 @@
          "name" : "LATIN SMALL LETTER N WITH CEDILLA"
       },
       "0147" : {
+         "ja_name" : "キャロン付きN",
          "name" : "LATIN CAPITAL LETTER N WITH CARON"
       },
       "0148" : {
+         "ja_name" : "キャロン付きN小文字",
          "name" : "LATIN SMALL LETTER N WITH CARON"
       },
       "0149" : {
@@ -2710,12 +3027,15 @@
          "name" : "LATIN CAPITAL LETTER ENG"
       },
       "014B" : {
+         "ja_name" : "ENG小文字, 有声軟口蓋鼻音",
          "name" : "LATIN SMALL LETTER ENG"
       },
       "014C" : {
+         "ja_name" : "マクロン付きO",
          "name" : "LATIN CAPITAL LETTER O WITH MACRON"
       },
       "014D" : {
+         "ja_name" : "マクロン付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH MACRON"
       },
       "014E" : {
@@ -2725,21 +3045,27 @@
          "name" : "LATIN SMALL LETTER O WITH BREVE"
       },
       "0150" : {
+         "ja_name" : "ダブルアキュートアクセント付きO",
          "name" : "LATIN CAPITAL LETTER O WITH DOUBLE ACUTE"
       },
       "0151" : {
+         "ja_name" : "ダブルアキュートアクセント付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH DOUBLE ACUTE"
       },
       "0152" : {
+         "ja_name" : "リガチャOE大文字, 円唇前舌広母音",
          "name" : "LATIN CAPITAL LIGATURE OE"
       },
       "0153" : {
+         "ja_name" : "リガチャOE小文字, 円唇前舌広・中段母音",
          "name" : "LATIN SMALL LIGATURE OE"
       },
       "0154" : {
+         "ja_name" : "アキュートアクセント付きR",
          "name" : "LATIN CAPITAL LETTER R WITH ACUTE"
       },
       "0155" : {
+         "ja_name" : "アキュートアクセント付きR小文字",
          "name" : "LATIN SMALL LETTER R WITH ACUTE"
       },
       "0156" : {
@@ -2749,45 +3075,59 @@
          "name" : "LATIN SMALL LETTER R WITH CEDILLA"
       },
       "0158" : {
+         "ja_name" : "キャロン付きR",
          "name" : "LATIN CAPITAL LETTER R WITH CARON"
       },
       "0159" : {
+         "ja_name" : "キャロン付きR小文字",
          "name" : "LATIN SMALL LETTER R WITH CARON"
       },
       "015A" : {
+         "ja_name" : "アキュートアクセント付きS",
          "name" : "LATIN CAPITAL LETTER S WITH ACUTE"
       },
       "015B" : {
+         "ja_name" : "アキュートアクセント付きS小文字",
          "name" : "LATIN SMALL LETTER S WITH ACUTE"
       },
       "015C" : {
+         "ja_name" : "サーカムフレックスアクセント付きS",
          "name" : "LATIN CAPITAL LETTER S WITH CIRCUMFLEX"
       },
       "015D" : {
+         "ja_name" : "サーカムフレックスアクセント付きS小文字",
          "name" : "LATIN SMALL LETTER S WITH CIRCUMFLEX"
       },
       "015E" : {
+         "ja_name" : "セディラ付きS",
          "name" : "LATIN CAPITAL LETTER S WITH CEDILLA"
       },
       "015F" : {
+         "ja_name" : "セディラ付きS小文字",
          "name" : "LATIN SMALL LETTER S WITH CEDILLA"
       },
       "0160" : {
+         "ja_name" : "キャロン付きS",
          "name" : "LATIN CAPITAL LETTER S WITH CARON"
       },
       "0161" : {
+         "ja_name" : "キャロン付きS小文字",
          "name" : "LATIN SMALL LETTER S WITH CARON"
       },
       "0162" : {
+         "ja_name" : "セディラ付きT",
          "name" : "LATIN CAPITAL LETTER T WITH CEDILLA"
       },
       "0163" : {
+         "ja_name" : "セディラ付きT小文字",
          "name" : "LATIN SMALL LETTER T WITH CEDILLA"
       },
       "0164" : {
+         "ja_name" : "キャロン付きT",
          "name" : "LATIN CAPITAL LETTER T WITH CARON"
       },
       "0165" : {
+         "ja_name" : "キャロン付きT小文字",
          "name" : "LATIN SMALL LETTER T WITH CARON"
       },
       "0166" : {
@@ -2803,27 +3143,35 @@
          "name" : "LATIN SMALL LETTER U WITH TILDE"
       },
       "016A" : {
+         "ja_name" : "マクロン付きU",
          "name" : "LATIN CAPITAL LETTER U WITH MACRON"
       },
       "016B" : {
+         "ja_name" : "マクロン付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH MACRON"
       },
       "016C" : {
+         "ja_name" : "ブリーブ付きU",
          "name" : "LATIN CAPITAL LETTER U WITH BREVE"
       },
       "016D" : {
+         "ja_name" : "ブリーブ付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH BREVE"
       },
       "016E" : {
+         "ja_name" : "上リング付きU",
          "name" : "LATIN CAPITAL LETTER U WITH RING ABOVE"
       },
       "016F" : {
+         "ja_name" : "上リング付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH RING ABOVE"
       },
       "0170" : {
+         "ja_name" : "ダブルアキュートアクセント付きU",
          "name" : "LATIN CAPITAL LETTER U WITH DOUBLE ACUTE"
       },
       "0171" : {
+         "ja_name" : "ダブルアキュートアクセント付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH DOUBLE ACUTE"
       },
       "0172" : {
@@ -2848,21 +3196,27 @@
          "name" : "LATIN CAPITAL LETTER Y WITH DIAERESIS"
       },
       "0179" : {
+         "ja_name" : "アキュートアクセント付きZ",
          "name" : "LATIN CAPITAL LETTER Z WITH ACUTE"
       },
       "017A" : {
+         "ja_name" : "アキュートアクセント付きZ小文字",
          "name" : "LATIN SMALL LETTER Z WITH ACUTE"
       },
       "017B" : {
+         "ja_name" : "上ドット付きZ",
          "name" : "LATIN CAPITAL LETTER Z WITH DOT ABOVE"
       },
       "017C" : {
+         "ja_name" : "上ドット付きZ小文字",
          "name" : "LATIN SMALL LETTER Z WITH DOT ABOVE"
       },
       "017D" : {
+         "ja_name" : "キャロン付きZ",
          "name" : "LATIN CAPITAL LETTER Z WITH CARON"
       },
       "017E" : {
+         "ja_name" : "キャロン付きZ小文字",
          "name" : "LATIN SMALL LETTER Z WITH CARON"
       },
       "017F" : {
@@ -2926,6 +3280,7 @@
          "name" : "LATIN SMALL LETTER F WITH HOOK"
       },
       "0193" : {
+         "ja_name" : "フック付きG大文字, 有声口蓋垂内破音",
          "name" : "LATIN CAPITAL LETTER G WITH HOOK"
       },
       "0194" : {
@@ -3073,6 +3428,7 @@
          "name" : "LATIN LETTER LATERAL CLICK"
       },
       "01C2" : {
+         "ja_name" : "硬口蓋歯茎吸着音",
          "name" : "LATIN LETTER ALVEOLAR CLICK"
       },
       "01C3" : {
@@ -3106,51 +3462,61 @@
          "name" : "LATIN SMALL LETTER NJ"
       },
       "01CD" : {
+         "ja_name" : "キャロン付きA",
          "name" : "LATIN CAPITAL LETTER A WITH CARON"
       },
       "01CE" : {
+         "ja_name" : "キャロン付きA小文字",
          "name" : "LATIN SMALL LETTER A WITH CARON"
       },
       "01CF" : {
          "name" : "LATIN CAPITAL LETTER I WITH CARON"
       },
       "01D0" : {
+         "ja_name" : "キャロン付きI小文字",
          "name" : "LATIN SMALL LETTER I WITH CARON"
       },
       "01D1" : {
+         "ja_name" : "キャロン付きO",
          "name" : "LATIN CAPITAL LETTER O WITH CARON"
       },
       "01D2" : {
+         "ja_name" : "キャロン付きO小文字",
          "name" : "LATIN SMALL LETTER O WITH CARON"
       },
       "01D3" : {
          "name" : "LATIN CAPITAL LETTER U WITH CARON"
       },
       "01D4" : {
+         "ja_name" : "キャロン付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH CARON"
       },
       "01D5" : {
          "name" : "LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON"
       },
       "01D6" : {
+         "ja_name" : "マクロンとダイエレシス付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH DIAERESIS AND MACRON"
       },
       "01D7" : {
          "name" : "LATIN CAPITAL LETTER U WITH DIAERESIS AND ACUTE"
       },
       "01D8" : {
+         "ja_name" : "アキュートアクセントとダイエレシス付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH DIAERESIS AND ACUTE"
       },
       "01D9" : {
          "name" : "LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON"
       },
       "01DA" : {
+         "ja_name" : "キャロンとダイエレシス付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH DIAERESIS AND CARON"
       },
       "01DB" : {
          "name" : "LATIN CAPITAL LETTER U WITH DIAERESIS AND GRAVE"
       },
       "01DC" : {
+         "ja_name" : "グレーブアクセントとダイエレシス付きU小文字",
          "name" : "LATIN SMALL LETTER U WITH DIAERESIS AND GRAVE"
       },
       "01DD" : {
@@ -3235,9 +3601,11 @@
          "name" : "LATIN CAPITAL LETTER WYNN"
       },
       "01F8" : {
+         "ja_name" : "グレーブアクセント付きN",
          "name" : "LATIN CAPITAL LETTER N WITH GRAVE"
       },
       "01F9" : {
+         "ja_name" : "グレーブアクセント付きN小文字",
          "name" : "LATIN SMALL LETTER N WITH GRAVE"
       },
       "01FA" : {
@@ -3250,6 +3618,7 @@
          "name" : "LATIN CAPITAL LETTER AE WITH ACUTE"
       },
       "01FD" : {
+         "ja_name" : "アキュートアクセント付きAE小文字",
          "name" : "LATIN SMALL LETTER AE WITH ACUTE"
       },
       "01FE" : {
@@ -3499,57 +3868,73 @@
          "name" : "LATIN SMALL LETTER Y WITH STROKE"
       },
       "0250" : {
+         "ja_name" : "ターンドA小文字, 非円唇中舌狭めの広母音",
          "name" : "LATIN SMALL LETTER TURNED A"
       },
       "0251" : {
+         "ja_name" : "スクリプトA小文字, 非円唇後舌広母音",
          "name" : "LATIN SMALL LETTER ALPHA"
       },
       "0252" : {
+         "ja_name" : "ターンドALPHA小文字, 円唇後舌広母音",
          "name" : "LATIN SMALL LETTER TURNED ALPHA"
       },
       "0253" : {
+         "ja_name" : "フック付きB小文字, 有声両唇内破音",
          "name" : "LATIN SMALL LETTER B WITH HOOK"
       },
       "0254" : {
+         "ja_name" : "オープンO小文字, 円唇後舌広・中段母音",
          "name" : "LATIN SMALL LETTER OPEN O"
       },
       "0255" : {
+         "ja_name" : "カール付きC小文字, 歯茎・硬口蓋摩擦音",
          "name" : "LATIN SMALL LETTER C WITH CURL"
       },
       "0256" : {
+         "ja_name" : "テール付きD小文字, 有声そり舌破裂音",
          "name" : "LATIN SMALL LETTER D WITH TAIL"
       },
       "0257" : {
+         "ja_name" : "フック付きD小文字, 有声歯茎内破音",
          "name" : "LATIN SMALL LETTER D WITH HOOK"
       },
       "0258" : {
+         "ja_name" : "リバースドE小文字, 非円唇中舌狭・中段母音",
          "name" : "LATIN SMALL LETTER REVERSED E"
       },
       "0259" : {
+         "ja_name" : "SCHWA小文字, 非円唇中舌中央母音",
          "name" : "LATIN SMALL LETTER SCHWA"
       },
       "025A" : {
+         "ja_name" : "フック付きSCHWA",
          "name" : "LATIN SMALL LETTER SCHWA WITH HOOK"
       },
       "025B" : {
          "name" : "LATIN SMALL LETTER OPEN E"
       },
       "025C" : {
+         "ja_name" : "リバースドオープンE小文字, 非円唇中舌広・中段母音",
          "name" : "LATIN SMALL LETTER REVERSED OPEN E"
       },
       "025D" : {
          "name" : "LATIN SMALL LETTER REVERSED OPEN E WITH HOOK"
       },
       "025E" : {
+         "ja_name" : "クローズドリバースドオープンE小文字, 円唇中舌広・中段母音",
          "name" : "LATIN SMALL LETTER CLOSED REVERSED OPEN E"
       },
       "025F" : {
+         "ja_name" : "ストローク付きドットなしJ小文字, 有声硬口蓋破裂音",
          "name" : "LATIN SMALL LETTER DOTLESS J WITH STROKE"
       },
       "0260" : {
+         "ja_name" : "フック付きG小文字, 有声軟口蓋内破音",
          "name" : "LATIN SMALL LETTER G WITH HOOK"
       },
       "0261" : {
+         "ja_name" : "スクリプトG小文字, 有声軟口蓋破裂音",
          "name" : "LATIN SMALL LETTER SCRIPT G"
       },
       "0262" : {
@@ -3559,18 +3944,23 @@
          "name" : "LATIN SMALL LETTER GAMMA"
       },
       "0264" : {
+         "ja_name" : "ベビーガンマ, 非円唇後舌狭中段母音",
          "name" : "LATIN SMALL LETTER RAMS HORN"
       },
       "0265" : {
+         "ja_name" : "ターンドH小文字, 有声両唇・硬口蓋接近音",
          "name" : "LATIN SMALL LETTER TURNED H"
       },
       "0266" : {
+         "ja_name" : "フック付きH小文字, 有声声門摩擦音",
          "name" : "LATIN SMALL LETTER H WITH HOOK"
       },
       "0267" : {
+         "ja_name" : "フック付きHENG小文字, 無声後部歯茎軟口蓋摩擦音",
          "name" : "LATIN SMALL LETTER HENG WITH HOOK"
       },
       "0268" : {
+         "ja_name" : "ストローク付きI小文字, 非円唇中舌狭母音",
          "name" : "LATIN SMALL LETTER I WITH STROKE"
       },
       "0269" : {
@@ -3583,33 +3973,42 @@
          "name" : "LATIN SMALL LETTER L WITH MIDDLE TILDE"
       },
       "026C" : {
+         "ja_name" : "ベルト付きL小文字, 無声歯茎側面摩擦音",
          "name" : "LATIN SMALL LETTER L WITH BELT"
       },
       "026D" : {
+         "ja_name" : "レトロフレックスフック付きL小文字, 有声そり舌側面接近音",
          "name" : "LATIN SMALL LETTER L WITH RETROFLEX HOOK"
       },
       "026E" : {
+         "ja_name" : "LEZH小文字, 有声歯茎側面摩擦音",
          "name" : "LATIN SMALL LETTER LEZH"
       },
       "026F" : {
+         "ja_name" : "ターンドM小文字, 非円唇後舌狭母音",
          "name" : "LATIN SMALL LETTER TURNED M"
       },
       "0270" : {
+         "ja_name" : "ロングレッグ付きターンドM小文字, 有声軟口蓋接近音",
          "name" : "LATIN SMALL LETTER TURNED M WITH LONG LEG"
       },
       "0271" : {
+         "ja_name" : "フック付きM小文字, 有声唇歯鼻音",
          "name" : "LATIN SMALL LETTER M WITH HOOK"
       },
       "0272" : {
+         "ja_name" : "左フック付きN小文字, 有声硬口蓋鼻音",
          "name" : "LATIN SMALL LETTER N WITH LEFT HOOK"
       },
       "0273" : {
+         "ja_name" : "レトロフレックスフック付きN小文字, 有声そり舌鼻音",
          "name" : "LATIN SMALL LETTER N WITH RETROFLEX HOOK"
       },
       "0274" : {
          "name" : "LATIN LETTER SMALL CAPITAL N"
       },
       "0275" : {
+         "ja_name" : "バー付きO小文字, 円唇中舌狭・中段母音",
          "name" : "LATIN SMALL LETTER BARRED O"
       },
       "0276" : {
@@ -3622,21 +4021,26 @@
          "name" : "LATIN SMALL LETTER PHI"
       },
       "0279" : {
+         "ja_name" : "ターンドR小文字, 無声歯茎接近音",
          "name" : "LATIN SMALL LETTER TURNED R"
       },
       "027A" : {
+         "ja_name" : "ロングレッグ付きターンドR小文字, 歯茎側面弾き音",
          "name" : "LATIN SMALL LETTER TURNED R WITH LONG LEG"
       },
       "027B" : {
+         "ja_name" : "フック付きターンドR小文字, 有声そり舌接近音",
          "name" : "LATIN SMALL LETTER TURNED R WITH HOOK"
       },
       "027C" : {
          "name" : "LATIN SMALL LETTER R WITH LONG LEG"
       },
       "027D" : {
+         "ja_name" : "テール付きR小文字, 有声そり舌弾き音",
          "name" : "LATIN SMALL LETTER R WITH TAIL"
       },
       "027E" : {
+         "ja_name" : "フィッシュフック付きR小文字, 有声歯茎弾き音",
          "name" : "LATIN SMALL LETTER R WITH FISHHOOK"
       },
       "027F" : {
@@ -3646,15 +4050,19 @@
          "name" : "LATIN LETTER SMALL CAPITAL R"
       },
       "0281" : {
+         "ja_name" : "インバーテッドRスモールキャピタル, 有声口蓋垂摩擦音",
          "name" : "LATIN LETTER SMALL CAPITAL INVERTED R"
       },
       "0282" : {
+         "ja_name" : "フック付きS小文字, 無声そり舌摩擦音",
          "name" : "LATIN SMALL LETTER S WITH HOOK"
       },
       "0283" : {
+         "ja_name" : "ESH小文字, 無声後部歯茎摩擦音",
          "name" : "LATIN SMALL LETTER ESH"
       },
       "0284" : {
+         "ja_name" : "フックとストローク付きドットなしJ小文字, 有声硬口蓋内破音",
          "name" : "LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK"
       },
       "0285" : {
@@ -3667,45 +4075,57 @@
          "name" : "LATIN SMALL LETTER TURNED T"
       },
       "0288" : {
+         "ja_name" : "レトロフレックスフック付きT小文字, 無声そり舌破裂音",
          "name" : "LATIN SMALL LETTER T WITH RETROFLEX HOOK"
       },
       "0289" : {
+         "ja_name" : "バー付きU小文字, 円唇中舌狭母音",
          "name" : "LATIN SMALL LETTER U BAR"
       },
       "028A" : {
+         "ja_name" : "UPSILON小文字, 円唇後舌広めの狭母音",
          "name" : "LATIN SMALL LETTER UPSILON"
       },
       "028B" : {
+         "ja_name" : "フック付きV小文字, 有声唇歯接近音",
          "name" : "LATIN SMALL LETTER V WITH HOOK"
       },
       "028C" : {
+         "ja_name" : "ターンドV小文字, 非円唇後舌広・中段母音",
          "name" : "LATIN SMALL LETTER TURNED V"
       },
       "028D" : {
+         "ja_name" : "ターンドW小文字, 無声両唇・軟口蓋摩擦音",
          "name" : "LATIN SMALL LETTER TURNED W"
       },
       "028E" : {
+         "ja_name" : "ターンドY小文字, 有声硬口蓋側面接近音",
          "name" : "LATIN SMALL LETTER TURNED Y"
       },
       "028F" : {
          "name" : "LATIN LETTER SMALL CAPITAL Y"
       },
       "0290" : {
+         "ja_name" : "レトロフレックスフック付きZ小文字, 有声そり舌摩擦音",
          "name" : "LATIN SMALL LETTER Z WITH RETROFLEX HOOK"
       },
       "0291" : {
+         "ja_name" : "カール付きZ小文字, 歯茎・硬口蓋摩擦音",
          "name" : "LATIN SMALL LETTER Z WITH CURL"
       },
       "0292" : {
+         "ja_name" : "EZH小文字, 有声後部歯茎摩擦音",
          "name" : "LATIN SMALL LETTER EZH"
       },
       "0293" : {
          "name" : "LATIN SMALL LETTER EZH WITH CURL"
       },
       "0294" : {
+         "ja_name" : "グロッタルストップ, 無声声門破裂音",
          "name" : "LATIN LETTER GLOTTAL STOP"
       },
       "0295" : {
+         "ja_name" : "リバースドグロッタルストップ, 有声咽頭摩擦音",
          "name" : "LATIN LETTER PHARYNGEAL VOICED FRICATIVE"
       },
       "0296" : {
@@ -3715,6 +4135,7 @@
          "name" : "LATIN LETTER STRETCHED C"
       },
       "0298" : {
+         "ja_name" : "両唇吸着音",
          "name" : "LATIN LETTER BILABIAL CLICK"
       },
       "0299" : {
@@ -3730,6 +4151,7 @@
          "name" : "LATIN LETTER SMALL CAPITAL H"
       },
       "029D" : {
+         "ja_name" : "クロスドテール付きJ小文字, 有声硬口蓋摩擦音",
          "name" : "LATIN SMALL LETTER J WITH CROSSED-TAIL"
       },
       "029E" : {
@@ -3742,9 +4164,11 @@
          "name" : "LATIN SMALL LETTER Q WITH HOOK"
       },
       "02A1" : {
+         "ja_name" : "ストローク付きグロッタルストップ, 咽頭蓋破裂音",
          "name" : "LATIN LETTER GLOTTAL STOP WITH STROKE"
       },
       "02A2" : {
+         "ja_name" : "ストローク付きリバースドグロッタルストップ, 有声咽頭蓋摩擦音",
          "name" : "LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE"
       },
       "02A3" : {
@@ -3856,9 +4280,11 @@
          "name" : "MODIFIER LETTER CIRCUMFLEX ACCENT"
       },
       "02C7" : {
+         "ja_name" : "キャロン",
          "name" : "CARON"
       },
       "02C8" : {
+         "ja_name" : "小縦線, 第一強勢",
          "name" : "MODIFIER LETTER VERTICAL LINE"
       },
       "02C9" : {
@@ -3871,6 +4297,7 @@
          "name" : "MODIFIER LETTER GRAVE ACCENT"
       },
       "02CC" : {
+         "ja_name" : "下小縦線, 第二強勢",
          "name" : "MODIFIER LETTER LOW VERTICAL LINE"
       },
       "02CD" : {
@@ -3883,9 +4310,11 @@
          "name" : "MODIFIER LETTER LOW ACUTE ACCENT"
       },
       "02D0" : {
+         "ja_name" : "長",
          "name" : "MODIFIER LETTER TRIANGULAR COLON"
       },
       "02D1" : {
+         "ja_name" : "半長",
          "name" : "MODIFIER LETTER HALF TRIANGULAR COLON"
       },
       "02D2" : {
@@ -3907,24 +4336,29 @@
          "name" : "MODIFIER LETTER MINUS SIGN"
       },
       "02D8" : {
+         "ja_name" : "ブリーブ",
          "name" : "BREVE"
       },
       "02D9" : {
+         "ja_name" : "上ドット",
          "name" : "DOT ABOVE"
       },
       "02DA" : {
          "name" : "RING ABOVE"
       },
       "02DB" : {
+         "ja_name" : "オゴネク",
          "name" : "OGONEK"
       },
       "02DC" : {
          "name" : "SMALL TILDE"
       },
       "02DD" : {
+         "ja_name" : "ダブルアキュートアクセント",
          "name" : "DOUBLE ACUTE ACCENT"
       },
       "02DE" : {
+         "ja_name" : "rの音色",
          "name" : "MODIFIER LETTER RHOTIC HOOK"
       },
       "02DF" : {
@@ -3946,18 +4380,23 @@
          "name" : "MODIFIER LETTER SMALL REVERSED GLOTTAL STOP"
       },
       "02E5" : {
+         "ja_name" : "声調記号超高",
          "name" : "MODIFIER LETTER EXTRA-HIGH TONE BAR"
       },
       "02E6" : {
+         "ja_name" : "声調記号高",
          "name" : "MODIFIER LETTER HIGH TONE BAR"
       },
       "02E7" : {
+         "ja_name" : "声調記号中",
          "name" : "MODIFIER LETTER MID TONE BAR"
       },
       "02E8" : {
+         "ja_name" : "声調記号低",
          "name" : "MODIFIER LETTER LOW TONE BAR"
       },
       "02E9" : {
+         "ja_name" : "声調記号超低",
          "name" : "MODIFIER LETTER EXTRA-LOW TONE BAR"
       },
       "02EA" : {
@@ -4027,30 +4466,37 @@
          "name" : "MODIFIER LETTER LOW LEFT ARROW"
       },
       "0300" : {
+         "ja_name" : "グレーブアクセント(合成可能), 声調低",
          "name" : "COMBINING GRAVE ACCENT"
       },
       "0301" : {
+         "ja_name" : "アキュートアクセント(合成可能), 声調高",
          "name" : "COMBINING ACUTE ACCENT"
       },
       "0302" : {
+         "ja_name" : "サーカムフレックスアクセント(合成可能), 声調下降調",
          "name" : "COMBINING CIRCUMFLEX ACCENT"
       },
       "0303" : {
+         "ja_name" : "チルド(合成可能), 鼻音化",
          "name" : "COMBINING TILDE"
       },
       "0304" : {
+         "ja_name" : "マクロン(合成可能), 声調中",
          "name" : "COMBINING MACRON"
       },
       "0305" : {
          "name" : "COMBINING OVERLINE"
       },
       "0306" : {
+         "ja_name" : "ブリーブ(合成可能), 超短",
          "name" : "COMBINING BREVE"
       },
       "0307" : {
          "name" : "COMBINING DOT ABOVE"
       },
       "0308" : {
+         "ja_name" : "ダイエレシス(合成可能), 中舌母音化",
          "name" : "COMBINING DIAERESIS"
       },
       "0309" : {
@@ -4060,9 +4506,11 @@
          "name" : "COMBINING RING ABOVE"
       },
       "030B" : {
+         "ja_name" : "ダブルアキュートアクセント(合成可能), 声調超高",
          "name" : "COMBINING DOUBLE ACUTE ACCENT"
       },
       "030C" : {
+         "ja_name" : "キャロン(合成可能), 声調上昇調",
          "name" : "COMBINING CARON"
       },
       "030D" : {
@@ -4072,6 +4520,7 @@
          "name" : "COMBINING DOUBLE VERTICAL LINE ABOVE"
       },
       "030F" : {
+         "ja_name" : "ダブルグレーブアクセント(合成可能), 声調超低",
          "name" : "COMBINING DOUBLE GRAVE ACCENT"
       },
       "0310" : {
@@ -4099,30 +4548,38 @@
          "name" : "COMBINING ACUTE ACCENT BELOW"
       },
       "0318" : {
+         "ja_name" : "下レフトタック(合成可能), 前方舌根性",
          "name" : "COMBINING LEFT TACK BELOW"
       },
       "0319" : {
+         "ja_name" : "下ライトタック(合成可能), 後方舌根性",
          "name" : "COMBINING RIGHT TACK BELOW"
       },
       "031A" : {
+         "ja_name" : "上レフトアングル(合成可能), 開放が聞こえない",
          "name" : "COMBINING LEFT ANGLE ABOVE"
       },
       "031B" : {
          "name" : "COMBINING HORN"
       },
       "031C" : {
+         "ja_name" : "下レフトハーフリング(合成可能), より円唇性の弱い",
          "name" : "COMBINING LEFT HALF RING BELOW"
       },
       "031D" : {
+         "ja_name" : "下アップタック(合成可能), 高舌の",
          "name" : "COMBINING UP TACK BELOW"
       },
       "031E" : {
+         "ja_name" : "下ダウンタック(合成可能), 低舌の",
          "name" : "COMBINING DOWN TACK BELOW"
       },
       "031F" : {
+         "ja_name" : "下プラス(合成可能), 前寄りの",
          "name" : "COMBINING PLUS SIGN BELOW"
       },
       "0320" : {
+         "ja_name" : "下マイナス(合成可能), 後ろ寄りの",
          "name" : "COMBINING MINUS SIGN BELOW"
       },
       "0321" : {
@@ -4135,9 +4592,11 @@
          "name" : "COMBINING DOT BELOW"
       },
       "0324" : {
+         "ja_name" : "下ダイエレシス(合成可能), かすれ音",
          "name" : "COMBINING DIAERESIS BELOW"
       },
       "0325" : {
+         "ja_name" : "下リング(合成可能), 無声",
          "name" : "COMBINING RING BELOW"
       },
       "0326" : {
@@ -4150,15 +4609,18 @@
          "name" : "COMBINING OGONEK"
       },
       "0329" : {
+         "ja_name" : "下縦線(合成可能), 音節主音的",
          "name" : "COMBINING VERTICAL LINE BELOW"
       },
       "032A" : {
+         "ja_name" : "下ブリッジ(合成可能), 歯",
          "name" : "COMBINING BRIDGE BELOW"
       },
       "032B" : {
          "name" : "COMBINING INVERTED DOUBLE ARCH BELOW"
       },
       "032C" : {
+         "ja_name" : "下キャロン(合成可能), 有声",
          "name" : "COMBINING CARON BELOW"
       },
       "032D" : {
@@ -4168,9 +4630,11 @@
          "name" : "COMBINING BREVE BELOW"
       },
       "032F" : {
+         "ja_name" : "下インバーテッドブリーブ(合成可能), 音節副音的",
          "name" : "COMBINING INVERTED BREVE BELOW"
       },
       "0330" : {
+         "ja_name" : "下チルド(合成可能), きしみ音",
          "name" : "COMBINING TILDE BELOW"
       },
       "0331" : {
@@ -4183,6 +4647,7 @@
          "name" : "COMBINING DOUBLE LOW LINE"
       },
       "0334" : {
+         "ja_name" : "チルドオーバレイ(合成可能), 軟口蓋化あるいは咽頭化",
          "name" : "COMBINING TILDE OVERLAY"
       },
       "0335" : {
@@ -4198,18 +4663,23 @@
          "name" : "COMBINING LONG SOLIDUS OVERLAY"
       },
       "0339" : {
+         "ja_name" : "下ライトハーフリング(合成可能), より円唇性の強い",
          "name" : "COMBINING RIGHT HALF RING BELOW"
       },
       "033A" : {
+         "ja_name" : "下インバーテッドブリッジ(合成可能), 舌先的",
          "name" : "COMBINING INVERTED BRIDGE BELOW"
       },
       "033B" : {
+         "ja_name" : "下スクエア(合成可能), 舌端的",
          "name" : "COMBINING SQUARE BELOW"
       },
       "033C" : {
+         "ja_name" : "下シーガル(合成可能), 舌先端唇音",
          "name" : "COMBINING SEAGULL BELOW"
       },
       "033D" : {
+         "ja_name" : "上X(合成可能), 中段中舌母音化",
          "name" : "COMBINING X ABOVE"
       },
       "033E" : {
@@ -4321,6 +4791,7 @@
          "name" : "COMBINING DOUBLE TILDE"
       },
       "0361" : {
+         "ja_name" : "ダブルインバーテッドブリーブ(合成可能), 破擦音又は二重調音記号",
          "name" : "COMBINING DOUBLE INVERTED BREVE"
       },
       "0362" : {
@@ -4438,75 +4909,99 @@
          "name" : "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS"
       },
       "0391" : {
+         "ja_name" : "ギリシア大文字ALPHA",
          "name" : "GREEK CAPITAL LETTER ALPHA"
       },
       "0392" : {
+         "ja_name" : "ギリシア大文字BETA",
          "name" : "GREEK CAPITAL LETTER BETA"
       },
       "0393" : {
+         "ja_name" : "ギリシア大文字GAMMA",
          "name" : "GREEK CAPITAL LETTER GAMMA"
       },
       "0394" : {
+         "ja_name" : "ギリシア大文字DELTA",
          "name" : "GREEK CAPITAL LETTER DELTA"
       },
       "0395" : {
+         "ja_name" : "ギリシア大文字EPSILON",
          "name" : "GREEK CAPITAL LETTER EPSILON"
       },
       "0396" : {
+         "ja_name" : "ギリシア大文字ZETA",
          "name" : "GREEK CAPITAL LETTER ZETA"
       },
       "0397" : {
+         "ja_name" : "ギリシア大文字ETA",
          "name" : "GREEK CAPITAL LETTER ETA"
       },
       "0398" : {
+         "ja_name" : "ギリシア大文字THETA",
          "name" : "GREEK CAPITAL LETTER THETA"
       },
       "0399" : {
+         "ja_name" : "ギリシア大文字IOTA",
          "name" : "GREEK CAPITAL LETTER IOTA"
       },
       "039A" : {
+         "ja_name" : "ギリシア大文字KAPPA",
          "name" : "GREEK CAPITAL LETTER KAPPA"
       },
       "039B" : {
+         "ja_name" : "ギリシア大文字LAMBDA",
          "name" : "GREEK CAPITAL LETTER LAMDA"
       },
       "039C" : {
+         "ja_name" : "ギリシア大文字MU",
          "name" : "GREEK CAPITAL LETTER MU"
       },
       "039D" : {
+         "ja_name" : "ギリシア大文字NU",
          "name" : "GREEK CAPITAL LETTER NU"
       },
       "039E" : {
+         "ja_name" : "ギリシア大文字XI",
          "name" : "GREEK CAPITAL LETTER XI"
       },
       "039F" : {
+         "ja_name" : "ギリシア大文字OMICRON",
          "name" : "GREEK CAPITAL LETTER OMICRON"
       },
       "03A0" : {
+         "ja_name" : "ギリシア大文字PI",
          "name" : "GREEK CAPITAL LETTER PI"
       },
       "03A1" : {
+         "ja_name" : "ギリシア大文字RHO",
          "name" : "GREEK CAPITAL LETTER RHO"
       },
       "03A3" : {
+         "ja_name" : "ギリシア大文字SIGMA",
          "name" : "GREEK CAPITAL LETTER SIGMA"
       },
       "03A4" : {
+         "ja_name" : "ギリシア大文字TAU",
          "name" : "GREEK CAPITAL LETTER TAU"
       },
       "03A5" : {
+         "ja_name" : "ギリシア大文字UPSILON",
          "name" : "GREEK CAPITAL LETTER UPSILON"
       },
       "03A6" : {
+         "ja_name" : "ギリシア大文字PHI",
          "name" : "GREEK CAPITAL LETTER PHI"
       },
       "03A7" : {
+         "ja_name" : "ギリシア大文字CHI",
          "name" : "GREEK CAPITAL LETTER CHI"
       },
       "03A8" : {
+         "ja_name" : "ギリシア大文字PSI",
          "name" : "GREEK CAPITAL LETTER PSI"
       },
       "03A9" : {
+         "ja_name" : "ギリシア大文字OMEGA",
          "name" : "GREEK CAPITAL LETTER OMEGA"
       },
       "03AA" : {
@@ -4531,78 +5026,103 @@
          "name" : "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS"
       },
       "03B1" : {
+         "ja_name" : "ギリシア小文字ALPHA",
          "name" : "GREEK SMALL LETTER ALPHA"
       },
       "03B2" : {
+         "ja_name" : "ギリシア小文字BETA",
          "name" : "GREEK SMALL LETTER BETA"
       },
       "03B3" : {
+         "ja_name" : "ギリシア小文字GAMMA",
          "name" : "GREEK SMALL LETTER GAMMA"
       },
       "03B4" : {
+         "ja_name" : "ギリシア小文字DELTA",
          "name" : "GREEK SMALL LETTER DELTA"
       },
       "03B5" : {
+         "ja_name" : "ギリシア小文字EPSILON",
          "name" : "GREEK SMALL LETTER EPSILON"
       },
       "03B6" : {
+         "ja_name" : "ギリシア小文字ZETA",
          "name" : "GREEK SMALL LETTER ZETA"
       },
       "03B7" : {
+         "ja_name" : "ギリシア小文字ETA",
          "name" : "GREEK SMALL LETTER ETA"
       },
       "03B8" : {
+         "ja_name" : "ギリシア小文字THETA",
          "name" : "GREEK SMALL LETTER THETA"
       },
       "03B9" : {
+         "ja_name" : "ギリシア小文字IOTA",
          "name" : "GREEK SMALL LETTER IOTA"
       },
       "03BA" : {
+         "ja_name" : "ギリシア小文字KAPPA",
          "name" : "GREEK SMALL LETTER KAPPA"
       },
       "03BB" : {
+         "ja_name" : "ギリシア小文字LAMBDA",
          "name" : "GREEK SMALL LETTER LAMDA"
       },
       "03BC" : {
+         "ja_name" : "ギリシア小文字MU",
          "name" : "GREEK SMALL LETTER MU"
       },
       "03BD" : {
+         "ja_name" : "ギリシア小文字NU",
          "name" : "GREEK SMALL LETTER NU"
       },
       "03BE" : {
+         "ja_name" : "ギリシア小文字XI",
          "name" : "GREEK SMALL LETTER XI"
       },
       "03BF" : {
+         "ja_name" : "ギリシア小文字OMICRON",
          "name" : "GREEK SMALL LETTER OMICRON"
       },
       "03C0" : {
+         "ja_name" : "ギリシア小文字PI",
          "name" : "GREEK SMALL LETTER PI"
       },
       "03C1" : {
+         "ja_name" : "ギリシア小文字RHO",
          "name" : "GREEK SMALL LETTER RHO"
       },
       "03C2" : {
+         "ja_name" : "ギリシア小文字ファイナルSIGMA",
          "name" : "GREEK SMALL LETTER FINAL SIGMA"
       },
       "03C3" : {
+         "ja_name" : "ギリシア小文字SIGMA",
          "name" : "GREEK SMALL LETTER SIGMA"
       },
       "03C4" : {
+         "ja_name" : "ギリシア小文字TAU",
          "name" : "GREEK SMALL LETTER TAU"
       },
       "03C5" : {
+         "ja_name" : "ギリシア小文字UPSILON",
          "name" : "GREEK SMALL LETTER UPSILON"
       },
       "03C6" : {
+         "ja_name" : "ギリシア小文字PHI",
          "name" : "GREEK SMALL LETTER PHI"
       },
       "03C7" : {
+         "ja_name" : "ギリシア小文字CHI",
          "name" : "GREEK SMALL LETTER CHI"
       },
       "03C8" : {
+         "ja_name" : "ギリシア小文字PSI",
          "name" : "GREEK SMALL LETTER PSI"
       },
       "03C9" : {
+         "ja_name" : "ギリシア小文字OMEGA",
          "name" : "GREEK SMALL LETTER OMEGA"
       },
       "03CA" : {
@@ -4771,6 +5291,7 @@
          "name" : "CYRILLIC CAPITAL LETTER IE WITH GRAVE"
       },
       "0401" : {
+         "ja_name" : "キリール大文字IO",
          "name" : "CYRILLIC CAPITAL LETTER IO"
       },
       "0402" : {
@@ -4816,201 +5337,266 @@
          "name" : "CYRILLIC CAPITAL LETTER DZHE"
       },
       "0410" : {
+         "ja_name" : "キリール大文字A",
          "name" : "CYRILLIC CAPITAL LETTER A"
       },
       "0411" : {
+         "ja_name" : "キリール大文字BE",
          "name" : "CYRILLIC CAPITAL LETTER BE"
       },
       "0412" : {
+         "ja_name" : "キリール大文字VE",
          "name" : "CYRILLIC CAPITAL LETTER VE"
       },
       "0413" : {
+         "ja_name" : "キリール大文字GHE",
          "name" : "CYRILLIC CAPITAL LETTER GHE"
       },
       "0414" : {
+         "ja_name" : "キリール大文字DE",
          "name" : "CYRILLIC CAPITAL LETTER DE"
       },
       "0415" : {
+         "ja_name" : "キリール大文字IE",
          "name" : "CYRILLIC CAPITAL LETTER IE"
       },
       "0416" : {
+         "ja_name" : "キリール大文字ZHE",
          "name" : "CYRILLIC CAPITAL LETTER ZHE"
       },
       "0417" : {
+         "ja_name" : "キリール大文字ZE",
          "name" : "CYRILLIC CAPITAL LETTER ZE"
       },
       "0418" : {
+         "ja_name" : "キリール大文字I",
          "name" : "CYRILLIC CAPITAL LETTER I"
       },
       "0419" : {
+         "ja_name" : "キリール大文字SHORT I",
          "name" : "CYRILLIC CAPITAL LETTER SHORT I"
       },
       "041A" : {
+         "ja_name" : "キリール大文字KA",
          "name" : "CYRILLIC CAPITAL LETTER KA"
       },
       "041B" : {
+         "ja_name" : "キリール大文字EL",
          "name" : "CYRILLIC CAPITAL LETTER EL"
       },
       "041C" : {
+         "ja_name" : "キリール大文字EM",
          "name" : "CYRILLIC CAPITAL LETTER EM"
       },
       "041D" : {
+         "ja_name" : "キリール大文字EN",
          "name" : "CYRILLIC CAPITAL LETTER EN"
       },
       "041E" : {
+         "ja_name" : "キリール大文字O",
          "name" : "CYRILLIC CAPITAL LETTER O"
       },
       "041F" : {
+         "ja_name" : "キリール大文字PE",
          "name" : "CYRILLIC CAPITAL LETTER PE"
       },
       "0420" : {
+         "ja_name" : "キリール大文字ER",
          "name" : "CYRILLIC CAPITAL LETTER ER"
       },
       "0421" : {
+         "ja_name" : "キリール大文字ES",
          "name" : "CYRILLIC CAPITAL LETTER ES"
       },
       "0422" : {
+         "ja_name" : "キリール大文字TE",
          "name" : "CYRILLIC CAPITAL LETTER TE"
       },
       "0423" : {
+         "ja_name" : "キリール大文字U",
          "name" : "CYRILLIC CAPITAL LETTER U"
       },
       "0424" : {
+         "ja_name" : "キリール大文字EF",
          "name" : "CYRILLIC CAPITAL LETTER EF"
       },
       "0425" : {
+         "ja_name" : "キリール大文字HA",
          "name" : "CYRILLIC CAPITAL LETTER HA"
       },
       "0426" : {
+         "ja_name" : "キリール大文字TSE",
          "name" : "CYRILLIC CAPITAL LETTER TSE"
       },
       "0427" : {
+         "ja_name" : "キリール大文字CHE",
          "name" : "CYRILLIC CAPITAL LETTER CHE"
       },
       "0428" : {
+         "ja_name" : "キリール大文字SHA",
          "name" : "CYRILLIC CAPITAL LETTER SHA"
       },
       "0429" : {
+         "ja_name" : "キリール大文字SHCHA",
          "name" : "CYRILLIC CAPITAL LETTER SHCHA"
       },
       "042A" : {
+         "ja_name" : "キリール大文字HARD SIGN",
          "name" : "CYRILLIC CAPITAL LETTER HARD SIGN"
       },
       "042B" : {
+         "ja_name" : "キリール大文字YERU",
          "name" : "CYRILLIC CAPITAL LETTER YERU"
       },
       "042C" : {
+         "ja_name" : "キリール大文字SOFT SIGN",
          "name" : "CYRILLIC CAPITAL LETTER SOFT SIGN"
       },
       "042D" : {
+         "ja_name" : "キリール大文字E",
          "name" : "CYRILLIC CAPITAL LETTER E"
       },
       "042E" : {
+         "ja_name" : "キリール大文字YU",
          "name" : "CYRILLIC CAPITAL LETTER YU"
       },
       "042F" : {
+         "ja_name" : "キリール大文字YA",
          "name" : "CYRILLIC CAPITAL LETTER YA"
       },
       "0430" : {
+         "ja_name" : "キリール小文字A",
          "name" : "CYRILLIC SMALL LETTER A"
       },
       "0431" : {
+         "ja_name" : "キリール小文字BE",
          "name" : "CYRILLIC SMALL LETTER BE"
       },
       "0432" : {
+         "ja_name" : "キリール小文字VE",
          "name" : "CYRILLIC SMALL LETTER VE"
       },
       "0433" : {
+         "ja_name" : "キリール小文字GHE",
          "name" : "CYRILLIC SMALL LETTER GHE"
       },
       "0434" : {
+         "ja_name" : "キリール小文字DE",
          "name" : "CYRILLIC SMALL LETTER DE"
       },
       "0435" : {
+         "ja_name" : "キリール小文字IE",
          "name" : "CYRILLIC SMALL LETTER IE"
       },
       "0436" : {
+         "ja_name" : "キリール小文字ZHE",
          "name" : "CYRILLIC SMALL LETTER ZHE"
       },
       "0437" : {
+         "ja_name" : "キリール小文字ZE",
          "name" : "CYRILLIC SMALL LETTER ZE"
       },
       "0438" : {
+         "ja_name" : "キリール小文字I",
          "name" : "CYRILLIC SMALL LETTER I"
       },
       "0439" : {
+         "ja_name" : "キリール小文字SHORT I",
          "name" : "CYRILLIC SMALL LETTER SHORT I"
       },
       "043A" : {
+         "ja_name" : "キリール小文字KA",
          "name" : "CYRILLIC SMALL LETTER KA"
       },
       "043B" : {
+         "ja_name" : "キリール小文字EL",
          "name" : "CYRILLIC SMALL LETTER EL"
       },
       "043C" : {
+         "ja_name" : "キリール小文字EM",
          "name" : "CYRILLIC SMALL LETTER EM"
       },
       "043D" : {
+         "ja_name" : "キリール小文字EN",
          "name" : "CYRILLIC SMALL LETTER EN"
       },
       "043E" : {
+         "ja_name" : "キリール小文字O",
          "name" : "CYRILLIC SMALL LETTER O"
       },
       "043F" : {
+         "ja_name" : "キリール小文字PE",
          "name" : "CYRILLIC SMALL LETTER PE"
       },
       "0440" : {
+         "ja_name" : "キリール小文字ER",
          "name" : "CYRILLIC SMALL LETTER ER"
       },
       "0441" : {
+         "ja_name" : "キリール小文字ES",
          "name" : "CYRILLIC SMALL LETTER ES"
       },
       "0442" : {
+         "ja_name" : "キリール小文字TE",
          "name" : "CYRILLIC SMALL LETTER TE"
       },
       "0443" : {
+         "ja_name" : "キリール小文字U",
          "name" : "CYRILLIC SMALL LETTER U"
       },
       "0444" : {
+         "ja_name" : "キリール小文字EF",
          "name" : "CYRILLIC SMALL LETTER EF"
       },
       "0445" : {
+         "ja_name" : "キリール小文字HA",
          "name" : "CYRILLIC SMALL LETTER HA"
       },
       "0446" : {
+         "ja_name" : "キリール小文字TSE",
          "name" : "CYRILLIC SMALL LETTER TSE"
       },
       "0447" : {
+         "ja_name" : "キリール小文字CHE",
          "name" : "CYRILLIC SMALL LETTER CHE"
       },
       "0448" : {
+         "ja_name" : "キリール小文字SHA",
          "name" : "CYRILLIC SMALL LETTER SHA"
       },
       "0449" : {
+         "ja_name" : "キリール小文字SHCHA",
          "name" : "CYRILLIC SMALL LETTER SHCHA"
       },
       "044A" : {
+         "ja_name" : "キリール小文字HARD SIGN",
          "name" : "CYRILLIC SMALL LETTER HARD SIGN"
       },
       "044B" : {
+         "ja_name" : "キリール小文字YERU",
          "name" : "CYRILLIC SMALL LETTER YERU"
       },
       "044C" : {
+         "ja_name" : "キリール小文字SOFT SIGN",
          "name" : "CYRILLIC SMALL LETTER SOFT SIGN"
       },
       "044D" : {
+         "ja_name" : "キリール小文字E",
          "name" : "CYRILLIC SMALL LETTER E"
       },
       "044E" : {
+         "ja_name" : "キリール小文字YU",
          "name" : "CYRILLIC SMALL LETTER YU"
       },
       "044F" : {
+         "ja_name" : "キリール小文字YA",
          "name" : "CYRILLIC SMALL LETTER YA"
       },
       "0450" : {
          "name" : "CYRILLIC SMALL LETTER IE WITH GRAVE"
       },
       "0451" : {
+         "ja_name" : "キリール小文字IO",
          "name" : "CYRILLIC SMALL LETTER IO"
       },
       "0452" : {
@@ -39934,9 +40520,11 @@
          "name" : "LATIN SMALL LETTER L WITH CIRCUMFLEX BELOW"
       },
       "1E3E" : {
+         "ja_name" : "アキュートアクセント付きM",
          "name" : "LATIN CAPITAL LETTER M WITH ACUTE"
       },
       "1E3F" : {
+         "ja_name" : "アキュートアクセント付きM小文字",
          "name" : "LATIN SMALL LETTER M WITH ACUTE"
       },
       "1E40" : {
@@ -44575,6 +45163,7 @@
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI"
       },
       "1F70" : {
+         "ja_name" : "グレーブアクセント付きスクリプトA小文字",
          "name" : "GREEK SMALL LETTER ALPHA WITH VARIA"
       },
       "1F700" : {
@@ -44626,6 +45215,7 @@
          "name" : "ALCHEMICAL SYMBOL FOR BLACK SULFUR"
       },
       "1F71" : {
+         "ja_name" : "アキュートアクセント付きスクリプトA小文字",
          "name" : "GREEK SMALL LETTER ALPHA WITH OXIA"
       },
       "1F710" : {
@@ -44677,6 +45267,7 @@
          "name" : "ALCHEMICAL SYMBOL FOR REGULUS OF IRON"
       },
       "1F72" : {
+         "ja_name" : "グレーブアクセント付きEPSILON小文字",
          "name" : "GREEK SMALL LETTER EPSILON WITH VARIA"
       },
       "1F720" : {
@@ -44728,6 +45319,7 @@
          "name" : "ALCHEMICAL SYMBOL FOR VINEGAR OF ANTIMONY"
       },
       "1F73" : {
+         "ja_name" : "アキュートアクセント付きEPSILON小文字",
          "name" : "GREEK SMALL LETTER EPSILON WITH OXIA"
       },
       "1F730" : {
@@ -45391,6 +45983,7 @@
          "name" : "RIGHT-TO-LEFT MARK"
       },
       "2010" : {
+         "ja_name" : "ハイフン(四分)",
          "name" : "HYPHEN"
       },
       "2011" : {
@@ -45400,24 +45993,29 @@
          "name" : "FIGURE DASH"
       },
       "2013" : {
+         "ja_name" : "二分ダーシ, ダッシュ(二分)",
          "name" : "EN DASH"
       },
       "2014" : {
+         "ja_name" : "ダッシュ(全角)",
          "name" : "EM DASH"
       },
       "2015" : {
          "name" : "HORIZONTAL BAR"
       },
       "2016" : {
+         "ja_name" : "双柱",
          "name" : "DOUBLE VERTICAL LINE"
       },
       "2017" : {
          "name" : "DOUBLE LOW LINE"
       },
       "2018" : {
+         "ja_name" : "左シングル引用符, 左シングルクォーテーションマーク",
          "name" : "LEFT SINGLE QUOTATION MARK"
       },
       "2019" : {
+         "ja_name" : "右シングル引用符, 右シングルクォーテーションマーク",
          "name" : "RIGHT SINGLE QUOTATION MARK"
       },
       "201A" : {
@@ -45427,9 +46025,11 @@
          "name" : "SINGLE HIGH-REVERSED-9 QUOTATION MARK"
       },
       "201C" : {
+         "ja_name" : "左ダブル引用符, 左ダブルクォーテーションマーク",
          "name" : "LEFT DOUBLE QUOTATION MARK"
       },
       "201D" : {
+         "ja_name" : "右ダブル引用符, 右ダブルクォーテーションマーク",
          "name" : "RIGHT DOUBLE QUOTATION MARK"
       },
       "201E" : {
@@ -45439,12 +46039,15 @@
          "name" : "DOUBLE HIGH-REVERSED-9 QUOTATION MARK"
       },
       "2020" : {
+         "ja_name" : "ダガー",
          "name" : "DAGGER"
       },
       "2021" : {
+         "ja_name" : "ダブルダガー",
          "name" : "DOUBLE DAGGER"
       },
       "2022" : {
+         "ja_name" : "ビュレット",
          "name" : "BULLET"
       },
       "2023" : {
@@ -45454,9 +46057,11 @@
          "name" : "ONE DOT LEADER"
       },
       "2025" : {
+         "ja_name" : "二点リーダ",
          "name" : "TWO DOT LEADER"
       },
       "2026" : {
+         "ja_name" : "三点リーダ",
          "name" : "HORIZONTAL ELLIPSIS"
       },
       "2027" : {
@@ -45505,15 +46110,18 @@
          "name" : "NARROW NO-BREAK SPACE"
       },
       "2030" : {
+         "ja_name" : "パーミル",
          "name" : "PER MILLE SIGN"
       },
       "2031" : {
          "name" : "PER TEN THOUSAND SIGN"
       },
       "2032" : {
+         "ja_name" : "分",
          "name" : "PRIME"
       },
       "2033" : {
+         "ja_name" : "秒",
          "name" : "DOUBLE PRIME"
       },
       "2034" : {
@@ -45538,18 +46146,22 @@
          "name" : "SINGLE RIGHT-POINTING ANGLE QUOTATION MARK"
       },
       "203B" : {
+         "ja_name" : "米印",
          "name" : "REFERENCE MARK"
       },
       "203C" : {
+         "ja_name" : "感嘆符二つ",
          "name" : "DOUBLE EXCLAMATION MARK"
       },
       "203D" : {
          "name" : "INTERROBANG"
       },
       "203E" : {
+         "ja_name" : "オーバーライン, 論理否定記号",
          "name" : "OVERLINE"
       },
       "203F" : {
+         "ja_name" : "連結している",
          "name" : "UNDERTIE"
       },
       "2040" : {
@@ -45559,6 +46171,7 @@
          "name" : "CARET INSERTION POINT"
       },
       "2042" : {
+         "ja_name" : "アステリズム",
          "name" : "ASTERISM"
       },
       "2043" : {
@@ -45574,12 +46187,15 @@
          "name" : "RIGHT SQUARE BRACKET WITH QUILL"
       },
       "2047" : {
+         "ja_name" : "疑問符二つ",
          "name" : "DOUBLE QUESTION MARK"
       },
       "2048" : {
+         "ja_name" : "疑問符感嘆符",
          "name" : "QUESTION EXCLAMATION MARK"
       },
       "2049" : {
+         "ja_name" : "感嘆符疑問符",
          "name" : "EXCLAMATION QUESTION MARK"
       },
       "204A" : {
@@ -45604,6 +46220,7 @@
          "name" : "CLOSE UP"
       },
       "2051" : {
+         "ja_name" : "ダブルアステ",
          "name" : "TWO ASTERISKS ALIGNED VERTICALLY"
       },
       "2052" : {
@@ -45874,6 +46491,7 @@
          "name" : "DONG SIGN"
       },
       "20AC" : {
+         "ja_name" : "ユーロ記号",
          "name" : "EURO SIGN"
       },
       "20AD" : {
@@ -46027,6 +46645,7 @@
          "name" : "DOUBLE-STRUCK CAPITAL C"
       },
       "2103" : {
+         "ja_name" : "セ氏度記号",
          "name" : "DEGREE CELSIUS"
       },
       "2104" : {
@@ -46063,6 +46682,7 @@
          "name" : "PLANCK CONSTANT"
       },
       "210F" : {
+         "ja_name" : "エイチバー",
          "name" : "PLANCK CONSTANT OVER TWO PI"
       },
       "2110" : {
@@ -46075,6 +46695,7 @@
          "name" : "SCRIPT CAPITAL L"
       },
       "2113" : {
+         "ja_name" : "リットル",
          "name" : "SCRIPT SMALL L"
       },
       "2114" : {
@@ -46084,6 +46705,7 @@
          "name" : "DOUBLE-STRUCK CAPITAL N"
       },
       "2116" : {
+         "ja_name" : "全角NO",
          "name" : "NUMERO SIGN"
       },
       "2117" : {
@@ -46120,6 +46742,7 @@
          "name" : "SERVICE MARK"
       },
       "2121" : {
+         "ja_name" : "全角TEL",
          "name" : "TELEPHONE SIGN"
       },
       "2122" : {
@@ -46138,6 +46761,7 @@
          "name" : "OHM SIGN"
       },
       "2127" : {
+         "ja_name" : "モー",
          "name" : "INVERTED OHM SIGN"
       },
       "2128" : {
@@ -46150,6 +46774,7 @@
          "name" : "KELVIN SIGN"
       },
       "212B" : {
+         "ja_name" : "オングストローム",
          "name" : "ANGSTROM SIGN"
       },
       "212C" : {
@@ -46180,6 +46805,7 @@
          "name" : "SCRIPT SMALL O"
       },
       "2135" : {
+         "ja_name" : "アレフ",
          "name" : "ALEF SYMBOL"
       },
       "2136" : {
@@ -46270,12 +46896,15 @@
          "name" : "VULGAR FRACTION ONE TENTH"
       },
       "2153" : {
+         "ja_name" : "3分の1",
          "name" : "VULGAR FRACTION ONE THIRD"
       },
       "2154" : {
+         "ja_name" : "3分の2",
          "name" : "VULGAR FRACTION TWO THIRDS"
       },
       "2155" : {
+         "ja_name" : "5分の1",
          "name" : "VULGAR FRACTION ONE FIFTH"
       },
       "2156" : {
@@ -46309,39 +46938,51 @@
          "name" : "FRACTION NUMERATOR ONE"
       },
       "2160" : {
+         "ja_name" : "ローマ数字1",
          "name" : "ROMAN NUMERAL ONE"
       },
       "2161" : {
+         "ja_name" : "ローマ数字2",
          "name" : "ROMAN NUMERAL TWO"
       },
       "2162" : {
+         "ja_name" : "ローマ数字3",
          "name" : "ROMAN NUMERAL THREE"
       },
       "2163" : {
+         "ja_name" : "ローマ数字4",
          "name" : "ROMAN NUMERAL FOUR"
       },
       "2164" : {
+         "ja_name" : "ローマ数字5",
          "name" : "ROMAN NUMERAL FIVE"
       },
       "2165" : {
+         "ja_name" : "ローマ数字6",
          "name" : "ROMAN NUMERAL SIX"
       },
       "2166" : {
+         "ja_name" : "ローマ数字7",
          "name" : "ROMAN NUMERAL SEVEN"
       },
       "2167" : {
+         "ja_name" : "ローマ数字8",
          "name" : "ROMAN NUMERAL EIGHT"
       },
       "2168" : {
+         "ja_name" : "ローマ数字9",
          "name" : "ROMAN NUMERAL NINE"
       },
       "2169" : {
+         "ja_name" : "ローマ数字10",
          "name" : "ROMAN NUMERAL TEN"
       },
       "216A" : {
+         "ja_name" : "ローマ数字11",
          "name" : "ROMAN NUMERAL ELEVEN"
       },
       "216B" : {
+         "ja_name" : "ローマ数字12",
          "name" : "ROMAN NUMERAL TWELVE"
       },
       "216C" : {
@@ -46357,39 +46998,51 @@
          "name" : "ROMAN NUMERAL ONE THOUSAND"
       },
       "2170" : {
+         "ja_name" : "ローマ数字1小文字",
          "name" : "SMALL ROMAN NUMERAL ONE"
       },
       "2171" : {
+         "ja_name" : "ローマ数字2小文字",
          "name" : "SMALL ROMAN NUMERAL TWO"
       },
       "2172" : {
+         "ja_name" : "ローマ数字3小文字",
          "name" : "SMALL ROMAN NUMERAL THREE"
       },
       "2173" : {
+         "ja_name" : "ローマ数字4小文字",
          "name" : "SMALL ROMAN NUMERAL FOUR"
       },
       "2174" : {
+         "ja_name" : "ローマ数字5小文字",
          "name" : "SMALL ROMAN NUMERAL FIVE"
       },
       "2175" : {
+         "ja_name" : "ローマ数字6小文字",
          "name" : "SMALL ROMAN NUMERAL SIX"
       },
       "2176" : {
+         "ja_name" : "ローマ数字7小文字",
          "name" : "SMALL ROMAN NUMERAL SEVEN"
       },
       "2177" : {
+         "ja_name" : "ローマ数字8小文字",
          "name" : "SMALL ROMAN NUMERAL EIGHT"
       },
       "2178" : {
+         "ja_name" : "ローマ数字9小文字",
          "name" : "SMALL ROMAN NUMERAL NINE"
       },
       "2179" : {
+         "ja_name" : "ローマ数字10小文字",
          "name" : "SMALL ROMAN NUMERAL TEN"
       },
       "217A" : {
+         "ja_name" : "ローマ数字11小文字",
          "name" : "SMALL ROMAN NUMERAL ELEVEN"
       },
       "217B" : {
+         "ja_name" : "ローマ数字12小文字",
          "name" : "SMALL ROMAN NUMERAL TWELVE"
       },
       "217C" : {
@@ -46435,33 +47088,42 @@
          "name" : "VULGAR FRACTION ZERO THIRDS"
       },
       "2190" : {
+         "ja_name" : "左向矢印",
          "name" : "LEFTWARDS ARROW"
       },
       "2191" : {
+         "ja_name" : "上向矢印",
          "name" : "UPWARDS ARROW"
       },
       "2192" : {
+         "ja_name" : "右向矢印",
          "name" : "RIGHTWARDS ARROW"
       },
       "2193" : {
+         "ja_name" : "下向矢印",
          "name" : "DOWNWARDS ARROW"
       },
       "2194" : {
+         "ja_name" : "同等",
          "name" : "LEFT RIGHT ARROW"
       },
       "2195" : {
          "name" : "UP DOWN ARROW"
       },
       "2196" : {
+         "ja_name" : "左上向矢印",
          "name" : "NORTH WEST ARROW"
       },
       "2197" : {
+         "ja_name" : "右上向矢印",
          "name" : "NORTH EAST ARROW"
       },
       "2198" : {
+         "ja_name" : "右下向矢印",
          "name" : "SOUTH EAST ARROW"
       },
       "2199" : {
+         "ja_name" : "左下向矢印",
          "name" : "SOUTH WEST ARROW"
       },
       "219A" : {
@@ -46591,6 +47253,7 @@
          "name" : "DOWNWARDS HARPOON WITH BARB LEFTWARDS"
       },
       "21C4" : {
+         "ja_name" : "右矢印左矢印",
          "name" : "RIGHTWARDS ARROW OVER LEFTWARDS ARROW"
       },
       "21C5" : {
@@ -46633,12 +47296,14 @@
          "name" : "UPWARDS DOUBLE ARROW"
       },
       "21D2" : {
+         "ja_name" : "ならば(含意)",
          "name" : "RIGHTWARDS DOUBLE ARROW"
       },
       "21D3" : {
          "name" : "DOWNWARDS DOUBLE ARROW"
       },
       "21D4" : {
+         "ja_name" : "同値",
          "name" : "LEFT RIGHT DOUBLE ARROW"
       },
       "21D5" : {
@@ -46693,15 +47358,19 @@
          "name" : "RIGHTWARDS ARROW TO BAR"
       },
       "21E6" : {
+         "ja_name" : "左向白矢印",
          "name" : "LEFTWARDS WHITE ARROW"
       },
       "21E7" : {
+         "ja_name" : "上向白矢印",
          "name" : "UPWARDS WHITE ARROW"
       },
       "21E8" : {
+         "ja_name" : "右向白矢印",
          "name" : "RIGHTWARDS WHITE ARROW"
       },
       "21E9" : {
+         "ja_name" : "下向白矢印",
          "name" : "DOWNWARDS WHITE ARROW"
       },
       "21EA" : {
@@ -46771,39 +47440,47 @@
          "name" : "LEFT RIGHT OPEN-HEADED ARROW"
       },
       "2200" : {
+         "ja_name" : "すべての(普通限定子)",
          "name" : "FOR ALL"
       },
       "2201" : {
          "name" : "COMPLEMENT"
       },
       "2202" : {
+         "ja_name" : "デル, ラウンドディー",
          "name" : "PARTIAL DIFFERENTIAL"
       },
       "2203" : {
+         "ja_name" : "存在する(存在限定子)",
          "name" : "THERE EXISTS"
       },
       "2204" : {
          "name" : "THERE DOES NOT EXIST"
       },
       "2205" : {
+         "ja_name" : "空集合",
          "name" : "EMPTY SET"
       },
       "2206" : {
          "name" : "INCREMENT"
       },
       "2207" : {
+         "ja_name" : "ナブラ",
          "name" : "NABLA"
       },
       "2208" : {
+         "ja_name" : "属する",
          "name" : "ELEMENT OF"
       },
       "2209" : {
+         "ja_name" : "要素の否定, 元の否定",
          "name" : "NOT AN ELEMENT OF"
       },
       "220A" : {
          "name" : "SMALL ELEMENT OF"
       },
       "220B" : {
+         "ja_name" : "元として含む",
          "name" : "CONTAINS AS MEMBER"
       },
       "220C" : {
@@ -46825,9 +47502,11 @@
          "name" : "N-ARY SUMMATION"
       },
       "2212" : {
+         "ja_name" : "負符号, 減算記号",
          "name" : "MINUS SIGN"
       },
       "2213" : {
+         "ja_name" : "負又は正符号",
          "name" : "MINUS-OR-PLUS SIGN"
       },
       "2214" : {
@@ -46849,6 +47528,7 @@
          "name" : "BULLET OPERATOR"
       },
       "221A" : {
+         "ja_name" : "根号",
          "name" : "SQUARE ROOT"
       },
       "221B" : {
@@ -46858,15 +47538,19 @@
          "name" : "FOURTH ROOT"
       },
       "221D" : {
+         "ja_name" : "比例",
          "name" : "PROPORTIONAL TO"
       },
       "221E" : {
+         "ja_name" : "無限大",
          "name" : "INFINITY"
       },
       "221F" : {
+         "ja_name" : "ファクトリアル, 直角",
          "name" : "RIGHT ANGLE"
       },
       "2220" : {
+         "ja_name" : "角",
          "name" : "ANGLE"
       },
       "2221" : {
@@ -46882,33 +47566,42 @@
          "name" : "DOES NOT DIVIDE"
       },
       "2225" : {
+         "ja_name" : "平行",
          "name" : "PARALLEL TO"
       },
       "2226" : {
+         "ja_name" : "平行の否定",
          "name" : "NOT PARALLEL TO"
       },
       "2227" : {
+         "ja_name" : "及び(合接)",
          "name" : "LOGICAL AND"
       },
       "2228" : {
+         "ja_name" : "又は(離接)",
          "name" : "LOGICAL OR"
       },
       "2229" : {
+         "ja_name" : "共通集合",
          "name" : "INTERSECTION"
       },
       "222A" : {
+         "ja_name" : "合併集合",
          "name" : "UNION"
       },
       "222B" : {
+         "ja_name" : "積分記号",
          "name" : "INTEGRAL"
       },
       "222C" : {
+         "ja_name" : "2重積分記号",
          "name" : "DOUBLE INTEGRAL"
       },
       "222D" : {
          "name" : "TRIPLE INTEGRAL"
       },
       "222E" : {
+         "ja_name" : "経路積分記号",
          "name" : "CONTOUR INTEGRAL"
       },
       "222F" : {
@@ -46927,9 +47620,11 @@
          "name" : "ANTICLOCKWISE CONTOUR INTEGRAL"
       },
       "2234" : {
+         "ja_name" : "ゆえに",
          "name" : "THEREFORE"
       },
       "2235" : {
+         "ja_name" : "なぜならば",
          "name" : "BECAUSE"
       },
       "2236" : {
@@ -46954,6 +47649,7 @@
          "name" : "TILDE OPERATOR"
       },
       "223D" : {
+         "ja_name" : "相似",
          "name" : "REVERSED TILDE"
       },
       "223E" : {
@@ -46972,12 +47668,14 @@
          "name" : "MINUS TILDE"
       },
       "2243" : {
+         "ja_name" : "漸進的に等しい, ホモトープ",
          "name" : "ASYMPTOTICALLY EQUAL TO"
       },
       "2244" : {
          "name" : "NOT ASYMPTOTICALLY EQUAL TO"
       },
       "2245" : {
+         "ja_name" : "同形",
          "name" : "APPROXIMATELY EQUAL TO"
       },
       "2246" : {
@@ -46987,6 +47685,7 @@
          "name" : "NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO"
       },
       "2248" : {
+         "ja_name" : "近似的に等しい, 同相",
          "name" : "ALMOST EQUAL TO"
       },
       "2249" : {
@@ -47017,6 +47716,7 @@
          "name" : "GEOMETRICALLY EQUAL TO"
       },
       "2252" : {
+         "ja_name" : "ほとんど等しい",
          "name" : "APPROXIMATELY EQUAL TO OR THE IMAGE OF"
       },
       "2253" : {
@@ -47059,12 +47759,15 @@
          "name" : "QUESTIONED EQUAL TO"
       },
       "2260" : {
+         "ja_name" : "等号否定",
          "name" : "NOT EQUAL TO"
       },
       "2261" : {
+         "ja_name" : "常に等しい, 合同",
          "name" : "IDENTICAL TO"
       },
       "2262" : {
+         "ja_name" : "合同否定",
          "name" : "NOT IDENTICAL TO"
       },
       "2263" : {
@@ -47077,9 +47780,11 @@
          "name" : "GREATER-THAN OR EQUAL TO"
       },
       "2266" : {
+         "ja_name" : "より小さいか又は等しい",
          "name" : "LESS-THAN OVER EQUAL TO"
       },
       "2267" : {
+         "ja_name" : "より大きいか又は等しい",
          "name" : "GREATER-THAN OVER EQUAL TO"
       },
       "2268" : {
@@ -47089,9 +47794,11 @@
          "name" : "GREATER-THAN BUT NOT EQUAL TO"
       },
       "226A" : {
+         "ja_name" : "非常に小さい",
          "name" : "MUCH LESS-THAN"
       },
       "226B" : {
+         "ja_name" : "非常に大きい",
          "name" : "MUCH GREATER-THAN"
       },
       "226C" : {
@@ -47125,9 +47832,11 @@
          "name" : "NEITHER GREATER-THAN NOR EQUIVALENT TO"
       },
       "2276" : {
+         "ja_name" : "小さいか大きい",
          "name" : "LESS-THAN OR GREATER-THAN"
       },
       "2277" : {
+         "ja_name" : "大きいか小さい",
          "name" : "GREATER-THAN OR LESS-THAN"
       },
       "2278" : {
@@ -47161,21 +47870,27 @@
          "name" : "DOES NOT SUCCEED"
       },
       "2282" : {
+         "ja_name" : "真部分集合",
          "name" : "SUBSET OF"
       },
       "2283" : {
+         "ja_name" : "真部分集合(逆方向)",
          "name" : "SUPERSET OF"
       },
       "2284" : {
+         "ja_name" : "部分集合の否定",
          "name" : "NOT A SUBSET OF"
       },
       "2285" : {
+         "ja_name" : "部分集合の否定(逆方向)",
          "name" : "NOT A SUPERSET OF"
       },
       "2286" : {
+         "ja_name" : "部分集合",
          "name" : "SUBSET OF OR EQUAL TO"
       },
       "2287" : {
+         "ja_name" : "部分集合(逆方向)",
          "name" : "SUPERSET OF OR EQUAL TO"
       },
       "2288" : {
@@ -47185,9 +47900,11 @@
          "name" : "NEITHER A SUPERSET OF NOR EQUAL TO"
       },
       "228A" : {
+         "ja_name" : "真部分集合2",
          "name" : "SUBSET OF WITH NOT EQUAL TO"
       },
       "228B" : {
+         "ja_name" : "真部分集合2(逆方向)",
          "name" : "SUPERSET OF WITH NOT EQUAL TO"
       },
       "228C" : {
@@ -47218,12 +47935,15 @@
          "name" : "SQUARE CUP"
       },
       "2295" : {
+         "ja_name" : "直和",
          "name" : "CIRCLED PLUS"
       },
       "2296" : {
+         "ja_name" : "丸付きマイナス",
          "name" : "CIRCLED MINUS"
       },
       "2297" : {
+         "ja_name" : "テンソル積",
          "name" : "CIRCLED TIMES"
       },
       "2298" : {
@@ -47266,6 +47986,7 @@
          "name" : "DOWN TACK"
       },
       "22A5" : {
+         "ja_name" : "垂直",
          "name" : "UP TACK"
       },
       "22A6" : {
@@ -47344,6 +48065,7 @@
          "name" : "RIGHT ANGLE WITH ARC"
       },
       "22BF" : {
+         "ja_name" : "直角三角",
          "name" : "RIGHT TRIANGLE"
       },
       "22C0" : {
@@ -47425,9 +48147,11 @@
          "name" : "VERY MUCH GREATER-THAN"
       },
       "22DA" : {
+         "ja_name" : "小さいか等しいか大きい",
          "name" : "LESS-THAN EQUAL TO OR GREATER-THAN"
       },
       "22DB" : {
+         "ja_name" : "大きいか等しいか小さい",
          "name" : "GREATER-THAN EQUAL TO OR LESS-THAN"
       },
       "22DC" : {
@@ -47554,9 +48278,11 @@
          "name" : "DOWN ARROWHEAD"
       },
       "2305" : {
+         "ja_name" : "射影的関係",
          "name" : "PROJECTIVE"
       },
       "2306" : {
+         "ja_name" : "背景的関係",
          "name" : "PERSPECTIVE"
       },
       "2307" : {
@@ -47593,6 +48319,7 @@
          "name" : "SQUARE LOZENGE"
       },
       "2312" : {
+         "ja_name" : "弧",
          "name" : "ARC"
       },
       "2313" : {
@@ -47611,6 +48338,7 @@
          "name" : "VIEWDATA SQUARE"
       },
       "2318" : {
+         "ja_name" : "コマンド記号",
          "name" : "PLACE OF INTEREST SIGN"
       },
       "2319" : {
@@ -48109,54 +48837,70 @@
          "name" : "HORIZONTAL SCAN LINE-9"
       },
       "23BE" : {
+         "ja_name" : "左上角素片",
          "name" : "DENTISTRY SYMBOL LIGHT VERTICAL AND TOP RIGHT"
       },
       "23BF" : {
+         "ja_name" : "左下角素片",
          "name" : "DENTISTRY SYMBOL LIGHT VERTICAL AND BOTTOM RIGHT"
       },
       "23C0" : {
+         "ja_name" : "丸付き縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT VERTICAL WITH CIRCLE"
       },
       "23C1" : {
+         "ja_name" : "丸付き上横縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT DOWN AND HORIZONTAL WITH CIRCLE"
       },
       "23C2" : {
+         "ja_name" : "丸付き下横縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT UP AND HORIZONTAL WITH CIRCLE"
       },
       "23C3" : {
+         "ja_name" : "三角付き縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT VERTICAL WITH TRIANGLE"
       },
       "23C4" : {
+         "ja_name" : "三角付き上横縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT DOWN AND HORIZONTAL WITH TRIANGLE"
       },
       "23C5" : {
+         "ja_name" : "三角付き下横縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT UP AND HORIZONTAL WITH TRIANGLE"
       },
       "23C6" : {
+         "ja_name" : "波付き縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT VERTICAL AND WAVE"
       },
       "23C7" : {
+         "ja_name" : "波付き上横縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT DOWN AND HORIZONTAL WITH WAVE"
       },
       "23C8" : {
+         "ja_name" : "波付き下横縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT UP AND HORIZONTAL WITH WAVE"
       },
       "23C9" : {
+         "ja_name" : "上横縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT DOWN AND HORIZONTAL"
       },
       "23CA" : {
+         "ja_name" : "下横縦線素片",
          "name" : "DENTISTRY SYMBOL LIGHT UP AND HORIZONTAL"
       },
       "23CB" : {
+         "ja_name" : "右上角素片",
          "name" : "DENTISTRY SYMBOL LIGHT VERTICAL AND TOP LEFT"
       },
       "23CC" : {
+         "ja_name" : "右下角素片",
          "name" : "DENTISTRY SYMBOL LIGHT VERTICAL AND BOTTOM LEFT"
       },
       "23CD" : {
          "name" : "SQUARE FOOT"
       },
       "23CE" : {
+         "ja_name" : "リターン記号",
          "name" : "RETURN SYMBOL"
       },
       "23CF" : {
@@ -48376,6 +49120,7 @@
          "name" : "BLANK SYMBOL"
       },
       "2423" : {
+         "ja_name" : "空白記号",
          "name" : "OPEN BOX"
       },
       "2424" : {
@@ -48427,63 +49172,83 @@
          "name" : "OCR DOUBLE BACKSLASH"
       },
       "2460" : {
+         "ja_name" : "丸1",
          "name" : "CIRCLED DIGIT ONE"
       },
       "2461" : {
+         "ja_name" : "丸2",
          "name" : "CIRCLED DIGIT TWO"
       },
       "2462" : {
+         "ja_name" : "丸3",
          "name" : "CIRCLED DIGIT THREE"
       },
       "2463" : {
+         "ja_name" : "丸4",
          "name" : "CIRCLED DIGIT FOUR"
       },
       "2464" : {
+         "ja_name" : "丸5",
          "name" : "CIRCLED DIGIT FIVE"
       },
       "2465" : {
+         "ja_name" : "丸6",
          "name" : "CIRCLED DIGIT SIX"
       },
       "2466" : {
+         "ja_name" : "丸7",
          "name" : "CIRCLED DIGIT SEVEN"
       },
       "2467" : {
+         "ja_name" : "丸8",
          "name" : "CIRCLED DIGIT EIGHT"
       },
       "2468" : {
+         "ja_name" : "丸9",
          "name" : "CIRCLED DIGIT NINE"
       },
       "2469" : {
+         "ja_name" : "丸10",
          "name" : "CIRCLED NUMBER TEN"
       },
       "246A" : {
+         "ja_name" : "丸11",
          "name" : "CIRCLED NUMBER ELEVEN"
       },
       "246B" : {
+         "ja_name" : "丸12",
          "name" : "CIRCLED NUMBER TWELVE"
       },
       "246C" : {
+         "ja_name" : "丸13",
          "name" : "CIRCLED NUMBER THIRTEEN"
       },
       "246D" : {
+         "ja_name" : "丸14",
          "name" : "CIRCLED NUMBER FOURTEEN"
       },
       "246E" : {
+         "ja_name" : "丸15",
          "name" : "CIRCLED NUMBER FIFTEEN"
       },
       "246F" : {
+         "ja_name" : "丸16",
          "name" : "CIRCLED NUMBER SIXTEEN"
       },
       "2470" : {
+         "ja_name" : "丸17",
          "name" : "CIRCLED NUMBER SEVENTEEN"
       },
       "2471" : {
+         "ja_name" : "丸18",
          "name" : "CIRCLED NUMBER EIGHTEEN"
       },
       "2472" : {
+         "ja_name" : "丸19",
          "name" : "CIRCLED NUMBER NINETEEN"
       },
       "2473" : {
+         "ja_name" : "丸20",
          "name" : "CIRCLED NUMBER TWENTY"
       },
       "2474" : {
@@ -48763,159 +49528,209 @@
          "name" : "CIRCLED LATIN CAPITAL LETTER Z"
       },
       "24D0" : {
+         "ja_name" : "丸A小文字",
          "name" : "CIRCLED LATIN SMALL LETTER A"
       },
       "24D1" : {
+         "ja_name" : "丸B小文字",
          "name" : "CIRCLED LATIN SMALL LETTER B"
       },
       "24D2" : {
+         "ja_name" : "丸C小文字",
          "name" : "CIRCLED LATIN SMALL LETTER C"
       },
       "24D3" : {
+         "ja_name" : "丸D小文字",
          "name" : "CIRCLED LATIN SMALL LETTER D"
       },
       "24D4" : {
+         "ja_name" : "丸E小文字",
          "name" : "CIRCLED LATIN SMALL LETTER E"
       },
       "24D5" : {
+         "ja_name" : "丸F小文字",
          "name" : "CIRCLED LATIN SMALL LETTER F"
       },
       "24D6" : {
+         "ja_name" : "丸G小文字",
          "name" : "CIRCLED LATIN SMALL LETTER G"
       },
       "24D7" : {
+         "ja_name" : "丸H小文字",
          "name" : "CIRCLED LATIN SMALL LETTER H"
       },
       "24D8" : {
+         "ja_name" : "丸I小文字",
          "name" : "CIRCLED LATIN SMALL LETTER I"
       },
       "24D9" : {
+         "ja_name" : "丸J小文字",
          "name" : "CIRCLED LATIN SMALL LETTER J"
       },
       "24DA" : {
+         "ja_name" : "丸K小文字",
          "name" : "CIRCLED LATIN SMALL LETTER K"
       },
       "24DB" : {
+         "ja_name" : "丸L小文字",
          "name" : "CIRCLED LATIN SMALL LETTER L"
       },
       "24DC" : {
+         "ja_name" : "丸M小文字",
          "name" : "CIRCLED LATIN SMALL LETTER M"
       },
       "24DD" : {
+         "ja_name" : "丸N小文字",
          "name" : "CIRCLED LATIN SMALL LETTER N"
       },
       "24DE" : {
+         "ja_name" : "丸O小文字",
          "name" : "CIRCLED LATIN SMALL LETTER O"
       },
       "24DF" : {
+         "ja_name" : "丸P小文字",
          "name" : "CIRCLED LATIN SMALL LETTER P"
       },
       "24E0" : {
+         "ja_name" : "丸Q小文字",
          "name" : "CIRCLED LATIN SMALL LETTER Q"
       },
       "24E1" : {
+         "ja_name" : "丸R小文字",
          "name" : "CIRCLED LATIN SMALL LETTER R"
       },
       "24E2" : {
+         "ja_name" : "丸S小文字",
          "name" : "CIRCLED LATIN SMALL LETTER S"
       },
       "24E3" : {
+         "ja_name" : "丸T小文字",
          "name" : "CIRCLED LATIN SMALL LETTER T"
       },
       "24E4" : {
+         "ja_name" : "丸U小文字",
          "name" : "CIRCLED LATIN SMALL LETTER U"
       },
       "24E5" : {
+         "ja_name" : "丸V小文字",
          "name" : "CIRCLED LATIN SMALL LETTER V"
       },
       "24E6" : {
+         "ja_name" : "丸W小文字",
          "name" : "CIRCLED LATIN SMALL LETTER W"
       },
       "24E7" : {
+         "ja_name" : "丸X小文字",
          "name" : "CIRCLED LATIN SMALL LETTER X"
       },
       "24E8" : {
+         "ja_name" : "丸Y小文字",
          "name" : "CIRCLED LATIN SMALL LETTER Y"
       },
       "24E9" : {
+         "ja_name" : "丸Z小文字",
          "name" : "CIRCLED LATIN SMALL LETTER Z"
       },
       "24EA" : {
          "name" : "CIRCLED DIGIT ZERO"
       },
       "24EB" : {
+         "ja_name" : "黒丸11",
          "name" : "NEGATIVE CIRCLED NUMBER ELEVEN"
       },
       "24EC" : {
+         "ja_name" : "黒丸12",
          "name" : "NEGATIVE CIRCLED NUMBER TWELVE"
       },
       "24ED" : {
+         "ja_name" : "黒丸13",
          "name" : "NEGATIVE CIRCLED NUMBER THIRTEEN"
       },
       "24EE" : {
+         "ja_name" : "黒丸14",
          "name" : "NEGATIVE CIRCLED NUMBER FOURTEEN"
       },
       "24EF" : {
+         "ja_name" : "黒丸15",
          "name" : "NEGATIVE CIRCLED NUMBER FIFTEEN"
       },
       "24F0" : {
+         "ja_name" : "黒丸16",
          "name" : "NEGATIVE CIRCLED NUMBER SIXTEEN"
       },
       "24F1" : {
+         "ja_name" : "黒丸17",
          "name" : "NEGATIVE CIRCLED NUMBER SEVENTEEN"
       },
       "24F2" : {
+         "ja_name" : "黒丸18",
          "name" : "NEGATIVE CIRCLED NUMBER EIGHTEEN"
       },
       "24F3" : {
+         "ja_name" : "黒丸19",
          "name" : "NEGATIVE CIRCLED NUMBER NINETEEN"
       },
       "24F4" : {
+         "ja_name" : "黒丸20",
          "name" : "NEGATIVE CIRCLED NUMBER TWENTY"
       },
       "24F5" : {
+         "ja_name" : "二重丸1",
          "name" : "DOUBLE CIRCLED DIGIT ONE"
       },
       "24F6" : {
+         "ja_name" : "二重丸2",
          "name" : "DOUBLE CIRCLED DIGIT TWO"
       },
       "24F7" : {
+         "ja_name" : "二重丸3",
          "name" : "DOUBLE CIRCLED DIGIT THREE"
       },
       "24F8" : {
+         "ja_name" : "二重丸4",
          "name" : "DOUBLE CIRCLED DIGIT FOUR"
       },
       "24F9" : {
+         "ja_name" : "二重丸5",
          "name" : "DOUBLE CIRCLED DIGIT FIVE"
       },
       "24FA" : {
+         "ja_name" : "二重丸6",
          "name" : "DOUBLE CIRCLED DIGIT SIX"
       },
       "24FB" : {
+         "ja_name" : "二重丸7",
          "name" : "DOUBLE CIRCLED DIGIT SEVEN"
       },
       "24FC" : {
+         "ja_name" : "二重丸8",
          "name" : "DOUBLE CIRCLED DIGIT EIGHT"
       },
       "24FD" : {
+         "ja_name" : "二重丸9",
          "name" : "DOUBLE CIRCLED DIGIT NINE"
       },
       "24FE" : {
+         "ja_name" : "二重丸10",
          "name" : "DOUBLE CIRCLED NUMBER TEN"
       },
       "24FF" : {
          "name" : "NEGATIVE CIRCLED DIGIT ZERO"
       },
       "2500" : {
+         "ja_name" : "横細線素片",
          "name" : "BOX DRAWINGS LIGHT HORIZONTAL"
       },
       "2501" : {
+         "ja_name" : "横太線素片",
          "name" : "BOX DRAWINGS HEAVY HORIZONTAL"
       },
       "2502" : {
+         "ja_name" : "縦細線素片",
          "name" : "BOX DRAWINGS LIGHT VERTICAL"
       },
       "2503" : {
+         "ja_name" : "縦太線素片",
          "name" : "BOX DRAWINGS HEAVY VERTICAL"
       },
       "2504" : {
@@ -48943,6 +49758,7 @@
          "name" : "BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL"
       },
       "250C" : {
+         "ja_name" : "細線素片左上",
          "name" : "BOX DRAWINGS LIGHT DOWN AND RIGHT"
       },
       "250D" : {
@@ -48952,9 +49768,11 @@
          "name" : "BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT"
       },
       "250F" : {
+         "ja_name" : "太線素片左上",
          "name" : "BOX DRAWINGS HEAVY DOWN AND RIGHT"
       },
       "2510" : {
+         "ja_name" : "細線素片右上",
          "name" : "BOX DRAWINGS LIGHT DOWN AND LEFT"
       },
       "2511" : {
@@ -48964,9 +49782,11 @@
          "name" : "BOX DRAWINGS DOWN HEAVY AND LEFT LIGHT"
       },
       "2513" : {
+         "ja_name" : "太線素片右上",
          "name" : "BOX DRAWINGS HEAVY DOWN AND LEFT"
       },
       "2514" : {
+         "ja_name" : "細線素片左下",
          "name" : "BOX DRAWINGS LIGHT UP AND RIGHT"
       },
       "2515" : {
@@ -48976,9 +49796,11 @@
          "name" : "BOX DRAWINGS UP HEAVY AND RIGHT LIGHT"
       },
       "2517" : {
+         "ja_name" : "太線素片左下",
          "name" : "BOX DRAWINGS HEAVY UP AND RIGHT"
       },
       "2518" : {
+         "ja_name" : "細線素片右下",
          "name" : "BOX DRAWINGS LIGHT UP AND LEFT"
       },
       "2519" : {
@@ -48988,12 +49810,15 @@
          "name" : "BOX DRAWINGS UP HEAVY AND LEFT LIGHT"
       },
       "251B" : {
+         "ja_name" : "太線素片右下",
          "name" : "BOX DRAWINGS HEAVY UP AND LEFT"
       },
       "251C" : {
+         "ja_name" : "細線素片左",
          "name" : "BOX DRAWINGS LIGHT VERTICAL AND RIGHT"
       },
       "251D" : {
+         "ja_name" : "縦細線横太線素片左",
          "name" : "BOX DRAWINGS VERTICAL LIGHT AND RIGHT HEAVY"
       },
       "251E" : {
@@ -49003,6 +49828,7 @@
          "name" : "BOX DRAWINGS DOWN HEAVY AND RIGHT UP LIGHT"
       },
       "2520" : {
+         "ja_name" : "縦太線横細線素片左",
          "name" : "BOX DRAWINGS VERTICAL HEAVY AND RIGHT LIGHT"
       },
       "2521" : {
@@ -49012,12 +49838,15 @@
          "name" : "BOX DRAWINGS UP LIGHT AND RIGHT DOWN HEAVY"
       },
       "2523" : {
+         "ja_name" : "太線素片左",
          "name" : "BOX DRAWINGS HEAVY VERTICAL AND RIGHT"
       },
       "2524" : {
+         "ja_name" : "細線素片右",
          "name" : "BOX DRAWINGS LIGHT VERTICAL AND LEFT"
       },
       "2525" : {
+         "ja_name" : "縦細線横太線素片右",
          "name" : "BOX DRAWINGS VERTICAL LIGHT AND LEFT HEAVY"
       },
       "2526" : {
@@ -49027,6 +49856,7 @@
          "name" : "BOX DRAWINGS DOWN HEAVY AND LEFT UP LIGHT"
       },
       "2528" : {
+         "ja_name" : "縦太線横細線素片右",
          "name" : "BOX DRAWINGS VERTICAL HEAVY AND LEFT LIGHT"
       },
       "2529" : {
@@ -49036,9 +49866,11 @@
          "name" : "BOX DRAWINGS UP LIGHT AND LEFT DOWN HEAVY"
       },
       "252B" : {
+         "ja_name" : "太線素片右",
          "name" : "BOX DRAWINGS HEAVY VERTICAL AND LEFT"
       },
       "252C" : {
+         "ja_name" : "細線素片上",
          "name" : "BOX DRAWINGS LIGHT DOWN AND HORIZONTAL"
       },
       "252D" : {
@@ -49048,9 +49880,11 @@
          "name" : "BOX DRAWINGS RIGHT HEAVY AND LEFT DOWN LIGHT"
       },
       "252F" : {
+         "ja_name" : "横太線縦細線素片上",
          "name" : "BOX DRAWINGS DOWN LIGHT AND HORIZONTAL HEAVY"
       },
       "2530" : {
+         "ja_name" : "横細線縦太線素片上",
          "name" : "BOX DRAWINGS DOWN HEAVY AND HORIZONTAL LIGHT"
       },
       "2531" : {
@@ -49060,9 +49894,11 @@
          "name" : "BOX DRAWINGS LEFT LIGHT AND RIGHT DOWN HEAVY"
       },
       "2533" : {
+         "ja_name" : "太線素片上",
          "name" : "BOX DRAWINGS HEAVY DOWN AND HORIZONTAL"
       },
       "2534" : {
+         "ja_name" : "細線素片下",
          "name" : "BOX DRAWINGS LIGHT UP AND HORIZONTAL"
       },
       "2535" : {
@@ -49072,9 +49908,11 @@
          "name" : "BOX DRAWINGS RIGHT HEAVY AND LEFT UP LIGHT"
       },
       "2537" : {
+         "ja_name" : "横太線縦細線素片下",
          "name" : "BOX DRAWINGS UP LIGHT AND HORIZONTAL HEAVY"
       },
       "2538" : {
+         "ja_name" : "横細線縦太線素片下",
          "name" : "BOX DRAWINGS UP HEAVY AND HORIZONTAL LIGHT"
       },
       "2539" : {
@@ -49084,9 +49922,11 @@
          "name" : "BOX DRAWINGS LEFT LIGHT AND RIGHT UP HEAVY"
       },
       "253B" : {
+         "ja_name" : "太線素片下",
          "name" : "BOX DRAWINGS HEAVY UP AND HORIZONTAL"
       },
       "253C" : {
+         "ja_name" : "細線素片中央",
          "name" : "BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL"
       },
       "253D" : {
@@ -49096,6 +49936,7 @@
          "name" : "BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT"
       },
       "253F" : {
+         "ja_name" : "縦細線横太線素片中央",
          "name" : "BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY"
       },
       "2540" : {
@@ -49105,6 +49946,7 @@
          "name" : "BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT"
       },
       "2542" : {
+         "ja_name" : "横細線縦太線素片中央",
          "name" : "BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT"
       },
       "2543" : {
@@ -49132,6 +49974,7 @@
          "name" : "BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY"
       },
       "254B" : {
+         "ja_name" : "太線素片中央",
          "name" : "BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL"
       },
       "254C" : {
@@ -49387,9 +50230,11 @@
          "name" : "QUADRANT UPPER RIGHT AND LOWER LEFT AND LOWER RIGHT"
       },
       "25A0" : {
+         "ja_name" : "黒四角",
          "name" : "BLACK SQUARE"
       },
       "25A1" : {
+         "ja_name" : "四角",
          "name" : "WHITE SQUARE"
       },
       "25A2" : {
@@ -49438,12 +50283,15 @@
          "name" : "BLACK PARALLELOGRAM"
       },
       "25B1" : {
+         "ja_name" : "平行四辺形",
          "name" : "WHITE PARALLELOGRAM"
       },
       "25B2" : {
+         "ja_name" : "黒三角",
          "name" : "BLACK UP-POINTING TRIANGLE"
       },
       "25B3" : {
+         "ja_name" : "三角",
          "name" : "WHITE UP-POINTING TRIANGLE"
       },
       "25B4" : {
@@ -49453,9 +50301,11 @@
          "name" : "WHITE UP-POINTING SMALL TRIANGLE"
       },
       "25B6" : {
+         "ja_name" : "右向黒三角",
          "name" : "BLACK RIGHT-POINTING TRIANGLE"
       },
       "25B7" : {
+         "ja_name" : "右向三角",
          "name" : "WHITE RIGHT-POINTING TRIANGLE"
       },
       "25B8" : {
@@ -49471,9 +50321,11 @@
          "name" : "WHITE RIGHT-POINTING POINTER"
       },
       "25BC" : {
+         "ja_name" : "逆黒三角",
          "name" : "BLACK DOWN-POINTING TRIANGLE"
       },
       "25BD" : {
+         "ja_name" : "逆三角",
          "name" : "WHITE DOWN-POINTING TRIANGLE"
       },
       "25BE" : {
@@ -49483,9 +50335,11 @@
          "name" : "WHITE DOWN-POINTING SMALL TRIANGLE"
       },
       "25C0" : {
+         "ja_name" : "左向黒三角",
          "name" : "BLACK LEFT-POINTING TRIANGLE"
       },
       "25C1" : {
+         "ja_name" : "左向三角",
          "name" : "WHITE LEFT-POINTING TRIANGLE"
       },
       "25C2" : {
@@ -49501,21 +50355,25 @@
          "name" : "WHITE LEFT-POINTING POINTER"
       },
       "25C6" : {
+         "ja_name" : "黒ひし形",
          "name" : "BLACK DIAMOND"
       },
       "25C7" : {
+         "ja_name" : "ひし形",
          "name" : "WHITE DIAMOND"
       },
       "25C8" : {
          "name" : "WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND"
       },
       "25C9" : {
+         "ja_name" : "蛇の目",
          "name" : "FISHEYE"
       },
       "25CA" : {
          "name" : "LOZENGE"
       },
       "25CB" : {
+         "ja_name" : "丸印, 白丸",
          "name" : "WHITE CIRCLE"
       },
       "25CC" : {
@@ -49525,21 +50383,27 @@
          "name" : "CIRCLE WITH VERTICAL FILL"
       },
       "25CE" : {
+         "ja_name" : "二重丸",
          "name" : "BULLSEYE"
       },
       "25CF" : {
+         "ja_name" : "黒丸",
          "name" : "BLACK CIRCLE"
       },
       "25D0" : {
+         "ja_name" : "左半黒丸",
          "name" : "CIRCLE WITH LEFT HALF BLACK"
       },
       "25D1" : {
+         "ja_name" : "右半黒丸",
          "name" : "CIRCLE WITH RIGHT HALF BLACK"
       },
       "25D2" : {
+         "ja_name" : "下半黒丸",
          "name" : "CIRCLE WITH LOWER HALF BLACK"
       },
       "25D3" : {
+         "ja_name" : "上半黒丸",
          "name" : "CIRCLE WITH UPPER HALF BLACK"
       },
       "25D4" : {
@@ -49597,6 +50461,7 @@
          "name" : "BLACK UPPER RIGHT TRIANGLE"
       },
       "25E6" : {
+         "ja_name" : "白ビュレット",
          "name" : "WHITE BULLET"
       },
       "25E7" : {
@@ -49624,6 +50489,7 @@
          "name" : "UP-POINTING TRIANGLE WITH RIGHT HALF BLACK"
       },
       "25EF" : {
+         "ja_name" : "大きな丸",
          "name" : "LARGE CIRCLE"
       },
       "25F0" : {
@@ -49675,24 +50541,30 @@
          "name" : "LOWER RIGHT TRIANGLE"
       },
       "2600" : {
+         "ja_name" : "晴マーク",
          "name" : "BLACK SUN WITH RAYS"
       },
       "2601" : {
+         "ja_name" : "曇マーク",
          "name" : "CLOUD"
       },
       "2602" : {
+         "ja_name" : "雨マーク",
          "name" : "UMBRELLA"
       },
       "2603" : {
+         "ja_name" : "雪マーク",
          "name" : "SNOWMAN"
       },
       "2604" : {
          "name" : "COMET"
       },
       "2605" : {
+         "ja_name" : "黒星",
          "name" : "BLACK STAR"
       },
       "2606" : {
+         "ja_name" : "白星",
          "name" : "WHITE STAR"
       },
       "2607" : {
@@ -49717,6 +50589,7 @@
          "name" : "OPPOSITION"
       },
       "260E" : {
+         "ja_name" : "電話マーク",
          "name" : "BLACK TELEPHONE"
       },
       "260F" : {
@@ -49741,9 +50614,11 @@
          "name" : "HOT BEVERAGE"
       },
       "2616" : {
+         "ja_name" : "白将棋駒",
          "name" : "WHITE SHOGI PIECE"
       },
       "2617" : {
+         "ja_name" : "黒将棋駒",
          "name" : "BLACK SHOGI PIECE"
       },
       "2618" : {
@@ -49765,6 +50640,7 @@
          "name" : "WHITE UP POINTING INDEX"
       },
       "261E" : {
+         "ja_name" : "指示マーク",
          "name" : "WHITE RIGHT POINTING INDEX"
       },
       "261F" : {
@@ -49867,12 +50743,14 @@
          "name" : "MERCURY"
       },
       "2640" : {
+         "ja_name" : "雌記号",
          "name" : "FEMALE SIGN"
       },
       "2641" : {
          "name" : "EARTH"
       },
       "2642" : {
+         "ja_name" : "雄記号",
          "name" : "MALE SIGN"
       },
       "2643" : {
@@ -49963,51 +50841,67 @@
          "name" : "BLACK CHESS PAWN"
       },
       "2660" : {
+         "ja_name" : "スペード",
          "name" : "BLACK SPADE SUIT"
       },
       "2661" : {
+         "ja_name" : "ハート(白)",
          "name" : "WHITE HEART SUIT"
       },
       "2662" : {
+         "ja_name" : "ダイヤ(白)",
          "name" : "WHITE DIAMOND SUIT"
       },
       "2663" : {
+         "ja_name" : "クラブ",
          "name" : "BLACK CLUB SUIT"
       },
       "2664" : {
+         "ja_name" : "スペード(白)",
          "name" : "WHITE SPADE SUIT"
       },
       "2665" : {
+         "ja_name" : "ハート",
          "name" : "BLACK HEART SUIT"
       },
       "2666" : {
+         "ja_name" : "ダイヤ",
          "name" : "BLACK DIAMOND SUIT"
       },
       "2667" : {
+         "ja_name" : "クラブ(白)",
          "name" : "WHITE CLUB SUIT"
       },
       "2668" : {
+         "ja_name" : "温泉マーク",
          "name" : "HOT SPRINGS"
       },
       "2669" : {
+         "ja_name" : "四分音符",
          "name" : "QUARTER NOTE"
       },
       "266A" : {
+         "ja_name" : "音符",
          "name" : "EIGHTH NOTE"
       },
       "266B" : {
+         "ja_name" : "連こう(桁)付き八分音符",
          "name" : "BEAMED EIGHTH NOTES"
       },
       "266C" : {
+         "ja_name" : "連こう(桁)付き十六分音符",
          "name" : "BEAMED SIXTEENTH NOTES"
       },
       "266D" : {
+         "ja_name" : "フラット",
          "name" : "MUSIC FLAT SIGN"
       },
       "266E" : {
+         "ja_name" : "ナチュラル",
          "name" : "MUSIC NATURAL SIGN"
       },
       "266F" : {
+         "ja_name" : "シャープ",
          "name" : "MUSIC SHARP SIGN"
       },
       "2670" : {
@@ -50497,6 +51391,7 @@
          "name" : "BLACK NIB"
       },
       "2713" : {
+         "ja_name" : "チェックマーク",
          "name" : "CHECK MARK"
       },
       "2714" : {
@@ -50698,6 +51593,7 @@
          "name" : "WHITE EXCLAMATION MARK ORNAMENT"
       },
       "2756" : {
+         "ja_name" : "四つ菱",
          "name" : "BLACK DIAMOND MINUS WHITE X"
       },
       "2757" : {
@@ -50794,33 +51690,43 @@
          "name" : "MEDIUM RIGHT CURLY BRACKET ORNAMENT"
       },
       "2776" : {
+         "ja_name" : "黒丸1",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT ONE"
       },
       "2777" : {
+         "ja_name" : "黒丸2",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT TWO"
       },
       "2778" : {
+         "ja_name" : "黒丸3",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT THREE"
       },
       "2779" : {
+         "ja_name" : "黒丸4",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT FOUR"
       },
       "277A" : {
+         "ja_name" : "黒丸5",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT FIVE"
       },
       "277B" : {
+         "ja_name" : "黒丸6",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT SIX"
       },
       "277C" : {
+         "ja_name" : "黒丸7",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT SEVEN"
       },
       "277D" : {
+         "ja_name" : "黒丸8",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT EIGHT"
       },
       "277E" : {
+         "ja_name" : "黒丸9",
          "name" : "DINGBAT NEGATIVE CIRCLED DIGIT NINE"
       },
       "277F" : {
+         "ja_name" : "黒丸10",
          "name" : "DINGBAT NEGATIVE CIRCLED NUMBER TEN"
       },
       "2780" : {
@@ -52132,9 +53038,11 @@
          "name" : "WAVE ARROW POINTING DIRECTLY RIGHT"
       },
       "2934" : {
+         "ja_name" : "曲がり矢印上がる",
          "name" : "ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS"
       },
       "2935" : {
+         "ja_name" : "曲がり矢印下がる",
          "name" : "ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS"
       },
       "2936" : {
@@ -52549,6 +53457,7 @@
          "name" : "CIRCLED WHITE BULLET"
       },
       "29BF" : {
+         "ja_name" : "丸中黒",
          "name" : "CIRCLED BULLET"
       },
       "29C0" : {
@@ -52726,9 +53635,11 @@
          "name" : "BIG REVERSE SOLIDUS"
       },
       "29FA" : {
+         "ja_name" : "2プラス",
          "name" : "DOUBLE PLUS"
       },
       "29FB" : {
+         "ja_name" : "3プラス",
          "name" : "TRIPLE PLUS"
       },
       "29FC" : {
@@ -57985,81 +58896,106 @@
          "label" : "noncharacter-2FFFF"
       },
       "3000" : {
+         "ja_name" : "和字間隔",
          "name" : "IDEOGRAPHIC SPACE"
       },
       "3001" : {
+         "ja_name" : "読点",
          "name" : "IDEOGRAPHIC COMMA"
       },
       "3002" : {
+         "ja_name" : "句点",
          "name" : "IDEOGRAPHIC FULL STOP"
       },
       "3003" : {
+         "ja_name" : "同じく記号",
          "name" : "DITTO MARK"
       },
       "3004" : {
          "name" : "JAPANESE INDUSTRIAL STANDARD SYMBOL"
       },
       "3005" : {
+         "ja_name" : "繰返し記号",
          "name" : "IDEOGRAPHIC ITERATION MARK"
       },
       "3006" : {
+         "ja_name" : "しめ",
          "name" : "IDEOGRAPHIC CLOSING MARK"
       },
       "3007" : {
+         "ja_name" : "漢数字ゼロ",
          "name" : "IDEOGRAPHIC NUMBER ZERO"
       },
       "3008" : {
+         "ja_name" : "始め山括弧",
          "name" : "LEFT ANGLE BRACKET"
       },
       "3009" : {
+         "ja_name" : "終わり山括弧",
          "name" : "RIGHT ANGLE BRACKET"
       },
       "300A" : {
+         "ja_name" : "始め二重山括弧",
          "name" : "LEFT DOUBLE ANGLE BRACKET"
       },
       "300B" : {
+         "ja_name" : "終わり二重山括弧",
          "name" : "RIGHT DOUBLE ANGLE BRACKET"
       },
       "300C" : {
+         "ja_name" : "始めかぎ括弧",
          "name" : "LEFT CORNER BRACKET"
       },
       "300D" : {
+         "ja_name" : "終わりかぎ括弧",
          "name" : "RIGHT CORNER BRACKET"
       },
       "300E" : {
+         "ja_name" : "始め二重かぎ括弧",
          "name" : "LEFT WHITE CORNER BRACKET"
       },
       "300F" : {
+         "ja_name" : "終わり二重かぎ括弧",
          "name" : "RIGHT WHITE CORNER BRACKET"
       },
       "3010" : {
+         "ja_name" : "始めすみ付き括弧",
          "name" : "LEFT BLACK LENTICULAR BRACKET"
       },
       "3011" : {
+         "ja_name" : "終わりすみ付き括弧",
          "name" : "RIGHT BLACK LENTICULAR BRACKET"
       },
       "3012" : {
+         "ja_name" : "郵便記号",
          "name" : "POSTAL MARK"
       },
       "3013" : {
+         "ja_name" : "げた記号",
          "name" : "GETA MARK"
       },
       "3014" : {
+         "ja_name" : "始めきっこう(亀甲)括弧",
          "name" : "LEFT TORTOISE SHELL BRACKET"
       },
       "3015" : {
+         "ja_name" : "終わりきっこう(亀甲)括弧",
          "name" : "RIGHT TORTOISE SHELL BRACKET"
       },
       "3016" : {
+         "ja_name" : "始めすみ付き括弧(白)",
          "name" : "LEFT WHITE LENTICULAR BRACKET"
       },
       "3017" : {
+         "ja_name" : "終わりすみ付き括弧(白)",
          "name" : "RIGHT WHITE LENTICULAR BRACKET"
       },
       "3018" : {
+         "ja_name" : "始め二重きっこう(亀甲)括弧",
          "name" : "LEFT WHITE TORTOISE SHELL BRACKET"
       },
       "3019" : {
+         "ja_name" : "終わり二重きっこう(亀甲)括弧",
          "name" : "RIGHT WHITE TORTOISE SHELL BRACKET"
       },
       "301A" : {
@@ -58069,18 +59005,22 @@
          "name" : "RIGHT WHITE SQUARE BRACKET"
       },
       "301C" : {
+         "ja_name" : "波ダッシュ",
          "name" : "WAVE DASH"
       },
       "301D" : {
+         "ja_name" : "始めダブルミニュート",
          "name" : "REVERSED DOUBLE PRIME QUOTATION MARK"
       },
       "301E" : {
          "name" : "DOUBLE PRIME QUOTATION MARK"
       },
       "301F" : {
+         "ja_name" : "終わりダブルミニュート",
          "name" : "LOW DOUBLE PRIME QUOTATION MARK"
       },
       "3020" : {
+         "ja_name" : "郵便マーク",
          "name" : "POSTAL MARK FACE"
       },
       "3021" : {
@@ -58138,12 +59078,15 @@
          "name" : "VERTICAL KANA REPEAT WITH VOICED SOUND MARK"
       },
       "3033" : {
+         "ja_name" : "くの字点上",
          "name" : "VERTICAL KANA REPEAT MARK UPPER HALF"
       },
       "3034" : {
+         "ja_name" : "くの字点上(濁点)",
          "name" : "VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF"
       },
       "3035" : {
+         "ja_name" : "くの字点下",
          "name" : "VERTICAL KANA REPEAT MARK LOWER HALF"
       },
       "3036" : {
@@ -58162,12 +59105,15 @@
          "name" : "HANGZHOU NUMERAL THIRTY"
       },
       "303B" : {
+         "ja_name" : "二の字点, ゆすり点",
          "name" : "VERTICAL IDEOGRAPHIC ITERATION MARK"
       },
       "303C" : {
+         "ja_name" : "ます記号",
          "name" : "MASU MARK"
       },
       "303D" : {
+         "ja_name" : "歌記号, いおり(庵)点",
          "name" : "PART ALTERNATION MARK"
       },
       "303E" : {
@@ -58177,261 +59123,347 @@
          "name" : "IDEOGRAPHIC HALF FILL SPACE"
       },
       "3041" : {
+         "ja_name" : "小書き平仮名あ",
          "name" : "HIRAGANA LETTER SMALL A"
       },
       "3042" : {
+         "ja_name" : "平仮名あ",
          "name" : "HIRAGANA LETTER A"
       },
       "3043" : {
+         "ja_name" : "小書き平仮名い",
          "name" : "HIRAGANA LETTER SMALL I"
       },
       "3044" : {
+         "ja_name" : "平仮名い",
          "name" : "HIRAGANA LETTER I"
       },
       "3045" : {
+         "ja_name" : "小書き平仮名う",
          "name" : "HIRAGANA LETTER SMALL U"
       },
       "3046" : {
+         "ja_name" : "平仮名う",
          "name" : "HIRAGANA LETTER U"
       },
       "3047" : {
+         "ja_name" : "小書き平仮名え",
          "name" : "HIRAGANA LETTER SMALL E"
       },
       "3048" : {
+         "ja_name" : "平仮名え",
          "name" : "HIRAGANA LETTER E"
       },
       "3049" : {
+         "ja_name" : "小書き平仮名お",
          "name" : "HIRAGANA LETTER SMALL O"
       },
       "304A" : {
+         "ja_name" : "平仮名お",
          "name" : "HIRAGANA LETTER O"
       },
       "304B" : {
+         "ja_name" : "平仮名か",
          "name" : "HIRAGANA LETTER KA"
       },
       "304C" : {
+         "ja_name" : "濁点付き平仮名か",
          "name" : "HIRAGANA LETTER GA"
       },
       "304D" : {
+         "ja_name" : "平仮名き",
          "name" : "HIRAGANA LETTER KI"
       },
       "304E" : {
+         "ja_name" : "濁点付き平仮名き",
          "name" : "HIRAGANA LETTER GI"
       },
       "304F" : {
+         "ja_name" : "平仮名く",
          "name" : "HIRAGANA LETTER KU"
       },
       "3050" : {
+         "ja_name" : "濁点付き平仮名く",
          "name" : "HIRAGANA LETTER GU"
       },
       "3051" : {
+         "ja_name" : "平仮名け",
          "name" : "HIRAGANA LETTER KE"
       },
       "3052" : {
+         "ja_name" : "濁点付き平仮名け",
          "name" : "HIRAGANA LETTER GE"
       },
       "3053" : {
+         "ja_name" : "平仮名こ",
          "name" : "HIRAGANA LETTER KO"
       },
       "3054" : {
+         "ja_name" : "濁点付き平仮名こ",
          "name" : "HIRAGANA LETTER GO"
       },
       "3055" : {
+         "ja_name" : "平仮名さ",
          "name" : "HIRAGANA LETTER SA"
       },
       "3056" : {
+         "ja_name" : "濁点付き平仮名さ",
          "name" : "HIRAGANA LETTER ZA"
       },
       "3057" : {
+         "ja_name" : "平仮名し",
          "name" : "HIRAGANA LETTER SI"
       },
       "3058" : {
+         "ja_name" : "濁点付き平仮名し",
          "name" : "HIRAGANA LETTER ZI"
       },
       "3059" : {
+         "ja_name" : "平仮名す",
          "name" : "HIRAGANA LETTER SU"
       },
       "305A" : {
+         "ja_name" : "濁点付き平仮名す",
          "name" : "HIRAGANA LETTER ZU"
       },
       "305B" : {
+         "ja_name" : "平仮名せ",
          "name" : "HIRAGANA LETTER SE"
       },
       "305C" : {
+         "ja_name" : "濁点付き平仮名せ",
          "name" : "HIRAGANA LETTER ZE"
       },
       "305D" : {
+         "ja_name" : "平仮名そ",
          "name" : "HIRAGANA LETTER SO"
       },
       "305E" : {
+         "ja_name" : "濁点付き平仮名そ",
          "name" : "HIRAGANA LETTER ZO"
       },
       "305F" : {
+         "ja_name" : "平仮名た",
          "name" : "HIRAGANA LETTER TA"
       },
       "3060" : {
+         "ja_name" : "濁点付き平仮名た",
          "name" : "HIRAGANA LETTER DA"
       },
       "3061" : {
+         "ja_name" : "平仮名ち",
          "name" : "HIRAGANA LETTER TI"
       },
       "3062" : {
+         "ja_name" : "濁点付き平仮名ち",
          "name" : "HIRAGANA LETTER DI"
       },
       "3063" : {
+         "ja_name" : "小書き平仮名つ",
          "name" : "HIRAGANA LETTER SMALL TU"
       },
       "3064" : {
+         "ja_name" : "平仮名つ",
          "name" : "HIRAGANA LETTER TU"
       },
       "3065" : {
+         "ja_name" : "濁点付き平仮名つ",
          "name" : "HIRAGANA LETTER DU"
       },
       "3066" : {
+         "ja_name" : "平仮名て",
          "name" : "HIRAGANA LETTER TE"
       },
       "3067" : {
+         "ja_name" : "濁点付き平仮名て",
          "name" : "HIRAGANA LETTER DE"
       },
       "3068" : {
+         "ja_name" : "平仮名と",
          "name" : "HIRAGANA LETTER TO"
       },
       "3069" : {
+         "ja_name" : "濁点付き平仮名と",
          "name" : "HIRAGANA LETTER DO"
       },
       "306A" : {
+         "ja_name" : "平仮名な",
          "name" : "HIRAGANA LETTER NA"
       },
       "306B" : {
+         "ja_name" : "平仮名に",
          "name" : "HIRAGANA LETTER NI"
       },
       "306C" : {
+         "ja_name" : "平仮名ぬ",
          "name" : "HIRAGANA LETTER NU"
       },
       "306D" : {
+         "ja_name" : "平仮名ね",
          "name" : "HIRAGANA LETTER NE"
       },
       "306E" : {
+         "ja_name" : "平仮名の",
          "name" : "HIRAGANA LETTER NO"
       },
       "306F" : {
+         "ja_name" : "平仮名は",
          "name" : "HIRAGANA LETTER HA"
       },
       "3070" : {
+         "ja_name" : "濁点付き平仮名は",
          "name" : "HIRAGANA LETTER BA"
       },
       "3071" : {
+         "ja_name" : "半濁点付き平仮名は",
          "name" : "HIRAGANA LETTER PA"
       },
       "3072" : {
+         "ja_name" : "平仮名ひ",
          "name" : "HIRAGANA LETTER HI"
       },
       "3073" : {
+         "ja_name" : "濁点付き平仮名ひ",
          "name" : "HIRAGANA LETTER BI"
       },
       "3074" : {
+         "ja_name" : "半濁点付き平仮名ひ",
          "name" : "HIRAGANA LETTER PI"
       },
       "3075" : {
+         "ja_name" : "平仮名ふ",
          "name" : "HIRAGANA LETTER HU"
       },
       "3076" : {
+         "ja_name" : "濁点付き平仮名ふ",
          "name" : "HIRAGANA LETTER BU"
       },
       "3077" : {
+         "ja_name" : "半濁点付き平仮名ふ",
          "name" : "HIRAGANA LETTER PU"
       },
       "3078" : {
+         "ja_name" : "平仮名へ",
          "name" : "HIRAGANA LETTER HE"
       },
       "3079" : {
+         "ja_name" : "濁点付き平仮名へ",
          "name" : "HIRAGANA LETTER BE"
       },
       "307A" : {
+         "ja_name" : "半濁点付き平仮名へ",
          "name" : "HIRAGANA LETTER PE"
       },
       "307B" : {
+         "ja_name" : "平仮名ほ",
          "name" : "HIRAGANA LETTER HO"
       },
       "307C" : {
+         "ja_name" : "濁点付き平仮名ほ",
          "name" : "HIRAGANA LETTER BO"
       },
       "307D" : {
+         "ja_name" : "半濁点付き平仮名ほ",
          "name" : "HIRAGANA LETTER PO"
       },
       "307E" : {
+         "ja_name" : "平仮名ま",
          "name" : "HIRAGANA LETTER MA"
       },
       "307F" : {
+         "ja_name" : "平仮名み",
          "name" : "HIRAGANA LETTER MI"
       },
       "3080" : {
+         "ja_name" : "平仮名む",
          "name" : "HIRAGANA LETTER MU"
       },
       "3081" : {
+         "ja_name" : "平仮名め",
          "name" : "HIRAGANA LETTER ME"
       },
       "3082" : {
+         "ja_name" : "平仮名も",
          "name" : "HIRAGANA LETTER MO"
       },
       "3083" : {
+         "ja_name" : "小書き平仮名や",
          "name" : "HIRAGANA LETTER SMALL YA"
       },
       "3084" : {
+         "ja_name" : "平仮名や",
          "name" : "HIRAGANA LETTER YA"
       },
       "3085" : {
+         "ja_name" : "小書き平仮名ゆ",
          "name" : "HIRAGANA LETTER SMALL YU"
       },
       "3086" : {
+         "ja_name" : "平仮名ゆ",
          "name" : "HIRAGANA LETTER YU"
       },
       "3087" : {
+         "ja_name" : "小書き平仮名よ",
          "name" : "HIRAGANA LETTER SMALL YO"
       },
       "3088" : {
+         "ja_name" : "平仮名よ",
          "name" : "HIRAGANA LETTER YO"
       },
       "3089" : {
+         "ja_name" : "平仮名ら",
          "name" : "HIRAGANA LETTER RA"
       },
       "308A" : {
+         "ja_name" : "平仮名り",
          "name" : "HIRAGANA LETTER RI"
       },
       "308B" : {
+         "ja_name" : "平仮名る",
          "name" : "HIRAGANA LETTER RU"
       },
       "308C" : {
+         "ja_name" : "平仮名れ",
          "name" : "HIRAGANA LETTER RE"
       },
       "308D" : {
+         "ja_name" : "平仮名ろ",
          "name" : "HIRAGANA LETTER RO"
       },
       "308E" : {
+         "ja_name" : "小書き平仮名わ",
          "name" : "HIRAGANA LETTER SMALL WA"
       },
       "308F" : {
+         "ja_name" : "平仮名わ",
          "name" : "HIRAGANA LETTER WA"
       },
       "3090" : {
+         "ja_name" : "平仮名ゐ",
          "name" : "HIRAGANA LETTER WI"
       },
       "3091" : {
+         "ja_name" : "平仮名ゑ",
          "name" : "HIRAGANA LETTER WE"
       },
       "3092" : {
+         "ja_name" : "平仮名を",
          "name" : "HIRAGANA LETTER WO"
       },
       "3093" : {
+         "ja_name" : "平仮名ん",
          "name" : "HIRAGANA LETTER N"
       },
       "3094" : {
+         "ja_name" : "濁点付き平仮名う",
          "name" : "HIRAGANA LETTER VU"
       },
       "3095" : {
+         "ja_name" : "小書き平仮名か",
          "name" : "HIRAGANA LETTER SMALL KA"
       },
       "3096" : {
+         "ja_name" : "小書き平仮名け",
          "name" : "HIRAGANA LETTER SMALL KE"
       },
       "3099" : {
@@ -58441,306 +59473,407 @@
          "name" : "COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK"
       },
       "309B" : {
+         "ja_name" : "濁点",
          "name" : "KATAKANA-HIRAGANA VOICED SOUND MARK"
       },
       "309C" : {
+         "ja_name" : "半濁点",
          "name" : "KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK"
       },
       "309D" : {
+         "ja_name" : "平仮名繰返し記号",
          "name" : "HIRAGANA ITERATION MARK"
       },
       "309E" : {
+         "ja_name" : "平仮名繰返し記号(濁点)",
          "name" : "HIRAGANA VOICED ITERATION MARK"
       },
       "309F" : {
+         "ja_name" : "より",
          "name" : "HIRAGANA DIGRAPH YORI"
       },
       "30A0" : {
+         "ja_name" : "二重ハイフン, 二分二重ダッシュ",
          "name" : "KATAKANA-HIRAGANA DOUBLE HYPHEN"
       },
       "30A1" : {
+         "ja_name" : "小書き片仮名ア",
          "name" : "KATAKANA LETTER SMALL A"
       },
       "30A2" : {
+         "ja_name" : "片仮名ア",
          "name" : "KATAKANA LETTER A"
       },
       "30A3" : {
+         "ja_name" : "小書き片仮名イ",
          "name" : "KATAKANA LETTER SMALL I"
       },
       "30A4" : {
+         "ja_name" : "片仮名イ",
          "name" : "KATAKANA LETTER I"
       },
       "30A5" : {
+         "ja_name" : "小書き片仮名ウ",
          "name" : "KATAKANA LETTER SMALL U"
       },
       "30A6" : {
+         "ja_name" : "片仮名ウ",
          "name" : "KATAKANA LETTER U"
       },
       "30A7" : {
+         "ja_name" : "小書き片仮名エ",
          "name" : "KATAKANA LETTER SMALL E"
       },
       "30A8" : {
+         "ja_name" : "片仮名エ",
          "name" : "KATAKANA LETTER E"
       },
       "30A9" : {
+         "ja_name" : "小書き片仮名オ",
          "name" : "KATAKANA LETTER SMALL O"
       },
       "30AA" : {
+         "ja_name" : "片仮名オ",
          "name" : "KATAKANA LETTER O"
       },
       "30AB" : {
+         "ja_name" : "片仮名カ",
          "name" : "KATAKANA LETTER KA"
       },
       "30AC" : {
+         "ja_name" : "濁点付き片仮名カ",
          "name" : "KATAKANA LETTER GA"
       },
       "30AD" : {
+         "ja_name" : "片仮名キ",
          "name" : "KATAKANA LETTER KI"
       },
       "30AE" : {
+         "ja_name" : "濁点付き片仮名キ",
          "name" : "KATAKANA LETTER GI"
       },
       "30AF" : {
+         "ja_name" : "片仮名ク",
          "name" : "KATAKANA LETTER KU"
       },
       "30B0" : {
+         "ja_name" : "濁点付き片仮名ク",
          "name" : "KATAKANA LETTER GU"
       },
       "30B1" : {
+         "ja_name" : "片仮名ケ",
          "name" : "KATAKANA LETTER KE"
       },
       "30B2" : {
+         "ja_name" : "濁点付き片仮名ケ",
          "name" : "KATAKANA LETTER GE"
       },
       "30B3" : {
+         "ja_name" : "片仮名コ",
          "name" : "KATAKANA LETTER KO"
       },
       "30B4" : {
+         "ja_name" : "濁点付き片仮名コ",
          "name" : "KATAKANA LETTER GO"
       },
       "30B5" : {
+         "ja_name" : "片仮名サ",
          "name" : "KATAKANA LETTER SA"
       },
       "30B6" : {
+         "ja_name" : "濁点付き片仮名サ",
          "name" : "KATAKANA LETTER ZA"
       },
       "30B7" : {
+         "ja_name" : "片仮名シ",
          "name" : "KATAKANA LETTER SI"
       },
       "30B8" : {
+         "ja_name" : "濁点付き片仮名シ",
          "name" : "KATAKANA LETTER ZI"
       },
       "30B9" : {
+         "ja_name" : "片仮名ス",
          "name" : "KATAKANA LETTER SU"
       },
       "30BA" : {
+         "ja_name" : "濁点付き片仮名ス",
          "name" : "KATAKANA LETTER ZU"
       },
       "30BB" : {
+         "ja_name" : "片仮名セ",
          "name" : "KATAKANA LETTER SE"
       },
       "30BC" : {
+         "ja_name" : "濁点付き片仮名セ",
          "name" : "KATAKANA LETTER ZE"
       },
       "30BD" : {
+         "ja_name" : "片仮名ソ",
          "name" : "KATAKANA LETTER SO"
       },
       "30BE" : {
+         "ja_name" : "濁点付き片仮名ソ",
          "name" : "KATAKANA LETTER ZO"
       },
       "30BF" : {
+         "ja_name" : "片仮名タ",
          "name" : "KATAKANA LETTER TA"
       },
       "30C0" : {
+         "ja_name" : "濁点付き片仮名タ",
          "name" : "KATAKANA LETTER DA"
       },
       "30C1" : {
+         "ja_name" : "片仮名チ",
          "name" : "KATAKANA LETTER TI"
       },
       "30C2" : {
+         "ja_name" : "濁点付き片仮名チ",
          "name" : "KATAKANA LETTER DI"
       },
       "30C3" : {
+         "ja_name" : "小書き片仮名ツ",
          "name" : "KATAKANA LETTER SMALL TU"
       },
       "30C4" : {
+         "ja_name" : "片仮名ツ",
          "name" : "KATAKANA LETTER TU"
       },
       "30C5" : {
+         "ja_name" : "濁点付き片仮名ツ",
          "name" : "KATAKANA LETTER DU"
       },
       "30C6" : {
+         "ja_name" : "片仮名テ",
          "name" : "KATAKANA LETTER TE"
       },
       "30C7" : {
+         "ja_name" : "濁点付き片仮名テ",
          "name" : "KATAKANA LETTER DE"
       },
       "30C8" : {
+         "ja_name" : "片仮名ト",
          "name" : "KATAKANA LETTER TO"
       },
       "30C9" : {
+         "ja_name" : "濁点付き片仮名ト",
          "name" : "KATAKANA LETTER DO"
       },
       "30CA" : {
+         "ja_name" : "片仮名ナ",
          "name" : "KATAKANA LETTER NA"
       },
       "30CB" : {
+         "ja_name" : "片仮名ニ",
          "name" : "KATAKANA LETTER NI"
       },
       "30CC" : {
+         "ja_name" : "片仮名ヌ",
          "name" : "KATAKANA LETTER NU"
       },
       "30CD" : {
+         "ja_name" : "片仮名ネ",
          "name" : "KATAKANA LETTER NE"
       },
       "30CE" : {
+         "ja_name" : "片仮名ノ",
          "name" : "KATAKANA LETTER NO"
       },
       "30CF" : {
+         "ja_name" : "片仮名ハ",
          "name" : "KATAKANA LETTER HA"
       },
       "30D0" : {
+         "ja_name" : "濁点付き片仮名ハ",
          "name" : "KATAKANA LETTER BA"
       },
       "30D1" : {
+         "ja_name" : "半濁点付き片仮名ハ",
          "name" : "KATAKANA LETTER PA"
       },
       "30D2" : {
+         "ja_name" : "片仮名ヒ",
          "name" : "KATAKANA LETTER HI"
       },
       "30D3" : {
+         "ja_name" : "濁点付き片仮名ヒ",
          "name" : "KATAKANA LETTER BI"
       },
       "30D4" : {
+         "ja_name" : "半濁点付き片仮名ヒ",
          "name" : "KATAKANA LETTER PI"
       },
       "30D5" : {
+         "ja_name" : "片仮名フ",
          "name" : "KATAKANA LETTER HU"
       },
       "30D6" : {
+         "ja_name" : "濁点付き片仮名フ",
          "name" : "KATAKANA LETTER BU"
       },
       "30D7" : {
+         "ja_name" : "半濁点付き片仮名フ",
          "name" : "KATAKANA LETTER PU"
       },
       "30D8" : {
+         "ja_name" : "片仮名ヘ",
          "name" : "KATAKANA LETTER HE"
       },
       "30D9" : {
+         "ja_name" : "濁点付き片仮名ヘ",
          "name" : "KATAKANA LETTER BE"
       },
       "30DA" : {
+         "ja_name" : "半濁点付き片仮名ヘ",
          "name" : "KATAKANA LETTER PE"
       },
       "30DB" : {
+         "ja_name" : "片仮名ホ",
          "name" : "KATAKANA LETTER HO"
       },
       "30DC" : {
+         "ja_name" : "濁点付き片仮名ホ",
          "name" : "KATAKANA LETTER BO"
       },
       "30DD" : {
+         "ja_name" : "半濁点付き片仮名ホ",
          "name" : "KATAKANA LETTER PO"
       },
       "30DE" : {
+         "ja_name" : "片仮名マ",
          "name" : "KATAKANA LETTER MA"
       },
       "30DF" : {
+         "ja_name" : "片仮名ミ",
          "name" : "KATAKANA LETTER MI"
       },
       "30E0" : {
+         "ja_name" : "片仮名ム",
          "name" : "KATAKANA LETTER MU"
       },
       "30E1" : {
+         "ja_name" : "片仮名メ",
          "name" : "KATAKANA LETTER ME"
       },
       "30E2" : {
+         "ja_name" : "片仮名モ",
          "name" : "KATAKANA LETTER MO"
       },
       "30E3" : {
+         "ja_name" : "小書き片仮名ヤ",
          "name" : "KATAKANA LETTER SMALL YA"
       },
       "30E4" : {
+         "ja_name" : "片仮名ヤ",
          "name" : "KATAKANA LETTER YA"
       },
       "30E5" : {
+         "ja_name" : "小書き片仮名ユ",
          "name" : "KATAKANA LETTER SMALL YU"
       },
       "30E6" : {
+         "ja_name" : "片仮名ユ",
          "name" : "KATAKANA LETTER YU"
       },
       "30E7" : {
+         "ja_name" : "小書き片仮名ヨ",
          "name" : "KATAKANA LETTER SMALL YO"
       },
       "30E8" : {
+         "ja_name" : "片仮名ヨ",
          "name" : "KATAKANA LETTER YO"
       },
       "30E9" : {
+         "ja_name" : "片仮名ラ",
          "name" : "KATAKANA LETTER RA"
       },
       "30EA" : {
+         "ja_name" : "片仮名リ",
          "name" : "KATAKANA LETTER RI"
       },
       "30EB" : {
+         "ja_name" : "片仮名ル",
          "name" : "KATAKANA LETTER RU"
       },
       "30EC" : {
+         "ja_name" : "片仮名レ",
          "name" : "KATAKANA LETTER RE"
       },
       "30ED" : {
+         "ja_name" : "片仮名ロ",
          "name" : "KATAKANA LETTER RO"
       },
       "30EE" : {
+         "ja_name" : "小書き片仮名ワ",
          "name" : "KATAKANA LETTER SMALL WA"
       },
       "30EF" : {
+         "ja_name" : "片仮名ワ",
          "name" : "KATAKANA LETTER WA"
       },
       "30F0" : {
+         "ja_name" : "片仮名ヰ",
          "name" : "KATAKANA LETTER WI"
       },
       "30F1" : {
+         "ja_name" : "片仮名ヱ",
          "name" : "KATAKANA LETTER WE"
       },
       "30F2" : {
+         "ja_name" : "片仮名ヲ",
          "name" : "KATAKANA LETTER WO"
       },
       "30F3" : {
+         "ja_name" : "片仮名ン",
          "name" : "KATAKANA LETTER N"
       },
       "30F4" : {
+         "ja_name" : "濁点付き片仮名ウ",
          "name" : "KATAKANA LETTER VU"
       },
       "30F5" : {
+         "ja_name" : "小書き片仮名カ",
          "name" : "KATAKANA LETTER SMALL KA"
       },
       "30F6" : {
+         "ja_name" : "小書き片仮名ケ",
          "name" : "KATAKANA LETTER SMALL KE"
       },
       "30F7" : {
+         "ja_name" : "濁点付き片仮名ワ",
          "name" : "KATAKANA LETTER VA"
       },
       "30F8" : {
+         "ja_name" : "濁点付き片仮名ヰ",
          "name" : "KATAKANA LETTER VI"
       },
       "30F9" : {
+         "ja_name" : "濁点付き片仮名ヱ",
          "name" : "KATAKANA LETTER VE"
       },
       "30FA" : {
+         "ja_name" : "濁点付き片仮名ヲ",
          "name" : "KATAKANA LETTER VO"
       },
       "30FB" : {
+         "ja_name" : "中点",
          "name" : "KATAKANA MIDDLE DOT"
       },
       "30FC" : {
+         "ja_name" : "長音記号",
          "name" : "KATAKANA-HIRAGANA PROLONGED SOUND MARK"
       },
       "30FD" : {
+         "ja_name" : "片仮名繰返し記号",
          "name" : "KATAKANA ITERATION MARK"
       },
       "30FE" : {
+         "ja_name" : "片仮名繰返し記号(濁点)",
          "name" : "KATAKANA VOICED ITERATION MARK"
       },
       "30FF" : {
+         "ja_name" : "コト",
          "name" : "KATAKANA DIGRAPH KOTO"
       },
       "3105" : {
@@ -59386,51 +60519,67 @@
          "name" : "CJK STROKE Q"
       },
       "31F0" : {
+         "ja_name" : "小書き片仮名ク",
          "name" : "KATAKANA LETTER SMALL KU"
       },
       "31F1" : {
+         "ja_name" : "小書き片仮名シ",
          "name" : "KATAKANA LETTER SMALL SI"
       },
       "31F2" : {
+         "ja_name" : "小書き片仮名ス",
          "name" : "KATAKANA LETTER SMALL SU"
       },
       "31F3" : {
+         "ja_name" : "小書き片仮名ト",
          "name" : "KATAKANA LETTER SMALL TO"
       },
       "31F4" : {
+         "ja_name" : "小書き片仮名ヌ",
          "name" : "KATAKANA LETTER SMALL NU"
       },
       "31F5" : {
+         "ja_name" : "小書き片仮名ハ",
          "name" : "KATAKANA LETTER SMALL HA"
       },
       "31F6" : {
+         "ja_name" : "小書き片仮名ヒ",
          "name" : "KATAKANA LETTER SMALL HI"
       },
       "31F7" : {
+         "ja_name" : "小書き片仮名フ",
          "name" : "KATAKANA LETTER SMALL HU"
       },
       "31F8" : {
+         "ja_name" : "小書き片仮名ヘ",
          "name" : "KATAKANA LETTER SMALL HE"
       },
       "31F9" : {
+         "ja_name" : "小書き片仮名ホ",
          "name" : "KATAKANA LETTER SMALL HO"
       },
       "31FA" : {
+         "ja_name" : "小書き片仮名ム",
          "name" : "KATAKANA LETTER SMALL MU"
       },
       "31FB" : {
+         "ja_name" : "小書き片仮名ラ",
          "name" : "KATAKANA LETTER SMALL RA"
       },
       "31FC" : {
+         "ja_name" : "小書き片仮名リ",
          "name" : "KATAKANA LETTER SMALL RI"
       },
       "31FD" : {
+         "ja_name" : "小書き片仮名ル",
          "name" : "KATAKANA LETTER SMALL RU"
       },
       "31FE" : {
+         "ja_name" : "小書き片仮名レ",
          "name" : "KATAKANA LETTER SMALL RE"
       },
       "31FF" : {
+         "ja_name" : "小書き片仮名ロ",
          "name" : "KATAKANA LETTER SMALL RO"
       },
       "3200" : {
@@ -59578,9 +60727,11 @@
          "name" : "PARENTHESIZED IDEOGRAPH SUN"
       },
       "3231" : {
+         "ja_name" : "全角括弧付き株",
          "name" : "PARENTHESIZED IDEOGRAPH STOCK"
       },
       "3232" : {
+         "ja_name" : "全角括弧付き有",
          "name" : "PARENTHESIZED IDEOGRAPH HAVE"
       },
       "3233" : {
@@ -59602,6 +60753,7 @@
          "name" : "PARENTHESIZED IDEOGRAPH LABOR"
       },
       "3239" : {
+         "ja_name" : "全角括弧付き代",
          "name" : "PARENTHESIZED IDEOGRAPH REPRESENT"
       },
       "323A" : {
@@ -59674,48 +60826,63 @@
          "name" : "PARTNERSHIP SIGN"
       },
       "3251" : {
+         "ja_name" : "丸21",
          "name" : "CIRCLED NUMBER TWENTY ONE"
       },
       "3252" : {
+         "ja_name" : "丸22",
          "name" : "CIRCLED NUMBER TWENTY TWO"
       },
       "3253" : {
+         "ja_name" : "丸23",
          "name" : "CIRCLED NUMBER TWENTY THREE"
       },
       "3254" : {
+         "ja_name" : "丸24",
          "name" : "CIRCLED NUMBER TWENTY FOUR"
       },
       "3255" : {
+         "ja_name" : "丸25",
          "name" : "CIRCLED NUMBER TWENTY FIVE"
       },
       "3256" : {
+         "ja_name" : "丸26",
          "name" : "CIRCLED NUMBER TWENTY SIX"
       },
       "3257" : {
+         "ja_name" : "丸27",
          "name" : "CIRCLED NUMBER TWENTY SEVEN"
       },
       "3258" : {
+         "ja_name" : "丸28",
          "name" : "CIRCLED NUMBER TWENTY EIGHT"
       },
       "3259" : {
+         "ja_name" : "丸29",
          "name" : "CIRCLED NUMBER TWENTY NINE"
       },
       "325A" : {
+         "ja_name" : "丸30",
          "name" : "CIRCLED NUMBER THIRTY"
       },
       "325B" : {
+         "ja_name" : "丸31",
          "name" : "CIRCLED NUMBER THIRTY ONE"
       },
       "325C" : {
+         "ja_name" : "丸32",
          "name" : "CIRCLED NUMBER THIRTY TWO"
       },
       "325D" : {
+         "ja_name" : "丸33",
          "name" : "CIRCLED NUMBER THIRTY THREE"
       },
       "325E" : {
+         "ja_name" : "丸34",
          "name" : "CIRCLED NUMBER THIRTY FOUR"
       },
       "325F" : {
+         "ja_name" : "丸35",
          "name" : "CIRCLED NUMBER THIRTY FIVE"
       },
       "3260" : {
@@ -59923,18 +61090,23 @@
          "name" : "CIRCLED IDEOGRAPH CORRECT"
       },
       "32A4" : {
+         "ja_name" : "丸付き上",
          "name" : "CIRCLED IDEOGRAPH HIGH"
       },
       "32A5" : {
+         "ja_name" : "丸付き中",
          "name" : "CIRCLED IDEOGRAPH CENTRE"
       },
       "32A6" : {
+         "ja_name" : "丸付き下",
          "name" : "CIRCLED IDEOGRAPH LOW"
       },
       "32A7" : {
+         "ja_name" : "丸付き左",
          "name" : "CIRCLED IDEOGRAPH LEFT"
       },
       "32A8" : {
+         "ja_name" : "丸付き右",
          "name" : "CIRCLED IDEOGRAPH RIGHT"
       },
       "32A9" : {
@@ -59962,48 +61134,63 @@
          "name" : "CIRCLED IDEOGRAPH NIGHT"
       },
       "32B1" : {
+         "ja_name" : "丸36",
          "name" : "CIRCLED NUMBER THIRTY SIX"
       },
       "32B2" : {
+         "ja_name" : "丸37",
          "name" : "CIRCLED NUMBER THIRTY SEVEN"
       },
       "32B3" : {
+         "ja_name" : "丸38",
          "name" : "CIRCLED NUMBER THIRTY EIGHT"
       },
       "32B4" : {
+         "ja_name" : "丸39",
          "name" : "CIRCLED NUMBER THIRTY NINE"
       },
       "32B5" : {
+         "ja_name" : "丸40",
          "name" : "CIRCLED NUMBER FORTY"
       },
       "32B6" : {
+         "ja_name" : "丸41",
          "name" : "CIRCLED NUMBER FORTY ONE"
       },
       "32B7" : {
+         "ja_name" : "丸42",
          "name" : "CIRCLED NUMBER FORTY TWO"
       },
       "32B8" : {
+         "ja_name" : "丸43",
          "name" : "CIRCLED NUMBER FORTY THREE"
       },
       "32B9" : {
+         "ja_name" : "丸44",
          "name" : "CIRCLED NUMBER FORTY FOUR"
       },
       "32BA" : {
+         "ja_name" : "丸45",
          "name" : "CIRCLED NUMBER FORTY FIVE"
       },
       "32BB" : {
+         "ja_name" : "丸46",
          "name" : "CIRCLED NUMBER FORTY SIX"
       },
       "32BC" : {
+         "ja_name" : "丸47",
          "name" : "CIRCLED NUMBER FORTY SEVEN"
       },
       "32BD" : {
+         "ja_name" : "丸48",
          "name" : "CIRCLED NUMBER FORTY EIGHT"
       },
       "32BE" : {
+         "ja_name" : "丸49",
          "name" : "CIRCLED NUMBER FORTY NINE"
       },
       "32BF" : {
+         "ja_name" : "丸50",
          "name" : "CIRCLED NUMBER FIFTY"
       },
       "32C0" : {
@@ -60055,69 +61242,90 @@
          "name" : "LIMITED LIABILITY SIGN"
       },
       "32D0" : {
+         "ja_name" : "丸ア",
          "name" : "CIRCLED KATAKANA A"
       },
       "32D1" : {
+         "ja_name" : "丸イ",
          "name" : "CIRCLED KATAKANA I"
       },
       "32D2" : {
+         "ja_name" : "丸ウ",
          "name" : "CIRCLED KATAKANA U"
       },
       "32D3" : {
+         "ja_name" : "丸エ",
          "name" : "CIRCLED KATAKANA E"
       },
       "32D4" : {
+         "ja_name" : "丸オ",
          "name" : "CIRCLED KATAKANA O"
       },
       "32D5" : {
+         "ja_name" : "丸カ",
          "name" : "CIRCLED KATAKANA KA"
       },
       "32D6" : {
+         "ja_name" : "丸キ",
          "name" : "CIRCLED KATAKANA KI"
       },
       "32D7" : {
+         "ja_name" : "丸ク",
          "name" : "CIRCLED KATAKANA KU"
       },
       "32D8" : {
+         "ja_name" : "丸ケ",
          "name" : "CIRCLED KATAKANA KE"
       },
       "32D9" : {
+         "ja_name" : "丸コ",
          "name" : "CIRCLED KATAKANA KO"
       },
       "32DA" : {
+         "ja_name" : "丸サ",
          "name" : "CIRCLED KATAKANA SA"
       },
       "32DB" : {
+         "ja_name" : "丸シ",
          "name" : "CIRCLED KATAKANA SI"
       },
       "32DC" : {
+         "ja_name" : "丸ス",
          "name" : "CIRCLED KATAKANA SU"
       },
       "32DD" : {
+         "ja_name" : "丸セ",
          "name" : "CIRCLED KATAKANA SE"
       },
       "32DE" : {
+         "ja_name" : "丸ソ",
          "name" : "CIRCLED KATAKANA SO"
       },
       "32DF" : {
+         "ja_name" : "丸タ",
          "name" : "CIRCLED KATAKANA TA"
       },
       "32E0" : {
+         "ja_name" : "丸チ",
          "name" : "CIRCLED KATAKANA TI"
       },
       "32E1" : {
+         "ja_name" : "丸ツ",
          "name" : "CIRCLED KATAKANA TU"
       },
       "32E2" : {
+         "ja_name" : "丸テ",
          "name" : "CIRCLED KATAKANA TE"
       },
       "32E3" : {
+         "ja_name" : "丸ト",
          "name" : "CIRCLED KATAKANA TO"
       },
       "32E4" : {
          "name" : "CIRCLED KATAKANA NA"
       },
       "32E5" : {
+         "ja_name" : "丸ニ",
          "name" : "CIRCLED KATAKANA NI"
       },
       "32E6" : {
@@ -60130,6 +61338,7 @@
          "name" : "CIRCLED KATAKANA NO"
       },
       "32E9" : {
+         "ja_name" : "丸ハ",
          "name" : "CIRCLED KATAKANA HA"
       },
       "32EA" : {
@@ -60139,9 +61348,11 @@
          "name" : "CIRCLED KATAKANA HU"
       },
       "32EC" : {
+         "ja_name" : "丸ヘ",
          "name" : "CIRCLED KATAKANA HE"
       },
       "32ED" : {
+         "ja_name" : "丸ホ",
          "name" : "CIRCLED KATAKANA HO"
       },
       "32EE" : {
@@ -60181,6 +61392,7 @@
          "name" : "CIRCLED KATAKANA RE"
       },
       "32FA" : {
+         "ja_name" : "丸ロ",
          "name" : "CIRCLED KATAKANA RO"
       },
       "32FB" : {
@@ -60205,6 +61417,7 @@
          "name" : "SQUARE ANPEA"
       },
       "3303" : {
+         "ja_name" : "全角アール",
          "name" : "SQUARE AARU"
       },
       "3304" : {
@@ -60235,6 +61448,7 @@
          "name" : "SQUARE KARATTO"
       },
       "330D" : {
+         "ja_name" : "全角カロリー",
          "name" : "SQUARE KARORII"
       },
       "330E" : {
@@ -60256,6 +61470,7 @@
          "name" : "SQUARE GIRUDAA"
       },
       "3314" : {
+         "ja_name" : "全角キロ",
          "name" : "SQUARE KIRO"
       },
       "3315" : {
@@ -60268,6 +61483,7 @@
          "name" : "SQUARE KIROWATTO"
       },
       "3318" : {
+         "ja_name" : "全角グラム",
          "name" : "SQUARE GURAMU"
       },
       "3319" : {
@@ -60298,9 +61514,11 @@
          "name" : "SQUARE SIRINGU"
       },
       "3322" : {
+         "ja_name" : "全角センチ",
          "name" : "SQUARE SENTI"
       },
       "3323" : {
+         "ja_name" : "全角セント",
          "name" : "SQUARE SENTO"
       },
       "3324" : {
@@ -60310,9 +61528,11 @@
          "name" : "SQUARE DESI"
       },
       "3326" : {
+         "ja_name" : "全角ドル",
          "name" : "SQUARE DORU"
       },
       "3327" : {
+         "ja_name" : "全角トン",
          "name" : "SQUARE TON"
       },
       "3328" : {
@@ -60325,6 +61545,7 @@
          "name" : "SQUARE HAITU"
       },
       "332B" : {
+         "ja_name" : "全角パーセント",
          "name" : "SQUARE PAASENTO"
       },
       "332C" : {
@@ -60358,6 +61579,7 @@
          "name" : "SQUARE HURAN"
       },
       "3336" : {
+         "ja_name" : "全角ヘクタール",
          "name" : "SQUARE HEKUTAARU"
       },
       "3337" : {
@@ -60373,6 +61595,7 @@
          "name" : "SQUARE PENSU"
       },
       "333B" : {
+         "ja_name" : "全角ページ",
          "name" : "SQUARE PEEZI"
       },
       "333C" : {
@@ -60415,9 +61638,11 @@
          "name" : "SQUARE MIKURON"
       },
       "3349" : {
+         "ja_name" : "全角ミリ",
          "name" : "SQUARE MIRI"
       },
       "334A" : {
+         "ja_name" : "全角ミリバール",
          "name" : "SQUARE MIRIBAARU"
       },
       "334B" : {
@@ -60427,6 +61652,7 @@
          "name" : "SQUARE MEGATON"
       },
       "334D" : {
+         "ja_name" : "全角メートル",
          "name" : "SQUARE MEETORU"
       },
       "334E" : {
@@ -60439,6 +61665,7 @@
          "name" : "SQUARE YUAN"
       },
       "3351" : {
+         "ja_name" : "全角リットル",
          "name" : "SQUARE RITTORU"
       },
       "3352" : {
@@ -60457,6 +61684,7 @@
          "name" : "SQUARE RENTOGEN"
       },
       "3357" : {
+         "ja_name" : "全角ワット",
          "name" : "SQUARE WATTO"
       },
       "3358" : {
@@ -60565,15 +61793,19 @@
          "name" : "SQUARE IU"
       },
       "337B" : {
+         "ja_name" : "全角元号平成",
          "name" : "SQUARE ERA NAME HEISEI"
       },
       "337C" : {
+         "ja_name" : "全角元号昭和",
          "name" : "SQUARE ERA NAME SYOUWA"
       },
       "337D" : {
+         "ja_name" : "全角元号大正",
          "name" : "SQUARE ERA NAME TAISYOU"
       },
       "337E" : {
+         "ja_name" : "全角元号明治",
          "name" : "SQUARE ERA NAME MEIZI"
       },
       "337F" : {
@@ -60622,9 +61854,11 @@
          "name" : "SQUARE MU G"
       },
       "338E" : {
+         "ja_name" : "全角MG",
          "name" : "SQUARE MG"
       },
       "338F" : {
+         "ja_name" : "全角KG",
          "name" : "SQUARE KG"
       },
       "3390" : {
@@ -60664,12 +61898,15 @@
          "name" : "SQUARE MU M"
       },
       "339C" : {
+         "ja_name" : "全角MM",
          "name" : "SQUARE MM"
       },
       "339D" : {
+         "ja_name" : "全角CM",
          "name" : "SQUARE CM"
       },
       "339E" : {
+         "ja_name" : "全角KM",
          "name" : "SQUARE KM"
       },
       "339F" : {
@@ -60679,6 +61916,7 @@
          "name" : "SQUARE CM SQUARED"
       },
       "33A1" : {
+         "ja_name" : "全角M2",
          "name" : "SQUARE M SQUARED"
       },
       "33A2" : {
@@ -60784,6 +62022,7 @@
          "name" : "SQUARE BQ"
       },
       "33C4" : {
+         "ja_name" : "全角CC",
          "name" : "SQUARE CC"
       },
       "33C5" : {
@@ -60805,12 +62044,14 @@
          "name" : "SQUARE HA"
       },
       "33CB" : {
+         "ja_name" : "HP, ホースパワー(馬力)",
          "name" : "SQUARE HP"
       },
       "33CC" : {
          "name" : "SQUARE IN"
       },
       "33CD" : {
+         "ja_name" : "全角KK",
          "name" : "SQUARE KK"
       },
       "33CE" : {
@@ -61160,6 +62401,10 @@
       },
       "4DFF" : {
          "name" : "HEXAGRAM FOR BEFORE COMPLETION"
+      },
+      "4EDD" : {
+         "ja_name" : "同上記号",
+         "name" : "CJK UNIFIED IDEOGRAPH-4EDD"
       },
       "4FFFE" : {
          "label" : "noncharacter-4FFFE"
@@ -108313,9 +109558,11 @@
          "name" : "PRESENTATION FORM FOR VERTICAL RIGHT WHITE CORNER BRACKET"
       },
       "FE45" : {
+         "ja_name" : "ゴマ",
          "name" : "SESAME DOT"
       },
       "FE46" : {
+         "ja_name" : "白ゴマ",
          "name" : "WHITE SESAME DOT"
       },
       "FE47" : {
@@ -109136,9 +110383,11 @@
          "name" : "FULLWIDTH TILDE"
       },
       "FF5F" : {
+         "ja_name" : "始め二重パーレン, 始め二重括弧",
          "name" : "FULLWIDTH LEFT WHITE PARENTHESIS"
       },
       "FF60" : {
+         "ja_name" : "終わり二重パーレン, 終わり二重括弧",
          "name" : "FULLWIDTH RIGHT WHITE PARENTHESIS"
       },
       "FF61" : {
