@@ -34,6 +34,26 @@ for ($name_aliases_f->slurp) {
   }
 }
 
+my @L = ("G", "GG", "N", "D", "DD", "R", "M", "B", "BB", "S", "SS", "", "J", "JJ", "C", "K", "T", "P", "H");
+my %L = map { $L[$_] => $_ } 0..$#L;
+my @V = ("A", "AE", "YA", "YAE", "EO", "E", "YEO", "YE", "O", "WA", "WAE", "OE", "YO", "U", "WEO", "WE", "WI", "YU", "EU", "YI", "I");
+my %V = map { $V[$_] => $_ } 0..$#V;
+my @T = ("", "G", "GG", "GS", "N", "NJ", "NH", "D", "L", "LG", "LM", "LB", "LS", "LT", "LP", "LH", "M", "B", "BS", "S", "SS", "NG", "J", "C", "K", "T", "P", "H");
+my %T = map { $T[$_] => $_ } 0..$#T;
+
+sub hangul_code_to_name ($) {
+  my $code = $_[0];
+  return undef unless 0xAC00 <= $code and $code <= 0xD7A3;
+  $code -= 0xAC00;
+  my $l = int ($code / (@V * @T));
+  my $v = int (($code % (@V * @T)) / @T);
+  my $t = $code % @T;
+  return 'HANGUL SYLLABLE ' . $L[$l].$V[$v].$T[$t];
+} # hangul_code_to_name
+
+$Data->{code_to_name}->{u $_}->{name} = hangul_code_to_name $_
+    for 0xAC00..0xD7A3;
+
 for (0xFDD0..0xFDEF) {
   $Data->{code_to_name}->{u $_}->{label} = 'noncharacter-' . u $_;
 }

@@ -30,9 +30,8 @@ The file contains a JSON object with following name/value pair:
         if any.
 
     Note that character names beginning with "CJK UNIFIED IDEOGRAPH-"
-    or "HANGUL SYLLABLE " and code points whose labels begin with
-    "private-use-", "surrogate-", or "reserved-" are not included in
-    this object.
+    and code points whose labels begin with "private-use-",
+    "surrogate-", or "reserved-" are not included in this object.
 
   range_to_prefix [object]
 
@@ -55,6 +54,27 @@ The file contains a JSON object with following name/value pair:
     code points, and surrogate code points.  Names and prefixes are to
     be followed by code points represented by four or more uppercase
     hexadecimal digits.
+
+This file contains names or labels of all code points in the range
+U+0000 and U+10FFFF, except for reserved (unassigned) code points,
+either in |code_to_name| or in |range_to_prefix|.  The character name,
+if any, or code point label or a code point can be obtained by
+following steps:
+
+  1. Let /code/ be the code point in question.
+
+  2. If |json.code_to_name[code].name ||
+     json.code_to_name[code].label| has a value, return it and abort
+     these steps.
+
+  3. If there is /key/ in |range_to_prefix| where the range includes
+     /code/ and |json.range_to_prefix[code].name ||
+     json.range_to_prefix[code].label| has a value, return it followed
+     by four or more uppercase hexadecimal digits representing /code/
+     and abort these steps.
+
+  4. Return |reserved-| followed by four or more uppercase hexadecimal
+     digits representing /code/ and abort these steps.
 
 * Sources
 
