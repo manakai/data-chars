@@ -4,7 +4,7 @@ use Path::Class;
 
 my $version = shift;
 
-my $d = file (__FILE__)->dir->parent->subdir ('data', 'set', $version eq 'latest' ? 'unicode' : 'unicode' . $version);
+my $d = file (__FILE__)->dir->parent->subdir ('src', 'set', $version eq 'latest' ? 'unicode' : 'unicode' . $version);
 $d->mkpath;
 
 my $Props = {};

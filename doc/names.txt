@@ -10,15 +10,13 @@ The file contains a JSON object with following name/value pair:
   code_to_name [object]
 
     A JSON object whose names are code points and values are their
-    names.  Code points are represented in uppercase hexadecimal
-    number, where code points less than or equal to U+FFFF are
-    represented by four digits and code points greater than or equal
-    to U+10FFFF are represented by six digits.  Values are JSON
-    objects with following name/value pairs:
+    names.  Code points are represented by four or more uppercase
+    hexadecimal digits.  Values are JSON objects with following
+    name/value pairs:
 
       name [string?]
 
-        The character name for the code point.
+        The character name for the code point, if any.
 
       correction, control, alternate, figment, abbreviation [object?]
 
@@ -26,8 +24,37 @@ The file contains a JSON object with following name/value pair:
         NameAliases.txt.  Values are JSON objects whose names are
         alias names and values are boolean true values.
 
+      label [string?]
+
+        The code point label for the code point, without "<" and ">",
+        if any.
+
     Note that character names beginning with "CJK UNIFIED IDEOGRAPH-"
-    or "HANGUL SYLLABLE " are not included here.
+    or "HANGUL SYLLABLE " and code points whose labels begin with
+    "private-use-", "surrogate-", or "reserved-" are not included in
+    this object.
+
+  range_to_prefix [object]
+
+    A JSON object whose names are code point ranges and values are
+    their name prefixes.  Code point ranges are inclusive and are
+    represented by two sets of four or more uppercase hexadecimal
+    digits, separated by a SPACE character.  Values are JSON objects
+    with following name/value pairs:
+
+      name [string?]
+
+        The prefix for the character names in the range, if any.
+
+      label [string?]
+
+        The prefix for the code point labels in the range, without "<"
+        and ">", if any.
+
+    The object contains ranges for CJK UNIFIED IDEOGRAPHS, private use
+    code points, and surrogate code points.  Names and prefixes are to
+    be followed by code points represented by four or more uppercase
+    hexadecimal digits.
 
 * Sources
 

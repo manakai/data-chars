@@ -152,7 +152,7 @@ local/unicode/latest/PropList.txt:
 
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
-    src/set/*/*.expr
+    src/set/*/*.expr data/names.json
 	$(PERL) bin/sets.pl > $@
 
 ## ------ Tests ------
