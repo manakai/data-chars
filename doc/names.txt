@@ -33,13 +33,24 @@ The file contains a JSON object with following name/value pair:
     and code points whose labels begin with "private-use-",
     "surrogate-", or "reserved-" are not included in this object.
 
+  code_seq_to_name [object]
+
+    A JSON object whose names are code point sequences and values are
+    their names.  Code point names are represented as SPACE-separated
+    list of code points.  Values are JSON objects with following
+    name/value pair:
+
+      name [string]
+
+        The name of the named character sequence represented by the
+        code points.
+
   range_to_prefix [object]
 
     A JSON object whose names are code point ranges and values are
     their name prefixes.  Code point ranges are inclusive and are
-    represented by two sets of four or more uppercase hexadecimal
-    digits, separated by a SPACE character.  Values are JSON objects
-    with following name/value pairs:
+    represented by two code points, separated by a SPACE character.
+    Values are JSON objects with following name/value pairs:
 
       name [string?]
 
@@ -85,6 +96,9 @@ Unicode Character Database:
 
   NameAliases.txt
   <http://www.unicode.org/Public/UCD/latest/ucd/NameAliases.txt>.
+
+  NamedSequences.txt
+  <http://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt>.
 
 * License
 

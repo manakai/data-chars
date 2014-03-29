@@ -65,9 +65,13 @@ local/unicode/latest/NamesList.txt:
 local/unicode/latest/NameAliases.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UNIDATA/NameAliases.txt
+local/unicode/latest/NamedSequences.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UNIDATA/NamedSequences.txt
 
 data/names.json: local/unicode/latest/NamesList.txt \
     local/unicode/latest/NameAliases.txt \
+    local/unicode/latest/NamedSequences.txt \
     bin/names.pl
 	$(PERL) bin/names.pl > $@
 

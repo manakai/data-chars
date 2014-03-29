@@ -7,11 +7,12 @@ use JSON::Functions::XS qw(perl2json_bytes_for_record);
 my $temp_d = file (__FILE__)->dir->parent->subdir ('local', 'unicode', 'latest');
 my $names_list_f = $temp_d->file ('NamesList.txt');
 my $name_aliases_f = $temp_d->file ('NameAliases.txt');
+my $named_sequences_f = $temp_d->file ('NamedSequences.txt');
 
 my $Data = {};
 
 sub uhex ($) {
-  my $c = hex $1;
+  my $c = hex $_[0];
   return sprintf '%04X', $c;
 } # uhex
 
@@ -21,16 +22,27 @@ sub u ($) {
 } # u
 
 for ($names_list_f->slurp) {
-  if (/^([0-9A-F]{4,})\t([^<].+)/) {
+  if (/^\s*#/) {
+    #
+  } elsif (/^([0-9A-F]{4,})\t([^<].+)/) {
     $Data->{code_to_name}->{uhex $1}->{name} = $2;
-    #$Data->{name_to_code}->{$2} = hex $1;
   }
 }
 
 for ($name_aliases_f->slurp) {
-  if (/^([0-9A-F]{4,});([^;]+);([^;\s]+)/) {
-    #$Data->{name_to_code}->{$2} = hex $1;
+  if (/^\s*#/) {
+    #
+  } elsif (/^([0-9A-F]{4,});([^;]+);([^;\s]+)/) {
     $Data->{code_to_name}->{uhex $1}->{$3}->{$2} = 1;
+  }
+}
+
+for ($named_sequences_f->slurp) {
+  if (/^\s*#/) {
+    #
+  } elsif (/^([^;]+);([0-9A-F ]+)/) {
+    my @code = map { uhex $_ } grep { length $_ } split / +/, $2;
+    $Data->{code_seq_to_name}->{join ' ', @code}->{name} = $1;
   }
 }
 
