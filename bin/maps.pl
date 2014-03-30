@@ -58,6 +58,12 @@ for (
     $Maps->{'tn1150:decomposition'}->{hex $_} = [map { hex $_ } split / /, $map{$_}];
   }
 }
+{
+  my $json = file2perl file (__FILE__)->dir->parent->file ('src', 'tn1150lowercase.json');
+  for (keys %$json) {
+    $Maps->{'tn1150:lowercase'}->{hex $_} = [length $json->{$_} ? hex $json->{$_} : ()];
+  }
+}
 
 ## <http://www.whatwg.org/specs/web-apps/current-work/#case-sensitivity-and-string-comparison>
 ## <http://dom.spec.whatwg.org/#strings>
@@ -68,6 +74,20 @@ for my $from ('A'..'Z') {
   $Maps->{'html:to-ASCII-uppercase'}->{ord $to} = [ord $from];
   $Maps->{'dom:to-ASCII-lowercase'}->{ord $from} = [ord $to];
   $Maps->{'dom:to-ASCII-uppercase'}->{ord $to} = [ord $from];
+}
+
+## <https://tools.ietf.org/html/draft-brocklesby-irc-isupport-03#section-3.1>
+for my $from (65..90) {
+  my $to = $from + ord ('a') - ord ('A');
+  $Maps->{'irc:ascii-lowercase'}->{$from} = [$to];
+}
+for my $from (65..94) {
+  my $to = $from + ord ('a') - ord ('A');
+  $Maps->{'irc:rfc1459-lowercase'}->{$from} = [$to];
+}
+for my $from (65..93) {
+  my $to = $from + ord ('a') - ord ('A');
+  $Maps->{'irc:strict-rfc1459-lowercase'}->{$from} = [$to];
 }
 
 {
