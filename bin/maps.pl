@@ -59,6 +59,27 @@ for (
   }
 }
 
+## <http://www.whatwg.org/specs/web-apps/current-work/#case-sensitivity-and-string-comparison>
+## <http://dom.spec.whatwg.org/#strings>
+for my $from ('A'..'Z') {
+  my $to = $from;
+  $to =~ tr/A-Z/a-z/;
+  $Maps->{'html:to-ASCII-lowercase'}->{ord $from} = [ord $to];
+  $Maps->{'html:to-ASCII-uppercase'}->{ord $to} = [ord $from];
+  $Maps->{'dom:to-ASCII-lowercase'}->{ord $from} = [ord $to];
+  $Maps->{'dom:to-ASCII-uppercase'}->{ord $to} = [ord $from];
+}
+
+{
+  use utf8;
+  my @hira = split //, 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんゔがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉゃゅょっゕゖ';
+  my @kata = split //, 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンヴガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォャュョッヵヶ';
+  for (0..$#hira) {
+    $Maps->{'kana:h2k'}->{ord $hira[$_]} = [ord $kata[$_]];
+    $Maps->{'kana:k2h'}->{ord $kata[$_]} = [ord $hira[$_]];
+  }
+}
+
 for my $map (keys %$Maps) {
   for my $char (keys %{$Maps->{$map}}) {
     my @m = @{$Maps->{$map}->{$char}};

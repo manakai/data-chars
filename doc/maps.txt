@@ -35,6 +35,11 @@ DECOMPOSITION
 [RFC3454] Preparation of Internationalized Strings ("stringprep")
 <http://tools.ietf.org/html/rfc3454#appendix-B.1>.
 
+[DOM] DOM Standard <http://dom.spec.whatwg.org/#strings>.
+
+[HTML] HTML Standard
+<http://www.whatwg.org/specs/web-apps/current-work/#case-sensitivity-and-string-comparison>.
+
 * License
 
 The file contains data generated from Unicode Character Database.
