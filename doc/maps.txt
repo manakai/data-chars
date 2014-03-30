@@ -12,17 +12,21 @@ maps [object]
   The value is a JSON object whose names are map names and values are
   JSON objects with following name/value pairs:
 
-    chars [object?]
+    char_to_char, char_to_seq, char_to_empty, seq_to_char, seq_to_seq,
+    seq_to_empty [object?]
 
-      Character to character sequence mappings, if any, represented as
-      a JSON object whose names are "from" code points and values are
-      "to" sequences of code points.
+      Mapping entries, if any, represented as a JSON object whose
+      names are "from" sequence of code points and values are "to"
+      sequences of code points.  They are classified by numbers of
+      "from" and "to" code points as follows:
 
-    char_seqs [object?]
-
-      Character sequence to character sequence mappings, if any,
-      represented as a JSON object whose names are "from" sequences of
-      code points and values are "to" sequences of code points.
+                         "from"    "to"
+        char_to_char     1         1
+        char_to_seq      1         > 1
+        char_to_empty    1         0
+        seq_to_char      > 1       1
+        seq_to_seq       > 1       > 1
+        seq_to_empty     > 1       0
 
 * Sources
 

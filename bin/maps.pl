@@ -111,12 +111,18 @@ my $full_exclusion;
 for my $from_char (keys %{$Data->{maps}->{'unicode:canon_decomposition'}->{chars}}) {
   my $to_chars = $Data->{maps}->{'unicode:canon_decomposition'}->{chars}->{$from_char};
   next if (chr hex $from_char) =~ /$full_exclusion/o;
-  if ($to_chars =~ / /) {
-    warn "Duplicate: $to_chars" if $Data->{maps}->{'unicode:canon_composition'}->{char_seqs}->{$to_chars};
-    $Data->{maps}->{'unicode:canon_composition'}->{char_seqs}->{$to_chars} = $from_char;
-  } else {
-    warn "Duplicate: $to_chars" if $Data->{maps}->{'unicode:canon_composition'}->{chars}->{$to_chars};
-    $Data->{maps}->{'unicode:canon_composition'}->{chars}->{$to_chars} = $from_char;
+  warn "Duplicate: $to_chars" if $Data->{maps}->{'unicode:canon_composition'}->{chars}->{$to_chars};
+  $Data->{maps}->{'unicode:canon_composition'}->{chars}->{$to_chars} = $from_char;
+}
+
+for my $key (keys %{$Data->{maps}}) {
+  my $entries = delete $Data->{maps}->{$key}->{chars};
+  for my $from (keys %$entries) {
+    my $to = $entries->{$from};
+    my $type = join '_to_',
+        $from =~ / / ? 'seq' : 'char',
+        $to eq '' ? 'empty' : $to =~ / / ? 'seq' : 'char';
+    $Data->{maps}->{$key}->{$type}->{$from} = $to;
   }
 }
 
