@@ -167,7 +167,7 @@ data/sets.json: bin/sets.pl \
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
-    data/sets.json
+    data/sets.json src/tn1150table.txt
 	$(PERL) bin/maps.pl > $@
 
 ## ------ Tests ------

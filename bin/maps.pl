@@ -37,6 +37,28 @@ for (0xAC00..0xD7A3) {
   $Maps->{'unicode:compat_decomposition'}->{$_} = [map { ord $_ } split //, NFD chr $_];
 }
 
+use Unicode::Stringprep::Mapping;
+for (
+  ['rfc3454:B.1' => \@Unicode::Stringprep::Mapping::B1],
+  ['rfc3454:B.2' => \@Unicode::Stringprep::Mapping::B2],
+  ['rfc3454:B.3' => \@Unicode::Stringprep::Mapping::B3],
+) {
+  my @m = @{$_->[1]};
+  while (@m) {
+    my $s = shift @m;
+    my $t = [map { ord $_ } split //, shift @m];
+    $Maps->{$_->[0]}->{$s} = $t;
+  }
+}
+
+{
+  my $f = file (__FILE__)->dir->parent->file ('src', 'tn1150table.txt');
+  my %map = map { join ' ', map { uhex $_ } grep { length } split /\s+/, $_ } split /\s*,\s*/, scalar $f->slurp;
+  for (keys %map) {
+    $Maps->{'tn1150:decomposition'}->{hex $_} = [map { hex $_ } split / /, $map{$_}];
+  }
+}
+
 for my $map (keys %$Maps) {
   for my $char (keys %{$Maps->{$map}}) {
     my @m = @{$Maps->{$map}->{$char}};

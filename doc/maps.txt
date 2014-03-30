@@ -26,8 +26,14 @@ maps [object]
 
 * Sources
 
-Unicode Character Database
-<http://www.unicode.org/ucd/>.
+[UCD] Unicode Character Database <http://www.unicode.org/ucd/>.
+
+[TN1150] HFS PLUS VOLUME FORMAT TECHNOTE, TABLE -- UNICODE
+DECOMPOSITION
+<https://developer.apple.com/legacy/library/technotes/tn/tn1150table.html>.
+
+[RFC3454] Preparation of Internationalized Strings ("stringprep")
+<http://tools.ietf.org/html/rfc3454#appendix-B.1>.
 
 * License
 
