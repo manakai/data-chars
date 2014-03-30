@@ -10,7 +10,7 @@ $d->mkpath;
 my $Props = {};
 
 while (<>) {
-  if (/^([0-9A-F]+)(?:\.\.([0-9A-F]+))?\s*;\s*(\S+)/) {
+  if (/^([0-9A-F]+)(?:\.\.([0-9A-F]+))?\s*;\s*([^\s;]+)\s*\#/) {
     my $code = hex $1;
     my $code2 = defined $2 ? hex $2 : undef;
     my $prop = $3;

@@ -23,12 +23,11 @@ sets [object]
         with some following characters, "-", "[", and "]".  If there
         is a "-" character between two characters, any character whose
         code point is between code points of them are also in the set.
-        Characters "\u{" followed by one or more hexadecimal alphabet
-        ("[0-9A-F]") followed by a "}" indicate that the character
-        whose code point is equal to the hexadecimal number is in the
-        set.  Characters "\u" followed by four hexadecimal alphabet
-        indicate that the character whose code point is equal to the
-        hexadecimal number is in the set.
+        Characters "\u{" followed by a code point followed by a "}"
+        indicate that the character is in the set.  Characters "\u"
+        followed by four hexadecimal alphabet indicate that the
+        character whose code point is equal to the hexadecimal number
+        is in the set.
 
 * Sources
 

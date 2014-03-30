@@ -1,0 +1,36 @@
+maps.json
+~~~~~~~~~
+
+This file contains character (or code point) mappings.
+
+* Structure
+
+The file contains a JSON object with following name/value pairs:
+
+maps [object]
+
+  The value is a JSON object whose names are map names and values are
+  JSON objects with following name/value pairs:
+
+    chars [object?]
+
+      Character to character sequence mappings, if any, represented as
+      a JSON object whose names are "from" code points and values are
+      "to" sequences of code points.
+
+    char_seqs [object?]
+
+      Character sequence to character sequence mappings, if any,
+      represented as a JSON object whose names are "from" sequences of
+      code points and values are "to" sequences of code points.
+
+* Sources
+
+Unicode Character Database
+<http://www.unicode.org/ucd/>.
+
+* License
+
+The file contains data generated from Unicode Character Database.
+Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
+<http://www.unicode.org/copyright.html#Exhibit1>.

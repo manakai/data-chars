@@ -10,9 +10,7 @@ The file contains a JSON object with following name/value pair:
   code_to_name [object]
 
     A JSON object whose names are code points and values are their
-    names.  Code points are represented by four or more uppercase
-    hexadecimal digits.  Values are JSON objects with following
-    name/value pairs:
+    names.  Values are JSON objects with following name/value pairs:
 
       name [string?]
 
@@ -42,9 +40,8 @@ The file contains a JSON object with following name/value pair:
 
   code_seq_to_name [object]
 
-    A JSON object whose names are code point sequences and values are
-    their names.  Code point names are represented as SPACE-separated
-    list of code points.  Values are JSON objects with following
+    A JSON object whose names are sequences of code points and values
+    are their names.  Values are JSON objects with following
     name/value pair:
 
       name [string]
@@ -67,9 +64,8 @@ The file contains a JSON object with following name/value pair:
   range_to_prefix [object]
 
     A JSON object whose names are code point ranges and values are
-    their name prefixes.  Code point ranges are inclusive and are
-    represented by two code points, separated by a SPACE character.
-    Values are JSON objects with following name/value pairs:
+    their name prefixes.  Values are JSON objects with following
+    name/value pairs:
 
       name [string?]
 

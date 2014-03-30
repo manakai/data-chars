@@ -8,6 +8,7 @@ Collection of definitions and properties related to characters.
 Data files are available in the "data/" directory.  Corresponding
 documentations are in the "doc/" directory.
 
+  maps.json     Character mappings
   names.json    Character names
   scripts.json  Scripts
   sets.json     Character sets or classes

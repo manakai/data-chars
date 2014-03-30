@@ -1,2 +1,14 @@
 See
 <https://github.com/manakai/data-web-defs/blob/master/doc/data-types.txt>.
+
+In addition, following terms are used:
+
+A code point is represented in four or more uppercase hexadecimal
+letters ([0-9A-F]).  It is represented in minimum possible form.
+
+A range of code points is represented by two code points separated by
+a U+0020 SPACE character.  The range is inclusive.
+
+A sequence of code points is represented by zero or more code points
+separated by a U+0020 SPACE character.  The order of code points is
+significant.

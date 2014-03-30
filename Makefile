@@ -29,7 +29,8 @@ pmbp-install: pmbp-upgrade
 ## ------ Data construction ------
 
 all-data: all-ucd unicode-general-category-latest \
-    unicode-prop-list-latest data/sets.json data/names.json
+    unicode-prop-list-latest data/sets.json data/names.json \
+    data/maps.json
 
 clean-data:
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -138,8 +139,10 @@ unicode-prop-list-5.0: local/unicode/5.0/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 5.0 $<
 unicode-prop-list-5.2: local/unicode/5.2/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 5.2 $<
-unicode-prop-list-latest: local/unicode/latest/PropList.txt
-	$(PERL) bin/generate-prop-list.pl latest $<
+unicode-prop-list-latest: local/unicode/latest/PropList.txt \
+    local/unicode/latest/DerivedNormalizationProps.txt
+	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/PropList.txt
+	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/DerivedNormalizationProps.txt
 
 local/unicode/3.2/PropList.txt:
 	mkdir -p local/unicode/3.2
@@ -154,10 +157,18 @@ local/unicode/latest/PropList.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/PropList.txt
 
+local/unicode/latest/DerivedNormalizationProps.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
+
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
     src/set/*/*.expr data/names.json
 	$(PERL) bin/sets.pl > $@
+
+data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
+    data/sets.json
+	$(PERL) bin/maps.pl > $@
 
 ## ------ Tests ------
 
