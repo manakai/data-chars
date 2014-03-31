@@ -133,6 +133,10 @@ local/unicode/latest/UnicodeData.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
 
+local/unicode/latest/SpecialCasing.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
+
 unicode-prop-list-3.2: local/unicode/3.2/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 3.2 $<
 unicode-prop-list-5.0: local/unicode/5.0/PropList.txt
@@ -157,6 +161,9 @@ local/unicode/latest/PropList.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/PropList.txt
 
+local/unicode/latest/CaseFolding.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/CaseFolding.txt
 local/unicode/latest/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
@@ -167,6 +174,9 @@ data/sets.json: bin/sets.pl \
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
+    local/unicode/latest/SpecialCasing.txt \
+    local/unicode/latest/DerivedNormalizationProps.txt \
+    local/unicode/latest/CaseFolding.txt \
     data/sets.json src/tn1150table.txt src/tn1150lowercase.json
 	$(PERL) bin/maps.pl > $@
 

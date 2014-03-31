@@ -18,16 +18,28 @@ sub u ($) {
 my $Maps = {};
 
 ## <http://www.unicode.org/reports/tr44/#Character_Decomposition_Mappings>
+## <http://www.unicode.org/reports/tr44/#Casemapping>
 {
   my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'UnicodeData.txt');
   for (($f->slurp)) {
+    chomp;
     my @d = split /;/, $_;
-    next if $d[5] eq '';
-    if ($d[5] =~ s/^<[^<>]+>\s*//) {
-      $Maps->{'unicode:compat_decomposition'}->{hex $d[0]} = [map { hex $_ } split / /, $d[5]];
-    } else {
-      $Maps->{'unicode:canon_decomposition'}->{hex $d[0]} =
-      $Maps->{'unicode:compat_decomposition'}->{hex $d[0]} = [map { hex $_ } split / /, $d[5]];
+
+    unless ($d[5] eq '') {
+      if ($d[5] =~ s/^<[^<>]+>\s*//) {
+        $Maps->{'unicode:compat_decomposition'}->{hex $d[0]} = [map { hex $_ } split / /, $d[5]];
+      } else {
+        $Maps->{'unicode:canon_decomposition'}->{hex $d[0]} =
+        $Maps->{'unicode:compat_decomposition'}->{hex $d[0]} = [map { hex $_ } split / /, $d[5]];
+      }
+    }
+
+    $Maps->{'unicode:Uppercase_Mapping'}->{hex $d[0]} = [hex $d[12]] if length $d[12];
+    $Maps->{'unicode:Lowercase_Mapping'}->{hex $d[0]} = [hex $d[13]] if length $d[13];
+    if (length $d[14]) {
+      $Maps->{'unicode:Titlecase_Mapping'}->{hex $d[0]} = [hex $d[14]];
+    } elsif (length $d[12]) {
+      $Maps->{'unicode:Titlecase_Mapping'}->{hex $d[0]} = [hex $d[12]];
     }
   }
 }
@@ -35,6 +47,39 @@ my $Maps = {};
 for (0xAC00..0xD7A3) {
   $Maps->{'unicode:canon_decomposition'}->{$_} =
   $Maps->{'unicode:compat_decomposition'}->{$_} = [map { ord $_ } split //, NFD chr $_];
+}
+
+{
+  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'SpecialCasing.txt');
+  for (($f->slurp)) {
+    if (/^([0-9A-F]+)\s*;\s*([0-9A-F ]*)\s*;\s*([0-9A-F ]*)\s*;\s*([0-9A-F ]*)\s*;\s*\#/) {
+      ## Full mapping
+      $Maps->{'unicode:Lowercase_Mapping'}->{hex $1} = [map { hex $_ } split / /, $2];
+      $Maps->{'unicode:Titlecase_Mapping'}->{hex $1} = [map { hex $_ } split / /, $3];
+      $Maps->{'unicode:Uppercase_Mapping'}->{hex $1} = [map { hex $_ } split / /, $4];
+    }
+  }
+}
+
+{
+  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'CaseFolding.txt');
+  for (($f->slurp)) {
+    if (/^([0-9A-F]+)\s*;\s*[CF]\s*;\s*([0-9A-F ]*)\s*;\s*\#/) {
+      $Maps->{'unicode:Case_Folding'}->{hex $1} = [map { hex $_ } split / /, $2];
+    }
+  }
+}
+
+{
+  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'DerivedNormalizationProps.txt');
+  for (($f->slurp)) {
+    if (/^([0-9A-F]+(?:\.\.[0-9A-F]+)?)\s*;\s*NFKC_CF\s*;\s*([0-9A-F ]+)\s*\#/) {
+      my ($from, $to) = map { hex $_ } split /\.\./, $1;
+      $to //= $from;
+      my $new = [map { hex $_ } grep { length } split / /, $2];
+      $Maps->{'unicode:NFKC_Casefold'}->{$_} = $new for $from..$to;
+    }
+  }
 }
 
 use Unicode::Stringprep::Mapping;
@@ -103,17 +148,20 @@ for my $from (65..93) {
 for my $map (keys %$Maps) {
   for my $char (keys %{$Maps->{$map}}) {
     my @m = @{$Maps->{$map}->{$char}};
+    my $i = 0;
     {
       my $changed;
       @m = map {
         if (defined $Maps->{$map}->{$_}) {
-          $changed = 1;
+          $changed = 1 unless @{$Maps->{$map}->{$_}} == 1 and $Maps->{$map}->{$_}->[0] == $_;
           @{$Maps->{$map}->{$_}};
         } else {
           ($_);
         }
       } @m;
-      redo if $changed;
+      warn join (' ', map { sprintf '%04X', $_ } @m), "\n" if $i > 9;
+      redo if $changed and $i++ < 12;
+      warn "$map does not converge" if $changed;
     }
     $Data->{maps}->{$map}->{chars}->{u $char} = join ' ', map { u $_ } @m;
   }
@@ -139,6 +187,7 @@ for my $key (keys %{$Data->{maps}}) {
   my $entries = delete $Data->{maps}->{$key}->{chars};
   for my $from (keys %$entries) {
     my $to = $entries->{$from};
+    next if $from eq $to;
     my $type = join '_to_',
         $from =~ / / ? 'seq' : 'char',
         $to eq '' ? 'empty' : $to =~ / / ? 'seq' : 'char';
