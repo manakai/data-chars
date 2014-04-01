@@ -4,8 +4,6 @@ use Path::Class;
 use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib');
 use Encode;
 use JSON::Functions::XS qw(perl2json_bytes_for_record file2perl);
-use Web::DOM::Document;
-use Web::HTML::Parser;
 
 my $Data = {};
 
@@ -74,32 +72,10 @@ for my $scripts_f (
 }
 
 {
-  my $html_f = file (__FILE__)->dir->parent->file ('local', 'tr31.html');
-  my $doc = new Web::DOM::Document;
-  my $parser = new Web::HTML::Parser;
-  $parser->parse_byte_string ('utf-8', (scalar $html_f->slurp) => $doc);
-  my $last_name = '';
-  my $tables = {};
-  for my $el ($doc->all->to_list) {
-    my $name = $el->get_attribute ('name') // '';
-    $last_name = $name if length $name;
-    if ($el->local_name eq 'table') {
-      $tables->{$last_name} ||= $el;
-    }
-  }
-
-  for my $def (
-    ['Table_Candidate_Characters_for_Exclusion_from_Identifiers' => 'excluded'],
-    ['Table_Recommended_Scripts' => 'recommended'],
-    ['Aspirational_Use_Scripts' => 'aspirational'],
-    ['Table_Limited_Use_Scripts' => 'limited'],
-  ) {
-    if (defined $tables->{$def->[0]}) {
-      for my $tr ($tables->{$def->[0]}->rows->to_list) {
-        if ($tr->cells->[0]->text_content =~ /^\s*\[:script=([A-Za-z]+):\]\s*$/) {
-          $Data->{scripts}->{$1}->{unicode_id} = $def->[1];
-        }
-      }
+  my $json = file2perl file (__FILE__)->dir->parent->file ('local', 'tr31.json');
+  for my $key (qw(excluded recommended aspirational limited)) {
+    for (keys %{$json->{scripts}->{$key}}) {
+      $Data->{scripts}->{$_}->{unicode_id} = $key;
     }
   }
 }

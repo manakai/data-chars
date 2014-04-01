@@ -1,0 +1,8 @@
+$unicode:ID_Start | [_]
+
+
+- $xml10-5e:suggested_ideographic_with_canon
+- $unicode:has_compat_decomposition | $xml10-5e:suggested_compat_but_regular_use
+- $xml10-5e:suggested_combining_for_symbols
+- $xml10-5e:suggested_interlinear_annotation_characters
+- $unicode:Variation_Selector

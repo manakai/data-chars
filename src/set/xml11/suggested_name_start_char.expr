@@ -1,0 +1,7 @@
+$unicode:Ll | $unicode:Lu | $unicode:Lo | $unicode:Lm | $unicode:Lt | $unicode:Nl | [_]
+
+- $xml11:suggested_ideographic_with_canon
+- $unicode:has_compat_decomposition | $xml11:suggested_compat_but_regular_use
+- $xml11:suggested_combining_for_symbols
+- $xml11:suggested_interlinear_annotation_characters
+- $unicode:Variation_Selector

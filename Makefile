@@ -51,12 +51,18 @@ local/ucd/PropertyValueAliases.txt:
 
 local/tr31.html:
 	$(WGET) -O $@ http://www.unicode.org/reports/tr31/
+local/tr31.json: local/tr31.html bin/extract-tr31.pl
+	$(PERL) bin/extract-tr31.pl > $@
+
+src/set/uax31/files: bin/uax31.pl local/tr31.json
+	$(PERL) bin/uax31.pl
+	touch $@
 
 local/langtags.json:
 	$(WGET) -O $@ https://raw.github.com/manakai/data-web-defs/master/data/langtags.json
 
 data/scripts.json: bin/scripts.pl local/ucd/Scripts.txt \
-    local/ucd/PropertyValueAliases.txt local/tr31.html \
+    local/ucd/PropertyValueAliases.txt local/tr31.json \
     local/langtags.json
 	$(PERL) bin/scripts.pl > $@
 
@@ -169,6 +175,11 @@ local/perl-unicode/lib/unicore/Decomposition.pl: \
 	$(PERL) bin/unicore-decomposition.pl
 bin/lib/Unicode/Normalize.pm:
 	$(WGET) -O $@ http://cpansearch.perl.org/src/SADAHIRO/Unicode-Normalize-1.17/Normalize.pmN
+src/set/unicode/has_canon_decomposition.expr: bin/unicode-decompositions.pl \
+    local/unicode/latest/UnicodeData.txt
+	$(PERL) bin/unicode-decompositions.pl
+src/set/unicode/has_compat_decomposition.expr: \
+    src/set/unicode/has_canon_decomposition.expr
 
 PERL_UNICODE_NORMALIZE = \
   local/perl-unicode/lib/unicore/CombiningClass.pl \
@@ -182,8 +193,10 @@ unicode-prop-list-5.0: local/unicode/5.0/PropList.txt
 unicode-prop-list-5.2: local/unicode/5.2/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 5.2 $<
 unicode-prop-list-latest: local/unicode/latest/PropList.txt \
+    local/unicode/latest/DerivedCoreProperties.txt \
     local/unicode/latest/DerivedNormalizationProps.txt
 	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/PropList.txt
+	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/DerivedCoreProperties.txt
 	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/DerivedNormalizationProps.txt
 
 local/unicode/3.2/PropList.txt:
@@ -202,6 +215,9 @@ local/unicode/latest/PropList.txt:
 local/unicode/latest/CaseFolding.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/CaseFolding.txt
+local/unicode/latest/DerivedCoreProperties.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/DerivedCoreProperties.txt
 local/unicode/latest/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
@@ -239,6 +255,9 @@ data/sets.json: bin/sets.pl \
     src/set/unicode/Block/files \
     src/set/unicode/Hangul_Syllable_Type/files \
     src/set/unicode/Canonical_Combining_Class/files \
+    src/set/unicode/has_canon_decomposition.expr \
+    src/set/unicode/has_compat_decomposition.expr \
+    src/set/uax31/files \
     src/set/idna-tables-latest/files \
     src/set/*/*.expr data/names.json
 	$(PERL) bin/sets.pl > $@
