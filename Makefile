@@ -133,9 +133,26 @@ local/unicode/latest/UnicodeData.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
 
+local/unicode/latest/Blocks.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
 local/unicode/latest/SpecialCasing.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
+local/unicode/latest/HangulSyllableType.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/HangulSyllableType.txt
+
+src/set/unicode/Block/files: \
+    bin/blocks.pl \
+    local/unicode/latest/Blocks.txt
+	$(PERL) bin/blocks.pl
+	touch $@
+src/set/unicode/Hangul_Syllable_Type/files: \
+    bin/hangul-syllable-type.pl \
+    local/unicode/latest/HangulSyllableType.txt
+	$(PERL) bin/hangul-syllable-type.pl
+	touch $@
 
 unicode-prop-list-3.2: local/unicode/3.2/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 3.2 $<
@@ -176,6 +193,8 @@ src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
     src/set/rfc5892/Unstable.expr \
+    src/set/unicode/Block/files \
+    src/set/unicode/Hangul_Syllable_Type/files \
     src/set/*/*.expr data/names.json
 	$(PERL) bin/sets.pl > $@
 

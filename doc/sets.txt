@@ -41,6 +41,9 @@ RFC 2986, RFC 3987, RFC 5234, RFC 5322, RFC 6122.
 Unicode Character Database
 <http://www.unicode.org/ucd/>.
 
+Unicode Standard Annex #44: Unicode Character Database
+<http://www.unicode.org/reports/tr44/>.
+
 Unicode in XML and other Markup Languages
 <http://www.unicode.org/reports/tr20/>.
 

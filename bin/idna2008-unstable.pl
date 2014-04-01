@@ -50,3 +50,5 @@ for my $c (0x0000..0x10FFFF) {
 }
 
 print Charinfo::Set->serialize_set (Charinfo::Set::set_merge \@set, []);
+
+## License: Public Domain.
