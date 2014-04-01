@@ -142,6 +142,9 @@ local/unicode/latest/SpecialCasing.txt:
 local/unicode/latest/HangulSyllableType.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/HangulSyllableType.txt
+local/unicode/latest/DerivedCombiningClass.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedCombiningClass.txt
 
 src/set/unicode/Block/files: \
     bin/blocks.pl \
@@ -153,6 +156,24 @@ src/set/unicode/Hangul_Syllable_Type/files: \
     local/unicode/latest/HangulSyllableType.txt
 	$(PERL) bin/hangul-syllable-type.pl
 	touch $@
+src/set/unicode/Canonical_Combining_Class/files: \
+    bin/ccc.pl \
+    local/unicode/latest/DerivedCombiningClass.txt
+	$(PERL) bin/ccc.pl
+	touch $@
+
+local/perl-unicode/lib/unicore/CombiningClass.pl: \
+    src/set/unicode/Canonical_Combining_Class/files
+local/perl-unicode/lib/unicore/Decomposition.pl: \
+    bin/unicore-decomposition.pl local/unicode/latest/UnicodeData.txt
+	$(PERL) bin/unicore-decomposition.pl
+bin/lib/Unicode/Normalize.pm:
+	$(WGET) -O $@ http://cpansearch.perl.org/src/SADAHIRO/Unicode-Normalize-1.17/Normalize.pmN
+
+PERL_UNICODE_NORMALIZE = \
+  local/perl-unicode/lib/unicore/CombiningClass.pl \
+  local/perl-unicode/lib/unicore/Decomposition.pl \
+  bin/lib/Unicode/Normalize.pm
 
 unicode-prop-list-3.2: local/unicode/3.2/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 3.2 $<
@@ -186,7 +207,7 @@ local/unicode/latest/DerivedNormalizationProps.txt:
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
 
 src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
-    bin/lib/Charinfo/Set.pm
+    bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE)
 # data/maps.json
 	$(PERL) bin/idna2008-unstable.pl > $@
 
@@ -217,6 +238,7 @@ data/sets.json: bin/sets.pl \
     src/set/rfc5892/Unstable.expr \
     src/set/unicode/Block/files \
     src/set/unicode/Hangul_Syllable_Type/files \
+    src/set/unicode/Canonical_Combining_Class/files \
     src/set/idna-tables-latest/files \
     src/set/*/*.expr data/names.json
 	$(PERL) bin/sets.pl > $@
