@@ -55,6 +55,9 @@ RFC 2813 - Internet Relay Chat: Server Protocol
 IRC RPL_ISUPPORT Numeric Definition
 <https://tools.ietf.org/html/draft-brocklesby-irc-isupport-03#section-3.1>.
 
+RFC 5051 - i;unicode-casemap - Simple Unicode Collation Algorithm
+<http://tools.ietf.org/html/rfc5051>.
+
 * License
 
 The file contains data generated from Unicode Character Database.

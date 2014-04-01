@@ -136,6 +136,16 @@ for my $from (65..93) {
 }
 
 {
+  $Maps->{'rfc5051:titlecase-canonical'} = {%{$Maps->{'unicode:compat_decomposition'}}, %{$Maps->{'unicode:Titlecase_Mapping'}}};
+  for (1..10) {
+    for (keys %{$Maps->{'rfc5051:titlecase-canonical'}}) {
+      my $v = $Maps->{'rfc5051:titlecase-canonical'}->{$_};
+      $Maps->{'rfc5051:titlecase-canonical'}->{$_} = [map { @{$Maps->{'unicode:compat_decomposition'}->{$_} || [$_]} } @$v];
+    }
+  }
+}
+
+{
   use utf8;
   my @hira = split //, 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんゔがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉゃゅょっゕゖ';
   my @kata = split //, 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンヴガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォャュョッヵヶ';
