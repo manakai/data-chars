@@ -61,6 +61,9 @@ Extensible Markup Language (XML) 1.1 (Second Edition)
 RFC 5892 - The Unicode Code Points and Internationalized Domain Names
 for Applications (IDNA) <http://tools.ietf.org/html/rfc5892>.
 
+IDNA Parameters
+<http://www.iana.org/assignments/idna-tables/idna-tables.xml>.
+
 * License
 
 The file contains data generated from Unicode Character Database.

@@ -9,3 +9,4 @@
 /config/perl/libs.txt
 /src/set/unicode/Block/files
 /src/set/unicode/Hangul_Syllable_Type/files
+/src/set/idna-tables*/files

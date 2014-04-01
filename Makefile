@@ -190,11 +190,34 @@ src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
 # data/maps.json
 	$(PERL) bin/idna2008-unstable.pl > $@
 
+UNICODE_VERSION = XXXVERSIONNOTSPECIFIEDXXX
+
+local/iana-idna/$(UNICODE_VERSION).xml:
+	mkdir -p local/iana-idna
+	$(WGET) -O $@ http://www.iana.org/assignments/idna-tables-$(UNICODE_VERSION)/idna-tables-$(UNICODE_VERSION).xml
+local/iana-idna/latest.xml:
+	mkdir -p local/iana-idna
+	$(WGET) -O $@ http://www.iana.org/assignments/idna-tables/idna-tables.xml
+
+src/set/idna-tables-$(UNICODE_VERSION)/files: \
+    local/iana-idna/$(UNICODE_VERSION).xml \
+    bin/idna-tables.pl
+	mkdir -p src/set/idna-tables-$(UNICODE_VERSION)
+	$(PERL) bin/idna-tables.pl $(UNICODE_VERSION)
+	touch $@
+src/set/idna-tables-latest/files: \
+    local/iana-idna/latest.xml \
+    bin/idna-tables.pl
+	mkdir -p src/set/idna-tables-latest
+	$(PERL) bin/idna-tables.pl latest
+	touch $@
+
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
     src/set/rfc5892/Unstable.expr \
     src/set/unicode/Block/files \
     src/set/unicode/Hangul_Syllable_Type/files \
+    src/set/idna-tables-latest/files \
     src/set/*/*.expr data/names.json
 	$(PERL) bin/sets.pl > $@
 
