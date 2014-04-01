@@ -12,39 +12,22 @@ my $maps = (file2perl file (__FILE__)->dir->parent->file ('data', 'maps.json'))-
 my @set;
 
 for my $c (0x0000..0x10FFFF) {
-  my $d = NFKC chr $c;
-  if (1 != length $d) {
-    push @set, [$c => $c];
-    next;
-  }
+  my $d = [map { sprintf '%04X', ord $_ } split //, NFKC chr $c];
 
-  my $d_x = sprintf '%04X', ord $d;
-  my $e = $maps->{'unicode:Case_Folding'}->{char_to_char}->{$d_x} //
-          $maps->{'unicode:Case_Folding'}->{char_to_seq}->{$d_x} //
-          $maps->{'unicode:Case_Folding'}->{char_to_empty}->{$d_x} //
-          $maps->{'unicode:Case_Folding'}->{seq_to_char}->{$d_x} //
-          $maps->{'unicode:Case_Folding'}->{seq_to_seq}->{$d_x} //
-          $maps->{'unicode:Case_Folding'}->{seq_to_empty}->{$d_x} // $d_x;
-  $e = [split / /, $e];
-  if (1 != @$e) {
-    push @set, [$c => $c];
-    next;
-  }
+  my $e = join ' ', map {
+    $maps->{'unicode:Case_Folding'}->{char_to_char}->{$_} //
+    $maps->{'unicode:Case_Folding'}->{char_to_seq}->{$_} //
+    $maps->{'unicode:Case_Folding'}->{char_to_empty}->{$_} //
+    $maps->{'unicode:Case_Folding'}->{seq_to_char}->{$_} //
+    $maps->{'unicode:Case_Folding'}->{seq_to_seq}->{$_} //
+    $maps->{'unicode:Case_Folding'}->{seq_to_empty}->{$_} // $_;
+  } @$d;
+  my $f = join '', map { chr hex $_ } split / /, $e;
 
-  if ($c != hex $e->[0]) {
-    push @set, [$c => $c];
-    next;
-  }
+  my $g = NFKC $f;
 
-  my $f = NFKC chr hex $e->[0];
-  if (1 != length $f) {
+  unless ($g eq chr $c) {
     push @set, [$c => $c];
-    next;
-  }
-
-  if ($c != ord $f) {
-    push @set, [$c => $c];
-    next;
   }
 }
 
