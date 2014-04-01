@@ -1,4 +1,6 @@
 $rfc5892:LDH | $rfc5892:LetterDigits
+- $rfc5892:BackwardCompatible
+- $rfc5892:Exceptions
 | $rfc5892:BackwardCompatible:PVALID
 | $rfc5892:Exceptions:PVALID
 - $rfc5892:Unstable
