@@ -1,11 +1,11 @@
 $rfc5892:LDH | $rfc5892:LetterDigits
 - $rfc5892:BackwardCompatible
 - $rfc5892:Exceptions
-| $rfc5892:BackwardCompatible:PVALID
-| $rfc5892:Exceptions:PVALID
 - $rfc5892:Unstable
 - $rfc5892:IgnorableProperties
 - $rfc5892:IgnorableBlocks
 - $rfc5892:OldHangulJamo
 - $rfc5892:JoinControl
 - $rfc5892:Unassigned
+| $rfc5892:BackwardCompatible:PVALID
+| $rfc5892:Exceptions:PVALID
