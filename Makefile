@@ -168,8 +168,14 @@ local/unicode/latest/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
 
+src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
+    bin/lib/Charinfo/Set.pm
+# data/maps.json
+	$(PERL) bin/idna2008-unstable.pl > $@
+
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
+    src/set/rfc5892/Unstable.expr \
     src/set/*/*.expr data/names.json
 	$(PERL) bin/sets.pl > $@
 

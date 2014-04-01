@@ -36,7 +36,7 @@ ECMAScript 5.1.
 HTML Standard <http://www.whatwg.org/specs/web-apps/current-work/>.
 
 RFC 1034, RFC 1738, RFC 2234, RFC 2396, RFC 3454, RFC 3722, RFC 3920,
-RFC 2986, RFC 3987, RFC 5234, RFC 5322, RFC 5892, RFC 6122.
+RFC 2986, RFC 3987, RFC 5234, RFC 5322, RFC 6122.
 
 Unicode Character Database
 <http://www.unicode.org/ucd/>.
@@ -54,6 +54,9 @@ Extensible Markup Language (XML) 1.0 (Fifth Edition)
 
 Extensible Markup Language (XML) 1.1 (Second Edition)
 <http://www.w3.org/TR/2006/REC-xml11-20060816/>.
+
+RFC 5892 - The Unicode Code Points and Internationalized Domain Names
+for Applications (IDNA) <http://tools.ietf.org/html/rfc5892>.
 
 * License
 
