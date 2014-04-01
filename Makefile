@@ -34,7 +34,7 @@ all-data: all-ucd unicode-general-category-latest \
 
 clean-data:
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
-	rm -fr local/unicode/latest
+	rm -fr local/unicode/latest local/iana-idna/latest.xml
 
 all-ucd: prepare-ucd data/scripts.json local/ucd/touch
 prepare-ucd:

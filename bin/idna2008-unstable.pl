@@ -19,13 +19,12 @@ for my $c (0x0000..0x10FFFF) {
   }
 
   my $d_x = sprintf '%04X', ord $d;
-  my $e = $maps->{'unicode:Case_Folding'}->{char_to_char}->{$d_x} ||
-          $maps->{'unicode:Case_Folding'}->{char_to_seq}->{$d_x} ||
-          $maps->{'unicode:Case_Folding'}->{char_to_empty}->{$d_x} ||
-          $maps->{'unicode:Case_Folding'}->{seq_to_char}->{$d_x} ||
-          $maps->{'unicode:Case_Folding'}->{seq_to_seq}->{$d_x} ||
-          $maps->{'unicode:Case_Folding'}->{seq_to_empty}->{$d_x};
-  next unless $e;
+  my $e = $maps->{'unicode:Case_Folding'}->{char_to_char}->{$d_x} //
+          $maps->{'unicode:Case_Folding'}->{char_to_seq}->{$d_x} //
+          $maps->{'unicode:Case_Folding'}->{char_to_empty}->{$d_x} //
+          $maps->{'unicode:Case_Folding'}->{seq_to_char}->{$d_x} //
+          $maps->{'unicode:Case_Folding'}->{seq_to_seq}->{$d_x} //
+          $maps->{'unicode:Case_Folding'}->{seq_to_empty}->{$d_x} // $d_x;
   $e = [split / /, $e];
   if (1 != @$e) {
     push @set, [$c => $c];
