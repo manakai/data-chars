@@ -159,8 +159,8 @@ for my $from (65..93) {
   my @small = split //, qw(ぁぃぅぇぉゃゅょっゕゖァィゥェォャュョッヵヶㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿι);
   my @large = split //, qw(あいうえおやゆよつかけアイウエオヤユヨツカケクシストヌハヒフヘホムラリルレロし);
   for (0..$#small) {
-    $Maps->{'kana:small'}->{ord $small[$_]} = [ord $large[$_]];
-    $Maps->{'kana:large'}->{ord $large[$_]} = [ord $small[$_]];
+    $Maps->{'kana:large'}->{ord $small[$_]} = [ord $large[$_]];
+    $Maps->{'kana:small'}->{ord $large[$_]} = [ord $small[$_]];
   }
 
   for (map { ord $_ } split //, q(かきくけこさしすせそたちつてとはひふへほカキクケコサシスセソタチツテトハヒフヘホ)) {
@@ -179,11 +179,11 @@ for my $from (65..93) {
 
 {
   use utf8;
-  my @fw = (0x3000, 0xFF01..0xFF5E, 0xFF61..0xFF9F, 0xFFE0..0xFFE6);
-  my @hw = (0x0020, 0x0021..0x007E, map { ord $_ } split //, qq{。「」、・ヲァィゥェォャュョッーアイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワン\x{3099}\x{309A}\xA2\xA3\xAC\xAF\xA6\xA5\x{20A9}});
+  my @fw = (0x3000, 0xFF00..0xFFEF);
   for (0..$#fw) {
-    $Maps->{'fwhw:strict_normalize'}->{$fw[$_]} = [$hw[$_]];
-    $Maps->{'fwhw:normalize'}->{$fw[$_]} = [$hw[$_]];
+    $Maps->{'fwhw:strict_normalize'}->{$fw[$_]} =
+    $Maps->{'fwhw:normalize'}->{$fw[$_]}
+        = $Maps->{'unicode:compat_decomposition'}->{$fw[$_]} || [$fw[$_]];
   }
   $Maps->{'fwhw:normalize'}->{0xFF5E} = [0x301C];
   $Maps->{'fwhw:normalize'}->{0x2212} = [ord '-'];
