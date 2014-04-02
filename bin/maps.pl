@@ -155,6 +155,38 @@ for my $from (65..93) {
     $Maps->{'kana:h2k'}->{ord $hira[$_]} = [ord $kata[$_]];
     $Maps->{'kana:k2h'}->{ord $kata[$_]} = [ord $hira[$_]];
   }
+
+  my @small = split //, qw(ぁぃぅぇぉゃゅょっゕゖァィゥェォャュョッヵヶㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿι);
+  my @large = split //, qw(あいうえおやゆよつかけアイウエオヤユヨツカケクシストヌハヒフヘホムラリルレロし);
+  for (0..$#small) {
+    $Maps->{'kana:small'}->{ord $small[$_]} = [ord $large[$_]];
+    $Maps->{'kana:large'}->{ord $large[$_]} = [ord $small[$_]];
+  }
+
+  for (map { ord $_ } split //, q(かきくけこさしすせそたちつてとはひふへほカキクケコサシスセソタチツテトハヒフヘホ)) {
+    $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x3099} = [$_ + 1];
+    $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x309B} = [$_ + 1];
+  }
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'う'), 0x3099} = [ord 'ゔ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'う'), 0x309B} = [ord 'ゔ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0x3099} = [ord 'ヴ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0x309B} = [ord 'ヴ'];
+  for (map { ord $_ } split //, q(はひふへほハヒフヘホ)) {
+    $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x309A} = [$_ + 2];
+    $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x309C} = [$_ + 2];
+  }
+}
+
+{
+  use utf8;
+  my @fw = (0x3000, 0xFF01..0xFF5E, 0xFF61..0xFF9F, 0xFFE0..0xFFE6);
+  my @hw = (0x0020, 0x0021..0x007E, map { ord $_ } split //, qq{。「」、・ヲァィゥェォャュョッーアイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワン\x{3099}\x{309A}\xA2\xA3\xAC\xAF\xA6\xA5\x{20A9}});
+  for (0..$#fw) {
+    $Maps->{'fwhw:strict_normalize'}->{$fw[$_]} = [$hw[$_]];
+    $Maps->{'fwhw:normalize'}->{$fw[$_]} = [$hw[$_]];
+  }
+  $Maps->{'fwhw:normalize'}->{0xFF5E} = [0x301C];
+  $Maps->{'fwhw:normalize'}->{0x2212} = [ord '-'];
 }
 
 for my $map (keys %$Maps) {
@@ -175,7 +207,7 @@ for my $map (keys %$Maps) {
       redo if $changed and $i++ < 12;
       warn "$map does not converge" if $changed;
     }
-    $Data->{maps}->{$map}->{chars}->{u $char} = join ' ', map { u $_ } @m;
+    $Data->{maps}->{$map}->{chars}->{join ' ', map { u $_ } split /\Q$;\E/, $char} = join ' ', map { u $_ } @m;
   }
 }
 
