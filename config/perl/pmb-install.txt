@@ -5,7 +5,6 @@ Test::Tester~0.109
 JSON::XS~3.01
 Test::NoWarnings~1.04
 Exporter~5.68
-Encode~2.58
 Carp~1.33
 Path::Class~0.33
 common::sense~3.72

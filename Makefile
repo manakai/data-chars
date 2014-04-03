@@ -3,11 +3,14 @@
 all: deps all-data
 clean: clean-data
 
-## ------ Setup ------
-
 WGET = wget
 GIT = git
 PERL = ./perl
+
+dataautoupdate: clean deps all
+	$(GIT) add data/ src/
+
+## ------ Setup ------
 
 deps: git-submodules pmbp-install
 
