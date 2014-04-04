@@ -36,11 +36,13 @@ my $Maps = {};
       }
     }
 
-    $Maps->{'unicode:Uppercase_Mapping'}->{hex $d[0]} = [hex $d[12]] if length $d[12];
-    $Maps->{'unicode:Lowercase_Mapping'}->{hex $d[0]} = [hex $d[13]] if length $d[13];
-    if (length $d[14]) {
+    $Maps->{'unicode:Uppercase_Mapping'}->{hex $d[0]} = [hex $d[12]]
+        if defined $d[12] and length $d[12];
+    $Maps->{'unicode:Lowercase_Mapping'}->{hex $d[0]} = [hex $d[13]]
+        if defined $d[13] and length $d[13];
+    if (defined $d[14] and length $d[14]) {
       $Maps->{'unicode:Titlecase_Mapping'}->{hex $d[0]} = [hex $d[14]];
-    } elsif (length $d[12]) {
+    } elsif (defined $d[12] and length $d[12]) {
       $Maps->{'unicode:Titlecase_Mapping'}->{hex $d[0]} = [hex $d[12]];
     }
   }
