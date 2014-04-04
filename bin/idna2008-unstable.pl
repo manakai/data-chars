@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+no warnings 'utf8';
 use Path::Class;
 use lib glob file (__FILE__)->dir->subdir ('lib')->stringify;
 use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib')->stringify;
