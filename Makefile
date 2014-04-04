@@ -7,6 +7,8 @@ WGET = wget
 GIT = git
 PERL = ./perl
 
+updatenightly: dataautoupdate
+
 dataautoupdate: clean deps all
 	$(GIT) add data/ src/
 
