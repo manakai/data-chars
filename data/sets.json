@@ -45,6 +45,12 @@
       "$es5:IsWordChar" : {
          "chars" : "[0-9A-z]"
       },
+      "$es5:JSONStringCharacter-char" : {
+         "chars" : "[\\u0020-!\\u0023-\\u005B\\u005D-\\uFFFF]"
+      },
+      "$es5:JSONWhiteSpace" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020]"
+      },
       "$es5:LineTerminator" : {
          "chars" : "[\\u000A\\u000D\\u2028-\\u2029]"
       },
