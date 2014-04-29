@@ -273,9 +273,6 @@
       "$rdf11:ntriples:STRING_LITERAL_QUOTE-char" : {
          "chars" : "[\\u0000-\\u0009\\u000B-\\u000C\\u000E-!\\u0023-\\u005B\\u005D-\\u{10FFFF}]"
       },
-      "$rdf11:ntriples:eol-char" : {
-         "chars" : "[\\u000A\\u000D]"
-      },
       "$rfc1034:digit" : {
          "chars" : "[0-9]"
       },
