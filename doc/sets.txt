@@ -58,6 +58,9 @@ Extensible Markup Language (XML) 1.0 (Fifth Edition)
 Extensible Markup Language (XML) 1.1 (Second Edition)
 <http://www.w3.org/TR/2006/REC-xml11-20060816/>.
 
+Character Model for the World Wide Web 1.0: Normalization
+<http://www.w3.org/TR/charmod-norm/>.
+
 RFC 5892 - The Unicode Code Points and Internationalized Domain Names
 for Applications (IDNA) <http://tools.ietf.org/html/rfc5892>.
 
