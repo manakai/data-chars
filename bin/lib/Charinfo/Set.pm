@@ -107,6 +107,8 @@ sub evaluate_expression ($$) {
   my $input = $_[1];
   my $current = [];
 
+  $input = join "\x0A", grep { not /^\s*#/ } split /\x0D?\x0A/, $input;
+
   my $op = '|';
   if ($input =~ s/^\s*-//) {
     $current = [[0x0000, 0x10FFFF]];
@@ -135,7 +137,7 @@ sub evaluate_expression ($$) {
         } elsif ($chars =~ s/^\\\\//) {
           $code = 0x5C;
         } elsif ($chars =~ s/^\\//) {
-          die "Broken escape\n";
+          die "Broken escape: |\\$chars|\n";
         } elsif ($chars =~ s/^-//) {
           die "Broken range\n" if $in_range;
           $in_range = 1;

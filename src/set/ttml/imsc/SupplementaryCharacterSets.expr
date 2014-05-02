@@ -1,0 +1,63 @@
+## <http://www.w3.org/TR/2014/WD-ttml-imsc1-20140501/#h2_recommended-unicode-code-points-per-language>
+
+## lv, lt, et, tr, hr, cs, pl, sl, sk
+[\u0100-\u017F]
+|
+## nl
+[\u0301]
+|
+## ro
+[\u0100-\u017F
+\u0218-\u0219
+\u021A-\u021B]
+|
+## el
+[\u0301
+\u0308
+\u0386-\u0387
+\u0388-\u03CE]
+|
+## pt, es
+[\u20A1-\u20A2
+\u20B3]
+|
+## ar
+[\u060C-\u060D
+\u061B
+\u061E-\u061F
+\u0621-\u063A
+\u0640-\u0652
+\u0660-\u066D
+\u0670]
+|
+## he
+[\u05B0-\u05C3
+\u05D0-\u05EA
+\u05F3-\u05F4]
+|
+## bs, bg, mk, ru, sr
+[\u0100-\u017F
+\u0400-\u045F]
+|
+## uk
+[\u0100-\u017F
+\u0400-\u045F
+\u0490-\u0491
+\u02BC
+\u2116]
+|
+## kk
+[\u0100-\u017F
+\u0400-\u045F
+\u0492-\u0493
+\u049A-\u049B
+\u04A2-\u04A3
+\u04AE-\u04B1
+\u04BA-\u04BB
+\u04D8-\u04D9
+\u04E8-\u04E9]
+|
+## hu
+[\u0100-\u017F
+\u2052
+\u27E8-\u27E9]
