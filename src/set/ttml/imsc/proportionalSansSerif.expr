@@ -1,0 +1,19 @@
+## <http://www.w3.org/TR/2014/WD-ttml-imsc1-20140501/#reference-fonts>
+
+$ttml:imsc:RecommendedCharacterSets
+
+## Semitic languages:
+
+## ar
+- [\u060C-\u060D
+\u061B
+\u061E-\u061F
+\u0621-\u063A
+\u0640-\u0652
+\u0660-\u066D
+\u0670]
+
+## he
+- [\u05B0-\u05C3
+\u05D0-\u05EA
+\u05F3-\u05F4]

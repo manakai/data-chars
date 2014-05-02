@@ -20,14 +20,14 @@ sets [object]
 
         The first character is "[" and the last character is "]".  Any
         character between them are character in the set except for "\"
-        with some following characters, "-", "[", and "]".  If there
-        is a "-" character between two characters, any character whose
-        code point is between code points of them are also in the set.
-        Characters "\u{" followed by a code point followed by a "}"
-        indicate that the character is in the set.  Characters "\u"
-        followed by four hexadecimal alphabet indicate that the
-        character whose code point is equal to the hexadecimal number
-        is in the set.
+        with some following characters, "-", "^", "[", and "]".  If
+        there is a "-" character between two characters, any character
+        whose code point is between code points of them are also in
+        the set.  Characters "\u{" followed by a code point followed
+        by a "}" indicate that the character is in the set.
+        Characters "\u" followed by four hexadecimal alphabet indicate
+        that the character whose code point is equal to the
+        hexadecimal number is in the set.
 
 * Sources
 
@@ -64,7 +64,20 @@ for Applications (IDNA) <http://tools.ietf.org/html/rfc5892>.
 IDNA Parameters
 <http://www.iana.org/assignments/idna-tables/idna-tables.xml>.
 
+OpenType specification version 1.4
+<http://www.microsoft.com/typography/otspec140/default.htm>.
+
+OpenType specification version 1.5
+<http://www.microsoft.com/typography/otspec150/default.htm>.
+
+TTML Text and Image Profiles for Internet Media Subtitles and Captions
+1.0
+<https://dvcs.w3.org/hg/ttml/raw-file/tip/ttml-ww-profiles/ttml-ww-profiles.html>.
+
 * License
+
+You are granted a license to use, reproduce and create derivative
+works of this JSON file.
 
 The file contains data generated from Unicode Character Database.
 Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
