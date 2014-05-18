@@ -1,0 +1,1 @@
+$rfc6532:obs-utext | $rfc5234:CR | $rfc5234:LF | $rfc5322:FWS-char

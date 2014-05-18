@@ -1,0 +1,2 @@
+$rfc2234:ALPHA | $rfc2234:DIGIT | [!#$%&'*+\u002D/=?\u005E_`{|}~]
+| $rfc5335:UTF8-xtra-char
