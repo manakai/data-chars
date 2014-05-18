@@ -35,8 +35,36 @@ ECMAScript 5.1.
 
 HTML Standard <http://www.whatwg.org/specs/web-apps/current-work/>.
 
-RFC 1034, RFC 1738, RFC 2234, RFC 2396, RFC 3454, RFC 3722, RFC 3920,
-RFC 2986, RFC 3987, RFC 5234, RFC 5322, RFC 6122.
+RFC 822, STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
+<http://tools.ietf.org/html/rfc822>.
+
+RFC 1034, RFC 1738.
+
+RFC 2234, Augmented BNF for Syntax Specifications: ABNF
+<http://tools.ietf.org/html/rfc2234>.
+
+RFC 2396.
+
+RFC 2822, Internet Message Format
+<http://tools.ietf.org/html/rfc2822>.
+
+RFC 3454.
+
+RFC 3629, UTF-8, a transformation format of ISO 10646
+<http://tools.ietf.org/html/rfc3629>.
+
+RFC 3722, RFC 3920, RFC 2986, RFC 3987, RFC 5234.
+
+RFC 5322, Internet Message Format
+<http://tools.ietf.org/html/rfc5322>.
+
+RFC 5335, Internationalized Email Headers
+<http://tools.ietf.org/html/rfc5335>.
+
+RFC 6122.
+
+RFC 6532, Internationalized Email Headers
+<http://tools.ietf.org/html/rfc6532>.
 
 Unicode Character Database
 <http://www.unicode.org/ucd/>.
