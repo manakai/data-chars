@@ -1,0 +1,5 @@
+## <http://www.whatwg.org/specs/web-apps/current-work/#consume-a-character-reference>
+
+[\u{00}\u{80}\u{82}\u{83}\u{84}\u{85}\u{86}\u{87}\u{88}\u{89}\u{8A}\u{8B}\u{8C}\u{8E}\u{91}\u{92}\u{93}\u{94}\u{95}\u{96}\u{97}\u{98}\u{99}\u{9A}\u{9B}\u{9C}\u{9E}\u{9F}\u{D800}-\u{DFFF}]
+
+## and > U+10FFFF

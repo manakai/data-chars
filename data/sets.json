@@ -120,6 +120,18 @@
       "$html:bidirectional-algorithm-formatting-characters" : {
          "chars" : "[\\u202A-\\u202E\\u2066-\\u2069]"
       },
+      "$html:characters" : {
+         "chars" : "[\\u0000-\\u{10FFFF}]"
+      },
+      "$html:charref-parse-error" : {
+         "chars" : "[\\u0000-\\u0008\\u000B\\u000D-\\u001F\\u007F-\\u009F\\uD800-\\uDFFF\\uFDD0-\\uFDEF\\uFFFE-\\uFFFF\\u{1FFFE}-\\u{1FFFF}\\u{2FFFE}-\\u{2FFFF}\\u{3FFFE}-\\u{3FFFF}\\u{4FFFE}-\\u{4FFFF}\\u{5FFFE}-\\u{5FFFF}\\u{6FFFE}-\\u{6FFFF}\\u{7FFFE}-\\u{7FFFF}\\u{8FFFE}-\\u{8FFFF}\\u{9FFFE}-\\u{9FFFF}\\u{AFFFE}-\\u{AFFFF}\\u{BFFFE}-\\u{BFFFF}\\u{CFFFE}-\\u{CFFFF}\\u{DFFFE}-\\u{DFFFF}\\u{EFFFE}-\\u{EFFFF}\\u{FFFFE}-\\u{FFFFF}\\u{10FFFE}-\\u{10FFFF}]"
+      },
+      "$html:charref-parse-error-only" : {
+         "chars" : "[\\u0001-\\u0008\\u000B\\u000D-\\u001F\\u007F\\u0081\\u008D\\u008F-\\u0090\\u009D\\uFDD0-\\uFDEF\\uFFFE-\\uFFFF\\u{1FFFE}-\\u{1FFFF}\\u{2FFFE}-\\u{2FFFF}\\u{3FFFE}-\\u{3FFFF}\\u{4FFFE}-\\u{4FFFF}\\u{5FFFE}-\\u{5FFFF}\\u{6FFFE}-\\u{6FFFF}\\u{7FFFE}-\\u{7FFFF}\\u{8FFFE}-\\u{8FFFF}\\u{9FFFE}-\\u{9FFFF}\\u{AFFFE}-\\u{AFFFF}\\u{BFFFE}-\\u{BFFFF}\\u{CFFFE}-\\u{CFFFF}\\u{DFFFE}-\\u{DFFFF}\\u{EFFFE}-\\u{EFFFF}\\u{FFFFE}-\\u{FFFFF}\\u{10FFFE}-\\u{10FFFF}]"
+      },
+      "$html:charref-parse-error-replaced" : {
+         "chars" : "[\\u0000\\u0080\\u0082-\\u008C\\u008E\\u0091-\\u009C\\u009E-\\u009F\\uD800-\\uDFFF]"
+      },
       "$html:control-characters" : {
          "chars" : "[\\u0000-\\u001F\\u007F-\\u009F]"
       },
@@ -128,6 +140,9 @@
       },
       "$html:lowercase-ASCII-letters" : {
          "chars" : "[a-z]"
+      },
+      "$html:parse-error" : {
+         "chars" : "[\\u0001-\\u0008\\u000B\\u000E-\\u001F\\u007F-\\u009F\\uD800-\\uDFFF\\uFDD0-\\uFDEF\\uFFFE-\\uFFFF\\u{1FFFE}-\\u{1FFFF}\\u{2FFFE}-\\u{2FFFF}\\u{3FFFE}-\\u{3FFFF}\\u{4FFFE}-\\u{4FFFF}\\u{5FFFE}-\\u{5FFFF}\\u{6FFFE}-\\u{6FFFF}\\u{7FFFE}-\\u{7FFFF}\\u{8FFFE}-\\u{8FFFF}\\u{9FFFE}-\\u{9FFFF}\\u{AFFFE}-\\u{AFFFF}\\u{BFFFE}-\\u{BFFFF}\\u{CFFFE}-\\u{CFFFF}\\u{DFFFE}-\\u{DFFFF}\\u{EFFFE}-\\u{EFFFF}\\u{FFFFE}-\\u{FFFFF}\\u{10FFFE}-\\u{10FFFF}]"
       },
       "$html:space-characters" : {
          "chars" : "[\\u0009-\\u000A\\u000C-\\u000D\\u0020]"

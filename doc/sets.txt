@@ -107,9 +107,15 @@ TTML Text and Image Profiles for Internet Media Subtitles and Captions
 
 * License
 
-You are granted a license to use, reproduce and create derivative
-works of this JSON file.
+You are granted a license to use, reproduce, and create derivative
+works of the JSON file.
 
-The file contains data generated from Unicode Character Database.
+The JSON file contains data extracted from Unicode Character Database.
 Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
 <http://www.unicode.org/copyright.html#Exhibit1>.
+
+The JSON file contains data extracted from HTML Standard.  "Written by
+Ian Hickson (Google, ian@hixie.ch) - Parts © Copyright 2004-2014 Apple
+Inc., Mozilla Foundation, and Opera Software ASA; You are granted a
+license to use, reproduce and create derivative works of this
+document."
