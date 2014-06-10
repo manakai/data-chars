@@ -41,7 +41,7 @@ maps [object]
 [DOM] DOM Standard <http://dom.spec.whatwg.org/#strings>.
 
 [HTML] HTML Standard
-<http://www.whatwg.org/specs/web-apps/current-work/#case-sensitivity-and-string-comparison>.
+<http://www.whatwg.org/specs/web-apps/current-work/>.
 
 RFC 1459 - Internet Relay Chat Protocol
 <http://tools.ietf.org/html/rfc1459.html#section-2.2>.
@@ -60,6 +60,15 @@ RFC 5051 - i;unicode-casemap - Simple Unicode Collation Algorithm
 
 * License
 
-The file contains data generated from Unicode Character Database.
+You are granted a license to use, reproduce, and create derivative
+works of the JSON file.
+
+The JSON file contains data extracted from Unicode Character Database.
 Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
 <http://www.unicode.org/copyright.html#Exhibit1>.
+
+The JSON file contains data extracted from HTML Standard.  "Written by
+Ian Hickson (Google, ian@hixie.ch) - Parts © Copyright 2004-2014 Apple
+Inc., Mozilla Foundation, and Opera Software ASA; You are granted a
+license to use, reproduce and create derivative works of this
+document."
