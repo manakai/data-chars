@@ -12,7 +12,10 @@
             "Caucasian Albanian"
          ],
          "ianareg" : "2012-11-01",
-         "iso" : "Aghb"
+         "iso" : "Aghb",
+         "unicode" : "Caucasian_Albanian",
+         "unicode_id" : "excluded",
+         "xforms" : "CaucasianAlbanian"
       },
       "Ahom" : {
          "desc" : [
@@ -95,7 +98,10 @@
             "Bassa Vah"
          ],
          "ianareg" : "2010-04-10",
-         "iso" : "Bass"
+         "iso" : "Bass",
+         "unicode" : "Bassa_Vah",
+         "unicode_id" : "excluded",
+         "xforms" : "BassaVah"
       },
       "Batk" : {
          "desc" : [
@@ -309,7 +315,10 @@
             "Duployan stenography"
          ],
          "ianareg" : "2010-08-16",
-         "iso" : "Dupl"
+         "iso" : "Dupl",
+         "unicode" : "Duployan",
+         "unicode_id" : "excluded",
+         "xforms" : "Duployan"
       },
       "Egyd" : {
          "desc" : [
@@ -340,7 +349,10 @@
             "Elbasan"
          ],
          "ianareg" : "2010-08-16",
-         "iso" : "Elba"
+         "iso" : "Elba",
+         "unicode" : "Elbasan",
+         "unicode_id" : "excluded",
+         "xforms" : "Elbasan"
       },
       "Ethi" : {
          "collation_reorder" : "Ethi",
@@ -402,7 +414,10 @@
             "Grantha"
          ],
          "ianareg" : "2009-12-09",
-         "iso" : "Gran"
+         "iso" : "Gran",
+         "unicode" : "Grantha",
+         "unicode_id" : "excluded",
+         "xforms" : "Grantha"
       },
       "Grek" : {
          "collation_reorder" : "Grek",
@@ -546,7 +561,10 @@
             "Pahawh Hmong"
          ],
          "ianareg" : "2005-10-16",
-         "iso" : "Hmng"
+         "iso" : "Hmng",
+         "unicode" : "Pahawh_Hmong",
+         "unicode_id" : "excluded",
+         "xforms" : "PahawhHmong"
       },
       "Hrkt" : {
          "desc" : [
@@ -661,7 +679,10 @@
             "Khojki"
          ],
          "ianareg" : "2011-08-16",
-         "iso" : "Khoj"
+         "iso" : "Khoj",
+         "unicode" : "Khojki",
+         "unicode_id" : "excluded",
+         "xforms" : "Khojki"
       },
       "Knda" : {
          "collation_reorder" : "Knda",
@@ -783,7 +804,10 @@
             "Linear A"
          ],
          "ianareg" : "2005-10-16",
-         "iso" : "Lina"
+         "iso" : "Lina",
+         "unicode" : "Linear_A",
+         "unicode_id" : "excluded",
+         "xforms" : "LinearA"
       },
       "Linb" : {
          "desc" : [
@@ -838,7 +862,10 @@
             "Mahajani"
          ],
          "ianareg" : "2012-11-01",
-         "iso" : "Mahj"
+         "iso" : "Mahj",
+         "unicode" : "Mahajani",
+         "unicode_id" : "excluded",
+         "xforms" : "Mahajani"
       },
       "Mand" : {
          "desc" : [
@@ -856,7 +883,10 @@
             "Manichaean"
          ],
          "ianareg" : "2007-07-28",
-         "iso" : "Mani"
+         "iso" : "Mani",
+         "unicode" : "Manichaean",
+         "unicode_id" : "excluded",
+         "xforms" : "Manichaean"
       },
       "Maya" : {
          "desc" : [
@@ -870,7 +900,10 @@
             "Mende Kikakui"
          ],
          "ianareg" : "2010-04-10",
-         "iso" : "Mend"
+         "iso" : "Mend",
+         "unicode" : "Mende_Kikakui",
+         "unicode_id" : "excluded",
+         "xforms" : "MendeKikakui"
       },
       "Merc" : {
          "desc" : [
@@ -911,7 +944,10 @@
             "Moḍī"
          ],
          "ianareg" : "2013-12-02",
-         "iso" : "Modi"
+         "iso" : "Modi",
+         "unicode" : "Modi",
+         "unicode_id" : "excluded",
+         "xforms" : "Modi"
       },
       "Mong" : {
          "desc" : [
@@ -941,7 +977,10 @@
             "Mru"
          ],
          "ianareg" : "2011-01-07",
-         "iso" : "Mroo"
+         "iso" : "Mroo",
+         "unicode" : "Mro",
+         "unicode_id" : "excluded",
+         "xforms" : "Mro"
       },
       "Mtei" : {
          "desc" : [
@@ -984,14 +1023,20 @@
             "Ancient North Arabian"
          ],
          "ianareg" : "2010-04-10",
-         "iso" : "Narb"
+         "iso" : "Narb",
+         "unicode" : "Old_North_Arabian",
+         "unicode_id" : "excluded",
+         "xforms" : "OldNorthArabian"
       },
       "Nbat" : {
          "desc" : [
             "Nabataean"
          ],
          "ianareg" : "2010-04-10",
-         "iso" : "Nbat"
+         "iso" : "Nbat",
+         "unicode" : "Nabataean",
+         "unicode_id" : "excluded",
+         "xforms" : "Nabataean"
       },
       "Nkgb" : {
          "desc" : [
@@ -1088,21 +1133,30 @@
             "Palmyrene"
          ],
          "ianareg" : "2010-04-10",
-         "iso" : "Palm"
+         "iso" : "Palm",
+         "unicode" : "Palmyrene",
+         "unicode_id" : "excluded",
+         "xforms" : "Palmyrene"
       },
       "Pauc" : {
          "desc" : [
             "Pau Cin Hau"
          ],
          "ianareg" : "2013-12-02",
-         "iso" : "Pauc"
+         "iso" : "Pauc",
+         "unicode" : "Pau_Cin_Hau",
+         "unicode_id" : "excluded",
+         "xforms" : "PauCinHau"
       },
       "Perm" : {
          "desc" : [
             "Old Permic"
          ],
          "ianareg" : "2005-10-16",
-         "iso" : "Perm"
+         "iso" : "Perm",
+         "unicode" : "Old_Permic",
+         "unicode_id" : "excluded",
+         "xforms" : "OldPermic"
       },
       "Phag" : {
          "desc" : [
@@ -1129,7 +1183,10 @@
             "Psalter Pahlavi"
          ],
          "ianareg" : "2007-12-05",
-         "iso" : "Phlp"
+         "iso" : "Phlp",
+         "unicode" : "Psalter_Pahlavi",
+         "unicode_id" : "excluded",
+         "xforms" : "PsalterPahlavi"
       },
       "Phlv" : {
          "desc" : [
@@ -1531,7 +1588,10 @@
             "Siddhamātṛkā"
          ],
          "ianareg" : "2013-12-02",
-         "iso" : "Sidd"
+         "iso" : "Sidd",
+         "unicode" : "Siddham",
+         "unicode_id" : "excluded",
+         "xforms" : "Siddham"
       },
       "Sind" : {
          "desc" : [
@@ -1539,7 +1599,10 @@
             "Sindhi"
          ],
          "ianareg" : "2010-08-16",
-         "iso" : "Sind"
+         "iso" : "Sind",
+         "unicode" : "Khudawadi",
+         "unicode_id" : "excluded",
+         "xforms" : "Khudawadi"
       },
       "Sinh" : {
          "collation_reorder" : "Sinh",
@@ -1778,7 +1841,10 @@
             "Tirhuta"
          ],
          "ianareg" : "2011-08-16",
-         "iso" : "Tirh"
+         "iso" : "Tirh",
+         "unicode" : "Tirhuta",
+         "unicode_id" : "excluded",
+         "xforms" : "Tirhuta"
       },
       "Ugar" : {
          "desc" : [
@@ -1815,7 +1881,10 @@
             "Varang Kshiti"
          ],
          "ianareg" : "2009-12-09",
-         "iso" : "Wara"
+         "iso" : "Wara",
+         "unicode" : "Warang_Citi",
+         "unicode_id" : "excluded",
+         "xforms" : "WarangCiti"
       },
       "Wole" : {
          "desc" : [
