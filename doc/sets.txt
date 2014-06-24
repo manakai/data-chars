@@ -40,10 +40,19 @@ RFC 822, STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
 
 RFC 1034, RFC 1738.
 
+RFC 1945, Hypertext Transfer Protocol -- HTTP/1.0
+<http://tools.ietf.org/html/rfc1945>.
+
+RFC 2068, Hypertext Transfer Protocol -- HTTP/1.1
+<http://tools.ietf.org/html/rfc2068>.
+
 RFC 2234, Augmented BNF for Syntax Specifications: ABNF
 <http://tools.ietf.org/html/rfc2234>.
 
 RFC 2396.
+
+RFC 2616, Hypertext Transfer Protocol -- HTTP/1.1
+<http://tools.ietf.org/html/rfc2616>.
 
 RFC 2822, Internet Message Format
 <http://tools.ietf.org/html/rfc2822>.
@@ -65,6 +74,9 @@ RFC 6122.
 
 RFC 6532, Internationalized Email Headers
 <http://tools.ietf.org/html/rfc6532>.
+
+RFC 7230, Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and
+Routing <http://tools.ietf.org/html/rfc7230>.
 
 Unicode Character Database
 <http://www.unicode.org/ucd/>.

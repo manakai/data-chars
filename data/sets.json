@@ -366,6 +366,123 @@
       "$rfc1738:xchar-char" : {
          "chars" : "[!\\u0024\\u0026-\\u003B=?-Z_a-z]"
       },
+      "$rfc1945:ALPHA" : {
+         "chars" : "[A-Za-z]"
+      },
+      "$rfc1945:CHAR" : {
+         "chars" : "[\\u0000-\\u007F]"
+      },
+      "$rfc1945:CR" : {
+         "chars" : "[\\u000D]"
+      },
+      "$rfc1945:CRLF-char" : {
+         "chars" : "[\\u000A\\u000D]"
+      },
+      "$rfc1945:CTL" : {
+         "chars" : "[\\u0000-\\u001F\\u007F]"
+      },
+      "$rfc1945:DIGIT" : {
+         "chars" : "[0-9]"
+      },
+      "$rfc1945:HEX" : {
+         "chars" : "[0-9A-Fa-f]"
+      },
+      "$rfc1945:HT" : {
+         "chars" : "[\\u0009]"
+      },
+      "$rfc1945:LF" : {
+         "chars" : "[\\u000A]"
+      },
+      "$rfc1945:LOALPHA" : {
+         "chars" : "[a-z]"
+      },
+      "$rfc1945:LWS-char" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020]"
+      },
+      "$rfc1945:OCTET" : {
+         "chars" : "[\\u0000-\\u00FF]"
+      },
+      "$rfc1945:SP" : {
+         "chars" : "[\\u0020]"
+      },
+      "$rfc1945:TEXT-char" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-~\\u0080-\\u00FF]"
+      },
+      "$rfc1945:UPALPHA" : {
+         "chars" : "[A-Z]"
+      },
+      "$rfc1945:ctext" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-'*-~\\u0080-\\u00FF]"
+      },
+      "$rfc1945:qdtext" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-!\\u0023-~\\u0080-\\u00FF]"
+      },
+      "$rfc1945:token-char" : {
+         "chars" : "[!\\u0023-'*-\u002B\\u002D-.0-9A-Z\\u005E-z|~]"
+      },
+      "$rfc1945:tspecials" : {
+         "chars" : "[\\u0009\\u0020\"(-),/:-\\u0040\\u005B-\\u005D{}]"
+      },
+      "$rfc2068:ALPHA" : {
+         "chars" : "[A-Za-z]"
+      },
+      "$rfc2068:CHAR" : {
+         "chars" : "[\\u0000-\\u007F]"
+      },
+      "$rfc2068:CR" : {
+         "chars" : "[\\u000D]"
+      },
+      "$rfc2068:CRLF-char" : {
+         "chars" : "[\\u000A\\u000D]"
+      },
+      "$rfc2068:CTL" : {
+         "chars" : "[\\u0000-\\u001F\\u007F]"
+      },
+      "$rfc2068:DIGIT" : {
+         "chars" : "[0-9]"
+      },
+      "$rfc2068:HEX" : {
+         "chars" : "[0-9A-Fa-f]"
+      },
+      "$rfc2068:HT" : {
+         "chars" : "[\\u0009]"
+      },
+      "$rfc2068:LF" : {
+         "chars" : "[\\u000A]"
+      },
+      "$rfc2068:LOALPHA" : {
+         "chars" : "[a-z]"
+      },
+      "$rfc2068:LWS-char" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020]"
+      },
+      "$rfc2068:OCTET" : {
+         "chars" : "[\\u0000-\\u00FF]"
+      },
+      "$rfc2068:SP" : {
+         "chars" : "[\\u0020]"
+      },
+      "$rfc2068:TEXT-char" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-~\\u0080-\\u00FF]"
+      },
+      "$rfc2068:UPALPHA" : {
+         "chars" : "[A-Z]"
+      },
+      "$rfc2068:ctext" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-'*-~\\u0080-\\u00FF]"
+      },
+      "$rfc2068:qdtext" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-!\\u0023-~\\u0080-\\u00FF]"
+      },
+      "$rfc2068:quoted-pair-char" : {
+         "chars" : "[\\u0000-\\u007F]"
+      },
+      "$rfc2068:token-char" : {
+         "chars" : "[!\\u0023-'*-\u002B\\u002D-.0-9A-Z\\u005E-z|~]"
+      },
+      "$rfc2068:tspecials" : {
+         "chars" : "[\\u0009\\u0020\"(-),/:-\\u0040\\u005B-\\u005D{}]"
+      },
       "$rfc2234:ALPHA" : {
          "chars" : "[A-Za-z]"
       },
@@ -464,6 +581,66 @@
       },
       "$rfc2396:userinfo-char" : {
          "chars" : "[!\\u0024\\u0026-.0-\\u003B=A-Z_a-z~]"
+      },
+      "$rfc2616:ALPHA" : {
+         "chars" : "[A-Za-z]"
+      },
+      "$rfc2616:CHAR" : {
+         "chars" : "[\\u0000-\\u007F]"
+      },
+      "$rfc2616:CR" : {
+         "chars" : "[\\u000D]"
+      },
+      "$rfc2616:CRLF-char" : {
+         "chars" : "[\\u000A\\u000D]"
+      },
+      "$rfc2616:CTL" : {
+         "chars" : "[\\u0000-\\u001F\\u007F]"
+      },
+      "$rfc2616:DIGIT" : {
+         "chars" : "[0-9]"
+      },
+      "$rfc2616:HEX" : {
+         "chars" : "[0-9A-Fa-f]"
+      },
+      "$rfc2616:HT" : {
+         "chars" : "[\\u0009]"
+      },
+      "$rfc2616:LF" : {
+         "chars" : "[\\u000A]"
+      },
+      "$rfc2616:LOALPHA" : {
+         "chars" : "[a-z]"
+      },
+      "$rfc2616:LWS-char" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020]"
+      },
+      "$rfc2616:OCTET" : {
+         "chars" : "[\\u0000-\\u00FF]"
+      },
+      "$rfc2616:SP" : {
+         "chars" : "[\\u0020]"
+      },
+      "$rfc2616:TEXT-char" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-~\\u0080-\\u00FF]"
+      },
+      "$rfc2616:UPALPHA" : {
+         "chars" : "[A-Z]"
+      },
+      "$rfc2616:ctext" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-'*-~\\u0080-\\u00FF]"
+      },
+      "$rfc2616:qdtext" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-!\\u0023-~\\u0080-\\u00FF]"
+      },
+      "$rfc2616:quoted-pair-char" : {
+         "chars" : "[\\u0000-\\u007F]"
+      },
+      "$rfc2616:separators" : {
+         "chars" : "[\\u0009\\u0020\"(-),/:-\\u0040\\u005B-\\u005D{}]"
+      },
+      "$rfc2616:token-char" : {
+         "chars" : "[!\\u0023-'*-\u002B\\u002D-.0-9A-Z\\u005E-z|~]"
       },
       "$rfc2822:NO-WS-CTL" : {
          "chars" : "[\\u0001-\\u0008\\u000B-\\u000C\\u000E\\u001F\\u007F]"
@@ -917,6 +1094,33 @@
       },
       "$rfc7159:ws" : {
          "chars" : "[\\u0009-\\u000A\\u000D\\u0020]"
+      },
+      "$rfc7230:comment-quoted-pair-char-valid" : {
+         "chars" : "[(-)\\u005C]"
+      },
+      "$rfc7230:ctext" : {
+         "chars" : "[\\u0009\\u0020-'*-\\u005B\\u005D-~\\u0080-\\u00FF]"
+      },
+      "$rfc7230:ctext-valid" : {
+         "chars" : "[\\u0009\\u0020-'*-\\u005B\\u005D-~]"
+      },
+      "$rfc7230:obs-text" : {
+         "chars" : "[\\u0080-\\u00FF]"
+      },
+      "$rfc7230:qdtext" : {
+         "chars" : "[\\u0009\\u0020-!\\u0023-\\u005B\\u005D-~\\u0080-\\u00FF]"
+      },
+      "$rfc7230:qdtext-valid" : {
+         "chars" : "[\\u0009\\u0020-!\\u0023-\\u005B\\u005D-~]"
+      },
+      "$rfc7230:quoted-pair-char" : {
+         "chars" : "[\\u0009\\u0020-~\\u0080-\\u00FF]"
+      },
+      "$rfc7230:quoted-string-quoted-pair-char-valid" : {
+         "chars" : "[\"\\u005C]"
+      },
+      "$rfc7230:tchar" : {
+         "chars" : "[!\\u0023-'*-\u002B\\u002D-.0-9A-Z\\u005E-z|~]"
       },
       "$rfc822:ALPHA" : {
          "chars" : "[A-Za-z]"
@@ -2646,9 +2850,6 @@
       "$unicode:Block:Miscellaneous_Symbols" : {
          "chars" : "[\\u2600-\\u26FF]"
       },
-      "$unicode:Block:Miscellaneous_Symbols_And_Pictographs" : {
-         "chars" : "[\\u{1F300}-\\u{1F5FF}]"
-      },
       "$unicode:Block:Miscellaneous_Symbols_and_Arrows" : {
          "chars" : "[\\u2B00-\\u2BFF]"
       },
@@ -2891,9 +3092,6 @@
       },
       "$unicode:Block:Tirhuta" : {
          "chars" : "[\\u{11480}-\\u{114DF}]"
-      },
-      "$unicode:Block:Transport_And_Map_Symbols" : {
-         "chars" : "[\\u{1F680}-\\u{1F6FF}]"
       },
       "$unicode:Block:Transport_and_Map_Symbols" : {
          "chars" : "[\\u{1F680}-\\u{1F6FF}]"

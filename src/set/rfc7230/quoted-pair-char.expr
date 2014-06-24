@@ -1,0 +1,4 @@
+$rfc5234:HTAB |
+$rfc5234:SP |
+$rfc5234:VCHAR |
+$rfc7230:obs-text

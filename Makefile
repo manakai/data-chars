@@ -1,5 +1,3 @@
-# -*- Makefile -*-
-
 all: deps all-data
 clean: clean-data
 
