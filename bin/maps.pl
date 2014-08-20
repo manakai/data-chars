@@ -260,10 +260,10 @@ for (
   [0x9E, 0x017E],
   [0x9F, 0x0178],
 ) {
-  $Data->{maps}->{'html:charref'}->{chars}->{$_->[0]} = $_->[1];
+  $Data->{maps}->{'html:charref'}->{chars}->{u $_->[0]} = u $_->[1];
 }
 for (0xD800..0xDFFF) {
-  $Data->{maps}->{'html:charref'}->{chars}->{$_} = 0xFFFD;
+  $Data->{maps}->{'html:charref'}->{chars}->{u $_} = u 0xFFFD;
 }
 ## And > U+10FFFF
 
