@@ -33,7 +33,7 @@ sets [object]
 
 ECMAScript 5.1.
 
-HTML Standard <http://www.whatwg.org/specs/web-apps/current-work/>.
+HTML Standard <https://html.spec.whatwg.org/>.
 
 RFC 822, STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
 <http://tools.ietf.org/html/rfc822>.
@@ -87,7 +87,7 @@ Unicode Standard Annex #44: Unicode Character Database
 Unicode in XML and other Markup Languages
 <http://www.unicode.org/reports/tr20/>.
 
-URL Standard <http://url.spec.whatwg.org/>.
+URL Standard <https://url.spec.whatwg.org/>.
 
 Extensible Markup Language (XML) 1.0 (Fourth Edition)
 <http://www.w3.org/TR/2006/REC-xml-20060816/>.
