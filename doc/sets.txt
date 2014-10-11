@@ -78,6 +78,9 @@ RFC 6532, Internationalized Email Headers
 RFC 7230, Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and
 Routing <http://tools.ietf.org/html/rfc7230>.
 
+RFC 7235, Hypertext Transfer Protocol (HTTP/1.1): Authentication
+<http://tools.ietf.org/html/rfc7235>.
+
 Unicode Character Database
 <http://www.unicode.org/ucd/>.
 

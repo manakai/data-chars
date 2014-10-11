@@ -1,0 +1,5 @@
+## <https://tools.ietf.org/html/rfc7235#section-2.1>
+
+$rfc5234:ALPHA |
+$rfc5234:DIGIT |
+[\u002D._~+/]

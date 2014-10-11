@@ -1122,6 +1122,9 @@
       "$rfc7230:tchar" : {
          "chars" : "[!\\u0023-'*-\u002B\\u002D-.0-9A-Z\\u005E-z|~]"
       },
+      "$rfc7235:token68-char" : {
+         "chars" : "[\u002B\\u002D-9A-Z_a-z~]"
+      },
       "$rfc822:ALPHA" : {
          "chars" : "[A-Za-z]"
       },
