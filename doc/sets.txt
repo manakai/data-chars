@@ -74,6 +74,10 @@ RFC 5322, Internet Message Format
 RFC 5335, Internationalized Email Headers
 <http://tools.ietf.org/html/rfc5335>.
 
+RFC 5987, Character Set and Language Encoding for Hypertext Transfer
+Protocol (HTTP) Header Field Parameters
+<http://tools.ietf.org/html/rfc5987>.
+
 RFC 6122.
 
 RFC 6532, Internationalized Email Headers
