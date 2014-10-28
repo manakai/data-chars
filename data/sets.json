@@ -423,6 +423,12 @@
       "$rfc1945:tspecials" : {
          "chars" : "[\\u0009\\u0020\"(-),/:-\\u0040\\u005B-\\u005D{}]"
       },
+      "$rfc2045:token-char" : {
+         "chars" : "[!\\u0023-'*-\u002B\\u002D-.0-9A-Z\\u005E-~]"
+      },
+      "$rfc2045:tspecials" : {
+         "chars" : "[\"(-),/:-\\u0040\\u005B-\\u005D]"
+      },
       "$rfc2068:ALPHA" : {
          "chars" : "[A-Za-z]"
       },
@@ -482,6 +488,9 @@
       },
       "$rfc2068:tspecials" : {
          "chars" : "[\\u0009\\u0020\"(-),/:-\\u0040\\u005B-\\u005D{}]"
+      },
+      "$rfc2231:attribute-char" : {
+         "chars" : "[!\\u0023-\\u0024\\u0026\u002B\\u002D-.0-9A-Z\\u005E-~]"
       },
       "$rfc2234:ALPHA" : {
          "chars" : "[A-Za-z]"

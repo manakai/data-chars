@@ -1,0 +1,1 @@
+$rfc822:CHAR - $rfc822:SPACE - $rfc822:CTL - [*'%] - $rfc2045:tspecials
