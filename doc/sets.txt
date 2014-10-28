@@ -46,6 +46,10 @@ RFC 1945, Hypertext Transfer Protocol -- HTTP/1.0
 RFC 2068, Hypertext Transfer Protocol -- HTTP/1.1
 <http://tools.ietf.org/html/rfc2068>.
 
+RFC 2231, MIME Parameter Value and Encoded Word Extensions: Character
+Sets, Languages, and Continuations
+<http://tools.ietf.org/html/rfc2231>.
+
 RFC 2234, Augmented BNF for Syntax Specifications: ABNF
 <http://tools.ietf.org/html/rfc2234>.
 
