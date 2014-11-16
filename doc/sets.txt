@@ -53,6 +53,9 @@ Sets, Languages, and Continuations
 RFC 2234, Augmented BNF for Syntax Specifications: ABNF
 <http://tools.ietf.org/html/rfc2234>.
 
+RFC 2295, Transparent Content Negotiation in HTTP
+<http://tools.ietf.org/html/rfc2295>.
+
 RFC 2396.
 
 RFC 2616, Hypertext Transfer Protocol -- HTTP/1.1
