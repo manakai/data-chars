@@ -531,6 +531,9 @@
       "$rfc2234:WSP" : {
          "chars" : "[\\u0009\\u0020]"
       },
+      "$rfc2295:extension-specials" : {
+         "chars" : "[\\u0009\\u0020(-),/:-\\u0040\\u005B-\\u005D{]"
+      },
       "$rfc2396:alpha" : {
          "chars" : "[A-Za-z]"
       },
