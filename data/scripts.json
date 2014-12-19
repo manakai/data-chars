@@ -1,5 +1,12 @@
 {
    "scripts" : {
+      "Adlm" : {
+         "desc" : [
+            "Adlam"
+         ],
+         "ianareg" : "2014-12-11",
+         "iso" : "Adlm"
+      },
       "Afak" : {
          "desc" : [
             "Afaka"
@@ -37,6 +44,13 @@
          "unicode" : "Arabic",
          "unicode_id" : "recommended",
          "xforms" : "Arabic"
+      },
+      "Aran" : {
+         "desc" : [
+            "Arabic (Nastaliq variant)"
+         ],
+         "ianareg" : "2014-12-11",
+         "iso" : "Aran"
       },
       "Armi" : {
          "desc" : [
@@ -684,6 +698,20 @@
          "unicode_id" : "excluded",
          "xforms" : "Khojki"
       },
+      "Kitl" : {
+         "desc" : [
+            "Khitan large script"
+         ],
+         "ianareg" : "2014-12-11",
+         "iso" : "Kitl"
+      },
+      "Kits" : {
+         "desc" : [
+            "Khitan small script"
+         ],
+         "ianareg" : "2014-12-11",
+         "iso" : "Kits"
+      },
       "Knda" : {
          "collation_reorder" : "Knda",
          "desc" : [
@@ -887,6 +915,13 @@
          "unicode" : "Manichaean",
          "unicode_id" : "excluded",
          "xforms" : "Manichaean"
+      },
+      "Marc" : {
+         "desc" : [
+            "Marchen"
+         ],
+         "ianareg" : "2014-12-11",
+         "iso" : "Marc"
       },
       "Maya" : {
          "desc" : [
@@ -1115,6 +1150,13 @@
          "unicode" : "Oriya",
          "unicode_id" : "recommended",
          "xforms" : "Oriya"
+      },
+      "Osge" : {
+         "desc" : [
+            "Osage"
+         ],
+         "ianareg" : "2014-12-11",
+         "iso" : "Osge"
       },
       "Osma" : {
          "desc" : [
