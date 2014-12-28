@@ -1,0 +1,3 @@
+[\N{NULL}] | $unicode:surrogate
+
+## and > U+10FFFF
