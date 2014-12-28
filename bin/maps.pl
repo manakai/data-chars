@@ -262,8 +262,14 @@ for (
 ) {
   $Data->{maps}->{'html:charref'}->{chars}->{u $_->[0]} = u $_->[1];
 }
+for (
+  [0x00, 0xFFFD],
+) {
+  $Data->{maps}->{'xml:charref'}->{chars}->{u $_->[0]} = u $_->[1];
+}
 for (0xD800..0xDFFF) {
   $Data->{maps}->{'html:charref'}->{chars}->{u $_} = u 0xFFFD;
+  $Data->{maps}->{'xml:charref'}->{chars}->{u $_} = u 0xFFFD;
 }
 ## And > U+10FFFF
 
