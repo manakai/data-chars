@@ -86,6 +86,8 @@ RFC 6122.
 RFC 6532, Internationalized Email Headers
 <http://tools.ietf.org/html/rfc6532>.
 
+RFC 6570, URI Template <http://tools.ietf.org/html/rfc6570>.
+
 RFC 7230, Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and
 Routing <http://tools.ietf.org/html/rfc7230>.
 
