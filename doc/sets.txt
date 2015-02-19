@@ -91,6 +91,9 @@ RFC 6570, URI Template <http://tools.ietf.org/html/rfc6570>.
 RFC 6749, The OAuth 2.0 Authorization Framework
 <http://tools.ietf.org/html/rfc6749>.
 
+RFC 6750, The OAuth 2.0 Authorization Framework: Bearer Token Usage
+<http://tools.ietf.org/html/rfc6750>.
+
 RFC 7230, Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and
 Routing <http://tools.ietf.org/html/rfc7230>.
 
