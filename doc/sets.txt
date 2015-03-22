@@ -71,6 +71,10 @@ RFC 3629, UTF-8, a transformation format of ISO 10646
 
 RFC 3722, RFC 3920, RFC 2986, RFC 3987, RFC 5234.
 
+RFC 4518, Lightweight Directory Access Protocol (LDAP):
+Internationalized String Preparation
+<http://tools.ietf.org/html/rfc4518>.
+
 RFC 5322, Internet Message Format
 <http://tools.ietf.org/html/rfc5322>.
 
