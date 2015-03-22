@@ -52,6 +52,11 @@ RFC 2812 - Internet Relay Chat: Client Protocol
 RFC 2813 - Internet Relay Chat: Server Protocol
 <http://tools.ietf.org/html/rfc2813#section-3.2>.
 
+RFC 4518, Lightweight Directory Access Protocol (LDAP):
+Internationalized String Preparation
+<http://tools.ietf.org/html/rfc4518#section-2.2>,
+<http://www.rfc-editor.org/errata_search.php?rfc=4518>.
+
 IRC RPL_ISUPPORT Numeric Definition
 <https://tools.ietf.org/html/draft-brocklesby-irc-isupport-03#section-3.1>.
 

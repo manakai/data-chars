@@ -100,6 +100,30 @@ for (
   }
 }
 
+## <http://tools.ietf.org/html/rfc4518#section-2.2>
+## <http://www.rfc-editor.org/errata_search.php?rfc=4518>
+$Maps->{'rfc4518:map:common'}->{$_} = [] for
+    0x00AD, # SOFT HYPHEN
+    0x1806, # MONGOLIAN TODO SOFT HYPHEN
+    0x034F, # COMBINING GRAPHEME JOINER
+    0x180B..0x180D, 0xFE00..0xFE0F, # VARIATION SELECTORs
+    0xFFFC, # OBJECT REPLACEMENT CHARACTER
+    0x0000..0x0008, 0x000E..0x001F, 0x007F..0x0084,
+    0x0086..0x009F, 0x06DD, 0x070F, 0x180E, 0x200C..0x200F,
+    0x202A..0x202E, 0x2060..0x2063, 0x206A..0x206F,
+    0xFEFF, 0xFFF9..0xFFFB, 0x1D173..0x1D17A, 0xE0001, 0xE0020..0xE007F,
+    0x200B; # ZERO WIDTH SPACE
+$Maps->{'rfc4518:map:common'}->{$_} = [0x0020] for
+    0x0009, # CHARACTER TABULATION
+    0x000A, # LINE FEED (LF)
+    0x000B, # LINE TABULATION
+    0x000C, # FORM FEED (FF)
+    0x000D, # CARRIAGE RETURN (CR)
+    0x0085, # NEXT LINE (NEL)
+    0x0020, 0x00A0, 0x1680, 0x2000..0x200A, 0x2028..0x2029,
+    0x202F, 0x205F, 0x3000;
+$Maps->{'rfc4518:map:case_folding'} = {%{$Maps->{'rfc3454:B.2'}}};
+
 {
   my $f = file (__FILE__)->dir->parent->file ('src', 'tn1150table.txt');
   my %map = map { join ' ', map { uhex $_ } grep { length } split /\s+/, $_ } split /\s*,\s*/, scalar $f->slurp;
