@@ -1146,6 +1146,12 @@
       "$rfc6750:b64token-char" : {
          "chars" : "[\u002B\\u002D-9A-Z_a-z~]"
       },
+      "$rfc6838:restricted-name-chars" : {
+         "chars" : "[!\\u0023-\\u0024\\u0026\u002B\\u002D-.0-9A-Z\\u005E-_a-z]"
+      },
+      "$rfc6838:restricted-name-first" : {
+         "chars" : "[0-9A-Za-z]"
+      },
       "$rfc7159:unescaped" : {
          "chars" : "[\\u0020-!\\u0023-\\u005B\\u005D-\\u{10FFFF}]"
       },
