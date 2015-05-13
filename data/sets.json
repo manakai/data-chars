@@ -1188,6 +1188,18 @@
       "$rfc7235:token68-char" : {
          "chars" : "[\u002B\\u002D-9A-Z_a-z~]"
       },
+      "$rfc7468:W" : {
+         "chars" : "[\\u0009-\\u000D\\u0020]"
+      },
+      "$rfc7468:base64char" : {
+         "chars" : "[\u002B/-9A-Za-z]"
+      },
+      "$rfc7468:base64pad" : {
+         "chars" : "[=]"
+      },
+      "$rfc7468:labelchar" : {
+         "chars" : "[!-,.-~]"
+      },
       "$rfc822:ALPHA" : {
          "chars" : "[A-Za-z]"
       },
