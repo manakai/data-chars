@@ -6,7 +6,7 @@ definitions.
 
 * Structure
 
-The file contains a JSON object with following name/value pairs:
+The file contains a JSON object with following name/value pair:
 
 sets [object]
 
@@ -36,76 +36,81 @@ ECMAScript 5.1.
 HTML Standard <https://html.spec.whatwg.org/>.
 
 RFC 822, STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
-<http://tools.ietf.org/html/rfc822>.
+<https://tools.ietf.org/html/rfc822>.
 
-RFC 1034, RFC 1738.
+RFC 1034.
+
+RFC 1738.
 
 RFC 1945, Hypertext Transfer Protocol -- HTTP/1.0
-<http://tools.ietf.org/html/rfc1945>.
+<https://tools.ietf.org/html/rfc1945>.
+
+RFC 2046, Multipurpose Internet Mail Extensions (MIME) Part Two: Media
+Types <https://tools.ietf.org/html/rfc2046>.
 
 RFC 2068, Hypertext Transfer Protocol -- HTTP/1.1
-<http://tools.ietf.org/html/rfc2068>.
+<https://tools.ietf.org/html/rfc2068>.
 
 RFC 2231, MIME Parameter Value and Encoded Word Extensions: Character
 Sets, Languages, and Continuations
-<http://tools.ietf.org/html/rfc2231>.
+<https://tools.ietf.org/html/rfc2231>.
 
 RFC 2234, Augmented BNF for Syntax Specifications: ABNF
-<http://tools.ietf.org/html/rfc2234>.
+<https://tools.ietf.org/html/rfc2234>.
 
 RFC 2295, Transparent Content Negotiation in HTTP
-<http://tools.ietf.org/html/rfc2295>.
+<https://tools.ietf.org/html/rfc2295>.
 
 RFC 2396.
 
 RFC 2616, Hypertext Transfer Protocol -- HTTP/1.1
-<http://tools.ietf.org/html/rfc2616>.
+<https://tools.ietf.org/html/rfc2616>.
 
 RFC 2822, Internet Message Format
-<http://tools.ietf.org/html/rfc2822>.
+<https://tools.ietf.org/html/rfc2822>.
 
 RFC 3454.
 
 RFC 3629, UTF-8, a transformation format of ISO 10646
-<http://tools.ietf.org/html/rfc3629>.
+<https://tools.ietf.org/html/rfc3629>.
 
 RFC 3722, RFC 3920, RFC 2986, RFC 3987, RFC 5234.
 
 RFC 4518, Lightweight Directory Access Protocol (LDAP):
 Internationalized String Preparation
-<http://tools.ietf.org/html/rfc4518>.
+<https://tools.ietf.org/html/rfc4518>.
 
 RFC 5322, Internet Message Format
-<http://tools.ietf.org/html/rfc5322>.
+<https://tools.ietf.org/html/rfc5322>.
 
 RFC 5335, Internationalized Email Headers
-<http://tools.ietf.org/html/rfc5335>.
+<https://tools.ietf.org/html/rfc5335>.
 
 RFC 5987, Character Set and Language Encoding for Hypertext Transfer
 Protocol (HTTP) Header Field Parameters
-<http://tools.ietf.org/html/rfc5987>.
+<https://tools.ietf.org/html/rfc5987>.
 
 RFC 6122.
 
 RFC 6532, Internationalized Email Headers
-<http://tools.ietf.org/html/rfc6532>.
+<https://tools.ietf.org/html/rfc6532>.
 
 RFC 6570, URI Template <http://tools.ietf.org/html/rfc6570>.
 
 RFC 6749, The OAuth 2.0 Authorization Framework
-<http://tools.ietf.org/html/rfc6749>.
+<https://tools.ietf.org/html/rfc6749>.
 
 RFC 6750, The OAuth 2.0 Authorization Framework: Bearer Token Usage
-<http://tools.ietf.org/html/rfc6750>.
+<https://tools.ietf.org/html/rfc6750>.
 
 RFC 6838, Media Type Specifications and Registration Procedures
-<http://tools.ietf.org/html/rfc6838>.
+<https://tools.ietf.org/html/rfc6838>.
 
 RFC 7230, Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and
-Routing <http://tools.ietf.org/html/rfc7230>.
+Routing <https://tools.ietf.org/html/rfc7230>.
 
 RFC 7235, Hypertext Transfer Protocol (HTTP/1.1): Authentication
-<http://tools.ietf.org/html/rfc7235>.
+<https://tools.ietf.org/html/rfc7235>.
 
 RFC 7468, Textual Encodings of PKIX, PKCS, and CMS Structures
 <https://tools.ietf.org/html/rfc7468>.
@@ -152,11 +157,17 @@ TTML Text and Image Profiles for Internet Media Subtitles and Captions
 * License
 
 You are granted a license to use, reproduce, and create derivative
-works of the JSON file.
+works of the JSON file and this document.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.
 
 The JSON file contains data extracted from Unicode Character Database.
 Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
-<http://www.unicode.org/copyright.html#Exhibit1>.
+<http://www.unicode.org/copyright.html#Exhibit1> or
+|doc/LICENSE.unicode|.
 
 The JSON file contains data extracted from HTML Standard.  "Written by
 Ian Hickson (Google, ian@hixie.ch) - Parts © Copyright 2004-2014 Apple
