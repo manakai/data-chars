@@ -429,6 +429,12 @@
       "$rfc2045:tspecials" : {
          "chars" : "[\"(-),/:-\\u0040\\u005B-\\u005D]"
       },
+      "$rfc2046:bchars" : {
+         "chars" : "[\\u0020'-)\u002B-:=?A-Z_a-z]"
+      },
+      "$rfc2046:bcharsnospace" : {
+         "chars" : "['-)\u002B-:=?A-Z_a-z]"
+      },
       "$rfc2068:ALPHA" : {
          "chars" : "[A-Za-z]"
       },
