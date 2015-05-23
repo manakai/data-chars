@@ -31,6 +31,8 @@ pmbp-install: pmbp-upgrade
 
 ## ------ Data construction ------
 
+data: all-data
+
 all-data: all-ucd unicode-general-category-latest \
     unicode-prop-list-latest data/sets.json data/names.json \
     data/maps.json
