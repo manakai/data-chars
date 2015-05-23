@@ -16,11 +16,16 @@ for my $name (@{Charinfo::Set->get_set_list}) {
   }
   if ($name =~ /^\$[^:]+:(.+)$/) {
     my $label = $1;
+    my $swname = $1;
     if ($label =~ s/-char$//) {
+      $swname = $label;
       $label = "A character in $label";
     }
     $Data->{sets}->{$name}->{label} = $label;
+    $Data->{sets}->{$name}->{suikawiki_name} = $swname;
   }
 }
 
 print perl2json_bytes_for_record $Data;
+
+## License: Public Domain.
