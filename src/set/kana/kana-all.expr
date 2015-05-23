@@ -1,0 +1,7 @@
+#label:仮名
+$kana:hiragana-all |
+$kana:katakana-all |
+[\u3099-\u309C
+\u3031-\u3035
+\u303B
+\u30FC]
