@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use Path::Class;
 use Charinfo::Name;
+use Encode;
 
 sub set_merge ($$) {
   my ($s1, $s2) = @_;
@@ -84,10 +85,34 @@ sub get_set ($) {
   $name =~ s{:}{/}g;
   my $f = $SetD->file ($name . '.expr');
   return undef unless -f $f;
-  my $set = __PACKAGE__->evaluate_expression (scalar $f->slurp);
+  my $set = __PACKAGE__->evaluate_expression (decode 'utf-8', scalar $f->slurp);
   die "Bad set definition \$$_[1]\n" unless defined $set;
   return $set;
 } # get_set
+
+sub get_set_metadata ($$) {
+  my $name = $_[1];
+  $name =~ s/^\$//;
+  return undef if
+      not $name =~ m{\A[0-9A-Za-z][0-9A-Za-z_.:-]*\z} or
+      $name =~ m{[_.:-]\z} or
+      $name =~ m{\.\.} or
+      $name =~ m{::};
+  $name =~ s{:}{/}g;
+  my $f = $SetD->file ($name . '.expr');
+  return undef unless -f $f;
+  my $prop = {};
+  for (split /\x0D?\x0A/, decode 'utf-8', scalar $f->slurp) {
+    if (/^\s*#(\w+):(.+)$/) {
+      my $name = $1;
+      my $value = $2;
+      $value =~ s/^\s+//;
+      $value =~ s/\s+$//;
+      $prop->{$name} = $value;
+    }
+  }
+  return $prop;
+} # get_set_metadata
 
 sub get_set_list ($) {
   my @list;

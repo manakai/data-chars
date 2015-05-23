@@ -10,10 +10,13 @@ my $Data = {};
 
 for my $name (@{Charinfo::Set->get_set_list}) {
   my $set = Charinfo::Set->evaluate_expression ($name);
+  my $prop = Charinfo::Set->get_set_metadata ($name) || {};
   $Data->{sets}->{$name}->{chars} = Charinfo::Set->serialize_set ($set);
   if ($name =~ /^\$rfc([0-9]+):/) {
     $Data->{sets}->{$name}->{spec} = "RFC$1";
   }
+  $Data->{sets}->{$name}->{label} = $prop->{label};
+  $Data->{sets}->{$name}->{suikawiki_name} = $prop->{sw} // $prop->{label};
   if ($name =~ /^\$[^:]+:(.+)$/) {
     my $label = $1;
     my $swname = $1;
@@ -21,8 +24,8 @@ for my $name (@{Charinfo::Set->get_set_list}) {
       $swname = $label;
       $label = "A character in $label";
     }
-    $Data->{sets}->{$name}->{label} = $label;
-    $Data->{sets}->{$name}->{suikawiki_name} = $swname;
+    $Data->{sets}->{$name}->{label} //= $label;
+    $Data->{sets}->{$name}->{suikawiki_name} //= $swname;
   }
 }
 

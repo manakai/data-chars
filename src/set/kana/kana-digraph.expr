@@ -1,0 +1,4 @@
+#label: 仮名 (合字)
+
+$kana:hiragana-digraph |
+$kana:katakana-digraph
