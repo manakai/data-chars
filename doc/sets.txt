@@ -8,10 +8,10 @@ definitions.
 
 The file contains a JSON object with following name/value pair:
 
-sets [object]
+sets [protocol-object]
 
   The value is a JSON object whose names are character set names and
-  values are JSON objects with following name/value pairs:
+  values are JSON objects with following additional name/value pairs:
 
     chars [string]
 
@@ -28,6 +28,10 @@ sets [object]
         Characters "\u" followed by four hexadecimal alphabet indicate
         that the character whose code point is equal to the
         hexadecimal number is in the set.
+
+    label [string]
+
+      A short English string describing the set.
 
 * Sources
 

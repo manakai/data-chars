@@ -11,6 +11,16 @@ my $Data = {};
 for my $name (@{Charinfo::Set->get_set_list}) {
   my $set = Charinfo::Set->evaluate_expression ($name);
   $Data->{sets}->{$name}->{chars} = Charinfo::Set->serialize_set ($set);
+  if ($name =~ /^\$rfc([0-9]+):/) {
+    $Data->{sets}->{$name}->{spec} = "RFC$1";
+  }
+  if ($name =~ /^\$[^:]+:(.+)$/) {
+    my $label = $1;
+    if ($label =~ s/-char$//) {
+      $label = "A character in $label";
+    }
+    $Data->{sets}->{$name}->{label} = $label;
+  }
 }
 
 print perl2json_bytes_for_record $Data;
