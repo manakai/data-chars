@@ -37,7 +37,7 @@ all-data: all-ucd unicode-general-category-latest \
     unicode-prop-list-latest data/sets.json data/names.json \
     data/maps.json
 
-clean-data:
+clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
 	rm -fr local/unicode/latest local/iana-idna/latest.xml
 
@@ -179,7 +179,7 @@ local/perl-unicode/lib/unicore/Decomposition.pl: \
     bin/unicore-decomposition.pl local/unicode/latest/UnicodeData.txt
 	$(PERL) bin/unicore-decomposition.pl
 bin/lib/Unicode/Normalize.pm:
-	$(WGET) -O $@ http://cpansearch.perl.org/src/SADAHIRO/Unicode-Normalize-1.17/Normalize.pmN
+	$(WGET) -O $@ http://cpansearch.perl.org/src/SADAHIRO/Unicode-Normalize-1.18/Normalize.pm
 src/set/unicode/has_canon_decomposition.expr: bin/unicode-decompositions.pl \
     local/unicode/latest/UnicodeData.txt
 	$(PERL) bin/unicode-decompositions.pl
@@ -190,6 +190,10 @@ PERL_UNICODE_NORMALIZE = \
   local/perl-unicode/lib/unicore/CombiningClass.pl \
   local/perl-unicode/lib/unicore/Decomposition.pl \
   bin/lib/Unicode/Normalize.pm
+
+clean-perl-unicode:
+	rm -fr local/perl-unicode bin/lib/Unicode/Normalize.pm
+	rm -fr src/set/unicode/Canonical_Combining_Class/files
 
 unicode-prop-list-3.2: local/unicode/3.2/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 3.2 $<
@@ -254,6 +258,12 @@ src/set/idna-tables-latest/files: \
 	$(PERL) bin/idna-tables.pl latest
 	touch $@
 
+local/mozilla-prefs.js:
+	$(WGET) -O $@ https://raw.githubusercontent.com/mozilla/gecko-dev/master/modules/libpref/init/all.js
+src/set/mozilla/IDN-blacklist-chars.expr: local/mozilla-prefs.js \
+    bin/mozilla-idn-blacklist-chars.pl
+	$(PERL) bin/mozilla-idn-blacklist-chars.pl < $< > $@
+
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
     src/set/rfc5892/Unstable.expr \
@@ -264,7 +274,8 @@ data/sets.json: bin/sets.pl \
     src/set/unicode/has_compat_decomposition.expr \
     src/set/uax31/files \
     src/set/idna-tables-latest/files \
-    src/set/*/*.expr data/names.json
+    src/set/*/*.expr data/names.json \
+    src/set/mozilla/IDN-blacklist-chars.expr
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \

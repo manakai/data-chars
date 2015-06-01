@@ -16,7 +16,7 @@ use Carp;
 
 no warnings 'utf8';
 
-our $VERSION = '1.17';
+our $VERSION = '1.18';
 our $PACKAGE = __PACKAGE__;
 
 our @EXPORT = qw( NFC NFD NFKC NFKD );
@@ -50,12 +50,8 @@ sub unpack_U {
 
 require Exporter;
 
-##### The above part is common to XS and PP #####
-
 our @ISA = qw(Exporter);
 use File::Spec;
-
-##### The below part is common to mkheader and PP #####
 
 our %Combin;	# $codepoint => $number    : combination class
 our %Canon;	# $codepoint => \@codepoints : canonical decomp.
@@ -202,8 +198,6 @@ foreach my $key (keys %Canon) {
 foreach my $key (keys %Compat) {
     $Compat{$key} = [ getCompatList($key) ];
 }
-
-##### The above part is common to mkheader and PP #####
 
 sub getHangulComposite ($$) {
     if ((LBase <= $_[0] && $_[0] <= LFinal)
@@ -547,8 +541,6 @@ sub splitOnLastStarter
     return ($str, $unproc);
 }
 
-##### The below part is common to XS and PP #####
-
 ##
 ## normalize
 ##
@@ -652,10 +644,7 @@ C<$string> is used as a string under character semantics (see F<perlunicode>).
 
 C<$code_point> should be an unsigned integer representing a Unicode code point.
 
-Note: Between XSUB and pure Perl, there is an incompatibility
-about the interpretation of C<$code_point> as a decimal number.
-XSUB converts C<$code_point> to an unsigned integer, but pure Perl does not.
-Do not use a floating point nor a negative sign in C<$code_point>.
+Note: Do not use a floating point nor a negative sign in C<$code_point>.
 
 =head2 Normalization Forms
 

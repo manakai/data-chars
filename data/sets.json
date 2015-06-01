@@ -675,6 +675,12 @@
          "label" : "当用漢字表補正試案 (国語審議会報告 1954)",
          "suikawiki_name" : "当用漢字表補正試案"
       },
+      "$mozilla:IDN-blacklist-chars" : {
+         "chars" : "[\\u0020\\u00A0\\u00BC-\\u00BE\\u01C3\\u02D0\\u0337-\\u0338\\u0589\\u05C3\\u05F4\\u0609-\\u060A\\u066A\\u06D4\\u0701-\\u0704\\u115F-\\u1160\\u1735\\u2000-\\u200B\\u200E-\\u200F\\u2024\\u2027-\\u202F\\u2039-\\u203A\\u2041\\u2044\\u2052\\u205F\\u2153-\\u215F\\u2215\\u2236\\u23AE\\u2571\\u29F6\\u29F8\\u2AFB\\u2AFD\\u2FF0-\\u2FFB\\u3000\\u3002\\u3014-\\u3015\\u3033\\u3164\\u321D-\\u321E\\u33AE-\\u33AF\\u33C6\\u33DF\\uA789\\uFE14-\\uFE15\\uFE3F\\uFE5D-\\uFE5E\\uFEFF\\uFF0E-\\uFF0F\\uFF61\\uFFA0\\uFFF9-\\uFFFD]",
+         "label" : "Gecko network.IDN.blacklist_chars",
+         "suikawiki_name" : "network.IDN.blacklist_chars",
+         "url" : "http://kb.mozillazine.org/Network.IDN.blacklist_chars"
+      },
       "$opentype140:wgl4" : {
          "chars" : "[\\u0020-~\\u00A0-\\u017F\\u0192\\u01FA-\\u01FF\\u02C6-\\u02C7\\u02C9\\u02D8-\\u02DD\\u0384-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03CE\\u0401-\\u040C\\u040E-\\u044F\\u0451-\\u045C\\u045E-\\u045F\\u0490-\\u0491\\u1E80-\\u1E85\\u1EF2-\\u1EF3\\u2013-\\u2015\\u2017-\\u201E\\u2020-\\u2022\\u2026\\u2030\\u2032-\\u2033\\u2039-\\u203A\\u203C\\u203E\\u2044\\u207F\\u20A3-\\u20A4\\u20A7\\u20AC\\u2105\\u2113\\u2116\\u2122\\u2126\\u212E\\u215B-\\u215E\\u2190-\\u2195\\u21A8\\u2202\\u2206\\u220F\\u2211-\\u2212\\u2215\\u2219-\\u221A\\u221E-\\u221F\\u2229\\u222B\\u2248\\u2260-\\u2261\\u2264-\\u2265\\u2302\\u2310\\u2320-\\u2321\\u2500\\u2502\\u250C\\u2510\\u2514\\u2518\\u251C\\u2524\\u252C\\u2534\\u253C\\u2550-\\u256C\\u2580\\u2584\\u2588\\u258C\\u2590-\\u2593\\u25A0-\\u25A1\\u25AA-\\u25AC\\u25B2\\u25BA\\u25BC\\u25C4\\u25CA-\\u25CB\\u25CF\\u25D8-\\u25D9\\u25E6\\u263A-\\u263C\\u2640\\u2642\\u2660\\u2663\\u2665-\\u2666\\u266A-\\u266B\\uF001-\\uF002\\uFB01-\\uFB02]",
          "label" : "wgl4",
@@ -2652,6 +2658,11 @@
          "label" : "A character in text",
          "spec" : "RFC822",
          "suikawiki_name" : "text"
+      },
+      "$tcvn6909:chars" : {
+         "chars" : "[\\u0020-~\\u00A0\\u00C0-\\u00C3\\u00C8-\\u00CA\\u00CC-\\u00CD\\u00D2-\\u00D5\\u00D9-\\u00DA\\u00DD\\u00E0-\\u00E3\\u00E8-\\u00EA\\u00EC-\\u00ED\\u00F2-\\u00F5\\u00F9-\\u00FA\\u00FD\\u0102-\\u0103\\u0110-\\u0111\\u0128-\\u0129\\u0168-\\u0169\\u01A0-\\u01A1\\u01AF-\\u01B0\\u0300-\\u0303\\u0306\\u0309\\u031B\\u0323\\u1EA0-\\u1EF9\\u201C-\\u201D]",
+         "label" : "TCVN 6909:2001",
+         "suikawiki_name" : "TCVN 6909:2001"
       },
       "$ttml:imsc:CommonCharacterSet" : {
          "chars" : "[\\u0020-~\\u00A0-\\u00FF\\u0152-\\u0153\\u0160-\\u0161\\u0178\\u017D-\\u017E\\u0192\\u02DC\\u2010-\\u2027\\u2030-\\u203A\\u20AC\\u2103\\u2109\\u2120\\u2122\\u2153-\\u215F\\u2500\\u2502\\u250C\\u2510\\u2514\\u2518\\u2588\\u25A1\\u2669-\\u266B]",
