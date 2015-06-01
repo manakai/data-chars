@@ -685,7 +685,7 @@
          "label" : "misc-japanese-non-kanji",
          "suikawiki_name" : "JIS X 4051"
       },
-      "$jisx4051-1995:number" : {
+      "$jisx4051-1995:numbers" : {
          "chars" : "[\\u0020,.0-9]",
          "label" : "(15) 連数字中の文字 (JIS X 4051-1995)",
          "suikawiki_name" : "JIS X 4051"
