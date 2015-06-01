@@ -1,0 +1,4 @@
+#label:(12) (1)〜(11)以外の和字 (JIS X 4051-1995)
+#sw:JIS X 4051
+$jisx4051-1995:misc-japanese-non-kanji |
+$jisx4051-1995:misc-japanese-kanji

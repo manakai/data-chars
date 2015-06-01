@@ -1,0 +1,11 @@
+#label:Special characters (ISO/IEC TR 10176:1998 Annex A)
+#format:col
+00 B5 B7
+02 B0-B8 BB BD-C1 D0-D1 E0-E4
+03 7A 59
+09 3D
+0B 3D
+1F BE
+20 3F-40
+21 02 07 0A-13 15 18-1D 24 26 28 2A-31 33-38 60-82
+30 05-07 21-29

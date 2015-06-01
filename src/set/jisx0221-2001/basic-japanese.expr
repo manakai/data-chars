@@ -1,0 +1,4 @@
+#label:BASIC JAPANESE / 基本日本文字集合 (JIS X 0221-1:2001 Appendix 1 a))
+#sw:JIS X 0221
+$jisx0221-2001:basic-japanese-non-ideographics |
+$jisx0221-2001:basic-japanese-ideographics
