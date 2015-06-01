@@ -1,0 +1,6 @@
+#label:(3) 行頭禁則和字 - 共通 (JIS X 4051-1995)
+#sw:JIS X 4051
+#format:col
+20 3C 44
+30 1C 41 43 45 47 49 63 83 85 87 8E 9D 9E
+30 A1 A3 A5 A7 A9 C3 E3 E5 E7 EE F5 F6 FC FD FE

@@ -1,0 +1,27 @@
+#label:Recommended extended repertoire for user-defined Identifier (ISO/IEC TR 10176:1998 Annex A)
+#sw:ISO/IEC TR 10176:1998
+$isoiectr10176-1998:latin |
+$isoiectr10176-1998:greek |
+$isoiectr10176-1998:cyrillic |
+$isoiectr10176-1998:hebrew |
+$isoiectr10176-1998:arabic |
+$isoiectr10176-1998:devanagari |
+$isoiectr10176-1998:bengali |
+$isoiectr10176-1998:gurmukhi |
+$isoiectr10176-1998:gujarati |
+$isoiectr10176-1998:oriya |
+$isoiectr10176-1998:tamil |
+$isoiectr10176-1998:telugur |
+$isoiectr10176-1998:kannada |
+$isoiectr10176-1998:malayalam |
+$isoiectr10176-1998:thai |
+$isoiectr10176-1998:lao |
+$isoiectr10176-1998:tibetan |
+$isoiectr10176-1998:georian |
+$isoiectr10176-1998:hiragana |
+$isoiectr10176-1998:katakana |
+$isoiectr10176-1998:bopomofo |
+$isoiectr10176-1998:cjk-unified-ideographs |
+$isoiectr10176-1998:hangul |
+$isoiectr10176-1998:digits |
+$isoiectr10176-1998:special

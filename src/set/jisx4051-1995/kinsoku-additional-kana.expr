@@ -1,0 +1,6 @@
+#label:(3) 行頭禁則和字 - 処理系定義 - 平仮名 (JIS X 4051-1995)
+#sw:JIS X 4051
+[\u{3041}-\u{308E}]
+
+## When these characters are removed from "kinsoku line start" class,
+## they shall be included in Hiragana class (JIS X 4051-1995 4.1.1).

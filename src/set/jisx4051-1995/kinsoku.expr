@@ -1,0 +1,5 @@
+#label:(3) 行頭禁則和字 - 処理系定義を含む (JIS X 4051-1995)
+#sw:JIS X 4051
+$jisx4051-1995:kinsoku-common |
+$jisx4051-1995:kinsoku-additional-misc |
+$jisx4051-1995:kinsoku-additional-kana

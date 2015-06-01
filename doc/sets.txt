@@ -164,6 +164,23 @@ TTML Text and Image Profiles for Internet Media Subtitles and Captions
 1.0
 <https://dvcs.w3.org/hg/ttml/raw-file/tip/ttml-ww-profiles/ttml-ww-profiles.html>.
 
+ISO/IEC TR 10176:1998, Information technology -- Guidelines for the
+preparation of programming language standards, 1998-09-01 (Second
+edition).
+
+TCVN 6909:2001, 16-bit Coded Vietnamese Character Set.
+
+Network.IDN.blacklist chars - MozillaZine Knowledge Base
+<http://kb.mozillazine.org/Network.IDN.blacklist_chars>.
+
+JIS X 0221-1:2001.
+
+JIS X 4051-1995, 日本語文書の行組版方法, Line composition rules for
+Japanese documents.
+
+JIS X 4052:2000, 日本語文書の組版指定交換形式, Exchange format for
+Japanese documents with composition markup.
+
 * License
 
 You are granted a license to use, reproduce, and create derivative
