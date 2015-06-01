@@ -27,6 +27,7 @@ for my $name (@{Charinfo::Set->get_set_list}) {
     $Data->{sets}->{$name}->{label} //= $label;
     $Data->{sets}->{$name}->{suikawiki_name} //= $swname;
   }
+  $Data->{sets}->{$name}->{url} //= $prop->{url} if defined $prop->{url};
 }
 
 print perl2json_bytes_for_record $Data;

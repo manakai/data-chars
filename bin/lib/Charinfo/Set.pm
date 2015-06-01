@@ -71,6 +71,27 @@ sub set_minus ($$) {
   return [map { [$_->[0], $_->[1]] } @$result];
 } # set_minus
 
+
+sub col2expr ($) {
+  my $s = shift;
+  my @s;
+  my @c;
+  $s =~ s{^(#.+)}{
+    push @c, $1; '';
+  }gem;
+  $s =~ s{^[\x20\x09]*([0-9A-F][0-9A-F])((?:[\x20\x09]+[0-9A-F][0-9A-F](?:-[0-9A-F][0-9A-F])?)+)}{
+    my ($r, @c) = ($1, grep {length} split /\s+/, $2);
+    for (@c) {
+      if (/([0-9A-F][0-9A-F])-([0-9A-F][0-9A-F])/) {
+        push @s, sprintf '\u{%s%s}-\u{%s%s}', $r,$1, $r,$2;
+      } else {
+        push @s, sprintf '\u{%s%s}', $r,$_;
+      }
+    }
+  }gem;
+  return '[' . join ('', @s) . ']';
+} # col2expr
+
 my $SetD = file (__FILE__)->dir->parent->parent->parent->subdir ('src', 'set');
 our $Depth = 0;
 sub get_set ($) {
@@ -85,7 +106,11 @@ sub get_set ($) {
   $name =~ s{:}{/}g;
   my $f = $SetD->file ($name . '.expr');
   return undef unless -f $f;
-  my $set = __PACKAGE__->evaluate_expression (decode 'utf-8', scalar $f->slurp);
+  my $src = decode 'utf-8', scalar $f->slurp;
+  if ($src =~ /^\#format:\s*col\s*$/m) {
+    $src = col2expr $src;
+  }
+  my $set = __PACKAGE__->evaluate_expression ($src);
   die "Bad set definition \$$_[1]\n" unless defined $set;
   return $set;
 } # get_set
