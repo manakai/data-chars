@@ -1,0 +1,5 @@
+#label:ISO 646 Character Subset (RFC 5024)
+#url:https://tools.ietf.org/html/rfc5024#appendix-B
+#sw:ISO/IEC 646
+
+[\u0020&()\u002D-\u002F0-9A-Z]
