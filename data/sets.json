@@ -2150,6 +2150,13 @@
          "spec" : "RFC4627",
          "suikawiki_name" : "ws"
       },
+      "$rfc5024:appendix-b" : {
+         "chars" : "[\\u0020\\u0026(-)\\u002D-9A-Z]",
+         "label" : "ISO 646 Character Subset (RFC 5024)",
+         "spec" : "RFC5024",
+         "suikawiki_name" : "ISO/IEC 646",
+         "url" : "https://tools.ietf.org/html/rfc5024#appendix-B"
+      },
       "$rfc5234:ALPHA" : {
          "chars" : "[A-Za-z]",
          "label" : "ALPHA",
