@@ -8596,6 +8596,15 @@
       "08B2" : {
          "name" : "ARABIC LETTER ZAIN WITH INVERTED V ABOVE"
       },
+      "08B3" : {
+         "name" : "ARABIC LETTER AIN WITH THREE DOTS BELOW"
+      },
+      "08B4" : {
+         "name" : "ARABIC LETTER KAF WITH DOT BELOW"
+      },
+      "08E3" : {
+         "name" : "ARABIC TURNED DAMMA BELOW"
+      },
       "08E4" : {
          "name" : "ARABIC CURLY FATHA"
       },
@@ -9832,6 +9841,9 @@
       "0AF1" : {
          "name" : "GUJARATI RUPEE SIGN"
       },
+      "0AF9" : {
+         "name" : "GUJARATI LETTER ZHA"
+      },
       "0B01" : {
          "name" : "ORIYA SIGN CANDRABINDU"
       },
@@ -10537,6 +10549,9 @@
       "0C59" : {
          "name" : "TELUGU LETTER DZA"
       },
+      "0C5A" : {
+         "name" : "TELUGU LETTER RRRA"
+      },
       "0C60" : {
          "name" : "TELUGU LETTER VOCALIC RR"
       },
@@ -11082,6 +11097,9 @@
       },
       "0D57" : {
          "name" : "MALAYALAM AU LENGTH MARK"
+      },
+      "0D5F" : {
+         "name" : "MALAYALAM LETTER ARCHAIC II"
       },
       "0D60" : {
          "name" : "MALAYALAM LETTER VOCALIC RR"
@@ -17344,8 +17362,86 @@
       "108E" : {
          "name" : "MYANMAR LETTER RUMAI PALAUNG FA"
       },
+      "108E0" : {
+         "name" : "HATRAN LETTER ALEPH"
+      },
+      "108E1" : {
+         "name" : "HATRAN LETTER BETH"
+      },
+      "108E2" : {
+         "name" : "HATRAN LETTER GIMEL"
+      },
+      "108E3" : {
+         "name" : "HATRAN LETTER DALETH-RESH"
+      },
+      "108E4" : {
+         "name" : "HATRAN LETTER HE"
+      },
+      "108E5" : {
+         "name" : "HATRAN LETTER WAW"
+      },
+      "108E6" : {
+         "name" : "HATRAN LETTER ZAYN"
+      },
+      "108E7" : {
+         "name" : "HATRAN LETTER HETH"
+      },
+      "108E8" : {
+         "name" : "HATRAN LETTER TETH"
+      },
+      "108E9" : {
+         "name" : "HATRAN LETTER YODH"
+      },
+      "108EA" : {
+         "name" : "HATRAN LETTER KAPH"
+      },
+      "108EB" : {
+         "name" : "HATRAN LETTER LAMEDH"
+      },
+      "108EC" : {
+         "name" : "HATRAN LETTER MEM"
+      },
+      "108ED" : {
+         "name" : "HATRAN LETTER NUN"
+      },
+      "108EE" : {
+         "name" : "HATRAN LETTER SAMEKH"
+      },
+      "108EF" : {
+         "name" : "HATRAN LETTER AYN"
+      },
       "108F" : {
          "name" : "MYANMAR SIGN RUMAI PALAUNG TONE-5"
+      },
+      "108F0" : {
+         "name" : "HATRAN LETTER PE"
+      },
+      "108F1" : {
+         "name" : "HATRAN LETTER SADHE"
+      },
+      "108F2" : {
+         "name" : "HATRAN LETTER QOPH"
+      },
+      "108F4" : {
+         "name" : "HATRAN LETTER SHIN"
+      },
+      "108F5" : {
+         "name" : "HATRAN LETTER TAW"
+      },
+      "108FB" : {
+         "name" : "HATRAN NUMBER ONE"
+      },
+      "108FC" : {
+         "name" : "HATRAN NUMBER FIVE"
+      },
+      "108FD" : {
+         "name" : "HATRAN NUMBER TEN"
+      },
+      "108FE" : {
+         "name" : "HATRAN NUMBER TWENTY"
+      },
+      "108FF" : {
+         "name" : "HATRAN NUMBER ONE HUNDRED"
       },
       "1090" : {
          "name" : "MYANMAR SHAN DIGIT ZERO"
@@ -17719,6 +17815,12 @@
       "109B7" : {
          "name" : "MEROITIC CURSIVE LETTER DA"
       },
+      "109BC" : {
+         "name" : "MEROITIC CURSIVE FRACTION ELEVEN TWELFTHS"
+      },
+      "109BD" : {
+         "name" : "MEROITIC CURSIVE FRACTION ONE HALF"
+      },
       "109BE" : {
          "name" : "MEROITIC CURSIVE LOGOGRAM RMT"
       },
@@ -17728,14 +17830,200 @@
       "109C" : {
          "name" : "MYANMAR VOWEL SIGN AITON A"
       },
+      "109C0" : {
+         "name" : "MEROITIC CURSIVE NUMBER ONE"
+      },
+      "109C1" : {
+         "name" : "MEROITIC CURSIVE NUMBER TWO"
+      },
+      "109C2" : {
+         "name" : "MEROITIC CURSIVE NUMBER THREE"
+      },
+      "109C3" : {
+         "name" : "MEROITIC CURSIVE NUMBER FOUR"
+      },
+      "109C4" : {
+         "name" : "MEROITIC CURSIVE NUMBER FIVE"
+      },
+      "109C5" : {
+         "name" : "MEROITIC CURSIVE NUMBER SIX"
+      },
+      "109C6" : {
+         "name" : "MEROITIC CURSIVE NUMBER SEVEN"
+      },
+      "109C7" : {
+         "name" : "MEROITIC CURSIVE NUMBER EIGHT"
+      },
+      "109C8" : {
+         "name" : "MEROITIC CURSIVE NUMBER NINE"
+      },
+      "109C9" : {
+         "name" : "MEROITIC CURSIVE NUMBER TEN"
+      },
+      "109CA" : {
+         "name" : "MEROITIC CURSIVE NUMBER TWENTY"
+      },
+      "109CB" : {
+         "name" : "MEROITIC CURSIVE NUMBER THIRTY"
+      },
+      "109CC" : {
+         "name" : "MEROITIC CURSIVE NUMBER FORTY"
+      },
+      "109CD" : {
+         "name" : "MEROITIC CURSIVE NUMBER FIFTY"
+      },
+      "109CE" : {
+         "name" : "MEROITIC CURSIVE NUMBER SIXTY"
+      },
+      "109CF" : {
+         "name" : "MEROITIC CURSIVE NUMBER SEVENTY"
+      },
       "109D" : {
          "name" : "MYANMAR VOWEL SIGN AITON AI"
+      },
+      "109D2" : {
+         "name" : "MEROITIC CURSIVE NUMBER ONE HUNDRED"
+      },
+      "109D3" : {
+         "name" : "MEROITIC CURSIVE NUMBER TWO HUNDRED"
+      },
+      "109D4" : {
+         "name" : "MEROITIC CURSIVE NUMBER THREE HUNDRED"
+      },
+      "109D5" : {
+         "name" : "MEROITIC CURSIVE NUMBER FOUR HUNDRED"
+      },
+      "109D6" : {
+         "name" : "MEROITIC CURSIVE NUMBER FIVE HUNDRED"
+      },
+      "109D7" : {
+         "name" : "MEROITIC CURSIVE NUMBER SIX HUNDRED"
+      },
+      "109D8" : {
+         "name" : "MEROITIC CURSIVE NUMBER SEVEN HUNDRED"
+      },
+      "109D9" : {
+         "name" : "MEROITIC CURSIVE NUMBER EIGHT HUNDRED"
+      },
+      "109DA" : {
+         "name" : "MEROITIC CURSIVE NUMBER NINE HUNDRED"
+      },
+      "109DB" : {
+         "name" : "MEROITIC CURSIVE NUMBER ONE THOUSAND"
+      },
+      "109DC" : {
+         "name" : "MEROITIC CURSIVE NUMBER TWO THOUSAND"
+      },
+      "109DD" : {
+         "name" : "MEROITIC CURSIVE NUMBER THREE THOUSAND"
+      },
+      "109DE" : {
+         "name" : "MEROITIC CURSIVE NUMBER FOUR THOUSAND"
+      },
+      "109DF" : {
+         "name" : "MEROITIC CURSIVE NUMBER FIVE THOUSAND"
       },
       "109E" : {
          "name" : "MYANMAR SYMBOL SHAN ONE"
       },
+      "109E0" : {
+         "name" : "MEROITIC CURSIVE NUMBER SIX THOUSAND"
+      },
+      "109E1" : {
+         "name" : "MEROITIC CURSIVE NUMBER SEVEN THOUSAND"
+      },
+      "109E2" : {
+         "name" : "MEROITIC CURSIVE NUMBER EIGHT THOUSAND"
+      },
+      "109E3" : {
+         "name" : "MEROITIC CURSIVE NUMBER NINE THOUSAND"
+      },
+      "109E4" : {
+         "name" : "MEROITIC CURSIVE NUMBER TEN THOUSAND"
+      },
+      "109E5" : {
+         "name" : "MEROITIC CURSIVE NUMBER TWENTY THOUSAND"
+      },
+      "109E6" : {
+         "name" : "MEROITIC CURSIVE NUMBER THIRTY THOUSAND"
+      },
+      "109E7" : {
+         "name" : "MEROITIC CURSIVE NUMBER FORTY THOUSAND"
+      },
+      "109E8" : {
+         "name" : "MEROITIC CURSIVE NUMBER FIFTY THOUSAND"
+      },
+      "109E9" : {
+         "name" : "MEROITIC CURSIVE NUMBER SIXTY THOUSAND"
+      },
+      "109EA" : {
+         "name" : "MEROITIC CURSIVE NUMBER SEVENTY THOUSAND"
+      },
+      "109EB" : {
+         "name" : "MEROITIC CURSIVE NUMBER EIGHTY THOUSAND"
+      },
+      "109EC" : {
+         "name" : "MEROITIC CURSIVE NUMBER NINETY THOUSAND"
+      },
+      "109ED" : {
+         "name" : "MEROITIC CURSIVE NUMBER ONE HUNDRED THOUSAND"
+      },
+      "109EE" : {
+         "name" : "MEROITIC CURSIVE NUMBER TWO HUNDRED THOUSAND"
+      },
+      "109EF" : {
+         "name" : "MEROITIC CURSIVE NUMBER THREE HUNDRED THOUSAND"
+      },
       "109F" : {
          "name" : "MYANMAR SYMBOL SHAN EXCLAMATION"
+      },
+      "109F0" : {
+         "name" : "MEROITIC CURSIVE NUMBER FOUR HUNDRED THOUSAND"
+      },
+      "109F1" : {
+         "name" : "MEROITIC CURSIVE NUMBER FIVE HUNDRED THOUSAND"
+      },
+      "109F2" : {
+         "name" : "MEROITIC CURSIVE NUMBER SIX HUNDRED THOUSAND"
+      },
+      "109F3" : {
+         "name" : "MEROITIC CURSIVE NUMBER SEVEN HUNDRED THOUSAND"
+      },
+      "109F4" : {
+         "name" : "MEROITIC CURSIVE NUMBER EIGHT HUNDRED THOUSAND"
+      },
+      "109F5" : {
+         "name" : "MEROITIC CURSIVE NUMBER NINE HUNDRED THOUSAND"
+      },
+      "109F6" : {
+         "name" : "MEROITIC CURSIVE FRACTION ONE TWELFTH"
+      },
+      "109F7" : {
+         "name" : "MEROITIC CURSIVE FRACTION TWO TWELFTHS"
+      },
+      "109F8" : {
+         "name" : "MEROITIC CURSIVE FRACTION THREE TWELFTHS"
+      },
+      "109F9" : {
+         "name" : "MEROITIC CURSIVE FRACTION FOUR TWELFTHS"
+      },
+      "109FA" : {
+         "name" : "MEROITIC CURSIVE FRACTION FIVE TWELFTHS"
+      },
+      "109FB" : {
+         "name" : "MEROITIC CURSIVE FRACTION SIX TWELFTHS"
+      },
+      "109FC" : {
+         "name" : "MEROITIC CURSIVE FRACTION SEVEN TWELFTHS"
+      },
+      "109FD" : {
+         "name" : "MEROITIC CURSIVE FRACTION EIGHT TWELFTHS"
+      },
+      "109FE" : {
+         "name" : "MEROITIC CURSIVE FRACTION NINE TWELFTHS"
+      },
+      "109FF" : {
+         "name" : "MEROITIC CURSIVE FRACTION TEN TWELFTHS"
       },
       "10A0" : {
          "name" : "GEORGIAN CAPITAL LETTER AN"
@@ -19054,8 +19342,332 @@
       "10C7" : {
          "name" : "GEORGIAN CAPITAL LETTER YN"
       },
+      "10C80" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER A"
+      },
+      "10C81" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER AA"
+      },
+      "10C82" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EB"
+      },
+      "10C83" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER AMB"
+      },
+      "10C84" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EC"
+      },
+      "10C85" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ENC"
+      },
+      "10C86" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ECS"
+      },
+      "10C87" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ED"
+      },
+      "10C88" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER AND"
+      },
+      "10C89" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER E"
+      },
+      "10C8A" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER CLOSE E"
+      },
+      "10C8B" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EE"
+      },
+      "10C8C" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EF"
+      },
+      "10C8D" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EG"
+      },
+      "10C8E" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EGY"
+      },
+      "10C8F" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EH"
+      },
+      "10C90" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER I"
+      },
+      "10C91" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER II"
+      },
+      "10C92" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EJ"
+      },
+      "10C93" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EK"
+      },
+      "10C94" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER AK"
+      },
+      "10C95" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER UNK"
+      },
+      "10C96" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EL"
+      },
+      "10C97" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ELY"
+      },
+      "10C98" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EM"
+      },
+      "10C99" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EN"
+      },
+      "10C9A" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ENY"
+      },
+      "10C9B" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER O"
+      },
+      "10C9C" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER OO"
+      },
+      "10C9D" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG OE"
+      },
+      "10C9E" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER RUDIMENTA OE"
+      },
+      "10C9F" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER OEE"
+      },
+      "10CA0" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EP"
+      },
+      "10CA1" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EMP"
+      },
+      "10CA2" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ER"
+      },
+      "10CA3" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER SHORT ER"
+      },
+      "10CA4" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ES"
+      },
+      "10CA5" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ESZ"
+      },
+      "10CA6" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ET"
+      },
+      "10CA7" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ENT"
+      },
+      "10CA8" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ETY"
+      },
+      "10CA9" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ECH"
+      },
+      "10CAA" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER U"
+      },
+      "10CAB" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER UU"
+      },
+      "10CAC" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG UE"
+      },
+      "10CAD" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER RUDIMENTA UE"
+      },
+      "10CAE" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EV"
+      },
+      "10CAF" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EZ"
+      },
+      "10CB0" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER EZS"
+      },
+      "10CB1" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER ENT-SHAPED SIGN"
+      },
+      "10CB2" : {
+         "name" : "OLD HUNGARIAN CAPITAL LETTER US"
+      },
+      "10CC0" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER A"
+      },
+      "10CC1" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER AA"
+      },
+      "10CC2" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EB"
+      },
+      "10CC3" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER AMB"
+      },
+      "10CC4" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EC"
+      },
+      "10CC5" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ENC"
+      },
+      "10CC6" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ECS"
+      },
+      "10CC7" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ED"
+      },
+      "10CC8" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER AND"
+      },
+      "10CC9" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER E"
+      },
+      "10CCA" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER CLOSE E"
+      },
+      "10CCB" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EE"
+      },
+      "10CCC" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EF"
+      },
+      "10CCD" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EG"
+      },
+      "10CCE" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EGY"
+      },
+      "10CCF" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EH"
+      },
       "10CD" : {
          "name" : "GEORGIAN CAPITAL LETTER AEN"
+      },
+      "10CD0" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER I"
+      },
+      "10CD1" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER II"
+      },
+      "10CD2" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EJ"
+      },
+      "10CD3" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EK"
+      },
+      "10CD4" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER AK"
+      },
+      "10CD5" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER UNK"
+      },
+      "10CD6" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EL"
+      },
+      "10CD7" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ELY"
+      },
+      "10CD8" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EM"
+      },
+      "10CD9" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EN"
+      },
+      "10CDA" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ENY"
+      },
+      "10CDB" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER O"
+      },
+      "10CDC" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER OO"
+      },
+      "10CDD" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER NIKOLSBURG OE"
+      },
+      "10CDE" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER RUDIMENTA OE"
+      },
+      "10CDF" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER OEE"
+      },
+      "10CE0" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EP"
+      },
+      "10CE1" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EMP"
+      },
+      "10CE2" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ER"
+      },
+      "10CE3" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER SHORT ER"
+      },
+      "10CE4" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ES"
+      },
+      "10CE5" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ESZ"
+      },
+      "10CE6" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ET"
+      },
+      "10CE7" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ENT"
+      },
+      "10CE8" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ETY"
+      },
+      "10CE9" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ECH"
+      },
+      "10CEA" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER U"
+      },
+      "10CEB" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER UU"
+      },
+      "10CEC" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER NIKOLSBURG UE"
+      },
+      "10CED" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER RUDIMENTA UE"
+      },
+      "10CEE" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EV"
+      },
+      "10CEF" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EZ"
+      },
+      "10CF0" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER EZS"
+      },
+      "10CF1" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER ENT-SHAPED SIGN"
+      },
+      "10CF2" : {
+         "name" : "OLD HUNGARIAN SMALL LETTER US"
+      },
+      "10CFA" : {
+         "name" : "OLD HUNGARIAN NUMBER ONE"
+      },
+      "10CFB" : {
+         "name" : "OLD HUNGARIAN NUMBER FIVE"
+      },
+      "10CFC" : {
+         "name" : "OLD HUNGARIAN NUMBER TEN"
+      },
+      "10CFD" : {
+         "name" : "OLD HUNGARIAN NUMBER FIFTY"
+      },
+      "10CFE" : {
+         "name" : "OLD HUNGARIAN NUMBER ONE HUNDRED"
+      },
+      "10CFF" : {
+         "name" : "OLD HUNGARIAN NUMBER ONE THOUSAND"
       },
       "10D0" : {
          "name" : "GEORGIAN LETTER AN"
@@ -20554,6 +21166,18 @@
       "111C8" : {
          "name" : "SHARADA SEPARATOR"
       },
+      "111C9" : {
+         "name" : "SHARADA SANDHI MARK"
+      },
+      "111CA" : {
+         "name" : "SHARADA SIGN NUKTA"
+      },
+      "111CB" : {
+         "name" : "SHARADA VOWEL MODIFIER MARK"
+      },
+      "111CC" : {
+         "name" : "SHARADA EXTRA SHORT VOWEL MARK"
+      },
       "111CD" : {
          "name" : "SHARADA SUTRA MARK"
       },
@@ -20592,6 +21216,21 @@
       },
       "111DA" : {
          "name" : "SHARADA EKAM"
+      },
+      "111DB" : {
+         "name" : "SHARADA SIGN SIDDHAM"
+      },
+      "111DC" : {
+         "name" : "SHARADA HEADSTROKE"
+      },
+      "111DD" : {
+         "name" : "SHARADA CONTINUATION SIGN"
+      },
+      "111DE" : {
+         "name" : "SHARADA SECTION MARK-1"
+      },
+      "111DF" : {
+         "name" : "SHARADA SECTION MARK-2"
       },
       "111E" : {
          "name" : "HANGUL CHOSEONG PIEUP-KIYEOK"
@@ -20869,11 +21508,125 @@
       "1128" : {
          "name" : "HANGUL CHOSEONG PIEUP-CHIEUCH"
       },
+      "11280" : {
+         "name" : "MULTANI LETTER A"
+      },
+      "11281" : {
+         "name" : "MULTANI LETTER I"
+      },
+      "11282" : {
+         "name" : "MULTANI LETTER U"
+      },
+      "11283" : {
+         "name" : "MULTANI LETTER E"
+      },
+      "11284" : {
+         "name" : "MULTANI LETTER KA"
+      },
+      "11285" : {
+         "name" : "MULTANI LETTER KHA"
+      },
+      "11286" : {
+         "name" : "MULTANI LETTER GA"
+      },
+      "11288" : {
+         "name" : "MULTANI LETTER GHA"
+      },
+      "1128A" : {
+         "name" : "MULTANI LETTER CA"
+      },
+      "1128B" : {
+         "name" : "MULTANI LETTER CHA"
+      },
+      "1128C" : {
+         "name" : "MULTANI LETTER JA"
+      },
+      "1128D" : {
+         "name" : "MULTANI LETTER JJA"
+      },
+      "1128F" : {
+         "name" : "MULTANI LETTER NYA"
+      },
       "1129" : {
          "name" : "HANGUL CHOSEONG PIEUP-THIEUTH"
       },
+      "11290" : {
+         "name" : "MULTANI LETTER TTA"
+      },
+      "11291" : {
+         "name" : "MULTANI LETTER TTHA"
+      },
+      "11292" : {
+         "name" : "MULTANI LETTER DDA"
+      },
+      "11293" : {
+         "name" : "MULTANI LETTER DDDA"
+      },
+      "11294" : {
+         "name" : "MULTANI LETTER DDHA"
+      },
+      "11295" : {
+         "name" : "MULTANI LETTER NNA"
+      },
+      "11296" : {
+         "name" : "MULTANI LETTER TA"
+      },
+      "11297" : {
+         "name" : "MULTANI LETTER THA"
+      },
+      "11298" : {
+         "name" : "MULTANI LETTER DA"
+      },
+      "11299" : {
+         "name" : "MULTANI LETTER DHA"
+      },
+      "1129A" : {
+         "name" : "MULTANI LETTER NA"
+      },
+      "1129B" : {
+         "name" : "MULTANI LETTER PA"
+      },
+      "1129C" : {
+         "name" : "MULTANI LETTER PHA"
+      },
+      "1129D" : {
+         "name" : "MULTANI LETTER BA"
+      },
+      "1129F" : {
+         "name" : "MULTANI LETTER BHA"
+      },
       "112A" : {
          "name" : "HANGUL CHOSEONG PIEUP-PHIEUPH"
+      },
+      "112A0" : {
+         "name" : "MULTANI LETTER MA"
+      },
+      "112A1" : {
+         "name" : "MULTANI LETTER YA"
+      },
+      "112A2" : {
+         "name" : "MULTANI LETTER RA"
+      },
+      "112A3" : {
+         "name" : "MULTANI LETTER LA"
+      },
+      "112A4" : {
+         "name" : "MULTANI LETTER VA"
+      },
+      "112A5" : {
+         "name" : "MULTANI LETTER SA"
+      },
+      "112A6" : {
+         "name" : "MULTANI LETTER HA"
+      },
+      "112A7" : {
+         "name" : "MULTANI LETTER RRA"
+      },
+      "112A8" : {
+         "name" : "MULTANI LETTER RHA"
+      },
+      "112A9" : {
+         "name" : "MULTANI SECTION MARK"
       },
       "112B" : {
          "name" : "HANGUL CHOSEONG KAPYEOUNPIEUP"
@@ -21100,6 +21853,9 @@
       "1130" : {
          "name" : "HANGUL CHOSEONG SIOS-RIEUL"
       },
+      "11300" : {
+         "name" : "GRANTHA SIGN COMBINING ANUSVARA ABOVE"
+      },
       "11301" : {
          "name" : "GRANTHA SIGN CANDRABINDU"
       },
@@ -21303,6 +22059,9 @@
       },
       "1135" : {
          "name" : "HANGUL CHOSEONG SIOS-IEUNG"
+      },
+      "11350" : {
+         "name" : "GRANTHA OM"
       },
       "11357" : {
          "name" : "GRANTHA AU LENGTH MARK"
@@ -21943,8 +22702,68 @@
       "115C9" : {
          "name" : "SIDDHAM END OF TEXT MARK"
       },
+      "115CA" : {
+         "name" : "SIDDHAM SECTION MARK WITH TRIDENT AND U-SHAPED ORNAMENTS"
+      },
+      "115CB" : {
+         "name" : "SIDDHAM SECTION MARK WITH TRIDENT AND DOTTED CRESCENTS"
+      },
+      "115CC" : {
+         "name" : "SIDDHAM SECTION MARK WITH RAYS AND DOTTED CRESCENTS"
+      },
+      "115CD" : {
+         "name" : "SIDDHAM SECTION MARK WITH RAYS AND DOTTED DOUBLE CRESCENTS"
+      },
+      "115CE" : {
+         "name" : "SIDDHAM SECTION MARK WITH RAYS AND DOTTED TRIPLE CRESCENTS"
+      },
+      "115CF" : {
+         "name" : "SIDDHAM SECTION MARK DOUBLE RING"
+      },
       "115D" : {
          "name" : "HANGUL CHOSEONG NIEUN-HIEUH"
+      },
+      "115D0" : {
+         "name" : "SIDDHAM SECTION MARK DOUBLE RING WITH RAYS"
+      },
+      "115D1" : {
+         "name" : "SIDDHAM SECTION MARK WITH DOUBLE CRESCENTS"
+      },
+      "115D2" : {
+         "name" : "SIDDHAM SECTION MARK WITH TRIPLE CRESCENTS"
+      },
+      "115D3" : {
+         "name" : "SIDDHAM SECTION MARK WITH QUADRUPLE CRESCENTS"
+      },
+      "115D4" : {
+         "name" : "SIDDHAM SECTION MARK WITH SEPTUPLE CRESCENTS"
+      },
+      "115D5" : {
+         "name" : "SIDDHAM SECTION MARK WITH CIRCLES AND RAYS"
+      },
+      "115D6" : {
+         "name" : "SIDDHAM SECTION MARK WITH CIRCLES AND TWO ENCLOSURES"
+      },
+      "115D7" : {
+         "name" : "SIDDHAM SECTION MARK WITH CIRCLES AND FOUR ENCLOSURES"
+      },
+      "115D8" : {
+         "name" : "SIDDHAM LETTER THREE-CIRCLE ALTERNATE I"
+      },
+      "115D9" : {
+         "name" : "SIDDHAM LETTER TWO-CIRCLE ALTERNATE I"
+      },
+      "115DA" : {
+         "name" : "SIDDHAM LETTER TWO-CIRCLE ALTERNATE II"
+      },
+      "115DB" : {
+         "name" : "SIDDHAM LETTER ALTERNATE U"
+      },
+      "115DC" : {
+         "name" : "SIDDHAM VOWEL SIGN ALTERNATE U"
+      },
+      "115DD" : {
+         "name" : "SIDDHAM VOWEL SIGN ALTERNATE UU"
       },
       "115E" : {
          "name" : "HANGUL CHOSEONG TIKEUT-RIEUL"
@@ -22438,14 +23257,185 @@
       "1170" : {
          "name" : "HANGUL JUNGSEONG WE"
       },
+      "11700" : {
+         "name" : "AHOM LETTER KA"
+      },
+      "11701" : {
+         "name" : "AHOM LETTER KHA"
+      },
+      "11702" : {
+         "name" : "AHOM LETTER NGA"
+      },
+      "11703" : {
+         "name" : "AHOM LETTER NA"
+      },
+      "11704" : {
+         "name" : "AHOM LETTER TA"
+      },
+      "11705" : {
+         "name" : "AHOM LETTER ALTERNATE TA"
+      },
+      "11706" : {
+         "name" : "AHOM LETTER PA"
+      },
+      "11707" : {
+         "name" : "AHOM LETTER PHA"
+      },
+      "11708" : {
+         "name" : "AHOM LETTER BA"
+      },
+      "11709" : {
+         "name" : "AHOM LETTER MA"
+      },
+      "1170A" : {
+         "name" : "AHOM LETTER JA"
+      },
+      "1170B" : {
+         "name" : "AHOM LETTER CHA"
+      },
+      "1170C" : {
+         "name" : "AHOM LETTER THA"
+      },
+      "1170D" : {
+         "name" : "AHOM LETTER RA"
+      },
+      "1170E" : {
+         "name" : "AHOM LETTER LA"
+      },
+      "1170F" : {
+         "name" : "AHOM LETTER SA"
+      },
       "1171" : {
          "name" : "HANGUL JUNGSEONG WI"
+      },
+      "11710" : {
+         "name" : "AHOM LETTER NYA"
+      },
+      "11711" : {
+         "name" : "AHOM LETTER HA"
+      },
+      "11712" : {
+         "name" : "AHOM LETTER A"
+      },
+      "11713" : {
+         "name" : "AHOM LETTER DA"
+      },
+      "11714" : {
+         "name" : "AHOM LETTER DHA"
+      },
+      "11715" : {
+         "name" : "AHOM LETTER GA"
+      },
+      "11716" : {
+         "name" : "AHOM LETTER ALTERNATE GA"
+      },
+      "11717" : {
+         "name" : "AHOM LETTER GHA"
+      },
+      "11718" : {
+         "name" : "AHOM LETTER BHA"
+      },
+      "11719" : {
+         "name" : "AHOM LETTER JHA"
+      },
+      "1171D" : {
+         "name" : "AHOM CONSONANT SIGN MEDIAL LA"
+      },
+      "1171E" : {
+         "name" : "AHOM CONSONANT SIGN MEDIAL RA"
+      },
+      "1171F" : {
+         "name" : "AHOM CONSONANT SIGN MEDIAL LIGATING RA"
       },
       "1172" : {
          "name" : "HANGUL JUNGSEONG YU"
       },
+      "11720" : {
+         "name" : "AHOM VOWEL SIGN A"
+      },
+      "11721" : {
+         "name" : "AHOM VOWEL SIGN AA"
+      },
+      "11722" : {
+         "name" : "AHOM VOWEL SIGN I"
+      },
+      "11723" : {
+         "name" : "AHOM VOWEL SIGN II"
+      },
+      "11724" : {
+         "name" : "AHOM VOWEL SIGN U"
+      },
+      "11725" : {
+         "name" : "AHOM VOWEL SIGN UU"
+      },
+      "11726" : {
+         "name" : "AHOM VOWEL SIGN E"
+      },
+      "11727" : {
+         "name" : "AHOM VOWEL SIGN AW"
+      },
+      "11728" : {
+         "name" : "AHOM VOWEL SIGN O"
+      },
+      "11729" : {
+         "name" : "AHOM VOWEL SIGN AI"
+      },
+      "1172A" : {
+         "name" : "AHOM VOWEL SIGN AM"
+      },
+      "1172B" : {
+         "name" : "AHOM SIGN KILLER"
+      },
       "1173" : {
          "name" : "HANGUL JUNGSEONG EU"
+      },
+      "11730" : {
+         "name" : "AHOM DIGIT ZERO"
+      },
+      "11731" : {
+         "name" : "AHOM DIGIT ONE"
+      },
+      "11732" : {
+         "name" : "AHOM DIGIT TWO"
+      },
+      "11733" : {
+         "name" : "AHOM DIGIT THREE"
+      },
+      "11734" : {
+         "name" : "AHOM DIGIT FOUR"
+      },
+      "11735" : {
+         "name" : "AHOM DIGIT FIVE"
+      },
+      "11736" : {
+         "name" : "AHOM DIGIT SIX"
+      },
+      "11737" : {
+         "name" : "AHOM DIGIT SEVEN"
+      },
+      "11738" : {
+         "name" : "AHOM DIGIT EIGHT"
+      },
+      "11739" : {
+         "name" : "AHOM DIGIT NINE"
+      },
+      "1173A" : {
+         "name" : "AHOM NUMBER TEN"
+      },
+      "1173B" : {
+         "name" : "AHOM NUMBER TWENTY"
+      },
+      "1173C" : {
+         "name" : "AHOM SIGN SMALL SECTION"
+      },
+      "1173D" : {
+         "name" : "AHOM SIGN SECTION"
+      },
+      "1173E" : {
+         "name" : "AHOM SIGN RULAI"
+      },
+      "1173F" : {
+         "name" : "AHOM SYMBOL VI"
       },
       "1174" : {
          "name" : "HANGUL JUNGSEONG YI"
@@ -26233,6 +27223,9 @@
       "12398" : {
          "name" : "CUNEIFORM SIGN UM TIMES ME"
       },
+      "12399" : {
+         "name" : "CUNEIFORM SIGN U U"
+      },
       "123A" : {
          "name" : "ETHIOPIC SYLLABLE SHI"
       },
@@ -26626,32 +27619,620 @@
       "1248" : {
          "name" : "ETHIOPIC SYLLABLE QWA"
       },
+      "12480" : {
+         "name" : "CUNEIFORM SIGN AB TIMES NUN TENU"
+      },
+      "12481" : {
+         "name" : "CUNEIFORM SIGN AB TIMES SHU2"
+      },
+      "12482" : {
+         "name" : "CUNEIFORM SIGN AD TIMES ESH2"
+      },
+      "12483" : {
+         "name" : "CUNEIFORM SIGN BAD TIMES DISH TENU"
+      },
+      "12484" : {
+         "name" : "CUNEIFORM SIGN BAHAR2 TIMES AB2"
+      },
+      "12485" : {
+         "name" : "CUNEIFORM SIGN BAHAR2 TIMES NI"
+      },
+      "12486" : {
+         "name" : "CUNEIFORM SIGN BAHAR2 TIMES ZA"
+      },
+      "12487" : {
+         "name" : "CUNEIFORM SIGN BU OVER BU TIMES NA2"
+      },
+      "12488" : {
+         "name" : "CUNEIFORM SIGN DA TIMES TAK4"
+      },
+      "12489" : {
+         "name" : "CUNEIFORM SIGN DAG TIMES KUR"
+      },
+      "1248A" : {
+         "name" : "CUNEIFORM SIGN DIM TIMES IGI"
+      },
+      "1248B" : {
+         "name" : "CUNEIFORM SIGN DIM TIMES U U U"
+      },
+      "1248C" : {
+         "name" : "CUNEIFORM SIGN DIM2 TIMES UD"
+      },
+      "1248D" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES ANSHE"
+      },
+      "1248E" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES ASH"
+      },
+      "1248F" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES ASH AT LEFT"
+      },
+      "12490" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES DIN"
+      },
+      "12491" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES DUN"
+      },
+      "12492" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES ERIN2"
+      },
+      "12493" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES GA"
+      },
+      "12494" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES GI"
+      },
+      "12495" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES GIR2 GUNU"
+      },
+      "12496" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES GISH"
+      },
+      "12497" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES HA"
+      },
+      "12498" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES HI"
+      },
+      "12499" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES IGI GUNU"
+      },
+      "1249A" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES KASKAL"
+      },
+      "1249B" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES KUR"
+      },
+      "1249C" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES KUSHU2"
+      },
+      "1249D" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES KUSHU2 PLUS KASKAL"
+      },
+      "1249E" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES LAK-020"
+      },
+      "1249F" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES LAM"
+      },
       "124A" : {
          "name" : "ETHIOPIC SYLLABLE QWI"
+      },
+      "124A0" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES LAM TIMES KUR"
+      },
+      "124A1" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES LUH PLUS GISH"
+      },
+      "124A2" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES MASH"
+      },
+      "124A3" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES MES"
+      },
+      "124A4" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES MI"
+      },
+      "124A5" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES NI"
+      },
+      "124A6" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES PI"
+      },
+      "124A7" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES SHE"
+      },
+      "124A8" : {
+         "name" : "CUNEIFORM SIGN DUG TIMES SI GUNU"
+      },
+      "124A9" : {
+         "name" : "CUNEIFORM SIGN E2 TIMES KUR"
+      },
+      "124AA" : {
+         "name" : "CUNEIFORM SIGN E2 TIMES PAP"
+      },
+      "124AB" : {
+         "name" : "CUNEIFORM SIGN ERIN2 X"
+      },
+      "124AC" : {
+         "name" : "CUNEIFORM SIGN ESH2 CROSSING ESH2"
+      },
+      "124AD" : {
+         "name" : "CUNEIFORM SIGN EZEN SHESHIG TIMES ASH"
+      },
+      "124AE" : {
+         "name" : "CUNEIFORM SIGN EZEN SHESHIG TIMES HI"
+      },
+      "124AF" : {
+         "name" : "CUNEIFORM SIGN EZEN SHESHIG TIMES IGI GUNU"
       },
       "124B" : {
          "name" : "ETHIOPIC SYLLABLE QWAA"
       },
+      "124B0" : {
+         "name" : "CUNEIFORM SIGN EZEN SHESHIG TIMES LA"
+      },
+      "124B1" : {
+         "name" : "CUNEIFORM SIGN EZEN SHESHIG TIMES LAL"
+      },
+      "124B2" : {
+         "name" : "CUNEIFORM SIGN EZEN SHESHIG TIMES ME"
+      },
+      "124B3" : {
+         "name" : "CUNEIFORM SIGN EZEN SHESHIG TIMES MES"
+      },
+      "124B4" : {
+         "name" : "CUNEIFORM SIGN EZEN SHESHIG TIMES SU"
+      },
+      "124B5" : {
+         "name" : "CUNEIFORM SIGN EZEN TIMES SU"
+      },
+      "124B6" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES BAHAR2"
+      },
+      "124B7" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES DIM GUNU"
+      },
+      "124B8" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES DUG TIMES IGI GUNU"
+      },
+      "124B9" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES DUG TIMES KASKAL"
+      },
+      "124BA" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES EREN"
+      },
+      "124BB" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES GA"
+      },
+      "124BC" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES GAR PLUS DI"
+      },
+      "124BD" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES GAR PLUS NE"
+      },
+      "124BE" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES HA PLUS A"
+      },
+      "124BF" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES KUSHU2 PLUS KASKAL"
+      },
       "124C" : {
          "name" : "ETHIOPIC SYLLABLE QWEE"
+      },
+      "124C0" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES LAM"
+      },
+      "124C1" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES LAM TIMES KUR"
+      },
+      "124C2" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES LUH"
+      },
+      "124C3" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES MUSH"
+      },
+      "124C4" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES NE"
+      },
+      "124C5" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES NE PLUS E2"
+      },
+      "124C6" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES NE PLUS GI"
+      },
+      "124C7" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES SHIM"
+      },
+      "124C8" : {
+         "name" : "CUNEIFORM SIGN GA2 TIMES ZIZ2"
+      },
+      "124C9" : {
+         "name" : "CUNEIFORM SIGN GABA ROTATED NINETY DEGREES"
+      },
+      "124CA" : {
+         "name" : "CUNEIFORM SIGN GESHTIN TIMES U"
+      },
+      "124CB" : {
+         "name" : "CUNEIFORM SIGN GISH TIMES GISH CROSSING GISH"
+      },
+      "124CC" : {
+         "name" : "CUNEIFORM SIGN GU2 TIMES IGI GUNU"
+      },
+      "124CD" : {
+         "name" : "CUNEIFORM SIGN GUD PLUS GISH TIMES TAK4"
+      },
+      "124CE" : {
+         "name" : "CUNEIFORM SIGN HA TENU GUNU"
+      },
+      "124CF" : {
+         "name" : "CUNEIFORM SIGN HI TIMES ASH OVER HI TIMES ASH"
       },
       "124D" : {
          "name" : "ETHIOPIC SYLLABLE QWE"
       },
+      "124D0" : {
+         "name" : "CUNEIFORM SIGN KA TIMES BU"
+      },
+      "124D1" : {
+         "name" : "CUNEIFORM SIGN KA TIMES KA"
+      },
+      "124D2" : {
+         "name" : "CUNEIFORM SIGN KA TIMES U U U"
+      },
+      "124D3" : {
+         "name" : "CUNEIFORM SIGN KA TIMES UR"
+      },
+      "124D4" : {
+         "name" : "CUNEIFORM SIGN LAGAB TIMES ZU OVER ZU"
+      },
+      "124D5" : {
+         "name" : "CUNEIFORM SIGN LAK-003"
+      },
+      "124D6" : {
+         "name" : "CUNEIFORM SIGN LAK-021"
+      },
+      "124D7" : {
+         "name" : "CUNEIFORM SIGN LAK-025"
+      },
+      "124D8" : {
+         "name" : "CUNEIFORM SIGN LAK-030"
+      },
+      "124D9" : {
+         "name" : "CUNEIFORM SIGN LAK-050"
+      },
+      "124DA" : {
+         "name" : "CUNEIFORM SIGN LAK-051"
+      },
+      "124DB" : {
+         "name" : "CUNEIFORM SIGN LAK-062"
+      },
+      "124DC" : {
+         "name" : "CUNEIFORM SIGN LAK-079 OVER LAK-079 GUNU"
+      },
+      "124DD" : {
+         "name" : "CUNEIFORM SIGN LAK-080"
+      },
+      "124DE" : {
+         "name" : "CUNEIFORM SIGN LAK-081 OVER LAK-081"
+      },
+      "124DF" : {
+         "name" : "CUNEIFORM SIGN LAK-092"
+      },
+      "124E0" : {
+         "name" : "CUNEIFORM SIGN LAK-130"
+      },
+      "124E1" : {
+         "name" : "CUNEIFORM SIGN LAK-142"
+      },
+      "124E2" : {
+         "name" : "CUNEIFORM SIGN LAK-210"
+      },
+      "124E3" : {
+         "name" : "CUNEIFORM SIGN LAK-219"
+      },
+      "124E4" : {
+         "name" : "CUNEIFORM SIGN LAK-220"
+      },
+      "124E5" : {
+         "name" : "CUNEIFORM SIGN LAK-225"
+      },
+      "124E6" : {
+         "name" : "CUNEIFORM SIGN LAK-228"
+      },
+      "124E7" : {
+         "name" : "CUNEIFORM SIGN LAK-238"
+      },
+      "124E8" : {
+         "name" : "CUNEIFORM SIGN LAK-265"
+      },
+      "124E9" : {
+         "name" : "CUNEIFORM SIGN LAK-266"
+      },
+      "124EA" : {
+         "name" : "CUNEIFORM SIGN LAK-343"
+      },
+      "124EB" : {
+         "name" : "CUNEIFORM SIGN LAK-347"
+      },
+      "124EC" : {
+         "name" : "CUNEIFORM SIGN LAK-348"
+      },
+      "124ED" : {
+         "name" : "CUNEIFORM SIGN LAK-383"
+      },
+      "124EE" : {
+         "name" : "CUNEIFORM SIGN LAK-384"
+      },
+      "124EF" : {
+         "name" : "CUNEIFORM SIGN LAK-390"
+      },
+      "124F0" : {
+         "name" : "CUNEIFORM SIGN LAK-441"
+      },
+      "124F1" : {
+         "name" : "CUNEIFORM SIGN LAK-449"
+      },
+      "124F2" : {
+         "name" : "CUNEIFORM SIGN LAK-449 TIMES GU"
+      },
+      "124F3" : {
+         "name" : "CUNEIFORM SIGN LAK-449 TIMES IGI"
+      },
+      "124F4" : {
+         "name" : "CUNEIFORM SIGN LAK-449 TIMES PAP PLUS LU3"
+      },
+      "124F5" : {
+         "name" : "CUNEIFORM SIGN LAK-449 TIMES PAP PLUS PAP PLUS LU3"
+      },
+      "124F6" : {
+         "name" : "CUNEIFORM SIGN LAK-449 TIMES U2 PLUS BA"
+      },
+      "124F7" : {
+         "name" : "CUNEIFORM SIGN LAK-450"
+      },
+      "124F8" : {
+         "name" : "CUNEIFORM SIGN LAK-457"
+      },
+      "124F9" : {
+         "name" : "CUNEIFORM SIGN LAK-470"
+      },
+      "124FA" : {
+         "name" : "CUNEIFORM SIGN LAK-483"
+      },
+      "124FB" : {
+         "name" : "CUNEIFORM SIGN LAK-490"
+      },
+      "124FC" : {
+         "name" : "CUNEIFORM SIGN LAK-492"
+      },
+      "124FD" : {
+         "name" : "CUNEIFORM SIGN LAK-493"
+      },
+      "124FE" : {
+         "name" : "CUNEIFORM SIGN LAK-495"
+      },
+      "124FF" : {
+         "name" : "CUNEIFORM SIGN LAK-550"
+      },
       "1250" : {
          "name" : "ETHIOPIC SYLLABLE QHA"
+      },
+      "12500" : {
+         "name" : "CUNEIFORM SIGN LAK-608"
+      },
+      "12501" : {
+         "name" : "CUNEIFORM SIGN LAK-617"
+      },
+      "12502" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES ASH"
+      },
+      "12503" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES BAD"
+      },
+      "12504" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES DUN3 GUNU GUNU"
+      },
+      "12505" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES KU3"
+      },
+      "12506" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES LA"
+      },
+      "12507" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES TAR"
+      },
+      "12508" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES TE"
+      },
+      "12509" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES U2"
+      },
+      "1250A" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES UD"
+      },
+      "1250B" : {
+         "name" : "CUNEIFORM SIGN LAK-617 TIMES URUDA"
+      },
+      "1250C" : {
+         "name" : "CUNEIFORM SIGN LAK-636"
+      },
+      "1250D" : {
+         "name" : "CUNEIFORM SIGN LAK-648"
+      },
+      "1250E" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES DUB"
+      },
+      "1250F" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES GA"
       },
       "1251" : {
          "name" : "ETHIOPIC SYLLABLE QHU"
       },
+      "12510" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES IGI"
+      },
+      "12511" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES IGI GUNU"
+      },
+      "12512" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES NI"
+      },
+      "12513" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES PAP PLUS PAP PLUS LU3"
+      },
+      "12514" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES SHESH PLUS KI"
+      },
+      "12515" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES UD"
+      },
+      "12516" : {
+         "name" : "CUNEIFORM SIGN LAK-648 TIMES URUDA"
+      },
+      "12517" : {
+         "name" : "CUNEIFORM SIGN LAK-724"
+      },
+      "12518" : {
+         "name" : "CUNEIFORM SIGN LAK-749"
+      },
+      "12519" : {
+         "name" : "CUNEIFORM SIGN LU2 GUNU TIMES ASH"
+      },
+      "1251A" : {
+         "name" : "CUNEIFORM SIGN LU2 TIMES DISH"
+      },
+      "1251B" : {
+         "name" : "CUNEIFORM SIGN LU2 TIMES HAL"
+      },
+      "1251C" : {
+         "name" : "CUNEIFORM SIGN LU2 TIMES PAP"
+      },
+      "1251D" : {
+         "name" : "CUNEIFORM SIGN LU2 TIMES PAP PLUS PAP PLUS LU3"
+      },
+      "1251E" : {
+         "name" : "CUNEIFORM SIGN LU2 TIMES TAK4"
+      },
+      "1251F" : {
+         "name" : "CUNEIFORM SIGN MI PLUS ZA7"
+      },
       "1252" : {
          "name" : "ETHIOPIC SYLLABLE QHI"
+      },
+      "12520" : {
+         "name" : "CUNEIFORM SIGN MUSH OVER MUSH TIMES GA"
+      },
+      "12521" : {
+         "name" : "CUNEIFORM SIGN MUSH OVER MUSH TIMES KAK"
+      },
+      "12522" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES DIM GUNU"
+      },
+      "12523" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES GISH"
+      },
+      "12524" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES GUL"
+      },
+      "12525" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES HI"
+      },
+      "12526" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES KESH2"
+      },
+      "12527" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES LAK-050"
+      },
+      "12528" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES MASH"
+      },
+      "12529" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES PAP PLUS PAP"
+      },
+      "1252A" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES U"
+      },
+      "1252B" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES U PLUS U"
+      },
+      "1252C" : {
+         "name" : "CUNEIFORM SIGN NINDA2 TIMES URUDA"
+      },
+      "1252D" : {
+         "name" : "CUNEIFORM SIGN SAG GUNU TIMES HA"
+      },
+      "1252E" : {
+         "name" : "CUNEIFORM SIGN SAG TIMES EN"
+      },
+      "1252F" : {
+         "name" : "CUNEIFORM SIGN SAG TIMES SHE AT LEFT"
       },
       "1253" : {
          "name" : "ETHIOPIC SYLLABLE QHAA"
       },
+      "12530" : {
+         "name" : "CUNEIFORM SIGN SAG TIMES TAK4"
+      },
+      "12531" : {
+         "name" : "CUNEIFORM SIGN SHA6 TENU"
+      },
+      "12532" : {
+         "name" : "CUNEIFORM SIGN SHE OVER SHE"
+      },
+      "12533" : {
+         "name" : "CUNEIFORM SIGN SHE PLUS HUB2"
+      },
+      "12534" : {
+         "name" : "CUNEIFORM SIGN SHE PLUS NAM2"
+      },
+      "12535" : {
+         "name" : "CUNEIFORM SIGN SHE PLUS SAR"
+      },
+      "12536" : {
+         "name" : "CUNEIFORM SIGN SHU2 PLUS DUG TIMES NI"
+      },
+      "12537" : {
+         "name" : "CUNEIFORM SIGN SHU2 PLUS E2 TIMES AN"
+      },
+      "12538" : {
+         "name" : "CUNEIFORM SIGN SI TIMES TAK4"
+      },
+      "12539" : {
+         "name" : "CUNEIFORM SIGN TAK4 PLUS SAG"
+      },
+      "1253A" : {
+         "name" : "CUNEIFORM SIGN TUM TIMES GAN2 TENU"
+      },
+      "1253B" : {
+         "name" : "CUNEIFORM SIGN TUM TIMES THREE DISH"
+      },
+      "1253C" : {
+         "name" : "CUNEIFORM SIGN UR2 INVERTED"
+      },
+      "1253D" : {
+         "name" : "CUNEIFORM SIGN UR2 TIMES UD"
+      },
+      "1253E" : {
+         "name" : "CUNEIFORM SIGN URU TIMES DARA3"
+      },
+      "1253F" : {
+         "name" : "CUNEIFORM SIGN URU TIMES LAK-668"
+      },
       "1254" : {
          "name" : "ETHIOPIC SYLLABLE QHEE"
+      },
+      "12540" : {
+         "name" : "CUNEIFORM SIGN URU TIMES LU3"
+      },
+      "12541" : {
+         "name" : "CUNEIFORM SIGN ZA7"
+      },
+      "12542" : {
+         "name" : "CUNEIFORM SIGN ZU OVER ZU PLUS SAR"
+      },
+      "12543" : {
+         "name" : "CUNEIFORM SIGN ZU5 TIMES THREE DISH TENU"
       },
       "1255" : {
          "name" : "ETHIOPIC SYLLABLE QHE"
@@ -31027,6 +32608,27 @@
       "13F4" : {
          "name" : "CHEROKEE LETTER YV"
       },
+      "13F5" : {
+         "name" : "CHEROKEE LETTER MV"
+      },
+      "13F8" : {
+         "name" : "CHEROKEE SMALL LETTER YE"
+      },
+      "13F9" : {
+         "name" : "CHEROKEE SMALL LETTER YI"
+      },
+      "13FA" : {
+         "name" : "CHEROKEE SMALL LETTER YO"
+      },
+      "13FB" : {
+         "name" : "CHEROKEE SMALL LETTER YU"
+      },
+      "13FC" : {
+         "name" : "CHEROKEE SMALL LETTER YV"
+      },
+      "13FD" : {
+         "name" : "CHEROKEE SMALL LETTER MV"
+      },
       "1400" : {
          "name" : "CANADIAN SYLLABICS HYPHEN"
       },
@@ -31222,113 +32824,1862 @@
       "1440" : {
          "name" : "CANADIAN SYLLABICS PWO"
       },
+      "14400" : {
+         "name" : "ANATOLIAN HIEROGLYPH A001"
+      },
+      "14401" : {
+         "name" : "ANATOLIAN HIEROGLYPH A002"
+      },
+      "14402" : {
+         "name" : "ANATOLIAN HIEROGLYPH A003"
+      },
+      "14403" : {
+         "name" : "ANATOLIAN HIEROGLYPH A004"
+      },
+      "14404" : {
+         "name" : "ANATOLIAN HIEROGLYPH A005"
+      },
+      "14405" : {
+         "name" : "ANATOLIAN HIEROGLYPH A006"
+      },
+      "14406" : {
+         "name" : "ANATOLIAN HIEROGLYPH A007"
+      },
+      "14407" : {
+         "name" : "ANATOLIAN HIEROGLYPH A008"
+      },
+      "14408" : {
+         "name" : "ANATOLIAN HIEROGLYPH A009"
+      },
+      "14409" : {
+         "name" : "ANATOLIAN HIEROGLYPH A010"
+      },
+      "1440A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A010A"
+      },
+      "1440B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A011"
+      },
+      "1440C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A012"
+      },
+      "1440D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A013"
+      },
+      "1440E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A014"
+      },
+      "1440F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A015"
+      },
       "1441" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE PWO"
+      },
+      "14410" : {
+         "name" : "ANATOLIAN HIEROGLYPH A016"
+      },
+      "14411" : {
+         "name" : "ANATOLIAN HIEROGLYPH A017"
+      },
+      "14412" : {
+         "name" : "ANATOLIAN HIEROGLYPH A018"
+      },
+      "14413" : {
+         "name" : "ANATOLIAN HIEROGLYPH A019"
+      },
+      "14414" : {
+         "name" : "ANATOLIAN HIEROGLYPH A020"
+      },
+      "14415" : {
+         "name" : "ANATOLIAN HIEROGLYPH A021"
+      },
+      "14416" : {
+         "name" : "ANATOLIAN HIEROGLYPH A022"
+      },
+      "14417" : {
+         "name" : "ANATOLIAN HIEROGLYPH A023"
+      },
+      "14418" : {
+         "name" : "ANATOLIAN HIEROGLYPH A024"
+      },
+      "14419" : {
+         "name" : "ANATOLIAN HIEROGLYPH A025"
+      },
+      "1441A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A026"
+      },
+      "1441B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A026A"
+      },
+      "1441C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A027"
+      },
+      "1441D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A028"
+      },
+      "1441E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A029"
+      },
+      "1441F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A030"
       },
       "1442" : {
          "name" : "CANADIAN SYLLABICS PWOO"
       },
+      "14420" : {
+         "name" : "ANATOLIAN HIEROGLYPH A031"
+      },
+      "14421" : {
+         "name" : "ANATOLIAN HIEROGLYPH A032"
+      },
+      "14422" : {
+         "name" : "ANATOLIAN HIEROGLYPH A033"
+      },
+      "14423" : {
+         "name" : "ANATOLIAN HIEROGLYPH A034"
+      },
+      "14424" : {
+         "name" : "ANATOLIAN HIEROGLYPH A035"
+      },
+      "14425" : {
+         "name" : "ANATOLIAN HIEROGLYPH A036"
+      },
+      "14426" : {
+         "name" : "ANATOLIAN HIEROGLYPH A037"
+      },
+      "14427" : {
+         "name" : "ANATOLIAN HIEROGLYPH A038"
+      },
+      "14428" : {
+         "name" : "ANATOLIAN HIEROGLYPH A039"
+      },
+      "14429" : {
+         "name" : "ANATOLIAN HIEROGLYPH A039A"
+      },
+      "1442A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A040"
+      },
+      "1442B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A041"
+      },
+      "1442C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A041A"
+      },
+      "1442D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A042"
+      },
+      "1442E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A043"
+      },
+      "1442F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A044"
+      },
       "1443" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE PWOO"
+      },
+      "14430" : {
+         "name" : "ANATOLIAN HIEROGLYPH A045"
+      },
+      "14431" : {
+         "name" : "ANATOLIAN HIEROGLYPH A045A"
+      },
+      "14432" : {
+         "name" : "ANATOLIAN HIEROGLYPH A046"
+      },
+      "14433" : {
+         "name" : "ANATOLIAN HIEROGLYPH A046A"
+      },
+      "14434" : {
+         "name" : "ANATOLIAN HIEROGLYPH A046B"
+      },
+      "14435" : {
+         "name" : "ANATOLIAN HIEROGLYPH A047"
+      },
+      "14436" : {
+         "name" : "ANATOLIAN HIEROGLYPH A048"
+      },
+      "14437" : {
+         "name" : "ANATOLIAN HIEROGLYPH A049"
+      },
+      "14438" : {
+         "name" : "ANATOLIAN HIEROGLYPH A050"
+      },
+      "14439" : {
+         "name" : "ANATOLIAN HIEROGLYPH A051"
+      },
+      "1443A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A052"
+      },
+      "1443B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A053"
+      },
+      "1443C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A054"
+      },
+      "1443D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A055"
+      },
+      "1443E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A056"
+      },
+      "1443F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A057"
       },
       "1444" : {
          "name" : "CANADIAN SYLLABICS PWA"
       },
+      "14440" : {
+         "name" : "ANATOLIAN HIEROGLYPH A058"
+      },
+      "14441" : {
+         "name" : "ANATOLIAN HIEROGLYPH A059"
+      },
+      "14442" : {
+         "name" : "ANATOLIAN HIEROGLYPH A060"
+      },
+      "14443" : {
+         "name" : "ANATOLIAN HIEROGLYPH A061"
+      },
+      "14444" : {
+         "name" : "ANATOLIAN HIEROGLYPH A062"
+      },
+      "14445" : {
+         "name" : "ANATOLIAN HIEROGLYPH A063"
+      },
+      "14446" : {
+         "name" : "ANATOLIAN HIEROGLYPH A064"
+      },
+      "14447" : {
+         "name" : "ANATOLIAN HIEROGLYPH A065"
+      },
+      "14448" : {
+         "name" : "ANATOLIAN HIEROGLYPH A066"
+      },
+      "14449" : {
+         "name" : "ANATOLIAN HIEROGLYPH A066A"
+      },
+      "1444A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A066B"
+      },
+      "1444B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A066C"
+      },
+      "1444C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A067"
+      },
+      "1444D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A068"
+      },
+      "1444E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A069"
+      },
+      "1444F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A070"
+      },
       "1445" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE PWA"
+      },
+      "14450" : {
+         "name" : "ANATOLIAN HIEROGLYPH A071"
+      },
+      "14451" : {
+         "name" : "ANATOLIAN HIEROGLYPH A072"
+      },
+      "14452" : {
+         "name" : "ANATOLIAN HIEROGLYPH A073"
+      },
+      "14453" : {
+         "name" : "ANATOLIAN HIEROGLYPH A074"
+      },
+      "14454" : {
+         "name" : "ANATOLIAN HIEROGLYPH A075"
+      },
+      "14455" : {
+         "name" : "ANATOLIAN HIEROGLYPH A076"
+      },
+      "14456" : {
+         "name" : "ANATOLIAN HIEROGLYPH A077"
+      },
+      "14457" : {
+         "name" : "ANATOLIAN HIEROGLYPH A078"
+      },
+      "14458" : {
+         "name" : "ANATOLIAN HIEROGLYPH A079"
+      },
+      "14459" : {
+         "name" : "ANATOLIAN HIEROGLYPH A080"
+      },
+      "1445A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A081"
+      },
+      "1445B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A082"
+      },
+      "1445C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A083"
+      },
+      "1445D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A084"
+      },
+      "1445E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A085"
+      },
+      "1445F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A086"
       },
       "1446" : {
          "name" : "CANADIAN SYLLABICS PWAA"
       },
+      "14460" : {
+         "name" : "ANATOLIAN HIEROGLYPH A087"
+      },
+      "14461" : {
+         "name" : "ANATOLIAN HIEROGLYPH A088"
+      },
+      "14462" : {
+         "name" : "ANATOLIAN HIEROGLYPH A089"
+      },
+      "14463" : {
+         "name" : "ANATOLIAN HIEROGLYPH A090"
+      },
+      "14464" : {
+         "name" : "ANATOLIAN HIEROGLYPH A091"
+      },
+      "14465" : {
+         "name" : "ANATOLIAN HIEROGLYPH A092"
+      },
+      "14466" : {
+         "name" : "ANATOLIAN HIEROGLYPH A093"
+      },
+      "14467" : {
+         "name" : "ANATOLIAN HIEROGLYPH A094"
+      },
+      "14468" : {
+         "name" : "ANATOLIAN HIEROGLYPH A095"
+      },
+      "14469" : {
+         "name" : "ANATOLIAN HIEROGLYPH A096"
+      },
+      "1446A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A097"
+      },
+      "1446B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A097A"
+      },
+      "1446C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A098"
+      },
+      "1446D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A098A"
+      },
+      "1446E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A099"
+      },
+      "1446F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A100"
+      },
       "1447" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE PWAA"
+      },
+      "14470" : {
+         "name" : "ANATOLIAN HIEROGLYPH A100A"
+      },
+      "14471" : {
+         "name" : "ANATOLIAN HIEROGLYPH A101"
+      },
+      "14472" : {
+         "name" : "ANATOLIAN HIEROGLYPH A101A"
+      },
+      "14473" : {
+         "name" : "ANATOLIAN HIEROGLYPH A102"
+      },
+      "14474" : {
+         "name" : "ANATOLIAN HIEROGLYPH A102A"
+      },
+      "14475" : {
+         "name" : "ANATOLIAN HIEROGLYPH A103"
+      },
+      "14476" : {
+         "name" : "ANATOLIAN HIEROGLYPH A104"
+      },
+      "14477" : {
+         "name" : "ANATOLIAN HIEROGLYPH A104A"
+      },
+      "14478" : {
+         "name" : "ANATOLIAN HIEROGLYPH A104B"
+      },
+      "14479" : {
+         "name" : "ANATOLIAN HIEROGLYPH A104C"
+      },
+      "1447A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A105"
+      },
+      "1447B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A105A"
+      },
+      "1447C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A105B"
+      },
+      "1447D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A106"
+      },
+      "1447E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A107"
+      },
+      "1447F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A107A"
       },
       "1448" : {
          "name" : "CANADIAN SYLLABICS Y-CREE PWAA"
       },
+      "14480" : {
+         "name" : "ANATOLIAN HIEROGLYPH A107B"
+      },
+      "14481" : {
+         "name" : "ANATOLIAN HIEROGLYPH A107C"
+      },
+      "14482" : {
+         "name" : "ANATOLIAN HIEROGLYPH A108"
+      },
+      "14483" : {
+         "name" : "ANATOLIAN HIEROGLYPH A109"
+      },
+      "14484" : {
+         "name" : "ANATOLIAN HIEROGLYPH A110"
+      },
+      "14485" : {
+         "name" : "ANATOLIAN HIEROGLYPH A110A"
+      },
+      "14486" : {
+         "name" : "ANATOLIAN HIEROGLYPH A110B"
+      },
+      "14487" : {
+         "name" : "ANATOLIAN HIEROGLYPH A111"
+      },
+      "14488" : {
+         "name" : "ANATOLIAN HIEROGLYPH A112"
+      },
+      "14489" : {
+         "name" : "ANATOLIAN HIEROGLYPH A113"
+      },
+      "1448A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A114"
+      },
+      "1448B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A115"
+      },
+      "1448C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A115A"
+      },
+      "1448D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A116"
+      },
+      "1448E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A117"
+      },
+      "1448F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A118"
+      },
       "1449" : {
          "name" : "CANADIAN SYLLABICS P"
+      },
+      "14490" : {
+         "name" : "ANATOLIAN HIEROGLYPH A119"
+      },
+      "14491" : {
+         "name" : "ANATOLIAN HIEROGLYPH A120"
+      },
+      "14492" : {
+         "name" : "ANATOLIAN HIEROGLYPH A121"
+      },
+      "14493" : {
+         "name" : "ANATOLIAN HIEROGLYPH A122"
+      },
+      "14494" : {
+         "name" : "ANATOLIAN HIEROGLYPH A123"
+      },
+      "14495" : {
+         "name" : "ANATOLIAN HIEROGLYPH A124"
+      },
+      "14496" : {
+         "name" : "ANATOLIAN HIEROGLYPH A125"
+      },
+      "14497" : {
+         "name" : "ANATOLIAN HIEROGLYPH A125A"
+      },
+      "14498" : {
+         "name" : "ANATOLIAN HIEROGLYPH A126"
+      },
+      "14499" : {
+         "name" : "ANATOLIAN HIEROGLYPH A127"
+      },
+      "1449A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A128"
+      },
+      "1449B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A129"
+      },
+      "1449C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A130"
+      },
+      "1449D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A131"
+      },
+      "1449E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A132"
+      },
+      "1449F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A133"
       },
       "144A" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE P"
       },
+      "144A0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A134"
+      },
+      "144A1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A135"
+      },
+      "144A2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A135A"
+      },
+      "144A3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A136"
+      },
+      "144A4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A137"
+      },
+      "144A5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A138"
+      },
+      "144A6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A139"
+      },
+      "144A7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A140"
+      },
+      "144A8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A141"
+      },
+      "144A9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A142"
+      },
+      "144AA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A143"
+      },
+      "144AB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A144"
+      },
+      "144AC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A145"
+      },
+      "144AD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A146"
+      },
+      "144AE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A147"
+      },
+      "144AF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A148"
+      },
       "144B" : {
          "name" : "CANADIAN SYLLABICS CARRIER H"
+      },
+      "144B0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A149"
+      },
+      "144B1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A150"
+      },
+      "144B2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A151"
+      },
+      "144B3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A152"
+      },
+      "144B4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A153"
+      },
+      "144B5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A154"
+      },
+      "144B6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A155"
+      },
+      "144B7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A156"
+      },
+      "144B8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A157"
+      },
+      "144B9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A158"
+      },
+      "144BA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A159"
+      },
+      "144BB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A160"
+      },
+      "144BC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A161"
+      },
+      "144BD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A162"
+      },
+      "144BE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A163"
+      },
+      "144BF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A164"
       },
       "144C" : {
          "name" : "CANADIAN SYLLABICS TE"
       },
+      "144C0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A165"
+      },
+      "144C1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A166"
+      },
+      "144C2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A167"
+      },
+      "144C3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A168"
+      },
+      "144C4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A169"
+      },
+      "144C5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A170"
+      },
+      "144C6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A171"
+      },
+      "144C7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A172"
+      },
+      "144C8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A173"
+      },
+      "144C9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A174"
+      },
+      "144CA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A175"
+      },
+      "144CB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A176"
+      },
+      "144CC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A177"
+      },
+      "144CD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A178"
+      },
+      "144CE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A179"
+      },
+      "144CF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A180"
+      },
       "144D" : {
          "name" : "CANADIAN SYLLABICS TAAI"
+      },
+      "144D0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A181"
+      },
+      "144D1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A182"
+      },
+      "144D2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A183"
+      },
+      "144D3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A184"
+      },
+      "144D4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A185"
+      },
+      "144D5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A186"
+      },
+      "144D6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A187"
+      },
+      "144D7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A188"
+      },
+      "144D8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A189"
+      },
+      "144D9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A190"
+      },
+      "144DA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A191"
+      },
+      "144DB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A192"
+      },
+      "144DC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A193"
+      },
+      "144DD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A194"
+      },
+      "144DE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A195"
+      },
+      "144DF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A196"
       },
       "144E" : {
          "name" : "CANADIAN SYLLABICS TI"
       },
+      "144E0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A197"
+      },
+      "144E1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A198"
+      },
+      "144E2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A199"
+      },
+      "144E3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A200"
+      },
+      "144E4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A201"
+      },
+      "144E5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A202"
+      },
+      "144E6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A202A"
+      },
+      "144E7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A202B"
+      },
+      "144E8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A203"
+      },
+      "144E9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A204"
+      },
+      "144EA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A205"
+      },
+      "144EB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A206"
+      },
+      "144EC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A207"
+      },
+      "144ED" : {
+         "name" : "ANATOLIAN HIEROGLYPH A207A"
+      },
+      "144EE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A208"
+      },
+      "144EF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A209"
+      },
       "144F" : {
          "name" : "CANADIAN SYLLABICS TII"
+      },
+      "144F0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A209A"
+      },
+      "144F1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A210"
+      },
+      "144F2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A211"
+      },
+      "144F3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A212"
+      },
+      "144F4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A213"
+      },
+      "144F5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A214"
+      },
+      "144F6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A215"
+      },
+      "144F7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A215A"
+      },
+      "144F8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A216"
+      },
+      "144F9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A216A"
+      },
+      "144FA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A217"
+      },
+      "144FB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A218"
+      },
+      "144FC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A219"
+      },
+      "144FD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A220"
+      },
+      "144FE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A221"
+      },
+      "144FF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A222"
       },
       "1450" : {
          "name" : "CANADIAN SYLLABICS TO"
       },
+      "14500" : {
+         "name" : "ANATOLIAN HIEROGLYPH A223"
+      },
+      "14501" : {
+         "name" : "ANATOLIAN HIEROGLYPH A224"
+      },
+      "14502" : {
+         "name" : "ANATOLIAN HIEROGLYPH A225"
+      },
+      "14503" : {
+         "name" : "ANATOLIAN HIEROGLYPH A226"
+      },
+      "14504" : {
+         "name" : "ANATOLIAN HIEROGLYPH A227"
+      },
+      "14505" : {
+         "name" : "ANATOLIAN HIEROGLYPH A227A"
+      },
+      "14506" : {
+         "name" : "ANATOLIAN HIEROGLYPH A228"
+      },
+      "14507" : {
+         "name" : "ANATOLIAN HIEROGLYPH A229"
+      },
+      "14508" : {
+         "name" : "ANATOLIAN HIEROGLYPH A230"
+      },
+      "14509" : {
+         "name" : "ANATOLIAN HIEROGLYPH A231"
+      },
+      "1450A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A232"
+      },
+      "1450B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A233"
+      },
+      "1450C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A234"
+      },
+      "1450D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A235"
+      },
+      "1450E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A236"
+      },
+      "1450F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A237"
+      },
       "1451" : {
          "name" : "CANADIAN SYLLABICS TOO"
+      },
+      "14510" : {
+         "name" : "ANATOLIAN HIEROGLYPH A238"
+      },
+      "14511" : {
+         "name" : "ANATOLIAN HIEROGLYPH A239"
+      },
+      "14512" : {
+         "name" : "ANATOLIAN HIEROGLYPH A240"
+      },
+      "14513" : {
+         "name" : "ANATOLIAN HIEROGLYPH A241"
+      },
+      "14514" : {
+         "name" : "ANATOLIAN HIEROGLYPH A242"
+      },
+      "14515" : {
+         "name" : "ANATOLIAN HIEROGLYPH A243"
+      },
+      "14516" : {
+         "name" : "ANATOLIAN HIEROGLYPH A244"
+      },
+      "14517" : {
+         "name" : "ANATOLIAN HIEROGLYPH A245"
+      },
+      "14518" : {
+         "name" : "ANATOLIAN HIEROGLYPH A246"
+      },
+      "14519" : {
+         "name" : "ANATOLIAN HIEROGLYPH A247"
+      },
+      "1451A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A248"
+      },
+      "1451B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A249"
+      },
+      "1451C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A250"
+      },
+      "1451D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A251"
+      },
+      "1451E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A252"
+      },
+      "1451F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A253"
       },
       "1452" : {
          "name" : "CANADIAN SYLLABICS Y-CREE TOO"
       },
+      "14520" : {
+         "name" : "ANATOLIAN HIEROGLYPH A254"
+      },
+      "14521" : {
+         "name" : "ANATOLIAN HIEROGLYPH A255"
+      },
+      "14522" : {
+         "name" : "ANATOLIAN HIEROGLYPH A256"
+      },
+      "14523" : {
+         "name" : "ANATOLIAN HIEROGLYPH A257"
+      },
+      "14524" : {
+         "name" : "ANATOLIAN HIEROGLYPH A258"
+      },
+      "14525" : {
+         "name" : "ANATOLIAN HIEROGLYPH A259"
+      },
+      "14526" : {
+         "name" : "ANATOLIAN HIEROGLYPH A260"
+      },
+      "14527" : {
+         "name" : "ANATOLIAN HIEROGLYPH A261"
+      },
+      "14528" : {
+         "name" : "ANATOLIAN HIEROGLYPH A262"
+      },
+      "14529" : {
+         "name" : "ANATOLIAN HIEROGLYPH A263"
+      },
+      "1452A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A264"
+      },
+      "1452B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A265"
+      },
+      "1452C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A266"
+      },
+      "1452D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A267"
+      },
+      "1452E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A267A"
+      },
+      "1452F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A268"
+      },
       "1453" : {
          "name" : "CANADIAN SYLLABICS CARRIER DEE"
+      },
+      "14530" : {
+         "name" : "ANATOLIAN HIEROGLYPH A269"
+      },
+      "14531" : {
+         "name" : "ANATOLIAN HIEROGLYPH A270"
+      },
+      "14532" : {
+         "name" : "ANATOLIAN HIEROGLYPH A271"
+      },
+      "14533" : {
+         "name" : "ANATOLIAN HIEROGLYPH A272"
+      },
+      "14534" : {
+         "name" : "ANATOLIAN HIEROGLYPH A273"
+      },
+      "14535" : {
+         "name" : "ANATOLIAN HIEROGLYPH A274"
+      },
+      "14536" : {
+         "name" : "ANATOLIAN HIEROGLYPH A275"
+      },
+      "14537" : {
+         "name" : "ANATOLIAN HIEROGLYPH A276"
+      },
+      "14538" : {
+         "name" : "ANATOLIAN HIEROGLYPH A277"
+      },
+      "14539" : {
+         "name" : "ANATOLIAN HIEROGLYPH A278"
+      },
+      "1453A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A279"
+      },
+      "1453B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A280"
+      },
+      "1453C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A281"
+      },
+      "1453D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A282"
+      },
+      "1453E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A283"
+      },
+      "1453F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A284"
       },
       "1454" : {
          "name" : "CANADIAN SYLLABICS CARRIER DI"
       },
+      "14540" : {
+         "name" : "ANATOLIAN HIEROGLYPH A285"
+      },
+      "14541" : {
+         "name" : "ANATOLIAN HIEROGLYPH A286"
+      },
+      "14542" : {
+         "name" : "ANATOLIAN HIEROGLYPH A287"
+      },
+      "14543" : {
+         "name" : "ANATOLIAN HIEROGLYPH A288"
+      },
+      "14544" : {
+         "name" : "ANATOLIAN HIEROGLYPH A289"
+      },
+      "14545" : {
+         "name" : "ANATOLIAN HIEROGLYPH A289A"
+      },
+      "14546" : {
+         "name" : "ANATOLIAN HIEROGLYPH A290"
+      },
+      "14547" : {
+         "name" : "ANATOLIAN HIEROGLYPH A291"
+      },
+      "14548" : {
+         "name" : "ANATOLIAN HIEROGLYPH A292"
+      },
+      "14549" : {
+         "name" : "ANATOLIAN HIEROGLYPH A293"
+      },
+      "1454A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A294"
+      },
+      "1454B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A294A"
+      },
+      "1454C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A295"
+      },
+      "1454D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A296"
+      },
+      "1454E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A297"
+      },
+      "1454F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A298"
+      },
       "1455" : {
          "name" : "CANADIAN SYLLABICS TA"
+      },
+      "14550" : {
+         "name" : "ANATOLIAN HIEROGLYPH A299"
+      },
+      "14551" : {
+         "name" : "ANATOLIAN HIEROGLYPH A299A"
+      },
+      "14552" : {
+         "name" : "ANATOLIAN HIEROGLYPH A300"
+      },
+      "14553" : {
+         "name" : "ANATOLIAN HIEROGLYPH A301"
+      },
+      "14554" : {
+         "name" : "ANATOLIAN HIEROGLYPH A302"
+      },
+      "14555" : {
+         "name" : "ANATOLIAN HIEROGLYPH A303"
+      },
+      "14556" : {
+         "name" : "ANATOLIAN HIEROGLYPH A304"
+      },
+      "14557" : {
+         "name" : "ANATOLIAN HIEROGLYPH A305"
+      },
+      "14558" : {
+         "name" : "ANATOLIAN HIEROGLYPH A306"
+      },
+      "14559" : {
+         "name" : "ANATOLIAN HIEROGLYPH A307"
+      },
+      "1455A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A308"
+      },
+      "1455B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A309"
+      },
+      "1455C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A309A"
+      },
+      "1455D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A310"
+      },
+      "1455E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A311"
+      },
+      "1455F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A312"
       },
       "1456" : {
          "name" : "CANADIAN SYLLABICS TAA"
       },
+      "14560" : {
+         "name" : "ANATOLIAN HIEROGLYPH A313"
+      },
+      "14561" : {
+         "name" : "ANATOLIAN HIEROGLYPH A314"
+      },
+      "14562" : {
+         "name" : "ANATOLIAN HIEROGLYPH A315"
+      },
+      "14563" : {
+         "name" : "ANATOLIAN HIEROGLYPH A316"
+      },
+      "14564" : {
+         "name" : "ANATOLIAN HIEROGLYPH A317"
+      },
+      "14565" : {
+         "name" : "ANATOLIAN HIEROGLYPH A318"
+      },
+      "14566" : {
+         "name" : "ANATOLIAN HIEROGLYPH A319"
+      },
+      "14567" : {
+         "name" : "ANATOLIAN HIEROGLYPH A320"
+      },
+      "14568" : {
+         "name" : "ANATOLIAN HIEROGLYPH A321"
+      },
+      "14569" : {
+         "name" : "ANATOLIAN HIEROGLYPH A322"
+      },
+      "1456A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A323"
+      },
+      "1456B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A324"
+      },
+      "1456C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A325"
+      },
+      "1456D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A326"
+      },
+      "1456E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A327"
+      },
+      "1456F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A328"
+      },
       "1457" : {
          "name" : "CANADIAN SYLLABICS TWE"
+      },
+      "14570" : {
+         "name" : "ANATOLIAN HIEROGLYPH A329"
+      },
+      "14571" : {
+         "name" : "ANATOLIAN HIEROGLYPH A329A"
+      },
+      "14572" : {
+         "name" : "ANATOLIAN HIEROGLYPH A330"
+      },
+      "14573" : {
+         "name" : "ANATOLIAN HIEROGLYPH A331"
+      },
+      "14574" : {
+         "name" : "ANATOLIAN HIEROGLYPH A332A"
+      },
+      "14575" : {
+         "name" : "ANATOLIAN HIEROGLYPH A332B"
+      },
+      "14576" : {
+         "name" : "ANATOLIAN HIEROGLYPH A332C"
+      },
+      "14577" : {
+         "name" : "ANATOLIAN HIEROGLYPH A333"
+      },
+      "14578" : {
+         "name" : "ANATOLIAN HIEROGLYPH A334"
+      },
+      "14579" : {
+         "name" : "ANATOLIAN HIEROGLYPH A335"
+      },
+      "1457A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A336"
+      },
+      "1457B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A336A"
+      },
+      "1457C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A336B"
+      },
+      "1457D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A336C"
+      },
+      "1457E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A337"
+      },
+      "1457F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A338"
       },
       "1458" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE TWE"
       },
+      "14580" : {
+         "name" : "ANATOLIAN HIEROGLYPH A339"
+      },
+      "14581" : {
+         "name" : "ANATOLIAN HIEROGLYPH A340"
+      },
+      "14582" : {
+         "name" : "ANATOLIAN HIEROGLYPH A341"
+      },
+      "14583" : {
+         "name" : "ANATOLIAN HIEROGLYPH A342"
+      },
+      "14584" : {
+         "name" : "ANATOLIAN HIEROGLYPH A343"
+      },
+      "14585" : {
+         "name" : "ANATOLIAN HIEROGLYPH A344"
+      },
+      "14586" : {
+         "name" : "ANATOLIAN HIEROGLYPH A345"
+      },
+      "14587" : {
+         "name" : "ANATOLIAN HIEROGLYPH A346"
+      },
+      "14588" : {
+         "name" : "ANATOLIAN HIEROGLYPH A347"
+      },
+      "14589" : {
+         "name" : "ANATOLIAN HIEROGLYPH A348"
+      },
+      "1458A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A349"
+      },
+      "1458B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A350"
+      },
+      "1458C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A351"
+      },
+      "1458D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A352"
+      },
+      "1458E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A353"
+      },
+      "1458F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A354"
+      },
       "1459" : {
          "name" : "CANADIAN SYLLABICS TWI"
+      },
+      "14590" : {
+         "name" : "ANATOLIAN HIEROGLYPH A355"
+      },
+      "14591" : {
+         "name" : "ANATOLIAN HIEROGLYPH A356"
+      },
+      "14592" : {
+         "name" : "ANATOLIAN HIEROGLYPH A357"
+      },
+      "14593" : {
+         "name" : "ANATOLIAN HIEROGLYPH A358"
+      },
+      "14594" : {
+         "name" : "ANATOLIAN HIEROGLYPH A359"
+      },
+      "14595" : {
+         "name" : "ANATOLIAN HIEROGLYPH A359A"
+      },
+      "14596" : {
+         "name" : "ANATOLIAN HIEROGLYPH A360"
+      },
+      "14597" : {
+         "name" : "ANATOLIAN HIEROGLYPH A361"
+      },
+      "14598" : {
+         "name" : "ANATOLIAN HIEROGLYPH A362"
+      },
+      "14599" : {
+         "name" : "ANATOLIAN HIEROGLYPH A363"
+      },
+      "1459A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A364"
+      },
+      "1459B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A364A"
+      },
+      "1459C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A365"
+      },
+      "1459D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A366"
+      },
+      "1459E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A367"
+      },
+      "1459F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A368"
       },
       "145A" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE TWI"
       },
+      "145A0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A368A"
+      },
+      "145A1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A369"
+      },
+      "145A2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A370"
+      },
+      "145A3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A371"
+      },
+      "145A4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A371A"
+      },
+      "145A5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A372"
+      },
+      "145A6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A373"
+      },
+      "145A7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A374"
+      },
+      "145A8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A375"
+      },
+      "145A9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A376"
+      },
+      "145AA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A377"
+      },
+      "145AB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A378"
+      },
+      "145AC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A379"
+      },
+      "145AD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A380"
+      },
+      "145AE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A381"
+      },
+      "145AF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A381A"
+      },
       "145B" : {
          "name" : "CANADIAN SYLLABICS TWII"
+      },
+      "145B0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A382"
+      },
+      "145B1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A383 RA OR RI"
+      },
+      "145B2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A383A"
+      },
+      "145B3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A384"
+      },
+      "145B4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A385"
+      },
+      "145B5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A386"
+      },
+      "145B6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A386A"
+      },
+      "145B7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A387"
+      },
+      "145B8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A388"
+      },
+      "145B9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A389"
+      },
+      "145BA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A390"
+      },
+      "145BB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A391"
+      },
+      "145BC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A392"
+      },
+      "145BD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A393 EIGHT"
+      },
+      "145BE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A394"
+      },
+      "145BF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A395"
       },
       "145C" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE TWII"
       },
+      "145C0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A396"
+      },
+      "145C1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A397"
+      },
+      "145C2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A398"
+      },
+      "145C3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A399"
+      },
+      "145C4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A400"
+      },
+      "145C5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A401"
+      },
+      "145C6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A402"
+      },
+      "145C7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A403"
+      },
+      "145C8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A404"
+      },
+      "145C9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A405"
+      },
+      "145CA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A406"
+      },
+      "145CB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A407"
+      },
+      "145CC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A408"
+      },
+      "145CD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A409"
+      },
+      "145CE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A410 BEGIN LOGOGRAM MARK"
+      },
+      "145CF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A410A END LOGOGRAM MARK"
+      },
       "145D" : {
          "name" : "CANADIAN SYLLABICS TWO"
+      },
+      "145D0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A411"
+      },
+      "145D1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A412"
+      },
+      "145D2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A413"
+      },
+      "145D3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A414"
+      },
+      "145D4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A415"
+      },
+      "145D5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A416"
+      },
+      "145D6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A417"
+      },
+      "145D7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A418"
+      },
+      "145D8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A419"
+      },
+      "145D9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A420"
+      },
+      "145DA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A421"
+      },
+      "145DB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A422"
+      },
+      "145DC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A423"
+      },
+      "145DD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A424"
+      },
+      "145DE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A425"
+      },
+      "145DF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A426"
       },
       "145E" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE TWO"
       },
+      "145E0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A427"
+      },
+      "145E1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A428"
+      },
+      "145E2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A429"
+      },
+      "145E3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A430"
+      },
+      "145E4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A431"
+      },
+      "145E5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A432"
+      },
+      "145E6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A433"
+      },
+      "145E7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A434"
+      },
+      "145E8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A435"
+      },
+      "145E9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A436"
+      },
+      "145EA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A437"
+      },
+      "145EB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A438"
+      },
+      "145EC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A439"
+      },
+      "145ED" : {
+         "name" : "ANATOLIAN HIEROGLYPH A440"
+      },
+      "145EE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A441"
+      },
+      "145EF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A442"
+      },
       "145F" : {
          "name" : "CANADIAN SYLLABICS TWOO"
+      },
+      "145F0" : {
+         "name" : "ANATOLIAN HIEROGLYPH A443"
+      },
+      "145F1" : {
+         "name" : "ANATOLIAN HIEROGLYPH A444"
+      },
+      "145F2" : {
+         "name" : "ANATOLIAN HIEROGLYPH A445"
+      },
+      "145F3" : {
+         "name" : "ANATOLIAN HIEROGLYPH A446"
+      },
+      "145F4" : {
+         "name" : "ANATOLIAN HIEROGLYPH A447"
+      },
+      "145F5" : {
+         "name" : "ANATOLIAN HIEROGLYPH A448"
+      },
+      "145F6" : {
+         "name" : "ANATOLIAN HIEROGLYPH A449"
+      },
+      "145F7" : {
+         "name" : "ANATOLIAN HIEROGLYPH A450"
+      },
+      "145F8" : {
+         "name" : "ANATOLIAN HIEROGLYPH A450A"
+      },
+      "145F9" : {
+         "name" : "ANATOLIAN HIEROGLYPH A451"
+      },
+      "145FA" : {
+         "name" : "ANATOLIAN HIEROGLYPH A452"
+      },
+      "145FB" : {
+         "name" : "ANATOLIAN HIEROGLYPH A453"
+      },
+      "145FC" : {
+         "name" : "ANATOLIAN HIEROGLYPH A454"
+      },
+      "145FD" : {
+         "name" : "ANATOLIAN HIEROGLYPH A455"
+      },
+      "145FE" : {
+         "name" : "ANATOLIAN HIEROGLYPH A456"
+      },
+      "145FF" : {
+         "name" : "ANATOLIAN HIEROGLYPH A457"
       },
       "1460" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE TWOO"
       },
+      "14600" : {
+         "name" : "ANATOLIAN HIEROGLYPH A457A"
+      },
+      "14601" : {
+         "name" : "ANATOLIAN HIEROGLYPH A458"
+      },
+      "14602" : {
+         "name" : "ANATOLIAN HIEROGLYPH A459"
+      },
+      "14603" : {
+         "name" : "ANATOLIAN HIEROGLYPH A460"
+      },
+      "14604" : {
+         "name" : "ANATOLIAN HIEROGLYPH A461"
+      },
+      "14605" : {
+         "name" : "ANATOLIAN HIEROGLYPH A462"
+      },
+      "14606" : {
+         "name" : "ANATOLIAN HIEROGLYPH A463"
+      },
+      "14607" : {
+         "name" : "ANATOLIAN HIEROGLYPH A464"
+      },
+      "14608" : {
+         "name" : "ANATOLIAN HIEROGLYPH A465"
+      },
+      "14609" : {
+         "name" : "ANATOLIAN HIEROGLYPH A466"
+      },
+      "1460A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A467"
+      },
+      "1460B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A468"
+      },
+      "1460C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A469"
+      },
+      "1460D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A470"
+      },
+      "1460E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A471"
+      },
+      "1460F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A472"
+      },
       "1461" : {
          "name" : "CANADIAN SYLLABICS TWA"
+      },
+      "14610" : {
+         "name" : "ANATOLIAN HIEROGLYPH A473"
+      },
+      "14611" : {
+         "name" : "ANATOLIAN HIEROGLYPH A474"
+      },
+      "14612" : {
+         "name" : "ANATOLIAN HIEROGLYPH A475"
+      },
+      "14613" : {
+         "name" : "ANATOLIAN HIEROGLYPH A476"
+      },
+      "14614" : {
+         "name" : "ANATOLIAN HIEROGLYPH A477"
+      },
+      "14615" : {
+         "name" : "ANATOLIAN HIEROGLYPH A478"
+      },
+      "14616" : {
+         "name" : "ANATOLIAN HIEROGLYPH A479"
+      },
+      "14617" : {
+         "name" : "ANATOLIAN HIEROGLYPH A480"
+      },
+      "14618" : {
+         "name" : "ANATOLIAN HIEROGLYPH A481"
+      },
+      "14619" : {
+         "name" : "ANATOLIAN HIEROGLYPH A482"
+      },
+      "1461A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A483"
+      },
+      "1461B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A484"
+      },
+      "1461C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A485"
+      },
+      "1461D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A486"
+      },
+      "1461E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A487"
+      },
+      "1461F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A488"
       },
       "1462" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE TWA"
       },
+      "14620" : {
+         "name" : "ANATOLIAN HIEROGLYPH A489"
+      },
+      "14621" : {
+         "name" : "ANATOLIAN HIEROGLYPH A490"
+      },
+      "14622" : {
+         "name" : "ANATOLIAN HIEROGLYPH A491"
+      },
+      "14623" : {
+         "name" : "ANATOLIAN HIEROGLYPH A492"
+      },
+      "14624" : {
+         "name" : "ANATOLIAN HIEROGLYPH A493"
+      },
+      "14625" : {
+         "name" : "ANATOLIAN HIEROGLYPH A494"
+      },
+      "14626" : {
+         "name" : "ANATOLIAN HIEROGLYPH A495"
+      },
+      "14627" : {
+         "name" : "ANATOLIAN HIEROGLYPH A496"
+      },
+      "14628" : {
+         "name" : "ANATOLIAN HIEROGLYPH A497"
+      },
+      "14629" : {
+         "name" : "ANATOLIAN HIEROGLYPH A501"
+      },
+      "1462A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A502"
+      },
+      "1462B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A503"
+      },
+      "1462C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A504"
+      },
+      "1462D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A505"
+      },
+      "1462E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A506"
+      },
+      "1462F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A507"
+      },
       "1463" : {
          "name" : "CANADIAN SYLLABICS TWAA"
       },
+      "14630" : {
+         "name" : "ANATOLIAN HIEROGLYPH A508"
+      },
+      "14631" : {
+         "name" : "ANATOLIAN HIEROGLYPH A509"
+      },
+      "14632" : {
+         "name" : "ANATOLIAN HIEROGLYPH A510"
+      },
+      "14633" : {
+         "name" : "ANATOLIAN HIEROGLYPH A511"
+      },
+      "14634" : {
+         "name" : "ANATOLIAN HIEROGLYPH A512"
+      },
+      "14635" : {
+         "name" : "ANATOLIAN HIEROGLYPH A513"
+      },
+      "14636" : {
+         "name" : "ANATOLIAN HIEROGLYPH A514"
+      },
+      "14637" : {
+         "name" : "ANATOLIAN HIEROGLYPH A515"
+      },
+      "14638" : {
+         "name" : "ANATOLIAN HIEROGLYPH A516"
+      },
+      "14639" : {
+         "name" : "ANATOLIAN HIEROGLYPH A517"
+      },
+      "1463A" : {
+         "name" : "ANATOLIAN HIEROGLYPH A518"
+      },
+      "1463B" : {
+         "name" : "ANATOLIAN HIEROGLYPH A519"
+      },
+      "1463C" : {
+         "name" : "ANATOLIAN HIEROGLYPH A520"
+      },
+      "1463D" : {
+         "name" : "ANATOLIAN HIEROGLYPH A521"
+      },
+      "1463E" : {
+         "name" : "ANATOLIAN HIEROGLYPH A522"
+      },
+      "1463F" : {
+         "name" : "ANATOLIAN HIEROGLYPH A523"
+      },
       "1464" : {
          "name" : "CANADIAN SYLLABICS WEST-CREE TWAA"
+      },
+      "14640" : {
+         "name" : "ANATOLIAN HIEROGLYPH A524"
+      },
+      "14641" : {
+         "name" : "ANATOLIAN HIEROGLYPH A525"
+      },
+      "14642" : {
+         "name" : "ANATOLIAN HIEROGLYPH A526"
+      },
+      "14643" : {
+         "name" : "ANATOLIAN HIEROGLYPH A527"
+      },
+      "14644" : {
+         "name" : "ANATOLIAN HIEROGLYPH A528"
+      },
+      "14645" : {
+         "name" : "ANATOLIAN HIEROGLYPH A529"
+      },
+      "14646" : {
+         "name" : "ANATOLIAN HIEROGLYPH A530"
       },
       "1465" : {
          "name" : "CANADIAN SYLLABICS NASKAPI TWAA"
@@ -41644,8 +44995,41 @@
       "1D1DD" : {
          "name" : "MUSICAL SYMBOL PES SUBPUNCTIS"
       },
+      "1D1DE" : {
+         "name" : "MUSICAL SYMBOL KIEVAN C CLEF"
+      },
+      "1D1DF" : {
+         "name" : "MUSICAL SYMBOL KIEVAN END OF PIECE"
+      },
       "1D1E" : {
          "name" : "LATIN SMALL LETTER SIDEWAYS DIAERESIZED U"
+      },
+      "1D1E0" : {
+         "name" : "MUSICAL SYMBOL KIEVAN FINAL NOTE"
+      },
+      "1D1E1" : {
+         "name" : "MUSICAL SYMBOL KIEVAN RECITATIVE MARK"
+      },
+      "1D1E2" : {
+         "name" : "MUSICAL SYMBOL KIEVAN WHOLE NOTE"
+      },
+      "1D1E3" : {
+         "name" : "MUSICAL SYMBOL KIEVAN HALF NOTE"
+      },
+      "1D1E4" : {
+         "name" : "MUSICAL SYMBOL KIEVAN QUARTER NOTE STEM DOWN"
+      },
+      "1D1E5" : {
+         "name" : "MUSICAL SYMBOL KIEVAN QUARTER NOTE STEM UP"
+      },
+      "1D1E6" : {
+         "name" : "MUSICAL SYMBOL KIEVAN EIGHTH NOTE STEM DOWN"
+      },
+      "1D1E7" : {
+         "name" : "MUSICAL SYMBOL KIEVAN EIGHTH NOTE STEM UP"
+      },
+      "1D1E8" : {
+         "name" : "MUSICAL SYMBOL KIEVAN FLAT SIGN"
       },
       "1D1F" : {
          "name" : "LATIN SMALL LETTER SIDEWAYS TURNED M"
@@ -45454,131 +48838,2147 @@
       "1D80" : {
          "name" : "LATIN SMALL LETTER B WITH PALATAL HOOK"
       },
+      "1D800" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX"
+      },
+      "1D801" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX"
+      },
+      "1D802" : {
+         "name" : "SIGNWRITING HAND-CUP INDEX"
+      },
+      "1D803" : {
+         "name" : "SIGNWRITING HAND-OVAL INDEX"
+      },
+      "1D804" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX"
+      },
+      "1D805" : {
+         "name" : "SIGNWRITING HAND-ANGLE INDEX"
+      },
+      "1D806" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX BENT"
+      },
+      "1D807" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX BENT"
+      },
+      "1D808" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB UNDER INDEX BENT"
+      },
+      "1D809" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX RAISED KNUCKLE"
+      },
+      "1D80A" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX CUPPED"
+      },
+      "1D80B" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX HINGED"
+      },
+      "1D80C" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX HINGED LOW"
+      },
+      "1D80D" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX HINGE"
+      },
+      "1D80E" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE"
+      },
+      "1D80F" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX MIDDLE"
+      },
       "1D81" : {
          "name" : "LATIN SMALL LETTER D WITH PALATAL HOOK"
+      },
+      "1D810" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE BENT"
+      },
+      "1D811" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE RAISED KNUCKLES"
+      },
+      "1D812" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE HINGED"
+      },
+      "1D813" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED"
+      },
+      "1D814" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX HINGED MIDDLE UP"
+      },
+      "1D815" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED"
+      },
+      "1D816" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED INDEX BENT"
+      },
+      "1D817" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED MIDDLE BENT"
+      },
+      "1D818" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED CUPPED"
+      },
+      "1D819" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED HINGED"
+      },
+      "1D81A" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CROSSED"
+      },
+      "1D81B" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX MIDDLE CROSSED"
+      },
+      "1D81C" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE BENT OVER INDEX"
+      },
+      "1D81D" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX BENT OVER MIDDLE"
+      },
+      "1D81E" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB"
+      },
+      "1D81F" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX MIDDLE THUMB"
       },
       "1D82" : {
          "name" : "LATIN SMALL LETTER F WITH PALATAL HOOK"
       },
+      "1D820" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE STRAIGHT THUMB BENT"
+      },
+      "1D821" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE BENT THUMB STRAIGHT"
+      },
+      "1D822" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB BENT"
+      },
+      "1D823" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE HINGED SPREAD THUMB SIDE"
+      },
+      "1D824" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED THUMB SIDE"
+      },
+      "1D825" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED THUMB CONJOINED"
+      },
+      "1D826" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX HINGED MIDDLE UP THUMB SIDE"
+      },
+      "1D827" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE UP SPREAD THUMB FORWARD"
+      },
+      "1D828" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CUPPED"
+      },
+      "1D829" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CIRCLED"
+      },
+      "1D82A" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB HOOKED"
+      },
+      "1D82B" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB HINGED"
+      },
+      "1D82C" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB BETWEEN INDEX MIDDLE STRAIGHT"
+      },
+      "1D82D" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE"
+      },
+      "1D82E" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE CONJOINED"
+      },
+      "1D82F" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE BENT"
+      },
       "1D83" : {
          "name" : "LATIN SMALL LETTER G WITH PALATAL HOOK"
+      },
+      "1D830" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE THUMB HOOKED INDEX UP"
+      },
+      "1D831" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB HOOKED MIDDLE UP"
+      },
+      "1D832" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED HINGED THUMB SIDE"
+      },
+      "1D833" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CROSSED THUMB SIDE"
+      },
+      "1D834" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB FORWARD"
+      },
+      "1D835" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED CUPPED THUMB FORWARD"
+      },
+      "1D836" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE THUMB CUPPED INDEX UP"
+      },
+      "1D837" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB CUPPED MIDDLE UP"
+      },
+      "1D838" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE THUMB CIRCLED INDEX UP"
+      },
+      "1D839" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE THUMB CIRCLED INDEX HINGED"
+      },
+      "1D83A" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB ANGLED OUT MIDDLE UP"
+      },
+      "1D83B" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB ANGLED IN MIDDLE UP"
+      },
+      "1D83C" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB CIRCLED MIDDLE UP"
+      },
+      "1D83D" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CONJOINED HINGED"
+      },
+      "1D83E" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB ANGLED OUT"
+      },
+      "1D83F" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE THUMB ANGLED"
       },
       "1D84" : {
          "name" : "LATIN SMALL LETTER K WITH PALATAL HOOK"
       },
+      "1D840" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED OUT INDEX UP"
+      },
+      "1D841" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED OUT INDEX CROSSED"
+      },
+      "1D842" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED INDEX UP"
+      },
+      "1D843" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB HOOKED MIDDLE HINGED"
+      },
+      "1D844" : {
+         "name" : "SIGNWRITING HAND-FLAT FOUR FINGERS"
+      },
+      "1D845" : {
+         "name" : "SIGNWRITING HAND-FLAT FOUR FINGERS BENT"
+      },
+      "1D846" : {
+         "name" : "SIGNWRITING HAND-FLAT FOUR FINGERS HINGED"
+      },
+      "1D847" : {
+         "name" : "SIGNWRITING HAND-FLAT FOUR FINGERS CONJOINED"
+      },
+      "1D848" : {
+         "name" : "SIGNWRITING HAND-FLAT FOUR FINGERS CONJOINED SPLIT"
+      },
+      "1D849" : {
+         "name" : "SIGNWRITING HAND-CLAW FOUR FINGERS CONJOINED"
+      },
+      "1D84A" : {
+         "name" : "SIGNWRITING HAND-FIST FOUR FINGERS CONJOINED BENT"
+      },
+      "1D84B" : {
+         "name" : "SIGNWRITING HAND-HINGE FOUR FINGERS CONJOINED"
+      },
+      "1D84C" : {
+         "name" : "SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD"
+      },
+      "1D84D" : {
+         "name" : "SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD"
+      },
+      "1D84E" : {
+         "name" : "SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD FOUR BENT"
+      },
+      "1D84F" : {
+         "name" : "SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD FOUR BENT"
+      },
       "1D85" : {
          "name" : "LATIN SMALL LETTER L WITH PALATAL HOOK"
+      },
+      "1D850" : {
+         "name" : "SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD BENT"
+      },
+      "1D851" : {
+         "name" : "SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD BENT"
+      },
+      "1D852" : {
+         "name" : "SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD THUMB FORWARD"
+      },
+      "1D853" : {
+         "name" : "SIGNWRITING HAND-CUP FIVE FINGERS SPREAD"
+      },
+      "1D854" : {
+         "name" : "SIGNWRITING HAND-CUP FIVE FINGERS SPREAD OPEN"
+      },
+      "1D855" : {
+         "name" : "SIGNWRITING HAND-HINGE FIVE FINGERS SPREAD OPEN"
+      },
+      "1D856" : {
+         "name" : "SIGNWRITING HAND-OVAL FIVE FINGERS SPREAD"
+      },
+      "1D857" : {
+         "name" : "SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED"
+      },
+      "1D858" : {
+         "name" : "SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED THUMB SIDE"
+      },
+      "1D859" : {
+         "name" : "SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED NO THUMB"
+      },
+      "1D85A" : {
+         "name" : "SIGNWRITING HAND-FLAT"
+      },
+      "1D85B" : {
+         "name" : "SIGNWRITING HAND-FLAT BETWEEN PALM FACINGS"
+      },
+      "1D85C" : {
+         "name" : "SIGNWRITING HAND-FLAT HEEL"
+      },
+      "1D85D" : {
+         "name" : "SIGNWRITING HAND-FLAT THUMB SIDE"
+      },
+      "1D85E" : {
+         "name" : "SIGNWRITING HAND-FLAT HEEL THUMB SIDE"
+      },
+      "1D85F" : {
+         "name" : "SIGNWRITING HAND-FLAT THUMB BENT"
       },
       "1D86" : {
          "name" : "LATIN SMALL LETTER M WITH PALATAL HOOK"
       },
+      "1D860" : {
+         "name" : "SIGNWRITING HAND-FLAT THUMB FORWARD"
+      },
+      "1D861" : {
+         "name" : "SIGNWRITING HAND-FLAT SPLIT INDEX THUMB SIDE"
+      },
+      "1D862" : {
+         "name" : "SIGNWRITING HAND-FLAT SPLIT CENTRE"
+      },
+      "1D863" : {
+         "name" : "SIGNWRITING HAND-FLAT SPLIT CENTRE THUMB SIDE"
+      },
+      "1D864" : {
+         "name" : "SIGNWRITING HAND-FLAT SPLIT CENTRE THUMB SIDE BENT"
+      },
+      "1D865" : {
+         "name" : "SIGNWRITING HAND-FLAT SPLIT LITTLE"
+      },
+      "1D866" : {
+         "name" : "SIGNWRITING HAND-CLAW"
+      },
+      "1D867" : {
+         "name" : "SIGNWRITING HAND-CLAW THUMB SIDE"
+      },
+      "1D868" : {
+         "name" : "SIGNWRITING HAND-CLAW NO THUMB"
+      },
+      "1D869" : {
+         "name" : "SIGNWRITING HAND-CLAW THUMB FORWARD"
+      },
+      "1D86A" : {
+         "name" : "SIGNWRITING HAND-HOOK CURLICUE"
+      },
+      "1D86B" : {
+         "name" : "SIGNWRITING HAND-HOOK"
+      },
+      "1D86C" : {
+         "name" : "SIGNWRITING HAND-CUP OPEN"
+      },
+      "1D86D" : {
+         "name" : "SIGNWRITING HAND-CUP"
+      },
+      "1D86E" : {
+         "name" : "SIGNWRITING HAND-CUP OPEN THUMB SIDE"
+      },
+      "1D86F" : {
+         "name" : "SIGNWRITING HAND-CUP THUMB SIDE"
+      },
       "1D87" : {
          "name" : "LATIN SMALL LETTER N WITH PALATAL HOOK"
+      },
+      "1D870" : {
+         "name" : "SIGNWRITING HAND-CUP OPEN NO THUMB"
+      },
+      "1D871" : {
+         "name" : "SIGNWRITING HAND-CUP NO THUMB"
+      },
+      "1D872" : {
+         "name" : "SIGNWRITING HAND-CUP OPEN THUMB FORWARD"
+      },
+      "1D873" : {
+         "name" : "SIGNWRITING HAND-CUP THUMB FORWARD"
+      },
+      "1D874" : {
+         "name" : "SIGNWRITING HAND-CURLICUE OPEN"
+      },
+      "1D875" : {
+         "name" : "SIGNWRITING HAND-CURLICUE"
+      },
+      "1D876" : {
+         "name" : "SIGNWRITING HAND-CIRCLE"
+      },
+      "1D877" : {
+         "name" : "SIGNWRITING HAND-OVAL"
+      },
+      "1D878" : {
+         "name" : "SIGNWRITING HAND-OVAL THUMB SIDE"
+      },
+      "1D879" : {
+         "name" : "SIGNWRITING HAND-OVAL NO THUMB"
+      },
+      "1D87A" : {
+         "name" : "SIGNWRITING HAND-OVAL THUMB FORWARD"
+      },
+      "1D87B" : {
+         "name" : "SIGNWRITING HAND-HINGE OPEN"
+      },
+      "1D87C" : {
+         "name" : "SIGNWRITING HAND-HINGE OPEN THUMB FORWARD"
+      },
+      "1D87D" : {
+         "name" : "SIGNWRITING HAND-HINGE"
+      },
+      "1D87E" : {
+         "name" : "SIGNWRITING HAND-HINGE SMALL"
+      },
+      "1D87F" : {
+         "name" : "SIGNWRITING HAND-HINGE OPEN THUMB SIDE"
       },
       "1D88" : {
          "name" : "LATIN SMALL LETTER P WITH PALATAL HOOK"
       },
+      "1D880" : {
+         "name" : "SIGNWRITING HAND-HINGE THUMB SIDE"
+      },
+      "1D881" : {
+         "name" : "SIGNWRITING HAND-HINGE OPEN NO THUMB"
+      },
+      "1D882" : {
+         "name" : "SIGNWRITING HAND-HINGE NO THUMB"
+      },
+      "1D883" : {
+         "name" : "SIGNWRITING HAND-HINGE THUMB SIDE TOUCHING INDEX"
+      },
+      "1D884" : {
+         "name" : "SIGNWRITING HAND-HINGE THUMB BETWEEN MIDDLE RING"
+      },
+      "1D885" : {
+         "name" : "SIGNWRITING HAND-ANGLE"
+      },
+      "1D886" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE RING"
+      },
+      "1D887" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX MIDDLE RING"
+      },
+      "1D888" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX MIDDLE RING"
+      },
+      "1D889" : {
+         "name" : "SIGNWRITING HAND-ANGLE INDEX MIDDLE RING"
+      },
+      "1D88A" : {
+         "name" : "SIGNWRITING HAND-HINGE LITTLE"
+      },
+      "1D88B" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE RING BENT"
+      },
+      "1D88C" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE RING CONJOINED"
+      },
+      "1D88D" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX MIDDLE RING CONJOINED"
+      },
+      "1D88E" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE DOWN"
+      },
+      "1D88F" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE DOWN RIPPLE STRAIGHT"
+      },
       "1D89" : {
          "name" : "LATIN SMALL LETTER R WITH PALATAL HOOK"
+      },
+      "1D890" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE DOWN RIPPLE CURVED"
+      },
+      "1D891" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE DOWN OTHERS CIRCLED"
+      },
+      "1D892" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE UP"
+      },
+      "1D893" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB UNDER LITTLE UP"
+      },
+      "1D894" : {
+         "name" : "SIGNWRITING HAND-CIRCLE LITTLE UP"
+      },
+      "1D895" : {
+         "name" : "SIGNWRITING HAND-OVAL LITTLE UP"
+      },
+      "1D896" : {
+         "name" : "SIGNWRITING HAND-ANGLE LITTLE UP"
+      },
+      "1D897" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE RAISED KNUCKLE"
+      },
+      "1D898" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE BENT"
+      },
+      "1D899" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE TOUCHES THUMB"
+      },
+      "1D89A" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE THUMB"
+      },
+      "1D89B" : {
+         "name" : "SIGNWRITING HAND-HINGE LITTLE THUMB"
+      },
+      "1D89C" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE INDEX THUMB"
+      },
+      "1D89D" : {
+         "name" : "SIGNWRITING HAND-HINGE LITTLE INDEX THUMB"
+      },
+      "1D89E" : {
+         "name" : "SIGNWRITING HAND-ANGLE LITTLE INDEX THUMB INDEX THUMB OUT"
+      },
+      "1D89F" : {
+         "name" : "SIGNWRITING HAND-ANGLE LITTLE INDEX THUMB INDEX THUMB"
       },
       "1D8A" : {
          "name" : "LATIN SMALL LETTER S WITH PALATAL HOOK"
       },
+      "1D8A0" : {
+         "name" : "SIGNWRITING HAND-FIST LITTLE INDEX"
+      },
+      "1D8A1" : {
+         "name" : "SIGNWRITING HAND-CIRCLE LITTLE INDEX"
+      },
+      "1D8A2" : {
+         "name" : "SIGNWRITING HAND-HINGE LITTLE INDEX"
+      },
+      "1D8A3" : {
+         "name" : "SIGNWRITING HAND-ANGLE LITTLE INDEX"
+      },
+      "1D8A4" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE LITTLE"
+      },
+      "1D8A5" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX MIDDLE LITTLE"
+      },
+      "1D8A6" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX MIDDLE LITTLE"
+      },
+      "1D8A7" : {
+         "name" : "SIGNWRITING HAND-HINGE RING"
+      },
+      "1D8A8" : {
+         "name" : "SIGNWRITING HAND-ANGLE INDEX MIDDLE LITTLE"
+      },
+      "1D8A9" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX MIDDLE CROSS LITTLE"
+      },
+      "1D8AA" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX MIDDLE CROSS LITTLE"
+      },
+      "1D8AB" : {
+         "name" : "SIGNWRITING HAND-FIST RING DOWN"
+      },
+      "1D8AC" : {
+         "name" : "SIGNWRITING HAND-HINGE RING DOWN INDEX THUMB HOOK MIDDLE"
+      },
+      "1D8AD" : {
+         "name" : "SIGNWRITING HAND-ANGLE RING DOWN MIDDLE THUMB INDEX CROSS"
+      },
+      "1D8AE" : {
+         "name" : "SIGNWRITING HAND-FIST RING UP"
+      },
+      "1D8AF" : {
+         "name" : "SIGNWRITING HAND-FIST RING RAISED KNUCKLE"
+      },
       "1D8B" : {
          "name" : "LATIN SMALL LETTER ESH WITH PALATAL HOOK"
+      },
+      "1D8B0" : {
+         "name" : "SIGNWRITING HAND-FIST RING LITTLE"
+      },
+      "1D8B1" : {
+         "name" : "SIGNWRITING HAND-CIRCLE RING LITTLE"
+      },
+      "1D8B2" : {
+         "name" : "SIGNWRITING HAND-OVAL RING LITTLE"
+      },
+      "1D8B3" : {
+         "name" : "SIGNWRITING HAND-ANGLE RING LITTLE"
+      },
+      "1D8B4" : {
+         "name" : "SIGNWRITING HAND-FIST RING MIDDLE"
+      },
+      "1D8B5" : {
+         "name" : "SIGNWRITING HAND-FIST RING MIDDLE CONJOINED"
+      },
+      "1D8B6" : {
+         "name" : "SIGNWRITING HAND-FIST RING MIDDLE RAISED KNUCKLES"
+      },
+      "1D8B7" : {
+         "name" : "SIGNWRITING HAND-FIST RING INDEX"
+      },
+      "1D8B8" : {
+         "name" : "SIGNWRITING HAND-FIST RING THUMB"
+      },
+      "1D8B9" : {
+         "name" : "SIGNWRITING HAND-HOOK RING THUMB"
+      },
+      "1D8BA" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX RING LITTLE"
+      },
+      "1D8BB" : {
+         "name" : "SIGNWRITING HAND-CIRCLE INDEX RING LITTLE"
+      },
+      "1D8BC" : {
+         "name" : "SIGNWRITING HAND-CURLICUE INDEX RING LITTLE ON"
+      },
+      "1D8BD" : {
+         "name" : "SIGNWRITING HAND-HOOK INDEX RING LITTLE OUT"
+      },
+      "1D8BE" : {
+         "name" : "SIGNWRITING HAND-HOOK INDEX RING LITTLE IN"
+      },
+      "1D8BF" : {
+         "name" : "SIGNWRITING HAND-HOOK INDEX RING LITTLE UNDER"
       },
       "1D8C" : {
          "name" : "LATIN SMALL LETTER V WITH PALATAL HOOK"
       },
+      "1D8C0" : {
+         "name" : "SIGNWRITING HAND-CUP INDEX RING LITTLE"
+      },
+      "1D8C1" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX RING LITTLE"
+      },
+      "1D8C2" : {
+         "name" : "SIGNWRITING HAND-ANGLE INDEX RING LITTLE OUT"
+      },
+      "1D8C3" : {
+         "name" : "SIGNWRITING HAND-ANGLE INDEX RING LITTLE"
+      },
+      "1D8C4" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE DOWN"
+      },
+      "1D8C5" : {
+         "name" : "SIGNWRITING HAND-HINGE MIDDLE"
+      },
+      "1D8C6" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE UP"
+      },
+      "1D8C7" : {
+         "name" : "SIGNWRITING HAND-CIRCLE MIDDLE UP"
+      },
+      "1D8C8" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE RAISED KNUCKLE"
+      },
+      "1D8C9" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE UP THUMB SIDE"
+      },
+      "1D8CA" : {
+         "name" : "SIGNWRITING HAND-HOOK MIDDLE THUMB"
+      },
+      "1D8CB" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE THUMB LITTLE"
+      },
+      "1D8CC" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE LITTLE"
+      },
+      "1D8CD" : {
+         "name" : "SIGNWRITING HAND-FIST MIDDLE RING LITTLE"
+      },
+      "1D8CE" : {
+         "name" : "SIGNWRITING HAND-CIRCLE MIDDLE RING LITTLE"
+      },
+      "1D8CF" : {
+         "name" : "SIGNWRITING HAND-CURLICUE MIDDLE RING LITTLE ON"
+      },
       "1D8D" : {
          "name" : "LATIN SMALL LETTER X WITH PALATAL HOOK"
+      },
+      "1D8D0" : {
+         "name" : "SIGNWRITING HAND-CUP MIDDLE RING LITTLE"
+      },
+      "1D8D1" : {
+         "name" : "SIGNWRITING HAND-HINGE MIDDLE RING LITTLE"
+      },
+      "1D8D2" : {
+         "name" : "SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE OUT"
+      },
+      "1D8D3" : {
+         "name" : "SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE IN"
+      },
+      "1D8D4" : {
+         "name" : "SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE"
+      },
+      "1D8D5" : {
+         "name" : "SIGNWRITING HAND-CIRCLE MIDDLE RING LITTLE BENT"
+      },
+      "1D8D6" : {
+         "name" : "SIGNWRITING HAND-CLAW MIDDLE RING LITTLE CONJOINED"
+      },
+      "1D8D7" : {
+         "name" : "SIGNWRITING HAND-CLAW MIDDLE RING LITTLE CONJOINED SIDE"
+      },
+      "1D8D8" : {
+         "name" : "SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED OUT"
+      },
+      "1D8D9" : {
+         "name" : "SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED IN"
+      },
+      "1D8DA" : {
+         "name" : "SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED"
+      },
+      "1D8DB" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX HINGED"
+      },
+      "1D8DC" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB SIDE"
+      },
+      "1D8DD" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX THUMB SIDE"
+      },
+      "1D8DE" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB DIAGONAL"
+      },
+      "1D8DF" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB CONJOINED"
       },
       "1D8E" : {
          "name" : "LATIN SMALL LETTER Z WITH PALATAL HOOK"
       },
+      "1D8E0" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB BENT"
+      },
+      "1D8E1" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB SIDE INDEX BENT"
+      },
+      "1D8E2" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB SIDE BOTH BENT"
+      },
+      "1D8E3" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB SIDE INDEX HINGE"
+      },
+      "1D8E4" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB FORWARD INDEX STRAIGHT"
+      },
+      "1D8E5" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB FORWARD INDEX BENT"
+      },
+      "1D8E6" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB HOOK"
+      },
+      "1D8E7" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB CURLICUE"
+      },
+      "1D8E8" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB CURVE THUMB INSIDE"
+      },
+      "1D8E9" : {
+         "name" : "SIGNWRITING HAND-CLAW INDEX THUMB CURVE THUMB INSIDE"
+      },
+      "1D8EA" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB CURVE THUMB UNDER"
+      },
+      "1D8EB" : {
+         "name" : "SIGNWRITING HAND-FIST INDEX THUMB CIRCLE"
+      },
+      "1D8EC" : {
+         "name" : "SIGNWRITING HAND-CUP INDEX THUMB"
+      },
+      "1D8ED" : {
+         "name" : "SIGNWRITING HAND-CUP INDEX THUMB OPEN"
+      },
+      "1D8EE" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX THUMB OPEN"
+      },
+      "1D8EF" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX THUMB LARGE"
+      },
       "1D8F" : {
          "name" : "LATIN SMALL LETTER A WITH RETROFLEX HOOK"
+      },
+      "1D8F0" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX THUMB"
+      },
+      "1D8F1" : {
+         "name" : "SIGNWRITING HAND-HINGE INDEX THUMB SMALL"
+      },
+      "1D8F2" : {
+         "name" : "SIGNWRITING HAND-ANGLE INDEX THUMB OUT"
+      },
+      "1D8F3" : {
+         "name" : "SIGNWRITING HAND-ANGLE INDEX THUMB IN"
+      },
+      "1D8F4" : {
+         "name" : "SIGNWRITING HAND-ANGLE INDEX THUMB"
+      },
+      "1D8F5" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB"
+      },
+      "1D8F6" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB HEEL"
+      },
+      "1D8F7" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB SIDE DIAGONAL"
+      },
+      "1D8F8" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB SIDE CONJOINED"
+      },
+      "1D8F9" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB SIDE BENT"
+      },
+      "1D8FA" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB FORWARD"
+      },
+      "1D8FB" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB BETWEEN INDEX MIDDLE"
+      },
+      "1D8FC" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB BETWEEN MIDDLE RING"
+      },
+      "1D8FD" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB BETWEEN RING LITTLE"
+      },
+      "1D8FE" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB UNDER TWO FINGERS"
+      },
+      "1D8FF" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB OVER TWO FINGERS"
       },
       "1D90" : {
          "name" : "LATIN SMALL LETTER ALPHA WITH RETROFLEX HOOK"
       },
+      "1D900" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB UNDER THREE FINGERS"
+      },
+      "1D901" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB UNDER FOUR FINGERS"
+      },
+      "1D902" : {
+         "name" : "SIGNWRITING HAND-FIST THUMB OVER FOUR RAISED KNUCKLES"
+      },
+      "1D903" : {
+         "name" : "SIGNWRITING HAND-FIST"
+      },
+      "1D904" : {
+         "name" : "SIGNWRITING HAND-FIST HEEL"
+      },
+      "1D905" : {
+         "name" : "SIGNWRITING TOUCH SINGLE"
+      },
+      "1D906" : {
+         "name" : "SIGNWRITING TOUCH MULTIPLE"
+      },
+      "1D907" : {
+         "name" : "SIGNWRITING TOUCH BETWEEN"
+      },
+      "1D908" : {
+         "name" : "SIGNWRITING GRASP SINGLE"
+      },
+      "1D909" : {
+         "name" : "SIGNWRITING GRASP MULTIPLE"
+      },
+      "1D90A" : {
+         "name" : "SIGNWRITING GRASP BETWEEN"
+      },
+      "1D90B" : {
+         "name" : "SIGNWRITING STRIKE SINGLE"
+      },
+      "1D90C" : {
+         "name" : "SIGNWRITING STRIKE MULTIPLE"
+      },
+      "1D90D" : {
+         "name" : "SIGNWRITING STRIKE BETWEEN"
+      },
+      "1D90E" : {
+         "name" : "SIGNWRITING BRUSH SINGLE"
+      },
+      "1D90F" : {
+         "name" : "SIGNWRITING BRUSH MULTIPLE"
+      },
       "1D91" : {
          "name" : "LATIN SMALL LETTER D WITH HOOK AND TAIL"
+      },
+      "1D910" : {
+         "name" : "SIGNWRITING BRUSH BETWEEN"
+      },
+      "1D911" : {
+         "name" : "SIGNWRITING RUB SINGLE"
+      },
+      "1D912" : {
+         "name" : "SIGNWRITING RUB MULTIPLE"
+      },
+      "1D913" : {
+         "name" : "SIGNWRITING RUB BETWEEN"
+      },
+      "1D914" : {
+         "name" : "SIGNWRITING SURFACE SYMBOLS"
+      },
+      "1D915" : {
+         "name" : "SIGNWRITING SURFACE BETWEEN"
+      },
+      "1D916" : {
+         "name" : "SIGNWRITING SQUEEZE LARGE SINGLE"
+      },
+      "1D917" : {
+         "name" : "SIGNWRITING SQUEEZE SMALL SINGLE"
+      },
+      "1D918" : {
+         "name" : "SIGNWRITING SQUEEZE LARGE MULTIPLE"
+      },
+      "1D919" : {
+         "name" : "SIGNWRITING SQUEEZE SMALL MULTIPLE"
+      },
+      "1D91A" : {
+         "name" : "SIGNWRITING SQUEEZE SEQUENTIAL"
+      },
+      "1D91B" : {
+         "name" : "SIGNWRITING FLICK LARGE SINGLE"
+      },
+      "1D91C" : {
+         "name" : "SIGNWRITING FLICK SMALL SINGLE"
+      },
+      "1D91D" : {
+         "name" : "SIGNWRITING FLICK LARGE MULTIPLE"
+      },
+      "1D91E" : {
+         "name" : "SIGNWRITING FLICK SMALL MULTIPLE"
+      },
+      "1D91F" : {
+         "name" : "SIGNWRITING FLICK SEQUENTIAL"
       },
       "1D92" : {
          "name" : "LATIN SMALL LETTER E WITH RETROFLEX HOOK"
       },
+      "1D920" : {
+         "name" : "SIGNWRITING SQUEEZE FLICK ALTERNATING"
+      },
+      "1D921" : {
+         "name" : "SIGNWRITING MOVEMENT-HINGE UP DOWN LARGE"
+      },
+      "1D922" : {
+         "name" : "SIGNWRITING MOVEMENT-HINGE UP DOWN SMALL"
+      },
+      "1D923" : {
+         "name" : "SIGNWRITING MOVEMENT-HINGE UP SEQUENTIAL"
+      },
+      "1D924" : {
+         "name" : "SIGNWRITING MOVEMENT-HINGE DOWN SEQUENTIAL"
+      },
+      "1D925" : {
+         "name" : "SIGNWRITING MOVEMENT-HINGE UP DOWN ALTERNATING LARGE"
+      },
+      "1D926" : {
+         "name" : "SIGNWRITING MOVEMENT-HINGE UP DOWN ALTERNATING SMALL"
+      },
+      "1D927" : {
+         "name" : "SIGNWRITING MOVEMENT-HINGE SIDE TO SIDE SCISSORS"
+      },
+      "1D928" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE FINGER CONTACT"
+      },
+      "1D929" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE FINGER CONTACT"
+      },
+      "1D92A" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT SMALL"
+      },
+      "1D92B" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT MEDIUM"
+      },
+      "1D92C" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT LARGE"
+      },
+      "1D92D" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT LARGEST"
+      },
+      "1D92E" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE SINGLE WRIST FLEX"
+      },
+      "1D92F" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE DOUBLE STRAIGHT"
+      },
       "1D93" : {
          "name" : "LATIN SMALL LETTER OPEN E WITH RETROFLEX HOOK"
+      },
+      "1D930" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE DOUBLE WRIST FLEX"
+      },
+      "1D931" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE DOUBLE ALTERNATING"
+      },
+      "1D932" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE DOUBLE ALTERNATING WRIST FLEX"
+      },
+      "1D933" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CROSS"
+      },
+      "1D934" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE TRIPLE STRAIGHT MOVEMENT"
+      },
+      "1D935" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE TRIPLE WRIST FLEX"
+      },
+      "1D936" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE TRIPLE ALTERNATING"
+      },
+      "1D937" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE TRIPLE ALTERNATING WRIST FLEX"
+      },
+      "1D938" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE BEND SMALL"
+      },
+      "1D939" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE BEND MEDIUM"
+      },
+      "1D93A" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE BEND LARGE"
+      },
+      "1D93B" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CORNER SMALL"
+      },
+      "1D93C" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CORNER MEDIUM"
+      },
+      "1D93D" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CORNER LARGE"
+      },
+      "1D93E" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CORNER ROTATION"
+      },
+      "1D93F" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CHECK SMALL"
       },
       "1D94" : {
          "name" : "LATIN SMALL LETTER REVERSED OPEN E WITH RETROFLEX HOOK"
       },
+      "1D940" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CHECK MEDIUM"
+      },
+      "1D941" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CHECK LARGE"
+      },
+      "1D942" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE BOX SMALL"
+      },
+      "1D943" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE BOX MEDIUM"
+      },
+      "1D944" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE BOX LARGE"
+      },
+      "1D945" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG SMALL"
+      },
+      "1D946" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG MEDIUM"
+      },
+      "1D947" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG LARGE"
+      },
+      "1D948" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE PEAKS SMALL"
+      },
+      "1D949" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE PEAKS MEDIUM"
+      },
+      "1D94A" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE PEAKS LARGE"
+      },
+      "1D94B" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE SINGLE"
+      },
+      "1D94C" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE DOUBLE"
+      },
+      "1D94D" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE ALTERNATING"
+      },
+      "1D94E" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE SINGLE"
+      },
+      "1D94F" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE DOUBLE"
+      },
       "1D95" : {
          "name" : "LATIN SMALL LETTER SCHWA WITH RETROFLEX HOOK"
+      },
+      "1D950" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE ALTERNATING"
+      },
+      "1D951" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE SHAKING"
+      },
+      "1D952" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL SINGLE"
+      },
+      "1D953" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL DOUBLE"
+      },
+      "1D954" : {
+         "name" : "SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL TRIPLE"
+      },
+      "1D955" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL AWAY SMALL"
+      },
+      "1D956" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL AWAY MEDIUM"
+      },
+      "1D957" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL AWAY LARGE"
+      },
+      "1D958" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL AWAY LARGEST"
+      },
+      "1D959" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL TOWARDS SMALL"
+      },
+      "1D95A" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL TOWARDS MEDIUM"
+      },
+      "1D95B" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL TOWARDS LARGE"
+      },
+      "1D95C" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL TOWARDS LARGEST"
+      },
+      "1D95D" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY SMALL"
+      },
+      "1D95E" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY MEDIUM"
+      },
+      "1D95F" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY LARGE"
       },
       "1D96" : {
          "name" : "LATIN SMALL LETTER I WITH RETROFLEX HOOK"
       },
+      "1D960" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY LARGEST"
+      },
+      "1D961" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS SMALL"
+      },
+      "1D962" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS MEDIUM"
+      },
+      "1D963" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS LARGE"
+      },
+      "1D964" : {
+         "name" : "SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS LARGEST"
+      },
+      "1D965" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT SMALL"
+      },
+      "1D966" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT MEDIUM"
+      },
+      "1D967" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT LARGE"
+      },
+      "1D968" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT LARGEST"
+      },
+      "1D969" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE SINGLE WRIST FLEX"
+      },
+      "1D96A" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE STRAIGHT"
+      },
+      "1D96B" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE WRIST FLEX"
+      },
+      "1D96C" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE ALTERNATING"
+      },
+      "1D96D" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE ALTERNATING WRIST FLEX"
+      },
+      "1D96E" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CROSS"
+      },
+      "1D96F" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE STRAIGHT MOVEMENT"
+      },
       "1D97" : {
          "name" : "LATIN SMALL LETTER OPEN O WITH RETROFLEX HOOK"
+      },
+      "1D970" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE WRIST FLEX"
+      },
+      "1D971" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE ALTERNATING MOVEMENT"
+      },
+      "1D972" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE ALTERNATING WRIST FLEX"
+      },
+      "1D973" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE BEND"
+      },
+      "1D974" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CORNER SMALL"
+      },
+      "1D975" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CORNER MEDIUM"
+      },
+      "1D976" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CORNER LARGE"
+      },
+      "1D977" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CHECK"
+      },
+      "1D978" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE BOX SMALL"
+      },
+      "1D979" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE BOX MEDIUM"
+      },
+      "1D97A" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE BOX LARGE"
+      },
+      "1D97B" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG SMALL"
+      },
+      "1D97C" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG MEDIUM"
+      },
+      "1D97D" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG LARGE"
+      },
+      "1D97E" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE PEAKS SMALL"
+      },
+      "1D97F" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE PEAKS MEDIUM"
       },
       "1D98" : {
          "name" : "LATIN SMALL LETTER ESH WITH RETROFLEX HOOK"
       },
+      "1D980" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE PEAKS LARGE"
+      },
+      "1D981" : {
+         "name" : "SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE SINGLE"
+      },
+      "1D982" : {
+         "name" : "SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE DOUBLE"
+      },
+      "1D983" : {
+         "name" : "SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE ALTERNATING"
+      },
+      "1D984" : {
+         "name" : "SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE SINGLE"
+      },
+      "1D985" : {
+         "name" : "SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE DOUBLE"
+      },
+      "1D986" : {
+         "name" : "SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE ALTERNATING"
+      },
+      "1D987" : {
+         "name" : "SIGNWRITING TRAVEL-FLOORPLANE SHAKING"
+      },
+      "1D988" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER SMALL"
+      },
+      "1D989" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER MEDIUM"
+      },
+      "1D98A" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER LARGE"
+      },
+      "1D98B" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER LARGEST"
+      },
+      "1D98C" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE SMALL"
+      },
+      "1D98D" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE MEDIUM"
+      },
+      "1D98E" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE LARGE"
+      },
+      "1D98F" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE LARGEST"
+      },
       "1D99" : {
          "name" : "LATIN SMALL LETTER U WITH RETROFLEX HOOK"
+      },
+      "1D990" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE THREE-QUARTER CIRCLE SMALL"
+      },
+      "1D991" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE THREE-QUARTER CIRCLE MEDIUM"
+      },
+      "1D992" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE HUMP SMALL"
+      },
+      "1D993" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE HUMP MEDIUM"
+      },
+      "1D994" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE HUMP LARGE"
+      },
+      "1D995" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE LOOP SMALL"
+      },
+      "1D996" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE LOOP MEDIUM"
+      },
+      "1D997" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE LOOP LARGE"
+      },
+      "1D998" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE LOOP SMALL DOUBLE"
+      },
+      "1D999" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE SMALL"
+      },
+      "1D99A" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE MEDIUM"
+      },
+      "1D99B" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE LARGE"
+      },
+      "1D99C" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE SMALL"
+      },
+      "1D99D" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE MEDIUM"
+      },
+      "1D99E" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE LARGE"
+      },
+      "1D99F" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE THEN STRAIGHT"
       },
       "1D9A" : {
          "name" : "LATIN SMALL LETTER EZH WITH RETROFLEX HOOK"
       },
+      "1D9A0" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVED CROSS SMALL"
+      },
+      "1D9A1" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVED CROSS MEDIUM"
+      },
+      "1D9A2" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE SINGLE"
+      },
+      "1D9A3" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE DOUBLE"
+      },
+      "1D9A4" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE ALTERNATE"
+      },
+      "1D9A5" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE SHAKING"
+      },
+      "1D9A6" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE HITTING FRONT WALL"
+      },
+      "1D9A7" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE HUMP HITTING FRONT WALL"
+      },
+      "1D9A8" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE LOOP HITTING FRONT WALL"
+      },
+      "1D9A9" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE HITTING FRONT WALL"
+      },
+      "1D9AA" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE SINGLE HITTING FRONT WALL"
+      },
+      "1D9AB" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE DOUBLE HITTING FRONT WALL"
+      },
+      "1D9AC" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE ALTERNATING HITTING FRONT WALL"
+      },
+      "1D9AD" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE CURVE HITTING CHEST"
+      },
+      "1D9AE" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE HUMP HITTING CHEST"
+      },
+      "1D9AF" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE LOOP HITTING CHEST"
+      },
       "1D9B" : {
          "name" : "MODIFIER LETTER SMALL TURNED ALPHA"
+      },
+      "1D9B0" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE HITTING CHEST"
+      },
+      "1D9B1" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE SINGLE HITTING CHEST"
+      },
+      "1D9B2" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE DOUBLE HITTING CHEST"
+      },
+      "1D9B3" : {
+         "name" : "SIGNWRITING ROTATION-WALLPLANE ALTERNATING HITTING CHEST"
+      },
+      "1D9B4" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH SMALL"
+      },
+      "1D9B5" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH MEDIUM"
+      },
+      "1D9B6" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH LARGE"
+      },
+      "1D9B7" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING CEILING SMALL"
+      },
+      "1D9B8" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING CEILING LARGE"
+      },
+      "1D9B9" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING SMALL DOUBLE"
+      },
+      "1D9BA" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING LARGE DOUBLE"
+      },
+      "1D9BB" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING SMALL TRIPLE"
+      },
+      "1D9BC" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING LARGE TRIPLE"
+      },
+      "1D9BD" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING SMALL SINGLE"
+      },
+      "1D9BE" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING LARGE SINGLE"
+      },
+      "1D9BF" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING SMALL DOUBLE"
       },
       "1D9C" : {
          "name" : "MODIFIER LETTER SMALL C"
       },
+      "1D9C0" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING LARGE DOUBLE"
+      },
+      "1D9C1" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING CEILING SMALL"
+      },
+      "1D9C2" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING CEILING LARGE"
+      },
+      "1D9C3" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE SINGLE HITTING CEILING"
+      },
+      "1D9C4" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE DOUBLE HITTING CEILING"
+      },
+      "1D9C5" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE ALTERNATING HITTING CEILING"
+      },
+      "1D9C6" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING FLOOR SMALL"
+      },
+      "1D9C7" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING FLOOR LARGE"
+      },
+      "1D9C8" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR SMALL DOUBLE"
+      },
+      "1D9C9" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR LARGE DOUBLE"
+      },
+      "1D9CA" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR TRIPLE SMALL TRIPLE"
+      },
+      "1D9CB" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR TRIPLE LARGE TRIPLE"
+      },
+      "1D9CC" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR SMALL SINGLE"
+      },
+      "1D9CD" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR LARGE SINGLE"
+      },
+      "1D9CE" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR SMALL DOUBLE"
+      },
+      "1D9CF" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR LARGE DOUBLE"
+      },
       "1D9D" : {
          "name" : "MODIFIER LETTER SMALL C WITH CURL"
+      },
+      "1D9D0" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING FLOOR SMALL"
+      },
+      "1D9D1" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING FLOOR LARGE"
+      },
+      "1D9D2" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE SINGLE HITTING FLOOR"
+      },
+      "1D9D3" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE DOUBLE HITTING FLOOR"
+      },
+      "1D9D4" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE ALTERNATING HITTING FLOOR"
+      },
+      "1D9D5" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE SMALL"
+      },
+      "1D9D6" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE MEDIUM"
+      },
+      "1D9D7" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE LARGE"
+      },
+      "1D9D8" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE LARGEST"
+      },
+      "1D9D9" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE CURVE COMBINED"
+      },
+      "1D9DA" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE HUMP SMALL"
+      },
+      "1D9DB" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE LOOP SMALL"
+      },
+      "1D9DC" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WAVE SNAKE"
+      },
+      "1D9DD" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WAVE SMALL"
+      },
+      "1D9DE" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WAVE LARGE"
+      },
+      "1D9DF" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE SINGLE"
       },
       "1D9E" : {
          "name" : "MODIFIER LETTER SMALL ETH"
       },
+      "1D9E0" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE DOUBLE"
+      },
+      "1D9E1" : {
+         "name" : "SIGNWRITING ROTATION-FLOORPLANE ALTERNATING"
+      },
+      "1D9E2" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE SHAKING PARALLEL"
+      },
+      "1D9E3" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE SMALL SINGLE"
+      },
+      "1D9E4" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE MEDIUM SINGLE"
+      },
+      "1D9E5" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE SMALL DOUBLE"
+      },
+      "1D9E6" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE MEDIUM DOUBLE"
+      },
+      "1D9E7" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL SMALL SINGLE"
+      },
+      "1D9E8" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL MEDIUM SINGLE"
+      },
+      "1D9E9" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL LARGE SINGLE"
+      },
+      "1D9EA" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL SMALL DOUBLE"
+      },
+      "1D9EB" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL MEDIUM DOUBLE"
+      },
+      "1D9EC" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL LARGE DOUBLE"
+      },
+      "1D9ED" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WRIST CIRCLE FRONT SINGLE"
+      },
+      "1D9EE" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE WRIST CIRCLE FRONT DOUBLE"
+      },
+      "1D9EF" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WRIST CIRCLE HITTING WALL SINGLE"
+      },
       "1D9F" : {
          "name" : "MODIFIER LETTER SMALL REVERSED OPEN E"
+      },
+      "1D9F0" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE WRIST CIRCLE HITTING WALL DOUBLE"
+      },
+      "1D9F1" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE FINGER CIRCLES SINGLE"
+      },
+      "1D9F2" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE FINGER CIRCLES DOUBLE"
+      },
+      "1D9F3" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE FINGER CIRCLES HITTING WALL SINGLE"
+      },
+      "1D9F4" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE FINGER CIRCLES HITTING WALL DOUBLE"
+      },
+      "1D9F5" : {
+         "name" : "SIGNWRITING DYNAMIC ARROWHEAD SMALL"
+      },
+      "1D9F6" : {
+         "name" : "SIGNWRITING DYNAMIC ARROWHEAD LARGE"
+      },
+      "1D9F7" : {
+         "name" : "SIGNWRITING DYNAMIC FAST"
+      },
+      "1D9F8" : {
+         "name" : "SIGNWRITING DYNAMIC SLOW"
+      },
+      "1D9F9" : {
+         "name" : "SIGNWRITING DYNAMIC TENSE"
+      },
+      "1D9FA" : {
+         "name" : "SIGNWRITING DYNAMIC RELAXED"
+      },
+      "1D9FB" : {
+         "name" : "SIGNWRITING DYNAMIC SIMULTANEOUS"
+      },
+      "1D9FC" : {
+         "name" : "SIGNWRITING DYNAMIC SIMULTANEOUS ALTERNATING"
+      },
+      "1D9FD" : {
+         "name" : "SIGNWRITING DYNAMIC EVERY OTHER TIME"
+      },
+      "1D9FE" : {
+         "name" : "SIGNWRITING DYNAMIC GRADUAL"
+      },
+      "1D9FF" : {
+         "name" : "SIGNWRITING HEAD"
       },
       "1DA0" : {
          "name" : "MODIFIER LETTER SMALL F"
       },
+      "1DA00" : {
+         "name" : "SIGNWRITING HEAD RIM"
+      },
+      "1DA01" : {
+         "name" : "SIGNWRITING HEAD MOVEMENT-WALLPLANE STRAIGHT"
+      },
+      "1DA02" : {
+         "name" : "SIGNWRITING HEAD MOVEMENT-WALLPLANE TILT"
+      },
+      "1DA03" : {
+         "name" : "SIGNWRITING HEAD MOVEMENT-FLOORPLANE STRAIGHT"
+      },
+      "1DA04" : {
+         "name" : "SIGNWRITING HEAD MOVEMENT-WALLPLANE CURVE"
+      },
+      "1DA05" : {
+         "name" : "SIGNWRITING HEAD MOVEMENT-FLOORPLANE CURVE"
+      },
+      "1DA06" : {
+         "name" : "SIGNWRITING HEAD MOVEMENT CIRCLE"
+      },
+      "1DA07" : {
+         "name" : "SIGNWRITING FACE DIRECTION POSITION NOSE FORWARD TILTING"
+      },
+      "1DA08" : {
+         "name" : "SIGNWRITING FACE DIRECTION POSITION NOSE UP OR DOWN"
+      },
+      "1DA09" : {
+         "name" : "SIGNWRITING FACE DIRECTION POSITION NOSE UP OR DOWN TILTING"
+      },
+      "1DA0A" : {
+         "name" : "SIGNWRITING EYEBROWS STRAIGHT UP"
+      },
+      "1DA0B" : {
+         "name" : "SIGNWRITING EYEBROWS STRAIGHT NEUTRAL"
+      },
+      "1DA0C" : {
+         "name" : "SIGNWRITING EYEBROWS STRAIGHT DOWN"
+      },
+      "1DA0D" : {
+         "name" : "SIGNWRITING DREAMY EYEBROWS NEUTRAL DOWN"
+      },
+      "1DA0E" : {
+         "name" : "SIGNWRITING DREAMY EYEBROWS DOWN NEUTRAL"
+      },
+      "1DA0F" : {
+         "name" : "SIGNWRITING DREAMY EYEBROWS UP NEUTRAL"
+      },
       "1DA1" : {
          "name" : "MODIFIER LETTER SMALL DOTLESS J WITH STROKE"
+      },
+      "1DA10" : {
+         "name" : "SIGNWRITING DREAMY EYEBROWS NEUTRAL UP"
+      },
+      "1DA11" : {
+         "name" : "SIGNWRITING FOREHEAD NEUTRAL"
+      },
+      "1DA12" : {
+         "name" : "SIGNWRITING FOREHEAD CONTACT"
+      },
+      "1DA13" : {
+         "name" : "SIGNWRITING FOREHEAD WRINKLED"
+      },
+      "1DA14" : {
+         "name" : "SIGNWRITING EYES OPEN"
+      },
+      "1DA15" : {
+         "name" : "SIGNWRITING EYES SQUEEZED"
+      },
+      "1DA16" : {
+         "name" : "SIGNWRITING EYES CLOSED"
+      },
+      "1DA17" : {
+         "name" : "SIGNWRITING EYE BLINK SINGLE"
+      },
+      "1DA18" : {
+         "name" : "SIGNWRITING EYE BLINK MULTIPLE"
+      },
+      "1DA19" : {
+         "name" : "SIGNWRITING EYES HALF OPEN"
+      },
+      "1DA1A" : {
+         "name" : "SIGNWRITING EYES WIDE OPEN"
+      },
+      "1DA1B" : {
+         "name" : "SIGNWRITING EYES HALF CLOSED"
+      },
+      "1DA1C" : {
+         "name" : "SIGNWRITING EYES WIDENING MOVEMENT"
+      },
+      "1DA1D" : {
+         "name" : "SIGNWRITING EYE WINK"
+      },
+      "1DA1E" : {
+         "name" : "SIGNWRITING EYELASHES UP"
+      },
+      "1DA1F" : {
+         "name" : "SIGNWRITING EYELASHES DOWN"
       },
       "1DA2" : {
          "name" : "MODIFIER LETTER SMALL SCRIPT G"
       },
+      "1DA20" : {
+         "name" : "SIGNWRITING EYELASHES FLUTTERING"
+      },
+      "1DA21" : {
+         "name" : "SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT"
+      },
+      "1DA22" : {
+         "name" : "SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT DOUBLE"
+      },
+      "1DA23" : {
+         "name" : "SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT ALTERNATING"
+      },
+      "1DA24" : {
+         "name" : "SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT"
+      },
+      "1DA25" : {
+         "name" : "SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT DOUBLE"
+      },
+      "1DA26" : {
+         "name" : "SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT ALTERNATING"
+      },
+      "1DA27" : {
+         "name" : "SIGNWRITING EYEGAZE-WALLPLANE CURVED"
+      },
+      "1DA28" : {
+         "name" : "SIGNWRITING EYEGAZE-FLOORPLANE CURVED"
+      },
+      "1DA29" : {
+         "name" : "SIGNWRITING EYEGAZE-WALLPLANE CIRCLING"
+      },
+      "1DA2A" : {
+         "name" : "SIGNWRITING CHEEKS PUFFED"
+      },
+      "1DA2B" : {
+         "name" : "SIGNWRITING CHEEKS NEUTRAL"
+      },
+      "1DA2C" : {
+         "name" : "SIGNWRITING CHEEKS SUCKED"
+      },
+      "1DA2D" : {
+         "name" : "SIGNWRITING TENSE CHEEKS HIGH"
+      },
+      "1DA2E" : {
+         "name" : "SIGNWRITING TENSE CHEEKS MIDDLE"
+      },
+      "1DA2F" : {
+         "name" : "SIGNWRITING TENSE CHEEKS LOW"
+      },
       "1DA3" : {
          "name" : "MODIFIER LETTER SMALL TURNED H"
+      },
+      "1DA30" : {
+         "name" : "SIGNWRITING EARS"
+      },
+      "1DA31" : {
+         "name" : "SIGNWRITING NOSE NEUTRAL"
+      },
+      "1DA32" : {
+         "name" : "SIGNWRITING NOSE CONTACT"
+      },
+      "1DA33" : {
+         "name" : "SIGNWRITING NOSE WRINKLES"
+      },
+      "1DA34" : {
+         "name" : "SIGNWRITING NOSE WIGGLES"
+      },
+      "1DA35" : {
+         "name" : "SIGNWRITING AIR BLOWING OUT"
+      },
+      "1DA36" : {
+         "name" : "SIGNWRITING AIR SUCKING IN"
+      },
+      "1DA37" : {
+         "name" : "SIGNWRITING AIR BLOW SMALL ROTATIONS"
+      },
+      "1DA38" : {
+         "name" : "SIGNWRITING AIR SUCK SMALL ROTATIONS"
+      },
+      "1DA39" : {
+         "name" : "SIGNWRITING BREATH INHALE"
+      },
+      "1DA3A" : {
+         "name" : "SIGNWRITING BREATH EXHALE"
+      },
+      "1DA3B" : {
+         "name" : "SIGNWRITING MOUTH CLOSED NEUTRAL"
+      },
+      "1DA3C" : {
+         "name" : "SIGNWRITING MOUTH CLOSED FORWARD"
+      },
+      "1DA3D" : {
+         "name" : "SIGNWRITING MOUTH CLOSED CONTACT"
+      },
+      "1DA3E" : {
+         "name" : "SIGNWRITING MOUTH SMILE"
+      },
+      "1DA3F" : {
+         "name" : "SIGNWRITING MOUTH SMILE WRINKLED"
       },
       "1DA4" : {
          "name" : "MODIFIER LETTER SMALL I WITH STROKE"
       },
+      "1DA40" : {
+         "name" : "SIGNWRITING MOUTH SMILE OPEN"
+      },
+      "1DA41" : {
+         "name" : "SIGNWRITING MOUTH FROWN"
+      },
+      "1DA42" : {
+         "name" : "SIGNWRITING MOUTH FROWN WRINKLED"
+      },
+      "1DA43" : {
+         "name" : "SIGNWRITING MOUTH FROWN OPEN"
+      },
+      "1DA44" : {
+         "name" : "SIGNWRITING MOUTH OPEN CIRCLE"
+      },
+      "1DA45" : {
+         "name" : "SIGNWRITING MOUTH OPEN FORWARD"
+      },
+      "1DA46" : {
+         "name" : "SIGNWRITING MOUTH OPEN WRINKLED"
+      },
+      "1DA47" : {
+         "name" : "SIGNWRITING MOUTH OPEN OVAL"
+      },
+      "1DA48" : {
+         "name" : "SIGNWRITING MOUTH OPEN OVAL WRINKLED"
+      },
+      "1DA49" : {
+         "name" : "SIGNWRITING MOUTH OPEN OVAL YAWN"
+      },
+      "1DA4A" : {
+         "name" : "SIGNWRITING MOUTH OPEN RECTANGLE"
+      },
+      "1DA4B" : {
+         "name" : "SIGNWRITING MOUTH OPEN RECTANGLE WRINKLED"
+      },
+      "1DA4C" : {
+         "name" : "SIGNWRITING MOUTH OPEN RECTANGLE YAWN"
+      },
+      "1DA4D" : {
+         "name" : "SIGNWRITING MOUTH KISS"
+      },
+      "1DA4E" : {
+         "name" : "SIGNWRITING MOUTH KISS FORWARD"
+      },
+      "1DA4F" : {
+         "name" : "SIGNWRITING MOUTH KISS WRINKLED"
+      },
       "1DA5" : {
          "name" : "MODIFIER LETTER SMALL IOTA"
+      },
+      "1DA50" : {
+         "name" : "SIGNWRITING MOUTH TENSE"
+      },
+      "1DA51" : {
+         "name" : "SIGNWRITING MOUTH TENSE FORWARD"
+      },
+      "1DA52" : {
+         "name" : "SIGNWRITING MOUTH TENSE SUCKED"
+      },
+      "1DA53" : {
+         "name" : "SIGNWRITING LIPS PRESSED TOGETHER"
+      },
+      "1DA54" : {
+         "name" : "SIGNWRITING LIP LOWER OVER UPPER"
+      },
+      "1DA55" : {
+         "name" : "SIGNWRITING LIP UPPER OVER LOWER"
+      },
+      "1DA56" : {
+         "name" : "SIGNWRITING MOUTH CORNERS"
+      },
+      "1DA57" : {
+         "name" : "SIGNWRITING MOUTH WRINKLES SINGLE"
+      },
+      "1DA58" : {
+         "name" : "SIGNWRITING MOUTH WRINKLES DOUBLE"
+      },
+      "1DA59" : {
+         "name" : "SIGNWRITING TONGUE STICKING OUT FAR"
+      },
+      "1DA5A" : {
+         "name" : "SIGNWRITING TONGUE LICKING LIPS"
+      },
+      "1DA5B" : {
+         "name" : "SIGNWRITING TONGUE TIP BETWEEN LIPS"
+      },
+      "1DA5C" : {
+         "name" : "SIGNWRITING TONGUE TIP TOUCHING INSIDE MOUTH"
+      },
+      "1DA5D" : {
+         "name" : "SIGNWRITING TONGUE INSIDE MOUTH RELAXED"
+      },
+      "1DA5E" : {
+         "name" : "SIGNWRITING TONGUE MOVES AGAINST CHEEK"
+      },
+      "1DA5F" : {
+         "name" : "SIGNWRITING TONGUE CENTRE STICKING OUT"
       },
       "1DA6" : {
          "name" : "MODIFIER LETTER SMALL CAPITAL I"
       },
+      "1DA60" : {
+         "name" : "SIGNWRITING TONGUE CENTRE INSIDE MOUTH"
+      },
+      "1DA61" : {
+         "name" : "SIGNWRITING TEETH"
+      },
+      "1DA62" : {
+         "name" : "SIGNWRITING TEETH MOVEMENT"
+      },
+      "1DA63" : {
+         "name" : "SIGNWRITING TEETH ON TONGUE"
+      },
+      "1DA64" : {
+         "name" : "SIGNWRITING TEETH ON TONGUE MOVEMENT"
+      },
+      "1DA65" : {
+         "name" : "SIGNWRITING TEETH ON LIPS"
+      },
+      "1DA66" : {
+         "name" : "SIGNWRITING TEETH ON LIPS MOVEMENT"
+      },
+      "1DA67" : {
+         "name" : "SIGNWRITING TEETH BITE LIPS"
+      },
+      "1DA68" : {
+         "name" : "SIGNWRITING MOVEMENT-WALLPLANE JAW"
+      },
+      "1DA69" : {
+         "name" : "SIGNWRITING MOVEMENT-FLOORPLANE JAW"
+      },
+      "1DA6A" : {
+         "name" : "SIGNWRITING NECK"
+      },
+      "1DA6B" : {
+         "name" : "SIGNWRITING HAIR"
+      },
+      "1DA6C" : {
+         "name" : "SIGNWRITING EXCITEMENT"
+      },
+      "1DA6D" : {
+         "name" : "SIGNWRITING SHOULDER HIP SPINE"
+      },
+      "1DA6E" : {
+         "name" : "SIGNWRITING SHOULDER HIP POSITIONS"
+      },
+      "1DA6F" : {
+         "name" : "SIGNWRITING WALLPLANE SHOULDER HIP MOVE"
+      },
       "1DA7" : {
          "name" : "MODIFIER LETTER SMALL CAPITAL I WITH STROKE"
+      },
+      "1DA70" : {
+         "name" : "SIGNWRITING FLOORPLANE SHOULDER HIP MOVE"
+      },
+      "1DA71" : {
+         "name" : "SIGNWRITING SHOULDER TILTING FROM WAIST"
+      },
+      "1DA72" : {
+         "name" : "SIGNWRITING TORSO-WALLPLANE STRAIGHT STRETCH"
+      },
+      "1DA73" : {
+         "name" : "SIGNWRITING TORSO-WALLPLANE CURVED BEND"
+      },
+      "1DA74" : {
+         "name" : "SIGNWRITING TORSO-FLOORPLANE TWISTING"
+      },
+      "1DA75" : {
+         "name" : "SIGNWRITING UPPER BODY TILTING FROM HIP JOINTS"
+      },
+      "1DA76" : {
+         "name" : "SIGNWRITING LIMB COMBINATION"
+      },
+      "1DA77" : {
+         "name" : "SIGNWRITING LIMB LENGTH-1"
+      },
+      "1DA78" : {
+         "name" : "SIGNWRITING LIMB LENGTH-2"
+      },
+      "1DA79" : {
+         "name" : "SIGNWRITING LIMB LENGTH-3"
+      },
+      "1DA7A" : {
+         "name" : "SIGNWRITING LIMB LENGTH-4"
+      },
+      "1DA7B" : {
+         "name" : "SIGNWRITING LIMB LENGTH-5"
+      },
+      "1DA7C" : {
+         "name" : "SIGNWRITING LIMB LENGTH-6"
+      },
+      "1DA7D" : {
+         "name" : "SIGNWRITING LIMB LENGTH-7"
+      },
+      "1DA7E" : {
+         "name" : "SIGNWRITING FINGER"
+      },
+      "1DA7F" : {
+         "name" : "SIGNWRITING LOCATION-WALLPLANE SPACE"
       },
       "1DA8" : {
          "name" : "MODIFIER LETTER SMALL J WITH CROSSED-TAIL"
       },
+      "1DA80" : {
+         "name" : "SIGNWRITING LOCATION-FLOORPLANE SPACE"
+      },
+      "1DA81" : {
+         "name" : "SIGNWRITING LOCATION HEIGHT"
+      },
+      "1DA82" : {
+         "name" : "SIGNWRITING LOCATION WIDTH"
+      },
+      "1DA83" : {
+         "name" : "SIGNWRITING LOCATION DEPTH"
+      },
+      "1DA84" : {
+         "name" : "SIGNWRITING LOCATION HEAD NECK"
+      },
+      "1DA85" : {
+         "name" : "SIGNWRITING LOCATION TORSO"
+      },
+      "1DA86" : {
+         "name" : "SIGNWRITING LOCATION LIMBS DIGITS"
+      },
+      "1DA87" : {
+         "name" : "SIGNWRITING COMMA"
+      },
+      "1DA88" : {
+         "name" : "SIGNWRITING FULL STOP"
+      },
+      "1DA89" : {
+         "name" : "SIGNWRITING SEMICOLON"
+      },
+      "1DA8A" : {
+         "name" : "SIGNWRITING COLON"
+      },
+      "1DA8B" : {
+         "name" : "SIGNWRITING PARENTHESIS"
+      },
       "1DA9" : {
          "name" : "MODIFIER LETTER SMALL L WITH RETROFLEX HOOK"
       },
+      "1DA9B" : {
+         "name" : "SIGNWRITING FILL MODIFIER-2"
+      },
+      "1DA9C" : {
+         "name" : "SIGNWRITING FILL MODIFIER-3"
+      },
+      "1DA9D" : {
+         "name" : "SIGNWRITING FILL MODIFIER-4"
+      },
+      "1DA9E" : {
+         "name" : "SIGNWRITING FILL MODIFIER-5"
+      },
+      "1DA9F" : {
+         "name" : "SIGNWRITING FILL MODIFIER-6"
+      },
       "1DAA" : {
          "name" : "MODIFIER LETTER SMALL L WITH PALATAL HOOK"
+      },
+      "1DAA1" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-2"
+      },
+      "1DAA2" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-3"
+      },
+      "1DAA3" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-4"
+      },
+      "1DAA4" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-5"
+      },
+      "1DAA5" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-6"
+      },
+      "1DAA6" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-7"
+      },
+      "1DAA7" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-8"
+      },
+      "1DAA8" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-9"
+      },
+      "1DAA9" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-10"
+      },
+      "1DAAA" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-11"
+      },
+      "1DAAB" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-12"
+      },
+      "1DAAC" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-13"
+      },
+      "1DAAD" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-14"
+      },
+      "1DAAE" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-15"
+      },
+      "1DAAF" : {
+         "name" : "SIGNWRITING ROTATION MODIFIER-16"
       },
       "1DAB" : {
          "name" : "MODIFIER LETTER SMALL CAPITAL L"
@@ -49299,6 +54699,15 @@
       "1F32C" : {
          "name" : "WIND BLOWING FACE"
       },
+      "1F32D" : {
+         "name" : "HOT DOG"
+      },
+      "1F32E" : {
+         "name" : "TACO"
+      },
+      "1F32F" : {
+         "name" : "BURRITO"
+      },
       "1F33" : {
          "name" : "GREEK SMALL LETTER IOTA WITH DASIA AND VARIA"
       },
@@ -49547,6 +54956,12 @@
       },
       "1F37D" : {
          "name" : "FORK AND KNIFE WITH PLATE"
+      },
+      "1F37E" : {
+         "name" : "BOTTLE WITH POPPING CORK"
+      },
+      "1F37F" : {
+         "name" : "POPCORN"
       },
       "1F38" : {
          "name" : "GREEK CAPITAL LETTER IOTA WITH PSILI"
@@ -49800,8 +55215,23 @@
       "1F3CE" : {
          "name" : "RACING CAR"
       },
+      "1F3CF" : {
+         "name" : "CRICKET BAT AND BALL"
+      },
       "1F3D" : {
          "name" : "GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA"
+      },
+      "1F3D0" : {
+         "name" : "VOLLEYBALL"
+      },
+      "1F3D1" : {
+         "name" : "FIELD HOCKEY STICK AND BALL"
+      },
+      "1F3D2" : {
+         "name" : "ICE HOCKEY STICK AND PUCK"
+      },
+      "1F3D3" : {
+         "name" : "TABLE TENNIS PADDLE AND BALL"
       },
       "1F3D4" : {
          "name" : "SNOW CAPPED MOUNTAIN"
@@ -49916,6 +55346,30 @@
       },
       "1F3F7" : {
          "name" : "LABEL"
+      },
+      "1F3F8" : {
+         "name" : "BADMINTON RACQUET AND SHUTTLECOCK"
+      },
+      "1F3F9" : {
+         "name" : "BOW AND ARROW"
+      },
+      "1F3FA" : {
+         "name" : "AMPHORA"
+      },
+      "1F3FB" : {
+         "name" : "EMOJI MODIFIER FITZPATRICK TYPE-1-2"
+      },
+      "1F3FC" : {
+         "name" : "EMOJI MODIFIER FITZPATRICK TYPE-3"
+      },
+      "1F3FD" : {
+         "name" : "EMOJI MODIFIER FITZPATRICK TYPE-4"
+      },
+      "1F3FE" : {
+         "name" : "EMOJI MODIFIER FITZPATRICK TYPE-5"
+      },
+      "1F3FF" : {
+         "name" : "EMOJI MODIFIER FITZPATRICK TYPE-6"
       },
       "1F40" : {
          "name" : "GREEK SMALL LETTER OMICRON WITH PSILI"
@@ -50718,6 +56172,9 @@
       "1F4FE" : {
          "name" : "PORTABLE STEREO"
       },
+      "1F4FF" : {
+         "name" : "PRAYER BEADS"
+      },
       "1F50" : {
          "name" : "GREEK SMALL LETTER UPSILON WITH PSILI"
       },
@@ -50957,6 +56414,21 @@
       },
       "1F54A" : {
          "name" : "DOVE OF PEACE"
+      },
+      "1F54B" : {
+         "name" : "KAABA"
+      },
+      "1F54C" : {
+         "name" : "MOSQUE"
+      },
+      "1F54D" : {
+         "name" : "SYNAGOGUE"
+      },
+      "1F54E" : {
+         "name" : "MENORAH WITH NINE BRANCHES"
+      },
+      "1F54F" : {
+         "name" : "BOWL OF HYGIEIA"
       },
       "1F55" : {
          "name" : "GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA"
@@ -51717,6 +57189,12 @@
       "1F642" : {
          "name" : "SLIGHTLY SMILING FACE"
       },
+      "1F643" : {
+         "name" : "UPSIDE-DOWN FACE"
+      },
+      "1F644" : {
+         "name" : "FACE WITH ROLLING EYES"
+      },
       "1F645" : {
          "name" : "FACE WITH NO GOOD GESTURE"
       },
@@ -52160,6 +57638,9 @@
       },
       "1F6D" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA"
+      },
+      "1F6D0" : {
+         "name" : "PLACE OF WORSHIP"
       },
       "1F6E" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI"
@@ -53365,6 +58846,33 @@
       "1F91" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI"
       },
+      "1F910" : {
+         "name" : "ZIPPER-MOUTH FACE"
+      },
+      "1F911" : {
+         "name" : "MONEY-MOUTH FACE"
+      },
+      "1F912" : {
+         "name" : "FACE WITH THERMOMETER"
+      },
+      "1F913" : {
+         "name" : "NERD FACE"
+      },
+      "1F914" : {
+         "name" : "THINKING FACE"
+      },
+      "1F915" : {
+         "name" : "FACE WITH HEAD-BANDAGE"
+      },
+      "1F916" : {
+         "name" : "ROBOT FACE"
+      },
+      "1F917" : {
+         "name" : "HUGGING FACE"
+      },
+      "1F918" : {
+         "name" : "SIGN OF THE HORNS"
+      },
       "1F92" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI"
       },
@@ -53386,6 +58894,21 @@
       "1F98" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI"
       },
+      "1F980" : {
+         "name" : "CRAB"
+      },
+      "1F981" : {
+         "name" : "LION FACE"
+      },
+      "1F982" : {
+         "name" : "SCORPION"
+      },
+      "1F983" : {
+         "name" : "TURKEY"
+      },
+      "1F984" : {
+         "name" : "UNICORN FACE"
+      },
       "1F99" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI"
       },
@@ -53397,6 +58920,9 @@
       },
       "1F9C" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
+      },
+      "1F9C0" : {
+         "name" : "CHEESE WEDGE"
       },
       "1F9D" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
@@ -54300,6 +59826,9 @@
       "20BD" : {
          "name" : "RUBLE SIGN"
       },
+      "20BE" : {
+         "name" : "LARI SIGN"
+      },
       "20D0" : {
          "name" : "COMBINING LEFT HARPOON ABOVE"
       },
@@ -54850,6 +60379,12 @@
       },
       "2189" : {
          "name" : "VULGAR FRACTION ZERO THIRDS"
+      },
+      "218A" : {
+         "name" : "TURNED DIGIT TWO"
+      },
+      "218B" : {
+         "name" : "TURNED DIGIT THREE"
       },
       "2190" : {
          "ja_name" : "左向矢印",
@@ -62571,12 +68106,18 @@
          "name" : "SOUTH WEST TRIANGLE-HEADED ARROW TO BAR"
       },
       "2B7A" : {
+         "correction" : {
+            "LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE" : 1
+         },
          "name" : "LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE"
       },
       "2B7B" : {
          "name" : "UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE"
       },
       "2B7C" : {
+         "correction" : {
+            "RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE" : 1
+         },
          "name" : "RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE"
       },
       "2B7D" : {
@@ -62815,6 +68356,18 @@
       },
       "2BD1" : {
          "name" : "UNCERTAINTY SIGN"
+      },
+      "2BEC" : {
+         "name" : "LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS"
+      },
+      "2BED" : {
+         "name" : "UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS"
+      },
+      "2BEE" : {
+         "name" : "RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS"
+      },
+      "2BEF" : {
+         "name" : "DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS"
       },
       "2C00" : {
          "name" : "GLAGOLITIC CAPITAL LETTER AZU"
@@ -75585,6 +81138,9 @@
       "A69D" : {
          "name" : "MODIFIER LETTER CYRILLIC SOFT SIGN"
       },
+      "A69E" : {
+         "name" : "COMBINING CYRILLIC LETTER EF"
+      },
       "A69F" : {
          "name" : "COMBINING CYRILLIC LETTER IOTIFIED E"
       },
@@ -76281,6 +81837,9 @@
       "A78E" : {
          "name" : "LATIN SMALL LETTER L WITH RETROFLEX HOOK AND BELT"
       },
+      "A78F" : {
+         "name" : "LATIN LETTER SINOLOGICAL DOT"
+      },
       "A790" : {
          "name" : "LATIN CAPITAL LETTER N WITH DESCENDER"
       },
@@ -76376,6 +81935,24 @@
       },
       "A7B1" : {
          "name" : "LATIN CAPITAL LETTER TURNED T"
+      },
+      "A7B2" : {
+         "name" : "LATIN CAPITAL LETTER J WITH CROSSED-TAIL"
+      },
+      "A7B3" : {
+         "name" : "LATIN CAPITAL LETTER CHI"
+      },
+      "A7B4" : {
+         "name" : "LATIN CAPITAL LETTER BETA"
+      },
+      "A7B5" : {
+         "name" : "LATIN SMALL LETTER BETA"
+      },
+      "A7B6" : {
+         "name" : "LATIN CAPITAL LETTER OMEGA"
+      },
+      "A7B7" : {
+         "name" : "LATIN SMALL LETTER OMEGA"
       },
       "A7F7" : {
          "name" : "LATIN EPIGRAPHIC LETTER SIDEWAYS I"
@@ -77060,6 +82637,12 @@
       },
       "A8FB" : {
          "name" : "DEVANAGARI HEADSTROKE"
+      },
+      "A8FC" : {
+         "name" : "DEVANAGARI SIGN SIDDHAM"
+      },
+      "A8FD" : {
+         "name" : "DEVANAGARI JAIN OM"
       },
       "A900" : {
          "name" : "KAYAH LI DIGIT ZERO"
@@ -78639,11 +84222,263 @@
       "AB5F" : {
          "name" : "MODIFIER LETTER SMALL U WITH LEFT HOOK"
       },
+      "AB60" : {
+         "name" : "LATIN SMALL LETTER SAKHA YAT"
+      },
+      "AB61" : {
+         "name" : "LATIN SMALL LETTER IOTIFIED E"
+      },
+      "AB62" : {
+         "name" : "LATIN SMALL LETTER OPEN OE"
+      },
+      "AB63" : {
+         "name" : "LATIN SMALL LETTER UO"
+      },
       "AB64" : {
          "name" : "LATIN SMALL LETTER INVERTED ALPHA"
       },
       "AB65" : {
          "name" : "GREEK LETTER SMALL CAPITAL OMEGA"
+      },
+      "AB70" : {
+         "name" : "CHEROKEE SMALL LETTER A"
+      },
+      "AB71" : {
+         "name" : "CHEROKEE SMALL LETTER E"
+      },
+      "AB72" : {
+         "name" : "CHEROKEE SMALL LETTER I"
+      },
+      "AB73" : {
+         "name" : "CHEROKEE SMALL LETTER O"
+      },
+      "AB74" : {
+         "name" : "CHEROKEE SMALL LETTER U"
+      },
+      "AB75" : {
+         "name" : "CHEROKEE SMALL LETTER V"
+      },
+      "AB76" : {
+         "name" : "CHEROKEE SMALL LETTER GA"
+      },
+      "AB77" : {
+         "name" : "CHEROKEE SMALL LETTER KA"
+      },
+      "AB78" : {
+         "name" : "CHEROKEE SMALL LETTER GE"
+      },
+      "AB79" : {
+         "name" : "CHEROKEE SMALL LETTER GI"
+      },
+      "AB7A" : {
+         "name" : "CHEROKEE SMALL LETTER GO"
+      },
+      "AB7B" : {
+         "name" : "CHEROKEE SMALL LETTER GU"
+      },
+      "AB7C" : {
+         "name" : "CHEROKEE SMALL LETTER GV"
+      },
+      "AB7D" : {
+         "name" : "CHEROKEE SMALL LETTER HA"
+      },
+      "AB7E" : {
+         "name" : "CHEROKEE SMALL LETTER HE"
+      },
+      "AB7F" : {
+         "name" : "CHEROKEE SMALL LETTER HI"
+      },
+      "AB80" : {
+         "name" : "CHEROKEE SMALL LETTER HO"
+      },
+      "AB81" : {
+         "name" : "CHEROKEE SMALL LETTER HU"
+      },
+      "AB82" : {
+         "name" : "CHEROKEE SMALL LETTER HV"
+      },
+      "AB83" : {
+         "name" : "CHEROKEE SMALL LETTER LA"
+      },
+      "AB84" : {
+         "name" : "CHEROKEE SMALL LETTER LE"
+      },
+      "AB85" : {
+         "name" : "CHEROKEE SMALL LETTER LI"
+      },
+      "AB86" : {
+         "name" : "CHEROKEE SMALL LETTER LO"
+      },
+      "AB87" : {
+         "name" : "CHEROKEE SMALL LETTER LU"
+      },
+      "AB88" : {
+         "name" : "CHEROKEE SMALL LETTER LV"
+      },
+      "AB89" : {
+         "name" : "CHEROKEE SMALL LETTER MA"
+      },
+      "AB8A" : {
+         "name" : "CHEROKEE SMALL LETTER ME"
+      },
+      "AB8B" : {
+         "name" : "CHEROKEE SMALL LETTER MI"
+      },
+      "AB8C" : {
+         "name" : "CHEROKEE SMALL LETTER MO"
+      },
+      "AB8D" : {
+         "name" : "CHEROKEE SMALL LETTER MU"
+      },
+      "AB8E" : {
+         "name" : "CHEROKEE SMALL LETTER NA"
+      },
+      "AB8F" : {
+         "name" : "CHEROKEE SMALL LETTER HNA"
+      },
+      "AB90" : {
+         "name" : "CHEROKEE SMALL LETTER NAH"
+      },
+      "AB91" : {
+         "name" : "CHEROKEE SMALL LETTER NE"
+      },
+      "AB92" : {
+         "name" : "CHEROKEE SMALL LETTER NI"
+      },
+      "AB93" : {
+         "name" : "CHEROKEE SMALL LETTER NO"
+      },
+      "AB94" : {
+         "name" : "CHEROKEE SMALL LETTER NU"
+      },
+      "AB95" : {
+         "name" : "CHEROKEE SMALL LETTER NV"
+      },
+      "AB96" : {
+         "name" : "CHEROKEE SMALL LETTER QUA"
+      },
+      "AB97" : {
+         "name" : "CHEROKEE SMALL LETTER QUE"
+      },
+      "AB98" : {
+         "name" : "CHEROKEE SMALL LETTER QUI"
+      },
+      "AB99" : {
+         "name" : "CHEROKEE SMALL LETTER QUO"
+      },
+      "AB9A" : {
+         "name" : "CHEROKEE SMALL LETTER QUU"
+      },
+      "AB9B" : {
+         "name" : "CHEROKEE SMALL LETTER QUV"
+      },
+      "AB9C" : {
+         "name" : "CHEROKEE SMALL LETTER SA"
+      },
+      "AB9D" : {
+         "name" : "CHEROKEE SMALL LETTER S"
+      },
+      "AB9E" : {
+         "name" : "CHEROKEE SMALL LETTER SE"
+      },
+      "AB9F" : {
+         "name" : "CHEROKEE SMALL LETTER SI"
+      },
+      "ABA0" : {
+         "name" : "CHEROKEE SMALL LETTER SO"
+      },
+      "ABA1" : {
+         "name" : "CHEROKEE SMALL LETTER SU"
+      },
+      "ABA2" : {
+         "name" : "CHEROKEE SMALL LETTER SV"
+      },
+      "ABA3" : {
+         "name" : "CHEROKEE SMALL LETTER DA"
+      },
+      "ABA4" : {
+         "name" : "CHEROKEE SMALL LETTER TA"
+      },
+      "ABA5" : {
+         "name" : "CHEROKEE SMALL LETTER DE"
+      },
+      "ABA6" : {
+         "name" : "CHEROKEE SMALL LETTER TE"
+      },
+      "ABA7" : {
+         "name" : "CHEROKEE SMALL LETTER DI"
+      },
+      "ABA8" : {
+         "name" : "CHEROKEE SMALL LETTER TI"
+      },
+      "ABA9" : {
+         "name" : "CHEROKEE SMALL LETTER DO"
+      },
+      "ABAA" : {
+         "name" : "CHEROKEE SMALL LETTER DU"
+      },
+      "ABAB" : {
+         "name" : "CHEROKEE SMALL LETTER DV"
+      },
+      "ABAC" : {
+         "name" : "CHEROKEE SMALL LETTER DLA"
+      },
+      "ABAD" : {
+         "name" : "CHEROKEE SMALL LETTER TLA"
+      },
+      "ABAE" : {
+         "name" : "CHEROKEE SMALL LETTER TLE"
+      },
+      "ABAF" : {
+         "name" : "CHEROKEE SMALL LETTER TLI"
+      },
+      "ABB0" : {
+         "name" : "CHEROKEE SMALL LETTER TLO"
+      },
+      "ABB1" : {
+         "name" : "CHEROKEE SMALL LETTER TLU"
+      },
+      "ABB2" : {
+         "name" : "CHEROKEE SMALL LETTER TLV"
+      },
+      "ABB3" : {
+         "name" : "CHEROKEE SMALL LETTER TSA"
+      },
+      "ABB4" : {
+         "name" : "CHEROKEE SMALL LETTER TSE"
+      },
+      "ABB5" : {
+         "name" : "CHEROKEE SMALL LETTER TSI"
+      },
+      "ABB6" : {
+         "name" : "CHEROKEE SMALL LETTER TSO"
+      },
+      "ABB7" : {
+         "name" : "CHEROKEE SMALL LETTER TSU"
+      },
+      "ABB8" : {
+         "name" : "CHEROKEE SMALL LETTER TSV"
+      },
+      "ABB9" : {
+         "name" : "CHEROKEE SMALL LETTER WA"
+      },
+      "ABBA" : {
+         "name" : "CHEROKEE SMALL LETTER WE"
+      },
+      "ABBB" : {
+         "name" : "CHEROKEE SMALL LETTER WI"
+      },
+      "ABBC" : {
+         "name" : "CHEROKEE SMALL LETTER WO"
+      },
+      "ABBD" : {
+         "name" : "CHEROKEE SMALL LETTER WU"
+      },
+      "ABBE" : {
+         "name" : "CHEROKEE SMALL LETTER WV"
+      },
+      "ABBF" : {
+         "name" : "CHEROKEE SMALL LETTER YA"
       },
       "ABC0" : {
          "name" : "MEETEI MAYEK LETTER KOK"
@@ -117995,6 +123830,12 @@
       },
       "FE2D" : {
          "name" : "COMBINING CONJOINING MACRON BELOW"
+      },
+      "FE2E" : {
+         "name" : "COMBINING CYRILLIC TITLO LEFT HALF"
+      },
+      "FE2F" : {
+         "name" : "COMBINING CYRILLIC TITLO RIGHT HALF"
       },
       "FE30" : {
          "name" : "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER"

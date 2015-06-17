@@ -1,7 +1,9 @@
 [\u0000-\u{10FFFF}]
 - $unicode:Block:Aegean_Numbers
+- $unicode:Block:Ahom
 - $unicode:Block:Alchemical_Symbols
 - $unicode:Block:Alphabetic_Presentation_Forms
+- $unicode:Block:Anatolian_Hieroglyphs
 - $unicode:Block:Ancient_Greek_Musical_Notation
 - $unicode:Block:Ancient_Greek_Numbers
 - $unicode:Block:Ancient_Symbols
@@ -42,11 +44,13 @@
 - $unicode:Block:CJK_Unified_Ideographs_Extension_B
 - $unicode:Block:CJK_Unified_Ideographs_Extension_C
 - $unicode:Block:CJK_Unified_Ideographs_Extension_D
+- $unicode:Block:CJK_Unified_Ideographs_Extension_E
 - $unicode:Block:Carian
 - $unicode:Block:Caucasian_Albanian
 - $unicode:Block:Chakma
 - $unicode:Block:Cham
 - $unicode:Block:Cherokee
+- $unicode:Block:Cherokee_Supplement
 - $unicode:Block:Combining_Diacritical_Marks
 - $unicode:Block:Combining_Diacritical_Marks_Extended
 - $unicode:Block:Combining_Diacritical_Marks_Supplement
@@ -71,6 +75,7 @@
 - $unicode:Block:Dingbats
 - $unicode:Block:Domino_Tiles
 - $unicode:Block:Duployan
+- $unicode:Block:Early_Dynastic_Cuneiform
 - $unicode:Block:Egyptian_Hieroglyphs
 - $unicode:Block:Elbasan
 - $unicode:Block:Emoticons
@@ -101,6 +106,7 @@
 - $unicode:Block:Hangul_Jamo_Extended-B
 - $unicode:Block:Hangul_Syllables
 - $unicode:Block:Hanunoo
+- $unicode:Block:Hatran
 - $unicode:Block:Hebrew
 - $unicode:Block:High_Private_Use_Surrogates
 - $unicode:Block:High_Surrogates
@@ -165,6 +171,7 @@
 - $unicode:Block:Modifier_Tone_Letters
 - $unicode:Block:Mongolian
 - $unicode:Block:Mro
+- $unicode:Block:Multani
 - $unicode:Block:Musical_Symbols
 - $unicode:Block:Myanmar
 - $unicode:Block:Myanmar_Extended-A
@@ -175,6 +182,7 @@
 - $unicode:Block:Number_Forms
 - $unicode:Block:Ogham
 - $unicode:Block:Ol_Chiki
+- $unicode:Block:Old_Hungarian
 - $unicode:Block:Old_Italic
 - $unicode:Block:Old_North_Arabian
 - $unicode:Block:Old_Permic
@@ -219,8 +227,10 @@
 - $unicode:Block:Supplemental_Arrows-C
 - $unicode:Block:Supplemental_Mathematical_Operators
 - $unicode:Block:Supplemental_Punctuation
+- $unicode:Block:Supplemental_Symbols_and_Pictographs
 - $unicode:Block:Supplementary_Private_Use_Area-A
 - $unicode:Block:Supplementary_Private_Use_Area-B
+- $unicode:Block:Sutton_SignWriting
 - $unicode:Block:Syloti_Nagri
 - $unicode:Block:Syriac
 - $unicode:Block:Tagalog
