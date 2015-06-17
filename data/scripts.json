@@ -30,7 +30,10 @@
             "Tai Ahom"
          ],
          "ianareg" : "2013-12-02",
-         "iso" : "Ahom"
+         "iso" : "Ahom",
+         "unicode" : "Ahom",
+         "unicode_id" : "excluded",
+         "xforms" : "Ahom"
       },
       "Arab" : {
          "collation_reorder" : "Arab",
@@ -535,7 +538,10 @@
             "Hatran"
          ],
          "ianareg" : "2013-12-02",
-         "iso" : "Hatr"
+         "iso" : "Hatr",
+         "unicode" : "Hatran",
+         "unicode_id" : "excluded",
+         "xforms" : "Hatran"
       },
       "Hebr" : {
          "collation_reorder" : "Hebr",
@@ -568,7 +574,10 @@
             "Hittite Hieroglyphs"
          ],
          "ianareg" : "2011-12-28",
-         "iso" : "Hluw"
+         "iso" : "Hluw",
+         "unicode" : "Anatolian_Hieroglyphs",
+         "unicode_id" : "excluded",
+         "xforms" : "AnatolianHieroglyphs"
       },
       "Hmng" : {
          "desc" : [
@@ -595,7 +604,10 @@
             "Hungarian Runic"
          ],
          "ianareg" : "2005-10-16",
-         "iso" : "Hung"
+         "iso" : "Hung",
+         "unicode" : "Old_Hungarian",
+         "unicode_id" : "excluded",
+         "xforms" : "OldHungarian"
       },
       "Inds" : {
          "desc" : [
@@ -1036,7 +1048,10 @@
             "Multani"
          ],
          "ianareg" : "2013-12-02",
-         "iso" : "Mult"
+         "iso" : "Mult",
+         "unicode" : "Multani",
+         "unicode_id" : "excluded",
+         "xforms" : "Multani"
       },
       "Mymr" : {
          "collation_reorder" : "Mymr",
@@ -1597,7 +1612,10 @@
             "SignWriting"
          ],
          "ianareg" : "2006-10-17",
-         "iso" : "Sgnw"
+         "iso" : "Sgnw",
+         "unicode" : "SignWriting",
+         "unicode_id" : "excluded",
+         "xforms" : "SignWriting"
       },
       "Shaw" : {
          "desc" : [
