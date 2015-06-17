@@ -1,1 +1,3 @@
+#label:ASCII alphanumeric
+#url:https://url.spec.whatwg.org/#ascii-alphanumeric
 $url:ASCII-digits | $url:ASCII-alpha

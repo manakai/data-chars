@@ -1,0 +1,4 @@
+#label:Characters in ASCII string
+#url:https://url.spec.whatwg.org/#ascii-string
+#sw:ASCII文字列
+[\u0000-\u007F]

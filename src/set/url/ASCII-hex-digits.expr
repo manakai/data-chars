@@ -1,1 +1,3 @@
+#label:ASCII hex digits
+#url:https://url.spec.whatwg.org/#ascii-hex-digits
 $url:ASCII-digits | [A-Fa-f]
