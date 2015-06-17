@@ -7023,23 +7023,45 @@
       },
       "$url:ASCII-alpha" : {
          "chars" : "[A-Za-z]",
-         "label" : "ASCII-alpha",
-         "suikawiki_name" : "ASCII-alpha"
+         "label" : "ASCII alpha",
+         "suikawiki_name" : "ASCII alpha",
+         "url" : "https://url.spec.whatwg.org/#ascii-alpha"
       },
       "$url:ASCII-alphanumeric" : {
          "chars" : "[0-9A-Za-z]",
-         "label" : "ASCII-alphanumeric",
-         "suikawiki_name" : "ASCII-alphanumeric"
+         "label" : "ASCII alphanumeric",
+         "suikawiki_name" : "ASCII alphanumeric",
+         "url" : "https://url.spec.whatwg.org/#ascii-alphanumeric"
       },
       "$url:ASCII-digits" : {
          "chars" : "[0-9]",
-         "label" : "ASCII-digits",
-         "suikawiki_name" : "ASCII-digits"
+         "label" : "ASCII digits",
+         "suikawiki_name" : "ASCII digits",
+         "url" : "https://url.spec.whatwg.org/#ascii-digits"
       },
       "$url:ASCII-hex-digits" : {
          "chars" : "[0-9A-Fa-f]",
-         "label" : "ASCII-hex-digits",
-         "suikawiki_name" : "ASCII-hex-digits"
+         "label" : "ASCII hex digits",
+         "suikawiki_name" : "ASCII hex digits",
+         "url" : "https://url.spec.whatwg.org/#ascii-hex-digits"
+      },
+      "$url:ASCII-string-char" : {
+         "chars" : "[\\u0000-\\u007F]",
+         "label" : "Characters in ASCII string",
+         "suikawiki_name" : "ASCII文字",
+         "url" : "https://url.spec.whatwg.org/#ascii-string"
+      },
+      "$url:C0-controls" : {
+         "chars" : "[\\u0000-\\u001F]",
+         "label" : "C0 controls",
+         "suikawiki_name" : "C0 controls",
+         "url" : "https://url.spec.whatwg.org/#c0-controls"
+      },
+      "$url:C0-controls-and-space" : {
+         "chars" : "[\\u0000-\\u0020]",
+         "label" : "C0 controls and space",
+         "suikawiki_name" : "C0 controls and space",
+         "url" : "https://url.spec.whatwg.org/#c0-controls-and-space"
       },
       "$url:URL-code-points" : {
          "chars" : "[!\\u0024\\u0026-\\u003B=?-Z_a-z~\\u00A0-\\uD7FF\\uE000-\\uFDCF\\uFDF0-\\uFFEF\\u{10000}-\\u{1FFFD}\\u{20000}-\\u{2FFFD}\\u{30000}-\\u{3FFFD}\\u{40000}-\\u{4FFFD}\\u{50000}-\\u{5FFFD}\\u{60000}-\\u{6FFFD}\\u{70000}-\\u{7FFFD}\\u{80000}-\\u{8FFFD}\\u{90000}-\\u{9FFFD}\\u{A0000}-\\u{AFFFD}\\u{B0000}-\\u{BFFFD}\\u{C0000}-\\u{CFFFD}\\u{D0000}-\\u{DFFFD}\\u{E0000}-\\u{EFFFD}\\u{F0000}-\\u{FFFFD}\\u{100000}-\\u{10FFFD}]",

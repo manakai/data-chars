@@ -1,1 +1,3 @@
+#label:ASCII alpha
+#url:https://url.spec.whatwg.org/#ascii-alpha
 [A-Za-z]

@@ -1,0 +1,3 @@
+#label:C0 controls and space
+#url:https://url.spec.whatwg.org/#c0-controls-and-space
+$url:C0-controls | [\u0020]
