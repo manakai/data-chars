@@ -27,12 +27,20 @@ my $Data = {};
   {
     my $tbl = $tables->{'Table_Candidate_Characters_for_Inclusion_in_Identifiers'};
     if (defined $tbl) {
-      for (@{$tbl->query_selector_all ('br')}) {
-        my $text = $doc->create_text_node ("\n");
-        $_->parent_node->replace_child ($text, $_);
+      for my $tr ($tbl->rows->to_list) {
+        my $cp = $tr->cells->[0] or next;
+        next unless $cp->local_name eq 'td';
+        my $tc = $cp->text_content;
+        $tc =~ s/^\s+//;
+        $tc =~ s/\s+$//;
+        if ($tc =~ /^([0-9A-Fa-f]+)$/) {
+          $Data->{chars}->{candidates_for_inclusion}->{hex $1} = 1;
+        } elsif ($tc =~ /\S/) {
+          warn $tc;
+        }
       }
-      $Data->{chars}->{candidates_for_inclusion}->{$_} = 1 for map { s/^([0-9A-Fa-f]+)//; hex $1 } grep { /^[0-9A-Fa-f]+\s/ } split /\n\s*/, "\n" . $tbl->text_content;
     }
+    die "no candidates for inclusion" unless 0+keys %{$Data->{chars}->{candidates_for_inclusion} or {}};
   }
 
   for my $def (
@@ -48,6 +56,7 @@ my $Data = {};
         }
       }
     }
+    die "no $def->[1]" unless keys %{$Data->{scripts}->{$def->[1]} or {}};
   }
 }
 
