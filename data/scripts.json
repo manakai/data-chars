@@ -290,6 +290,8 @@
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Cyrl",
+         "u_nu" : "cyrl",
+         "u_nu_desc" : "Cyrillic numerals — algorithmic",
          "unicode" : "Cyrillic",
          "unicode_id" : "recommended",
          "xforms" : "Cyrillic"
