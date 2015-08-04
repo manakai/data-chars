@@ -2097,6 +2097,26 @@
          "u_nu" : "lanatham",
          "u_nu_desc" : "Tai Tham Tham (ecclesiastical) digits"
       },
+      "mathbold" : {
+         "u_nu" : "mathbold",
+         "u_nu_desc" : "Mathematical bold digits"
+      },
+      "mathdbl" : {
+         "u_nu" : "mathdbl",
+         "u_nu_desc" : "Mathematical double-struck digits"
+      },
+      "mathmono" : {
+         "u_nu" : "mathmono",
+         "u_nu_desc" : "Mathematical monospace digits"
+      },
+      "mathsanb" : {
+         "u_nu" : "mathsanb",
+         "u_nu_desc" : "Mathematical sans-serif bold digits"
+      },
+      "mathsans" : {
+         "u_nu" : "mathsans",
+         "u_nu_desc" : "Mathematical sans-serif digits"
+      },
       "mymrshan" : {
          "u_nu" : "mymrshan",
          "u_nu_desc" : "Myanmar Shan digits"
