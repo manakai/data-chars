@@ -143,6 +143,13 @@
          "unicode_id" : "recommended",
          "xforms" : "Bengali"
       },
+      "Bhks" : {
+         "desc" : [
+            "Bhaiksuki"
+         ],
+         "ianareg" : "2015-07-24",
+         "iso" : "Bhks"
+      },
       "Blis" : {
          "desc" : [
             "Blissymbols"
@@ -815,6 +822,13 @@
          "unicode" : "Latin",
          "unicode_id" : "recommended",
          "xforms" : "Latin"
+      },
+      "Leke" : {
+         "desc" : [
+            "Leke"
+         ],
+         "ianareg" : "2015-07-24",
+         "iso" : "Leke"
       },
       "Lepc" : {
          "desc" : [
