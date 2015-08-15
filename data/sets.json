@@ -160,6 +160,12 @@
          "label" : "code-unit",
          "suikawiki_name" : "code-unit"
       },
+      "$fetch:http-whitespace-bytes" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020]",
+         "label" : "HTTP whitespace bytes (in US-ASCII)",
+         "suikawiki_name" : "HTTP whitespace bytes",
+         "url" : "https://fetch.spec.whatwg.org/#http-whitespace-bytes"
+      },
       "$html:ASCII-compatible-character-encoding-char" : {
          "chars" : "[\\u0009-\\u000A\\u000C-\\u000D\\u0020-\"\\u0026-',?A-Za-z]",
          "label" : "A character in ASCII-compatible-character-encoding",
