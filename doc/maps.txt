@@ -38,10 +38,11 @@ maps [object]
 [RFC3454] Preparation of Internationalized Strings ("stringprep")
 <http://tools.ietf.org/html/rfc3454#appendix-B.1>.
 
-[DOM] DOM Standard <http://dom.spec.whatwg.org/#strings>.
+URL Standard <https://url.spec.whatwg.org/>.
 
-[HTML] HTML Standard
-<http://www.whatwg.org/specs/web-apps/current-work/>.
+DOM Standard <https://dom.spec.whatwg.org/#strings>.
+
+HTML Standard <http://www.whatwg.org/specs/web-apps/current-work/>.
 
 RFC 1459 - Internet Relay Chat Protocol
 <http://tools.ietf.org/html/rfc1459.html#section-2.2>.
@@ -67,6 +68,11 @@ RFC 5051 - i;unicode-casemap - Simple Unicode Collation Algorithm
 
 You are granted a license to use, reproduce, and create derivative
 works of the JSON file.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.
 
 The JSON file contains data extracted from Unicode Character Database.
 Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
