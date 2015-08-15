@@ -1,0 +1,4 @@
+#label:HTTP whitespace bytes (in US-ASCII)
+#sw:HTTP whitespace bytes
+#url:https://fetch.spec.whatwg.org/#http-whitespace-bytes
+[\u0009\u000A\u000D\u0020]
