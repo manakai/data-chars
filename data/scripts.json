@@ -31,6 +31,8 @@
          ],
          "ianareg" : "2013-12-02",
          "iso" : "Ahom",
+         "u_nu" : "ahom",
+         "u_nu_desc" : "Ahom digits",
          "unicode" : "Ahom",
          "unicode_id" : "excluded",
          "xforms" : "Ahom"
@@ -594,6 +596,8 @@
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Hmng",
+         "u_nu" : "hmng",
+         "u_nu_desc" : "Pahawh Hmong digits",
          "unicode" : "Pahawh_Hmong",
          "unicode_id" : "excluded",
          "xforms" : "PahawhHmong"
@@ -1008,6 +1012,8 @@
          ],
          "ianareg" : "2013-12-02",
          "iso" : "Modi",
+         "u_nu" : "modi",
+         "u_nu_desc" : "Modi digits",
          "unicode" : "Modi",
          "unicode_id" : "excluded",
          "xforms" : "Modi"
@@ -1041,6 +1047,8 @@
          ],
          "ianareg" : "2011-01-07",
          "iso" : "Mroo",
+         "u_nu" : "mroo",
+         "u_nu_desc" : "Mro digits",
          "unicode" : "Mro",
          "unicode_id" : "excluded",
          "xforms" : "Mro"
@@ -1676,6 +1684,8 @@
          ],
          "ianareg" : "2010-08-16",
          "iso" : "Sind",
+         "u_nu" : "sind",
+         "u_nu_desc" : "Khudawadi digits",
          "unicode" : "Khudawadi",
          "unicode_id" : "excluded",
          "xforms" : "Khudawadi"
@@ -1687,6 +1697,8 @@
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Sinh",
+         "u_nu" : "sinh",
+         "u_nu_desc" : "Sinhala Lith digits",
          "unicode" : "Sinhala",
          "unicode_id" : "recommended",
          "xforms" : "Sinhala"
@@ -1918,6 +1930,8 @@
          ],
          "ianareg" : "2011-08-16",
          "iso" : "Tirh",
+         "u_nu" : "tirh",
+         "u_nu_desc" : "Tirhuta digits",
          "unicode" : "Tirhuta",
          "unicode_id" : "excluded",
          "xforms" : "Tirhuta"
@@ -1958,6 +1972,8 @@
          ],
          "ianareg" : "2009-12-09",
          "iso" : "Wara",
+         "u_nu" : "wara",
+         "u_nu_desc" : "Warang Citi digits",
          "unicode" : "Warang_Citi",
          "unicode_id" : "excluded",
          "xforms" : "WarangCiti"
@@ -2134,6 +2150,10 @@
       "mymrshan" : {
          "u_nu" : "mymrshan",
          "u_nu_desc" : "Myanmar Shan digits"
+      },
+      "mymrtlng" : {
+         "u_nu" : "mymrtlng",
+         "u_nu_desc" : "Myanmar Tai Laing digits"
       },
       "native" : {
          "u_nu" : "native",
