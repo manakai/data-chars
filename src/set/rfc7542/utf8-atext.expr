@@ -1,0 +1,6 @@
+#label: utf8-atext
+#url:https://tools.ietf.org/html/rfc7542#section-2.2
+$rfc5234:ALPHA |
+$rfc5234:DIGIT |
+[!#$%&'*+\u002D/=?\u005E_`{|}~] |
+$rfc7542:UTF8-xtra-char

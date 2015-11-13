@@ -1,0 +1,4 @@
+#label:Digit
+#url:https://tools.ietf.org/html/rfc2486#page-4
+#sw:Digit
+[\u0030-\u0039]

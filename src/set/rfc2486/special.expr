@@ -1,0 +1,3 @@
+#label:special
+#url:https://tools.ietf.org/html/rfc2486#page-4
+[<>()\u005B\u005D\u005C.,;:@"] | $rfc2486:Ctl

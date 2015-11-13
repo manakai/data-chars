@@ -1,0 +1,3 @@
+#label: UTF8-xtra-char
+#url:https://tools.ietf.org/html/rfc7542#section-2.1
+[\u0080-\U0010FFFF]
