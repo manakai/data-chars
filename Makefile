@@ -35,7 +35,8 @@ data: all-data
 
 all-data: all-ucd unicode-general-category-latest \
     unicode-prop-list-latest data/sets.json data/names.json \
-    data/maps.json data/number-values.json
+    data/maps.json data/number-values.json \
+    data/tests/cjk-numbers.json
 
 clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -299,6 +300,9 @@ src/set/numbers/CJK-digit.expr: bin/spec-numbers-sets.pl local/spec-numbers.json
 data/number-values.json: bin/number-values.pl \
     local/spec-numbers.json
 	$(PERL) bin/number-values.pl > $@
+
+data/tests/cjk-numbers.json: bin/tests-cjk-numbers.pl
+	$(PERL) $< > $@
 
 ## ------ Tests ------
 

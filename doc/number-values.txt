@@ -1,6 +1,8 @@
 data/number-values.json
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+* Structure
+
 The file contains a JSON object whose names are characters and values
 are their descriptions, which are JSON objects with following
 name/value pair:
@@ -10,6 +12,19 @@ name/value pair:
     The numeral value when the character is to be interpreted as a CJK
     number, per the Numbers specification
     <https://manakai.github.io/spec-numbers/>.
+
+* Test data
+
+There is a related test data file:
+
+  data/tests/cjk-numbers.json
+
+    Test data for the "parse a CJK number" algorithm
+    <https://manakai.github.io/spec-numbers/#parse-a-cjk-number>.
+
+    The file contains a JSON object, where names are input /string/s
+    to the algorithm and values are corresponding expected return
+    values.
 
 * Source
 
