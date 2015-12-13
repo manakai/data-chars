@@ -10,6 +10,7 @@ documentations are in the "doc/" directory.
 
   maps.json     Character mappings
   names.json    Character names
+  number-values.json Values of characters as digits
   scripts.json  Scripts
   sets.json     Character sets or classes
 

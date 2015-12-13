@@ -1,3 +1,4 @@
 #Encode
 Path::Class
+Path::Tiny
 Unicode::Stringprep::Mapping

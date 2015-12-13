@@ -1,0 +1,6 @@
+
+#label:CJK digit
+#url:https://manakai.github.io/spec-numbers/#cjk-digit
+#sw:CJK digit
+[\u{0030}\u{0031}\u{0032}\u{0033}\u{0034}\u{0035}\u{0036}\u{0037}\u{0038}\u{0039}\u{3007}\u{4E00}\u{4E03}\u{4E09}\u{4E5D}\u{4E8C}\u{4E94}\u{4E96}\u{4F0D}\u{516B}\u{516D}\u{53C1}\u{53C2}\u{53C3}\u{53C4}\u{56DB}\u{58F1}\u{58F9}\u{5F0C}\u{5F0D}\u{5F0E}\u{5F10}\u{634C}\u{67D2}\u{6F06}\u{7396}\u{8086}\u{8CAE}\u{8CB3}\u{8CEA}\u{8D30}\u{9646}\u{9678}\u{96F6}\u{FF10}\u{FF11}\u{FF12}\u{FF13}\u{FF14}\u{FF15}\u{FF16}\u{FF17}\u{FF18}\u{FF19}]
+  

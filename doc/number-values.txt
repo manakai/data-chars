@@ -1,0 +1,26 @@
+data/number-values.json
+~~~~~~~~~~~~~~~~~~~~~~~
+
+The file contains a JSON object whose names are characters and values
+are their descriptions, which are JSON objects with following
+name/value pair:
+
+  cjk_numeral [number]
+
+    The numeral value when the character is to be interpreted as a CJK
+    number, per the Numbers specification
+    <https://manakai.github.io/spec-numbers/>.
+
+* Source
+
+Numbers <https://manakai.github.io/spec-numbers/>.
+
+* License
+
+You are granted a license to use, reproduce, and create derivative
+works of the JSON file and this document.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.

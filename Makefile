@@ -35,7 +35,7 @@ data: all-data
 
 all-data: all-ucd unicode-general-category-latest \
     unicode-prop-list-latest data/sets.json data/names.json \
-    data/maps.json
+    data/maps.json data/number-values.json
 
 clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -107,7 +107,8 @@ unicode-general-category-6.2: local/unicode/6.2/UnicodeData.txt
 	$(PERL) bin/generate-general-category.pl 6.2 $<
 unicode-general-category-6.3: local/unicode/6.3/UnicodeData.txt
 	$(PERL) bin/generate-general-category.pl 6.3 $<
-unicode-general-category-latest: local/unicode/latest/UnicodeData.txt
+unicode-general-category-latest: src/set/unicode/Cc.expr
+src/set/unicode/Cc.expr: local/unicode/latest/UnicodeData.txt
 	$(PERL) bin/generate-general-category.pl latest $<
 
 local/unicode/2.0/UnicodeData.txt:
@@ -201,7 +202,8 @@ unicode-prop-list-5.0: local/unicode/5.0/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 5.0 $<
 unicode-prop-list-5.2: local/unicode/5.2/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 5.2 $<
-unicode-prop-list-latest: local/unicode/latest/PropList.txt \
+unicode-prop-list-latest: src/set/unicode/White_Space.expr
+src/set/unicode/White_Space.expr: local/unicode/latest/PropList.txt \
     local/unicode/latest/DerivedCoreProperties.txt \
     local/unicode/latest/DerivedNormalizationProps.txt
 	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/PropList.txt
@@ -275,7 +277,8 @@ data/sets.json: bin/sets.pl \
     src/set/uax31/files \
     src/set/idna-tables-latest/files \
     src/set/*/*.expr data/names.json \
-    src/set/mozilla/IDN-blacklist-chars.expr
+    src/set/mozilla/IDN-blacklist-chars.expr \
+    src/set/numbers/CJK-digit.expr
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
@@ -284,6 +287,18 @@ data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
     local/unicode/latest/CaseFolding.txt \
     data/sets.json src/tn1150table.txt src/tn1150lowercase.json
 	$(PERL) bin/maps.pl > $@
+
+local/spec-numbers.html:
+	$(WGET) -O $@ https://manakai.github.io/spec-numbers/
+local/spec-numbers.json: bin/spec-numbers.pl local/spec-numbers.html
+	$(PERL) bin/spec-numbers.pl > $@
+
+src/set/numbers/CJK-digit.expr: bin/spec-numbers-sets.pl local/spec-numbers.json
+	$(PERL) bin/spec-numbers-sets.pl
+
+data/number-values.json: bin/number-values.pl \
+    local/spec-numbers.json
+	$(PERL) bin/number-values.pl > $@
 
 ## ------ Tests ------
 
