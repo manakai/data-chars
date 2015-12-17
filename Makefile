@@ -36,7 +36,7 @@ data: all-data
 all-data: all-ucd unicode-general-category-latest \
     unicode-prop-list-latest data/sets.json data/names.json \
     data/maps.json data/number-values.json \
-    data/tests/cjk-numbers.json
+    data/tests/cjk-numbers.json data/seqs.json
 
 clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -66,6 +66,8 @@ src/set/uax31/files: bin/uax31.pl local/tr31.json
 
 local/langtags.json:
 	$(WGET) -O $@ https://raw.github.com/manakai/data-web-defs/master/data/langtags.json
+local/html-charrefs.json:
+	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-web-defs/master/data/html-charrefs.json
 
 data/scripts.json: bin/scripts.pl local/ucd/Scripts.txt \
     local/ucd/PropertyValueAliases.txt local/tr31.json \
@@ -302,6 +304,11 @@ data/number-values.json: bin/number-values.pl \
 	$(PERL) bin/number-values.pl > $@
 
 data/tests/cjk-numbers.json: bin/tests-cjk-numbers.pl
+	$(PERL) $< > $@
+
+data/seqs.json: bin/seqs.pl \
+    data/names.json local/langtags.json src/seqs.txt \
+    local/html-charrefs.json
 	$(PERL) $< > $@
 
 ## ------ Tests ------

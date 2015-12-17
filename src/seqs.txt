@@ -1,0 +1,12 @@
+## <http://unicode.org/~scherer/emoji4unicode/snapshot/utc.html>
+U+2023 U+20E3
+U+0030 U+20E3
+U+0031 U+20E3
+U+0032 U+20E3
+U+0033 U+20E3
+U+0034 U+20E3
+U+0035 U+20E3
+U+0036 U+20E3
+U+0037 U+20E3
+U+0038 U+20E3
+U+0039 U+20E3

@@ -1,0 +1,46 @@
+data/seqs.json
+~~~~~~~~~~~~~~
+
+The file contains a list of character sequences.
+
+* Structure
+
+The file contains a JSON object, whose names are [a sequence of code
+point] values and values are their descriptions, represented as JSON
+objects with following name/value pairs:
+
+  flag_region [string?]
+
+    The ISO two-letter country code (in lowercase) for the region of
+    which the sequence represents the flag, if any.
+
+  has_name [boolean]
+
+    Whether the sequence has a formal name assigned by Unicode or not.
+    If a name is assigned, it is listed in the |data/names.json| data
+    file.
+
+  html_charref [string?]
+
+    The HTML character reference, including |&| and |;| delimiters,
+    for the sequence, if any.
+
+* Sources
+
+Unicode Character Database: NamedSequences.txt
+<http://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt>.
+
+HTML Standard <https://html.spec.whatwg.org/>.
+
+Emoji Symbols: Background Data
+<http://unicode.org/~scherer/emoji4unicode/snapshot/utc.html>.
+
+* License
+
+You are granted a license to use, reproduce, and create derivative
+works of the JSON file and this document.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.

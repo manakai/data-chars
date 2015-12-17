@@ -12,6 +12,7 @@ documentations are in the "doc/" directory.
   names.json    Character names
   number-values.json Values of characters as digits
   scripts.json  Scripts
+  seqs.json     Character sequences
   sets.json     Character sets or classes
 
 * See also
@@ -32,7 +33,7 @@ repository.
 Wakaba <wakaba@suikawiki.org>.
 
 These files are maintained as part of the manakai project
-<https://github.com/manakai/>.
+<https://manakai.github.io/>.
 
 * License
 
