@@ -11,4 +11,5 @@ env:
   global:
     secure: "IkCr0+hjjsW4eKLnr2w2AQRunjakl+2BukjlI8AwGFeENOEBB6ovaKHlVJ8WLH5K7AuD7kamQpvOngE0GulWEOMYs9Fcwri23qOei71zpZNfw7TrjCHnwMXzjtLuBVq/S0fhtB9Tn3D9oraapEWydBkKdAsG7aUBgX/K/Ok0Wk0="
 after_success:
+  - which perl
   - curl -f -L https://gist.githubusercontent.com/wakaba/9970857/raw/travis-merger.pl | perl
