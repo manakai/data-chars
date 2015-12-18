@@ -35,6 +35,11 @@ HTML Standard <https://html.spec.whatwg.org/>.
 Emoji Symbols: Background Data
 <http://unicode.org/~scherer/emoji4unicode/snapshot/utc.html>.
 
+半濁点 <https://ja.wikipedia.org/wiki/%E5%8D%8A%E6%BF%81%E7%82%B9>.
+
+グループ:TRONコード濁点付きひらがな・カタカナ
+<http://glyphwiki.org/wiki/Group:TRON%E3%82%B3%E3%83%BC%E3%83%89%E6%BF%81%E7%82%B9%E4%BB%98%E3%81%8D%E3%81%B2%E3%82%89%E3%81%8C%E3%81%AA%E3%83%BB%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A>.
+
 * License
 
 You are granted a license to use, reproduce, and create derivative

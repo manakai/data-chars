@@ -37,13 +37,46 @@ my $Data = {};
 }
 
 {
+  ## Kana with voiced/semi-voiced sound mark from TRON code
+  ## <http://glyphwiki.org/wiki/Group:TRON%E3%82%B3%E3%83%BC%E3%83%89%E6%BF%81%E7%82%B9%E4%BB%98%E3%81%8D%E3%81%B2%E3%82%89%E3%81%8C%E3%81%AA%E3%83%BB%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A>
+  use utf8;
+  for (split //, q(
+    あいえおなにぬねのまみむめもやゆよらりるれろんわゐゑを
+    ぁぃぅぇぉゕゖっゃゅょゎ
+    アイエオナニヌネノマミムメモヤユヨラリルレロン
+    ァィゥェォヵヶッャュョヮ
+    ㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ
+  )) {
+    next unless /\S/;
+    my $seq = sprintf '%04X 3099', ord $_;
+    $Data->{$seq} ||= {};
+    $seq = sprintf '%04X 309A', ord $_;
+    $Data->{$seq} ||= {} unless $_ eq 'ㇷ';
+  }
+  for (split //, q(
+    うさしすせそたちつてと
+    ウサシスセソタチツテトワヰヱヲ
+    ゝヽ
+  )) {
+    next unless /\S/;
+    my $seq = sprintf '%04X 309A', ord $_;
+    $Data->{$seq} ||= {};
+  }
+}
+
+{
   for (split /[\x0D\x0A]+/, $root_path->child ('src/seqs.txt')->slurp_utf8) {
     if (/^\s*#/) {
       next;
-    } elsif (/^U\+[0-9A-Fa-f]+(?:\s+U\+[0-9A-Fa-f]+)+$/) {
+    } elsif (/^(?:U\+[0-9A-Fa-f]+|"[^"]+")(?:\s+(?:U\+[0-9A-Fa-f]+|"[^"]+"))+$/) {
       my $seq = join ' ', map {
-        s/^U\+//;
-        sprintf '%04X', hex $_;
+        if (s/^"//) {
+          s/"$//;
+          map { sprintf '%04X', ord $_ } split //, $_;
+        } else {
+          s/^U\+//;
+          sprintf '%04X', hex $_;
+        }
       } split /\s+/, $_;
       $Data->{$seq} ||= {};
     } elsif (/\S/) {

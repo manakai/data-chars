@@ -199,10 +199,38 @@ for my $from (65..93) {
   $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'う'), 0x309B} = [ord 'ゔ'];
   $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0x3099} = [ord 'ヴ'];
   $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0x309B} = [ord 'ヴ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ワ'), 0x3099} = [ord 'ヷ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ワ'), 0x309B} = [ord 'ヷ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヰ'), 0x3099} = [ord 'ヸ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヰ'), 0x309B} = [ord 'ヸ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヱ'), 0x3099} = [ord 'ヹ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヱ'), 0x309B} = [ord 'ヹ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヲ'), 0x3099} = [ord 'ヺ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヲ'), 0x309B} = [ord 'ヺ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〱'), 0x3099} = [ord '〲'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〱'), 0x309B} = [ord '〲'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〳'), 0x3099} = [ord '〴'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〳'), 0x309B} = [ord '〴'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ゝ'), 0x3099} = [ord 'ゞ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ゝ'), 0x309B} = [ord 'ゞ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヽ'), 0x3099} = [ord 'ヾ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヽ'), 0x309B} = [ord 'ヾ'];
   for (map { ord $_ } split //, q(はひふへほハヒフヘホ)) {
     $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x309A} = [$_ + 2];
     $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x309C} = [$_ + 2];
   }
+  $Maps->{'kana:k2h'}->{ord 'ヷ'} = [(ord 'わ'), 0x3099];
+  $Maps->{'kana:k2h'}->{ord 'ヸ'} = [(ord 'ゐ'), 0x3099];
+  $Maps->{'kana:k2h'}->{ord 'ヹ'} = [(ord 'ゑ'), 0x3099];
+  $Maps->{'kana:k2h'}->{ord 'ヺ'} = [(ord 'を'), 0x3099];
+  $Maps->{'kana:h2k'}->{(ord 'わ'), 0x3099} = [ord 'ヷ'];
+  $Maps->{'kana:h2k'}->{(ord 'ゐ'), 0x3099} = [ord 'ヸ'];
+  $Maps->{'kana:h2k'}->{(ord 'ゑ'), 0x3099} = [ord 'ヹ'];
+  $Maps->{'kana:h2k'}->{(ord 'を'), 0x3099} = [ord 'ヺ'];
+  $Maps->{'kana:h2k'}->{ord 'ゝ'} = [ord 'ヽ'];
+  $Maps->{'kana:k2h'}->{ord 'ヽ'} = [ord 'ゝ'];
+  $Maps->{'kana:h2k'}->{ord 'ゞ'} = [ord 'ヾ'];
+  $Maps->{'kana:k2h'}->{ord 'ヾ'} = [ord 'ゞ'];
 }
 
 {
