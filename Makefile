@@ -182,8 +182,6 @@ local/perl-unicode/lib/unicore/CombiningClass.pl: \
 local/perl-unicode/lib/unicore/Decomposition.pl: \
     bin/unicore-decomposition.pl local/unicode/latest/UnicodeData.txt
 	$(PERL) bin/unicore-decomposition.pl
-bin/lib/Unicode/Normalize.pm:
-	$(WGET) -O $@ https://raw.githubusercontent.com/khwilliamson/Unicode-Normalize/master/Normalize.pm
 src/set/unicode/has_canon_decomposition.expr: bin/unicode-decompositions.pl \
     local/unicode/latest/UnicodeData.txt
 	$(PERL) bin/unicode-decompositions.pl
