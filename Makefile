@@ -194,7 +194,7 @@ PERL_UNICODE_NORMALIZE = \
   bin/lib/Unicode/Normalize.pm
 
 clean-perl-unicode:
-	rm -fr local/perl-unicode bin/lib/Unicode/Normalize.pm
+	rm -fr local/perl-unicode
 	rm -fr src/set/unicode/Canonical_Combining_Class/files
 
 unicode-prop-list-3.2: local/unicode/3.2/PropList.txt
