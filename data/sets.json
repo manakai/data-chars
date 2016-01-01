@@ -1947,6 +1947,27 @@
          "spec" : "RFC2616",
          "suikawiki_name" : "token"
       },
+      "$rfc2617:LHEX" : {
+         "chars" : "[0-9A-Fa-f]",
+         "label" : "LHEX",
+         "spec" : "RFC2617",
+         "suikawiki_name" : "LHEX",
+         "url" : "https://tools.ietf.org/html/rfc2617#section-3.2.2"
+      },
+      "$rfc2617:password-char" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-~\\u0080-\\u00FF]",
+         "label" : "password character",
+         "spec" : "RFC2617",
+         "suikawiki_name" : "password",
+         "url" : "https://tools.ietf.org/html/rfc2617#section-2"
+      },
+      "$rfc2617:userid-char" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020-9\\u003B-~\\u0080-\\u00FF]",
+         "label" : "userid character",
+         "spec" : "RFC2617",
+         "suikawiki_name" : "userid",
+         "url" : "https://tools.ietf.org/html/rfc2617#section-2"
+      },
       "$rfc2822:NO-WS-CTL" : {
          "chars" : "[\\u0001-\\u0008\\u000B-\\u000C\\u000E\\u001F\\u007F]",
          "label" : "NO-WS-CTL",
