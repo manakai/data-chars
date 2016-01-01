@@ -1,0 +1,4 @@
+#label:userid character
+#sw:userid
+#url:https://tools.ietf.org/html/rfc2617#section-2
+$rfc2616:TEXT-char - [:]
