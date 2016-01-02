@@ -1,0 +1,5 @@
+#label:Control
+#url:https://tools.ietf.org/html/rfc7564#section-9.12
+
+## Control(cp) = True [RFC7564] but Control(cp) is not defined...
+[\u0000-\u001F\u007F-\u009F]

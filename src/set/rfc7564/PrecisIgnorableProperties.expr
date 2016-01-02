@@ -1,0 +1,5 @@
+#label:PrecisIgnorableProperties
+#url:https://tools.ietf.org/html/rfc7564#section-9.13
+
+$unicode:Default_Ignorable_Code_Point |
+$unicode:Noncharacter_Code_Point

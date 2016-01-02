@@ -237,7 +237,8 @@ local/unicode/latest/DerivedNormalizationProps.txt:
 src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
     bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE)
 # data/maps.json
-	$(PERL) bin/idna2008-unstable.pl > $@
+	$(PERL) bin/idna2008-unstable.pl
+src/set/rfc7564/HasCompat.expr: src/set/rfc5892/Unstable.expr
 
 UNICODE_VERSION = XXXVERSIONNOTSPECIFIEDXXX
 
@@ -269,7 +270,7 @@ src/set/mozilla/IDN-blacklist-chars.expr: local/mozilla-prefs.js \
 
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
-    src/set/rfc5892/Unstable.expr \
+    src/set/rfc5892/Unstable.expr src/set/rfc7564/HasCompat.expr \
     src/set/unicode/Block/files \
     src/set/unicode/Hangul_Syllable_Type/files \
     src/set/unicode/Canonical_Combining_Class/files \
