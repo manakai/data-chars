@@ -1,13 +1,19 @@
 use strict;
 use warnings;
-use Path::Class;
-use lib glob file (__FILE__)->dir->subdir ('lib')->stringify;
-use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib')->stringify;
+use Path::Tiny;
+use lib glob path (__FILE__)->parent->child ('lib')->stringify;
+use lib glob path (__FILE__)->parent->child ('modules/*/lib')->stringify;
+
+my $unicode_version = shift or die;
+
+my $root_path = path (__FILE__)->parent->parent;
+my $input_ucd_path = $root_path->child ('local/unicode', $unicode_version);
+my $output_perl_path = $root_path->child ('local/perl-unicode', $unicode_version);
 
 my @entry;
 {
-  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'UnicodeData.txt');
-  for (($f->slurp)) {
+  my $path = $input_ucd_path->child ('UnicodeData.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
     chomp;
     my @d = split /;/, $_;
 
@@ -18,11 +24,12 @@ my @entry;
   }
 }
 
-my $perldata_d = file (__FILE__)->dir->parent->subdir ('local', 'perl-unicode', 'lib', 'unicore');
-$perldata_d->mkpath;
-print { $perldata_d->file ('Decomposition.pl')->openw }
-    qq{<<'END'\n},
-    (sort { $a cmp $b } @entry),
-    qq{END\n};
+my $perldata_path = $output_perl_path->child ('lib/unicore');
+$perldata_path->mkpath;
+$perldata_path->child ('Decomposition.pl')->spew
+    (join '',
+         qq{<<'END'\n},
+         (sort { $a cmp $b } @entry),
+         qq{END\n});
 
 ## License: Public Domain.
