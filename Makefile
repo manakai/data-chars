@@ -278,7 +278,7 @@ data/sets.json: bin/sets.pl \
     src/set/unicode/has_compat_decomposition.expr \
     src/set/uax31/files \
     src/set/idna-tables-latest/files \
-    src/set/*/*.expr data/names.json \
+    src/set/*/*.expr src/set/*/*/*.expr data/names.json \
     src/set/mozilla/IDN-blacklist-chars.expr \
     src/set/numbers/CJK-digit.expr
 	$(PERL) bin/sets.pl > $@

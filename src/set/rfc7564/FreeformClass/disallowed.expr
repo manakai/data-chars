@@ -1,0 +1,4 @@
+#label:FreeformClass - disallowed
+#sw:FreeformClass
+#url:https://tools.ietf.org/html/rfc7564#section-4.3
+$rfc7564:DISALLOWED | $rfc7564:FREE_DIS | $rfc7564:UNASSIGNED

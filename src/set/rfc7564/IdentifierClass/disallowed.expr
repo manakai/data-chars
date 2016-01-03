@@ -1,0 +1,4 @@
+#label:IdentifierClass - disallowed
+#sw:IdentifierClass
+#url:https://tools.ietf.org/html/rfc7564#section-4.2
+$rfc7564:DISALLOWED | $rfc7564:ID_DIS | $rfc7564:UNASSIGNED

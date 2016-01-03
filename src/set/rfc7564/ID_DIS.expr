@@ -1,0 +1,14 @@
+$rfc7564:HasCompat |
+$rfc7564:OtherLetterDigits |
+$rfc7564:Spaces |
+$rfc7564:Symbols |
+$rfc7564:Punctuation
+
+- $rfc7564:Exceptions
+- $rfc7564:BackwardCompatible
+- $rfc7564:OldHangulJamo
+- $rfc7564:PrecisIgnorableProperties
+- $rfc7564:Controls
+- $rfc7564:UNASSIGNED
+- $rfc7564:CONTEXT
+- $rfc7564:PVALID
