@@ -33,7 +33,7 @@ if ($doc->document_element->local_name eq 'redirect') {
   exec 'make', "src/set/precis-tables-$reg/files", 'UNICODE_VERSION=' . $reg;
 }
 
-for (qw(PVALID CONTEXT CONTEXTJ CONTEXTO UNASSIGNED DISALLOWED
+for (qw(PVALID CONTEXTJ CONTEXTO UNASSIGNED DISALLOWED
         ID_DIS FREE_PVAL ID_PVAL FREE_DIS)) {
   $Sets->{$_} ||= [];
 }
