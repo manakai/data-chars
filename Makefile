@@ -40,7 +40,8 @@ all-data: all-ucd unicode-general-category-latest \
 
 clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
-	rm -fr local/unicode/latest local/iana-idna/latest.xml
+	rm -fr local/unicode/latest
+	rm -fr local/iana-idna/latest.xml local/iana-precis/latest.xml
 
 all-ucd: prepare-ucd data/scripts.json local/ucd/touch
 prepare-ucd:
@@ -248,6 +249,12 @@ local/iana-idna/$(UNICODE_VERSION).xml:
 local/iana-idna/latest.xml:
 	mkdir -p local/iana-idna
 	$(WGET) -O $@ http://www.iana.org/assignments/idna-tables/idna-tables.xml
+local/iana-precis/$(UNICODE_VERSION).xml:
+	mkdir -p local/iana-precis
+	$(WGET) -O $@ http://www.iana.org/assignments/precis-tables-$(UNICODE_VERSION)/precis-tables-$(UNICODE_VERSION).xml
+local/iana-precis/latest.xml:
+	mkdir -p local/iana-precis
+	$(WGET) -O $@ http://www.iana.org/assignments/precis-tables/precis-tables.xml
 
 src/set/idna-tables-$(UNICODE_VERSION)/files: \
     local/iana-idna/$(UNICODE_VERSION).xml \
@@ -260,6 +267,18 @@ src/set/idna-tables-latest/files: \
     bin/idna-tables.pl
 	mkdir -p src/set/idna-tables-latest
 	$(PERL) bin/idna-tables.pl latest
+	touch $@
+src/set/precis-tables-$(UNICODE_VERSION)/files: \
+    local/iana-precis/$(UNICODE_VERSION).xml \
+    bin/precis-tables.pl
+	mkdir -p src/set/precis-tables-$(UNICODE_VERSION)
+	$(PERL) bin/precis-tables.pl $(UNICODE_VERSION)
+	touch $@
+src/set/precis-tables-latest/files: \
+    local/iana-precis/latest.xml \
+    bin/precis-tables.pl
+	mkdir -p src/set/precis-tables-latest
+	$(PERL) bin/precis-tables.pl latest
 	touch $@
 
 local/mozilla-prefs.js:
@@ -278,6 +297,7 @@ data/sets.json: bin/sets.pl \
     src/set/unicode/has_compat_decomposition.expr \
     src/set/uax31/files \
     src/set/idna-tables-latest/files \
+    src/set/precis-tables-latest/files \
     src/set/*/*.expr src/set/*/*/*.expr data/names.json \
     src/set/mozilla/IDN-blacklist-chars.expr \
     src/set/numbers/CJK-digit.expr
