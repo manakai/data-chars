@@ -1,0 +1,12 @@
+$rfc7564-6.3.0:ASCII7 | $rfc7564-6.3.0:LetterDigits
+- $rfc7564-6.3.0:Exceptions
+- $rfc7564-6.3.0:BackwardCompatible
+- $rfc7564-6.3.0:Unassigned
+- $rfc7564-6.3.0:JoinControl
+- $rfc7564-6.3.0:OldHangulJamo
+- $rfc7564-6.3.0:PrecisIgnorableProperties
+- $rfc7564-6.3.0:Controls
+- $rfc7564-6.3.0:HasCompat
+
+| $rfc5892-6.3.0:BackwardCompatible:PVALID
+| $rfc5892-6.3.0:Exceptions:PVALID

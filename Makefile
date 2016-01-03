@@ -157,28 +157,44 @@ local/unicode/latest/UnicodeData.txt:
 local/unicode/latest/Blocks.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
+local/unicode/$(UNICODE_VERSION)/Blocks.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/Blocks.txt
 local/unicode/latest/SpecialCasing.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
 local/unicode/latest/HangulSyllableType.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/HangulSyllableType.txt
-local/unicode/$(UNICODE_VERSION)/DerivedCombiningClass.txt:
+local/unicode/$(UNICODE_VERSION)/HangulSyllableType.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedCombiningClass.txt
+	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/HangulSyllableType.txt
 local/unicode/latest/DerivedCombiningClass.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedCombiningClass.txt
+local/unicode/$(UNICODE_VERSION)/DerivedCombiningClass.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedCombiningClass.txt
 
 src/set/unicode/Block/files: \
     bin/blocks.pl \
     local/unicode/latest/Blocks.txt
-	$(PERL) bin/blocks.pl
+	$(PERL) bin/blocks.pl latest
+	touch $@
+src/set/unicode$(UNICODE_VERSION:.0=)/Block/files: \
+    bin/blocks.pl \
+    local/unicode/$(UNICODE_VERSION)/Blocks.txt
+	$(PERL) bin/blocks.pl $(UNICODE_VERSION)
 	touch $@
 src/set/unicode/Hangul_Syllable_Type/files: \
     bin/hangul-syllable-type.pl \
     local/unicode/latest/HangulSyllableType.txt
-	$(PERL) bin/hangul-syllable-type.pl
+	$(PERL) bin/hangul-syllable-type.pl latest
+	touch $@
+src/set/unicode$(UNICODE_VERSION:.0=)/Hangul_Syllable_Type/files: \
+    bin/hangul-syllable-type.pl \
+    local/unicode/$(UNICODE_VERSION)/HangulSyllableType.txt
+	$(PERL) bin/hangul-syllable-type.pl $(UNICODE_VERSION)
 	touch $@
 src/set/unicode/Canonical_Combining_Class/files: \
     bin/ccc.pl \
@@ -232,6 +248,13 @@ src/set/unicode/White_Space.expr: local/unicode/latest/PropList.txt \
 	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/PropList.txt
 	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/DerivedCoreProperties.txt
 	$(PERL) bin/generate-prop-list.pl latest local/unicode/latest/DerivedNormalizationProps.txt
+src/set/unicode$(UNICODE_VERSION:.0=)/Default_Ignorable_Code_Point.expr: \
+    local/unicode/$(UNICODE_VERSION)/PropList.txt \
+    local/unicode/$(UNICODE_VERSION)/DerivedCoreProperties.txt \
+    local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt
+	$(PERL) bin/generate-prop-list.pl $(UNICODE_VERSION:.0=) local/unicode/$(UNICODE_VERSION)/PropList.txt
+	$(PERL) bin/generate-prop-list.pl $(UNICODE_VERSION:.0=) local/unicode/$(UNICODE_VERSION)/DerivedCoreProperties.txt
+	$(PERL) bin/generate-prop-list.pl $(UNICODE_VERSION:.0=) local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt
 
 local/unicode/3.2/PropList.txt:
 	mkdir -p local/unicode/3.2
@@ -242,6 +265,9 @@ local/unicode/5.0/PropList.txt:
 local/unicode/5.2/PropList.txt:
 	mkdir -p local/unicode/5.0
 	$(WGET) -O $@ http://www.unicode.org/Public/5.2.0/ucd/PropList.txt
+local/unicode/$(UNICODE_VERSION)/PropList.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/PropList.txt
 local/unicode/latest/PropList.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/PropList.txt
@@ -252,9 +278,15 @@ local/unicode/latest/CaseFolding.txt:
 local/unicode/latest/DerivedCoreProperties.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/DerivedCoreProperties.txt
+local/unicode/$(UNICODE_VERSION)/DerivedCoreProperties.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedCoreProperties.txt
 local/unicode/latest/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
+local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedNormalizationProps.txt
 
 src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
     bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE)
@@ -304,6 +336,19 @@ src/set/precis-tables-latest/files: \
     bin/precis-tables.pl
 	mkdir -p src/set/precis-tables-latest
 	$(PERL) bin/precis-tables.pl latest
+	touch $@
+
+src/set/rfc5892-$(UNICODE_VERSION)/files: \
+    bin/copy-for-unicode-version.pl \
+    src/set/rfc5892/*.expr src/set/rfc5892/*/*.expr \
+    src/set/rfc5892-$(UNICODE_VERSION)/Unstable.expr
+	$(PERL) bin/copy-for-unicode-version.pl rfc5892 $(UNICODE_VERSION)
+	touch $@
+src/set/rfc7564-$(UNICODE_VERSION)/files: \
+    bin/copy-for-unicode-version.pl \
+    src/set/rfc7564/*.expr src/set/rfc7564/*/*.expr \
+    src/set/rfc7564-$(UNICODE_VERSION)/HasCompat.expr
+	$(PERL) bin/copy-for-unicode-version.pl rfc7564 $(UNICODE_VERSION)
 	touch $@
 
 local/mozilla-prefs.js:
