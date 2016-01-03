@@ -40,7 +40,7 @@ all-data: all-ucd unicode-general-category-latest \
 
 clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
-	rm -fr local/unicode/latest
+	rm -fr local/unicode
 	rm -fr local/iana-idna/latest.xml local/iana-precis/latest.xml
 
 all-ucd: prepare-ucd data/scripts.json local/ucd/touch
@@ -221,6 +221,8 @@ src/set/unicode/has_canon_decomposition.expr: bin/unicode-decompositions.pl \
 	$(PERL) bin/unicode-decompositions.pl
 src/set/unicode/has_compat_decomposition.expr: \
     src/set/unicode/has_canon_decomposition.expr
+src/set/unicode/canon_decomposition_second.expr: \
+    src/set/unicode/has_canon_decomposition.expr
 
 PERL_UNICODE_NORMALIZE = \
   local/perl-unicode/latest/lib/unicore-CombiningClass.pl \
@@ -365,6 +367,7 @@ data/sets.json: bin/sets.pl \
     src/set/unicode/Canonical_Combining_Class/files \
     src/set/unicode/has_canon_decomposition.expr \
     src/set/unicode/has_compat_decomposition.expr \
+    src/set/unicode/canon_decomposition_second.expr \
     src/set/uax31/files \
     src/set/idna-tables-latest/files \
     src/set/precis-tables-latest/files \
