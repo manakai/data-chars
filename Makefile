@@ -42,6 +42,9 @@ clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
 	rm -fr local/unicode
 	rm -fr local/iana-idna/latest.xml local/iana-precis/latest.xml
+	rm -fr src/set/unicode/has_canon_decomposition.expr
+	rm -fr src/set/unicode/has_compat_decomposition.expr
+	rm -fr src/set/unicode/canon_decomposition_second.expr
 
 all-ucd: prepare-ucd data/scripts.json local/ucd/touch
 prepare-ucd:
