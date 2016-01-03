@@ -144,9 +144,9 @@ local/unicode/6.1/UnicodeData.txt:
 local/unicode/6.2/UnicodeData.txt:
 	mkdir -p local/unicode/6.2
 	$(WGET) -O $@ http://www.unicode.org/Public/6.2.0/ucd/UnicodeData.txt
-local/unicode/6.3/UnicodeData.txt:
+local/unicode/6.3/UnicodeData.txt: local/unicode/6.3.0/UnicodeData.txt
 	mkdir -p local/unicode/6.3
-	$(WGET) -O $@ http://www.unicode.org/Public/6.3.0/ucd/UnicodeData.txt
+	cp local/unicode/6.3.0/UnicodeData.txt $@
 local/unicode/6.3.0/UnicodeData.txt:
 	mkdir -p local/unicode/6.3.0
 	$(WGET) -O $@ http://www.unicode.org/Public/6.3.0/ucd/UnicodeData.txt
