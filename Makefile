@@ -212,6 +212,8 @@ src/set/unicode$(UNICODE_VERSION:.0=)/Canonical_Combining_Class/files: \
 
 local/perl-unicode/latest/lib/unicore-CombiningClass.pl: \
     src/set/unicode/Canonical_Combining_Class/files
+local/perl-unicode/$(UNICODE_VERSION)/lib/unicore-CombiningClass.pl: \
+    src/set/unicode$(UNICODE_VERSION:.0=)/Canonical_Combining_Class/files
 local/perl-unicode/latest/lib/unicore-Decomposition.pl: \
     bin/unicore-decomposition.pl local/unicode/latest/UnicodeData.txt
 	$(PERL) bin/unicore-decomposition.pl latest
