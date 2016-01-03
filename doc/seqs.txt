@@ -22,8 +22,8 @@ objects with following name/value pairs:
 
   html_charref [string?]
 
-    The HTML character reference, including |&| and |;| delimiters,
-    for the sequence, if any.
+    One of the HTML character references for the sequence, including
+    |&| and |;| delimiters, if any.
 
 * Sources
 
