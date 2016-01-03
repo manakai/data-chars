@@ -1,11 +1,20 @@
 use strict;
 use warnings;
-use Path::Class;
-use lib glob file (__FILE__)->dir->subdir ('lib')->stringify;
-use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib')->stringify;
-use lib glob file (__FILE__)->dir->parent->subdir ('local', 'perl-unicode', 'lib')->stringify;
-use JSON::Functions::XS qw(perl2json_bytes_for_record file2perl);
-use Unicode::Normalize qw(NFD);
+use Path::Tiny;
+use lib glob path (__FILE__)->parent->child ('lib')->stringify;
+use lib glob path (__FILE__)->parent->child ('modules/*/lib')->stringify;
+use JSON::PS;
+
+my $unicode_version = 'latest';
+
+my $root_path = path (__FILE__)->parent->parent;
+my $input_ucd_path = $root_path->child ('local/unicode', $unicode_version);
+
+{
+  my $path = $root_path->child ('local/perl-unicode', $unicode_version, 'lib');
+  unshift our @INC, $path->stringify;
+  require UnicodeNormalize;
+}
 
 my $Data = {};
 
@@ -22,8 +31,8 @@ my $Maps = {};
 ## <http://www.unicode.org/reports/tr44/#Character_Decomposition_Mappings>
 ## <http://www.unicode.org/reports/tr44/#Casemapping>
 {
-  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'UnicodeData.txt');
-  for (($f->slurp)) {
+  my $path = $input_ucd_path->child ('UnicodeData.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
     chomp;
     my @d = split /;/, $_;
 
@@ -50,12 +59,12 @@ my $Maps = {};
 
 for (0xAC00..0xD7A3) {
   $Maps->{'unicode:canon_decomposition'}->{$_} =
-  $Maps->{'unicode:compat_decomposition'}->{$_} = [map { ord $_ } split //, NFD chr $_];
+  $Maps->{'unicode:compat_decomposition'}->{$_} = [map { ord $_ } split //, UnicodeNormalize::NFD (chr $_)];
 }
 
 {
-  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'SpecialCasing.txt');
-  for (($f->slurp)) {
+  my $path = $input_ucd_path->child ('SpecialCasing.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
     if (/^([0-9A-F]+)\s*;\s*([0-9A-F ]*)\s*;\s*([0-9A-F ]*)\s*;\s*([0-9A-F ]*)\s*;\s*\#/) {
       ## Full mapping
       $Maps->{'unicode:Lowercase_Mapping'}->{hex $1} = [map { hex $_ } split / /, $2];
@@ -66,8 +75,8 @@ for (0xAC00..0xD7A3) {
 }
 
 {
-  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'CaseFolding.txt');
-  for (($f->slurp)) {
+  my $path = $input_ucd_path->child ('CaseFolding.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
     if (/^([0-9A-F]+)\s*;\s*[CF]\s*;\s*([0-9A-F ]*)\s*;\s*\#/) {
       $Maps->{'unicode:Case_Folding'}->{hex $1} = [map { hex $_ } split / /, $2];
     }
@@ -75,8 +84,8 @@ for (0xAC00..0xD7A3) {
 }
 
 {
-  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'DerivedNormalizationProps.txt');
-  for (($f->slurp)) {
+  my $path = $input_ucd_path->child ('DerivedNormalizationProps.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
     if (/^([0-9A-F]+(?:\.\.[0-9A-F]+)?)\s*;\s*NFKC_CF\s*;\s*([0-9A-F ]+)\s*\#/) {
       my ($from, $to) = map { hex $_ } split /\.\./, $1;
       $to //= $from;
@@ -125,14 +134,15 @@ $Maps->{'rfc4518:map:common'}->{$_} = [0x0020] for
 $Maps->{'rfc4518:map:case_folding'} = {%{$Maps->{'rfc3454:B.2'}}};
 
 {
-  my $f = file (__FILE__)->dir->parent->file ('src', 'tn1150table.txt');
-  my %map = map { join ' ', map { uhex $_ } grep { length } split /\s+/, $_ } split /\s*,\s*/, scalar $f->slurp;
+  my $path = $root_path->child ('src/tn1150table.txt');
+  my %map = map { join ' ', map { uhex $_ } grep { length } split /\s+/, $_ } split /\s*,\s*/, $path->slurp;
   for (keys %map) {
     $Maps->{'tn1150:decomposition'}->{hex $_} = [map { hex $_ } split / /, $map{$_}];
   }
 }
 {
-  my $json = file2perl file (__FILE__)->dir->parent->file ('src', 'tn1150lowercase.json');
+  my $path = $root_path->child ('src/tn1150lowercase.json');
+  my $json = json_bytes2perl $path->slurp;
   for (keys %$json) {
     $Maps->{'tn1150:lowercase'}->{hex $_} = [length $json->{$_} ? hex $json->{$_} : ()];
   }
@@ -269,7 +279,8 @@ for my $map (keys %$Maps) {
 
 my $full_exclusion;
 {
-  my $json = file2perl file (__FILE__)->dir->parent->file ('data', 'sets.json');
+  my $path = $root_path->child ('data/sets.json');
+  my $json = json_bytes2perl $path->slurp;
   my $chars = $json->{sets}->{'$unicode:Full_Composition_Exclusion'}->{chars};
   $chars =~ s/\\u([0-9A-F]{4})/\\x{$1}/g;
   $chars =~ s/\\u\{([0-9A-F]+)\}/\\x{$1}/g;

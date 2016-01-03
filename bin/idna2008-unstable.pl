@@ -13,8 +13,8 @@ my $root_path = path (__FILE__)->parent->parent;
 
 {
   my $path = $root_path->child ('local/perl-unicode', $unicode_version, 'lib');
-  push our @ISA, $path->stringify;
-  require Unicode::Normalize;
+  unshift our @INC, $path->stringify;
+  require UnicodeNormalize;
 }
 
 my $maps = (json_bytes2perl $root_path->child ('data/maps.json')->slurp)->{maps};
@@ -23,7 +23,7 @@ my @set;
 my @set2;
 
 for my $c (0x0000..0x10FFFF) {
-  my $h = Unicode::Normalize::NFKC (chr $c);
+  my $h = UnicodeNormalize::NFKC (chr $c);
   my $d = [map { sprintf '%04X', ord $_ } split //, $h];
 
   my $e = join ' ', map {
@@ -36,7 +36,7 @@ for my $c (0x0000..0x10FFFF) {
   } @$d;
   my $f = join '', map { chr hex $_ } split / /, $e;
 
-  my $g = Unicode::Normalize::NFKC ($f);
+  my $g = UnicodeNormalize::NFKC ($f);
 
   push @set, [$c => $c] unless $g eq chr $c;
   push @set2, [$c => $c] unless $h eq chr $c;

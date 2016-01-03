@@ -1,4 +1,4 @@
-package Unicode::Normalize;
+package UnicodeNormalize;
 
 BEGIN {
     unless ('A' eq pack('U', 0x41)) {
@@ -63,12 +63,10 @@ our %NonStD;	# $codepoint => 1          : non-starter decompositions
 our %Comp2nd;	# $codepoint => 1          : may be composed with a prev char.
 
 # from core Unicode database
-our $Combin = do "unicore/CombiningClass.pl"
-    || do "unicode/CombiningClass.pl"
-    || croak "$PACKAGE: CombiningClass.pl not found";
-our $Decomp = do "unicore/Decomposition.pl"
-    || do "unicode/Decomposition.pl"
-    || croak "$PACKAGE: Decomposition.pl not found";
+our $Combin = do "unicore-CombiningClass.pl"
+    || croak "$PACKAGE: unicore-CombiningClass.pl not found (@INC)";
+our $Decomp = do "unicore-Decomposition.pl"
+    || croak "$PACKAGE: unicore-Decomposition.pl not found (@INC)";
 
 # CompositionExclusions.txt since Unicode 3.2.0
 our @CompEx = qw(

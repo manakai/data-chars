@@ -1,19 +1,28 @@
 use strict;
 use warnings;
-use Path::Class;
-use lib glob file (__FILE__)->dir->subdir ('lib')->stringify;
-use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib')->stringify;
-use JSON::Functions::XS qw(perl2json_bytes_for_record file2perl);
+use Path::Tiny;
+use lib glob path (__FILE__)->parent->child ('lib')->stringify;
+use lib glob path (__FILE__)->parent->child ('modules/*/lib')->stringify;
+use JSON::PS;
 use Charinfo::Set;
-use Unicode::Normalize;
+
+my $unicode_version = 'latest';
+
+my $root_path = path (__FILE__)->parent->parent;
+
+{
+  my $path = $root_path->child ('local/perl-unicode', $unicode_version, 'lib');
+  unshift our @INC, $path->stringify;
+  require UnicodeNormalize;
+}
 
 my @has_compat_decomposition;
 my @has_canon_decomposition;
 my @canon_decomposition_second;
 
 {
-  my $f = file (__FILE__)->dir->parent->file ('local', 'unicode', 'latest', 'UnicodeData.txt');
-  for (($f->slurp)) {
+  my $path = $root_path->child ('local/unicode', $unicode_version, 'UnicodeData.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
     chomp;
     my @d = split /;/, $_;
 
@@ -32,7 +41,7 @@ my @canon_decomposition_second;
 
 for (0xAC00..0xD7A3) {
   my $c1 = chr $_;
-  my $c2 = NFD $c1;
+  my $c2 = UnicodeNormalize::NFD ($c1);
   next if $c1 eq $c2;
   push @has_canon_decomposition, [ord $c1, ord $c1];
   my @c2 = split //, $c2;
@@ -42,12 +51,12 @@ for (0xAC00..0xD7A3) {
   }
 }
 
-my $set_d = file (__FILE__)->dir->parent->subdir ('src', 'set', 'unicode');
-print { $set_d->file ('has_canon_decomposition.expr')->openw }
+my $set_path = $root_path->child ('src/set/unicode');
+print { $set_path->child ('has_canon_decomposition.expr')->openw }
     Charinfo::Set->serialize_set (\@has_canon_decomposition);
-print { $set_d->file ('has_compat_decomposition.expr')->openw }
+print { $set_path->child ('has_compat_decomposition.expr')->openw }
     Charinfo::Set->serialize_set (\@has_compat_decomposition);
-print { $set_d->file ('canon_decomposition_second.expr')->openw }
+print { $set_path->child ('canon_decomposition_second.expr')->openw }
     Charinfo::Set->serialize_set (\@canon_decomposition_second);
 
 ## License: Public Domain.
