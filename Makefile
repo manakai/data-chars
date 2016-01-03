@@ -91,6 +91,8 @@ data/names.json: local/unicode/latest/NamesList.txt \
     bin/names.pl src/janames-jisx0213.json src/janames-jisx0211.json
 	$(PERL) bin/names.pl > $@
 
+UNICODE_VERSION = XXXVERSIONNOTSPECIFIEDXXX
+
 unicode-general-category-2.0: local/unicode/2.0/UnicodeData.txt
 	$(PERL) bin/generate-general-category.pl 2.0 $<
 unicode-general-category-2.1: local/unicode/2.1/UnicodeData.txt
@@ -145,6 +147,9 @@ local/unicode/6.2/UnicodeData.txt:
 local/unicode/6.3/UnicodeData.txt:
 	mkdir -p local/unicode/6.3
 	$(WGET) -O $@ http://www.unicode.org/Public/6.3.0/ucd/UnicodeData.txt
+local/unicode/6.3.0/UnicodeData.txt:
+	mkdir -p local/unicode/6.3.0
+	$(WGET) -O $@ http://www.unicode.org/Public/6.3.0/ucd/UnicodeData.txt
 local/unicode/latest/UnicodeData.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
@@ -158,6 +163,9 @@ local/unicode/latest/SpecialCasing.txt:
 local/unicode/latest/HangulSyllableType.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/HangulSyllableType.txt
+local/unicode/$(UNICODE_VERSION)/DerivedCombiningClass.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedCombiningClass.txt
 local/unicode/latest/DerivedCombiningClass.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedCombiningClass.txt
@@ -175,14 +183,23 @@ src/set/unicode/Hangul_Syllable_Type/files: \
 src/set/unicode/Canonical_Combining_Class/files: \
     bin/ccc.pl \
     local/unicode/latest/DerivedCombiningClass.txt
-	$(PERL) bin/ccc.pl
+	$(PERL) bin/ccc.pl latest
+	touch $@
+src/set/unicode$(UNICODE_VERSION:.0=)/Canonical_Combining_Class/files: \
+    bin/ccc.pl \
+    local/unicode/$(UNICODE_VERSION)/DerivedCombiningClass.txt
+	$(PERL) bin/ccc.pl $(UNICODE_VERSION)
 	touch $@
 
 local/perl-unicode/lib/unicore/CombiningClass.pl: \
     src/set/unicode/Canonical_Combining_Class/files
-local/perl-unicode/lib/unicore/Decomposition.pl: \
+local/perl-unicode/$(UNICODE_VERSION)/lib/unicore/Decomposition.pl: \
+    bin/unicore-decomposition.pl \
+    local/unicode/$(UNICODE_VERSION)/UnicodeData.txt
+	$(PERL) bin/unicore-decomposition.pl $(UNICODE_VERSION)
+local/perl-unicode/latest/lib/unicore/Decomposition.pl: \
     bin/unicore-decomposition.pl local/unicode/latest/UnicodeData.txt
-	$(PERL) bin/unicore-decomposition.pl
+	$(PERL) bin/unicore-decomposition.pl latest
 src/set/unicode/has_canon_decomposition.expr: bin/unicode-decompositions.pl \
     local/unicode/latest/UnicodeData.txt
 	$(PERL) bin/unicode-decompositions.pl
@@ -190,8 +207,12 @@ src/set/unicode/has_compat_decomposition.expr: \
     src/set/unicode/has_canon_decomposition.expr
 
 PERL_UNICODE_NORMALIZE = \
-  local/perl-unicode/lib/unicore/CombiningClass.pl \
-  local/perl-unicode/lib/unicore/Decomposition.pl \
+  local/perl-unicode/latest/lib/unicore/CombiningClass.pl \
+  local/perl-unicode/latest/lib/unicore/Decomposition.pl \
+  bin/lib/Unicode/Normalize.pm
+PERL_UNICODE_NORMALIZE_VERSIONED = \
+  local/perl-unicode/$(UNICODE_VERSION)/lib/unicore/CombiningClass.pl \
+  local/perl-unicode/$(UNICODE_VERSION)/lib/unicore/Decomposition.pl \
   bin/lib/Unicode/Normalize.pm
 
 clean-perl-unicode:
@@ -238,10 +259,14 @@ local/unicode/latest/DerivedNormalizationProps.txt:
 src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
     bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE)
 # data/maps.json
-	$(PERL) bin/idna2008-unstable.pl
+	$(PERL) bin/idna2008-unstable.pl latest
 src/set/rfc7564/HasCompat.expr: src/set/rfc5892/Unstable.expr
-
-UNICODE_VERSION = XXXVERSIONNOTSPECIFIEDXXX
+src/set/rfc5892-$(UNICODE_VERSION)/Unstable.expr: bin/idna2008-unstable.pl \
+    bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE_VERSIONED)
+# data/maps.json
+	$(PERL) bin/idna2008-unstable.pl $(UNICODE_VERSION)
+src/set/rfc7564-$(UNICODE_VERSION)/HasCompat.expr: \
+    src/set/rfc5892-$(UNICODE_VERSION)/Unstable.expr
 
 local/iana-idna/$(UNICODE_VERSION).xml:
 	mkdir -p local/iana-idna
