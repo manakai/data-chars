@@ -24,9 +24,9 @@ my @entry;
   }
 }
 
-my $perldata_path = $output_perl_path->child ('lib/unicore');
+my $perldata_path = $output_perl_path->child ('lib');
 $perldata_path->mkpath;
-$perldata_path->child ('Decomposition.pl')->spew
+$perldata_path->child ('unicore-Decomposition.pl')->spew
     (join '',
          qq{<<'END'\n},
          (sort { $a cmp $b } @entry),

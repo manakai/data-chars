@@ -12,8 +12,8 @@ my $input_ucd_path = $root_path->child ('local/unicode', $unicode_version);
 
 {
   my $path = $root_path->child ('local/perl-unicode', $unicode_version, 'lib');
-  push our @ISA, $path->stringify;
-  require Unicode::Normalize;
+  unshift our @INC, $path->stringify;
+  require UnicodeNormalize;
 }
 
 my $Data = {};
@@ -59,7 +59,7 @@ my $Maps = {};
 
 for (0xAC00..0xD7A3) {
   $Maps->{'unicode:canon_decomposition'}->{$_} =
-  $Maps->{'unicode:compat_decomposition'}->{$_} = [map { ord $_ } split //, Unicode::Normalize::NFD (chr $_)];
+  $Maps->{'unicode:compat_decomposition'}->{$_} = [map { ord $_ } split //, UnicodeNormalize::NFD (chr $_)];
 }
 
 {

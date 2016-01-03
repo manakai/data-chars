@@ -207,15 +207,15 @@ src/set/unicode$(UNICODE_VERSION:.0=)/Canonical_Combining_Class/files: \
 	$(PERL) bin/ccc.pl $(UNICODE_VERSION)
 	touch $@
 
-local/perl-unicode/latest/lib/unicore/CombiningClass.pl: \
+local/perl-unicode/latest/lib/unicore-CombiningClass.pl: \
     src/set/unicode/Canonical_Combining_Class/files
-local/perl-unicode/$(UNICODE_VERSION)/lib/unicore/Decomposition.pl: \
+local/perl-unicode/latest/lib/unicore-Decomposition.pl: \
+    bin/unicore-decomposition.pl local/unicode/latest/UnicodeData.txt
+	$(PERL) bin/unicore-decomposition.pl latest
+local/perl-unicode/$(UNICODE_VERSION)/lib/unicore-Decomposition.pl: \
     bin/unicore-decomposition.pl \
     local/unicode/$(UNICODE_VERSION)/UnicodeData.txt
 	$(PERL) bin/unicore-decomposition.pl $(UNICODE_VERSION)
-local/perl-unicode/latest/lib/unicore/Decomposition.pl: \
-    bin/unicore-decomposition.pl local/unicode/latest/UnicodeData.txt
-	$(PERL) bin/unicore-decomposition.pl latest
 src/set/unicode/has_canon_decomposition.expr: bin/unicode-decompositions.pl \
     local/unicode/latest/UnicodeData.txt
 	$(PERL) bin/unicode-decompositions.pl
@@ -223,13 +223,13 @@ src/set/unicode/has_compat_decomposition.expr: \
     src/set/unicode/has_canon_decomposition.expr
 
 PERL_UNICODE_NORMALIZE = \
-  local/perl-unicode/latest/lib/unicore/CombiningClass.pl \
-  local/perl-unicode/latest/lib/unicore/Decomposition.pl \
-  bin/lib/Unicode/Normalize.pm
+  local/perl-unicode/latest/lib/unicore-CombiningClass.pl \
+  local/perl-unicode/latest/lib/unicore-Decomposition.pl \
+  bin/lib/UnicodeNormalize.pm
 PERL_UNICODE_NORMALIZE_VERSIONED = \
-  local/perl-unicode/$(UNICODE_VERSION)/lib/unicore/CombiningClass.pl \
-  local/perl-unicode/$(UNICODE_VERSION)/lib/unicore/Decomposition.pl \
-  bin/lib/Unicode/Normalize.pm
+  local/perl-unicode/$(UNICODE_VERSION)/lib/unicore-CombiningClass.pl \
+  local/perl-unicode/$(UNICODE_VERSION)/lib/unicore-Decomposition.pl \
+  bin/lib/UnicodeNormalize.pm
 
 clean-perl-unicode:
 	rm -fr local/perl-unicode

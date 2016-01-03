@@ -43,9 +43,9 @@ for (0..$#$Data) {
 }
 
 {
-  my $perldata_path = $output_perl_path->child ('lib/unicore');
+  my $perldata_path = $output_perl_path->child ('lib');
   $perldata_path->mkpath;
-  $perldata_path->child ('CombiningClass.pl')->spew
+  $perldata_path->child ('unicore-CombiningClass.pl')->spew
       (join '',
        qq{<<'END'\n},
        (map { sprintf "%04X\t\t%d\n", $_, $Data->[$_] } grep { $Data->[$_] } 0..$#$Data),

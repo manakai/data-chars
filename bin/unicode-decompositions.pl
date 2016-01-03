@@ -12,8 +12,8 @@ my $root_path = path (__FILE__)->parent->parent;
 
 {
   my $path = $root_path->child ('local/perl-unicode', $unicode_version, 'lib');
-  push our @ISA, $path->stringify;
-  require Unicode::Normalize;
+  unshift our @INC, $path->stringify;
+  require UnicodeNormalize;
 }
 
 my @has_compat_decomposition;
@@ -41,7 +41,7 @@ my @canon_decomposition_second;
 
 for (0xAC00..0xD7A3) {
   my $c1 = chr $_;
-  my $c2 = Unicode::Normalize::NFD ($c1);
+  my $c2 = UnicodeNormalize::NFD ($c1);
   next if $c1 eq $c2;
   push @has_canon_decomposition, [ord $c1, ord $c1];
   my @c2 = split //, $c2;
