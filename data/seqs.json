@@ -2236,7 +2236,7 @@
       "html_charref" : "&acE;"
    },
    "2242 0338" : {
-      "html_charref" : "&NotEqualTilde;"
+      "html_charref" : "&nesim;"
    },
    "224B 0338" : {
       "html_charref" : "&napid;"
@@ -2245,7 +2245,7 @@
       "html_charref" : "&nvap;"
    },
    "224E 0338" : {
-      "html_charref" : "&NotHumpDownHump;"
+      "html_charref" : "&nbump;"
    },
    "224F 0338" : {
       "html_charref" : "&nbumpe;"
@@ -2266,16 +2266,16 @@
       "html_charref" : "&nleqq;"
    },
    "2267 0338" : {
-      "html_charref" : "&ngE;"
+      "html_charref" : "&ngeqq;"
    },
    "2268 FE00" : {
-      "html_charref" : "&lvertneqq;"
+      "html_charref" : "&lvnE;"
    },
    "2269 FE00" : {
       "html_charref" : "&gvnE;"
    },
    "226A 0338" : {
-      "html_charref" : "&NotLessLess;"
+      "html_charref" : "&nLtv;"
    },
    "226A 20D2" : {
       "html_charref" : "&nLt;"
@@ -2353,10 +2353,10 @@
       "html_charref" : "&napE;"
    },
    "2A7D 0338" : {
-      "html_charref" : "&nleqslant;"
+      "html_charref" : "&nles;"
    },
    "2A7E 0338" : {
-      "html_charref" : "&ngeqslant;"
+      "html_charref" : "&nges;"
    },
    "2AA1 0338" : {
       "html_charref" : "&NotNestedLessLess;"
@@ -2374,7 +2374,7 @@
       "html_charref" : "&npreceq;"
    },
    "2AB0 0338" : {
-      "html_charref" : "&NotSucceedsEqual;"
+      "html_charref" : "&nsucceq;"
    },
    "2AC5 0338" : {
       "html_charref" : "&nsubseteqq;"
@@ -2383,7 +2383,7 @@
       "html_charref" : "&nsupseteqq;"
    },
    "2ACB FE00" : {
-      "html_charref" : "&varsubsetneqq;"
+      "html_charref" : "&vsubnE;"
    },
    "2ACC FE00" : {
       "html_charref" : "&vsupnE;"
