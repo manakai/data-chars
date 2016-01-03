@@ -191,7 +191,7 @@ src/set/unicode$(UNICODE_VERSION:.0=)/Canonical_Combining_Class/files: \
 	$(PERL) bin/ccc.pl $(UNICODE_VERSION)
 	touch $@
 
-local/perl-unicode/lib/unicore/CombiningClass.pl: \
+local/perl-unicode/latest/lib/unicore/CombiningClass.pl: \
     src/set/unicode/Canonical_Combining_Class/files
 local/perl-unicode/$(UNICODE_VERSION)/lib/unicore/Decomposition.pl: \
     bin/unicore-decomposition.pl \
