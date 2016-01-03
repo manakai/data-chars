@@ -2245,10 +2245,10 @@
       "html_charref" : "&nvap;"
    },
    "224E 0338" : {
-      "html_charref" : "&nbump;"
+      "html_charref" : "&NotHumpDownHump;"
    },
    "224F 0338" : {
-      "html_charref" : "&NotHumpEqual;"
+      "html_charref" : "&nbumpe;"
    },
    "2250 0338" : {
       "html_charref" : "&nedot;"
@@ -2263,13 +2263,13 @@
       "html_charref" : "&nvge;"
    },
    "2266 0338" : {
-      "html_charref" : "&nlE;"
+      "html_charref" : "&nleqq;"
    },
    "2267 0338" : {
       "html_charref" : "&ngE;"
    },
    "2268 FE00" : {
-      "html_charref" : "&lvnE;"
+      "html_charref" : "&lvertneqq;"
    },
    "2269 FE00" : {
       "html_charref" : "&gvnE;"
@@ -2281,7 +2281,7 @@
       "html_charref" : "&nLt;"
    },
    "226B 0338" : {
-      "html_charref" : "&NotGreaterGreater;"
+      "html_charref" : "&nGtv;"
    },
    "226B 20D2" : {
       "html_charref" : "&nGt;"
@@ -2293,13 +2293,13 @@
       "html_charref" : "&vnsub;"
    },
    "2283 20D2" : {
-      "html_charref" : "&NotSuperset;"
+      "html_charref" : "&vnsup;"
    },
    "228A FE00" : {
-      "html_charref" : "&varsubsetneq;"
+      "html_charref" : "&vsubne;"
    },
    "228B FE00" : {
-      "html_charref" : "&varsupsetneq;"
+      "html_charref" : "&vsupne;"
    },
    "228F 0338" : {
       "html_charref" : "&NotSquareSubset;"
@@ -2353,7 +2353,7 @@
       "html_charref" : "&napE;"
    },
    "2A7D 0338" : {
-      "html_charref" : "&NotLessSlantEqual;"
+      "html_charref" : "&nleqslant;"
    },
    "2A7E 0338" : {
       "html_charref" : "&ngeqslant;"
@@ -2371,19 +2371,19 @@
       "html_charref" : "&lates;"
    },
    "2AAF 0338" : {
-      "html_charref" : "&NotPrecedesEqual;"
+      "html_charref" : "&npreceq;"
    },
    "2AB0 0338" : {
       "html_charref" : "&NotSucceedsEqual;"
    },
    "2AC5 0338" : {
-      "html_charref" : "&nsubE;"
+      "html_charref" : "&nsubseteqq;"
    },
    "2AC6 0338" : {
       "html_charref" : "&nsupseteqq;"
    },
    "2ACB FE00" : {
-      "html_charref" : "&vsubnE;"
+      "html_charref" : "&varsubsetneqq;"
    },
    "2ACC FE00" : {
       "html_charref" : "&vsupnE;"
