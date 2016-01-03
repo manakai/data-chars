@@ -60,7 +60,7 @@ for (@{($doc->get_element_by_id ('precis-tables-properties') ||
         $type = $1;
       } elsif ($_->text_content =~ /^([A-Z_]+)\s+or\s+([A-Z_]+)$/) {
         $type = $1;
-        $type2 = $1;
+        $type2 = $2;
       }
     }
   }
