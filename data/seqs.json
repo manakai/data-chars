@@ -2236,7 +2236,7 @@
       "html_charref" : "&acE;"
    },
    "2242 0338" : {
-      "html_charref" : "&nesim;"
+      "html_charref" : "&NotEqualTilde;"
    },
    "224B 0338" : {
       "html_charref" : "&napid;"
@@ -2245,10 +2245,10 @@
       "html_charref" : "&nvap;"
    },
    "224E 0338" : {
-      "html_charref" : "&NotHumpDownHump;"
+      "html_charref" : "&nbump;"
    },
    "224F 0338" : {
-      "html_charref" : "&nbumpe;"
+      "html_charref" : "&NotHumpEqual;"
    },
    "2250 0338" : {
       "html_charref" : "&nedot;"
@@ -2263,10 +2263,10 @@
       "html_charref" : "&nvge;"
    },
    "2266 0338" : {
-      "html_charref" : "&nlE;"
+      "html_charref" : "&nleqq;"
    },
    "2267 0338" : {
-      "html_charref" : "&ngeqq;"
+      "html_charref" : "&NotGreaterFullEqual;"
    },
    "2268 FE00" : {
       "html_charref" : "&lvertneqq;"
@@ -2275,13 +2275,13 @@
       "html_charref" : "&gvnE;"
    },
    "226A 0338" : {
-      "html_charref" : "&NotLessLess;"
+      "html_charref" : "&nLtv;"
    },
    "226A 20D2" : {
       "html_charref" : "&nLt;"
    },
    "226B 0338" : {
-      "html_charref" : "&NotGreaterGreater;"
+      "html_charref" : "&nGtv;"
    },
    "226B 20D2" : {
       "html_charref" : "&nGt;"
@@ -2290,10 +2290,10 @@
       "html_charref" : "&NotSucceedsTilde;"
    },
    "2282 20D2" : {
-      "html_charref" : "&vnsub;"
+      "html_charref" : "&nsubset;"
    },
    "2283 20D2" : {
-      "html_charref" : "&NotSuperset;"
+      "html_charref" : "&nsupset;"
    },
    "228A FE00" : {
       "html_charref" : "&varsubsetneq;"
@@ -2353,10 +2353,10 @@
       "html_charref" : "&napE;"
    },
    "2A7D 0338" : {
-      "html_charref" : "&nleqslant;"
+      "html_charref" : "&nles;"
    },
    "2A7E 0338" : {
-      "html_charref" : "&ngeqslant;"
+      "html_charref" : "&NotGreaterSlantEqual;"
    },
    "2AA1 0338" : {
       "html_charref" : "&NotNestedLessLess;"
@@ -2377,13 +2377,13 @@
       "html_charref" : "&nsce;"
    },
    "2AC5 0338" : {
-      "html_charref" : "&nsubseteqq;"
+      "html_charref" : "&nsubE;"
    },
    "2AC6 0338" : {
       "html_charref" : "&nsupE;"
    },
    "2ACB FE00" : {
-      "html_charref" : "&vsubnE;"
+      "html_charref" : "&varsubsetneqq;"
    },
    "2ACC FE00" : {
       "html_charref" : "&vsupnE;"
