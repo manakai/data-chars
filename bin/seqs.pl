@@ -27,7 +27,7 @@ my $Data = {};
 
 {
   my $json = json_bytes2perl $root_path->child ('local/html-charrefs.json')->slurp;
-  for my $ref (keys %{$json}) {
+  for my $ref (sort { $a cmp $b } keys %{$json}) {
     my $cp = $json->{$ref}->{codepoints};
     if (@$cp > 1) {
       my $seq = join ' ', map { sprintf '%04X', $_ } @$cp;
