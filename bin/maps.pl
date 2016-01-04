@@ -4,6 +4,7 @@ use Path::Tiny;
 use lib glob path (__FILE__)->parent->child ('lib')->stringify;
 use lib glob path (__FILE__)->parent->child ('modules/*/lib')->stringify;
 use JSON::PS;
+use Charinfo::Set;
 
 my $unicode_version = 'latest';
 
@@ -277,11 +278,12 @@ for my $map (keys %$Maps) {
   }
 }
 
+my $SetsJSON;
 my $full_exclusion;
 {
   my $path = $root_path->child ('data/sets.json');
-  my $json = json_bytes2perl $path->slurp;
-  my $chars = $json->{sets}->{'$unicode:Full_Composition_Exclusion'}->{chars};
+  $SetsJSON = json_bytes2perl $path->slurp;
+  my $chars = $SetsJSON->{sets}->{'$unicode:Full_Composition_Exclusion'}->{chars};
   $chars =~ s/\\u([0-9A-F]{4})/\\x{$1}/g;
   $chars =~ s/\\u\{([0-9A-F]+)\}/\\x{$1}/g;
   $full_exclusion = qr/$chars/;
@@ -292,6 +294,19 @@ for my $from_char (keys %{$Data->{maps}->{'unicode:canon_decomposition'}->{chars
   next if (chr hex $from_char) =~ /$full_exclusion/o;
   warn "Duplicate: $to_chars" if $Data->{maps}->{'unicode:canon_composition'}->{chars}->{$to_chars};
   $Data->{maps}->{'unicode:canon_composition'}->{chars}->{$to_chars} = $from_char;
+}
+
+for (
+  ['$rfc7613:non-ASCII-space' => 'rfc7613:non-ASCII-space'],
+  ['$rfc7700:non-ASCII-space' => 'rfc7700:non-ASCII-space'],
+) {
+  my ($set_name, $map_name) = @$_;
+  my $set = Charinfo::Set->evaluate_expression ($SetsJSON->{sets}->{$set_name}->{chars});
+  for (@$set) {
+    for ($_->[0]..$_->[1]) {
+      $Data->{maps}->{$map_name}->{chars}->{u $_} = '0020';
+    }
+  }
 }
 
 ## <http://www.whatwg.org/specs/web-apps/current-work/#consume-a-character-reference>
