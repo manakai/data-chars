@@ -1,0 +1,4 @@
+#label:IdentifierClass character
+#sw:IdentifierClass
+$rfc7564:IdentifierClass:valid |
+$rfc7564:IdentifierClass:contextual-rule-required

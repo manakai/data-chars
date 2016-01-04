@@ -354,7 +354,8 @@ src/set/rfc5892-$(UNICODE_VERSION)/files: \
 src/set/rfc7564-$(UNICODE_VERSION)/files: \
     bin/copy-for-unicode-version.pl \
     src/set/rfc7564/*.expr src/set/rfc7564/*/*.expr \
-    src/set/rfc7564-$(UNICODE_VERSION)/HasCompat.expr
+    src/set/rfc7564-$(UNICODE_VERSION)/HasCompat.expr \
+    src/set/rfc5892-$(UNICODE_VERSION)/files
 	$(PERL) bin/copy-for-unicode-version.pl rfc7564 $(UNICODE_VERSION)
 	touch $@
 

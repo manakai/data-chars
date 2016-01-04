@@ -1,0 +1,4 @@
+#label:OpaqueString character
+#sw:OpaqueString
+#url:https://tools.ietf.org/html/rfc7613#section-4.2
+$rfc7564:FreeformClass:char

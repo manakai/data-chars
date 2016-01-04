@@ -1,0 +1,3 @@
+#label:ASCII space
+#url:https://tools.ietf.org/html/rfc7613#section-2
+[\u0020]

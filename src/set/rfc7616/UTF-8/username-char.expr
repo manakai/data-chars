@@ -1,0 +1,4 @@
+#label:UTF-8 username character
+#sw:UTF-8
+#url:https://tools.ietf.org/html/rfc7616#section-4
+$rfc7613:UsernameCasePreserved:char - [:]

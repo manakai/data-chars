@@ -13,8 +13,8 @@ $src_path->visit (sub {
   my $src_file_path = $_[0];
   return unless $src_file_path =~ qr/\.expr$/;
   my $rel = $src_file_path->relative ($src_path);
-  return if $rel =~ m{rfc5892/Unstable.expr$} or
-            $rel =~ m{rfc7564/HasCompat.expr$};
+  return if $src_file_path =~ m{rfc5892/Unstable.expr$} or
+            $src_file_path =~ m{rfc7564/HasCompat.expr$};
   my $dest_file_path = $dest_path->child ($rel);
   my $data = $src_file_path->slurp;
 

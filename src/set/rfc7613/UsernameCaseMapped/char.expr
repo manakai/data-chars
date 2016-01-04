@@ -1,0 +1,4 @@
+#label:UsernameCaseMapped character
+#sw:UsernameCaseMapped
+#url:https://tools.ietf.org/html/rfc7613#section-3.2
+$rfc7564:IdentifierClass:char
