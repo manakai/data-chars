@@ -1,0 +1,4 @@
+#label:Nickname character
+#sw:Nickname
+#url:https://tools.ietf.org/html/rfc7700
+$rfc7564:FreeformClass:char
