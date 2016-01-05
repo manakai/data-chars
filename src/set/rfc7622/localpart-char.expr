@@ -1,0 +1,4 @@
+#label:localpart character
+#url:https://tools.ietf.org/html/rfc7622#section-3.3
+#sw:localpart
+$rfc7613:UsernameCaseMapped:char - [\u0022&\u0027/:<>@]

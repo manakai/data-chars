@@ -1,0 +1,4 @@
+#label:resourcepart character
+#url:https://tools.ietf.org/html/rfc7622#section-3.4
+#sw:localpart
+$rfc7613:OpaqueString:char
