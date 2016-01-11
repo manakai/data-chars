@@ -1112,6 +1112,16 @@
          "unicode_id" : "excluded",
          "xforms" : "Nabataean"
       },
+      "Newa" : {
+         "desc" : [
+            "Newa",
+            "Newar",
+            "Newari",
+            "Nepāla lipi"
+         ],
+         "ianareg" : "2016-01-04",
+         "iso" : "Newa"
+      },
       "Nkgb" : {
          "desc" : [
             "Nakhi Geba",
@@ -1285,6 +1295,13 @@
          "unicode" : "Phoenician",
          "unicode_id" : "excluded",
          "xforms" : "Phoenician"
+      },
+      "Piqd" : {
+         "desc" : [
+            "Klingon (KLI pIqaD)"
+         ],
+         "ianareg" : "2016-01-04",
+         "iso" : "Piqd"
       },
       "Plrd" : {
          "desc" : [
@@ -2035,6 +2052,13 @@
          "ianareg" : "2007-12-05",
          "iso" : "Zmth",
          "xforms" : "math"
+      },
+      "Zsye" : {
+         "desc" : [
+            "Symbols (Emoji variant)"
+         ],
+         "ianareg" : "2016-01-04",
+         "iso" : "Zsye"
       },
       "Zsym" : {
          "desc" : [
