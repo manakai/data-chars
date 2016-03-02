@@ -486,6 +486,13 @@
          "unicode_id" : "recommended",
          "xforms" : "Gurmukhi"
       },
+      "Hanb" : {
+         "desc" : [
+            "Han with Bopomofo (alias for Han \u002B Bopomofo)"
+         ],
+         "ianareg" : "2016-02-08",
+         "iso" : "Hanb"
+      },
       "Hang" : {
          "collation_reorder" : "Hang",
          "desc" : [
@@ -639,6 +646,13 @@
          "unicode" : "Old_Italic",
          "unicode_id" : "excluded",
          "xforms" : "OldItalic"
+      },
+      "Jamo" : {
+         "desc" : [
+            "Jamo (alias for Jamo subset of Hangul)"
+         ],
+         "ianareg" : "2016-02-08",
+         "iso" : "Jamo"
       },
       "Java" : {
          "desc" : [
