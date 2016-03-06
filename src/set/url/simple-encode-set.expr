@@ -1,0 +1,4 @@
+#label:simple encode set
+#url:https://url.spec.whatwg.org/#simple-encode-set
+- [\u0000-\u007E]
+| $url:C0-controls
