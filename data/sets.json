@@ -10167,6 +10167,12 @@
          "suikawiki_name" : "simple encode set",
          "url" : "https://url.spec.whatwg.org/#simple-encode-set"
       },
+      "$url:tab-and-newline" : {
+         "chars" : "[\\u0009-\\u000A\\u000D]",
+         "label" : "tab and newline",
+         "suikawiki_name" : "tab and newline",
+         "url" : "https://url.spec.whatwg.org/#tab-and-newline"
+      },
       "$url:userinfo-encode-set" : {
          "chars" : "[\\u0000-\\u0020\"-\\u0023/:-\\u0040\\u005B-\\u005E`{-}\\u007F-\\u{10FFFF}]",
          "label" : "userinfo encode set",

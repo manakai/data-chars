@@ -1,0 +1,3 @@
+#label:tab and newline
+#url:https://url.spec.whatwg.org/#tab-and-newline
+[\u0009\u000A\u000D]
