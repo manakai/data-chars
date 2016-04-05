@@ -1,0 +1,4 @@
+#label:binary data byte (as ASCII)
+#url: https://mimesniff.spec.whatwg.org/#binary-data-byte
+#sw: binary data byte
+[\u0000-\u0008\u000B\u000E-\u001A\u001C-\u001F]

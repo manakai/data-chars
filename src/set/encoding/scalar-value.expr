@@ -1,0 +1,4 @@
+#label: scalar value
+#url: https://encoding.spec.whatwg.org/#scalar-value
+#sw: scalar value
+$encoding:code-point - [\uD800-\uDFFF]

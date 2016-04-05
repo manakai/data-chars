@@ -1,0 +1,4 @@
+#label: code point
+#url: https://encoding.spec.whatwg.org/#code-point
+#sw: code point
+[\u0000-\u{10FFFF}]

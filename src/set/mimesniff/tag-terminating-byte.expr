@@ -1,0 +1,4 @@
+#label: tag-terminating byte (as ASCII)
+#url: https://mimesniff.spec.whatwg.org/#tag-terminating-byte
+#sw: tag-terminating byte
+[\u0020\u003E]

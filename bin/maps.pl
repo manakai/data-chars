@@ -149,9 +149,10 @@ $Maps->{'rfc4518:map:case_folding'} = {%{$Maps->{'rfc3454:B.2'}}};
   }
 }
 
-## <http://www.whatwg.org/specs/web-apps/current-work/#case-sensitivity-and-string-comparison>
-## <http://dom.spec.whatwg.org/#strings>
+## <https://www.whatwg.org/specs/web-apps/current-work/#case-sensitivity-and-string-comparison>
+## <https://dom.spec.whatwg.org/#strings>
 ## <https://url.spec.whatwg.org/#ascii-lowercase>
+## <https://encoding.spec.whatwg.org/#ascii-lowercase>
 for my $from ('A'..'Z') {
   my $to = $from;
   $to =~ tr/A-Z/a-z/;
@@ -160,6 +161,7 @@ for my $from ('A'..'Z') {
   $Maps->{'dom:to-ASCII-lowercase'}->{ord $from} = [ord $to];
   $Maps->{'dom:to-ASCII-uppercase'}->{ord $to} = [ord $from];
   $Maps->{'url:ASCII-lowercase'}->{ord $from} = [ord $to];
+  $Maps->{'encoding:ASCII-lowercase'}->{ord $from} = [ord $to];
 }
 
 ## <https://tools.ietf.org/html/draft-brocklesby-irc-isupport-03#section-3.1>

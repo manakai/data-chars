@@ -1,0 +1,4 @@
+#label: ASCII byte (as ASCII character)
+#url: https://encoding.spec.whatwg.org/#ascii-byte
+#sw: ASCII byte
+[\u0000-\u007F]

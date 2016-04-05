@@ -1,0 +1,4 @@
+#label: ASCII digits
+#url: https://encoding.spec.whatwg.org/#ascii-digits
+#sw: ASCII digits
+[\u0030-\u0039]

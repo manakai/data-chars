@@ -1,0 +1,4 @@
+#label: ASCII whitespace
+#url: https://encoding.spec.whatwg.org/#ascii-whitespace
+#sw: ASCII whitespace
+[\u0009\u000A\u000C\u000D\u0020]

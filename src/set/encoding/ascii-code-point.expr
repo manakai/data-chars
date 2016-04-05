@@ -1,0 +1,4 @@
+#label: ASCII code point
+#url: https://encoding.spec.whatwg.org/#ascii-code-point
+#sw: ASCII code point
+[\u0000-\u007F]

@@ -38,31 +38,33 @@ maps [object]
 [RFC3454] Preparation of Internationalized Strings ("stringprep")
 <http://tools.ietf.org/html/rfc3454#appendix-B.1>.
 
+Encoding Standard <https://encoding.spec.whatwg.org/>.
+
 URL Standard <https://url.spec.whatwg.org/>.
 
 DOM Standard <https://dom.spec.whatwg.org/#strings>.
 
-HTML Standard <http://www.whatwg.org/specs/web-apps/current-work/>.
+HTML Standard <https://www.whatwg.org/specs/web-apps/current-work/>.
 
 RFC 1459 - Internet Relay Chat Protocol
-<http://tools.ietf.org/html/rfc1459.html#section-2.2>.
+<https://tools.ietf.org/html/rfc1459.html#section-2.2>.
 
 RFC 2812 - Internet Relay Chat: Client Protocol
-<http://tools.ietf.org/html/rfc2812#section-2.2>.
+<https://tools.ietf.org/html/rfc2812#section-2.2>.
 
 RFC 2813 - Internet Relay Chat: Server Protocol
-<http://tools.ietf.org/html/rfc2813#section-3.2>.
+<https://tools.ietf.org/html/rfc2813#section-3.2>.
 
 RFC 4518, Lightweight Directory Access Protocol (LDAP):
 Internationalized String Preparation
-<http://tools.ietf.org/html/rfc4518#section-2.2>,
+<https://tools.ietf.org/html/rfc4518#section-2.2>,
 <http://www.rfc-editor.org/errata_search.php?rfc=4518>.
 
 IRC RPL_ISUPPORT Numeric Definition
 <https://tools.ietf.org/html/draft-brocklesby-irc-isupport-03#section-3.1>.
 
 RFC 5051 - i;unicode-casemap - Simple Unicode Collation Algorithm
-<http://tools.ietf.org/html/rfc5051>.
+<https://tools.ietf.org/html/rfc5051>.
 
 * License
 
