@@ -10,25 +10,25 @@
          "label" : "A character in string",
          "suikawiki_name" : "string"
       },
-      "$encoding:ascii-byte" : {
+      "$encoding:ASCII-byte" : {
          "chars" : "[\\u0000-\\u007F]",
          "label" : "ASCII byte (as ASCII character)",
          "suikawiki_name" : "ASCII byte",
          "url" : "https://encoding.spec.whatwg.org/#ascii-byte"
       },
-      "$encoding:ascii-code-point" : {
+      "$encoding:ASCII-code-point" : {
          "chars" : "[\\u0000-\\u007F]",
          "label" : "ASCII code point",
          "suikawiki_name" : "ASCII code point",
          "url" : "https://encoding.spec.whatwg.org/#ascii-code-point"
       },
-      "$encoding:ascii-digits" : {
+      "$encoding:ASCII-digits" : {
          "chars" : "[0-9]",
          "label" : "ASCII digits",
          "suikawiki_name" : "ASCII digits",
          "url" : "https://encoding.spec.whatwg.org/#ascii-digits"
       },
-      "$encoding:ascii-whitespace" : {
+      "$encoding:ASCII-whitespace" : {
          "chars" : "[\\u0009-\\u000A\\u000C-\\u000D\\u0020]",
          "label" : "ASCII whitespace",
          "suikawiki_name" : "ASCII whitespace",
