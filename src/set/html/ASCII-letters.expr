@@ -1,0 +1,5 @@
+#label:ASCII letters
+#url: https://html.spec.whatwg.org/#ascii-letters
+#sw: ASCII letters
+$html:uppercase-ASCII-letters |
+$html:lowercase-ASCII-letters

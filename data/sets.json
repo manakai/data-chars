@@ -217,6 +217,12 @@
          "label" : "ASCII-hex-digits",
          "suikawiki_name" : "ASCII-hex-digits"
       },
+      "$html:ASCII-letters" : {
+         "chars" : "[A-Za-z]",
+         "label" : "ASCII letters",
+         "suikawiki_name" : "ASCII letters",
+         "url" : "https://html.spec.whatwg.org/#ascii-letters"
+      },
       "$html:Unicode-characters" : {
          "chars" : "[\\u0000-\\uD7FF\\uE000-\\u{10FFFF}]",
          "label" : "Unicode-characters",
