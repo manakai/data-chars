@@ -1,4 +1,6 @@
-## <http://www.w3.org/TR/2014/WD-ttml-imsc1-20140501/#h2_recommended-unicode-code-points-per-language>
+#name:Supplementary Character Sets
+#url:https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html#recommended-unicode-code-points-per-language
+#sw:TTML
 
 ## lv, lt, et, tr, hr, cs, pl, sl, sk
 [\u0100-\u017F]

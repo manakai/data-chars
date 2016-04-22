@@ -4371,27 +4371,32 @@
       "$ttml:imsc:CommonCharacterSet" : {
          "chars" : "[\\u0020-~\\u00A0-\\u00FF\\u0152-\\u0153\\u0160-\\u0161\\u0178\\u017D-\\u017E\\u0192\\u02DC\\u2010-\\u2027\\u2030-\\u203A\\u20AC\\u2103\\u2109\\u2120\\u2122\\u2153-\\u215F\\u2500\\u2502\\u250C\\u2510\\u2514\\u2518\\u2588\\u25A1\\u2669-\\u266B]",
          "label" : "imsc:CommonCharacterSet",
-         "suikawiki_name" : "imsc:CommonCharacterSet"
+         "suikawiki_name" : "TTML",
+         "url" : "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html#recommended-unicode-code-points-per-language"
       },
       "$ttml:imsc:RecommendedCharacterSets" : {
          "chars" : "[\\u0020-~\\u00A0-\\u017F\\u0192\\u0218-\\u021B\\u02BC\\u02DC\\u0301\\u0308\\u0386-\\u03CE\\u0400-\\u045F\\u0490-\\u0493\\u049A-\\u049B\\u04A2-\\u04A3\\u04AE-\\u04B1\\u04BA-\\u04BB\\u04D8-\\u04D9\\u04E8-\\u04E9\\u05B0-\\u05C3\\u05D0-\\u05EA\\u05F3-\\u05F4\\u060C-\\u060D\\u061B\\u061E-\\u061F\\u0621-\\u063A\\u0640-\\u0652\\u0660-\\u066D\\u0670\\u2010-\\u2027\\u2030-\\u203A\\u2052\\u20A1-\\u20A2\\u20AC\\u20B3\\u2103\\u2109\\u2116\\u2120\\u2122\\u2153-\\u215F\\u2500\\u2502\\u250C\\u2510\\u2514\\u2518\\u2588\\u25A1\\u2669-\\u266B\\u27E8-\\u27E9]",
          "label" : "imsc:RecommendedCharacterSets",
-         "suikawiki_name" : "imsc:RecommendedCharacterSets"
+         "suikawiki_name" : "TTML",
+         "url" : "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html#recommended-unicode-code-points-per-language"
       },
       "$ttml:imsc:SupplementaryCharacterSets" : {
          "chars" : "[\\u0100-\\u017F\\u0218-\\u021B\\u02BC\\u0301\\u0308\\u0386-\\u03CE\\u0400-\\u045F\\u0490-\\u0493\\u049A-\\u049B\\u04A2-\\u04A3\\u04AE-\\u04B1\\u04BA-\\u04BB\\u04D8-\\u04D9\\u04E8-\\u04E9\\u05B0-\\u05C3\\u05D0-\\u05EA\\u05F3-\\u05F4\\u060C-\\u060D\\u061B\\u061E-\\u061F\\u0621-\\u063A\\u0640-\\u0652\\u0660-\\u066D\\u0670\\u2052\\u20A1-\\u20A2\\u20B3\\u2116\\u27E8-\\u27E9]",
          "label" : "imsc:SupplementaryCharacterSets",
-         "suikawiki_name" : "imsc:SupplementaryCharacterSets"
+         "suikawiki_name" : "TTML",
+         "url" : "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html#recommended-unicode-code-points-per-language"
       },
       "$ttml:imsc:monospaceSerif-codepoints" : {
          "chars" : "[\\u0020-~\\u00A0-\\u017F\\u0192\\u0218-\\u021B\\u02BC\\u02DC\\u0301\\u0308\\u0386-\\u03CE\\u0400-\\u045F\\u0490-\\u0493\\u049A-\\u049B\\u04A2-\\u04A3\\u04AE-\\u04B1\\u04BA-\\u04BB\\u04D8-\\u04D9\\u04E8-\\u04E9\\u05B0-\\u05C3\\u05D0-\\u05EA\\u05F3-\\u05F4\\u060C-\\u060D\\u061B\\u061E-\\u061F\\u0621-\\u063A\\u0640-\\u0652\\u0660-\\u066D\\u0670\\u2010-\\u2027\\u2030-\\u203A\\u2052\\u20A1-\\u20A2\\u20AC\\u20B3\\u2103\\u2109\\u2116\\u2120\\u2122\\u2153-\\u215F\\u2500\\u2502\\u250C\\u2510\\u2514\\u2518\\u2588\\u25A1\\u2669-\\u266B\\u27E8-\\u27E9]",
          "label" : "imsc:monospaceSerif-codepoints",
-         "suikawiki_name" : "imsc:monospaceSerif-codepoints"
+         "suikawiki_name" : "imsc:monospaceSerif-codepoints",
+         "url" : "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html#h-reference-fonts"
       },
       "$ttml:imsc:proportionalSansSerif" : {
          "chars" : "[\\u0020-~\\u00A0-\\u017F\\u0192\\u0218-\\u021B\\u02BC\\u02DC\\u0301\\u0308\\u0386-\\u03CE\\u0400-\\u045F\\u0490-\\u0493\\u049A-\\u049B\\u04A2-\\u04A3\\u04AE-\\u04B1\\u04BA-\\u04BB\\u04D8-\\u04D9\\u04E8-\\u04E9\\u2010-\\u2027\\u2030-\\u203A\\u2052\\u20A1-\\u20A2\\u20AC\\u20B3\\u2103\\u2109\\u2116\\u2120\\u2122\\u2153-\\u215F\\u2500\\u2502\\u250C\\u2510\\u2514\\u2518\\u2588\\u25A1\\u2669-\\u266B\\u27E8-\\u27E9]",
          "label" : "imsc:proportionalSansSerif",
-         "suikawiki_name" : "imsc:proportionalSansSerif"
+         "suikawiki_name" : "imsc:proportionalSansSerif",
+         "url" : "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html#h-reference-fonts"
       },
       "$uax31:candidates_for_inclusion" : {
          "chars" : "['\\u002D-.:\\u00B7\\u058A\\u05F3-\\u05F4\\u0F0B\\u200C-\\u200D\\u2010\\u2019\\u2027\\u30A0\\u30FB]",

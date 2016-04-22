@@ -1,1 +1,3 @@
-$html:uppercase-ASCII-letters | $html:lowercase-ASCII-letters | $html:ASCII-digits
+#name alphanumeric ASCII characters
+#url https://html.spec.whatwg.org/#alphanumeric-ascii-characters
+$html:ASCII-letters | $html:ASCII-digits

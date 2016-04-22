@@ -1,3 +1,6 @@
+#name:Recommended Character Sets
+#url:https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html#recommended-unicode-code-points-per-language
+#sw:TTML
 $ttml:imsc:CommonCharacterSet
 |
 $ttml:imsc:SupplementaryCharacterSets
