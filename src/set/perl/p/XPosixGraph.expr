@@ -1,0 +1,6 @@
+#name:\p{XPosixGraph}
+#url:http://perldoc.perl.org/perluniprops.html
+
+## Not sure what is the definition.
+- $unicode:Noncharacter_Code_Point - $unicode:Cc - $unicode:Cf - $unicode:Cs - $unicode:Cn
+- $unicode:Zs - $unicode:Zp - $unicode:Zl

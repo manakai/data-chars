@@ -1,4 +1,4 @@
-#name:General_Category=M
+#name:General_Category=Mark
 #sw:Mark
 #url:http://www.unicode.org/reports/tr44/#General_Category_Values
-$unicode:Mn | $unicode:Mc | $unicode:Me
+$unicode:M

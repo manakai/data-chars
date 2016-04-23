@@ -1,0 +1,6 @@
+#name:\p{XPosixWord}
+#url:http://perldoc.perl.org/perluniprops.html
+
+$perl:p:Alnum |
+$unicode:M |
+$unicode:Pc

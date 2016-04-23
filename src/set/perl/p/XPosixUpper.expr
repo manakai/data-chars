@@ -1,0 +1,4 @@
+#name:\p{XPosixUpper}
+#url:http://perldoc.perl.org/perluniprops.html
+
+$unicode:Uppercase

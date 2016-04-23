@@ -1,0 +1,4 @@
+#name:General_Category=LC
+#sw:Cased_Letter
+#url:http://www.unicode.org/reports/tr44/#General_Category_Values
+$unicode:Lu | $unicode:Ll | $unicode:Lt

@@ -1,0 +1,4 @@
+#name:General_Category=N
+#sw:Number
+#url:http://www.unicode.org/reports/tr44/#General_Category_Values
+$unicode:Nd | $unicode:Nl | $unicode:No

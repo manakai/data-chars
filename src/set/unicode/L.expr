@@ -1,0 +1,4 @@
+#name:General_Category=L
+#sw:Letter
+#url:http://www.unicode.org/reports/tr44/#General_Category_Values
+$unicode:Lu | $unicode:Ll | $unicode:Lt | $unicode:Lm | $unicode:Lo

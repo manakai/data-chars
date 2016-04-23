@@ -1,0 +1,4 @@
+#name:\p{XPosixXDigit}
+#url:http://perldoc.perl.org/perluniprops.html
+
+$unicode:Hex_Digit

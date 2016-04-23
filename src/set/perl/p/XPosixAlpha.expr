@@ -1,0 +1,3 @@
+#name:\p{XPosixAlpha}
+#url:http://perldoc.perl.org/perluniprops.html
+$unicode:Alphabetic

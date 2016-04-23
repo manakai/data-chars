@@ -1,0 +1,4 @@
+#name:General_Category=P
+#sw:Punctuation
+#url:http://www.unicode.org/reports/tr44/#General_Category_Values
+$unicode:Pc | $unicode:Pd | $unicode:Ps | $unicode:Pe | $unicode:Pi | $unicode:Pf | $unicode:Po

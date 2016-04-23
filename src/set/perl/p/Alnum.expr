@@ -1,0 +1,4 @@
+#name:\p{Alnum}
+#url:http://search.cpan.org/dist/perl/pod/perlunicode.pod#Unicode_Character_Properties
+$unicode:Alphabetic |
+$unicode:Decimal_Number

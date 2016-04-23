@@ -229,6 +229,9 @@ src/set/unicode/has_compat_decomposition.expr: \
 src/set/unicode/canon_decomposition_second.expr: \
     src/set/unicode/has_canon_decomposition.expr
 
+src/set/unicode/Uppercase_Letter.expr: bin/general-category-aliases.pl
+	$(PERL) bin/general-category-aliases.pl latest
+
 PERL_UNICODE_NORMALIZE = \
   local/perl-unicode/latest/lib/unicore-CombiningClass.pl \
   local/perl-unicode/latest/lib/unicore-Decomposition.pl \
@@ -374,6 +377,7 @@ data/sets.json: bin/sets.pl \
     src/set/unicode/has_canon_decomposition.expr \
     src/set/unicode/has_compat_decomposition.expr \
     src/set/unicode/canon_decomposition_second.expr \
+    src/set/unicode/Uppercase_Letter.expr \
     src/set/uax31/files \
     src/set/idna-tables-latest/files \
     src/set/precis-tables-latest/files \

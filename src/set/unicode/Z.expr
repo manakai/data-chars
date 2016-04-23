@@ -1,0 +1,4 @@
+#name:General_Category=Z
+#sw:Separator
+#url:http://www.unicode.org/reports/tr44/#General_Category_Values
+$unicode:Zs | $unicode:Zl | $unicode:Zp

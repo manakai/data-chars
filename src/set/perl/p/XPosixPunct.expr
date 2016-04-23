@@ -1,0 +1,7 @@
+#name:\p{XPosixPunct}
+#url:http://perldoc.perl.org/perluniprops.html
+
+$unicode:Symbol
+- [\u0080-\u{10FFFF}]
+
+| $unicode:Punctuation

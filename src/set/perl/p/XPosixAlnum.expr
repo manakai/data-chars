@@ -1,0 +1,4 @@
+#name:\p{XPosixAlnum}
+#url:http://perldoc.perl.org/perluniprops.html
+$perl:p:XPosixAlpha |
+$perl:p:XPosixDigit

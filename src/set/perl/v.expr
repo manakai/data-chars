@@ -1,0 +1,12 @@
+#name:\v
+#url:http://search.cpan.org/dist/perl/pod/perlrecharclass.pod#Whitespace
+
+[
+ \u000a
+ \u000b
+ \u000c
+ \u000d
+ \u0085
+ \u2028
+ \u2029
+]

@@ -1,0 +1,3 @@
+#name:[:xdigit:]
+#url:http://search.cpan.org/dist/perl/pod/perlrecharclass.pod#POSIX_Character_Classes
+$perl:p:XPosixXDigit

@@ -1,0 +1,4 @@
+#name:\p{XPosixPrint}
+#url:http://perldoc.perl.org/perluniprops.html
+
+$perl:p:XPosixGraph | $unicode:Zs

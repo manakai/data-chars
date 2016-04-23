@@ -1,0 +1,4 @@
+#name:\p{Word}
+#url:http://search.cpan.org/dist/perl/pod/perlrecharclass.pod#Word_characters
+
+$perl:p:XPosixWord

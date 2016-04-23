@@ -1,0 +1,4 @@
+#name:\p{XPosixExpr}
+#url:http://perldoc.perl.org/perluniprops.html
+
+$perl:s
