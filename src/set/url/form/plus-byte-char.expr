@@ -1,0 +1,4 @@
+#label:ASCII character of byte represented as "+" by application/x-www-form-urlencoded byte serializer
+#url:https://url.spec.whatwg.org/#concept-urlencoded-byte-serializer
+#sw:application/x-www-form-urlencoded
+[\u0020]

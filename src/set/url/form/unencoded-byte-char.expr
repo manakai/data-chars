@@ -1,0 +1,12 @@
+#label:ASCII character of byte not encoded by application/x-www-form-urlencoded byte serializer
+#url:https://url.spec.whatwg.org/#concept-urlencoded-byte-serializer
+#sw:application/x-www-form-urlencoded
+[
+\u002A
+\u002D
+\u002E
+\u0030-\u0039
+\u0041-\u005A
+\u005F
+\u0061-\u007A
+]
