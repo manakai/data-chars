@@ -814,6 +814,101 @@
          "label" : "欧文用文字クラス推奨文字種 (JIS X 4052:2000 附属書3)",
          "suikawiki_name" : "JIS X 4052"
       },
+      "$jisx4062-1998:yomi-char" : {
+         "chars" : "[\\u3041-\\u308D\\u308F\\u3092-\\u3093\\u30A1-\\u30ED\\u30EF\\u30F2-\\u30F3\\u30FC]",
+         "label" : "よみ文字列として交換を保証する文字 (JIS X 4062:1998 表1)",
+         "suikawiki_name" : "JIS X 4062"
+      },
+      "$jisx4063-2000:boin" : {
+         "chars" : "[aeiou]",
+         "label" : "母音字 (JIS X 4063:2000 3.c))",
+         "suikawiki_name" : "母音"
+      },
+      "$jisx4063-2000:shiin" : {
+         "chars" : "[b-df-hj-np-tv-z]",
+         "label" : "子音字 (JIS X 4063:2000 3.b))",
+         "suikawiki_name" : "子音"
+      },
+      "$jisx4064-2002:digit" : {
+         "chars" : "[0-9]",
+         "label" : "数字 (JIS X 4064:2002 5.e)",
+         "suikawiki_name" : "数字"
+      },
+      "$jisx4064-2002:hiragana" : {
+         "chars" : "[\\u3041-\\u308D\\u308F\\u3092-\\u3096]",
+         "label" : "平仮名 (JIS X 4064:2002 5.a))",
+         "suikawiki_name" : "平仮名"
+      },
+      "$jisx4064-2002:hiragana-required" : {
+         "chars" : "[\\u3041-\\u308D\\u308F\\u3092-\\u3093]",
+         "label" : "平仮名 (JIS X 4064:2002 5.a)) - required",
+         "suikawiki_name" : "平仮名"
+      },
+      "$jisx4064-2002:kana-symbol" : {
+         "chars" : "[\\u3001-\\u3002\\u300C-\\u300D\\u309B-\\u309C\\u30FB-\\u30FC]",
+         "label" : "仮名記号 (JIS X 4064:2002 5.c))",
+         "suikawiki_name" : "仮名記号 (JIS X 4064:2002 5.c))"
+      },
+      "$jisx4064-2002:katakana" : {
+         "chars" : "[\\u30A1-\\u30ED\\u30EF\\u30F2-\\u30FA\\u31F0-\\u31FF]",
+         "label" : "片仮名 (JIS X 4064:2002 5.b))",
+         "suikawiki_name" : "片仮名"
+      },
+      "$jisx4064-2002:katakana-required" : {
+         "chars" : "[\\u30A1-\\u30ED\\u30EF\\u30F2-\\u30F6]",
+         "label" : "片仮名 (最小集合) (JIS X 4064:2002 5.b)) - required",
+         "suikawiki_name" : "片仮名"
+      },
+      "$jisx4064-2002:latin" : {
+         "chars" : "[A-Za-z]",
+         "label" : "英字 (JIS X 4064:2002 5.d))",
+         "suikawiki_name" : "英字"
+      },
+      "$jisx4064-2002:symbol" : {
+         "chars" : "[!-,.-/:-\\u0040\\u005B-`{-~\\u00A5\\u00B4\\u2018-\\u2019\\u201D\\u203E\\u2212\\u3000]",
+         "label" : "記号 (JIS X 4064:2002 5.f))",
+         "suikawiki_name" : "記号 (JIS X 4064:2002 5.f))"
+      },
+      "$jisx6002-1980:alpha" : {
+         "chars" : "[A-Za-z]",
+         "label" : "英字 (JIS X 6002-1980 4.2.1)",
+         "suikawiki_name" : "英字 (JIS X 6002-1980 4.2.1)"
+      },
+      "$jisx6002-1980:alpha-lower" : {
+         "chars" : "[a-z]",
+         "label" : "英字 (小文字) (JIS X 6002-1980 4.2.1 (2))",
+         "suikawiki_name" : "英字 (小文字) (JIS X 6002-1980 4.2.1 (2))"
+      },
+      "$jisx6002-1980:alpha-upper" : {
+         "chars" : "[A-Z]",
+         "label" : "英字 (大文字) (JIS X 6002-1980 4.2.1 (1))",
+         "suikawiki_name" : "英字 (大文字) (JIS X 6002-1980 4.2.1 (1))"
+      },
+      "$jisx6002-1980:control" : {
+         "chars" : "[\\u0001-\\u0002\\u0004\\u0008-\\u000A\\u000D-\\u000F\\u0017-\\u0018\\u0020\\u007F]",
+         "label" : "制御文字 (JIS X 6002-1980 4.3)",
+         "suikawiki_name" : "制御文字 (JIS X 6002-1980 4.3)"
+      },
+      "$jisx6002-1980:digit" : {
+         "chars" : "[0-9]",
+         "label" : "数字 (JIS X 6002-1980 4.2.3)",
+         "suikawiki_name" : "数字"
+      },
+      "$jisx6002-1980:katakana" : {
+         "chars" : "[\\u30A1-\\u30AB\\u30AD\\u30AF\\u30B1\\u30B3\\u30B5\\u30B7\\u30B9\\u30BB\\u30BD\\u30BF\\u30C1\\u30C3-\\u30C4\\u30C6\\u30C8\\u30CA-\\u30CF\\u30D2\\u30D5\\u30D8\\u30DB\\u30DE-\\u30ED\\u30EF\\u30F2-\\u30F3]",
+         "label" : "片仮名 (JIS X 6002-1980 4.2.2)",
+         "suikawiki_name" : "片仮名"
+      },
+      "$jisx6002-1980:special-alpha" : {
+         "chars" : "[!-/:-\\u0040\\u005B\\u005D-`{-}\\u00A5\\u203E]",
+         "label" : "英字用特殊文字 (JIS X 6002-1980 4.2.4 (1))",
+         "suikawiki_name" : "英字用特殊文字 (JIS X 6002-1980 4.2.4 (1))"
+      },
+      "$jisx6002-1980:special-katakana" : {
+         "chars" : "[\\u3001-\\u3002\\u300C-\\u300D\\u309B-\\u309C\\u30FB\\uFF0D]",
+         "label" : "片仮名用特殊文字 (JIS X 6002-1980 4.2.4 (2))",
+         "suikawiki_name" : "片仮名用特殊文字 (JIS X 6002-1980 4.2.4 (2))"
+      },
       "$kana:hiragana-all" : {
          "chars" : "[\\u3041-\\u3096\\u309D-\\u309F\\u{1B001}]",
          "label" : "平仮名",

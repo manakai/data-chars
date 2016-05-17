@@ -1,0 +1,13 @@
+#label:片仮名 (JIS X 4064:2002 5.b))
+#sw:片仮名
+[
+アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモ
+ヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ
+ァィゥェォッャュョヴヵヶ
+\N{KATAKANA LETTER VA}
+\N{KATAKANA LETTER VI}
+\N{KATAKANA LETTER VE}
+\N{KATAKANA LETTER VO}
+\u{31F0}-\u{31FF}
+]
+# + カ゜～コ゜, セ゜, ツ゜, ト゜, ㇷ゜

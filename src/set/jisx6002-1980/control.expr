@@ -1,0 +1,5 @@
+#label:制御文字 (JIS X 6002-1980 4.3)
+[
+\N{SI}\N{SO}\N{SP}\N{LF}\N{BS}\N{DEL}\N{HT}
+\N{CAN}\N{SOH}\N{STX}\N{ETB}\N{EOT}\N{CR}\N{LF}
+]

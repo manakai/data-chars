@@ -1,0 +1,8 @@
+#label:平仮名 (JIS X 4064:2002 5.a))
+#sw:平仮名
+[
+あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも
+やゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ
+ぁぃぅぇぉっゃゅょ\N{HIRAGANA LETTER VU}\N{HIRAGANA LETTER SMALL KA}\N{HIRAGANA LETTER SMALL KE}
+]
+# + か゜～こ゜

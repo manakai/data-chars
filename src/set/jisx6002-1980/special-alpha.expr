@@ -1,0 +1,12 @@
+#label:英字用特殊文字 (JIS X 6002-1980 4.2.4 (1))
+[
+!"#$%&'()*+,
+\N{HYPHEN-MINUS}
+./:;<=>?@
+\N{LEFT SQUARE BRACKET}
+\N{YEN SIGN}
+\N{RIGHT SQUARE BRACKET}
+\N{CIRCUMFLEX ACCENT}
+_`{|}
+\N{OVERLINE}
+]
