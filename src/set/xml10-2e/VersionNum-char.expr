@@ -1,0 +1,7 @@
+#label:VersionNum character
+#url:http://www.w3.org/TR/2000/REC-xml-20001006#NT-VersionNum
+#sw:VersionNum
+[
+a-zA-Z0-9_.:
+\u002D
+]
