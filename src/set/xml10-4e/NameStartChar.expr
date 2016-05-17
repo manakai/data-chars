@@ -1,0 +1,5 @@
+#label:First character of Name
+#url:http://www.w3.org/TR/2006/REC-xml-20060816/#NT-Name
+#sw:NameStartChar
+$xml10-4e:Letter |
+[_:]

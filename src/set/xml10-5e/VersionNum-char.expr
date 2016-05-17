@@ -1,0 +1,5 @@
+#label:VersionNum character
+#url:https://www.w3.org/TR/xml/#NT-VersionNum
+#sw:VersionNum
+
+[0-9.]
