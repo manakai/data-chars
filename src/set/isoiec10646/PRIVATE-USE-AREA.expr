@@ -1,0 +1,3 @@
+#label:PRIVATE USE AREA
+[
+\u{E000}-\u{F8FF}]

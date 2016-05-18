@@ -362,6 +362,9 @@ src/set/rfc7564-$(UNICODE_VERSION)/files: \
 	$(PERL) bin/copy-for-unicode-version.pl rfc7564 $(UNICODE_VERSION)
 	touch $@
 
+src/set/isoiec10646/300.expr: src/set/isoiec10646/generate.pl
+	$(PERL) $<
+
 local/mozilla-prefs.js:
 	$(WGET) -O $@ https://raw.githubusercontent.com/mozilla/gecko-dev/master/modules/libpref/init/all.js
 src/set/mozilla/IDN-blacklist-chars.expr: local/mozilla-prefs.js \
@@ -383,7 +386,8 @@ data/sets.json: bin/sets.pl \
     src/set/precis-tables-latest/files \
     src/set/*/*.expr src/set/*/*/*.expr data/names.json \
     src/set/mozilla/IDN-blacklist-chars.expr \
-    src/set/numbers/CJK-digit.expr
+    src/set/numbers/CJK-digit.expr \
+    src/set/isoiec10646/300.expr
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
