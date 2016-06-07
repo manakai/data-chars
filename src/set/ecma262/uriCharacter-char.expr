@@ -1,0 +1,7 @@
+#label: A character in uriCharacter
+#sw: uriCharacter
+#url: https://tc39.github.io/ecma262/#sec-uri-syntax-and-semantics
+
+$ecma262:uriReserved |
+$ecma262:uriUnescaped
+# | uriEscaped

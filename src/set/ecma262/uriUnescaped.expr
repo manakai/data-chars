@@ -1,0 +1,5 @@
+#label: uriUnescaped
+#url: https://tc39.github.io/ecma262/#sec-uri-syntax-and-semantics
+$ecma262:uriAlpha |
+$ecma262:DecimalDigit |
+$ecma262:uriMark

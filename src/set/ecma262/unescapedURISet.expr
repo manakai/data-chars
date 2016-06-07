@@ -1,0 +1,6 @@
+#sw: encodeURI
+#url: https://tc39.github.io/ecma262/#sec-encodeuri-uri
+
+$ecma262:uriReserved |
+$ecma262:uriUnescaped |
+[#]

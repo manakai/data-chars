@@ -5,6 +5,108 @@
          "label" : "norm:composing",
          "suikawiki_name" : "norm:composing"
       },
+      "$ecma262:BinaryDigit" : {
+         "chars" : "[0-1]",
+         "label" : "BinaryDigit",
+         "suikawiki_name" : "BinaryDigit",
+         "url" : "https://tc39.github.io/ecma262/#prod-BinaryDigit"
+      },
+      "$ecma262:DecimalDigit" : {
+         "chars" : "[0-9]",
+         "label" : "DecimalDigit",
+         "suikawiki_name" : "DecimalDigit",
+         "url" : "https://tc39.github.io/ecma262/#prod-DecimalDigit"
+      },
+      "$ecma262:ExponentIndicator" : {
+         "chars" : "[Ee]",
+         "label" : "ExponentIndicator",
+         "suikawiki_name" : "ExponentIndicator",
+         "url" : "https://tc39.github.io/ecma262/#prod-ExponentIndicator"
+      },
+      "$ecma262:HexDigit" : {
+         "chars" : "[0-9A-Fa-f]",
+         "label" : "HexDigit",
+         "suikawiki_name" : "HexDigit",
+         "url" : "https://tc39.github.io/ecma262/#prod-HexDigit"
+      },
+      "$ecma262:NonZeroDigit" : {
+         "chars" : "[1-9]",
+         "label" : "NonZeroDigit",
+         "suikawiki_name" : "NonZeroDigit",
+         "url" : "https://tc39.github.io/ecma262/#prod-NonZeroDigit"
+      },
+      "$ecma262:OctalDigit" : {
+         "chars" : "[0-7]",
+         "label" : "OctalDigit",
+         "suikawiki_name" : "OctalDigit",
+         "url" : "https://tc39.github.io/ecma262/#prod-OctalDigit"
+      },
+      "$ecma262:SourceCharacter" : {
+         "chars" : "[\\u0000-\\u{10FFFF}]",
+         "label" : "SourceCharacter",
+         "suikawiki_name" : "SourceCharacter",
+         "url" : "https://tc39.github.io/ecma262/#prod-SourceCharacter"
+      },
+      "$ecma262:escape-not-escaped" : {
+         "chars" : "[*-\u002B\\u002D-9\\u0040-Z_a-z]",
+         "label" : "Characters not escaped by escape()",
+         "suikawiki_name" : "escape",
+         "url" : "https://tc39.github.io/ecma262/#sec-escape-string"
+      },
+      "$ecma262:reservedURIComponentSet" : {
+         "chars" : "[]",
+         "label" : "reservedURIComponentSet",
+         "suikawiki_name" : "decodeURIComponent",
+         "url" : "https://tc39.github.io/ecma262/#sec-decodeuricomponent-encodeduricomponent"
+      },
+      "$ecma262:reservedURISet" : {
+         "chars" : "[\\u0023-\\u0024\\u0026\u002B-,/:-\\u003B=?-\\u0040]",
+         "label" : "reservedURISet",
+         "suikawiki_name" : "decodeURI",
+         "url" : "https://tc39.github.io/ecma262/#sec-decodeuri-encodeduri"
+      },
+      "$ecma262:unescapedURIComponentSet" : {
+         "chars" : "[!'-*\\u002D-.0-9A-Z_a-z~]",
+         "label" : "unescapedURIComponentSet",
+         "suikawiki_name" : "encodeURIComponent",
+         "url" : "https://tc39.github.io/ecma262/#sec-encodeuricomponent-uricomponent"
+      },
+      "$ecma262:unescapedURISet" : {
+         "chars" : "[!\\u0023-\\u0024\\u0026-\\u003B=?-Z_a-z~]",
+         "label" : "unescapedURISet",
+         "suikawiki_name" : "encodeURI",
+         "url" : "https://tc39.github.io/ecma262/#sec-encodeuri-uri"
+      },
+      "$ecma262:uriAlpha" : {
+         "chars" : "[A-Za-z]",
+         "label" : "uriAlpha",
+         "suikawiki_name" : "uriAlpha",
+         "url" : "https://tc39.github.io/ecma262/#sec-uri-syntax-and-semantics"
+      },
+      "$ecma262:uriCharacter-char" : {
+         "chars" : "[!\\u0024\\u0026-\\u003B=?-Z_a-z~]",
+         "label" : "A character in uriCharacter",
+         "suikawiki_name" : "uriCharacter",
+         "url" : "https://tc39.github.io/ecma262/#sec-uri-syntax-and-semantics"
+      },
+      "$ecma262:uriMark" : {
+         "chars" : "[!'-*\\u002D-._~]",
+         "label" : "uriMark",
+         "suikawiki_name" : "uriMark",
+         "url" : "https://tc39.github.io/ecma262/#sec-uri-syntax-and-semantics"
+      },
+      "$ecma262:uriReserved" : {
+         "chars" : "[\\u0024\\u0026\u002B-,/:-\\u003B=?-\\u0040]",
+         "label" : "uriReserved",
+         "suikawiki_name" : "uriReserved",
+         "url" : "https://tc39.github.io/ecma262/#sec-uri-syntax-and-semantics"
+      },
+      "$ecma262:uriUnescaped" : {
+         "chars" : "[!'-*\\u002D-.0-9A-Z_a-z~]",
+         "label" : "uriUnescaped",
+         "suikawiki_name" : "uriUnescaped",
+         "url" : "https://tc39.github.io/ecma262/#sec-uri-syntax-and-semantics"
+      },
       "$ecma404:string-char" : {
          "chars" : "[\\u0020-!\\u0023-\\u005B\\u005D-\\u{10FFFF}]",
          "label" : "A character in string",

@@ -1,0 +1,3 @@
+#label: DecimalDigit
+#url: https://tc39.github.io/ecma262/#prod-DecimalDigit
+[0-9]

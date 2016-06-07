@@ -1,0 +1,3 @@
+#label: NonZeroDigit
+#url: https://tc39.github.io/ecma262/#prod-NonZeroDigit
+[1-9]

@@ -1,0 +1,3 @@
+#label:uriReserved
+#url:https://tc39.github.io/ecma262/#sec-uri-syntax-and-semantics
+[;/?:@&=+$,]

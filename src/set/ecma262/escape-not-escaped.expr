@@ -1,0 +1,4 @@
+#label:Characters not escaped by escape()
+#sw:escape
+#url:https://tc39.github.io/ecma262/#sec-escape-string
+[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@*_+./-]
