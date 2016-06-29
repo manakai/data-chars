@@ -24,8 +24,12 @@ my $Data = {};
     }
   }
 
-  {
-    my $tbl = $tables->{'Table_Candidate_Characters_for_Inclusion_in_Identifiers'};
+  for my $def (
+    [inclusion_start => 'Table_Optional_Start'],
+    [inclusion_medial => 'Table_Optional_Medial'],
+    [inclusion_continue => 'Table_Optional_Continue'],
+  ) {
+    my $tbl = $tables->{$def->[1]};
     if (defined $tbl) {
       for my $tr ($tbl->rows->to_list) {
         my $cp = $tr->cells->[0] or next;
@@ -34,14 +38,21 @@ my $Data = {};
         $tc =~ s/^\s+//;
         $tc =~ s/\s+$//;
         if ($tc =~ /^([0-9A-Fa-f]+)$/) {
-          $Data->{chars}->{candidates_for_inclusion}->{hex $1} = 1;
+          $Data->{chars}->{'candidates_for_'.$def->[0]}->{hex $1} = 1;
         } elsif ($tc =~ /\S/) {
           warn $tc;
         }
       }
     }
-    die "no candidates for inclusion" unless 0+keys %{$Data->{chars}->{candidates_for_inclusion} or {}};
-  }
+    die "no candidates for $def->[0]" unless 0+keys %{$Data->{chars}->{'candidates_for_'.$def->[0]} or {}};
+  } # $def
+  ## Was: 'Table_Candidate_Characters_for_Inclusion_in_Identifiers'
+  $Data->{chars}->{candidates_for_inclusion}->{$_} = 1
+      for keys %{$Data->{chars}->{candidates_for_inclusion_start}};
+  $Data->{chars}->{candidates_for_inclusion}->{$_} = 1
+      for keys %{$Data->{chars}->{candidates_for_inclusion_medial}};
+  $Data->{chars}->{candidates_for_inclusion}->{$_} = 1
+      for keys %{$Data->{chars}->{candidates_for_inclusion_continue}};
 
   for my $def (
     ['Table_Candidate_Characters_for_Exclusion_from_Identifiers' => 'excluded'],

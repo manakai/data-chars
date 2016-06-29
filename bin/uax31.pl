@@ -10,7 +10,10 @@ $set_d->mkpath;
 
 {
   my $json = file2perl file (__FILE__)->dir->parent->file ('local', 'tr31.json');
-  print { $set_d->file ('candidates_for_inclusion.expr')->openw } '[' . (join '', map { sprintf '\u{%04X}', $_ } sort { $a <=> $b } keys %{$json->{chars}->{candidates_for_inclusion}}) . ']';
+  for my $name (keys %{$json->{chars}}) {
+    print { $set_d->file ($name . '.expr')->openw }
+        '[' . (join '', map { sprintf '\u{%04X}', $_ } sort { $a <=> $b } keys %{$json->{chars}->{$name}}) . ']';
+  }
 }
 
 ## License: Public Domain.
