@@ -8602,6 +8602,75 @@
       "08B4" : {
          "name" : "ARABIC LETTER KAF WITH DOT BELOW"
       },
+      "08B6" : {
+         "name" : "ARABIC LETTER BEH WITH SMALL MEEM ABOVE"
+      },
+      "08B7" : {
+         "name" : "ARABIC LETTER PEH WITH SMALL MEEM ABOVE"
+      },
+      "08B8" : {
+         "name" : "ARABIC LETTER TEH WITH SMALL TEH ABOVE"
+      },
+      "08B9" : {
+         "name" : "ARABIC LETTER REH WITH SMALL NOON ABOVE"
+      },
+      "08BA" : {
+         "name" : "ARABIC LETTER YEH WITH TWO DOTS BELOW AND SMALL NOON ABOVE"
+      },
+      "08BB" : {
+         "name" : "ARABIC LETTER AFRICAN FEH"
+      },
+      "08BC" : {
+         "name" : "ARABIC LETTER AFRICAN QAF"
+      },
+      "08BD" : {
+         "name" : "ARABIC LETTER AFRICAN NOON"
+      },
+      "08D4" : {
+         "name" : "ARABIC SMALL HIGH WORD AR-RUB"
+      },
+      "08D5" : {
+         "name" : "ARABIC SMALL HIGH SAD"
+      },
+      "08D6" : {
+         "name" : "ARABIC SMALL HIGH AIN"
+      },
+      "08D7" : {
+         "name" : "ARABIC SMALL HIGH QAF"
+      },
+      "08D8" : {
+         "name" : "ARABIC SMALL HIGH NOON WITH KASRA"
+      },
+      "08D9" : {
+         "name" : "ARABIC SMALL LOW NOON WITH KASRA"
+      },
+      "08DA" : {
+         "name" : "ARABIC SMALL HIGH WORD ATH-THALATHA"
+      },
+      "08DB" : {
+         "name" : "ARABIC SMALL HIGH WORD AS-SAJDA"
+      },
+      "08DC" : {
+         "name" : "ARABIC SMALL HIGH WORD AN-NISF"
+      },
+      "08DD" : {
+         "name" : "ARABIC SMALL HIGH WORD SAKTA"
+      },
+      "08DE" : {
+         "name" : "ARABIC SMALL HIGH WORD QIF"
+      },
+      "08DF" : {
+         "name" : "ARABIC SMALL HIGH WORD WAQFA"
+      },
+      "08E0" : {
+         "name" : "ARABIC SMALL HIGH FOOTNOTE MARKER"
+      },
+      "08E1" : {
+         "name" : "ARABIC SMALL HIGH SIGN SAFHA"
+      },
+      "08E2" : {
+         "name" : "ARABIC DISPUTED END OF AYAH"
+      },
       "08E3" : {
          "name" : "ARABIC TURNED DAMMA BELOW"
       },
@@ -10618,6 +10687,9 @@
       "0C7F" : {
          "name" : "TELUGU SIGN TUUMU"
       },
+      "0C80" : {
+         "name" : "KANNADA SIGN SPACING CANDRABINDU"
+      },
       "0C81" : {
          "name" : "KANNADA SIGN CANDRABINDU"
       },
@@ -11095,8 +11167,41 @@
       "0D4E" : {
          "name" : "MALAYALAM LETTER DOT REPH"
       },
+      "0D4F" : {
+         "name" : "MALAYALAM SIGN PARA"
+      },
+      "0D54" : {
+         "name" : "MALAYALAM LETTER CHILLU M"
+      },
+      "0D55" : {
+         "name" : "MALAYALAM LETTER CHILLU Y"
+      },
+      "0D56" : {
+         "name" : "MALAYALAM LETTER CHILLU LLL"
+      },
       "0D57" : {
          "name" : "MALAYALAM AU LENGTH MARK"
+      },
+      "0D58" : {
+         "name" : "MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH"
+      },
+      "0D59" : {
+         "name" : "MALAYALAM FRACTION ONE FORTIETH"
+      },
+      "0D5A" : {
+         "name" : "MALAYALAM FRACTION THREE EIGHTIETHS"
+      },
+      "0D5B" : {
+         "name" : "MALAYALAM FRACTION ONE TWENTIETH"
+      },
+      "0D5C" : {
+         "name" : "MALAYALAM FRACTION ONE TENTH"
+      },
+      "0D5D" : {
+         "name" : "MALAYALAM FRACTION THREE TWENTIETHS"
+      },
+      "0D5E" : {
+         "name" : "MALAYALAM FRACTION ONE FIFTH"
       },
       "0D5F" : {
          "name" : "MALAYALAM LETTER ARCHAIC II"
@@ -11160,6 +11265,15 @@
       },
       "0D75" : {
          "name" : "MALAYALAM FRACTION THREE QUARTERS"
+      },
+      "0D76" : {
+         "name" : "MALAYALAM FRACTION ONE SIXTEENTH"
+      },
+      "0D77" : {
+         "name" : "MALAYALAM FRACTION ONE EIGHTH"
+      },
+      "0D78" : {
+         "name" : "MALAYALAM FRACTION THREE SIXTEENTHS"
       },
       "0D79" : {
          "name" : "MALAYALAM DATE MARK"
@@ -13672,6 +13786,12 @@
       "1018C" : {
          "name" : "GREEK SINUSOID SIGN"
       },
+      "1018D" : {
+         "name" : "GREEK INDICTION SIGN"
+      },
+      "1018E" : {
+         "name" : "NOMISMA SIGN"
+      },
       "1019" : {
          "name" : "MYANMAR LETTER MA"
       },
@@ -15385,17 +15505,233 @@
       "104B" : {
          "name" : "MYANMAR SIGN SECTION"
       },
+      "104B0" : {
+         "name" : "OSAGE CAPITAL LETTER A"
+      },
+      "104B1" : {
+         "name" : "OSAGE CAPITAL LETTER AI"
+      },
+      "104B2" : {
+         "name" : "OSAGE CAPITAL LETTER AIN"
+      },
+      "104B3" : {
+         "name" : "OSAGE CAPITAL LETTER AH"
+      },
+      "104B4" : {
+         "name" : "OSAGE CAPITAL LETTER BRA"
+      },
+      "104B5" : {
+         "name" : "OSAGE CAPITAL LETTER CHA"
+      },
+      "104B6" : {
+         "name" : "OSAGE CAPITAL LETTER EHCHA"
+      },
+      "104B7" : {
+         "name" : "OSAGE CAPITAL LETTER E"
+      },
+      "104B8" : {
+         "name" : "OSAGE CAPITAL LETTER EIN"
+      },
+      "104B9" : {
+         "name" : "OSAGE CAPITAL LETTER HA"
+      },
+      "104BA" : {
+         "name" : "OSAGE CAPITAL LETTER HYA"
+      },
+      "104BB" : {
+         "name" : "OSAGE CAPITAL LETTER I"
+      },
+      "104BC" : {
+         "name" : "OSAGE CAPITAL LETTER KA"
+      },
+      "104BD" : {
+         "name" : "OSAGE CAPITAL LETTER EHKA"
+      },
+      "104BE" : {
+         "name" : "OSAGE CAPITAL LETTER KYA"
+      },
+      "104BF" : {
+         "name" : "OSAGE CAPITAL LETTER LA"
+      },
       "104C" : {
          "name" : "MYANMAR SYMBOL LOCATIVE"
+      },
+      "104C0" : {
+         "name" : "OSAGE CAPITAL LETTER MA"
+      },
+      "104C1" : {
+         "name" : "OSAGE CAPITAL LETTER NA"
+      },
+      "104C2" : {
+         "name" : "OSAGE CAPITAL LETTER O"
+      },
+      "104C3" : {
+         "name" : "OSAGE CAPITAL LETTER OIN"
+      },
+      "104C4" : {
+         "name" : "OSAGE CAPITAL LETTER PA"
+      },
+      "104C5" : {
+         "name" : "OSAGE CAPITAL LETTER EHPA"
+      },
+      "104C6" : {
+         "name" : "OSAGE CAPITAL LETTER SA"
+      },
+      "104C7" : {
+         "name" : "OSAGE CAPITAL LETTER SHA"
+      },
+      "104C8" : {
+         "name" : "OSAGE CAPITAL LETTER TA"
+      },
+      "104C9" : {
+         "name" : "OSAGE CAPITAL LETTER EHTA"
+      },
+      "104CA" : {
+         "name" : "OSAGE CAPITAL LETTER TSA"
+      },
+      "104CB" : {
+         "name" : "OSAGE CAPITAL LETTER EHTSA"
+      },
+      "104CC" : {
+         "name" : "OSAGE CAPITAL LETTER TSHA"
+      },
+      "104CD" : {
+         "name" : "OSAGE CAPITAL LETTER DHA"
+      },
+      "104CE" : {
+         "name" : "OSAGE CAPITAL LETTER U"
+      },
+      "104CF" : {
+         "name" : "OSAGE CAPITAL LETTER WA"
       },
       "104D" : {
          "name" : "MYANMAR SYMBOL COMPLETED"
       },
+      "104D0" : {
+         "name" : "OSAGE CAPITAL LETTER KHA"
+      },
+      "104D1" : {
+         "name" : "OSAGE CAPITAL LETTER GHA"
+      },
+      "104D2" : {
+         "name" : "OSAGE CAPITAL LETTER ZA"
+      },
+      "104D3" : {
+         "name" : "OSAGE CAPITAL LETTER ZHA"
+      },
+      "104D8" : {
+         "name" : "OSAGE SMALL LETTER A"
+      },
+      "104D9" : {
+         "name" : "OSAGE SMALL LETTER AI"
+      },
+      "104DA" : {
+         "name" : "OSAGE SMALL LETTER AIN"
+      },
+      "104DB" : {
+         "name" : "OSAGE SMALL LETTER AH"
+      },
+      "104DC" : {
+         "name" : "OSAGE SMALL LETTER BRA"
+      },
+      "104DD" : {
+         "name" : "OSAGE SMALL LETTER CHA"
+      },
+      "104DE" : {
+         "name" : "OSAGE SMALL LETTER EHCHA"
+      },
+      "104DF" : {
+         "name" : "OSAGE SMALL LETTER E"
+      },
       "104E" : {
          "name" : "MYANMAR SYMBOL AFOREMENTIONED"
       },
+      "104E0" : {
+         "name" : "OSAGE SMALL LETTER EIN"
+      },
+      "104E1" : {
+         "name" : "OSAGE SMALL LETTER HA"
+      },
+      "104E2" : {
+         "name" : "OSAGE SMALL LETTER HYA"
+      },
+      "104E3" : {
+         "name" : "OSAGE SMALL LETTER I"
+      },
+      "104E4" : {
+         "name" : "OSAGE SMALL LETTER KA"
+      },
+      "104E5" : {
+         "name" : "OSAGE SMALL LETTER EHKA"
+      },
+      "104E6" : {
+         "name" : "OSAGE SMALL LETTER KYA"
+      },
+      "104E7" : {
+         "name" : "OSAGE SMALL LETTER LA"
+      },
+      "104E8" : {
+         "name" : "OSAGE SMALL LETTER MA"
+      },
+      "104E9" : {
+         "name" : "OSAGE SMALL LETTER NA"
+      },
+      "104EA" : {
+         "name" : "OSAGE SMALL LETTER O"
+      },
+      "104EB" : {
+         "name" : "OSAGE SMALL LETTER OIN"
+      },
+      "104EC" : {
+         "name" : "OSAGE SMALL LETTER PA"
+      },
+      "104ED" : {
+         "name" : "OSAGE SMALL LETTER EHPA"
+      },
+      "104EE" : {
+         "name" : "OSAGE SMALL LETTER SA"
+      },
+      "104EF" : {
+         "name" : "OSAGE SMALL LETTER SHA"
+      },
       "104F" : {
          "name" : "MYANMAR SYMBOL GENITIVE"
+      },
+      "104F0" : {
+         "name" : "OSAGE SMALL LETTER TA"
+      },
+      "104F1" : {
+         "name" : "OSAGE SMALL LETTER EHTA"
+      },
+      "104F2" : {
+         "name" : "OSAGE SMALL LETTER TSA"
+      },
+      "104F3" : {
+         "name" : "OSAGE SMALL LETTER EHTSA"
+      },
+      "104F4" : {
+         "name" : "OSAGE SMALL LETTER TSHA"
+      },
+      "104F5" : {
+         "name" : "OSAGE SMALL LETTER DHA"
+      },
+      "104F6" : {
+         "name" : "OSAGE SMALL LETTER U"
+      },
+      "104F7" : {
+         "name" : "OSAGE SMALL LETTER WA"
+      },
+      "104F8" : {
+         "name" : "OSAGE SMALL LETTER KHA"
+      },
+      "104F9" : {
+         "name" : "OSAGE SMALL LETTER GHA"
+      },
+      "104FA" : {
+         "name" : "OSAGE SMALL LETTER ZA"
+      },
+      "104FB" : {
+         "name" : "OSAGE SMALL LETTER ZHA"
       },
       "1050" : {
          "name" : "MYANMAR LETTER SHA"
@@ -21493,6 +21829,9 @@
       "1123D" : {
          "name" : "KHOJKI ABBREVIATION SIGN"
       },
+      "1123E" : {
+         "name" : "KHOJKI SIGN SUKUN"
+      },
       "1124" : {
          "name" : "HANGUL CHOSEONG PIEUP-SIOS-PIEUP"
       },
@@ -22156,20 +22495,296 @@
       "1140" : {
          "name" : "HANGUL CHOSEONG PANSIOS"
       },
+      "11400" : {
+         "name" : "NEWA LETTER A"
+      },
+      "11401" : {
+         "name" : "NEWA LETTER AA"
+      },
+      "11402" : {
+         "name" : "NEWA LETTER I"
+      },
+      "11403" : {
+         "name" : "NEWA LETTER II"
+      },
+      "11404" : {
+         "name" : "NEWA LETTER U"
+      },
+      "11405" : {
+         "name" : "NEWA LETTER UU"
+      },
+      "11406" : {
+         "name" : "NEWA LETTER VOCALIC R"
+      },
+      "11407" : {
+         "name" : "NEWA LETTER VOCALIC RR"
+      },
+      "11408" : {
+         "name" : "NEWA LETTER VOCALIC L"
+      },
+      "11409" : {
+         "name" : "NEWA LETTER VOCALIC LL"
+      },
+      "1140A" : {
+         "name" : "NEWA LETTER E"
+      },
+      "1140B" : {
+         "name" : "NEWA LETTER AI"
+      },
+      "1140C" : {
+         "name" : "NEWA LETTER O"
+      },
+      "1140D" : {
+         "name" : "NEWA LETTER AU"
+      },
+      "1140E" : {
+         "name" : "NEWA LETTER KA"
+      },
+      "1140F" : {
+         "name" : "NEWA LETTER KHA"
+      },
       "1141" : {
          "name" : "HANGUL CHOSEONG IEUNG-KIYEOK"
+      },
+      "11410" : {
+         "name" : "NEWA LETTER GA"
+      },
+      "11411" : {
+         "name" : "NEWA LETTER GHA"
+      },
+      "11412" : {
+         "name" : "NEWA LETTER NGA"
+      },
+      "11413" : {
+         "name" : "NEWA LETTER NGHA"
+      },
+      "11414" : {
+         "name" : "NEWA LETTER CA"
+      },
+      "11415" : {
+         "name" : "NEWA LETTER CHA"
+      },
+      "11416" : {
+         "name" : "NEWA LETTER JA"
+      },
+      "11417" : {
+         "name" : "NEWA LETTER JHA"
+      },
+      "11418" : {
+         "name" : "NEWA LETTER NYA"
+      },
+      "11419" : {
+         "name" : "NEWA LETTER NYHA"
+      },
+      "1141A" : {
+         "name" : "NEWA LETTER TTA"
+      },
+      "1141B" : {
+         "name" : "NEWA LETTER TTHA"
+      },
+      "1141C" : {
+         "name" : "NEWA LETTER DDA"
+      },
+      "1141D" : {
+         "name" : "NEWA LETTER DDHA"
+      },
+      "1141E" : {
+         "name" : "NEWA LETTER NNA"
+      },
+      "1141F" : {
+         "name" : "NEWA LETTER TA"
       },
       "1142" : {
          "name" : "HANGUL CHOSEONG IEUNG-TIKEUT"
       },
+      "11420" : {
+         "name" : "NEWA LETTER THA"
+      },
+      "11421" : {
+         "name" : "NEWA LETTER DA"
+      },
+      "11422" : {
+         "name" : "NEWA LETTER DHA"
+      },
+      "11423" : {
+         "name" : "NEWA LETTER NA"
+      },
+      "11424" : {
+         "name" : "NEWA LETTER NHA"
+      },
+      "11425" : {
+         "name" : "NEWA LETTER PA"
+      },
+      "11426" : {
+         "name" : "NEWA LETTER PHA"
+      },
+      "11427" : {
+         "name" : "NEWA LETTER BA"
+      },
+      "11428" : {
+         "name" : "NEWA LETTER BHA"
+      },
+      "11429" : {
+         "name" : "NEWA LETTER MA"
+      },
+      "1142A" : {
+         "name" : "NEWA LETTER MHA"
+      },
+      "1142B" : {
+         "name" : "NEWA LETTER YA"
+      },
+      "1142C" : {
+         "name" : "NEWA LETTER RA"
+      },
+      "1142D" : {
+         "name" : "NEWA LETTER RHA"
+      },
+      "1142E" : {
+         "name" : "NEWA LETTER LA"
+      },
+      "1142F" : {
+         "name" : "NEWA LETTER LHA"
+      },
       "1143" : {
          "name" : "HANGUL CHOSEONG IEUNG-MIEUM"
+      },
+      "11430" : {
+         "name" : "NEWA LETTER WA"
+      },
+      "11431" : {
+         "name" : "NEWA LETTER SHA"
+      },
+      "11432" : {
+         "name" : "NEWA LETTER SSA"
+      },
+      "11433" : {
+         "name" : "NEWA LETTER SA"
+      },
+      "11434" : {
+         "name" : "NEWA LETTER HA"
+      },
+      "11435" : {
+         "name" : "NEWA VOWEL SIGN AA"
+      },
+      "11436" : {
+         "name" : "NEWA VOWEL SIGN I"
+      },
+      "11437" : {
+         "name" : "NEWA VOWEL SIGN II"
+      },
+      "11438" : {
+         "name" : "NEWA VOWEL SIGN U"
+      },
+      "11439" : {
+         "name" : "NEWA VOWEL SIGN UU"
+      },
+      "1143A" : {
+         "name" : "NEWA VOWEL SIGN VOCALIC R"
+      },
+      "1143B" : {
+         "name" : "NEWA VOWEL SIGN VOCALIC RR"
+      },
+      "1143C" : {
+         "name" : "NEWA VOWEL SIGN VOCALIC L"
+      },
+      "1143D" : {
+         "name" : "NEWA VOWEL SIGN VOCALIC LL"
+      },
+      "1143E" : {
+         "name" : "NEWA VOWEL SIGN E"
+      },
+      "1143F" : {
+         "name" : "NEWA VOWEL SIGN AI"
       },
       "1144" : {
          "name" : "HANGUL CHOSEONG IEUNG-PIEUP"
       },
+      "11440" : {
+         "name" : "NEWA VOWEL SIGN O"
+      },
+      "11441" : {
+         "name" : "NEWA VOWEL SIGN AU"
+      },
+      "11442" : {
+         "name" : "NEWA SIGN VIRAMA"
+      },
+      "11443" : {
+         "name" : "NEWA SIGN CANDRABINDU"
+      },
+      "11444" : {
+         "name" : "NEWA SIGN ANUSVARA"
+      },
+      "11445" : {
+         "name" : "NEWA SIGN VISARGA"
+      },
+      "11446" : {
+         "name" : "NEWA SIGN NUKTA"
+      },
+      "11447" : {
+         "name" : "NEWA SIGN AVAGRAHA"
+      },
+      "11448" : {
+         "name" : "NEWA SIGN FINAL ANUSVARA"
+      },
+      "11449" : {
+         "name" : "NEWA OM"
+      },
+      "1144A" : {
+         "name" : "NEWA SIDDHI"
+      },
+      "1144B" : {
+         "name" : "NEWA DANDA"
+      },
+      "1144C" : {
+         "name" : "NEWA DOUBLE DANDA"
+      },
+      "1144D" : {
+         "name" : "NEWA COMMA"
+      },
+      "1144E" : {
+         "name" : "NEWA GAP FILLER"
+      },
+      "1144F" : {
+         "name" : "NEWA ABBREVIATION SIGN"
+      },
       "1145" : {
          "name" : "HANGUL CHOSEONG IEUNG-SIOS"
+      },
+      "11450" : {
+         "name" : "NEWA DIGIT ZERO"
+      },
+      "11451" : {
+         "name" : "NEWA DIGIT ONE"
+      },
+      "11452" : {
+         "name" : "NEWA DIGIT TWO"
+      },
+      "11453" : {
+         "name" : "NEWA DIGIT THREE"
+      },
+      "11454" : {
+         "name" : "NEWA DIGIT FOUR"
+      },
+      "11455" : {
+         "name" : "NEWA DIGIT FIVE"
+      },
+      "11456" : {
+         "name" : "NEWA DIGIT SIX"
+      },
+      "11457" : {
+         "name" : "NEWA DIGIT SEVEN"
+      },
+      "11458" : {
+         "name" : "NEWA DIGIT EIGHT"
+      },
+      "11459" : {
+         "name" : "NEWA DIGIT NINE"
+      },
+      "1145B" : {
+         "name" : "NEWA PLACEHOLDER MARK"
+      },
+      "1145D" : {
+         "name" : "NEWA INSERTION SIGN"
       },
       "1146" : {
          "name" : "HANGUL CHOSEONG IEUNG-PANSIOS"
@@ -23028,6 +23643,45 @@
       },
       "1166" : {
          "name" : "HANGUL JUNGSEONG E"
+      },
+      "11660" : {
+         "name" : "MONGOLIAN BIRGA WITH ORNAMENT"
+      },
+      "11661" : {
+         "name" : "MONGOLIAN ROTATED BIRGA"
+      },
+      "11662" : {
+         "name" : "MONGOLIAN DOUBLE BIRGA WITH ORNAMENT"
+      },
+      "11663" : {
+         "name" : "MONGOLIAN TRIPLE BIRGA WITH ORNAMENT"
+      },
+      "11664" : {
+         "name" : "MONGOLIAN BIRGA WITH DOUBLE ORNAMENT"
+      },
+      "11665" : {
+         "name" : "MONGOLIAN ROTATED BIRGA WITH ORNAMENT"
+      },
+      "11666" : {
+         "name" : "MONGOLIAN ROTATED BIRGA WITH DOUBLE ORNAMENT"
+      },
+      "11667" : {
+         "name" : "MONGOLIAN INVERTED BIRGA"
+      },
+      "11668" : {
+         "name" : "MONGOLIAN INVERTED BIRGA WITH DOUBLE ORNAMENT"
+      },
+      "11669" : {
+         "name" : "MONGOLIAN SWIRL BIRGA"
+      },
+      "1166A" : {
+         "name" : "MONGOLIAN SWIRL BIRGA WITH ORNAMENT"
+      },
+      "1166B" : {
+         "name" : "MONGOLIAN SWIRL BIRGA WITH DOUBLE ORNAMENT"
+      },
+      "1166C" : {
+         "name" : "MONGOLIAN TURNED SWIRL BIRGA WITH DOUBLE ORNAMENT"
       },
       "1167" : {
          "name" : "HANGUL JUNGSEONG YEO"
@@ -24091,38 +24745,533 @@
       "11C0" : {
          "name" : "HANGUL JONGSEONG THIEUTH"
       },
+      "11C00" : {
+         "name" : "BHAIKSUKI LETTER A"
+      },
+      "11C01" : {
+         "name" : "BHAIKSUKI LETTER AA"
+      },
+      "11C02" : {
+         "name" : "BHAIKSUKI LETTER I"
+      },
+      "11C03" : {
+         "name" : "BHAIKSUKI LETTER II"
+      },
+      "11C04" : {
+         "name" : "BHAIKSUKI LETTER U"
+      },
+      "11C05" : {
+         "name" : "BHAIKSUKI LETTER UU"
+      },
+      "11C06" : {
+         "name" : "BHAIKSUKI LETTER VOCALIC R"
+      },
+      "11C07" : {
+         "name" : "BHAIKSUKI LETTER VOCALIC RR"
+      },
+      "11C08" : {
+         "name" : "BHAIKSUKI LETTER VOCALIC L"
+      },
+      "11C0A" : {
+         "name" : "BHAIKSUKI LETTER E"
+      },
+      "11C0B" : {
+         "name" : "BHAIKSUKI LETTER AI"
+      },
+      "11C0C" : {
+         "name" : "BHAIKSUKI LETTER O"
+      },
+      "11C0D" : {
+         "name" : "BHAIKSUKI LETTER AU"
+      },
+      "11C0E" : {
+         "name" : "BHAIKSUKI LETTER KA"
+      },
+      "11C0F" : {
+         "name" : "BHAIKSUKI LETTER KHA"
+      },
       "11C1" : {
          "name" : "HANGUL JONGSEONG PHIEUPH"
+      },
+      "11C10" : {
+         "name" : "BHAIKSUKI LETTER GA"
+      },
+      "11C11" : {
+         "name" : "BHAIKSUKI LETTER GHA"
+      },
+      "11C12" : {
+         "name" : "BHAIKSUKI LETTER NGA"
+      },
+      "11C13" : {
+         "name" : "BHAIKSUKI LETTER CA"
+      },
+      "11C14" : {
+         "name" : "BHAIKSUKI LETTER CHA"
+      },
+      "11C15" : {
+         "name" : "BHAIKSUKI LETTER JA"
+      },
+      "11C16" : {
+         "name" : "BHAIKSUKI LETTER JHA"
+      },
+      "11C17" : {
+         "name" : "BHAIKSUKI LETTER NYA"
+      },
+      "11C18" : {
+         "name" : "BHAIKSUKI LETTER TTA"
+      },
+      "11C19" : {
+         "name" : "BHAIKSUKI LETTER TTHA"
+      },
+      "11C1A" : {
+         "name" : "BHAIKSUKI LETTER DDA"
+      },
+      "11C1B" : {
+         "name" : "BHAIKSUKI LETTER DDHA"
+      },
+      "11C1C" : {
+         "name" : "BHAIKSUKI LETTER NNA"
+      },
+      "11C1D" : {
+         "name" : "BHAIKSUKI LETTER TA"
+      },
+      "11C1E" : {
+         "name" : "BHAIKSUKI LETTER THA"
+      },
+      "11C1F" : {
+         "name" : "BHAIKSUKI LETTER DA"
       },
       "11C2" : {
          "name" : "HANGUL JONGSEONG HIEUH"
       },
+      "11C20" : {
+         "name" : "BHAIKSUKI LETTER DHA"
+      },
+      "11C21" : {
+         "name" : "BHAIKSUKI LETTER NA"
+      },
+      "11C22" : {
+         "name" : "BHAIKSUKI LETTER PA"
+      },
+      "11C23" : {
+         "name" : "BHAIKSUKI LETTER PHA"
+      },
+      "11C24" : {
+         "name" : "BHAIKSUKI LETTER BA"
+      },
+      "11C25" : {
+         "name" : "BHAIKSUKI LETTER BHA"
+      },
+      "11C26" : {
+         "name" : "BHAIKSUKI LETTER MA"
+      },
+      "11C27" : {
+         "name" : "BHAIKSUKI LETTER YA"
+      },
+      "11C28" : {
+         "name" : "BHAIKSUKI LETTER RA"
+      },
+      "11C29" : {
+         "name" : "BHAIKSUKI LETTER LA"
+      },
+      "11C2A" : {
+         "name" : "BHAIKSUKI LETTER VA"
+      },
+      "11C2B" : {
+         "name" : "BHAIKSUKI LETTER SHA"
+      },
+      "11C2C" : {
+         "name" : "BHAIKSUKI LETTER SSA"
+      },
+      "11C2D" : {
+         "name" : "BHAIKSUKI LETTER SA"
+      },
+      "11C2E" : {
+         "name" : "BHAIKSUKI LETTER HA"
+      },
+      "11C2F" : {
+         "name" : "BHAIKSUKI VOWEL SIGN AA"
+      },
       "11C3" : {
          "name" : "HANGUL JONGSEONG KIYEOK-RIEUL"
+      },
+      "11C30" : {
+         "name" : "BHAIKSUKI VOWEL SIGN I"
+      },
+      "11C31" : {
+         "name" : "BHAIKSUKI VOWEL SIGN II"
+      },
+      "11C32" : {
+         "name" : "BHAIKSUKI VOWEL SIGN U"
+      },
+      "11C33" : {
+         "name" : "BHAIKSUKI VOWEL SIGN UU"
+      },
+      "11C34" : {
+         "name" : "BHAIKSUKI VOWEL SIGN VOCALIC R"
+      },
+      "11C35" : {
+         "name" : "BHAIKSUKI VOWEL SIGN VOCALIC RR"
+      },
+      "11C36" : {
+         "name" : "BHAIKSUKI VOWEL SIGN VOCALIC L"
+      },
+      "11C38" : {
+         "name" : "BHAIKSUKI VOWEL SIGN E"
+      },
+      "11C39" : {
+         "name" : "BHAIKSUKI VOWEL SIGN AI"
+      },
+      "11C3A" : {
+         "name" : "BHAIKSUKI VOWEL SIGN O"
+      },
+      "11C3B" : {
+         "name" : "BHAIKSUKI VOWEL SIGN AU"
+      },
+      "11C3C" : {
+         "name" : "BHAIKSUKI SIGN CANDRABINDU"
+      },
+      "11C3D" : {
+         "name" : "BHAIKSUKI SIGN ANUSVARA"
+      },
+      "11C3E" : {
+         "name" : "BHAIKSUKI SIGN VISARGA"
+      },
+      "11C3F" : {
+         "name" : "BHAIKSUKI SIGN VIRAMA"
       },
       "11C4" : {
          "name" : "HANGUL JONGSEONG KIYEOK-SIOS-KIYEOK"
       },
+      "11C40" : {
+         "name" : "BHAIKSUKI SIGN AVAGRAHA"
+      },
+      "11C41" : {
+         "name" : "BHAIKSUKI DANDA"
+      },
+      "11C42" : {
+         "name" : "BHAIKSUKI DOUBLE DANDA"
+      },
+      "11C43" : {
+         "name" : "BHAIKSUKI WORD SEPARATOR"
+      },
+      "11C44" : {
+         "name" : "BHAIKSUKI GAP FILLER-1"
+      },
+      "11C45" : {
+         "name" : "BHAIKSUKI GAP FILLER-2"
+      },
       "11C5" : {
          "name" : "HANGUL JONGSEONG NIEUN-KIYEOK"
+      },
+      "11C50" : {
+         "name" : "BHAIKSUKI DIGIT ZERO"
+      },
+      "11C51" : {
+         "name" : "BHAIKSUKI DIGIT ONE"
+      },
+      "11C52" : {
+         "name" : "BHAIKSUKI DIGIT TWO"
+      },
+      "11C53" : {
+         "name" : "BHAIKSUKI DIGIT THREE"
+      },
+      "11C54" : {
+         "name" : "BHAIKSUKI DIGIT FOUR"
+      },
+      "11C55" : {
+         "name" : "BHAIKSUKI DIGIT FIVE"
+      },
+      "11C56" : {
+         "name" : "BHAIKSUKI DIGIT SIX"
+      },
+      "11C57" : {
+         "name" : "BHAIKSUKI DIGIT SEVEN"
+      },
+      "11C58" : {
+         "name" : "BHAIKSUKI DIGIT EIGHT"
+      },
+      "11C59" : {
+         "name" : "BHAIKSUKI DIGIT NINE"
+      },
+      "11C5A" : {
+         "name" : "BHAIKSUKI NUMBER ONE"
+      },
+      "11C5B" : {
+         "name" : "BHAIKSUKI NUMBER TWO"
+      },
+      "11C5C" : {
+         "name" : "BHAIKSUKI NUMBER THREE"
+      },
+      "11C5D" : {
+         "name" : "BHAIKSUKI NUMBER FOUR"
+      },
+      "11C5E" : {
+         "name" : "BHAIKSUKI NUMBER FIVE"
+      },
+      "11C5F" : {
+         "name" : "BHAIKSUKI NUMBER SIX"
       },
       "11C6" : {
          "name" : "HANGUL JONGSEONG NIEUN-TIKEUT"
       },
+      "11C60" : {
+         "name" : "BHAIKSUKI NUMBER SEVEN"
+      },
+      "11C61" : {
+         "name" : "BHAIKSUKI NUMBER EIGHT"
+      },
+      "11C62" : {
+         "name" : "BHAIKSUKI NUMBER NINE"
+      },
+      "11C63" : {
+         "name" : "BHAIKSUKI NUMBER TEN"
+      },
+      "11C64" : {
+         "name" : "BHAIKSUKI NUMBER TWENTY"
+      },
+      "11C65" : {
+         "name" : "BHAIKSUKI NUMBER THIRTY"
+      },
+      "11C66" : {
+         "name" : "BHAIKSUKI NUMBER FORTY"
+      },
+      "11C67" : {
+         "name" : "BHAIKSUKI NUMBER FIFTY"
+      },
+      "11C68" : {
+         "name" : "BHAIKSUKI NUMBER SIXTY"
+      },
+      "11C69" : {
+         "name" : "BHAIKSUKI NUMBER SEVENTY"
+      },
+      "11C6A" : {
+         "name" : "BHAIKSUKI NUMBER EIGHTY"
+      },
+      "11C6B" : {
+         "name" : "BHAIKSUKI NUMBER NINETY"
+      },
+      "11C6C" : {
+         "name" : "BHAIKSUKI HUNDREDS UNIT MARK"
+      },
       "11C7" : {
          "name" : "HANGUL JONGSEONG NIEUN-SIOS"
+      },
+      "11C70" : {
+         "name" : "MARCHEN HEAD MARK"
+      },
+      "11C71" : {
+         "name" : "MARCHEN MARK SHAD"
+      },
+      "11C72" : {
+         "name" : "MARCHEN LETTER KA"
+      },
+      "11C73" : {
+         "name" : "MARCHEN LETTER KHA"
+      },
+      "11C74" : {
+         "name" : "MARCHEN LETTER GA"
+      },
+      "11C75" : {
+         "name" : "MARCHEN LETTER NGA"
+      },
+      "11C76" : {
+         "name" : "MARCHEN LETTER CA"
+      },
+      "11C77" : {
+         "name" : "MARCHEN LETTER CHA"
+      },
+      "11C78" : {
+         "name" : "MARCHEN LETTER JA"
+      },
+      "11C79" : {
+         "name" : "MARCHEN LETTER NYA"
+      },
+      "11C7A" : {
+         "name" : "MARCHEN LETTER TA"
+      },
+      "11C7B" : {
+         "name" : "MARCHEN LETTER THA"
+      },
+      "11C7C" : {
+         "name" : "MARCHEN LETTER DA"
+      },
+      "11C7D" : {
+         "name" : "MARCHEN LETTER NA"
+      },
+      "11C7E" : {
+         "name" : "MARCHEN LETTER PA"
+      },
+      "11C7F" : {
+         "name" : "MARCHEN LETTER PHA"
       },
       "11C8" : {
          "name" : "HANGUL JONGSEONG NIEUN-PANSIOS"
       },
+      "11C80" : {
+         "name" : "MARCHEN LETTER BA"
+      },
+      "11C81" : {
+         "name" : "MARCHEN LETTER MA"
+      },
+      "11C82" : {
+         "name" : "MARCHEN LETTER TSA"
+      },
+      "11C83" : {
+         "name" : "MARCHEN LETTER TSHA"
+      },
+      "11C84" : {
+         "name" : "MARCHEN LETTER DZA"
+      },
+      "11C85" : {
+         "name" : "MARCHEN LETTER WA"
+      },
+      "11C86" : {
+         "name" : "MARCHEN LETTER ZHA"
+      },
+      "11C87" : {
+         "name" : "MARCHEN LETTER ZA"
+      },
+      "11C88" : {
+         "name" : "MARCHEN LETTER -A"
+      },
+      "11C89" : {
+         "name" : "MARCHEN LETTER YA"
+      },
+      "11C8A" : {
+         "name" : "MARCHEN LETTER RA"
+      },
+      "11C8B" : {
+         "name" : "MARCHEN LETTER LA"
+      },
+      "11C8C" : {
+         "name" : "MARCHEN LETTER SHA"
+      },
+      "11C8D" : {
+         "name" : "MARCHEN LETTER SA"
+      },
+      "11C8E" : {
+         "name" : "MARCHEN LETTER HA"
+      },
+      "11C8F" : {
+         "name" : "MARCHEN LETTER A"
+      },
       "11C9" : {
          "name" : "HANGUL JONGSEONG NIEUN-THIEUTH"
+      },
+      "11C92" : {
+         "name" : "MARCHEN SUBJOINED LETTER KA"
+      },
+      "11C93" : {
+         "name" : "MARCHEN SUBJOINED LETTER KHA"
+      },
+      "11C94" : {
+         "name" : "MARCHEN SUBJOINED LETTER GA"
+      },
+      "11C95" : {
+         "name" : "MARCHEN SUBJOINED LETTER NGA"
+      },
+      "11C96" : {
+         "name" : "MARCHEN SUBJOINED LETTER CA"
+      },
+      "11C97" : {
+         "name" : "MARCHEN SUBJOINED LETTER CHA"
+      },
+      "11C98" : {
+         "name" : "MARCHEN SUBJOINED LETTER JA"
+      },
+      "11C99" : {
+         "name" : "MARCHEN SUBJOINED LETTER NYA"
+      },
+      "11C9A" : {
+         "name" : "MARCHEN SUBJOINED LETTER TA"
+      },
+      "11C9B" : {
+         "name" : "MARCHEN SUBJOINED LETTER THA"
+      },
+      "11C9C" : {
+         "name" : "MARCHEN SUBJOINED LETTER DA"
+      },
+      "11C9D" : {
+         "name" : "MARCHEN SUBJOINED LETTER NA"
+      },
+      "11C9E" : {
+         "name" : "MARCHEN SUBJOINED LETTER PA"
+      },
+      "11C9F" : {
+         "name" : "MARCHEN SUBJOINED LETTER PHA"
       },
       "11CA" : {
          "name" : "HANGUL JONGSEONG TIKEUT-KIYEOK"
       },
+      "11CA0" : {
+         "name" : "MARCHEN SUBJOINED LETTER BA"
+      },
+      "11CA1" : {
+         "name" : "MARCHEN SUBJOINED LETTER MA"
+      },
+      "11CA2" : {
+         "name" : "MARCHEN SUBJOINED LETTER TSA"
+      },
+      "11CA3" : {
+         "name" : "MARCHEN SUBJOINED LETTER TSHA"
+      },
+      "11CA4" : {
+         "name" : "MARCHEN SUBJOINED LETTER DZA"
+      },
+      "11CA5" : {
+         "name" : "MARCHEN SUBJOINED LETTER WA"
+      },
+      "11CA6" : {
+         "name" : "MARCHEN SUBJOINED LETTER ZHA"
+      },
+      "11CA7" : {
+         "name" : "MARCHEN SUBJOINED LETTER ZA"
+      },
+      "11CA9" : {
+         "name" : "MARCHEN SUBJOINED LETTER YA"
+      },
+      "11CAA" : {
+         "name" : "MARCHEN SUBJOINED LETTER RA"
+      },
+      "11CAB" : {
+         "name" : "MARCHEN SUBJOINED LETTER LA"
+      },
+      "11CAC" : {
+         "name" : "MARCHEN SUBJOINED LETTER SHA"
+      },
+      "11CAD" : {
+         "name" : "MARCHEN SUBJOINED LETTER SA"
+      },
+      "11CAE" : {
+         "name" : "MARCHEN SUBJOINED LETTER HA"
+      },
+      "11CAF" : {
+         "name" : "MARCHEN SUBJOINED LETTER A"
+      },
       "11CB" : {
          "name" : "HANGUL JONGSEONG TIKEUT-RIEUL"
+      },
+      "11CB0" : {
+         "name" : "MARCHEN VOWEL SIGN AA"
+      },
+      "11CB1" : {
+         "name" : "MARCHEN VOWEL SIGN I"
+      },
+      "11CB2" : {
+         "name" : "MARCHEN VOWEL SIGN U"
+      },
+      "11CB3" : {
+         "name" : "MARCHEN VOWEL SIGN E"
+      },
+      "11CB4" : {
+         "name" : "MARCHEN VOWEL SIGN O"
+      },
+      "11CB5" : {
+         "name" : "MARCHEN SIGN ANUSVARA"
+      },
+      "11CB6" : {
+         "name" : "MARCHEN SIGN CANDRABINDU"
       },
       "11CC" : {
          "name" : "HANGUL JONGSEONG RIEUL-KIYEOK-SIOS"
@@ -39376,6 +40525,9 @@
       "16F9F" : {
          "name" : "MIAO LETTER REFORMED TONE-8"
       },
+      "16FE0" : {
+         "name" : "TANGUT ITERATION MARK"
+      },
       "1700" : {
          "name" : "TAGALOG LETTER A"
       },
@@ -40315,131 +41467,2396 @@
       "1880" : {
          "name" : "MONGOLIAN LETTER ALI GALI ANUSVARA ONE"
       },
+      "18800" : {
+         "name" : "TANGUT COMPONENT-001"
+      },
+      "18801" : {
+         "name" : "TANGUT COMPONENT-002"
+      },
+      "18802" : {
+         "name" : "TANGUT COMPONENT-003"
+      },
+      "18803" : {
+         "name" : "TANGUT COMPONENT-004"
+      },
+      "18804" : {
+         "name" : "TANGUT COMPONENT-005"
+      },
+      "18805" : {
+         "name" : "TANGUT COMPONENT-006"
+      },
+      "18806" : {
+         "name" : "TANGUT COMPONENT-007"
+      },
+      "18807" : {
+         "name" : "TANGUT COMPONENT-008"
+      },
+      "18808" : {
+         "name" : "TANGUT COMPONENT-009"
+      },
+      "18809" : {
+         "name" : "TANGUT COMPONENT-010"
+      },
+      "1880A" : {
+         "name" : "TANGUT COMPONENT-011"
+      },
+      "1880B" : {
+         "name" : "TANGUT COMPONENT-012"
+      },
+      "1880C" : {
+         "name" : "TANGUT COMPONENT-013"
+      },
+      "1880D" : {
+         "name" : "TANGUT COMPONENT-014"
+      },
+      "1880E" : {
+         "name" : "TANGUT COMPONENT-015"
+      },
+      "1880F" : {
+         "name" : "TANGUT COMPONENT-016"
+      },
       "1881" : {
          "name" : "MONGOLIAN LETTER ALI GALI VISARGA ONE"
+      },
+      "18810" : {
+         "name" : "TANGUT COMPONENT-017"
+      },
+      "18811" : {
+         "name" : "TANGUT COMPONENT-018"
+      },
+      "18812" : {
+         "name" : "TANGUT COMPONENT-019"
+      },
+      "18813" : {
+         "name" : "TANGUT COMPONENT-020"
+      },
+      "18814" : {
+         "name" : "TANGUT COMPONENT-021"
+      },
+      "18815" : {
+         "name" : "TANGUT COMPONENT-022"
+      },
+      "18816" : {
+         "name" : "TANGUT COMPONENT-023"
+      },
+      "18817" : {
+         "name" : "TANGUT COMPONENT-024"
+      },
+      "18818" : {
+         "name" : "TANGUT COMPONENT-025"
+      },
+      "18819" : {
+         "name" : "TANGUT COMPONENT-026"
+      },
+      "1881A" : {
+         "name" : "TANGUT COMPONENT-027"
+      },
+      "1881B" : {
+         "name" : "TANGUT COMPONENT-028"
+      },
+      "1881C" : {
+         "name" : "TANGUT COMPONENT-029"
+      },
+      "1881D" : {
+         "name" : "TANGUT COMPONENT-030"
+      },
+      "1881E" : {
+         "name" : "TANGUT COMPONENT-031"
+      },
+      "1881F" : {
+         "name" : "TANGUT COMPONENT-032"
       },
       "1882" : {
          "name" : "MONGOLIAN LETTER ALI GALI DAMARU"
       },
+      "18820" : {
+         "name" : "TANGUT COMPONENT-033"
+      },
+      "18821" : {
+         "name" : "TANGUT COMPONENT-034"
+      },
+      "18822" : {
+         "name" : "TANGUT COMPONENT-035"
+      },
+      "18823" : {
+         "name" : "TANGUT COMPONENT-036"
+      },
+      "18824" : {
+         "name" : "TANGUT COMPONENT-037"
+      },
+      "18825" : {
+         "name" : "TANGUT COMPONENT-038"
+      },
+      "18826" : {
+         "name" : "TANGUT COMPONENT-039"
+      },
+      "18827" : {
+         "name" : "TANGUT COMPONENT-040"
+      },
+      "18828" : {
+         "name" : "TANGUT COMPONENT-041"
+      },
+      "18829" : {
+         "name" : "TANGUT COMPONENT-042"
+      },
+      "1882A" : {
+         "name" : "TANGUT COMPONENT-043"
+      },
+      "1882B" : {
+         "name" : "TANGUT COMPONENT-044"
+      },
+      "1882C" : {
+         "name" : "TANGUT COMPONENT-045"
+      },
+      "1882D" : {
+         "name" : "TANGUT COMPONENT-046"
+      },
+      "1882E" : {
+         "name" : "TANGUT COMPONENT-047"
+      },
+      "1882F" : {
+         "name" : "TANGUT COMPONENT-048"
+      },
       "1883" : {
          "name" : "MONGOLIAN LETTER ALI GALI UBADAMA"
+      },
+      "18830" : {
+         "name" : "TANGUT COMPONENT-049"
+      },
+      "18831" : {
+         "name" : "TANGUT COMPONENT-050"
+      },
+      "18832" : {
+         "name" : "TANGUT COMPONENT-051"
+      },
+      "18833" : {
+         "name" : "TANGUT COMPONENT-052"
+      },
+      "18834" : {
+         "name" : "TANGUT COMPONENT-053"
+      },
+      "18835" : {
+         "name" : "TANGUT COMPONENT-054"
+      },
+      "18836" : {
+         "name" : "TANGUT COMPONENT-055"
+      },
+      "18837" : {
+         "name" : "TANGUT COMPONENT-056"
+      },
+      "18838" : {
+         "name" : "TANGUT COMPONENT-057"
+      },
+      "18839" : {
+         "name" : "TANGUT COMPONENT-058"
+      },
+      "1883A" : {
+         "name" : "TANGUT COMPONENT-059"
+      },
+      "1883B" : {
+         "name" : "TANGUT COMPONENT-060"
+      },
+      "1883C" : {
+         "name" : "TANGUT COMPONENT-061"
+      },
+      "1883D" : {
+         "name" : "TANGUT COMPONENT-062"
+      },
+      "1883E" : {
+         "name" : "TANGUT COMPONENT-063"
+      },
+      "1883F" : {
+         "name" : "TANGUT COMPONENT-064"
       },
       "1884" : {
          "name" : "MONGOLIAN LETTER ALI GALI INVERTED UBADAMA"
       },
+      "18840" : {
+         "name" : "TANGUT COMPONENT-065"
+      },
+      "18841" : {
+         "name" : "TANGUT COMPONENT-066"
+      },
+      "18842" : {
+         "name" : "TANGUT COMPONENT-067"
+      },
+      "18843" : {
+         "name" : "TANGUT COMPONENT-068"
+      },
+      "18844" : {
+         "name" : "TANGUT COMPONENT-069"
+      },
+      "18845" : {
+         "name" : "TANGUT COMPONENT-070"
+      },
+      "18846" : {
+         "name" : "TANGUT COMPONENT-071"
+      },
+      "18847" : {
+         "name" : "TANGUT COMPONENT-072"
+      },
+      "18848" : {
+         "name" : "TANGUT COMPONENT-073"
+      },
+      "18849" : {
+         "name" : "TANGUT COMPONENT-074"
+      },
+      "1884A" : {
+         "name" : "TANGUT COMPONENT-075"
+      },
+      "1884B" : {
+         "name" : "TANGUT COMPONENT-076"
+      },
+      "1884C" : {
+         "name" : "TANGUT COMPONENT-077"
+      },
+      "1884D" : {
+         "name" : "TANGUT COMPONENT-078"
+      },
+      "1884E" : {
+         "name" : "TANGUT COMPONENT-079"
+      },
+      "1884F" : {
+         "name" : "TANGUT COMPONENT-080"
+      },
       "1885" : {
          "name" : "MONGOLIAN LETTER ALI GALI BALUDA"
+      },
+      "18850" : {
+         "name" : "TANGUT COMPONENT-081"
+      },
+      "18851" : {
+         "name" : "TANGUT COMPONENT-082"
+      },
+      "18852" : {
+         "name" : "TANGUT COMPONENT-083"
+      },
+      "18853" : {
+         "name" : "TANGUT COMPONENT-084"
+      },
+      "18854" : {
+         "name" : "TANGUT COMPONENT-085"
+      },
+      "18855" : {
+         "name" : "TANGUT COMPONENT-086"
+      },
+      "18856" : {
+         "name" : "TANGUT COMPONENT-087"
+      },
+      "18857" : {
+         "name" : "TANGUT COMPONENT-088"
+      },
+      "18858" : {
+         "name" : "TANGUT COMPONENT-089"
+      },
+      "18859" : {
+         "name" : "TANGUT COMPONENT-090"
+      },
+      "1885A" : {
+         "name" : "TANGUT COMPONENT-091"
+      },
+      "1885B" : {
+         "name" : "TANGUT COMPONENT-092"
+      },
+      "1885C" : {
+         "name" : "TANGUT COMPONENT-093"
+      },
+      "1885D" : {
+         "name" : "TANGUT COMPONENT-094"
+      },
+      "1885E" : {
+         "name" : "TANGUT COMPONENT-095"
+      },
+      "1885F" : {
+         "name" : "TANGUT COMPONENT-096"
       },
       "1886" : {
          "name" : "MONGOLIAN LETTER ALI GALI THREE BALUDA"
       },
+      "18860" : {
+         "name" : "TANGUT COMPONENT-097"
+      },
+      "18861" : {
+         "name" : "TANGUT COMPONENT-098"
+      },
+      "18862" : {
+         "name" : "TANGUT COMPONENT-099"
+      },
+      "18863" : {
+         "name" : "TANGUT COMPONENT-100"
+      },
+      "18864" : {
+         "name" : "TANGUT COMPONENT-101"
+      },
+      "18865" : {
+         "name" : "TANGUT COMPONENT-102"
+      },
+      "18866" : {
+         "name" : "TANGUT COMPONENT-103"
+      },
+      "18867" : {
+         "name" : "TANGUT COMPONENT-104"
+      },
+      "18868" : {
+         "name" : "TANGUT COMPONENT-105"
+      },
+      "18869" : {
+         "name" : "TANGUT COMPONENT-106"
+      },
+      "1886A" : {
+         "name" : "TANGUT COMPONENT-107"
+      },
+      "1886B" : {
+         "name" : "TANGUT COMPONENT-108"
+      },
+      "1886C" : {
+         "name" : "TANGUT COMPONENT-109"
+      },
+      "1886D" : {
+         "name" : "TANGUT COMPONENT-110"
+      },
+      "1886E" : {
+         "name" : "TANGUT COMPONENT-111"
+      },
+      "1886F" : {
+         "name" : "TANGUT COMPONENT-112"
+      },
       "1887" : {
          "name" : "MONGOLIAN LETTER ALI GALI A"
+      },
+      "18870" : {
+         "name" : "TANGUT COMPONENT-113"
+      },
+      "18871" : {
+         "name" : "TANGUT COMPONENT-114"
+      },
+      "18872" : {
+         "name" : "TANGUT COMPONENT-115"
+      },
+      "18873" : {
+         "name" : "TANGUT COMPONENT-116"
+      },
+      "18874" : {
+         "name" : "TANGUT COMPONENT-117"
+      },
+      "18875" : {
+         "name" : "TANGUT COMPONENT-118"
+      },
+      "18876" : {
+         "name" : "TANGUT COMPONENT-119"
+      },
+      "18877" : {
+         "name" : "TANGUT COMPONENT-120"
+      },
+      "18878" : {
+         "name" : "TANGUT COMPONENT-121"
+      },
+      "18879" : {
+         "name" : "TANGUT COMPONENT-122"
+      },
+      "1887A" : {
+         "name" : "TANGUT COMPONENT-123"
+      },
+      "1887B" : {
+         "name" : "TANGUT COMPONENT-124"
+      },
+      "1887C" : {
+         "name" : "TANGUT COMPONENT-125"
+      },
+      "1887D" : {
+         "name" : "TANGUT COMPONENT-126"
+      },
+      "1887E" : {
+         "name" : "TANGUT COMPONENT-127"
+      },
+      "1887F" : {
+         "name" : "TANGUT COMPONENT-128"
       },
       "1888" : {
          "name" : "MONGOLIAN LETTER ALI GALI I"
       },
+      "18880" : {
+         "name" : "TANGUT COMPONENT-129"
+      },
+      "18881" : {
+         "name" : "TANGUT COMPONENT-130"
+      },
+      "18882" : {
+         "name" : "TANGUT COMPONENT-131"
+      },
+      "18883" : {
+         "name" : "TANGUT COMPONENT-132"
+      },
+      "18884" : {
+         "name" : "TANGUT COMPONENT-133"
+      },
+      "18885" : {
+         "name" : "TANGUT COMPONENT-134"
+      },
+      "18886" : {
+         "name" : "TANGUT COMPONENT-135"
+      },
+      "18887" : {
+         "name" : "TANGUT COMPONENT-136"
+      },
+      "18888" : {
+         "name" : "TANGUT COMPONENT-137"
+      },
+      "18889" : {
+         "name" : "TANGUT COMPONENT-138"
+      },
+      "1888A" : {
+         "name" : "TANGUT COMPONENT-139"
+      },
+      "1888B" : {
+         "name" : "TANGUT COMPONENT-140"
+      },
+      "1888C" : {
+         "name" : "TANGUT COMPONENT-141"
+      },
+      "1888D" : {
+         "name" : "TANGUT COMPONENT-142"
+      },
+      "1888E" : {
+         "name" : "TANGUT COMPONENT-143"
+      },
+      "1888F" : {
+         "name" : "TANGUT COMPONENT-144"
+      },
       "1889" : {
          "name" : "MONGOLIAN LETTER ALI GALI KA"
+      },
+      "18890" : {
+         "name" : "TANGUT COMPONENT-145"
+      },
+      "18891" : {
+         "name" : "TANGUT COMPONENT-146"
+      },
+      "18892" : {
+         "name" : "TANGUT COMPONENT-147"
+      },
+      "18893" : {
+         "name" : "TANGUT COMPONENT-148"
+      },
+      "18894" : {
+         "name" : "TANGUT COMPONENT-149"
+      },
+      "18895" : {
+         "name" : "TANGUT COMPONENT-150"
+      },
+      "18896" : {
+         "name" : "TANGUT COMPONENT-151"
+      },
+      "18897" : {
+         "name" : "TANGUT COMPONENT-152"
+      },
+      "18898" : {
+         "name" : "TANGUT COMPONENT-153"
+      },
+      "18899" : {
+         "name" : "TANGUT COMPONENT-154"
+      },
+      "1889A" : {
+         "name" : "TANGUT COMPONENT-155"
+      },
+      "1889B" : {
+         "name" : "TANGUT COMPONENT-156"
+      },
+      "1889C" : {
+         "name" : "TANGUT COMPONENT-157"
+      },
+      "1889D" : {
+         "name" : "TANGUT COMPONENT-158"
+      },
+      "1889E" : {
+         "name" : "TANGUT COMPONENT-159"
+      },
+      "1889F" : {
+         "name" : "TANGUT COMPONENT-160"
       },
       "188A" : {
          "name" : "MONGOLIAN LETTER ALI GALI NGA"
       },
+      "188A0" : {
+         "name" : "TANGUT COMPONENT-161"
+      },
+      "188A1" : {
+         "name" : "TANGUT COMPONENT-162"
+      },
+      "188A2" : {
+         "name" : "TANGUT COMPONENT-163"
+      },
+      "188A3" : {
+         "name" : "TANGUT COMPONENT-164"
+      },
+      "188A4" : {
+         "name" : "TANGUT COMPONENT-165"
+      },
+      "188A5" : {
+         "name" : "TANGUT COMPONENT-166"
+      },
+      "188A6" : {
+         "name" : "TANGUT COMPONENT-167"
+      },
+      "188A7" : {
+         "name" : "TANGUT COMPONENT-168"
+      },
+      "188A8" : {
+         "name" : "TANGUT COMPONENT-169"
+      },
+      "188A9" : {
+         "name" : "TANGUT COMPONENT-170"
+      },
+      "188AA" : {
+         "name" : "TANGUT COMPONENT-171"
+      },
+      "188AB" : {
+         "name" : "TANGUT COMPONENT-172"
+      },
+      "188AC" : {
+         "name" : "TANGUT COMPONENT-173"
+      },
+      "188AD" : {
+         "name" : "TANGUT COMPONENT-174"
+      },
+      "188AE" : {
+         "name" : "TANGUT COMPONENT-175"
+      },
+      "188AF" : {
+         "name" : "TANGUT COMPONENT-176"
+      },
       "188B" : {
          "name" : "MONGOLIAN LETTER ALI GALI CA"
+      },
+      "188B0" : {
+         "name" : "TANGUT COMPONENT-177"
+      },
+      "188B1" : {
+         "name" : "TANGUT COMPONENT-178"
+      },
+      "188B2" : {
+         "name" : "TANGUT COMPONENT-179"
+      },
+      "188B3" : {
+         "name" : "TANGUT COMPONENT-180"
+      },
+      "188B4" : {
+         "name" : "TANGUT COMPONENT-181"
+      },
+      "188B5" : {
+         "name" : "TANGUT COMPONENT-182"
+      },
+      "188B6" : {
+         "name" : "TANGUT COMPONENT-183"
+      },
+      "188B7" : {
+         "name" : "TANGUT COMPONENT-184"
+      },
+      "188B8" : {
+         "name" : "TANGUT COMPONENT-185"
+      },
+      "188B9" : {
+         "name" : "TANGUT COMPONENT-186"
+      },
+      "188BA" : {
+         "name" : "TANGUT COMPONENT-187"
+      },
+      "188BB" : {
+         "name" : "TANGUT COMPONENT-188"
+      },
+      "188BC" : {
+         "name" : "TANGUT COMPONENT-189"
+      },
+      "188BD" : {
+         "name" : "TANGUT COMPONENT-190"
+      },
+      "188BE" : {
+         "name" : "TANGUT COMPONENT-191"
+      },
+      "188BF" : {
+         "name" : "TANGUT COMPONENT-192"
       },
       "188C" : {
          "name" : "MONGOLIAN LETTER ALI GALI TTA"
       },
+      "188C0" : {
+         "name" : "TANGUT COMPONENT-193"
+      },
+      "188C1" : {
+         "name" : "TANGUT COMPONENT-194"
+      },
+      "188C2" : {
+         "name" : "TANGUT COMPONENT-195"
+      },
+      "188C3" : {
+         "name" : "TANGUT COMPONENT-196"
+      },
+      "188C4" : {
+         "name" : "TANGUT COMPONENT-197"
+      },
+      "188C5" : {
+         "name" : "TANGUT COMPONENT-198"
+      },
+      "188C6" : {
+         "name" : "TANGUT COMPONENT-199"
+      },
+      "188C7" : {
+         "name" : "TANGUT COMPONENT-200"
+      },
+      "188C8" : {
+         "name" : "TANGUT COMPONENT-201"
+      },
+      "188C9" : {
+         "name" : "TANGUT COMPONENT-202"
+      },
+      "188CA" : {
+         "name" : "TANGUT COMPONENT-203"
+      },
+      "188CB" : {
+         "name" : "TANGUT COMPONENT-204"
+      },
+      "188CC" : {
+         "name" : "TANGUT COMPONENT-205"
+      },
+      "188CD" : {
+         "name" : "TANGUT COMPONENT-206"
+      },
+      "188CE" : {
+         "name" : "TANGUT COMPONENT-207"
+      },
+      "188CF" : {
+         "name" : "TANGUT COMPONENT-208"
+      },
       "188D" : {
          "name" : "MONGOLIAN LETTER ALI GALI TTHA"
+      },
+      "188D0" : {
+         "name" : "TANGUT COMPONENT-209"
+      },
+      "188D1" : {
+         "name" : "TANGUT COMPONENT-210"
+      },
+      "188D2" : {
+         "name" : "TANGUT COMPONENT-211"
+      },
+      "188D3" : {
+         "name" : "TANGUT COMPONENT-212"
+      },
+      "188D4" : {
+         "name" : "TANGUT COMPONENT-213"
+      },
+      "188D5" : {
+         "name" : "TANGUT COMPONENT-214"
+      },
+      "188D6" : {
+         "name" : "TANGUT COMPONENT-215"
+      },
+      "188D7" : {
+         "name" : "TANGUT COMPONENT-216"
+      },
+      "188D8" : {
+         "name" : "TANGUT COMPONENT-217"
+      },
+      "188D9" : {
+         "name" : "TANGUT COMPONENT-218"
+      },
+      "188DA" : {
+         "name" : "TANGUT COMPONENT-219"
+      },
+      "188DB" : {
+         "name" : "TANGUT COMPONENT-220"
+      },
+      "188DC" : {
+         "name" : "TANGUT COMPONENT-221"
+      },
+      "188DD" : {
+         "name" : "TANGUT COMPONENT-222"
+      },
+      "188DE" : {
+         "name" : "TANGUT COMPONENT-223"
+      },
+      "188DF" : {
+         "name" : "TANGUT COMPONENT-224"
       },
       "188E" : {
          "name" : "MONGOLIAN LETTER ALI GALI DDA"
       },
+      "188E0" : {
+         "name" : "TANGUT COMPONENT-225"
+      },
+      "188E1" : {
+         "name" : "TANGUT COMPONENT-226"
+      },
+      "188E2" : {
+         "name" : "TANGUT COMPONENT-227"
+      },
+      "188E3" : {
+         "name" : "TANGUT COMPONENT-228"
+      },
+      "188E4" : {
+         "name" : "TANGUT COMPONENT-229"
+      },
+      "188E5" : {
+         "name" : "TANGUT COMPONENT-230"
+      },
+      "188E6" : {
+         "name" : "TANGUT COMPONENT-231"
+      },
+      "188E7" : {
+         "name" : "TANGUT COMPONENT-232"
+      },
+      "188E8" : {
+         "name" : "TANGUT COMPONENT-233"
+      },
+      "188E9" : {
+         "name" : "TANGUT COMPONENT-234"
+      },
+      "188EA" : {
+         "name" : "TANGUT COMPONENT-235"
+      },
+      "188EB" : {
+         "name" : "TANGUT COMPONENT-236"
+      },
+      "188EC" : {
+         "name" : "TANGUT COMPONENT-237"
+      },
+      "188ED" : {
+         "name" : "TANGUT COMPONENT-238"
+      },
+      "188EE" : {
+         "name" : "TANGUT COMPONENT-239"
+      },
+      "188EF" : {
+         "name" : "TANGUT COMPONENT-240"
+      },
       "188F" : {
          "name" : "MONGOLIAN LETTER ALI GALI NNA"
+      },
+      "188F0" : {
+         "name" : "TANGUT COMPONENT-241"
+      },
+      "188F1" : {
+         "name" : "TANGUT COMPONENT-242"
+      },
+      "188F2" : {
+         "name" : "TANGUT COMPONENT-243"
+      },
+      "188F3" : {
+         "name" : "TANGUT COMPONENT-244"
+      },
+      "188F4" : {
+         "name" : "TANGUT COMPONENT-245"
+      },
+      "188F5" : {
+         "name" : "TANGUT COMPONENT-246"
+      },
+      "188F6" : {
+         "name" : "TANGUT COMPONENT-247"
+      },
+      "188F7" : {
+         "name" : "TANGUT COMPONENT-248"
+      },
+      "188F8" : {
+         "name" : "TANGUT COMPONENT-249"
+      },
+      "188F9" : {
+         "name" : "TANGUT COMPONENT-250"
+      },
+      "188FA" : {
+         "name" : "TANGUT COMPONENT-251"
+      },
+      "188FB" : {
+         "name" : "TANGUT COMPONENT-252"
+      },
+      "188FC" : {
+         "name" : "TANGUT COMPONENT-253"
+      },
+      "188FD" : {
+         "name" : "TANGUT COMPONENT-254"
+      },
+      "188FE" : {
+         "name" : "TANGUT COMPONENT-255"
+      },
+      "188FF" : {
+         "name" : "TANGUT COMPONENT-256"
       },
       "1890" : {
          "name" : "MONGOLIAN LETTER ALI GALI TA"
       },
+      "18900" : {
+         "name" : "TANGUT COMPONENT-257"
+      },
+      "18901" : {
+         "name" : "TANGUT COMPONENT-258"
+      },
+      "18902" : {
+         "name" : "TANGUT COMPONENT-259"
+      },
+      "18903" : {
+         "name" : "TANGUT COMPONENT-260"
+      },
+      "18904" : {
+         "name" : "TANGUT COMPONENT-261"
+      },
+      "18905" : {
+         "name" : "TANGUT COMPONENT-262"
+      },
+      "18906" : {
+         "name" : "TANGUT COMPONENT-263"
+      },
+      "18907" : {
+         "name" : "TANGUT COMPONENT-264"
+      },
+      "18908" : {
+         "name" : "TANGUT COMPONENT-265"
+      },
+      "18909" : {
+         "name" : "TANGUT COMPONENT-266"
+      },
+      "1890A" : {
+         "name" : "TANGUT COMPONENT-267"
+      },
+      "1890B" : {
+         "name" : "TANGUT COMPONENT-268"
+      },
+      "1890C" : {
+         "name" : "TANGUT COMPONENT-269"
+      },
+      "1890D" : {
+         "name" : "TANGUT COMPONENT-270"
+      },
+      "1890E" : {
+         "name" : "TANGUT COMPONENT-271"
+      },
+      "1890F" : {
+         "name" : "TANGUT COMPONENT-272"
+      },
       "1891" : {
          "name" : "MONGOLIAN LETTER ALI GALI DA"
+      },
+      "18910" : {
+         "name" : "TANGUT COMPONENT-273"
+      },
+      "18911" : {
+         "name" : "TANGUT COMPONENT-274"
+      },
+      "18912" : {
+         "name" : "TANGUT COMPONENT-275"
+      },
+      "18913" : {
+         "name" : "TANGUT COMPONENT-276"
+      },
+      "18914" : {
+         "name" : "TANGUT COMPONENT-277"
+      },
+      "18915" : {
+         "name" : "TANGUT COMPONENT-278"
+      },
+      "18916" : {
+         "name" : "TANGUT COMPONENT-279"
+      },
+      "18917" : {
+         "name" : "TANGUT COMPONENT-280"
+      },
+      "18918" : {
+         "name" : "TANGUT COMPONENT-281"
+      },
+      "18919" : {
+         "name" : "TANGUT COMPONENT-282"
+      },
+      "1891A" : {
+         "name" : "TANGUT COMPONENT-283"
+      },
+      "1891B" : {
+         "name" : "TANGUT COMPONENT-284"
+      },
+      "1891C" : {
+         "name" : "TANGUT COMPONENT-285"
+      },
+      "1891D" : {
+         "name" : "TANGUT COMPONENT-286"
+      },
+      "1891E" : {
+         "name" : "TANGUT COMPONENT-287"
+      },
+      "1891F" : {
+         "name" : "TANGUT COMPONENT-288"
       },
       "1892" : {
          "name" : "MONGOLIAN LETTER ALI GALI PA"
       },
+      "18920" : {
+         "name" : "TANGUT COMPONENT-289"
+      },
+      "18921" : {
+         "name" : "TANGUT COMPONENT-290"
+      },
+      "18922" : {
+         "name" : "TANGUT COMPONENT-291"
+      },
+      "18923" : {
+         "name" : "TANGUT COMPONENT-292"
+      },
+      "18924" : {
+         "name" : "TANGUT COMPONENT-293"
+      },
+      "18925" : {
+         "name" : "TANGUT COMPONENT-294"
+      },
+      "18926" : {
+         "name" : "TANGUT COMPONENT-295"
+      },
+      "18927" : {
+         "name" : "TANGUT COMPONENT-296"
+      },
+      "18928" : {
+         "name" : "TANGUT COMPONENT-297"
+      },
+      "18929" : {
+         "name" : "TANGUT COMPONENT-298"
+      },
+      "1892A" : {
+         "name" : "TANGUT COMPONENT-299"
+      },
+      "1892B" : {
+         "name" : "TANGUT COMPONENT-300"
+      },
+      "1892C" : {
+         "name" : "TANGUT COMPONENT-301"
+      },
+      "1892D" : {
+         "name" : "TANGUT COMPONENT-302"
+      },
+      "1892E" : {
+         "name" : "TANGUT COMPONENT-303"
+      },
+      "1892F" : {
+         "name" : "TANGUT COMPONENT-304"
+      },
       "1893" : {
          "name" : "MONGOLIAN LETTER ALI GALI PHA"
+      },
+      "18930" : {
+         "name" : "TANGUT COMPONENT-305"
+      },
+      "18931" : {
+         "name" : "TANGUT COMPONENT-306"
+      },
+      "18932" : {
+         "name" : "TANGUT COMPONENT-307"
+      },
+      "18933" : {
+         "name" : "TANGUT COMPONENT-308"
+      },
+      "18934" : {
+         "name" : "TANGUT COMPONENT-309"
+      },
+      "18935" : {
+         "name" : "TANGUT COMPONENT-310"
+      },
+      "18936" : {
+         "name" : "TANGUT COMPONENT-311"
+      },
+      "18937" : {
+         "name" : "TANGUT COMPONENT-312"
+      },
+      "18938" : {
+         "name" : "TANGUT COMPONENT-313"
+      },
+      "18939" : {
+         "name" : "TANGUT COMPONENT-314"
+      },
+      "1893A" : {
+         "name" : "TANGUT COMPONENT-315"
+      },
+      "1893B" : {
+         "name" : "TANGUT COMPONENT-316"
+      },
+      "1893C" : {
+         "name" : "TANGUT COMPONENT-317"
+      },
+      "1893D" : {
+         "name" : "TANGUT COMPONENT-318"
+      },
+      "1893E" : {
+         "name" : "TANGUT COMPONENT-319"
+      },
+      "1893F" : {
+         "name" : "TANGUT COMPONENT-320"
       },
       "1894" : {
          "name" : "MONGOLIAN LETTER ALI GALI SSA"
       },
+      "18940" : {
+         "name" : "TANGUT COMPONENT-321"
+      },
+      "18941" : {
+         "name" : "TANGUT COMPONENT-322"
+      },
+      "18942" : {
+         "name" : "TANGUT COMPONENT-323"
+      },
+      "18943" : {
+         "name" : "TANGUT COMPONENT-324"
+      },
+      "18944" : {
+         "name" : "TANGUT COMPONENT-325"
+      },
+      "18945" : {
+         "name" : "TANGUT COMPONENT-326"
+      },
+      "18946" : {
+         "name" : "TANGUT COMPONENT-327"
+      },
+      "18947" : {
+         "name" : "TANGUT COMPONENT-328"
+      },
+      "18948" : {
+         "name" : "TANGUT COMPONENT-329"
+      },
+      "18949" : {
+         "name" : "TANGUT COMPONENT-330"
+      },
+      "1894A" : {
+         "name" : "TANGUT COMPONENT-331"
+      },
+      "1894B" : {
+         "name" : "TANGUT COMPONENT-332"
+      },
+      "1894C" : {
+         "name" : "TANGUT COMPONENT-333"
+      },
+      "1894D" : {
+         "name" : "TANGUT COMPONENT-334"
+      },
+      "1894E" : {
+         "name" : "TANGUT COMPONENT-335"
+      },
+      "1894F" : {
+         "name" : "TANGUT COMPONENT-336"
+      },
       "1895" : {
          "name" : "MONGOLIAN LETTER ALI GALI ZHA"
+      },
+      "18950" : {
+         "name" : "TANGUT COMPONENT-337"
+      },
+      "18951" : {
+         "name" : "TANGUT COMPONENT-338"
+      },
+      "18952" : {
+         "name" : "TANGUT COMPONENT-339"
+      },
+      "18953" : {
+         "name" : "TANGUT COMPONENT-340"
+      },
+      "18954" : {
+         "name" : "TANGUT COMPONENT-341"
+      },
+      "18955" : {
+         "name" : "TANGUT COMPONENT-342"
+      },
+      "18956" : {
+         "name" : "TANGUT COMPONENT-343"
+      },
+      "18957" : {
+         "name" : "TANGUT COMPONENT-344"
+      },
+      "18958" : {
+         "name" : "TANGUT COMPONENT-345"
+      },
+      "18959" : {
+         "name" : "TANGUT COMPONENT-346"
+      },
+      "1895A" : {
+         "name" : "TANGUT COMPONENT-347"
+      },
+      "1895B" : {
+         "name" : "TANGUT COMPONENT-348"
+      },
+      "1895C" : {
+         "name" : "TANGUT COMPONENT-349"
+      },
+      "1895D" : {
+         "name" : "TANGUT COMPONENT-350"
+      },
+      "1895E" : {
+         "name" : "TANGUT COMPONENT-351"
+      },
+      "1895F" : {
+         "name" : "TANGUT COMPONENT-352"
       },
       "1896" : {
          "name" : "MONGOLIAN LETTER ALI GALI ZA"
       },
+      "18960" : {
+         "name" : "TANGUT COMPONENT-353"
+      },
+      "18961" : {
+         "name" : "TANGUT COMPONENT-354"
+      },
+      "18962" : {
+         "name" : "TANGUT COMPONENT-355"
+      },
+      "18963" : {
+         "name" : "TANGUT COMPONENT-356"
+      },
+      "18964" : {
+         "name" : "TANGUT COMPONENT-357"
+      },
+      "18965" : {
+         "name" : "TANGUT COMPONENT-358"
+      },
+      "18966" : {
+         "name" : "TANGUT COMPONENT-359"
+      },
+      "18967" : {
+         "name" : "TANGUT COMPONENT-360"
+      },
+      "18968" : {
+         "name" : "TANGUT COMPONENT-361"
+      },
+      "18969" : {
+         "name" : "TANGUT COMPONENT-362"
+      },
+      "1896A" : {
+         "name" : "TANGUT COMPONENT-363"
+      },
+      "1896B" : {
+         "name" : "TANGUT COMPONENT-364"
+      },
+      "1896C" : {
+         "name" : "TANGUT COMPONENT-365"
+      },
+      "1896D" : {
+         "name" : "TANGUT COMPONENT-366"
+      },
+      "1896E" : {
+         "name" : "TANGUT COMPONENT-367"
+      },
+      "1896F" : {
+         "name" : "TANGUT COMPONENT-368"
+      },
       "1897" : {
          "name" : "MONGOLIAN LETTER ALI GALI AH"
+      },
+      "18970" : {
+         "name" : "TANGUT COMPONENT-369"
+      },
+      "18971" : {
+         "name" : "TANGUT COMPONENT-370"
+      },
+      "18972" : {
+         "name" : "TANGUT COMPONENT-371"
+      },
+      "18973" : {
+         "name" : "TANGUT COMPONENT-372"
+      },
+      "18974" : {
+         "name" : "TANGUT COMPONENT-373"
+      },
+      "18975" : {
+         "name" : "TANGUT COMPONENT-374"
+      },
+      "18976" : {
+         "name" : "TANGUT COMPONENT-375"
+      },
+      "18977" : {
+         "name" : "TANGUT COMPONENT-376"
+      },
+      "18978" : {
+         "name" : "TANGUT COMPONENT-377"
+      },
+      "18979" : {
+         "name" : "TANGUT COMPONENT-378"
+      },
+      "1897A" : {
+         "name" : "TANGUT COMPONENT-379"
+      },
+      "1897B" : {
+         "name" : "TANGUT COMPONENT-380"
+      },
+      "1897C" : {
+         "name" : "TANGUT COMPONENT-381"
+      },
+      "1897D" : {
+         "name" : "TANGUT COMPONENT-382"
+      },
+      "1897E" : {
+         "name" : "TANGUT COMPONENT-383"
+      },
+      "1897F" : {
+         "name" : "TANGUT COMPONENT-384"
       },
       "1898" : {
          "name" : "MONGOLIAN LETTER TODO ALI GALI TA"
       },
+      "18980" : {
+         "name" : "TANGUT COMPONENT-385"
+      },
+      "18981" : {
+         "name" : "TANGUT COMPONENT-386"
+      },
+      "18982" : {
+         "name" : "TANGUT COMPONENT-387"
+      },
+      "18983" : {
+         "name" : "TANGUT COMPONENT-388"
+      },
+      "18984" : {
+         "name" : "TANGUT COMPONENT-389"
+      },
+      "18985" : {
+         "name" : "TANGUT COMPONENT-390"
+      },
+      "18986" : {
+         "name" : "TANGUT COMPONENT-391"
+      },
+      "18987" : {
+         "name" : "TANGUT COMPONENT-392"
+      },
+      "18988" : {
+         "name" : "TANGUT COMPONENT-393"
+      },
+      "18989" : {
+         "name" : "TANGUT COMPONENT-394"
+      },
+      "1898A" : {
+         "name" : "TANGUT COMPONENT-395"
+      },
+      "1898B" : {
+         "name" : "TANGUT COMPONENT-396"
+      },
+      "1898C" : {
+         "name" : "TANGUT COMPONENT-397"
+      },
+      "1898D" : {
+         "name" : "TANGUT COMPONENT-398"
+      },
+      "1898E" : {
+         "name" : "TANGUT COMPONENT-399"
+      },
+      "1898F" : {
+         "name" : "TANGUT COMPONENT-400"
+      },
       "1899" : {
          "name" : "MONGOLIAN LETTER TODO ALI GALI ZHA"
+      },
+      "18990" : {
+         "name" : "TANGUT COMPONENT-401"
+      },
+      "18991" : {
+         "name" : "TANGUT COMPONENT-402"
+      },
+      "18992" : {
+         "name" : "TANGUT COMPONENT-403"
+      },
+      "18993" : {
+         "name" : "TANGUT COMPONENT-404"
+      },
+      "18994" : {
+         "name" : "TANGUT COMPONENT-405"
+      },
+      "18995" : {
+         "name" : "TANGUT COMPONENT-406"
+      },
+      "18996" : {
+         "name" : "TANGUT COMPONENT-407"
+      },
+      "18997" : {
+         "name" : "TANGUT COMPONENT-408"
+      },
+      "18998" : {
+         "name" : "TANGUT COMPONENT-409"
+      },
+      "18999" : {
+         "name" : "TANGUT COMPONENT-410"
+      },
+      "1899A" : {
+         "name" : "TANGUT COMPONENT-411"
+      },
+      "1899B" : {
+         "name" : "TANGUT COMPONENT-412"
+      },
+      "1899C" : {
+         "name" : "TANGUT COMPONENT-413"
+      },
+      "1899D" : {
+         "name" : "TANGUT COMPONENT-414"
+      },
+      "1899E" : {
+         "name" : "TANGUT COMPONENT-415"
+      },
+      "1899F" : {
+         "name" : "TANGUT COMPONENT-416"
       },
       "189A" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI GHA"
       },
+      "189A0" : {
+         "name" : "TANGUT COMPONENT-417"
+      },
+      "189A1" : {
+         "name" : "TANGUT COMPONENT-418"
+      },
+      "189A2" : {
+         "name" : "TANGUT COMPONENT-419"
+      },
+      "189A3" : {
+         "name" : "TANGUT COMPONENT-420"
+      },
+      "189A4" : {
+         "name" : "TANGUT COMPONENT-421"
+      },
+      "189A5" : {
+         "name" : "TANGUT COMPONENT-422"
+      },
+      "189A6" : {
+         "name" : "TANGUT COMPONENT-423"
+      },
+      "189A7" : {
+         "name" : "TANGUT COMPONENT-424"
+      },
+      "189A8" : {
+         "name" : "TANGUT COMPONENT-425"
+      },
+      "189A9" : {
+         "name" : "TANGUT COMPONENT-426"
+      },
+      "189AA" : {
+         "name" : "TANGUT COMPONENT-427"
+      },
+      "189AB" : {
+         "name" : "TANGUT COMPONENT-428"
+      },
+      "189AC" : {
+         "name" : "TANGUT COMPONENT-429"
+      },
+      "189AD" : {
+         "name" : "TANGUT COMPONENT-430"
+      },
+      "189AE" : {
+         "name" : "TANGUT COMPONENT-431"
+      },
+      "189AF" : {
+         "name" : "TANGUT COMPONENT-432"
+      },
       "189B" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI NGA"
+      },
+      "189B0" : {
+         "name" : "TANGUT COMPONENT-433"
+      },
+      "189B1" : {
+         "name" : "TANGUT COMPONENT-434"
+      },
+      "189B2" : {
+         "name" : "TANGUT COMPONENT-435"
+      },
+      "189B3" : {
+         "name" : "TANGUT COMPONENT-436"
+      },
+      "189B4" : {
+         "name" : "TANGUT COMPONENT-437"
+      },
+      "189B5" : {
+         "name" : "TANGUT COMPONENT-438"
+      },
+      "189B6" : {
+         "name" : "TANGUT COMPONENT-439"
+      },
+      "189B7" : {
+         "name" : "TANGUT COMPONENT-440"
+      },
+      "189B8" : {
+         "name" : "TANGUT COMPONENT-441"
+      },
+      "189B9" : {
+         "name" : "TANGUT COMPONENT-442"
+      },
+      "189BA" : {
+         "name" : "TANGUT COMPONENT-443"
+      },
+      "189BB" : {
+         "name" : "TANGUT COMPONENT-444"
+      },
+      "189BC" : {
+         "name" : "TANGUT COMPONENT-445"
+      },
+      "189BD" : {
+         "name" : "TANGUT COMPONENT-446"
+      },
+      "189BE" : {
+         "name" : "TANGUT COMPONENT-447"
+      },
+      "189BF" : {
+         "name" : "TANGUT COMPONENT-448"
       },
       "189C" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI CA"
       },
+      "189C0" : {
+         "name" : "TANGUT COMPONENT-449"
+      },
+      "189C1" : {
+         "name" : "TANGUT COMPONENT-450"
+      },
+      "189C2" : {
+         "name" : "TANGUT COMPONENT-451"
+      },
+      "189C3" : {
+         "name" : "TANGUT COMPONENT-452"
+      },
+      "189C4" : {
+         "name" : "TANGUT COMPONENT-453"
+      },
+      "189C5" : {
+         "name" : "TANGUT COMPONENT-454"
+      },
+      "189C6" : {
+         "name" : "TANGUT COMPONENT-455"
+      },
+      "189C7" : {
+         "name" : "TANGUT COMPONENT-456"
+      },
+      "189C8" : {
+         "name" : "TANGUT COMPONENT-457"
+      },
+      "189C9" : {
+         "name" : "TANGUT COMPONENT-458"
+      },
+      "189CA" : {
+         "name" : "TANGUT COMPONENT-459"
+      },
+      "189CB" : {
+         "name" : "TANGUT COMPONENT-460"
+      },
+      "189CC" : {
+         "name" : "TANGUT COMPONENT-461"
+      },
+      "189CD" : {
+         "name" : "TANGUT COMPONENT-462"
+      },
+      "189CE" : {
+         "name" : "TANGUT COMPONENT-463"
+      },
+      "189CF" : {
+         "name" : "TANGUT COMPONENT-464"
+      },
       "189D" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI JHA"
+      },
+      "189D0" : {
+         "name" : "TANGUT COMPONENT-465"
+      },
+      "189D1" : {
+         "name" : "TANGUT COMPONENT-466"
+      },
+      "189D2" : {
+         "name" : "TANGUT COMPONENT-467"
+      },
+      "189D3" : {
+         "name" : "TANGUT COMPONENT-468"
+      },
+      "189D4" : {
+         "name" : "TANGUT COMPONENT-469"
+      },
+      "189D5" : {
+         "name" : "TANGUT COMPONENT-470"
+      },
+      "189D6" : {
+         "name" : "TANGUT COMPONENT-471"
+      },
+      "189D7" : {
+         "name" : "TANGUT COMPONENT-472"
+      },
+      "189D8" : {
+         "name" : "TANGUT COMPONENT-473"
+      },
+      "189D9" : {
+         "name" : "TANGUT COMPONENT-474"
+      },
+      "189DA" : {
+         "name" : "TANGUT COMPONENT-475"
+      },
+      "189DB" : {
+         "name" : "TANGUT COMPONENT-476"
+      },
+      "189DC" : {
+         "name" : "TANGUT COMPONENT-477"
+      },
+      "189DD" : {
+         "name" : "TANGUT COMPONENT-478"
+      },
+      "189DE" : {
+         "name" : "TANGUT COMPONENT-479"
+      },
+      "189DF" : {
+         "name" : "TANGUT COMPONENT-480"
       },
       "189E" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI TTA"
       },
+      "189E0" : {
+         "name" : "TANGUT COMPONENT-481"
+      },
+      "189E1" : {
+         "name" : "TANGUT COMPONENT-482"
+      },
+      "189E2" : {
+         "name" : "TANGUT COMPONENT-483"
+      },
+      "189E3" : {
+         "name" : "TANGUT COMPONENT-484"
+      },
+      "189E4" : {
+         "name" : "TANGUT COMPONENT-485"
+      },
+      "189E5" : {
+         "name" : "TANGUT COMPONENT-486"
+      },
+      "189E6" : {
+         "name" : "TANGUT COMPONENT-487"
+      },
+      "189E7" : {
+         "name" : "TANGUT COMPONENT-488"
+      },
+      "189E8" : {
+         "name" : "TANGUT COMPONENT-489"
+      },
+      "189E9" : {
+         "name" : "TANGUT COMPONENT-490"
+      },
+      "189EA" : {
+         "name" : "TANGUT COMPONENT-491"
+      },
+      "189EB" : {
+         "name" : "TANGUT COMPONENT-492"
+      },
+      "189EC" : {
+         "name" : "TANGUT COMPONENT-493"
+      },
+      "189ED" : {
+         "name" : "TANGUT COMPONENT-494"
+      },
+      "189EE" : {
+         "name" : "TANGUT COMPONENT-495"
+      },
+      "189EF" : {
+         "name" : "TANGUT COMPONENT-496"
+      },
       "189F" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI DDHA"
+      },
+      "189F0" : {
+         "name" : "TANGUT COMPONENT-497"
+      },
+      "189F1" : {
+         "name" : "TANGUT COMPONENT-498"
+      },
+      "189F2" : {
+         "name" : "TANGUT COMPONENT-499"
+      },
+      "189F3" : {
+         "name" : "TANGUT COMPONENT-500"
+      },
+      "189F4" : {
+         "name" : "TANGUT COMPONENT-501"
+      },
+      "189F5" : {
+         "name" : "TANGUT COMPONENT-502"
+      },
+      "189F6" : {
+         "name" : "TANGUT COMPONENT-503"
+      },
+      "189F7" : {
+         "name" : "TANGUT COMPONENT-504"
+      },
+      "189F8" : {
+         "name" : "TANGUT COMPONENT-505"
+      },
+      "189F9" : {
+         "name" : "TANGUT COMPONENT-506"
+      },
+      "189FA" : {
+         "name" : "TANGUT COMPONENT-507"
+      },
+      "189FB" : {
+         "name" : "TANGUT COMPONENT-508"
+      },
+      "189FC" : {
+         "name" : "TANGUT COMPONENT-509"
+      },
+      "189FD" : {
+         "name" : "TANGUT COMPONENT-510"
+      },
+      "189FE" : {
+         "name" : "TANGUT COMPONENT-511"
+      },
+      "189FF" : {
+         "name" : "TANGUT COMPONENT-512"
       },
       "18A0" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI TA"
       },
+      "18A00" : {
+         "name" : "TANGUT COMPONENT-513"
+      },
+      "18A01" : {
+         "name" : "TANGUT COMPONENT-514"
+      },
+      "18A02" : {
+         "name" : "TANGUT COMPONENT-515"
+      },
+      "18A03" : {
+         "name" : "TANGUT COMPONENT-516"
+      },
+      "18A04" : {
+         "name" : "TANGUT COMPONENT-517"
+      },
+      "18A05" : {
+         "name" : "TANGUT COMPONENT-518"
+      },
+      "18A06" : {
+         "name" : "TANGUT COMPONENT-519"
+      },
+      "18A07" : {
+         "name" : "TANGUT COMPONENT-520"
+      },
+      "18A08" : {
+         "name" : "TANGUT COMPONENT-521"
+      },
+      "18A09" : {
+         "name" : "TANGUT COMPONENT-522"
+      },
+      "18A0A" : {
+         "name" : "TANGUT COMPONENT-523"
+      },
+      "18A0B" : {
+         "name" : "TANGUT COMPONENT-524"
+      },
+      "18A0C" : {
+         "name" : "TANGUT COMPONENT-525"
+      },
+      "18A0D" : {
+         "name" : "TANGUT COMPONENT-526"
+      },
+      "18A0E" : {
+         "name" : "TANGUT COMPONENT-527"
+      },
+      "18A0F" : {
+         "name" : "TANGUT COMPONENT-528"
+      },
       "18A1" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI DHA"
+      },
+      "18A10" : {
+         "name" : "TANGUT COMPONENT-529"
+      },
+      "18A11" : {
+         "name" : "TANGUT COMPONENT-530"
+      },
+      "18A12" : {
+         "name" : "TANGUT COMPONENT-531"
+      },
+      "18A13" : {
+         "name" : "TANGUT COMPONENT-532"
+      },
+      "18A14" : {
+         "name" : "TANGUT COMPONENT-533"
+      },
+      "18A15" : {
+         "name" : "TANGUT COMPONENT-534"
+      },
+      "18A16" : {
+         "name" : "TANGUT COMPONENT-535"
+      },
+      "18A17" : {
+         "name" : "TANGUT COMPONENT-536"
+      },
+      "18A18" : {
+         "name" : "TANGUT COMPONENT-537"
+      },
+      "18A19" : {
+         "name" : "TANGUT COMPONENT-538"
+      },
+      "18A1A" : {
+         "name" : "TANGUT COMPONENT-539"
+      },
+      "18A1B" : {
+         "name" : "TANGUT COMPONENT-540"
+      },
+      "18A1C" : {
+         "name" : "TANGUT COMPONENT-541"
+      },
+      "18A1D" : {
+         "name" : "TANGUT COMPONENT-542"
+      },
+      "18A1E" : {
+         "name" : "TANGUT COMPONENT-543"
+      },
+      "18A1F" : {
+         "name" : "TANGUT COMPONENT-544"
       },
       "18A2" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI SSA"
       },
+      "18A20" : {
+         "name" : "TANGUT COMPONENT-545"
+      },
+      "18A21" : {
+         "name" : "TANGUT COMPONENT-546"
+      },
+      "18A22" : {
+         "name" : "TANGUT COMPONENT-547"
+      },
+      "18A23" : {
+         "name" : "TANGUT COMPONENT-548"
+      },
+      "18A24" : {
+         "name" : "TANGUT COMPONENT-549"
+      },
+      "18A25" : {
+         "name" : "TANGUT COMPONENT-550"
+      },
+      "18A26" : {
+         "name" : "TANGUT COMPONENT-551"
+      },
+      "18A27" : {
+         "name" : "TANGUT COMPONENT-552"
+      },
+      "18A28" : {
+         "name" : "TANGUT COMPONENT-553"
+      },
+      "18A29" : {
+         "name" : "TANGUT COMPONENT-554"
+      },
+      "18A2A" : {
+         "name" : "TANGUT COMPONENT-555"
+      },
+      "18A2B" : {
+         "name" : "TANGUT COMPONENT-556"
+      },
+      "18A2C" : {
+         "name" : "TANGUT COMPONENT-557"
+      },
+      "18A2D" : {
+         "name" : "TANGUT COMPONENT-558"
+      },
+      "18A2E" : {
+         "name" : "TANGUT COMPONENT-559"
+      },
+      "18A2F" : {
+         "name" : "TANGUT COMPONENT-560"
+      },
       "18A3" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI CYA"
+      },
+      "18A30" : {
+         "name" : "TANGUT COMPONENT-561"
+      },
+      "18A31" : {
+         "name" : "TANGUT COMPONENT-562"
+      },
+      "18A32" : {
+         "name" : "TANGUT COMPONENT-563"
+      },
+      "18A33" : {
+         "name" : "TANGUT COMPONENT-564"
+      },
+      "18A34" : {
+         "name" : "TANGUT COMPONENT-565"
+      },
+      "18A35" : {
+         "name" : "TANGUT COMPONENT-566"
+      },
+      "18A36" : {
+         "name" : "TANGUT COMPONENT-567"
+      },
+      "18A37" : {
+         "name" : "TANGUT COMPONENT-568"
+      },
+      "18A38" : {
+         "name" : "TANGUT COMPONENT-569"
+      },
+      "18A39" : {
+         "name" : "TANGUT COMPONENT-570"
+      },
+      "18A3A" : {
+         "name" : "TANGUT COMPONENT-571"
+      },
+      "18A3B" : {
+         "name" : "TANGUT COMPONENT-572"
+      },
+      "18A3C" : {
+         "name" : "TANGUT COMPONENT-573"
+      },
+      "18A3D" : {
+         "name" : "TANGUT COMPONENT-574"
+      },
+      "18A3E" : {
+         "name" : "TANGUT COMPONENT-575"
+      },
+      "18A3F" : {
+         "name" : "TANGUT COMPONENT-576"
       },
       "18A4" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI ZHA"
       },
+      "18A40" : {
+         "name" : "TANGUT COMPONENT-577"
+      },
+      "18A41" : {
+         "name" : "TANGUT COMPONENT-578"
+      },
+      "18A42" : {
+         "name" : "TANGUT COMPONENT-579"
+      },
+      "18A43" : {
+         "name" : "TANGUT COMPONENT-580"
+      },
+      "18A44" : {
+         "name" : "TANGUT COMPONENT-581"
+      },
+      "18A45" : {
+         "name" : "TANGUT COMPONENT-582"
+      },
+      "18A46" : {
+         "name" : "TANGUT COMPONENT-583"
+      },
+      "18A47" : {
+         "name" : "TANGUT COMPONENT-584"
+      },
+      "18A48" : {
+         "name" : "TANGUT COMPONENT-585"
+      },
+      "18A49" : {
+         "name" : "TANGUT COMPONENT-586"
+      },
+      "18A4A" : {
+         "name" : "TANGUT COMPONENT-587"
+      },
+      "18A4B" : {
+         "name" : "TANGUT COMPONENT-588"
+      },
+      "18A4C" : {
+         "name" : "TANGUT COMPONENT-589"
+      },
+      "18A4D" : {
+         "name" : "TANGUT COMPONENT-590"
+      },
+      "18A4E" : {
+         "name" : "TANGUT COMPONENT-591"
+      },
+      "18A4F" : {
+         "name" : "TANGUT COMPONENT-592"
+      },
       "18A5" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI ZA"
+      },
+      "18A50" : {
+         "name" : "TANGUT COMPONENT-593"
+      },
+      "18A51" : {
+         "name" : "TANGUT COMPONENT-594"
+      },
+      "18A52" : {
+         "name" : "TANGUT COMPONENT-595"
+      },
+      "18A53" : {
+         "name" : "TANGUT COMPONENT-596"
+      },
+      "18A54" : {
+         "name" : "TANGUT COMPONENT-597"
+      },
+      "18A55" : {
+         "name" : "TANGUT COMPONENT-598"
+      },
+      "18A56" : {
+         "name" : "TANGUT COMPONENT-599"
+      },
+      "18A57" : {
+         "name" : "TANGUT COMPONENT-600"
+      },
+      "18A58" : {
+         "name" : "TANGUT COMPONENT-601"
+      },
+      "18A59" : {
+         "name" : "TANGUT COMPONENT-602"
+      },
+      "18A5A" : {
+         "name" : "TANGUT COMPONENT-603"
+      },
+      "18A5B" : {
+         "name" : "TANGUT COMPONENT-604"
+      },
+      "18A5C" : {
+         "name" : "TANGUT COMPONENT-605"
+      },
+      "18A5D" : {
+         "name" : "TANGUT COMPONENT-606"
+      },
+      "18A5E" : {
+         "name" : "TANGUT COMPONENT-607"
+      },
+      "18A5F" : {
+         "name" : "TANGUT COMPONENT-608"
       },
       "18A6" : {
          "name" : "MONGOLIAN LETTER ALI GALI HALF U"
       },
+      "18A60" : {
+         "name" : "TANGUT COMPONENT-609"
+      },
+      "18A61" : {
+         "name" : "TANGUT COMPONENT-610"
+      },
+      "18A62" : {
+         "name" : "TANGUT COMPONENT-611"
+      },
+      "18A63" : {
+         "name" : "TANGUT COMPONENT-612"
+      },
+      "18A64" : {
+         "name" : "TANGUT COMPONENT-613"
+      },
+      "18A65" : {
+         "name" : "TANGUT COMPONENT-614"
+      },
+      "18A66" : {
+         "name" : "TANGUT COMPONENT-615"
+      },
+      "18A67" : {
+         "name" : "TANGUT COMPONENT-616"
+      },
+      "18A68" : {
+         "name" : "TANGUT COMPONENT-617"
+      },
+      "18A69" : {
+         "name" : "TANGUT COMPONENT-618"
+      },
+      "18A6A" : {
+         "name" : "TANGUT COMPONENT-619"
+      },
+      "18A6B" : {
+         "name" : "TANGUT COMPONENT-620"
+      },
+      "18A6C" : {
+         "name" : "TANGUT COMPONENT-621"
+      },
+      "18A6D" : {
+         "name" : "TANGUT COMPONENT-622"
+      },
+      "18A6E" : {
+         "name" : "TANGUT COMPONENT-623"
+      },
+      "18A6F" : {
+         "name" : "TANGUT COMPONENT-624"
+      },
       "18A7" : {
          "name" : "MONGOLIAN LETTER ALI GALI HALF YA"
+      },
+      "18A70" : {
+         "name" : "TANGUT COMPONENT-625"
+      },
+      "18A71" : {
+         "name" : "TANGUT COMPONENT-626"
+      },
+      "18A72" : {
+         "name" : "TANGUT COMPONENT-627"
+      },
+      "18A73" : {
+         "name" : "TANGUT COMPONENT-628"
+      },
+      "18A74" : {
+         "name" : "TANGUT COMPONENT-629"
+      },
+      "18A75" : {
+         "name" : "TANGUT COMPONENT-630"
+      },
+      "18A76" : {
+         "name" : "TANGUT COMPONENT-631"
+      },
+      "18A77" : {
+         "name" : "TANGUT COMPONENT-632"
+      },
+      "18A78" : {
+         "name" : "TANGUT COMPONENT-633"
+      },
+      "18A79" : {
+         "name" : "TANGUT COMPONENT-634"
+      },
+      "18A7A" : {
+         "name" : "TANGUT COMPONENT-635"
+      },
+      "18A7B" : {
+         "name" : "TANGUT COMPONENT-636"
+      },
+      "18A7C" : {
+         "name" : "TANGUT COMPONENT-637"
+      },
+      "18A7D" : {
+         "name" : "TANGUT COMPONENT-638"
+      },
+      "18A7E" : {
+         "name" : "TANGUT COMPONENT-639"
+      },
+      "18A7F" : {
+         "name" : "TANGUT COMPONENT-640"
       },
       "18A8" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI BHA"
       },
+      "18A80" : {
+         "name" : "TANGUT COMPONENT-641"
+      },
+      "18A81" : {
+         "name" : "TANGUT COMPONENT-642"
+      },
+      "18A82" : {
+         "name" : "TANGUT COMPONENT-643"
+      },
+      "18A83" : {
+         "name" : "TANGUT COMPONENT-644"
+      },
+      "18A84" : {
+         "name" : "TANGUT COMPONENT-645"
+      },
+      "18A85" : {
+         "name" : "TANGUT COMPONENT-646"
+      },
+      "18A86" : {
+         "name" : "TANGUT COMPONENT-647"
+      },
+      "18A87" : {
+         "name" : "TANGUT COMPONENT-648"
+      },
+      "18A88" : {
+         "name" : "TANGUT COMPONENT-649"
+      },
+      "18A89" : {
+         "name" : "TANGUT COMPONENT-650"
+      },
+      "18A8A" : {
+         "name" : "TANGUT COMPONENT-651"
+      },
+      "18A8B" : {
+         "name" : "TANGUT COMPONENT-652"
+      },
+      "18A8C" : {
+         "name" : "TANGUT COMPONENT-653"
+      },
+      "18A8D" : {
+         "name" : "TANGUT COMPONENT-654"
+      },
+      "18A8E" : {
+         "name" : "TANGUT COMPONENT-655"
+      },
+      "18A8F" : {
+         "name" : "TANGUT COMPONENT-656"
+      },
       "18A9" : {
          "name" : "MONGOLIAN LETTER ALI GALI DAGALGA"
       },
+      "18A90" : {
+         "name" : "TANGUT COMPONENT-657"
+      },
+      "18A91" : {
+         "name" : "TANGUT COMPONENT-658"
+      },
+      "18A92" : {
+         "name" : "TANGUT COMPONENT-659"
+      },
+      "18A93" : {
+         "name" : "TANGUT COMPONENT-660"
+      },
+      "18A94" : {
+         "name" : "TANGUT COMPONENT-661"
+      },
+      "18A95" : {
+         "name" : "TANGUT COMPONENT-662"
+      },
+      "18A96" : {
+         "name" : "TANGUT COMPONENT-663"
+      },
+      "18A97" : {
+         "name" : "TANGUT COMPONENT-664"
+      },
+      "18A98" : {
+         "name" : "TANGUT COMPONENT-665"
+      },
+      "18A99" : {
+         "name" : "TANGUT COMPONENT-666"
+      },
+      "18A9A" : {
+         "name" : "TANGUT COMPONENT-667"
+      },
+      "18A9B" : {
+         "name" : "TANGUT COMPONENT-668"
+      },
+      "18A9C" : {
+         "name" : "TANGUT COMPONENT-669"
+      },
+      "18A9D" : {
+         "name" : "TANGUT COMPONENT-670"
+      },
+      "18A9E" : {
+         "name" : "TANGUT COMPONENT-671"
+      },
+      "18A9F" : {
+         "name" : "TANGUT COMPONENT-672"
+      },
       "18AA" : {
          "name" : "MONGOLIAN LETTER MANCHU ALI GALI LHA"
+      },
+      "18AA0" : {
+         "name" : "TANGUT COMPONENT-673"
+      },
+      "18AA1" : {
+         "name" : "TANGUT COMPONENT-674"
+      },
+      "18AA2" : {
+         "name" : "TANGUT COMPONENT-675"
+      },
+      "18AA3" : {
+         "name" : "TANGUT COMPONENT-676"
+      },
+      "18AA4" : {
+         "name" : "TANGUT COMPONENT-677"
+      },
+      "18AA5" : {
+         "name" : "TANGUT COMPONENT-678"
+      },
+      "18AA6" : {
+         "name" : "TANGUT COMPONENT-679"
+      },
+      "18AA7" : {
+         "name" : "TANGUT COMPONENT-680"
+      },
+      "18AA8" : {
+         "name" : "TANGUT COMPONENT-681"
+      },
+      "18AA9" : {
+         "name" : "TANGUT COMPONENT-682"
+      },
+      "18AAA" : {
+         "name" : "TANGUT COMPONENT-683"
+      },
+      "18AAB" : {
+         "name" : "TANGUT COMPONENT-684"
+      },
+      "18AAC" : {
+         "name" : "TANGUT COMPONENT-685"
+      },
+      "18AAD" : {
+         "name" : "TANGUT COMPONENT-686"
+      },
+      "18AAE" : {
+         "name" : "TANGUT COMPONENT-687"
+      },
+      "18AAF" : {
+         "name" : "TANGUT COMPONENT-688"
+      },
+      "18AB0" : {
+         "name" : "TANGUT COMPONENT-689"
+      },
+      "18AB1" : {
+         "name" : "TANGUT COMPONENT-690"
+      },
+      "18AB2" : {
+         "name" : "TANGUT COMPONENT-691"
+      },
+      "18AB3" : {
+         "name" : "TANGUT COMPONENT-692"
+      },
+      "18AB4" : {
+         "name" : "TANGUT COMPONENT-693"
+      },
+      "18AB5" : {
+         "name" : "TANGUT COMPONENT-694"
+      },
+      "18AB6" : {
+         "name" : "TANGUT COMPONENT-695"
+      },
+      "18AB7" : {
+         "name" : "TANGUT COMPONENT-696"
+      },
+      "18AB8" : {
+         "name" : "TANGUT COMPONENT-697"
+      },
+      "18AB9" : {
+         "name" : "TANGUT COMPONENT-698"
+      },
+      "18ABA" : {
+         "name" : "TANGUT COMPONENT-699"
+      },
+      "18ABB" : {
+         "name" : "TANGUT COMPONENT-700"
+      },
+      "18ABC" : {
+         "name" : "TANGUT COMPONENT-701"
+      },
+      "18ABD" : {
+         "name" : "TANGUT COMPONENT-702"
+      },
+      "18ABE" : {
+         "name" : "TANGUT COMPONENT-703"
+      },
+      "18ABF" : {
+         "name" : "TANGUT COMPONENT-704"
+      },
+      "18AC0" : {
+         "name" : "TANGUT COMPONENT-705"
+      },
+      "18AC1" : {
+         "name" : "TANGUT COMPONENT-706"
+      },
+      "18AC2" : {
+         "name" : "TANGUT COMPONENT-707"
+      },
+      "18AC3" : {
+         "name" : "TANGUT COMPONENT-708"
+      },
+      "18AC4" : {
+         "name" : "TANGUT COMPONENT-709"
+      },
+      "18AC5" : {
+         "name" : "TANGUT COMPONENT-710"
+      },
+      "18AC6" : {
+         "name" : "TANGUT COMPONENT-711"
+      },
+      "18AC7" : {
+         "name" : "TANGUT COMPONENT-712"
+      },
+      "18AC8" : {
+         "name" : "TANGUT COMPONENT-713"
+      },
+      "18AC9" : {
+         "name" : "TANGUT COMPONENT-714"
+      },
+      "18ACA" : {
+         "name" : "TANGUT COMPONENT-715"
+      },
+      "18ACB" : {
+         "name" : "TANGUT COMPONENT-716"
+      },
+      "18ACC" : {
+         "name" : "TANGUT COMPONENT-717"
+      },
+      "18ACD" : {
+         "name" : "TANGUT COMPONENT-718"
+      },
+      "18ACE" : {
+         "name" : "TANGUT COMPONENT-719"
+      },
+      "18ACF" : {
+         "name" : "TANGUT COMPONENT-720"
+      },
+      "18AD0" : {
+         "name" : "TANGUT COMPONENT-721"
+      },
+      "18AD1" : {
+         "name" : "TANGUT COMPONENT-722"
+      },
+      "18AD2" : {
+         "name" : "TANGUT COMPONENT-723"
+      },
+      "18AD3" : {
+         "name" : "TANGUT COMPONENT-724"
+      },
+      "18AD4" : {
+         "name" : "TANGUT COMPONENT-725"
+      },
+      "18AD5" : {
+         "name" : "TANGUT COMPONENT-726"
+      },
+      "18AD6" : {
+         "name" : "TANGUT COMPONENT-727"
+      },
+      "18AD7" : {
+         "name" : "TANGUT COMPONENT-728"
+      },
+      "18AD8" : {
+         "name" : "TANGUT COMPONENT-729"
+      },
+      "18AD9" : {
+         "name" : "TANGUT COMPONENT-730"
+      },
+      "18ADA" : {
+         "name" : "TANGUT COMPONENT-731"
+      },
+      "18ADB" : {
+         "name" : "TANGUT COMPONENT-732"
+      },
+      "18ADC" : {
+         "name" : "TANGUT COMPONENT-733"
+      },
+      "18ADD" : {
+         "name" : "TANGUT COMPONENT-734"
+      },
+      "18ADE" : {
+         "name" : "TANGUT COMPONENT-735"
+      },
+      "18ADF" : {
+         "name" : "TANGUT COMPONENT-736"
+      },
+      "18AE0" : {
+         "name" : "TANGUT COMPONENT-737"
+      },
+      "18AE1" : {
+         "name" : "TANGUT COMPONENT-738"
+      },
+      "18AE2" : {
+         "name" : "TANGUT COMPONENT-739"
+      },
+      "18AE3" : {
+         "name" : "TANGUT COMPONENT-740"
+      },
+      "18AE4" : {
+         "name" : "TANGUT COMPONENT-741"
+      },
+      "18AE5" : {
+         "name" : "TANGUT COMPONENT-742"
+      },
+      "18AE6" : {
+         "name" : "TANGUT COMPONENT-743"
+      },
+      "18AE7" : {
+         "name" : "TANGUT COMPONENT-744"
+      },
+      "18AE8" : {
+         "name" : "TANGUT COMPONENT-745"
+      },
+      "18AE9" : {
+         "name" : "TANGUT COMPONENT-746"
+      },
+      "18AEA" : {
+         "name" : "TANGUT COMPONENT-747"
+      },
+      "18AEB" : {
+         "name" : "TANGUT COMPONENT-748"
+      },
+      "18AEC" : {
+         "name" : "TANGUT COMPONENT-749"
+      },
+      "18AED" : {
+         "name" : "TANGUT COMPONENT-750"
+      },
+      "18AEE" : {
+         "name" : "TANGUT COMPONENT-751"
+      },
+      "18AEF" : {
+         "name" : "TANGUT COMPONENT-752"
+      },
+      "18AF0" : {
+         "name" : "TANGUT COMPONENT-753"
+      },
+      "18AF1" : {
+         "name" : "TANGUT COMPONENT-754"
+      },
+      "18AF2" : {
+         "name" : "TANGUT COMPONENT-755"
       },
       "18B0" : {
          "name" : "CANADIAN SYLLABICS OY"
@@ -43356,6 +46773,33 @@
       },
       "1C7F" : {
          "name" : "OL CHIKI PUNCTUATION DOUBLE MUCAAD"
+      },
+      "1C80" : {
+         "name" : "CYRILLIC SMALL LETTER ROUNDED VE"
+      },
+      "1C81" : {
+         "name" : "CYRILLIC SMALL LETTER LONG-LEGGED DE"
+      },
+      "1C82" : {
+         "name" : "CYRILLIC SMALL LETTER NARROW O"
+      },
+      "1C83" : {
+         "name" : "CYRILLIC SMALL LETTER WIDE ES"
+      },
+      "1C84" : {
+         "name" : "CYRILLIC SMALL LETTER TALL TE"
+      },
+      "1C85" : {
+         "name" : "CYRILLIC SMALL LETTER THREE-LEGGED TE"
+      },
+      "1C86" : {
+         "name" : "CYRILLIC SMALL LETTER TALL HARD SIGN"
+      },
+      "1C87" : {
+         "name" : "CYRILLIC SMALL LETTER TALL YAT"
+      },
+      "1C88" : {
+         "name" : "CYRILLIC SMALL LETTER UNBLENDED UK"
       },
       "1CC0" : {
          "name" : "SUNDANESE PUNCTUATION BINDU SURYA"
@@ -51205,6 +54649,9 @@
       "1DF5" : {
          "name" : "COMBINING UP TACK ABOVE"
       },
+      "1DFB" : {
+         "name" : "COMBINING DELETION MARK"
+      },
       "1DFC" : {
          "name" : "COMBINING DOUBLE INVERTED BREVE BELOW"
       },
@@ -51220,11 +54667,125 @@
       "1E00" : {
          "name" : "LATIN CAPITAL LETTER A WITH RING BELOW"
       },
+      "1E000" : {
+         "name" : "COMBINING GLAGOLITIC LETTER AZU"
+      },
+      "1E001" : {
+         "name" : "COMBINING GLAGOLITIC LETTER BUKY"
+      },
+      "1E002" : {
+         "name" : "COMBINING GLAGOLITIC LETTER VEDE"
+      },
+      "1E003" : {
+         "name" : "COMBINING GLAGOLITIC LETTER GLAGOLI"
+      },
+      "1E004" : {
+         "name" : "COMBINING GLAGOLITIC LETTER DOBRO"
+      },
+      "1E005" : {
+         "name" : "COMBINING GLAGOLITIC LETTER YESTU"
+      },
+      "1E006" : {
+         "name" : "COMBINING GLAGOLITIC LETTER ZHIVETE"
+      },
+      "1E008" : {
+         "name" : "COMBINING GLAGOLITIC LETTER ZEMLJA"
+      },
+      "1E009" : {
+         "name" : "COMBINING GLAGOLITIC LETTER IZHE"
+      },
+      "1E00A" : {
+         "name" : "COMBINING GLAGOLITIC LETTER INITIAL IZHE"
+      },
+      "1E00B" : {
+         "name" : "COMBINING GLAGOLITIC LETTER I"
+      },
+      "1E00C" : {
+         "name" : "COMBINING GLAGOLITIC LETTER DJERVI"
+      },
+      "1E00D" : {
+         "name" : "COMBINING GLAGOLITIC LETTER KAKO"
+      },
+      "1E00E" : {
+         "name" : "COMBINING GLAGOLITIC LETTER LJUDIJE"
+      },
+      "1E00F" : {
+         "name" : "COMBINING GLAGOLITIC LETTER MYSLITE"
+      },
       "1E01" : {
          "name" : "LATIN SMALL LETTER A WITH RING BELOW"
       },
+      "1E010" : {
+         "name" : "COMBINING GLAGOLITIC LETTER NASHI"
+      },
+      "1E011" : {
+         "name" : "COMBINING GLAGOLITIC LETTER ONU"
+      },
+      "1E012" : {
+         "name" : "COMBINING GLAGOLITIC LETTER POKOJI"
+      },
+      "1E013" : {
+         "name" : "COMBINING GLAGOLITIC LETTER RITSI"
+      },
+      "1E014" : {
+         "name" : "COMBINING GLAGOLITIC LETTER SLOVO"
+      },
+      "1E015" : {
+         "name" : "COMBINING GLAGOLITIC LETTER TVRIDO"
+      },
+      "1E016" : {
+         "name" : "COMBINING GLAGOLITIC LETTER UKU"
+      },
+      "1E017" : {
+         "name" : "COMBINING GLAGOLITIC LETTER FRITU"
+      },
+      "1E018" : {
+         "name" : "COMBINING GLAGOLITIC LETTER HERU"
+      },
+      "1E01B" : {
+         "name" : "COMBINING GLAGOLITIC LETTER SHTA"
+      },
+      "1E01C" : {
+         "name" : "COMBINING GLAGOLITIC LETTER TSI"
+      },
+      "1E01D" : {
+         "name" : "COMBINING GLAGOLITIC LETTER CHRIVI"
+      },
+      "1E01E" : {
+         "name" : "COMBINING GLAGOLITIC LETTER SHA"
+      },
+      "1E01F" : {
+         "name" : "COMBINING GLAGOLITIC LETTER YERU"
+      },
       "1E02" : {
          "name" : "LATIN CAPITAL LETTER B WITH DOT ABOVE"
+      },
+      "1E020" : {
+         "name" : "COMBINING GLAGOLITIC LETTER YERI"
+      },
+      "1E021" : {
+         "name" : "COMBINING GLAGOLITIC LETTER YATI"
+      },
+      "1E023" : {
+         "name" : "COMBINING GLAGOLITIC LETTER YU"
+      },
+      "1E024" : {
+         "name" : "COMBINING GLAGOLITIC LETTER SMALL YUS"
+      },
+      "1E026" : {
+         "name" : "COMBINING GLAGOLITIC LETTER YO"
+      },
+      "1E027" : {
+         "name" : "COMBINING GLAGOLITIC LETTER IOTATED SMALL YUS"
+      },
+      "1E028" : {
+         "name" : "COMBINING GLAGOLITIC LETTER BIG YUS"
+      },
+      "1E029" : {
+         "name" : "COMBINING GLAGOLITIC LETTER IOTATED BIG YUS"
+      },
+      "1E02A" : {
+         "name" : "COMBINING GLAGOLITIC LETTER FITA"
       },
       "1E03" : {
          "name" : "LATIN SMALL LETTER B WITH DOT ABOVE"
@@ -52293,20 +55854,281 @@
       "1E90" : {
          "name" : "LATIN CAPITAL LETTER Z WITH CIRCUMFLEX"
       },
+      "1E900" : {
+         "name" : "ADLAM CAPITAL LETTER ALIF"
+      },
+      "1E901" : {
+         "name" : "ADLAM CAPITAL LETTER DAALI"
+      },
+      "1E902" : {
+         "name" : "ADLAM CAPITAL LETTER LAAM"
+      },
+      "1E903" : {
+         "name" : "ADLAM CAPITAL LETTER MIIM"
+      },
+      "1E904" : {
+         "name" : "ADLAM CAPITAL LETTER BA"
+      },
+      "1E905" : {
+         "name" : "ADLAM CAPITAL LETTER SINNYIIYHE"
+      },
+      "1E906" : {
+         "name" : "ADLAM CAPITAL LETTER PE"
+      },
+      "1E907" : {
+         "name" : "ADLAM CAPITAL LETTER BHE"
+      },
+      "1E908" : {
+         "name" : "ADLAM CAPITAL LETTER RA"
+      },
+      "1E909" : {
+         "name" : "ADLAM CAPITAL LETTER E"
+      },
+      "1E90A" : {
+         "name" : "ADLAM CAPITAL LETTER FA"
+      },
+      "1E90B" : {
+         "name" : "ADLAM CAPITAL LETTER I"
+      },
+      "1E90C" : {
+         "name" : "ADLAM CAPITAL LETTER O"
+      },
+      "1E90D" : {
+         "name" : "ADLAM CAPITAL LETTER DHA"
+      },
+      "1E90E" : {
+         "name" : "ADLAM CAPITAL LETTER YHE"
+      },
+      "1E90F" : {
+         "name" : "ADLAM CAPITAL LETTER WAW"
+      },
       "1E91" : {
          "name" : "LATIN SMALL LETTER Z WITH CIRCUMFLEX"
+      },
+      "1E910" : {
+         "name" : "ADLAM CAPITAL LETTER NUN"
+      },
+      "1E911" : {
+         "name" : "ADLAM CAPITAL LETTER KAF"
+      },
+      "1E912" : {
+         "name" : "ADLAM CAPITAL LETTER YA"
+      },
+      "1E913" : {
+         "name" : "ADLAM CAPITAL LETTER U"
+      },
+      "1E914" : {
+         "name" : "ADLAM CAPITAL LETTER JIIM"
+      },
+      "1E915" : {
+         "name" : "ADLAM CAPITAL LETTER CHI"
+      },
+      "1E916" : {
+         "name" : "ADLAM CAPITAL LETTER HA"
+      },
+      "1E917" : {
+         "name" : "ADLAM CAPITAL LETTER QAAF"
+      },
+      "1E918" : {
+         "name" : "ADLAM CAPITAL LETTER GA"
+      },
+      "1E919" : {
+         "name" : "ADLAM CAPITAL LETTER NYA"
+      },
+      "1E91A" : {
+         "name" : "ADLAM CAPITAL LETTER TU"
+      },
+      "1E91B" : {
+         "name" : "ADLAM CAPITAL LETTER NHA"
+      },
+      "1E91C" : {
+         "name" : "ADLAM CAPITAL LETTER VA"
+      },
+      "1E91D" : {
+         "name" : "ADLAM CAPITAL LETTER KHA"
+      },
+      "1E91E" : {
+         "name" : "ADLAM CAPITAL LETTER GBE"
+      },
+      "1E91F" : {
+         "name" : "ADLAM CAPITAL LETTER ZAL"
       },
       "1E92" : {
          "name" : "LATIN CAPITAL LETTER Z WITH DOT BELOW"
       },
+      "1E920" : {
+         "name" : "ADLAM CAPITAL LETTER KPO"
+      },
+      "1E921" : {
+         "name" : "ADLAM CAPITAL LETTER SHA"
+      },
+      "1E922" : {
+         "name" : "ADLAM SMALL LETTER ALIF"
+      },
+      "1E923" : {
+         "name" : "ADLAM SMALL LETTER DAALI"
+      },
+      "1E924" : {
+         "name" : "ADLAM SMALL LETTER LAAM"
+      },
+      "1E925" : {
+         "name" : "ADLAM SMALL LETTER MIIM"
+      },
+      "1E926" : {
+         "name" : "ADLAM SMALL LETTER BA"
+      },
+      "1E927" : {
+         "name" : "ADLAM SMALL LETTER SINNYIIYHE"
+      },
+      "1E928" : {
+         "name" : "ADLAM SMALL LETTER PE"
+      },
+      "1E929" : {
+         "name" : "ADLAM SMALL LETTER BHE"
+      },
+      "1E92A" : {
+         "name" : "ADLAM SMALL LETTER RA"
+      },
+      "1E92B" : {
+         "name" : "ADLAM SMALL LETTER E"
+      },
+      "1E92C" : {
+         "name" : "ADLAM SMALL LETTER FA"
+      },
+      "1E92D" : {
+         "name" : "ADLAM SMALL LETTER I"
+      },
+      "1E92E" : {
+         "name" : "ADLAM SMALL LETTER O"
+      },
+      "1E92F" : {
+         "name" : "ADLAM SMALL LETTER DHA"
+      },
       "1E93" : {
          "name" : "LATIN SMALL LETTER Z WITH DOT BELOW"
+      },
+      "1E930" : {
+         "name" : "ADLAM SMALL LETTER YHE"
+      },
+      "1E931" : {
+         "name" : "ADLAM SMALL LETTER WAW"
+      },
+      "1E932" : {
+         "name" : "ADLAM SMALL LETTER NUN"
+      },
+      "1E933" : {
+         "name" : "ADLAM SMALL LETTER KAF"
+      },
+      "1E934" : {
+         "name" : "ADLAM SMALL LETTER YA"
+      },
+      "1E935" : {
+         "name" : "ADLAM SMALL LETTER U"
+      },
+      "1E936" : {
+         "name" : "ADLAM SMALL LETTER JIIM"
+      },
+      "1E937" : {
+         "name" : "ADLAM SMALL LETTER CHI"
+      },
+      "1E938" : {
+         "name" : "ADLAM SMALL LETTER HA"
+      },
+      "1E939" : {
+         "name" : "ADLAM SMALL LETTER QAAF"
+      },
+      "1E93A" : {
+         "name" : "ADLAM SMALL LETTER GA"
+      },
+      "1E93B" : {
+         "name" : "ADLAM SMALL LETTER NYA"
+      },
+      "1E93C" : {
+         "name" : "ADLAM SMALL LETTER TU"
+      },
+      "1E93D" : {
+         "name" : "ADLAM SMALL LETTER NHA"
+      },
+      "1E93E" : {
+         "name" : "ADLAM SMALL LETTER VA"
+      },
+      "1E93F" : {
+         "name" : "ADLAM SMALL LETTER KHA"
       },
       "1E94" : {
          "name" : "LATIN CAPITAL LETTER Z WITH LINE BELOW"
       },
+      "1E940" : {
+         "name" : "ADLAM SMALL LETTER GBE"
+      },
+      "1E941" : {
+         "name" : "ADLAM SMALL LETTER ZAL"
+      },
+      "1E942" : {
+         "name" : "ADLAM SMALL LETTER KPO"
+      },
+      "1E943" : {
+         "name" : "ADLAM SMALL LETTER SHA"
+      },
+      "1E944" : {
+         "name" : "ADLAM ALIF LENGTHENER"
+      },
+      "1E945" : {
+         "name" : "ADLAM VOWEL LENGTHENER"
+      },
+      "1E946" : {
+         "name" : "ADLAM GEMINATION MARK"
+      },
+      "1E947" : {
+         "name" : "ADLAM HAMZA"
+      },
+      "1E948" : {
+         "name" : "ADLAM CONSONANT MODIFIER"
+      },
+      "1E949" : {
+         "name" : "ADLAM GEMINATE CONSONANT MODIFIER"
+      },
+      "1E94A" : {
+         "name" : "ADLAM NUKTA"
+      },
       "1E95" : {
          "name" : "LATIN SMALL LETTER Z WITH LINE BELOW"
+      },
+      "1E950" : {
+         "name" : "ADLAM DIGIT ZERO"
+      },
+      "1E951" : {
+         "name" : "ADLAM DIGIT ONE"
+      },
+      "1E952" : {
+         "name" : "ADLAM DIGIT TWO"
+      },
+      "1E953" : {
+         "name" : "ADLAM DIGIT THREE"
+      },
+      "1E954" : {
+         "name" : "ADLAM DIGIT FOUR"
+      },
+      "1E955" : {
+         "name" : "ADLAM DIGIT FIVE"
+      },
+      "1E956" : {
+         "name" : "ADLAM DIGIT SIX"
+      },
+      "1E957" : {
+         "name" : "ADLAM DIGIT SEVEN"
+      },
+      "1E958" : {
+         "name" : "ADLAM DIGIT EIGHT"
+      },
+      "1E959" : {
+         "name" : "ADLAM DIGIT NINE"
+      },
+      "1E95E" : {
+         "name" : "ADLAM INITIAL EXCLAMATION MARK"
+      },
+      "1E95F" : {
+         "name" : "ADLAM INITIAL QUESTION MARK"
       },
       "1E96" : {
          "name" : "LATIN SMALL LETTER H WITH LINE BELOW"
@@ -54246,8 +58068,62 @@
       "1F19A" : {
          "name" : "SQUARED VS"
       },
+      "1F19B" : {
+         "name" : "SQUARED THREE D"
+      },
+      "1F19C" : {
+         "name" : "SQUARED SECOND SCREEN"
+      },
+      "1F19D" : {
+         "name" : "SQUARED TWO K"
+      },
+      "1F19E" : {
+         "name" : "SQUARED FOUR K"
+      },
+      "1F19F" : {
+         "name" : "SQUARED EIGHT K"
+      },
       "1F1A" : {
          "name" : "GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA"
+      },
+      "1F1A0" : {
+         "name" : "SQUARED FIVE POINT ONE"
+      },
+      "1F1A1" : {
+         "name" : "SQUARED SEVEN POINT ONE"
+      },
+      "1F1A2" : {
+         "name" : "SQUARED TWENTY-TWO POINT TWO"
+      },
+      "1F1A3" : {
+         "name" : "SQUARED SIXTY P"
+      },
+      "1F1A4" : {
+         "name" : "SQUARED ONE HUNDRED TWENTY P"
+      },
+      "1F1A5" : {
+         "name" : "SQUARED LATIN SMALL LETTER D"
+      },
+      "1F1A6" : {
+         "name" : "SQUARED HC"
+      },
+      "1F1A7" : {
+         "name" : "SQUARED HDR"
+      },
+      "1F1A8" : {
+         "name" : "SQUARED HI-RES"
+      },
+      "1F1A9" : {
+         "name" : "SQUARED LOSSLESS"
+      },
+      "1F1AA" : {
+         "name" : "SQUARED SHV"
+      },
+      "1F1AB" : {
+         "name" : "SQUARED UHD"
+      },
+      "1F1AC" : {
+         "name" : "SQUARED VOD"
       },
       "1F1B" : {
          "name" : "GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA"
@@ -54485,6 +58361,9 @@
       },
       "1F23A" : {
          "name" : "SQUARED CJK UNIFIED IDEOGRAPH-55B6"
+      },
+      "1F23B" : {
+         "name" : "SQUARED CJK UNIFIED IDEOGRAPH-914D"
       },
       "1F24" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND OXIA"
@@ -56565,6 +60444,9 @@
       "1F579" : {
          "name" : "JOYSTICK"
       },
+      "1F57A" : {
+         "name" : "MAN DANCING"
+      },
       "1F57B" : {
          "name" : "LEFT HAND TELEPHONE RECEIVER"
       },
@@ -56690,6 +60572,9 @@
       },
       "1F5A3" : {
          "name" : "BLACK DOWN POINTING BACKHAND INDEX"
+      },
+      "1F5A4" : {
+         "name" : "BLACK HEART"
       },
       "1F5A5" : {
          "name" : "DESKTOP COMPUTER"
@@ -57642,6 +61527,12 @@
       "1F6D0" : {
          "name" : "PLACE OF WORSHIP"
       },
+      "1F6D1" : {
+         "name" : "OCTAGONAL SIGN"
+      },
+      "1F6D2" : {
+         "name" : "SHOPPING TROLLEY"
+      },
       "1F6E" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI"
       },
@@ -57698,6 +61589,15 @@
       },
       "1F6F3" : {
          "name" : "PASSENGER SHIP"
+      },
+      "1F6F4" : {
+         "name" : "SCOOTER"
+      },
+      "1F6F5" : {
+         "name" : "MOTOR SCOOTER"
+      },
+      "1F6F6" : {
+         "name" : "CANOE"
       },
       "1F70" : {
          "ja_name" : "グレーブアクセント付きスクリプトA小文字",
@@ -58873,17 +62773,179 @@
       "1F918" : {
          "name" : "SIGN OF THE HORNS"
       },
+      "1F919" : {
+         "name" : "CALL ME HAND"
+      },
+      "1F91A" : {
+         "name" : "RAISED BACK OF HAND"
+      },
+      "1F91B" : {
+         "name" : "LEFT-FACING FIST"
+      },
+      "1F91C" : {
+         "name" : "RIGHT-FACING FIST"
+      },
+      "1F91D" : {
+         "name" : "HANDSHAKE"
+      },
+      "1F91E" : {
+         "name" : "HAND WITH INDEX AND MIDDLE FINGERS CROSSED"
+      },
       "1F92" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI"
+      },
+      "1F920" : {
+         "name" : "FACE WITH COWBOY HAT"
+      },
+      "1F921" : {
+         "name" : "CLOWN FACE"
+      },
+      "1F922" : {
+         "name" : "NAUSEATED FACE"
+      },
+      "1F923" : {
+         "name" : "ROLLING ON THE FLOOR LAUGHING"
+      },
+      "1F924" : {
+         "name" : "DROOLING FACE"
+      },
+      "1F925" : {
+         "name" : "LYING FACE"
+      },
+      "1F926" : {
+         "name" : "FACE PALM"
+      },
+      "1F927" : {
+         "name" : "SNEEZING FACE"
       },
       "1F93" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI"
       },
+      "1F930" : {
+         "name" : "PREGNANT WOMAN"
+      },
+      "1F933" : {
+         "name" : "SELFIE"
+      },
+      "1F934" : {
+         "name" : "PRINCE"
+      },
+      "1F935" : {
+         "name" : "MAN IN TUXEDO"
+      },
+      "1F936" : {
+         "name" : "MOTHER CHRISTMAS"
+      },
+      "1F937" : {
+         "name" : "SHRUG"
+      },
+      "1F938" : {
+         "name" : "PERSON DOING CARTWHEEL"
+      },
+      "1F939" : {
+         "name" : "JUGGLING"
+      },
+      "1F93A" : {
+         "name" : "FENCER"
+      },
+      "1F93B" : {
+         "name" : "MODERN PENTATHLON"
+      },
+      "1F93C" : {
+         "name" : "WRESTLERS"
+      },
+      "1F93D" : {
+         "name" : "WATER POLO"
+      },
+      "1F93E" : {
+         "name" : "HANDBALL"
+      },
       "1F94" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI"
       },
+      "1F940" : {
+         "name" : "WILTED FLOWER"
+      },
+      "1F941" : {
+         "name" : "DRUM WITH DRUMSTICKS"
+      },
+      "1F942" : {
+         "name" : "CLINKING GLASSES"
+      },
+      "1F943" : {
+         "name" : "TUMBLER GLASS"
+      },
+      "1F944" : {
+         "name" : "SPOON"
+      },
+      "1F945" : {
+         "name" : "GOAL NET"
+      },
+      "1F946" : {
+         "name" : "RIFLE"
+      },
+      "1F947" : {
+         "name" : "FIRST PLACE MEDAL"
+      },
+      "1F948" : {
+         "name" : "SECOND PLACE MEDAL"
+      },
+      "1F949" : {
+         "name" : "THIRD PLACE MEDAL"
+      },
+      "1F94A" : {
+         "name" : "BOXING GLOVE"
+      },
+      "1F94B" : {
+         "name" : "MARTIAL ARTS UNIFORM"
+      },
       "1F95" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI"
+      },
+      "1F950" : {
+         "name" : "CROISSANT"
+      },
+      "1F951" : {
+         "name" : "AVOCADO"
+      },
+      "1F952" : {
+         "name" : "CUCUMBER"
+      },
+      "1F953" : {
+         "name" : "BACON"
+      },
+      "1F954" : {
+         "name" : "POTATO"
+      },
+      "1F955" : {
+         "name" : "CARROT"
+      },
+      "1F956" : {
+         "name" : "BAGUETTE BREAD"
+      },
+      "1F957" : {
+         "name" : "GREEN SALAD"
+      },
+      "1F958" : {
+         "name" : "SHALLOW PAN OF FOOD"
+      },
+      "1F959" : {
+         "name" : "STUFFED FLATBREAD"
+      },
+      "1F95A" : {
+         "name" : "EGG"
+      },
+      "1F95B" : {
+         "name" : "GLASS OF MILK"
+      },
+      "1F95C" : {
+         "name" : "PEANUTS"
+      },
+      "1F95D" : {
+         "name" : "KIWIFRUIT"
+      },
+      "1F95E" : {
+         "name" : "PANCAKES"
       },
       "1F96" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI"
@@ -58909,8 +62971,47 @@
       "1F984" : {
          "name" : "UNICORN FACE"
       },
+      "1F985" : {
+         "name" : "EAGLE"
+      },
+      "1F986" : {
+         "name" : "DUCK"
+      },
+      "1F987" : {
+         "name" : "BAT"
+      },
+      "1F988" : {
+         "name" : "SHARK"
+      },
+      "1F989" : {
+         "name" : "OWL"
+      },
+      "1F98A" : {
+         "name" : "FOX FACE"
+      },
+      "1F98B" : {
+         "name" : "BUTTERFLY"
+      },
+      "1F98C" : {
+         "name" : "DEER"
+      },
+      "1F98D" : {
+         "name" : "GORILLA"
+      },
+      "1F98E" : {
+         "name" : "LIZARD"
+      },
+      "1F98F" : {
+         "name" : "RHINOCEROS"
+      },
       "1F99" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI"
+      },
+      "1F990" : {
+         "name" : "SHRIMP"
+      },
+      "1F991" : {
+         "name" : "SQUID"
       },
       "1F9A" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI"
@@ -62333,6 +66434,18 @@
       },
       "23FA" : {
          "name" : "BLACK CIRCLE FOR RECORD"
+      },
+      "23FB" : {
+         "name" : "POWER SYMBOL"
+      },
+      "23FC" : {
+         "name" : "POWER ON-OFF SYMBOL"
+      },
+      "23FD" : {
+         "name" : "POWER ON SYMBOL"
+      },
+      "23FE" : {
+         "name" : "POWER SLEEP SYMBOL"
       },
       "2400" : {
          "name" : "SYMBOL FOR NULL"
@@ -69946,6 +74059,12 @@
       },
       "2E42" : {
          "name" : "DOUBLE LOW-REVERSED-9 QUOTATION MARK"
+      },
+      "2E43" : {
+         "name" : "DASH WITH LEFT UPTURN"
+      },
+      "2E44" : {
+         "name" : "DOUBLE SUSPENSION MARK"
       },
       "2E80" : {
          "name" : "CJK RADICAL REPEAT"
@@ -81930,6 +86049,9 @@
       "A7AD" : {
          "name" : "LATIN CAPITAL LETTER L WITH BELT"
       },
+      "A7AE" : {
+         "name" : "LATIN CAPITAL LETTER SMALL CAPITAL I"
+      },
       "A7B0" : {
          "name" : "LATIN CAPITAL LETTER TURNED K"
       },
@@ -82517,6 +86639,9 @@
       },
       "A8C4" : {
          "name" : "SAURASHTRA SIGN VIRAMA"
+      },
+      "A8C5" : {
+         "name" : "SAURASHTRA SIGN CANDRABINDU"
       },
       "A8CE" : {
          "name" : "SAURASHTRA DANDA"

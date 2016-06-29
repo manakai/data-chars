@@ -5,7 +5,10 @@
             "Adlam"
          ],
          "ianareg" : "2014-12-11",
-         "iso" : "Adlm"
+         "iso" : "Adlm",
+         "unicode" : "Adlam",
+         "unicode_id" : "limited",
+         "xforms" : "Adlam"
       },
       "Afak" : {
          "desc" : [
@@ -150,7 +153,10 @@
             "Bhaiksuki"
          ],
          "ianareg" : "2015-07-24",
-         "iso" : "Bhks"
+         "iso" : "Bhks",
+         "unicode" : "Bhaiksuki",
+         "unicode_id" : "excluded",
+         "xforms" : "Bhaiksuki"
       },
       "Blis" : {
          "desc" : [
@@ -967,7 +973,10 @@
             "Marchen"
          ],
          "ianareg" : "2014-12-11",
-         "iso" : "Marc"
+         "iso" : "Marc",
+         "unicode" : "Marchen",
+         "unicode_id" : "excluded",
+         "xforms" : "Marchen"
       },
       "Maya" : {
          "desc" : [
@@ -1134,7 +1143,10 @@
             "Nepāla lipi"
          ],
          "ianareg" : "2016-01-04",
-         "iso" : "Newa"
+         "iso" : "Newa",
+         "unicode" : "Newa",
+         "unicode_id" : "limited",
+         "xforms" : "Newa"
       },
       "Nkgb" : {
          "desc" : [
@@ -1219,7 +1231,10 @@
             "Osage"
          ],
          "ianareg" : "2014-12-11",
-         "iso" : "Osge"
+         "iso" : "Osge",
+         "unicode" : "Osage",
+         "unicode_id" : "limited",
+         "xforms" : "Osage"
       },
       "Osma" : {
          "desc" : [
@@ -1863,7 +1878,10 @@
             "Tangut"
          ],
          "ianareg" : "2011-01-07",
-         "iso" : "Tang"
+         "iso" : "Tang",
+         "unicode" : "Tangut",
+         "unicode_id" : "excluded",
+         "xforms" : "Tangut"
       },
       "Tavt" : {
          "desc" : [
