@@ -1,4 +1,5 @@
 [\u0000-\u{10FFFF}]
+- $unicode:Block:Adlam
 - $unicode:Block:Aegean_Numbers
 - $unicode:Block:Ahom
 - $unicode:Block:Alchemical_Symbols
@@ -23,6 +24,7 @@
 - $unicode:Block:Bassa_Vah
 - $unicode:Block:Batak
 - $unicode:Block:Bengali
+- $unicode:Block:Bhaiksuki
 - $unicode:Block:Block_Elements
 - $unicode:Block:Bopomofo
 - $unicode:Block:Bopomofo_Extended
@@ -68,6 +70,7 @@
 - $unicode:Block:Cyrillic
 - $unicode:Block:Cyrillic_Extended-A
 - $unicode:Block:Cyrillic_Extended-B
+- $unicode:Block:Cyrillic_Extended-C
 - $unicode:Block:Cyrillic_Supplement
 - $unicode:Block:Deseret
 - $unicode:Block:Devanagari
@@ -93,6 +96,7 @@
 - $unicode:Block:Georgian
 - $unicode:Block:Georgian_Supplement
 - $unicode:Block:Glagolitic
+- $unicode:Block:Glagolitic_Supplement
 - $unicode:Block:Gothic
 - $unicode:Block:Grantha
 - $unicode:Block:Greek_Extended
@@ -113,6 +117,7 @@
 - $unicode:Block:Hiragana
 - $unicode:Block:IPA_Extensions
 - $unicode:Block:Ideographic_Description_Characters
+- $unicode:Block:Ideographic_Symbols_and_Punctuation
 - $unicode:Block:Imperial_Aramaic
 - $unicode:Block:Inscriptional_Pahlavi
 - $unicode:Block:Inscriptional_Parthian
@@ -153,6 +158,7 @@
 - $unicode:Block:Malayalam
 - $unicode:Block:Mandaic
 - $unicode:Block:Manichaean
+- $unicode:Block:Marchen
 - $unicode:Block:Mathematical_Alphanumeric_Symbols
 - $unicode:Block:Mathematical_Operators
 - $unicode:Block:Meetei_Mayek
@@ -170,6 +176,7 @@
 - $unicode:Block:Modi
 - $unicode:Block:Modifier_Tone_Letters
 - $unicode:Block:Mongolian
+- $unicode:Block:Mongolian_Supplement
 - $unicode:Block:Mro
 - $unicode:Block:Multani
 - $unicode:Block:Musical_Symbols
@@ -179,6 +186,7 @@
 - $unicode:Block:NKo
 - $unicode:Block:Nabataean
 - $unicode:Block:New_Tai_Lue
+- $unicode:Block:Newa
 - $unicode:Block:Number_Forms
 - $unicode:Block:Ogham
 - $unicode:Block:Ol_Chiki
@@ -192,6 +200,7 @@
 - $unicode:Block:Optical_Character_Recognition
 - $unicode:Block:Oriya
 - $unicode:Block:Ornamental_Dingbats
+- $unicode:Block:Osage
 - $unicode:Block:Osmanya
 - $unicode:Block:Pahawh_Hmong
 - $unicode:Block:Palmyrene
@@ -242,6 +251,8 @@
 - $unicode:Block:Tai_Xuan_Jing_Symbols
 - $unicode:Block:Takri
 - $unicode:Block:Tamil
+- $unicode:Block:Tangut
+- $unicode:Block:Tangut_Components
 - $unicode:Block:Telugu
 - $unicode:Block:Thaana
 - $unicode:Block:Thai
