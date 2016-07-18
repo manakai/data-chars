@@ -2240,7 +2240,7 @@
          "sw" : "character reference",
          "url" : "https://html.spec.whatwg.org/?#named-character-references"
       },
-      "rfc1344-mnemonics" : {
+      "rfc1345-mnemonics" : {
          "key_to_char" : {
             "!" : "0021",
             "!!" : "007C",
