@@ -1,0 +1,41 @@
+data/keys.json
+~~~~~~~~~~~~~~
+
+This file contains key (short identifier) to character mappings.
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  key_sets [object]
+
+    Names are key set names and values are corresponding JSON objects
+    with following name/value pairs:
+
+      key_to_char [object?]
+
+        Names are keys and values are corresponding characters.
+
+      label [string]
+
+        A short human readable name of the key set.
+
+      sw [string?]
+
+        A page name in SuikaWiki.
+        <https://wiki.suikawiki.org/n/{name}>, where {name} is a
+        percent-encoded value of this field, is the URL for the page.
+
+      url [string?]
+
+        The source of the key set, if any.
+
+* License
+
+You are granted a license to use, reproduce, and create derivative
+works of the JSON file and this document.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.

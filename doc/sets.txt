@@ -35,9 +35,9 @@ sets [protocol-object]
 
     suikawiki_name [string]
 
-      A page name in SuikaWiki.  <http://wiki.suikawiki.org/n/{name}>,
-      where {name} is a percent-encoded value of this field, is the
-      URL for the page.
+      A page name in SuikaWiki.
+      <https://wiki.suikawiki.org/n/{name}>, where {name} is a
+      percent-encoded value of this field, is the URL for the page.
 
 * Sources
 
