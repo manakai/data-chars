@@ -16,6 +16,11 @@ The file contains a JSON object with following name/value pair:
 
         Names are keys and values are corresponding characters.
 
+      key_to_seq [object?]
+
+        Names are keys and values are corresponding character
+        sequences.
+
       label [string]
 
         A short human readable name of the key set.

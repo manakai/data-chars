@@ -417,7 +417,7 @@ data/seqs.json: bin/seqs.pl \
     local/html-charrefs.json
 	$(PERL) $< > $@
 
-data/keys.json: bin/keys.pl src/key/*.txt
+data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
 
 ## ------ Tests ------
