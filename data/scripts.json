@@ -6,6 +6,8 @@
          ],
          "ianareg" : "2014-12-11",
          "iso" : "Adlm",
+         "u_nu" : "adlm",
+         "u_nu_desc" : "Adlam digits",
          "unicode" : "Adlam",
          "unicode_id" : "limited",
          "xforms" : "Adlam"
@@ -154,6 +156,8 @@
          ],
          "ianareg" : "2015-07-24",
          "iso" : "Bhks",
+         "u_nu" : "bhks",
+         "u_nu_desc" : "Bhaiksuki digits",
          "unicode" : "Bhaiksuki",
          "unicode_id" : "excluded",
          "xforms" : "Bhaiksuki"
@@ -1144,6 +1148,8 @@
          ],
          "ianareg" : "2016-01-04",
          "iso" : "Newa",
+         "u_nu" : "newa",
+         "u_nu_desc" : "Newa digits",
          "unicode" : "Newa",
          "unicode_id" : "limited",
          "xforms" : "Newa"
