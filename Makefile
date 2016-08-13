@@ -36,7 +36,8 @@ data: all-data
 all-data: all-ucd unicode-general-category-latest \
     unicode-prop-list-latest data/sets.json data/names.json \
     data/maps.json data/number-values.json \
-    data/tests/cjk-numbers.json data/seqs.json data/keys.json
+    data/tests/cjk-numbers.json data/seqs.json data/keys.json \
+    data/perl/unicore-CombiningClass.pl data/perl/unicore-Decomposition.pl
 
 clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -244,6 +245,15 @@ PERL_UNICODE_NORMALIZE_VERSIONED = \
 clean-perl-unicode:
 	rm -fr local/perl-unicode
 	rm -fr src/set/unicode/Canonical_Combining_Class/files
+
+data/perl/unicore-CombiningClass.pl: \
+    local/perl-unicode/latest/lib/unicore-CombiningClass.pl
+	cp $< $@
+	$(PERL) -c $@
+data/perl/unicore-Decomposition.pl: \
+    local/perl-unicode/latest/lib/unicore-Decomposition.pl
+	cp $< $@
+	$(PERL) -c $@
 
 unicode-prop-list-3.2: local/unicode/3.2/PropList.txt
 	$(PERL) bin/generate-prop-list.pl 3.2 $<
