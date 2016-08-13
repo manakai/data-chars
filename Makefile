@@ -46,6 +46,7 @@ clean-data: clean-perl-unicode
 	rm -fr src/set/unicode/has_canon_decomposition.expr
 	rm -fr src/set/unicode/has_compat_decomposition.expr
 	rm -fr src/set/unicode/canon_decomposition_second.expr
+	rm -fr src/set/unicode/CompositionExclusions.expr
 
 all-ucd: prepare-ucd data/scripts.json local/ucd/touch
 prepare-ucd:
@@ -308,6 +309,14 @@ local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
 	$(WGET) -O $@ http://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedNormalizationProps.txt
 
+local/unicode/latest/CompositionExclusions.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/UCD/latest/ucd/CompositionExclusions.txt
+src/set/unicode/CompositionExclusions.expr: \
+    bin/unicode-CompositionExclusions.pl \
+    local/unicode/latest/CompositionExclusions.txt
+	$(PERL) $< < local/unicode/latest/CompositionExclusions.txt > $@
+
 src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
     bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE)
 # data/maps.json
@@ -397,7 +406,8 @@ data/sets.json: bin/sets.pl \
     src/set/*/*.expr src/set/*/*/*.expr data/names.json \
     src/set/mozilla/IDN-blacklist-chars.expr \
     src/set/numbers/CJK-digit.expr \
-    src/set/isoiec10646/300.expr
+    src/set/isoiec10646/300.expr \
+    src/set/unicode/CompositionExclusions.expr
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \

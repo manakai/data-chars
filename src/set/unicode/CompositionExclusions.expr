@@ -1,0 +1,5 @@
+
+#name:CompisitionExclusions
+#url:http://www.unicode.org/unicode/reports/tr15/#Primary_Exclusion_List_Table
+#sw:CompositionExclusions
+[\u{0958}\u{0959}\u{095A}\u{095B}\u{095C}\u{095D}\u{095E}\u{095F}\u{09DC}\u{09DD}\u{09DF}\u{0A33}\u{0A36}\u{0A59}\u{0A5A}\u{0A5B}\u{0A5E}\u{0B5C}\u{0B5D}\u{0F43}\u{0F4D}\u{0F52}\u{0F57}\u{0F5C}\u{0F69}\u{0F76}\u{0F78}\u{0F93}\u{0F9D}\u{0FA2}\u{0FA7}\u{0FAC}\u{0FB9}\u{2ADC}\u{FB1D}\u{FB1F}\u{FB2A}\u{FB2B}\u{FB2C}\u{FB2D}\u{FB2E}\u{FB2F}\u{FB30}\u{FB31}\u{FB32}\u{FB33}\u{FB34}\u{FB35}\u{FB36}\u{FB38}\u{FB39}\u{FB3A}\u{FB3B}\u{FB3C}\u{FB3E}\u{FB40}\u{FB41}\u{FB43}\u{FB44}\u{FB46}\u{FB47}\u{FB48}\u{FB49}\u{FB4A}\u{FB4B}\u{FB4C}\u{FB4D}\u{FB4E}\u{1D15E}\u{1D15F}\u{1D160}\u{1D161}\u{1D162}\u{1D163}\u{1D164}\u{1D1BB}\u{1D1BC}\u{1D1BD}\u{1D1BE}\u{1D1BF}\u{1D1C0}]
