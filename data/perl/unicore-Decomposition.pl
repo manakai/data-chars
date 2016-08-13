@@ -2153,6 +2153,7 @@
 1F238		<square> 7533
 1F239		<square> 5272
 1F23A		<square> 55B6
+1F23B		<square> 914D
 1F24		1F20 0301
 1F240		<compat> 3014 672C 3015
 1F241		<compat> 3014 4E09 3015
