@@ -1,0 +1,4 @@
+#url:http://www.unicode.org/reports/tr46/#Notation
+#sw:label-separators
+#label:label-separators
+[\u002E\uFF0E\u3002\uFF61]

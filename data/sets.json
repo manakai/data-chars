@@ -12950,6 +12950,12 @@
          "label" : "A character in username",
          "suikawiki_name" : "username"
       },
+      "$uts46:label-separators" : {
+         "chars" : "[.\\u3002\\uFF0E\\uFF61]",
+         "label" : "label-separators",
+         "suikawiki_name" : "label-separators",
+         "url" : "http://www.unicode.org/reports/tr46/#Notation"
+      },
       "$xml10-2e:VersionNum-char" : {
          "chars" : "[\\u002D-.0-:A-Z_a-z]",
          "label" : "VersionNum character",
