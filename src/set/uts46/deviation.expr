@@ -1,0 +1,7 @@
+
+#label:IDNA Mapping Table deviation
+#sw:IDNA Mapping Table
+#url:http://www.unicode.org/reports/tr46/#IDNA_Mapping_Table
+  [\u{00DF}
+\u{03C2}
+\u{200C}-\u{200D}]

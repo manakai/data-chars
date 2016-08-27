@@ -1,0 +1,11 @@
+
+#label:IDNA Mapping Table disallowed_STD3_valid
+#sw:IDNA Mapping Table
+#url:http://www.unicode.org/reports/tr46/#IDNA_Mapping_Table
+  [\u{0000}-\u{002C}
+\u{002F}
+\u{003A}-\u{0040}
+\u{005B}-\u{0060}
+\u{007B}-\u{007F}
+\u{2260}
+\u{226E}-\u{226F}]

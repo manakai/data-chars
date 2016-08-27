@@ -1,0 +1,14 @@
+
+#label:IDNA Mapping Table ignored
+#sw:IDNA Mapping Table
+#url:http://www.unicode.org/reports/tr46/#IDNA_Mapping_Table
+  [\u{00AD}
+\u{034F}
+\u{180B}-\u{180D}
+\u{200B}
+\u{2060}
+\u{2064}
+\u{FE00}-\u{FE0F}
+\u{FEFF}
+\u{1BCA0}-\u{1BCA3}
+\u{E0100}-\u{E01EF}]

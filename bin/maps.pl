@@ -355,6 +355,14 @@ for (0xD800..0xDFFF) {
 }
 ## And > U+10FFFF
 
+for my $path ($root_path->child ('local/map-data')->children (qr/\.json$/)) {
+  $path =~ m{([^/]+)\.json$};
+  my $name = $1;
+  $name =~ s/--/:/g;
+  my $json = json_bytes2perl $path->slurp;
+  $Data->{maps}->{$name} = $json;
+}
+
 for my $key (keys %{$Data->{maps}}) {
   my $entries = delete $Data->{maps}->{$key}->{chars};
   for my $from (keys %$entries) {

@@ -320,6 +320,14 @@ src/set/unicode/CompositionExclusions.expr: \
     local/unicode/latest/CompositionExclusions.txt
 	$(PERL) $< < local/unicode/latest/CompositionExclusions.txt > $@
 
+local/unicode/latest/IdnaMappingTable.txt:
+	mkdir -p local/unicode/latest
+	$(WGET) -O $@ http://www.unicode.org/Public/idna/latest/IdnaMappingTable.txt
+src/set/uts46/disallowed.expr: bin/uts46-idna-mapping.pl \
+    local/unicode/latest/IdnaMappingTable.txt
+	$(PERL) $<
+local/map-data/uts46--mapping.json: src/set/uts46/disallowed.expr
+
 src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
     bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE)
 # data/maps.json
@@ -410,14 +418,15 @@ data/sets.json: bin/sets.pl \
     src/set/mozilla/IDN-blacklist-chars.expr \
     src/set/numbers/CJK-digit.expr \
     src/set/isoiec10646/300.expr \
-    src/set/unicode/CompositionExclusions.expr
+    src/set/unicode/CompositionExclusions.expr src/set/uts46/disallowed.expr
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
     local/unicode/latest/SpecialCasing.txt \
     local/unicode/latest/DerivedNormalizationProps.txt \
     local/unicode/latest/CaseFolding.txt \
-    data/sets.json src/tn1150table.txt src/tn1150lowercase.json
+    data/sets.json src/tn1150table.txt src/tn1150lowercase.json \
+    local/map-data/uts46--mapping.json
 	$(PERL) bin/maps.pl > $@
 
 local/spec-numbers.html:
