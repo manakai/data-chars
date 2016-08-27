@@ -323,10 +323,10 @@ src/set/unicode/CompositionExclusions.expr: \
 local/unicode/latest/IdnaMappingTable.txt:
 	mkdir -p local/unicode/latest
 	$(WGET) -O $@ http://www.unicode.org/Public/idna/latest/IdnaMappingTable.txt
-src/set/uts46/disallowed.expr: bin/uts46-idna-mapping.pl \
+local/map-data/uts46--mapping.json: bin/uts46-idna-mapping.pl \
     local/unicode/latest/IdnaMappingTable.txt
 	$(PERL) $<
-local/map-data/uts46--mapping.json: src/set/uts46/disallowed.expr
+src/set/uts46/disallowed.expr: src/set/uts46/disallowed.expr
 
 src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
     bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE)
