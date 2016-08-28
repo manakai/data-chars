@@ -28,8 +28,10 @@ for (split /\n/, $path->slurp) {
 
     push @{$Sets->{$status} ||= []}, [$from_code, $to_code];
 
-    if (defined $mapped and length $mapped) {
-      die "Bad line |$_| ($mapped)" unless $mapped =~ /\A[0-9A-Fa-f]+(?:\s+[0-9A-Fa-f]+)*\z/;
+    if (defined $mapped and
+        {ignored => 1, mapped => 1, deviation => 1,
+         disallowed_STD3_mapped => 1}->{$status}) {
+      die "Bad line |$_| ($mapped)" unless $mapped =~ /\A(?:[0-9A-Fa-f]+(?:\s+[0-9A-Fa-f]+)*|)\z/;
       for ($from_code..$to_code) {
         $Map->{sprintf '%04X', $_} = join ' ', map { sprintf '%04X', hex $_ } split /\s+/, $mapped;
       }
