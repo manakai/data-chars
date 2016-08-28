@@ -326,7 +326,7 @@ local/unicode/latest/IdnaMappingTable.txt:
 local/map-data/uts46--mapping.json: bin/uts46-idna-mapping.pl \
     local/unicode/latest/IdnaMappingTable.txt
 	$(PERL) $<
-src/set/uts46/disallowed.expr: src/set/uts46/disallowed.expr
+src/set/uts46/disallowed.expr: local/map-data/uts46--mapping.json
 
 src/set/rfc5892/Unstable.expr: bin/idna2008-unstable.pl \
     bin/lib/Charinfo/Set.pm $(PERL_UNICODE_NORMALIZE)
