@@ -140,7 +140,9 @@
       "Beng" : {
          "collation_reorder" : "Beng",
          "desc" : [
-            "Bengali"
+            "Bengali",
+            "Bangla",
+            "Bhaiksuki"
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Beng",
@@ -151,11 +153,6 @@
          "xforms" : "Bengali"
       },
       "Bhks" : {
-         "desc" : [
-            "Bhaiksuki"
-         ],
-         "ianareg" : "2015-07-24",
-         "iso" : "Bhks",
          "u_nu" : "bhks",
          "u_nu_desc" : "Bhaiksuki digits",
          "unicode" : "Bhaiksuki",
@@ -336,6 +333,13 @@
          "unicode_id" : "recommended",
          "xforms" : "Devanagari"
       },
+      "Dogr" : {
+         "desc" : [
+            "Dogra"
+         ],
+         "ianareg" : "2017-01-13",
+         "iso" : "Dogr"
+      },
       "Dsrt" : {
          "desc" : [
             "Deseret",
@@ -417,7 +421,7 @@
       "Geor" : {
          "collation_reorder" : "Geor",
          "desc" : [
-            "Georgian (Mkhedruli)"
+            "Georgian (Mkhedruli and Mtavruli)"
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Geor",
@@ -436,6 +440,20 @@
          "unicode" : "Glagolitic",
          "unicode_id" : "excluded",
          "xforms" : "Glagolitic"
+      },
+      "Gong" : {
+         "desc" : [
+            "Gunjala Gondi"
+         ],
+         "ianareg" : "2017-01-13",
+         "iso" : "Gong"
+      },
+      "Gonm" : {
+         "desc" : [
+            "Masaram Gondi"
+         ],
+         "ianareg" : "2017-01-13",
+         "iso" : "Gonm"
       },
       "Goth" : {
          "desc" : [
@@ -951,6 +969,13 @@
          "unicode_id" : "excluded",
          "xforms" : "Mahajani"
       },
+      "Maka" : {
+         "desc" : [
+            "Makasar"
+         ],
+         "ianareg" : "2017-01-13",
+         "iso" : "Maka"
+      },
       "Mand" : {
          "desc" : [
             "Mandaic",
@@ -988,6 +1013,15 @@
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Maya"
+      },
+      "Medf" : {
+         "desc" : [
+            "Medefaidrin",
+            "Oberi Okaime",
+            "Oberi Ɔkaimɛ"
+         ],
+         "ianareg" : "2017-01-13",
+         "iso" : "Medf"
       },
       "Mend" : {
          "desc" : [
@@ -1222,7 +1256,8 @@
       "Orya" : {
          "collation_reorder" : "Orya",
          "desc" : [
-            "Oriya"
+            "Oriya",
+            "Odia"
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Orya",
@@ -1756,16 +1791,18 @@
          "xforms" : "Sinhala"
       },
       "Sora" : {
-         "desc" : [
-            "Sora Sompeng"
-         ],
-         "ianareg" : "2011-01-07",
-         "iso" : "Sora",
          "u_nu" : "sora",
          "u_nu_desc" : "Sora_Sompeng digits",
          "unicode" : "Sora_Sompeng",
          "unicode_id" : "excluded",
          "xforms" : "SoraSompeng"
+      },
+      "Soyo" : {
+         "desc" : [
+            "Soyombo"
+         ],
+         "ianareg" : "2017-01-13",
+         "iso" : "Soyo"
       },
       "Sund" : {
          "desc" : [
@@ -2069,6 +2106,16 @@
          "unicode" : "Yi",
          "unicode_id" : "aspirational",
          "xforms" : "Yi"
+      },
+      "Zanb" : {
+         "desc" : [
+            "Zanabazar Square",
+            "Zanabazarin Dörböljin Useg",
+            "Xewtee Dörböljin Bicig",
+            "Horizontal Square Script"
+         ],
+         "ianareg" : "2017-01-13",
+         "iso" : "Zanb"
       },
       "Zinh" : {
          "desc" : [
