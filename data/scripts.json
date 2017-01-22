@@ -141,8 +141,7 @@
          "collation_reorder" : "Beng",
          "desc" : [
             "Bengali",
-            "Bangla",
-            "Bhaiksuki"
+            "Bangla"
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Beng",
@@ -153,6 +152,11 @@
          "xforms" : "Bengali"
       },
       "Bhks" : {
+         "desc" : [
+            "Bhaiksuki"
+         ],
+         "ianareg" : "2015-07-24",
+         "iso" : "Bhks",
          "u_nu" : "bhks",
          "u_nu_desc" : "Bhaiksuki digits",
          "unicode" : "Bhaiksuki",
@@ -1791,6 +1795,11 @@
          "xforms" : "Sinhala"
       },
       "Sora" : {
+         "desc" : [
+            "Sora Sompeng"
+         ],
+         "ianareg" : "2011-01-07",
+         "iso" : "Sora",
          "u_nu" : "sora",
          "u_nu_desc" : "Sora_Sompeng digits",
          "unicode" : "Sora_Sompeng",
