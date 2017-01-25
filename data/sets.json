@@ -12884,6 +12884,12 @@
          "label" : "domain-label-separators",
          "suikawiki_name" : "domain-label-separators"
       },
+      "$url:forbidden-host-code-point" : {
+         "chars" : "[\\u0000\\u0009-\\u000A\\u000D\\u0020\\u0023%/:?-\\u0040\\u005B-\\u005D]",
+         "label" : "forbidden host code point",
+         "suikawiki_name" : "forbidden host code point",
+         "url" : "https://url.spec.whatwg.org/#forbidden-host-code-point"
+      },
       "$url:form:percent-encoded-byte-char" : {
          "chars" : "[\\u0000-\\u001F!-)\u002B-,/:-\\u0040\\u005B-\\u005E`{-\\u00FF]",
          "label" : "ASCII character of byte percent-encoded by application/x-www-form-urlencoded byte serializer",
