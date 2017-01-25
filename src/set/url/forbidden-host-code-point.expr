@@ -1,0 +1,15 @@
+#label:forbidden host code point
+#url:https://url.spec.whatwg.org/#forbidden-host-code-point
+[
+\u0000
+\u0009
+\u000A
+\u000D
+\u0020
+\u0023
+%/:?
+\u0040
+\u005B
+\u005C
+\u005D
+]
