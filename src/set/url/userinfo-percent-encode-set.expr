@@ -1,0 +1,4 @@
+#label:userinfo percent-encode set
+#url:https://url.spec.whatwg.org/#userinfo-encode-set
+$url:default-encode-set
+| [/:;=@\u005B\u005C\u005D\u005E|]
