@@ -6322,6 +6322,13 @@
          "suikawiki_name" : "non-ASCII space",
          "url" : "https://tools.ietf.org/html/rfc7700#section-2.1"
       },
+      "$rfc8081:postscript-name-char" : {
+         "chars" : "[!-\\u0024\\u0026-'*-.0-\\u003B=?-Z\\u005C\\u005E-z|~]",
+         "label" : "a character in PostScript name",
+         "spec" : "RFC8081",
+         "suikawiki_name" : "a character in PostScript name",
+         "url" : "https://tools.ietf.org/html/rfc8081#section-4.2"
+      },
       "$rfc822:ALPHA" : {
          "chars" : "[A-Za-z]",
          "label" : "ALPHA",

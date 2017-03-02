@@ -1,0 +1,7 @@
+#label:a character in PostScript name
+#url:https://tools.ietf.org/html/rfc8081#section-4.2
+
+# printable ASCII subset, codes 33 ? 126
+[\u0021-\u007E]
+
+- [\u005B\u005D(){}<>/%]
