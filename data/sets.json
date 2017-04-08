@@ -381,6 +381,11 @@
          "label" : "control-characters",
          "suikawiki_name" : "control-characters"
       },
+      "$html:feature-separator" : {
+         "chars" : "[\\u0009-\\u000A\\u000C-\\u000D\\u0020,=]",
+         "label" : "feature separator",
+         "suikawiki_name" : "feature separator"
+      },
       "$html:lowercase-ASCII-hex-digits" : {
          "chars" : "[0-9a-f]",
          "label" : "lowercase-ASCII-hex-digits",
