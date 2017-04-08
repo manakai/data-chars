@@ -1,0 +1,8 @@
+#label:feature separator
+#spec:https://html.spec.whatwg.org/#feature-separator
+#sw:feature separator
+
+$html:space-characters |
+## ASCII whitespace
+
+[=,]
