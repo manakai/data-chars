@@ -23,7 +23,7 @@ support latest version of Unicode:
   data/perl/unicore-CombiningClass.pl
   data/perl/unicore-Decomposition.pl
 
-These Perl script file contains data extracted from Unicode Character
+These Perl script files contain data extracted from Unicode Character
 Database.  Copyright © 1991-2016 Unicode, Inc. All rights reserved.
 See <http://www.unicode.org/copyright.html#Exhibit1>.
 
