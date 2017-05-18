@@ -457,7 +457,9 @@
             "Masaram Gondi"
          ],
          "ianareg" : "2017-01-13",
-         "iso" : "Gonm"
+         "iso" : "Gonm",
+         "u_nu" : "gonm",
+         "u_nu_desc" : "Masaram Gondi digits"
       },
       "Goth" : {
          "desc" : [
