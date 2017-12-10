@@ -47,6 +47,7 @@
 - $unicode:Block:CJK_Unified_Ideographs_Extension_C
 - $unicode:Block:CJK_Unified_Ideographs_Extension_D
 - $unicode:Block:CJK_Unified_Ideographs_Extension_E
+- $unicode:Block:CJK_Unified_Ideographs_Extension_F
 - $unicode:Block:Carian
 - $unicode:Block:Caucasian_Albanian
 - $unicode:Block:Chakma
@@ -123,6 +124,7 @@
 - $unicode:Block:Inscriptional_Parthian
 - $unicode:Block:Javanese
 - $unicode:Block:Kaithi
+- $unicode:Block:Kana_Extended-A
 - $unicode:Block:Kana_Supplement
 - $unicode:Block:Kanbun
 - $unicode:Block:Kangxi_Radicals
@@ -159,6 +161,7 @@
 - $unicode:Block:Mandaic
 - $unicode:Block:Manichaean
 - $unicode:Block:Marchen
+- $unicode:Block:Masaram_Gondi
 - $unicode:Block:Mathematical_Alphanumeric_Symbols
 - $unicode:Block:Mathematical_Operators
 - $unicode:Block:Meetei_Mayek
@@ -188,6 +191,7 @@
 - $unicode:Block:New_Tai_Lue
 - $unicode:Block:Newa
 - $unicode:Block:Number_Forms
+- $unicode:Block:Nushu
 - $unicode:Block:Ogham
 - $unicode:Block:Ol_Chiki
 - $unicode:Block:Old_Hungarian
@@ -226,6 +230,7 @@
 - $unicode:Block:Sinhala_Archaic_Numbers
 - $unicode:Block:Small_Form_Variants
 - $unicode:Block:Sora_Sompeng
+- $unicode:Block:Soyombo
 - $unicode:Block:Spacing_Modifier_Letters
 - $unicode:Block:Specials
 - $unicode:Block:Sundanese
@@ -242,6 +247,7 @@
 - $unicode:Block:Sutton_SignWriting
 - $unicode:Block:Syloti_Nagri
 - $unicode:Block:Syriac
+- $unicode:Block:Syriac_Supplement
 - $unicode:Block:Tagalog
 - $unicode:Block:Tagbanwa
 - $unicode:Block:Tags
@@ -272,3 +278,4 @@
 - $unicode:Block:Yi_Radicals
 - $unicode:Block:Yi_Syllables
 - $unicode:Block:Yijing_Hexagram_Symbols
+- $unicode:Block:Zanabazar_Square

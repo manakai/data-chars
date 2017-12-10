@@ -241,7 +241,7 @@
          "ianareg" : "2005-10-16",
          "iso" : "Cans",
          "unicode" : "Canadian_Aboriginal",
-         "unicode_id" : "aspirational",
+         "unicode_id" : "limited",
          "xforms" : "CanadianAboriginal"
       },
       "Cari" : {
@@ -293,9 +293,16 @@
          "unicode_id" : "excluded",
          "xforms" : "Coptic"
       },
+      "Cpmn" : {
+         "desc" : [
+            "Cypro-Minoan"
+         ],
+         "ianareg" : "2017-08-13",
+         "iso" : "Cpmn"
+      },
       "Cprt" : {
          "desc" : [
-            "Cypriot"
+            "Cypriot syllabary"
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Cprt",
@@ -459,7 +466,10 @@
          "ianareg" : "2017-01-13",
          "iso" : "Gonm",
          "u_nu" : "gonm",
-         "u_nu_desc" : "Masaram Gondi digits"
+         "u_nu_desc" : "Masaram Gondi digits",
+         "unicode" : "Masaram_Gondi",
+         "unicode_id" : "excluded",
+         "xforms" : "MasaramGondi"
       },
       "Goth" : {
          "desc" : [
@@ -642,6 +652,13 @@
          "unicode" : "Pahawh_Hmong",
          "unicode_id" : "excluded",
          "xforms" : "PahawhHmong"
+      },
+      "Hmnp" : {
+         "desc" : [
+            "Nyiakeng Puachue Hmong"
+         ],
+         "ianareg" : "2017-08-13",
+         "iso" : "Hmnp"
       },
       "Hrkt" : {
          "desc" : [
@@ -1094,7 +1111,7 @@
          "u_nu" : "mong",
          "u_nu_desc" : "Mongolian digits",
          "unicode" : "Mongolian",
-         "unicode_id" : "aspirational",
+         "unicode_id" : "limited",
          "xforms" : "Mongolian"
       },
       "Moon" : {
@@ -1194,11 +1211,21 @@
          "unicode_id" : "limited",
          "xforms" : "Newa"
       },
+      "Nkdb" : {
+         "desc" : [
+            "Naxi Dongba",
+            "na²¹ɕi³³ to³³ba²¹",
+            "Nakhi Tomba"
+         ],
+         "ianareg" : "2017-08-13",
+         "iso" : "Nkdb"
+      },
       "Nkgb" : {
          "desc" : [
-            "Nakhi Geba",
+            "Naxi Geba",
+            "na²¹ɕi³³ gʌ²¹ba²¹",
             "'Na-'Khi ²Ggŏ-¹baw",
-            "Naxi Geba"
+            "Nakhi Geba"
          ],
          "ianareg" : "2009-03-13",
          "iso" : "Nkgb"
@@ -1221,7 +1248,10 @@
             "Nüshu"
          ],
          "ianareg" : "2011-01-07",
-         "iso" : "Nshu"
+         "iso" : "Nshu",
+         "unicode" : "Nushu",
+         "unicode_id" : "excluded",
+         "xforms" : "Nushu"
       },
       "Ogam" : {
          "desc" : [
@@ -1387,7 +1417,7 @@
          "ianareg" : "2005-10-16",
          "iso" : "Plrd",
          "unicode" : "Miao",
-         "unicode_id" : "aspirational",
+         "unicode_id" : "limited",
          "xforms" : "Miao"
       },
       "Prti" : {
@@ -1758,6 +1788,13 @@
          "unicode_id" : "excluded",
          "xforms" : "Sharada"
       },
+      "Shui" : {
+         "desc" : [
+            "Shuishu"
+         ],
+         "ianareg" : "2017-08-13",
+         "iso" : "Shui"
+      },
       "Sidd" : {
          "desc" : [
             "Siddham",
@@ -1813,7 +1850,10 @@
             "Soyombo"
          ],
          "ianareg" : "2017-01-13",
-         "iso" : "Soyo"
+         "iso" : "Soyo",
+         "unicode" : "Soyombo",
+         "unicode_id" : "excluded",
+         "xforms" : "Soyombo"
       },
       "Sund" : {
          "desc" : [
@@ -1975,7 +2015,7 @@
          "ianareg" : "2005-10-16",
          "iso" : "Tfng",
          "unicode" : "Tifinagh",
-         "unicode_id" : "aspirational",
+         "unicode_id" : "limited",
          "xforms" : "Tifinagh"
       },
       "Tglg" : {
@@ -2081,6 +2121,13 @@
          "unicode_id" : "excluded",
          "xforms" : "WarangCiti"
       },
+      "Wcho" : {
+         "desc" : [
+            "Wancho"
+         ],
+         "ianareg" : "2017-08-13",
+         "iso" : "Wcho"
+      },
       "Wole" : {
          "desc" : [
             "Woleai"
@@ -2115,7 +2162,7 @@
          "ianareg" : "2005-10-16",
          "iso" : "Yiii",
          "unicode" : "Yi",
-         "unicode_id" : "aspirational",
+         "unicode_id" : "limited",
          "xforms" : "Yi"
       },
       "Zanb" : {
@@ -2126,7 +2173,10 @@
             "Horizontal Square Script"
          ],
          "ianareg" : "2017-01-13",
-         "iso" : "Zanb"
+         "iso" : "Zanb",
+         "unicode" : "Zanabazar_Square",
+         "unicode_id" : "excluded",
+         "xforms" : "ZanabazarSquare"
       },
       "Zinh" : {
          "desc" : [

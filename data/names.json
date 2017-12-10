@@ -1,5 +1,41 @@
 {
    "code_seq_to_name" : {
+      "0023 FE0F 20E3" : {
+         "name" : "KEYCAP NUMBER SIGN"
+      },
+      "002A FE0F 20E3" : {
+         "name" : "KEYCAP ASTERISK"
+      },
+      "0030 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT ZERO"
+      },
+      "0031 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT ONE"
+      },
+      "0032 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT TWO"
+      },
+      "0033 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT THREE"
+      },
+      "0034 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT FOUR"
+      },
+      "0035 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT FIVE"
+      },
+      "0036 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT SIX"
+      },
+      "0037 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT SEVEN"
+      },
+      "0038 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT EIGHT"
+      },
+      "0039 FE0F 20E3" : {
+         "name" : "KEYCAP DIGIT NINE"
+      },
       "0045 0329" : {
          "name" : "LATIN CAPITAL LETTER E WITH VERTICAL LINE BELOW"
       },
@@ -8539,6 +8575,39 @@
       "085E" : {
          "name" : "MANDAIC PUNCTUATION"
       },
+      "0860" : {
+         "name" : "SYRIAC LETTER MALAYALAM NGA"
+      },
+      "0861" : {
+         "name" : "SYRIAC LETTER MALAYALAM JA"
+      },
+      "0862" : {
+         "name" : "SYRIAC LETTER MALAYALAM NYA"
+      },
+      "0863" : {
+         "name" : "SYRIAC LETTER MALAYALAM TTA"
+      },
+      "0864" : {
+         "name" : "SYRIAC LETTER MALAYALAM NNA"
+      },
+      "0865" : {
+         "name" : "SYRIAC LETTER MALAYALAM NNNA"
+      },
+      "0866" : {
+         "name" : "SYRIAC LETTER MALAYALAM BHA"
+      },
+      "0867" : {
+         "name" : "SYRIAC LETTER MALAYALAM RA"
+      },
+      "0868" : {
+         "name" : "SYRIAC LETTER MALAYALAM LLA"
+      },
+      "0869" : {
+         "name" : "SYRIAC LETTER MALAYALAM LLLA"
+      },
+      "086A" : {
+         "name" : "SYRIAC LETTER MALAYALAM SSA"
+      },
       "08A0" : {
          "name" : "ARABIC LETTER BEH WITH SMALL V BELOW"
       },
@@ -9421,6 +9490,12 @@
       "09FB" : {
          "name" : "BENGALI GANDA MARK"
       },
+      "09FC" : {
+         "name" : "BENGALI LETTER VEDIC ANUSVARA"
+      },
+      "09FD" : {
+         "name" : "BENGALI ABBREVIATION SIGN"
+      },
       "0A01" : {
          "name" : "GURMUKHI SIGN ADAK BINDI"
       },
@@ -9912,6 +9987,24 @@
       },
       "0AF9" : {
          "name" : "GUJARATI LETTER ZHA"
+      },
+      "0AFA" : {
+         "name" : "GUJARATI SIGN SUKUN"
+      },
+      "0AFB" : {
+         "name" : "GUJARATI SIGN SHADDA"
+      },
+      "0AFC" : {
+         "name" : "GUJARATI SIGN MADDAH"
+      },
+      "0AFD" : {
+         "name" : "GUJARATI SIGN THREE-DOT NUKTA ABOVE"
+      },
+      "0AFE" : {
+         "name" : "GUJARATI SIGN CIRCLE NUKTA ABOVE"
+      },
+      "0AFF" : {
+         "name" : "GUJARATI SIGN TWO-CIRCLE NUKTA ABOVE"
       },
       "0B01" : {
          "name" : "ORIYA SIGN CANDRABINDU"
@@ -10954,6 +11047,9 @@
       "0CF2" : {
          "name" : "KANNADA SIGN UPADHMANIYA"
       },
+      "0D00" : {
+         "name" : "MALAYALAM SIGN COMBINING ANUSVARA ABOVE"
+      },
       "0D01" : {
          "name" : "MALAYALAM SIGN CANDRABINDU"
       },
@@ -11118,6 +11214,12 @@
       },
       "0D3A" : {
          "name" : "MALAYALAM LETTER TTTA"
+      },
+      "0D3B" : {
+         "name" : "MALAYALAM SIGN VERTICAL BAR VIRAMA"
+      },
+      "0D3C" : {
+         "name" : "MALAYALAM SIGN CIRCULAR VIRAMA"
       },
       "0D3D" : {
          "name" : "MALAYALAM SIGN AVAGRAHA"
@@ -14472,6 +14574,15 @@
       },
       "10323" : {
          "name" : "OLD ITALIC NUMERAL FIFTY"
+      },
+      "1032D" : {
+         "name" : "OLD ITALIC LETTER YE"
+      },
+      "1032E" : {
+         "name" : "OLD ITALIC LETTER NORTHERN TSE"
+      },
+      "1032F" : {
+         "name" : "OLD ITALIC LETTER SOUTHERN TSE"
       },
       "1033" : {
          "name" : "MYANMAR VOWEL SIGN MON II"
@@ -24478,35 +24589,491 @@
       "11A0" : {
          "name" : "HANGUL JUNGSEONG ARAEA-U"
       },
+      "11A00" : {
+         "name" : "ZANABAZAR SQUARE LETTER A"
+      },
+      "11A01" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN I"
+      },
+      "11A02" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN UE"
+      },
+      "11A03" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN U"
+      },
+      "11A04" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN E"
+      },
+      "11A05" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN OE"
+      },
+      "11A06" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN O"
+      },
+      "11A07" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN AI"
+      },
+      "11A08" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN AU"
+      },
+      "11A09" : {
+         "name" : "ZANABAZAR SQUARE VOWEL SIGN REVERSED I"
+      },
+      "11A0A" : {
+         "name" : "ZANABAZAR SQUARE VOWEL LENGTH MARK"
+      },
+      "11A0B" : {
+         "name" : "ZANABAZAR SQUARE LETTER KA"
+      },
+      "11A0C" : {
+         "name" : "ZANABAZAR SQUARE LETTER KHA"
+      },
+      "11A0D" : {
+         "name" : "ZANABAZAR SQUARE LETTER GA"
+      },
+      "11A0E" : {
+         "name" : "ZANABAZAR SQUARE LETTER GHA"
+      },
+      "11A0F" : {
+         "name" : "ZANABAZAR SQUARE LETTER NGA"
+      },
       "11A1" : {
          "name" : "HANGUL JUNGSEONG ARAEA-I"
+      },
+      "11A10" : {
+         "name" : "ZANABAZAR SQUARE LETTER CA"
+      },
+      "11A11" : {
+         "name" : "ZANABAZAR SQUARE LETTER CHA"
+      },
+      "11A12" : {
+         "name" : "ZANABAZAR SQUARE LETTER JA"
+      },
+      "11A13" : {
+         "name" : "ZANABAZAR SQUARE LETTER NYA"
+      },
+      "11A14" : {
+         "name" : "ZANABAZAR SQUARE LETTER TTA"
+      },
+      "11A15" : {
+         "name" : "ZANABAZAR SQUARE LETTER TTHA"
+      },
+      "11A16" : {
+         "name" : "ZANABAZAR SQUARE LETTER DDA"
+      },
+      "11A17" : {
+         "name" : "ZANABAZAR SQUARE LETTER DDHA"
+      },
+      "11A18" : {
+         "name" : "ZANABAZAR SQUARE LETTER NNA"
+      },
+      "11A19" : {
+         "name" : "ZANABAZAR SQUARE LETTER TA"
+      },
+      "11A1A" : {
+         "name" : "ZANABAZAR SQUARE LETTER THA"
+      },
+      "11A1B" : {
+         "name" : "ZANABAZAR SQUARE LETTER DA"
+      },
+      "11A1C" : {
+         "name" : "ZANABAZAR SQUARE LETTER DHA"
+      },
+      "11A1D" : {
+         "name" : "ZANABAZAR SQUARE LETTER NA"
+      },
+      "11A1E" : {
+         "name" : "ZANABAZAR SQUARE LETTER PA"
+      },
+      "11A1F" : {
+         "name" : "ZANABAZAR SQUARE LETTER PHA"
       },
       "11A2" : {
          "name" : "HANGUL JUNGSEONG SSANGARAEA"
       },
+      "11A20" : {
+         "name" : "ZANABAZAR SQUARE LETTER BA"
+      },
+      "11A21" : {
+         "name" : "ZANABAZAR SQUARE LETTER BHA"
+      },
+      "11A22" : {
+         "name" : "ZANABAZAR SQUARE LETTER MA"
+      },
+      "11A23" : {
+         "name" : "ZANABAZAR SQUARE LETTER TSA"
+      },
+      "11A24" : {
+         "name" : "ZANABAZAR SQUARE LETTER TSHA"
+      },
+      "11A25" : {
+         "name" : "ZANABAZAR SQUARE LETTER DZA"
+      },
+      "11A26" : {
+         "name" : "ZANABAZAR SQUARE LETTER DZHA"
+      },
+      "11A27" : {
+         "name" : "ZANABAZAR SQUARE LETTER ZHA"
+      },
+      "11A28" : {
+         "name" : "ZANABAZAR SQUARE LETTER ZA"
+      },
+      "11A29" : {
+         "name" : "ZANABAZAR SQUARE LETTER -A"
+      },
+      "11A2A" : {
+         "name" : "ZANABAZAR SQUARE LETTER YA"
+      },
+      "11A2B" : {
+         "name" : "ZANABAZAR SQUARE LETTER RA"
+      },
+      "11A2C" : {
+         "name" : "ZANABAZAR SQUARE LETTER LA"
+      },
+      "11A2D" : {
+         "name" : "ZANABAZAR SQUARE LETTER VA"
+      },
+      "11A2E" : {
+         "name" : "ZANABAZAR SQUARE LETTER SHA"
+      },
+      "11A2F" : {
+         "name" : "ZANABAZAR SQUARE LETTER SSA"
+      },
       "11A3" : {
          "name" : "HANGUL JUNGSEONG A-EU"
+      },
+      "11A30" : {
+         "name" : "ZANABAZAR SQUARE LETTER SA"
+      },
+      "11A31" : {
+         "name" : "ZANABAZAR SQUARE LETTER HA"
+      },
+      "11A32" : {
+         "name" : "ZANABAZAR SQUARE LETTER KSSA"
+      },
+      "11A33" : {
+         "name" : "ZANABAZAR SQUARE FINAL CONSONANT MARK"
+      },
+      "11A34" : {
+         "name" : "ZANABAZAR SQUARE SIGN VIRAMA"
+      },
+      "11A35" : {
+         "name" : "ZANABAZAR SQUARE SIGN CANDRABINDU"
+      },
+      "11A36" : {
+         "name" : "ZANABAZAR SQUARE SIGN CANDRABINDU WITH ORNAMENT"
+      },
+      "11A37" : {
+         "name" : "ZANABAZAR SQUARE SIGN CANDRA WITH ORNAMENT"
+      },
+      "11A38" : {
+         "name" : "ZANABAZAR SQUARE SIGN ANUSVARA"
+      },
+      "11A39" : {
+         "name" : "ZANABAZAR SQUARE SIGN VISARGA"
+      },
+      "11A3A" : {
+         "name" : "ZANABAZAR SQUARE CLUSTER-INITIAL LETTER RA"
+      },
+      "11A3B" : {
+         "name" : "ZANABAZAR SQUARE CLUSTER-FINAL LETTER YA"
+      },
+      "11A3C" : {
+         "name" : "ZANABAZAR SQUARE CLUSTER-FINAL LETTER RA"
+      },
+      "11A3D" : {
+         "name" : "ZANABAZAR SQUARE CLUSTER-FINAL LETTER LA"
+      },
+      "11A3E" : {
+         "name" : "ZANABAZAR SQUARE CLUSTER-FINAL LETTER VA"
+      },
+      "11A3F" : {
+         "name" : "ZANABAZAR SQUARE INITIAL HEAD MARK"
       },
       "11A4" : {
          "name" : "HANGUL JUNGSEONG YA-U"
       },
+      "11A40" : {
+         "name" : "ZANABAZAR SQUARE CLOSING HEAD MARK"
+      },
+      "11A41" : {
+         "name" : "ZANABAZAR SQUARE MARK TSHEG"
+      },
+      "11A42" : {
+         "name" : "ZANABAZAR SQUARE MARK SHAD"
+      },
+      "11A43" : {
+         "name" : "ZANABAZAR SQUARE MARK DOUBLE SHAD"
+      },
+      "11A44" : {
+         "name" : "ZANABAZAR SQUARE MARK LONG TSHEG"
+      },
+      "11A45" : {
+         "name" : "ZANABAZAR SQUARE INITIAL DOUBLE-LINED HEAD MARK"
+      },
+      "11A46" : {
+         "name" : "ZANABAZAR SQUARE CLOSING DOUBLE-LINED HEAD MARK"
+      },
+      "11A47" : {
+         "name" : "ZANABAZAR SQUARE SUBJOINER"
+      },
       "11A5" : {
          "name" : "HANGUL JUNGSEONG YEO-YA"
+      },
+      "11A50" : {
+         "name" : "SOYOMBO LETTER A"
+      },
+      "11A51" : {
+         "name" : "SOYOMBO VOWEL SIGN I"
+      },
+      "11A52" : {
+         "name" : "SOYOMBO VOWEL SIGN UE"
+      },
+      "11A53" : {
+         "name" : "SOYOMBO VOWEL SIGN U"
+      },
+      "11A54" : {
+         "name" : "SOYOMBO VOWEL SIGN E"
+      },
+      "11A55" : {
+         "name" : "SOYOMBO VOWEL SIGN O"
+      },
+      "11A56" : {
+         "name" : "SOYOMBO VOWEL SIGN OE"
+      },
+      "11A57" : {
+         "name" : "SOYOMBO VOWEL SIGN AI"
+      },
+      "11A58" : {
+         "name" : "SOYOMBO VOWEL SIGN AU"
+      },
+      "11A59" : {
+         "name" : "SOYOMBO VOWEL SIGN VOCALIC R"
+      },
+      "11A5A" : {
+         "name" : "SOYOMBO VOWEL SIGN VOCALIC L"
+      },
+      "11A5B" : {
+         "name" : "SOYOMBO VOWEL LENGTH MARK"
+      },
+      "11A5C" : {
+         "name" : "SOYOMBO LETTER KA"
+      },
+      "11A5D" : {
+         "name" : "SOYOMBO LETTER KHA"
+      },
+      "11A5E" : {
+         "name" : "SOYOMBO LETTER GA"
+      },
+      "11A5F" : {
+         "name" : "SOYOMBO LETTER GHA"
       },
       "11A6" : {
          "name" : "HANGUL JUNGSEONG O-YA"
       },
+      "11A60" : {
+         "name" : "SOYOMBO LETTER NGA"
+      },
+      "11A61" : {
+         "name" : "SOYOMBO LETTER CA"
+      },
+      "11A62" : {
+         "name" : "SOYOMBO LETTER CHA"
+      },
+      "11A63" : {
+         "name" : "SOYOMBO LETTER JA"
+      },
+      "11A64" : {
+         "name" : "SOYOMBO LETTER JHA"
+      },
+      "11A65" : {
+         "name" : "SOYOMBO LETTER NYA"
+      },
+      "11A66" : {
+         "name" : "SOYOMBO LETTER TTA"
+      },
+      "11A67" : {
+         "name" : "SOYOMBO LETTER TTHA"
+      },
+      "11A68" : {
+         "name" : "SOYOMBO LETTER DDA"
+      },
+      "11A69" : {
+         "name" : "SOYOMBO LETTER DDHA"
+      },
+      "11A6A" : {
+         "name" : "SOYOMBO LETTER NNA"
+      },
+      "11A6B" : {
+         "name" : "SOYOMBO LETTER TA"
+      },
+      "11A6C" : {
+         "name" : "SOYOMBO LETTER THA"
+      },
+      "11A6D" : {
+         "name" : "SOYOMBO LETTER DA"
+      },
+      "11A6E" : {
+         "name" : "SOYOMBO LETTER DHA"
+      },
+      "11A6F" : {
+         "name" : "SOYOMBO LETTER NA"
+      },
       "11A7" : {
          "name" : "HANGUL JUNGSEONG O-YAE"
+      },
+      "11A70" : {
+         "name" : "SOYOMBO LETTER PA"
+      },
+      "11A71" : {
+         "name" : "SOYOMBO LETTER PHA"
+      },
+      "11A72" : {
+         "name" : "SOYOMBO LETTER BA"
+      },
+      "11A73" : {
+         "name" : "SOYOMBO LETTER BHA"
+      },
+      "11A74" : {
+         "name" : "SOYOMBO LETTER MA"
+      },
+      "11A75" : {
+         "name" : "SOYOMBO LETTER TSA"
+      },
+      "11A76" : {
+         "name" : "SOYOMBO LETTER TSHA"
+      },
+      "11A77" : {
+         "name" : "SOYOMBO LETTER DZA"
+      },
+      "11A78" : {
+         "name" : "SOYOMBO LETTER ZHA"
+      },
+      "11A79" : {
+         "name" : "SOYOMBO LETTER ZA"
+      },
+      "11A7A" : {
+         "name" : "SOYOMBO LETTER -A"
+      },
+      "11A7B" : {
+         "name" : "SOYOMBO LETTER YA"
+      },
+      "11A7C" : {
+         "name" : "SOYOMBO LETTER RA"
+      },
+      "11A7D" : {
+         "name" : "SOYOMBO LETTER LA"
+      },
+      "11A7E" : {
+         "name" : "SOYOMBO LETTER VA"
+      },
+      "11A7F" : {
+         "name" : "SOYOMBO LETTER SHA"
       },
       "11A8" : {
          "name" : "HANGUL JONGSEONG KIYEOK"
       },
+      "11A80" : {
+         "name" : "SOYOMBO LETTER SSA"
+      },
+      "11A81" : {
+         "name" : "SOYOMBO LETTER SA"
+      },
+      "11A82" : {
+         "name" : "SOYOMBO LETTER HA"
+      },
+      "11A83" : {
+         "name" : "SOYOMBO LETTER KSSA"
+      },
+      "11A86" : {
+         "name" : "SOYOMBO CLUSTER-INITIAL LETTER RA"
+      },
+      "11A87" : {
+         "name" : "SOYOMBO CLUSTER-INITIAL LETTER LA"
+      },
+      "11A88" : {
+         "name" : "SOYOMBO CLUSTER-INITIAL LETTER SHA"
+      },
+      "11A89" : {
+         "name" : "SOYOMBO CLUSTER-INITIAL LETTER SA"
+      },
+      "11A8A" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN G"
+      },
+      "11A8B" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN K"
+      },
+      "11A8C" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN NG"
+      },
+      "11A8D" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN D"
+      },
+      "11A8E" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN N"
+      },
+      "11A8F" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN B"
+      },
       "11A9" : {
          "name" : "HANGUL JONGSEONG SSANGKIYEOK"
       },
+      "11A90" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN M"
+      },
+      "11A91" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN R"
+      },
+      "11A92" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN L"
+      },
+      "11A93" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN SH"
+      },
+      "11A94" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN S"
+      },
+      "11A95" : {
+         "name" : "SOYOMBO FINAL CONSONANT SIGN -A"
+      },
+      "11A96" : {
+         "name" : "SOYOMBO SIGN ANUSVARA"
+      },
+      "11A97" : {
+         "name" : "SOYOMBO SIGN VISARGA"
+      },
+      "11A98" : {
+         "name" : "SOYOMBO GEMINATION MARK"
+      },
+      "11A99" : {
+         "name" : "SOYOMBO SUBJOINER"
+      },
+      "11A9A" : {
+         "name" : "SOYOMBO MARK TSHEG"
+      },
+      "11A9B" : {
+         "name" : "SOYOMBO MARK SHAD"
+      },
+      "11A9C" : {
+         "name" : "SOYOMBO MARK DOUBLE SHAD"
+      },
+      "11A9E" : {
+         "name" : "SOYOMBO HEAD MARK WITH MOON AND SUN AND TRIPLE FLAME"
+      },
+      "11A9F" : {
+         "name" : "SOYOMBO HEAD MARK WITH MOON AND SUN AND FLAME"
+      },
       "11AA" : {
          "name" : "HANGUL JONGSEONG KIYEOK-SIOS"
+      },
+      "11AA0" : {
+         "name" : "SOYOMBO HEAD MARK WITH MOON AND SUN"
+      },
+      "11AA1" : {
+         "name" : "SOYOMBO TERMINAL MARK-1"
+      },
+      "11AA2" : {
+         "name" : "SOYOMBO TERMINAL MARK-2"
       },
       "11AB" : {
          "name" : "HANGUL JONGSEONG NIEUN"
@@ -25288,20 +25855,245 @@
       "11D0" : {
          "name" : "HANGUL JONGSEONG SSANGRIEUL"
       },
+      "11D00" : {
+         "name" : "MASARAM GONDI LETTER A"
+      },
+      "11D01" : {
+         "name" : "MASARAM GONDI LETTER AA"
+      },
+      "11D02" : {
+         "name" : "MASARAM GONDI LETTER I"
+      },
+      "11D03" : {
+         "name" : "MASARAM GONDI LETTER II"
+      },
+      "11D04" : {
+         "name" : "MASARAM GONDI LETTER U"
+      },
+      "11D05" : {
+         "name" : "MASARAM GONDI LETTER UU"
+      },
+      "11D06" : {
+         "name" : "MASARAM GONDI LETTER E"
+      },
+      "11D08" : {
+         "name" : "MASARAM GONDI LETTER AI"
+      },
+      "11D09" : {
+         "name" : "MASARAM GONDI LETTER O"
+      },
+      "11D0B" : {
+         "name" : "MASARAM GONDI LETTER AU"
+      },
+      "11D0C" : {
+         "name" : "MASARAM GONDI LETTER KA"
+      },
+      "11D0D" : {
+         "name" : "MASARAM GONDI LETTER KHA"
+      },
+      "11D0E" : {
+         "name" : "MASARAM GONDI LETTER GA"
+      },
+      "11D0F" : {
+         "name" : "MASARAM GONDI LETTER GHA"
+      },
       "11D1" : {
          "name" : "HANGUL JONGSEONG RIEUL-MIEUM-KIYEOK"
+      },
+      "11D10" : {
+         "name" : "MASARAM GONDI LETTER NGA"
+      },
+      "11D11" : {
+         "name" : "MASARAM GONDI LETTER CA"
+      },
+      "11D12" : {
+         "name" : "MASARAM GONDI LETTER CHA"
+      },
+      "11D13" : {
+         "name" : "MASARAM GONDI LETTER JA"
+      },
+      "11D14" : {
+         "name" : "MASARAM GONDI LETTER JHA"
+      },
+      "11D15" : {
+         "name" : "MASARAM GONDI LETTER NYA"
+      },
+      "11D16" : {
+         "name" : "MASARAM GONDI LETTER TTA"
+      },
+      "11D17" : {
+         "name" : "MASARAM GONDI LETTER TTHA"
+      },
+      "11D18" : {
+         "name" : "MASARAM GONDI LETTER DDA"
+      },
+      "11D19" : {
+         "name" : "MASARAM GONDI LETTER DDHA"
+      },
+      "11D1A" : {
+         "name" : "MASARAM GONDI LETTER NNA"
+      },
+      "11D1B" : {
+         "name" : "MASARAM GONDI LETTER TA"
+      },
+      "11D1C" : {
+         "name" : "MASARAM GONDI LETTER THA"
+      },
+      "11D1D" : {
+         "name" : "MASARAM GONDI LETTER DA"
+      },
+      "11D1E" : {
+         "name" : "MASARAM GONDI LETTER DHA"
+      },
+      "11D1F" : {
+         "name" : "MASARAM GONDI LETTER NA"
       },
       "11D2" : {
          "name" : "HANGUL JONGSEONG RIEUL-MIEUM-SIOS"
       },
+      "11D20" : {
+         "name" : "MASARAM GONDI LETTER PA"
+      },
+      "11D21" : {
+         "name" : "MASARAM GONDI LETTER PHA"
+      },
+      "11D22" : {
+         "name" : "MASARAM GONDI LETTER BA"
+      },
+      "11D23" : {
+         "name" : "MASARAM GONDI LETTER BHA"
+      },
+      "11D24" : {
+         "name" : "MASARAM GONDI LETTER MA"
+      },
+      "11D25" : {
+         "name" : "MASARAM GONDI LETTER YA"
+      },
+      "11D26" : {
+         "name" : "MASARAM GONDI LETTER RA"
+      },
+      "11D27" : {
+         "name" : "MASARAM GONDI LETTER LA"
+      },
+      "11D28" : {
+         "name" : "MASARAM GONDI LETTER VA"
+      },
+      "11D29" : {
+         "name" : "MASARAM GONDI LETTER SHA"
+      },
+      "11D2A" : {
+         "name" : "MASARAM GONDI LETTER SSA"
+      },
+      "11D2B" : {
+         "name" : "MASARAM GONDI LETTER SA"
+      },
+      "11D2C" : {
+         "name" : "MASARAM GONDI LETTER HA"
+      },
+      "11D2D" : {
+         "name" : "MASARAM GONDI LETTER LLA"
+      },
+      "11D2E" : {
+         "name" : "MASARAM GONDI LETTER KSSA"
+      },
+      "11D2F" : {
+         "name" : "MASARAM GONDI LETTER JNYA"
+      },
       "11D3" : {
          "name" : "HANGUL JONGSEONG RIEUL-PIEUP-SIOS"
+      },
+      "11D30" : {
+         "name" : "MASARAM GONDI LETTER TRA"
+      },
+      "11D31" : {
+         "name" : "MASARAM GONDI VOWEL SIGN AA"
+      },
+      "11D32" : {
+         "name" : "MASARAM GONDI VOWEL SIGN I"
+      },
+      "11D33" : {
+         "name" : "MASARAM GONDI VOWEL SIGN II"
+      },
+      "11D34" : {
+         "name" : "MASARAM GONDI VOWEL SIGN U"
+      },
+      "11D35" : {
+         "name" : "MASARAM GONDI VOWEL SIGN UU"
+      },
+      "11D36" : {
+         "name" : "MASARAM GONDI VOWEL SIGN VOCALIC R"
+      },
+      "11D3A" : {
+         "name" : "MASARAM GONDI VOWEL SIGN E"
+      },
+      "11D3C" : {
+         "name" : "MASARAM GONDI VOWEL SIGN AI"
+      },
+      "11D3D" : {
+         "name" : "MASARAM GONDI VOWEL SIGN O"
+      },
+      "11D3F" : {
+         "name" : "MASARAM GONDI VOWEL SIGN AU"
       },
       "11D4" : {
          "name" : "HANGUL JONGSEONG RIEUL-PIEUP-HIEUH"
       },
+      "11D40" : {
+         "name" : "MASARAM GONDI SIGN ANUSVARA"
+      },
+      "11D41" : {
+         "name" : "MASARAM GONDI SIGN VISARGA"
+      },
+      "11D42" : {
+         "name" : "MASARAM GONDI SIGN NUKTA"
+      },
+      "11D43" : {
+         "name" : "MASARAM GONDI SIGN CANDRA"
+      },
+      "11D44" : {
+         "name" : "MASARAM GONDI SIGN HALANTA"
+      },
+      "11D45" : {
+         "name" : "MASARAM GONDI VIRAMA"
+      },
+      "11D46" : {
+         "name" : "MASARAM GONDI REPHA"
+      },
+      "11D47" : {
+         "name" : "MASARAM GONDI RA-KARA"
+      },
       "11D5" : {
          "name" : "HANGUL JONGSEONG RIEUL-KAPYEOUNPIEUP"
+      },
+      "11D50" : {
+         "name" : "MASARAM GONDI DIGIT ZERO"
+      },
+      "11D51" : {
+         "name" : "MASARAM GONDI DIGIT ONE"
+      },
+      "11D52" : {
+         "name" : "MASARAM GONDI DIGIT TWO"
+      },
+      "11D53" : {
+         "name" : "MASARAM GONDI DIGIT THREE"
+      },
+      "11D54" : {
+         "name" : "MASARAM GONDI DIGIT FOUR"
+      },
+      "11D55" : {
+         "name" : "MASARAM GONDI DIGIT FIVE"
+      },
+      "11D56" : {
+         "name" : "MASARAM GONDI DIGIT SIX"
+      },
+      "11D57" : {
+         "name" : "MASARAM GONDI DIGIT SEVEN"
+      },
+      "11D58" : {
+         "name" : "MASARAM GONDI DIGIT EIGHT"
+      },
+      "11D59" : {
+         "name" : "MASARAM GONDI DIGIT NINE"
       },
       "11D6" : {
          "name" : "HANGUL JONGSEONG RIEUL-SSANGSIOS"
@@ -25370,15 +26162,27 @@
          "name" : "HANGUL JONGSEONG PANSIOS"
       },
       "11EC" : {
+         "correction" : {
+            "HANGUL JONGSEONG YESIEUNG-KIYEOK" : 1
+         },
          "name" : "HANGUL JONGSEONG IEUNG-KIYEOK"
       },
       "11ED" : {
+         "correction" : {
+            "HANGUL JONGSEONG YESIEUNG-SSANGKIYEOK" : 1
+         },
          "name" : "HANGUL JONGSEONG IEUNG-SSANGKIYEOK"
       },
       "11EE" : {
+         "correction" : {
+            "HANGUL JONGSEONG SSANGYESIEUNG" : 1
+         },
          "name" : "HANGUL JONGSEONG SSANGIEUNG"
       },
       "11EF" : {
+         "correction" : {
+            "HANGUL JONGSEONG YESIEUNG-KHIEUKH" : 1
+         },
          "name" : "HANGUL JONGSEONG IEUNG-KHIEUKH"
       },
       "11F0" : {
@@ -40528,6 +41332,9 @@
       "16FE0" : {
          "name" : "TANGUT ITERATION MARK"
       },
+      "16FE1" : {
+         "name" : "NUSHU ITERATION MARK"
+      },
       "1700" : {
          "name" : "TAGALOG LETTER A"
       },
@@ -45245,58 +46052,916 @@
          "name" : "KATAKANA LETTER ARCHAIC E"
       },
       "1B001" : {
+         "correction" : {
+            "HENTAIGANA LETTER E-1" : 1
+         },
          "name" : "HIRAGANA LETTER ARCHAIC YE"
+      },
+      "1B002" : {
+         "name" : "HENTAIGANA LETTER A-1"
+      },
+      "1B003" : {
+         "name" : "HENTAIGANA LETTER A-2"
+      },
+      "1B004" : {
+         "name" : "HENTAIGANA LETTER A-3"
+      },
+      "1B005" : {
+         "name" : "HENTAIGANA LETTER A-WO"
+      },
+      "1B006" : {
+         "name" : "HENTAIGANA LETTER I-1"
+      },
+      "1B007" : {
+         "name" : "HENTAIGANA LETTER I-2"
+      },
+      "1B008" : {
+         "name" : "HENTAIGANA LETTER I-3"
+      },
+      "1B009" : {
+         "name" : "HENTAIGANA LETTER I-4"
+      },
+      "1B00A" : {
+         "name" : "HENTAIGANA LETTER U-1"
+      },
+      "1B00B" : {
+         "name" : "HENTAIGANA LETTER U-2"
+      },
+      "1B00C" : {
+         "name" : "HENTAIGANA LETTER U-3"
+      },
+      "1B00D" : {
+         "name" : "HENTAIGANA LETTER U-4"
+      },
+      "1B00E" : {
+         "name" : "HENTAIGANA LETTER U-5"
+      },
+      "1B00F" : {
+         "name" : "HENTAIGANA LETTER E-2"
       },
       "1B01" : {
          "name" : "BALINESE SIGN ULU CANDRA"
       },
+      "1B010" : {
+         "name" : "HENTAIGANA LETTER E-3"
+      },
+      "1B011" : {
+         "name" : "HENTAIGANA LETTER E-4"
+      },
+      "1B012" : {
+         "name" : "HENTAIGANA LETTER E-5"
+      },
+      "1B013" : {
+         "name" : "HENTAIGANA LETTER E-6"
+      },
+      "1B014" : {
+         "name" : "HENTAIGANA LETTER O-1"
+      },
+      "1B015" : {
+         "name" : "HENTAIGANA LETTER O-2"
+      },
+      "1B016" : {
+         "name" : "HENTAIGANA LETTER O-3"
+      },
+      "1B017" : {
+         "name" : "HENTAIGANA LETTER KA-1"
+      },
+      "1B018" : {
+         "name" : "HENTAIGANA LETTER KA-2"
+      },
+      "1B019" : {
+         "name" : "HENTAIGANA LETTER KA-3"
+      },
+      "1B01A" : {
+         "name" : "HENTAIGANA LETTER KA-4"
+      },
+      "1B01B" : {
+         "name" : "HENTAIGANA LETTER KA-5"
+      },
+      "1B01C" : {
+         "name" : "HENTAIGANA LETTER KA-6"
+      },
+      "1B01D" : {
+         "name" : "HENTAIGANA LETTER KA-7"
+      },
+      "1B01E" : {
+         "name" : "HENTAIGANA LETTER KA-8"
+      },
+      "1B01F" : {
+         "name" : "HENTAIGANA LETTER KA-9"
+      },
       "1B02" : {
          "name" : "BALINESE SIGN CECEK"
+      },
+      "1B020" : {
+         "name" : "HENTAIGANA LETTER KA-10"
+      },
+      "1B021" : {
+         "name" : "HENTAIGANA LETTER KA-11"
+      },
+      "1B022" : {
+         "name" : "HENTAIGANA LETTER KA-KE"
+      },
+      "1B023" : {
+         "name" : "HENTAIGANA LETTER KI-1"
+      },
+      "1B024" : {
+         "name" : "HENTAIGANA LETTER KI-2"
+      },
+      "1B025" : {
+         "name" : "HENTAIGANA LETTER KI-3"
+      },
+      "1B026" : {
+         "name" : "HENTAIGANA LETTER KI-4"
+      },
+      "1B027" : {
+         "name" : "HENTAIGANA LETTER KI-5"
+      },
+      "1B028" : {
+         "name" : "HENTAIGANA LETTER KI-6"
+      },
+      "1B029" : {
+         "name" : "HENTAIGANA LETTER KI-7"
+      },
+      "1B02A" : {
+         "name" : "HENTAIGANA LETTER KI-8"
+      },
+      "1B02B" : {
+         "name" : "HENTAIGANA LETTER KU-1"
+      },
+      "1B02C" : {
+         "name" : "HENTAIGANA LETTER KU-2"
+      },
+      "1B02D" : {
+         "name" : "HENTAIGANA LETTER KU-3"
+      },
+      "1B02E" : {
+         "name" : "HENTAIGANA LETTER KU-4"
+      },
+      "1B02F" : {
+         "name" : "HENTAIGANA LETTER KU-5"
       },
       "1B03" : {
          "name" : "BALINESE SIGN SURANG"
       },
+      "1B030" : {
+         "name" : "HENTAIGANA LETTER KU-6"
+      },
+      "1B031" : {
+         "name" : "HENTAIGANA LETTER KU-7"
+      },
+      "1B032" : {
+         "name" : "HENTAIGANA LETTER KE-1"
+      },
+      "1B033" : {
+         "name" : "HENTAIGANA LETTER KE-2"
+      },
+      "1B034" : {
+         "name" : "HENTAIGANA LETTER KE-3"
+      },
+      "1B035" : {
+         "name" : "HENTAIGANA LETTER KE-4"
+      },
+      "1B036" : {
+         "name" : "HENTAIGANA LETTER KE-5"
+      },
+      "1B037" : {
+         "name" : "HENTAIGANA LETTER KE-6"
+      },
+      "1B038" : {
+         "name" : "HENTAIGANA LETTER KO-1"
+      },
+      "1B039" : {
+         "name" : "HENTAIGANA LETTER KO-2"
+      },
+      "1B03A" : {
+         "name" : "HENTAIGANA LETTER KO-3"
+      },
+      "1B03B" : {
+         "name" : "HENTAIGANA LETTER KO-KI"
+      },
+      "1B03C" : {
+         "name" : "HENTAIGANA LETTER SA-1"
+      },
+      "1B03D" : {
+         "name" : "HENTAIGANA LETTER SA-2"
+      },
+      "1B03E" : {
+         "name" : "HENTAIGANA LETTER SA-3"
+      },
+      "1B03F" : {
+         "name" : "HENTAIGANA LETTER SA-4"
+      },
       "1B04" : {
          "name" : "BALINESE SIGN BISAH"
+      },
+      "1B040" : {
+         "name" : "HENTAIGANA LETTER SA-5"
+      },
+      "1B041" : {
+         "name" : "HENTAIGANA LETTER SA-6"
+      },
+      "1B042" : {
+         "name" : "HENTAIGANA LETTER SA-7"
+      },
+      "1B043" : {
+         "name" : "HENTAIGANA LETTER SA-8"
+      },
+      "1B044" : {
+         "name" : "HENTAIGANA LETTER SI-1"
+      },
+      "1B045" : {
+         "name" : "HENTAIGANA LETTER SI-2"
+      },
+      "1B046" : {
+         "name" : "HENTAIGANA LETTER SI-3"
+      },
+      "1B047" : {
+         "name" : "HENTAIGANA LETTER SI-4"
+      },
+      "1B048" : {
+         "name" : "HENTAIGANA LETTER SI-5"
+      },
+      "1B049" : {
+         "name" : "HENTAIGANA LETTER SI-6"
+      },
+      "1B04A" : {
+         "name" : "HENTAIGANA LETTER SU-1"
+      },
+      "1B04B" : {
+         "name" : "HENTAIGANA LETTER SU-2"
+      },
+      "1B04C" : {
+         "name" : "HENTAIGANA LETTER SU-3"
+      },
+      "1B04D" : {
+         "name" : "HENTAIGANA LETTER SU-4"
+      },
+      "1B04E" : {
+         "name" : "HENTAIGANA LETTER SU-5"
+      },
+      "1B04F" : {
+         "name" : "HENTAIGANA LETTER SU-6"
       },
       "1B05" : {
          "name" : "BALINESE LETTER AKARA"
       },
+      "1B050" : {
+         "name" : "HENTAIGANA LETTER SU-7"
+      },
+      "1B051" : {
+         "name" : "HENTAIGANA LETTER SU-8"
+      },
+      "1B052" : {
+         "name" : "HENTAIGANA LETTER SE-1"
+      },
+      "1B053" : {
+         "name" : "HENTAIGANA LETTER SE-2"
+      },
+      "1B054" : {
+         "name" : "HENTAIGANA LETTER SE-3"
+      },
+      "1B055" : {
+         "name" : "HENTAIGANA LETTER SE-4"
+      },
+      "1B056" : {
+         "name" : "HENTAIGANA LETTER SE-5"
+      },
+      "1B057" : {
+         "name" : "HENTAIGANA LETTER SO-1"
+      },
+      "1B058" : {
+         "name" : "HENTAIGANA LETTER SO-2"
+      },
+      "1B059" : {
+         "name" : "HENTAIGANA LETTER SO-3"
+      },
+      "1B05A" : {
+         "name" : "HENTAIGANA LETTER SO-4"
+      },
+      "1B05B" : {
+         "name" : "HENTAIGANA LETTER SO-5"
+      },
+      "1B05C" : {
+         "name" : "HENTAIGANA LETTER SO-6"
+      },
+      "1B05D" : {
+         "name" : "HENTAIGANA LETTER SO-7"
+      },
+      "1B05E" : {
+         "name" : "HENTAIGANA LETTER TA-1"
+      },
+      "1B05F" : {
+         "name" : "HENTAIGANA LETTER TA-2"
+      },
       "1B06" : {
          "name" : "BALINESE LETTER AKARA TEDUNG"
+      },
+      "1B060" : {
+         "name" : "HENTAIGANA LETTER TA-3"
+      },
+      "1B061" : {
+         "name" : "HENTAIGANA LETTER TA-4"
+      },
+      "1B062" : {
+         "name" : "HENTAIGANA LETTER TI-1"
+      },
+      "1B063" : {
+         "name" : "HENTAIGANA LETTER TI-2"
+      },
+      "1B064" : {
+         "name" : "HENTAIGANA LETTER TI-3"
+      },
+      "1B065" : {
+         "name" : "HENTAIGANA LETTER TI-4"
+      },
+      "1B066" : {
+         "name" : "HENTAIGANA LETTER TI-5"
+      },
+      "1B067" : {
+         "name" : "HENTAIGANA LETTER TI-6"
+      },
+      "1B068" : {
+         "name" : "HENTAIGANA LETTER TI-7"
+      },
+      "1B069" : {
+         "name" : "HENTAIGANA LETTER TU-1"
+      },
+      "1B06A" : {
+         "name" : "HENTAIGANA LETTER TU-2"
+      },
+      "1B06B" : {
+         "name" : "HENTAIGANA LETTER TU-3"
+      },
+      "1B06C" : {
+         "name" : "HENTAIGANA LETTER TU-4"
+      },
+      "1B06D" : {
+         "name" : "HENTAIGANA LETTER TU-TO"
+      },
+      "1B06E" : {
+         "name" : "HENTAIGANA LETTER TE-1"
+      },
+      "1B06F" : {
+         "name" : "HENTAIGANA LETTER TE-2"
       },
       "1B07" : {
          "name" : "BALINESE LETTER IKARA"
       },
+      "1B070" : {
+         "name" : "HENTAIGANA LETTER TE-3"
+      },
+      "1B071" : {
+         "name" : "HENTAIGANA LETTER TE-4"
+      },
+      "1B072" : {
+         "name" : "HENTAIGANA LETTER TE-5"
+      },
+      "1B073" : {
+         "name" : "HENTAIGANA LETTER TE-6"
+      },
+      "1B074" : {
+         "name" : "HENTAIGANA LETTER TE-7"
+      },
+      "1B075" : {
+         "name" : "HENTAIGANA LETTER TE-8"
+      },
+      "1B076" : {
+         "name" : "HENTAIGANA LETTER TE-9"
+      },
+      "1B077" : {
+         "name" : "HENTAIGANA LETTER TO-1"
+      },
+      "1B078" : {
+         "name" : "HENTAIGANA LETTER TO-2"
+      },
+      "1B079" : {
+         "name" : "HENTAIGANA LETTER TO-3"
+      },
+      "1B07A" : {
+         "name" : "HENTAIGANA LETTER TO-4"
+      },
+      "1B07B" : {
+         "name" : "HENTAIGANA LETTER TO-5"
+      },
+      "1B07C" : {
+         "name" : "HENTAIGANA LETTER TO-6"
+      },
+      "1B07D" : {
+         "name" : "HENTAIGANA LETTER TO-RA"
+      },
+      "1B07E" : {
+         "name" : "HENTAIGANA LETTER NA-1"
+      },
+      "1B07F" : {
+         "name" : "HENTAIGANA LETTER NA-2"
+      },
       "1B08" : {
          "name" : "BALINESE LETTER IKARA TEDUNG"
+      },
+      "1B080" : {
+         "name" : "HENTAIGANA LETTER NA-3"
+      },
+      "1B081" : {
+         "name" : "HENTAIGANA LETTER NA-4"
+      },
+      "1B082" : {
+         "name" : "HENTAIGANA LETTER NA-5"
+      },
+      "1B083" : {
+         "name" : "HENTAIGANA LETTER NA-6"
+      },
+      "1B084" : {
+         "name" : "HENTAIGANA LETTER NA-7"
+      },
+      "1B085" : {
+         "name" : "HENTAIGANA LETTER NA-8"
+      },
+      "1B086" : {
+         "name" : "HENTAIGANA LETTER NA-9"
+      },
+      "1B087" : {
+         "name" : "HENTAIGANA LETTER NI-1"
+      },
+      "1B088" : {
+         "name" : "HENTAIGANA LETTER NI-2"
+      },
+      "1B089" : {
+         "name" : "HENTAIGANA LETTER NI-3"
+      },
+      "1B08A" : {
+         "name" : "HENTAIGANA LETTER NI-4"
+      },
+      "1B08B" : {
+         "name" : "HENTAIGANA LETTER NI-5"
+      },
+      "1B08C" : {
+         "name" : "HENTAIGANA LETTER NI-6"
+      },
+      "1B08D" : {
+         "name" : "HENTAIGANA LETTER NI-7"
+      },
+      "1B08E" : {
+         "name" : "HENTAIGANA LETTER NI-TE"
+      },
+      "1B08F" : {
+         "name" : "HENTAIGANA LETTER NU-1"
       },
       "1B09" : {
          "name" : "BALINESE LETTER UKARA"
       },
+      "1B090" : {
+         "name" : "HENTAIGANA LETTER NU-2"
+      },
+      "1B091" : {
+         "name" : "HENTAIGANA LETTER NU-3"
+      },
+      "1B092" : {
+         "name" : "HENTAIGANA LETTER NE-1"
+      },
+      "1B093" : {
+         "name" : "HENTAIGANA LETTER NE-2"
+      },
+      "1B094" : {
+         "name" : "HENTAIGANA LETTER NE-3"
+      },
+      "1B095" : {
+         "name" : "HENTAIGANA LETTER NE-4"
+      },
+      "1B096" : {
+         "name" : "HENTAIGANA LETTER NE-5"
+      },
+      "1B097" : {
+         "name" : "HENTAIGANA LETTER NE-6"
+      },
+      "1B098" : {
+         "name" : "HENTAIGANA LETTER NE-KO"
+      },
+      "1B099" : {
+         "name" : "HENTAIGANA LETTER NO-1"
+      },
+      "1B09A" : {
+         "name" : "HENTAIGANA LETTER NO-2"
+      },
+      "1B09B" : {
+         "name" : "HENTAIGANA LETTER NO-3"
+      },
+      "1B09C" : {
+         "name" : "HENTAIGANA LETTER NO-4"
+      },
+      "1B09D" : {
+         "name" : "HENTAIGANA LETTER NO-5"
+      },
+      "1B09E" : {
+         "name" : "HENTAIGANA LETTER HA-1"
+      },
+      "1B09F" : {
+         "name" : "HENTAIGANA LETTER HA-2"
+      },
       "1B0A" : {
          "name" : "BALINESE LETTER UKARA TEDUNG"
+      },
+      "1B0A0" : {
+         "name" : "HENTAIGANA LETTER HA-3"
+      },
+      "1B0A1" : {
+         "name" : "HENTAIGANA LETTER HA-4"
+      },
+      "1B0A2" : {
+         "name" : "HENTAIGANA LETTER HA-5"
+      },
+      "1B0A3" : {
+         "name" : "HENTAIGANA LETTER HA-6"
+      },
+      "1B0A4" : {
+         "name" : "HENTAIGANA LETTER HA-7"
+      },
+      "1B0A5" : {
+         "name" : "HENTAIGANA LETTER HA-8"
+      },
+      "1B0A6" : {
+         "name" : "HENTAIGANA LETTER HA-9"
+      },
+      "1B0A7" : {
+         "name" : "HENTAIGANA LETTER HA-10"
+      },
+      "1B0A8" : {
+         "name" : "HENTAIGANA LETTER HA-11"
+      },
+      "1B0A9" : {
+         "name" : "HENTAIGANA LETTER HI-1"
+      },
+      "1B0AA" : {
+         "name" : "HENTAIGANA LETTER HI-2"
+      },
+      "1B0AB" : {
+         "name" : "HENTAIGANA LETTER HI-3"
+      },
+      "1B0AC" : {
+         "name" : "HENTAIGANA LETTER HI-4"
+      },
+      "1B0AD" : {
+         "name" : "HENTAIGANA LETTER HI-5"
+      },
+      "1B0AE" : {
+         "name" : "HENTAIGANA LETTER HI-6"
+      },
+      "1B0AF" : {
+         "name" : "HENTAIGANA LETTER HI-7"
       },
       "1B0B" : {
          "name" : "BALINESE LETTER RA REPA"
       },
+      "1B0B0" : {
+         "name" : "HENTAIGANA LETTER HU-1"
+      },
+      "1B0B1" : {
+         "name" : "HENTAIGANA LETTER HU-2"
+      },
+      "1B0B2" : {
+         "name" : "HENTAIGANA LETTER HU-3"
+      },
+      "1B0B3" : {
+         "name" : "HENTAIGANA LETTER HE-1"
+      },
+      "1B0B4" : {
+         "name" : "HENTAIGANA LETTER HE-2"
+      },
+      "1B0B5" : {
+         "name" : "HENTAIGANA LETTER HE-3"
+      },
+      "1B0B6" : {
+         "name" : "HENTAIGANA LETTER HE-4"
+      },
+      "1B0B7" : {
+         "name" : "HENTAIGANA LETTER HE-5"
+      },
+      "1B0B8" : {
+         "name" : "HENTAIGANA LETTER HE-6"
+      },
+      "1B0B9" : {
+         "name" : "HENTAIGANA LETTER HE-7"
+      },
+      "1B0BA" : {
+         "name" : "HENTAIGANA LETTER HO-1"
+      },
+      "1B0BB" : {
+         "name" : "HENTAIGANA LETTER HO-2"
+      },
+      "1B0BC" : {
+         "name" : "HENTAIGANA LETTER HO-3"
+      },
+      "1B0BD" : {
+         "name" : "HENTAIGANA LETTER HO-4"
+      },
+      "1B0BE" : {
+         "name" : "HENTAIGANA LETTER HO-5"
+      },
+      "1B0BF" : {
+         "name" : "HENTAIGANA LETTER HO-6"
+      },
       "1B0C" : {
          "name" : "BALINESE LETTER RA REPA TEDUNG"
+      },
+      "1B0C0" : {
+         "name" : "HENTAIGANA LETTER HO-7"
+      },
+      "1B0C1" : {
+         "name" : "HENTAIGANA LETTER HO-8"
+      },
+      "1B0C2" : {
+         "name" : "HENTAIGANA LETTER MA-1"
+      },
+      "1B0C3" : {
+         "name" : "HENTAIGANA LETTER MA-2"
+      },
+      "1B0C4" : {
+         "name" : "HENTAIGANA LETTER MA-3"
+      },
+      "1B0C5" : {
+         "name" : "HENTAIGANA LETTER MA-4"
+      },
+      "1B0C6" : {
+         "name" : "HENTAIGANA LETTER MA-5"
+      },
+      "1B0C7" : {
+         "name" : "HENTAIGANA LETTER MA-6"
+      },
+      "1B0C8" : {
+         "name" : "HENTAIGANA LETTER MA-7"
+      },
+      "1B0C9" : {
+         "name" : "HENTAIGANA LETTER MI-1"
+      },
+      "1B0CA" : {
+         "name" : "HENTAIGANA LETTER MI-2"
+      },
+      "1B0CB" : {
+         "name" : "HENTAIGANA LETTER MI-3"
+      },
+      "1B0CC" : {
+         "name" : "HENTAIGANA LETTER MI-4"
+      },
+      "1B0CD" : {
+         "name" : "HENTAIGANA LETTER MI-5"
+      },
+      "1B0CE" : {
+         "name" : "HENTAIGANA LETTER MI-6"
+      },
+      "1B0CF" : {
+         "name" : "HENTAIGANA LETTER MI-7"
       },
       "1B0D" : {
          "name" : "BALINESE LETTER LA LENGA"
       },
+      "1B0D0" : {
+         "name" : "HENTAIGANA LETTER MU-1"
+      },
+      "1B0D1" : {
+         "name" : "HENTAIGANA LETTER MU-2"
+      },
+      "1B0D2" : {
+         "name" : "HENTAIGANA LETTER MU-3"
+      },
+      "1B0D3" : {
+         "name" : "HENTAIGANA LETTER MU-4"
+      },
+      "1B0D4" : {
+         "name" : "HENTAIGANA LETTER ME-1"
+      },
+      "1B0D5" : {
+         "name" : "HENTAIGANA LETTER ME-2"
+      },
+      "1B0D6" : {
+         "name" : "HENTAIGANA LETTER ME-MA"
+      },
+      "1B0D7" : {
+         "name" : "HENTAIGANA LETTER MO-1"
+      },
+      "1B0D8" : {
+         "name" : "HENTAIGANA LETTER MO-2"
+      },
+      "1B0D9" : {
+         "name" : "HENTAIGANA LETTER MO-3"
+      },
+      "1B0DA" : {
+         "name" : "HENTAIGANA LETTER MO-4"
+      },
+      "1B0DB" : {
+         "name" : "HENTAIGANA LETTER MO-5"
+      },
+      "1B0DC" : {
+         "name" : "HENTAIGANA LETTER MO-6"
+      },
+      "1B0DD" : {
+         "name" : "HENTAIGANA LETTER YA-1"
+      },
+      "1B0DE" : {
+         "name" : "HENTAIGANA LETTER YA-2"
+      },
+      "1B0DF" : {
+         "name" : "HENTAIGANA LETTER YA-3"
+      },
       "1B0E" : {
          "name" : "BALINESE LETTER LA LENGA TEDUNG"
+      },
+      "1B0E0" : {
+         "name" : "HENTAIGANA LETTER YA-4"
+      },
+      "1B0E1" : {
+         "name" : "HENTAIGANA LETTER YA-5"
+      },
+      "1B0E2" : {
+         "name" : "HENTAIGANA LETTER YA-YO"
+      },
+      "1B0E3" : {
+         "name" : "HENTAIGANA LETTER YU-1"
+      },
+      "1B0E4" : {
+         "name" : "HENTAIGANA LETTER YU-2"
+      },
+      "1B0E5" : {
+         "name" : "HENTAIGANA LETTER YU-3"
+      },
+      "1B0E6" : {
+         "name" : "HENTAIGANA LETTER YU-4"
+      },
+      "1B0E7" : {
+         "name" : "HENTAIGANA LETTER YO-1"
+      },
+      "1B0E8" : {
+         "name" : "HENTAIGANA LETTER YO-2"
+      },
+      "1B0E9" : {
+         "name" : "HENTAIGANA LETTER YO-3"
+      },
+      "1B0EA" : {
+         "name" : "HENTAIGANA LETTER YO-4"
+      },
+      "1B0EB" : {
+         "name" : "HENTAIGANA LETTER YO-5"
+      },
+      "1B0EC" : {
+         "name" : "HENTAIGANA LETTER YO-6"
+      },
+      "1B0ED" : {
+         "name" : "HENTAIGANA LETTER RA-1"
+      },
+      "1B0EE" : {
+         "name" : "HENTAIGANA LETTER RA-2"
+      },
+      "1B0EF" : {
+         "name" : "HENTAIGANA LETTER RA-3"
       },
       "1B0F" : {
          "name" : "BALINESE LETTER EKARA"
       },
+      "1B0F0" : {
+         "name" : "HENTAIGANA LETTER RA-4"
+      },
+      "1B0F1" : {
+         "name" : "HENTAIGANA LETTER RI-1"
+      },
+      "1B0F2" : {
+         "name" : "HENTAIGANA LETTER RI-2"
+      },
+      "1B0F3" : {
+         "name" : "HENTAIGANA LETTER RI-3"
+      },
+      "1B0F4" : {
+         "name" : "HENTAIGANA LETTER RI-4"
+      },
+      "1B0F5" : {
+         "name" : "HENTAIGANA LETTER RI-5"
+      },
+      "1B0F6" : {
+         "name" : "HENTAIGANA LETTER RI-6"
+      },
+      "1B0F7" : {
+         "name" : "HENTAIGANA LETTER RI-7"
+      },
+      "1B0F8" : {
+         "name" : "HENTAIGANA LETTER RU-1"
+      },
+      "1B0F9" : {
+         "name" : "HENTAIGANA LETTER RU-2"
+      },
+      "1B0FA" : {
+         "name" : "HENTAIGANA LETTER RU-3"
+      },
+      "1B0FB" : {
+         "name" : "HENTAIGANA LETTER RU-4"
+      },
+      "1B0FC" : {
+         "name" : "HENTAIGANA LETTER RU-5"
+      },
+      "1B0FD" : {
+         "name" : "HENTAIGANA LETTER RU-6"
+      },
+      "1B0FE" : {
+         "name" : "HENTAIGANA LETTER RE-1"
+      },
+      "1B0FF" : {
+         "name" : "HENTAIGANA LETTER RE-2"
+      },
       "1B10" : {
          "name" : "BALINESE LETTER AIKARA"
       },
+      "1B100" : {
+         "name" : "HENTAIGANA LETTER RE-3"
+      },
+      "1B101" : {
+         "name" : "HENTAIGANA LETTER RE-4"
+      },
+      "1B102" : {
+         "name" : "HENTAIGANA LETTER RO-1"
+      },
+      "1B103" : {
+         "name" : "HENTAIGANA LETTER RO-2"
+      },
+      "1B104" : {
+         "name" : "HENTAIGANA LETTER RO-3"
+      },
+      "1B105" : {
+         "name" : "HENTAIGANA LETTER RO-4"
+      },
+      "1B106" : {
+         "name" : "HENTAIGANA LETTER RO-5"
+      },
+      "1B107" : {
+         "name" : "HENTAIGANA LETTER RO-6"
+      },
+      "1B108" : {
+         "name" : "HENTAIGANA LETTER WA-1"
+      },
+      "1B109" : {
+         "name" : "HENTAIGANA LETTER WA-2"
+      },
+      "1B10A" : {
+         "name" : "HENTAIGANA LETTER WA-3"
+      },
+      "1B10B" : {
+         "name" : "HENTAIGANA LETTER WA-4"
+      },
+      "1B10C" : {
+         "name" : "HENTAIGANA LETTER WA-5"
+      },
+      "1B10D" : {
+         "name" : "HENTAIGANA LETTER WI-1"
+      },
+      "1B10E" : {
+         "name" : "HENTAIGANA LETTER WI-2"
+      },
+      "1B10F" : {
+         "name" : "HENTAIGANA LETTER WI-3"
+      },
       "1B11" : {
          "name" : "BALINESE LETTER OKARA"
+      },
+      "1B110" : {
+         "name" : "HENTAIGANA LETTER WI-4"
+      },
+      "1B111" : {
+         "name" : "HENTAIGANA LETTER WI-5"
+      },
+      "1B112" : {
+         "name" : "HENTAIGANA LETTER WE-1"
+      },
+      "1B113" : {
+         "name" : "HENTAIGANA LETTER WE-2"
+      },
+      "1B114" : {
+         "name" : "HENTAIGANA LETTER WE-3"
+      },
+      "1B115" : {
+         "name" : "HENTAIGANA LETTER WE-4"
+      },
+      "1B116" : {
+         "name" : "HENTAIGANA LETTER WO-1"
+      },
+      "1B117" : {
+         "name" : "HENTAIGANA LETTER WO-2"
+      },
+      "1B118" : {
+         "name" : "HENTAIGANA LETTER WO-3"
+      },
+      "1B119" : {
+         "name" : "HENTAIGANA LETTER WO-4"
+      },
+      "1B11A" : {
+         "name" : "HENTAIGANA LETTER WO-5"
+      },
+      "1B11B" : {
+         "name" : "HENTAIGANA LETTER WO-6"
+      },
+      "1B11C" : {
+         "name" : "HENTAIGANA LETTER WO-7"
+      },
+      "1B11D" : {
+         "name" : "HENTAIGANA LETTER N-MU-MO-1"
+      },
+      "1B11E" : {
+         "name" : "HENTAIGANA LETTER N-MU-MO-2"
       },
       "1B12" : {
          "name" : "BALINESE LETTER OKARA TEDUNG"
@@ -45316,77 +46981,1265 @@
       "1B17" : {
          "name" : "BALINESE LETTER NGA"
       },
+      "1B170" : {
+         "name" : "NUSHU CHARACTER-1B170"
+      },
+      "1B171" : {
+         "name" : "NUSHU CHARACTER-1B171"
+      },
+      "1B172" : {
+         "name" : "NUSHU CHARACTER-1B172"
+      },
+      "1B173" : {
+         "name" : "NUSHU CHARACTER-1B173"
+      },
+      "1B174" : {
+         "name" : "NUSHU CHARACTER-1B174"
+      },
+      "1B175" : {
+         "name" : "NUSHU CHARACTER-1B175"
+      },
+      "1B176" : {
+         "name" : "NUSHU CHARACTER-1B176"
+      },
+      "1B177" : {
+         "name" : "NUSHU CHARACTER-1B177"
+      },
+      "1B178" : {
+         "name" : "NUSHU CHARACTER-1B178"
+      },
+      "1B179" : {
+         "name" : "NUSHU CHARACTER-1B179"
+      },
+      "1B17A" : {
+         "name" : "NUSHU CHARACTER-1B17A"
+      },
+      "1B17B" : {
+         "name" : "NUSHU CHARACTER-1B17B"
+      },
+      "1B17C" : {
+         "name" : "NUSHU CHARACTER-1B17C"
+      },
+      "1B17D" : {
+         "name" : "NUSHU CHARACTER-1B17D"
+      },
+      "1B17E" : {
+         "name" : "NUSHU CHARACTER-1B17E"
+      },
+      "1B17F" : {
+         "name" : "NUSHU CHARACTER-1B17F"
+      },
       "1B18" : {
          "name" : "BALINESE LETTER CA"
+      },
+      "1B180" : {
+         "name" : "NUSHU CHARACTER-1B180"
+      },
+      "1B181" : {
+         "name" : "NUSHU CHARACTER-1B181"
+      },
+      "1B182" : {
+         "name" : "NUSHU CHARACTER-1B182"
+      },
+      "1B183" : {
+         "name" : "NUSHU CHARACTER-1B183"
+      },
+      "1B184" : {
+         "name" : "NUSHU CHARACTER-1B184"
+      },
+      "1B185" : {
+         "name" : "NUSHU CHARACTER-1B185"
+      },
+      "1B186" : {
+         "name" : "NUSHU CHARACTER-1B186"
+      },
+      "1B187" : {
+         "name" : "NUSHU CHARACTER-1B187"
+      },
+      "1B188" : {
+         "name" : "NUSHU CHARACTER-1B188"
+      },
+      "1B189" : {
+         "name" : "NUSHU CHARACTER-1B189"
+      },
+      "1B18A" : {
+         "name" : "NUSHU CHARACTER-1B18A"
+      },
+      "1B18B" : {
+         "name" : "NUSHU CHARACTER-1B18B"
+      },
+      "1B18C" : {
+         "name" : "NUSHU CHARACTER-1B18C"
+      },
+      "1B18D" : {
+         "name" : "NUSHU CHARACTER-1B18D"
+      },
+      "1B18E" : {
+         "name" : "NUSHU CHARACTER-1B18E"
+      },
+      "1B18F" : {
+         "name" : "NUSHU CHARACTER-1B18F"
       },
       "1B19" : {
          "name" : "BALINESE LETTER CA LACA"
       },
+      "1B190" : {
+         "name" : "NUSHU CHARACTER-1B190"
+      },
+      "1B191" : {
+         "name" : "NUSHU CHARACTER-1B191"
+      },
+      "1B192" : {
+         "name" : "NUSHU CHARACTER-1B192"
+      },
+      "1B193" : {
+         "name" : "NUSHU CHARACTER-1B193"
+      },
+      "1B194" : {
+         "name" : "NUSHU CHARACTER-1B194"
+      },
+      "1B195" : {
+         "name" : "NUSHU CHARACTER-1B195"
+      },
+      "1B196" : {
+         "name" : "NUSHU CHARACTER-1B196"
+      },
+      "1B197" : {
+         "name" : "NUSHU CHARACTER-1B197"
+      },
+      "1B198" : {
+         "name" : "NUSHU CHARACTER-1B198"
+      },
+      "1B199" : {
+         "name" : "NUSHU CHARACTER-1B199"
+      },
+      "1B19A" : {
+         "name" : "NUSHU CHARACTER-1B19A"
+      },
+      "1B19B" : {
+         "name" : "NUSHU CHARACTER-1B19B"
+      },
+      "1B19C" : {
+         "name" : "NUSHU CHARACTER-1B19C"
+      },
+      "1B19D" : {
+         "name" : "NUSHU CHARACTER-1B19D"
+      },
+      "1B19E" : {
+         "name" : "NUSHU CHARACTER-1B19E"
+      },
+      "1B19F" : {
+         "name" : "NUSHU CHARACTER-1B19F"
+      },
       "1B1A" : {
          "name" : "BALINESE LETTER JA"
+      },
+      "1B1A0" : {
+         "name" : "NUSHU CHARACTER-1B1A0"
+      },
+      "1B1A1" : {
+         "name" : "NUSHU CHARACTER-1B1A1"
+      },
+      "1B1A2" : {
+         "name" : "NUSHU CHARACTER-1B1A2"
+      },
+      "1B1A3" : {
+         "name" : "NUSHU CHARACTER-1B1A3"
+      },
+      "1B1A4" : {
+         "name" : "NUSHU CHARACTER-1B1A4"
+      },
+      "1B1A5" : {
+         "name" : "NUSHU CHARACTER-1B1A5"
+      },
+      "1B1A6" : {
+         "name" : "NUSHU CHARACTER-1B1A6"
+      },
+      "1B1A7" : {
+         "name" : "NUSHU CHARACTER-1B1A7"
+      },
+      "1B1A8" : {
+         "name" : "NUSHU CHARACTER-1B1A8"
+      },
+      "1B1A9" : {
+         "name" : "NUSHU CHARACTER-1B1A9"
+      },
+      "1B1AA" : {
+         "name" : "NUSHU CHARACTER-1B1AA"
+      },
+      "1B1AB" : {
+         "name" : "NUSHU CHARACTER-1B1AB"
+      },
+      "1B1AC" : {
+         "name" : "NUSHU CHARACTER-1B1AC"
+      },
+      "1B1AD" : {
+         "name" : "NUSHU CHARACTER-1B1AD"
+      },
+      "1B1AE" : {
+         "name" : "NUSHU CHARACTER-1B1AE"
+      },
+      "1B1AF" : {
+         "name" : "NUSHU CHARACTER-1B1AF"
       },
       "1B1B" : {
          "name" : "BALINESE LETTER JA JERA"
       },
+      "1B1B0" : {
+         "name" : "NUSHU CHARACTER-1B1B0"
+      },
+      "1B1B1" : {
+         "name" : "NUSHU CHARACTER-1B1B1"
+      },
+      "1B1B2" : {
+         "name" : "NUSHU CHARACTER-1B1B2"
+      },
+      "1B1B3" : {
+         "name" : "NUSHU CHARACTER-1B1B3"
+      },
+      "1B1B4" : {
+         "name" : "NUSHU CHARACTER-1B1B4"
+      },
+      "1B1B5" : {
+         "name" : "NUSHU CHARACTER-1B1B5"
+      },
+      "1B1B6" : {
+         "name" : "NUSHU CHARACTER-1B1B6"
+      },
+      "1B1B7" : {
+         "name" : "NUSHU CHARACTER-1B1B7"
+      },
+      "1B1B8" : {
+         "name" : "NUSHU CHARACTER-1B1B8"
+      },
+      "1B1B9" : {
+         "name" : "NUSHU CHARACTER-1B1B9"
+      },
+      "1B1BA" : {
+         "name" : "NUSHU CHARACTER-1B1BA"
+      },
+      "1B1BB" : {
+         "name" : "NUSHU CHARACTER-1B1BB"
+      },
+      "1B1BC" : {
+         "name" : "NUSHU CHARACTER-1B1BC"
+      },
+      "1B1BD" : {
+         "name" : "NUSHU CHARACTER-1B1BD"
+      },
+      "1B1BE" : {
+         "name" : "NUSHU CHARACTER-1B1BE"
+      },
+      "1B1BF" : {
+         "name" : "NUSHU CHARACTER-1B1BF"
+      },
       "1B1C" : {
          "name" : "BALINESE LETTER NYA"
+      },
+      "1B1C0" : {
+         "name" : "NUSHU CHARACTER-1B1C0"
+      },
+      "1B1C1" : {
+         "name" : "NUSHU CHARACTER-1B1C1"
+      },
+      "1B1C2" : {
+         "name" : "NUSHU CHARACTER-1B1C2"
+      },
+      "1B1C3" : {
+         "name" : "NUSHU CHARACTER-1B1C3"
+      },
+      "1B1C4" : {
+         "name" : "NUSHU CHARACTER-1B1C4"
+      },
+      "1B1C5" : {
+         "name" : "NUSHU CHARACTER-1B1C5"
+      },
+      "1B1C6" : {
+         "name" : "NUSHU CHARACTER-1B1C6"
+      },
+      "1B1C7" : {
+         "name" : "NUSHU CHARACTER-1B1C7"
+      },
+      "1B1C8" : {
+         "name" : "NUSHU CHARACTER-1B1C8"
+      },
+      "1B1C9" : {
+         "name" : "NUSHU CHARACTER-1B1C9"
+      },
+      "1B1CA" : {
+         "name" : "NUSHU CHARACTER-1B1CA"
+      },
+      "1B1CB" : {
+         "name" : "NUSHU CHARACTER-1B1CB"
+      },
+      "1B1CC" : {
+         "name" : "NUSHU CHARACTER-1B1CC"
+      },
+      "1B1CD" : {
+         "name" : "NUSHU CHARACTER-1B1CD"
+      },
+      "1B1CE" : {
+         "name" : "NUSHU CHARACTER-1B1CE"
+      },
+      "1B1CF" : {
+         "name" : "NUSHU CHARACTER-1B1CF"
       },
       "1B1D" : {
          "name" : "BALINESE LETTER TA LATIK"
       },
+      "1B1D0" : {
+         "name" : "NUSHU CHARACTER-1B1D0"
+      },
+      "1B1D1" : {
+         "name" : "NUSHU CHARACTER-1B1D1"
+      },
+      "1B1D2" : {
+         "name" : "NUSHU CHARACTER-1B1D2"
+      },
+      "1B1D3" : {
+         "name" : "NUSHU CHARACTER-1B1D3"
+      },
+      "1B1D4" : {
+         "name" : "NUSHU CHARACTER-1B1D4"
+      },
+      "1B1D5" : {
+         "name" : "NUSHU CHARACTER-1B1D5"
+      },
+      "1B1D6" : {
+         "name" : "NUSHU CHARACTER-1B1D6"
+      },
+      "1B1D7" : {
+         "name" : "NUSHU CHARACTER-1B1D7"
+      },
+      "1B1D8" : {
+         "name" : "NUSHU CHARACTER-1B1D8"
+      },
+      "1B1D9" : {
+         "name" : "NUSHU CHARACTER-1B1D9"
+      },
+      "1B1DA" : {
+         "name" : "NUSHU CHARACTER-1B1DA"
+      },
+      "1B1DB" : {
+         "name" : "NUSHU CHARACTER-1B1DB"
+      },
+      "1B1DC" : {
+         "name" : "NUSHU CHARACTER-1B1DC"
+      },
+      "1B1DD" : {
+         "name" : "NUSHU CHARACTER-1B1DD"
+      },
+      "1B1DE" : {
+         "name" : "NUSHU CHARACTER-1B1DE"
+      },
+      "1B1DF" : {
+         "name" : "NUSHU CHARACTER-1B1DF"
+      },
       "1B1E" : {
          "name" : "BALINESE LETTER TA MURDA MAHAPRANA"
+      },
+      "1B1E0" : {
+         "name" : "NUSHU CHARACTER-1B1E0"
+      },
+      "1B1E1" : {
+         "name" : "NUSHU CHARACTER-1B1E1"
+      },
+      "1B1E2" : {
+         "name" : "NUSHU CHARACTER-1B1E2"
+      },
+      "1B1E3" : {
+         "name" : "NUSHU CHARACTER-1B1E3"
+      },
+      "1B1E4" : {
+         "name" : "NUSHU CHARACTER-1B1E4"
+      },
+      "1B1E5" : {
+         "name" : "NUSHU CHARACTER-1B1E5"
+      },
+      "1B1E6" : {
+         "name" : "NUSHU CHARACTER-1B1E6"
+      },
+      "1B1E7" : {
+         "name" : "NUSHU CHARACTER-1B1E7"
+      },
+      "1B1E8" : {
+         "name" : "NUSHU CHARACTER-1B1E8"
+      },
+      "1B1E9" : {
+         "name" : "NUSHU CHARACTER-1B1E9"
+      },
+      "1B1EA" : {
+         "name" : "NUSHU CHARACTER-1B1EA"
+      },
+      "1B1EB" : {
+         "name" : "NUSHU CHARACTER-1B1EB"
+      },
+      "1B1EC" : {
+         "name" : "NUSHU CHARACTER-1B1EC"
+      },
+      "1B1ED" : {
+         "name" : "NUSHU CHARACTER-1B1ED"
+      },
+      "1B1EE" : {
+         "name" : "NUSHU CHARACTER-1B1EE"
+      },
+      "1B1EF" : {
+         "name" : "NUSHU CHARACTER-1B1EF"
       },
       "1B1F" : {
          "name" : "BALINESE LETTER DA MURDA ALPAPRANA"
       },
+      "1B1F0" : {
+         "name" : "NUSHU CHARACTER-1B1F0"
+      },
+      "1B1F1" : {
+         "name" : "NUSHU CHARACTER-1B1F1"
+      },
+      "1B1F2" : {
+         "name" : "NUSHU CHARACTER-1B1F2"
+      },
+      "1B1F3" : {
+         "name" : "NUSHU CHARACTER-1B1F3"
+      },
+      "1B1F4" : {
+         "name" : "NUSHU CHARACTER-1B1F4"
+      },
+      "1B1F5" : {
+         "name" : "NUSHU CHARACTER-1B1F5"
+      },
+      "1B1F6" : {
+         "name" : "NUSHU CHARACTER-1B1F6"
+      },
+      "1B1F7" : {
+         "name" : "NUSHU CHARACTER-1B1F7"
+      },
+      "1B1F8" : {
+         "name" : "NUSHU CHARACTER-1B1F8"
+      },
+      "1B1F9" : {
+         "name" : "NUSHU CHARACTER-1B1F9"
+      },
+      "1B1FA" : {
+         "name" : "NUSHU CHARACTER-1B1FA"
+      },
+      "1B1FB" : {
+         "name" : "NUSHU CHARACTER-1B1FB"
+      },
+      "1B1FC" : {
+         "name" : "NUSHU CHARACTER-1B1FC"
+      },
+      "1B1FD" : {
+         "name" : "NUSHU CHARACTER-1B1FD"
+      },
+      "1B1FE" : {
+         "name" : "NUSHU CHARACTER-1B1FE"
+      },
+      "1B1FF" : {
+         "name" : "NUSHU CHARACTER-1B1FF"
+      },
       "1B20" : {
          "name" : "BALINESE LETTER DA MURDA MAHAPRANA"
+      },
+      "1B200" : {
+         "name" : "NUSHU CHARACTER-1B200"
+      },
+      "1B201" : {
+         "name" : "NUSHU CHARACTER-1B201"
+      },
+      "1B202" : {
+         "name" : "NUSHU CHARACTER-1B202"
+      },
+      "1B203" : {
+         "name" : "NUSHU CHARACTER-1B203"
+      },
+      "1B204" : {
+         "name" : "NUSHU CHARACTER-1B204"
+      },
+      "1B205" : {
+         "name" : "NUSHU CHARACTER-1B205"
+      },
+      "1B206" : {
+         "name" : "NUSHU CHARACTER-1B206"
+      },
+      "1B207" : {
+         "name" : "NUSHU CHARACTER-1B207"
+      },
+      "1B208" : {
+         "name" : "NUSHU CHARACTER-1B208"
+      },
+      "1B209" : {
+         "name" : "NUSHU CHARACTER-1B209"
+      },
+      "1B20A" : {
+         "name" : "NUSHU CHARACTER-1B20A"
+      },
+      "1B20B" : {
+         "name" : "NUSHU CHARACTER-1B20B"
+      },
+      "1B20C" : {
+         "name" : "NUSHU CHARACTER-1B20C"
+      },
+      "1B20D" : {
+         "name" : "NUSHU CHARACTER-1B20D"
+      },
+      "1B20E" : {
+         "name" : "NUSHU CHARACTER-1B20E"
+      },
+      "1B20F" : {
+         "name" : "NUSHU CHARACTER-1B20F"
       },
       "1B21" : {
          "name" : "BALINESE LETTER NA RAMBAT"
       },
+      "1B210" : {
+         "name" : "NUSHU CHARACTER-1B210"
+      },
+      "1B211" : {
+         "name" : "NUSHU CHARACTER-1B211"
+      },
+      "1B212" : {
+         "name" : "NUSHU CHARACTER-1B212"
+      },
+      "1B213" : {
+         "name" : "NUSHU CHARACTER-1B213"
+      },
+      "1B214" : {
+         "name" : "NUSHU CHARACTER-1B214"
+      },
+      "1B215" : {
+         "name" : "NUSHU CHARACTER-1B215"
+      },
+      "1B216" : {
+         "name" : "NUSHU CHARACTER-1B216"
+      },
+      "1B217" : {
+         "name" : "NUSHU CHARACTER-1B217"
+      },
+      "1B218" : {
+         "name" : "NUSHU CHARACTER-1B218"
+      },
+      "1B219" : {
+         "name" : "NUSHU CHARACTER-1B219"
+      },
+      "1B21A" : {
+         "name" : "NUSHU CHARACTER-1B21A"
+      },
+      "1B21B" : {
+         "name" : "NUSHU CHARACTER-1B21B"
+      },
+      "1B21C" : {
+         "name" : "NUSHU CHARACTER-1B21C"
+      },
+      "1B21D" : {
+         "name" : "NUSHU CHARACTER-1B21D"
+      },
+      "1B21E" : {
+         "name" : "NUSHU CHARACTER-1B21E"
+      },
+      "1B21F" : {
+         "name" : "NUSHU CHARACTER-1B21F"
+      },
       "1B22" : {
          "name" : "BALINESE LETTER TA"
+      },
+      "1B220" : {
+         "name" : "NUSHU CHARACTER-1B220"
+      },
+      "1B221" : {
+         "name" : "NUSHU CHARACTER-1B221"
+      },
+      "1B222" : {
+         "name" : "NUSHU CHARACTER-1B222"
+      },
+      "1B223" : {
+         "name" : "NUSHU CHARACTER-1B223"
+      },
+      "1B224" : {
+         "name" : "NUSHU CHARACTER-1B224"
+      },
+      "1B225" : {
+         "name" : "NUSHU CHARACTER-1B225"
+      },
+      "1B226" : {
+         "name" : "NUSHU CHARACTER-1B226"
+      },
+      "1B227" : {
+         "name" : "NUSHU CHARACTER-1B227"
+      },
+      "1B228" : {
+         "name" : "NUSHU CHARACTER-1B228"
+      },
+      "1B229" : {
+         "name" : "NUSHU CHARACTER-1B229"
+      },
+      "1B22A" : {
+         "name" : "NUSHU CHARACTER-1B22A"
+      },
+      "1B22B" : {
+         "name" : "NUSHU CHARACTER-1B22B"
+      },
+      "1B22C" : {
+         "name" : "NUSHU CHARACTER-1B22C"
+      },
+      "1B22D" : {
+         "name" : "NUSHU CHARACTER-1B22D"
+      },
+      "1B22E" : {
+         "name" : "NUSHU CHARACTER-1B22E"
+      },
+      "1B22F" : {
+         "name" : "NUSHU CHARACTER-1B22F"
       },
       "1B23" : {
          "name" : "BALINESE LETTER TA TAWA"
       },
+      "1B230" : {
+         "name" : "NUSHU CHARACTER-1B230"
+      },
+      "1B231" : {
+         "name" : "NUSHU CHARACTER-1B231"
+      },
+      "1B232" : {
+         "name" : "NUSHU CHARACTER-1B232"
+      },
+      "1B233" : {
+         "name" : "NUSHU CHARACTER-1B233"
+      },
+      "1B234" : {
+         "name" : "NUSHU CHARACTER-1B234"
+      },
+      "1B235" : {
+         "name" : "NUSHU CHARACTER-1B235"
+      },
+      "1B236" : {
+         "name" : "NUSHU CHARACTER-1B236"
+      },
+      "1B237" : {
+         "name" : "NUSHU CHARACTER-1B237"
+      },
+      "1B238" : {
+         "name" : "NUSHU CHARACTER-1B238"
+      },
+      "1B239" : {
+         "name" : "NUSHU CHARACTER-1B239"
+      },
+      "1B23A" : {
+         "name" : "NUSHU CHARACTER-1B23A"
+      },
+      "1B23B" : {
+         "name" : "NUSHU CHARACTER-1B23B"
+      },
+      "1B23C" : {
+         "name" : "NUSHU CHARACTER-1B23C"
+      },
+      "1B23D" : {
+         "name" : "NUSHU CHARACTER-1B23D"
+      },
+      "1B23E" : {
+         "name" : "NUSHU CHARACTER-1B23E"
+      },
+      "1B23F" : {
+         "name" : "NUSHU CHARACTER-1B23F"
+      },
       "1B24" : {
          "name" : "BALINESE LETTER DA"
+      },
+      "1B240" : {
+         "name" : "NUSHU CHARACTER-1B240"
+      },
+      "1B241" : {
+         "name" : "NUSHU CHARACTER-1B241"
+      },
+      "1B242" : {
+         "name" : "NUSHU CHARACTER-1B242"
+      },
+      "1B243" : {
+         "name" : "NUSHU CHARACTER-1B243"
+      },
+      "1B244" : {
+         "name" : "NUSHU CHARACTER-1B244"
+      },
+      "1B245" : {
+         "name" : "NUSHU CHARACTER-1B245"
+      },
+      "1B246" : {
+         "name" : "NUSHU CHARACTER-1B246"
+      },
+      "1B247" : {
+         "name" : "NUSHU CHARACTER-1B247"
+      },
+      "1B248" : {
+         "name" : "NUSHU CHARACTER-1B248"
+      },
+      "1B249" : {
+         "name" : "NUSHU CHARACTER-1B249"
+      },
+      "1B24A" : {
+         "name" : "NUSHU CHARACTER-1B24A"
+      },
+      "1B24B" : {
+         "name" : "NUSHU CHARACTER-1B24B"
+      },
+      "1B24C" : {
+         "name" : "NUSHU CHARACTER-1B24C"
+      },
+      "1B24D" : {
+         "name" : "NUSHU CHARACTER-1B24D"
+      },
+      "1B24E" : {
+         "name" : "NUSHU CHARACTER-1B24E"
+      },
+      "1B24F" : {
+         "name" : "NUSHU CHARACTER-1B24F"
       },
       "1B25" : {
          "name" : "BALINESE LETTER DA MADU"
       },
+      "1B250" : {
+         "name" : "NUSHU CHARACTER-1B250"
+      },
+      "1B251" : {
+         "name" : "NUSHU CHARACTER-1B251"
+      },
+      "1B252" : {
+         "name" : "NUSHU CHARACTER-1B252"
+      },
+      "1B253" : {
+         "name" : "NUSHU CHARACTER-1B253"
+      },
+      "1B254" : {
+         "name" : "NUSHU CHARACTER-1B254"
+      },
+      "1B255" : {
+         "name" : "NUSHU CHARACTER-1B255"
+      },
+      "1B256" : {
+         "name" : "NUSHU CHARACTER-1B256"
+      },
+      "1B257" : {
+         "name" : "NUSHU CHARACTER-1B257"
+      },
+      "1B258" : {
+         "name" : "NUSHU CHARACTER-1B258"
+      },
+      "1B259" : {
+         "name" : "NUSHU CHARACTER-1B259"
+      },
+      "1B25A" : {
+         "name" : "NUSHU CHARACTER-1B25A"
+      },
+      "1B25B" : {
+         "name" : "NUSHU CHARACTER-1B25B"
+      },
+      "1B25C" : {
+         "name" : "NUSHU CHARACTER-1B25C"
+      },
+      "1B25D" : {
+         "name" : "NUSHU CHARACTER-1B25D"
+      },
+      "1B25E" : {
+         "name" : "NUSHU CHARACTER-1B25E"
+      },
+      "1B25F" : {
+         "name" : "NUSHU CHARACTER-1B25F"
+      },
       "1B26" : {
          "name" : "BALINESE LETTER NA"
+      },
+      "1B260" : {
+         "name" : "NUSHU CHARACTER-1B260"
+      },
+      "1B261" : {
+         "name" : "NUSHU CHARACTER-1B261"
+      },
+      "1B262" : {
+         "name" : "NUSHU CHARACTER-1B262"
+      },
+      "1B263" : {
+         "name" : "NUSHU CHARACTER-1B263"
+      },
+      "1B264" : {
+         "name" : "NUSHU CHARACTER-1B264"
+      },
+      "1B265" : {
+         "name" : "NUSHU CHARACTER-1B265"
+      },
+      "1B266" : {
+         "name" : "NUSHU CHARACTER-1B266"
+      },
+      "1B267" : {
+         "name" : "NUSHU CHARACTER-1B267"
+      },
+      "1B268" : {
+         "name" : "NUSHU CHARACTER-1B268"
+      },
+      "1B269" : {
+         "name" : "NUSHU CHARACTER-1B269"
+      },
+      "1B26A" : {
+         "name" : "NUSHU CHARACTER-1B26A"
+      },
+      "1B26B" : {
+         "name" : "NUSHU CHARACTER-1B26B"
+      },
+      "1B26C" : {
+         "name" : "NUSHU CHARACTER-1B26C"
+      },
+      "1B26D" : {
+         "name" : "NUSHU CHARACTER-1B26D"
+      },
+      "1B26E" : {
+         "name" : "NUSHU CHARACTER-1B26E"
+      },
+      "1B26F" : {
+         "name" : "NUSHU CHARACTER-1B26F"
       },
       "1B27" : {
          "name" : "BALINESE LETTER PA"
       },
+      "1B270" : {
+         "name" : "NUSHU CHARACTER-1B270"
+      },
+      "1B271" : {
+         "name" : "NUSHU CHARACTER-1B271"
+      },
+      "1B272" : {
+         "name" : "NUSHU CHARACTER-1B272"
+      },
+      "1B273" : {
+         "name" : "NUSHU CHARACTER-1B273"
+      },
+      "1B274" : {
+         "name" : "NUSHU CHARACTER-1B274"
+      },
+      "1B275" : {
+         "name" : "NUSHU CHARACTER-1B275"
+      },
+      "1B276" : {
+         "name" : "NUSHU CHARACTER-1B276"
+      },
+      "1B277" : {
+         "name" : "NUSHU CHARACTER-1B277"
+      },
+      "1B278" : {
+         "name" : "NUSHU CHARACTER-1B278"
+      },
+      "1B279" : {
+         "name" : "NUSHU CHARACTER-1B279"
+      },
+      "1B27A" : {
+         "name" : "NUSHU CHARACTER-1B27A"
+      },
+      "1B27B" : {
+         "name" : "NUSHU CHARACTER-1B27B"
+      },
+      "1B27C" : {
+         "name" : "NUSHU CHARACTER-1B27C"
+      },
+      "1B27D" : {
+         "name" : "NUSHU CHARACTER-1B27D"
+      },
+      "1B27E" : {
+         "name" : "NUSHU CHARACTER-1B27E"
+      },
+      "1B27F" : {
+         "name" : "NUSHU CHARACTER-1B27F"
+      },
       "1B28" : {
          "name" : "BALINESE LETTER PA KAPAL"
+      },
+      "1B280" : {
+         "name" : "NUSHU CHARACTER-1B280"
+      },
+      "1B281" : {
+         "name" : "NUSHU CHARACTER-1B281"
+      },
+      "1B282" : {
+         "name" : "NUSHU CHARACTER-1B282"
+      },
+      "1B283" : {
+         "name" : "NUSHU CHARACTER-1B283"
+      },
+      "1B284" : {
+         "name" : "NUSHU CHARACTER-1B284"
+      },
+      "1B285" : {
+         "name" : "NUSHU CHARACTER-1B285"
+      },
+      "1B286" : {
+         "name" : "NUSHU CHARACTER-1B286"
+      },
+      "1B287" : {
+         "name" : "NUSHU CHARACTER-1B287"
+      },
+      "1B288" : {
+         "name" : "NUSHU CHARACTER-1B288"
+      },
+      "1B289" : {
+         "name" : "NUSHU CHARACTER-1B289"
+      },
+      "1B28A" : {
+         "name" : "NUSHU CHARACTER-1B28A"
+      },
+      "1B28B" : {
+         "name" : "NUSHU CHARACTER-1B28B"
+      },
+      "1B28C" : {
+         "name" : "NUSHU CHARACTER-1B28C"
+      },
+      "1B28D" : {
+         "name" : "NUSHU CHARACTER-1B28D"
+      },
+      "1B28E" : {
+         "name" : "NUSHU CHARACTER-1B28E"
+      },
+      "1B28F" : {
+         "name" : "NUSHU CHARACTER-1B28F"
       },
       "1B29" : {
          "name" : "BALINESE LETTER BA"
       },
+      "1B290" : {
+         "name" : "NUSHU CHARACTER-1B290"
+      },
+      "1B291" : {
+         "name" : "NUSHU CHARACTER-1B291"
+      },
+      "1B292" : {
+         "name" : "NUSHU CHARACTER-1B292"
+      },
+      "1B293" : {
+         "name" : "NUSHU CHARACTER-1B293"
+      },
+      "1B294" : {
+         "name" : "NUSHU CHARACTER-1B294"
+      },
+      "1B295" : {
+         "name" : "NUSHU CHARACTER-1B295"
+      },
+      "1B296" : {
+         "name" : "NUSHU CHARACTER-1B296"
+      },
+      "1B297" : {
+         "name" : "NUSHU CHARACTER-1B297"
+      },
+      "1B298" : {
+         "name" : "NUSHU CHARACTER-1B298"
+      },
+      "1B299" : {
+         "name" : "NUSHU CHARACTER-1B299"
+      },
+      "1B29A" : {
+         "name" : "NUSHU CHARACTER-1B29A"
+      },
+      "1B29B" : {
+         "name" : "NUSHU CHARACTER-1B29B"
+      },
+      "1B29C" : {
+         "name" : "NUSHU CHARACTER-1B29C"
+      },
+      "1B29D" : {
+         "name" : "NUSHU CHARACTER-1B29D"
+      },
+      "1B29E" : {
+         "name" : "NUSHU CHARACTER-1B29E"
+      },
+      "1B29F" : {
+         "name" : "NUSHU CHARACTER-1B29F"
+      },
       "1B2A" : {
          "name" : "BALINESE LETTER BA KEMBANG"
+      },
+      "1B2A0" : {
+         "name" : "NUSHU CHARACTER-1B2A0"
+      },
+      "1B2A1" : {
+         "name" : "NUSHU CHARACTER-1B2A1"
+      },
+      "1B2A2" : {
+         "name" : "NUSHU CHARACTER-1B2A2"
+      },
+      "1B2A3" : {
+         "name" : "NUSHU CHARACTER-1B2A3"
+      },
+      "1B2A4" : {
+         "name" : "NUSHU CHARACTER-1B2A4"
+      },
+      "1B2A5" : {
+         "name" : "NUSHU CHARACTER-1B2A5"
+      },
+      "1B2A6" : {
+         "name" : "NUSHU CHARACTER-1B2A6"
+      },
+      "1B2A7" : {
+         "name" : "NUSHU CHARACTER-1B2A7"
+      },
+      "1B2A8" : {
+         "name" : "NUSHU CHARACTER-1B2A8"
+      },
+      "1B2A9" : {
+         "name" : "NUSHU CHARACTER-1B2A9"
+      },
+      "1B2AA" : {
+         "name" : "NUSHU CHARACTER-1B2AA"
+      },
+      "1B2AB" : {
+         "name" : "NUSHU CHARACTER-1B2AB"
+      },
+      "1B2AC" : {
+         "name" : "NUSHU CHARACTER-1B2AC"
+      },
+      "1B2AD" : {
+         "name" : "NUSHU CHARACTER-1B2AD"
+      },
+      "1B2AE" : {
+         "name" : "NUSHU CHARACTER-1B2AE"
+      },
+      "1B2AF" : {
+         "name" : "NUSHU CHARACTER-1B2AF"
       },
       "1B2B" : {
          "name" : "BALINESE LETTER MA"
       },
+      "1B2B0" : {
+         "name" : "NUSHU CHARACTER-1B2B0"
+      },
+      "1B2B1" : {
+         "name" : "NUSHU CHARACTER-1B2B1"
+      },
+      "1B2B2" : {
+         "name" : "NUSHU CHARACTER-1B2B2"
+      },
+      "1B2B3" : {
+         "name" : "NUSHU CHARACTER-1B2B3"
+      },
+      "1B2B4" : {
+         "name" : "NUSHU CHARACTER-1B2B4"
+      },
+      "1B2B5" : {
+         "name" : "NUSHU CHARACTER-1B2B5"
+      },
+      "1B2B6" : {
+         "name" : "NUSHU CHARACTER-1B2B6"
+      },
+      "1B2B7" : {
+         "name" : "NUSHU CHARACTER-1B2B7"
+      },
+      "1B2B8" : {
+         "name" : "NUSHU CHARACTER-1B2B8"
+      },
+      "1B2B9" : {
+         "name" : "NUSHU CHARACTER-1B2B9"
+      },
+      "1B2BA" : {
+         "name" : "NUSHU CHARACTER-1B2BA"
+      },
+      "1B2BB" : {
+         "name" : "NUSHU CHARACTER-1B2BB"
+      },
+      "1B2BC" : {
+         "name" : "NUSHU CHARACTER-1B2BC"
+      },
+      "1B2BD" : {
+         "name" : "NUSHU CHARACTER-1B2BD"
+      },
+      "1B2BE" : {
+         "name" : "NUSHU CHARACTER-1B2BE"
+      },
+      "1B2BF" : {
+         "name" : "NUSHU CHARACTER-1B2BF"
+      },
       "1B2C" : {
          "name" : "BALINESE LETTER YA"
+      },
+      "1B2C0" : {
+         "name" : "NUSHU CHARACTER-1B2C0"
+      },
+      "1B2C1" : {
+         "name" : "NUSHU CHARACTER-1B2C1"
+      },
+      "1B2C2" : {
+         "name" : "NUSHU CHARACTER-1B2C2"
+      },
+      "1B2C3" : {
+         "name" : "NUSHU CHARACTER-1B2C3"
+      },
+      "1B2C4" : {
+         "name" : "NUSHU CHARACTER-1B2C4"
+      },
+      "1B2C5" : {
+         "name" : "NUSHU CHARACTER-1B2C5"
+      },
+      "1B2C6" : {
+         "name" : "NUSHU CHARACTER-1B2C6"
+      },
+      "1B2C7" : {
+         "name" : "NUSHU CHARACTER-1B2C7"
+      },
+      "1B2C8" : {
+         "name" : "NUSHU CHARACTER-1B2C8"
+      },
+      "1B2C9" : {
+         "name" : "NUSHU CHARACTER-1B2C9"
+      },
+      "1B2CA" : {
+         "name" : "NUSHU CHARACTER-1B2CA"
+      },
+      "1B2CB" : {
+         "name" : "NUSHU CHARACTER-1B2CB"
+      },
+      "1B2CC" : {
+         "name" : "NUSHU CHARACTER-1B2CC"
+      },
+      "1B2CD" : {
+         "name" : "NUSHU CHARACTER-1B2CD"
+      },
+      "1B2CE" : {
+         "name" : "NUSHU CHARACTER-1B2CE"
+      },
+      "1B2CF" : {
+         "name" : "NUSHU CHARACTER-1B2CF"
       },
       "1B2D" : {
          "name" : "BALINESE LETTER RA"
       },
+      "1B2D0" : {
+         "name" : "NUSHU CHARACTER-1B2D0"
+      },
+      "1B2D1" : {
+         "name" : "NUSHU CHARACTER-1B2D1"
+      },
+      "1B2D2" : {
+         "name" : "NUSHU CHARACTER-1B2D2"
+      },
+      "1B2D3" : {
+         "name" : "NUSHU CHARACTER-1B2D3"
+      },
+      "1B2D4" : {
+         "name" : "NUSHU CHARACTER-1B2D4"
+      },
+      "1B2D5" : {
+         "name" : "NUSHU CHARACTER-1B2D5"
+      },
+      "1B2D6" : {
+         "name" : "NUSHU CHARACTER-1B2D6"
+      },
+      "1B2D7" : {
+         "name" : "NUSHU CHARACTER-1B2D7"
+      },
+      "1B2D8" : {
+         "name" : "NUSHU CHARACTER-1B2D8"
+      },
+      "1B2D9" : {
+         "name" : "NUSHU CHARACTER-1B2D9"
+      },
+      "1B2DA" : {
+         "name" : "NUSHU CHARACTER-1B2DA"
+      },
+      "1B2DB" : {
+         "name" : "NUSHU CHARACTER-1B2DB"
+      },
+      "1B2DC" : {
+         "name" : "NUSHU CHARACTER-1B2DC"
+      },
+      "1B2DD" : {
+         "name" : "NUSHU CHARACTER-1B2DD"
+      },
+      "1B2DE" : {
+         "name" : "NUSHU CHARACTER-1B2DE"
+      },
+      "1B2DF" : {
+         "name" : "NUSHU CHARACTER-1B2DF"
+      },
       "1B2E" : {
          "name" : "BALINESE LETTER LA"
       },
+      "1B2E0" : {
+         "name" : "NUSHU CHARACTER-1B2E0"
+      },
+      "1B2E1" : {
+         "name" : "NUSHU CHARACTER-1B2E1"
+      },
+      "1B2E2" : {
+         "name" : "NUSHU CHARACTER-1B2E2"
+      },
+      "1B2E3" : {
+         "name" : "NUSHU CHARACTER-1B2E3"
+      },
+      "1B2E4" : {
+         "name" : "NUSHU CHARACTER-1B2E4"
+      },
+      "1B2E5" : {
+         "name" : "NUSHU CHARACTER-1B2E5"
+      },
+      "1B2E6" : {
+         "name" : "NUSHU CHARACTER-1B2E6"
+      },
+      "1B2E7" : {
+         "name" : "NUSHU CHARACTER-1B2E7"
+      },
+      "1B2E8" : {
+         "name" : "NUSHU CHARACTER-1B2E8"
+      },
+      "1B2E9" : {
+         "name" : "NUSHU CHARACTER-1B2E9"
+      },
+      "1B2EA" : {
+         "name" : "NUSHU CHARACTER-1B2EA"
+      },
+      "1B2EB" : {
+         "name" : "NUSHU CHARACTER-1B2EB"
+      },
+      "1B2EC" : {
+         "name" : "NUSHU CHARACTER-1B2EC"
+      },
+      "1B2ED" : {
+         "name" : "NUSHU CHARACTER-1B2ED"
+      },
+      "1B2EE" : {
+         "name" : "NUSHU CHARACTER-1B2EE"
+      },
+      "1B2EF" : {
+         "name" : "NUSHU CHARACTER-1B2EF"
+      },
       "1B2F" : {
          "name" : "BALINESE LETTER WA"
+      },
+      "1B2F0" : {
+         "name" : "NUSHU CHARACTER-1B2F0"
+      },
+      "1B2F1" : {
+         "name" : "NUSHU CHARACTER-1B2F1"
+      },
+      "1B2F2" : {
+         "name" : "NUSHU CHARACTER-1B2F2"
+      },
+      "1B2F3" : {
+         "name" : "NUSHU CHARACTER-1B2F3"
+      },
+      "1B2F4" : {
+         "name" : "NUSHU CHARACTER-1B2F4"
+      },
+      "1B2F5" : {
+         "name" : "NUSHU CHARACTER-1B2F5"
+      },
+      "1B2F6" : {
+         "name" : "NUSHU CHARACTER-1B2F6"
+      },
+      "1B2F7" : {
+         "name" : "NUSHU CHARACTER-1B2F7"
+      },
+      "1B2F8" : {
+         "name" : "NUSHU CHARACTER-1B2F8"
+      },
+      "1B2F9" : {
+         "name" : "NUSHU CHARACTER-1B2F9"
+      },
+      "1B2FA" : {
+         "name" : "NUSHU CHARACTER-1B2FA"
+      },
+      "1B2FB" : {
+         "name" : "NUSHU CHARACTER-1B2FB"
       },
       "1B30" : {
          "name" : "BALINESE LETTER SA SAGA"
@@ -46941,6 +49794,9 @@
       },
       "1CF6" : {
          "name" : "VEDIC SIGN UPADHMANIYA"
+      },
+      "1CF7" : {
+         "name" : "VEDIC SIGN ATIKRAMA"
       },
       "1CF8" : {
          "name" : "VEDIC TONE RING ABOVE"
@@ -54649,6 +57505,18 @@
       "1DF5" : {
          "name" : "COMBINING UP TACK ABOVE"
       },
+      "1DF6" : {
+         "name" : "COMBINING KAVYKA ABOVE RIGHT"
+      },
+      "1DF7" : {
+         "name" : "COMBINING KAVYKA ABOVE LEFT"
+      },
+      "1DF8" : {
+         "name" : "COMBINING DOT ABOVE LEFT"
+      },
+      "1DF9" : {
+         "name" : "COMBINING WIDE INVERTED BRIDGE BELOW"
+      },
       "1DFB" : {
          "name" : "COMBINING DELETION MARK"
       },
@@ -58407,6 +61275,24 @@
       "1F26" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI"
       },
+      "1F260" : {
+         "name" : "ROUNDED SYMBOL FOR FU"
+      },
+      "1F261" : {
+         "name" : "ROUNDED SYMBOL FOR LU"
+      },
+      "1F262" : {
+         "name" : "ROUNDED SYMBOL FOR SHOU"
+      },
+      "1F263" : {
+         "name" : "ROUNDED SYMBOL FOR XI"
+      },
+      "1F264" : {
+         "name" : "ROUNDED SYMBOL FOR SHUANGXI"
+      },
+      "1F265" : {
+         "name" : "ROUNDED SYMBOL FOR CAI"
+      },
       "1F27" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI"
       },
@@ -61533,6 +64419,12 @@
       "1F6D2" : {
          "name" : "SHOPPING TROLLEY"
       },
+      "1F6D3" : {
+         "name" : "STUPA"
+      },
+      "1F6D4" : {
+         "name" : "PAGODA"
+      },
       "1F6E" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI"
       },
@@ -61598,6 +64490,12 @@
       },
       "1F6F6" : {
          "name" : "CANOE"
+      },
+      "1F6F7" : {
+         "name" : "SLED"
+      },
+      "1F6F8" : {
+         "name" : "FLYING SAUCER"
       },
       "1F70" : {
          "ja_name" : "グレーブアクセント付きスクリプトA小文字",
@@ -62743,6 +65641,42 @@
       "1F90" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI"
       },
+      "1F900" : {
+         "name" : "CIRCLED CROSS FORMEE WITH FOUR DOTS"
+      },
+      "1F901" : {
+         "name" : "CIRCLED CROSS FORMEE WITH TWO DOTS"
+      },
+      "1F902" : {
+         "name" : "CIRCLED CROSS FORMEE"
+      },
+      "1F903" : {
+         "name" : "LEFT HALF CIRCLE WITH FOUR DOTS"
+      },
+      "1F904" : {
+         "name" : "LEFT HALF CIRCLE WITH THREE DOTS"
+      },
+      "1F905" : {
+         "name" : "LEFT HALF CIRCLE WITH TWO DOTS"
+      },
+      "1F906" : {
+         "name" : "LEFT HALF CIRCLE WITH DOT"
+      },
+      "1F907" : {
+         "name" : "LEFT HALF CIRCLE"
+      },
+      "1F908" : {
+         "name" : "DOWNWARD FACING HOOK"
+      },
+      "1F909" : {
+         "name" : "DOWNWARD FACING NOTCHED HOOK"
+      },
+      "1F90A" : {
+         "name" : "DOWNWARD FACING HOOK WITH DOT"
+      },
+      "1F90B" : {
+         "name" : "DOWNWARD FACING NOTCHED HOOK WITH DOT"
+      },
       "1F91" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI"
       },
@@ -62791,6 +65725,9 @@
       "1F91E" : {
          "name" : "HAND WITH INDEX AND MIDDLE FINGERS CROSSED"
       },
+      "1F91F" : {
+         "name" : "I LOVE YOU HAND SIGN"
+      },
       "1F92" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI"
       },
@@ -62818,11 +65755,41 @@
       "1F927" : {
          "name" : "SNEEZING FACE"
       },
+      "1F928" : {
+         "name" : "FACE WITH ONE EYEBROW RAISED"
+      },
+      "1F929" : {
+         "name" : "GRINNING FACE WITH STAR EYES"
+      },
+      "1F92A" : {
+         "name" : "GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE"
+      },
+      "1F92B" : {
+         "name" : "FACE WITH FINGER COVERING CLOSED LIPS"
+      },
+      "1F92C" : {
+         "name" : "SERIOUS FACE WITH SYMBOLS COVERING MOUTH"
+      },
+      "1F92D" : {
+         "name" : "SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH"
+      },
+      "1F92E" : {
+         "name" : "FACE WITH OPEN MOUTH VOMITING"
+      },
+      "1F92F" : {
+         "name" : "SHOCKED FACE WITH EXPLODING HEAD"
+      },
       "1F93" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI"
       },
       "1F930" : {
          "name" : "PREGNANT WOMAN"
+      },
+      "1F931" : {
+         "name" : "BREAST-FEEDING"
+      },
+      "1F932" : {
+         "name" : "PALMS UP TOGETHER"
       },
       "1F933" : {
          "name" : "SELFIE"
@@ -62899,6 +65866,9 @@
       "1F94B" : {
          "name" : "MARTIAL ARTS UNIFORM"
       },
+      "1F94C" : {
+         "name" : "CURLING STONE"
+      },
       "1F95" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI"
       },
@@ -62947,8 +65917,47 @@
       "1F95E" : {
          "name" : "PANCAKES"
       },
+      "1F95F" : {
+         "name" : "DUMPLING"
+      },
       "1F96" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI"
+      },
+      "1F960" : {
+         "name" : "FORTUNE COOKIE"
+      },
+      "1F961" : {
+         "name" : "TAKEOUT BOX"
+      },
+      "1F962" : {
+         "name" : "CHOPSTICKS"
+      },
+      "1F963" : {
+         "name" : "BOWL WITH SPOON"
+      },
+      "1F964" : {
+         "name" : "CUP WITH STRAW"
+      },
+      "1F965" : {
+         "name" : "COCONUT"
+      },
+      "1F966" : {
+         "name" : "BROCCOLI"
+      },
+      "1F967" : {
+         "name" : "PIE"
+      },
+      "1F968" : {
+         "name" : "PRETZEL"
+      },
+      "1F969" : {
+         "name" : "CUT OF MEAT"
+      },
+      "1F96A" : {
+         "name" : "SANDWICH"
+      },
+      "1F96B" : {
+         "name" : "CANNED FOOD"
       },
       "1F97" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI"
@@ -63013,6 +66022,24 @@
       "1F991" : {
          "name" : "SQUID"
       },
+      "1F992" : {
+         "name" : "GIRAFFE FACE"
+      },
+      "1F993" : {
+         "name" : "ZEBRA FACE"
+      },
+      "1F994" : {
+         "name" : "HEDGEHOG"
+      },
+      "1F995" : {
+         "name" : "SAUROPOD"
+      },
+      "1F996" : {
+         "name" : "T-REX"
+      },
+      "1F997" : {
+         "name" : "CRICKET"
+      },
       "1F9A" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI"
       },
@@ -63028,8 +66055,77 @@
       "1F9D" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
       },
+      "1F9D0" : {
+         "name" : "FACE WITH MONOCLE"
+      },
+      "1F9D1" : {
+         "name" : "ADULT"
+      },
+      "1F9D2" : {
+         "name" : "CHILD"
+      },
+      "1F9D3" : {
+         "name" : "OLDER ADULT"
+      },
+      "1F9D4" : {
+         "name" : "BEARDED PERSON"
+      },
+      "1F9D5" : {
+         "name" : "PERSON WITH HEADSCARF"
+      },
+      "1F9D6" : {
+         "name" : "PERSON IN STEAMY ROOM"
+      },
+      "1F9D7" : {
+         "name" : "PERSON CLIMBING"
+      },
+      "1F9D8" : {
+         "name" : "PERSON IN LOTUS POSITION"
+      },
+      "1F9D9" : {
+         "name" : "MAGE"
+      },
+      "1F9DA" : {
+         "name" : "FAIRY"
+      },
+      "1F9DB" : {
+         "name" : "VAMPIRE"
+      },
+      "1F9DC" : {
+         "name" : "MERPERSON"
+      },
+      "1F9DD" : {
+         "name" : "ELF"
+      },
+      "1F9DE" : {
+         "name" : "GENIE"
+      },
+      "1F9DF" : {
+         "name" : "ZOMBIE"
+      },
       "1F9E" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI"
+      },
+      "1F9E0" : {
+         "name" : "BRAIN"
+      },
+      "1F9E1" : {
+         "name" : "ORANGE HEART"
+      },
+      "1F9E2" : {
+         "name" : "BILLED CAP"
+      },
+      "1F9E3" : {
+         "name" : "SCARF"
+      },
+      "1F9E4" : {
+         "name" : "GLOVES"
+      },
+      "1F9E5" : {
+         "name" : "COAT"
+      },
+      "1F9E6" : {
+         "name" : "SOCKS"
       },
       "1F9F" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI"
@@ -63929,6 +67025,9 @@
       },
       "20BE" : {
          "name" : "LARI SIGN"
+      },
+      "20BF" : {
+         "name" : "BITCOIN SIGN"
       },
       "20D0" : {
          "name" : "COMBINING LEFT HARPOON ABOVE"
@@ -66446,6 +69545,9 @@
       },
       "23FE" : {
          "name" : "POWER SLEEP SYMBOL"
+      },
+      "23FF" : {
+         "name" : "OBSERVER EYE SYMBOL"
       },
       "2400" : {
          "name" : "SYMBOL FOR NULL"
@@ -72470,6 +75572,9 @@
       "2BD1" : {
          "name" : "UNCERTAINTY SIGN"
       },
+      "2BD2" : {
+         "name" : "GROUP MARK"
+      },
       "2BEC" : {
          "name" : "LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS"
       },
@@ -74065,6 +77170,21 @@
       },
       "2E44" : {
          "name" : "DOUBLE SUSPENSION MARK"
+      },
+      "2E45" : {
+         "name" : "INVERTED LOW KAVYKA"
+      },
+      "2E46" : {
+         "name" : "INVERTED LOW KAVYKA WITH KAVYKA ABOVE"
+      },
+      "2E47" : {
+         "name" : "LOW KAVYKA"
+      },
+      "2E48" : {
+         "name" : "LOW KAVYKA WITH DOT"
+      },
+      "2E49" : {
+         "name" : "DOUBLE STACKED COMMA"
       },
       "2E80" : {
          "name" : "CJK RADICAL REPEAT"
@@ -77824,6 +80944,9 @@
       },
       "312D" : {
          "name" : "BOPOMOFO LETTER IH"
+      },
+      "312E" : {
+         "name" : "BOPOMOFO LETTER O WITH DOT ABOVE"
       },
       "3131" : {
          "name" : "HANGUL LETTER KIYEOK"
