@@ -1,16 +1,15 @@
 use strict;
 use warnings;
-use Path::Class;
-use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib');
-use Encode;
-use JSON::Functions::XS qw(perl2json_bytes_for_record file2perl);
+use Path::Tiny;
+use lib glob path (__FILE__)->parent->child ('modules/*/lib');
+use JSON::PS;
 use Web::DOM::Document;
 use Web::HTML::Parser;
 
 my $Data = {};
 
 {
-  my $html_f = file (__FILE__)->dir->parent->file ('local', 'tr31.html');
+  my $html_f = path (__FILE__)->parent->parent->child ('local/tr31.html');
   my $doc = new Web::DOM::Document;
   my $parser = new Web::HTML::Parser;
   $parser->parse_byte_string ('utf-8', (scalar $html_f->slurp) => $doc);
@@ -57,7 +56,7 @@ my $Data = {};
   for my $def (
     ['Table_Candidate_Characters_for_Exclusion_from_Identifiers' => 'excluded'],
     ['Table_Recommended_Scripts' => 'recommended'],
-    ['Aspirational_Use_Scripts' => 'aspirational'],
+    #['Aspirational_Use_Scripts' => 'aspirational'],
     ['Table_Limited_Use_Scripts' => 'limited'],
   ) {
     if (defined $tables->{$def->[0]}) {
@@ -70,6 +69,9 @@ my $Data = {};
     die "no $def->[1]" unless keys %{$Data->{scripts}->{$def->[1]} or {}};
   }
 }
+## Withdrawn (see
+## <https://www.unicode.org/reports/tr31/#Aspirational_Use_Scripts>.)
+$Data->{scripts}->{aspirational} ||= {};
 
 print perl2json_bytes_for_record $Data;
 
