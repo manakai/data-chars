@@ -4,6 +4,7 @@ clean: clean-data
 WGET = wget
 GIT = git
 PERL = ./perl
+SAVEURL = curl -fL -o
 
 updatenightly: dataautoupdate
 
@@ -19,7 +20,7 @@ git-submodules:
 
 local/bin/pmbp.pl:
 	mkdir -p local/bin
-	$(WGET) -O $@ https://raw.github.com/wakaba/perl-setupenv/master/bin/pmbp.pl
+	$(SAVEURL) $@ https://raw.github.com/wakaba/perl-setupenv/master/bin/pmbp.pl
 pmbp-upgrade: local/bin/pmbp.pl
 	perl local/bin/pmbp.pl --update-pmbp-pl
 pmbp-update: git-submodules pmbp-upgrade
@@ -55,14 +56,14 @@ local/ucd/touch:
 	touch $@
 
 local/ucd/Scripts.txt:
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/Scripts.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Scripts.txt
 local/ucd/ScriptExtensions.txt:
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/ScriptExtensions.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/ScriptExtensions.txt
 local/ucd/PropertyValueAliases.txt:
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt
 
 local/tr31.html:
-	$(WGET) -O $@ https://www.unicode.org/reports/tr31/
+	$(SAVEURL) $@ https://www.unicode.org/reports/tr31/
 local/tr31.json: local/tr31.html bin/extract-tr31.pl
 	$(PERL) bin/extract-tr31.pl > $@
 
@@ -71,9 +72,9 @@ src/set/uax31/files: bin/uax31.pl local/tr31.json
 	touch $@
 
 local/langtags.json:
-	$(WGET) -O $@ https://raw.github.com/manakai/data-web-defs/master/data/langtags.json
+	$(SAVEURL) $@ https://raw.github.com/manakai/data-web-defs/master/data/langtags.json
 local/html-charrefs.json:
-	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-web-defs/master/data/html-charrefs.json
+	$(SAVEURL) $@ https://raw.githubusercontent.com/manakai/data-web-defs/master/data/html-charrefs.json
 
 data/scripts.json: bin/scripts.pl local/ucd/Scripts.txt \
     local/ucd/PropertyValueAliases.txt local/tr31.json \
@@ -82,13 +83,13 @@ data/scripts.json: bin/scripts.pl local/ucd/Scripts.txt \
 
 local/unicode/latest/NamesList.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UNIDATA/NamesList.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/NamesList.txt
 local/unicode/latest/NameAliases.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UNIDATA/NameAliases.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/NameAliases.txt
 local/unicode/latest/NamedSequences.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UNIDATA/NamedSequences.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/NamedSequences.txt
 
 data/names.json: local/unicode/latest/NamesList.txt \
     local/unicode/latest/NameAliases.txt \
@@ -124,65 +125,65 @@ src/set/unicode/Cc.expr: local/unicode/latest/UnicodeData.txt
 
 local/unicode/2.0/UnicodeData.txt:
 	mkdir -p local/unicode/2.0
-	$(WGET) -O $@ https://www.unicode.org/Public/2.0-Update/UnicodeData-2.0.14.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/2.0-Update/UnicodeData-2.0.14.txt
 local/unicode/2.1/UnicodeData.txt:
 	mkdir -p local/unicode/2.1
-	$(WGET) -O $@ https://www.unicode.org/Public/2.1-Update4/UnicodeData-2.1.9.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/2.1-Update4/UnicodeData-2.1.9.txt
 local/unicode/3.0/UnicodeData.txt:
 	mkdir -p local/unicode/3.0
-	$(WGET) -O $@ https://www.unicode.org/Public/3.0-Update1/UnicodeData-3.0.1.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/3.0-Update1/UnicodeData-3.0.1.txt
 local/unicode/3.2/UnicodeData.txt:
 	mkdir -p local/unicode/3.2
-	$(WGET) -O $@ https://www.unicode.org/Public/3.2-Update/UnicodeData-3.2.0.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/3.2-Update/UnicodeData-3.2.0.txt
 local/unicode/5.0/UnicodeData.txt:
 	mkdir -p local/unicode/5.0
-	$(WGET) -O $@ https://www.unicode.org/Public/5.0.0/ucd/UnicodeData.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/5.0.0/ucd/UnicodeData.txt
 local/unicode/5.2/UnicodeData.txt:
 	mkdir -p local/unicode/5.2
-	$(WGET) -O $@ https://www.unicode.org/Public/5.2.0/ucd/UnicodeData.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/5.2.0/ucd/UnicodeData.txt
 local/unicode/6.0/UnicodeData.txt:
 	mkdir -p local/unicode/6.0
-	$(WGET) -O $@ https://www.unicode.org/Public/6.0.0/ucd/UnicodeData.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/6.0.0/ucd/UnicodeData.txt
 local/unicode/6.1/UnicodeData.txt:
 	mkdir -p local/unicode/6.1
-	$(WGET) -O $@ https://www.unicode.org/Public/6.1.0/ucd/UnicodeData.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/6.1.0/ucd/UnicodeData.txt
 local/unicode/6.2/UnicodeData.txt:
 	mkdir -p local/unicode/6.2
-	$(WGET) -O $@ https://www.unicode.org/Public/6.2.0/ucd/UnicodeData.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/6.2.0/ucd/UnicodeData.txt
 local/unicode/6.3/UnicodeData.txt: local/unicode/6.3.0/UnicodeData.txt
 	mkdir -p local/unicode/6.3
 	cp local/unicode/6.3.0/UnicodeData.txt $@
 local/unicode/6.3.0/UnicodeData.txt:
 	mkdir -p local/unicode/6.3.0
-	$(WGET) -O $@ https://www.unicode.org/Public/6.3.0/ucd/UnicodeData.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/6.3.0/ucd/UnicodeData.txt
 local/unicode/$(UNICODE_VERSION)/UnicodeData.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(WGET) -O $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/UnicodeData.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/UnicodeData.txt
 local/unicode/latest/UnicodeData.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
 
 local/unicode/latest/Blocks.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
 local/unicode/$(UNICODE_VERSION)/Blocks.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(WGET) -O $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/Blocks.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/Blocks.txt
 local/unicode/latest/SpecialCasing.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
 local/unicode/latest/HangulSyllableType.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/HangulSyllableType.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/HangulSyllableType.txt
 local/unicode/$(UNICODE_VERSION)/HangulSyllableType.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(WGET) -O $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/HangulSyllableType.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/HangulSyllableType.txt
 local/unicode/latest/DerivedCombiningClass.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedCombiningClass.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedCombiningClass.txt
 local/unicode/$(UNICODE_VERSION)/DerivedCombiningClass.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(WGET) -O $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedCombiningClass.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedCombiningClass.txt
 
 src/set/unicode/Block/files: \
     bin/blocks.pl \
@@ -282,39 +283,39 @@ src/set/unicode$(UNICODE_VERSION:.0=)/Default_Ignorable_Code_Point.expr: \
 
 local/unicode/3.2/PropList.txt:
 	mkdir -p local/unicode/3.2
-	$(WGET) -O $@ https://www.unicode.org/Public/3.2-Update/PropList-3.2.0.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/3.2-Update/PropList-3.2.0.txt
 local/unicode/5.0/PropList.txt:
 	mkdir -p local/unicode/5.0
-	$(WGET) -O $@ https://www.unicode.org/Public/5.0.0/ucd/PropList.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/5.0.0/ucd/PropList.txt
 local/unicode/5.2/PropList.txt:
 	mkdir -p local/unicode/5.0
-	$(WGET) -O $@ https://www.unicode.org/Public/5.2.0/ucd/PropList.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/5.2.0/ucd/PropList.txt
 local/unicode/$(UNICODE_VERSION)/PropList.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(WGET) -O $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/PropList.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/PropList.txt
 local/unicode/latest/PropList.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/PropList.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/PropList.txt
 
 local/unicode/latest/CaseFolding.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/CaseFolding.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/CaseFolding.txt
 local/unicode/latest/DerivedCoreProperties.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedCoreProperties.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedCoreProperties.txt
 local/unicode/$(UNICODE_VERSION)/DerivedCoreProperties.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(WGET) -O $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedCoreProperties.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedCoreProperties.txt
 local/unicode/latest/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
 local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(WGET) -O $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedNormalizationProps.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedNormalizationProps.txt
 
 local/unicode/latest/CompositionExclusions.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/UCD/latest/ucd/CompositionExclusions.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/CompositionExclusions.txt
 src/set/unicode/CompositionExclusions.expr: \
     bin/unicode-CompositionExclusions.pl \
     local/unicode/latest/CompositionExclusions.txt
@@ -322,7 +323,7 @@ src/set/unicode/CompositionExclusions.expr: \
 
 local/unicode/latest/IdnaMappingTable.txt:
 	mkdir -p local/unicode/latest
-	$(WGET) -O $@ https://www.unicode.org/Public/idna/latest/IdnaMappingTable.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/idna/latest/IdnaMappingTable.txt
 local/map-data/uts46--mapping.json: bin/uts46-idna-mapping.pl \
     local/unicode/latest/IdnaMappingTable.txt
 	$(PERL) $<
@@ -342,16 +343,16 @@ src/set/rfc7564-$(UNICODE_VERSION)/HasCompat.expr: \
 
 local/iana-idna/$(UNICODE_VERSION).xml:
 	mkdir -p local/iana-idna
-	$(WGET) -O $@ https://www.iana.org/assignments/idna-tables-$(UNICODE_VERSION)/idna-tables-$(UNICODE_VERSION).xml
+	$(SAVEURL) $@ https://www.iana.org/assignments/idna-tables-$(UNICODE_VERSION)/idna-tables-$(UNICODE_VERSION).xml
 local/iana-idna/latest.xml:
 	mkdir -p local/iana-idna
-	$(WGET) -O $@ https://www.iana.org/assignments/idna-tables/idna-tables.xml
+	$(SAVEURL) $@ https://www.iana.org/assignments/idna-tables/idna-tables.xml
 local/iana-precis/$(UNICODE_VERSION).xml:
 	mkdir -p local/iana-precis
-	$(WGET) -O $@ https://www.iana.org/assignments/precis-tables-$(UNICODE_VERSION)/precis-tables-$(UNICODE_VERSION).xml
+	$(SAVEURL) $@ https://www.iana.org/assignments/precis-tables-$(UNICODE_VERSION)/precis-tables-$(UNICODE_VERSION).xml
 local/iana-precis/latest.xml:
 	mkdir -p local/iana-precis
-	$(WGET) -O $@ https://www.iana.org/assignments/precis-tables/precis-tables.xml
+	$(SAVEURL) $@ https://www.iana.org/assignments/precis-tables/precis-tables.xml
 
 src/set/idna-tables-$(UNICODE_VERSION)/files: \
     local/iana-idna/$(UNICODE_VERSION).xml \
@@ -396,7 +397,7 @@ src/set/isoiec10646/300.expr: src/set/isoiec10646/generate.pl
 	$(PERL) $<
 
 local/mozilla-prefs.js:
-	$(WGET) -O $@ https://raw.githubusercontent.com/mozilla/gecko-dev/master/modules/libpref/init/all.js
+	$(SAVEURL) $@ https://raw.githubusercontent.com/mozilla/gecko-dev/master/modules/libpref/init/all.js
 src/set/mozilla/IDN-blacklist-chars.expr: local/mozilla-prefs.js \
     bin/mozilla-idn-blacklist-chars.pl
 	$(PERL) bin/mozilla-idn-blacklist-chars.pl < $< > $@
@@ -430,7 +431,7 @@ data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
 	$(PERL) bin/maps.pl > $@
 
 local/spec-numbers.html:
-	$(WGET) -O $@ https://manakai.github.io/spec-numbers/
+	$(SAVEURL) $@ https://manakai.github.io/spec-numbers/
 local/spec-numbers.json: bin/spec-numbers.pl local/spec-numbers.html
 	$(PERL) bin/spec-numbers.pl > $@
 
