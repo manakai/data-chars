@@ -1,4 +1,4 @@
 #label:path percent-encode set
-#url:https://url.spec.whatwg.org/#default-encode-set
-$url:simple-encode-set
-| [\u0020\u0022\u0023<>?`{}]
+#url:https://url.spec.whatwg.org/#path-percent-encode-set
+$url:fragment-percent-encode-set
+| [\u0023?{}]

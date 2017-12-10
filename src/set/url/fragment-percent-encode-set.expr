@@ -1,0 +1,4 @@
+#label:fragment percent-encode set
+#url:https://url.spec.whatwg.org/#fragment-percent-encode-set
+$url:C0-control-percent-encode-set
+| [\u0020\u0022<>`]
