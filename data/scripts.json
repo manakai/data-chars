@@ -1698,6 +1698,13 @@
          "unicode_id" : "excluded",
          "xforms" : "Rejang"
       },
+      "Rohg" : {
+         "desc" : [
+            "Hanifi Rohingya"
+         ],
+         "ianareg" : "2017-12-13",
+         "iso" : "Rohg"
+      },
       "Roro" : {
          "desc" : [
             "Rongorongo"
@@ -1832,6 +1839,20 @@
          "unicode" : "Sinhala",
          "unicode_id" : "recommended",
          "xforms" : "Sinhala"
+      },
+      "Sogd" : {
+         "desc" : [
+            "Sogdian"
+         ],
+         "ianareg" : "2017-12-13",
+         "iso" : "Sogd"
+      },
+      "Sogo" : {
+         "desc" : [
+            "Old Sogdian"
+         ],
+         "ianareg" : "2017-12-13",
+         "iso" : "Sogo"
       },
       "Sora" : {
          "desc" : [
