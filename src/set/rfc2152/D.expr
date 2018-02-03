@@ -1,0 +1,3 @@
+#label:directly encoded characters
+#url:https://tools.ietf.org/html/rfc2152#page-2
+['(),-./:?]

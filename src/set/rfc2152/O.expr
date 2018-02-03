@@ -1,0 +1,4 @@
+#label:optional direct characters
+#url:https://tools.ietf.org/html/rfc2152#page-3
+## and <https://www.rfc-editor.org/errata_search.php?rfc=2152>
+[!"#$%&*;<=>@\u005B\u005D\u005E_`{|}]

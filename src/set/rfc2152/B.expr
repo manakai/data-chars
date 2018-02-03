@@ -1,0 +1,3 @@
+#label:Modified Base 64
+#url:https://tools.ietf.org/html/rfc2152#page-3
+$rfc2045:base64-alphabet - [=]
