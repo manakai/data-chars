@@ -2497,12 +2497,12 @@
          "suikawiki_name" : "片仮名用特殊文字 (JIS X 6002-1980 4.2.4 (2))"
       },
       "$kana:hiragana-all" : {
-         "chars" : "[\\u3041-\\u3096\\u309D-\\u309F\\u{1B001}]",
+         "chars" : "[\\u3041-\\u3096\\u309D-\\u309F\\u{1B001}\\u{2CF02}]",
          "label" : "平仮名",
          "suikawiki_name" : "平仮名"
       },
       "$kana:hiragana-digraph" : {
-         "chars" : "[\\u309F]",
+         "chars" : "[\\u309F\\u{2CF02}]",
          "label" : "平仮名 (合字)",
          "suikawiki_name" : "平仮名 (合字)"
       },
@@ -2532,12 +2532,12 @@
          "suikawiki_name" : "平仮名 (濁音)"
       },
       "$kana:kana-all" : {
-         "chars" : "[\\u3031-\\u3035\\u303B\\u3041-\\u3096\\u3099-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u31F0-\\u31FF\\u{1B001}\\u{2A708}]",
+         "chars" : "[\\u3031-\\u3035\\u303B\\u3041-\\u3096\\u3099-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u31F0-\\u31FF\\u{1B001}\\u{2A708}\\u{2CF00}\\u{2CF02}]",
          "label" : "仮名",
          "suikawiki_name" : "仮名"
       },
       "$kana:kana-digraph" : {
-         "chars" : "[\\u309F\\u30FF\\u{2A708}]",
+         "chars" : "[\\u309F\\u30FF\\u{2A708}\\u{2CF00}\\u{2CF02}]",
          "label" : "仮名 (合字)",
          "suikawiki_name" : "仮名 (合字)"
       },
@@ -2572,12 +2572,12 @@
          "suikawiki_name" : "仮名 (濁音)"
       },
       "$kana:katakana-all" : {
-         "chars" : "[\\u30A1-\\u30FA\\u30FD-\\u30FF\\u31F0-\\u31FF\\u{1B001}\\u{2A708}]",
+         "chars" : "[\\u30A1-\\u30FA\\u30FD-\\u30FF\\u31F0-\\u31FF\\u{1B001}\\u{2A708}\\u{2CF00}]",
          "label" : "片仮名",
          "suikawiki_name" : "片仮名"
       },
       "$kana:katakana-digraph" : {
-         "chars" : "[\\u30FF\\u{2A708}]",
+         "chars" : "[\\u30FF\\u{2A708}\\u{2CF00}]",
          "label" : "片仮名 (合字)",
          "suikawiki_name" : "片仮名 (合字)"
       },
@@ -3384,6 +3384,41 @@
          "spec" : "RFC1034",
          "suikawiki_name" : "letter"
       },
+      "$rfc1341:base64-alphabet" : {
+         "chars" : "[\u002B/-9=A-Za-z]",
+         "label" : "The Base64 Alphabet",
+         "spec" : "RFC1341",
+         "suikawiki_name" : "The Base64 Alphabet",
+         "url" : "https://tools.ietf.org/html/rfc1341#page-17"
+      },
+      "$rfc1521:base64-alphabet" : {
+         "chars" : "[\u002B/-9=A-Za-z]",
+         "label" : "The Base64 Alphabet",
+         "spec" : "RFC1521",
+         "suikawiki_name" : "The Base64 Alphabet",
+         "url" : "https://tools.ietf.org/html/rfc1521#section-5.2"
+      },
+      "$rfc1642:B" : {
+         "chars" : "[\u002B/-9A-Za-z]",
+         "label" : "Modified Base 64",
+         "spec" : "RFC1642",
+         "suikawiki_name" : "Modified Base 64",
+         "url" : "https://tools.ietf.org/html/rfc1642#page-3"
+      },
+      "$rfc1642:D" : {
+         "chars" : "['-),-/:?]",
+         "label" : "directly encoded characters",
+         "spec" : "RFC1642",
+         "suikawiki_name" : "directly encoded characters",
+         "url" : "https://tools.ietf.org/html/rfc1642#page-2"
+      },
+      "$rfc1642:O" : {
+         "chars" : "[!-\\u0026*\\u003B->\\u0040\\u005B\\u005D-`{-}]",
+         "label" : "optional direct characters",
+         "spec" : "RFC1642",
+         "suikawiki_name" : "optional direct characters",
+         "url" : "https://tools.ietf.org/html/rfc1642#page-3"
+      },
       "$rfc1738:alpha" : {
          "chars" : "[A-Za-z]",
          "label" : "alpha",
@@ -3596,6 +3631,13 @@
          "spec" : "RFC1945",
          "suikawiki_name" : "tspecials"
       },
+      "$rfc2045:base64-alphabet" : {
+         "chars" : "[\u002B/-9=A-Za-z]",
+         "label" : "The Base64 Alphabet",
+         "spec" : "RFC2045",
+         "suikawiki_name" : "The Base64 Alphabet",
+         "url" : "https://tools.ietf.org/html/rfc2045#section-6.8"
+      },
       "$rfc2045:token-char" : {
          "chars" : "[!\\u0023-'*-\u002B\\u002D-.0-9A-Z\\u005E-~]",
          "label" : "A character in token",
@@ -3739,6 +3781,27 @@
          "label" : "tspecials",
          "spec" : "RFC2068",
          "suikawiki_name" : "tspecials"
+      },
+      "$rfc2152:B" : {
+         "chars" : "[\u002B/-9A-Za-z]",
+         "label" : "Modified Base 64",
+         "spec" : "RFC2152",
+         "suikawiki_name" : "Modified Base 64",
+         "url" : "https://tools.ietf.org/html/rfc2152#page-3"
+      },
+      "$rfc2152:D" : {
+         "chars" : "['-),-/:?]",
+         "label" : "directly encoded characters",
+         "spec" : "RFC2152",
+         "suikawiki_name" : "directly encoded characters",
+         "url" : "https://tools.ietf.org/html/rfc2152#page-2"
+      },
+      "$rfc2152:O" : {
+         "chars" : "[!-\\u0026*\\u003B->\\u0040\\u005B\\u005D-`{-}]",
+         "label" : "optional direct characters",
+         "spec" : "RFC2152",
+         "suikawiki_name" : "optional direct characters",
+         "url" : "https://tools.ietf.org/html/rfc2152#page-3"
       },
       "$rfc2231:attribute-char" : {
          "chars" : "[!\\u0023-\\u0024\\u0026\u002B\\u002D-.0-9A-Z\\u005E-~]",
