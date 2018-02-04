@@ -1,0 +1,5 @@
+#label:HTTP token code point
+#url:https://mimesniff.spec.whatwg.org/#http-token-code-point
+#sw:HTTP token code point
+[!#$%&'*+\u{002D}.\u{005F}`|~] |
+$infra:ASCII-alphanumeric

@@ -1,0 +1,4 @@
+#label:HTTP quoted-string token code point
+#url:https://mimesniff.spec.whatwg.org/#http-quoted-string-token-code-point
+#sw:HTTP quoted-string token code point
+[\u{0009}\u{0020}-\u{007E}\u{0080}-\u{00FF}]
