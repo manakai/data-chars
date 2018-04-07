@@ -457,7 +457,9 @@
             "Gunjala Gondi"
          ],
          "ianareg" : "2017-01-13",
-         "iso" : "Gong"
+         "iso" : "Gong",
+         "u_nu" : "gong",
+         "u_nu_desc" : "Gunjala Gondi digits"
       },
       "Gonm" : {
          "desc" : [
@@ -1703,7 +1705,9 @@
             "Hanifi Rohingya"
          ],
          "ianareg" : "2017-12-13",
-         "iso" : "Rohg"
+         "iso" : "Rohg",
+         "u_nu" : "rohg",
+         "u_nu_desc" : "Hanifi Rohingya digits"
       },
       "Roro" : {
          "desc" : [
