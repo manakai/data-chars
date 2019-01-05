@@ -1,0 +1,34 @@
+#label:Limited Use Scripts
+#url:https://www.unicode.org/reports/tr31/#Table_Limited_Use_Scripts
+$unicode:Script:Adlm |
+$unicode:Script:Bali |
+$unicode:Script:Bamu |
+$unicode:Script:Batk |
+$unicode:Script:Cakm |
+$unicode:Script:Cans |
+$unicode:Script:Cham |
+$unicode:Script:Cher |
+$unicode:Script:Java |
+$unicode:Script:Kali |
+$unicode:Script:Lana |
+$unicode:Script:Lepc |
+$unicode:Script:Limb |
+$unicode:Script:Lisu |
+$unicode:Script:Mand |
+$unicode:Script:Mtei |
+$unicode:Script:Newa |
+$unicode:Script:Nkoo |
+$unicode:Script:Olck |
+$unicode:Script:Osge |
+$unicode:Script:Plrd |
+$unicode:Script:Rohg |
+$unicode:Script:Saur |
+$unicode:Script:Sund |
+$unicode:Script:Sylo |
+$unicode:Script:Syrc |
+$unicode:Script:Tale |
+$unicode:Script:Talu |
+$unicode:Script:Tavt |
+$unicode:Script:Tfng |
+$unicode:Script:Vaii |
+$unicode:Script:Yiii

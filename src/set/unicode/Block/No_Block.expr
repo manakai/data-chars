@@ -54,6 +54,7 @@
 - $unicode:Block:Cham
 - $unicode:Block:Cherokee
 - $unicode:Block:Cherokee_Supplement
+- $unicode:Block:Chess_Symbols
 - $unicode:Block:Combining_Diacritical_Marks
 - $unicode:Block:Combining_Diacritical_Marks_Extended
 - $unicode:Block:Combining_Diacritical_Marks_Supplement
@@ -77,6 +78,7 @@
 - $unicode:Block:Devanagari
 - $unicode:Block:Devanagari_Extended
 - $unicode:Block:Dingbats
+- $unicode:Block:Dogra
 - $unicode:Block:Domino_Tiles
 - $unicode:Block:Duployan
 - $unicode:Block:Early_Dynastic_Cuneiform
@@ -95,6 +97,7 @@
 - $unicode:Block:Geometric_Shapes
 - $unicode:Block:Geometric_Shapes_Extended
 - $unicode:Block:Georgian
+- $unicode:Block:Georgian_Extended
 - $unicode:Block:Georgian_Supplement
 - $unicode:Block:Glagolitic
 - $unicode:Block:Glagolitic_Supplement
@@ -103,6 +106,7 @@
 - $unicode:Block:Greek_Extended
 - $unicode:Block:Greek_and_Coptic
 - $unicode:Block:Gujarati
+- $unicode:Block:Gunjala_Gondi
 - $unicode:Block:Gurmukhi
 - $unicode:Block:Halfwidth_and_Fullwidth_Forms
 - $unicode:Block:Hangul_Compatibility_Jamo
@@ -110,6 +114,7 @@
 - $unicode:Block:Hangul_Jamo_Extended-A
 - $unicode:Block:Hangul_Jamo_Extended-B
 - $unicode:Block:Hangul_Syllables
+- $unicode:Block:Hanifi_Rohingya
 - $unicode:Block:Hanunoo
 - $unicode:Block:Hatran
 - $unicode:Block:Hebrew
@@ -120,6 +125,7 @@
 - $unicode:Block:Ideographic_Description_Characters
 - $unicode:Block:Ideographic_Symbols_and_Punctuation
 - $unicode:Block:Imperial_Aramaic
+- $unicode:Block:Indic_Siyaq_Numbers
 - $unicode:Block:Inscriptional_Pahlavi
 - $unicode:Block:Inscriptional_Parthian
 - $unicode:Block:Javanese
@@ -157,6 +163,7 @@
 - $unicode:Block:Lydian
 - $unicode:Block:Mahajani
 - $unicode:Block:Mahjong_Tiles
+- $unicode:Block:Makasar
 - $unicode:Block:Malayalam
 - $unicode:Block:Mandaic
 - $unicode:Block:Manichaean
@@ -164,6 +171,8 @@
 - $unicode:Block:Masaram_Gondi
 - $unicode:Block:Mathematical_Alphanumeric_Symbols
 - $unicode:Block:Mathematical_Operators
+- $unicode:Block:Mayan_Numerals
+- $unicode:Block:Medefaidrin
 - $unicode:Block:Meetei_Mayek
 - $unicode:Block:Meetei_Mayek_Extensions
 - $unicode:Block:Mende_Kikakui
@@ -199,6 +208,7 @@
 - $unicode:Block:Old_North_Arabian
 - $unicode:Block:Old_Permic
 - $unicode:Block:Old_Persian
+- $unicode:Block:Old_Sogdian
 - $unicode:Block:Old_South_Arabian
 - $unicode:Block:Old_Turkic
 - $unicode:Block:Optical_Character_Recognition
@@ -229,6 +239,7 @@
 - $unicode:Block:Sinhala
 - $unicode:Block:Sinhala_Archaic_Numbers
 - $unicode:Block:Small_Form_Variants
+- $unicode:Block:Sogdian
 - $unicode:Block:Sora_Sompeng
 - $unicode:Block:Soyombo
 - $unicode:Block:Spacing_Modifier_Letters

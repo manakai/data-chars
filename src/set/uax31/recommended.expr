@@ -1,0 +1,33 @@
+#label:Recommended Scripts
+#url:https://www.unicode.org/reports/tr31/#Table_Recommended_Scripts
+$unicode:Script:Arab |
+$unicode:Script:Armn |
+$unicode:Script:Beng |
+$unicode:Script:Bopo |
+$unicode:Script:Cyrl |
+$unicode:Script:Deva |
+$unicode:Script:Ethi |
+$unicode:Script:Geor |
+$unicode:Script:Grek |
+$unicode:Script:Gujr |
+$unicode:Script:Guru |
+$unicode:Script:Hang |
+$unicode:Script:Hani |
+$unicode:Script:Hebr |
+$unicode:Script:Hira |
+$unicode:Script:Kana |
+$unicode:Script:Khmr |
+$unicode:Script:Knda |
+$unicode:Script:Laoo |
+$unicode:Script:Latn |
+$unicode:Script:Mlym |
+$unicode:Script:Mymr |
+$unicode:Script:Orya |
+$unicode:Script:Sinh |
+$unicode:Script:Taml |
+$unicode:Script:Telu |
+$unicode:Script:Thaa |
+$unicode:Script:Thai |
+$unicode:Script:Tibt |
+$unicode:Script:Zinh |
+$unicode:Script:Zyyy

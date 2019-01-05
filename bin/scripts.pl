@@ -46,16 +46,21 @@ for my $scripts_f (
       $Data->{scripts}->{$1}->{unicode} = $2;
       $Data->{scripts}->{$3}->{preferred} = $1;
       $Data->{scripts}->{$3}->{unicode} = $2;
+      $Data->{scripts}->{$1}->{unicode_names}->{$1} = 1;
+      $Data->{scripts}->{$1}->{unicode_names}->{$2} = 1;
+      $Data->{scripts}->{$1}->{unicode_names}->{$3} = 1;
       $unicode{$2}++;
     } elsif (/^sc\s+;\s+(\S+)\s+;\s+(\S+)/) {
       $Data->{scripts}->{$1}->{unicode} = $2;
+      $Data->{scripts}->{$1}->{unicode_names}->{$1} = 1;
+      $Data->{scripts}->{$1}->{unicode_names}->{$2} = 1;
       $unicode{$2}++;
     }
   }
 }
 
 for my $scripts_f (
-  path (__FILE__)->parent->parent->child ('local/ucd/Scripts.txt'),
+  path (__FILE__)->parent->parent->child ('local/unicode/latest/Scripts.txt'),
 ) {
   my %unicode_found;
   for (split /\x0D?\x0A/, $scripts_f->slurp) {
