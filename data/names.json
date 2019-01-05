@@ -6439,6 +6439,9 @@
       "055F" : {
          "name" : "ARMENIAN ABBREVIATION MARK"
       },
+      "0560" : {
+         "name" : "ARMENIAN SMALL LETTER TURNED AYB"
+      },
       "0561" : {
          "name" : "ARMENIAN SMALL LETTER AYB"
       },
@@ -6555,6 +6558,9 @@
       },
       "0587" : {
          "name" : "ARMENIAN SMALL LIGATURE ECH YIWN"
+      },
+      "0588" : {
+         "name" : "ARMENIAN SMALL LETTER YI WITH STROKE"
       },
       "0589" : {
          "name" : "ARMENIAN FULL STOP"
@@ -6816,6 +6822,9 @@
       },
       "05EA" : {
          "name" : "HEBREW LETTER TAV"
+      },
+      "05EF" : {
+         "name" : "HEBREW YOD TRIANGLE"
       },
       "05F0" : {
          "name" : "HEBREW LIGATURE YIDDISH DOUBLE VAV"
@@ -8305,6 +8314,15 @@
       "07FA" : {
          "name" : "NKO LAJANYALAN"
       },
+      "07FD" : {
+         "name" : "NKO DANTAYALAN"
+      },
+      "07FE" : {
+         "name" : "NKO DOROME SIGN"
+      },
+      "07FF" : {
+         "name" : "NKO TAMAN SIGN"
+      },
       "0800" : {
          "name" : "SAMARITAN LETTER ALAF"
       },
@@ -8694,6 +8712,9 @@
       },
       "08BD" : {
          "name" : "ARABIC LETTER AFRICAN NOON"
+      },
+      "08D3" : {
+         "name" : "ARABIC SMALL LOW WAW"
       },
       "08D4" : {
          "name" : "ARABIC SMALL HIGH WORD AR-RUB"
@@ -9496,6 +9517,9 @@
       "09FD" : {
          "name" : "BENGALI ABBREVIATION SIGN"
       },
+      "09FE" : {
+         "name" : "BENGALI SANDHI MARK"
+      },
       "0A01" : {
          "name" : "GURMUKHI SIGN ADAK BINDI"
       },
@@ -9732,6 +9756,9 @@
       },
       "0A75" : {
          "name" : "GURMUKHI SIGN YAKASH"
+      },
+      "0A76" : {
+         "name" : "GURMUKHI ABBREVIATION SIGN"
       },
       "0A81" : {
          "name" : "GUJARATI SIGN CANDRABINDU"
@@ -10504,6 +10531,9 @@
       "0C03" : {
          "name" : "TELUGU SIGN VISARGA"
       },
+      "0C04" : {
+         "name" : "TELUGU SIGN COMBINING ANUSVARA ABOVE"
+      },
       "0C05" : {
          "name" : "TELUGU LETTER A"
       },
@@ -10791,6 +10821,9 @@
       },
       "0C83" : {
          "name" : "KANNADA SIGN VISARGA"
+      },
+      "0C84" : {
+         "name" : "KANNADA SIGN SIDDHAM"
       },
       "0C85" : {
          "name" : "KANNADA LETTER A"
@@ -18616,6 +18649,12 @@
       "10A33" : {
          "name" : "KHAROSHTHI LETTER TTTHA"
       },
+      "10A34" : {
+         "name" : "KHAROSHTHI LETTER TTTA"
+      },
+      "10A35" : {
+         "name" : "KHAROSHTHI LETTER VHA"
+      },
       "10A38" : {
          "name" : "KHAROSHTHI SIGN BAR ABOVE"
       },
@@ -18654,6 +18693,9 @@
       },
       "10A47" : {
          "name" : "KHAROSHTHI NUMBER ONE THOUSAND"
+      },
+      "10A48" : {
+         "name" : "KHAROSHTHI FRACTION ONE HALF"
       },
       "10A5" : {
          "name" : "GEORGIAN CAPITAL LETTER VIN"
@@ -20119,14 +20161,164 @@
       "10D0" : {
          "name" : "GEORGIAN LETTER AN"
       },
+      "10D00" : {
+         "name" : "HANIFI ROHINGYA LETTER A"
+      },
+      "10D01" : {
+         "name" : "HANIFI ROHINGYA LETTER BA"
+      },
+      "10D02" : {
+         "name" : "HANIFI ROHINGYA LETTER PA"
+      },
+      "10D03" : {
+         "name" : "HANIFI ROHINGYA LETTER TA"
+      },
+      "10D04" : {
+         "name" : "HANIFI ROHINGYA LETTER TTA"
+      },
+      "10D05" : {
+         "name" : "HANIFI ROHINGYA LETTER JA"
+      },
+      "10D06" : {
+         "name" : "HANIFI ROHINGYA LETTER CA"
+      },
+      "10D07" : {
+         "name" : "HANIFI ROHINGYA LETTER HA"
+      },
+      "10D08" : {
+         "name" : "HANIFI ROHINGYA LETTER KHA"
+      },
+      "10D09" : {
+         "name" : "HANIFI ROHINGYA LETTER FA"
+      },
+      "10D0A" : {
+         "name" : "HANIFI ROHINGYA LETTER DA"
+      },
+      "10D0B" : {
+         "name" : "HANIFI ROHINGYA LETTER DDA"
+      },
+      "10D0C" : {
+         "name" : "HANIFI ROHINGYA LETTER RA"
+      },
+      "10D0D" : {
+         "name" : "HANIFI ROHINGYA LETTER RRA"
+      },
+      "10D0E" : {
+         "name" : "HANIFI ROHINGYA LETTER ZA"
+      },
+      "10D0F" : {
+         "name" : "HANIFI ROHINGYA LETTER SA"
+      },
       "10D1" : {
          "name" : "GEORGIAN LETTER BAN"
+      },
+      "10D10" : {
+         "name" : "HANIFI ROHINGYA LETTER SHA"
+      },
+      "10D11" : {
+         "name" : "HANIFI ROHINGYA LETTER KA"
+      },
+      "10D12" : {
+         "name" : "HANIFI ROHINGYA LETTER GA"
+      },
+      "10D13" : {
+         "name" : "HANIFI ROHINGYA LETTER LA"
+      },
+      "10D14" : {
+         "name" : "HANIFI ROHINGYA LETTER MA"
+      },
+      "10D15" : {
+         "name" : "HANIFI ROHINGYA LETTER NA"
+      },
+      "10D16" : {
+         "name" : "HANIFI ROHINGYA LETTER WA"
+      },
+      "10D17" : {
+         "name" : "HANIFI ROHINGYA LETTER KINNA WA"
+      },
+      "10D18" : {
+         "name" : "HANIFI ROHINGYA LETTER YA"
+      },
+      "10D19" : {
+         "name" : "HANIFI ROHINGYA LETTER KINNA YA"
+      },
+      "10D1A" : {
+         "name" : "HANIFI ROHINGYA LETTER NGA"
+      },
+      "10D1B" : {
+         "name" : "HANIFI ROHINGYA LETTER NYA"
+      },
+      "10D1C" : {
+         "name" : "HANIFI ROHINGYA LETTER VA"
+      },
+      "10D1D" : {
+         "name" : "HANIFI ROHINGYA VOWEL A"
+      },
+      "10D1E" : {
+         "name" : "HANIFI ROHINGYA VOWEL I"
+      },
+      "10D1F" : {
+         "name" : "HANIFI ROHINGYA VOWEL U"
       },
       "10D2" : {
          "name" : "GEORGIAN LETTER GAN"
       },
+      "10D20" : {
+         "name" : "HANIFI ROHINGYA VOWEL E"
+      },
+      "10D21" : {
+         "name" : "HANIFI ROHINGYA VOWEL O"
+      },
+      "10D22" : {
+         "name" : "HANIFI ROHINGYA MARK SAKIN"
+      },
+      "10D23" : {
+         "name" : "HANIFI ROHINGYA MARK NA KHONNA"
+      },
+      "10D24" : {
+         "name" : "HANIFI ROHINGYA SIGN HARBAHAY"
+      },
+      "10D25" : {
+         "name" : "HANIFI ROHINGYA SIGN TAHALA"
+      },
+      "10D26" : {
+         "name" : "HANIFI ROHINGYA SIGN TANA"
+      },
+      "10D27" : {
+         "name" : "HANIFI ROHINGYA SIGN TASSI"
+      },
       "10D3" : {
          "name" : "GEORGIAN LETTER DON"
+      },
+      "10D30" : {
+         "name" : "HANIFI ROHINGYA DIGIT ZERO"
+      },
+      "10D31" : {
+         "name" : "HANIFI ROHINGYA DIGIT ONE"
+      },
+      "10D32" : {
+         "name" : "HANIFI ROHINGYA DIGIT TWO"
+      },
+      "10D33" : {
+         "name" : "HANIFI ROHINGYA DIGIT THREE"
+      },
+      "10D34" : {
+         "name" : "HANIFI ROHINGYA DIGIT FOUR"
+      },
+      "10D35" : {
+         "name" : "HANIFI ROHINGYA DIGIT FIVE"
+      },
+      "10D36" : {
+         "name" : "HANIFI ROHINGYA DIGIT SIX"
+      },
+      "10D37" : {
+         "name" : "HANIFI ROHINGYA DIGIT SEVEN"
+      },
+      "10D38" : {
+         "name" : "HANIFI ROHINGYA DIGIT EIGHT"
+      },
+      "10D39" : {
+         "name" : "HANIFI ROHINGYA DIGIT NINE"
       },
       "10D4" : {
          "name" : "GEORGIAN LETTER EN"
@@ -20308,20 +20500,266 @@
       "10F0" : {
          "name" : "GEORGIAN LETTER HAE"
       },
+      "10F00" : {
+         "name" : "OLD SOGDIAN LETTER ALEPH"
+      },
+      "10F01" : {
+         "name" : "OLD SOGDIAN LETTER FINAL ALEPH"
+      },
+      "10F02" : {
+         "name" : "OLD SOGDIAN LETTER BETH"
+      },
+      "10F03" : {
+         "name" : "OLD SOGDIAN LETTER FINAL BETH"
+      },
+      "10F04" : {
+         "name" : "OLD SOGDIAN LETTER GIMEL"
+      },
+      "10F05" : {
+         "name" : "OLD SOGDIAN LETTER HE"
+      },
+      "10F06" : {
+         "name" : "OLD SOGDIAN LETTER FINAL HE"
+      },
+      "10F07" : {
+         "name" : "OLD SOGDIAN LETTER WAW"
+      },
+      "10F08" : {
+         "name" : "OLD SOGDIAN LETTER ZAYIN"
+      },
+      "10F09" : {
+         "name" : "OLD SOGDIAN LETTER HETH"
+      },
+      "10F0A" : {
+         "name" : "OLD SOGDIAN LETTER YODH"
+      },
+      "10F0B" : {
+         "name" : "OLD SOGDIAN LETTER KAPH"
+      },
+      "10F0C" : {
+         "name" : "OLD SOGDIAN LETTER LAMEDH"
+      },
+      "10F0D" : {
+         "name" : "OLD SOGDIAN LETTER MEM"
+      },
+      "10F0E" : {
+         "name" : "OLD SOGDIAN LETTER NUN"
+      },
+      "10F0F" : {
+         "name" : "OLD SOGDIAN LETTER FINAL NUN"
+      },
       "10F1" : {
          "name" : "GEORGIAN LETTER HE"
+      },
+      "10F10" : {
+         "name" : "OLD SOGDIAN LETTER FINAL NUN WITH VERTICAL TAIL"
+      },
+      "10F11" : {
+         "name" : "OLD SOGDIAN LETTER SAMEKH"
+      },
+      "10F12" : {
+         "name" : "OLD SOGDIAN LETTER AYIN"
+      },
+      "10F13" : {
+         "name" : "OLD SOGDIAN LETTER ALTERNATE AYIN"
+      },
+      "10F14" : {
+         "name" : "OLD SOGDIAN LETTER PE"
+      },
+      "10F15" : {
+         "name" : "OLD SOGDIAN LETTER SADHE"
+      },
+      "10F16" : {
+         "name" : "OLD SOGDIAN LETTER FINAL SADHE"
+      },
+      "10F17" : {
+         "name" : "OLD SOGDIAN LETTER FINAL SADHE WITH VERTICAL TAIL"
+      },
+      "10F18" : {
+         "name" : "OLD SOGDIAN LETTER RESH-AYIN-DALETH"
+      },
+      "10F19" : {
+         "name" : "OLD SOGDIAN LETTER SHIN"
+      },
+      "10F1A" : {
+         "name" : "OLD SOGDIAN LETTER TAW"
+      },
+      "10F1B" : {
+         "name" : "OLD SOGDIAN LETTER FINAL TAW"
+      },
+      "10F1C" : {
+         "name" : "OLD SOGDIAN LETTER FINAL TAW WITH VERTICAL TAIL"
+      },
+      "10F1D" : {
+         "name" : "OLD SOGDIAN NUMBER ONE"
+      },
+      "10F1E" : {
+         "name" : "OLD SOGDIAN NUMBER TWO"
+      },
+      "10F1F" : {
+         "name" : "OLD SOGDIAN NUMBER THREE"
       },
       "10F2" : {
          "name" : "GEORGIAN LETTER HIE"
       },
+      "10F20" : {
+         "name" : "OLD SOGDIAN NUMBER FOUR"
+      },
+      "10F21" : {
+         "name" : "OLD SOGDIAN NUMBER FIVE"
+      },
+      "10F22" : {
+         "name" : "OLD SOGDIAN NUMBER TEN"
+      },
+      "10F23" : {
+         "name" : "OLD SOGDIAN NUMBER TWENTY"
+      },
+      "10F24" : {
+         "name" : "OLD SOGDIAN NUMBER THIRTY"
+      },
+      "10F25" : {
+         "name" : "OLD SOGDIAN NUMBER ONE HUNDRED"
+      },
+      "10F26" : {
+         "name" : "OLD SOGDIAN FRACTION ONE HALF"
+      },
+      "10F27" : {
+         "name" : "OLD SOGDIAN LIGATURE AYIN-DALETH"
+      },
       "10F3" : {
          "name" : "GEORGIAN LETTER WE"
+      },
+      "10F30" : {
+         "name" : "SOGDIAN LETTER ALEPH"
+      },
+      "10F31" : {
+         "name" : "SOGDIAN LETTER BETH"
+      },
+      "10F32" : {
+         "name" : "SOGDIAN LETTER GIMEL"
+      },
+      "10F33" : {
+         "name" : "SOGDIAN LETTER HE"
+      },
+      "10F34" : {
+         "name" : "SOGDIAN LETTER WAW"
+      },
+      "10F35" : {
+         "name" : "SOGDIAN LETTER ZAYIN"
+      },
+      "10F36" : {
+         "name" : "SOGDIAN LETTER HETH"
+      },
+      "10F37" : {
+         "name" : "SOGDIAN LETTER YODH"
+      },
+      "10F38" : {
+         "name" : "SOGDIAN LETTER KAPH"
+      },
+      "10F39" : {
+         "name" : "SOGDIAN LETTER LAMEDH"
+      },
+      "10F3A" : {
+         "name" : "SOGDIAN LETTER MEM"
+      },
+      "10F3B" : {
+         "name" : "SOGDIAN LETTER NUN"
+      },
+      "10F3C" : {
+         "name" : "SOGDIAN LETTER SAMEKH"
+      },
+      "10F3D" : {
+         "name" : "SOGDIAN LETTER AYIN"
+      },
+      "10F3E" : {
+         "name" : "SOGDIAN LETTER PE"
+      },
+      "10F3F" : {
+         "name" : "SOGDIAN LETTER SADHE"
       },
       "10F4" : {
          "name" : "GEORGIAN LETTER HAR"
       },
+      "10F40" : {
+         "name" : "SOGDIAN LETTER RESH-AYIN"
+      },
+      "10F41" : {
+         "name" : "SOGDIAN LETTER SHIN"
+      },
+      "10F42" : {
+         "name" : "SOGDIAN LETTER TAW"
+      },
+      "10F43" : {
+         "name" : "SOGDIAN LETTER FETH"
+      },
+      "10F44" : {
+         "name" : "SOGDIAN LETTER LESH"
+      },
+      "10F45" : {
+         "name" : "SOGDIAN INDEPENDENT SHIN"
+      },
+      "10F46" : {
+         "name" : "SOGDIAN COMBINING DOT BELOW"
+      },
+      "10F47" : {
+         "name" : "SOGDIAN COMBINING TWO DOTS BELOW"
+      },
+      "10F48" : {
+         "name" : "SOGDIAN COMBINING DOT ABOVE"
+      },
+      "10F49" : {
+         "name" : "SOGDIAN COMBINING TWO DOTS ABOVE"
+      },
+      "10F4A" : {
+         "name" : "SOGDIAN COMBINING CURVE ABOVE"
+      },
+      "10F4B" : {
+         "name" : "SOGDIAN COMBINING CURVE BELOW"
+      },
+      "10F4C" : {
+         "name" : "SOGDIAN COMBINING HOOK ABOVE"
+      },
+      "10F4D" : {
+         "name" : "SOGDIAN COMBINING HOOK BELOW"
+      },
+      "10F4E" : {
+         "name" : "SOGDIAN COMBINING LONG HOOK BELOW"
+      },
+      "10F4F" : {
+         "name" : "SOGDIAN COMBINING RESH BELOW"
+      },
       "10F5" : {
          "name" : "GEORGIAN LETTER HOE"
+      },
+      "10F50" : {
+         "name" : "SOGDIAN COMBINING STROKE BELOW"
+      },
+      "10F51" : {
+         "name" : "SOGDIAN NUMBER ONE"
+      },
+      "10F52" : {
+         "name" : "SOGDIAN NUMBER TEN"
+      },
+      "10F53" : {
+         "name" : "SOGDIAN NUMBER TWENTY"
+      },
+      "10F54" : {
+         "name" : "SOGDIAN NUMBER ONE HUNDRED"
+      },
+      "10F55" : {
+         "name" : "SOGDIAN PUNCTUATION TWO VERTICAL BARS"
+      },
+      "10F56" : {
+         "name" : "SOGDIAN PUNCTUATION TWO VERTICAL BARS WITH DOTS"
+      },
+      "10F57" : {
+         "name" : "SOGDIAN PUNCTUATION CIRCLE WITH DOT"
+      },
+      "10F58" : {
+         "name" : "SOGDIAN PUNCTUATION TWO CIRCLES WITH DOTS"
+      },
+      "10F59" : {
+         "name" : "SOGDIAN PUNCTUATION HALF CIRCLE WITH DOT"
       },
       "10F6" : {
          "name" : "GEORGIAN LETTER FI"
@@ -20923,6 +21361,9 @@
       "110C1" : {
          "name" : "KAITHI DOUBLE DANDA"
       },
+      "110CD" : {
+         "name" : "KAITHI NUMBER SIGN ABOVE"
+      },
       "110D" : {
          "name" : "HANGUL CHOSEONG SSANGCIEUC"
       },
@@ -21252,6 +21693,15 @@
       },
       "11143" : {
          "name" : "CHAKMA QUESTION MARK"
+      },
+      "11144" : {
+         "name" : "CHAKMA LETTER LHAA"
+      },
+      "11145" : {
+         "name" : "CHAKMA VOWEL SIGN AA"
+      },
+      "11146" : {
+         "name" : "CHAKMA VOWEL SIGN EI"
       },
       "1115" : {
          "name" : "HANGUL CHOSEONG NIEUN-TIKEUT"
@@ -22462,6 +22912,9 @@
       "11339" : {
          "name" : "GRANTHA LETTER HA"
       },
+      "1133B" : {
+         "name" : "COMBINING BINDU BELOW"
+      },
       "1133C" : {
          "name" : "GRANTHA SIGN NUKTA"
       },
@@ -22896,6 +23349,9 @@
       },
       "1145D" : {
          "name" : "NEWA INSERTION SIGN"
+      },
+      "1145E" : {
+         "name" : "NEWA SANDHI MARK"
       },
       "1146" : {
          "name" : "HANGUL CHOSEONG IEUNG-PANSIOS"
@@ -24103,6 +24559,9 @@
       "11719" : {
          "name" : "AHOM LETTER JHA"
       },
+      "1171A" : {
+         "name" : "AHOM LETTER ALTERNATE BA"
+      },
       "1171D" : {
          "name" : "AHOM CONSONANT SIGN MEDIAL LA"
       },
@@ -24241,14 +24700,194 @@
       "1180" : {
          "name" : "HANGUL JUNGSEONG O-E"
       },
+      "11800" : {
+         "name" : "DOGRA LETTER A"
+      },
+      "11801" : {
+         "name" : "DOGRA LETTER AA"
+      },
+      "11802" : {
+         "name" : "DOGRA LETTER I"
+      },
+      "11803" : {
+         "name" : "DOGRA LETTER II"
+      },
+      "11804" : {
+         "name" : "DOGRA LETTER U"
+      },
+      "11805" : {
+         "name" : "DOGRA LETTER UU"
+      },
+      "11806" : {
+         "name" : "DOGRA LETTER E"
+      },
+      "11807" : {
+         "name" : "DOGRA LETTER AI"
+      },
+      "11808" : {
+         "name" : "DOGRA LETTER O"
+      },
+      "11809" : {
+         "name" : "DOGRA LETTER AU"
+      },
+      "1180A" : {
+         "name" : "DOGRA LETTER KA"
+      },
+      "1180B" : {
+         "name" : "DOGRA LETTER KHA"
+      },
+      "1180C" : {
+         "name" : "DOGRA LETTER GA"
+      },
+      "1180D" : {
+         "name" : "DOGRA LETTER GHA"
+      },
+      "1180E" : {
+         "name" : "DOGRA LETTER NGA"
+      },
+      "1180F" : {
+         "name" : "DOGRA LETTER CA"
+      },
       "1181" : {
          "name" : "HANGUL JUNGSEONG O-YE"
+      },
+      "11810" : {
+         "name" : "DOGRA LETTER CHA"
+      },
+      "11811" : {
+         "name" : "DOGRA LETTER JA"
+      },
+      "11812" : {
+         "name" : "DOGRA LETTER JHA"
+      },
+      "11813" : {
+         "name" : "DOGRA LETTER NYA"
+      },
+      "11814" : {
+         "name" : "DOGRA LETTER TTA"
+      },
+      "11815" : {
+         "name" : "DOGRA LETTER TTHA"
+      },
+      "11816" : {
+         "name" : "DOGRA LETTER DDA"
+      },
+      "11817" : {
+         "name" : "DOGRA LETTER DDHA"
+      },
+      "11818" : {
+         "name" : "DOGRA LETTER NNA"
+      },
+      "11819" : {
+         "name" : "DOGRA LETTER TA"
+      },
+      "1181A" : {
+         "name" : "DOGRA LETTER THA"
+      },
+      "1181B" : {
+         "name" : "DOGRA LETTER DA"
+      },
+      "1181C" : {
+         "name" : "DOGRA LETTER DHA"
+      },
+      "1181D" : {
+         "name" : "DOGRA LETTER NA"
+      },
+      "1181E" : {
+         "name" : "DOGRA LETTER PA"
+      },
+      "1181F" : {
+         "name" : "DOGRA LETTER PHA"
       },
       "1182" : {
          "name" : "HANGUL JUNGSEONG O-O"
       },
+      "11820" : {
+         "name" : "DOGRA LETTER BA"
+      },
+      "11821" : {
+         "name" : "DOGRA LETTER BHA"
+      },
+      "11822" : {
+         "name" : "DOGRA LETTER MA"
+      },
+      "11823" : {
+         "name" : "DOGRA LETTER YA"
+      },
+      "11824" : {
+         "name" : "DOGRA LETTER RA"
+      },
+      "11825" : {
+         "name" : "DOGRA LETTER LA"
+      },
+      "11826" : {
+         "name" : "DOGRA LETTER VA"
+      },
+      "11827" : {
+         "name" : "DOGRA LETTER SHA"
+      },
+      "11828" : {
+         "name" : "DOGRA LETTER SSA"
+      },
+      "11829" : {
+         "name" : "DOGRA LETTER SA"
+      },
+      "1182A" : {
+         "name" : "DOGRA LETTER HA"
+      },
+      "1182B" : {
+         "name" : "DOGRA LETTER RRA"
+      },
+      "1182C" : {
+         "name" : "DOGRA VOWEL SIGN AA"
+      },
+      "1182D" : {
+         "name" : "DOGRA VOWEL SIGN I"
+      },
+      "1182E" : {
+         "name" : "DOGRA VOWEL SIGN II"
+      },
+      "1182F" : {
+         "name" : "DOGRA VOWEL SIGN U"
+      },
       "1183" : {
          "name" : "HANGUL JUNGSEONG O-U"
+      },
+      "11830" : {
+         "name" : "DOGRA VOWEL SIGN UU"
+      },
+      "11831" : {
+         "name" : "DOGRA VOWEL SIGN VOCALIC R"
+      },
+      "11832" : {
+         "name" : "DOGRA VOWEL SIGN VOCALIC RR"
+      },
+      "11833" : {
+         "name" : "DOGRA VOWEL SIGN E"
+      },
+      "11834" : {
+         "name" : "DOGRA VOWEL SIGN AI"
+      },
+      "11835" : {
+         "name" : "DOGRA VOWEL SIGN O"
+      },
+      "11836" : {
+         "name" : "DOGRA VOWEL SIGN AU"
+      },
+      "11837" : {
+         "name" : "DOGRA SIGN ANUSVARA"
+      },
+      "11838" : {
+         "name" : "DOGRA SIGN VISARGA"
+      },
+      "11839" : {
+         "name" : "DOGRA SIGN VIRAMA"
+      },
+      "1183A" : {
+         "name" : "DOGRA SIGN NUKTA"
+      },
+      "1183B" : {
+         "name" : "DOGRA ABBREVIATION SIGN"
       },
       "1184" : {
          "name" : "HANGUL JUNGSEONG YO-YA"
@@ -25056,6 +25695,9 @@
       },
       "11A9C" : {
          "name" : "SOYOMBO MARK DOUBLE SHAD"
+      },
+      "11A9D" : {
+         "name" : "SOYOMBO MARK PLUTA"
       },
       "11A9E" : {
          "name" : "SOYOMBO HEAD MARK WITH MOON AND SUN AND TRIPLE FLAME"
@@ -26098,17 +26740,206 @@
       "11D6" : {
          "name" : "HANGUL JONGSEONG RIEUL-SSANGSIOS"
       },
+      "11D60" : {
+         "name" : "GUNJALA GONDI LETTER A"
+      },
+      "11D61" : {
+         "name" : "GUNJALA GONDI LETTER AA"
+      },
+      "11D62" : {
+         "name" : "GUNJALA GONDI LETTER I"
+      },
+      "11D63" : {
+         "name" : "GUNJALA GONDI LETTER II"
+      },
+      "11D64" : {
+         "name" : "GUNJALA GONDI LETTER U"
+      },
+      "11D65" : {
+         "name" : "GUNJALA GONDI LETTER UU"
+      },
+      "11D67" : {
+         "name" : "GUNJALA GONDI LETTER EE"
+      },
+      "11D68" : {
+         "name" : "GUNJALA GONDI LETTER AI"
+      },
+      "11D6A" : {
+         "name" : "GUNJALA GONDI LETTER OO"
+      },
+      "11D6B" : {
+         "name" : "GUNJALA GONDI LETTER AU"
+      },
+      "11D6C" : {
+         "name" : "GUNJALA GONDI LETTER YA"
+      },
+      "11D6D" : {
+         "name" : "GUNJALA GONDI LETTER VA"
+      },
+      "11D6E" : {
+         "name" : "GUNJALA GONDI LETTER BA"
+      },
+      "11D6F" : {
+         "name" : "GUNJALA GONDI LETTER BHA"
+      },
       "11D7" : {
          "name" : "HANGUL JONGSEONG RIEUL-PANSIOS"
+      },
+      "11D70" : {
+         "name" : "GUNJALA GONDI LETTER MA"
+      },
+      "11D71" : {
+         "name" : "GUNJALA GONDI LETTER KA"
+      },
+      "11D72" : {
+         "name" : "GUNJALA GONDI LETTER KHA"
+      },
+      "11D73" : {
+         "name" : "GUNJALA GONDI LETTER TA"
+      },
+      "11D74" : {
+         "name" : "GUNJALA GONDI LETTER THA"
+      },
+      "11D75" : {
+         "name" : "GUNJALA GONDI LETTER LA"
+      },
+      "11D76" : {
+         "name" : "GUNJALA GONDI LETTER GA"
+      },
+      "11D77" : {
+         "name" : "GUNJALA GONDI LETTER GHA"
+      },
+      "11D78" : {
+         "name" : "GUNJALA GONDI LETTER DA"
+      },
+      "11D79" : {
+         "name" : "GUNJALA GONDI LETTER DHA"
+      },
+      "11D7A" : {
+         "name" : "GUNJALA GONDI LETTER NA"
+      },
+      "11D7B" : {
+         "name" : "GUNJALA GONDI LETTER CA"
+      },
+      "11D7C" : {
+         "name" : "GUNJALA GONDI LETTER CHA"
+      },
+      "11D7D" : {
+         "name" : "GUNJALA GONDI LETTER TTA"
+      },
+      "11D7E" : {
+         "name" : "GUNJALA GONDI LETTER TTHA"
+      },
+      "11D7F" : {
+         "name" : "GUNJALA GONDI LETTER LLA"
       },
       "11D8" : {
          "name" : "HANGUL JONGSEONG RIEUL-KHIEUKH"
       },
+      "11D80" : {
+         "name" : "GUNJALA GONDI LETTER JA"
+      },
+      "11D81" : {
+         "name" : "GUNJALA GONDI LETTER JHA"
+      },
+      "11D82" : {
+         "name" : "GUNJALA GONDI LETTER DDA"
+      },
+      "11D83" : {
+         "name" : "GUNJALA GONDI LETTER DDHA"
+      },
+      "11D84" : {
+         "name" : "GUNJALA GONDI LETTER NGA"
+      },
+      "11D85" : {
+         "name" : "GUNJALA GONDI LETTER PA"
+      },
+      "11D86" : {
+         "name" : "GUNJALA GONDI LETTER PHA"
+      },
+      "11D87" : {
+         "name" : "GUNJALA GONDI LETTER HA"
+      },
+      "11D88" : {
+         "name" : "GUNJALA GONDI LETTER RA"
+      },
+      "11D89" : {
+         "name" : "GUNJALA GONDI LETTER SA"
+      },
+      "11D8A" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN AA"
+      },
+      "11D8B" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN I"
+      },
+      "11D8C" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN II"
+      },
+      "11D8D" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN U"
+      },
+      "11D8E" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN UU"
+      },
       "11D9" : {
          "name" : "HANGUL JONGSEONG RIEUL-YEORINHIEUH"
       },
+      "11D90" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN EE"
+      },
+      "11D91" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN AI"
+      },
+      "11D93" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN OO"
+      },
+      "11D94" : {
+         "name" : "GUNJALA GONDI VOWEL SIGN AU"
+      },
+      "11D95" : {
+         "name" : "GUNJALA GONDI SIGN ANUSVARA"
+      },
+      "11D96" : {
+         "name" : "GUNJALA GONDI SIGN VISARGA"
+      },
+      "11D97" : {
+         "name" : "GUNJALA GONDI VIRAMA"
+      },
+      "11D98" : {
+         "name" : "GUNJALA GONDI OM"
+      },
       "11DA" : {
          "name" : "HANGUL JONGSEONG MIEUM-KIYEOK"
+      },
+      "11DA0" : {
+         "name" : "GUNJALA GONDI DIGIT ZERO"
+      },
+      "11DA1" : {
+         "name" : "GUNJALA GONDI DIGIT ONE"
+      },
+      "11DA2" : {
+         "name" : "GUNJALA GONDI DIGIT TWO"
+      },
+      "11DA3" : {
+         "name" : "GUNJALA GONDI DIGIT THREE"
+      },
+      "11DA4" : {
+         "name" : "GUNJALA GONDI DIGIT FOUR"
+      },
+      "11DA5" : {
+         "name" : "GUNJALA GONDI DIGIT FIVE"
+      },
+      "11DA6" : {
+         "name" : "GUNJALA GONDI DIGIT SIX"
+      },
+      "11DA7" : {
+         "name" : "GUNJALA GONDI DIGIT SEVEN"
+      },
+      "11DA8" : {
+         "name" : "GUNJALA GONDI DIGIT EIGHT"
+      },
+      "11DA9" : {
+         "name" : "GUNJALA GONDI DIGIT NINE"
       },
       "11DB" : {
          "name" : "HANGUL JONGSEONG MIEUM-RIEUL"
@@ -26179,11 +27010,86 @@
          },
          "name" : "HANGUL JONGSEONG SSANGIEUNG"
       },
+      "11EE0" : {
+         "name" : "MAKASAR LETTER KA"
+      },
+      "11EE1" : {
+         "name" : "MAKASAR LETTER GA"
+      },
+      "11EE2" : {
+         "name" : "MAKASAR LETTER NGA"
+      },
+      "11EE3" : {
+         "name" : "MAKASAR LETTER PA"
+      },
+      "11EE4" : {
+         "name" : "MAKASAR LETTER BA"
+      },
+      "11EE5" : {
+         "name" : "MAKASAR LETTER MA"
+      },
+      "11EE6" : {
+         "name" : "MAKASAR LETTER TA"
+      },
+      "11EE7" : {
+         "name" : "MAKASAR LETTER DA"
+      },
+      "11EE8" : {
+         "name" : "MAKASAR LETTER NA"
+      },
+      "11EE9" : {
+         "name" : "MAKASAR LETTER CA"
+      },
+      "11EEA" : {
+         "name" : "MAKASAR LETTER JA"
+      },
+      "11EEB" : {
+         "name" : "MAKASAR LETTER NYA"
+      },
+      "11EEC" : {
+         "name" : "MAKASAR LETTER YA"
+      },
+      "11EED" : {
+         "name" : "MAKASAR LETTER RA"
+      },
+      "11EEE" : {
+         "name" : "MAKASAR LETTER LA"
+      },
+      "11EEF" : {
+         "name" : "MAKASAR LETTER VA"
+      },
       "11EF" : {
          "correction" : {
             "HANGUL JONGSEONG YESIEUNG-KHIEUKH" : 1
          },
          "name" : "HANGUL JONGSEONG IEUNG-KHIEUKH"
+      },
+      "11EF0" : {
+         "name" : "MAKASAR LETTER SA"
+      },
+      "11EF1" : {
+         "name" : "MAKASAR LETTER A"
+      },
+      "11EF2" : {
+         "name" : "MAKASAR ANGKA"
+      },
+      "11EF3" : {
+         "name" : "MAKASAR VOWEL SIGN I"
+      },
+      "11EF4" : {
+         "name" : "MAKASAR VOWEL SIGN U"
+      },
+      "11EF5" : {
+         "name" : "MAKASAR VOWEL SIGN E"
+      },
+      "11EF6" : {
+         "name" : "MAKASAR VOWEL SIGN O"
+      },
+      "11EF7" : {
+         "name" : "MAKASAR PASSIMBANG"
+      },
+      "11EF8" : {
+         "name" : "MAKASAR END OF SECTION"
       },
       "11F0" : {
          "name" : "HANGUL JONGSEONG YESIEUNG"
@@ -40870,20 +41776,305 @@
       "16E4" : {
          "name" : "RUNIC LETTER CEALC"
       },
+      "16E40" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER M"
+      },
+      "16E41" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER S"
+      },
+      "16E42" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER V"
+      },
+      "16E43" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER W"
+      },
+      "16E44" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER ATIU"
+      },
+      "16E45" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER Z"
+      },
+      "16E46" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER KP"
+      },
+      "16E47" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER P"
+      },
+      "16E48" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER T"
+      },
+      "16E49" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER G"
+      },
+      "16E4A" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER F"
+      },
+      "16E4B" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER I"
+      },
+      "16E4C" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER K"
+      },
+      "16E4D" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER A"
+      },
+      "16E4E" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER J"
+      },
+      "16E4F" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER E"
+      },
       "16E5" : {
          "name" : "RUNIC LETTER STAN"
+      },
+      "16E50" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER B"
+      },
+      "16E51" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER C"
+      },
+      "16E52" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER U"
+      },
+      "16E53" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER YU"
+      },
+      "16E54" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER L"
+      },
+      "16E55" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER Q"
+      },
+      "16E56" : {
+         "correction" : {
+            "MEDEFAIDRIN CAPITAL LETTER H" : 1
+         },
+         "name" : "MEDEFAIDRIN CAPITAL LETTER HP"
+      },
+      "16E57" : {
+         "correction" : {
+            "MEDEFAIDRIN CAPITAL LETTER NG" : 1
+         },
+         "name" : "MEDEFAIDRIN CAPITAL LETTER NY"
+      },
+      "16E58" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER X"
+      },
+      "16E59" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER D"
+      },
+      "16E5A" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER OE"
+      },
+      "16E5B" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER N"
+      },
+      "16E5C" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER R"
+      },
+      "16E5D" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER O"
+      },
+      "16E5E" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER AI"
+      },
+      "16E5F" : {
+         "name" : "MEDEFAIDRIN CAPITAL LETTER Y"
       },
       "16E6" : {
          "name" : "RUNIC LETTER LONG-BRANCH-YR"
       },
+      "16E60" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER M"
+      },
+      "16E61" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER S"
+      },
+      "16E62" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER V"
+      },
+      "16E63" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER W"
+      },
+      "16E64" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER ATIU"
+      },
+      "16E65" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER Z"
+      },
+      "16E66" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER KP"
+      },
+      "16E67" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER P"
+      },
+      "16E68" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER T"
+      },
+      "16E69" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER G"
+      },
+      "16E6A" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER F"
+      },
+      "16E6B" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER I"
+      },
+      "16E6C" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER K"
+      },
+      "16E6D" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER A"
+      },
+      "16E6E" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER J"
+      },
+      "16E6F" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER E"
+      },
       "16E7" : {
          "name" : "RUNIC LETTER SHORT-TWIG-YR"
+      },
+      "16E70" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER B"
+      },
+      "16E71" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER C"
+      },
+      "16E72" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER U"
+      },
+      "16E73" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER YU"
+      },
+      "16E74" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER L"
+      },
+      "16E75" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER Q"
+      },
+      "16E76" : {
+         "correction" : {
+            "MEDEFAIDRIN SMALL LETTER H" : 1
+         },
+         "name" : "MEDEFAIDRIN SMALL LETTER HP"
+      },
+      "16E77" : {
+         "correction" : {
+            "MEDEFAIDRIN SMALL LETTER NG" : 1
+         },
+         "name" : "MEDEFAIDRIN SMALL LETTER NY"
+      },
+      "16E78" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER X"
+      },
+      "16E79" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER D"
+      },
+      "16E7A" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER OE"
+      },
+      "16E7B" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER N"
+      },
+      "16E7C" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER R"
+      },
+      "16E7D" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER O"
+      },
+      "16E7E" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER AI"
+      },
+      "16E7F" : {
+         "name" : "MEDEFAIDRIN SMALL LETTER Y"
       },
       "16E8" : {
          "name" : "RUNIC LETTER ICELANDIC-YR"
       },
+      "16E80" : {
+         "name" : "MEDEFAIDRIN DIGIT ZERO"
+      },
+      "16E81" : {
+         "name" : "MEDEFAIDRIN DIGIT ONE"
+      },
+      "16E82" : {
+         "name" : "MEDEFAIDRIN DIGIT TWO"
+      },
+      "16E83" : {
+         "name" : "MEDEFAIDRIN DIGIT THREE"
+      },
+      "16E84" : {
+         "name" : "MEDEFAIDRIN DIGIT FOUR"
+      },
+      "16E85" : {
+         "name" : "MEDEFAIDRIN DIGIT FIVE"
+      },
+      "16E86" : {
+         "name" : "MEDEFAIDRIN DIGIT SIX"
+      },
+      "16E87" : {
+         "name" : "MEDEFAIDRIN DIGIT SEVEN"
+      },
+      "16E88" : {
+         "name" : "MEDEFAIDRIN DIGIT EIGHT"
+      },
+      "16E89" : {
+         "name" : "MEDEFAIDRIN DIGIT NINE"
+      },
+      "16E8A" : {
+         "name" : "MEDEFAIDRIN NUMBER TEN"
+      },
+      "16E8B" : {
+         "name" : "MEDEFAIDRIN NUMBER ELEVEN"
+      },
+      "16E8C" : {
+         "name" : "MEDEFAIDRIN NUMBER TWELVE"
+      },
+      "16E8D" : {
+         "name" : "MEDEFAIDRIN NUMBER THIRTEEN"
+      },
+      "16E8E" : {
+         "name" : "MEDEFAIDRIN NUMBER FOURTEEN"
+      },
+      "16E8F" : {
+         "name" : "MEDEFAIDRIN NUMBER FIFTEEN"
+      },
       "16E9" : {
          "name" : "RUNIC LETTER Q"
+      },
+      "16E90" : {
+         "name" : "MEDEFAIDRIN NUMBER SIXTEEN"
+      },
+      "16E91" : {
+         "name" : "MEDEFAIDRIN NUMBER SEVENTEEN"
+      },
+      "16E92" : {
+         "name" : "MEDEFAIDRIN NUMBER EIGHTEEN"
+      },
+      "16E93" : {
+         "name" : "MEDEFAIDRIN NUMBER NINETEEN"
+      },
+      "16E94" : {
+         "name" : "MEDEFAIDRIN DIGIT ONE ALTERNATE FORM"
+      },
+      "16E95" : {
+         "name" : "MEDEFAIDRIN DIGIT TWO ALTERNATE FORM"
+      },
+      "16E96" : {
+         "name" : "MEDEFAIDRIN DIGIT THREE ALTERNATE FORM"
+      },
+      "16E97" : {
+         "name" : "MEDEFAIDRIN COMMA"
+      },
+      "16E98" : {
+         "name" : "MEDEFAIDRIN FULL STOP"
+      },
+      "16E99" : {
+         "name" : "MEDEFAIDRIN SYMBOL AIVA"
+      },
+      "16E9A" : {
+         "name" : "MEDEFAIDRIN EXCLAMATION OH"
       },
       "16EA" : {
          "name" : "RUNIC LETTER X"
@@ -42270,6 +43461,9 @@
       },
       "1877" : {
          "name" : "MONGOLIAN LETTER MANCHU ZHA"
+      },
+      "1878" : {
+         "name" : "MONGOLIAN LETTER CHA WITH TWO DOTS"
       },
       "1880" : {
          "name" : "MONGOLIAN LETTER ALI GALI ANUSVARA ONE"
@@ -49654,6 +50848,144 @@
       "1C88" : {
          "name" : "CYRILLIC SMALL LETTER UNBLENDED UK"
       },
+      "1C90" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER AN"
+      },
+      "1C91" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER BAN"
+      },
+      "1C92" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER GAN"
+      },
+      "1C93" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER DON"
+      },
+      "1C94" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER EN"
+      },
+      "1C95" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER VIN"
+      },
+      "1C96" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER ZEN"
+      },
+      "1C97" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER TAN"
+      },
+      "1C98" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER IN"
+      },
+      "1C99" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER KAN"
+      },
+      "1C9A" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER LAS"
+      },
+      "1C9B" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER MAN"
+      },
+      "1C9C" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER NAR"
+      },
+      "1C9D" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER ON"
+      },
+      "1C9E" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER PAR"
+      },
+      "1C9F" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER ZHAR"
+      },
+      "1CA0" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER RAE"
+      },
+      "1CA1" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER SAN"
+      },
+      "1CA2" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER TAR"
+      },
+      "1CA3" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER UN"
+      },
+      "1CA4" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER PHAR"
+      },
+      "1CA5" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER KHAR"
+      },
+      "1CA6" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER GHAN"
+      },
+      "1CA7" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER QAR"
+      },
+      "1CA8" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER SHIN"
+      },
+      "1CA9" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER CHIN"
+      },
+      "1CAA" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER CAN"
+      },
+      "1CAB" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER JIL"
+      },
+      "1CAC" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER CIL"
+      },
+      "1CAD" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER CHAR"
+      },
+      "1CAE" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER XAN"
+      },
+      "1CAF" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER JHAN"
+      },
+      "1CB0" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER HAE"
+      },
+      "1CB1" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER HE"
+      },
+      "1CB2" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER HIE"
+      },
+      "1CB3" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER WE"
+      },
+      "1CB4" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER HAR"
+      },
+      "1CB5" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER HOE"
+      },
+      "1CB6" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER FI"
+      },
+      "1CB7" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER YN"
+      },
+      "1CB8" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER ELIFI"
+      },
+      "1CB9" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER TURNED GAN"
+      },
+      "1CBA" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER AIN"
+      },
+      "1CBD" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER AEN"
+      },
+      "1CBE" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER HARD SIGN"
+      },
+      "1CBF" : {
+         "name" : "GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN"
+      },
       "1CC0" : {
          "name" : "SUNDANESE PUNCTUATION BINDU SURYA"
       },
@@ -51589,8 +52921,68 @@
       "1D2E" : {
          "name" : "MODIFIER LETTER CAPITAL B"
       },
+      "1D2E0" : {
+         "name" : "MAYAN NUMERAL ZERO"
+      },
+      "1D2E1" : {
+         "name" : "MAYAN NUMERAL ONE"
+      },
+      "1D2E2" : {
+         "name" : "MAYAN NUMERAL TWO"
+      },
+      "1D2E3" : {
+         "name" : "MAYAN NUMERAL THREE"
+      },
+      "1D2E4" : {
+         "name" : "MAYAN NUMERAL FOUR"
+      },
+      "1D2E5" : {
+         "name" : "MAYAN NUMERAL FIVE"
+      },
+      "1D2E6" : {
+         "name" : "MAYAN NUMERAL SIX"
+      },
+      "1D2E7" : {
+         "name" : "MAYAN NUMERAL SEVEN"
+      },
+      "1D2E8" : {
+         "name" : "MAYAN NUMERAL EIGHT"
+      },
+      "1D2E9" : {
+         "name" : "MAYAN NUMERAL NINE"
+      },
+      "1D2EA" : {
+         "name" : "MAYAN NUMERAL TEN"
+      },
+      "1D2EB" : {
+         "name" : "MAYAN NUMERAL ELEVEN"
+      },
+      "1D2EC" : {
+         "name" : "MAYAN NUMERAL TWELVE"
+      },
+      "1D2ED" : {
+         "name" : "MAYAN NUMERAL THIRTEEN"
+      },
+      "1D2EE" : {
+         "name" : "MAYAN NUMERAL FOURTEEN"
+      },
+      "1D2EF" : {
+         "name" : "MAYAN NUMERAL FIFTEEN"
+      },
       "1D2F" : {
          "name" : "MODIFIER LETTER CAPITAL BARRED B"
+      },
+      "1D2F0" : {
+         "name" : "MAYAN NUMERAL SIXTEEN"
+      },
+      "1D2F1" : {
+         "name" : "MAYAN NUMERAL SEVENTEEN"
+      },
+      "1D2F2" : {
+         "name" : "MAYAN NUMERAL EIGHTEEN"
+      },
+      "1D2F3" : {
+         "name" : "MAYAN NUMERAL NINETEEN"
       },
       "1D30" : {
          "name" : "MODIFIER LETTER CAPITAL D"
@@ -51930,6 +53322,27 @@
       },
       "1D371" : {
          "name" : "COUNTING ROD TENS DIGIT NINE"
+      },
+      "1D372" : {
+         "name" : "IDEOGRAPHIC TALLY MARK ONE"
+      },
+      "1D373" : {
+         "name" : "IDEOGRAPHIC TALLY MARK TWO"
+      },
+      "1D374" : {
+         "name" : "IDEOGRAPHIC TALLY MARK THREE"
+      },
+      "1D375" : {
+         "name" : "IDEOGRAPHIC TALLY MARK FOUR"
+      },
+      "1D376" : {
+         "name" : "IDEOGRAPHIC TALLY MARK FIVE"
+      },
+      "1D377" : {
+         "name" : "TALLY MARK ONE"
+      },
+      "1D378" : {
+         "name" : "TALLY MARK FIVE"
       },
       "1D38" : {
          "name" : "MODIFIER LETTER CAPITAL L"
@@ -59148,17 +60561,221 @@
       "1EC7" : {
          "name" : "LATIN SMALL LETTER E WITH CIRCUMFLEX AND DOT BELOW"
       },
+      "1EC71" : {
+         "name" : "INDIC SIYAQ NUMBER ONE"
+      },
+      "1EC72" : {
+         "name" : "INDIC SIYAQ NUMBER TWO"
+      },
+      "1EC73" : {
+         "name" : "INDIC SIYAQ NUMBER THREE"
+      },
+      "1EC74" : {
+         "name" : "INDIC SIYAQ NUMBER FOUR"
+      },
+      "1EC75" : {
+         "name" : "INDIC SIYAQ NUMBER FIVE"
+      },
+      "1EC76" : {
+         "name" : "INDIC SIYAQ NUMBER SIX"
+      },
+      "1EC77" : {
+         "name" : "INDIC SIYAQ NUMBER SEVEN"
+      },
+      "1EC78" : {
+         "name" : "INDIC SIYAQ NUMBER EIGHT"
+      },
+      "1EC79" : {
+         "name" : "INDIC SIYAQ NUMBER NINE"
+      },
+      "1EC7A" : {
+         "name" : "INDIC SIYAQ NUMBER TEN"
+      },
+      "1EC7B" : {
+         "name" : "INDIC SIYAQ NUMBER TWENTY"
+      },
+      "1EC7C" : {
+         "name" : "INDIC SIYAQ NUMBER THIRTY"
+      },
+      "1EC7D" : {
+         "name" : "INDIC SIYAQ NUMBER FORTY"
+      },
+      "1EC7E" : {
+         "name" : "INDIC SIYAQ NUMBER FIFTY"
+      },
+      "1EC7F" : {
+         "name" : "INDIC SIYAQ NUMBER SIXTY"
+      },
       "1EC8" : {
          "name" : "LATIN CAPITAL LETTER I WITH HOOK ABOVE"
+      },
+      "1EC80" : {
+         "name" : "INDIC SIYAQ NUMBER SEVENTY"
+      },
+      "1EC81" : {
+         "name" : "INDIC SIYAQ NUMBER EIGHTY"
+      },
+      "1EC82" : {
+         "name" : "INDIC SIYAQ NUMBER NINETY"
+      },
+      "1EC83" : {
+         "name" : "INDIC SIYAQ NUMBER ONE HUNDRED"
+      },
+      "1EC84" : {
+         "name" : "INDIC SIYAQ NUMBER TWO HUNDRED"
+      },
+      "1EC85" : {
+         "name" : "INDIC SIYAQ NUMBER THREE HUNDRED"
+      },
+      "1EC86" : {
+         "name" : "INDIC SIYAQ NUMBER FOUR HUNDRED"
+      },
+      "1EC87" : {
+         "name" : "INDIC SIYAQ NUMBER FIVE HUNDRED"
+      },
+      "1EC88" : {
+         "name" : "INDIC SIYAQ NUMBER SIX HUNDRED"
+      },
+      "1EC89" : {
+         "name" : "INDIC SIYAQ NUMBER SEVEN HUNDRED"
+      },
+      "1EC8A" : {
+         "name" : "INDIC SIYAQ NUMBER EIGHT HUNDRED"
+      },
+      "1EC8B" : {
+         "name" : "INDIC SIYAQ NUMBER NINE HUNDRED"
+      },
+      "1EC8C" : {
+         "name" : "INDIC SIYAQ NUMBER ONE THOUSAND"
+      },
+      "1EC8D" : {
+         "name" : "INDIC SIYAQ NUMBER TWO THOUSAND"
+      },
+      "1EC8E" : {
+         "name" : "INDIC SIYAQ NUMBER THREE THOUSAND"
+      },
+      "1EC8F" : {
+         "name" : "INDIC SIYAQ NUMBER FOUR THOUSAND"
       },
       "1EC9" : {
          "name" : "LATIN SMALL LETTER I WITH HOOK ABOVE"
       },
+      "1EC90" : {
+         "name" : "INDIC SIYAQ NUMBER FIVE THOUSAND"
+      },
+      "1EC91" : {
+         "name" : "INDIC SIYAQ NUMBER SIX THOUSAND"
+      },
+      "1EC92" : {
+         "name" : "INDIC SIYAQ NUMBER SEVEN THOUSAND"
+      },
+      "1EC93" : {
+         "name" : "INDIC SIYAQ NUMBER EIGHT THOUSAND"
+      },
+      "1EC94" : {
+         "name" : "INDIC SIYAQ NUMBER NINE THOUSAND"
+      },
+      "1EC95" : {
+         "name" : "INDIC SIYAQ NUMBER TEN THOUSAND"
+      },
+      "1EC96" : {
+         "name" : "INDIC SIYAQ NUMBER TWENTY THOUSAND"
+      },
+      "1EC97" : {
+         "name" : "INDIC SIYAQ NUMBER THIRTY THOUSAND"
+      },
+      "1EC98" : {
+         "name" : "INDIC SIYAQ NUMBER FORTY THOUSAND"
+      },
+      "1EC99" : {
+         "name" : "INDIC SIYAQ NUMBER FIFTY THOUSAND"
+      },
+      "1EC9A" : {
+         "name" : "INDIC SIYAQ NUMBER SIXTY THOUSAND"
+      },
+      "1EC9B" : {
+         "name" : "INDIC SIYAQ NUMBER SEVENTY THOUSAND"
+      },
+      "1EC9C" : {
+         "name" : "INDIC SIYAQ NUMBER EIGHTY THOUSAND"
+      },
+      "1EC9D" : {
+         "name" : "INDIC SIYAQ NUMBER NINETY THOUSAND"
+      },
+      "1EC9E" : {
+         "name" : "INDIC SIYAQ NUMBER LAKH"
+      },
+      "1EC9F" : {
+         "name" : "INDIC SIYAQ NUMBER LAKHAN"
+      },
       "1ECA" : {
          "name" : "LATIN CAPITAL LETTER I WITH DOT BELOW"
       },
+      "1ECA0" : {
+         "name" : "INDIC SIYAQ LAKH MARK"
+      },
+      "1ECA1" : {
+         "name" : "INDIC SIYAQ NUMBER KAROR"
+      },
+      "1ECA2" : {
+         "name" : "INDIC SIYAQ NUMBER KARORAN"
+      },
+      "1ECA3" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED ONE"
+      },
+      "1ECA4" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED TWO"
+      },
+      "1ECA5" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED THREE"
+      },
+      "1ECA6" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED FOUR"
+      },
+      "1ECA7" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED FIVE"
+      },
+      "1ECA8" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED SIX"
+      },
+      "1ECA9" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED SEVEN"
+      },
+      "1ECAA" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED EIGHT"
+      },
+      "1ECAB" : {
+         "name" : "INDIC SIYAQ NUMBER PREFIXED NINE"
+      },
+      "1ECAC" : {
+         "name" : "INDIC SIYAQ PLACEHOLDER"
+      },
+      "1ECAD" : {
+         "name" : "INDIC SIYAQ FRACTION ONE QUARTER"
+      },
+      "1ECAE" : {
+         "name" : "INDIC SIYAQ FRACTION ONE HALF"
+      },
+      "1ECAF" : {
+         "name" : "INDIC SIYAQ FRACTION THREE QUARTERS"
+      },
       "1ECB" : {
          "name" : "LATIN SMALL LETTER I WITH DOT BELOW"
+      },
+      "1ECB0" : {
+         "name" : "INDIC SIYAQ RUPEE MARK"
+      },
+      "1ECB1" : {
+         "name" : "INDIC SIYAQ NUMBER ALTERNATE ONE"
+      },
+      "1ECB2" : {
+         "name" : "INDIC SIYAQ NUMBER ALTERNATE TWO"
+      },
+      "1ECB3" : {
+         "name" : "INDIC SIYAQ NUMBER ALTERNATE TEN THOUSAND"
+      },
+      "1ECB4" : {
+         "name" : "INDIC SIYAQ ALTERNATE LAKH MARK"
       },
       "1ECC" : {
          "name" : "LATIN CAPITAL LETTER O WITH DOT BELOW"
@@ -60611,6 +62228,9 @@
       },
       "1F12E" : {
          "name" : "CIRCLED WZ"
+      },
+      "1F12F" : {
+         "name" : "COPYLEFT SYMBOL"
       },
       "1F13" : {
          "name" : "GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA"
@@ -64497,6 +66117,9 @@
       "1F6F8" : {
          "name" : "FLYING SAUCER"
       },
+      "1F6F9" : {
+         "name" : "SKATEBOARD"
+      },
       "1F70" : {
          "ja_name" : "グレーブアクセント付きスクリプトA小文字",
          "name" : "GREEK SMALL LETTER ALPHA WITH VARIA"
@@ -65145,6 +66768,18 @@
       },
       "1F7D4" : {
          "name" : "HEAVY TWELVE POINTED PINWHEEL STAR"
+      },
+      "1F7D5" : {
+         "name" : "CIRCLED TRIANGLE"
+      },
+      "1F7D6" : {
+         "name" : "NEGATIVE CIRCLED TRIANGLE"
+      },
+      "1F7D7" : {
+         "name" : "CIRCLED SQUARE"
+      },
+      "1F7D8" : {
+         "name" : "NEGATIVE CIRCLED SQUARE"
       },
       "1F80" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI"
@@ -65869,6 +67504,15 @@
       "1F94C" : {
          "name" : "CURLING STONE"
       },
+      "1F94D" : {
+         "name" : "LACROSSE STICK AND BALL"
+      },
+      "1F94E" : {
+         "name" : "SOFTBALL"
+      },
+      "1F94F" : {
+         "name" : "FLYING DISC"
+      },
       "1F95" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI"
       },
@@ -65959,8 +67603,50 @@
       "1F96B" : {
          "name" : "CANNED FOOD"
       },
+      "1F96C" : {
+         "name" : "LEAFY GREEN"
+      },
+      "1F96D" : {
+         "name" : "MANGO"
+      },
+      "1F96E" : {
+         "name" : "MOON CAKE"
+      },
+      "1F96F" : {
+         "name" : "BAGEL"
+      },
       "1F97" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI"
+      },
+      "1F970" : {
+         "name" : "SMILING FACE WITH SMILING EYES AND THREE HEARTS"
+      },
+      "1F973" : {
+         "name" : "FACE WITH PARTY HORN AND PARTY HAT"
+      },
+      "1F974" : {
+         "name" : "FACE WITH UNEVEN EYES AND WAVY MOUTH"
+      },
+      "1F975" : {
+         "name" : "OVERHEATED FACE"
+      },
+      "1F976" : {
+         "name" : "FREEZING FACE"
+      },
+      "1F97A" : {
+         "name" : "FACE WITH PLEADING EYES"
+      },
+      "1F97C" : {
+         "name" : "LAB COAT"
+      },
+      "1F97D" : {
+         "name" : "GOGGLES"
+      },
+      "1F97E" : {
+         "name" : "HIKING BOOT"
+      },
+      "1F97F" : {
+         "name" : "FLAT SHOE"
       },
       "1F98" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI"
@@ -66040,17 +67726,86 @@
       "1F997" : {
          "name" : "CRICKET"
       },
+      "1F998" : {
+         "name" : "KANGAROO"
+      },
+      "1F999" : {
+         "name" : "LLAMA"
+      },
+      "1F99A" : {
+         "name" : "PEACOCK"
+      },
+      "1F99B" : {
+         "name" : "HIPPOPOTAMUS"
+      },
+      "1F99C" : {
+         "name" : "PARROT"
+      },
+      "1F99D" : {
+         "name" : "RACCOON"
+      },
+      "1F99E" : {
+         "name" : "LOBSTER"
+      },
+      "1F99F" : {
+         "name" : "MOSQUITO"
+      },
       "1F9A" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI"
       },
+      "1F9A0" : {
+         "name" : "MICROBE"
+      },
+      "1F9A1" : {
+         "name" : "BADGER"
+      },
+      "1F9A2" : {
+         "name" : "SWAN"
+      },
       "1F9B" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI"
+      },
+      "1F9B0" : {
+         "name" : "EMOJI COMPONENT RED HAIR"
+      },
+      "1F9B1" : {
+         "name" : "EMOJI COMPONENT CURLY HAIR"
+      },
+      "1F9B2" : {
+         "name" : "EMOJI COMPONENT BALD"
+      },
+      "1F9B3" : {
+         "name" : "EMOJI COMPONENT WHITE HAIR"
+      },
+      "1F9B4" : {
+         "name" : "BONE"
+      },
+      "1F9B5" : {
+         "name" : "LEG"
+      },
+      "1F9B6" : {
+         "name" : "FOOT"
+      },
+      "1F9B7" : {
+         "name" : "TOOTH"
+      },
+      "1F9B8" : {
+         "name" : "SUPERHERO"
+      },
+      "1F9B9" : {
+         "name" : "SUPERVILLAIN"
       },
       "1F9C" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
       },
       "1F9C0" : {
          "name" : "CHEESE WEDGE"
+      },
+      "1F9C1" : {
+         "name" : "CUPCAKE"
+      },
+      "1F9C2" : {
+         "name" : "SALT SHAKER"
       },
       "1F9D" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
@@ -66127,8 +67882,83 @@
       "1F9E6" : {
          "name" : "SOCKS"
       },
+      "1F9E7" : {
+         "name" : "RED GIFT ENVELOPE"
+      },
+      "1F9E8" : {
+         "name" : "FIRECRACKER"
+      },
+      "1F9E9" : {
+         "name" : "JIGSAW PUZZLE PIECE"
+      },
+      "1F9EA" : {
+         "name" : "TEST TUBE"
+      },
+      "1F9EB" : {
+         "name" : "PETRI DISH"
+      },
+      "1F9EC" : {
+         "name" : "DNA DOUBLE HELIX"
+      },
+      "1F9ED" : {
+         "name" : "COMPASS"
+      },
+      "1F9EE" : {
+         "name" : "ABACUS"
+      },
+      "1F9EF" : {
+         "name" : "FIRE EXTINGUISHER"
+      },
       "1F9F" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI"
+      },
+      "1F9F0" : {
+         "name" : "TOOLBOX"
+      },
+      "1F9F1" : {
+         "name" : "BRICK"
+      },
+      "1F9F2" : {
+         "name" : "MAGNET"
+      },
+      "1F9F3" : {
+         "name" : "LUGGAGE"
+      },
+      "1F9F4" : {
+         "name" : "LOTION BOTTLE"
+      },
+      "1F9F5" : {
+         "name" : "SPOOL OF THREAD"
+      },
+      "1F9F6" : {
+         "name" : "BALL OF YARN"
+      },
+      "1F9F7" : {
+         "name" : "SAFETY PIN"
+      },
+      "1F9F8" : {
+         "name" : "TEDDY BEAR"
+      },
+      "1F9F9" : {
+         "name" : "BROOM"
+      },
+      "1F9FA" : {
+         "name" : "BASKET"
+      },
+      "1F9FB" : {
+         "name" : "ROLL OF PAPER"
+      },
+      "1F9FC" : {
+         "name" : "BAR OF SOAP"
+      },
+      "1F9FD" : {
+         "name" : "SPONGE"
+      },
+      "1F9FE" : {
+         "name" : "RECEIPT"
+      },
+      "1F9FF" : {
+         "name" : "NAZAR AMULET"
       },
       "1FA0" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI"
@@ -66150,6 +67980,48 @@
       },
       "1FA6" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI"
+      },
+      "1FA60" : {
+         "name" : "XIANGQI RED GENERAL"
+      },
+      "1FA61" : {
+         "name" : "XIANGQI RED MANDARIN"
+      },
+      "1FA62" : {
+         "name" : "XIANGQI RED ELEPHANT"
+      },
+      "1FA63" : {
+         "name" : "XIANGQI RED HORSE"
+      },
+      "1FA64" : {
+         "name" : "XIANGQI RED CHARIOT"
+      },
+      "1FA65" : {
+         "name" : "XIANGQI RED CANNON"
+      },
+      "1FA66" : {
+         "name" : "XIANGQI RED SOLDIER"
+      },
+      "1FA67" : {
+         "name" : "XIANGQI BLACK GENERAL"
+      },
+      "1FA68" : {
+         "name" : "XIANGQI BLACK MANDARIN"
+      },
+      "1FA69" : {
+         "name" : "XIANGQI BLACK ELEPHANT"
+      },
+      "1FA6A" : {
+         "name" : "XIANGQI BLACK HORSE"
+      },
+      "1FA6B" : {
+         "name" : "XIANGQI BLACK CHARIOT"
+      },
+      "1FA6C" : {
+         "name" : "XIANGQI BLACK CANNON"
+      },
+      "1FA6D" : {
+         "name" : "XIANGQI BLACK SOLDIER"
       },
       "1FA7" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI"
@@ -75512,6 +77384,15 @@
       "2BB9" : {
          "name" : "UP ARROWHEAD IN A RECTANGLE BOX"
       },
+      "2BBA" : {
+         "name" : "OVERLAPPING WHITE SQUARES"
+      },
+      "2BBB" : {
+         "name" : "OVERLAPPING WHITE AND BLACK SQUARES"
+      },
+      "2BBC" : {
+         "name" : "OVERLAPPING BLACK SQUARES"
+      },
       "2BBD" : {
          "name" : "BALLOT BOX WITH LIGHT X"
       },
@@ -75575,6 +77456,81 @@
       "2BD2" : {
          "name" : "GROUP MARK"
       },
+      "2BD3" : {
+         "name" : "PLUTO FORM TWO"
+      },
+      "2BD4" : {
+         "name" : "PLUTO FORM THREE"
+      },
+      "2BD5" : {
+         "name" : "PLUTO FORM FOUR"
+      },
+      "2BD6" : {
+         "name" : "PLUTO FORM FIVE"
+      },
+      "2BD7" : {
+         "name" : "TRANSPLUTO"
+      },
+      "2BD8" : {
+         "name" : "PROSERPINA"
+      },
+      "2BD9" : {
+         "name" : "ASTRAEA"
+      },
+      "2BDA" : {
+         "name" : "HYGIEA"
+      },
+      "2BDB" : {
+         "name" : "PHOLUS"
+      },
+      "2BDC" : {
+         "name" : "NESSUS"
+      },
+      "2BDD" : {
+         "name" : "WHITE MOON SELENA"
+      },
+      "2BDE" : {
+         "name" : "BLACK DIAMOND ON CROSS"
+      },
+      "2BDF" : {
+         "name" : "TRUE LIGHT MOON ARTA"
+      },
+      "2BE0" : {
+         "name" : "CUPIDO"
+      },
+      "2BE1" : {
+         "name" : "HADES"
+      },
+      "2BE2" : {
+         "name" : "ZEUS"
+      },
+      "2BE3" : {
+         "name" : "KRONOS"
+      },
+      "2BE4" : {
+         "name" : "APOLLON"
+      },
+      "2BE5" : {
+         "name" : "ADMETOS"
+      },
+      "2BE6" : {
+         "name" : "VULCANUS"
+      },
+      "2BE7" : {
+         "name" : "POSEIDON"
+      },
+      "2BE8" : {
+         "name" : "LEFT HALF BLACK STAR"
+      },
+      "2BE9" : {
+         "name" : "RIGHT HALF BLACK STAR"
+      },
+      "2BEA" : {
+         "name" : "STAR WITH LEFT HALF BLACK"
+      },
+      "2BEB" : {
+         "name" : "STAR WITH RIGHT HALF BLACK"
+      },
       "2BEC" : {
          "name" : "LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS"
       },
@@ -75586,6 +77542,51 @@
       },
       "2BEF" : {
          "name" : "DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS"
+      },
+      "2BF0" : {
+         "name" : "ERIS FORM ONE"
+      },
+      "2BF1" : {
+         "name" : "ERIS FORM TWO"
+      },
+      "2BF2" : {
+         "name" : "SEDNA"
+      },
+      "2BF3" : {
+         "name" : "RUSSIAN ASTROLOGICAL SYMBOL VIGINTILE"
+      },
+      "2BF4" : {
+         "name" : "RUSSIAN ASTROLOGICAL SYMBOL NOVILE"
+      },
+      "2BF5" : {
+         "name" : "RUSSIAN ASTROLOGICAL SYMBOL QUINTILE"
+      },
+      "2BF6" : {
+         "name" : "RUSSIAN ASTROLOGICAL SYMBOL BINOVILE"
+      },
+      "2BF7" : {
+         "name" : "RUSSIAN ASTROLOGICAL SYMBOL SENTAGON"
+      },
+      "2BF8" : {
+         "name" : "RUSSIAN ASTROLOGICAL SYMBOL TREDECILE"
+      },
+      "2BF9" : {
+         "name" : "EQUALS SIGN WITH INFINITY BELOW"
+      },
+      "2BFA" : {
+         "name" : "UNITED SYMBOL"
+      },
+      "2BFB" : {
+         "name" : "SEPARATED SYMBOL"
+      },
+      "2BFC" : {
+         "name" : "DOUBLED SYMBOL"
+      },
+      "2BFD" : {
+         "name" : "PASSED SYMBOL"
+      },
+      "2BFE" : {
+         "name" : "REVERSED RIGHT ANGLE"
       },
       "2C00" : {
          "name" : "GLAGOLITIC CAPITAL LETTER AZU"
@@ -77185,6 +79186,21 @@
       },
       "2E49" : {
          "name" : "DOUBLE STACKED COMMA"
+      },
+      "2E4A" : {
+         "name" : "DOTTED SOLIDUS"
+      },
+      "2E4B" : {
+         "name" : "TRIPLE DAGGER"
+      },
+      "2E4C" : {
+         "name" : "MEDIEVAL COMMA"
+      },
+      "2E4D" : {
+         "name" : "PARAGRAPHUS MARK"
+      },
+      "2E4E" : {
+         "name" : "PUNCTUS ELEVATUS MARK"
       },
       "2E80" : {
          "name" : "CJK RADICAL REPEAT"
@@ -80947,6 +82963,9 @@
       },
       "312E" : {
          "name" : "BOPOMOFO LETTER O WITH DOT ABOVE"
+      },
+      "312F" : {
+         "name" : "BOPOMOFO LETTER NN"
       },
       "3131" : {
          "name" : "HANGUL LETTER KIYEOK"
@@ -89175,6 +91194,9 @@
       "A7AE" : {
          "name" : "LATIN CAPITAL LETTER SMALL CAPITAL I"
       },
+      "A7AF" : {
+         "name" : "LATIN LETTER SMALL CAPITAL Q"
+      },
       "A7B0" : {
          "name" : "LATIN CAPITAL LETTER TURNED K"
       },
@@ -89198,6 +91220,12 @@
       },
       "A7B7" : {
          "name" : "LATIN SMALL LETTER OMEGA"
+      },
+      "A7B8" : {
+         "name" : "LATIN CAPITAL LETTER U WITH STROKE"
+      },
+      "A7B9" : {
+         "name" : "LATIN SMALL LETTER U WITH STROKE"
       },
       "A7F7" : {
          "name" : "LATIN EPIGRAPHIC LETTER SIDEWAYS I"
@@ -89891,6 +91919,12 @@
       },
       "A8FD" : {
          "name" : "DEVANAGARI JAIN OM"
+      },
+      "A8FE" : {
+         "name" : "DEVANAGARI LETTER AY"
+      },
+      "A8FF" : {
+         "name" : "DEVANAGARI VOWEL SIGN AY"
       },
       "A900" : {
          "name" : "KAYAH LI DIGIT ZERO"

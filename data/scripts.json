@@ -10,6 +10,10 @@
          "u_nu_desc" : "Adlam digits",
          "unicode" : "Adlam",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Adlam" : 1,
+            "Adlm" : 1
+         },
          "xforms" : "Adlam"
       },
       "Afak" : {
@@ -27,6 +31,10 @@
          "iso" : "Aghb",
          "unicode" : "Caucasian_Albanian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Aghb" : 1,
+            "Caucasian_Albanian" : 1
+         },
          "xforms" : "CaucasianAlbanian"
       },
       "Ahom" : {
@@ -40,6 +48,9 @@
          "u_nu_desc" : "Ahom digits",
          "unicode" : "Ahom",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Ahom" : 1
+         },
          "xforms" : "Ahom"
       },
       "Arab" : {
@@ -53,6 +64,10 @@
          "u_nu_desc" : "Arabic-Indic digits",
          "unicode" : "Arabic",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Arab" : 1,
+            "Arabic" : 1
+         },
          "xforms" : "Arabic"
       },
       "Aran" : {
@@ -70,6 +85,10 @@
          "iso" : "Armi",
          "unicode" : "Imperial_Aramaic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Armi" : 1,
+            "Imperial_Aramaic" : 1
+         },
          "xforms" : "ImperialAramaic"
       },
       "Armn" : {
@@ -83,6 +102,10 @@
          "u_nu_desc" : "Armenian upper case numerals — algorithmic",
          "unicode" : "Armenian",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Armenian" : 1,
+            "Armn" : 1
+         },
          "xforms" : "Armenian"
       },
       "Avst" : {
@@ -93,6 +116,10 @@
          "iso" : "Avst",
          "unicode" : "Avestan",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Avestan" : 1,
+            "Avst" : 1
+         },
          "xforms" : "Avestan"
       },
       "Bali" : {
@@ -105,6 +132,10 @@
          "u_nu_desc" : "Balinese digits",
          "unicode" : "Balinese",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Bali" : 1,
+            "Balinese" : 1
+         },
          "xforms" : "Balinese"
       },
       "Bamu" : {
@@ -115,6 +146,10 @@
          "iso" : "Bamu",
          "unicode" : "Bamum",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Bamu" : 1,
+            "Bamum" : 1
+         },
          "xforms" : "Bamum"
       },
       "Bass" : {
@@ -125,6 +160,10 @@
          "iso" : "Bass",
          "unicode" : "Bassa_Vah",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Bass" : 1,
+            "Bassa_Vah" : 1
+         },
          "xforms" : "BassaVah"
       },
       "Batk" : {
@@ -135,6 +174,10 @@
          "iso" : "Batk",
          "unicode" : "Batak",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Batak" : 1,
+            "Batk" : 1
+         },
          "xforms" : "Batak"
       },
       "Beng" : {
@@ -149,6 +192,10 @@
          "u_nu_desc" : "Bengali digits",
          "unicode" : "Bengali",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Beng" : 1,
+            "Bengali" : 1
+         },
          "xforms" : "Bengali"
       },
       "Bhks" : {
@@ -161,6 +208,10 @@
          "u_nu_desc" : "Bhaiksuki digits",
          "unicode" : "Bhaiksuki",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Bhaiksuki" : 1,
+            "Bhks" : 1
+         },
          "xforms" : "Bhaiksuki"
       },
       "Blis" : {
@@ -179,6 +230,10 @@
          "iso" : "Bopo",
          "unicode" : "Bopomofo",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Bopo" : 1,
+            "Bopomofo" : 1
+         },
          "xforms" : "Bopomofo"
       },
       "Brah" : {
@@ -191,6 +246,10 @@
          "u_nu_desc" : "Brahmi digits",
          "unicode" : "Brahmi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Brah" : 1,
+            "Brahmi" : 1
+         },
          "xforms" : "Brahmi"
       },
       "Brai" : {
@@ -200,6 +259,10 @@
          "ianareg" : "2005-10-16",
          "iso" : "Brai",
          "unicode" : "Braille",
+         "unicode_names" : {
+            "Brai" : 1,
+            "Braille" : 1
+         },
          "xforms" : "Braille"
       },
       "Bugi" : {
@@ -210,6 +273,10 @@
          "iso" : "Bugi",
          "unicode" : "Buginese",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Bugi" : 1,
+            "Buginese" : 1
+         },
          "xforms" : "Buginese"
       },
       "Buhd" : {
@@ -220,6 +287,10 @@
          "iso" : "Buhd",
          "unicode" : "Buhid",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Buhd" : 1,
+            "Buhid" : 1
+         },
          "xforms" : "Buhid"
       },
       "Cakm" : {
@@ -232,6 +303,10 @@
          "u_nu_desc" : "Chakma digits",
          "unicode" : "Chakma",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Cakm" : 1,
+            "Chakma" : 1
+         },
          "xforms" : "Chakma"
       },
       "Cans" : {
@@ -242,6 +317,10 @@
          "iso" : "Cans",
          "unicode" : "Canadian_Aboriginal",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Canadian_Aboriginal" : 1,
+            "Cans" : 1
+         },
          "xforms" : "CanadianAboriginal"
       },
       "Cari" : {
@@ -252,6 +331,10 @@
          "iso" : "Cari",
          "unicode" : "Carian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Cari" : 1,
+            "Carian" : 1
+         },
          "xforms" : "Carian"
       },
       "Cham" : {
@@ -264,6 +347,9 @@
          "u_nu_desc" : "Cham digits",
          "unicode" : "Cham",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Cham" : 1
+         },
          "xforms" : "Cham"
       },
       "Cher" : {
@@ -274,6 +360,10 @@
          "iso" : "Cher",
          "unicode" : "Cherokee",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Cher" : 1,
+            "Cherokee" : 1
+         },
          "xforms" : "Cherokee"
       },
       "Cirt" : {
@@ -291,6 +381,11 @@
          "iso" : "Copt",
          "unicode" : "Coptic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Copt" : 1,
+            "Coptic" : 1,
+            "Qaac" : 1
+         },
          "xforms" : "Coptic"
       },
       "Cpmn" : {
@@ -308,6 +403,10 @@
          "iso" : "Cprt",
          "unicode" : "Cypriot",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Cprt" : 1,
+            "Cypriot" : 1
+         },
          "xforms" : "Cypriot"
       },
       "Cyrl" : {
@@ -321,6 +420,10 @@
          "u_nu_desc" : "Cyrillic numerals — algorithmic",
          "unicode" : "Cyrillic",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Cyrillic" : 1,
+            "Cyrl" : 1
+         },
          "xforms" : "Cyrillic"
       },
       "Cyrs" : {
@@ -342,6 +445,10 @@
          "u_nu_desc" : "Devanagari digits",
          "unicode" : "Devanagari",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Deva" : 1,
+            "Devanagari" : 1
+         },
          "xforms" : "Devanagari"
       },
       "Dogr" : {
@@ -349,7 +456,14 @@
             "Dogra"
          ],
          "ianareg" : "2017-01-13",
-         "iso" : "Dogr"
+         "iso" : "Dogr",
+         "unicode" : "Dogra",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Dogr" : 1,
+            "Dogra" : 1
+         },
+         "xforms" : "Dogra"
       },
       "Dsrt" : {
          "desc" : [
@@ -360,6 +474,10 @@
          "iso" : "Dsrt",
          "unicode" : "Deseret",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Deseret" : 1,
+            "Dsrt" : 1
+         },
          "xforms" : "Deseret"
       },
       "Dupl" : {
@@ -371,6 +489,10 @@
          "iso" : "Dupl",
          "unicode" : "Duployan",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Dupl" : 1,
+            "Duployan" : 1
+         },
          "xforms" : "Duployan"
       },
       "Egyd" : {
@@ -395,6 +517,10 @@
          "iso" : "Egyp",
          "unicode" : "Egyptian_Hieroglyphs",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Egyp" : 1,
+            "Egyptian_Hieroglyphs" : 1
+         },
          "xforms" : "EgyptianHieroglyphs"
       },
       "Elba" : {
@@ -405,7 +531,18 @@
          "iso" : "Elba",
          "unicode" : "Elbasan",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Elba" : 1,
+            "Elbasan" : 1
+         },
          "xforms" : "Elbasan"
+      },
+      "Elym" : {
+         "desc" : [
+            "Elymaic"
+         ],
+         "ianareg" : "2018-10-28",
+         "iso" : "Elym"
       },
       "Ethi" : {
          "collation_reorder" : "Ethi",
@@ -420,6 +557,10 @@
          "u_nu_desc" : "Ethiopic numerals — algorithmic",
          "unicode" : "Ethiopic",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Ethi" : 1,
+            "Ethiopic" : 1
+         },
          "xforms" : "Ethiopic"
       },
       "Geok" : {
@@ -440,6 +581,10 @@
          "u_nu_desc" : "Georgian numerals — algorithmic",
          "unicode" : "Georgian",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Geor" : 1,
+            "Georgian" : 1
+         },
          "xforms" : "Georgian"
       },
       "Glag" : {
@@ -450,6 +595,10 @@
          "iso" : "Glag",
          "unicode" : "Glagolitic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Glag" : 1,
+            "Glagolitic" : 1
+         },
          "xforms" : "Glagolitic"
       },
       "Gong" : {
@@ -459,7 +608,14 @@
          "ianareg" : "2017-01-13",
          "iso" : "Gong",
          "u_nu" : "gong",
-         "u_nu_desc" : "Gunjala Gondi digits"
+         "u_nu_desc" : "Gunjala Gondi digits",
+         "unicode" : "Gunjala_Gondi",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Gong" : 1,
+            "Gunjala_Gondi" : 1
+         },
+         "xforms" : "GunjalaGondi"
       },
       "Gonm" : {
          "desc" : [
@@ -471,6 +627,10 @@
          "u_nu_desc" : "Masaram Gondi digits",
          "unicode" : "Masaram_Gondi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Gonm" : 1,
+            "Masaram_Gondi" : 1
+         },
          "xforms" : "MasaramGondi"
       },
       "Goth" : {
@@ -481,6 +641,10 @@
          "iso" : "Goth",
          "unicode" : "Gothic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Goth" : 1,
+            "Gothic" : 1
+         },
          "xforms" : "Gothic"
       },
       "Gran" : {
@@ -491,6 +655,10 @@
          "iso" : "Gran",
          "unicode" : "Grantha",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Gran" : 1,
+            "Grantha" : 1
+         },
          "xforms" : "Grantha"
       },
       "Grek" : {
@@ -504,6 +672,10 @@
          "u_nu_desc" : "Greek upper case numerals — algorithmic",
          "unicode" : "Greek",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Greek" : 1,
+            "Grek" : 1
+         },
          "xforms" : "Greek"
       },
       "Gujr" : {
@@ -517,6 +689,10 @@
          "u_nu_desc" : "Gujarati digits",
          "unicode" : "Gujarati",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Gujarati" : 1,
+            "Gujr" : 1
+         },
          "xforms" : "Gujarati"
       },
       "Guru" : {
@@ -530,6 +706,10 @@
          "u_nu_desc" : "Gurmukhi digits",
          "unicode" : "Gurmukhi",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Gurmukhi" : 1,
+            "Guru" : 1
+         },
          "xforms" : "Gurmukhi"
       },
       "Hanb" : {
@@ -550,6 +730,10 @@
          "iso" : "Hang",
          "unicode" : "Hangul",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Hang" : 1,
+            "Hangul" : 1
+         },
          "xforms" : "Hangul"
       },
       "Hani" : {
@@ -564,6 +748,10 @@
          "iso" : "Hani",
          "unicode" : "Han",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Han" : 1,
+            "Hani" : 1
+         },
          "xforms" : "Han"
       },
       "Hano" : {
@@ -575,6 +763,10 @@
          "iso" : "Hano",
          "unicode" : "Hanunoo",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Hano" : 1,
+            "Hanunoo" : 1
+         },
          "xforms" : "Hanunoo"
       },
       "Hans" : {
@@ -605,6 +797,10 @@
          "iso" : "Hatr",
          "unicode" : "Hatran",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Hatr" : 1,
+            "Hatran" : 1
+         },
          "xforms" : "Hatran"
       },
       "Hebr" : {
@@ -618,6 +814,10 @@
          "u_nu_desc" : "Hebrew numerals — algorithmic",
          "unicode" : "Hebrew",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Hebr" : 1,
+            "Hebrew" : 1
+         },
          "xforms" : "Hebrew"
       },
       "Hira" : {
@@ -629,6 +829,10 @@
          "iso" : "Hira",
          "unicode" : "Hiragana",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Hira" : 1,
+            "Hiragana" : 1
+         },
          "xforms" : "Hiragana"
       },
       "Hluw" : {
@@ -641,6 +845,10 @@
          "iso" : "Hluw",
          "unicode" : "Anatolian_Hieroglyphs",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Anatolian_Hieroglyphs" : 1,
+            "Hluw" : 1
+         },
          "xforms" : "AnatolianHieroglyphs"
       },
       "Hmng" : {
@@ -653,6 +861,10 @@
          "u_nu_desc" : "Pahawh Hmong digits",
          "unicode" : "Pahawh_Hmong",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Hmng" : 1,
+            "Pahawh_Hmong" : 1
+         },
          "xforms" : "PahawhHmong"
       },
       "Hmnp" : {
@@ -669,6 +881,10 @@
          "ianareg" : "2005-10-16",
          "iso" : "Hrkt",
          "unicode" : "Katakana_Or_Hiragana",
+         "unicode_names" : {
+            "Hrkt" : 1,
+            "Katakana_Or_Hiragana" : 1
+         },
          "xforms" : "KatakanaOrHiragana"
       },
       "Hung" : {
@@ -680,6 +896,10 @@
          "iso" : "Hung",
          "unicode" : "Old_Hungarian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Hung" : 1,
+            "Old_Hungarian" : 1
+         },
          "xforms" : "OldHungarian"
       },
       "Inds" : {
@@ -698,6 +918,10 @@
          "iso" : "Ital",
          "unicode" : "Old_Italic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Ital" : 1,
+            "Old_Italic" : 1
+         },
          "xforms" : "OldItalic"
       },
       "Jamo" : {
@@ -717,6 +941,10 @@
          "u_nu_desc" : "Javanese digits",
          "unicode" : "Javanese",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Java" : 1,
+            "Javanese" : 1
+         },
          "xforms" : "Javanese"
       },
       "Jpan" : {
@@ -745,6 +973,10 @@
          "u_nu_desc" : "Kayah Li digits",
          "unicode" : "Kayah_Li",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Kali" : 1,
+            "Kayah_Li" : 1
+         },
          "xforms" : "KayahLi"
       },
       "Kana" : {
@@ -755,6 +987,10 @@
          "iso" : "Kana",
          "unicode" : "Katakana",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Kana" : 1,
+            "Katakana" : 1
+         },
          "xforms" : "Katakana"
       },
       "Khar" : {
@@ -765,6 +1001,10 @@
          "iso" : "Khar",
          "unicode" : "Kharoshthi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Khar" : 1,
+            "Kharoshthi" : 1
+         },
          "xforms" : "Kharoshthi"
       },
       "Khmr" : {
@@ -778,6 +1018,10 @@
          "u_nu_desc" : "Khmer digits",
          "unicode" : "Khmer",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Khmer" : 1,
+            "Khmr" : 1
+         },
          "xforms" : "Khmer"
       },
       "Khoj" : {
@@ -788,6 +1032,10 @@
          "iso" : "Khoj",
          "unicode" : "Khojki",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Khoj" : 1,
+            "Khojki" : 1
+         },
          "xforms" : "Khojki"
       },
       "Kitl" : {
@@ -815,6 +1063,10 @@
          "u_nu_desc" : "Kannada digits",
          "unicode" : "Kannada",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Kannada" : 1,
+            "Knda" : 1
+         },
          "xforms" : "Kannada"
       },
       "Kore" : {
@@ -839,6 +1091,10 @@
          "iso" : "Kthi",
          "unicode" : "Kaithi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Kaithi" : 1,
+            "Kthi" : 1
+         },
          "xforms" : "Kaithi"
       },
       "Lana" : {
@@ -852,6 +1108,10 @@
          "u_nu_desc" : "Tai Tham Hora (secular) digits",
          "unicode" : "Tai_Tham",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Lana" : 1,
+            "Tai_Tham" : 1
+         },
          "xforms" : "TaiTham"
       },
       "Laoo" : {
@@ -865,6 +1125,10 @@
          "u_nu_desc" : "Lao digits",
          "unicode" : "Lao",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Lao" : 1,
+            "Laoo" : 1
+         },
          "xforms" : "Lao"
       },
       "Latf" : {
@@ -892,6 +1156,10 @@
          "u_nu_desc" : "Latin digits",
          "unicode" : "Latin",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Latin" : 1,
+            "Latn" : 1
+         },
          "xforms" : "Latin"
       },
       "Leke" : {
@@ -912,6 +1180,10 @@
          "u_nu_desc" : "Lepcha digits",
          "unicode" : "Lepcha",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Lepc" : 1,
+            "Lepcha" : 1
+         },
          "xforms" : "Lepcha"
       },
       "Limb" : {
@@ -924,6 +1196,10 @@
          "u_nu_desc" : "Limbu digits",
          "unicode" : "Limbu",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Limb" : 1,
+            "Limbu" : 1
+         },
          "xforms" : "Limbu"
       },
       "Lina" : {
@@ -934,6 +1210,10 @@
          "iso" : "Lina",
          "unicode" : "Linear_A",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Lina" : 1,
+            "Linear_A" : 1
+         },
          "xforms" : "LinearA"
       },
       "Linb" : {
@@ -944,6 +1224,10 @@
          "iso" : "Linb",
          "unicode" : "Linear_B",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Linb" : 1,
+            "Linear_B" : 1
+         },
          "xforms" : "LinearB"
       },
       "Lisu" : {
@@ -955,6 +1239,9 @@
          "iso" : "Lisu",
          "unicode" : "Lisu",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Lisu" : 1
+         },
          "xforms" : "Lisu"
       },
       "Loma" : {
@@ -972,6 +1259,10 @@
          "iso" : "Lyci",
          "unicode" : "Lycian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Lyci" : 1,
+            "Lycian" : 1
+         },
          "xforms" : "Lycian"
       },
       "Lydi" : {
@@ -982,6 +1273,10 @@
          "iso" : "Lydi",
          "unicode" : "Lydian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Lydi" : 1,
+            "Lydian" : 1
+         },
          "xforms" : "Lydian"
       },
       "Mahj" : {
@@ -992,6 +1287,10 @@
          "iso" : "Mahj",
          "unicode" : "Mahajani",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Mahajani" : 1,
+            "Mahj" : 1
+         },
          "xforms" : "Mahajani"
       },
       "Maka" : {
@@ -999,7 +1298,14 @@
             "Makasar"
          ],
          "ianareg" : "2017-01-13",
-         "iso" : "Maka"
+         "iso" : "Maka",
+         "unicode" : "Makasar",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Maka" : 1,
+            "Makasar" : 1
+         },
+         "xforms" : "Makasar"
       },
       "Mand" : {
          "desc" : [
@@ -1010,6 +1316,10 @@
          "iso" : "Mand",
          "unicode" : "Mandaic",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Mand" : 1,
+            "Mandaic" : 1
+         },
          "xforms" : "Mandaic"
       },
       "Mani" : {
@@ -1020,6 +1330,10 @@
          "iso" : "Mani",
          "unicode" : "Manichaean",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Mani" : 1,
+            "Manichaean" : 1
+         },
          "xforms" : "Manichaean"
       },
       "Marc" : {
@@ -1030,6 +1344,10 @@
          "iso" : "Marc",
          "unicode" : "Marchen",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Marc" : 1,
+            "Marchen" : 1
+         },
          "xforms" : "Marchen"
       },
       "Maya" : {
@@ -1046,7 +1364,14 @@
             "Oberi Ɔkaimɛ"
          ],
          "ianareg" : "2017-01-13",
-         "iso" : "Medf"
+         "iso" : "Medf",
+         "unicode" : "Medefaidrin",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Medefaidrin" : 1,
+            "Medf" : 1
+         },
+         "xforms" : "Medefaidrin"
       },
       "Mend" : {
          "desc" : [
@@ -1056,6 +1381,10 @@
          "iso" : "Mend",
          "unicode" : "Mende_Kikakui",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Mend" : 1,
+            "Mende_Kikakui" : 1
+         },
          "xforms" : "MendeKikakui"
       },
       "Merc" : {
@@ -1066,6 +1395,10 @@
          "iso" : "Merc",
          "unicode" : "Meroitic_Cursive",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Merc" : 1,
+            "Meroitic_Cursive" : 1
+         },
          "xforms" : "MeroiticCursive"
       },
       "Mero" : {
@@ -1076,6 +1409,10 @@
          "iso" : "Mero",
          "unicode" : "Meroitic_Hieroglyphs",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Mero" : 1,
+            "Meroitic_Hieroglyphs" : 1
+         },
          "xforms" : "MeroiticHieroglyphs"
       },
       "Mlym" : {
@@ -1089,6 +1426,10 @@
          "u_nu_desc" : "Malayalam digits",
          "unicode" : "Malayalam",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Malayalam" : 1,
+            "Mlym" : 1
+         },
          "xforms" : "Malayalam"
       },
       "Modi" : {
@@ -1102,6 +1443,9 @@
          "u_nu_desc" : "Modi digits",
          "unicode" : "Modi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Modi" : 1
+         },
          "xforms" : "Modi"
       },
       "Mong" : {
@@ -1113,7 +1457,11 @@
          "u_nu" : "mong",
          "u_nu_desc" : "Mongolian digits",
          "unicode" : "Mongolian",
-         "unicode_id" : "limited",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Mong" : 1,
+            "Mongolian" : 1
+         },
          "xforms" : "Mongolian"
       },
       "Moon" : {
@@ -1137,6 +1485,10 @@
          "u_nu_desc" : "Mro digits",
          "unicode" : "Mro",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Mro" : 1,
+            "Mroo" : 1
+         },
          "xforms" : "Mro"
       },
       "Mtei" : {
@@ -1151,6 +1503,10 @@
          "u_nu_desc" : "Meetei Mayek digits",
          "unicode" : "Meetei_Mayek",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Meetei_Mayek" : 1,
+            "Mtei" : 1
+         },
          "xforms" : "MeeteiMayek"
       },
       "Mult" : {
@@ -1161,6 +1517,10 @@
          "iso" : "Mult",
          "unicode" : "Multani",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Mult" : 1,
+            "Multani" : 1
+         },
          "xforms" : "Multani"
       },
       "Mymr" : {
@@ -1175,7 +1535,18 @@
          "u_nu_desc" : "Myanmar digits",
          "unicode" : "Myanmar",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Myanmar" : 1,
+            "Mymr" : 1
+         },
          "xforms" : "Myanmar"
+      },
+      "Nand" : {
+         "desc" : [
+            "Nandinagari"
+         ],
+         "ianareg" : "2018-10-28",
+         "iso" : "Nand"
       },
       "Narb" : {
          "desc" : [
@@ -1186,6 +1557,10 @@
          "iso" : "Narb",
          "unicode" : "Old_North_Arabian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Narb" : 1,
+            "Old_North_Arabian" : 1
+         },
          "xforms" : "OldNorthArabian"
       },
       "Nbat" : {
@@ -1196,6 +1571,10 @@
          "iso" : "Nbat",
          "unicode" : "Nabataean",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Nabataean" : 1,
+            "Nbat" : 1
+         },
          "xforms" : "Nabataean"
       },
       "Newa" : {
@@ -1211,6 +1590,9 @@
          "u_nu_desc" : "Newa digits",
          "unicode" : "Newa",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Newa" : 1
+         },
          "xforms" : "Newa"
       },
       "Nkdb" : {
@@ -1243,6 +1625,10 @@
          "u_nu_desc" : "N'Ko digits",
          "unicode" : "Nko",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Nko" : 1,
+            "Nkoo" : 1
+         },
          "xforms" : "Nko"
       },
       "Nshu" : {
@@ -1253,6 +1639,10 @@
          "iso" : "Nshu",
          "unicode" : "Nushu",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Nshu" : 1,
+            "Nushu" : 1
+         },
          "xforms" : "Nushu"
       },
       "Ogam" : {
@@ -1263,6 +1653,10 @@
          "iso" : "Ogam",
          "unicode" : "Ogham",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Ogam" : 1,
+            "Ogham" : 1
+         },
          "xforms" : "Ogham"
       },
       "Olck" : {
@@ -1278,6 +1672,10 @@
          "u_nu_desc" : "Ol Chiki digits",
          "unicode" : "Ol_Chiki",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Ol_Chiki" : 1,
+            "Olck" : 1
+         },
          "xforms" : "OlChiki"
       },
       "Orkh" : {
@@ -1289,6 +1687,10 @@
          "iso" : "Orkh",
          "unicode" : "Old_Turkic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Old_Turkic" : 1,
+            "Orkh" : 1
+         },
          "xforms" : "OldTurkic"
       },
       "Orya" : {
@@ -1303,6 +1705,10 @@
          "u_nu_desc" : "Oriya digits",
          "unicode" : "Oriya",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Oriya" : 1,
+            "Orya" : 1
+         },
          "xforms" : "Oriya"
       },
       "Osge" : {
@@ -1313,6 +1719,10 @@
          "iso" : "Osge",
          "unicode" : "Osage",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Osage" : 1,
+            "Osge" : 1
+         },
          "xforms" : "Osage"
       },
       "Osma" : {
@@ -1325,6 +1735,10 @@
          "u_nu_desc" : "Osmanya digits",
          "unicode" : "Osmanya",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Osma" : 1,
+            "Osmanya" : 1
+         },
          "xforms" : "Osmanya"
       },
       "Palm" : {
@@ -1335,6 +1749,10 @@
          "iso" : "Palm",
          "unicode" : "Palmyrene",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Palm" : 1,
+            "Palmyrene" : 1
+         },
          "xforms" : "Palmyrene"
       },
       "Pauc" : {
@@ -1345,6 +1763,10 @@
          "iso" : "Pauc",
          "unicode" : "Pau_Cin_Hau",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Pau_Cin_Hau" : 1,
+            "Pauc" : 1
+         },
          "xforms" : "PauCinHau"
       },
       "Perm" : {
@@ -1355,6 +1777,10 @@
          "iso" : "Perm",
          "unicode" : "Old_Permic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Old_Permic" : 1,
+            "Perm" : 1
+         },
          "xforms" : "OldPermic"
       },
       "Phag" : {
@@ -1365,6 +1791,10 @@
          "iso" : "Phag",
          "unicode" : "Phags_Pa",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Phag" : 1,
+            "Phags_Pa" : 1
+         },
          "xforms" : "PhagsPa"
       },
       "Phli" : {
@@ -1375,6 +1805,10 @@
          "iso" : "Phli",
          "unicode" : "Inscriptional_Pahlavi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Inscriptional_Pahlavi" : 1,
+            "Phli" : 1
+         },
          "xforms" : "InscriptionalPahlavi"
       },
       "Phlp" : {
@@ -1385,6 +1819,10 @@
          "iso" : "Phlp",
          "unicode" : "Psalter_Pahlavi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Phlp" : 1,
+            "Psalter_Pahlavi" : 1
+         },
          "xforms" : "PsalterPahlavi"
       },
       "Phlv" : {
@@ -1402,6 +1840,10 @@
          "iso" : "Phnx",
          "unicode" : "Phoenician",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Phnx" : 1,
+            "Phoenician" : 1
+         },
          "xforms" : "Phoenician"
       },
       "Piqd" : {
@@ -1420,6 +1862,10 @@
          "iso" : "Plrd",
          "unicode" : "Miao",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Miao" : 1,
+            "Plrd" : 1
+         },
          "xforms" : "Miao"
       },
       "Prti" : {
@@ -1430,6 +1876,10 @@
          "iso" : "Prti",
          "unicode" : "Inscriptional_Parthian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Inscriptional_Parthian" : 1,
+            "Prti" : 1
+         },
          "xforms" : "InscriptionalParthian"
       },
       "Qaaa" : {
@@ -1698,6 +2148,10 @@
          "iso" : "Rjng",
          "unicode" : "Rejang",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Rejang" : 1,
+            "Rjng" : 1
+         },
          "xforms" : "Rejang"
       },
       "Rohg" : {
@@ -1707,7 +2161,14 @@
          "ianareg" : "2017-12-13",
          "iso" : "Rohg",
          "u_nu" : "rohg",
-         "u_nu_desc" : "Hanifi Rohingya digits"
+         "u_nu_desc" : "Hanifi Rohingya digits",
+         "unicode" : "Hanifi_Rohingya",
+         "unicode_id" : "limited",
+         "unicode_names" : {
+            "Hanifi_Rohingya" : 1,
+            "Rohg" : 1
+         },
+         "xforms" : "HanifiRohingya"
       },
       "Roro" : {
          "desc" : [
@@ -1724,6 +2185,10 @@
          "iso" : "Runr",
          "unicode" : "Runic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Runic" : 1,
+            "Runr" : 1
+         },
          "xforms" : "Runic"
       },
       "Samr" : {
@@ -1734,6 +2199,10 @@
          "iso" : "Samr",
          "unicode" : "Samaritan",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Samaritan" : 1,
+            "Samr" : 1
+         },
          "xforms" : "Samaritan"
       },
       "Sara" : {
@@ -1751,6 +2220,10 @@
          "iso" : "Sarb",
          "unicode" : "Old_South_Arabian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Old_South_Arabian" : 1,
+            "Sarb" : 1
+         },
          "xforms" : "OldSouthArabian"
       },
       "Saur" : {
@@ -1763,6 +2236,10 @@
          "u_nu_desc" : "Saurashtra digits",
          "unicode" : "Saurashtra",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Saur" : 1,
+            "Saurashtra" : 1
+         },
          "xforms" : "Saurashtra"
       },
       "Sgnw" : {
@@ -1773,6 +2250,10 @@
          "iso" : "Sgnw",
          "unicode" : "SignWriting",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Sgnw" : 1,
+            "SignWriting" : 1
+         },
          "xforms" : "SignWriting"
       },
       "Shaw" : {
@@ -1784,6 +2265,10 @@
          "iso" : "Shaw",
          "unicode" : "Shavian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Shavian" : 1,
+            "Shaw" : 1
+         },
          "xforms" : "Shavian"
       },
       "Shrd" : {
@@ -1797,6 +2282,10 @@
          "u_nu_desc" : "Sharada digits",
          "unicode" : "Sharada",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Sharada" : 1,
+            "Shrd" : 1
+         },
          "xforms" : "Sharada"
       },
       "Shui" : {
@@ -1816,6 +2305,10 @@
          "iso" : "Sidd",
          "unicode" : "Siddham",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Sidd" : 1,
+            "Siddham" : 1
+         },
          "xforms" : "Siddham"
       },
       "Sind" : {
@@ -1829,6 +2322,10 @@
          "u_nu_desc" : "Khudawadi digits",
          "unicode" : "Khudawadi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Khudawadi" : 1,
+            "Sind" : 1
+         },
          "xforms" : "Khudawadi"
       },
       "Sinh" : {
@@ -1842,6 +2339,10 @@
          "u_nu_desc" : "Sinhala Lith digits",
          "unicode" : "Sinhala",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Sinh" : 1,
+            "Sinhala" : 1
+         },
          "xforms" : "Sinhala"
       },
       "Sogd" : {
@@ -1849,14 +2350,28 @@
             "Sogdian"
          ],
          "ianareg" : "2017-12-13",
-         "iso" : "Sogd"
+         "iso" : "Sogd",
+         "unicode" : "Sogdian",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Sogd" : 1,
+            "Sogdian" : 1
+         },
+         "xforms" : "Sogdian"
       },
       "Sogo" : {
          "desc" : [
             "Old Sogdian"
          ],
          "ianareg" : "2017-12-13",
-         "iso" : "Sogo"
+         "iso" : "Sogo",
+         "unicode" : "Old_Sogdian",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Old_Sogdian" : 1,
+            "Sogo" : 1
+         },
+         "xforms" : "OldSogdian"
       },
       "Sora" : {
          "desc" : [
@@ -1868,6 +2383,10 @@
          "u_nu_desc" : "Sora_Sompeng digits",
          "unicode" : "Sora_Sompeng",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Sora" : 1,
+            "Sora_Sompeng" : 1
+         },
          "xforms" : "SoraSompeng"
       },
       "Soyo" : {
@@ -1878,6 +2397,10 @@
          "iso" : "Soyo",
          "unicode" : "Soyombo",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Soyo" : 1,
+            "Soyombo" : 1
+         },
          "xforms" : "Soyombo"
       },
       "Sund" : {
@@ -1890,6 +2413,10 @@
          "u_nu_desc" : "Sundanese digits",
          "unicode" : "Sundanese",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Sund" : 1,
+            "Sundanese" : 1
+         },
          "xforms" : "Sundanese"
       },
       "Sylo" : {
@@ -1900,6 +2427,10 @@
          "iso" : "Sylo",
          "unicode" : "Syloti_Nagri",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Sylo" : 1,
+            "Syloti_Nagri" : 1
+         },
          "xforms" : "SylotiNagri"
       },
       "Syrc" : {
@@ -1910,6 +2441,10 @@
          "iso" : "Syrc",
          "unicode" : "Syriac",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Syrc" : 1,
+            "Syriac" : 1
+         },
          "xforms" : "Syriac"
       },
       "Syre" : {
@@ -1941,6 +2476,10 @@
          "iso" : "Tagb",
          "unicode" : "Tagbanwa",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Tagb" : 1,
+            "Tagbanwa" : 1
+         },
          "xforms" : "Tagbanwa"
       },
       "Takr" : {
@@ -1955,6 +2494,10 @@
          "u_nu_desc" : "Takri digits",
          "unicode" : "Takri",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Takr" : 1,
+            "Takri" : 1
+         },
          "xforms" : "Takri"
       },
       "Tale" : {
@@ -1965,6 +2508,10 @@
          "iso" : "Tale",
          "unicode" : "Tai_Le",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Tai_Le" : 1,
+            "Tale" : 1
+         },
          "xforms" : "TaiLe"
       },
       "Talu" : {
@@ -1977,6 +2524,10 @@
          "u_nu_desc" : "New Tai Lue digits",
          "unicode" : "New_Tai_Lue",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "New_Tai_Lue" : 1,
+            "Talu" : 1
+         },
          "xforms" : "NewTaiLue"
       },
       "Taml" : {
@@ -1990,6 +2541,10 @@
          "u_nu_desc" : "Tamil numerals — algorithmic",
          "unicode" : "Tamil",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Tamil" : 1,
+            "Taml" : 1
+         },
          "xforms" : "Tamil"
       },
       "Tang" : {
@@ -2000,6 +2555,10 @@
          "iso" : "Tang",
          "unicode" : "Tangut",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Tang" : 1,
+            "Tangut" : 1
+         },
          "xforms" : "Tangut"
       },
       "Tavt" : {
@@ -2010,6 +2569,10 @@
          "iso" : "Tavt",
          "unicode" : "Tai_Viet",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Tai_Viet" : 1,
+            "Tavt" : 1
+         },
          "xforms" : "TaiViet"
       },
       "Telu" : {
@@ -2023,6 +2586,10 @@
          "u_nu_desc" : "Telugu digits",
          "unicode" : "Telugu",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Telu" : 1,
+            "Telugu" : 1
+         },
          "xforms" : "Telugu"
       },
       "Teng" : {
@@ -2041,6 +2608,10 @@
          "iso" : "Tfng",
          "unicode" : "Tifinagh",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Tfng" : 1,
+            "Tifinagh" : 1
+         },
          "xforms" : "Tifinagh"
       },
       "Tglg" : {
@@ -2053,6 +2624,10 @@
          "iso" : "Tglg",
          "unicode" : "Tagalog",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Tagalog" : 1,
+            "Tglg" : 1
+         },
          "xforms" : "Tagalog"
       },
       "Thaa" : {
@@ -2064,6 +2639,10 @@
          "iso" : "Thaa",
          "unicode" : "Thaana",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Thaa" : 1,
+            "Thaana" : 1
+         },
          "xforms" : "Thaana"
       },
       "Thai" : {
@@ -2077,6 +2656,9 @@
          "u_nu_desc" : "Thai digits",
          "unicode" : "Thai",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Thai" : 1
+         },
          "xforms" : "Thai"
       },
       "Tibt" : {
@@ -2090,6 +2672,10 @@
          "u_nu_desc" : "Tibetan digits",
          "unicode" : "Tibetan",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Tibetan" : 1,
+            "Tibt" : 1
+         },
          "xforms" : "Tibetan"
       },
       "Tirh" : {
@@ -2102,6 +2688,10 @@
          "u_nu_desc" : "Tirhuta digits",
          "unicode" : "Tirhuta",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Tirh" : 1,
+            "Tirhuta" : 1
+         },
          "xforms" : "Tirhuta"
       },
       "Ugar" : {
@@ -2112,6 +2702,10 @@
          "iso" : "Ugar",
          "unicode" : "Ugaritic",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Ugar" : 1,
+            "Ugaritic" : 1
+         },
          "xforms" : "Ugaritic"
       },
       "Vaii" : {
@@ -2124,6 +2718,10 @@
          "u_nu_desc" : "Vai digits",
          "unicode" : "Vai",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Vai" : 1,
+            "Vaii" : 1
+         },
          "xforms" : "Vai"
       },
       "Visp" : {
@@ -2144,6 +2742,10 @@
          "u_nu_desc" : "Warang Citi digits",
          "unicode" : "Warang_Citi",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Wara" : 1,
+            "Warang_Citi" : 1
+         },
          "xforms" : "WarangCiti"
       },
       "Wcho" : {
@@ -2168,6 +2770,10 @@
          "iso" : "Xpeo",
          "unicode" : "Old_Persian",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Old_Persian" : 1,
+            "Xpeo" : 1
+         },
          "xforms" : "OldPersian"
       },
       "Xsux" : {
@@ -2178,6 +2784,10 @@
          "iso" : "Xsux",
          "unicode" : "Cuneiform",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Cuneiform" : 1,
+            "Xsux" : 1
+         },
          "xforms" : "Cuneiform"
       },
       "Yiii" : {
@@ -2188,6 +2798,10 @@
          "iso" : "Yiii",
          "unicode" : "Yi",
          "unicode_id" : "limited",
+         "unicode_names" : {
+            "Yi" : 1,
+            "Yiii" : 1
+         },
          "xforms" : "Yi"
       },
       "Zanb" : {
@@ -2201,6 +2815,10 @@
          "iso" : "Zanb",
          "unicode" : "Zanabazar_Square",
          "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Zanabazar_Square" : 1,
+            "Zanb" : 1
+         },
          "xforms" : "ZanabazarSquare"
       },
       "Zinh" : {
@@ -2214,6 +2832,11 @@
          "iso" : "Zinh",
          "unicode" : "Inherited",
          "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Inherited" : 1,
+            "Qaai" : 1,
+            "Zinh" : 1
+         },
          "xforms" : "Inherited"
       },
       "Zmth" : {
@@ -2252,7 +2875,11 @@
          "ianareg" : "2005-10-16",
          "iso" : "Zyyy",
          "unicode" : "Common",
-         "unicode_id" : "recommended"
+         "unicode_id" : "recommended",
+         "unicode_names" : {
+            "Common" : 1,
+            "Zyyy" : 1
+         }
       },
       "Zzzz" : {
          "collation_reorder" : "others",
@@ -2261,7 +2888,11 @@
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Zzzz",
-         "unicode" : "Unknown"
+         "unicode" : "Unknown",
+         "unicode_names" : {
+            "Unknown" : 1,
+            "Zzzz" : 1
+         }
       },
       "arabext" : {
          "u_nu" : "arabext",
