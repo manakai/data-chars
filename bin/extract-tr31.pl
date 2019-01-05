@@ -61,9 +61,11 @@ my $Data = {};
   ) {
     if (defined $tables->{$def->[0]}) {
       for my $tr ($tables->{$def->[0]}->rows->to_list) {
-        if ($tr->cells->[0]->text_content =~ /^\s*\[:script=([A-Za-z]+):\]\s*$/) {
+        #if ($tr->cells->[0]->text_content =~ /^\s*\[:script=([A-Za-z]+):\]\s*$/) {
+        if ($tr->cells->[0]->text_content =~ /^\s*\\p\{script=([A-Za-z]+)\}\s*$/) {
           $Data->{scripts}->{$def->[1]}->{$1} = 1;
         }
+        ## "excluded" has more rules (see |bin/uax31.pl|).
       }
     }
     die "no $def->[1]" unless keys %{$Data->{scripts}->{$def->[1]} or {}};

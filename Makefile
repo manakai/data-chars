@@ -55,8 +55,6 @@ prepare-ucd:
 local/ucd/touch:
 	touch $@
 
-local/ucd/Scripts.txt:
-	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Scripts.txt
 local/ucd/ScriptExtensions.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/ScriptExtensions.txt
 local/ucd/PropertyValueAliases.txt:
@@ -70,13 +68,18 @@ local/tr31.json: local/tr31.html bin/extract-tr31.pl
 src/set/uax31/files: bin/uax31.pl local/tr31.json
 	$(PERL) bin/uax31.pl
 	touch $@
+src/set/unicode/Script/files: \
+    bin/script-sets.pl data/scripts.json \
+    local/unicode/latest/Scripts.txt
+	$(PERL) bin/script-sets.pl latest
+	touch $@
 
 local/langtags.json:
 	$(SAVEURL) $@ https://raw.github.com/manakai/data-web-defs/master/data/langtags.json
 local/html-charrefs.json:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/manakai/data-web-defs/master/data/html-charrefs.json
 
-data/scripts.json: bin/scripts.pl local/ucd/Scripts.txt \
+data/scripts.json: bin/scripts.pl local/unicode/latest/Scripts.txt \
     local/ucd/PropertyValueAliases.txt local/tr31.json \
     local/langtags.json
 	$(PERL) bin/scripts.pl > $@
@@ -169,6 +172,9 @@ local/unicode/latest/Blocks.txt:
 local/unicode/$(UNICODE_VERSION)/Blocks.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/Blocks.txt
+local/unicode/latest/Scripts.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Scripts.txt
 local/unicode/latest/SpecialCasing.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
@@ -406,6 +412,7 @@ data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
     src/set/rfc5892/Unstable.expr src/set/rfc7564/HasCompat.expr \
     src/set/unicode/Block/files \
+    src/set/unicode/Script/files \
     src/set/unicode/Hangul_Syllable_Type/files \
     src/set/unicode/Canonical_Combining_Class/files \
     src/set/unicode/has_canon_decomposition.expr \

@@ -18,7 +18,7 @@ Each value is a JSON object with following name/value pairs:
   collation_reorder [string?]
 
     The value for the script which can be used in reorder_code
-    <http://www.unicode.org/reports/tr35/tr35-collation.html#Script_Reordering>,
+    <https://www.unicode.org/reports/tr35/tr35-collation.html#Script_Reordering>,
     if any.  Note that |Zxxx| can also be used as synonym for |others|
     although it is not explicitly shown in the JSON data (as the
     |collation_reorder| value is |others|).  The value is also used
@@ -87,34 +87,43 @@ Each value is a JSON object with following name/value pairs:
     Identifiers does also contain characters selected by conditions
     other than their scripts.
 
+  unicode_names [object?]
+
+    Names are the Unicode Script Property Value name and its aliases.
+
   xforms [string?]
 
     The script token for the script, used in XForms |inputmode|
-    attribute <http://www.w3.org/TR/xforms/#mode-scripts>, if any.
+    attribute <https://www.w3.org/TR/xforms/#mode-scripts>, if any.
 
 * Sources
 
-ISO 15924 Registration Authority <http://unicode.org/iso15924/>.
+ISO 15924 Registration Authority <https://unicode.org/iso15924/>.
 
-Unicode Script Property <http://www.unicode.org/reports/tr24/>.
+Unicode Script Property <https://www.unicode.org/reports/tr24/>.
 
 Unicode Locale Data Markup Language (LDML)
-<http://unicode.org/reports/tr35/>.
+<https://unicode.org/reports/tr35/>.
 
 IANA Language Subtag Registry
-<http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry>.
+<https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry>.
 
 Unicode Extensions for BCP 47
-<http://cldr.unicode.org/index/bcp47-extension>.
+<https://cldr.unicode.org/index/bcp47-extension>.
 
 Unicode Identifier and Pattern Syntax
-<http://www.unicode.org/reports/tr31/>.
+<https://www.unicode.org/reports/tr31/>.
 
-XForms <http://www.w3.org/TR/xforms/>.
+XForms <https://www.w3.org/TR/xforms/>.
 
 data-web-defs <https://github.com/manakai/data-web-defs/>.
 
 * License
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.
 
 The file partially derived from CLDR data.  Copyright © 1991-2014
 Unicode, Inc.  All rights reserved.  Distributed under the Terms of

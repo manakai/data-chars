@@ -237,7 +237,7 @@ sub evaluate_expression ($$) {
       die "Bad input -> |$input|\n";
     }
   }
-  die "Set expected\n" if defined $op;
+  die "Set expected (Input |$_[1]|, op |$op|)\n" if defined $op;
 
   return $current;
 } # evaluate_expression
@@ -281,7 +281,7 @@ sub serialize_set ($$) {
 
 =head1 LICENSE
 
-Copyright 2013 Wakaba <wakaba@suikawiki.org>.
+Copyright 2013-2019 Wakaba <wakaba@suikawiki.org>.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

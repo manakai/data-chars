@@ -1,0 +1,95 @@
+#label:Candidate Characters for Exclusion from Identifiers
+#url:https://www.unicode.org/reports/tr31/#Table_Candidate_Characters_for_Exclusion_from_Identifiers
+$unicode:Script:Aghb |
+$unicode:Script:Ahom |
+$unicode:Script:Armi |
+$unicode:Script:Avst |
+$unicode:Script:Bass |
+$unicode:Script:Bhks |
+$unicode:Script:Brah |
+$unicode:Script:Bugi |
+$unicode:Script:Buhd |
+$unicode:Script:Cari |
+$unicode:Script:Copt |
+$unicode:Script:Cprt |
+$unicode:Script:Dogr |
+$unicode:Script:Dsrt |
+$unicode:Script:Dupl |
+$unicode:Script:Egyp |
+$unicode:Script:Elba |
+$unicode:Script:Glag |
+$unicode:Script:Gong |
+$unicode:Script:Gonm |
+$unicode:Script:Goth |
+$unicode:Script:Gran |
+$unicode:Script:Hano |
+$unicode:Script:Hatr |
+$unicode:Script:Hluw |
+$unicode:Script:Hmng |
+$unicode:Script:Hung |
+$unicode:Script:Ital |
+$unicode:Script:Khar |
+$unicode:Script:Khoj |
+$unicode:Script:Kthi |
+$unicode:Script:Lina |
+$unicode:Script:Linb |
+$unicode:Script:Lyci |
+$unicode:Script:Lydi |
+$unicode:Script:Mahj |
+$unicode:Script:Maka |
+$unicode:Script:Mani |
+$unicode:Script:Marc |
+$unicode:Script:Medf |
+$unicode:Script:Mend |
+$unicode:Script:Merc |
+$unicode:Script:Mero |
+$unicode:Script:Modi |
+$unicode:Script:Mong |
+$unicode:Script:Mroo |
+$unicode:Script:Mult |
+$unicode:Script:Narb |
+$unicode:Script:Nbat |
+$unicode:Script:Nshu |
+$unicode:Script:Ogam |
+$unicode:Script:Orkh |
+$unicode:Script:Osma |
+$unicode:Script:Palm |
+$unicode:Script:Pauc |
+$unicode:Script:Perm |
+$unicode:Script:Phag |
+$unicode:Script:Phli |
+$unicode:Script:Phlp |
+$unicode:Script:Phnx |
+$unicode:Script:Prti |
+$unicode:Script:Rjng |
+$unicode:Script:Runr |
+$unicode:Script:Samr |
+$unicode:Script:Sarb |
+$unicode:Script:Sgnw |
+$unicode:Script:Shaw |
+$unicode:Script:Shrd |
+$unicode:Script:Sidd |
+$unicode:Script:Sind |
+$unicode:Script:Sogd |
+$unicode:Script:Sogo |
+$unicode:Script:Sora |
+$unicode:Script:Soyo |
+$unicode:Script:Tagb |
+$unicode:Script:Takr |
+$unicode:Script:Tang |
+$unicode:Script:Tglg |
+$unicode:Script:Tirh |
+$unicode:Script:Ugar |
+$unicode:Script:Wara |
+$unicode:Script:Xpeo |
+$unicode:Script:Xsux |
+$unicode:Script:Zanb
+
+              # $unicode:Extender & Joining_Type=Join_Causing
+            | [\u07FA\u0640]
+            | $unicode:Default_Ignorable_Code_Point
+            | $unicode:Block:Combining_Diacritical_Marks_for_Symbols
+            | $unicode:Block:Musical_Symbols
+            | $unicode:Block:Ancient_Greek_Musical_Notation
+            | $unicode:Block:Phaistos_Disc
+          
