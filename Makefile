@@ -404,9 +404,10 @@ src/set/isoiec10646/300.expr: src/set/isoiec10646/generate.pl
 
 local/mozilla-prefs.js:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/mozilla/gecko-dev/master/modules/libpref/init/all.js
-src/set/mozilla/IDN-blacklist-chars.expr: local/mozilla-prefs.js \
-    bin/mozilla-idn-blacklist-chars.pl
-	$(PERL) bin/mozilla-idn-blacklist-chars.pl < $< > $@
+#src/set/mozilla/IDN-blacklist-chars.expr: local/mozilla-prefs.js \
+#    bin/mozilla-idn-blacklist-chars.pl
+#	$(PERL) bin/mozilla-idn-blacklist-chars.pl < $< > $@
+## network.IDN.blacklist_chars is gone
 
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
