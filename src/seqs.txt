@@ -55,4 +55,4 @@ U+0039 U+20E3
 "井" U+309A
 
 ## <https://ja.wikipedia.org/wiki/%E3%81%A8%E3%82%82>
-"𪜈" U+309A
+"𪜈" U+3099
