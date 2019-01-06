@@ -872,7 +872,9 @@
             "Nyiakeng Puachue Hmong"
          ],
          "ianareg" : "2017-08-13",
-         "iso" : "Hmnp"
+         "iso" : "Hmnp",
+         "u_nu" : "hmnp",
+         "u_nu_desc" : "Nyiakeng Puachue Hmong digits"
       },
       "Hrkt" : {
          "desc" : [
@@ -2753,7 +2755,9 @@
             "Wancho"
          ],
          "ianareg" : "2017-08-13",
-         "iso" : "Wcho"
+         "iso" : "Wcho",
+         "u_nu" : "wcho",
+         "u_nu_desc" : "Wancho digits"
       },
       "Wole" : {
          "desc" : [
