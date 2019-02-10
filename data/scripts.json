@@ -2950,6 +2950,10 @@
          "u_nu" : "jpanfin",
          "u_nu_desc" : "Japanese financial numerals — algorithmic"
       },
+      "jpanyear" : {
+         "u_nu" : "jpanyear",
+         "u_nu_desc" : "Japanese first-year Gannen numbering for Japanese calendar"
+      },
       "kanji" : {
          "xforms" : "kanji"
       },
