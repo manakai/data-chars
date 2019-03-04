@@ -298,11 +298,35 @@
          "label" : "code-unit",
          "suikawiki_name" : "code-unit"
       },
+      "$fetch:http-newline-byte" : {
+         "chars" : "[\\u000A\\u000D]",
+         "label" : "HTTP newline byte (in US-ASCII)",
+         "suikawiki_name" : "HTTP newline byte",
+         "url" : "https://fetch.spec.whatwg.org/#http-newline-byte"
+      },
+      "$fetch:http-tab-or-space" : {
+         "chars" : "[\\u0009\\u0020]",
+         "label" : "HTTP tab or space",
+         "suikawiki_name" : "HTTP tab or space",
+         "url" : "https://fetch.spec.whatwg.org/#http-tab-or-space"
+      },
+      "$fetch:http-tab-or-space-byte" : {
+         "chars" : "[\\u0009\\u0020]",
+         "label" : "HTTP tab or space byte (in US-ASCII)",
+         "suikawiki_name" : "HTTP tab or space byte",
+         "url" : "https://fetch.spec.whatwg.org/#http-tab-or-space-byte"
+      },
+      "$fetch:http-whitespace-byte" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020]",
+         "label" : "HTTP whitespace byte (in US-ASCII)",
+         "suikawiki_name" : "HTTP whitespace byte",
+         "url" : "https://fetch.spec.whatwg.org/#http-whitespace-byte"
+      },
       "$fetch:http-whitespace-bytes" : {
          "chars" : "[\\u0009-\\u000A\\u000D\\u0020]",
-         "label" : "HTTP whitespace bytes (in US-ASCII)",
+         "label" : "OBSOLETE - HTTP whitespace bytes (in US-ASCII)",
          "suikawiki_name" : "HTTP whitespace bytes",
-         "url" : "https://fetch.spec.whatwg.org/#http-whitespace-bytes"
+         "url" : "https://fetch.spec.whatwg.org/#http-whitespace-byte"
       },
       "$html:ASCII-compatible-character-encoding-char" : {
          "chars" : "[\\u0009-\\u000A\\u000C-\\u000D\\u0020-\"\\u0026-',?A-Za-z]",
