@@ -1,0 +1,4 @@
+#label:HTTP newline byte (in US-ASCII)
+#sw:HTTP newline byte
+#url:https://fetch.spec.whatwg.org/#http-newline-byte
+[\u000D\u000A]

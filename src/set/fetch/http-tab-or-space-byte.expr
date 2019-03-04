@@ -1,0 +1,4 @@
+#label:HTTP tab or space byte (in US-ASCII)
+#sw:HTTP tab or space byte
+#url:https://fetch.spec.whatwg.org/#http-tab-or-space-byte
+[\u0009\u0020]

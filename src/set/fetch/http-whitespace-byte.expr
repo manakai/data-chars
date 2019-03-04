@@ -1,0 +1,5 @@
+#label:HTTP whitespace byte (in US-ASCII)
+#sw:HTTP whitespace byte
+#url:https://fetch.spec.whatwg.org/#http-whitespace-byte
+$fetch:http-newline-byte |
+$fetch:http-tab-or-space-byte

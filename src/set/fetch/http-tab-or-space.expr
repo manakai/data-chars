@@ -1,0 +1,4 @@
+#label:HTTP tab or space
+#sw:HTTP tab or space
+#url:https://fetch.spec.whatwg.org/#http-tab-or-space
+[\u0009\u0020]
