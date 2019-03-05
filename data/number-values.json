@@ -119,6 +119,9 @@
    "壹" : {
       "cjk_numeral" : 1
    },
+   "廾" : {
+      "cjk_numeral" : 20
+   },
    "廿" : {
       "cjk_numeral" : 20
    },
@@ -151,6 +154,9 @@
    },
    "百" : {
       "cjk_numeral" : 100
+   },
+   "皕" : {
+      "cjk_numeral" : 200
    },
    "肆" : {
       "cjk_numeral" : 4
