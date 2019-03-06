@@ -8,6 +8,7 @@ $unicode:Script:Cakm |
 $unicode:Script:Cans |
 $unicode:Script:Cham |
 $unicode:Script:Cher |
+$unicode:Script:Hmnp |
 $unicode:Script:Java |
 $unicode:Script:Kali |
 $unicode:Script:Lana |
@@ -31,4 +32,5 @@ $unicode:Script:Talu |
 $unicode:Script:Tavt |
 $unicode:Script:Tfng |
 $unicode:Script:Vaii |
+$unicode:Script:Wcho |
 $unicode:Script:Yiii

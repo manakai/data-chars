@@ -82,8 +82,10 @@
 - $unicode:Block:Domino_Tiles
 - $unicode:Block:Duployan
 - $unicode:Block:Early_Dynastic_Cuneiform
+- $unicode:Block:Egyptian_Hieroglyph_Format_Controls
 - $unicode:Block:Egyptian_Hieroglyphs
 - $unicode:Block:Elbasan
+- $unicode:Block:Elymaic
 - $unicode:Block:Emoticons
 - $unicode:Block:Enclosed_Alphanumeric_Supplement
 - $unicode:Block:Enclosed_Alphanumerics
@@ -197,10 +199,12 @@
 - $unicode:Block:Myanmar_Extended-B
 - $unicode:Block:NKo
 - $unicode:Block:Nabataean
+- $unicode:Block:Nandinagari
 - $unicode:Block:New_Tai_Lue
 - $unicode:Block:Newa
 - $unicode:Block:Number_Forms
 - $unicode:Block:Nushu
+- $unicode:Block:Nyiakeng_Puachue_Hmong
 - $unicode:Block:Ogham
 - $unicode:Block:Ol_Chiki
 - $unicode:Block:Old_Hungarian
@@ -216,6 +220,7 @@
 - $unicode:Block:Ornamental_Dingbats
 - $unicode:Block:Osage
 - $unicode:Block:Osmanya
+- $unicode:Block:Ottoman_Siyaq_Numbers
 - $unicode:Block:Pahawh_Hmong
 - $unicode:Block:Palmyrene
 - $unicode:Block:Pau_Cin_Hau
@@ -239,6 +244,7 @@
 - $unicode:Block:Sinhala
 - $unicode:Block:Sinhala_Archaic_Numbers
 - $unicode:Block:Small_Form_Variants
+- $unicode:Block:Small_Kana_Extension
 - $unicode:Block:Sogdian
 - $unicode:Block:Sora_Sompeng
 - $unicode:Block:Soyombo
@@ -257,6 +263,7 @@
 - $unicode:Block:Supplementary_Private_Use_Area-B
 - $unicode:Block:Sutton_SignWriting
 - $unicode:Block:Syloti_Nagri
+- $unicode:Block:Symbols_and_Pictographs_Extended-A
 - $unicode:Block:Syriac
 - $unicode:Block:Syriac_Supplement
 - $unicode:Block:Tagalog
@@ -268,6 +275,7 @@
 - $unicode:Block:Tai_Xuan_Jing_Symbols
 - $unicode:Block:Takri
 - $unicode:Block:Tamil
+- $unicode:Block:Tamil_Supplement
 - $unicode:Block:Tangut
 - $unicode:Block:Tangut_Components
 - $unicode:Block:Telugu
@@ -285,6 +293,7 @@
 - $unicode:Block:Variation_Selectors_Supplement
 - $unicode:Block:Vedic_Extensions
 - $unicode:Block:Vertical_Forms
+- $unicode:Block:Wancho
 - $unicode:Block:Warang_Citi
 - $unicode:Block:Yi_Radicals
 - $unicode:Block:Yi_Syllables

@@ -542,7 +542,14 @@
             "Elymaic"
          ],
          "ianareg" : "2018-10-28",
-         "iso" : "Elym"
+         "iso" : "Elym",
+         "unicode" : "Elymaic",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Elym" : 1,
+            "Elymaic" : 1
+         },
+         "xforms" : "Elymaic"
       },
       "Ethi" : {
          "collation_reorder" : "Ethi",
@@ -874,7 +881,14 @@
          "ianareg" : "2017-08-13",
          "iso" : "Hmnp",
          "u_nu" : "hmnp",
-         "u_nu_desc" : "Nyiakeng Puachue Hmong digits"
+         "u_nu_desc" : "Nyiakeng Puachue Hmong digits",
+         "unicode" : "Nyiakeng_Puachue_Hmong",
+         "unicode_id" : "limited",
+         "unicode_names" : {
+            "Hmnp" : 1,
+            "Nyiakeng_Puachue_Hmong" : 1
+         },
+         "xforms" : "NyiakengPuachueHmong"
       },
       "Hrkt" : {
          "desc" : [
@@ -1548,7 +1562,14 @@
             "Nandinagari"
          ],
          "ianareg" : "2018-10-28",
-         "iso" : "Nand"
+         "iso" : "Nand",
+         "unicode" : "Nandinagari",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Nand" : 1,
+            "Nandinagari" : 1
+         },
+         "xforms" : "Nandinagari"
       },
       "Narb" : {
          "desc" : [
@@ -2757,7 +2778,14 @@
          "ianareg" : "2017-08-13",
          "iso" : "Wcho",
          "u_nu" : "wcho",
-         "u_nu_desc" : "Wancho digits"
+         "u_nu_desc" : "Wancho digits",
+         "unicode" : "Wancho",
+         "unicode_id" : "limited",
+         "unicode_names" : {
+            "Wancho" : 1,
+            "Wcho" : 1
+         },
+         "xforms" : "Wancho"
       },
       "Wole" : {
          "desc" : [

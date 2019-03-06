@@ -33,6 +33,7 @@
 - $unicode:Script:Duployan
 - $unicode:Script:Egyptian_Hieroglyphs
 - $unicode:Script:Elbasan
+- $unicode:Script:Elymaic
 - $unicode:Script:Ethiopic
 - $unicode:Script:Georgian
 - $unicode:Script:Glagolitic
@@ -90,10 +91,12 @@
 - $unicode:Script:Multani
 - $unicode:Script:Myanmar
 - $unicode:Script:Nabataean
+- $unicode:Script:Nandinagari
 - $unicode:Script:New_Tai_Lue
 - $unicode:Script:Newa
 - $unicode:Script:Nko
 - $unicode:Script:Nushu
+- $unicode:Script:Nyiakeng_Puachue_Hmong
 - $unicode:Script:Ogham
 - $unicode:Script:Ol_Chiki
 - $unicode:Script:Old_Hungarian
@@ -144,6 +147,7 @@
 - $unicode:Script:Tirhuta
 - $unicode:Script:Ugaritic
 - $unicode:Script:Vai
+- $unicode:Script:Wancho
 - $unicode:Script:Warang_Citi
 - $unicode:Script:Yi
 - $unicode:Script:Zanabazar_Square

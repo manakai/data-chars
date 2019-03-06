@@ -17,6 +17,7 @@ $unicode:Script:Dsrt |
 $unicode:Script:Dupl |
 $unicode:Script:Egyp |
 $unicode:Script:Elba |
+$unicode:Script:Elym |
 $unicode:Script:Glag |
 $unicode:Script:Gong |
 $unicode:Script:Gonm |
@@ -47,6 +48,7 @@ $unicode:Script:Modi |
 $unicode:Script:Mong |
 $unicode:Script:Mroo |
 $unicode:Script:Mult |
+$unicode:Script:Nand |
 $unicode:Script:Narb |
 $unicode:Script:Nbat |
 $unicode:Script:Nshu |

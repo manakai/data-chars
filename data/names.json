@@ -10786,6 +10786,9 @@
       "0C6F" : {
          "name" : "TELUGU DIGIT NINE"
       },
+      "0C77" : {
+         "name" : "TELUGU SIGN SIDDHAM"
+      },
       "0C78" : {
          "name" : "TELUGU FRACTION DIGIT ZERO FOR ODD POWERS OF FOUR"
       },
@@ -11971,17 +11974,44 @@
       "0E84" : {
          "name" : "LAO LETTER KHO TAM"
       },
+      "0E86" : {
+         "name" : "LAO LETTER PALI GHA"
+      },
       "0E87" : {
          "name" : "LAO LETTER NGO"
       },
       "0E88" : {
          "name" : "LAO LETTER CO"
       },
+      "0E89" : {
+         "name" : "LAO LETTER PALI CHA"
+      },
       "0E8A" : {
          "name" : "LAO LETTER SO TAM"
       },
+      "0E8C" : {
+         "name" : "LAO LETTER PALI JHA"
+      },
       "0E8D" : {
          "name" : "LAO LETTER NYO"
+      },
+      "0E8E" : {
+         "name" : "LAO LETTER PALI NYA"
+      },
+      "0E8F" : {
+         "name" : "LAO LETTER PALI TTA"
+      },
+      "0E90" : {
+         "name" : "LAO LETTER PALI TTHA"
+      },
+      "0E91" : {
+         "name" : "LAO LETTER PALI DDA"
+      },
+      "0E92" : {
+         "name" : "LAO LETTER PALI DDHA"
+      },
+      "0E93" : {
+         "name" : "LAO LETTER PALI NNA"
       },
       "0E94" : {
          "name" : "LAO LETTER DO"
@@ -11994,6 +12024,9 @@
       },
       "0E97" : {
          "name" : "LAO LETTER THO TAM"
+      },
+      "0E98" : {
+         "name" : "LAO LETTER PALI DHA"
       },
       "0E99" : {
          "name" : "LAO LETTER NO"
@@ -12022,6 +12055,9 @@
          },
          "name" : "LAO LETTER FO SUNG"
       },
+      "0EA0" : {
+         "name" : "LAO LETTER PALI BHA"
+      },
       "0EA1" : {
          "name" : "LAO LETTER MO"
       },
@@ -12043,11 +12079,20 @@
       "0EA7" : {
          "name" : "LAO LETTER WO"
       },
+      "0EA8" : {
+         "name" : "LAO LETTER SANSKRIT SHA"
+      },
+      "0EA9" : {
+         "name" : "LAO LETTER SANSKRIT SSA"
+      },
       "0EAA" : {
          "name" : "LAO LETTER SO SUNG"
       },
       "0EAB" : {
          "name" : "LAO LETTER HO SUNG"
+      },
+      "0EAC" : {
+         "name" : "LAO LETTER PALI LLA"
       },
       "0EAD" : {
          "name" : "LAO LETTER O"
@@ -12087,6 +12132,9 @@
       },
       "0EB9" : {
          "name" : "LAO VOWEL SIGN UU"
+      },
+      "0EBA" : {
+         "name" : "LAO SIGN PALI VIRAMA"
       },
       "0EBB" : {
          "name" : "LAO VOWEL SIGN MAI KON"
@@ -20788,8 +20836,77 @@
       "10FE" : {
          "name" : "GEORGIAN LETTER HARD SIGN"
       },
+      "10FE0" : {
+         "name" : "ELYMAIC LETTER ALEPH"
+      },
+      "10FE1" : {
+         "name" : "ELYMAIC LETTER BETH"
+      },
+      "10FE2" : {
+         "name" : "ELYMAIC LETTER GIMEL"
+      },
+      "10FE3" : {
+         "name" : "ELYMAIC LETTER DALETH"
+      },
+      "10FE4" : {
+         "name" : "ELYMAIC LETTER HE"
+      },
+      "10FE5" : {
+         "name" : "ELYMAIC LETTER WAW"
+      },
+      "10FE6" : {
+         "name" : "ELYMAIC LETTER ZAYIN"
+      },
+      "10FE7" : {
+         "name" : "ELYMAIC LETTER HETH"
+      },
+      "10FE8" : {
+         "name" : "ELYMAIC LETTER TETH"
+      },
+      "10FE9" : {
+         "name" : "ELYMAIC LETTER YODH"
+      },
+      "10FEA" : {
+         "name" : "ELYMAIC LETTER KAPH"
+      },
+      "10FEB" : {
+         "name" : "ELYMAIC LETTER LAMEDH"
+      },
+      "10FEC" : {
+         "name" : "ELYMAIC LETTER MEM"
+      },
+      "10FED" : {
+         "name" : "ELYMAIC LETTER NUN"
+      },
+      "10FEE" : {
+         "name" : "ELYMAIC LETTER SAMEKH"
+      },
+      "10FEF" : {
+         "name" : "ELYMAIC LETTER AYIN"
+      },
       "10FF" : {
          "name" : "GEORGIAN LETTER LABIAL SIGN"
+      },
+      "10FF0" : {
+         "name" : "ELYMAIC LETTER PE"
+      },
+      "10FF1" : {
+         "name" : "ELYMAIC LETTER SADHE"
+      },
+      "10FF2" : {
+         "name" : "ELYMAIC LETTER QOPH"
+      },
+      "10FF3" : {
+         "name" : "ELYMAIC LETTER RESH"
+      },
+      "10FF4" : {
+         "name" : "ELYMAIC LETTER SHIN"
+      },
+      "10FF5" : {
+         "name" : "ELYMAIC LETTER TAW"
+      },
+      "10FF6" : {
+         "name" : "ELYMAIC LIGATURE ZAYIN-YODH"
       },
       "10FFFE" : {
          "label" : "noncharacter-10FFFE"
@@ -23353,6 +23470,9 @@
       "1145E" : {
          "name" : "NEWA SANDHI MARK"
       },
+      "1145F" : {
+         "name" : "NEWA LETTER VEDIC ANUSVARA"
+      },
       "1146" : {
          "name" : "HANGUL CHOSEONG IEUNG-PANSIOS"
       },
@@ -24433,6 +24553,9 @@
       "116B7" : {
          "name" : "TAKRI SIGN NUKTA"
       },
+      "116B8" : {
+         "name" : "TAKRI LETTER ARCHAIC KHA"
+      },
       "116C" : {
          "name" : "HANGUL JUNGSEONG OE"
       },
@@ -25210,17 +25333,212 @@
       "119A" : {
          "name" : "HANGUL JUNGSEONG I-O"
       },
+      "119A0" : {
+         "name" : "NANDINAGARI LETTER A"
+      },
+      "119A1" : {
+         "name" : "NANDINAGARI LETTER AA"
+      },
+      "119A2" : {
+         "name" : "NANDINAGARI LETTER I"
+      },
+      "119A3" : {
+         "name" : "NANDINAGARI LETTER II"
+      },
+      "119A4" : {
+         "name" : "NANDINAGARI LETTER U"
+      },
+      "119A5" : {
+         "name" : "NANDINAGARI LETTER UU"
+      },
+      "119A6" : {
+         "name" : "NANDINAGARI LETTER VOCALIC R"
+      },
+      "119A7" : {
+         "name" : "NANDINAGARI LETTER VOCALIC RR"
+      },
+      "119AA" : {
+         "name" : "NANDINAGARI LETTER E"
+      },
+      "119AB" : {
+         "name" : "NANDINAGARI LETTER AI"
+      },
+      "119AC" : {
+         "name" : "NANDINAGARI LETTER O"
+      },
+      "119AD" : {
+         "name" : "NANDINAGARI LETTER AU"
+      },
+      "119AE" : {
+         "name" : "NANDINAGARI LETTER KA"
+      },
+      "119AF" : {
+         "name" : "NANDINAGARI LETTER KHA"
+      },
       "119B" : {
          "name" : "HANGUL JUNGSEONG I-U"
+      },
+      "119B0" : {
+         "name" : "NANDINAGARI LETTER GA"
+      },
+      "119B1" : {
+         "name" : "NANDINAGARI LETTER GHA"
+      },
+      "119B2" : {
+         "name" : "NANDINAGARI LETTER NGA"
+      },
+      "119B3" : {
+         "name" : "NANDINAGARI LETTER CA"
+      },
+      "119B4" : {
+         "name" : "NANDINAGARI LETTER CHA"
+      },
+      "119B5" : {
+         "name" : "NANDINAGARI LETTER JA"
+      },
+      "119B6" : {
+         "name" : "NANDINAGARI LETTER JHA"
+      },
+      "119B7" : {
+         "name" : "NANDINAGARI LETTER NYA"
+      },
+      "119B8" : {
+         "name" : "NANDINAGARI LETTER TTA"
+      },
+      "119B9" : {
+         "name" : "NANDINAGARI LETTER TTHA"
+      },
+      "119BA" : {
+         "name" : "NANDINAGARI LETTER DDA"
+      },
+      "119BB" : {
+         "name" : "NANDINAGARI LETTER DDHA"
+      },
+      "119BC" : {
+         "name" : "NANDINAGARI LETTER NNA"
+      },
+      "119BD" : {
+         "name" : "NANDINAGARI LETTER TA"
+      },
+      "119BE" : {
+         "name" : "NANDINAGARI LETTER THA"
+      },
+      "119BF" : {
+         "name" : "NANDINAGARI LETTER DA"
       },
       "119C" : {
          "name" : "HANGUL JUNGSEONG I-EU"
       },
+      "119C0" : {
+         "name" : "NANDINAGARI LETTER DHA"
+      },
+      "119C1" : {
+         "name" : "NANDINAGARI LETTER NA"
+      },
+      "119C2" : {
+         "name" : "NANDINAGARI LETTER PA"
+      },
+      "119C3" : {
+         "name" : "NANDINAGARI LETTER PHA"
+      },
+      "119C4" : {
+         "name" : "NANDINAGARI LETTER BA"
+      },
+      "119C5" : {
+         "name" : "NANDINAGARI LETTER BHA"
+      },
+      "119C6" : {
+         "name" : "NANDINAGARI LETTER MA"
+      },
+      "119C7" : {
+         "name" : "NANDINAGARI LETTER YA"
+      },
+      "119C8" : {
+         "name" : "NANDINAGARI LETTER RA"
+      },
+      "119C9" : {
+         "name" : "NANDINAGARI LETTER LA"
+      },
+      "119CA" : {
+         "name" : "NANDINAGARI LETTER VA"
+      },
+      "119CB" : {
+         "name" : "NANDINAGARI LETTER SHA"
+      },
+      "119CC" : {
+         "name" : "NANDINAGARI LETTER SSA"
+      },
+      "119CD" : {
+         "name" : "NANDINAGARI LETTER SA"
+      },
+      "119CE" : {
+         "name" : "NANDINAGARI LETTER HA"
+      },
+      "119CF" : {
+         "name" : "NANDINAGARI LETTER LLA"
+      },
       "119D" : {
          "name" : "HANGUL JUNGSEONG I-ARAEA"
       },
+      "119D0" : {
+         "name" : "NANDINAGARI LETTER RRA"
+      },
+      "119D1" : {
+         "name" : "NANDINAGARI VOWEL SIGN AA"
+      },
+      "119D2" : {
+         "name" : "NANDINAGARI VOWEL SIGN I"
+      },
+      "119D3" : {
+         "name" : "NANDINAGARI VOWEL SIGN II"
+      },
+      "119D4" : {
+         "name" : "NANDINAGARI VOWEL SIGN U"
+      },
+      "119D5" : {
+         "name" : "NANDINAGARI VOWEL SIGN UU"
+      },
+      "119D6" : {
+         "name" : "NANDINAGARI VOWEL SIGN VOCALIC R"
+      },
+      "119D7" : {
+         "name" : "NANDINAGARI VOWEL SIGN VOCALIC RR"
+      },
+      "119DA" : {
+         "name" : "NANDINAGARI VOWEL SIGN E"
+      },
+      "119DB" : {
+         "name" : "NANDINAGARI VOWEL SIGN AI"
+      },
+      "119DC" : {
+         "name" : "NANDINAGARI VOWEL SIGN O"
+      },
+      "119DD" : {
+         "name" : "NANDINAGARI VOWEL SIGN AU"
+      },
+      "119DE" : {
+         "name" : "NANDINAGARI SIGN ANUSVARA"
+      },
+      "119DF" : {
+         "name" : "NANDINAGARI SIGN VISARGA"
+      },
       "119E" : {
          "name" : "HANGUL JUNGSEONG ARAEA"
+      },
+      "119E0" : {
+         "name" : "NANDINAGARI SIGN VIRAMA"
+      },
+      "119E1" : {
+         "name" : "NANDINAGARI SIGN AVAGRAHA"
+      },
+      "119E2" : {
+         "name" : "NANDINAGARI SIGN SIDDHAM"
+      },
+      "119E3" : {
+         "name" : "NANDINAGARI HEADSTROKE"
+      },
+      "119E4" : {
+         "name" : "NANDINAGARI VOWEL SIGN PRISHTHAMATRA E"
       },
       "119F" : {
          "name" : "HANGUL JUNGSEONG ARAEA-EO"
@@ -25623,6 +25941,12 @@
       },
       "11A83" : {
          "name" : "SOYOMBO LETTER KSSA"
+      },
+      "11A84" : {
+         "name" : "SOYOMBO SIGN JIHVAMULIYA"
+      },
+      "11A85" : {
+         "name" : "SOYOMBO SIGN UPADHMANIYA"
       },
       "11A86" : {
          "name" : "SOYOMBO CLUSTER-INITIAL LETTER RA"
@@ -27130,14 +27454,167 @@
       "11FC" : {
          "name" : "HANGUL JONGSEONG KIYEOK-CHIEUCH"
       },
+      "11FC0" : {
+         "name" : "TAMIL FRACTION ONE THREE-HUNDRED-AND-TWENTIETH"
+      },
+      "11FC1" : {
+         "name" : "TAMIL FRACTION ONE ONE-HUNDRED-AND-SIXTIETH"
+      },
+      "11FC2" : {
+         "name" : "TAMIL FRACTION ONE EIGHTIETH"
+      },
+      "11FC3" : {
+         "name" : "TAMIL FRACTION ONE SIXTY-FOURTH"
+      },
+      "11FC4" : {
+         "name" : "TAMIL FRACTION ONE FORTIETH"
+      },
+      "11FC5" : {
+         "name" : "TAMIL FRACTION ONE THIRTY-SECOND"
+      },
+      "11FC6" : {
+         "name" : "TAMIL FRACTION THREE EIGHTIETHS"
+      },
+      "11FC7" : {
+         "name" : "TAMIL FRACTION THREE SIXTY-FOURTHS"
+      },
+      "11FC8" : {
+         "name" : "TAMIL FRACTION ONE TWENTIETH"
+      },
+      "11FC9" : {
+         "name" : "TAMIL FRACTION ONE SIXTEENTH-1"
+      },
+      "11FCA" : {
+         "name" : "TAMIL FRACTION ONE SIXTEENTH-2"
+      },
+      "11FCB" : {
+         "name" : "TAMIL FRACTION ONE TENTH"
+      },
+      "11FCC" : {
+         "name" : "TAMIL FRACTION ONE EIGHTH"
+      },
+      "11FCD" : {
+         "name" : "TAMIL FRACTION THREE TWENTIETHS"
+      },
+      "11FCE" : {
+         "name" : "TAMIL FRACTION THREE SIXTEENTHS"
+      },
+      "11FCF" : {
+         "name" : "TAMIL FRACTION ONE FIFTH"
+      },
       "11FD" : {
          "name" : "HANGUL JONGSEONG KIYEOK-KHIEUKH"
+      },
+      "11FD0" : {
+         "name" : "TAMIL FRACTION ONE QUARTER"
+      },
+      "11FD1" : {
+         "name" : "TAMIL FRACTION ONE HALF-1"
+      },
+      "11FD2" : {
+         "name" : "TAMIL FRACTION ONE HALF-2"
+      },
+      "11FD3" : {
+         "name" : "TAMIL FRACTION THREE QUARTERS"
+      },
+      "11FD4" : {
+         "name" : "TAMIL FRACTION DOWNSCALING FACTOR KIIZH"
+      },
+      "11FD5" : {
+         "name" : "TAMIL SIGN NEL"
+      },
+      "11FD6" : {
+         "name" : "TAMIL SIGN CEVITU"
+      },
+      "11FD7" : {
+         "name" : "TAMIL SIGN AAZHAAKKU"
+      },
+      "11FD8" : {
+         "name" : "TAMIL SIGN UZHAKKU"
+      },
+      "11FD9" : {
+         "name" : "TAMIL SIGN MUUVUZHAKKU"
+      },
+      "11FDA" : {
+         "name" : "TAMIL SIGN KURUNI"
+      },
+      "11FDB" : {
+         "name" : "TAMIL SIGN PATHAKKU"
+      },
+      "11FDC" : {
+         "name" : "TAMIL SIGN MUKKURUNI"
+      },
+      "11FDD" : {
+         "name" : "TAMIL SIGN KAACU"
+      },
+      "11FDE" : {
+         "name" : "TAMIL SIGN PANAM"
+      },
+      "11FDF" : {
+         "name" : "TAMIL SIGN PON"
       },
       "11FE" : {
          "name" : "HANGUL JONGSEONG KIYEOK-HIEUH"
       },
+      "11FE0" : {
+         "name" : "TAMIL SIGN VARAAKAN"
+      },
+      "11FE1" : {
+         "name" : "TAMIL SIGN PAARAM"
+      },
+      "11FE2" : {
+         "name" : "TAMIL SIGN KUZHI"
+      },
+      "11FE3" : {
+         "name" : "TAMIL SIGN VELI"
+      },
+      "11FE4" : {
+         "name" : "TAMIL WET CULTIVATION SIGN"
+      },
+      "11FE5" : {
+         "name" : "TAMIL DRY CULTIVATION SIGN"
+      },
+      "11FE6" : {
+         "name" : "TAMIL LAND SIGN"
+      },
+      "11FE7" : {
+         "name" : "TAMIL SALT PAN SIGN"
+      },
+      "11FE8" : {
+         "name" : "TAMIL TRADITIONAL CREDIT SIGN"
+      },
+      "11FE9" : {
+         "name" : "TAMIL TRADITIONAL NUMBER SIGN"
+      },
+      "11FEA" : {
+         "name" : "TAMIL CURRENT SIGN"
+      },
+      "11FEB" : {
+         "name" : "TAMIL AND ODD SIGN"
+      },
+      "11FEC" : {
+         "name" : "TAMIL SPENT SIGN"
+      },
+      "11FED" : {
+         "name" : "TAMIL TOTAL SIGN"
+      },
+      "11FEE" : {
+         "name" : "TAMIL IN POSSESSION SIGN"
+      },
+      "11FEF" : {
+         "name" : "TAMIL STARTING FROM SIGN"
+      },
       "11FF" : {
          "name" : "HANGUL JONGSEONG SSANGNIEUN"
+      },
+      "11FF0" : {
+         "name" : "TAMIL SIGN MUTHALIYA"
+      },
+      "11FF1" : {
+         "name" : "TAMIL SIGN VAKAIYARAA"
+      },
+      "11FFF" : {
+         "name" : "TAMIL PUNCTUATION END OF TEXT"
       },
       "1200" : {
          "name" : "ETHIOPIC SYLLABLE HA"
@@ -34969,6 +35446,33 @@
       "1343" : {
          "name" : "ETHIOPIC SYLLABLE TZAA"
       },
+      "13430" : {
+         "name" : "EGYPTIAN HIEROGLYPH VERTICAL JOINER"
+      },
+      "13431" : {
+         "name" : "EGYPTIAN HIEROGLYPH HORIZONTAL JOINER"
+      },
+      "13432" : {
+         "name" : "EGYPTIAN HIEROGLYPH INSERT AT TOP START"
+      },
+      "13433" : {
+         "name" : "EGYPTIAN HIEROGLYPH INSERT AT BOTTOM START"
+      },
+      "13434" : {
+         "name" : "EGYPTIAN HIEROGLYPH INSERT AT TOP END"
+      },
+      "13435" : {
+         "name" : "EGYPTIAN HIEROGLYPH INSERT AT BOTTOM END"
+      },
+      "13436" : {
+         "name" : "EGYPTIAN HIEROGLYPH OVERLAY MIDDLE"
+      },
+      "13437" : {
+         "name" : "EGYPTIAN HIEROGLYPH BEGIN SEGMENT"
+      },
+      "13438" : {
+         "name" : "EGYPTIAN HIEROGLYPH END SEGMENT"
+      },
       "1344" : {
          "name" : "ETHIOPIC SYLLABLE TZEE"
       },
@@ -42316,6 +42820,27 @@
       "16F44" : {
          "name" : "MIAO LETTER HHA"
       },
+      "16F45" : {
+         "name" : "MIAO LETTER BRI"
+      },
+      "16F46" : {
+         "name" : "MIAO LETTER SYI"
+      },
+      "16F47" : {
+         "name" : "MIAO LETTER DZYI"
+      },
+      "16F48" : {
+         "name" : "MIAO LETTER TE"
+      },
+      "16F49" : {
+         "name" : "MIAO LETTER TSE"
+      },
+      "16F4A" : {
+         "name" : "MIAO LETTER RTE"
+      },
+      "16F4F" : {
+         "name" : "MIAO SIGN CONSONANT MODIFIER BAR"
+      },
       "16F5" : {
          "name" : "RUNIC LETTER FRANKS CASKET IS"
       },
@@ -42466,8 +42991,35 @@
       "16F7E" : {
          "name" : "MIAO VOWEL SIGN NG"
       },
+      "16F7F" : {
+         "name" : "MIAO VOWEL SIGN UOG"
+      },
       "16F8" : {
          "name" : "RUNIC LETTER FRANKS CASKET AESC"
+      },
+      "16F80" : {
+         "name" : "MIAO VOWEL SIGN YUI"
+      },
+      "16F81" : {
+         "name" : "MIAO VOWEL SIGN OG"
+      },
+      "16F82" : {
+         "name" : "MIAO VOWEL SIGN OER"
+      },
+      "16F83" : {
+         "name" : "MIAO VOWEL SIGN VW"
+      },
+      "16F84" : {
+         "name" : "MIAO VOWEL SIGN IG"
+      },
+      "16F85" : {
+         "name" : "MIAO VOWEL SIGN EA"
+      },
+      "16F86" : {
+         "name" : "MIAO VOWEL SIGN IONG"
+      },
+      "16F87" : {
+         "name" : "MIAO VOWEL SIGN UI"
       },
       "16F8F" : {
          "name" : "MIAO TONE RIGHT"
@@ -42525,6 +43077,12 @@
       },
       "16FE1" : {
          "name" : "NUSHU ITERATION MARK"
+      },
+      "16FE2" : {
+         "name" : "OLD CHINESE HOOK MARK"
+      },
+      "16FE3" : {
+         "name" : "OLD CHINESE ITERATION MARK"
       },
       "1700" : {
          "name" : "TAGALOG LETTER A"
@@ -48169,8 +48727,29 @@
       "1B15" : {
          "name" : "BALINESE LETTER GA"
       },
+      "1B150" : {
+         "name" : "HIRAGANA LETTER SMALL WI"
+      },
+      "1B151" : {
+         "name" : "HIRAGANA LETTER SMALL WE"
+      },
+      "1B152" : {
+         "name" : "HIRAGANA LETTER SMALL WO"
+      },
       "1B16" : {
          "name" : "BALINESE LETTER GA GORA"
+      },
+      "1B164" : {
+         "name" : "KATAKANA LETTER SMALL WI"
+      },
+      "1B165" : {
+         "name" : "KATAKANA LETTER SMALL WE"
+      },
+      "1B166" : {
+         "name" : "KATAKANA LETTER SMALL WO"
+      },
+      "1B167" : {
+         "name" : "KATAKANA LETTER SMALL N"
       },
       "1B17" : {
          "name" : "BALINESE LETTER NGA"
@@ -51135,6 +51714,9 @@
       },
       "1CF9" : {
          "name" : "VEDIC TONE DOUBLE RING ABOVE"
+      },
+      "1CFA" : {
+         "name" : "VEDIC SIGN DOUBLE ANUSVARA ANTARGOMUKHA"
       },
       "1D00" : {
          "name" : "LATIN LETTER SMALL CAPITAL A"
@@ -59110,17 +59692,230 @@
       "1E10" : {
          "name" : "LATIN CAPITAL LETTER D WITH CEDILLA"
       },
+      "1E100" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER MA"
+      },
+      "1E101" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER TSA"
+      },
+      "1E102" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NTA"
+      },
+      "1E103" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER TA"
+      },
+      "1E104" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER HA"
+      },
+      "1E105" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NA"
+      },
+      "1E106" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER XA"
+      },
+      "1E107" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NKA"
+      },
+      "1E108" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER CA"
+      },
+      "1E109" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER LA"
+      },
+      "1E10A" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER SA"
+      },
+      "1E10B" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER ZA"
+      },
+      "1E10C" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NCA"
+      },
+      "1E10D" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NTSA"
+      },
+      "1E10E" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER KA"
+      },
+      "1E10F" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER DA"
+      },
       "1E11" : {
          "name" : "LATIN SMALL LETTER D WITH CEDILLA"
+      },
+      "1E110" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NYA"
+      },
+      "1E111" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NRA"
+      },
+      "1E112" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER VA"
+      },
+      "1E113" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NTXA"
+      },
+      "1E114" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER TXA"
+      },
+      "1E115" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER FA"
+      },
+      "1E116" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER RA"
+      },
+      "1E117" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER QA"
+      },
+      "1E118" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER YA"
+      },
+      "1E119" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NQA"
+      },
+      "1E11A" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER PA"
+      },
+      "1E11B" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER XYA"
+      },
+      "1E11C" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NPA"
+      },
+      "1E11D" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER DLA"
+      },
+      "1E11E" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER NPLA"
+      },
+      "1E11F" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER HAH"
       },
       "1E12" : {
          "name" : "LATIN CAPITAL LETTER D WITH CIRCUMFLEX BELOW"
       },
+      "1E120" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER MLA"
+      },
+      "1E121" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER PLA"
+      },
+      "1E122" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER GA"
+      },
+      "1E123" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER RRA"
+      },
+      "1E124" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER A"
+      },
+      "1E125" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER AA"
+      },
+      "1E126" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER I"
+      },
+      "1E127" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER U"
+      },
+      "1E128" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER O"
+      },
+      "1E129" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER OO"
+      },
+      "1E12A" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER E"
+      },
+      "1E12B" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER EE"
+      },
+      "1E12C" : {
+         "name" : "NYIAKENG PUACHUE HMONG LETTER W"
+      },
       "1E13" : {
          "name" : "LATIN SMALL LETTER D WITH CIRCUMFLEX BELOW"
       },
+      "1E130" : {
+         "name" : "NYIAKENG PUACHUE HMONG TONE-B"
+      },
+      "1E131" : {
+         "name" : "NYIAKENG PUACHUE HMONG TONE-M"
+      },
+      "1E132" : {
+         "name" : "NYIAKENG PUACHUE HMONG TONE-J"
+      },
+      "1E133" : {
+         "name" : "NYIAKENG PUACHUE HMONG TONE-V"
+      },
+      "1E134" : {
+         "name" : "NYIAKENG PUACHUE HMONG TONE-S"
+      },
+      "1E135" : {
+         "name" : "NYIAKENG PUACHUE HMONG TONE-G"
+      },
+      "1E136" : {
+         "name" : "NYIAKENG PUACHUE HMONG TONE-D"
+      },
+      "1E137" : {
+         "name" : "NYIAKENG PUACHUE HMONG SIGN FOR PERSON"
+      },
+      "1E138" : {
+         "name" : "NYIAKENG PUACHUE HMONG SIGN FOR THING"
+      },
+      "1E139" : {
+         "name" : "NYIAKENG PUACHUE HMONG SIGN FOR LOCATION"
+      },
+      "1E13A" : {
+         "name" : "NYIAKENG PUACHUE HMONG SIGN FOR ANIMAL"
+      },
+      "1E13B" : {
+         "name" : "NYIAKENG PUACHUE HMONG SIGN FOR INVERTEBRATE"
+      },
+      "1E13C" : {
+         "name" : "NYIAKENG PUACHUE HMONG SIGN XW XW"
+      },
+      "1E13D" : {
+         "name" : "NYIAKENG PUACHUE HMONG SYLLABLE LENGTHENER"
+      },
       "1E14" : {
          "name" : "LATIN CAPITAL LETTER E WITH MACRON AND GRAVE"
+      },
+      "1E140" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT ZERO"
+      },
+      "1E141" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT ONE"
+      },
+      "1E142" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT TWO"
+      },
+      "1E143" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT THREE"
+      },
+      "1E144" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT FOUR"
+      },
+      "1E145" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT FIVE"
+      },
+      "1E146" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT SIX"
+      },
+      "1E147" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT SEVEN"
+      },
+      "1E148" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT EIGHT"
+      },
+      "1E149" : {
+         "name" : "NYIAKENG PUACHUE HMONG DIGIT NINE"
+      },
+      "1E14E" : {
+         "name" : "NYIAKENG PUACHUE HMONG LOGOGRAM NYAJ"
+      },
+      "1E14F" : {
+         "name" : "NYIAKENG PUACHUE HMONG CIRCLED CA"
       },
       "1E15" : {
          "name" : "LATIN SMALL LETTER E WITH MACRON AND GRAVE"
@@ -59194,14 +59989,191 @@
       "1E2C" : {
          "name" : "LATIN CAPITAL LETTER I WITH TILDE BELOW"
       },
+      "1E2C0" : {
+         "name" : "WANCHO LETTER AA"
+      },
+      "1E2C1" : {
+         "name" : "WANCHO LETTER A"
+      },
+      "1E2C2" : {
+         "name" : "WANCHO LETTER BA"
+      },
+      "1E2C3" : {
+         "name" : "WANCHO LETTER CA"
+      },
+      "1E2C4" : {
+         "name" : "WANCHO LETTER DA"
+      },
+      "1E2C5" : {
+         "name" : "WANCHO LETTER GA"
+      },
+      "1E2C6" : {
+         "name" : "WANCHO LETTER YA"
+      },
+      "1E2C7" : {
+         "name" : "WANCHO LETTER PHA"
+      },
+      "1E2C8" : {
+         "name" : "WANCHO LETTER LA"
+      },
+      "1E2C9" : {
+         "name" : "WANCHO LETTER NA"
+      },
+      "1E2CA" : {
+         "name" : "WANCHO LETTER PA"
+      },
+      "1E2CB" : {
+         "name" : "WANCHO LETTER TA"
+      },
+      "1E2CC" : {
+         "name" : "WANCHO LETTER THA"
+      },
+      "1E2CD" : {
+         "name" : "WANCHO LETTER FA"
+      },
+      "1E2CE" : {
+         "name" : "WANCHO LETTER SA"
+      },
+      "1E2CF" : {
+         "name" : "WANCHO LETTER SHA"
+      },
       "1E2D" : {
          "name" : "LATIN SMALL LETTER I WITH TILDE BELOW"
+      },
+      "1E2D0" : {
+         "name" : "WANCHO LETTER JA"
+      },
+      "1E2D1" : {
+         "name" : "WANCHO LETTER ZA"
+      },
+      "1E2D2" : {
+         "name" : "WANCHO LETTER WA"
+      },
+      "1E2D3" : {
+         "name" : "WANCHO LETTER VA"
+      },
+      "1E2D4" : {
+         "name" : "WANCHO LETTER KA"
+      },
+      "1E2D5" : {
+         "name" : "WANCHO LETTER O"
+      },
+      "1E2D6" : {
+         "name" : "WANCHO LETTER AU"
+      },
+      "1E2D7" : {
+         "name" : "WANCHO LETTER RA"
+      },
+      "1E2D8" : {
+         "name" : "WANCHO LETTER MA"
+      },
+      "1E2D9" : {
+         "name" : "WANCHO LETTER KHA"
+      },
+      "1E2DA" : {
+         "name" : "WANCHO LETTER HA"
+      },
+      "1E2DB" : {
+         "name" : "WANCHO LETTER E"
+      },
+      "1E2DC" : {
+         "name" : "WANCHO LETTER I"
+      },
+      "1E2DD" : {
+         "name" : "WANCHO LETTER NGA"
+      },
+      "1E2DE" : {
+         "name" : "WANCHO LETTER U"
+      },
+      "1E2DF" : {
+         "name" : "WANCHO LETTER LLHA"
       },
       "1E2E" : {
          "name" : "LATIN CAPITAL LETTER I WITH DIAERESIS AND ACUTE"
       },
+      "1E2E0" : {
+         "name" : "WANCHO LETTER TSA"
+      },
+      "1E2E1" : {
+         "name" : "WANCHO LETTER TRA"
+      },
+      "1E2E2" : {
+         "name" : "WANCHO LETTER ONG"
+      },
+      "1E2E3" : {
+         "name" : "WANCHO LETTER AANG"
+      },
+      "1E2E4" : {
+         "name" : "WANCHO LETTER ANG"
+      },
+      "1E2E5" : {
+         "name" : "WANCHO LETTER ING"
+      },
+      "1E2E6" : {
+         "name" : "WANCHO LETTER ON"
+      },
+      "1E2E7" : {
+         "name" : "WANCHO LETTER EN"
+      },
+      "1E2E8" : {
+         "name" : "WANCHO LETTER AAN"
+      },
+      "1E2E9" : {
+         "name" : "WANCHO LETTER NYA"
+      },
+      "1E2EA" : {
+         "name" : "WANCHO LETTER UEN"
+      },
+      "1E2EB" : {
+         "name" : "WANCHO LETTER YIH"
+      },
+      "1E2EC" : {
+         "name" : "WANCHO TONE TUP"
+      },
+      "1E2ED" : {
+         "name" : "WANCHO TONE TUPNI"
+      },
+      "1E2EE" : {
+         "name" : "WANCHO TONE KOI"
+      },
+      "1E2EF" : {
+         "name" : "WANCHO TONE KOINI"
+      },
       "1E2F" : {
          "name" : "LATIN SMALL LETTER I WITH DIAERESIS AND ACUTE"
+      },
+      "1E2F0" : {
+         "name" : "WANCHO DIGIT ZERO"
+      },
+      "1E2F1" : {
+         "name" : "WANCHO DIGIT ONE"
+      },
+      "1E2F2" : {
+         "name" : "WANCHO DIGIT TWO"
+      },
+      "1E2F3" : {
+         "name" : "WANCHO DIGIT THREE"
+      },
+      "1E2F4" : {
+         "name" : "WANCHO DIGIT FOUR"
+      },
+      "1E2F5" : {
+         "name" : "WANCHO DIGIT FIVE"
+      },
+      "1E2F6" : {
+         "name" : "WANCHO DIGIT SIX"
+      },
+      "1E2F7" : {
+         "name" : "WANCHO DIGIT SEVEN"
+      },
+      "1E2F8" : {
+         "name" : "WANCHO DIGIT EIGHT"
+      },
+      "1E2F9" : {
+         "name" : "WANCHO DIGIT NINE"
+      },
+      "1E2FF" : {
+         "name" : "WANCHO NGUN SIGN"
       },
       "1E30" : {
          "name" : "LATIN CAPITAL LETTER K WITH ACUTE"
@@ -60372,6 +61344,9 @@
       "1E94A" : {
          "name" : "ADLAM NUKTA"
       },
+      "1E94B" : {
+         "name" : "ADLAM NASALIZATION MARK"
+      },
       "1E95" : {
          "name" : "LATIN SMALL LETTER Z WITH LINE BELOW"
       },
@@ -60792,14 +61767,197 @@
       "1ED0" : {
          "name" : "LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND ACUTE"
       },
+      "1ED01" : {
+         "name" : "OTTOMAN SIYAQ NUMBER ONE"
+      },
+      "1ED02" : {
+         "name" : "OTTOMAN SIYAQ NUMBER TWO"
+      },
+      "1ED03" : {
+         "name" : "OTTOMAN SIYAQ NUMBER THREE"
+      },
+      "1ED04" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FOUR"
+      },
+      "1ED05" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FIVE"
+      },
+      "1ED06" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SIX"
+      },
+      "1ED07" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SEVEN"
+      },
+      "1ED08" : {
+         "name" : "OTTOMAN SIYAQ NUMBER EIGHT"
+      },
+      "1ED09" : {
+         "name" : "OTTOMAN SIYAQ NUMBER NINE"
+      },
+      "1ED0A" : {
+         "name" : "OTTOMAN SIYAQ NUMBER TEN"
+      },
+      "1ED0B" : {
+         "name" : "OTTOMAN SIYAQ NUMBER TWENTY"
+      },
+      "1ED0C" : {
+         "name" : "OTTOMAN SIYAQ NUMBER THIRTY"
+      },
+      "1ED0D" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FORTY"
+      },
+      "1ED0E" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FIFTY"
+      },
+      "1ED0F" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SIXTY"
+      },
       "1ED1" : {
          "name" : "LATIN SMALL LETTER O WITH CIRCUMFLEX AND ACUTE"
+      },
+      "1ED10" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SEVENTY"
+      },
+      "1ED11" : {
+         "name" : "OTTOMAN SIYAQ NUMBER EIGHTY"
+      },
+      "1ED12" : {
+         "name" : "OTTOMAN SIYAQ NUMBER NINETY"
+      },
+      "1ED13" : {
+         "name" : "OTTOMAN SIYAQ NUMBER ONE HUNDRED"
+      },
+      "1ED14" : {
+         "name" : "OTTOMAN SIYAQ NUMBER TWO HUNDRED"
+      },
+      "1ED15" : {
+         "name" : "OTTOMAN SIYAQ NUMBER THREE HUNDRED"
+      },
+      "1ED16" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FOUR HUNDRED"
+      },
+      "1ED17" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FIVE HUNDRED"
+      },
+      "1ED18" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SIX HUNDRED"
+      },
+      "1ED19" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SEVEN HUNDRED"
+      },
+      "1ED1A" : {
+         "name" : "OTTOMAN SIYAQ NUMBER EIGHT HUNDRED"
+      },
+      "1ED1B" : {
+         "name" : "OTTOMAN SIYAQ NUMBER NINE HUNDRED"
+      },
+      "1ED1C" : {
+         "name" : "OTTOMAN SIYAQ NUMBER ONE THOUSAND"
+      },
+      "1ED1D" : {
+         "name" : "OTTOMAN SIYAQ NUMBER TWO THOUSAND"
+      },
+      "1ED1E" : {
+         "name" : "OTTOMAN SIYAQ NUMBER THREE THOUSAND"
+      },
+      "1ED1F" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FOUR THOUSAND"
       },
       "1ED2" : {
          "name" : "LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND GRAVE"
       },
+      "1ED20" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FIVE THOUSAND"
+      },
+      "1ED21" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SIX THOUSAND"
+      },
+      "1ED22" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SEVEN THOUSAND"
+      },
+      "1ED23" : {
+         "name" : "OTTOMAN SIYAQ NUMBER EIGHT THOUSAND"
+      },
+      "1ED24" : {
+         "name" : "OTTOMAN SIYAQ NUMBER NINE THOUSAND"
+      },
+      "1ED25" : {
+         "name" : "OTTOMAN SIYAQ NUMBER TEN THOUSAND"
+      },
+      "1ED26" : {
+         "name" : "OTTOMAN SIYAQ NUMBER TWENTY THOUSAND"
+      },
+      "1ED27" : {
+         "name" : "OTTOMAN SIYAQ NUMBER THIRTY THOUSAND"
+      },
+      "1ED28" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FORTY THOUSAND"
+      },
+      "1ED29" : {
+         "name" : "OTTOMAN SIYAQ NUMBER FIFTY THOUSAND"
+      },
+      "1ED2A" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SIXTY THOUSAND"
+      },
+      "1ED2B" : {
+         "name" : "OTTOMAN SIYAQ NUMBER SEVENTY THOUSAND"
+      },
+      "1ED2C" : {
+         "name" : "OTTOMAN SIYAQ NUMBER EIGHTY THOUSAND"
+      },
+      "1ED2D" : {
+         "name" : "OTTOMAN SIYAQ NUMBER NINETY THOUSAND"
+      },
+      "1ED2E" : {
+         "name" : "OTTOMAN SIYAQ MARRATAN"
+      },
+      "1ED2F" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER TWO"
+      },
       "1ED3" : {
          "name" : "LATIN SMALL LETTER O WITH CIRCUMFLEX AND GRAVE"
+      },
+      "1ED30" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER THREE"
+      },
+      "1ED31" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER FOUR"
+      },
+      "1ED32" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER FIVE"
+      },
+      "1ED33" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER SIX"
+      },
+      "1ED34" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER SEVEN"
+      },
+      "1ED35" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER EIGHT"
+      },
+      "1ED36" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER NINE"
+      },
+      "1ED37" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER TEN"
+      },
+      "1ED38" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER FOUR HUNDRED"
+      },
+      "1ED39" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER SIX HUNDRED"
+      },
+      "1ED3A" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER TWO THOUSAND"
+      },
+      "1ED3B" : {
+         "name" : "OTTOMAN SIYAQ ALTERNATE NUMBER TEN THOUSAND"
+      },
+      "1ED3C" : {
+         "name" : "OTTOMAN SIYAQ FRACTION ONE HALF"
+      },
+      "1ED3D" : {
+         "name" : "OTTOMAN SIYAQ FRACTION ONE SIXTH"
       },
       "1ED4" : {
          "name" : "LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE"
@@ -62420,6 +63578,9 @@
       },
       "1F16B" : {
          "name" : "RAISED MD SIGN"
+      },
+      "1F16C" : {
+         "name" : "RAISED MR SIGN"
       },
       "1F170" : {
          "name" : "NEGATIVE SQUARED LATIN CAPITAL LETTER A"
@@ -66045,6 +67206,9 @@
       "1F6D4" : {
          "name" : "PAGODA"
       },
+      "1F6D5" : {
+         "name" : "HINDU TEMPLE"
+      },
       "1F6E" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI"
       },
@@ -66119,6 +67283,9 @@
       },
       "1F6F9" : {
          "name" : "SKATEBOARD"
+      },
+      "1F6FA" : {
+         "name" : "AUTO RICKSHAW"
       },
       "1F70" : {
          "ja_name" : "グレーブアクセント付きスクリプトA小文字",
@@ -66781,6 +67948,42 @@
       "1F7D8" : {
          "name" : "NEGATIVE CIRCLED SQUARE"
       },
+      "1F7E0" : {
+         "name" : "LARGE ORANGE CIRCLE"
+      },
+      "1F7E1" : {
+         "name" : "LARGE YELLOW CIRCLE"
+      },
+      "1F7E2" : {
+         "name" : "LARGE GREEN CIRCLE"
+      },
+      "1F7E3" : {
+         "name" : "LARGE PURPLE CIRCLE"
+      },
+      "1F7E4" : {
+         "name" : "LARGE BROWN CIRCLE"
+      },
+      "1F7E5" : {
+         "name" : "LARGE RED SQUARE"
+      },
+      "1F7E6" : {
+         "name" : "LARGE BLUE SQUARE"
+      },
+      "1F7E7" : {
+         "name" : "LARGE ORANGE SQUARE"
+      },
+      "1F7E8" : {
+         "name" : "LARGE YELLOW SQUARE"
+      },
+      "1F7E9" : {
+         "name" : "LARGE GREEN SQUARE"
+      },
+      "1F7EA" : {
+         "name" : "LARGE PURPLE SQUARE"
+      },
+      "1F7EB" : {
+         "name" : "LARGE BROWN SQUARE"
+      },
       "1F80" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI"
       },
@@ -67312,6 +68515,15 @@
       "1F90B" : {
          "name" : "DOWNWARD FACING NOTCHED HOOK WITH DOT"
       },
+      "1F90D" : {
+         "name" : "WHITE HEART"
+      },
+      "1F90E" : {
+         "name" : "BROWN HEART"
+      },
+      "1F90F" : {
+         "name" : "PINCHING HAND"
+      },
       "1F91" : {
          "name" : "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI"
       },
@@ -67461,6 +68673,9 @@
       },
       "1F93E" : {
          "name" : "HANDBALL"
+      },
+      "1F93F" : {
+         "name" : "DIVING MASK"
       },
       "1F94" : {
          "name" : "GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI"
@@ -67621,6 +68836,9 @@
       "1F970" : {
          "name" : "SMILING FACE WITH SMILING EYES AND THREE HEARTS"
       },
+      "1F971" : {
+         "name" : "YAWNING FACE"
+      },
       "1F973" : {
          "name" : "FACE WITH PARTY HORN AND PARTY HAT"
       },
@@ -67635,6 +68853,9 @@
       },
       "1F97A" : {
          "name" : "FACE WITH PLEADING EYES"
+      },
+      "1F97B" : {
+         "name" : "SARI"
       },
       "1F97C" : {
          "name" : "LAB COAT"
@@ -67762,6 +68983,30 @@
       "1F9A2" : {
          "name" : "SWAN"
       },
+      "1F9A5" : {
+         "name" : "SLOTH"
+      },
+      "1F9A6" : {
+         "name" : "OTTER"
+      },
+      "1F9A7" : {
+         "name" : "ORANGUTAN"
+      },
+      "1F9A8" : {
+         "name" : "SKUNK"
+      },
+      "1F9A9" : {
+         "name" : "FLAMINGO"
+      },
+      "1F9AA" : {
+         "name" : "OYSTER"
+      },
+      "1F9AE" : {
+         "name" : "GUIDE DOG"
+      },
+      "1F9AF" : {
+         "name" : "PROBING CANE"
+      },
       "1F9B" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI"
       },
@@ -67795,6 +69040,24 @@
       "1F9B9" : {
          "name" : "SUPERVILLAIN"
       },
+      "1F9BA" : {
+         "name" : "SAFETY VEST"
+      },
+      "1F9BB" : {
+         "name" : "EAR WITH HEARING AID"
+      },
+      "1F9BC" : {
+         "name" : "MOTORIZED WHEELCHAIR"
+      },
+      "1F9BD" : {
+         "name" : "MANUAL WHEELCHAIR"
+      },
+      "1F9BE" : {
+         "name" : "MECHANICAL ARM"
+      },
+      "1F9BF" : {
+         "name" : "MECHANICAL LEG"
+      },
       "1F9C" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
       },
@@ -67806,6 +69069,39 @@
       },
       "1F9C2" : {
          "name" : "SALT SHAKER"
+      },
+      "1F9C3" : {
+         "name" : "BEVERAGE BOX"
+      },
+      "1F9C4" : {
+         "name" : "GARLIC"
+      },
+      "1F9C5" : {
+         "name" : "ONION"
+      },
+      "1F9C6" : {
+         "name" : "FALAFEL"
+      },
+      "1F9C7" : {
+         "name" : "WAFFLE"
+      },
+      "1F9C8" : {
+         "name" : "BUTTER"
+      },
+      "1F9C9" : {
+         "name" : "MATE DRINK"
+      },
+      "1F9CA" : {
+         "name" : "ICE CUBE"
+      },
+      "1F9CD" : {
+         "name" : "STANDING PERSON"
+      },
+      "1F9CE" : {
+         "name" : "KNEELING PERSON"
+      },
+      "1F9CF" : {
+         "name" : "DEAF PERSON"
       },
       "1F9D" : {
          "name" : "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
@@ -67963,20 +69259,272 @@
       "1FA0" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI"
       },
+      "1FA00" : {
+         "name" : "NEUTRAL CHESS KING"
+      },
+      "1FA01" : {
+         "name" : "NEUTRAL CHESS QUEEN"
+      },
+      "1FA02" : {
+         "name" : "NEUTRAL CHESS ROOK"
+      },
+      "1FA03" : {
+         "name" : "NEUTRAL CHESS BISHOP"
+      },
+      "1FA04" : {
+         "name" : "NEUTRAL CHESS KNIGHT"
+      },
+      "1FA05" : {
+         "name" : "NEUTRAL CHESS PAWN"
+      },
+      "1FA06" : {
+         "name" : "WHITE CHESS KNIGHT ROTATED FORTY-FIVE DEGREES"
+      },
+      "1FA07" : {
+         "name" : "BLACK CHESS KNIGHT ROTATED FORTY-FIVE DEGREES"
+      },
+      "1FA08" : {
+         "name" : "NEUTRAL CHESS KNIGHT ROTATED FORTY-FIVE DEGREES"
+      },
+      "1FA09" : {
+         "name" : "WHITE CHESS KING ROTATED NINETY DEGREES"
+      },
+      "1FA0A" : {
+         "name" : "WHITE CHESS QUEEN ROTATED NINETY DEGREES"
+      },
+      "1FA0B" : {
+         "name" : "WHITE CHESS ROOK ROTATED NINETY DEGREES"
+      },
+      "1FA0C" : {
+         "name" : "WHITE CHESS BISHOP ROTATED NINETY DEGREES"
+      },
+      "1FA0D" : {
+         "name" : "WHITE CHESS KNIGHT ROTATED NINETY DEGREES"
+      },
+      "1FA0E" : {
+         "name" : "WHITE CHESS PAWN ROTATED NINETY DEGREES"
+      },
+      "1FA0F" : {
+         "name" : "BLACK CHESS KING ROTATED NINETY DEGREES"
+      },
       "1FA1" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI"
+      },
+      "1FA10" : {
+         "name" : "BLACK CHESS QUEEN ROTATED NINETY DEGREES"
+      },
+      "1FA11" : {
+         "name" : "BLACK CHESS ROOK ROTATED NINETY DEGREES"
+      },
+      "1FA12" : {
+         "name" : "BLACK CHESS BISHOP ROTATED NINETY DEGREES"
+      },
+      "1FA13" : {
+         "name" : "BLACK CHESS KNIGHT ROTATED NINETY DEGREES"
+      },
+      "1FA14" : {
+         "name" : "BLACK CHESS PAWN ROTATED NINETY DEGREES"
+      },
+      "1FA15" : {
+         "name" : "NEUTRAL CHESS KING ROTATED NINETY DEGREES"
+      },
+      "1FA16" : {
+         "name" : "NEUTRAL CHESS QUEEN ROTATED NINETY DEGREES"
+      },
+      "1FA17" : {
+         "name" : "NEUTRAL CHESS ROOK ROTATED NINETY DEGREES"
+      },
+      "1FA18" : {
+         "name" : "NEUTRAL CHESS BISHOP ROTATED NINETY DEGREES"
+      },
+      "1FA19" : {
+         "name" : "NEUTRAL CHESS KNIGHT ROTATED NINETY DEGREES"
+      },
+      "1FA1A" : {
+         "name" : "NEUTRAL CHESS PAWN ROTATED NINETY DEGREES"
+      },
+      "1FA1B" : {
+         "name" : "WHITE CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES"
+      },
+      "1FA1C" : {
+         "name" : "BLACK CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES"
+      },
+      "1FA1D" : {
+         "name" : "NEUTRAL CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES"
+      },
+      "1FA1E" : {
+         "name" : "WHITE CHESS TURNED KING"
+      },
+      "1FA1F" : {
+         "name" : "WHITE CHESS TURNED QUEEN"
       },
       "1FA2" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI"
       },
+      "1FA20" : {
+         "name" : "WHITE CHESS TURNED ROOK"
+      },
+      "1FA21" : {
+         "name" : "WHITE CHESS TURNED BISHOP"
+      },
+      "1FA22" : {
+         "name" : "WHITE CHESS TURNED KNIGHT"
+      },
+      "1FA23" : {
+         "name" : "WHITE CHESS TURNED PAWN"
+      },
+      "1FA24" : {
+         "name" : "BLACK CHESS TURNED KING"
+      },
+      "1FA25" : {
+         "name" : "BLACK CHESS TURNED QUEEN"
+      },
+      "1FA26" : {
+         "name" : "BLACK CHESS TURNED ROOK"
+      },
+      "1FA27" : {
+         "name" : "BLACK CHESS TURNED BISHOP"
+      },
+      "1FA28" : {
+         "name" : "BLACK CHESS TURNED KNIGHT"
+      },
+      "1FA29" : {
+         "name" : "BLACK CHESS TURNED PAWN"
+      },
+      "1FA2A" : {
+         "name" : "NEUTRAL CHESS TURNED KING"
+      },
+      "1FA2B" : {
+         "name" : "NEUTRAL CHESS TURNED QUEEN"
+      },
+      "1FA2C" : {
+         "name" : "NEUTRAL CHESS TURNED ROOK"
+      },
+      "1FA2D" : {
+         "name" : "NEUTRAL CHESS TURNED BISHOP"
+      },
+      "1FA2E" : {
+         "name" : "NEUTRAL CHESS TURNED KNIGHT"
+      },
+      "1FA2F" : {
+         "name" : "NEUTRAL CHESS TURNED PAWN"
+      },
       "1FA3" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI"
+      },
+      "1FA30" : {
+         "name" : "WHITE CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES"
+      },
+      "1FA31" : {
+         "name" : "BLACK CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES"
+      },
+      "1FA32" : {
+         "name" : "NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES"
+      },
+      "1FA33" : {
+         "name" : "WHITE CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA34" : {
+         "name" : "WHITE CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA35" : {
+         "name" : "WHITE CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA36" : {
+         "name" : "WHITE CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA37" : {
+         "name" : "WHITE CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA38" : {
+         "name" : "WHITE CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA39" : {
+         "name" : "BLACK CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA3A" : {
+         "name" : "BLACK CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA3B" : {
+         "name" : "BLACK CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA3C" : {
+         "name" : "BLACK CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA3D" : {
+         "name" : "BLACK CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA3E" : {
+         "name" : "BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA3F" : {
+         "name" : "NEUTRAL CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES"
       },
       "1FA4" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI"
       },
+      "1FA40" : {
+         "name" : "NEUTRAL CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA41" : {
+         "name" : "NEUTRAL CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA42" : {
+         "name" : "NEUTRAL CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA43" : {
+         "name" : "NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA44" : {
+         "name" : "NEUTRAL CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES"
+      },
+      "1FA45" : {
+         "name" : "WHITE CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES"
+      },
+      "1FA46" : {
+         "name" : "BLACK CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES"
+      },
+      "1FA47" : {
+         "name" : "NEUTRAL CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES"
+      },
+      "1FA48" : {
+         "name" : "WHITE CHESS EQUIHOPPER"
+      },
+      "1FA49" : {
+         "name" : "BLACK CHESS EQUIHOPPER"
+      },
+      "1FA4A" : {
+         "name" : "NEUTRAL CHESS EQUIHOPPER"
+      },
+      "1FA4B" : {
+         "name" : "WHITE CHESS EQUIHOPPER ROTATED NINETY DEGREES"
+      },
+      "1FA4C" : {
+         "name" : "BLACK CHESS EQUIHOPPER ROTATED NINETY DEGREES"
+      },
+      "1FA4D" : {
+         "name" : "NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES"
+      },
+      "1FA4E" : {
+         "name" : "WHITE CHESS KNIGHT-QUEEN"
+      },
+      "1FA4F" : {
+         "name" : "WHITE CHESS KNIGHT-ROOK"
+      },
       "1FA5" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI"
+      },
+      "1FA50" : {
+         "name" : "WHITE CHESS KNIGHT-BISHOP"
+      },
+      "1FA51" : {
+         "name" : "BLACK CHESS KNIGHT-QUEEN"
+      },
+      "1FA52" : {
+         "name" : "BLACK CHESS KNIGHT-ROOK"
+      },
+      "1FA53" : {
+         "name" : "BLACK CHESS KNIGHT-BISHOP"
       },
       "1FA6" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI"
@@ -68026,11 +69574,59 @@
       "1FA7" : {
          "name" : "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI"
       },
+      "1FA70" : {
+         "name" : "BALLET SHOES"
+      },
+      "1FA71" : {
+         "name" : "ONE-PIECE SWIMSUIT"
+      },
+      "1FA72" : {
+         "name" : "BRIEFS"
+      },
+      "1FA73" : {
+         "name" : "SHORTS"
+      },
+      "1FA78" : {
+         "name" : "DROP OF BLOOD"
+      },
+      "1FA79" : {
+         "name" : "ADHESIVE BANDAGE"
+      },
+      "1FA7A" : {
+         "name" : "STETHOSCOPE"
+      },
       "1FA8" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI"
       },
+      "1FA80" : {
+         "name" : "YO-YO"
+      },
+      "1FA81" : {
+         "name" : "KITE"
+      },
+      "1FA82" : {
+         "name" : "PARACHUTE"
+      },
       "1FA9" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI"
+      },
+      "1FA90" : {
+         "name" : "RINGED PLANET"
+      },
+      "1FA91" : {
+         "name" : "CHAIR"
+      },
+      "1FA92" : {
+         "name" : "RAZOR"
+      },
+      "1FA93" : {
+         "name" : "AXE"
+      },
+      "1FA94" : {
+         "name" : "DIYA LAMP"
+      },
+      "1FA95" : {
+         "name" : "BANJO"
       },
       "1FAA" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI"
@@ -77429,6 +79025,9 @@
       "2BC8" : {
          "name" : "BLACK MEDIUM RIGHT-POINTING TRIANGLE CENTRED"
       },
+      "2BC9" : {
+         "name" : "NEPTUNE FORM TWO"
+      },
       "2BCA" : {
          "name" : "TOP HALF BLACK CIRCLE"
       },
@@ -77587,6 +79186,9 @@
       },
       "2BFE" : {
          "name" : "REVERSED RIGHT ANGLE"
+      },
+      "2BFF" : {
+         "name" : "HELLSCHREIBER PAUSE SYMBOL"
       },
       "2C00" : {
          "name" : "GLAGOLITIC CAPITAL LETTER AZU"
@@ -79201,6 +80803,9 @@
       },
       "2E4E" : {
          "name" : "PUNCTUS ELEVATUS MARK"
+      },
+      "2E4F" : {
+         "name" : "CORNISH VERSE DIVIDER"
       },
       "2E80" : {
          "name" : "CJK RADICAL REPEAT"
@@ -91227,6 +92832,39 @@
       "A7B9" : {
          "name" : "LATIN SMALL LETTER U WITH STROKE"
       },
+      "A7BA" : {
+         "name" : "LATIN CAPITAL LETTER GLOTTAL A"
+      },
+      "A7BB" : {
+         "name" : "LATIN SMALL LETTER GLOTTAL A"
+      },
+      "A7BC" : {
+         "name" : "LATIN CAPITAL LETTER GLOTTAL I"
+      },
+      "A7BD" : {
+         "name" : "LATIN SMALL LETTER GLOTTAL I"
+      },
+      "A7BE" : {
+         "name" : "LATIN CAPITAL LETTER GLOTTAL U"
+      },
+      "A7BF" : {
+         "name" : "LATIN SMALL LETTER GLOTTAL U"
+      },
+      "A7C2" : {
+         "name" : "LATIN CAPITAL LETTER ANGLICANA W"
+      },
+      "A7C3" : {
+         "name" : "LATIN SMALL LETTER ANGLICANA W"
+      },
+      "A7C4" : {
+         "name" : "LATIN CAPITAL LETTER C WITH PALATAL HOOK"
+      },
+      "A7C5" : {
+         "name" : "LATIN CAPITAL LETTER S WITH HOOK"
+      },
+      "A7C6" : {
+         "name" : "LATIN CAPITAL LETTER Z WITH PALATAL HOOK"
+      },
       "A7F7" : {
          "name" : "LATIN EPIGRAPHIC LETTER SIDEWAYS I"
       },
@@ -93521,6 +95159,12 @@
       },
       "AB65" : {
          "name" : "GREEK LETTER SMALL CAPITAL OMEGA"
+      },
+      "AB66" : {
+         "name" : "LATIN SMALL LETTER DZ DIGRAPH WITH RETROFLEX HOOK"
+      },
+      "AB67" : {
+         "name" : "LATIN SMALL LETTER TS DIGRAPH WITH RETROFLEX HOOK"
       },
       "AB70" : {
          "name" : "CHEROKEE SMALL LETTER A"
