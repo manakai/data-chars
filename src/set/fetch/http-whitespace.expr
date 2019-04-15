@@ -1,0 +1,6 @@
+#label:HTTP whitespace
+#sw:HTTP whitespace
+#url:https://fetch.spec.whatwg.org/#http-whitespace
+[\u000D\u000A]
+|
+$fetch:http-tab-or-space
