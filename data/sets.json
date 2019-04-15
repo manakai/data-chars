@@ -316,6 +316,12 @@
          "suikawiki_name" : "HTTP tab or space byte",
          "url" : "https://fetch.spec.whatwg.org/#http-tab-or-space-byte"
       },
+      "$fetch:http-whitespace" : {
+         "chars" : "[\\u0009-\\u000A\\u000D\\u0020]",
+         "label" : "HTTP whitespace",
+         "suikawiki_name" : "HTTP whitespace",
+         "url" : "https://fetch.spec.whatwg.org/#http-whitespace"
+      },
       "$fetch:http-whitespace-byte" : {
          "chars" : "[\\u0009-\\u000A\\u000D\\u0020]",
          "label" : "HTTP whitespace byte (in US-ASCII)",
