@@ -2873,7 +2873,7 @@
          "url" : "https://manakai.github.io/spec-numbers/#cjk-hundred"
       },
       "$numbers:CJK-hundred-million" : {
-         "chars" : "[\\u5104]",
+         "chars" : "[\\u4EBF\\u5104]",
          "label" : "CJK hundred million",
          "suikawiki_name" : "CJK hundred million",
          "url" : "https://manakai.github.io/spec-numbers/#cjk-hundred-million"
@@ -2897,7 +2897,7 @@
          "url" : "https://manakai.github.io/spec-numbers/#cjk-non-zero-digit"
       },
       "$numbers:CJK-number-char" : {
-         "chars" : "[0-9\\u3007\\u4E00\\u4E03\\u4E07\\u4E09\\u4E17\\u4E5D\\u4E8C\\u4E94\\u4E96\\u4EAC\\u4EDF\\u4F0D\\u4F70\\u5104\\u5146\\u516B\\u516D\\u5341\\u5343-\\u5345\\u534C\\u53C1-\\u53C4\\u56DB\\u58F1\\u58F9\\u5EFE-\\u5EFF\\u5F0C-\\u5F0E\\u5F10\\u62FE\\u634C\\u67D2\\u6F06\\u7396\\u767E\\u8086\\u842C\\u8CAE\\u8CB3\\u8CEA\\u8D30\\u9621\\u9646\\u964C\\u9678\\u96F6\\uFF10-\\uFF19\\u{2099C}]",
+         "chars" : "[0-9\\u3007\\u4E00\\u4E03\\u4E07\\u4E09\\u4E17\\u4E5D\\u4E8C\\u4E94\\u4E96\\u4EAC\\u4EBF\\u4EDF\\u4F0D\\u4F70\\u5104\\u5146\\u516B\\u516D\\u5341\\u5343-\\u5345\\u534C\\u53C1-\\u53C4\\u56DB\\u58F1\\u58F9\\u5EFE-\\u5EFF\\u5F0C-\\u5F0E\\u5F10\\u62FE\\u634C\\u67D2\\u6F06\\u7396\\u767E\\u8086\\u842C\\u8CAE\\u8CB3\\u8CEA\\u8D30\\u9621\\u9646\\u964C\\u9678\\u96F6\\uFF10-\\uFF19\\u{2099C}]",
          "label" : "漢数字",
          "suikawiki_name" : "漢数字",
          "url" : "https://manakai.github.io/spec-numbers/#digits"
