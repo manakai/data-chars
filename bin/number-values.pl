@@ -13,8 +13,8 @@ my $Data = {};
     my $cp = $input->{codepoint}->[0] // die "No |codepoint|";
     $cp =~ s/^U\+//;
     my $char = chr hex $cp;
-    my $value = 0 + ($input->{value}->[0] // die "No |value|");
-    $Data->{$char}->{cjk_numeral} = $value;
+    my $value = $input->{value}->[0];
+    $Data->{$char}->{cjk_numeral} = 0+$value if defined $value;;
   }
 }
 

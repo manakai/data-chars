@@ -1,0 +1,6 @@
+
+#label:CJK and separator
+#url:https://manakai.github.io/spec-numbers/#cjk-and-separator
+#sw:CJK and separator
+[\u{6709}]
+  

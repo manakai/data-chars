@@ -2842,11 +2842,29 @@
          "suikawiki_name" : "network.IDN.blacklist_chars",
          "url" : "http://kb.mozillazine.org/Network.IDN.blacklist_chars"
       },
+      "$numbers:CJK-and-separator" : {
+         "chars" : "[\\u6709]",
+         "label" : "CJK and separator",
+         "suikawiki_name" : "CJK and separator",
+         "url" : "https://manakai.github.io/spec-numbers/#cjk-and-separator"
+      },
+      "$numbers:CJK-decimal-separator" : {
+         "chars" : "[.\\u30FB\\uFF0E]",
+         "label" : "CJK decimal separator",
+         "suikawiki_name" : "CJK decimal separator",
+         "url" : "https://manakai.github.io/spec-numbers/#cjk-decimal-separator"
+      },
       "$numbers:CJK-digit" : {
          "chars" : "[0-9\\u3007\\u4E00\\u4E03\\u4E09\\u4E5D\\u4E8C\\u4E94\\u4E96\\u4F0D\\u516B\\u516D\\u53C1-\\u53C4\\u56DB\\u58F1\\u58F9\\u5F0C-\\u5F0E\\u5F10\\u634C\\u67D2\\u6F06\\u7396\\u8086\\u8CAE\\u8CB3\\u8CEA\\u8D30\\u9646\\u9678\\u96F6\\uFF10-\\uFF19]",
          "label" : "CJK digit",
          "suikawiki_name" : "CJK digit",
          "url" : "https://manakai.github.io/spec-numbers/#cjk-digit"
+      },
+      "$numbers:CJK-digit-group-separator" : {
+         "chars" : "[\\u0020,\\u00A0\\u00B7\\u2009\\u202F\\uFF0C]",
+         "label" : "CJK digit group separator",
+         "suikawiki_name" : "CJK digit group separator",
+         "url" : "https://manakai.github.io/spec-numbers/#cjk-digit-group-separator"
       },
       "$numbers:CJK-hundred" : {
          "chars" : "[\\u4F70\\u767E\\u964C]",
@@ -2867,13 +2885,13 @@
          "url" : "https://manakai.github.io/spec-numbers/#cjk-multiple-hundreds"
       },
       "$numbers:CJK-multiple-tens" : {
-         "chars" : "[\\u4E17\\u5344-\\u5345\\u534C\\u5EFE-\\u5EFF]",
+         "chars" : "[\\u4E17\\u5344-\\u5345\\u534C\\u5EFE-\\u5EFF\\u{2099C}]",
          "label" : "CJK multiple tens",
          "suikawiki_name" : "CJK multiple tens",
          "url" : "https://manakai.github.io/spec-numbers/#cjk-multiple-tens"
       },
       "$numbers:CJK-number-char" : {
-         "chars" : "[0-9\\u3007\\u4E00\\u4E03\\u4E07\\u4E09\\u4E17\\u4E5D\\u4E8C\\u4E94\\u4E96\\u4EAC\\u4EDF\\u4F0D\\u4F70\\u5104\\u5146\\u516B\\u516D\\u5341\\u5343-\\u5345\\u534C\\u53C1-\\u53C4\\u56DB\\u58F1\\u58F9\\u5EFE-\\u5EFF\\u5F0C-\\u5F0E\\u5F10\\u62FE\\u634C\\u67D2\\u6F06\\u7396\\u767E\\u8086\\u842C\\u8CAE\\u8CB3\\u8CEA\\u8D30\\u9621\\u9646\\u964C\\u9678\\u96F6\\uFF10-\\uFF19]",
+         "chars" : "[0-9\\u3007\\u4E00\\u4E03\\u4E07\\u4E09\\u4E17\\u4E5D\\u4E8C\\u4E94\\u4E96\\u4EAC\\u4EDF\\u4F0D\\u4F70\\u5104\\u5146\\u516B\\u516D\\u5341\\u5343-\\u5345\\u534C\\u53C1-\\u53C4\\u56DB\\u58F1\\u58F9\\u5EFE-\\u5EFF\\u5F0C-\\u5F0E\\u5F10\\u62FE\\u634C\\u67D2\\u6F06\\u7396\\u767E\\u8086\\u842C\\u8CAE\\u8CB3\\u8CEA\\u8D30\\u9621\\u9646\\u964C\\u9678\\u96F6\\uFF10-\\uFF19\\u{2099C}]",
          "label" : "漢数字",
          "suikawiki_name" : "漢数字",
          "url" : "https://manakai.github.io/spec-numbers/#digits"

@@ -1,0 +1,6 @@
+
+#label:CJK digit group separator
+#url:https://manakai.github.io/spec-numbers/#cjk-digit-group-separator
+#sw:CJK digit group separator
+[\u{0020}\u{002C}\u{00A0}\u{00B7}\u{2009}\u{202F}\u{FF0C}]
+  
