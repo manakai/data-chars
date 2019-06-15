@@ -12,10 +12,12 @@ my $Data = json_bytes2perl $data_path->slurp;
 my $Categories = {};
 
 for my $data (@{$Data->{'cjk-numeral'}}) {
-  my $cat = $data->{category}->[0] // die "No |category|";
-  my $char = $data->{codepoint}->[0] // die "No |codepoint|";
-  $char =~ s/^U\+//;
-  push @{$Categories->{$cat}->{chars} ||= []}, sprintf '\u{%04X}', hex $char;
+  $data->{category}->[0] // die "No |category|";
+  for my $cat (@{$data->{category}}) {
+    my $char = $data->{codepoint}->[0] // die "No |codepoint|";
+    $char =~ s/^U\+//;
+    push @{$Categories->{$cat}->{chars} ||= []}, sprintf '\u{%04X}', hex $char;
+  }
 }
 
 for my $name (keys %$Categories) {

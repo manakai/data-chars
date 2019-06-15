@@ -1,0 +1,6 @@
+
+#label:CJK zero
+#url:https://manakai.github.io/spec-numbers/#cjk-zero
+#sw:CJK zero
+[\u{0030}\u{3007}\u{96F6}\u{FF10}]
+  
