@@ -1,0 +1,5 @@
+#url:https://www.unicode.org/versions/Unicode12.0.0/ch18.pdf#page=25
+#label:IDS (character)
+$unicode:IDS-operand-char |
+$unicode:IDS_BinaryOperator |
+$unicode:IDS_TrinaryOperator

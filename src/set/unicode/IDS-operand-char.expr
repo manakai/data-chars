@@ -1,0 +1,7 @@
+#url:https://www.unicode.org/versions/Unicode12.0.0/ch18.pdf#page=25
+#label:IDS (operand character)
+$unicode:Ideographic |
+$unicode:Radical |
+$unicode:CJK_Stroke |
+$unicode:Private_Use |
+[\uFF1F]
