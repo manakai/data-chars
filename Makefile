@@ -190,6 +190,15 @@ local/unicode/latest/DerivedCombiningClass.txt:
 local/unicode/$(UNICODE_VERSION)/DerivedCombiningClass.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedCombiningClass.txt
+local/unicode/latest/DerivedAge.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedAge.txt
+local/unicode/$(UNICODE_VERSION)/DerivedBidiClass.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(SAVEURL) $@ https://unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedBidiClass.txt
+local/unicode/latest/DerivedBidiClass.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedBidiClass.txt
 
 src/set/unicode/Block/files: \
     bin/blocks.pl \
@@ -220,6 +229,21 @@ src/set/unicode$(UNICODE_VERSION:.0=)/Canonical_Combining_Class/files: \
     bin/ccc.pl \
     local/unicode/$(UNICODE_VERSION)/DerivedCombiningClass.txt
 	$(PERL) bin/ccc.pl $(UNICODE_VERSION)
+	touch $@
+src/set/unicode/Bidi_Class/files: \
+    bin/bidiclass.pl \
+    local/unicode/latest/DerivedBidiClass.txt
+	$(PERL) bin/bidiclass.pl latest
+	touch $@
+src/set/unicode$(UNICODE_VERSION:.0=)/Bidi_Class/files: \
+    bin/bidiclass.pl \
+    local/unicode/$(UNICODE_VERSION)/DerivedBidiClass.txt
+	$(PERL) bin/bidiclass.pl $(UNICODE_VERSION)
+	touch $@
+src/set/unicode/Age/files: \
+    bin/ccc.pl \
+    local/unicode/latest/DerivedAge.txt
+	$(PERL) bin/age.pl latest
 	touch $@
 
 local/perl-unicode/latest/lib/unicore-CombiningClass.pl: \
@@ -416,6 +440,8 @@ data/sets.json: bin/sets.pl \
     src/set/unicode/Script/files \
     src/set/unicode/Hangul_Syllable_Type/files \
     src/set/unicode/Canonical_Combining_Class/files \
+    src/set/unicode/Bidi_Class/files \
+    src/set/unicode/Age/files \
     src/set/unicode/has_canon_decomposition.expr \
     src/set/unicode/has_compat_decomposition.expr \
     src/set/unicode/canon_decomposition_second.expr \

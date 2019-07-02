@@ -1,0 +1,4 @@
+#name:CORS-unsafe request-header byte (ASCII character)
+#url:https://fetch.spec.whatwg.org/#cors-unsafe-request-header-byte
+[\u0000-\u0008\u000A-\u001F\u0022\u0028\u0029\u003A
+\u003C\u003E\u003F\u0040\u005B\u005C\u005D\u007B\u007D\u007F]

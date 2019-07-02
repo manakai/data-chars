@@ -38,7 +38,7 @@ for (0..$#$Data) {
   $data_path->mkpath;
   for my $name (keys %$Sets) {
     my $path = $data_path->child ("$name.expr");
-    $path->spew_utf8 (Charinfo::Set->serialize_set (Charinfo::Set::set_merge $Sets->{$name}, []));
+    $path->spew_utf8 ("#sw:Canonical_Combining_Class\n" . Charinfo::Set->serialize_set (Charinfo::Set::set_merge $Sets->{$name}, []));
   }
 }
 

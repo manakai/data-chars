@@ -7,11 +7,7 @@
 /Makefile.setupenv
 /cin
 /config/perl/libs.txt
-/src/set/unicode/Block/files
-/src/set/unicode/Script/files
-/src/set/unicode/Hangul_Syllable_Type/files
-/src/set/unicode/Canonical_Combining_Class/files
-/src/set/unicode6.3/Canonical_Combining_Class/files
+/src/set/unicode*/*/files
 /src/set/idna-tables*/files
 /src/set/uax31/files
 /src/set/xml10-5e/suggested-files
