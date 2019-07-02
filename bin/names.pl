@@ -85,16 +85,37 @@ for (0x0000..0x001F, 0x007F, 0x0080..0x009F) {
   $Data->{code_to_name}->{u $_}->{label} = 'control-' . u $_;
 }
 
-# XXX src/set/unicode/Script/Han.expr
-for (
-  [0x3400, 0x4DB5], # Ext A
-  [0x4E00, 0x9FCC],
-  [0x20000, 0x2A6D6], # Ext B
-  [0x2A700, 0x2B734], # Ext C
-  [0x2F800, 0x2B81D], # Ext D
-) {
-  $Data->{range_to_prefix}->{join ' ', u $_->[0], u $_->[1]}->{name}
-      = 'CJK UNIFIED IDEOGRAPH-';
+{
+  my $path = $RootPath->child ('src/set/unicode/Script/Han.expr');
+  $path->slurp_utf8 =~ m{^\[(.+)\]$} or die "Bad |src/set/unicode/Script/Han.expr|";
+  my $ranges = $1;
+  my $got = [[-1, -1]];
+  while (length $ranges) {
+    if ($ranges =~ s/^\\u([0-9A-Fa-f]{4}|\{[0-9A-Fa-f]+\})(?:-\\u([0-9A-Fa-f]{4}|\{[0-9A-Fa-f]+\})|)//) {
+      my $start = $1;
+      my $end = $2 || $1;
+      s/[{}]//g for $start, $end;
+      $start = hex $start;
+      $end = hex $end;
+      for ($start..$end) {
+        my $v = $Data->{code_to_name}->{u $_};
+        if (defined $v and defined $v->{name}) {
+          #
+        } else {
+          if ($got->[-1]->[1] + 1 == $_) {
+            $got->[-1]->[1]++;
+          } else {
+            push @$got, [$_, $_];
+          }
+        }
+      }
+    }
+  }
+  shift @$got;
+  for (@$got) {
+    $Data->{range_to_prefix}->{join ' ', u $_->[0], u $_->[1]}->{name}
+        = 'CJK UNIFIED IDEOGRAPH-';
+  }
 }
 
 for (
