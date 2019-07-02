@@ -1,5 +1,5 @@
 #label:平仮名
 [\u3041-\u3096
-\u309D-\u309F
-\u{1B001}]
+\u309D-\u309F]
+| $kana:hiragana-variants
 | $kana:hiragana-digraph

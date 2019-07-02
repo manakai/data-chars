@@ -1,0 +1,4 @@
+#label: Kana variants
+#sw: 変体仮名
+$kana:hiragana-variants |
+$kana:katakana-variants

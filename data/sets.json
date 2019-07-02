@@ -2568,7 +2568,7 @@
          "suikawiki_name" : "片仮名用特殊文字 (JIS X 6002-1980 4.2.4 (2))"
       },
       "$kana:hiragana-all" : {
-         "chars" : "[\\u3041-\\u3096\\u309D-\\u309F\\u{1B001}\\u{2CF02}]",
+         "chars" : "[\\u3041-\\u3096\\u309D-\\u309F\\u{1B001}-\\u{1B11E}\\u{2CF02}]",
          "label" : "平仮名",
          "suikawiki_name" : "平仮名"
       },
@@ -2593,9 +2593,14 @@
          "suikawiki_name" : "片仮名 (半濁音)"
       },
       "$kana:hiragana-small" : {
-         "chars" : "[\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u3095-\\u3096]",
+         "chars" : "[\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u3095-\\u3096\\u{1B150}-\\u{1B152}]",
          "label" : "平仮名 (小書き)",
-         "suikawiki_name" : "平仮名 (小書き)"
+         "suikawiki_name" : "小書き仮名"
+      },
+      "$kana:hiragana-variants" : {
+         "chars" : "[\\u3090-\\u3091\\u{1B001}-\\u{1B11E}]",
+         "label" : "Hiragana variants",
+         "suikawiki_name" : "変体仮名"
       },
       "$kana:hiragana-voiced" : {
          "chars" : "[\\u304C\\u304E\\u3050\\u3052\\u3054\\u3056\\u3058\\u305A\\u305C\\u305E\\u3060\\u3062\\u3065\\u3067\\u3069\\u3070\\u3073\\u3076\\u3079\\u307C\\u3094]",
@@ -2603,7 +2608,7 @@
          "suikawiki_name" : "平仮名 (濁音)"
       },
       "$kana:kana-all" : {
-         "chars" : "[\\u3031-\\u3035\\u303B\\u3041-\\u3096\\u3099-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u31F0-\\u31FF\\u{1B001}\\u{2A708}\\u{2CF00}\\u{2CF02}]",
+         "chars" : "[\\u3031-\\u3035\\u303B\\u3041-\\u3096\\u3099-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u31F0-\\u31FF\\u{1B000}-\\u{1B11E}\\u{2A708}\\u{2CF00}\\u{2CF02}]",
          "label" : "仮名",
          "suikawiki_name" : "仮名"
       },
@@ -2628,9 +2633,14 @@
          "suikawiki_name" : "仮名 (半濁音)"
       },
       "$kana:kana-small" : {
-         "chars" : "[\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u3095-\\u3096\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u31F0-\\u31FF]",
+         "chars" : "[\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u3095-\\u3096\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u31F0-\\u31FF\\u{1B150}-\\u{1B152}\\u{1B164}-\\u{1B167}]",
          "label" : "仮名 (小書き)",
          "suikawiki_name" : "仮名 (小書き)"
+      },
+      "$kana:kana-variants" : {
+         "chars" : "[\\u3090-\\u3091\\u30F0-\\u30F1\\u{1B000}-\\u{1B11E}]",
+         "label" : "Kana variants",
+         "suikawiki_name" : "変体仮名"
       },
       "$kana:kana-variants-alt" : {
          "chars" : "[\\u4E95\\u5B50]",
@@ -2643,7 +2653,7 @@
          "suikawiki_name" : "仮名 (濁音)"
       },
       "$kana:katakana-all" : {
-         "chars" : "[\\u30A1-\\u30FA\\u30FD-\\u30FF\\u31F0-\\u31FF\\u{1B001}\\u{2A708}\\u{2CF00}]",
+         "chars" : "[\\u30A1-\\u30FA\\u30FD-\\u30FF\\u31F0-\\u31FF\\u{1B000}\\u{2A708}\\u{2CF00}]",
          "label" : "片仮名",
          "suikawiki_name" : "片仮名"
       },
@@ -2668,9 +2678,14 @@
          "suikawiki_name" : "片仮名 (半濁音)"
       },
       "$kana:katakana-small" : {
-         "chars" : "[\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u31F0-\\u31FF]",
+         "chars" : "[\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u31F0-\\u31FF\\u{1B164}-\\u{1B167}]",
          "label" : "片仮名 (小書き)",
-         "suikawiki_name" : "片仮名 (小書き)"
+         "suikawiki_name" : "小書き仮名"
+      },
+      "$kana:katakana-variants" : {
+         "chars" : "[\\u30F0-\\u30F1\\u{1B000}]",
+         "label" : "Katakana variants",
+         "suikawiki_name" : "Katakana variants"
       },
       "$kana:katakana-voiced" : {
          "chars" : "[\\u30AC\\u30AE\\u30B0\\u30B2\\u30B4\\u30B6\\u30B8\\u30BA\\u30BC\\u30BE\\u30C0\\u30C2\\u30C5\\u30C7\\u30C9\\u30D0\\u30D3\\u30D6\\u30D9\\u30DC\\u30F4\\u30F7-\\u30FA]",
