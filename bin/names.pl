@@ -1,13 +1,10 @@
 use strict;
 use warnings;
-use Path::Class;
-use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib')->stringify;
-use JSON::Functions::XS qw(perl2json_bytes_for_record file2perl);
+use Path::Tiny;
+use lib glob path (__FILE__)->parent->child ('modules/*/lib')->stringify;
+use JSON::PS;
 
-my $temp_d = file (__FILE__)->dir->parent->subdir ('local', 'unicode', 'latest');
-my $names_list_f = $temp_d->file ('NamesList.txt');
-my $name_aliases_f = $temp_d->file ('NameAliases.txt');
-my $named_sequences_f = $temp_d->file ('NamedSequences.txt');
+my $RootPath = path (__FILE__)->parent->parent;
 
 my $Data = {};
 
@@ -21,28 +18,37 @@ sub u ($) {
   return sprintf '%04X', $c;
 } # u
 
-for ($names_list_f->slurp) {
-  if (/^\s*#/) {
-    #
-  } elsif (/^([0-9A-F]{4,})\t([^<].+)/) {
-    $Data->{code_to_name}->{uhex $1}->{name} = $2;
+{
+  my $names_list_path = $RootPath->child ('local/unicode/latest/NamesList.txt');
+  for (split /\x0D?\x0A/, $names_list_path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^([0-9A-F]{4,})\t([^<].+)/) {
+      $Data->{code_to_name}->{uhex $1}->{name} = $2;
+    }
   }
 }
 
-for ($name_aliases_f->slurp) {
-  if (/^\s*#/) {
-    #
-  } elsif (/^([0-9A-F]{4,});([^;]+);([^;\s]+)/) {
-    $Data->{code_to_name}->{uhex $1}->{$3}->{$2} = 1;
+{
+  my $name_aliases_path = $RootPath->child ('local/unicode/latest/NameAliases.txt');
+  for (split /\x0D?\x0A/, $name_aliases_path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^([0-9A-F]{4,});([^;]+);([^;\s]+)/) {
+      $Data->{code_to_name}->{uhex $1}->{$3}->{$2} = 1;
+    }
   }
 }
 
-for ($named_sequences_f->slurp) {
-  if (/^\s*#/) {
-    #
-  } elsif (/^([^;]+);([0-9A-F ]+)/) {
-    my @code = map { uhex $_ } grep { length $_ } split / +/, $2;
-    $Data->{code_seq_to_name}->{join ' ', @code}->{name} = $1;
+{
+  my $named_sequences_path = $RootPath->child ('local/unicode/latest/NamedSequences.txt');
+  for (split /\x0D?\x0A/, $named_sequences_path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^([^;]+);([0-9A-F ]+)/) {
+      my @code = map { uhex $_ } grep { length $_ } split / +/, $2;
+      $Data->{code_seq_to_name}->{join ' ', @code}->{name} = $1;
+    }
   }
 }
 
@@ -79,6 +85,7 @@ for (0x0000..0x001F, 0x007F, 0x0080..0x009F) {
   $Data->{code_to_name}->{u $_}->{label} = 'control-' . u $_;
 }
 
+# XXX src/set/unicode/Script/Han.expr
 for (
   [0x3400, 0x4DB5], # Ext A
   [0x4E00, 0x9FCC],
@@ -107,8 +114,8 @@ for (
 }
 
 {
-  my $janames_f = file (__FILE__)->dir->parent->file ('src', 'janames-jisx0213.json');
-  my $json = file2perl $janames_f;
+  my $janames_path = $RootPath->child ('src/janames-jisx0213.json');
+  my $json = json_bytes2perl $janames_path->slurp;
   for my $key (keys %$json) {
     if ($key =~ / /) {
       $Data->{code_seq_to_name}->{$key}->{ja_name} = $json->{$key};
@@ -121,8 +128,8 @@ for (
 $Data->{code_to_name}->{'4EDD'}->{name} ||= 'CJK UNIFIED IDEOGRAPH-4EDD';
 
 {
-  my $janames_f = file (__FILE__)->dir->parent->file ('src', 'janames-jisx0211.json');
-  my $json = file2perl $janames_f;
+  my $janames_path = $RootPath->child ('src/janames-jisx0211.json');
+  my $json = json_bytes2perl $janames_path->slurp;
   for my $key (keys %$json) {
     $Data->{code_to_name}->{$key}->{ja_name} = $json->{$key};
   }
@@ -140,3 +147,5 @@ $Data->{name_alias_types}->{$_} = 1
     for qw(correction control alternate figment abbreviation);
 
 print perl2json_bytes_for_record $Data;
+
+## License: Public Domain.

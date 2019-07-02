@@ -84,21 +84,13 @@ data/scripts.json: bin/scripts.pl local/unicode/latest/Scripts.txt \
     local/langtags.json
 	$(PERL) bin/scripts.pl > $@
 
-local/unicode/latest/NamesList.txt:
-	mkdir -p local/unicode/latest
-	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/NamesList.txt
-local/unicode/latest/NameAliases.txt:
-	mkdir -p local/unicode/latest
-	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/NameAliases.txt
-local/unicode/latest/NamedSequences.txt:
-	mkdir -p local/unicode/latest
-	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/NamedSequences.txt
-
-data/names.json: local/unicode/latest/NamesList.txt \
+data/names.json: bin/names.pl \
+    local/unicode/latest/NamesList.txt \
     local/unicode/latest/NameAliases.txt \
     local/unicode/latest/NamedSequences.txt \
-    bin/names.pl src/janames-jisx0213.json src/janames-jisx0211.json
-	$(PERL) bin/names.pl > $@
+    src/janames-jisx0213.json src/janames-jisx0211.json \
+    src/set/unicode/Script/Han.expr
+	$(PERL) $< > $@
 
 UNICODE_VERSION = XXXVERSIONNOTSPECIFIEDXXX
 
@@ -165,7 +157,15 @@ local/unicode/$(UNICODE_VERSION)/UnicodeData.txt:
 local/unicode/latest/UnicodeData.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
-
+local/unicode/latest/NamesList.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt
+local/unicode/latest/NameAliases.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/NameAliases.txt
+local/unicode/latest/NamedSequences.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt
 local/unicode/latest/Blocks.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
