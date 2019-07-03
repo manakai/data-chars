@@ -105,7 +105,7 @@ RFC 6122.
 RFC 6532, Internationalized Email Headers
 <https://tools.ietf.org/html/rfc6532>.
 
-RFC 6570, URI Template <http://tools.ietf.org/html/rfc6570>.
+RFC 6570, URI Template <https://tools.ietf.org/html/rfc6570>.
 
 RFC 6749, The OAuth 2.0 Authorization Framework
 <https://tools.ietf.org/html/rfc6749>.
@@ -126,30 +126,30 @@ RFC 7468, Textual Encodings of PKIX, PKCS, and CMS Structures
 <https://tools.ietf.org/html/rfc7468>.
 
 Unicode Character Database
-<http://www.unicode.org/ucd/>.
+<https://www.unicode.org/ucd/>.
 
 Unicode Standard Annex #44: Unicode Character Database
-<http://www.unicode.org/reports/tr44/>.
+<https://www.unicode.org/reports/tr44/>.
 
 Unicode in XML and other Markup Languages
-<http://www.unicode.org/reports/tr20/>.
+<https://www.unicode.org/reports/tr20/>.
 
 URL Standard <https://url.spec.whatwg.org/>.
 
 Extensible Markup Language (XML) 1.0 (Fourth Edition)
-<http://www.w3.org/TR/2006/REC-xml-20060816/>.
+<https://www.w3.org/TR/2006/REC-xml-20060816/>.
 
 Extensible Markup Language (XML) 1.0 (Fifth Edition)
-<http://www.w3.org/TR/2008/REC-xml-20081126/>.
+<https://www.w3.org/TR/2008/REC-xml-20081126/>.
 
 Extensible Markup Language (XML) 1.1 (Second Edition)
-<http://www.w3.org/TR/2006/REC-xml11-20060816/>.
+<https://www.w3.org/TR/2006/REC-xml11-20060816/>.
 
 Character Model for the World Wide Web 1.0: Normalization
-<http://www.w3.org/TR/charmod-norm/>.
+<https://www.w3.org/TR/charmod-norm/>.
 
-RFC 5892 - The Unicode Code Points and Internationalized Domain Names
-for Applications (IDNA) <http://tools.ietf.org/html/rfc5892>.
+RFC 5892, The Unicode Code Points and Internationalized Domain Names
+for Applications (IDNA) <https://tools.ietf.org/html/rfc5892>.
 
 IDNA Parameters
 <https://www.iana.org/assignments/idna-tables/idna-tables.xml>.
@@ -184,6 +184,9 @@ Japanese documents.
 JIS X 4052:2000, 日本語文書の組版指定交換形式, Exchange format for
 Japanese documents with composition markup.
 
+MJ文字情報一覧表 変体仮名編 | 文字情報基盤整備事業
+<https://mojikiban.ipa.go.jp/4488.html>.
+
 * License
 
 You are granted a license to use, reproduce, and create derivative
@@ -196,7 +199,7 @@ the JSON file and this document.
 
 The JSON file contains data extracted from Unicode Character Database.
 Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
-<http://www.unicode.org/copyright.html#Exhibit1> or
+<https://www.unicode.org/copyright.html#Exhibit1> or
 |doc/LICENSE.unicode|.
 
 The JSON file contains data extracted from HTML Standard.  "Written by

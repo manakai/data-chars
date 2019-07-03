@@ -30,7 +30,7 @@ maps [object]
 
 * Sources
 
-[UCD] Unicode Character Database <http://www.unicode.org/ucd/>.
+[UCD] Unicode Character Database <https://www.unicode.org/ucd/>.
 
 [TN1150] HFS PLUS VOLUME FORMAT TECHNOTE
 <https://developer.apple.com/legacy/library/technotes/tn/tn1150.html>.
@@ -58,13 +58,16 @@ RFC 2813 - Internet Relay Chat: Server Protocol
 RFC 4518, Lightweight Directory Access Protocol (LDAP):
 Internationalized String Preparation
 <https://tools.ietf.org/html/rfc4518#section-2.2>,
-<http://www.rfc-editor.org/errata_search.php?rfc=4518>.
+<https://www.rfc-editor.org/errata_search.php?rfc=4518>.
 
 IRC RPL_ISUPPORT Numeric Definition
 <https://tools.ietf.org/html/draft-brocklesby-irc-isupport-03#section-3.1>.
 
 RFC 5051 - i;unicode-casemap - Simple Unicode Collation Algorithm
 <https://tools.ietf.org/html/rfc5051>.
+
+MJ文字情報一覧表 変体仮名編 | 文字情報基盤整備事業
+<https://mojikiban.ipa.go.jp/4488.html>.
 
 * License
 
@@ -78,7 +81,7 @@ the JSON file and this document.
 
 The JSON file contains data extracted from Unicode Character Database.
 Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
-<http://www.unicode.org/copyright.html#Exhibit1>.
+<https://www.unicode.org/copyright.html#Exhibit1>.
 
 The JSON file contains data extracted from HTML Standard.  "Written by
 Ian Hickson (Google, ian@hixie.ch) - Parts © Copyright 2004-2014 Apple

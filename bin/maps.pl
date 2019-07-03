@@ -248,6 +248,18 @@ for my $from (65..93) {
   $Maps->{'kana:k2h'}->{ord 'ヽ'} = [ord 'ゝ'];
   $Maps->{'kana:h2k'}->{ord 'ゞ'} = [ord 'ヾ'];
   $Maps->{'kana:k2h'}->{ord 'ヾ'} = [ord 'ゞ'];
+  $Maps->{'kana:k2h'}->{0x1B000} = [ord 'え']; # KATAKANA LETTER ARCHAIC E
+}
+{
+  my $path = $root_path->child ('local/hentai_to_standard.json');
+  my $json = json_bytes2perl $path->slurp;
+  for (keys %$json) {
+    my $hentaigana = ord $_;
+    my $hiragana = ord $json->{$_};
+    my $katakana_mapped = $Maps->{'kana:h2k'}->{$hiragana}
+        or die "|$json->{$_}| has no Katakana";
+    $Maps->{'kana:h2k'}->{$hentaigana} = $katakana_mapped;
+  }
 }
 
 {

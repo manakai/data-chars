@@ -426,6 +426,12 @@ src/set/rfc7564-$(UNICODE_VERSION)/files: \
 src/set/isoiec10646/300.expr: src/set/isoiec10646/generate.pl
 	$(PERL) $<
 
+local/hentai_to_standard.json: src/set/mj/hentaigana.expr
+src/set/mj/hentaigana-han.expr: src/set/mj/hentaigana.expr
+src/set/mj/hentaigana.expr: bin/mj-kana.pl \
+    src/mj-hentai.json
+	$(PERL) $<
+
 local/mozilla-prefs.js:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/mozilla/gecko-dev/master/modules/libpref/init/all.js
 #src/set/mozilla/IDN-blacklist-chars.expr: local/mozilla-prefs.js \
@@ -453,6 +459,8 @@ data/sets.json: bin/sets.pl \
     src/set/mozilla/IDN-blacklist-chars.expr \
     src/set/numbers/CJK-digit.expr \
     src/set/isoiec10646/300.expr \
+    src/set/mj/hentaigana.expr \
+    src/set/mj/hentaigana-han.expr \
     src/set/unicode/CompositionExclusions.expr src/set/uts46/disallowed.expr
 	$(PERL) bin/sets.pl > $@
 
@@ -461,7 +469,8 @@ data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
     local/unicode/latest/DerivedNormalizationProps.txt \
     local/unicode/latest/CaseFolding.txt \
     data/sets.json src/tn1150table.txt src/tn1150lowercase.json \
-    local/map-data/uts46--mapping.json
+    local/map-data/uts46--mapping.json \
+    local/hentai_to_standard.json
 	$(PERL) bin/maps.pl > $@
 
 local/spec-numbers.html:
