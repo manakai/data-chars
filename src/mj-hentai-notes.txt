@@ -1,0 +1,24 @@
+src/mj-hentai.json
+~~~~~~~~~~~~~~~~~~
+
+* Description
+
+This file was generated from the spreadsheet of MJ文字情報一覧表 変体
+仮名編 Ver.002.01 (MJIH00201-ods.zip).
+
+* Source
+
+MJ文字情報一覧表 変体仮名編 | 文字情報基盤整備事業
+<https://mojikiban.ipa.go.jp/4488.html>.
+
+* License
+
+CC BY-SA 2.1 JP
+
+> 独立行政法人情報処理推進機構(IPA) <http://www.ipa.go.jp/> は、文字情
+> 報基盤 文字情報一覧表 変体仮名編(MJ文字情報一覧表 変体仮名編) をクリ
+> エイティブ・コモンズ 表示 – 継承 2.1 日本 ライセンス
+> <http://creativecommons.org/licenses/by-sa/2.1/jp/> によって提供して
+> います。利用に際してはIPA の著作物であることを明記してください。なお、
+> 本成果物の内容を適用した結果生じたこと、また、適用できなかった結果に
+> ついて、IPAは一切の責任を負いませんのでご了承ください。
