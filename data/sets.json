@@ -2568,7 +2568,7 @@
          "suikawiki_name" : "片仮名用特殊文字 (JIS X 6002-1980 4.2.4 (2))"
       },
       "$kana:hiragana-all" : {
-         "chars" : "[\\u3041-\\u3096\\u309D-\\u309F\\u{1B001}-\\u{1B11E}\\u{2CF02}]",
+         "chars" : "[\\u3041-\\u3096\\u309D-\\u309F\\u{1B001}-\\u{1B11E}\\u{1B150}-\\u{1B152}\\u{2CF02}]",
          "label" : "平仮名",
          "suikawiki_name" : "平仮名"
       },
@@ -2608,7 +2608,7 @@
          "suikawiki_name" : "平仮名 (濁音)"
       },
       "$kana:kana-all" : {
-         "chars" : "[\\u3031-\\u3035\\u303B\\u3041-\\u3096\\u3099-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u31F0-\\u31FF\\u{1B000}-\\u{1B11E}\\u{2A708}\\u{2CF00}\\u{2CF02}]",
+         "chars" : "[\\u3031-\\u3035\\u303B\\u3041-\\u3096\\u3099-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u31F0-\\u31FF\\u{1B000}-\\u{1B11E}\\u{1B150}-\\u{1B152}\\u{1B164}-\\u{1B167}\\u{2A708}\\u{2CF00}\\u{2CF02}]",
          "label" : "仮名",
          "suikawiki_name" : "仮名"
       },
@@ -2653,7 +2653,7 @@
          "suikawiki_name" : "仮名 (濁音)"
       },
       "$kana:katakana-all" : {
-         "chars" : "[\\u30A1-\\u30FA\\u30FD-\\u30FF\\u31F0-\\u31FF\\u{1B000}\\u{2A708}\\u{2CF00}]",
+         "chars" : "[\\u30A1-\\u30FA\\u30FD-\\u30FF\\u31F0-\\u31FF\\u{1B000}\\u{1B164}-\\u{1B167}\\u{2A708}\\u{2CF00}]",
          "label" : "片仮名",
          "suikawiki_name" : "片仮名"
       },
