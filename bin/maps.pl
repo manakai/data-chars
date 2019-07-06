@@ -251,6 +251,14 @@ for my $from (65..93) {
   $Maps->{'kana:k2h'}->{0x1B000} = [ord 'え']; # KATAKANA LETTER ARCHAIC E
 }
 {
+  use utf8;
+  my @hira = split //, 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんぁぃぅぇぉゃゅょっ';
+  my @kata = split //, 'ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜｦﾝｧｨｩｪｫｬｭｮｯ';
+  for (0..$#hira) {
+    $Maps->{'kana:k2h'}->{ord $kata[$_]} = [ord $hira[$_]];
+  }
+}
+{
   my $path = $root_path->child ('local/hentai_to_standard.json');
   my $json = json_bytes2perl $path->slurp;
   for (keys %$json) {
