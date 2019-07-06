@@ -1,0 +1,25 @@
+* data/tests/cjk-numbers.json
+
+Test data for the "parse a CJK number" algorithm
+<https://manakai.github.io/spec-numbers/#parse-a-cjk-number>.
+
+The file contains a JSON object, where names are input /string/s to
+the algorithm and values are corresponding expected return values.
+
+* See also
+
+|doc/number-values.txt|.
+
+* Source
+
+Numbers <https://manakai.github.io/spec-numbers/>.
+
+* License
+
+You are granted a license to use, reproduce, and create derivative
+works of the JSON file and this document.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.

@@ -38,7 +38,8 @@ all-data: all-ucd unicode-general-category-latest \
     unicode-prop-list-latest data/sets.json data/names.json \
     data/maps.json data/number-values.json \
     data/tests/cjk-numbers.json data/seqs.json data/keys.json \
-    data/perl/unicore-CombiningClass.pl data/perl/unicore-Decomposition.pl
+    data/perl/unicore-CombiningClass.pl data/perl/unicore-Decomposition.pl \
+    data/tests/kana-tokana.json
 
 clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -486,6 +487,10 @@ data/number-values.json: bin/number-values.pl \
 	$(PERL) bin/number-values.pl > $@
 
 data/tests/cjk-numbers.json: bin/tests-cjk-numbers.pl
+	$(PERL) $< > $@
+
+data/tests/kana-tokana.json: bin/tests-kana-tokana.pl \
+    data/maps.json
 	$(PERL) $< > $@
 
 data/seqs.json: bin/seqs.pl \

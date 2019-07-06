@@ -19,13 +19,6 @@ There is a related test data file:
 
   data/tests/cjk-numbers.json
 
-    Test data for the "parse a CJK number" algorithm
-    <https://manakai.github.io/spec-numbers/#parse-a-cjk-number>.
-
-    The file contains a JSON object, where names are input /string/s
-    to the algorithm and values are corresponding expected return
-    values.
-
 * Source
 
 Numbers <https://manakai.github.io/spec-numbers/>.

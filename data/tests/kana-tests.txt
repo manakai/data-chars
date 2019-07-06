@@ -1,0 +1,30 @@
+* data/tests/kana-tokana.json
+
+Test data for the "convert a string into Hiragana" and "convert a
+string into Katakana" algorithms.
+
+The file contains a JSON object, where |to_hiragana|'s value is a JSON
+object whose names are inputs to the "convert a string into Hiragana"
+algorithm and corresponding values are expected outputs, and
+|to_katakana|'s value is a JSON object whose names are inputs to the
+"convert a string into Katakana" algorithm and corresponding values
+are expected outputs.
+
+* See also
+
+|doc/number-values.txt|.
+
+* Source
+
+Kana Transliterations
+<https://wiki.suikawiki.org/n/Kana%20Transliterations>.
+
+* License
+
+You are granted a license to use, reproduce, and create derivative
+works of the JSON file and this document.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.

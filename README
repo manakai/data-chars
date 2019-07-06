@@ -16,6 +16,9 @@ documentations are in the "doc/" directory.
   seqs.json     Character sequences
   sets.json     Character sets or classes
 
+Test data files and their documentations are available in the
+"data/tests/" directory.
+
 Additionally, there are these Perl script files, which can be used
 instead of similarly named files in Perl's standard distribution, to
 support latest version of Unicode:
@@ -25,7 +28,7 @@ support latest version of Unicode:
 
 These Perl script files contain data extracted from Unicode Character
 Database.  Copyright © 1991-2016 Unicode, Inc. All rights reserved.
-See <http://www.unicode.org/copyright.html#Exhibit1>.
+See <https://www.unicode.org/copyright.html#Exhibit1>.
 
 * See also
 
