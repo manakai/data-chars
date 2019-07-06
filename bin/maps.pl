@@ -240,10 +240,10 @@ for my $from (65..93) {
   $Maps->{'kana:k2h'}->{ord 'ヸ'} = [(ord 'ゐ'), 0x3099];
   $Maps->{'kana:k2h'}->{ord 'ヹ'} = [(ord 'ゑ'), 0x3099];
   $Maps->{'kana:k2h'}->{ord 'ヺ'} = [(ord 'を'), 0x3099];
-  $Maps->{'kana:h2k'}->{(ord 'わ'), 0x3099} = [ord 'ヷ'];
-  $Maps->{'kana:h2k'}->{(ord 'ゐ'), 0x3099} = [ord 'ヸ'];
-  $Maps->{'kana:h2k'}->{(ord 'ゑ'), 0x3099} = [ord 'ヹ'];
-  $Maps->{'kana:h2k'}->{(ord 'を'), 0x3099} = [ord 'ヺ'];
+#  $Maps->{'kana:h2k'}->{(ord 'わ'), 0x3099} = [ord 'ヷ'];
+#  $Maps->{'kana:h2k'}->{(ord 'ゐ'), 0x3099} = [ord 'ヸ'];
+#  $Maps->{'kana:h2k'}->{(ord 'ゑ'), 0x3099} = [ord 'ヹ'];
+#  $Maps->{'kana:h2k'}->{(ord 'を'), 0x3099} = [ord 'ヺ'];
   $Maps->{'kana:h2k'}->{ord 'ゝ'} = [ord 'ヽ'];
   $Maps->{'kana:k2h'}->{ord 'ヽ'} = [ord 'ゝ'];
   $Maps->{'kana:h2k'}->{ord 'ゞ'} = [ord 'ヾ'];

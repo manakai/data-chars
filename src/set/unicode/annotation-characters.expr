@@ -1,0 +1,4 @@
+#label:annotation characters
+#url:https://www.unicode.org/versions/latest/ch23.pdf#G15944
+#sw:interlinear annotation character
+[\uFFF9-\uFFFB]
