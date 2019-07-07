@@ -307,7 +307,7 @@ for my $from (65..93) {
   $Maps->{'fwhw:normalize'}->{0xFF5E} = [0x301C];
   $Maps->{'fwhw:normalize'}->{0x2212} = [ord '-'];
   $Maps->{'kana:normalize'}->{0x3000} = [0x0020, 0x0020];
-  for (split //, q(ｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾊﾋﾌﾍﾎﾜ)) {
+  for (split //, q(ｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾊﾋﾌﾍﾎﾜｦ)) {
     $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0x3099} =
     $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0x309B} =
     $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0xFF9E} =
