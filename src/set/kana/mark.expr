@@ -1,0 +1,5 @@
+#label:Kana voiced and semi-voiced sound marks
+#sw:濁点
+$kana:voiced-mark
+|
+$kana:semivoiced-mark
