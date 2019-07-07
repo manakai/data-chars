@@ -149,6 +149,18 @@ $Maps->{'rfc4518:map:case_folding'} = {%{$Maps->{'rfc3454:B.2'}}};
   }
 }
 
+
+my $SetsJSON;
+my $full_exclusion;
+{
+  my $path = $root_path->child ('data/sets.json');
+  $SetsJSON = json_bytes2perl $path->slurp;
+  my $chars = $SetsJSON->{sets}->{'$unicode:Full_Composition_Exclusion'}->{chars};
+  $chars =~ s/\\u([0-9A-F]{4})/\\x{$1}/g;
+  $chars =~ s/\\u\{([0-9A-F]+)\}/\\x{$1}/g;
+  $full_exclusion = qr/$chars/;
+}
+
 ## <https://www.whatwg.org/specs/web-apps/current-work/#case-sensitivity-and-string-comparison>
 ## <https://dom.spec.whatwg.org/#strings>
 ## <https://url.spec.whatwg.org/#ascii-lowercase>
@@ -211,30 +223,42 @@ for my $from (65..93) {
   for (map { ord $_ } split //, q(かきくけこさしすせそたちつてとはひふへほカキクケコサシスセソタチツテトハヒフヘホ)) {
     $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x3099} = [$_ + 1];
     $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x309B} = [$_ + 1];
+    $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0xFF9E} = [$_ + 1];
   }
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'う'), 0x3099} = [ord 'ゔ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'う'), 0x309B} = [ord 'ゔ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0x3099} = [ord 'ヴ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0x309B} = [ord 'ヴ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ワ'), 0x3099} = [ord 'ヷ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ワ'), 0x309B} = [ord 'ヷ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヰ'), 0x3099} = [ord 'ヸ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヰ'), 0x309B} = [ord 'ヸ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヱ'), 0x3099} = [ord 'ヹ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヱ'), 0x309B} = [ord 'ヹ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヲ'), 0x3099} = [ord 'ヺ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヲ'), 0x309B} = [ord 'ヺ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〱'), 0x3099} = [ord '〲'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〱'), 0x309B} = [ord '〲'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〳'), 0x3099} = [ord '〴'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〳'), 0x309B} = [ord '〴'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ゝ'), 0x3099} = [ord 'ゞ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ゝ'), 0x309B} = [ord 'ゞ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヽ'), 0x3099} = [ord 'ヾ'];
-  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヽ'), 0x309B} = [ord 'ヾ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'う'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'う'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'う'), 0xFF9E} = [ord 'ゔ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ウ'), 0xFF9E} = [ord 'ヴ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ワ'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ワ'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ワ'), 0xFF9E} = [ord 'ヷ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヰ'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヰ'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヰ'), 0xFF9E} = [ord 'ヸ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヱ'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヱ'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヱ'), 0xFF9E} = [ord 'ヹ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヲ'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヲ'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヲ'), 0xFF9E} = [ord 'ヺ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〱'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〱'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〱'), 0xFF9E} = [ord '〲'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〳'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〳'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord '〳'), 0xFF9E} = [ord '〴'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ゝ'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ゝ'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ゝ'), 0xFF9E} = [ord 'ゞ'];
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヽ'), 0x3099} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヽ'), 0x309B} =
+  $Maps->{'kana:combine_voiced_sound_marks'}->{(ord 'ヽ'), 0xFF9E} = [ord 'ヾ'];
   for (map { ord $_ } split //, q(はひふへほハヒフヘホ)) {
     $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x309A} = [$_ + 2];
     $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0x309C} = [$_ + 2];
+    $Maps->{'kana:combine_voiced_sound_marks'}->{$_, 0xFF9F} = [$_ + 2];
   }
   $Maps->{'kana:k2h'}->{ord 'ヷ'} = [(ord 'わ'), 0x3099];
   $Maps->{'kana:k2h'}->{ord 'ヸ'} = [(ord 'ゐ'), 0x3099];
@@ -274,12 +298,44 @@ for my $from (65..93) {
   use utf8;
   my @fw = (0x3000, 0xFF00..0xFFEF);
   for (0..$#fw) {
+    $Maps->{'kana:normalize'}->{$fw[$_]} =
     $Maps->{'fwhw:strict_normalize'}->{$fw[$_]} =
     $Maps->{'fwhw:normalize'}->{$fw[$_]}
         = $Maps->{'unicode:compat_decomposition'}->{$fw[$_]} || [$fw[$_]];
   }
+  $Maps->{'kana:normalize'}->{0xFF5E} = [0x301C];
   $Maps->{'fwhw:normalize'}->{0xFF5E} = [0x301C];
   $Maps->{'fwhw:normalize'}->{0x2212} = [ord '-'];
+  $Maps->{'kana:normalize'}->{0x3000} = [0x0020, 0x0020];
+  for (split //, q(ｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾊﾋﾌﾍﾎﾜ)) {
+    $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0x3099} =
+    $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0x309B} =
+    $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0xFF9E} =
+    $Maps->{'kana:combine_voiced_sound_marks'}->{$Maps->{'kana:normalize'}->{ord $_}->[0], 0x3099};
+  }
+  for (split //, q(ﾊﾋﾌﾍﾎ)) {
+    $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0x309A} =
+    $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0x309C} =
+    $Maps->{'kana:combine_voiced_sound_marks'}->{(ord $_), 0xFF9F} =
+    $Maps->{'kana:combine_voiced_sound_marks'}->{$Maps->{'kana:normalize'}->{ord $_}->[0], 0x309A};
+  }
+
+  for (keys %{$Maps->{'kana:combine_voiced_sound_marks'}}) {
+    $Maps->{'kana:normalize'}->{$_} = $Maps->{'kana:combine_voiced_sound_marks'}->{$_};
+  }
+
+  my $set = Charinfo::Set->evaluate_expression ($SetsJSON->{sets}->{'$kana:before-mark'}->{chars});
+  for (@$set) {
+    for ($_->[0]..$_->[1]) {
+      $Maps->{'kana:normalize'}->{$_, 0x309B} //= [$_, 0x3099];
+      $Maps->{'kana:normalize'}->{$_, 0xFF9E} //= [$_, 0x3099];
+      $Maps->{'kana:normalize'}->{$_, 0x309C} //= [$_, 0x309A];
+      $Maps->{'kana:normalize'}->{$_, 0xFF9F} //= [$_, 0x309A];
+    }
+  }
+
+  $Maps->{'kana:normalize'}->{0x3033, 0x3035} = [0x3031];
+  $Maps->{'kana:normalize'}->{0x3034, 0x3035} = [0x3032];
 }
 
 for my $map (keys %$Maps) {
@@ -302,17 +358,6 @@ for my $map (keys %$Maps) {
     }
     $Data->{maps}->{$map}->{chars}->{join ' ', map { u $_ } split /\Q$;\E/, $char} = join ' ', map { u $_ } @m;
   }
-}
-
-my $SetsJSON;
-my $full_exclusion;
-{
-  my $path = $root_path->child ('data/sets.json');
-  $SetsJSON = json_bytes2perl $path->slurp;
-  my $chars = $SetsJSON->{sets}->{'$unicode:Full_Composition_Exclusion'}->{chars};
-  $chars =~ s/\\u([0-9A-F]{4})/\\x{$1}/g;
-  $chars =~ s/\\u\{([0-9A-F]+)\}/\\x{$1}/g;
-  $full_exclusion = qr/$chars/;
 }
 
 for my $from_char (keys %{$Data->{maps}->{'unicode:canon_decomposition'}->{chars}}) {
