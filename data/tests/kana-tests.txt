@@ -10,9 +10,13 @@ algorithm and corresponding values are expected outputs, and
 "convert a string into Katakana" algorithm and corresponding values
 are expected outputs.
 
-* See also
+* data/tests/kana-normalize.json
 
-|doc/number-values.txt|.
+Test data for the "normalize a Kana string" algorithms.
+
+The file contains a JSON object, where |normalize|'s value is a JSON
+object whose names are inputs to the "normalize a Kana string"
+algorithm and corresponding values are expected outputs.
 
 * Source
 
