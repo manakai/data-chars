@@ -427,9 +427,9 @@ src/set/rfc7564-$(UNICODE_VERSION)/files: \
 src/set/isoiec10646/300.expr: src/set/isoiec10646/generate.pl
 	$(PERL) $<
 
-local/hentai_to_standard.json: src/set/mj/hentaigana.expr
-src/set/mj/hentaigana-han.expr: src/set/mj/hentaigana.expr
-src/set/mj/hentaigana.expr: bin/mj-kana.pl \
+local/hentai_to_standard.json \
+src/set/mj/hentaigana-han.expr \
+src/set/mj/hentaigana.expr:: %: bin/mj-kana.pl \
     src/mj-hentai.json
 	$(PERL) $<
 
