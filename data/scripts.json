@@ -366,6 +366,13 @@
          },
          "xforms" : "Cherokee"
       },
+      "Chrs" : {
+         "desc" : [
+            "Chorasmian"
+         ],
+         "ianareg" : "2019-09-11",
+         "iso" : "Chrs"
+      },
       "Cirt" : {
          "desc" : [
             "Cirth"
@@ -450,6 +457,15 @@
             "Devanagari" : 1
          },
          "xforms" : "Devanagari"
+      },
+      "Diak" : {
+         "desc" : [
+            "Dives Akuru"
+         ],
+         "ianareg" : "2019-09-11",
+         "iso" : "Diak",
+         "u_nu" : "diak",
+         "u_nu_desc" : "Dives Akuru digits"
       },
       "Dogr" : {
          "desc" : [
@@ -2821,6 +2837,13 @@
             "Xsux" : 1
          },
          "xforms" : "Cuneiform"
+      },
+      "Yezi" : {
+         "desc" : [
+            "Yezidi"
+         ],
+         "ianareg" : "2019-09-11",
+         "iso" : "Yezi"
       },
       "Yiii" : {
          "desc" : [
