@@ -3055,6 +3055,10 @@
          "u_nu" : "romanlow",
          "u_nu_desc" : "Roman lowercase numerals — algorithmic"
       },
+      "segment" : {
+         "u_nu" : "segment",
+         "u_nu_desc" : "Legacy computing segmented digits"
+      },
       "space" : {
          "collation_reorder" : "space"
       },
