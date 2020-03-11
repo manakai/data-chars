@@ -22,6 +22,7 @@
 - $unicode:Script:Chakma
 - $unicode:Script:Cham
 - $unicode:Script:Cherokee
+- $unicode:Script:Chorasmian
 - $unicode:Script:Common
 - $unicode:Script:Coptic
 - $unicode:Script:Cuneiform
@@ -29,6 +30,7 @@
 - $unicode:Script:Cyrillic
 - $unicode:Script:Deseret
 - $unicode:Script:Devanagari
+- $unicode:Script:Dives_Akuru
 - $unicode:Script:Dogra
 - $unicode:Script:Duployan
 - $unicode:Script:Egyptian_Hieroglyphs
@@ -60,6 +62,7 @@
 - $unicode:Script:Katakana
 - $unicode:Script:Kayah_Li
 - $unicode:Script:Kharoshthi
+- $unicode:Script:Khitan_Small_Script
 - $unicode:Script:Khmer
 - $unicode:Script:Khojki
 - $unicode:Script:Khudawadi
@@ -149,5 +152,6 @@
 - $unicode:Script:Vai
 - $unicode:Script:Wancho
 - $unicode:Script:Warang_Citi
+- $unicode:Script:Yezidi
 - $unicode:Script:Yi
 - $unicode:Script:Zanabazar_Square

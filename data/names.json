@@ -8713,6 +8713,36 @@
       "08BD" : {
          "name" : "ARABIC LETTER AFRICAN NOON"
       },
+      "08BE" : {
+         "name" : "ARABIC LETTER PEH WITH SMALL V"
+      },
+      "08BF" : {
+         "name" : "ARABIC LETTER TEH WITH SMALL V"
+      },
+      "08C0" : {
+         "name" : "ARABIC LETTER TTEH WITH SMALL V"
+      },
+      "08C1" : {
+         "name" : "ARABIC LETTER TCHEH WITH SMALL V"
+      },
+      "08C2" : {
+         "name" : "ARABIC LETTER KEHEH WITH SMALL V"
+      },
+      "08C3" : {
+         "name" : "ARABIC LETTER GHAIN WITH THREE DOTS ABOVE"
+      },
+      "08C4" : {
+         "name" : "ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE"
+      },
+      "08C5" : {
+         "name" : "ARABIC LETTER JEEM WITH THREE DOTS ABOVE"
+      },
+      "08C6" : {
+         "name" : "ARABIC LETTER JEEM WITH THREE DOTS BELOW"
+      },
+      "08C7" : {
+         "name" : "ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE"
+      },
       "08D3" : {
          "name" : "ARABIC SMALL LOW WAW"
       },
@@ -10222,6 +10252,9 @@
       "0B4D" : {
          "name" : "ORIYA SIGN VIRAMA"
       },
+      "0B55" : {
+         "name" : "ORIYA SIGN OVERLINE"
+      },
       "0B56" : {
          "name" : "ORIYA AI LENGTH MARK"
       },
@@ -11095,6 +11128,9 @@
       "0D03" : {
          "name" : "MALAYALAM SIGN VISARGA"
       },
+      "0D04" : {
+         "name" : "MALAYALAM LETTER VEDIC ANUSVARA"
+      },
       "0D05" : {
          "name" : "MALAYALAM LETTER A"
       },
@@ -11433,6 +11469,9 @@
       },
       "0D7F" : {
          "name" : "MALAYALAM LETTER CHILLU K"
+      },
+      "0D81" : {
+         "name" : "SINHALA SIGN CANDRABINDU"
       },
       "0D82" : {
          "name" : "SINHALA SIGN ANUSVARAYA"
@@ -14013,6 +14052,9 @@
       },
       "1019B" : {
          "name" : "ROMAN CENTURIAL SIGN"
+      },
+      "1019C" : {
+         "name" : "ASCIA SYMBOL"
       },
       "101A" : {
          "name" : "MYANMAR LETTER YA"
@@ -20524,14 +20566,155 @@
       "10E8" : {
          "name" : "GEORGIAN LETTER SHIN"
       },
+      "10E80" : {
+         "name" : "YEZIDI LETTER ELIF"
+      },
+      "10E81" : {
+         "name" : "YEZIDI LETTER BE"
+      },
+      "10E82" : {
+         "name" : "YEZIDI LETTER PE"
+      },
+      "10E83" : {
+         "name" : "YEZIDI LETTER PHE"
+      },
+      "10E84" : {
+         "name" : "YEZIDI LETTER THE"
+      },
+      "10E85" : {
+         "name" : "YEZIDI LETTER SE"
+      },
+      "10E86" : {
+         "name" : "YEZIDI LETTER CIM"
+      },
+      "10E87" : {
+         "name" : "YEZIDI LETTER CHIM"
+      },
+      "10E88" : {
+         "name" : "YEZIDI LETTER CHHIM"
+      },
+      "10E89" : {
+         "name" : "YEZIDI LETTER HHA"
+      },
+      "10E8A" : {
+         "name" : "YEZIDI LETTER XA"
+      },
+      "10E8B" : {
+         "name" : "YEZIDI LETTER DAL"
+      },
+      "10E8C" : {
+         "name" : "YEZIDI LETTER ZAL"
+      },
+      "10E8D" : {
+         "name" : "YEZIDI LETTER RA"
+      },
+      "10E8E" : {
+         "name" : "YEZIDI LETTER RHA"
+      },
+      "10E8F" : {
+         "name" : "YEZIDI LETTER ZA"
+      },
       "10E9" : {
          "name" : "GEORGIAN LETTER CHIN"
+      },
+      "10E90" : {
+         "name" : "YEZIDI LETTER JA"
+      },
+      "10E91" : {
+         "name" : "YEZIDI LETTER SIN"
+      },
+      "10E92" : {
+         "name" : "YEZIDI LETTER SHIN"
+      },
+      "10E93" : {
+         "name" : "YEZIDI LETTER SAD"
+      },
+      "10E94" : {
+         "name" : "YEZIDI LETTER DAD"
+      },
+      "10E95" : {
+         "name" : "YEZIDI LETTER TA"
+      },
+      "10E96" : {
+         "name" : "YEZIDI LETTER ZE"
+      },
+      "10E97" : {
+         "name" : "YEZIDI LETTER EYN"
+      },
+      "10E98" : {
+         "name" : "YEZIDI LETTER XHEYN"
+      },
+      "10E99" : {
+         "name" : "YEZIDI LETTER FA"
+      },
+      "10E9A" : {
+         "name" : "YEZIDI LETTER VA"
+      },
+      "10E9B" : {
+         "name" : "YEZIDI LETTER VA ALTERNATE FORM"
+      },
+      "10E9C" : {
+         "name" : "YEZIDI LETTER QAF"
+      },
+      "10E9D" : {
+         "name" : "YEZIDI LETTER KAF"
+      },
+      "10E9E" : {
+         "name" : "YEZIDI LETTER KHAF"
+      },
+      "10E9F" : {
+         "name" : "YEZIDI LETTER GAF"
       },
       "10EA" : {
          "name" : "GEORGIAN LETTER CAN"
       },
+      "10EA0" : {
+         "name" : "YEZIDI LETTER LAM"
+      },
+      "10EA1" : {
+         "name" : "YEZIDI LETTER MIM"
+      },
+      "10EA2" : {
+         "name" : "YEZIDI LETTER NUN"
+      },
+      "10EA3" : {
+         "name" : "YEZIDI LETTER UM"
+      },
+      "10EA4" : {
+         "name" : "YEZIDI LETTER WAW"
+      },
+      "10EA5" : {
+         "name" : "YEZIDI LETTER OW"
+      },
+      "10EA6" : {
+         "name" : "YEZIDI LETTER EW"
+      },
+      "10EA7" : {
+         "name" : "YEZIDI LETTER HAY"
+      },
+      "10EA8" : {
+         "name" : "YEZIDI LETTER YOT"
+      },
+      "10EA9" : {
+         "name" : "YEZIDI LETTER ET"
+      },
+      "10EAB" : {
+         "name" : "YEZIDI COMBINING HAMZA MARK"
+      },
+      "10EAC" : {
+         "name" : "YEZIDI COMBINING MADDA MARK"
+      },
+      "10EAD" : {
+         "name" : "YEZIDI HYPHENATION MARK"
+      },
       "10EB" : {
          "name" : "GEORGIAN LETTER JIL"
+      },
+      "10EB0" : {
+         "name" : "YEZIDI LETTER LAM WITH DOT ABOVE"
+      },
+      "10EB1" : {
+         "name" : "YEZIDI LETTER YOT WITH CIRCUMFLEX ABOVE"
       },
       "10EC" : {
          "name" : "GEORGIAN LETTER CIL"
@@ -20827,8 +21010,92 @@
       "10FB" : {
          "name" : "GEORGIAN PARAGRAPH SEPARATOR"
       },
+      "10FB0" : {
+         "name" : "CHORASMIAN LETTER ALEPH"
+      },
+      "10FB1" : {
+         "name" : "CHORASMIAN LETTER SMALL ALEPH"
+      },
+      "10FB2" : {
+         "name" : "CHORASMIAN LETTER BETH"
+      },
+      "10FB3" : {
+         "name" : "CHORASMIAN LETTER GIMEL"
+      },
+      "10FB4" : {
+         "name" : "CHORASMIAN LETTER DALETH"
+      },
+      "10FB5" : {
+         "name" : "CHORASMIAN LETTER HE"
+      },
+      "10FB6" : {
+         "name" : "CHORASMIAN LETTER WAW"
+      },
+      "10FB7" : {
+         "name" : "CHORASMIAN LETTER CURLED WAW"
+      },
+      "10FB8" : {
+         "name" : "CHORASMIAN LETTER ZAYIN"
+      },
+      "10FB9" : {
+         "name" : "CHORASMIAN LETTER HETH"
+      },
+      "10FBA" : {
+         "name" : "CHORASMIAN LETTER YODH"
+      },
+      "10FBB" : {
+         "name" : "CHORASMIAN LETTER KAPH"
+      },
+      "10FBC" : {
+         "name" : "CHORASMIAN LETTER LAMEDH"
+      },
+      "10FBD" : {
+         "name" : "CHORASMIAN LETTER MEM"
+      },
+      "10FBE" : {
+         "name" : "CHORASMIAN LETTER NUN"
+      },
+      "10FBF" : {
+         "name" : "CHORASMIAN LETTER SAMEKH"
+      },
       "10FC" : {
          "name" : "MODIFIER LETTER GEORGIAN NAR"
+      },
+      "10FC0" : {
+         "name" : "CHORASMIAN LETTER AYIN"
+      },
+      "10FC1" : {
+         "name" : "CHORASMIAN LETTER PE"
+      },
+      "10FC2" : {
+         "name" : "CHORASMIAN LETTER RESH"
+      },
+      "10FC3" : {
+         "name" : "CHORASMIAN LETTER SHIN"
+      },
+      "10FC4" : {
+         "name" : "CHORASMIAN LETTER TAW"
+      },
+      "10FC5" : {
+         "name" : "CHORASMIAN NUMBER ONE"
+      },
+      "10FC6" : {
+         "name" : "CHORASMIAN NUMBER TWO"
+      },
+      "10FC7" : {
+         "name" : "CHORASMIAN NUMBER THREE"
+      },
+      "10FC8" : {
+         "name" : "CHORASMIAN NUMBER FOUR"
+      },
+      "10FC9" : {
+         "name" : "CHORASMIAN NUMBER TEN"
+      },
+      "10FCA" : {
+         "name" : "CHORASMIAN NUMBER TWENTY"
+      },
+      "10FCB" : {
+         "name" : "CHORASMIAN NUMBER ONE HUNDRED"
       },
       "10FD" : {
          "name" : "GEORGIAN LETTER AEN"
@@ -21820,6 +22087,9 @@
       "11146" : {
          "name" : "CHAKMA VOWEL SIGN EI"
       },
+      "11147" : {
+         "name" : "CHAKMA LETTER VAA"
+      },
       "1115" : {
          "name" : "HANGUL CHOSEONG NIEUN-TIKEUT"
       },
@@ -22194,6 +22464,12 @@
       },
       "111CD" : {
          "name" : "SHARADA SUTRA MARK"
+      },
+      "111CE" : {
+         "name" : "SHARADA VOWEL SIGN PRISHTHAMATRA E"
+      },
+      "111CF" : {
+         "name" : "SHARADA SIGN INVERTED CANDRABINDU"
       },
       "111D" : {
          "name" : "HANGUL CHOSEONG KAPYEOUNMIEUM"
@@ -23461,6 +23737,9 @@
       "11459" : {
          "name" : "NEWA DIGIT NINE"
       },
+      "1145A" : {
+         "name" : "NEWA DOUBLE COMMA"
+      },
       "1145B" : {
          "name" : "NEWA PLACEHOLDER MARK"
       },
@@ -23475,6 +23754,12 @@
       },
       "1146" : {
          "name" : "HANGUL CHOSEONG IEUNG-PANSIOS"
+      },
+      "11460" : {
+         "name" : "NEWA SIGN JIHVAMULIYA"
+      },
+      "11461" : {
+         "name" : "NEWA SIGN UPADHMANIYA"
       },
       "1147" : {
          "name" : "HANGUL CHOSEONG SSANGIEUNG"
@@ -25303,20 +25588,236 @@
       "1190" : {
          "name" : "HANGUL JUNGSEONG YU-E"
       },
+      "11900" : {
+         "name" : "DIVES AKURU LETTER A"
+      },
+      "11901" : {
+         "name" : "DIVES AKURU LETTER AA"
+      },
+      "11902" : {
+         "name" : "DIVES AKURU LETTER I"
+      },
+      "11903" : {
+         "name" : "DIVES AKURU LETTER II"
+      },
+      "11904" : {
+         "name" : "DIVES AKURU LETTER U"
+      },
+      "11905" : {
+         "name" : "DIVES AKURU LETTER UU"
+      },
+      "11906" : {
+         "name" : "DIVES AKURU LETTER E"
+      },
+      "11909" : {
+         "name" : "DIVES AKURU LETTER O"
+      },
+      "1190C" : {
+         "name" : "DIVES AKURU LETTER KA"
+      },
+      "1190D" : {
+         "name" : "DIVES AKURU LETTER KHA"
+      },
+      "1190E" : {
+         "name" : "DIVES AKURU LETTER GA"
+      },
+      "1190F" : {
+         "name" : "DIVES AKURU LETTER GHA"
+      },
       "1191" : {
          "name" : "HANGUL JUNGSEONG YU-YEO"
+      },
+      "11910" : {
+         "name" : "DIVES AKURU LETTER NGA"
+      },
+      "11911" : {
+         "name" : "DIVES AKURU LETTER CA"
+      },
+      "11912" : {
+         "name" : "DIVES AKURU LETTER CHA"
+      },
+      "11913" : {
+         "name" : "DIVES AKURU LETTER JA"
+      },
+      "11915" : {
+         "name" : "DIVES AKURU LETTER NYA"
+      },
+      "11916" : {
+         "name" : "DIVES AKURU LETTER TTA"
+      },
+      "11918" : {
+         "name" : "DIVES AKURU LETTER DDA"
+      },
+      "11919" : {
+         "name" : "DIVES AKURU LETTER DDHA"
+      },
+      "1191A" : {
+         "name" : "DIVES AKURU LETTER NNA"
+      },
+      "1191B" : {
+         "name" : "DIVES AKURU LETTER TA"
+      },
+      "1191C" : {
+         "name" : "DIVES AKURU LETTER THA"
+      },
+      "1191D" : {
+         "name" : "DIVES AKURU LETTER DA"
+      },
+      "1191E" : {
+         "name" : "DIVES AKURU LETTER DHA"
+      },
+      "1191F" : {
+         "name" : "DIVES AKURU LETTER NA"
       },
       "1192" : {
          "name" : "HANGUL JUNGSEONG YU-YE"
       },
+      "11920" : {
+         "name" : "DIVES AKURU LETTER PA"
+      },
+      "11921" : {
+         "name" : "DIVES AKURU LETTER PHA"
+      },
+      "11922" : {
+         "name" : "DIVES AKURU LETTER BA"
+      },
+      "11923" : {
+         "name" : "DIVES AKURU LETTER BHA"
+      },
+      "11924" : {
+         "name" : "DIVES AKURU LETTER MA"
+      },
+      "11925" : {
+         "name" : "DIVES AKURU LETTER YA"
+      },
+      "11926" : {
+         "name" : "DIVES AKURU LETTER YYA"
+      },
+      "11927" : {
+         "name" : "DIVES AKURU LETTER RA"
+      },
+      "11928" : {
+         "name" : "DIVES AKURU LETTER LA"
+      },
+      "11929" : {
+         "name" : "DIVES AKURU LETTER VA"
+      },
+      "1192A" : {
+         "name" : "DIVES AKURU LETTER SHA"
+      },
+      "1192B" : {
+         "name" : "DIVES AKURU LETTER SSA"
+      },
+      "1192C" : {
+         "name" : "DIVES AKURU LETTER SA"
+      },
+      "1192D" : {
+         "name" : "DIVES AKURU LETTER HA"
+      },
+      "1192E" : {
+         "name" : "DIVES AKURU LETTER LLA"
+      },
+      "1192F" : {
+         "name" : "DIVES AKURU LETTER ZA"
+      },
       "1193" : {
          "name" : "HANGUL JUNGSEONG YU-U"
+      },
+      "11930" : {
+         "name" : "DIVES AKURU VOWEL SIGN AA"
+      },
+      "11931" : {
+         "name" : "DIVES AKURU VOWEL SIGN I"
+      },
+      "11932" : {
+         "name" : "DIVES AKURU VOWEL SIGN II"
+      },
+      "11933" : {
+         "name" : "DIVES AKURU VOWEL SIGN U"
+      },
+      "11934" : {
+         "name" : "DIVES AKURU VOWEL SIGN UU"
+      },
+      "11935" : {
+         "name" : "DIVES AKURU VOWEL SIGN E"
+      },
+      "11937" : {
+         "name" : "DIVES AKURU VOWEL SIGN AI"
+      },
+      "11938" : {
+         "name" : "DIVES AKURU VOWEL SIGN O"
+      },
+      "1193B" : {
+         "name" : "DIVES AKURU SIGN ANUSVARA"
+      },
+      "1193C" : {
+         "name" : "DIVES AKURU SIGN CANDRABINDU"
+      },
+      "1193D" : {
+         "name" : "DIVES AKURU SIGN HALANTA"
+      },
+      "1193E" : {
+         "name" : "DIVES AKURU VIRAMA"
+      },
+      "1193F" : {
+         "name" : "DIVES AKURU PREFIXED NASAL SIGN"
       },
       "1194" : {
          "name" : "HANGUL JUNGSEONG YU-I"
       },
+      "11940" : {
+         "name" : "DIVES AKURU MEDIAL YA"
+      },
+      "11941" : {
+         "name" : "DIVES AKURU INITIAL RA"
+      },
+      "11942" : {
+         "name" : "DIVES AKURU MEDIAL RA"
+      },
+      "11943" : {
+         "name" : "DIVES AKURU SIGN NUKTA"
+      },
+      "11944" : {
+         "name" : "DIVES AKURU DOUBLE DANDA"
+      },
+      "11945" : {
+         "name" : "DIVES AKURU GAP FILLER"
+      },
+      "11946" : {
+         "name" : "DIVES AKURU END OF TEXT MARK"
+      },
       "1195" : {
          "name" : "HANGUL JUNGSEONG EU-U"
+      },
+      "11950" : {
+         "name" : "DIVES AKURU DIGIT ZERO"
+      },
+      "11951" : {
+         "name" : "DIVES AKURU DIGIT ONE"
+      },
+      "11952" : {
+         "name" : "DIVES AKURU DIGIT TWO"
+      },
+      "11953" : {
+         "name" : "DIVES AKURU DIGIT THREE"
+      },
+      "11954" : {
+         "name" : "DIVES AKURU DIGIT FOUR"
+      },
+      "11955" : {
+         "name" : "DIVES AKURU DIGIT FIVE"
+      },
+      "11956" : {
+         "name" : "DIVES AKURU DIGIT SIX"
+      },
+      "11957" : {
+         "name" : "DIVES AKURU DIGIT SEVEN"
+      },
+      "11958" : {
+         "name" : "DIVES AKURU DIGIT EIGHT"
+      },
+      "11959" : {
+         "name" : "DIVES AKURU DIGIT NINE"
       },
       "1196" : {
          "name" : "HANGUL JUNGSEONG EU-EU"
@@ -27450,6 +27951,9 @@
       },
       "11FB" : {
          "name" : "HANGUL JONGSEONG KIYEOK-PIEUP"
+      },
+      "11FB0" : {
+         "name" : "LISU LETTER YHA"
       },
       "11FC" : {
          "name" : "HANGUL JONGSEONG KIYEOK-CHIEUCH"
@@ -43084,6 +43588,15 @@
       "16FE3" : {
          "name" : "OLD CHINESE ITERATION MARK"
       },
+      "16FE4" : {
+         "name" : "KHITAN SMALL SCRIPT FILLER"
+      },
+      "16FF0" : {
+         "name" : "VIETNAMESE ALTERNATE READING MARK CA"
+      },
+      "16FF1" : {
+         "name" : "VIETNAMESE ALTERNATE READING MARK NHAY"
+      },
       "1700" : {
          "name" : "TAGALOG LETTER A"
       },
@@ -46417,95 +46930,1544 @@
       "18AF2" : {
          "name" : "TANGUT COMPONENT-755"
       },
+      "18AF3" : {
+         "name" : "TANGUT COMPONENT-756"
+      },
+      "18AF4" : {
+         "name" : "TANGUT COMPONENT-757"
+      },
+      "18AF5" : {
+         "name" : "TANGUT COMPONENT-758"
+      },
+      "18AF6" : {
+         "name" : "TANGUT COMPONENT-759"
+      },
+      "18AF7" : {
+         "name" : "TANGUT COMPONENT-760"
+      },
+      "18AF8" : {
+         "name" : "TANGUT COMPONENT-761"
+      },
+      "18AF9" : {
+         "name" : "TANGUT COMPONENT-762"
+      },
+      "18AFA" : {
+         "name" : "TANGUT COMPONENT-763"
+      },
+      "18AFB" : {
+         "name" : "TANGUT COMPONENT-764"
+      },
+      "18AFC" : {
+         "name" : "TANGUT COMPONENT-765"
+      },
+      "18AFD" : {
+         "name" : "TANGUT COMPONENT-766"
+      },
+      "18AFE" : {
+         "name" : "TANGUT COMPONENT-767"
+      },
+      "18AFF" : {
+         "name" : "TANGUT COMPONENT-768"
+      },
       "18B0" : {
          "name" : "CANADIAN SYLLABICS OY"
+      },
+      "18B00" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B00"
+      },
+      "18B01" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B01"
+      },
+      "18B02" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B02"
+      },
+      "18B03" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B03"
+      },
+      "18B04" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B04"
+      },
+      "18B05" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B05"
+      },
+      "18B06" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B06"
+      },
+      "18B07" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B07"
+      },
+      "18B08" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B08"
+      },
+      "18B09" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B09"
+      },
+      "18B0A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B0A"
+      },
+      "18B0B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B0B"
+      },
+      "18B0C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B0C"
+      },
+      "18B0D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B0D"
+      },
+      "18B0E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B0E"
+      },
+      "18B0F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B0F"
       },
       "18B1" : {
          "name" : "CANADIAN SYLLABICS AY"
       },
+      "18B10" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B10"
+      },
+      "18B11" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B11"
+      },
+      "18B12" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B12"
+      },
+      "18B13" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B13"
+      },
+      "18B14" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B14"
+      },
+      "18B15" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B15"
+      },
+      "18B16" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B16"
+      },
+      "18B17" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B17"
+      },
+      "18B18" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B18"
+      },
+      "18B19" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B19"
+      },
+      "18B1A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B1A"
+      },
+      "18B1B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B1B"
+      },
+      "18B1C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B1C"
+      },
+      "18B1D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B1D"
+      },
+      "18B1E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B1E"
+      },
+      "18B1F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B1F"
+      },
       "18B2" : {
          "name" : "CANADIAN SYLLABICS AAY"
+      },
+      "18B20" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B20"
+      },
+      "18B21" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B21"
+      },
+      "18B22" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B22"
+      },
+      "18B23" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B23"
+      },
+      "18B24" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B24"
+      },
+      "18B25" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B25"
+      },
+      "18B26" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B26"
+      },
+      "18B27" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B27"
+      },
+      "18B28" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B28"
+      },
+      "18B29" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B29"
+      },
+      "18B2A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B2A"
+      },
+      "18B2B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B2B"
+      },
+      "18B2C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B2C"
+      },
+      "18B2D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B2D"
+      },
+      "18B2E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B2E"
+      },
+      "18B2F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B2F"
       },
       "18B3" : {
          "name" : "CANADIAN SYLLABICS WAY"
       },
+      "18B30" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B30"
+      },
+      "18B31" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B31"
+      },
+      "18B32" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B32"
+      },
+      "18B33" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B33"
+      },
+      "18B34" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B34"
+      },
+      "18B35" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B35"
+      },
+      "18B36" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B36"
+      },
+      "18B37" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B37"
+      },
+      "18B38" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B38"
+      },
+      "18B39" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B39"
+      },
+      "18B3A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B3A"
+      },
+      "18B3B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B3B"
+      },
+      "18B3C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B3C"
+      },
+      "18B3D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B3D"
+      },
+      "18B3E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B3E"
+      },
+      "18B3F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B3F"
+      },
       "18B4" : {
          "name" : "CANADIAN SYLLABICS POY"
+      },
+      "18B40" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B40"
+      },
+      "18B41" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B41"
+      },
+      "18B42" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B42"
+      },
+      "18B43" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B43"
+      },
+      "18B44" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B44"
+      },
+      "18B45" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B45"
+      },
+      "18B46" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B46"
+      },
+      "18B47" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B47"
+      },
+      "18B48" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B48"
+      },
+      "18B49" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B49"
+      },
+      "18B4A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B4A"
+      },
+      "18B4B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B4B"
+      },
+      "18B4C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B4C"
+      },
+      "18B4D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B4D"
+      },
+      "18B4E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B4E"
+      },
+      "18B4F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B4F"
       },
       "18B5" : {
          "name" : "CANADIAN SYLLABICS PAY"
       },
+      "18B50" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B50"
+      },
+      "18B51" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B51"
+      },
+      "18B52" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B52"
+      },
+      "18B53" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B53"
+      },
+      "18B54" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B54"
+      },
+      "18B55" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B55"
+      },
+      "18B56" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B56"
+      },
+      "18B57" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B57"
+      },
+      "18B58" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B58"
+      },
+      "18B59" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B59"
+      },
+      "18B5A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B5A"
+      },
+      "18B5B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B5B"
+      },
+      "18B5C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B5C"
+      },
+      "18B5D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B5D"
+      },
+      "18B5E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B5E"
+      },
+      "18B5F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B5F"
+      },
       "18B6" : {
          "name" : "CANADIAN SYLLABICS PWOY"
+      },
+      "18B60" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B60"
+      },
+      "18B61" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B61"
+      },
+      "18B62" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B62"
+      },
+      "18B63" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B63"
+      },
+      "18B64" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B64"
+      },
+      "18B65" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B65"
+      },
+      "18B66" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B66"
+      },
+      "18B67" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B67"
+      },
+      "18B68" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B68"
+      },
+      "18B69" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B69"
+      },
+      "18B6A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B6A"
+      },
+      "18B6B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B6B"
+      },
+      "18B6C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B6C"
+      },
+      "18B6D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B6D"
+      },
+      "18B6E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B6E"
+      },
+      "18B6F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B6F"
       },
       "18B7" : {
          "name" : "CANADIAN SYLLABICS TAY"
       },
+      "18B70" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B70"
+      },
+      "18B71" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B71"
+      },
+      "18B72" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B72"
+      },
+      "18B73" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B73"
+      },
+      "18B74" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B74"
+      },
+      "18B75" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B75"
+      },
+      "18B76" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B76"
+      },
+      "18B77" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B77"
+      },
+      "18B78" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B78"
+      },
+      "18B79" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B79"
+      },
+      "18B7A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B7A"
+      },
+      "18B7B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B7B"
+      },
+      "18B7C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B7C"
+      },
+      "18B7D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B7D"
+      },
+      "18B7E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B7E"
+      },
+      "18B7F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B7F"
+      },
       "18B8" : {
          "name" : "CANADIAN SYLLABICS KAY"
+      },
+      "18B80" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B80"
+      },
+      "18B81" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B81"
+      },
+      "18B82" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B82"
+      },
+      "18B83" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B83"
+      },
+      "18B84" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B84"
+      },
+      "18B85" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B85"
+      },
+      "18B86" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B86"
+      },
+      "18B87" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B87"
+      },
+      "18B88" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B88"
+      },
+      "18B89" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B89"
+      },
+      "18B8A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B8A"
+      },
+      "18B8B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B8B"
+      },
+      "18B8C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B8C"
+      },
+      "18B8D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B8D"
+      },
+      "18B8E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B8E"
+      },
+      "18B8F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B8F"
       },
       "18B9" : {
          "name" : "CANADIAN SYLLABICS KWAY"
       },
+      "18B90" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B90"
+      },
+      "18B91" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B91"
+      },
+      "18B92" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B92"
+      },
+      "18B93" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B93"
+      },
+      "18B94" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B94"
+      },
+      "18B95" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B95"
+      },
+      "18B96" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B96"
+      },
+      "18B97" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B97"
+      },
+      "18B98" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B98"
+      },
+      "18B99" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B99"
+      },
+      "18B9A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B9A"
+      },
+      "18B9B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B9B"
+      },
+      "18B9C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B9C"
+      },
+      "18B9D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B9D"
+      },
+      "18B9E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B9E"
+      },
+      "18B9F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18B9F"
+      },
       "18BA" : {
          "name" : "CANADIAN SYLLABICS MAY"
+      },
+      "18BA0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA0"
+      },
+      "18BA1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA1"
+      },
+      "18BA2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA2"
+      },
+      "18BA3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA3"
+      },
+      "18BA4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA4"
+      },
+      "18BA5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA5"
+      },
+      "18BA6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA6"
+      },
+      "18BA7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA7"
+      },
+      "18BA8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA8"
+      },
+      "18BA9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BA9"
+      },
+      "18BAA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BAA"
+      },
+      "18BAB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BAB"
+      },
+      "18BAC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BAC"
+      },
+      "18BAD" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BAD"
+      },
+      "18BAE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BAE"
+      },
+      "18BAF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BAF"
       },
       "18BB" : {
          "name" : "CANADIAN SYLLABICS NOY"
       },
+      "18BB0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB0"
+      },
+      "18BB1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB1"
+      },
+      "18BB2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB2"
+      },
+      "18BB3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB3"
+      },
+      "18BB4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB4"
+      },
+      "18BB5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB5"
+      },
+      "18BB6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB6"
+      },
+      "18BB7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB7"
+      },
+      "18BB8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB8"
+      },
+      "18BB9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BB9"
+      },
+      "18BBA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BBA"
+      },
+      "18BBB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BBB"
+      },
+      "18BBC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BBC"
+      },
+      "18BBD" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BBD"
+      },
+      "18BBE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BBE"
+      },
+      "18BBF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BBF"
+      },
       "18BC" : {
          "name" : "CANADIAN SYLLABICS NAY"
+      },
+      "18BC0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC0"
+      },
+      "18BC1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC1"
+      },
+      "18BC2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC2"
+      },
+      "18BC3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC3"
+      },
+      "18BC4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC4"
+      },
+      "18BC5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC5"
+      },
+      "18BC6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC6"
+      },
+      "18BC7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC7"
+      },
+      "18BC8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC8"
+      },
+      "18BC9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BC9"
+      },
+      "18BCA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BCA"
+      },
+      "18BCB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BCB"
+      },
+      "18BCC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BCC"
+      },
+      "18BCD" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BCD"
+      },
+      "18BCE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BCE"
+      },
+      "18BCF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BCF"
       },
       "18BD" : {
          "name" : "CANADIAN SYLLABICS LAY"
       },
+      "18BD0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD0"
+      },
+      "18BD1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD1"
+      },
+      "18BD2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD2"
+      },
+      "18BD3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD3"
+      },
+      "18BD4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD4"
+      },
+      "18BD5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD5"
+      },
+      "18BD6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD6"
+      },
+      "18BD7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD7"
+      },
+      "18BD8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD8"
+      },
+      "18BD9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BD9"
+      },
+      "18BDA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BDA"
+      },
+      "18BDB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BDB"
+      },
+      "18BDC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BDC"
+      },
+      "18BDD" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BDD"
+      },
+      "18BDE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BDE"
+      },
+      "18BDF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BDF"
+      },
       "18BE" : {
          "name" : "CANADIAN SYLLABICS SOY"
+      },
+      "18BE0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE0"
+      },
+      "18BE1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE1"
+      },
+      "18BE2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE2"
+      },
+      "18BE3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE3"
+      },
+      "18BE4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE4"
+      },
+      "18BE5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE5"
+      },
+      "18BE6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE6"
+      },
+      "18BE7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE7"
+      },
+      "18BE8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE8"
+      },
+      "18BE9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BE9"
+      },
+      "18BEA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BEA"
+      },
+      "18BEB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BEB"
+      },
+      "18BEC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BEC"
+      },
+      "18BED" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BED"
+      },
+      "18BEE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BEE"
+      },
+      "18BEF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BEF"
       },
       "18BF" : {
          "name" : "CANADIAN SYLLABICS SAY"
       },
+      "18BF0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF0"
+      },
+      "18BF1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF1"
+      },
+      "18BF2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF2"
+      },
+      "18BF3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF3"
+      },
+      "18BF4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF4"
+      },
+      "18BF5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF5"
+      },
+      "18BF6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF6"
+      },
+      "18BF7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF7"
+      },
+      "18BF8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF8"
+      },
+      "18BF9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BF9"
+      },
+      "18BFA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BFA"
+      },
+      "18BFB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BFB"
+      },
+      "18BFC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BFC"
+      },
+      "18BFD" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BFD"
+      },
+      "18BFE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BFE"
+      },
+      "18BFF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18BFF"
+      },
       "18C0" : {
          "name" : "CANADIAN SYLLABICS SHOY"
+      },
+      "18C00" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C00"
+      },
+      "18C01" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C01"
+      },
+      "18C02" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C02"
+      },
+      "18C03" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C03"
+      },
+      "18C04" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C04"
+      },
+      "18C05" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C05"
+      },
+      "18C06" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C06"
+      },
+      "18C07" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C07"
+      },
+      "18C08" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C08"
+      },
+      "18C09" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C09"
+      },
+      "18C0A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C0A"
+      },
+      "18C0B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C0B"
+      },
+      "18C0C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C0C"
+      },
+      "18C0D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C0D"
+      },
+      "18C0E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C0E"
+      },
+      "18C0F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C0F"
       },
       "18C1" : {
          "name" : "CANADIAN SYLLABICS SHAY"
       },
+      "18C10" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C10"
+      },
+      "18C11" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C11"
+      },
+      "18C12" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C12"
+      },
+      "18C13" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C13"
+      },
+      "18C14" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C14"
+      },
+      "18C15" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C15"
+      },
+      "18C16" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C16"
+      },
+      "18C17" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C17"
+      },
+      "18C18" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C18"
+      },
+      "18C19" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C19"
+      },
+      "18C1A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C1A"
+      },
+      "18C1B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C1B"
+      },
+      "18C1C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C1C"
+      },
+      "18C1D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C1D"
+      },
+      "18C1E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C1E"
+      },
+      "18C1F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C1F"
+      },
       "18C2" : {
          "name" : "CANADIAN SYLLABICS SHWOY"
+      },
+      "18C20" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C20"
+      },
+      "18C21" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C21"
+      },
+      "18C22" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C22"
+      },
+      "18C23" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C23"
+      },
+      "18C24" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C24"
+      },
+      "18C25" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C25"
+      },
+      "18C26" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C26"
+      },
+      "18C27" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C27"
+      },
+      "18C28" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C28"
+      },
+      "18C29" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C29"
+      },
+      "18C2A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C2A"
+      },
+      "18C2B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C2B"
+      },
+      "18C2C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C2C"
+      },
+      "18C2D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C2D"
+      },
+      "18C2E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C2E"
+      },
+      "18C2F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C2F"
       },
       "18C3" : {
          "name" : "CANADIAN SYLLABICS YOY"
       },
+      "18C30" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C30"
+      },
+      "18C31" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C31"
+      },
+      "18C32" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C32"
+      },
+      "18C33" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C33"
+      },
+      "18C34" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C34"
+      },
+      "18C35" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C35"
+      },
+      "18C36" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C36"
+      },
+      "18C37" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C37"
+      },
+      "18C38" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C38"
+      },
+      "18C39" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C39"
+      },
+      "18C3A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C3A"
+      },
+      "18C3B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C3B"
+      },
+      "18C3C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C3C"
+      },
+      "18C3D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C3D"
+      },
+      "18C3E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C3E"
+      },
+      "18C3F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C3F"
+      },
       "18C4" : {
          "name" : "CANADIAN SYLLABICS YAY"
+      },
+      "18C40" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C40"
+      },
+      "18C41" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C41"
+      },
+      "18C42" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C42"
+      },
+      "18C43" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C43"
+      },
+      "18C44" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C44"
+      },
+      "18C45" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C45"
+      },
+      "18C46" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C46"
+      },
+      "18C47" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C47"
+      },
+      "18C48" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C48"
+      },
+      "18C49" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C49"
+      },
+      "18C4A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C4A"
+      },
+      "18C4B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C4B"
+      },
+      "18C4C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C4C"
+      },
+      "18C4D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C4D"
+      },
+      "18C4E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C4E"
+      },
+      "18C4F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C4F"
       },
       "18C5" : {
          "name" : "CANADIAN SYLLABICS RAY"
       },
+      "18C50" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C50"
+      },
+      "18C51" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C51"
+      },
+      "18C52" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C52"
+      },
+      "18C53" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C53"
+      },
+      "18C54" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C54"
+      },
+      "18C55" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C55"
+      },
+      "18C56" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C56"
+      },
+      "18C57" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C57"
+      },
+      "18C58" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C58"
+      },
+      "18C59" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C59"
+      },
+      "18C5A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C5A"
+      },
+      "18C5B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C5B"
+      },
+      "18C5C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C5C"
+      },
+      "18C5D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C5D"
+      },
+      "18C5E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C5E"
+      },
+      "18C5F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C5F"
+      },
       "18C6" : {
          "name" : "CANADIAN SYLLABICS NWI"
+      },
+      "18C60" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C60"
+      },
+      "18C61" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C61"
+      },
+      "18C62" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C62"
+      },
+      "18C63" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C63"
+      },
+      "18C64" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C64"
+      },
+      "18C65" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C65"
+      },
+      "18C66" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C66"
+      },
+      "18C67" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C67"
+      },
+      "18C68" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C68"
+      },
+      "18C69" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C69"
+      },
+      "18C6A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C6A"
+      },
+      "18C6B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C6B"
+      },
+      "18C6C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C6C"
+      },
+      "18C6D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C6D"
+      },
+      "18C6E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C6E"
+      },
+      "18C6F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C6F"
       },
       "18C7" : {
          "name" : "CANADIAN SYLLABICS OJIBWAY NWI"
       },
+      "18C70" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C70"
+      },
+      "18C71" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C71"
+      },
+      "18C72" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C72"
+      },
+      "18C73" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C73"
+      },
+      "18C74" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C74"
+      },
+      "18C75" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C75"
+      },
+      "18C76" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C76"
+      },
+      "18C77" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C77"
+      },
+      "18C78" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C78"
+      },
+      "18C79" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C79"
+      },
+      "18C7A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C7A"
+      },
+      "18C7B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C7B"
+      },
+      "18C7C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C7C"
+      },
+      "18C7D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C7D"
+      },
+      "18C7E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C7E"
+      },
+      "18C7F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C7F"
+      },
       "18C8" : {
          "name" : "CANADIAN SYLLABICS NWII"
+      },
+      "18C80" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C80"
+      },
+      "18C81" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C81"
+      },
+      "18C82" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C82"
+      },
+      "18C83" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C83"
+      },
+      "18C84" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C84"
+      },
+      "18C85" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C85"
+      },
+      "18C86" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C86"
+      },
+      "18C87" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C87"
+      },
+      "18C88" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C88"
+      },
+      "18C89" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C89"
+      },
+      "18C8A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C8A"
+      },
+      "18C8B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C8B"
+      },
+      "18C8C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C8C"
+      },
+      "18C8D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C8D"
+      },
+      "18C8E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C8E"
+      },
+      "18C8F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C8F"
       },
       "18C9" : {
          "name" : "CANADIAN SYLLABICS OJIBWAY NWII"
       },
+      "18C90" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C90"
+      },
+      "18C91" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C91"
+      },
+      "18C92" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C92"
+      },
+      "18C93" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C93"
+      },
+      "18C94" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C94"
+      },
+      "18C95" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C95"
+      },
+      "18C96" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C96"
+      },
+      "18C97" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C97"
+      },
+      "18C98" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C98"
+      },
+      "18C99" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C99"
+      },
+      "18C9A" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C9A"
+      },
+      "18C9B" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C9B"
+      },
+      "18C9C" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C9C"
+      },
+      "18C9D" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C9D"
+      },
+      "18C9E" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C9E"
+      },
+      "18C9F" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18C9F"
+      },
       "18CA" : {
          "name" : "CANADIAN SYLLABICS NWO"
+      },
+      "18CA0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA0"
+      },
+      "18CA1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA1"
+      },
+      "18CA2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA2"
+      },
+      "18CA3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA3"
+      },
+      "18CA4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA4"
+      },
+      "18CA5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA5"
+      },
+      "18CA6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA6"
+      },
+      "18CA7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA7"
+      },
+      "18CA8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA8"
+      },
+      "18CA9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CA9"
+      },
+      "18CAA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CAA"
+      },
+      "18CAB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CAB"
+      },
+      "18CAC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CAC"
+      },
+      "18CAD" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CAD"
+      },
+      "18CAE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CAE"
+      },
+      "18CAF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CAF"
       },
       "18CB" : {
          "name" : "CANADIAN SYLLABICS OJIBWAY NWO"
       },
+      "18CB0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB0"
+      },
+      "18CB1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB1"
+      },
+      "18CB2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB2"
+      },
+      "18CB3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB3"
+      },
+      "18CB4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB4"
+      },
+      "18CB5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB5"
+      },
+      "18CB6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB6"
+      },
+      "18CB7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB7"
+      },
+      "18CB8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB8"
+      },
+      "18CB9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CB9"
+      },
+      "18CBA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CBA"
+      },
+      "18CBB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CBB"
+      },
+      "18CBC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CBC"
+      },
+      "18CBD" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CBD"
+      },
+      "18CBE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CBE"
+      },
+      "18CBF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CBF"
+      },
       "18CC" : {
          "name" : "CANADIAN SYLLABICS NWOO"
       },
+      "18CC0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC0"
+      },
+      "18CC1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC1"
+      },
+      "18CC2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC2"
+      },
+      "18CC3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC3"
+      },
+      "18CC4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC4"
+      },
+      "18CC5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC5"
+      },
+      "18CC6" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC6"
+      },
+      "18CC7" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC7"
+      },
+      "18CC8" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC8"
+      },
+      "18CC9" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CC9"
+      },
+      "18CCA" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CCA"
+      },
+      "18CCB" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CCB"
+      },
+      "18CCC" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CCC"
+      },
+      "18CCD" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CCD"
+      },
+      "18CCE" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CCE"
+      },
+      "18CCF" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CCF"
+      },
       "18CD" : {
          "name" : "CANADIAN SYLLABICS OJIBWAY NWOO"
+      },
+      "18CD0" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CD0"
+      },
+      "18CD1" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CD1"
+      },
+      "18CD2" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CD2"
+      },
+      "18CD3" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CD3"
+      },
+      "18CD4" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CD4"
+      },
+      "18CD5" : {
+         "name" : "KHITAN SMALL SCRIPT CHARACTER-18CD5"
       },
       "18CE" : {
          "name" : "CANADIAN SYLLABICS RWEE"
@@ -47796,6 +49758,12 @@
       },
       "1ABE" : {
          "name" : "COMBINING PARENTHESES OVERLAY"
+      },
+      "1ABF" : {
+         "name" : "COMBINING LATIN SMALL LETTER W BELOW"
+      },
+      "1AC0" : {
+         "name" : "COMBINING LATIN SMALL LETTER TURNED W BELOW"
       },
       "1B00" : {
          "name" : "BALINESE SIGN ULU RICEM"
@@ -63288,6 +65256,15 @@
       "1F10C" : {
          "name" : "DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ZERO"
       },
+      "1F10D" : {
+         "name" : "CIRCLED ZERO WITH SLASH"
+      },
+      "1F10E" : {
+         "name" : "CIRCLED ANTICLOCKWISE ARROW"
+      },
+      "1F10F" : {
+         "name" : "CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH"
+      },
       "1F11" : {
          "name" : "GREEK SMALL LETTER EPSILON WITH DASIA"
       },
@@ -63582,6 +65559,15 @@
       "1F16C" : {
          "name" : "RAISED MR SIGN"
       },
+      "1F16D" : {
+         "name" : "CIRCLED CC"
+      },
+      "1F16E" : {
+         "name" : "CIRCLED C WITH OVERLAID BACKSLASH"
+      },
+      "1F16F" : {
+         "name" : "CIRCLED HUMAN FIGURE"
+      },
       "1F170" : {
          "name" : "NEGATIVE SQUARED LATIN CAPITAL LETTER A"
       },
@@ -63773,6 +65759,9 @@
       },
       "1F1AC" : {
          "name" : "SQUARED VOD"
+      },
+      "1F1AD" : {
+         "name" : "MASK WORK SYMBOL"
       },
       "1F1B" : {
          "name" : "GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA"
@@ -67209,6 +69198,12 @@
       "1F6D5" : {
          "name" : "HINDU TEMPLE"
       },
+      "1F6D6" : {
+         "name" : "HUT"
+      },
+      "1F6D7" : {
+         "name" : "ELEVATOR"
+      },
       "1F6E" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI"
       },
@@ -67286,6 +69281,12 @@
       },
       "1F6FA" : {
          "name" : "AUTO RICKSHAW"
+      },
+      "1F6FB" : {
+         "name" : "PICKUP TRUCK"
+      },
+      "1F6FC" : {
+         "name" : "ROLLER SKATE"
       },
       "1F70" : {
          "ja_name" : "グレーブアクセント付きスクリプトA小文字",
@@ -68464,6 +70465,12 @@
       "1F8B" : {
          "name" : "GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI"
       },
+      "1F8B0" : {
+         "name" : "ARROW POINTING UPWARDS THEN NORTH WEST"
+      },
+      "1F8B1" : {
+         "name" : "ARROW POINTING RIGHTWARDS THEN CURVING SOUTH WEST"
+      },
       "1F8C" : {
          "name" : "GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
       },
@@ -68514,6 +70521,9 @@
       },
       "1F90B" : {
          "name" : "DOWNWARD FACING NOTCHED HOOK WITH DOT"
+      },
+      "1F90C" : {
+         "name" : "PINCHED FINGERS"
       },
       "1F90D" : {
          "name" : "WHITE HEART"
@@ -68839,6 +70849,9 @@
       "1F971" : {
          "name" : "YAWNING FACE"
       },
+      "1F972" : {
+         "name" : "SMILING FACE WITH TEAR"
+      },
       "1F973" : {
          "name" : "FACE WITH PARTY HORN AND PARTY HAT"
       },
@@ -68850,6 +70863,12 @@
       },
       "1F976" : {
          "name" : "FREEZING FACE"
+      },
+      "1F977" : {
+         "name" : "NINJA"
+      },
+      "1F978" : {
+         "name" : "DISGUISED FACE"
       },
       "1F97A" : {
          "name" : "FACE WITH PLEADING EYES"
@@ -68983,6 +71002,12 @@
       "1F9A2" : {
          "name" : "SWAN"
       },
+      "1F9A3" : {
+         "name" : "MAMMOTH"
+      },
+      "1F9A4" : {
+         "name" : "DODO"
+      },
       "1F9A5" : {
          "name" : "SLOTH"
       },
@@ -69000,6 +71025,15 @@
       },
       "1F9AA" : {
          "name" : "OYSTER"
+      },
+      "1F9AB" : {
+         "name" : "BEAVER"
+      },
+      "1F9AC" : {
+         "name" : "BISON"
+      },
+      "1F9AD" : {
+         "name" : "SEAL"
       },
       "1F9AE" : {
          "name" : "GUIDE DOG"
@@ -69093,6 +71127,9 @@
       },
       "1F9CA" : {
          "name" : "ICE CUBE"
+      },
+      "1F9CB" : {
+         "name" : "BUBBLE TEA"
       },
       "1F9CD" : {
          "name" : "STANDING PERSON"
@@ -69586,6 +71623,9 @@
       "1FA73" : {
          "name" : "SHORTS"
       },
+      "1FA74" : {
+         "name" : "THONG SANDAL"
+      },
       "1FA78" : {
          "name" : "DROP OF BLOOD"
       },
@@ -69606,6 +71646,18 @@
       },
       "1FA82" : {
          "name" : "PARACHUTE"
+      },
+      "1FA83" : {
+         "name" : "BOOMERANG"
+      },
+      "1FA84" : {
+         "name" : "MAGIC WAND"
+      },
+      "1FA85" : {
+         "name" : "PINATA"
+      },
+      "1FA86" : {
+         "name" : "NESTING DOLLS"
       },
       "1FA9" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI"
@@ -69628,17 +71680,125 @@
       "1FA95" : {
          "name" : "BANJO"
       },
+      "1FA96" : {
+         "name" : "MILITARY HELMET"
+      },
+      "1FA97" : {
+         "name" : "ACCORDION"
+      },
+      "1FA98" : {
+         "name" : "LONG DRUM"
+      },
+      "1FA99" : {
+         "name" : "COIN"
+      },
+      "1FA9A" : {
+         "name" : "CARPENTRY SAW"
+      },
+      "1FA9B" : {
+         "name" : "SCREWDRIVER"
+      },
+      "1FA9C" : {
+         "name" : "LADDER"
+      },
+      "1FA9D" : {
+         "name" : "HOOK"
+      },
+      "1FA9E" : {
+         "name" : "MIRROR"
+      },
+      "1FA9F" : {
+         "name" : "WINDOW"
+      },
       "1FAA" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI"
+      },
+      "1FAA0" : {
+         "name" : "PLUNGER"
+      },
+      "1FAA1" : {
+         "name" : "SEWING NEEDLE"
+      },
+      "1FAA2" : {
+         "name" : "KNOT"
+      },
+      "1FAA3" : {
+         "name" : "BUCKET"
+      },
+      "1FAA4" : {
+         "name" : "MOUSE TRAP"
+      },
+      "1FAA5" : {
+         "name" : "TOOTHBRUSH"
+      },
+      "1FAA6" : {
+         "name" : "HEADSTONE"
+      },
+      "1FAA7" : {
+         "name" : "PLACARD"
+      },
+      "1FAA8" : {
+         "name" : "ROCK"
       },
       "1FAB" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI"
       },
+      "1FAB0" : {
+         "name" : "FLY"
+      },
+      "1FAB1" : {
+         "name" : "WORM"
+      },
+      "1FAB2" : {
+         "name" : "BEETLE"
+      },
+      "1FAB3" : {
+         "name" : "COCKROACH"
+      },
+      "1FAB4" : {
+         "name" : "POTTED PLANT"
+      },
+      "1FAB5" : {
+         "name" : "WOOD"
+      },
+      "1FAB6" : {
+         "name" : "FEATHER"
+      },
       "1FAC" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
       },
+      "1FAC0" : {
+         "name" : "ANATOMICAL HEART"
+      },
+      "1FAC1" : {
+         "name" : "LUNGS"
+      },
+      "1FAC2" : {
+         "name" : "PEOPLE HUGGING"
+      },
       "1FAD" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
+      },
+      "1FAD0" : {
+         "name" : "BLUEBERRIES"
+      },
+      "1FAD1" : {
+         "name" : "BELL PEPPER"
+      },
+      "1FAD2" : {
+         "name" : "OLIVE"
+      },
+      "1FAD3" : {
+         "name" : "FLATBREAD"
+      },
+      "1FAD4" : {
+         "name" : "TAMALE"
+      },
+      "1FAD5" : {
+         "name" : "FONDUE"
+      },
+      "1FAD6" : {
+         "name" : "TEAPOT"
       },
       "1FAE" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI"
@@ -69649,38 +71809,644 @@
       "1FB0" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH VRACHY"
       },
+      "1FB00" : {
+         "name" : "BLOCK SEXTANT-1"
+      },
+      "1FB01" : {
+         "name" : "BLOCK SEXTANT-2"
+      },
+      "1FB02" : {
+         "name" : "BLOCK SEXTANT-12"
+      },
+      "1FB03" : {
+         "name" : "BLOCK SEXTANT-3"
+      },
+      "1FB04" : {
+         "name" : "BLOCK SEXTANT-13"
+      },
+      "1FB05" : {
+         "name" : "BLOCK SEXTANT-23"
+      },
+      "1FB06" : {
+         "name" : "BLOCK SEXTANT-123"
+      },
+      "1FB07" : {
+         "name" : "BLOCK SEXTANT-4"
+      },
+      "1FB08" : {
+         "name" : "BLOCK SEXTANT-14"
+      },
+      "1FB09" : {
+         "name" : "BLOCK SEXTANT-24"
+      },
+      "1FB0A" : {
+         "name" : "BLOCK SEXTANT-124"
+      },
+      "1FB0B" : {
+         "name" : "BLOCK SEXTANT-34"
+      },
+      "1FB0C" : {
+         "name" : "BLOCK SEXTANT-134"
+      },
+      "1FB0D" : {
+         "name" : "BLOCK SEXTANT-234"
+      },
+      "1FB0E" : {
+         "name" : "BLOCK SEXTANT-1234"
+      },
+      "1FB0F" : {
+         "name" : "BLOCK SEXTANT-5"
+      },
       "1FB1" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH MACRON"
+      },
+      "1FB10" : {
+         "name" : "BLOCK SEXTANT-15"
+      },
+      "1FB11" : {
+         "name" : "BLOCK SEXTANT-25"
+      },
+      "1FB12" : {
+         "name" : "BLOCK SEXTANT-125"
+      },
+      "1FB13" : {
+         "name" : "BLOCK SEXTANT-35"
+      },
+      "1FB14" : {
+         "name" : "BLOCK SEXTANT-235"
+      },
+      "1FB15" : {
+         "name" : "BLOCK SEXTANT-1235"
+      },
+      "1FB16" : {
+         "name" : "BLOCK SEXTANT-45"
+      },
+      "1FB17" : {
+         "name" : "BLOCK SEXTANT-145"
+      },
+      "1FB18" : {
+         "name" : "BLOCK SEXTANT-245"
+      },
+      "1FB19" : {
+         "name" : "BLOCK SEXTANT-1245"
+      },
+      "1FB1A" : {
+         "name" : "BLOCK SEXTANT-345"
+      },
+      "1FB1B" : {
+         "name" : "BLOCK SEXTANT-1345"
+      },
+      "1FB1C" : {
+         "name" : "BLOCK SEXTANT-2345"
+      },
+      "1FB1D" : {
+         "name" : "BLOCK SEXTANT-12345"
+      },
+      "1FB1E" : {
+         "name" : "BLOCK SEXTANT-6"
+      },
+      "1FB1F" : {
+         "name" : "BLOCK SEXTANT-16"
       },
       "1FB2" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI"
       },
+      "1FB20" : {
+         "name" : "BLOCK SEXTANT-26"
+      },
+      "1FB21" : {
+         "name" : "BLOCK SEXTANT-126"
+      },
+      "1FB22" : {
+         "name" : "BLOCK SEXTANT-36"
+      },
+      "1FB23" : {
+         "name" : "BLOCK SEXTANT-136"
+      },
+      "1FB24" : {
+         "name" : "BLOCK SEXTANT-236"
+      },
+      "1FB25" : {
+         "name" : "BLOCK SEXTANT-1236"
+      },
+      "1FB26" : {
+         "name" : "BLOCK SEXTANT-46"
+      },
+      "1FB27" : {
+         "name" : "BLOCK SEXTANT-146"
+      },
+      "1FB28" : {
+         "name" : "BLOCK SEXTANT-1246"
+      },
+      "1FB29" : {
+         "name" : "BLOCK SEXTANT-346"
+      },
+      "1FB2A" : {
+         "name" : "BLOCK SEXTANT-1346"
+      },
+      "1FB2B" : {
+         "name" : "BLOCK SEXTANT-2346"
+      },
+      "1FB2C" : {
+         "name" : "BLOCK SEXTANT-12346"
+      },
+      "1FB2D" : {
+         "name" : "BLOCK SEXTANT-56"
+      },
+      "1FB2E" : {
+         "name" : "BLOCK SEXTANT-156"
+      },
+      "1FB2F" : {
+         "name" : "BLOCK SEXTANT-256"
+      },
       "1FB3" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI"
+      },
+      "1FB30" : {
+         "name" : "BLOCK SEXTANT-1256"
+      },
+      "1FB31" : {
+         "name" : "BLOCK SEXTANT-356"
+      },
+      "1FB32" : {
+         "name" : "BLOCK SEXTANT-1356"
+      },
+      "1FB33" : {
+         "name" : "BLOCK SEXTANT-2356"
+      },
+      "1FB34" : {
+         "name" : "BLOCK SEXTANT-12356"
+      },
+      "1FB35" : {
+         "name" : "BLOCK SEXTANT-456"
+      },
+      "1FB36" : {
+         "name" : "BLOCK SEXTANT-1456"
+      },
+      "1FB37" : {
+         "name" : "BLOCK SEXTANT-2456"
+      },
+      "1FB38" : {
+         "name" : "BLOCK SEXTANT-12456"
+      },
+      "1FB39" : {
+         "name" : "BLOCK SEXTANT-3456"
+      },
+      "1FB3A" : {
+         "name" : "BLOCK SEXTANT-13456"
+      },
+      "1FB3B" : {
+         "name" : "BLOCK SEXTANT-23456"
+      },
+      "1FB3C" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER CENTRE"
+      },
+      "1FB3D" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER RIGHT"
+      },
+      "1FB3E" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER CENTRE"
+      },
+      "1FB3F" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER RIGHT"
       },
       "1FB4" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI"
       },
+      "1FB40" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO LOWER CENTRE"
+      },
+      "1FB41" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER CENTRE"
+      },
+      "1FB42" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER RIGHT"
+      },
+      "1FB43" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER CENTRE"
+      },
+      "1FB44" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER RIGHT"
+      },
+      "1FB45" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO UPPER CENTRE"
+      },
+      "1FB46" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER MIDDLE RIGHT"
+      },
+      "1FB47" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO LOWER MIDDLE RIGHT"
+      },
+      "1FB48" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO LOWER MIDDLE RIGHT"
+      },
+      "1FB49" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO UPPER MIDDLE RIGHT"
+      },
+      "1FB4A" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO UPPER MIDDLE RIGHT"
+      },
+      "1FB4B" : {
+         "name" : "LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO UPPER RIGHT"
+      },
+      "1FB4C" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO UPPER MIDDLE RIGHT"
+      },
+      "1FB4D" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO UPPER MIDDLE RIGHT"
+      },
+      "1FB4E" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO LOWER MIDDLE RIGHT"
+      },
+      "1FB4F" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO LOWER MIDDLE RIGHT"
+      },
+      "1FB50" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO LOWER RIGHT"
+      },
+      "1FB51" : {
+         "name" : "LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER MIDDLE RIGHT"
+      },
+      "1FB52" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER CENTRE"
+      },
+      "1FB53" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER RIGHT"
+      },
+      "1FB54" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER CENTRE"
+      },
+      "1FB55" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER RIGHT"
+      },
+      "1FB56" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO LOWER CENTRE"
+      },
+      "1FB57" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER CENTRE"
+      },
+      "1FB58" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER RIGHT"
+      },
+      "1FB59" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER CENTRE"
+      },
+      "1FB5A" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER RIGHT"
+      },
+      "1FB5B" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO UPPER CENTRE"
+      },
+      "1FB5C" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER MIDDLE RIGHT"
+      },
+      "1FB5D" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO LOWER MIDDLE RIGHT"
+      },
+      "1FB5E" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO LOWER MIDDLE RIGHT"
+      },
+      "1FB5F" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO UPPER MIDDLE RIGHT"
+      },
       "1FB6" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH PERISPOMENI"
+      },
+      "1FB60" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO UPPER MIDDLE RIGHT"
+      },
+      "1FB61" : {
+         "name" : "UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO UPPER RIGHT"
+      },
+      "1FB62" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO UPPER MIDDLE RIGHT"
+      },
+      "1FB63" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO UPPER MIDDLE RIGHT"
+      },
+      "1FB64" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO LOWER MIDDLE RIGHT"
+      },
+      "1FB65" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO LOWER MIDDLE RIGHT"
+      },
+      "1FB66" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO LOWER RIGHT"
+      },
+      "1FB67" : {
+         "name" : "UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER MIDDLE RIGHT"
+      },
+      "1FB68" : {
+         "name" : "UPPER AND RIGHT AND LOWER TRIANGULAR THREE QUARTERS BLOCK"
+      },
+      "1FB69" : {
+         "name" : "LEFT AND LOWER AND RIGHT TRIANGULAR THREE QUARTERS BLOCK"
+      },
+      "1FB6A" : {
+         "name" : "UPPER AND LEFT AND LOWER TRIANGULAR THREE QUARTERS BLOCK"
+      },
+      "1FB6B" : {
+         "name" : "LEFT AND UPPER AND RIGHT TRIANGULAR THREE QUARTERS BLOCK"
+      },
+      "1FB6C" : {
+         "name" : "LEFT TRIANGULAR ONE QUARTER BLOCK"
+      },
+      "1FB6D" : {
+         "name" : "UPPER TRIANGULAR ONE QUARTER BLOCK"
+      },
+      "1FB6E" : {
+         "name" : "RIGHT TRIANGULAR ONE QUARTER BLOCK"
+      },
+      "1FB6F" : {
+         "name" : "LOWER TRIANGULAR ONE QUARTER BLOCK"
       },
       "1FB7" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI"
       },
+      "1FB70" : {
+         "name" : "VERTICAL ONE EIGHTH BLOCK-2"
+      },
+      "1FB71" : {
+         "name" : "VERTICAL ONE EIGHTH BLOCK-3"
+      },
+      "1FB72" : {
+         "name" : "VERTICAL ONE EIGHTH BLOCK-4"
+      },
+      "1FB73" : {
+         "name" : "VERTICAL ONE EIGHTH BLOCK-5"
+      },
+      "1FB74" : {
+         "name" : "VERTICAL ONE EIGHTH BLOCK-6"
+      },
+      "1FB75" : {
+         "name" : "VERTICAL ONE EIGHTH BLOCK-7"
+      },
+      "1FB76" : {
+         "name" : "HORIZONTAL ONE EIGHTH BLOCK-2"
+      },
+      "1FB77" : {
+         "name" : "HORIZONTAL ONE EIGHTH BLOCK-3"
+      },
+      "1FB78" : {
+         "name" : "HORIZONTAL ONE EIGHTH BLOCK-4"
+      },
+      "1FB79" : {
+         "name" : "HORIZONTAL ONE EIGHTH BLOCK-5"
+      },
+      "1FB7A" : {
+         "name" : "HORIZONTAL ONE EIGHTH BLOCK-6"
+      },
+      "1FB7B" : {
+         "name" : "HORIZONTAL ONE EIGHTH BLOCK-7"
+      },
+      "1FB7C" : {
+         "name" : "LEFT AND LOWER ONE EIGHTH BLOCK"
+      },
+      "1FB7D" : {
+         "name" : "LEFT AND UPPER ONE EIGHTH BLOCK"
+      },
+      "1FB7E" : {
+         "name" : "RIGHT AND UPPER ONE EIGHTH BLOCK"
+      },
+      "1FB7F" : {
+         "name" : "RIGHT AND LOWER ONE EIGHTH BLOCK"
+      },
       "1FB8" : {
          "name" : "GREEK CAPITAL LETTER ALPHA WITH VRACHY"
+      },
+      "1FB80" : {
+         "name" : "UPPER AND LOWER ONE EIGHTH BLOCK"
+      },
+      "1FB81" : {
+         "name" : "HORIZONTAL ONE EIGHTH BLOCK-1358"
+      },
+      "1FB82" : {
+         "name" : "UPPER ONE QUARTER BLOCK"
+      },
+      "1FB83" : {
+         "name" : "UPPER THREE EIGHTHS BLOCK"
+      },
+      "1FB84" : {
+         "name" : "UPPER FIVE EIGHTHS BLOCK"
+      },
+      "1FB85" : {
+         "name" : "UPPER THREE QUARTERS BLOCK"
+      },
+      "1FB86" : {
+         "name" : "UPPER SEVEN EIGHTHS BLOCK"
+      },
+      "1FB87" : {
+         "name" : "RIGHT ONE QUARTER BLOCK"
+      },
+      "1FB88" : {
+         "name" : "RIGHT THREE EIGHTHS BLOCK"
+      },
+      "1FB89" : {
+         "name" : "RIGHT FIVE EIGHTHS BLOCK"
+      },
+      "1FB8A" : {
+         "name" : "RIGHT THREE QUARTERS BLOCK"
+      },
+      "1FB8B" : {
+         "name" : "RIGHT SEVEN EIGHTHS BLOCK"
+      },
+      "1FB8C" : {
+         "name" : "LEFT HALF MEDIUM SHADE"
+      },
+      "1FB8D" : {
+         "name" : "RIGHT HALF MEDIUM SHADE"
+      },
+      "1FB8E" : {
+         "name" : "UPPER HALF MEDIUM SHADE"
+      },
+      "1FB8F" : {
+         "name" : "LOWER HALF MEDIUM SHADE"
       },
       "1FB9" : {
          "name" : "GREEK CAPITAL LETTER ALPHA WITH MACRON"
       },
+      "1FB90" : {
+         "name" : "INVERSE MEDIUM SHADE"
+      },
+      "1FB91" : {
+         "name" : "UPPER HALF BLOCK AND LOWER HALF INVERSE MEDIUM SHADE"
+      },
+      "1FB92" : {
+         "name" : "UPPER HALF INVERSE MEDIUM SHADE AND LOWER HALF BLOCK"
+      },
+      "1FB94" : {
+         "name" : "LEFT HALF INVERSE MEDIUM SHADE AND RIGHT HALF BLOCK"
+      },
+      "1FB95" : {
+         "name" : "CHECKER BOARD FILL"
+      },
+      "1FB96" : {
+         "name" : "INVERSE CHECKER BOARD FILL"
+      },
+      "1FB97" : {
+         "name" : "HEAVY HORIZONTAL FILL"
+      },
+      "1FB98" : {
+         "name" : "UPPER LEFT TO LOWER RIGHT FILL"
+      },
+      "1FB99" : {
+         "name" : "UPPER RIGHT TO LOWER LEFT FILL"
+      },
+      "1FB9A" : {
+         "name" : "UPPER AND LOWER TRIANGULAR HALF BLOCK"
+      },
+      "1FB9B" : {
+         "name" : "LEFT AND RIGHT TRIANGULAR HALF BLOCK"
+      },
+      "1FB9C" : {
+         "name" : "UPPER LEFT TRIANGULAR MEDIUM SHADE"
+      },
+      "1FB9D" : {
+         "name" : "UPPER RIGHT TRIANGULAR MEDIUM SHADE"
+      },
+      "1FB9E" : {
+         "name" : "LOWER RIGHT TRIANGULAR MEDIUM SHADE"
+      },
+      "1FB9F" : {
+         "name" : "LOWER LEFT TRIANGULAR MEDIUM SHADE"
+      },
       "1FBA" : {
          "name" : "GREEK CAPITAL LETTER ALPHA WITH VARIA"
+      },
+      "1FBA0" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT"
+      },
+      "1FBA1" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT"
+      },
+      "1FBA2" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER CENTRE"
+      },
+      "1FBA3" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO LOWER CENTRE"
+      },
+      "1FBA4" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE"
+      },
+      "1FBA5" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE"
+      },
+      "1FBA6" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER CENTRE TO MIDDLE RIGHT"
+      },
+      "1FBA7" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO UPPER CENTRE TO MIDDLE RIGHT"
+      },
+      "1FBA8" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT AND MIDDLE RIGHT TO LOWER CENTRE"
+      },
+      "1FBA9" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT AND MIDDLE LEFT TO LOWER CENTRE"
+      },
+      "1FBAA" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE TO MIDDLE LEFT"
+      },
+      "1FBAB" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE TO MIDDLE RIGHT"
+      },
+      "1FBAC" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE"
+      },
+      "1FBAD" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE"
+      },
+      "1FBAE" : {
+         "name" : "BOX DRAWINGS LIGHT DIAGONAL DIAMOND"
+      },
+      "1FBAF" : {
+         "name" : "BOX DRAWINGS LIGHT HORIZONTAL WITH VERTICAL STROKE"
       },
       "1FBB" : {
          "name" : "GREEK CAPITAL LETTER ALPHA WITH OXIA"
       },
+      "1FBB0" : {
+         "name" : "ARROWHEAD-SHAPED POINTER"
+      },
+      "1FBB1" : {
+         "name" : "INVERSE CHECK MARK"
+      },
+      "1FBB2" : {
+         "name" : "LEFT HALF RUNNING MAN"
+      },
+      "1FBB3" : {
+         "name" : "RIGHT HALF RUNNING MAN"
+      },
+      "1FBB4" : {
+         "name" : "INVERSE DOWNWARDS ARROW WITH TIP LEFTWARDS"
+      },
+      "1FBB5" : {
+         "name" : "LEFTWARDS ARROW AND UPPER AND LOWER ONE EIGHTH BLOCK"
+      },
+      "1FBB6" : {
+         "name" : "RIGHTWARDS ARROW AND UPPER AND LOWER ONE EIGHTH BLOCK"
+      },
+      "1FBB7" : {
+         "name" : "DOWNWARDS ARROW AND RIGHT ONE EIGHTH BLOCK"
+      },
+      "1FBB8" : {
+         "name" : "UPWARDS ARROW AND RIGHT ONE EIGHTH BLOCK"
+      },
+      "1FBB9" : {
+         "name" : "LEFT HALF FOLDER"
+      },
+      "1FBBA" : {
+         "name" : "RIGHT HALF FOLDER"
+      },
+      "1FBBB" : {
+         "name" : "VOIDED GREEK CROSS"
+      },
+      "1FBBC" : {
+         "name" : "RIGHT OPEN SQUARED DOT"
+      },
+      "1FBBD" : {
+         "name" : "NEGATIVE DIAGONAL CROSS"
+      },
+      "1FBBE" : {
+         "name" : "NEGATIVE DIAGONAL MIDDLE RIGHT TO LOWER CENTRE"
+      },
+      "1FBBF" : {
+         "name" : "NEGATIVE DIAGONAL DIAMOND"
+      },
       "1FBC" : {
          "name" : "GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI"
+      },
+      "1FBC0" : {
+         "name" : "WHITE HEAVY SALTIRE WITH ROUNDED CORNERS"
+      },
+      "1FBC1" : {
+         "name" : "LEFT THIRD WHITE RIGHT POINTING INDEX"
+      },
+      "1FBC2" : {
+         "name" : "MIDDLE THIRD WHITE RIGHT POINTING INDEX"
+      },
+      "1FBC3" : {
+         "name" : "RIGHT THIRD WHITE RIGHT POINTING INDEX"
+      },
+      "1FBC4" : {
+         "name" : "NEGATIVE SQUARED QUESTION MARK"
+      },
+      "1FBC5" : {
+         "name" : "STICK FIGURE"
+      },
+      "1FBC6" : {
+         "name" : "STICK FIGURE WITH ARMS RAISED"
+      },
+      "1FBC7" : {
+         "name" : "STICK FIGURE LEANING LEFT"
+      },
+      "1FBC8" : {
+         "name" : "STICK FIGURE LEANING RIGHT"
+      },
+      "1FBC9" : {
+         "name" : "STICK FIGURE WITH DRESS"
+      },
+      "1FBCA" : {
+         "name" : "WHITE UP-POINTING CHEVRON"
       },
       "1FBD" : {
          "name" : "GREEK KORONIS"
@@ -69690,6 +72456,36 @@
       },
       "1FBF" : {
          "name" : "GREEK PSILI"
+      },
+      "1FBF0" : {
+         "name" : "SEGMENTED DIGIT ZERO"
+      },
+      "1FBF1" : {
+         "name" : "SEGMENTED DIGIT ONE"
+      },
+      "1FBF2" : {
+         "name" : "SEGMENTED DIGIT TWO"
+      },
+      "1FBF3" : {
+         "name" : "SEGMENTED DIGIT THREE"
+      },
+      "1FBF4" : {
+         "name" : "SEGMENTED DIGIT FOUR"
+      },
+      "1FBF5" : {
+         "name" : "SEGMENTED DIGIT FIVE"
+      },
+      "1FBF6" : {
+         "name" : "SEGMENTED DIGIT SIX"
+      },
+      "1FBF7" : {
+         "name" : "SEGMENTED DIGIT SEVEN"
+      },
+      "1FBF8" : {
+         "name" : "SEGMENTED DIGIT EIGHT"
+      },
+      "1FBF9" : {
+         "name" : "SEGMENTED DIGIT NINE"
       },
       "1FC0" : {
          "name" : "GREEK PERISPOMENI"
@@ -78878,6 +81674,9 @@
       "2B95" : {
          "name" : "RIGHTWARDS BLACK ARROW"
       },
+      "2B97" : {
+         "name" : "SYMBOL FOR TYPE A ELECTRONICS"
+      },
       "2B98" : {
          "name" : "THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD"
       },
@@ -80806,6 +83605,15 @@
       },
       "2E4F" : {
          "name" : "CORNISH VERSE DIVIDER"
+      },
+      "2E50" : {
+         "name" : "CROSS PATTY WITH RIGHT CROSSBAR"
+      },
+      "2E51" : {
+         "name" : "CROSS PATTY WITH LEFT CROSSBAR"
+      },
+      "2E52" : {
+         "name" : "TIRONIAN SIGN CAPITAL ET"
       },
       "2E80" : {
          "name" : "CJK RADICAL REPEAT"
@@ -84982,6 +87790,21 @@
       },
       "31BA" : {
          "name" : "BOPOMOFO LETTER ZY"
+      },
+      "31BB" : {
+         "name" : "BOPOMOFO FINAL LETTER G"
+      },
+      "31BC" : {
+         "name" : "BOPOMOFO LETTER GW"
+      },
+      "31BD" : {
+         "name" : "BOPOMOFO LETTER KW"
+      },
+      "31BE" : {
+         "name" : "BOPOMOFO LETTER OE"
+      },
+      "31BF" : {
+         "name" : "BOPOMOFO LETTER AH"
       },
       "31C0" : {
          "name" : "CJK STROKE T"
@@ -92868,6 +95691,24 @@
       "A7C6" : {
          "name" : "LATIN CAPITAL LETTER Z WITH PALATAL HOOK"
       },
+      "A7C7" : {
+         "name" : "LATIN CAPITAL LETTER D WITH SHORT STROKE OVERLAY"
+      },
+      "A7C8" : {
+         "name" : "LATIN SMALL LETTER D WITH SHORT STROKE OVERLAY"
+      },
+      "A7C9" : {
+         "name" : "LATIN CAPITAL LETTER S WITH SHORT STROKE OVERLAY"
+      },
+      "A7CA" : {
+         "name" : "LATIN SMALL LETTER S WITH SHORT STROKE OVERLAY"
+      },
+      "A7F5" : {
+         "name" : "LATIN CAPITAL LETTER REVERSED HALF H"
+      },
+      "A7F6" : {
+         "name" : "LATIN SMALL LETTER REVERSED HALF H"
+      },
       "A7F7" : {
          "name" : "LATIN EPIGRAPHIC LETTER SIDEWAYS I"
       },
@@ -93026,6 +95867,9 @@
       },
       "A82B" : {
          "name" : "SYLOTI NAGRI POETRY MARK-4"
+      },
+      "A82C" : {
+         "name" : "SYLOTI NAGRI SIGN ALTERNATE HASANTA"
       },
       "A830" : {
          "name" : "NORTH INDIC FRACTION ONE QUARTER"
@@ -95168,6 +98012,18 @@
       },
       "AB67" : {
          "name" : "LATIN SMALL LETTER TS DIGRAPH WITH RETROFLEX HOOK"
+      },
+      "AB68" : {
+         "name" : "LATIN SMALL LETTER TURNED R WITH MIDDLE TILDE"
+      },
+      "AB69" : {
+         "name" : "MODIFIER LETTER SMALL TURNED W"
+      },
+      "AB6A" : {
+         "name" : "MODIFIER LETTER LEFT TACK"
+      },
+      "AB6B" : {
+         "name" : "MODIFIER LETTER RIGHT TACK"
       },
       "AB70" : {
          "name" : "CHEROKEE SMALL LETTER A"
@@ -136088,7 +138944,7 @@
       "100000 10FFFD" : {
          "label" : "private-use-"
       },
-      "20000 2A6D6" : {
+      "20000 2A6DD" : {
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
       "2A700 2B734" : {
@@ -136103,10 +138959,13 @@
       "2CEB0 2EBE0" : {
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
-      "3400 4DB5" : {
+      "30000 3134A" : {
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
-      "4E00 9FEF" : {
+      "3400 4DBF" : {
+         "name" : "CJK UNIFIED IDEOGRAPH-"
+      },
+      "4E00 9FFC" : {
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
       "D800 DFFF" : {

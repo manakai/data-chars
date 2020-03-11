@@ -371,7 +371,14 @@
             "Chorasmian"
          ],
          "ianareg" : "2019-09-11",
-         "iso" : "Chrs"
+         "iso" : "Chrs",
+         "unicode" : "Chorasmian",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Chorasmian" : 1,
+            "Chrs" : 1
+         },
+         "xforms" : "Chorasmian"
       },
       "Cirt" : {
          "desc" : [
@@ -465,7 +472,14 @@
          "ianareg" : "2019-09-11",
          "iso" : "Diak",
          "u_nu" : "diak",
-         "u_nu_desc" : "Dives Akuru digits"
+         "u_nu_desc" : "Dives Akuru digits",
+         "unicode" : "Dives_Akuru",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Diak" : 1,
+            "Dives_Akuru" : 1
+         },
+         "xforms" : "DivesAkuru"
       },
       "Dogr" : {
          "desc" : [
@@ -1082,7 +1096,14 @@
             "Khitan small script"
          ],
          "ianareg" : "2014-12-11",
-         "iso" : "Kits"
+         "iso" : "Kits",
+         "unicode" : "Khitan_Small_Script",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Khitan_Small_Script" : 1,
+            "Kits" : 1
+         },
+         "xforms" : "KhitanSmallScript"
       },
       "Knda" : {
          "collation_reorder" : "Knda",
@@ -2843,7 +2864,14 @@
             "Yezidi"
          ],
          "ianareg" : "2019-09-11",
-         "iso" : "Yezi"
+         "iso" : "Yezi",
+         "unicode" : "Yezidi",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Yezi" : 1,
+            "Yezidi" : 1
+         },
+         "xforms" : "Yezidi"
       },
       "Yiii" : {
          "desc" : [

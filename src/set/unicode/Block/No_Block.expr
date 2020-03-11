@@ -48,6 +48,7 @@
 - $unicode:Block:CJK_Unified_Ideographs_Extension_D
 - $unicode:Block:CJK_Unified_Ideographs_Extension_E
 - $unicode:Block:CJK_Unified_Ideographs_Extension_F
+- $unicode:Block:CJK_Unified_Ideographs_Extension_G
 - $unicode:Block:Carian
 - $unicode:Block:Caucasian_Albanian
 - $unicode:Block:Chakma
@@ -55,6 +56,7 @@
 - $unicode:Block:Cherokee
 - $unicode:Block:Cherokee_Supplement
 - $unicode:Block:Chess_Symbols
+- $unicode:Block:Chorasmian
 - $unicode:Block:Combining_Diacritical_Marks
 - $unicode:Block:Combining_Diacritical_Marks_Extended
 - $unicode:Block:Combining_Diacritical_Marks_Supplement
@@ -78,6 +80,7 @@
 - $unicode:Block:Devanagari
 - $unicode:Block:Devanagari_Extended
 - $unicode:Block:Dingbats
+- $unicode:Block:Dives_Akuru
 - $unicode:Block:Dogra
 - $unicode:Block:Domino_Tiles
 - $unicode:Block:Duployan
@@ -141,6 +144,7 @@
 - $unicode:Block:Katakana_Phonetic_Extensions
 - $unicode:Block:Kayah_Li
 - $unicode:Block:Kharoshthi
+- $unicode:Block:Khitan_Small_Script
 - $unicode:Block:Khmer
 - $unicode:Block:Khmer_Symbols
 - $unicode:Block:Khojki
@@ -160,6 +164,7 @@
 - $unicode:Block:Linear_B_Ideograms
 - $unicode:Block:Linear_B_Syllabary
 - $unicode:Block:Lisu
+- $unicode:Block:Lisu_Supplement
 - $unicode:Block:Low_Surrogates
 - $unicode:Block:Lycian
 - $unicode:Block:Lydian
@@ -264,6 +269,7 @@
 - $unicode:Block:Sutton_SignWriting
 - $unicode:Block:Syloti_Nagri
 - $unicode:Block:Symbols_and_Pictographs_Extended-A
+- $unicode:Block:Symbols_for_Legacy_Computing
 - $unicode:Block:Syriac
 - $unicode:Block:Syriac_Supplement
 - $unicode:Block:Tagalog
@@ -278,6 +284,7 @@
 - $unicode:Block:Tamil_Supplement
 - $unicode:Block:Tangut
 - $unicode:Block:Tangut_Components
+- $unicode:Block:Tangut_Supplement
 - $unicode:Block:Telugu
 - $unicode:Block:Thaana
 - $unicode:Block:Thai
@@ -295,6 +302,7 @@
 - $unicode:Block:Vertical_Forms
 - $unicode:Block:Wancho
 - $unicode:Block:Warang_Citi
+- $unicode:Block:Yezidi
 - $unicode:Block:Yi_Radicals
 - $unicode:Block:Yi_Syllables
 - $unicode:Block:Yijing_Hexagram_Symbols
