@@ -2,11 +2,19 @@ all: deps all-data
 clean: clean-data
 
 WGET = wget
+CURL = curl
 GIT = git
 PERL = ./perl
 SAVEURL = curl -fL -o
 
-updatenightly: dataautoupdate
+updatenightly: update-submodules dataautoupdate
+
+update-submodules:
+	$(CURL) https://gist.githubusercontent.com/motemen/667573/raw/git-submodule-track | sh
+	$(GIT) add bin/modules
+	perl local/bin/pmbp.pl --update
+	$(GIT) add config
+	$(CURL) -sSLf https://raw.githubusercontent.com/wakaba/ciconfig/master/ciconfig | RUN_GIT=1 REMOVE_UNUSED=1 perl
 
 dataautoupdate: clean deps all
 	$(GIT) add data/ src/
