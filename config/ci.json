@@ -3,5 +3,9 @@
     "merger": true,
     "pmbp": "latest",
     "notifications": "suika"
+  },
+  "circleci": {
+    "empty": true,
+    "gaa": true
   }
 }
