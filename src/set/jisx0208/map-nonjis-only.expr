@@ -1,0 +1,15 @@
+#label:Alternative characters assigned in JIS X 0208 area of encodings (except for fullwidth variants)
+#sw:JIS X 0208
+[
+\u{2015}
+\u{20DD}
+\u{2225}
+\u{FF0D}
+\u{FF3C}
+\u{FF5E}
+\u{FFE0}
+\u{FFE1}
+\u{FFE2}
+\u{FFE3}
+\u{FFE5}
+]

@@ -448,6 +448,14 @@ local/mozilla-prefs.js:
 #	$(PERL) bin/mozilla-idn-blacklist-chars.pl < $< > $@
 ## network.IDN.blacklist_chars is gone
 
+local/jis-0208.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0208_1997_irv.tbl
+local/encoding-0208.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/whatwg/encoding/master/index-jis0208.txt
+src/set/jisx0208/files: bin/jisx0208.pl \
+    local/jis-0208.txt local/encoding-0208.txt
+	$(PERL) bin/jisx0208.pl
+
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
     src/set/rfc5892/Unstable.expr src/set/rfc7564/HasCompat.expr \
@@ -470,7 +478,8 @@ data/sets.json: bin/sets.pl \
     src/set/isoiec10646/300.expr \
     src/set/mj/hentaigana.expr \
     src/set/mj/hentaigana-han.expr \
-    src/set/unicode/CompositionExclusions.expr src/set/uts46/disallowed.expr
+    src/set/unicode/CompositionExclusions.expr src/set/uts46/disallowed.expr \
+    src/set/jisx0208/files
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \

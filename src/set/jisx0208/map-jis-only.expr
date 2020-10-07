@@ -1,0 +1,15 @@
+#label:JIS X 0208 characters not in JIS X 0208 area of encodings (except for fullwidth variants)
+#sw:JIS X 0208
+[
+\u{005C}
+\u{00A2}
+\u{00A3}
+\u{00A5}
+\u{00AC}
+\u{2014}
+\u{2016}
+\u{203E}
+\u{2212}
+\u{25EF}
+\u{301C}
+]
