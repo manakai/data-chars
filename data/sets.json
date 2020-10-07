@@ -2282,6 +2282,11 @@
          "label" : "tibetan",
          "suikawiki_name" : "tibetan"
       },
+      "$jisx0208-1997:has-vertical-example" : {
+         "chars" : "[(-):=\\u005B\\u005D{}\\u2014\\u2018-\\u2019\\u201C-\\u201D\\u2025-\\u2026\\u3001-\\u3002\\u3008-\\u3011\\u3014-\\u3015\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC]",
+         "label" : "JIS X 0208:1997 附属書4 (規定) に縦書き例示字形あり",
+         "suikawiki_name" : "縦書き例示字形"
+      },
       "$jisx0208:map-jis-only" : {
          "chars" : "[\\u005C\\u00A2-\\u00A3\\u00A5\\u00AC\\u2014\\u2016\\u203E\\u2212\\u25EF\\u301C]",
          "label" : "JIS X 0208 characters not in JIS X 0208 area of encodings (except for fullwidth variants)",
