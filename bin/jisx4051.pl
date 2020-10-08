@@ -225,9 +225,11 @@ write_sets_1995
     q@・:@,
     '6',
     q{
-00 3A 3B FB
+00 3A 3B 
+30 FB
     }, q{
-00 3A    FB
+00 3A    
+30 FB
     },
     compat => 'middle-dots';
 

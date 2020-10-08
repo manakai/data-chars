@@ -2498,17 +2498,17 @@
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:0221-middle-dots" : {
-         "chars" : "[:-\\u003B\\u00FB]",
+         "chars" : "[:-\\u003B\\u30FB]",
          "label" : "JIS X 4051-1995 附属書表6 (5) 中点類",
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:0221-middle-dots-horizontal" : {
-         "chars" : "[:-\\u003B\\u00FB]",
+         "chars" : "[:-\\u003B\\u30FB]",
          "label" : "JIS X 4051-1995 附属書表6 (5) 中点類 字形 横書き あり",
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:0221-middle-dots-vertical" : {
-         "chars" : "[:\\u00FB]",
+         "chars" : "[:\\u30FB]",
          "label" : "JIS X 4051-1995 附属書表6 (5) 中点類 字形 縦書き あり",
          "suikawiki_name" : "JIS X 4151"
       },
@@ -2653,7 +2653,7 @@
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:middle-dots" : {
-         "chars" : "[:-\\u003B\\u00FB]",
+         "chars" : "[:-\\u003B\\u30FB]",
          "label" : "JIS X 4051-1995 附属書表6 (5) 中点類",
          "suikawiki_name" : "JIS X 4151"
       },
@@ -2948,7 +2948,7 @@
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:vertical-specific-glyphs" : {
-         "chars" : "[(-):\\u005B\\u005D{}\\u00FB\\u2014\\u2018-\\u2019\\u201C-\\u201D\\u2024-\\u2026\\u3001-\\u3002\\u3008-\\u3011\\u3014-\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC]",
+         "chars" : "[(-):\\u005B\\u005D{}\\u2014\\u2018-\\u2019\\u201C-\\u201D\\u2024-\\u2026\\u3001-\\u3002\\u3008-\\u3011\\u3014-\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FB-\\u30FC]",
          "label" : "JIS X 4051-1995 附属書各表 字形 縦書きに横書きと異なる字形",
          "suikawiki_name" : "JIS X 4151"
       },
