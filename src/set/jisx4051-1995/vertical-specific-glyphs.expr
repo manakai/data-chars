@@ -1,0 +1,22 @@
+#label:JIS X 4051-1995 附属書各表 字形 縦書きに横書きと異なる字形
+#sw:JIS X 4151
+[
+]
+|
+$jisx4051-1995:0221-open-brackets-vertical |
+$jisx4051-1995:0221-close-brackets-vertical |
+$jisx4051-1995:0221-line-start-kinsoku-vertical |
+$jisx4051-1995:0221-line-start-kinsoku-optional-vertical |
+$jisx4051-1995:0221-line-start-kinsoku-required-vertical |
+$jisx4051-1995:0221-delimiters-vertical |
+$jisx4051-1995:0221-middle-dots-vertical |
+$jisx4051-1995:0221-full-stops-vertical |
+$jisx4051-1995:0221-unseparatable-vertical |
+$jisx4051-1995:0221-prefixes-vertical |
+$jisx4051-1995:0221-suffixes-vertical |
+$jisx4051-1995:0221-inline-annotation-open-vertical |
+$jisx4051-1995:0221-inline-annotation-close-vertical -
+$jisx4051-1995:0221-line-start-kinsoku-hequalv -
+$jisx4051-1995:0221-delimiters-hequalv -
+$jisx4051-1995:0221-prefixes-hequalv -
+$jisx4051-1995:0221-suffixes-hequalv

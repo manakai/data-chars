@@ -456,6 +456,9 @@ src/set/jisx0208/files: bin/jisx0208.pl \
     local/jis-0208.txt local/encoding-0208.txt
 	$(PERL) bin/jisx0208.pl
 
+src/set/jisx4051/files: bin/jisx4051.pl
+	$(PERL) bin/jisx4051.pl
+
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
     src/set/rfc5892/Unstable.expr src/set/rfc7564/HasCompat.expr \
@@ -479,7 +482,8 @@ data/sets.json: bin/sets.pl \
     src/set/mj/hentaigana.expr \
     src/set/mj/hentaigana-han.expr \
     src/set/unicode/CompositionExclusions.expr src/set/uts46/disallowed.expr \
-    src/set/jisx0208/files
+    src/set/jisx0208/files \
+    src/set/jisx4051/files
 	$(PERL) bin/sets.pl > $@
 
 data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \

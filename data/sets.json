@@ -2352,65 +2352,315 @@
          "label" : "JAPANESE NON IDEOGRAPHICS SUPPLEMENT / 追加非漢字集合 (JIS X 0221-1:2001 Appendix 1 b))",
          "suikawiki_name" : "JIS X 0221"
       },
+      "$jisx4051-1995:0221-close-brackets" : {
+         "chars" : "[),\\u005D}\\u2019-\\u201A\\u201D-\\u201E\\u3001\\u3009\\u300B\\u300D\\u300F\\u3011\\u3015\\u3017\\u3019\\u301B\\u301E-\\u301F]",
+         "label" : "JIS X 4051-1995 附属書表3 (2) 終わり括弧類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-close-brackets-horizontal" : {
+         "chars" : "[),\\u005D}\\u2019-\\u201A\\u201D-\\u201E\\u3001\\u3009\\u300B\\u300D\\u300F\\u3011\\u3015\\u3017\\u3019\\u301B\\u301E-\\u301F]",
+         "label" : "JIS X 4051-1995 附属書表3 (2) 終わり括弧類 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-close-brackets-vertical" : {
+         "chars" : "[)\\u005D}\\u2019\\u201D\\u3001\\u3009\\u300B\\u300D\\u300F\\u3011\\u3015\\u3017\\u3019\\u301B]",
+         "label" : "JIS X 4051-1995 附属書表3 (2) 終わり括弧類 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-delimiters" : {
+         "chars" : "[!?]",
+         "label" : "JIS X 4051-1995 附属書表5 (4) 区切り約物",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-delimiters-hequalv" : {
+         "chars" : "[!?]",
+         "label" : "JIS X 4051-1995 附属書表5 (4) 区切り約物 字形 横書き 縦書き がほぼ同じ",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-delimiters-horizontal" : {
+         "chars" : "[!?]",
+         "label" : "JIS X 4051-1995 附属書表5 (4) 区切り約物 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-delimiters-vertical" : {
+         "chars" : "[!?]",
+         "label" : "JIS X 4051-1995 附属書表5 (4) 区切り約物 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-full-stops" : {
+         "chars" : "[.\\u3002]",
+         "label" : "JIS X 4051-1995 附属書表7 (6) 句点類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-full-stops-horizontal" : {
+         "chars" : "[.\\u3002]",
+         "label" : "JIS X 4051-1995 附属書表7 (6) 句点類 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-full-stops-vertical" : {
+         "chars" : "[\\u3002]",
+         "label" : "JIS X 4051-1995 附属書表7 (6) 句点類 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-hiragana" : {
+         "chars" : "[\\u3042\\u3044\\u3046\\u3048\\u304A-\\u3062\\u3064-\\u3082\\u3084\\u3086\\u3088-\\u308D\\u308F-\\u3094]",
+         "label" : "JIS X 4051-1995 附属書表1 (11) 平仮名",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-inline-annotation-close" : {
+         "chars" : "[)\\u005D\\u3015]",
+         "label" : "JIS X 4051-1995 附属書表12 (20) 割注終わり括弧類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-inline-annotation-close-horizontal" : {
+         "chars" : "[)\\u005D\\u3015]",
+         "label" : "JIS X 4051-1995 附属書表12 (20) 割注終わり括弧類 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-inline-annotation-close-vertical" : {
+         "chars" : "[)\\u005D\\u3015]",
+         "label" : "JIS X 4051-1995 附属書表12 (20) 割注終わり括弧類 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-inline-annotation-open" : {
+         "chars" : "[(\\u005B\\u3014]",
+         "label" : "JIS X 4051-1995 附属書表11 (19) 割注始め括弧類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-inline-annotation-open-horizontal" : {
+         "chars" : "[(\\u005B\\u3014]",
+         "label" : "JIS X 4051-1995 附属書表11 (19) 割注始め括弧類 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-inline-annotation-open-vertical" : {
+         "chars" : "[(\\u005B\\u3014]",
+         "label" : "JIS X 4051-1995 附属書表11 (19) 割注始め括弧類 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-japanese-others" : {
+         "chars" : "[\u002B\\u002D\u003C->\\u00A7\\u00A9\\u00AE\\u00B1\\u00B6\\u00D7\\u00F7\\u203B\\u2160-\\u217F\\u2190-\\u21EA\\u2460-\\u24EA\\u2500-\\u2595\\u25A0-\\u25EF\\u2600-\\u2613\\u261A-\\u266E\\u2701-\\u2704\\u2706-\\u2709\\u270C-\\u2727\\u2729-\\u274B\\u274D\\u274F-\\u2752\\u2756\\u2758-\\u275E\\u2761-\\u2767\\u2776-\\u2794\\u2798-\\u27AF\\u27B1-\\u27BE\\u3003-\\u3004\\u3006-\\u3007\\u3012-\\u3013\\u3020\\u3036\\u30A2\\u30A4\\u30A6\\u30A8\\u30AA-\\u30C2\\u30C4-\\u30E2\\u30E4\\u30E6\\u30E8-\\u30ED\\u30EF-\\u30F4\\u30F7-\\u30FA\\u3220-\\u3243\\u3280-\\u32B0\\u32D0-\\u32FE\\u3300-\\u3357\\u3371-\\u3376\\u3380-\\u33DD\\u4E00-\\u9FA5]",
+         "label" : "JIS X 4051-1995 附属書表1 (12) (1)～(11)以外の和字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-japanese-space" : {
+         "chars" : "[\\u3000]",
+         "label" : "JIS X 4051-1995 附属書表1 (10) 和字間隔",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku" : {
+         "chars" : "[\\u203C\\u2044\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-hequalv" : {
+         "chars" : "[\\u203C\\u2044\\u309D-\\u309E\\u30FD-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 字形 横書き 縦書き がほぼ同じ",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-horizontal" : {
+         "chars" : "[\\u203C\\u2044\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-optional" : {
+         "chars" : "[\\u2044]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 処理系定義",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-optional-horizontal" : {
+         "chars" : "[\\u2044]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 処理系定義 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-optional-vertical" : {
+         "chars" : "[\\u2044]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 処理系定義 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-required" : {
+         "chars" : "[\\u203C\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 必須",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-required-horizontal" : {
+         "chars" : "[\\u203C\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 必須 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-required-vertical" : {
+         "chars" : "[\\u203C\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 必須 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-line-start-kinsoku-vertical" : {
+         "chars" : "[\\u203C\\u2044\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-middle-dots" : {
+         "chars" : "[:-\\u003B\\u00FB]",
+         "label" : "JIS X 4051-1995 附属書表6 (5) 中点類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-middle-dots-horizontal" : {
+         "chars" : "[:-\\u003B\\u00FB]",
+         "label" : "JIS X 4051-1995 附属書表6 (5) 中点類 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-middle-dots-vertical" : {
+         "chars" : "[:\\u00FB]",
+         "label" : "JIS X 4051-1995 附属書表6 (5) 中点類 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-numbers" : {
+         "chars" : "[\\u0020,.0-9]",
+         "label" : "JIS X 4051-1995 附属書表1 (15) 連数字中の文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-open-brackets" : {
+         "chars" : "[(\\u005B{\\u2018\\u201B-\\u201C\\u201F\\u3008\\u300A\\u300C\\u300E\\u3010\\u3014\\u3016\\u3018\\u301A\\u301D]",
+         "label" : "JIS X 4051-1995 附属書表2 (1) 始め括弧類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-open-brackets-horizontal" : {
+         "chars" : "[(\\u005B{\\u2018\\u201B-\\u201C\\u201F\\u3008\\u300A\\u300C\\u300E\\u3010\\u3014\\u3016\\u3018\\u301A\\u301D]",
+         "label" : "JIS X 4051-1995 附属書表2 (1) 始め括弧類 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-open-brackets-vertical" : {
+         "chars" : "[(\\u005B{\\u2018\\u201C\\u3008\\u300A\\u300C\\u300E\\u3010\\u3014\\u3016\\u3018\\u301A]",
+         "label" : "JIS X 4051-1995 附属書表2 (1) 始め括弧類 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-prefixes" : {
+         "chars" : "[\\u0024\\u00A3\\u00A5\\u2116]",
+         "label" : "JIS X 4051-1995 附属書表9 (8) 前置省略記号",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-prefixes-hequalv" : {
+         "chars" : "[\\u0024\\u00A3\\u00A5\\u2116]",
+         "label" : "JIS X 4051-1995 附属書表9 (8) 前置省略記号 字形 横書き 縦書き がほぼ同じ",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-prefixes-horizontal" : {
+         "chars" : "[\\u0024\\u00A3\\u00A5\\u2116]",
+         "label" : "JIS X 4051-1995 附属書表9 (8) 前置省略記号 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-prefixes-vertical" : {
+         "chars" : "[\\u0024\\u00A3\\u00A5\\u2116]",
+         "label" : "JIS X 4051-1995 附属書表9 (8) 前置省略記号 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-suffixes" : {
+         "chars" : "[%\\u00A2\\u00B0\\u2030-\\u2033]",
+         "label" : "JIS X 4051-1995 附属書表10 (9) 後置省略記号",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-suffixes-hequalv" : {
+         "chars" : "[%\\u00A2\\u2030-\\u2031]",
+         "label" : "JIS X 4051-1995 附属書表10 (9) 後置省略記号 字形 横書き 縦書き がほぼ同じ",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-suffixes-horizontal" : {
+         "chars" : "[%\\u00A2\\u00B0\\u2030-\\u2033]",
+         "label" : "JIS X 4051-1995 附属書表10 (9) 後置省略記号 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-suffixes-vertical" : {
+         "chars" : "[%\\u00A2\\u2030-\\u2031]",
+         "label" : "JIS X 4051-1995 附属書表10 (9) 後置省略記号 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-units" : {
+         "chars" : "[A-Za-z\\u2126]",
+         "label" : "JIS X 4051-1995 附属書表1 (16) 単位記号中の文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-unseparatable" : {
+         "chars" : "[\\u2014\\u2024-\\u2026]",
+         "label" : "JIS X 4051-1995 附属書表8 (7) 分離禁止文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-unseparatable-horizontal" : {
+         "chars" : "[\\u2014\\u2024-\\u2026]",
+         "label" : "JIS X 4051-1995 附属書表8 (7) 分離禁止文字 字形 横書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-unseparatable-vertical" : {
+         "chars" : "[\\u2014\\u2024-\\u2026]",
+         "label" : "JIS X 4051-1995 附属書表8 (7) 分離禁止文字 字形 縦書き あり",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-western-non-space" : {
+         "chars" : "[!-~\\u00A1-\\u017F\\u0250-\\u02A8\\u0374-\\u0375\\u037A\\u037E\\u0384-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03CE\\u0401-\\u040C\\u040E-\\u044F\\u0451-\\u045C\\u045E-\\u0486\\u0490-\\u04C4\\u04C7-\\u04C8\\u04CB-\\u04CC\\u04D0-\\u04EB\\u04EE-\\u04F5\\u04F8-\\u04F9\\u2000-\\u202E\\u2030-\\u2046\\u2070\\u2074-\\u208E\\u20A0-\\u20AA\\u2100-\\u2138\\u2153-\\u2182\\u2190-\\u21EA\\u2200-\\u22F1\\u2312\\u2460-\\u24EA\\u2500-\\u2595\\u25A0-\\u25EF\\u2600-\\u2613\\u261A-\\u266F\\u2701-\\u2704\\u2706-\\u2709\\u270C-\\u2727\\u2729-\\u274B\\u274D\\u274F-\\u2752\\u2756\\u2758-\\u275E\\u2761-\\u2767\\u2776-\\u2794\\u2798-\\u27AF\\u27B1-\\u27BE]",
+         "label" : "JIS X 4051-1995 附属書表1 (18) 欧文間隔以外の欧文用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:0221-western-space" : {
+         "chars" : "[\\u0020]",
+         "label" : "JIS X 4051-1995 附属書表1 (17) 欧文間隔",
+         "suikawiki_name" : "JIS X 4151"
+      },
       "$jisx4051-1995:close-brackets" : {
          "chars" : "[),\\u005D}\\u2019-\\u201A\\u201D-\\u201E\\u3001\\u3009\\u300B\\u300D\\u300F\\u3011\\u3015\\u3017\\u3019\\u301B\\u301E-\\u301F]",
-         "label" : "(2) 終わり括弧類 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表3 (2) 終わり括弧類",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:full-stops" : {
          "chars" : "[.\\u3002]",
-         "label" : "(6) 句点類 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表7 (6) 句点類",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:hiragana" : {
          "chars" : "[\\u3042\\u3044\\u3046\\u3048\\u304A-\\u3062\\u3064-\\u3082\\u3084\\u3086\\u3088-\\u308D\\u308F-\\u3094]",
-         "label" : "(11) 平仮名 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表1 (11) 平仮名",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:inline-annotation-close" : {
          "chars" : "[)\\u005D\\u3015]",
-         "label" : "(20) 割注終わり括弧類 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表12 (20) 割注終わり括弧類",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:inline-annotation-open" : {
          "chars" : "[(\\u005B\\u3014]",
-         "label" : "(19) 割注始め括弧類 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表11 (19) 割注始め括弧類",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:japanese-space" : {
          "chars" : "[\\u3000]",
-         "label" : "(10) 和字間隔 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表1 (10) 和字間隔",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:kinsoku" : {
-         "chars" : "[\\u203C\\u2044\\u301C\\u3041-\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
-         "label" : "(3) 行頭禁則和字 - 処理系定義を含む (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "chars" : "[\\u203C\\u2044\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:kinsoku-additional-kana" : {
-         "chars" : "[\\u3041-\\u308E]",
-         "label" : "(3) 行頭禁則和字 - 処理系定義 - 平仮名 (JIS X 4051-1995)",
+         "chars" : "[\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 - 処理系定義 - よう (拗) 促音を含む仮名の小文字",
          "suikawiki_name" : "JIS X 4051"
       },
       "$jisx4051-1995:kinsoku-additional-misc" : {
          "chars" : "[\\u2044\\u30FC]",
-         "label" : "(3) 行頭禁則和字 - 処理系定義 - その他 (JIS X 4051-1995)",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 - 処理系定義 - その他",
          "suikawiki_name" : "JIS X 4051"
       },
       "$jisx4051-1995:kinsoku-common" : {
-         "chars" : "[\\u203C\\u2044\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
-         "label" : "(3) 行頭禁則和字 - 共通 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "chars" : "[\\u203C\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 附属書表4 (3) 行頭禁則和字 必須",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:middle-dots" : {
          "chars" : "[:-\\u003B\\u00FB]",
-         "label" : "(5) 中点類 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表6 (5) 中点類",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:misc-japanese" : {
          "chars" : "[\u002B\\u002D\u003C->\\u00A7\\u00A9\\u00AE\\u00B1\\u00B6\\u00D7\\u00F7\\u203B\\u2160-\\u217F\\u2190-\\u21EA\\u2460-\\u24EA\\u2500-\\u2595\\u25A0-\\u25EF\\u2600-\\u2613\\u261A-\\u266E\\u2701-\\u2704\\u2706-\\u2709\\u270C-\\u2727\\u2729-\\u274B\\u274D\\u274F-\\u2752\\u2756\\u2758-\\u275E\\u2761-\\u2767\\u2776-\\u2794\\u2798-\\u27AF\\u27B1-\\u27BE\\u3003-\\u3004\\u3006-\\u3007\\u3012-\\u3013\\u3020\\u3036\\u30A2\\u30A4\\u30A6\\u30A8\\u30AA-\\u30C2\\u30C4-\\u30E2\\u30E4\\u30E6\\u30E8-\\u30ED\\u30EF-\\u30F4\\u30F7-\\u30FA\\u3220-\\u3243\\u3280-\\u32B0\\u32D0-\\u32FE\\u3300-\\u3357\\u3371-\\u3376\\u3380-\\u33DD\\u4E00-\\u9FA5]",
-         "label" : "(12) (1)〜(11)以外の和字 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表1 (12) (1)～(11)以外の和字",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:misc-japanese-kanji" : {
          "chars" : "[\\u4E00-\\u9FA5]",
@@ -2424,48 +2674,293 @@
       },
       "$jisx4051-1995:numbers" : {
          "chars" : "[\\u0020,.0-9]",
-         "label" : "(15) 連数字中の文字 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表1 (15) 連数字中の文字",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:open-brackets" : {
          "chars" : "[(\\u005B{\\u2018\\u201B-\\u201C\\u201F\\u3008\\u300A\\u300C\\u300E\\u3010\\u3014\\u3016\\u3018\\u301A\\u301D]",
-         "label" : "(1) 始め括弧類 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表2 (1) 始め括弧類",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:prefixes" : {
          "chars" : "[\\u0024\\u00A3\\u00A5\\u2116]",
-         "label" : "(8) 前置省略記号 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表9 (8) 前置省略記号",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:separators" : {
          "chars" : "[!?]",
-         "label" : "(4) 区切り約物 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表5 (4) 区切り約物",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:suffixes" : {
          "chars" : "[%\\u00A2\\u00B0\\u2030-\\u2033]",
-         "label" : "(9) 後置省略記号 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表10 (9) 後置省略記号",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-close-brackets" : {
+         "chars" : "[),\\u005D}\\u2019\\u201D\\u3001\\u3009\\u300B\\u300D\\u300F\\u3011\\u3015]",
+         "label" : "JIS X 4051-1995 表1 (2) 終わり括弧類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-close-brackets-horizontal" : {
+         "chars" : "[),\\u005D}\\u2019\\u201D\\u3001\\u3009\\u300B\\u300D\\u300F\\u3011\\u3015]",
+         "label" : "JIS X 4051-1995 表1 (2) 終わり括弧類 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-close-brackets-vertical" : {
+         "chars" : "[)\\u005D}\\u2019\\u201D\\u3001\\u3009\\u300B\\u300D\\u300F\\u3011\\u3015]",
+         "label" : "JIS X 4051-1995 表1 (2) 終わり括弧類 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-delimiters" : {
+         "chars" : "[!?]",
+         "label" : "JIS X 4051-1995 表1 (4) 区切り約物",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-delimiters-horizontal" : {
+         "chars" : "[!?]",
+         "label" : "JIS X 4051-1995 表1 (4) 区切り約物 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-delimiters-vertical" : {
+         "chars" : "[!?]",
+         "label" : "JIS X 4051-1995 表1 (4) 区切り約物 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-full-stops" : {
+         "chars" : "[.\\u3002]",
+         "label" : "JIS X 4051-1995 表1 (6) 句点類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-full-stops-horizontal" : {
+         "chars" : "[.\\u3002]",
+         "label" : "JIS X 4051-1995 表1 (6) 句点類 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-full-stops-vertical" : {
+         "chars" : "[\\u3002]",
+         "label" : "JIS X 4051-1995 表1 (6) 句点類 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-hiragana" : {
+         "chars" : "[0-9]",
+         "label" : "JIS X 4051-1995 表1 (11) 平仮名",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-hiragana-all" : {
+         "chars" : "[0-9\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E]",
+         "label" : "JIS X 4051-1995 表1 (11) 平仮名 \u002B 処理系定義で行頭禁則和字からはずしたよう (拗) 促音を含む平仮名の小文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-hiragana-all-horizontal" : {
+         "chars" : "[0-9\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E]",
+         "label" : "JIS X 4051-1995 表1 (11) 平仮名 \u002B 処理系定義で行頭禁則和字からはずしたよう (拗) 促音を含む平仮名の小文字 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-hiragana-all-vertical" : {
+         "chars" : "[0-9\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E]",
+         "label" : "JIS X 4051-1995 表1 (11) 平仮名 \u002B 処理系定義で行頭禁則和字からはずしたよう (拗) 促音を含む平仮名の小文字 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-hiragana-horizontal" : {
+         "chars" : "[0-9]",
+         "label" : "JIS X 4051-1995 表1 (11) 平仮名 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-hiragana-vertical" : {
+         "chars" : "[0-9]",
+         "label" : "JIS X 4051-1995 表1 (11) 平仮名 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-inline-annotation-close" : {
+         "chars" : "[)\\u005D\\u3015]",
+         "label" : "JIS X 4051-1995 表1 (20) 割注終わり括弧類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-inline-annotation-close-horizontal" : {
+         "chars" : "[)\\u005D\\u3015]",
+         "label" : "JIS X 4051-1995 表1 (20) 割注終わり括弧類 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-inline-annotation-close-vertical" : {
+         "chars" : "[)\\u005D\\u3015]",
+         "label" : "JIS X 4051-1995 表1 (20) 割注終わり括弧類 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-inline-annotation-open" : {
+         "chars" : "[(\\u005B\\u3014]",
+         "label" : "JIS X 4051-1995 表1 (19) 割注始め括弧類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-inline-annotation-open-horizontal" : {
+         "chars" : "[(\\u005B\\u3014]",
+         "label" : "JIS X 4051-1995 表1 (19) 割注始め括弧類 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-inline-annotation-open-vertical" : {
+         "chars" : "[(\\u005B\\u3014]",
+         "label" : "JIS X 4051-1995 表1 (19) 割注始め括弧類 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku" : {
+         "chars" : "[\\u3005\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku-horizontal" : {
+         "chars" : "[\\u3005\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku-optional" : {
+         "chars" : "[\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 処理系定義",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku-optional-horizontal" : {
+         "chars" : "[\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 処理系定義 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku-optional-vertical" : {
+         "chars" : "[\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 処理系定義 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku-required" : {
+         "chars" : "[\\u3005\\u309D-\\u309E\\u30FD-\\u30FE]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 必須",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku-required-horizontal" : {
+         "chars" : "[\\u3005\\u309D-\\u309E\\u30FD-\\u30FE]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 必須 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku-required-vertical" : {
+         "chars" : "[\\u3005\\u309D-\\u309E\\u30FD-\\u30FE]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 必須 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-line-start-kinsoku-vertical" : {
+         "chars" : "[\\u3005\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u309D-\\u309E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC-\\u30FE]",
+         "label" : "JIS X 4051-1995 表1 (3) 行頭禁則和字 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-middle-dots" : {
+         "chars" : "[:-\\u003B\\u30FB]",
+         "label" : "JIS X 4051-1995 表1 (5) 中点類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-middle-dots-horizontal" : {
+         "chars" : "[:-\\u003B\\u30FB]",
+         "label" : "JIS X 4051-1995 表1 (5) 中点類 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-middle-dots-vertical" : {
+         "chars" : "[:\\u30FB]",
+         "label" : "JIS X 4051-1995 表1 (5) 中点類 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-numbers" : {
+         "chars" : "[\\u0020,.0-9]",
+         "label" : "JIS X 4051-1995 表1 (15) 連数字中の文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-numbers-horizontal" : {
+         "chars" : "[\\u0020,.0-9]",
+         "label" : "JIS X 4051-1995 表1 (15) 連数字中の文字 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-numbers-vertical" : {
+         "chars" : "[\\u0020,.0-9]",
+         "label" : "JIS X 4051-1995 表1 (15) 連数字中の文字 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-open-brackets" : {
+         "chars" : "[(\\u005B{\\u2018\\u201C\\u3008\\u300A\\u300C\\u300E\\u3010\\u3014]",
+         "label" : "JIS X 4051-1995 表1 (1) 始め括弧類",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-open-brackets-horizontal" : {
+         "chars" : "[(\\u005B{\\u2018\\u201C\\u3008\\u300A\\u300C\\u300E\\u3010\\u3014]",
+         "label" : "JIS X 4051-1995 表1 (1) 始め括弧類 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-open-brackets-vertical" : {
+         "chars" : "[(\\u005B{\\u2018\\u201C\\u3008\\u300A\\u300C\\u300E\\u3010\\u3014]",
+         "label" : "JIS X 4051-1995 表1 (1) 始め括弧類 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-prefixes" : {
+         "chars" : "[\\u0024\\u00A3\\u00A5]",
+         "label" : "JIS X 4051-1995 表1 (8) 前置省略記号",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-prefixes-horizontal" : {
+         "chars" : "[\\u0024\\u00A3\\u00A5]",
+         "label" : "JIS X 4051-1995 表1 (8) 前置省略記号 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-prefixes-vertical" : {
+         "chars" : "[\\u0024\\u00A3\\u00A5]",
+         "label" : "JIS X 4051-1995 表1 (8) 前置省略記号 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-suffixes" : {
+         "chars" : "[%\\u00A2\\u00B0\\u2030\\u2032-\\u2033]",
+         "label" : "JIS X 4051-1995 表1 (9) 後置省略記号",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-suffixes-horizontal" : {
+         "chars" : "[%\\u00A2\\u00B0\\u2030\\u2032-\\u2033]",
+         "label" : "JIS X 4051-1995 表1 (9) 後置省略記号 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-suffixes-vertical" : {
+         "chars" : "[%\\u00A2\\u2030]",
+         "label" : "JIS X 4051-1995 表1 (9) 後置省略記号 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-unseparatable" : {
+         "chars" : "[\\u2014\\u2025-\\u2026]",
+         "label" : "JIS X 4051-1995 表1 (7) 分離禁止文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-unseparatable-horizontal" : {
+         "chars" : "[\\u2014\\u2025-\\u2026]",
+         "label" : "JIS X 4051-1995 表1 (7) 分離禁止文字 横書き用文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:table1-unseparatable-vertical" : {
+         "chars" : "[\\u2014\\u2025-\\u2026]",
+         "label" : "JIS X 4051-1995 表1 (7) 分離禁止文字 縦書き用文字",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:units" : {
          "chars" : "[A-Za-z\\u2126]",
-         "label" : "(16) 単位記号中の文字 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表1 (16) 単位記号中の文字",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:unseparatable" : {
          "chars" : "[\\u2014\\u2024-\\u2026]",
-         "label" : "(7) 分離禁止文字 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表8 (7) 分離禁止文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-1995:vertical-specific-glyphs" : {
+         "chars" : "[(-):\\u005B\\u005D{}\\u00FB\\u2014\\u2018-\\u2019\\u201C-\\u201D\\u2024-\\u2026\\u3001-\\u3002\\u3008-\\u3011\\u3014-\\u301C\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC]",
+         "label" : "JIS X 4051-1995 附属書各表 字形 縦書きに横書きと異なる字形",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:western-non-space" : {
          "chars" : "[!-~\\u00A1-\\u017F\\u0250-\\u02A8\\u0374-\\u0375\\u037A\\u037E\\u0384-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03CE\\u0401-\\u040C\\u040E-\\u044F\\u0451-\\u045C\\u045E-\\u0486\\u0490-\\u04C4\\u04C7-\\u04C8\\u04CB-\\u04CC\\u04D0-\\u04EB\\u04EE-\\u04F5\\u04F8-\\u04F9\\u2000-\\u202E\\u2030-\\u2046\\u2070\\u2074-\\u208E\\u20A0-\\u20AA\\u2100-\\u2138\\u2153-\\u2182\\u2190-\\u21EA\\u2200-\\u22F1\\u2312\\u2460-\\u24EA\\u2500-\\u2595\\u25A0-\\u25EF\\u2600-\\u2613\\u261A-\\u266F\\u2701-\\u2704\\u2706-\\u2709\\u270C-\\u2727\\u2729-\\u274B\\u274D\\u274F-\\u2752\\u2756\\u2758-\\u275E\\u2761-\\u2767\\u2776-\\u2794\\u2798-\\u27AF\\u27B1-\\u27BE]",
-         "label" : "(18) 欧文間隔以外の欧文用文字 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表1 (18) 欧文間隔以外の欧文用文字",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-1995:western-space" : {
          "chars" : "[\\u0020]",
-         "label" : "(17) 欧文間隔 (JIS X 4051-1995)",
-         "suikawiki_name" : "JIS X 4051"
+         "label" : "JIS X 4051-1995 附属書表1 (17) 欧文間隔",
+         "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4052:emphases" : {
          "chars" : "[\\u25B2-\\u25B3\\u25E9\\u25EB\\u25EE-\\u25EF\\uFE45-\\uFE46]",
