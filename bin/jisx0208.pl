@@ -24,11 +24,13 @@ sub write_set ($$%) {
 } # write_set
 
 my $JISChars = {};
+my $J2U = {};
 {
   my $path = $RootPath->child ('local/jis-0208.txt');
   for (split /\n/, $path->slurp) {
-    if (m{^0x[0-9A-F]+\tU\+([0-9A-F]+)\t}) {
-      $JISChars->{hex $1} = 1;
+    if (m{^0x([0-9A-F]{2})([0-9A-F]{2})\tU\+([0-9A-F]+)\t}) {
+      $JISChars->{hex $3} = 1;
+      $J2U->{-0x20 + hex $1, -0x20 + hex $2} = hex $3;
     }
   }
 }
@@ -298,5 +300,40 @@ write_set
       label => 'JIS X 0213:2000 附属書4 (規定) に横書き例示字形なし',
       sw => '横書き例示字形';
 }
+
+{
+  my $HasV = q{
+1  2 3 17 18 28 29 30 33 34 35 36 37
+1  42 43 44 45 46 47 48 49 50 51 52 53
+1  54 55 56 57 58 59 65
+4  1 3 5 7 9 35 67 69 71 78
+5  1 3 5 7 9 35 67 69 71 78 85 86
+  };
+  my $chars = {};
+  for (split /\n/, $HasV) {
+    my @c = split /\s+/, $_;
+    my $r = shift @c;
+    for my $c (@c) {
+      my $unicode = $J2U->{$r, $c};
+      if (0xFF00 < $unicode and $unicode < 0xFF5F) {
+        $chars->{$unicode - 0xFF00 + 0x20} = 1;
+      } else {
+        $chars->{$unicode} = 1;
+      }
+    }
+  }
+  use utf8;
+  write_set
+      'jisx9051-1984/vertical',
+      $chars,
+      label => 'JIS X 9051-1984 縦書き用字形',
+      sw => '縦書き用字形';
+  write_set
+      'jisx9052-1983/vertical',
+      $chars,
+      label => 'JIS X 9052-1983 縦書き用字形',
+      sw => '縦書き用字形';
+}
+
 
 ## License: Public Domain.
