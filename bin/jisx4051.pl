@@ -381,9 +381,11 @@ write_class_sets
     undef,
     undef, undef,
     '5', q{
-1    91 92 33
+1 30 33
+3 91 92
     }, q{
-1 30 91 92 33
+1    33
+3 91 92
     };
 
 write_class_sets

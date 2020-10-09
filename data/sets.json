@@ -3018,17 +3018,17 @@
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-2004:0213-hyphens" : {
-         "chars" : "[\\u2010\\u25CB\\u25CF\\u301C]",
+         "chars" : "[\\u2010\\u2013\\u301C\\u30A0]",
          "label" : "JIS X 4051:2004 附属書表5 (4) ハイフン類",
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-2004:0213-hyphens-horizontal" : {
-         "chars" : "[\\u25CB\\u25CF\\u301C]",
+         "chars" : "[\\u2010\\u2013\\u301C\\u30A0]",
          "label" : "JIS X 4051:2004 附属書表5 (4) ハイフン類 字形 横書き あり",
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-2004:0213-hyphens-vertical" : {
-         "chars" : "[\\u2010\\u25CB\\u25CF\\u301C]",
+         "chars" : "[\\u2013\\u301C\\u30A0]",
          "label" : "JIS X 4051:2004 附属書表5 (4) ハイフン類 字形 縦書き あり",
          "suikawiki_name" : "JIS X 4151"
       },
@@ -3443,12 +3443,12 @@
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-2004:vertical-glyphs-only" : {
-         "chars" : "[\\u2010\\u3033-\\u3035\\u303B]",
+         "chars" : "[\\u3033-\\u3035\\u303B]",
          "label" : "JIS X 4051:2004 附属書各表 字形 縦書き のみ",
          "suikawiki_name" : "JIS X 4151"
       },
       "$jisx4051-2004:vertical-specific-glyphs" : {
-         "chars" : "[(-):\\u005B\\u005D{}\\u00AB\\u00BB\\u2010\\u2014\\u2018-\\u2019\\u2025-\\u2026\\u25CB\\u25CF\\u3001-\\u3002\\u3008-\\u3011\\u3014-\\u3019\\u301C-\\u301D\\u301F\\u3033-\\u3035\\u303B\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u3095-\\u3096\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC\\u31F0-\\u31FF\\uFF5F-\\uFF60]",
+         "chars" : "[(-):\\u005B\\u005D{}\\u00AB\\u00BB\\u2013-\\u2014\\u2018-\\u2019\\u2025-\\u2026\\u3001-\\u3002\\u3008-\\u3011\\u3014-\\u3019\\u301C-\\u301D\\u301F\\u3033-\\u3035\\u303B\\u3041\\u3043\\u3045\\u3047\\u3049\\u3063\\u3083\\u3085\\u3087\\u308E\\u3095-\\u3096\\u30A0-\\u30A1\\u30A3\\u30A5\\u30A7\\u30A9\\u30C3\\u30E3\\u30E5\\u30E7\\u30EE\\u30F5-\\u30F6\\u30FC\\u31F0-\\u31FF\\uFF5F-\\uFF60]",
          "label" : "JIS X 4051:2004 附属書各表 字形 縦書きに横書きと異なる字形",
          "suikawiki_name" : "JIS X 4151"
       },
