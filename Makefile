@@ -450,13 +450,17 @@ local/mozilla-prefs.js:
 
 local/jis-0208.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0208_1997_irv.tbl
+local/jis-0213-1.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0213_2000_1.tbl
+local/jis-0213-2.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0213_2000_2.tbl
 local/encoding-0208.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/whatwg/encoding/master/index-jis0208.txt
 src/set/jisx0208/files: bin/jisx0208.pl \
     local/jis-0208.txt local/encoding-0208.txt
 	$(PERL) bin/jisx0208.pl
-
-src/set/jisx4051/files: bin/jisx4051.pl
+src/set/jisx4051/files: bin/jisx4051.pl \
+    local/jis-0213-1.txt local/jis-0213-2.txt
 	$(PERL) bin/jisx4051.pl
 
 data/sets.json: bin/sets.pl \

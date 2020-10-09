@@ -1,0 +1,29 @@
+#label:JIS X 4051:2004 附属書各表 字形 縦書き のみ
+#sw:JIS X 4151
+[
+]
+|
+$jisx4051-2004:0213-open-brackets-vertical |
+$jisx4051-2004:0213-close-brackets-vertical |
+$jisx4051-2004:0213-line-start-kinsoku-vertical |
+$jisx4051-2004:0213-hyphens-vertical |
+$jisx4051-2004:0213-delimiters-vertical |
+$jisx4051-2004:0213-middle-dots-vertical |
+$jisx4051-2004:0213-full-stops-vertical |
+$jisx4051-2004:0213-unseparatable-vertical |
+$jisx4051-2004:0213-prefixes-vertical |
+$jisx4051-2004:0213-suffixes-vertical |
+$jisx4051-2004:0213-inline-annotation-open-vertical |
+$jisx4051-2004:0213-inline-annotation-close-vertical -
+$jisx4051-2004:0213-open-brackets-horizontal -
+$jisx4051-2004:0213-close-brackets-horizontal -
+$jisx4051-2004:0213-line-start-kinsoku-horizontal -
+$jisx4051-2004:0213-hyphens-horizontal -
+$jisx4051-2004:0213-delimiters-horizontal -
+$jisx4051-2004:0213-middle-dots-horizontal -
+$jisx4051-2004:0213-full-stops-horizontal -
+$jisx4051-2004:0213-unseparatable-horizontal -
+$jisx4051-2004:0213-prefixes-horizontal -
+$jisx4051-2004:0213-suffixes-horizontal -
+$jisx4051-2004:0213-inline-annotation-open-horizontal -
+$jisx4051-2004:0213-inline-annotation-close-horizontal
