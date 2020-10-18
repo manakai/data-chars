@@ -1,0 +1,16 @@
+#name:連数字中の文字（cl-24） [Grouped numerals (cl-24)]
+#url:https://w3c.github.io/jlreq/#grouped-numerals-cl-24-cl-24
+#sw:連数字中の文字
+[\u{0020}
+\u{002C}
+\u{002E}
+\u{0030}
+\u{0031}
+\u{0032}
+\u{0033}
+\u{0034}
+\u{0035}
+\u{0036}
+\u{0037}
+\u{0038}
+\u{0039}]

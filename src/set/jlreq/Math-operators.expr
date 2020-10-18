@@ -1,0 +1,9 @@
+#name:演算記号（cl-18） [Math operators (cl-18)]
+#url:https://w3c.github.io/jlreq/#math-operators-cl-18-cl-18
+#sw:演算記号
+[\u{002B}
+\u{2212}
+\u{00D7}
+\u{00F7}
+\u{00B1}
+\u{2213}]

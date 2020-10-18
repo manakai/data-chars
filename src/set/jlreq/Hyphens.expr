@@ -1,0 +1,7 @@
+#name:ハイフン類（cl-03） [Hyphens (cl-03)]
+#url:https://w3c.github.io/jlreq/#hyphens-cl-03-cl-03
+#sw:ハイフン類
+[\u{2010}
+\u{301C}
+\u{30A0}
+\u{2013}]

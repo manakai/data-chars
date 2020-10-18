@@ -1,0 +1,9 @@
+#name:分離禁止文字（cl-08） [Inseparable characters (cl-08)]
+#url:https://w3c.github.io/jlreq/#inseparable-characters-cl-08-cl-08
+#sw:分離禁止文字
+[\u{2014}
+\u{2026}
+\u{2025}
+\u{3033}
+\u{3034}
+\u{3035}]

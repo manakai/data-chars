@@ -1,0 +1,4 @@
+#name:和字間隔（cl-14） [Full-width ideographic space (cl-14)]
+#url:https://w3c.github.io/jlreq/#full-width-ideographic-space-cl-14-cl-14
+#sw:和字間隔
+[\u{3000}]

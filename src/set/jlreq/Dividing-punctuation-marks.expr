@@ -1,0 +1,9 @@
+#name:区切り約物（cl-04） [Dividing punctuation marks (cl-04)]
+#url:https://w3c.github.io/jlreq/#dividing-punctuation-marks-cl-04-cl-04
+#sw:区切り約物
+[\u{0021}
+\u{003F}
+\u{203C}
+\u{2047}
+\u{2048}
+\u{2049}]

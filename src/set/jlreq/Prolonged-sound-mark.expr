@@ -1,0 +1,4 @@
+#name:長音記号（cl-10） [Prolonged sound mark (cl-10)]
+#url:https://w3c.github.io/jlreq/#prolonged-sound-mark-cl-10-cl-10
+#sw:長音記号
+[\u{30FC}]

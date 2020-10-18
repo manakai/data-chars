@@ -1,0 +1,9 @@
+#name:繰返し記号（cl-09） [Iteration marks (cl-09)]
+#url:https://w3c.github.io/jlreq/#iteration-marks-cl-09-cl-09
+#sw:繰返し記号
+[\u{30FD}
+\u{30FE}
+\u{309D}
+\u{309E}
+\u{3005}
+\u{303B}]

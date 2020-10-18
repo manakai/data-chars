@@ -1,0 +1,9 @@
+#name:前置省略記号（cl-12） [Prefixed abbreviations (cl-12)]
+#url:https://w3c.github.io/jlreq/#prefixed-abbreviations-cl-12-cl-12
+#sw:前置省略記号
+[\u{00A5}
+\u{0024}
+\u{00A3}
+\u{0023}
+\u{20AC}
+\u{2116}]
