@@ -110,6 +110,7 @@ sub get_set ($) {
   if ($src =~ /^\#format:\s*col\s*$/m) {
     $src = col2expr $src;
   }
+  $src =~ s{\x0A\[\[COL\x0D?\x0A(.+?)\x0ACOL\]\]\s*(?:\x0A|$)}{col2expr $1}ges;
   my $set = __PACKAGE__->evaluate_expression ($src);
   die "Bad set definition \$$_[1]\n" unless defined $set;
   return $set;
