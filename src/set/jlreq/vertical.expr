@@ -1,0 +1,5 @@
+#name:縦組で使用
+#sw:縦書き字形
+$jlreq:Closing-brackets-vertical |
+$jlreq:Inseparable-characters-vertical |
+$jlreq:Opening-brackets-vertical

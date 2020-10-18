@@ -1,0 +1,5 @@
+#name:句点類（cl-06） [Full stops (cl-06)]
+#url:https://w3c.github.io/jlreq/#full-stops-cl-06-cl-06
+#sw:句点類
+[\u{3002}
+\u{002E}]

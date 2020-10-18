@@ -1,0 +1,6 @@
+#name:割注終わり括弧類（cl-29） [Warichu closing brackets (cl-29)]
+#url:https://w3c.github.io/jlreq/#warichu-closing-brackets-cl-29-cl-29
+#sw:割注終わり括弧類
+[\u{0029}
+\u{3015}
+\u{005D}]

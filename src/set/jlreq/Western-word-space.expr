@@ -1,0 +1,4 @@
+#name:欧文間隔（cl-26） [Western word space (cl-26)]
+#url:https://w3c.github.io/jlreq/#western-word-space-cl-26-cl-26
+#sw:欧文間隔
+[\u{0020}]

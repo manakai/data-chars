@@ -1,0 +1,5 @@
+#name:読点類（cl-07） [Commas (cl-07)]
+#url:https://w3c.github.io/jlreq/#commas-cl-07-cl-07
+#sw:読点類
+[\u{3001}
+\u{002C}]

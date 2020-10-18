@@ -1,0 +1,19 @@
+#name:終わり括弧類（cl-02） [Closing brackets (cl-02)]
+#url:https://w3c.github.io/jlreq/#closing-brackets-cl-02-cl-02
+#sw:終わり括弧類
+[\u{2019}
+\u{201D}
+\u{0029}
+\u{3015}
+\u{005D}
+\u{007D}
+\u{3009}
+\u{300B}
+\u{300D}
+\u{300F}
+\u{3011}
+\u{2986}
+\u{3019}
+\u{3017}
+\u{00BB}
+\u{301F}]

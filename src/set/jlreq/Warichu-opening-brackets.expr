@@ -1,0 +1,6 @@
+#name:割注始め括弧類（cl-28） [Warichu opening brackets (cl-28)]
+#url:https://w3c.github.io/jlreq/#warichu-opening-brackets-cl-28-cl-28
+#sw:割注始め括弧類
+[\u{0028}
+\u{3014}
+\u{005B}]
