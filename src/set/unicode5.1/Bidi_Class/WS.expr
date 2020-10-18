@@ -1,2 +1,3 @@
+#label:Unicode Bidi_Class=WS
 #sw:Bidi_Class
 [\u000C\u0020\u1680\u180E\u2000-\u200A\u2028\u205F\u3000]

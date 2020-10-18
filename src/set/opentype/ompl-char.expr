@@ -1,0 +1,4 @@
+#label:OpenType Mirroring Pairs List (OMPL) character
+#url:https://docs.microsoft.com/en-us/typography/opentype/spec/ompl
+#sw:OpenType Mirroring Pairs List
+$unicode5.1:has-Bidi_Mirroring_Glyph
