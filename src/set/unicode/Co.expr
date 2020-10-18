@@ -1,1 +1,3 @@
+#label:Unicode General_Category=Co
+#sw:Co
 [\u{E000}-\u{F8FF}\u{F0000}-\u{FFFFD}\u{100000}-\u{10FFFD}]
