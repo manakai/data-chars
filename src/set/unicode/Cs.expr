@@ -1,1 +1,3 @@
+#label:Unicode General_Category=Cs
+#sw:Cs
 [\u{D800}-\u{DFFF}]

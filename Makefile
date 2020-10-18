@@ -103,28 +103,39 @@ data/names.json: bin/names.pl \
 
 UNICODE_VERSION = XXXVERSIONNOTSPECIFIEDXXX
 
-unicode-general-category-2.0: local/unicode/2.0/UnicodeData.txt
+unicode-general-category-2.0: local/unicode/2.0/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 2.0 $<
-unicode-general-category-2.1: local/unicode/2.1/UnicodeData.txt
+unicode-general-category-2.1: local/unicode/2.1/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 2.1 $<
-unicode-general-category-3.0: local/unicode/3.0/UnicodeData.txt
+unicode-general-category-3.0: local/unicode/3.0/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 3.0 $<
-unicode-general-category-3.2: local/unicode/3.2/UnicodeData.txt
+unicode-general-category-3.2: local/unicode/3.2/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 3.2 $<
-unicode-general-category-5.0: local/unicode/5.0/UnicodeData.txt
+unicode-general-category-5.0: local/unicode/5.0/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 5.0 $<
-unicode-general-category-5.2: local/unicode/5.2/UnicodeData.txt
+unicode-general-category-5.2: local/unicode/5.2/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 5.2 $<
-unicode-general-category-6.0: local/unicode/6.0/UnicodeData.txt
+unicode-general-category-6.0: local/unicode/6.0/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 6.0 $<
-unicode-general-category-6.1: local/unicode/6.1/UnicodeData.txt
+unicode-general-category-6.1: local/unicode/6.1/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 6.1 $<
-unicode-general-category-6.2: local/unicode/6.2/UnicodeData.txt
+unicode-general-category-6.2: local/unicode/6.2/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 6.2 $<
-unicode-general-category-6.3: local/unicode/6.3/UnicodeData.txt
+unicode-general-category-6.3: local/unicode/6.3/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl 6.3 $<
 unicode-general-category-latest: src/set/unicode/Cc.expr
-src/set/unicode/Cc.expr: local/unicode/latest/UnicodeData.txt
+src/set/unicode/Cc.expr: local/unicode/latest/UnicodeData.txt \
+    bin/generate-general-category.pl
 	$(PERL) bin/generate-general-category.pl latest $<
 
 local/unicode/2.0/UnicodeData.txt:
