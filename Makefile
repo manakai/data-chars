@@ -219,6 +219,12 @@ local/unicode/$(UNICODE_VERSION)/DerivedBidiClass.txt:
 local/unicode/latest/DerivedBidiClass.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedBidiClass.txt
+local/unicode/$(UNICODE_VERSION)/BidiMirroring.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/BidiMirroring.txt
+local/unicode/latest/BidiMirroring.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/BidiMirroring.txt
 
 src/set/unicode/Block/files: \
     bin/blocks.pl \
@@ -252,12 +258,14 @@ src/set/unicode$(UNICODE_VERSION:.0=)/Canonical_Combining_Class/files: \
 	touch $@
 src/set/unicode/Bidi_Class/files: \
     bin/bidiclass.pl \
-    local/unicode/latest/DerivedBidiClass.txt
+    local/unicode/latest/DerivedBidiClass.txt \
+    local/unicode/latest/BidiMirroring.txt
 	$(PERL) bin/bidiclass.pl latest
 	touch $@
 src/set/unicode$(UNICODE_VERSION:.0=)/Bidi_Class/files: \
     bin/bidiclass.pl \
-    local/unicode/$(UNICODE_VERSION)/DerivedBidiClass.txt
+    local/unicode/$(UNICODE_VERSION)/DerivedBidiClass.txt \
+    local/unicode/$(UNICODE_VERSION)/BidiMirroring.txt
 	$(PERL) bin/bidiclass.pl $(UNICODE_VERSION)
 	touch $@
 src/set/unicode/Age/files: \
