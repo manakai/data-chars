@@ -12136,117 +12136,117 @@
       },
       "$unicode:Bidi_Class:AL" : {
          "chars" : "[\\u0608\\u060B\\u060D\\u061B-\\u064A\\u066D-\\u066F\\u0671-\\u06D5\\u06E5-\\u06E6\\u06EE-\\u06EF\\u06FA-\\u0710\\u0712-\\u072F\\u074B-\\u07A5\\u07B1-\\u07BF\\u0860-\\u086F\\u08A0-\\u08D2\\uFB50-\\uFD3D\\uFD40-\\uFDCF\\uFDF0-\\uFDFC\\uFDFE-\\uFDFF\\uFE70-\\uFEFE\\u{10D00}-\\u{10D23}\\u{10D28}-\\u{10D2F}\\u{10D3A}-\\u{10D3F}\\u{10F30}-\\u{10F45}\\u{10F51}-\\u{10F6F}\\u{1EC70}-\\u{1ECBF}\\u{1ED00}-\\u{1ED4F}\\u{1EE00}-\\u{1EEEF}\\u{1EEF2}-\\u{1EEFF}]",
-         "label" : "Bidi_Class:AL",
+         "label" : "Unicode Bidi_Class=AL",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:AN" : {
          "chars" : "[\\u0600-\\u0605\\u0660-\\u0669\\u066B-\\u066C\\u06DD\\u08E2\\u{10D30}-\\u{10D39}\\u{10E60}-\\u{10E7E}]",
-         "label" : "Bidi_Class:AN",
+         "label" : "Unicode Bidi_Class=AN",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:B" : {
          "chars" : "[\\u000A\\u000D\\u001C-\\u001E\\u0085\\u2029]",
-         "label" : "Bidi_Class:B",
+         "label" : "Unicode Bidi_Class=B",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:BN" : {
          "chars" : "[\\u0000-\\u0008\\u000E-\\u001B\\u007F-\\u0084\\u0086-\\u009F\\u00AD\\u180E\\u200B-\\u200D\\u2060-\\u2065\\u206A-\\u206F\\uFDD0-\\uFDEF\\uFEFF\\uFFF0-\\uFFF8\\uFFFE-\\uFFFF\\u{1BCA0}-\\u{1BCA3}\\u{1D173}-\\u{1D17A}\\u{1FFFE}-\\u{1FFFF}\\u{2FFFE}-\\u{2FFFF}\\u{3FFFE}-\\u{3FFFF}\\u{4FFFE}-\\u{4FFFF}\\u{5FFFE}-\\u{5FFFF}\\u{6FFFE}-\\u{6FFFF}\\u{7FFFE}-\\u{7FFFF}\\u{8FFFE}-\\u{8FFFF}\\u{9FFFE}-\\u{9FFFF}\\u{AFFFE}-\\u{AFFFF}\\u{BFFFE}-\\u{BFFFF}\\u{CFFFE}-\\u{CFFFF}\\u{DFFFE}-\\u{E00FF}\\u{E01F0}-\\u{E0FFF}\\u{EFFFE}-\\u{EFFFF}\\u{FFFFE}-\\u{FFFFF}\\u{10FFFE}-\\u{10FFFF}]",
-         "label" : "Bidi_Class:BN",
+         "label" : "Unicode Bidi_Class=BN",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:CS" : {
          "chars" : "[,.-/:\\u00A0\\u060C\\u202F\\u2044\\uFE50\\uFE52\\uFE55\\uFF0C\\uFF0E-\\uFF0F\\uFF1A]",
-         "label" : "Bidi_Class:CS",
+         "label" : "Unicode Bidi_Class=CS",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:EN" : {
          "chars" : "[0-9\\u00B2-\\u00B3\\u00B9\\u06F0-\\u06F9\\u2070\\u2074-\\u2079\\u2080-\\u2089\\u2488-\\u249B\\uFF10-\\uFF19\\u{102E1}-\\u{102FB}\\u{1D7CE}-\\u{1D7FF}\\u{1F100}-\\u{1F10A}\\u{1FBF0}-\\u{1FBF9}]",
-         "label" : "Bidi_Class:EN",
+         "label" : "Unicode Bidi_Class=EN",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:ES" : {
          "chars" : "[\u002B\\u002D\\u207A-\\u207B\\u208A-\\u208B\\u2212\\uFB29\\uFE62-\\uFE63\\uFF0B\\uFF0D]",
-         "label" : "Bidi_Class:ES",
+         "label" : "Unicode Bidi_Class=ES",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:ET" : {
          "chars" : "[\\u0023-%\\u00A2-\\u00A5\\u00B0-\\u00B1\\u058F\\u0609-\\u060A\\u066A\\u09F2-\\u09F3\\u09FB\\u0AF1\\u0BF9\\u0E3F\\u17DB\\u2030-\\u2034\\u20A0-\\u20CF\\u212E\\u2213\\uA838-\\uA839\\uFE5F\\uFE69-\\uFE6A\\uFF03-\\uFF05\\uFFE0-\\uFFE1\\uFFE5-\\uFFE6\\u{11FDD}-\\u{11FE0}\\u{1E2FF}]",
-         "label" : "Bidi_Class:ET",
+         "label" : "Unicode Bidi_Class=ET",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:FSI" : {
          "chars" : "[\\u2068]",
-         "label" : "Bidi_Class:FSI",
+         "label" : "Unicode Bidi_Class=FSI",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:L" : {
          "chars" : "[A-Za-z\\u00AA\\u00B5\\u00BA\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02B8\\u02BB-\\u02C1\\u02D0-\\u02D1\\u02E0-\\u02E4\\u02EE\\u0370-\\u0373\\u0376-\\u037D\\u037F-\\u0383\\u0386\\u0388-\\u03F5\\u03F7-\\u0482\\u048A-\\u0589\\u058B-\\u058C\\u0903-\\u0939\\u093B\\u093D-\\u0940\\u0949-\\u094C\\u094E-\\u0950\\u0958-\\u0961\\u0964-\\u0980\\u0982-\\u09BB\\u09BD-\\u09C0\\u09C5-\\u09CC\\u09CE-\\u09E1\\u09E4-\\u09F1\\u09F4-\\u09FA\\u09FC-\\u09FD\\u09FF-\\u0A00\\u0A03-\\u0A3B\\u0A3D-\\u0A40\\u0A43-\\u0A46\\u0A49-\\u0A4A\\u0A4E-\\u0A50\\u0A52-\\u0A6F\\u0A72-\\u0A74\\u0A76-\\u0A80\\u0A83-\\u0ABB\\u0ABD-\\u0AC0\\u0AC6\\u0AC9-\\u0ACC\\u0ACE-\\u0AE1\\u0AE4-\\u0AF0\\u0AF2-\\u0AF9\\u0B00\\u0B02-\\u0B3B\\u0B3D-\\u0B3E\\u0B40\\u0B45-\\u0B4C\\u0B4E-\\u0B54\\u0B57-\\u0B61\\u0B64-\\u0B81\\u0B83-\\u0BBF\\u0BC1-\\u0BCC\\u0BCE-\\u0BF2\\u0BFB-\\u0BFF\\u0C01-\\u0C03\\u0C05-\\u0C3D\\u0C41-\\u0C45\\u0C49\\u0C4E-\\u0C54\\u0C57-\\u0C61\\u0C64-\\u0C77\\u0C7F-\\u0C80\\u0C82-\\u0CBB\\u0CBD-\\u0CCB\\u0CCE-\\u0CE1\\u0CE4-\\u0CFF\\u0D02-\\u0D3A\\u0D3D-\\u0D40\\u0D45-\\u0D4C\\u0D4E-\\u0D61\\u0D64-\\u0D80\\u0D82-\\u0DC9\\u0DCB-\\u0DD1\\u0DD5\\u0DD7-\\u0E30\\u0E32-\\u0E33\\u0E3B-\\u0E3E\\u0E40-\\u0E46\\u0E4F-\\u0EB0\\u0EB2-\\u0EB3\\u0EBD-\\u0EC7\\u0ECE-\\u0F17\\u0F1A-\\u0F34\\u0F36\\u0F38\\u0F3E-\\u0F70\\u0F7F\\u0F85\\u0F88-\\u0F8C\\u0F98\\u0FBD-\\u0FC5\\u0FC7-\\u102C\\u1031\\u1038\\u103B-\\u103C\\u103F-\\u1057\\u105A-\\u105D\\u1061-\\u1070\\u1075-\\u1081\\u1083-\\u1084\\u1087-\\u108C\\u108E-\\u109C\\u109E-\\u135C\\u1360-\\u138F\\u139A-\\u13FF\\u1401-\\u167F\\u1681-\\u169A\\u169D-\\u1711\\u1715-\\u1731\\u1735-\\u1751\\u1754-\\u1771\\u1774-\\u17B3\\u17B6\\u17BE-\\u17C5\\u17C7-\\u17C8\\u17D4-\\u17DA\\u17DC\\u17DE-\\u17EF\\u17FA-\\u17FF\\u180F-\\u1884\\u1887-\\u18A8\\u18AA-\\u191F\\u1923-\\u1926\\u1929-\\u1931\\u1933-\\u1938\\u193C-\\u193F\\u1941-\\u1943\\u1946-\\u19DD\\u1A00-\\u1A16\\u1A19-\\u1A1A\\u1A1C-\\u1A55\\u1A57\\u1A5F\\u1A61\\u1A63-\\u1A64\\u1A6D-\\u1A72\\u1A7D-\\u1A7E\\u1A80-\\u1AAF\\u1AC1-\\u1AFF\\u1B04-\\u1B33\\u1B35\\u1B3B\\u1B3D-\\u1B41\\u1B43-\\u1B6A\\u1B74-\\u1B7F\\u1B82-\\u1BA1\\u1BA6-\\u1BA7\\u1BAA\\u1BAE-\\u1BE5\\u1BE7\\u1BEA-\\u1BEC\\u1BEE\\u1BF2-\\u1C2B\\u1C34-\\u1C35\\u1C38-\\u1CCF\\u1CD3\\u1CE1\\u1CE9-\\u1CEC\\u1CEE-\\u1CF3\\u1CF5-\\u1CF7\\u1CFA-\\u1DBF\\u1DFA\\u1E00-\\u1FBC\\u1FBE\\u1FC2-\\u1FCC\\u1FD0-\\u1FDC\\u1FE0-\\u1FEC\\u1FF0-\\u1FFC\\u1FFF\\u200E\\u2071-\\u2073\\u207F\\u208F-\\u209F\\u20F1-\\u20FF\\u2102\\u2107\\u210A-\\u2113\\u2115\\u2119-\\u211D\\u2124\\u2126\\u2128\\u212A-\\u212D\\u212F-\\u2139\\u213C-\\u213F\\u2145-\\u2149\\u214E-\\u214F\\u2160-\\u2188\\u218C-\\u218F\\u2336-\\u237A\\u2395\\u2427-\\u243F\\u244B-\\u245F\\u249C-\\u24E9\\u26AC\\u2800-\\u28FF\\u2B74-\\u2B75\\u2B96\\u2C00-\\u2CE4\\u2CEB-\\u2CEE\\u2CF2-\\u2CF8\\u2D00-\\u2D7E\\u2D80-\\u2DDF\\u2E53-\\u2E7F\\u2E9A\\u2EF4-\\u2EFF\\u2FD6-\\u2FEF\\u2FFC-\\u2FFF\\u3005-\\u3007\\u3021-\\u3029\\u302E-\\u302F\\u3031-\\u3035\\u3038-\\u303C\\u3040-\\u3098\\u309D-\\u309F\\u30A1-\\u30FA\\u30FC-\\u31BF\\u31E4-\\u321C\\u321F-\\u324F\\u3260-\\u327B\\u327F-\\u32B0\\u32C0-\\u32CB\\u32D0-\\u3376\\u337B-\\u33DD\\u33E0-\\u33FE\\u3400-\\u4DBF\\u4E00-\\uA48F\\uA4C7-\\uA60C\\uA610-\\uA66E\\uA680-\\uA69D\\uA6A0-\\uA6EF\\uA6F2-\\uA6FF\\uA722-\\uA787\\uA789-\\uA801\\uA803-\\uA805\\uA807-\\uA80A\\uA80C-\\uA824\\uA827\\uA82D-\\uA837\\uA83A-\\uA873\\uA878-\\uA8C3\\uA8C6-\\uA8DF\\uA8F2-\\uA8FE\\uA900-\\uA925\\uA92E-\\uA946\\uA952-\\uA97F\\uA983-\\uA9B2\\uA9B4-\\uA9B5\\uA9BA-\\uA9BB\\uA9BE-\\uA9E4\\uA9E6-\\uAA28\\uAA2F-\\uAA30\\uAA33-\\uAA34\\uAA37-\\uAA42\\uAA44-\\uAA4B\\uAA4D-\\uAA7B\\uAA7D-\\uAAAF\\uAAB1\\uAAB5-\\uAAB6\\uAAB9-\\uAABD\\uAAC0\\uAAC2-\\uAAEB\\uAAEE-\\uAAF5\\uAAF7-\\uAB69\\uAB6C-\\uABE4\\uABE6-\\uABE7\\uABE9-\\uABEC\\uABEE-\\uFB1C\\uFE1A-\\uFE1F\\uFE53\\uFE67\\uFE6C-\\uFE6F\\uFF00\\uFF21-\\uFF3A\\uFF41-\\uFF5A\\uFF66-\\uFFDF\\uFFE7\\uFFEF\\u{10000}-\\u{10100}\\u{10102}-\\u{1013F}\\u{1018D}-\\u{1018F}\\u{1019D}-\\u{1019F}\\u{101A1}-\\u{101FC}\\u{101FE}-\\u{102DF}\\u{102FC}-\\u{10375}\\u{1037B}-\\u{107FF}\\u{11000}\\u{11002}-\\u{11037}\\u{11047}-\\u{11051}\\u{11066}-\\u{1107E}\\u{11082}-\\u{110B2}\\u{110B7}-\\u{110B8}\\u{110BB}-\\u{110FF}\\u{11103}-\\u{11126}\\u{1112C}\\u{11135}-\\u{11172}\\u{11174}-\\u{1117F}\\u{11182}-\\u{111B5}\\u{111BF}-\\u{111C8}\\u{111CD}-\\u{111CE}\\u{111D0}-\\u{1122E}\\u{11232}-\\u{11233}\\u{11235}\\u{11238}-\\u{1123D}\\u{1123F}-\\u{112DE}\\u{112E0}-\\u{112E2}\\u{112EB}-\\u{112FF}\\u{11302}-\\u{1133A}\\u{1133D}-\\u{1133F}\\u{11341}-\\u{11365}\\u{1136D}-\\u{1136F}\\u{11375}-\\u{11437}\\u{11440}-\\u{11441}\\u{11445}\\u{11447}-\\u{1145D}\\u{1145F}-\\u{114B2}\\u{114B9}\\u{114BB}-\\u{114BE}\\u{114C1}\\u{114C4}-\\u{115B1}\\u{115B6}-\\u{115BB}\\u{115BE}\\u{115C1}-\\u{115DB}\\u{115DE}-\\u{11632}\\u{1163B}-\\u{1163C}\\u{1163E}\\u{11641}-\\u{1165F}\\u{1166D}-\\u{116AA}\\u{116AC}\\u{116AE}-\\u{116AF}\\u{116B6}\\u{116B8}-\\u{1171C}\\u{11720}-\\u{11721}\\u{11726}\\u{1172C}-\\u{1182E}\\u{11838}\\u{1183B}-\\u{1193A}\\u{1193D}\\u{1193F}-\\u{11942}\\u{11944}-\\u{119D3}\\u{119D8}-\\u{119D9}\\u{119DC}-\\u{119DF}\\u{119E1}-\\u{11A00}\\u{11A07}-\\u{11A08}\\u{11A0B}-\\u{11A32}\\u{11A39}-\\u{11A3A}\\u{11A3F}-\\u{11A46}\\u{11A48}-\\u{11A50}\\u{11A57}-\\u{11A58}\\u{11A5C}-\\u{11A89}\\u{11A97}\\u{11A9A}-\\u{11C2F}\\u{11C37}\\u{11C3E}-\\u{11C91}\\u{11CA8}-\\u{11CA9}\\u{11CB1}\\u{11CB4}\\u{11CB7}-\\u{11D30}\\u{11D37}-\\u{11D39}\\u{11D3B}\\u{11D3E}\\u{11D46}\\u{11D48}-\\u{11D8F}\\u{11D92}-\\u{11D94}\\u{11D96}\\u{11D98}-\\u{11EF2}\\u{11EF5}-\\u{11FD4}\\u{11FF2}-\\u{16AEF}\\u{16AF5}-\\u{16B2F}\\u{16B37}-\\u{16F4E}\\u{16F50}-\\u{16F8E}\\u{16F93}-\\u{16FE1}\\u{16FE3}\\u{16FE5}-\\u{1BC9C}\\u{1BC9F}\\u{1BCA4}-\\u{1D166}\\u{1D16A}-\\u{1D172}\\u{1D183}-\\u{1D184}\\u{1D18C}-\\u{1D1A9}\\u{1D1AE}-\\u{1D1FF}\\u{1D246}-\\u{1D2FF}\\u{1D357}-\\u{1D6DA}\\u{1D6DC}-\\u{1D714}\\u{1D716}-\\u{1D74E}\\u{1D750}-\\u{1D788}\\u{1D78A}-\\u{1D7C2}\\u{1D7C4}-\\u{1D7CD}\\u{1D800}-\\u{1D9FF}\\u{1DA37}-\\u{1DA3A}\\u{1DA6D}-\\u{1DA74}\\u{1DA76}-\\u{1DA83}\\u{1DA85}-\\u{1DA9A}\\u{1DAA0}\\u{1DAB0}-\\u{1DFFF}\\u{1E007}\\u{1E019}-\\u{1E01A}\\u{1E022}\\u{1E025}\\u{1E02B}-\\u{1E12F}\\u{1E137}-\\u{1E2EB}\\u{1E2F0}-\\u{1E2FE}\\u{1E300}-\\u{1E7FF}\\u{1F02C}-\\u{1F02F}\\u{1F094}-\\u{1F09F}\\u{1F0AF}-\\u{1F0B0}\\u{1F0C0}\\u{1F0D0}\\u{1F0F6}-\\u{1F0FF}\\u{1F110}-\\u{1F12E}\\u{1F130}-\\u{1F169}\\u{1F170}-\\u{1F1AC}\\u{1F1AE}-\\u{1F25F}\\u{1F266}-\\u{1F2FF}\\u{1F6D8}-\\u{1F6DF}\\u{1F6ED}-\\u{1F6EF}\\u{1F6FD}-\\u{1F6FF}\\u{1F774}-\\u{1F77F}\\u{1F7D9}-\\u{1F7DF}\\u{1F7EC}-\\u{1F7FF}\\u{1F80C}-\\u{1F80F}\\u{1F848}-\\u{1F84F}\\u{1F85A}-\\u{1F85F}\\u{1F888}-\\u{1F88F}\\u{1F8AE}-\\u{1F8AF}\\u{1F8B2}-\\u{1F8FF}\\u{1F979}\\u{1F9CC}\\u{1FA54}-\\u{1FA5F}\\u{1FA6E}-\\u{1FA6F}\\u{1FA75}-\\u{1FA77}\\u{1FA7B}-\\u{1FA7F}\\u{1FA87}-\\u{1FA8F}\\u{1FAA9}-\\u{1FAAF}\\u{1FAB7}-\\u{1FABF}\\u{1FAC3}-\\u{1FACF}\\u{1FAD7}-\\u{1FAFF}\\u{1FB93}\\u{1FBCB}-\\u{1FBEF}\\u{1FBFA}-\\u{1FFFD}\\u{20000}-\\u{2FFFD}\\u{30000}-\\u{3FFFD}\\u{40000}-\\u{4FFFD}\\u{50000}-\\u{5FFFD}\\u{60000}-\\u{6FFFD}\\u{70000}-\\u{7FFFD}\\u{80000}-\\u{8FFFD}\\u{90000}-\\u{9FFFD}\\u{A0000}-\\u{AFFFD}\\u{B0000}-\\u{BFFFD}\\u{C0000}-\\u{CFFFD}\\u{D0000}-\\u{DFFFD}\\u{E1000}-\\u{EFFFD}\\u{F0000}-\\u{FFFFD}\\u{100000}-\\u{10FFFD}]",
-         "label" : "Bidi_Class:L",
+         "label" : "Unicode Bidi_Class=L",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:LRE" : {
          "chars" : "[\\u202A]",
-         "label" : "Bidi_Class:LRE",
+         "label" : "Unicode Bidi_Class=LRE",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:LRI" : {
          "chars" : "[\\u2066]",
-         "label" : "Bidi_Class:LRI",
+         "label" : "Unicode Bidi_Class=LRI",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:LRO" : {
          "chars" : "[\\u202D]",
-         "label" : "Bidi_Class:LRO",
+         "label" : "Unicode Bidi_Class=LRO",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:NSM" : {
          "chars" : "[\\u0300-\\u036F\\u0483-\\u0489\\u0591-\\u05BD\\u05BF\\u05C1-\\u05C2\\u05C4-\\u05C5\\u05C7\\u0610-\\u061A\\u064B-\\u065F\\u0670\\u06D6-\\u06DC\\u06DF-\\u06E4\\u06E7-\\u06E8\\u06EA-\\u06ED\\u0711\\u0730-\\u074A\\u07A6-\\u07B0\\u07EB-\\u07F3\\u07FD\\u0816-\\u0819\\u081B-\\u0823\\u0825-\\u0827\\u0829-\\u082D\\u0859-\\u085B\\u08D3-\\u08E1\\u08E3-\\u0902\\u093A\\u093C\\u0941-\\u0948\\u094D\\u0951-\\u0957\\u0962-\\u0963\\u0981\\u09BC\\u09C1-\\u09C4\\u09CD\\u09E2-\\u09E3\\u09FE\\u0A01-\\u0A02\\u0A3C\\u0A41-\\u0A42\\u0A47-\\u0A48\\u0A4B-\\u0A4D\\u0A51\\u0A70-\\u0A71\\u0A75\\u0A81-\\u0A82\\u0ABC\\u0AC1-\\u0AC5\\u0AC7-\\u0AC8\\u0ACD\\u0AE2-\\u0AE3\\u0AFA-\\u0AFF\\u0B01\\u0B3C\\u0B3F\\u0B41-\\u0B44\\u0B4D\\u0B55-\\u0B56\\u0B62-\\u0B63\\u0B82\\u0BC0\\u0BCD\\u0C00\\u0C04\\u0C3E-\\u0C40\\u0C46-\\u0C48\\u0C4A-\\u0C4D\\u0C55-\\u0C56\\u0C62-\\u0C63\\u0C81\\u0CBC\\u0CCC-\\u0CCD\\u0CE2-\\u0CE3\\u0D00-\\u0D01\\u0D3B-\\u0D3C\\u0D41-\\u0D44\\u0D4D\\u0D62-\\u0D63\\u0D81\\u0DCA\\u0DD2-\\u0DD4\\u0DD6\\u0E31\\u0E34-\\u0E3A\\u0E47-\\u0E4E\\u0EB1\\u0EB4-\\u0EBC\\u0EC8-\\u0ECD\\u0F18-\\u0F19\\u0F35\\u0F37\\u0F39\\u0F71-\\u0F7E\\u0F80-\\u0F84\\u0F86-\\u0F87\\u0F8D-\\u0F97\\u0F99-\\u0FBC\\u0FC6\\u102D-\\u1030\\u1032-\\u1037\\u1039-\\u103A\\u103D-\\u103E\\u1058-\\u1059\\u105E-\\u1060\\u1071-\\u1074\\u1082\\u1085-\\u1086\\u108D\\u109D\\u135D-\\u135F\\u1712-\\u1714\\u1732-\\u1734\\u1752-\\u1753\\u1772-\\u1773\\u17B4-\\u17B5\\u17B7-\\u17BD\\u17C6\\u17C9-\\u17D3\\u17DD\\u180B-\\u180D\\u1885-\\u1886\\u18A9\\u1920-\\u1922\\u1927-\\u1928\\u1932\\u1939-\\u193B\\u1A17-\\u1A18\\u1A1B\\u1A56\\u1A58-\\u1A5E\\u1A60\\u1A62\\u1A65-\\u1A6C\\u1A73-\\u1A7C\\u1A7F\\u1AB0-\\u1AC0\\u1B00-\\u1B03\\u1B34\\u1B36-\\u1B3A\\u1B3C\\u1B42\\u1B6B-\\u1B73\\u1B80-\\u1B81\\u1BA2-\\u1BA5\\u1BA8-\\u1BA9\\u1BAB-\\u1BAD\\u1BE6\\u1BE8-\\u1BE9\\u1BED\\u1BEF-\\u1BF1\\u1C2C-\\u1C33\\u1C36-\\u1C37\\u1CD0-\\u1CD2\\u1CD4-\\u1CE0\\u1CE2-\\u1CE8\\u1CED\\u1CF4\\u1CF8-\\u1CF9\\u1DC0-\\u1DF9\\u1DFB-\\u1DFF\\u20D0-\\u20F0\\u2CEF-\\u2CF1\\u2D7F\\u2DE0-\\u2DFF\\u302A-\\u302D\\u3099-\\u309A\\uA66F-\\uA672\\uA674-\\uA67D\\uA69E-\\uA69F\\uA6F0-\\uA6F1\\uA802\\uA806\\uA80B\\uA825-\\uA826\\uA82C\\uA8C4-\\uA8C5\\uA8E0-\\uA8F1\\uA8FF\\uA926-\\uA92D\\uA947-\\uA951\\uA980-\\uA982\\uA9B3\\uA9B6-\\uA9B9\\uA9BC-\\uA9BD\\uA9E5\\uAA29-\\uAA2E\\uAA31-\\uAA32\\uAA35-\\uAA36\\uAA43\\uAA4C\\uAA7C\\uAAB0\\uAAB2-\\uAAB4\\uAAB7-\\uAAB8\\uAABE-\\uAABF\\uAAC1\\uAAEC-\\uAAED\\uAAF6\\uABE5\\uABE8\\uABED\\uFB1E\\uFE00-\\uFE0F\\uFE20-\\uFE2F\\u{101FD}\\u{102E0}\\u{10376}-\\u{1037A}\\u{10A01}-\\u{10A03}\\u{10A05}-\\u{10A06}\\u{10A0C}-\\u{10A0F}\\u{10A38}-\\u{10A3A}\\u{10A3F}\\u{10AE5}-\\u{10AE6}\\u{10D24}-\\u{10D27}\\u{10EAB}-\\u{10EAC}\\u{10F46}-\\u{10F50}\\u{11001}\\u{11038}-\\u{11046}\\u{1107F}-\\u{11081}\\u{110B3}-\\u{110B6}\\u{110B9}-\\u{110BA}\\u{11100}-\\u{11102}\\u{11127}-\\u{1112B}\\u{1112D}-\\u{11134}\\u{11173}\\u{11180}-\\u{11181}\\u{111B6}-\\u{111BE}\\u{111C9}-\\u{111CC}\\u{111CF}\\u{1122F}-\\u{11231}\\u{11234}\\u{11236}-\\u{11237}\\u{1123E}\\u{112DF}\\u{112E3}-\\u{112EA}\\u{11300}-\\u{11301}\\u{1133B}-\\u{1133C}\\u{11340}\\u{11366}-\\u{1136C}\\u{11370}-\\u{11374}\\u{11438}-\\u{1143F}\\u{11442}-\\u{11444}\\u{11446}\\u{1145E}\\u{114B3}-\\u{114B8}\\u{114BA}\\u{114BF}-\\u{114C0}\\u{114C2}-\\u{114C3}\\u{115B2}-\\u{115B5}\\u{115BC}-\\u{115BD}\\u{115BF}-\\u{115C0}\\u{115DC}-\\u{115DD}\\u{11633}-\\u{1163A}\\u{1163D}\\u{1163F}-\\u{11640}\\u{116AB}\\u{116AD}\\u{116B0}-\\u{116B5}\\u{116B7}\\u{1171D}-\\u{1171F}\\u{11722}-\\u{11725}\\u{11727}-\\u{1172B}\\u{1182F}-\\u{11837}\\u{11839}-\\u{1183A}\\u{1193B}-\\u{1193C}\\u{1193E}\\u{11943}\\u{119D4}-\\u{119D7}\\u{119DA}-\\u{119DB}\\u{119E0}\\u{11A01}-\\u{11A06}\\u{11A09}-\\u{11A0A}\\u{11A33}-\\u{11A38}\\u{11A3B}-\\u{11A3E}\\u{11A47}\\u{11A51}-\\u{11A56}\\u{11A59}-\\u{11A5B}\\u{11A8A}-\\u{11A96}\\u{11A98}-\\u{11A99}\\u{11C30}-\\u{11C36}\\u{11C38}-\\u{11C3D}\\u{11C92}-\\u{11CA7}\\u{11CAA}-\\u{11CB0}\\u{11CB2}-\\u{11CB3}\\u{11CB5}-\\u{11CB6}\\u{11D31}-\\u{11D36}\\u{11D3A}\\u{11D3C}-\\u{11D3D}\\u{11D3F}-\\u{11D45}\\u{11D47}\\u{11D90}-\\u{11D91}\\u{11D95}\\u{11D97}\\u{11EF3}-\\u{11EF4}\\u{16AF0}-\\u{16AF4}\\u{16B30}-\\u{16B36}\\u{16F4F}\\u{16F8F}-\\u{16F92}\\u{16FE4}\\u{1BC9D}-\\u{1BC9E}\\u{1D167}-\\u{1D169}\\u{1D17B}-\\u{1D182}\\u{1D185}-\\u{1D18B}\\u{1D1AA}-\\u{1D1AD}\\u{1D242}-\\u{1D244}\\u{1DA00}-\\u{1DA36}\\u{1DA3B}-\\u{1DA6C}\\u{1DA75}\\u{1DA84}\\u{1DA9B}-\\u{1DA9F}\\u{1DAA1}-\\u{1DAAF}\\u{1E000}-\\u{1E006}\\u{1E008}-\\u{1E018}\\u{1E01B}-\\u{1E021}\\u{1E023}-\\u{1E024}\\u{1E026}-\\u{1E02A}\\u{1E130}-\\u{1E136}\\u{1E2EC}-\\u{1E2EF}\\u{1E8D0}-\\u{1E8D6}\\u{1E944}-\\u{1E94A}\\u{E0100}-\\u{E01EF}]",
-         "label" : "Bidi_Class:NSM",
+         "label" : "Unicode Bidi_Class=NSM",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:ON" : {
          "chars" : "[!-\"\\u0026-*\\u003B-\\u0040\\u005B-`{-~\\u00A1\\u00A6-\\u00A9\\u00AB-\\u00AC\\u00AE-\\u00AF\\u00B4\\u00B6-\\u00B8\\u00BB-\\u00BF\\u00D7\\u00F7\\u02B9-\\u02BA\\u02C2-\\u02CF\\u02D2-\\u02DF\\u02E5-\\u02ED\\u02EF-\\u02FF\\u0374-\\u0375\\u037E\\u0384-\\u0385\\u0387\\u03F6\\u058A\\u058D-\\u058E\\u0606-\\u0607\\u060E-\\u060F\\u06DE\\u06E9\\u07F6-\\u07F9\\u0BF3-\\u0BF8\\u0BFA\\u0C78-\\u0C7E\\u0F3A-\\u0F3D\\u1390-\\u1399\\u1400\\u169B-\\u169C\\u17F0-\\u17F9\\u1800-\\u180A\\u1940\\u1944-\\u1945\\u19DE-\\u19FF\\u1FBD\\u1FBF-\\u1FC1\\u1FCD-\\u1FCF\\u1FDD-\\u1FDF\\u1FED-\\u1FEF\\u1FFD-\\u1FFE\\u2010-\\u2027\\u2035-\\u2043\\u2045-\\u205E\\u207C-\\u207E\\u208C-\\u208E\\u2100-\\u2101\\u2103-\\u2106\\u2108-\\u2109\\u2114\\u2116-\\u2118\\u211E-\\u2123\\u2125\\u2127\\u2129\\u213A-\\u213B\\u2140-\\u2144\\u214A-\\u214D\\u2150-\\u215F\\u2189-\\u218B\\u2190-\\u2211\\u2214-\\u2335\\u237B-\\u2394\\u2396-\\u2426\\u2440-\\u244A\\u2460-\\u2487\\u24EA-\\u26AB\\u26AD-\\u27FF\\u2900-\\u2B73\\u2B76-\\u2B95\\u2B97-\\u2BFF\\u2CE5-\\u2CEA\\u2CF9-\\u2CFF\\u2E00-\\u2E52\\u2E80-\\u2E99\\u2E9B-\\u2EF3\\u2F00-\\u2FD5\\u2FF0-\\u2FFB\\u3001-\\u3004\\u3008-\\u3020\\u3030\\u3036-\\u3037\\u303D-\\u303F\\u309B-\\u309C\\u30A0\\u30FB\\u31C0-\\u31E3\\u321D-\\u321E\\u3250-\\u325F\\u327C-\\u327E\\u32B1-\\u32BF\\u32CC-\\u32CF\\u3377-\\u337A\\u33DE-\\u33DF\\u33FF\\u4DC0-\\u4DFF\\uA490-\\uA4C6\\uA60D-\\uA60F\\uA673\\uA67E-\\uA67F\\uA700-\\uA721\\uA788\\uA828-\\uA82B\\uA874-\\uA877\\uAB6A-\\uAB6B\\uFD3E-\\uFD3F\\uFDFD\\uFE10-\\uFE19\\uFE30-\\uFE4F\\uFE51\\uFE54\\uFE56-\\uFE5E\\uFE60-\\uFE61\\uFE64-\\uFE66\\uFE68\\uFE6B\\uFF01-\\uFF02\\uFF06-\\uFF0A\\uFF1B-\\uFF20\\uFF3B-\\uFF40\\uFF5B-\\uFF65\\uFFE2-\\uFFE4\\uFFE8-\\uFFEE\\uFFF9-\\uFFFD\\u{10101}\\u{10140}-\\u{1018C}\\u{10190}-\\u{1019C}\\u{101A0}\\u{1091F}\\u{10B39}-\\u{10B3F}\\u{11052}-\\u{11065}\\u{11660}-\\u{1166C}\\u{11FD5}-\\u{11FDC}\\u{11FE1}-\\u{11FF1}\\u{16FE2}\\u{1D200}-\\u{1D241}\\u{1D245}\\u{1D300}-\\u{1D356}\\u{1D6DB}\\u{1D715}\\u{1D74F}\\u{1D789}\\u{1D7C3}\\u{1EEF0}-\\u{1EEF1}\\u{1F000}-\\u{1F02B}\\u{1F030}-\\u{1F093}\\u{1F0A0}-\\u{1F0AE}\\u{1F0B1}-\\u{1F0BF}\\u{1F0C1}-\\u{1F0CF}\\u{1F0D1}-\\u{1F0F5}\\u{1F10B}-\\u{1F10F}\\u{1F12F}\\u{1F16A}-\\u{1F16F}\\u{1F1AD}\\u{1F260}-\\u{1F265}\\u{1F300}-\\u{1F6D7}\\u{1F6E0}-\\u{1F6EC}\\u{1F6F0}-\\u{1F6FC}\\u{1F700}-\\u{1F773}\\u{1F780}-\\u{1F7D8}\\u{1F7E0}-\\u{1F7EB}\\u{1F800}-\\u{1F80B}\\u{1F810}-\\u{1F847}\\u{1F850}-\\u{1F859}\\u{1F860}-\\u{1F887}\\u{1F890}-\\u{1F8AD}\\u{1F8B0}-\\u{1F8B1}\\u{1F900}-\\u{1F978}\\u{1F97A}-\\u{1F9CB}\\u{1F9CD}-\\u{1FA53}\\u{1FA60}-\\u{1FA6D}\\u{1FA70}-\\u{1FA74}\\u{1FA78}-\\u{1FA7A}\\u{1FA80}-\\u{1FA86}\\u{1FA90}-\\u{1FAA8}\\u{1FAB0}-\\u{1FAB6}\\u{1FAC0}-\\u{1FAC2}\\u{1FAD0}-\\u{1FAD6}\\u{1FB00}-\\u{1FB92}\\u{1FB94}-\\u{1FBCA}]",
-         "label" : "Bidi_Class:ON",
+         "label" : "Unicode Bidi_Class=ON",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:PDF" : {
          "chars" : "[\\u202C]",
-         "label" : "Bidi_Class:PDF",
+         "label" : "Unicode Bidi_Class=PDF",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:PDI" : {
          "chars" : "[\\u2069]",
-         "label" : "Bidi_Class:PDI",
+         "label" : "Unicode Bidi_Class=PDI",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:R" : {
          "chars" : "[\\u0590\\u05BE\\u05C0\\u05C3\\u05C6\\u05C8-\\u05FF\\u07C0-\\u07EA\\u07F4-\\u07F5\\u07FA-\\u07FC\\u07FE-\\u0815\\u081A\\u0824\\u0828\\u082E-\\u0858\\u085C-\\u085F\\u0870-\\u089F\\u200F\\uFB1D\\uFB1F-\\uFB28\\uFB2A-\\uFB4F\\u{10800}-\\u{1091E}\\u{10920}-\\u{10A00}\\u{10A04}\\u{10A07}-\\u{10A0B}\\u{10A10}-\\u{10A37}\\u{10A3B}-\\u{10A3E}\\u{10A40}-\\u{10AE4}\\u{10AE7}-\\u{10B38}\\u{10B40}-\\u{10CFF}\\u{10D40}-\\u{10E5F}\\u{10E7F}-\\u{10EAA}\\u{10EAD}-\\u{10F2F}\\u{10F70}-\\u{10FFF}\\u{1E800}-\\u{1E8CF}\\u{1E8D7}-\\u{1E943}\\u{1E94B}-\\u{1EC6F}\\u{1ECC0}-\\u{1ECFF}\\u{1ED50}-\\u{1EDFF}\\u{1EF00}-\\u{1EFFF}]",
-         "label" : "Bidi_Class:R",
+         "label" : "Unicode Bidi_Class=R",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:RLE" : {
          "chars" : "[\\u202B]",
-         "label" : "Bidi_Class:RLE",
+         "label" : "Unicode Bidi_Class=RLE",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:RLI" : {
          "chars" : "[\\u2067]",
-         "label" : "Bidi_Class:RLI",
+         "label" : "Unicode Bidi_Class=RLI",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:RLO" : {
          "chars" : "[\\u202E]",
-         "label" : "Bidi_Class:RLO",
+         "label" : "Unicode Bidi_Class=RLO",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:S" : {
          "chars" : "[\\u0009\\u000B\\u001F]",
-         "label" : "Bidi_Class:S",
+         "label" : "Unicode Bidi_Class=S",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Class:WS" : {
          "chars" : "[\\u000C\\u0020\\u1680\\u2000-\\u200A\\u2028\\u205F\\u3000]",
-         "label" : "Bidi_Class:WS",
+         "label" : "Unicode Bidi_Class=WS",
          "suikawiki_name" : "Bidi_Class"
       },
       "$unicode:Bidi_Control" : {
@@ -16441,6 +16441,16 @@
          "chars" : "[\\u0000-\\u{10FFFF}]",
          "label" : "code-points",
          "suikawiki_name" : "code-points"
+      },
+      "$unicode:has-Bidi_Mirroring_Glyph" : {
+         "chars" : "[(-)\u003C>\\u005B\\u005D{}\\u00AB\\u00BB\\u0F3A-\\u0F3D\\u169B-\\u169C\\u2039-\\u203A\\u2045-\\u2046\\u207D-\\u207E\\u208D-\\u208E\\u2208-\\u220D\\u2215\\u221F-\\u2222\\u2224\\u223C-\\u223D\\u2243\\u2245\\u224C\\u2252-\\u2255\\u2264-\\u226B\\u226E-\\u228B\\u228F-\\u2292\\u2298\\u22A2-\\u22A3\\u22A6\\u22A8-\\u22A9\\u22AB\\u22B0-\\u22B8\\u22C9-\\u22CD\\u22D0-\\u22D1\\u22D6-\\u22ED\\u22F0-\\u22F4\\u22F6-\\u22F7\\u22FA-\\u22FE\\u2308-\\u230B\\u2329-\\u232A\\u2768-\\u2775\\u27C3-\\u27C6\\u27C8-\\u27C9\\u27CB\\u27CD\\u27D5-\\u27D6\\u27DC-\\u27DE\\u27E2-\\u27EF\\u2983-\\u2998\\u299B\\u29A0\\u29A3-\\u29A5\\u29A8-\\u29AF\\u29B8\\u29C0-\\u29C1\\u29C4-\\u29C5\\u29CF-\\u29D2\\u29D4-\\u29D5\\u29D8-\\u29DB\\u29E8-\\u29E9\\u29F5\\u29F8-\\u29F9\\u29FC-\\u29FD\\u2A2B-\\u2A2E\\u2A34-\\u2A35\\u2A3C-\\u2A3D\\u2A64-\\u2A65\\u2A79-\\u2AA2\\u2AA6-\\u2AAD\\u2AAF-\\u2AD6\\u2ADE\\u2AE3-\\u2AE5\\u2AEC-\\u2AEE\\u2AF7-\\u2AFA\\u2BFE\\u2E02-\\u2E05\\u2E09-\\u2E0A\\u2E0C-\\u2E0D\\u2E1C-\\u2E1D\\u2E20-\\u2E29\\u3008-\\u3011\\u3014-\\u301B\\uFE59-\\uFE5E\\uFE64-\\uFE65\\uFF08-\\uFF09\\uFF1C\\uFF1E\\uFF3B\\uFF3D\\uFF5B\\uFF5D\\uFF5F-\\uFF60\\uFF62-\\uFF63]",
+         "label" : "Unicode has Bidi_Mirroring_Glyph",
+         "suikawiki_name" : "Bidi_Mirroring_Glyph"
+      },
+      "$unicode:has-Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "chars" : "[\\u2268-\\u2269\\u226E-\\u2275\\u2278-\\u2279\\u227E-\\u2281\\u2284-\\u2285\\u2288-\\u228B\\u22E0-\\u22ED\\u2A7B-\\u2A7C\\u2A85-\\u2A8A\\u2A8D-\\u2A90\\u2A9D-\\u2AA0\\u2AB1-\\u2AB2\\u2AB5-\\u2ABA\\u2AC7-\\u2ACC\\u300C-\\u300F\\uFF62-\\uFF63]",
+         "label" : "Unicode has Bidi_Mirroring_Glyph BEST FIT mirroring",
+         "suikawiki_name" : "Bidi_Mirroring_Glyph"
       },
       "$unicode:has_canon_decomposition" : {
          "chars" : "[\\u00C0-\\u00C5\\u00C7-\\u00CF\\u00D1-\\u00D6\\u00D9-\\u00DD\\u00E0-\\u00E5\\u00E7-\\u00EF\\u00F1-\\u00F6\\u00F9-\\u00FD\\u00FF-\\u010F\\u0112-\\u0125\\u0128-\\u0130\\u0134-\\u0137\\u0139-\\u013E\\u0143-\\u0148\\u014C-\\u0151\\u0154-\\u0165\\u0168-\\u017E\\u01A0-\\u01A1\\u01AF-\\u01B0\\u01CD-\\u01DC\\u01DE-\\u01E3\\u01E6-\\u01F0\\u01F4-\\u01F5\\u01F8-\\u021B\\u021E-\\u021F\\u0226-\\u0233\\u0340-\\u0341\\u0343-\\u0344\\u0374\\u037E\\u0385-\\u038A\\u038C\\u038E-\\u0390\\u03AA-\\u03B0\\u03CA-\\u03CE\\u03D3-\\u03D4\\u0400-\\u0401\\u0403\\u0407\\u040C-\\u040E\\u0419\\u0439\\u0450-\\u0451\\u0453\\u0457\\u045C-\\u045E\\u0476-\\u0477\\u04C1-\\u04C2\\u04D0-\\u04D3\\u04D6-\\u04D7\\u04DA-\\u04DF\\u04E2-\\u04E7\\u04EA-\\u04F5\\u04F8-\\u04F9\\u0622-\\u0626\\u06C0\\u06C2\\u06D3\\u0929\\u0931\\u0934\\u0958-\\u095F\\u09CB-\\u09CC\\u09DC-\\u09DD\\u09DF\\u0A33\\u0A36\\u0A59-\\u0A5B\\u0A5E\\u0B48\\u0B4B-\\u0B4C\\u0B5C-\\u0B5D\\u0B94\\u0BCA-\\u0BCC\\u0C48\\u0CC0\\u0CC7-\\u0CC8\\u0CCA-\\u0CCB\\u0D4A-\\u0D4C\\u0DDA\\u0DDC-\\u0DDE\\u0F43\\u0F4D\\u0F52\\u0F57\\u0F5C\\u0F69\\u0F73\\u0F75-\\u0F76\\u0F78\\u0F81\\u0F93\\u0F9D\\u0FA2\\u0FA7\\u0FAC\\u0FB9\\u1026\\u1B06\\u1B08\\u1B0A\\u1B0C\\u1B0E\\u1B12\\u1B3B\\u1B3D\\u1B40-\\u1B41\\u1B43\\u1E00-\\u1E99\\u1E9B\\u1EA0-\\u1EF9\\u1F00-\\u1F15\\u1F18-\\u1F1D\\u1F20-\\u1F45\\u1F48-\\u1F4D\\u1F50-\\u1F57\\u1F59\\u1F5B\\u1F5D\\u1F5F-\\u1F7D\\u1F80-\\u1FB4\\u1FB6-\\u1FBC\\u1FBE\\u1FC1-\\u1FC4\\u1FC6-\\u1FD3\\u1FD6-\\u1FDB\\u1FDD-\\u1FEF\\u1FF2-\\u1FF4\\u1FF6-\\u1FFD\\u2000-\\u2001\\u2126\\u212A-\\u212B\\u219A-\\u219B\\u21AE\\u21CD-\\u21CF\\u2204\\u2209\\u220C\\u2224\\u2226\\u2241\\u2244\\u2247\\u2249\\u2260\\u2262\\u226D-\\u2271\\u2274-\\u2275\\u2278-\\u2279\\u2280-\\u2281\\u2284-\\u2285\\u2288-\\u2289\\u22AC-\\u22AF\\u22E0-\\u22E3\\u22EA-\\u22ED\\u2329-\\u232A\\u2ADC\\u304C\\u304E\\u3050\\u3052\\u3054\\u3056\\u3058\\u305A\\u305C\\u305E\\u3060\\u3062\\u3065\\u3067\\u3069\\u3070-\\u3071\\u3073-\\u3074\\u3076-\\u3077\\u3079-\\u307A\\u307C-\\u307D\\u3094\\u309E\\u30AC\\u30AE\\u30B0\\u30B2\\u30B4\\u30B6\\u30B8\\u30BA\\u30BC\\u30BE\\u30C0\\u30C2\\u30C5\\u30C7\\u30C9\\u30D0-\\u30D1\\u30D3-\\u30D4\\u30D6-\\u30D7\\u30D9-\\u30DA\\u30DC-\\u30DD\\u30F4\\u30F7-\\u30FA\\u30FE\\uAC00-\\uD7A3\\uF900-\\uFA0D\\uFA10\\uFA12\\uFA15-\\uFA1E\\uFA20\\uFA22\\uFA25-\\uFA26\\uFA2A-\\uFA6D\\uFA70-\\uFAD9\\uFB1D\\uFB1F\\uFB2A-\\uFB36\\uFB38-\\uFB3C\\uFB3E\\uFB40-\\uFB41\\uFB43-\\uFB44\\uFB46-\\uFB4E\\u{1109A}\\u{1109C}\\u{110AB}\\u{1112E}-\\u{1112F}\\u{1134B}-\\u{1134C}\\u{114BB}-\\u{114BC}\\u{114BE}\\u{115BA}-\\u{115BB}\\u{11938}\\u{1D15E}-\\u{1D164}\\u{1D1BB}-\\u{1D1C0}\\u{2F800}-\\u{2FA1D}]",

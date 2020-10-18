@@ -1,2 +1,3 @@
+#label:Unicode Bidi_Class=EN
 #sw:Bidi_Class
 [0-9\u00B2-\u00B3\u00B9\u06F0-\u06F9\u2070\u2074-\u2079\u2080-\u2089\u2488-\u249B\uFF10-\uFF19\u{102E1}-\u{102FB}\u{1D7CE}-\u{1D7FF}\u{1F100}-\u{1F10A}\u{1FBF0}-\u{1FBF9}]
