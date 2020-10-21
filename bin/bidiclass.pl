@@ -55,13 +55,14 @@ $Defs->{"Bidi_Mirroring_Glyph"} = {
   label => "Bidi_Mirroring_Glyph",
   sw => 'Bidi_Mirroring_Glyph',
   file_name => 'Bidi_Mirroring_Glyph',
+  map => 1,
 };
 $Defs->{"Bidi_Mirroring_Glyph-BEST-FIT"} = {
   label => "Bidi_Mirroring_Glyph BEST FIT mirroring",
   sw => 'Bidi_Mirroring_Glyph',
   file_name => 'Bidi_Mirroring_Glyph-BEST-FIT',
+  map => 1,
 };
-
 {
   my $input_path = $input_ucd_path->child ('BidiMirroring.txt');
   for (split /\x0A/, $input_path->slurp) {
@@ -74,15 +75,36 @@ $Defs->{"Bidi_Mirroring_Glyph-BEST-FIT"} = {
   }
 }
 
+$Defs->{"Bidi_Mirrored"} = {
+  label => "Bidi_Mirrored",
+  sw => 'Bidi_Mirrored',
+  file_name => 'Bidi_Mirrored',
+};
+{
+  my $input_path = $input_ucd_path->child ('DerivedBinaryProperties.txt');
+  for (split /\x0A/, $input_path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/^([0-9A-F]+)\s*;\s*Bidi_Mirrored\s+/) {
+      $Chars->{'Bidi_Mirrored'}->{hex $1} = 1;
+    } elsif (/^([0-9A-F]+)\.\.([0-9A-F]+)\s*;\s*Bidi_Mirrored\s+/) {
+      for ((hex $1)..(hex $2)) {
+        $Chars->{'Bidi_Mirrored'}->{$_} = 1;
+      }
+    }
+  }
+}
+
 for my $key (keys %$Chars) {
   my $def = $Defs->{$key};
-  my $path = $output_src_path->child ('has-' . $def->{file_name} . '.expr');
+  my $path = $output_src_path->child (($def->{map} ? 'has-' : '') . $def->{file_name} . '.expr');
   my $file = $path->openw;
-  print $file "#label:Unicode has $def->{label}\x0A#sw:$def->{sw}\x0A";
+  print $file "#label:Unicode @{[$def->{map} ? 'has ' : '']}$def->{label}\x0A#sw:$def->{sw}\x0A";
   print $file '[' . (join "\x0A", map { sprintf '\\u{%04X}', $_ } sort { $a <=> $b } keys %{$Chars->{$key}}) . ']';
 }
 for my $key (keys %$Chars) {
   my $def = $Defs->{$key};
+  next unless $def->{map};
   my $path = $output_src_map_path->child ($def->{file_name} . '.expr');
   my $file = $path->openw;
   print $file "#label:Unicode $def->{label}\x0A#sw:$def->{sw}\x0A";

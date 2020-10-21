@@ -62,6 +62,8 @@ if ($prev_code != 0x10FFFF) {
   push @{$Chars->{Cn}}, [$prev_code + 1, 0x10FFFF];
 }
 
+delete $Chars->{Bidi_Mirrored};
+
 for my $key (keys %$Chars) {
   my $def = $Sets->{$key};
   my $file = $d->child ($def->{file_name} . '.expr')->openw;

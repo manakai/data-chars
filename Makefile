@@ -259,13 +259,15 @@ src/set/unicode$(UNICODE_VERSION:.0=)/Canonical_Combining_Class/files: \
 src/set/unicode/Bidi_Class/files: \
     bin/bidiclass.pl \
     local/unicode/latest/DerivedBidiClass.txt \
-    local/unicode/latest/BidiMirroring.txt
+    local/unicode/latest/BidiMirroring.txt \
+    local/unicode/latest/DerivedBinaryProperties.txt
 	$(PERL) bin/bidiclass.pl latest
 	touch $@
 src/set/unicode$(UNICODE_VERSION:.0=)/Bidi_Class/files: \
     bin/bidiclass.pl \
     local/unicode/$(UNICODE_VERSION)/DerivedBidiClass.txt \
-    local/unicode/$(UNICODE_VERSION)/BidiMirroring.txt
+    local/unicode/$(UNICODE_VERSION)/BidiMirroring.txt \
+    local/unicode/$(UNICODE_VERSION)/DerivedBinaryProperties.txt
 	$(PERL) bin/bidiclass.pl $(UNICODE_VERSION)
 	touch $@
 src/set/unicode/Age/files: \
@@ -370,6 +372,12 @@ local/unicode/latest/DerivedNormalizationProps.txt:
 local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedNormalizationProps.txt
+local/unicode/latest/DerivedBinaryProperties.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedBinaryProperties.txt
+local/unicode/$(UNICODE_VERSION)/DerivedBinaryProperties.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedBinaryProperties.txt
 
 local/unicode/latest/CompositionExclusions.txt:
 	mkdir -p local/unicode/latest
