@@ -34,14 +34,15 @@ See <https://www.unicode.org/copyright.html#Exhibit1>.
 
 data-web-defs <https://github.com/manakai/data-web-defs/>
 
-List of language tags in the data-web-defs repository also contains
-list of scripts and numbering systems.
+  - List of language tags in the data-web-defs repository also
+    contains list of scripts and numbering systems.
 
-There are lists of character references used in SGML, HTML, and XML in
-the data-web-defs repository.
+  - There are lists of character references used in SGML, HTML, and
+    XML.
 
-There are data on character encodings used in Web in the data-web-defs
-repository.
+  - There are data on character encodings used on the Web.
+
+  - The |data/css-fonts.json| contains various data on fonts.
 
 * Maintainer
 
