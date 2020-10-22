@@ -13,8 +13,7 @@ my $uv = ($unicode_version eq 'latest' ? '' : $unicode_version);
 $uv =~ s/\.0$//;
 my $output_src_path = $root_path->child ('src/set/unicode' . $uv);
 my $output_src_map_path = $root_path->child ('src/map/unicode' . $uv);
-$output_src_path->mkpath;
-$output_src_map_path->mkpath;
+my $prefix = '$unicode' . $uv;
 
 my $Data = [];
 $Data->[$_] = 'L' for 0x0000..0x10FFFF; # Left_To_Right
@@ -95,14 +94,89 @@ $Defs->{"Bidi_Mirrored"} = {
   }
 }
 
-for my $key (keys %$Chars) {
+$Defs->{"Bidi_Paired_Bracket"} = {
+  label => "Bidi_Paired_Bracket",
+  sw => 'Bidi_Paired_Bracket',
+  file_name => 'Bidi_Paired_Bracket',
+  map => 1,
+};
+$Defs->{"Bidi_Paired_Bracket_Type:o"} = {
+  label => "Bidi_Paired_Bracket_Type=Open",
+  sw => 'Bidi_Paired_Bracket_Type',
+  file_name => 'Bidi_Paired_Bracket_Type/Open',
+};
+$Defs->{"Bidi_Paired_Bracket_Type:c"} = {
+  label => "Bidi_Paired_Bracket_Type=Close",
+  sw => 'Bidi_Paired_Bracket_Type',
+  file_name => 'Bidi_Paired_Bracket_Type/Close',
+};
+$Defs->{"Bidi_Paired_Bracket_Type:n"} = {
+  label => "Bidi_Paired_Bracket_Type=None",
+  sw => 'Bidi_Paired_Bracket_Type',
+  file_name => 'Bidi_Paired_Bracket_Type/None',
+  expr => qq{- $prefix:Bidi_Paired_Bracket_Type:Open
+             - $prefix:Bidi_Paired_Bracket_Type:Close},
+};
+{
+  my $input_path = $input_ucd_path->child ('BidiBrackets.txt');
+  for (split /\x0A/, $input_path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/^([0-9A-F]+)\s*;\s*([0-9A-F]+)\s*;\s*([oc])\s+/) {
+      $Chars->{'Bidi_Paired_Bracket'}->{hex $1} = hex $2;
+      $Chars->{'Bidi_Paired_Bracket_Type:'.$3}->{hex $1} = 1;
+    }
+  }
+}
+
+$Defs->{"Vertical_Orientation:U"} = {
+  label => "Vertical_Orientation=U",
+  sw => 'Vertical_Orientation',
+  file_name => 'Vertical_Orientation/U',
+};
+$Defs->{"Vertical_Orientation:Tu"} = {
+  label => "Vertical_Orientation=Tu",
+  sw => 'Vertical_Orientation',
+  file_name => 'Vertical_Orientation/Tu',
+};
+$Defs->{"Vertical_Orientation:Tr"} = {
+  label => "Vertical_Orientation=Tr",
+  sw => 'Vertical_Orientation',
+  file_name => 'Vertical_Orientation/Tr',
+};
+$Defs->{"Vertical_Orientation:R"} = {
+  label => "Vertical_Orientation=R",
+  sw => 'Vertical_Orientation',
+  file_name => 'Vertical_Orientation/R',
+  expr => qq{- $prefix:Vertical_Orientation:U
+             - $prefix:Vertical_Orientation:Tu
+             - $prefix:Vertical_Orientation:Tr},
+};
+{
+  my $input_path = $input_ucd_path->child ('VerticalOrientation.txt');
+  for (split /\x0A/, $input_path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/^([0-9A-F]+)\s*;\s*([A-Za-z]+)\s+/) {
+      $Chars->{'Vertical_Orientation:'.$2}->{hex $1} = 1;
+    } elsif (/^([0-9A-F]+)\.\.([0-9A-F]+)\s*;\s*([A-Za-z]+)\s+/) {
+      $Chars->{'Vertical_Orientation:'.$3}->{sprintf '\\u{%04X}-\u{%04X}', hex $1, hex $2} = 1;
+    }
+  }
+}
+
+for my $key (keys %$Defs) {
   my $def = $Defs->{$key};
   my $path = $output_src_path->child (($def->{map} ? 'has-' : '') . $def->{file_name} . '.expr');
   my $file = $path->openw;
   print $file "#label:Unicode @{[$def->{map} ? 'has ' : '']}$def->{label}\x0A#sw:$def->{sw}\x0A";
-  print $file '[' . (join "\x0A", map { sprintf '\\u{%04X}', $_ } sort { $a <=> $b } keys %{$Chars->{$key}}) . ']';
+  if (defined $def->{expr}) {
+    print $file $def->{expr};
+  } else {
+    print $file '[' . (join "\x0A", sort { $a cmp $b } map { /^[0-9]+$/ ? sprintf '\\u{%04X}', $_ : $_ } keys %{$Chars->{$key}}) . ']';
+  }
 }
-for my $key (keys %$Chars) {
+for my $key (keys %$Defs) {
   my $def = $Defs->{$key};
   next unless $def->{map};
   my $path = $output_src_map_path->child ($def->{file_name} . '.expr');

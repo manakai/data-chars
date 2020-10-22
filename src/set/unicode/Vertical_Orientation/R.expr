@@ -1,0 +1,5 @@
+#label:Unicode Vertical_Orientation=R
+#sw:Vertical_Orientation
+- $unicode:Vertical_Orientation:U
+             - $unicode:Vertical_Orientation:Tu
+             - $unicode:Vertical_Orientation:Tr

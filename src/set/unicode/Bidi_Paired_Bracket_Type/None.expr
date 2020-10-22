@@ -1,0 +1,4 @@
+#label:Unicode Bidi_Paired_Bracket_Type=None
+#sw:Bidi_Paired_Bracket_Type
+- $unicode:Bidi_Paired_Bracket_Type:Open
+             - $unicode:Bidi_Paired_Bracket_Type:Close

@@ -260,14 +260,18 @@ src/set/unicode/Bidi_Class/files: \
     bin/bidiclass.pl \
     local/unicode/latest/DerivedBidiClass.txt \
     local/unicode/latest/BidiMirroring.txt \
-    local/unicode/latest/DerivedBinaryProperties.txt
+    local/unicode/latest/DerivedBinaryProperties.txt \
+    local/unicode/latest/BidiBrackets.txt \
+    local/unicode/latest/VerticalOrientation.txt
 	$(PERL) bin/bidiclass.pl latest
 	touch $@
 src/set/unicode$(UNICODE_VERSION:.0=)/Bidi_Class/files: \
     bin/bidiclass.pl \
     local/unicode/$(UNICODE_VERSION)/DerivedBidiClass.txt \
     local/unicode/$(UNICODE_VERSION)/BidiMirroring.txt \
-    local/unicode/$(UNICODE_VERSION)/DerivedBinaryProperties.txt
+    local/unicode/$(UNICODE_VERSION)/DerivedBinaryProperties.txt \
+    local/unicode/$(UNICODE_VERSION)/BidiBrackets.txt \
+    local/unicode/$(UNICODE_VERSION)/VerticalOrientation.txt
 	$(PERL) bin/bidiclass.pl $(UNICODE_VERSION)
 	touch $@
 src/set/unicode/Age/files: \
@@ -366,18 +370,30 @@ local/unicode/latest/DerivedCoreProperties.txt:
 local/unicode/$(UNICODE_VERSION)/DerivedCoreProperties.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedCoreProperties.txt
-local/unicode/latest/DerivedNormalizationProps.txt:
-	mkdir -p local/unicode/latest
-	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
-local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt:
-	mkdir -p local/unicode/$(UNICODE_VERSION)
-	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedNormalizationProps.txt
 local/unicode/latest/DerivedBinaryProperties.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedBinaryProperties.txt
 local/unicode/$(UNICODE_VERSION)/DerivedBinaryProperties.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedBinaryProperties.txt
+local/unicode/latest/DerivedNormalizationProps.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt.txt
+local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedNormalizationProps.txt
+local/unicode/latest/BidiBrackets.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/BidiBrackets.txt
+local/unicode/$(UNICODE_VERSION)/BidiBrackets.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/BidiBrackets.txt
+local/unicode/latest/VerticalOrientation.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/VerticalOrientation.txt
+local/unicode/$(UNICODE_VERSION)/VerticalOrientation.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/VerticalOrientation.txt
 
 local/unicode/latest/CompositionExclusions.txt:
 	mkdir -p local/unicode/latest
