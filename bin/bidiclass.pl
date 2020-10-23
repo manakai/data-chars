@@ -165,6 +165,53 @@ $Defs->{"Vertical_Orientation:R"} = {
   }
 }
 
+for (qw(Initial Nobreak Font Compat Canonical Medial Final Isolated
+        Circle Super Sub Vertical Wide Narrow Small Square Fraction)) {
+  $Defs->{"Decomposition_Type:$_"} = {
+    label => "Decomposition_Type=$_",
+    sw => 'Decomposition_Type',
+    file_name => "Decomposition_Type/$_",
+  };
+}
+$Defs->{"Decomposition_Type:None"} = {
+  label => "Decomposition_Type=None",
+  sw => 'Decomposition_Type',
+  file_name => 'Decomposition_Type/None',
+  expr => qq{
+    -$prefix:Decomposition_Type:Canonical 
+    -$prefix:Decomposition_Type:Font 
+    -$prefix:Decomposition_Type:Initial 
+    -$prefix:Decomposition_Type:Medial 
+    -$prefix:Decomposition_Type:Final 
+    -$prefix:Decomposition_Type:Isolated 
+    -$prefix:Decomposition_Type:Circle 
+    -$prefix:Decomposition_Type:Super 
+    -$prefix:Decomposition_Type:Sub 
+    -$prefix:Decomposition_Type:Vertical 
+    -$prefix:Decomposition_Type:Wide 
+    -$prefix:Decomposition_Type:Narrow 
+    -$prefix:Decomposition_Type:Small 
+    -$prefix:Decomposition_Type:Square 
+    -$prefix:Decomposition_Type:Fraction 
+    -$prefix:Decomposition_Type:Compat 
+    -$prefix:Decomposition_Type:Nobreak
+  },
+};
+{
+  my $input_path = $input_ucd_path->child ('DerivedDecompositionType.txt');
+  for (split /\x0A/, $input_path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/^([0-9A-F]+)\s*;\s*([0-9A-Za-z]+)\s+/) {
+      $Chars->{'Decomposition_Type:'.$2}->{hex $1} = 1;
+    } elsif (/^([0-9A-F]+)\.\.([0-9A-F]+)\s*;\s*([0-9A-Za-z]+)\s+/) {
+      for ((hex $1)..(hex $2)) {
+        $Chars->{'Decomposition_Type:'.$3}->{$_} = 1;
+      }
+    }
+  }
+}
+
 for my $key (keys %$Defs) {
   my $def = $Defs->{$key};
   my $path = $output_src_path->child (($def->{map} ? 'has-' : '') . $def->{file_name} . '.expr');

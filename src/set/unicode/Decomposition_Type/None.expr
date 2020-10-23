@@ -1,0 +1,21 @@
+#label:Unicode Decomposition_Type=None
+#sw:Decomposition_Type
+
+    -$unicode:Decomposition_Type:Canonical 
+    -$unicode:Decomposition_Type:Font 
+    -$unicode:Decomposition_Type:Initial 
+    -$unicode:Decomposition_Type:Medial 
+    -$unicode:Decomposition_Type:Final 
+    -$unicode:Decomposition_Type:Isolated 
+    -$unicode:Decomposition_Type:Circle 
+    -$unicode:Decomposition_Type:Super 
+    -$unicode:Decomposition_Type:Sub 
+    -$unicode:Decomposition_Type:Vertical 
+    -$unicode:Decomposition_Type:Wide 
+    -$unicode:Decomposition_Type:Narrow 
+    -$unicode:Decomposition_Type:Small 
+    -$unicode:Decomposition_Type:Square 
+    -$unicode:Decomposition_Type:Fraction 
+    -$unicode:Decomposition_Type:Compat 
+    -$unicode:Decomposition_Type:Nobreak
+  
