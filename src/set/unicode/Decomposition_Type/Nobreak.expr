@@ -1,0 +1,7 @@
+#label:Unicode Decomposition_Type=Nobreak
+#sw:Decomposition_Type
+[\u{00A0}
+\u{0F0C}
+\u{2007}
+\u{2011}
+\u{202F}]

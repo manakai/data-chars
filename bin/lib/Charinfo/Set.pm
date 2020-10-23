@@ -230,7 +230,7 @@ sub evaluate_expression ($$) {
       }
       undef $op;
     } elsif ($input =~ s/^\s*([|-])//) {
-      die "Bad operator\n" if defined $op;
+      die "Bad operator" if defined $op;
       $op = $1;
     } elsif ($input =~ s/^\s*$//) {
       #

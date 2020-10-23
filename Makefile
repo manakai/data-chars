@@ -219,6 +219,12 @@ local/unicode/$(UNICODE_VERSION)/DerivedBidiClass.txt:
 local/unicode/latest/DerivedBidiClass.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedBidiClass.txt
+local/unicode/$(UNICODE_VERSION)/DerivedDecompositionType.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(SAVEURL) $@ https://unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedDecompositionType.txt
+local/unicode/latest/DerivedDecompositionType.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedDecompositionType.txt
 local/unicode/$(UNICODE_VERSION)/BidiMirroring.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/BidiMirroring.txt
@@ -262,7 +268,8 @@ src/set/unicode/Bidi_Class/files: \
     local/unicode/latest/BidiMirroring.txt \
     local/unicode/latest/DerivedBinaryProperties.txt \
     local/unicode/latest/BidiBrackets.txt \
-    local/unicode/latest/VerticalOrientation.txt
+    local/unicode/latest/VerticalOrientation.txt \
+    local/unicode/latest/DerivedDecompositionType.txt
 	$(PERL) bin/bidiclass.pl latest
 	touch $@
 src/set/unicode$(UNICODE_VERSION:.0=)/Bidi_Class/files: \
@@ -271,7 +278,8 @@ src/set/unicode$(UNICODE_VERSION:.0=)/Bidi_Class/files: \
     local/unicode/$(UNICODE_VERSION)/BidiMirroring.txt \
     local/unicode/$(UNICODE_VERSION)/DerivedBinaryProperties.txt \
     local/unicode/$(UNICODE_VERSION)/BidiBrackets.txt \
-    local/unicode/$(UNICODE_VERSION)/VerticalOrientation.txt
+    local/unicode/$(UNICODE_VERSION)/VerticalOrientation.txt \
+    local/unicode/$(UNICODE_VERSION)/DerivedDecompositionType.txt
 	$(PERL) bin/bidiclass.pl $(UNICODE_VERSION)
 	touch $@
 src/set/unicode/Age/files: \
