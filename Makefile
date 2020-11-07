@@ -386,7 +386,7 @@ local/unicode/$(UNICODE_VERSION)/DerivedBinaryProperties.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedBinaryProperties.txt
 local/unicode/latest/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/latest
-	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt.txt
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt
 local/unicode/$(UNICODE_VERSION)/DerivedNormalizationProps.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/DerivedNormalizationProps.txt
