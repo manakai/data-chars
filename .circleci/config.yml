@@ -2,7 +2,7 @@
    "jobs" : {
       "gaa4" : {
          "machine" : {
-            "enabled" : true
+            "image" : "ubuntu-2004:202008-01"
          },
          "steps" : [
             "checkout",
