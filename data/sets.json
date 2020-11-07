@@ -3227,6 +3227,71 @@
          "label" : "JIS X 4051:2004 附属書表1 (20) 欧文間隔",
          "suikawiki_name" : "JIS X 4151"
       },
+      "$jisx4051-2004:bullets" : {
+         "chars" : "[\\u2022]",
+         "label" : "JIS X 4051:2004 表8 ビュレット",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:composition-base-dot-removed" : {
+         "chars" : "[i-j]",
+         "label" : "JIS X 4051:2004 4.10 c) 4) 上に結合文字を配置する場合に点を削除",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:kunten-kariten-12" : {
+         "chars" : "[\\u4E00\\u4E09\\u4E8C\\u4E94\\u56DB]",
+         "label" : "JIS X 4051:2004 5.2 c) 2) 一二点",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:kunten-kariten-kouotsu" : {
+         "chars" : "[\\u4EBA\\u5730\\u5929]",
+         "label" : "JIS X 4051:2004 5.2 c) 5) 天地点",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:kunten-kariten-re" : {
+         "chars" : "[\\u30EC]",
+         "label" : "JIS X 4051:2004 5.2 c) 1) レ点",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:kunten-kariten-re-combined" : {
+         "chars" : "[\\u4E00\\u4E0A\\u5929\\u7532]",
+         "label" : "JIS X 4051:2004 5.5 b) レ点と組合わせる",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:kunten-kariten-tate" : {
+         "chars" : "[\\u2010]",
+         "label" : "JIS X 4051:2004 5.2 c) f) たて点",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:kunten-kariten-ueshita" : {
+         "chars" : "[\\u4E0A-\\u4E0B\\u4E2D]",
+         "label" : "JIS X 4051:2004 5.2 c) 3) 上下点",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:kunten-parentheses" : {
+         "chars" : "[(-)\\u300C-\\u300F]",
+         "label" : "JIS X 4051:2004 5.2 b) 始め括弧・終わり括弧",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:kunten-punctuations" : {
+         "chars" : "[\\u3001-\\u3002\\u30FB]",
+         "label" : "JIS X 4051:2004 5.2 a) 句点・読点・中点",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:mark-quotes" : {
+         "chars" : "[(-)]",
+         "label" : "JIS X 4051:2004 表9 合印の前後につけるくくり符号",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:middle-dots" : {
+         "chars" : "[\\u30FB]",
+         "label" : "JIS X 4051:2004 表10 中点",
+         "suikawiki_name" : "JIS X 4151"
+      },
+      "$jisx4051-2004:outers" : {
+         "chars" : "[\\u25A1\\u25CB]",
+         "label" : "JIS X 4051:2004 表1 外枠文字",
+         "suikawiki_name" : "JIS X 4151"
+      },
       "$jisx4051-2004:table4-close-brackets" : {
          "chars" : "[),\\u005D}\\u2019\\u201D\\u3001\\u3009\\u300B\\u300D\\u300F\\u3011\\u3015]",
          "label" : "JIS X 4051:2004 表4 (2) 終わり括弧類",

@@ -793,6 +793,80 @@ write_class_sets
 ## 各クラス += 処理系定義のこれ以外の文字
 
 write_set
+    "jisx4051-2004/kunten-punctuations",
+    {},
+    label => "JIS X 4051:2004 5.2 a) 句点・読点・中点",
+    additional => "[。、・]"; # vertical
+write_set
+    "jisx4051-2004/kunten-parentheses",
+    {},
+    label => "JIS X 4051:2004 5.2 b) 始め括弧・終わり括弧",
+    additional => "[「」『』()]"; # vertical; and so on
+write_set
+    "jisx4051-2004/kunten-kariten-re",
+    {},
+    label => "JIS X 4051:2004 5.2 c) 1) レ点",
+    additional => "[レ]";
+write_set
+    "jisx4051-2004/kunten-kariten-12",
+    {},
+    label => "JIS X 4051:2004 5.2 c) 2) 一二点",
+    additional => "[一二三四五]"; # and so on
+write_set
+    "jisx4051-2004/kunten-kariten-ueshita",
+    {},
+    label => "JIS X 4051:2004 5.2 c) 3) 上下点",
+    additional => "[上中下]";
+write_set
+    "jisx4051-2004/kunten-kariten-kouotsu",
+    {},
+    label => "JIS X 4051:2004 5.2 c) 4) 甲乙点",
+    additional => "[甲乙丙丁戊]"; # and so on
+write_set
+    "jisx4051-2004/kunten-kariten-kouotsu",
+    {},
+    label => "JIS X 4051:2004 5.2 c) 5) 天地点",
+    additional => "[天地人]";
+# okurigana
+# yomigana
+write_set
+    "jisx4051-2004/kunten-kariten-tate",
+    {},
+    label => "JIS X 4051:2004 5.2 c) f) たて点",
+    additional => "[\x{2010}]";
+write_set
+    "jisx4051-2004/kunten-kariten-re-combined",
+    {},
+    label => "JIS X 4051:2004 5.5 b) レ点と組合わせる",
+    additional => "[一上甲天]";
+
+write_set
+    "jisx4051-2004/composition-base-dot-removed",
+    {},
+    label => "JIS X 4051:2004 4.10 c) 4) 上に結合文字を配置する場合に点を削除",
+    additional => "[ij]";
+write_set
+    "jisx4051-2004/outers",
+    {},
+    label => "JIS X 4051:2004 表1 外枠文字",
+    additional => "[○□]";
+write_set
+    "jisx4051-2004/bullets",
+    {},
+    label => "JIS X 4051:2004 表8 ビュレット",
+    additional => "[\x{2022}]";
+write_set
+    "jisx4051-2004/mark-quotes",
+    {},
+    label => "JIS X 4051:2004 表9 合印の前後につけるくくり符号",
+    additional => "[()]";
+write_set
+    "jisx4051-2004/middle-dots",
+    {},
+    label => "JIS X 4051:2004 表10 中点",
+    additional => "[・]";
+
+write_set
     "jisx4051-1995/vertical-specific-glyphs",
     {},
     label => "JIS X 4051-1995 附属書各表 字形 縦書きに横書きと異なる字形",
