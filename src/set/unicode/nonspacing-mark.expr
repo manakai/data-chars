@@ -1,0 +1,4 @@
+#label:nonspacing mark (Unicode D53)
+#url:http://www.unicode.org/versions/latest/ch03.pdf#G30602
+#sw:nonspacing mark
+$unicode:Mn | $unicode:Me

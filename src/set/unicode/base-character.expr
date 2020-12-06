@@ -1,0 +1,5 @@
+#label:base character (- $unicode:Co) (Unicode D51)
+#url:http://www.unicode.org/versions/latest/ch03.pdf#G30602
+#sw:base character
+$unicode:graphic-character - $unicode:M
+

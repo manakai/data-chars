@@ -1,0 +1,4 @@
+#label:spacing mark (- $unicode:Co) (Unicode D55)
+#url:http://www.unicode.org/versions/latest/ch03.pdf#G30602
+#sw:spacing mark
+$unicode:combining-character - $unicode:nonspacing-mark
