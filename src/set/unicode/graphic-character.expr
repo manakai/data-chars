@@ -1,5 +1,9 @@
 #label:graphic character (- $unicode:Co) (Unicode D50)
 #url:http://www.unicode.org/versions/latest/ch03.pdf#G30602
 #sw:graphic character
-$unicode:L | $unicode:N | $unicode:P | $unicode:S | $unicode:Zs
-
+$unicode:L |
+$unicode:M |
+$unicode:N |
+$unicode:P |
+$unicode:S |
+$unicode:Zs
