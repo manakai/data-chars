@@ -1,3 +1,13 @@
+## <https://www.unicode.org/versions/latest/ch02.pdf#G1708>
+U+2621 U+20E4
+U+2521 U+20DF
+U+2615 U+20E0
+
+U+062D U+20DD
+
+## <https://www.unicode.org/versions/latest/ch07.pdf#G7404>
+U+2258 U+20D2
+
 ## <http://unicode.org/~scherer/emoji4unicode/snapshot/utc.html>
 U+0023 U+20E3
 U+0030 U+20E3

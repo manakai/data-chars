@@ -16660,6 +16660,12 @@
          "suikawiki_name" : "combining character",
          "url" : "http://www.unicode.org/versions/latest/ch03.pdf#G30602"
       },
+      "$unicode:control-codes-specified" : {
+         "chars" : "[\\u0009-\\u000D\\u001C-\\u001F\\u0085]",
+         "label" : "Control Codes Specified in the Unicode Standard (Table 23-1)",
+         "suikawiki_name" : "control code",
+         "url" : "https://www.unicode.org/versions/latest/ch23.pdf#G29694"
+      },
       "$unicode:enclosing-mark" : {
          "chars" : "[\\u0488-\\u0489\\u1ABE\\u20DD-\\u20E0\\u20E2-\\u20E4\\uA670-\\uA672]",
          "label" : "enclosing mark (Unicode D54)",
