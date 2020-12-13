@@ -1,9 +1,10 @@
 #label:仮名
+#sw:仮名
 $kana:hiragana-all |
 $kana:katakana-all |
 $kana:kana-variants |
 $kana:kana-digraph |
+$kana:kana-chouon |
 [\u3099-\u309C
 \u3031-\u3035
-\u303B
-\u30FC]
+\u303B]

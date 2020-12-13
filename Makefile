@@ -287,6 +287,16 @@ src/set/unicode/Age/files: \
     local/unicode/latest/DerivedAge.txt
 	$(PERL) bin/age.pl latest
 	touch $@
+src/set/unicode/Joining_Type/files: \
+    local/unicode/latest/DerivedJoiningType.txt \
+    bin/extract-enum-prop.pl
+	$(PERL) bin/extract-enum-prop.pl latest Joining_Type
+	touch $@
+src/set/unicode/Joining_Group/files: \
+    local/unicode/latest/DerivedJoiningGroup.txt \
+    bin/extract-enum-prop.pl
+	$(PERL) bin/extract-enum-prop.pl latest Joining_Group
+	touch $@
 
 local/perl-unicode/latest/lib/unicore-CombiningClass.pl: \
     src/set/unicode/Canonical_Combining_Class/files
@@ -410,6 +420,18 @@ src/set/unicode/CompositionExclusions.expr: \
     bin/unicode-CompositionExclusions.pl \
     local/unicode/latest/CompositionExclusions.txt
 	$(PERL) $< < local/unicode/latest/CompositionExclusions.txt > $@
+local/unicode/latest/DerivedJoiningGroup.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedJoiningGroup.txt
+local/unicode/$(UNICODE_VERSION)/DerivedJoiningGroup.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedJoiningGroup.txt
+local/unicode/latest/DerivedJoiningType.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedJoiningType.txt
+local/unicode/$(UNICODE_VERSION)/DerivedJoiningType.txt:
+	mkdir -p local/unicode/$(UNICODE_VERSION)
+	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedJoiningType.txt
 
 local/unicode/latest/IdnaMappingTable.txt:
 	mkdir -p local/unicode/latest
@@ -527,6 +549,8 @@ data/sets.json: bin/sets.pl \
     src/set/unicode/has_compat_decomposition.expr \
     src/set/unicode/canon_decomposition_second.expr \
     src/set/unicode/Uppercase_Letter.expr \
+    src/set/unicode/Joining_Type/files \
+    src/set/unicode/Joining_Group/files \
     src/set/uax31/files \
     src/set/idna-tables-latest/files \
     src/set/precis-tables-latest/files \
