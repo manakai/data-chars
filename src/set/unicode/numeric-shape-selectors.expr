@@ -1,0 +1,4 @@
+#label:numeric shape selector format characters
+#sw:numeric shape selector format characters
+#url:https://www.unicode.org/versions/Unicode13.0.0/ch23.pdf#G19593
+[\u206E\u206F]

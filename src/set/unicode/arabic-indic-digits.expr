@@ -1,0 +1,4 @@
+#label:ARABIC-INDIC DIGITS
+#sw:ARABIC-INDIC DIGITS
+#url:https://www.unicode.org/versions/Unicode13.0.0/ch23.pdf#G19593
+[\u0660-\u0669]

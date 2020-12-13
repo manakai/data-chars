@@ -1,0 +1,8 @@
+#label:paired stateful controls (XXX)
+#sw:paired stateful controls
+#url:https://www.unicode.org/versions/Unicode13.0.0/ch23.pdf#G27454
+
+# XXX
+$unicode:paired-stateful-controls-recommended |
+
+$unicode:paired-stateful-controls-deprecated
