@@ -1,0 +1,4 @@
+#label:bidirectional ordering controls
+#sw:bidirectional ordering controls
+#url:https://www.unicode.org/versions/latest/ch23.pdf#G16327
+[\u061C\u200E-\u200F\u202A-\u202E\u2066-\u2069]
