@@ -1,0 +1,6 @@
+#label:deprecated format characters
+#sw:deprecated format characters
+#url:https://www.unicode.org/versions/Unicode13.0.0/ch23.pdf#G19593
+$unicode:symmetric-swapping |
+$unicode:character-shaping-selectors |
+$unicode:numeric-shape-selectors

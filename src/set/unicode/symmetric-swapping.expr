@@ -1,0 +1,4 @@
+#label:symmetric swapping format characters
+#sw:symmetric swapping format characters
+#url:https://www.unicode.org/versions/Unicode13.0.0/ch23.pdf#G19593
+[\u206A\u206B]

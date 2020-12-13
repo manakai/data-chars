@@ -1,0 +1,6 @@
+#label:deprecated
+#sw:Unicodeの非推奨の文字
+$unicode:combining-sidelines |
+[\uFEFF] |
+$unicode:paired-stateful-controls-deprecated
+# XXX and more

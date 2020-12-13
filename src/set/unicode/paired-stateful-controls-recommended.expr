@@ -1,0 +1,11 @@
+#label:paired stateful controls (recommended) (XXX)
+#sw:paired stateful controls
+#url:https://www.unicode.org/versions/Unicode13.0.0/ch23.pdf#G27454
+
+# XXX bidi-overrides | bidi-embeddings | bidi-isolates
+$unicode:bidirectional-ordering-controls |
+
+$unicode:annotation-characters |
+
+# XXX
+$unicode:musical-beams-and-slurs

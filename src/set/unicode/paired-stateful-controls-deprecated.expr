@@ -1,0 +1,5 @@
+#label:paired stateful controls (deprecated)
+#sw:paired stateful controls
+#url:https://www.unicode.org/versions/Unicode13.0.0/ch23.pdf#G27454
+$unicode:deprecated-format-characters |
+[\u{E0001}]

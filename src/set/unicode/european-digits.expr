@@ -1,0 +1,4 @@
+#label:European digits
+#sw:European digits
+#url:https://www.unicode.org/versions/Unicode13.0.0/ch23.pdf#G19593
+[\u0030-\u0039]

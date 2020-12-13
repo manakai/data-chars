@@ -1,0 +1,5 @@
+#label:format control characters (XXX)
+#sw:format control characters
+$unicode:bidirectional-ordering-controls |
+[\u200D\u200C]
+# XXX and more
