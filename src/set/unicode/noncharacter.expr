@@ -1,4 +1,4 @@
-#label:Surrogate
+#label:Noncharacter
 #url:https://www.unicode.org/versions/latest/ch02.pdf#G14527
 #sw:surrogate
-$unicode:Cs
+$unicode:Cn - $unicode:Age:Unassigned
