@@ -1,6 +1,13 @@
-#label:deprecated
+#label:deprecated or not recommended
 #sw:Unicodeの非推奨の文字
+
+## Deprecated
+$unicode:Deprecated |
 $unicode:combining-sidelines |
 [\uFEFF] |
-$unicode:paired-stateful-controls-deprecated
+$unicode:paired-stateful-controls-deprecated |
+
+## Not recommended in open interchange
+$unicode:Noncharacter_Code_Point
+
 # XXX and more

@@ -1,4 +1,4 @@
-#label:Surrogate
+#label:Private Use
 #url:https://www.unicode.org/versions/latest/ch02.pdf#G14527
-#sw:surrogate
-$unicode:Cs
+#sw:PUA
+$unicode:Co
