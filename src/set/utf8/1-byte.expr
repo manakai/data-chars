@@ -1,0 +1,5 @@
+#label:Characters represeted by single byte sequences in UTF-8
+#sw:UTF-8
+[
+\u0000-\u007F
+]

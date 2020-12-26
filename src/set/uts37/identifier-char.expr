@@ -1,0 +1,3 @@
+#label:character in an identifier
+#sw:IVC
+[A-Za-z_+-]

@@ -1,0 +1,5 @@
+#label:Characters represeted by three byte sequences in UTF-8
+#sw:UTF-8
+[
+\u0800-\uFFFF
+]
