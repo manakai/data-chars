@@ -1,0 +1,5 @@
+#label:Characters represeted by two byte sequences in UTF-16
+#sw:UTF-16
+[
+\u0000-\uFFFF
+]

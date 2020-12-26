@@ -1,5 +1,5 @@
 #label:Assigned to abstract character
 #url:https://www.unicode.org/versions/latest/ch02.pdf#G14527
-#sw:unassgined code point
+#sw:unassigned code point
 $unicode:private-use |
 $unicode:surrogate

@@ -21,6 +21,11 @@ U+0037 U+20E3
 U+0038 U+20E3
 U+0039 U+20E3
 
+## <https://www.unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt>
+## commented out
+U+2278 U+FE00
+U+2279 U+FE00
+
 ## <https://ja.wikipedia.org/wiki/%E5%8D%8A%E6%BF%81%E7%82%B9>
 "ア" U+309A
 "イ" U+309A

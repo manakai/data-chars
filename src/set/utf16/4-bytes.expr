@@ -1,0 +1,5 @@
+#label:Characters represeted by four byte sequences in UTF-16
+#sw:UTF-16
+[
+\u{100000}-\u{10FFFF}
+]

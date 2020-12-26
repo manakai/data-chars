@@ -1,0 +1,5 @@
+#label:variation selector characters in IVS
+#sw:IVS
+[
+\u{E0100}-\u{E01EF}
+]
