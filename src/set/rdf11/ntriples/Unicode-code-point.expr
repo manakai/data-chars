@@ -1,0 +1,4 @@
+#label:Unicode code points allowed in N-Triples
+#url:https://www.w3.org/TR/n-triples/#h2_n-triples-grammar
+#sw:N-Triples
+[\u0000-\u{10FFFF}]
