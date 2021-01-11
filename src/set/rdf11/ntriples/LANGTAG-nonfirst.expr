@@ -1,0 +1,4 @@
+#label:Characters allowed in the non-first subtag of LANGTAG
+#sw:N-Triples
+#url:https://www.w3.org/TR/n-triples/#grammar-production-LANGTAG
+[a-zA-Z0-9]

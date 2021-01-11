@@ -4800,6 +4800,12 @@
          "label" : "ntriples:BLANK_NODE_LABEL-namestartchar",
          "suikawiki_name" : "ntriples:BLANK_NODE_LABEL-namestartchar"
       },
+      "$rdf11:ntriples:ECHAR-2" : {
+         "chars" : "[\"'\\u005Cbfnrt]",
+         "label" : "The second character of ECHAR",
+         "suikawiki_name" : "N-Triples",
+         "url" : "https://www.w3.org/TR/n-triples/#grammar-production-ECHAR"
+      },
       "$rdf11:ntriples:EOL-char" : {
          "chars" : "[\\u000A\\u000D]",
          "label" : "A character in ntriples:EOL",
@@ -4814,6 +4820,18 @@
          "chars" : "[!\\u0023-\\u003B=?-\\u005B\\u005D_a-z~-\\u{10FFFF}]",
          "label" : "A character in ntriples:IRIREF",
          "suikawiki_name" : "ntriples:IRIREF"
+      },
+      "$rdf11:ntriples:LANGTAG-first" : {
+         "chars" : "[A-Za-z]",
+         "label" : "Characters allowed in the first subtag of LANGTAG",
+         "suikawiki_name" : "N-Triples",
+         "url" : "https://www.w3.org/TR/n-triples/#grammar-production-LANGTAG"
+      },
+      "$rdf11:ntriples:LANGTAG-nonfirst" : {
+         "chars" : "[0-9A-Za-z]",
+         "label" : "Characters allowed in the non-first subtag of LANGTAG",
+         "suikawiki_name" : "N-Triples",
+         "url" : "https://www.w3.org/TR/n-triples/#grammar-production-LANGTAG"
       },
       "$rdf11:ntriples:PN_CHARS" : {
          "chars" : "[\\u002D0-:A-Z_a-z\\u00B7\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u203F-\\u2040\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\u{10000}-\\u{EFFFF}]",
@@ -4834,6 +4852,18 @@
          "chars" : "[\\u0000-\\u0009\\u000B-\\u000C\\u000E-!\\u0023-\\u005B\\u005D-\\u{10FFFF}]",
          "label" : "A character in ntriples:STRING_LITERAL_QUOTE",
          "suikawiki_name" : "ntriples:STRING_LITERAL_QUOTE"
+      },
+      "$rdf11:ntriples:Unicode-code-point" : {
+         "chars" : "[\\u0000-\\u{10FFFF}]",
+         "label" : "Unicode code points allowed in N-Triples",
+         "suikawiki_name" : "N-Triples",
+         "url" : "https://www.w3.org/TR/n-triples/#h2_n-triples-grammar"
+      },
+      "$rdf11:ntriples:white-space" : {
+         "chars" : "[\\u0009\\u0020]",
+         "label" : "White spaces",
+         "suikawiki_name" : "N-Triples",
+         "url" : "https://www.w3.org/TR/n-triples/#h2_n-triples-grammar"
       },
       "$rfc1034:digit" : {
          "chars" : "[0-9]",

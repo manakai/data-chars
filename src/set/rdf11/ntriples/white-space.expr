@@ -1,0 +1,4 @@
+#label:White spaces
+#url:https://www.w3.org/TR/n-triples/#h2_n-triples-grammar
+#sw:N-Triples
+[\u0009\u0020]

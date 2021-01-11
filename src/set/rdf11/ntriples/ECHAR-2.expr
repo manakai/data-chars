@@ -1,0 +1,4 @@
+#label:The second character of ECHAR
+#sw:N-Triples
+#url:https://www.w3.org/TR/n-triples/#grammar-production-ECHAR
+[tbnrf"'\u005C]
