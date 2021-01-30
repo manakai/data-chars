@@ -1,3 +1,6 @@
+#label:b64token non-final characters
+#url:https://tools.ietf.org/html/rfc6750#section-2.1
+#sw:Bearer
 $rfc5234:ALPHA |
 $rfc5234:DIGIT |
 [\u002D ._~+/]
