@@ -1,13 +1,14 @@
 Algorithm::Diff~1.201
 Capture::Tiny~0.48
 Carp~1.50
-Data::Dumper~2.173
+Data::Dumper~2.180
 Encode~3.09
 JSON::XS~4.03
 Path::Class~0.37
 Path::Tiny~0.118
 Scalar::Util~1.56
 Test::Differences~0.67
+Test::More~1.302183
 Test::NoWarnings~1.04
 Test::Tester~1.302183
 Text::Diff~1.45
