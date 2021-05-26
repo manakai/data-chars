@@ -5627,6 +5627,48 @@
          "suikawiki_name" : "x",
          "url" : "https://tools.ietf.org/html/rfc2486#page-4"
       },
+      "$rfc2550:caret" : {
+         "chars" : "[\\u005E]",
+         "label" : "caret",
+         "spec" : "RFC2550",
+         "suikawiki_name" : "RFC 2550",
+         "url" : "https://datatracker.ietf.org/doc/html/rfc2550#section-4"
+      },
+      "$rfc2550:digit" : {
+         "chars" : "[0-9]",
+         "label" : "digit",
+         "spec" : "RFC2550",
+         "suikawiki_name" : "RFC 2550",
+         "url" : "https://datatracker.ietf.org/doc/html/rfc2550#section-4"
+      },
+      "$rfc2550:exclamation" : {
+         "chars" : "[!]",
+         "label" : "exclamation",
+         "spec" : "RFC2550",
+         "suikawiki_name" : "RFC 2550",
+         "url" : "https://datatracker.ietf.org/doc/html/rfc2550#section-4"
+      },
+      "$rfc2550:letter" : {
+         "chars" : "[A-Z]",
+         "label" : "letter",
+         "spec" : "RFC2550",
+         "suikawiki_name" : "RFC 2550",
+         "url" : "https://datatracker.ietf.org/doc/html/rfc2550#section-4"
+      },
+      "$rfc2550:slash" : {
+         "chars" : "[/]",
+         "label" : "slash",
+         "spec" : "RFC2550",
+         "suikawiki_name" : "RFC 2550",
+         "url" : "https://datatracker.ietf.org/doc/html/rfc2550#section-4"
+      },
+      "$rfc2550:star" : {
+         "chars" : "[*]",
+         "label" : "star",
+         "spec" : "RFC2550",
+         "suikawiki_name" : "RFC 2550",
+         "url" : "https://datatracker.ietf.org/doc/html/rfc2550#section-4"
+      },
       "$rfc2616:ALPHA" : {
          "chars" : "[A-Za-z]",
          "label" : "ALPHA",
