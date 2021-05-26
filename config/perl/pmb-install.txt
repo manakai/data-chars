@@ -1,7 +1,7 @@
 Algorithm::Diff~1.201
 Capture::Tiny~0.48
 Carp~1.50
-Data::Dumper~2.180
+Data::Dumper~2.181
 Encode~3.10
 JSON::XS~4.03
 Path::Class~0.37
