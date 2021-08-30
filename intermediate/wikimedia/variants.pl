@@ -65,6 +65,17 @@ for (
   $Data->{stats}->{kredu_deleted} = 0+keys %{$Data->{sets}->{kredu_deleted}};
 }
 
+{
+  my $path = $ThisPath->child ('hyougai.txt');
+  my $text = decode_web_utf8 $path->slurp;
+
+  $text =~ s{^#.*}{}gm;
+  while ($text =~ m{(\w)}g) {
+    my $c = $1;
+    $Data->{sets}->{hyougai}->{$c} = 1;
+  }
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.

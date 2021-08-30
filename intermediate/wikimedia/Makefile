@@ -23,7 +23,8 @@ $(TEMP_PATH)/kredu.html:
 variants.json: variants.pl \
     $(TEMP_PATH)/list1.html \
     $(TEMP_PATH)/list2.html \
-    $(TEMP_PATH)/kredu.html
+    $(TEMP_PATH)/kredu.html \
+    hyougai.txt
 	$(PERL) $< > $@
 
 ## License: Public Domain.
