@@ -6,6 +6,7 @@ my $has_error = 0;
 for my $file_name (map { glob $_ }
                        "data/*",
                        "data/*/*",
+                       "view/*/*",
                        "intermediate/*/*") {
   my $size = -s $file_name;
   if ($size > 50*1000*1000) {
