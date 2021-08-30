@@ -1,0 +1,148 @@
+simplified 圣 経
+simplified 𥄂 直
+simplified 𬌩 銭
+simplified 乛 門
+simplified ヿ 門
+simplified ヿ 䦐
+jpnewstyle 䇳 箋
+jpnewstyle 厩\u{E0103} 厩
+jpnewstyle 溉 漑
+jpnewstyle 喻 喩
+jpnewstyle 渗 滲
+jpnewstyle 𧦅 謳
+jpnewstyle 瓯 甌
+jpnewstyle 𪘂 齧
+jpnewstyle 𫝜 囃
+jpnewstyle 𦜝 臍
+jpnewstyle 緕 纃
+jpnewstyle 褝 襌
+jpnewstyle 珱 瓔
+jpnewstyle 﨔 欅
+jpnewstyle 陦 隯
+jpnewstyle 畴 疇
+jpnewstyle 踌 躊
+jpnewstyle 筝 箏
+jpnewstyle 輌 輛
+jpnewstyle 鈬 鐸
+jpnewstyle 麸 麩
+jpnewstyle 舮 艫
+jpnewstyle 枦 櫨
+jpnewstyle 弯 彎
+jpnewstyle 𪘂 齧
+jpnewstyle 𮯈 䶨
+jpnewstyle 𪘚 齬
+jpnewstyle 𪗱 齟
+jpnewstyle 𮝩 轢
+jpnewstyle 𭢫 擽
+jpnewstyle 𭞁 慫
+jpnewstyle 埓 埒
+jpnewstyle 祚\u{E0102} 祚\u{E0101}
+jpnewstyle 祺\u{E0102} 祺\u{E0101}
+jpnewstyle 綏\u{E0102} 綏\u{E0101}
+jpnewstyle 脍 膾
+jpnewstyle 𦙾 脛
+jpnewstyle 𠡠 勑
+jpnewstyle 俫 倈
+jpnewstyle 徕 徠
+jpnewstyle 欤\u{E0104} 歟
+
+jpnewstyle 鴬 <- 鷽 鶯
+simplified 旧 <- 臼 舊
+simplified 沪 <- 滬 濾 瀘
+simplified 关 <- 癸 関
+variant 﨤 <- 及 返
+variant 㙔 <- 韓 煒
+variant 𪜀 <- 羅 等
+variant 芦 <- 芐 蘆
+vpairs 鈩/炉 鑪/爐
+jpnewstyle 鈩 鑪
+
+variant 厤 <- 曆 歷
+variant 厤 <- 曆 𠪱
+variant 厤 <- 暦 歴
+variant 厤 <- 暦 厯
+variant 厂 <- 暦 歴
+simplified 厯 𠪱
+vpairs 𠪱/歷 厯/歴
+vpairs 𠪱/曆 厯/暦
+
+simplified 参 <- 叄 參
+simplified 参 <- 叁 參
+
+simplified 钟 <- 鍾 鐘
+simplified 锺 <- 鍾
+simplified 钟 <- 鐘
+
+simplified 证 証
+jpnewstyle 証 證
+sconflict 证 證
+
+vpairs 绣/𰬩 綉/繡
+vpairs 總/摠 総/捴 縂/搃 𦀙/𢭇
+
+conflict 豐 灃
+vpairs 豐/灃 豊/澧 丰/沣
+
+differentiated 世 丗
+
+sconflict 付 附
+sconflict 广 廣
+sconflict 医 醫
+sconflict 仮 假
+sconflict 浜 濱
+sconflict 亘 亙
+sconflict 灯 燈
+sconflict 欠 缺
+sconflict 俣 俁
+sconflict 豊 豐
+sconflict 仂 働
+sconflict 才 歳
+sconflict 伝 傳
+sconflict 県 縣
+sconflict 𦬇 茻
+sconflict 壬 𨳝
+sconflict 屡 屢
+sconflict 并 幷
+sconflict 痳 痲
+sconflict 巾 幅
+sconflict 囗 園
+
+conflict 叱 𠮟
+conflict 皀 皂
+conflict 搾 扠
+conflict 笹 世
+conflict 橋 槁
+conflict 本 夲
+conflict 柾 柩
+conflict 𮁮 袻
+conflict 𡆥 囚
+conflict 扠 扨
+conflict 刁 寅
+conflict 負 屓
+
+variant 熙 熈
+variant 熙 𤋮
+variant 熙 𤏁
+
+overlap 丁 町
+overlap 大 太
+overlap 戋 銭
+overlap 㦮 銭
+overlap 戔 錢
+overlap 匁 銭
+
+taboo 原 元
+taboo 始 元
+taboo 元 玄
+taboo 神 玄
+taboo 国 邦
+taboo 明 昭
+taboo 歷 曆
+taboo 厯 曆
+taboo 厤 曆
+taboo 甯 寧
+
+related 十 七
+related 咸 感
+related 彗 慧
+related 齎 齋
