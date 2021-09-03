@@ -218,6 +218,51 @@ $clusters = sort_clusters $clusters;
 $Data->{clusters} = $clusters;
 $Data->{cluster_indexes} = [map { $_->{index} } @{$Data->{clusters}}];
 
+{
+  my $i = 1;
+  #0: all
+  for my $key (qw(cn cn_complex hk tw jp jp_new jp_h22 jp_old kr)) {
+    $Data->{leader_types}->{$key}->{index} = $i++;
+    $Data->{leader_types}->{$key}->{key} = $key;
+    
+    use utf8;
+    $Data->{leader_types}->{$key}->{short_label} = {
+      cn => '简',
+      cn_complex => '繁',
+      hk => '港',
+      tw => '臺',
+      jp => '日',
+      jp_new => '新',
+      jp_h22 => '平成',
+      jp_old => '旧',
+      kr => '韓',
+    }->{$key} // die $key;
+    $Data->{leader_types}->{$key}->{label} = {
+      cn => '大陆(简体)',
+      cn_complex => '大陸(繁體)',
+      hk => '香港',
+      tw => '臺灣',
+      jp => '日本',
+      jp_new => '日本(新字体)',
+      jp_h22 => '日本(平成22年)',
+      jp_old => '日本(舊字體)',
+      kr => '韓國',
+    }->{$key} // die $key;
+
+    $Data->{leader_types}->{$key}->{lang_tag} = {
+      cn => 'zh-CN',
+      cn_complex => 'zh-CN',
+      hk => 'zh-HK',
+      tw => 'zh-TW',
+      jp => 'ja',
+      jp_new => 'ja',
+      jp_h22 => 'ja',
+      jp_old => 'ja',
+      kr => 'ko-KR',
+    }->{$key} // die $key;
+  }
+}
+
 my $count; $count = sub ($) {
   my $list = shift;
   my $n = 0;
@@ -240,11 +285,7 @@ my $count; $count = sub ($) {
 }; # $count
 $count->([$Data]);
 
-{
-  my $path = $ThisPath->child ('cluster-root.json');
-  print STDERR "\rWrite |$path|...";
-  $path->spew (perl2json_bytes_for_record $Data);
-}
+my $FileList = {};
 {
   my $i = 0;
   my $n = 0;
@@ -255,6 +296,7 @@ $count->([$Data]);
       my $path = $ThisPath->child ("cluster-chars-$i.txt");
       print STDERR "\rWrite |$path|...";
       $file = $path->openw;
+      push @{$FileList->{chars} ||= []}, "cluster-chars-$i.txt";
     }
 
     while (@$DataChars) {
@@ -280,6 +322,7 @@ $count->([$Data]);
       my $path = $ThisPath->child ("cluster-rels-$i.jsonl");
       print STDERR "\rWrite |$path|...";
       $file = $path->openw;
+      push @{$FileList->{rels} ||= []}, "cluster-chars-$i.txt";
     }
 
     while (@$DataRels) {
@@ -294,6 +337,13 @@ $count->([$Data]);
       }
     }
   }
+}
+{
+  my $path = $ThisPath->child ('cluster-root.json');
+  print STDERR "\rWrite |$path|...";
+  push @{$FileList->{root} ||= []}, 'cluster-root.json';
+  $Data->{files} = $FileList;
+  $path->spew (perl2json_bytes_for_record $Data);
 }
 print STDERR "\n";
 

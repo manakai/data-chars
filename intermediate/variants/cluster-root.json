@@ -1,5 +1,6 @@
 {
    "cluster_indexes" : [
+      246125,
       246126,
       246127,
       246128,
@@ -5144,8 +5145,7 @@
       251267,
       251268,
       251269,
-      251270,
-      251271
+      251270
    ],
    "cluster_levels" : [
       {
@@ -5191,14 +5191,94 @@
          "min_weight" : 100
       }
    ],
+   "files" : {
+      "chars" : [
+         "cluster-chars-1.txt",
+         "cluster-chars-2.txt",
+         "cluster-chars-3.txt"
+      ],
+      "rels" : [
+         "cluster-chars-1.txt",
+         "cluster-chars-2.txt",
+         "cluster-chars-3.txt"
+      ],
+      "root" : [
+         "cluster-root.json"
+      ]
+   },
+   "leader_types" : {
+      "cn" : {
+         "index" : 1,
+         "key" : "cn",
+         "label" : "大陆(简体)",
+         "lang_tag" : "zh-CN",
+         "short_label" : "简"
+      },
+      "cn_complex" : {
+         "index" : 2,
+         "key" : "cn_complex",
+         "label" : "大陸(繁體)",
+         "lang_tag" : "zh-CN",
+         "short_label" : "繁"
+      },
+      "hk" : {
+         "index" : 3,
+         "key" : "hk",
+         "label" : "香港",
+         "lang_tag" : "zh-HK",
+         "short_label" : "港"
+      },
+      "jp" : {
+         "index" : 5,
+         "key" : "jp",
+         "label" : "日本",
+         "lang_tag" : "ja",
+         "short_label" : "日"
+      },
+      "jp_h22" : {
+         "index" : 7,
+         "key" : "jp_h22",
+         "label" : "日本(平成22年)",
+         "lang_tag" : "ja",
+         "short_label" : "平成"
+      },
+      "jp_new" : {
+         "index" : 6,
+         "key" : "jp_new",
+         "label" : "日本(新字体)",
+         "lang_tag" : "ja",
+         "short_label" : "新"
+      },
+      "jp_old" : {
+         "index" : 8,
+         "key" : "jp_old",
+         "label" : "日本(舊字體)",
+         "lang_tag" : "ja",
+         "short_label" : "旧"
+      },
+      "kr" : {
+         "index" : 9,
+         "key" : "kr",
+         "label" : "韓國",
+         "lang_tag" : "ko-KR",
+         "short_label" : "韓"
+      },
+      "tw" : {
+         "index" : 4,
+         "key" : "tw",
+         "label" : "臺灣",
+         "lang_tag" : "zh-TW",
+         "short_label" : "臺"
+      }
+   },
    "stats" : {
       "clusters" : [
          89655,
          89392,
          58445,
-         35038,
-         30231,
-         27783,
+         35039,
+         30230,
+         27782,
          5237,
          5146
       ],
@@ -5212,36 +5292,36 @@
             "rels" : 128
          },
          "200" : {
-            "already" : 21581,
-            "check_unmergeable" : 22546,
-            "input" : 27783,
-            "merge" : 22546,
+            "already" : 21582,
+            "check_unmergeable" : 22545,
+            "input" : 27782,
+            "merge" : 22545,
             "output" : 5237,
             "rels" : 44127
          },
          "300" : {
             "already" : 2178,
             "check_unmergeable" : 2448,
-            "input" : 30231,
+            "input" : 30230,
             "merge" : 2448,
-            "output" : 27783,
+            "output" : 27782,
             "rels" : 4626
          },
          "400" : {
-            "already" : 3753,
-            "check_unmergeable" : 4807,
-            "input" : 35038,
-            "merge" : 4807,
-            "output" : 30231,
-            "rels" : 8560
+            "already" : 3752,
+            "check_unmergeable" : 4809,
+            "input" : 35039,
+            "merge" : 4809,
+            "output" : 30230,
+            "rels" : 8561
          },
          "500" : {
-            "already" : 18319,
+            "already" : 18318,
             "check_unmergeable" : 27461,
             "input" : 58445,
-            "merge" : 23407,
-            "output" : 35038,
-            "rels" : 45780
+            "merge" : 23406,
+            "output" : 35039,
+            "rels" : 45779
          },
          "600" : {
             "already" : 31339,
