@@ -77217,7 +77217,7 @@
       },
       "経" : {
          "圣" : {
-            "manakai:variant:simplified" : 1
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "坕" : {
             "manakai:related" : 1
@@ -81394,7 +81394,8 @@
             "manakai:related" : 1
          },
          "圣" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "垩" : {
             "manakai:related" : 1
@@ -98230,6 +98231,9 @@
       "軽" : {
          "䡹" : {
             "manakai:related" : 1
+         },
+         "圣" : {
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "輊" : {
             "manakai:related" : 1

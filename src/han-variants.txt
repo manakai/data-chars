@@ -1,4 +1,3 @@
-simplified 圣 経
 simplified 𥄂 直
 simplified 𬌩 銭
 simplified 乛 門
@@ -76,6 +75,10 @@ simplified 钟 <- 鐘
 simplified 证 証
 jpnewstyle 証 證
 sconflict 证 證
+
+sconflict 圣 経
+sconflict 圣 軽
+sconflict 圣 聖
 
 vpairs 绣/𰬩 綉/繡
 vpairs 總/摠 総/捴 縂/搃 𦀙/𢭇

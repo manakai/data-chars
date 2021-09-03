@@ -10,6 +10,7 @@ SAVEURL = $(WGET) -O
 
 all: merged-misc.json cluster-root.json cluster-props-*.txt \
     char-cluster.jsonl \
+    char-leaders.jsonl \
     testdata.json
 
 merged-misc.json: merged.pl \
@@ -30,6 +31,9 @@ cluster-props-*.txt: cluster-props.pl cluster-chars-*.txt merged-misc.json
 	$(PERL) $<
 
 char-cluster.jsonl: char-cluster.pl cluster-root.json cluster-chars-*.txt
+	$(PERL) $< > $@
+
+char-leaders.jsonl: char-leaders.pl cluster-root.json cluster-props-*.txt
 	$(PERL) $< > $@
 
 testdata.json: testdata.pl cluster-root.json tests.txt

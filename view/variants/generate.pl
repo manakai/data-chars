@@ -275,6 +275,7 @@ print q{
 printf q{<p>Clusters: %s},
     join ' in ', reverse @{$Data->{stats}->{clusters}};
 
+my $LeaderTypes = [sort { $a->{index} <=> $b->{index} } values %{$Data->{leader_types}}];
 sub sprint_cluster ($$$;%);
 sub sprint_cluster ($$$;%) {
   my ($cluster_index, $level_index, $id_prefix, %args) = @_;
@@ -310,32 +311,11 @@ sub sprint_cluster ($$$;%) {
           $level->{label};
 
       $r .= sprintf q{<dl class=leaders>};
-      for my $key (qw(cn cn_complex hk tw jp jp_new jp_h22 jp_old kr)) {
-        use utf8;
+      for my $lt (@$LeaderTypes) {
         $r .= sprintf q{<div><dt>%s<dd lang="%s">},
-            {
-              cn => '简',
-              cn_complex => '繁',
-              hk => '港',
-              tw => '臺',
-              jp => '日',
-              jp_new => '新',
-              jp_h22 => '平成',
-              jp_old => '旧',
-              kr => '韓',
-            }->{$key} // $key,
-            {
-              cn => 'zh-cn',
-              cn_complex => 'zh-cn',
-              hk => 'zh-hk',
-              tw => 'zh-tw',
-              jp => 'ja',
-              jp_new => 'ja',
-              jp_h22 => 'ja',
-              jp_old => 'ja',
-              kr => 'ko-kr',
-            }->{$key};
-        my $c = $props->{leaders}->{$key};
+            $lt->{short_label},
+            $lt->{lang_tag};
+        my $c = $props->{leaders}->{$lt->{key}};
         if (defined $c) {
           $r .= v_char $c, $props->{stems};
         } else {

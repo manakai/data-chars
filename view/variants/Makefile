@@ -5,7 +5,11 @@ PERL5OPTS =  \
     -I$(ROOT_PATH)/bin/modules/web-encodings/lib
 PERL = $(ROOT_PATH)/perl $(PERL5OPTS)
 
-all: list.html list-rels.html
+all: ivar list.html list-rels.html
+
+ivar:
+	cd ../../intermediate/misc && $(MAKE) all
+	cd ../../intermediate/variants && $(MAKE) all
 
 list.html: generate.pl \
     $(DATA_PATH)/cluster-root.json \
