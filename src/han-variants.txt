@@ -44,6 +44,8 @@ jpnewstyle 𠡠 勑
 jpnewstyle 俫 倈
 jpnewstyle 徕 徠
 jpnewstyle 欤\u{E0104} 歟
+jpnewstyle 彞 彝
+jpnewstyle 彚 彙
 
 jpnewstyle 鴬 <- 鷽 鶯
 simplified 旧 <- 臼 舊
@@ -79,6 +81,16 @@ sconflict 证 證
 sconflict 圣 経
 sconflict 圣 軽
 sconflict 圣 聖
+
+sconflict 旺 曜
+simplified 𫞂 曜
+
+sconflict 耺 職
+simplified 𫟉 職
+
+sconflict 桟 機
+sconflict 栈 機
+sconflict 找 機
 
 vpairs 绣/𰬩 綉/繡
 vpairs 總/摠 総/捴 縂/搃 𦀙/𢭇
@@ -123,6 +135,9 @@ conflict 扠 扨
 conflict 刁 寅
 conflict 負 屓
 
+conflict 垚 堯
+conflict 垚 喜
+
 variant 熙 熈
 variant 熙 𤋮
 variant 熙 𤏁
@@ -149,3 +164,4 @@ related 十 七
 related 咸 感
 related 彗 慧
 related 齎 齋
+related 令 齢

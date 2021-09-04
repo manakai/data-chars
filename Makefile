@@ -432,6 +432,9 @@ local/unicode/latest/DerivedJoiningType.txt:
 local/unicode/$(UNICODE_VERSION)/DerivedJoiningType.txt:
 	mkdir -p local/unicode/$(UNICODE_VERSION)
 	$(SAVEURL) $@ https://www.unicode.org/Public/$(UNICODE_VERSION)/ucd/extracted/DerivedJoiningType.txt
+local/unicode/latest/StandardizedVariants.txt:
+	mkdir -p local/unicode/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt
 
 local/unicode/latest/IdnaMappingTable.txt:
 	mkdir -p local/unicode/latest
@@ -614,5 +617,8 @@ test-deps: deps
 
 test-main:
 	$(PROVE) t/*.t
+
+test-size:
+	$(PERL) t/filesize.t
 
 ## License: Public Domain.

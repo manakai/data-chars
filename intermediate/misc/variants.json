@@ -28476,7 +28476,8 @@
             "manakai:related" : 1
          },
          "垚" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:conflicted" : 1
          },
          "嬉" : {
             "manakai:related" : 1
@@ -31803,6 +31804,9 @@
          }
       },
       "堯" : {
+         "垚" : {
+            "manakai:variant:conflicted" : 1
+         },
          "尧" : {
             "manakai:related" : 1
          },
@@ -40848,7 +40852,8 @@
             "manakai:related" : 1
          },
          "彚" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:jpnewstyle" : 1
          },
          "汇" : {
             "manakai:related" : 1
@@ -40889,7 +40894,8 @@
             "manakai:related" : 1
          },
          "彞" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:jpnewstyle" : 1
          }
       },
       "彞" : {
@@ -50859,6 +50865,9 @@
          }
       },
       "曜" : {
+         "旺" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "燿" : {
             "manakai:related" : 1
          },
@@ -50869,7 +50878,8 @@
             "manakai:related" : 1
          },
          "𫞂" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplified" : 1
          }
       },
       "曝" : {
@@ -55122,8 +55132,17 @@
          }
       },
       "機" : {
+         "找" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "机" : {
             "manakai:related" : 1
+         },
+         "栈" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
+         "桟" : {
+            "manakai:variant:simplifiedconflicted" : 1
          }
       },
       "橠" : {
@@ -81585,6 +81604,9 @@
          }
       },
       "職" : {
+         "耺" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "聀" : {
             "manakai:related" : 1
          },
@@ -81593,6 +81615,9 @@
          },
          "軄" : {
             "manakai:related" : 1
+         },
+         "𫟉" : {
+            "manakai:variant:simplified" : 1
          }
       },
       "聸" : {
@@ -119829,6 +119854,9 @@
             "manakai:related" : 1
          },
          "䡿" : {
+            "manakai:related" : 1
+         },
+         "令" : {
             "manakai:related" : 1
          },
          "秢" : {

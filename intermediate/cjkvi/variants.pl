@@ -48,7 +48,7 @@ sub wrap ($) {
       $Data->{variants}->{$1}->{$2}->{$vtype} = 1;
       $Data->{variants}->{$1}->{wrap $3}->{"$vtype:comment"} = 1;
     } elsif (/^(\w+)\t\t\t# ([\x{2605}\x{2606}])$/) {
-      $Data->{variants}->{$1}->{"cjkvi:$2$1"}->{$vtype} = 1;
+      $Data->{variants}->{$1}->{":cjkvi:$2$1"}->{$vtype} = 1;
     } elsif (/\S/) {
       warn join " ", map { sprintf "%04X", ord $_ } split //, $_;
       die "Bad line |$_|";

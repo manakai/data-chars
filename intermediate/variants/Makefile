@@ -39,7 +39,10 @@ char-leaders.jsonl: char-leaders.pl cluster-root.json cluster-props-*.txt
 testdata.json: testdata.pl cluster-root.json tests.txt
 	$(PERL) $< > $@
 
-test: test.pl testdata.pl cluster-root.json char-cluster.jsonl testdata.json
+test: test.pl testdata.pl cluster-root.json char-cluster.jsonl testdata.json \
+    test-size
 	$(PROVE) $<
+test-size:
+	cd $(ROOT_PATH) && $(MAKE) test-size
 
 ## License: Public Domain.
