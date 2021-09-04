@@ -9,7 +9,7 @@ all: ivar list.html list-rels.html
 
 ivar:
 	cd ../../intermediate/misc && $(MAKE) all
-	cd ../../intermediate/variants && $(MAKE) all
+	cd ../../intermediate/variants && $(MAKE) all test
 
 list.html: generate.pl \
     $(DATA_PATH)/cluster-root.json \

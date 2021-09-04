@@ -31,6 +31,8 @@ $(TEMP_PATH)/unihan-krname.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
 
 $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/EquivalentUnifiedIdeograph.txt
+$(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt:
+	cd $(ROOT_PATH) && $(MAKE) local/unicode/latest/StandardizedVariants.txt
 
 $(TEMP_PATH)/IVD_Sequences.txt:
 	$(SAVEURL) $@ https://www.unicode.org/ivd/data/2020-11-06/IVD_Sequences.txt
@@ -39,6 +41,7 @@ variants.json: variants.pl \
     $(TEMP_PATH)/Unihan_Variants.txt \
     $(TEMP_PATH)/IVD_Sequences.txt \
     $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt \
+    $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
     $(TEMP_PATH)/unihan-tghz2013.txt \
     $(TEMP_PATH)/unihan-g1.txt \
     $(TEMP_PATH)/unihan-hkg.txt \

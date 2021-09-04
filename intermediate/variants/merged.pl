@@ -67,6 +67,7 @@ my $PairedTypes = [];
     "mj:実装したSVS",
     "mj:対応する互換漢字",
     "mj:戸籍統一文字:同一",
+    "unicode:svs",
     "cjkvi:cjkvi/duplicate",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
