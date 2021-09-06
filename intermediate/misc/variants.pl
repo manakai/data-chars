@@ -83,6 +83,9 @@ my $Data;
         jpnewstyle => 'manakai:variant:jpnewstyle',
         differentiated => 'manakai:differentiated',
         variant => 'manakai:equivalent',
+        same => 'manakai:same',
+        unified => 'manakai:unified',
+        wu => 'manakai:variant:wu',
       }->{$1} // die "Bad type |$1|";
       $Data->{variants}->{ue $3}->{ue $2}->{$vtype} = 1;
     } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+)\s+<-\s+(.+)$/) {

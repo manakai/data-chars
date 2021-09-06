@@ -43,6 +43,24 @@ for (split /\x0D?\x0A/, $path->slurp) {
 }
 
 {
+  my $path = $TempPath->child ('IVD_Stats.txt');
+  my $in_scope = 0;
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^# Duplicate Sequence Identifiers: /) {
+      $in_scope = 1;
+    } elsif ($in_scope and /^# \S+ \([^:\s]+: <([0-9A-F]+),([0-9A-F]+)>, <([0-9A-F]+),([0-9A-F]+)>\)$/) {
+      my $c1 = (chr hex $1) . (chr hex $2);
+      my $c2 = (chr hex $3) . (chr hex $4);
+      $Data->{variants}->{$c1}->{$c2}->{"ivd:duplicate"} = 1;
+    } elsif ($in_scope and /^# Shared IVSes: /) {
+      $in_scope = 0;
+    #} elsif ($in_scope and /^#/) {
+    #  warn "<$_>";
+    }
+  }
+}
+
+{
   my $path = $TempPath->child ('EquivalentUnifiedIdeograph.txt');
   for (split /\x0D?\x0A/, $path->slurp) {
     if (/^#/) {

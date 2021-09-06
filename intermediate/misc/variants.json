@@ -17791,6 +17791,9 @@
          },
          "儿" : {
             "manakai:related" : 1
+         },
+         "𤯔" : {
+            "manakai:variant:wu" : 1
          }
       },
       "亻" : {
@@ -22733,6 +22736,9 @@
          "䥚" : {
             "manakai:related" : 1
          },
+         "𡔈" : {
+            "manakai:variant:wu" : 1
+         },
          "𥘉" : {
             "manakai:related" : 1
          }
@@ -26571,6 +26577,17 @@
             "manakai:related" : 1
          }
       },
+      "君" : {
+         "𠁈" : {
+            "manakai:variant:wu" : 1
+         },
+         "𠱰" : {
+            "manakai:variant:wu" : 1
+         },
+         "𠺞" : {
+            "manakai:variant:wu" : 1
+         }
+      },
       "吝" : {
          "㖁" : {
             "manakai:related" : 1
@@ -30246,7 +30263,8 @@
             "manakai:related" : 1
          },
          "圀" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:wu" : 1
          },
          "國" : {
             "manakai:related" : 1
@@ -30512,7 +30530,8 @@
             "manakai:related" : 1
          },
          "埊" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:wu" : 1
          },
          "墬" : {
             "manakai:related" : 1
@@ -33297,6 +33316,12 @@
          },
          "靝" : {
             "manakai:related" : 1
+         },
+         "𠀑" : {
+            "manakai:variant:wu" : 1
+         },
+         "𠑺" : {
+            "manakai:variant:wu" : 1
          }
       },
       "太" : {
@@ -39521,6 +39546,12 @@
          },
          "秊" : {
             "manakai:related" : 1
+         },
+         "𠡦" : {
+            "manakai:variant:wu" : 1
+         },
+         "𠦚" : {
+            "manakai:variant:wu" : 1
          }
       },
       "幵" : {
@@ -39595,6 +39626,9 @@
          },
          "袎" : {
             "manakai:related" : 1
+         },
+         "𢈗" : {
+            "manakai:variant:wu" : 1
          }
       },
       "幾" : {
@@ -41599,6 +41633,9 @@
          },
          "譍" : {
             "manakai:related" : 1
+         },
+         "𠩍" : {
+            "manakai:variant:wu" : 1
          }
       },
       "忝" : {
@@ -46316,6 +46353,12 @@
       "授" : {
          "䛵" : {
             "manakai:related" : 1
+         },
+         "𥠢" : {
+            "manakai:variant:wu" : 1
+         },
+         "𥢓" : {
+            "manakai:variant:wu" : 1
          }
       },
       "掉" : {
@@ -49693,6 +49736,9 @@
          },
          "囸" : {
             "manakai:related" : 1
+         },
+         "𡆠" : {
+            "manakai:variant:wu" : 1
          }
       },
       "旧" : {
@@ -49939,6 +49985,10 @@
          }
       },
       "星" : {
+         "〇" : {
+            "manakai:variant:conflicted" : 1,
+            "manakai:variant:wu" : 1
+         },
          "㽮" : {
             "manakai:related" : 1
          },
@@ -51101,7 +51151,11 @@
             "manakai:related" : 1
          },
          "囝" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:wu" : 1
+         },
+         "𠥱" : {
+            "manakai:variant:wu" : 1
          }
       },
       "有" : {
@@ -56400,6 +56454,9 @@
       "正" : {
          "㱏" : {
             "manakai:related" : 1
+         },
+         "𠙺" : {
+            "manakai:variant:wu" : 1
          }
       },
       "步" : {
@@ -63571,7 +63628,8 @@
             "manakai:related" : 1
          },
          "曌" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:wu" : 1
          },
          "炤" : {
             "manakai:related" : 1
@@ -63580,7 +63638,8 @@
             "manakai:related" : 1
          },
          "瞾" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:wu" : 1
          }
       },
       "煨" : {
@@ -67551,6 +67610,9 @@
          },
          "甥" : {
             "manakai:related" : 1
+         },
+         "𠤵" : {
+            "manakai:variant:wu" : 1
          }
       },
       "甠" : {
@@ -81418,6 +81480,9 @@
          },
          "垩" : {
             "manakai:related" : 1
+         },
+         "𨲢" : {
+            "manakai:variant:wu" : 1
          }
       },
       "聚" : {
@@ -83252,6 +83317,11 @@
       "臢" : {
          "臜" : {
             "manakai:related" : 1
+         }
+      },
+      "臣" : {
+         "𢘑" : {
+            "manakai:variant:wu" : 1
          }
       },
       "臤" : {
@@ -91888,6 +91958,12 @@
          "证" : {
             "manakai:related" : 1,
             "manakai:variant:simplified" : 1
+         },
+         "𤪉" : {
+            "manakai:variant:wu" : 1
+         },
+         "𨭻" : {
+            "manakai:variant:wu" : 1
          }
       },
       "訽" : {
@@ -98330,6 +98406,12 @@
          },
          "载" : {
             "manakai:related" : 1
+         },
+         "𠧋" : {
+            "manakai:variant:wu" : 1
+         },
+         "𡕀" : {
+            "manakai:variant:wu" : 1
          }
       },
       "輊" : {
@@ -107940,6 +108022,11 @@
             "manakai:related" : 1
          }
       },
+      "除" : {
+         "𠀺" : {
+            "manakai:variant:wu" : 1
+         }
+      },
       "陥" : {
          "䧟" : {
             "manakai:related" : 1
@@ -108421,7 +108508,7 @@
          },
          "陦" : {
             "manakai:related" : 1,
-            "manakai:variant:jpnewstyle" : 1
+            "manakai:variant:simplified" : 1
          },
          "隝" : {
             "manakai:related" : 1
@@ -108878,6 +108965,9 @@
          }
       },
       "零" : {
+         "〇" : {
+            "manakai:variant:conflicted" : 1
+         },
          "霝" : {
             "manakai:related" : 1
          },
@@ -124472,6 +124562,21 @@
          },
          "寿" : {
             "manakai:related" : 1
+         }
+      },
+      "𭭽" : {
+         "死󠄂" : {
+            "manakai:unified" : 1
+         }
+      },
+      "𮕩" : {
+         "衰󠄃" : {
+            "manakai:unified" : 1
+         }
+      },
+      "𮖠" : {
+         "襄󠄃" : {
+            "manakai:unified" : 1
          }
       },
       "丽" : {

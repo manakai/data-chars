@@ -17,6 +17,13 @@ sub wrap ($) {
   return $s;
 } # wrap
 
+sub bad ($) {
+  my $s = shift;
+  return 1 if $s eq "\x{FFFD}";
+  return 1 if $s =~ /[\x{FF00}-\x{FF5F}]/;
+  return 0;
+} # bad
+
 {
   my $path = $TempPath->child ('variants.txt');
   my $vtype = 'cjkvi:variants';
@@ -87,25 +94,25 @@ for (
     } elsif (m{^([^,\s]+),([a-z0-9/-]+),([^,\s]+)\s*$}) {
       my $c1 = wrap $1;
       my $c2 = wrap $3;
-      next if $c2 eq "\x{FFFD}";
+      next if bad $c2;
       my $vtype = "cjkvi:$2";
       $Data->{variants}->{$c1}->{$c2}->{$vtype} = 1;
     } elsif (m{^([^,\s]+),(hydcd/borrowed),([^,\s]+),[0-9]+$}) {
       my $c1 = wrap $1;
       my $c2 = wrap $3;
-      next if $c2 eq "\x{FFFD}";
+      next if bad $c2;
       my $vtype = "cjkvi:$2";
       $Data->{variants}->{$c1}->{$c2}->{$vtype} = 1;
     } elsif (m{^([^,\s]+),([a-z0-9/]+),([^,\s]+)[, ]\[}) {
       my $c1 = wrap $1;
       my $c2 = wrap $3;
-      next if $c2 eq "\x{FFFD}";
+      next if bad $c2;
       my $vtype = "cjkvi:$2";
       $Data->{variants}->{$c1}->{$c2}->{$vtype} = 1;
     } elsif (m{^([^,\s]+),([a-z0-9/-]+),([^,\s]+),([^,\s]+|JIS X 0213:2004)\s*$}) {
       my $c1 = wrap $1;
       my $c2 = wrap $3;
-      next if $c2 eq "\x{FFFD}";
+      next if bad $c2;
       my $vtype = "cjkvi:$2:$4";
       $vtype =~ s/ /-/g;
       $Data->{variants}->{$c1}->{$c2}->{$vtype} = 1;

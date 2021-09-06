@@ -68,7 +68,9 @@ my $PairedTypes = [];
     "mj:対応する互換漢字",
     "mj:戸籍統一文字:同一",
     "unicode:svs",
+    "ivd:duplicate",
     "cjkvi:cjkvi/duplicate",
+    "manakai:same",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
     $TypeWeight->{'rev:'.$vtype} = W 'SAME';
@@ -92,6 +94,7 @@ my $PairedTypes = [];
     
     "unihan:kZVariant",
     "cjkvi:ucs-scs/variant",
+    "manakai:unified",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -119,6 +122,7 @@ my $PairedTypes = [];
 
     "manakai:variant:simplified",
     "manakai:variant:jpnewstyle",
+    "manakai:variant:wu",
     "manakai:equivalent",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';

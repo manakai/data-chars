@@ -17,7 +17,8 @@ jpnewstyle 緕 纃
 jpnewstyle 褝 襌
 jpnewstyle 珱 瓔
 jpnewstyle 﨔 欅
-jpnewstyle 陦 隯
+#jpnewstyle 陦 隯
+simplified 陦 隯
 jpnewstyle 畴 疇
 jpnewstyle 踌 躊
 jpnewstyle 筝 箏
@@ -165,3 +166,49 @@ related 咸 感
 related 彗 慧
 related 齎 齋
 related 令 齢
+
+unified 死\u{E0102} \u{2DB7D}
+unified 衰\u{E0103} \u{2E569}
+unified \u8944\u{E0103} \u{2E5A0}
+
+wu 𠀑 天
+wu 𠑺 天
+
+wu 𥢓 授
+wu 𥠢 授
+
+wu 𡕀 載
+wu 𠧋 載
+
+wu 𠡦 年
+wu 𠦚 年
+
+wu 𨭻 証
+wu 𤪉 証
+
+wu 曌 照 
+wu 瞾 照
+
+wu 囝 月
+wu 𠥱 月
+
+wu 𠺞 君
+wu 𠁈 君
+wu 𠱰 君
+
+wu 𡔈 初
+wu 𨲢 聖
+wu 埊 地
+wu 𡆠 日
+wu 圀 国
+wu 𢘑 臣
+wu 𠀺 除
+wu 𠙺 正
+wu 𤯔 人
+wu 𢈗 幼
+wu 𠤵 生
+wu 𠩍 応
+
+wu 〇 星
+conflict 〇 星
+conflict 〇 零
