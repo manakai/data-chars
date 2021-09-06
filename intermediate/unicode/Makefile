@@ -36,10 +36,13 @@ $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt:
 
 $(TEMP_PATH)/IVD_Sequences.txt:
 	$(SAVEURL) $@ https://www.unicode.org/ivd/data/2020-11-06/IVD_Sequences.txt
+$(TEMP_PATH)/IVD_Stats.txt:
+	$(SAVEURL) $@ https://www.unicode.org/ivd/data/2020-11-06/IVD_Stats.txt
 
 variants.json: variants.pl \
     $(TEMP_PATH)/Unihan_Variants.txt \
     $(TEMP_PATH)/IVD_Sequences.txt \
+    $(TEMP_PATH)/IVD_Stats.txt \
     $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt \
     $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
     $(TEMP_PATH)/unihan-tghz2013.txt \
