@@ -6,7 +6,7 @@ Encode~3.12
 JSON::XS~4.03
 Path::Class~0.37
 Path::Tiny~0.118
-Scalar::Util~1.57
+Scalar::Util~1.59
 Test::Differences~0.68
 Test::More~1.302186
 Test::NoWarnings~1.06
