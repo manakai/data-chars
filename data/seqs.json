@@ -311,7 +311,64 @@
    "0646 06A9" : {
       "has_name" : 1
    },
+   "0915 093C" : {
+      "has_name" : 1
+   },
+   "0916 093C" : {
+      "has_name" : 1
+   },
+   "0917 093C" : {
+      "has_name" : 1
+   },
+   "091C 093C" : {
+      "has_name" : 1
+   },
+   "0921 093C" : {
+      "has_name" : 1
+   },
+   "0922 093C" : {
+      "has_name" : 1
+   },
+   "092B 093C" : {
+      "has_name" : 1
+   },
+   "092F 093C" : {
+      "has_name" : 1
+   },
    "0995 09CD 09B7" : {
+      "has_name" : 1
+   },
+   "09A1 09BC" : {
+      "has_name" : 1
+   },
+   "09A2 09BC" : {
+      "has_name" : 1
+   },
+   "09AF 09BC" : {
+      "has_name" : 1
+   },
+   "0A16 0A3C" : {
+      "has_name" : 1
+   },
+   "0A17 0A3C" : {
+      "has_name" : 1
+   },
+   "0A1C 0A3C" : {
+      "has_name" : 1
+   },
+   "0A2B 0A3C" : {
+      "has_name" : 1
+   },
+   "0A32 0A3C" : {
+      "has_name" : 1
+   },
+   "0A38 0A3C" : {
+      "has_name" : 1
+   },
+   "0B21 0B3C" : {
+      "has_name" : 1
+   },
+   "0B22 0B3C" : {
       "has_name" : 1
    },
    "0B95 0BBE" : {

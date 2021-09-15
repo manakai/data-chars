@@ -10,6 +10,7 @@
 - $unicode:Block:Ancient_Symbols
 - $unicode:Block:Arabic
 - $unicode:Block:Arabic_Extended-A
+- $unicode:Block:Arabic_Extended-B
 - $unicode:Block:Arabic_Mathematical_Alphabetic_Symbols
 - $unicode:Block:Arabic_Presentation_Forms-A
 - $unicode:Block:Arabic_Presentation_Forms-B
@@ -71,6 +72,7 @@
 - $unicode:Block:Cuneiform_Numbers_and_Punctuation
 - $unicode:Block:Currency_Symbols
 - $unicode:Block:Cypriot_Syllabary
+- $unicode:Block:Cypro-Minoan
 - $unicode:Block:Cyrillic
 - $unicode:Block:Cyrillic_Extended-A
 - $unicode:Block:Cyrillic_Extended-B
@@ -97,6 +99,7 @@
 - $unicode:Block:Ethiopic
 - $unicode:Block:Ethiopic_Extended
 - $unicode:Block:Ethiopic_Extended-A
+- $unicode:Block:Ethiopic_Extended-B
 - $unicode:Block:Ethiopic_Supplement
 - $unicode:Block:General_Punctuation
 - $unicode:Block:Geometric_Shapes
@@ -136,6 +139,7 @@
 - $unicode:Block:Javanese
 - $unicode:Block:Kaithi
 - $unicode:Block:Kana_Extended-A
+- $unicode:Block:Kana_Extended-B
 - $unicode:Block:Kana_Supplement
 - $unicode:Block:Kanbun
 - $unicode:Block:Kangxi_Radicals
@@ -156,6 +160,8 @@
 - $unicode:Block:Latin_Extended-C
 - $unicode:Block:Latin_Extended-D
 - $unicode:Block:Latin_Extended-E
+- $unicode:Block:Latin_Extended-F
+- $unicode:Block:Latin_Extended-G
 - $unicode:Block:Latin_Extended_Additional
 - $unicode:Block:Lepcha
 - $unicode:Block:Letterlike_Symbols
@@ -220,6 +226,7 @@
 - $unicode:Block:Old_Sogdian
 - $unicode:Block:Old_South_Arabian
 - $unicode:Block:Old_Turkic
+- $unicode:Block:Old_Uyghur
 - $unicode:Block:Optical_Character_Recognition
 - $unicode:Block:Oriya
 - $unicode:Block:Ornamental_Dingbats
@@ -282,6 +289,7 @@
 - $unicode:Block:Takri
 - $unicode:Block:Tamil
 - $unicode:Block:Tamil_Supplement
+- $unicode:Block:Tangsa
 - $unicode:Block:Tangut
 - $unicode:Block:Tangut_Components
 - $unicode:Block:Tangut_Supplement
@@ -291,15 +299,18 @@
 - $unicode:Block:Tibetan
 - $unicode:Block:Tifinagh
 - $unicode:Block:Tirhuta
+- $unicode:Block:Toto
 - $unicode:Block:Transport_and_Map_Symbols
 - $unicode:Block:Ugaritic
 - $unicode:Block:Unified_Canadian_Aboriginal_Syllabics
 - $unicode:Block:Unified_Canadian_Aboriginal_Syllabics_Extended
+- $unicode:Block:Unified_Canadian_Aboriginal_Syllabics_Extended-A
 - $unicode:Block:Vai
 - $unicode:Block:Variation_Selectors
 - $unicode:Block:Variation_Selectors_Supplement
 - $unicode:Block:Vedic_Extensions
 - $unicode:Block:Vertical_Forms
+- $unicode:Block:Vithkuqi
 - $unicode:Block:Wancho
 - $unicode:Block:Warang_Citi
 - $unicode:Block:Yezidi
@@ -307,3 +318,4 @@
 - $unicode:Block:Yi_Syllables
 - $unicode:Block:Yijing_Hexagram_Symbols
 - $unicode:Block:Zanabazar_Square
+- $unicode:Block:Znamenny_Musical_Notation
