@@ -407,7 +407,14 @@
             "Cypro-Minoan"
          ],
          "ianareg" : "2017-08-13",
-         "iso" : "Cpmn"
+         "iso" : "Cpmn",
+         "unicode" : "Cypro_Minoan",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Cpmn" : 1,
+            "Cypro_Minoan" : 1
+         },
+         "xforms" : "CyproMinoan"
       },
       "Cprt" : {
          "desc" : [
@@ -1801,6 +1808,15 @@
          },
          "xforms" : "Osmanya"
       },
+      "Ougr" : {
+         "unicode" : "Old_Uyghur",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Old_Uyghur" : 1,
+            "Ougr" : 1
+         },
+         "xforms" : "OldUyghur"
+      },
       "Palm" : {
          "desc" : [
             "Palmyrene"
@@ -2754,6 +2770,23 @@
          },
          "xforms" : "Tirhuta"
       },
+      "Tnsa" : {
+         "unicode" : "Tangsa",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Tangsa" : 1,
+            "Tnsa" : 1
+         },
+         "xforms" : "Tangsa"
+      },
+      "Toto" : {
+         "unicode" : "Toto",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Toto" : 1
+         },
+         "xforms" : "Toto"
+      },
       "Ugar" : {
          "desc" : [
             "Ugaritic"
@@ -2790,6 +2823,15 @@
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Visp"
+      },
+      "Vith" : {
+         "unicode" : "Vithkuqi",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Vith" : 1,
+            "Vithkuqi" : 1
+         },
+         "xforms" : "Vithkuqi"
       },
       "Wara" : {
          "desc" : [

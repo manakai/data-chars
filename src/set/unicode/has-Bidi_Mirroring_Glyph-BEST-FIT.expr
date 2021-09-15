@@ -1,6 +1,8 @@
 #label:Unicode has Bidi_Mirroring_Glyph BEST FIT mirroring
 #sw:Bidi_Mirroring_Glyph
-[\u{2268}
+[\u{2209}
+\u{220C}
+\u{2268}
 \u{2269}
 \u{226E}
 \u{226F}
