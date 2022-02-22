@@ -95,7 +95,10 @@
    "workflows" : {
       "build" : {
          "jobs" : [
-            "build",
+            {
+               "build" : {
+               }
+            },
             {
                "deploy_nightly" : {
                   "context" : [
