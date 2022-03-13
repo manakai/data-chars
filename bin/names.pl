@@ -157,6 +157,20 @@ $Data->{code_to_name}->{'4EDD'}->{name} ||= 'CJK UNIFIED IDEOGRAPH-4EDD';
 }
 
 {
+  ## <https://wiki.suikawiki.org/n/%E6%96%87%E5%AD%97%E3%81%AE%E5%90%8D%E5%89%8D#header-section-%E5%90%8D%E5%89%8D%E3%81%A8%E8%A8%80%E8%AA%9E>
+  use utf8;
+  for (
+    ['337E', 'ÈRE MEIJI DISPOSÉ EN CARRÉ'],
+    ['337D', 'ÈRE TAÏCHÔ DISPOSÉ EN CARRÉ'],
+    ['337C', 'ÈRE CHÔWA DISPOSÉ EN CARRÉ'],
+    ['337B', 'ÈRE HEISEI DISPOSÉ EN CARRÉ'],
+    ['32FF', 'ÈRE REIWA DISPOSÉ EN CARRÉ'],
+  ) {
+    $Data->{code_to_name}->{$_->[0]}->{fr_name} = $_->[1];
+  }
+}
+
+{
   ## JIS X 0202:1998
   use utf8;
   $Data->{code_to_name}->{'0020'}->{ja_name} = 'スペース';

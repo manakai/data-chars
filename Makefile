@@ -17,7 +17,7 @@ update-submodules:
 	$(CURL) -sSLf https://raw.githubusercontent.com/wakaba/ciconfig/master/ciconfig | RUN_GIT=1 REMOVE_UNUSED=1 perl
 
 dataautoupdate: clean deps all
-	$(GIT) add data/ src/
+	$(GIT) add data/ src/ intermediate view
 
 ## ------ Setup ------
 

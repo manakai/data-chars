@@ -1,7 +1,7 @@
-names.json
-~~~~~~~~~~
+data/names.json
+~~~~~~~~~~~~~~~
 
-This file contains list of character names.
+This file contains a list of character names.
 
 * Structure
 
@@ -9,29 +9,37 @@ The file contains a JSON object with following name/value pair:
 
   code_to_name [object]
 
-    A JSON object whose names are code points and values are their
-    names.  Values are JSON objects with following name/value pairs:
+    An [object] whose names are code points and values are their
+    names.  Values are [object]s with following name/value pairs:
 
-      name [string?]
-
-        The character name for the code point, if any.
-
-      correction, control, alternate, figment, abbreviation [object?]
+      abbreviation [object?]
+      alternate [object?]
+      control [object?]
+      correction [object?]
+      figment [object?]
 
         Character name aliases with the given type, as in
-        NameAliases.txt.  Values are JSON objects whose names are
-        alias names and values are boolean true values.
+        NameAliases.txt, if any.  Values are [object]s whose names are
+        alias names and values are [boolean] true values.
 
-      label [string?]
+      fr_name [string?]
 
-        The code point label for the code point, without "<" and ">",
-        if any.
+        The French character name for the code point, if known.
 
       ja_name [string?]
 
         Non-normative Japanese name (日本語通用名称) for the
         character, if any and known.  Sources include JIS X 0202, JIS
         X 0211, and JIS X 0213.
+
+      label [string?]
+
+        The code point label for the code point, without "<" and ">",
+        if any.
+
+      name [string?]
+
+        The character name for the code point, if any.
 
     Note that character names beginning with "CJK UNIFIED IDEOGRAPH-"
     (except for CJK UNIFIED IDEOGRAPH-4EDD) and code points whose
@@ -104,31 +112,34 @@ following steps:
 
 * Sources
 
-Unicode Character Database:
+Unicode Character Database, Unicode, Inc.:
 
   NamesList.txt
-  <http://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt>.
+  <https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt>.
 
   NameAliases.txt
-  <http://www.unicode.org/Public/UCD/latest/ucd/NameAliases.txt>.
+  <https://www.unicode.org/Public/UCD/latest/ucd/NameAliases.txt>.
 
   NamedSequences.txt
-  <http://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt>.
+  <https://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt>.
 
-JIS X 0202:1998 Information technology -- Character code structure and
-extension techniques.
+"Tableaux des caractères", Unicode, Inc.,
+<https://www.unicode.org/charts/fr/>.
 
-JIS X 0211-1994 Information technology -- Control functions for coded
-character sets.
+JIS X 0202:1998, "Information technology -- Character code structure
+and extension techniques", JISC.
 
-JIS X 0213:2000 7-bit and 8-bit double byte coded extended Kanji sets
-for information interchange.
+JIS X 0211-1994, "Information technology -- Control functions for
+coded character sets", JISC.
 
-Wikipedia:JIS X 0213非漢字一覧
-<http://ja.wikipedia.org/wiki/JIS_X_0213%E9%9D%9E%E6%BC%A2%E5%AD%97%E4%B8%80%E8%A6%A7>.
+JIS X 0213:2000, "7-bit and 8-bit double byte coded extended Kanji
+sets for information interchange", JISC.
+
+"JIS X 0213非漢字一覧", Wikipedia,
+<https://ja.wikipedia.org/wiki/JIS_X_0213%E9%9D%9E%E6%BC%A2%E5%AD%97%E4%B8%80%E8%A6%A7>.
 
 * License
 
 The file contains data generated from Unicode Character Database.
 Copyright © 1991-2014 Unicode, Inc. All rights reserved.  See
-<http://www.unicode.org/copyright.html#Exhibit1>.
+<https://www.unicode.org/copyright.html#Exhibit1>.

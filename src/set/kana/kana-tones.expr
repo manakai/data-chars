@@ -1,0 +1,3 @@
+#label:Kana tone marks
+#sw:仮名声調符号
+[\u{1AFF7}-\u{1AFFE}]
