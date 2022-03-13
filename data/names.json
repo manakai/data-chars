@@ -91252,6 +91252,7 @@
          "name" : "CIRCLED KATAKANA WO"
       },
       "32FF" : {
+         "fr_name" : "ÈRE REIWA DISPOSÉ EN CARRÉ",
          "name" : "SQUARE ERA NAME REIWA"
       },
       "3300" : {
@@ -91640,18 +91641,22 @@
          "name" : "SQUARE IU"
       },
       "337B" : {
+         "fr_name" : "ÈRE HEISEI DISPOSÉ EN CARRÉ",
          "ja_name" : "全角元号平成",
          "name" : "SQUARE ERA NAME HEISEI"
       },
       "337C" : {
+         "fr_name" : "ÈRE CHÔWA DISPOSÉ EN CARRÉ",
          "ja_name" : "全角元号昭和",
          "name" : "SQUARE ERA NAME SYOUWA"
       },
       "337D" : {
+         "fr_name" : "ÈRE TAÏCHÔ DISPOSÉ EN CARRÉ",
          "ja_name" : "全角元号大正",
          "name" : "SQUARE ERA NAME TAISYOU"
       },
       "337E" : {
+         "fr_name" : "ÈRE MEIJI DISPOSÉ EN CARRÉ",
          "ja_name" : "全角元号明治",
          "name" : "SQUARE ERA NAME MEIZI"
       },
