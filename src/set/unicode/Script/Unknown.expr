@@ -61,6 +61,7 @@
 - $unicode:Script:Kaithi
 - $unicode:Script:Kannada
 - $unicode:Script:Katakana
+- $unicode:Script:Kawi
 - $unicode:Script:Kayah_Li
 - $unicode:Script:Kharoshthi
 - $unicode:Script:Khitan_Small_Script
@@ -95,6 +96,7 @@
 - $unicode:Script:Multani
 - $unicode:Script:Myanmar
 - $unicode:Script:Nabataean
+- $unicode:Script:Nag_Mundari
 - $unicode:Script:Nandinagari
 - $unicode:Script:New_Tai_Lue
 - $unicode:Script:Newa
