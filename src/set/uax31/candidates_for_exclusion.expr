@@ -32,6 +32,7 @@ $unicode:Script:Hluw |
 $unicode:Script:Hmng |
 $unicode:Script:Hung |
 $unicode:Script:Ital |
+$unicode:Script:Kawi |
 $unicode:Script:Khar |
 $unicode:Script:Khoj |
 $unicode:Script:Kits |
@@ -52,6 +53,7 @@ $unicode:Script:Modi |
 $unicode:Script:Mong |
 $unicode:Script:Mroo |
 $unicode:Script:Mult |
+$unicode:Script:Nagm |
 $unicode:Script:Nand |
 $unicode:Script:Narb |
 $unicode:Script:Nbat |

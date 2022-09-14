@@ -1046,6 +1046,14 @@
          },
          "xforms" : "Katakana"
       },
+      "Kawi" : {
+         "unicode" : "Kawi",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Kawi" : 1
+         },
+         "xforms" : "Kawi"
+      },
       "Khar" : {
          "desc" : [
             "Kharoshthi"
@@ -1600,6 +1608,15 @@
             "Mymr" : 1
          },
          "xforms" : "Myanmar"
+      },
+      "Nagm" : {
+         "unicode" : "Nag_Mundari",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Nag_Mundari" : 1,
+            "Nagm" : 1
+         },
+         "xforms" : "NagMundari"
       },
       "Nand" : {
          "desc" : [

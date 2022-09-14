@@ -1671,6 +1671,7 @@
       },
       "0019" : {
          "abbreviation" : {
+            "EM" : 1,
             "EOM" : 1
          },
          "control" : {
@@ -6965,6 +6966,9 @@
          "name" : "ARABIC SMALL HIGH TAH"
       },
       "0616" : {
+         "correction" : {
+            "ARABIC SMALL HIGH LIGATURE ALEF WITH YEH BARREE" : 1
+         },
          "name" : "ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH"
       },
       "0617" : {
@@ -11344,6 +11348,9 @@
       "0CF2" : {
          "name" : "KANNADA SIGN UPADHMANIYA"
       },
+      "0CF3" : {
+         "name" : "KANNADA SIGN COMBINING ANUSVARA ABOVE RIGHT"
+      },
       "0D00" : {
          "name" : "MALAYALAM SIGN COMBINING ANUSVARA ABOVE"
       },
@@ -12447,6 +12454,9 @@
       },
       "0ECD" : {
          "name" : "LAO NIGGAHITA"
+      },
+      "0ECE" : {
+         "name" : "LAO YAMAKKAN"
       },
       "0ED0" : {
          "name" : "LAO DIGIT ZERO"
@@ -21337,6 +21347,15 @@
       "10EF" : {
          "name" : "GEORGIAN LETTER JHAN"
       },
+      "10EFD" : {
+         "name" : "ARABIC SMALL LOW WORD SAKTA"
+      },
+      "10EFE" : {
+         "name" : "ARABIC SMALL LOW WORD QASR"
+      },
+      "10EFF" : {
+         "name" : "ARABIC SMALL LOW WORD MADDA"
+      },
       "10F0" : {
          "name" : "GEORGIAN LETTER HAE"
       },
@@ -23494,8 +23513,17 @@
       "1123E" : {
          "name" : "KHOJKI SIGN SUKUN"
       },
+      "1123F" : {
+         "name" : "KHOJKI LETTER QA"
+      },
       "1124" : {
          "name" : "HANGUL CHOSEONG PIEUP-SIOS-PIEUP"
+      },
+      "11240" : {
+         "name" : "KHOJKI LETTER SHORT I"
+      },
+      "11241" : {
+         "name" : "KHOJKI VOWEL SIGN VOCALIC R"
       },
       "1125" : {
          "name" : "HANGUL CHOSEONG PIEUP-SSANGSIOS"
@@ -27511,6 +27539,36 @@
       "11B0" : {
          "name" : "HANGUL JONGSEONG RIEUL-KIYEOK"
       },
+      "11B00" : {
+         "name" : "DEVANAGARI HEAD MARK"
+      },
+      "11B01" : {
+         "name" : "DEVANAGARI HEAD MARK WITH HEADSTROKE"
+      },
+      "11B02" : {
+         "name" : "DEVANAGARI SIGN BHALE"
+      },
+      "11B03" : {
+         "name" : "DEVANAGARI SIGN BHALE WITH HOOK"
+      },
+      "11B04" : {
+         "name" : "DEVANAGARI SIGN EXTENDED BHALE"
+      },
+      "11B05" : {
+         "name" : "DEVANAGARI SIGN EXTENDED BHALE WITH HOOK"
+      },
+      "11B06" : {
+         "name" : "DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE"
+      },
+      "11B07" : {
+         "name" : "DEVANAGARI SIGN WESTERN NINE-LIKE BHALE"
+      },
+      "11B08" : {
+         "name" : "DEVANAGARI SIGN REVERSED NINE-LIKE BHALE"
+      },
+      "11B09" : {
+         "name" : "DEVANAGARI SIGN MINDU"
+      },
       "11B1" : {
          "name" : "HANGUL JONGSEONG RIEUL-MIEUM"
       },
@@ -28699,20 +28757,278 @@
       "11F0" : {
          "name" : "HANGUL JONGSEONG YESIEUNG"
       },
+      "11F00" : {
+         "name" : "KAWI SIGN CANDRABINDU"
+      },
+      "11F01" : {
+         "name" : "KAWI SIGN ANUSVARA"
+      },
+      "11F02" : {
+         "name" : "KAWI SIGN REPHA"
+      },
+      "11F03" : {
+         "name" : "KAWI SIGN VISARGA"
+      },
+      "11F04" : {
+         "name" : "KAWI LETTER A"
+      },
+      "11F05" : {
+         "name" : "KAWI LETTER AA"
+      },
+      "11F06" : {
+         "name" : "KAWI LETTER I"
+      },
+      "11F07" : {
+         "name" : "KAWI LETTER II"
+      },
+      "11F08" : {
+         "name" : "KAWI LETTER U"
+      },
+      "11F09" : {
+         "name" : "KAWI LETTER UU"
+      },
+      "11F0A" : {
+         "name" : "KAWI LETTER VOCALIC R"
+      },
+      "11F0B" : {
+         "name" : "KAWI LETTER VOCALIC RR"
+      },
+      "11F0C" : {
+         "name" : "KAWI LETTER VOCALIC L"
+      },
+      "11F0D" : {
+         "name" : "KAWI LETTER VOCALIC LL"
+      },
+      "11F0E" : {
+         "name" : "KAWI LETTER E"
+      },
+      "11F0F" : {
+         "name" : "KAWI LETTER AI"
+      },
       "11F1" : {
          "name" : "HANGUL JONGSEONG YESIEUNG-SIOS"
+      },
+      "11F10" : {
+         "name" : "KAWI LETTER O"
+      },
+      "11F12" : {
+         "name" : "KAWI LETTER KA"
+      },
+      "11F13" : {
+         "name" : "KAWI LETTER KHA"
+      },
+      "11F14" : {
+         "name" : "KAWI LETTER GA"
+      },
+      "11F15" : {
+         "name" : "KAWI LETTER GHA"
+      },
+      "11F16" : {
+         "name" : "KAWI LETTER NGA"
+      },
+      "11F17" : {
+         "name" : "KAWI LETTER CA"
+      },
+      "11F18" : {
+         "name" : "KAWI LETTER CHA"
+      },
+      "11F19" : {
+         "name" : "KAWI LETTER JA"
+      },
+      "11F1A" : {
+         "name" : "KAWI LETTER JHA"
+      },
+      "11F1B" : {
+         "name" : "KAWI LETTER NYA"
+      },
+      "11F1C" : {
+         "name" : "KAWI LETTER TTA"
+      },
+      "11F1D" : {
+         "name" : "KAWI LETTER TTHA"
+      },
+      "11F1E" : {
+         "name" : "KAWI LETTER DDA"
+      },
+      "11F1F" : {
+         "name" : "KAWI LETTER DDHA"
       },
       "11F2" : {
          "name" : "HANGUL JONGSEONG YESIEUNG-PANSIOS"
       },
+      "11F20" : {
+         "name" : "KAWI LETTER NNA"
+      },
+      "11F21" : {
+         "name" : "KAWI LETTER TA"
+      },
+      "11F22" : {
+         "name" : "KAWI LETTER THA"
+      },
+      "11F23" : {
+         "name" : "KAWI LETTER DA"
+      },
+      "11F24" : {
+         "name" : "KAWI LETTER DHA"
+      },
+      "11F25" : {
+         "name" : "KAWI LETTER NA"
+      },
+      "11F26" : {
+         "name" : "KAWI LETTER PA"
+      },
+      "11F27" : {
+         "name" : "KAWI LETTER PHA"
+      },
+      "11F28" : {
+         "name" : "KAWI LETTER BA"
+      },
+      "11F29" : {
+         "name" : "KAWI LETTER BHA"
+      },
+      "11F2A" : {
+         "name" : "KAWI LETTER MA"
+      },
+      "11F2B" : {
+         "name" : "KAWI LETTER YA"
+      },
+      "11F2C" : {
+         "name" : "KAWI LETTER RA"
+      },
+      "11F2D" : {
+         "name" : "KAWI LETTER LA"
+      },
+      "11F2E" : {
+         "name" : "KAWI LETTER WA"
+      },
+      "11F2F" : {
+         "name" : "KAWI LETTER SHA"
+      },
       "11F3" : {
          "name" : "HANGUL JONGSEONG PHIEUPH-PIEUP"
+      },
+      "11F30" : {
+         "name" : "KAWI LETTER SSA"
+      },
+      "11F31" : {
+         "name" : "KAWI LETTER SA"
+      },
+      "11F32" : {
+         "name" : "KAWI LETTER HA"
+      },
+      "11F33" : {
+         "name" : "KAWI LETTER JNYA"
+      },
+      "11F34" : {
+         "name" : "KAWI VOWEL SIGN AA"
+      },
+      "11F35" : {
+         "name" : "KAWI VOWEL SIGN ALTERNATE AA"
+      },
+      "11F36" : {
+         "name" : "KAWI VOWEL SIGN I"
+      },
+      "11F37" : {
+         "name" : "KAWI VOWEL SIGN II"
+      },
+      "11F38" : {
+         "name" : "KAWI VOWEL SIGN U"
+      },
+      "11F39" : {
+         "name" : "KAWI VOWEL SIGN UU"
+      },
+      "11F3A" : {
+         "name" : "KAWI VOWEL SIGN VOCALIC R"
+      },
+      "11F3E" : {
+         "name" : "KAWI VOWEL SIGN E"
+      },
+      "11F3F" : {
+         "name" : "KAWI VOWEL SIGN AI"
       },
       "11F4" : {
          "name" : "HANGUL JONGSEONG KAPYEOUNPHIEUPH"
       },
+      "11F40" : {
+         "name" : "KAWI VOWEL SIGN EU"
+      },
+      "11F41" : {
+         "name" : "KAWI SIGN KILLER"
+      },
+      "11F42" : {
+         "name" : "KAWI CONJOINER"
+      },
+      "11F43" : {
+         "name" : "KAWI DANDA"
+      },
+      "11F44" : {
+         "name" : "KAWI DOUBLE DANDA"
+      },
+      "11F45" : {
+         "name" : "KAWI PUNCTUATION SECTION MARKER"
+      },
+      "11F46" : {
+         "name" : "KAWI PUNCTUATION ALTERNATE SECTION MARKER"
+      },
+      "11F47" : {
+         "name" : "KAWI PUNCTUATION FLOWER"
+      },
+      "11F48" : {
+         "name" : "KAWI PUNCTUATION SPACE FILLER"
+      },
+      "11F49" : {
+         "name" : "KAWI PUNCTUATION DOT"
+      },
+      "11F4A" : {
+         "name" : "KAWI PUNCTUATION DOUBLE DOT"
+      },
+      "11F4B" : {
+         "name" : "KAWI PUNCTUATION TRIPLE DOT"
+      },
+      "11F4C" : {
+         "name" : "KAWI PUNCTUATION CIRCLE"
+      },
+      "11F4D" : {
+         "name" : "KAWI PUNCTUATION FILLED CIRCLE"
+      },
+      "11F4E" : {
+         "name" : "KAWI PUNCTUATION SPIRAL"
+      },
+      "11F4F" : {
+         "name" : "KAWI PUNCTUATION CLOSING SPIRAL"
+      },
       "11F5" : {
          "name" : "HANGUL JONGSEONG HIEUH-NIEUN"
+      },
+      "11F50" : {
+         "name" : "KAWI DIGIT ZERO"
+      },
+      "11F51" : {
+         "name" : "KAWI DIGIT ONE"
+      },
+      "11F52" : {
+         "name" : "KAWI DIGIT TWO"
+      },
+      "11F53" : {
+         "name" : "KAWI DIGIT THREE"
+      },
+      "11F54" : {
+         "name" : "KAWI DIGIT FOUR"
+      },
+      "11F55" : {
+         "name" : "KAWI DIGIT FIVE"
+      },
+      "11F56" : {
+         "name" : "KAWI DIGIT SIX"
+      },
+      "11F57" : {
+         "name" : "KAWI DIGIT SEVEN"
+      },
+      "11F58" : {
+         "name" : "KAWI DIGIT EIGHT"
+      },
+      "11F59" : {
+         "name" : "KAWI DIGIT NINE"
       },
       "11F6" : {
          "name" : "HANGUL JONGSEONG HIEUH-RIEUL"
@@ -37024,6 +37340,9 @@
       "1342E" : {
          "name" : "EGYPTIAN HIEROGLYPH AA032"
       },
+      "1342F" : {
+         "name" : "EGYPTIAN HIEROGLYPH V011D"
+      },
       "1343" : {
          "name" : "ETHIOPIC SYLLABLE TZAA"
       },
@@ -37054,11 +37373,98 @@
       "13438" : {
          "name" : "EGYPTIAN HIEROGLYPH END SEGMENT"
       },
+      "13439" : {
+         "name" : "EGYPTIAN HIEROGLYPH INSERT AT MIDDLE"
+      },
+      "1343A" : {
+         "name" : "EGYPTIAN HIEROGLYPH INSERT AT TOP"
+      },
+      "1343B" : {
+         "name" : "EGYPTIAN HIEROGLYPH INSERT AT BOTTOM"
+      },
+      "1343C" : {
+         "name" : "EGYPTIAN HIEROGLYPH BEGIN ENCLOSURE"
+      },
+      "1343D" : {
+         "name" : "EGYPTIAN HIEROGLYPH END ENCLOSURE"
+      },
+      "1343E" : {
+         "name" : "EGYPTIAN HIEROGLYPH BEGIN WALLED ENCLOSURE"
+      },
+      "1343F" : {
+         "name" : "EGYPTIAN HIEROGLYPH END WALLED ENCLOSURE"
+      },
       "1344" : {
          "name" : "ETHIOPIC SYLLABLE TZEE"
       },
+      "13440" : {
+         "name" : "EGYPTIAN HIEROGLYPH MIRROR HORIZONTALLY"
+      },
+      "13441" : {
+         "name" : "EGYPTIAN HIEROGLYPH FULL BLANK"
+      },
+      "13442" : {
+         "name" : "EGYPTIAN HIEROGLYPH HALF BLANK"
+      },
+      "13443" : {
+         "name" : "EGYPTIAN HIEROGLYPH LOST SIGN"
+      },
+      "13444" : {
+         "name" : "EGYPTIAN HIEROGLYPH HALF LOST SIGN"
+      },
+      "13445" : {
+         "name" : "EGYPTIAN HIEROGLYPH TALL LOST SIGN"
+      },
+      "13446" : {
+         "name" : "EGYPTIAN HIEROGLYPH WIDE LOST SIGN"
+      },
+      "13447" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START"
+      },
+      "13448" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START"
+      },
+      "13449" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START"
+      },
+      "1344A" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP END"
+      },
+      "1344B" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP"
+      },
+      "1344C" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START AND TOP END"
+      },
+      "1344D" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND TOP"
+      },
+      "1344E" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM END"
+      },
+      "1344F" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START AND BOTTOM END"
+      },
       "1345" : {
          "name" : "ETHIOPIC SYLLABLE TZE"
+      },
+      "13450" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM"
+      },
+      "13451" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND BOTTOM"
+      },
+      "13452" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT END"
+      },
+      "13453" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP AND END"
+      },
+      "13454" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM AND END"
+      },
+      "13455" : {
+         "name" : "EGYPTIAN HIEROGLYPH MODIFIER DAMAGED"
       },
       "1346" : {
          "name" : "ETHIOPIC SYLLABLE TZO"
@@ -52141,6 +52547,9 @@
       "1B13" : {
          "name" : "BALINESE LETTER KA"
       },
+      "1B132" : {
+         "name" : "HIRAGANA LETTER SMALL KO"
+      },
       "1B14" : {
          "name" : "BALINESE LETTER KA MAHAPRANA"
       },
@@ -52155,6 +52564,9 @@
       },
       "1B152" : {
          "name" : "HIRAGANA LETTER SMALL WO"
+      },
+      "1B155" : {
+         "name" : "KATAKANA LETTER SMALL KO"
       },
       "1B16" : {
          "name" : "BALINESE LETTER GA GORA"
@@ -53846,6 +54258,9 @@
          "name" : "SUNDANESE LETTER LEU"
       },
       "1BBD" : {
+         "correction" : {
+            "SUNDANESE LETTER ARCHAIC I" : 1
+         },
          "name" : "SUNDANESE LETTER BHA"
       },
       "1BBE" : {
@@ -57487,8 +57902,68 @@
       "1D2C" : {
          "name" : "MODIFIER LETTER CAPITAL A"
       },
+      "1D2C0" : {
+         "name" : "KAKTOVIK NUMERAL ZERO"
+      },
+      "1D2C1" : {
+         "name" : "KAKTOVIK NUMERAL ONE"
+      },
+      "1D2C2" : {
+         "name" : "KAKTOVIK NUMERAL TWO"
+      },
+      "1D2C3" : {
+         "name" : "KAKTOVIK NUMERAL THREE"
+      },
+      "1D2C4" : {
+         "name" : "KAKTOVIK NUMERAL FOUR"
+      },
+      "1D2C5" : {
+         "name" : "KAKTOVIK NUMERAL FIVE"
+      },
+      "1D2C6" : {
+         "name" : "KAKTOVIK NUMERAL SIX"
+      },
+      "1D2C7" : {
+         "name" : "KAKTOVIK NUMERAL SEVEN"
+      },
+      "1D2C8" : {
+         "name" : "KAKTOVIK NUMERAL EIGHT"
+      },
+      "1D2C9" : {
+         "name" : "KAKTOVIK NUMERAL NINE"
+      },
+      "1D2CA" : {
+         "name" : "KAKTOVIK NUMERAL TEN"
+      },
+      "1D2CB" : {
+         "name" : "KAKTOVIK NUMERAL ELEVEN"
+      },
+      "1D2CC" : {
+         "name" : "KAKTOVIK NUMERAL TWELVE"
+      },
+      "1D2CD" : {
+         "name" : "KAKTOVIK NUMERAL THIRTEEN"
+      },
+      "1D2CE" : {
+         "name" : "KAKTOVIK NUMERAL FOURTEEN"
+      },
+      "1D2CF" : {
+         "name" : "KAKTOVIK NUMERAL FIFTEEN"
+      },
       "1D2D" : {
          "name" : "MODIFIER LETTER CAPITAL AE"
+      },
+      "1D2D0" : {
+         "name" : "KAKTOVIK NUMERAL SIXTEEN"
+      },
+      "1D2D1" : {
+         "name" : "KAKTOVIK NUMERAL SEVENTEEN"
+      },
+      "1D2D2" : {
+         "name" : "KAKTOVIK NUMERAL EIGHTEEN"
+      },
+      "1D2D3" : {
+         "name" : "KAKTOVIK NUMERAL NINETEEN"
       },
       "1D2E" : {
          "name" : "MODIFIER LETTER CAPITAL B"
@@ -63574,6 +64049,24 @@
       "1DF2" : {
          "name" : "COMBINING LATIN SMALL LETTER A WITH DIAERESIS"
       },
+      "1DF25" : {
+         "name" : "LATIN SMALL LETTER D WITH MID-HEIGHT LEFT HOOK"
+      },
+      "1DF26" : {
+         "name" : "LATIN SMALL LETTER L WITH MID-HEIGHT LEFT HOOK"
+      },
+      "1DF27" : {
+         "name" : "LATIN SMALL LETTER N WITH MID-HEIGHT LEFT HOOK"
+      },
+      "1DF28" : {
+         "name" : "LATIN SMALL LETTER R WITH MID-HEIGHT LEFT HOOK"
+      },
+      "1DF29" : {
+         "name" : "LATIN SMALL LETTER S WITH MID-HEIGHT LEFT HOOK"
+      },
+      "1DF2A" : {
+         "name" : "LATIN SMALL LETTER T WITH MID-HEIGHT LEFT HOOK"
+      },
       "1DF3" : {
          "name" : "COMBINING LATIN SMALL LETTER O WITH DIAERESIS"
       },
@@ -63739,20 +64232,209 @@
       "1E03" : {
          "name" : "LATIN SMALL LETTER B WITH DOT ABOVE"
       },
+      "1E030" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL A"
+      },
+      "1E031" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL BE"
+      },
+      "1E032" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL VE"
+      },
+      "1E033" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL GHE"
+      },
+      "1E034" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL DE"
+      },
+      "1E035" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL IE"
+      },
+      "1E036" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL ZHE"
+      },
+      "1E037" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL ZE"
+      },
+      "1E038" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL I"
+      },
+      "1E039" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL KA"
+      },
+      "1E03A" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL EL"
+      },
+      "1E03B" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL EM"
+      },
+      "1E03C" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL O"
+      },
+      "1E03D" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL PE"
+      },
+      "1E03E" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL ER"
+      },
+      "1E03F" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL ES"
+      },
       "1E04" : {
          "name" : "LATIN CAPITAL LETTER B WITH DOT BELOW"
+      },
+      "1E040" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL TE"
+      },
+      "1E041" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL U"
+      },
+      "1E042" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL EF"
+      },
+      "1E043" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL HA"
+      },
+      "1E044" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL TSE"
+      },
+      "1E045" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL CHE"
+      },
+      "1E046" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL SHA"
+      },
+      "1E047" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL YERU"
+      },
+      "1E048" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL E"
+      },
+      "1E049" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL YU"
+      },
+      "1E04A" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL DZZE"
+      },
+      "1E04B" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL SCHWA"
+      },
+      "1E04C" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL BYELORUSSIAN-UKRAINIAN I"
+      },
+      "1E04D" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL JE"
+      },
+      "1E04E" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL BARRED O"
+      },
+      "1E04F" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL STRAIGHT U"
       },
       "1E05" : {
          "name" : "LATIN SMALL LETTER B WITH DOT BELOW"
       },
+      "1E050" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL PALOCHKA"
+      },
+      "1E051" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER A"
+      },
+      "1E052" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER BE"
+      },
+      "1E053" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER VE"
+      },
+      "1E054" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER GHE"
+      },
+      "1E055" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER DE"
+      },
+      "1E056" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER IE"
+      },
+      "1E057" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER ZHE"
+      },
+      "1E058" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER ZE"
+      },
+      "1E059" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER I"
+      },
+      "1E05A" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER KA"
+      },
+      "1E05B" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER EL"
+      },
+      "1E05C" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER O"
+      },
+      "1E05D" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER PE"
+      },
+      "1E05E" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER ES"
+      },
+      "1E05F" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER U"
+      },
       "1E06" : {
          "name" : "LATIN CAPITAL LETTER B WITH LINE BELOW"
+      },
+      "1E060" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER EF"
+      },
+      "1E061" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER HA"
+      },
+      "1E062" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER TSE"
+      },
+      "1E063" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER CHE"
+      },
+      "1E064" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER SHA"
+      },
+      "1E065" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER HARD SIGN"
+      },
+      "1E066" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER YERU"
+      },
+      "1E067" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER GHE WITH UPTURN"
+      },
+      "1E068" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER BYELORUSSIAN-UKRAINIAN I"
+      },
+      "1E069" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER DZE"
+      },
+      "1E06A" : {
+         "name" : "CYRILLIC SUBSCRIPT SMALL LETTER DZHE"
+      },
+      "1E06B" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL ES WITH DESCENDER"
+      },
+      "1E06C" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL YERU WITH BACK YER"
+      },
+      "1E06D" : {
+         "name" : "MODIFIER LETTER CYRILLIC SMALL STRAIGHT U WITH STROKE"
       },
       "1E07" : {
          "name" : "LATIN SMALL LETTER B WITH LINE BELOW"
       },
       "1E08" : {
          "name" : "LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE"
+      },
+      "1E08F" : {
+         "name" : "COMBINING CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I"
       },
       "1E09" : {
          "name" : "LATIN SMALL LETTER C WITH CEDILLA AND ACUTE"
@@ -64446,11 +65128,137 @@
       "1E4D" : {
          "name" : "LATIN SMALL LETTER O WITH TILDE AND ACUTE"
       },
+      "1E4D0" : {
+         "name" : "NAG MUNDARI LETTER O"
+      },
+      "1E4D1" : {
+         "name" : "NAG MUNDARI LETTER OP"
+      },
+      "1E4D2" : {
+         "name" : "NAG MUNDARI LETTER OL"
+      },
+      "1E4D3" : {
+         "name" : "NAG MUNDARI LETTER OY"
+      },
+      "1E4D4" : {
+         "name" : "NAG MUNDARI LETTER ONG"
+      },
+      "1E4D5" : {
+         "name" : "NAG MUNDARI LETTER A"
+      },
+      "1E4D6" : {
+         "name" : "NAG MUNDARI LETTER AJ"
+      },
+      "1E4D7" : {
+         "name" : "NAG MUNDARI LETTER AB"
+      },
+      "1E4D8" : {
+         "name" : "NAG MUNDARI LETTER ANY"
+      },
+      "1E4D9" : {
+         "name" : "NAG MUNDARI LETTER AH"
+      },
+      "1E4DA" : {
+         "name" : "NAG MUNDARI LETTER I"
+      },
+      "1E4DB" : {
+         "name" : "NAG MUNDARI LETTER IS"
+      },
+      "1E4DC" : {
+         "name" : "NAG MUNDARI LETTER IDD"
+      },
+      "1E4DD" : {
+         "name" : "NAG MUNDARI LETTER IT"
+      },
+      "1E4DE" : {
+         "name" : "NAG MUNDARI LETTER IH"
+      },
+      "1E4DF" : {
+         "name" : "NAG MUNDARI LETTER U"
+      },
       "1E4E" : {
          "name" : "LATIN CAPITAL LETTER O WITH TILDE AND DIAERESIS"
       },
+      "1E4E0" : {
+         "name" : "NAG MUNDARI LETTER UC"
+      },
+      "1E4E1" : {
+         "name" : "NAG MUNDARI LETTER UD"
+      },
+      "1E4E2" : {
+         "name" : "NAG MUNDARI LETTER UK"
+      },
+      "1E4E3" : {
+         "name" : "NAG MUNDARI LETTER UR"
+      },
+      "1E4E4" : {
+         "name" : "NAG MUNDARI LETTER E"
+      },
+      "1E4E5" : {
+         "name" : "NAG MUNDARI LETTER ENN"
+      },
+      "1E4E6" : {
+         "name" : "NAG MUNDARI LETTER EG"
+      },
+      "1E4E7" : {
+         "name" : "NAG MUNDARI LETTER EM"
+      },
+      "1E4E8" : {
+         "name" : "NAG MUNDARI LETTER EN"
+      },
+      "1E4E9" : {
+         "name" : "NAG MUNDARI LETTER ETT"
+      },
+      "1E4EA" : {
+         "name" : "NAG MUNDARI LETTER ELL"
+      },
+      "1E4EB" : {
+         "name" : "NAG MUNDARI SIGN OJOD"
+      },
+      "1E4EC" : {
+         "name" : "NAG MUNDARI SIGN MUHOR"
+      },
+      "1E4ED" : {
+         "name" : "NAG MUNDARI SIGN TOYOR"
+      },
+      "1E4EE" : {
+         "name" : "NAG MUNDARI SIGN IKIR"
+      },
+      "1E4EF" : {
+         "name" : "NAG MUNDARI SIGN SUTUH"
+      },
       "1E4F" : {
          "name" : "LATIN SMALL LETTER O WITH TILDE AND DIAERESIS"
+      },
+      "1E4F0" : {
+         "name" : "NAG MUNDARI DIGIT ZERO"
+      },
+      "1E4F1" : {
+         "name" : "NAG MUNDARI DIGIT ONE"
+      },
+      "1E4F2" : {
+         "name" : "NAG MUNDARI DIGIT TWO"
+      },
+      "1E4F3" : {
+         "name" : "NAG MUNDARI DIGIT THREE"
+      },
+      "1E4F4" : {
+         "name" : "NAG MUNDARI DIGIT FOUR"
+      },
+      "1E4F5" : {
+         "name" : "NAG MUNDARI DIGIT FIVE"
+      },
+      "1E4F6" : {
+         "name" : "NAG MUNDARI DIGIT SIX"
+      },
+      "1E4F7" : {
+         "name" : "NAG MUNDARI DIGIT SEVEN"
+      },
+      "1E4F8" : {
+         "name" : "NAG MUNDARI DIGIT EIGHT"
+      },
+      "1E4F9" : {
+         "name" : "NAG MUNDARI DIGIT NINE"
       },
       "1E50" : {
          "name" : "LATIN CAPITAL LETTER O WITH MACRON AND GRAVE"
@@ -71499,6 +72307,9 @@
       "1F6D7" : {
          "name" : "ELEVATOR"
       },
+      "1F6DC" : {
+         "name" : "WIRELESS"
+      },
       "1F6DD" : {
          "name" : "PLAYGROUND SLIDE"
       },
@@ -71968,6 +72779,30 @@
       "1F773" : {
          "name" : "ALCHEMICAL SYMBOL FOR HALF OUNCE"
       },
+      "1F774" : {
+         "name" : "LOT OF FORTUNE"
+      },
+      "1F775" : {
+         "name" : "OCCULTATION"
+      },
+      "1F776" : {
+         "name" : "LUNAR ECLIPSE"
+      },
+      "1F77B" : {
+         "name" : "HAUMEA"
+      },
+      "1F77C" : {
+         "name" : "MAKEMAKE"
+      },
+      "1F77D" : {
+         "name" : "GONGGONG"
+      },
+      "1F77E" : {
+         "name" : "QUAOAR"
+      },
+      "1F77F" : {
+         "name" : "ORCUS"
+      },
       "1F78" : {
          "name" : "GREEK SMALL LETTER OMICRON WITH VARIA"
       },
@@ -72252,6 +73087,9 @@
       },
       "1F7D8" : {
          "name" : "NEGATIVE CIRCLED SQUARE"
+      },
+      "1F7D9" : {
+         "name" : "NINE POINTED WHITE STAR"
       },
       "1F7E0" : {
          "name" : "LARGE ORANGE CIRCLE"
@@ -73939,6 +74777,15 @@
       "1FA74" : {
          "name" : "THONG SANDAL"
       },
+      "1FA75" : {
+         "name" : "LIGHT BLUE HEART"
+      },
+      "1FA76" : {
+         "name" : "GREY HEART"
+      },
+      "1FA77" : {
+         "name" : "PINK HEART"
+      },
       "1FA78" : {
          "name" : "DROP OF BLOOD"
       },
@@ -73977,6 +74824,12 @@
       },
       "1FA86" : {
          "name" : "NESTING DOLLS"
+      },
+      "1FA87" : {
+         "name" : "MARACAS"
+      },
+      "1FA88" : {
+         "name" : "FLUTE"
       },
       "1FA9" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI"
@@ -74071,6 +74924,15 @@
       "1FAAC" : {
          "name" : "HAMSA"
       },
+      "1FAAD" : {
+         "name" : "FOLDING HAND FAN"
+      },
+      "1FAAE" : {
+         "name" : "HAIR PICK"
+      },
+      "1FAAF" : {
+         "name" : "KHANDA"
+      },
       "1FAB" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI"
       },
@@ -74107,6 +74969,18 @@
       "1FABA" : {
          "name" : "NEST WITH EGGS"
       },
+      "1FABB" : {
+         "name" : "HYACINTH"
+      },
+      "1FABC" : {
+         "name" : "JELLYFISH"
+      },
+      "1FABD" : {
+         "name" : "WING"
+      },
+      "1FABF" : {
+         "name" : "GOOSE"
+      },
       "1FAC" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
       },
@@ -74127,6 +75001,12 @@
       },
       "1FAC5" : {
          "name" : "PERSON WITH CROWN"
+      },
+      "1FACE" : {
+         "name" : "MOOSE"
+      },
+      "1FACF" : {
+         "name" : "DONKEY"
       },
       "1FAD" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
@@ -74161,6 +75041,12 @@
       "1FAD9" : {
          "name" : "JAR"
       },
+      "1FADA" : {
+         "name" : "GINGER ROOT"
+      },
+      "1FADB" : {
+         "name" : "PEA POD"
+      },
       "1FAE" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI"
       },
@@ -74188,6 +75074,9 @@
       "1FAE7" : {
          "name" : "BUBBLES"
       },
+      "1FAE8" : {
+         "name" : "SHAKING FACE"
+      },
       "1FAF" : {
          "name" : "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI"
       },
@@ -74211,6 +75100,12 @@
       },
       "1FAF6" : {
          "name" : "HEART HANDS"
+      },
+      "1FAF7" : {
+         "name" : "LEFTWARDS PUSHING HAND"
+      },
+      "1FAF8" : {
+         "name" : "RIGHTWARDS PUSHING HAND"
       },
       "1FB0" : {
          "name" : "GREEK SMALL LETTER ALPHA WITH VRACHY"
@@ -141502,7 +142397,7 @@
       "20000 2A6DF" : {
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
-      "2A700 2B738" : {
+      "2A700 2B739" : {
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
       "2B740 2B81D" : {
@@ -141515,6 +142410,9 @@
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
       "30000 3134A" : {
+         "name" : "CJK UNIFIED IDEOGRAPH-"
+      },
+      "31350 323AF" : {
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
       "3400 4DBF" : {
