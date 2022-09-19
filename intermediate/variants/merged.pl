@@ -123,6 +123,7 @@ my $PairedTypes = [];
     "manakai:variant:simplified",
     "manakai:variant:jpnewstyle",
     "manakai:variant:wu",
+    "manakai:variant:taboo",
     "manakai:equivalent",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
@@ -173,7 +174,6 @@ my $PairedTypes = [];
   
   for my $pair (
     ['unihan:kSimplifiedVariant', 'unihan:kTraditionalVariant'],
-    ['cjkvi:cjkvi/simplified', 'cjkvi:cjkvi/traditional'],
   ) {
     push @$PairedTypes, $pair;
     for my $vtype (@$pair) {
@@ -186,6 +186,21 @@ my $PairedTypes = [];
       $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
       $TypeWeight->{'nto1:'.$vtype} = -1;
       $TypeMergeableWeight->{'nto1:'.$vtype} = W 'COVERED';
+    }
+  }
+  for my $pair (
+    ['cjkvi:cjkvi/simplified', 'cjkvi:cjkvi/traditional'],
+  ) {
+    push @$PairedTypes, $pair;
+    for my $vtype (@$pair) {
+      $TypeWeight->{$vtype} = W 'COVERED';
+      $TypeWeight->{'rev:'.$vtype} = -1;
+      $TypeWeight->{'to1:'.$vtype} = -1;
+      $TypeWeight->{'to1:rev:'.$vtype} = -1;
+    }
+    for my $vtype ($pair->[0]) {
+      $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
+      $TypeWeight->{'nto1:'.$vtype} = -1;
     }
   }
 
@@ -242,6 +257,7 @@ my $PairedTypes = [];
     "cjkvi:hydcd/borrowed",
     "cjkvi:variants",
 
+    "manakai:alt",
     "manakai:related",
     "manakai:taboo",
   ) {

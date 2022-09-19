@@ -79,6 +79,7 @@ my $Data;
         related => 'manakai:related',
         overlap => 'manakai:variant',
         taboo => 'manakai:taboo',
+        taboovariant => 'manakai:variant:taboo',
         simplified => 'manakai:variant:simplified',
         jpnewstyle => 'manakai:variant:jpnewstyle',
         differentiated => 'manakai:differentiated',
@@ -86,6 +87,7 @@ my $Data;
         same => 'manakai:same',
         unified => 'manakai:unified',
         wu => 'manakai:variant:wu',
+        alt => 'manakai:alt',
       }->{$1} // die "Bad type |$1|";
       $Data->{variants}->{ue $3}->{ue $2}->{$vtype} = 1;
     } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+)\s+<-\s+(.+)$/) {

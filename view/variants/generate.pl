@@ -84,10 +84,13 @@ sub v_char ($$) {
 } # v_char
 
 binmode STDOUT, qw(:encoding(utf-8));
-print q{
+printf q{
   <!DOCTYPE HTML>
   <meta charset=utf-8>
-  <title>Han variants</title>
+  <title>Han variants %s</title>
+},
+    $WithRels ? '(with relations)' : '';
+print q{
   <style>
     html {
       line-height: 1;

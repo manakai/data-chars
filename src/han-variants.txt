@@ -1,60 +1,101 @@
+
+## same     Same character, but has different coded representation
+##          because of historical or technical reasons.
+## unified  Similar characters that are "unified" into same entity
+##          such that they might not be able to be distinguished.
+## variant  Similar characters that can be replaced each other
+##          in most situations.
+## overlap  Sometimes they can be replaced each other but they also has
+##          their own usages that can not be represented by
+##          the other character.
+## related  They have some relationship.
+
 simplified 𥄂 直
-simplified 𬌩 銭
-simplified 乛 門
-simplified ヿ 門
-simplified ヿ 䦐
-jpnewstyle 䇳 箋
+sconflict 阝 部
+sconflict 乍 作
+sconflict 乂 義
+sconflict 谷 俗
+sconflict 亻 傳
+simplified 㝉 宣
+sconflict ⺴ 買
+
 jpnewstyle 厩\u{E0103} 厩
 jpnewstyle 溉 漑
-jpnewstyle 喻 喩
-jpnewstyle 渗 滲
-jpnewstyle 𧦅 謳
-jpnewstyle 瓯 甌
-jpnewstyle 𪘂 齧
-jpnewstyle 𫝜 囃
-jpnewstyle 𦜝 臍
-jpnewstyle 緕 纃
-jpnewstyle 褝 襌
-jpnewstyle 珱 瓔
-jpnewstyle 﨔 欅
+
 #jpnewstyle 陦 隯
 simplified 陦 隯
 jpnewstyle 畴 疇
 jpnewstyle 踌 躊
-jpnewstyle 筝 箏
+
+jpnewstyle 𦜝 臍
+jpnewstyle 緕 纃
+
+jpnewstyle 喻 喩
+jpnewstyle 𫝜 囃
+jpnewstyle 伜 倅
+jpnewstyle 褝 襌
 jpnewstyle 輌 輛
-jpnewstyle 鈬 鐸
 jpnewstyle 麸 麩
-jpnewstyle 舮 艫
-jpnewstyle 枦 櫨
 jpnewstyle 弯 彎
+jpnewstyle 𭞁 慫
+jpnewstyle 脍 膾
+jpnewstyle 欤\u{E0104} 歟
+jpnewstyle 疱\u{E0102} 疱\u{E0101}
+
+jpnewstyle 祚\u{E0102} 祚\u{E0101}
+jpnewstyle 祺\u{E0102} 祺\u{E0101}
+
+jpnewstyle 彞 彝
+jpnewstyle 彚 彙
+
+jpnewstyle 筝 箏
+jpnewstyle 綏\u{E0102} 綏\u{E0101}
+jpnewstyle 埓 埒
+
+jpnewstyle 𧦅 謳
+jpnewstyle 瓯 甌
+
+jpnewstyle 𫝼 撥
+
+jpnewstyle 𠡠 勑
+jpnewstyle 俫 倈
+jpnewstyle 徕 徠
+
+jpnewstyle 𮝩 轢
+jpnewstyle 𭢫 擽
+jpnewstyle 檪 櫟
+
 jpnewstyle 𪘂 齧
 jpnewstyle 𮯈 䶨
 jpnewstyle 𪘚 齬
 jpnewstyle 𪗱 齟
-jpnewstyle 𮝩 轢
-jpnewstyle 𭢫 擽
-jpnewstyle 𭞁 慫
-jpnewstyle 埓 埒
-jpnewstyle 祚\u{E0102} 祚\u{E0101}
-jpnewstyle 祺\u{E0102} 祺\u{E0101}
-jpnewstyle 綏\u{E0102} 綏\u{E0101}
-jpnewstyle 脍 膾
-jpnewstyle 𦙾 脛
-jpnewstyle 𠡠 勑
-jpnewstyle 俫 倈
-jpnewstyle 徕 徠
-jpnewstyle 欤\u{E0104} 歟
-jpnewstyle 彞 彝
-jpnewstyle 彚 彙
+
+variant 秊 年
+variant 弖 氐
+variant 畨 番
+related 症 證
+
+sconflict 亠 音
+sconflict 六 音
+
+variant 寳 寶
+related 珎 寳
 
 jpnewstyle 鴬 <- 鷽 鶯
-simplified 旧 <- 臼 舊
-simplified 沪 <- 滬 濾 瀘
+jpnewstyle 﨔 欅
+jpnewstyle 珱 瓔
+
 simplified 关 <- 癸 関
+simplified 关 <- 癸 關
+
+simplified 旧 <- 臼 舊
 variant 﨤 <- 及 返
 variant 㙔 <- 韓 煒
 variant 𪜀 <- 羅 等
+
+jpnewstyle 舮 艫
+jpnewstyle 枦 櫨
+simplified 沪 <- 滬 濾 瀘
 variant 芦 <- 芐 蘆
 vpairs 鈩/炉 鑪/爐
 jpnewstyle 鈩 鑪
@@ -65,11 +106,30 @@ variant 厤 <- 暦 歴
 variant 厤 <- 暦 厯
 variant 厂 <- 暦 歴
 simplified 厯 𠪱
-vpairs 𠪱/歷 厯/歴
+variant 𠪱 歷
+#vpairs 𠪱/歷 厯/歴
 vpairs 𠪱/曆 厯/暦
+sconflict 厂 鴈
+
+sconflict 广 廣
+sconflict 广 鹿
+sconflict 广 摩
+sconflict 广 魔
+sconflict 广 磨
+sconflict 广 應
+sconflict 广 鷹
+
+sconflict 乛 門
+sconflict 𠃍 門
+sconflict 𠃍 䦐
+
+variant 弁 <- 辯 辨 瓣 辮
+variant 辨 辧
+conflict 弁 辧
 
 simplified 参 <- 叄 參
 simplified 参 <- 叁 參
+jpnewstyle 渗 滲
 
 simplified 钟 <- 鍾 鐘
 simplified 锺 <- 鍾
@@ -81,28 +141,53 @@ sconflict 证 證
 
 sconflict 圣 経
 sconflict 圣 軽
+sconflict 圣 径
 sconflict 圣 聖
+jpnewstyle 𦙾 脛
 
 sconflict 旺 曜
 simplified 𫞂 曜
 
-sconflict 耺 職
-simplified 𫟉 職
-
 sconflict 桟 機
 sconflict 栈 機
 sconflict 找 機
+
+sconflict 才 歳
+sconflict 戈 歳
 
 vpairs 绣/𰬩 綉/繡
 vpairs 總/摠 総/捴 縂/搃 𦀙/𢭇
 
 conflict 豐 灃
 vpairs 豐/灃 豊/澧 丰/沣
+sconflict 豊 豐
+
+conflict 㐰 信
+sconflict 㐰 個
+sconflict 丶 虫
+sconflict 囗 園
+sconflict 囗 国
+
+sconflict 尺 釈
+jpnewstyle 鈬 鐸
+variant 㚖 澤
+
+sconflict 厶 弗
+sconflict 弗 拂
+sconflict 厶 厳
+simplified 𫟉 職
+sconflict 耺 職
+sconflict 伝 傳
 
 differentiated 世 丗
 
+variant 𠂆 石
+variant 𠂆 曳
+conflict 𠂆 石
+conflict 𠂆 曳
+same \u2E81 𠂆
+
 sconflict 付 附
-sconflict 广 廣
 sconflict 医 醫
 sconflict 仮 假
 sconflict 浜 濱
@@ -110,18 +195,18 @@ sconflict 亘 亙
 sconflict 灯 燈
 sconflict 欠 缺
 sconflict 俣 俁
-sconflict 豊 豐
 sconflict 仂 働
-sconflict 才 歳
-sconflict 伝 傳
 sconflict 県 縣
 sconflict 𦬇 茻
 sconflict 壬 𨳝
 sconflict 屡 屢
 sconflict 并 幷
 sconflict 痳 痲
+sconflict 岺 嶺
+sconflict 令 齢
+
 sconflict 巾 幅
-sconflict 囗 園
+sconflict 巾 冪
 
 conflict 叱 𠮟
 conflict 皀 皂
@@ -143,12 +228,21 @@ variant 熙 熈
 variant 熙 𤋮
 variant 熙 𤏁
 
-overlap 丁 町
-overlap 大 太
+jpnewstyle 䇳 箋
 overlap 戋 銭
 overlap 㦮 銭
 overlap 戔 錢
 overlap 匁 銭
+variant 桟 機
+variant 栈 機
+conflict 栈 機
+conflict 桟 機
+conflict 栈 棧
+conflict 桟 棧
+simplified 𬌩 銭
+
+overlap 丁 町
+overlap 大 太
 
 taboo 原 元
 taboo 始 元
@@ -160,16 +254,30 @@ taboo 歷 曆
 taboo 厯 曆
 taboo 厤 曆
 taboo 甯 寧
+taboo 景 丙
+
+taboovariant 𤣥 玄
 
 related 十 七
 related 咸 感
 related 彗 慧
 related 齎 齋
 related 令 齢
+related 斗 計
+related 宛 充
+related 羊 年
+related 小 少
+related 会 絵
+related 瓲 屯
+related 噸 瓲
 
 unified 死\u{E0102} \u{2DB7D}
 unified 衰\u{E0103} \u{2E569}
 unified \u8944\u{E0103} \u{2E5A0}
+
+alt 昂 昴
+alt 彅 薙
+alt 鄧 登
 
 wu 𠀑 天
 wu 𠑺 天
@@ -212,3 +320,20 @@ wu 𠩍 応
 wu 〇 星
 conflict 〇 星
 conflict 〇 零
+same \u31E3 〇
+variant \u0030 〇
+variant \uFF10 〇
+same \u0030 \uFF10
+
+same \u2EC0 \uFA5D
+same \u2EBF \uFA5E
+
+# conflict with katakana
+variant ヶ 个
+variant ケ 个
+conflict ヶ 个
+conflict ケ 个
+
+# conflict with eraser
+variant 〻 々
+conflict 〻 々
