@@ -1,4 +1,7 @@
 {
+  "github": {
+    "pages": true
+  },
   "circleci": {
     "merger": true,
     "pmbp": "latest",
