@@ -11,6 +11,7 @@
 - $unicode:Block:Arabic
 - $unicode:Block:Arabic_Extended-A
 - $unicode:Block:Arabic_Extended-B
+- $unicode:Block:Arabic_Extended-C
 - $unicode:Block:Arabic_Mathematical_Alphabetic_Symbols
 - $unicode:Block:Arabic_Presentation_Forms-A
 - $unicode:Block:Arabic_Presentation_Forms-B
@@ -50,6 +51,7 @@
 - $unicode:Block:CJK_Unified_Ideographs_Extension_E
 - $unicode:Block:CJK_Unified_Ideographs_Extension_F
 - $unicode:Block:CJK_Unified_Ideographs_Extension_G
+- $unicode:Block:CJK_Unified_Ideographs_Extension_H
 - $unicode:Block:Carian
 - $unicode:Block:Caucasian_Albanian
 - $unicode:Block:Chakma
@@ -77,10 +79,12 @@
 - $unicode:Block:Cyrillic_Extended-A
 - $unicode:Block:Cyrillic_Extended-B
 - $unicode:Block:Cyrillic_Extended-C
+- $unicode:Block:Cyrillic_Extended-D
 - $unicode:Block:Cyrillic_Supplement
 - $unicode:Block:Deseret
 - $unicode:Block:Devanagari
 - $unicode:Block:Devanagari_Extended
+- $unicode:Block:Devanagari_Extended-A
 - $unicode:Block:Dingbats
 - $unicode:Block:Dives_Akuru
 - $unicode:Block:Dogra
@@ -138,6 +142,7 @@
 - $unicode:Block:Inscriptional_Parthian
 - $unicode:Block:Javanese
 - $unicode:Block:Kaithi
+- $unicode:Block:Kaktovik_Numerals
 - $unicode:Block:Kana_Extended-A
 - $unicode:Block:Kana_Extended-B
 - $unicode:Block:Kana_Supplement
@@ -146,6 +151,7 @@
 - $unicode:Block:Kannada
 - $unicode:Block:Katakana
 - $unicode:Block:Katakana_Phonetic_Extensions
+- $unicode:Block:Kawi
 - $unicode:Block:Kayah_Li
 - $unicode:Block:Kharoshthi
 - $unicode:Block:Khitan_Small_Script
@@ -210,6 +216,7 @@
 - $unicode:Block:Myanmar_Extended-B
 - $unicode:Block:NKo
 - $unicode:Block:Nabataean
+- $unicode:Block:Nag_Mundari
 - $unicode:Block:Nandinagari
 - $unicode:Block:New_Tai_Lue
 - $unicode:Block:Newa
