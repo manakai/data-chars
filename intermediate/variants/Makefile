@@ -42,6 +42,9 @@ testdata.json: testdata.pl cluster-root.json tests.txt
 test: test.pl testdata.pl cluster-root.json char-cluster.jsonl testdata.json \
     test-size
 	$(PROVE) $<
+perl-test: \
+    test.pl testdata.pl cluster-root.json char-cluster.jsonl testdata.json
+	$(PERL) $<
 test-size:
 	cd $(ROOT_PATH) && $(MAKE) test-size
 

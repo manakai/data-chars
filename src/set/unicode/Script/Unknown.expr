@@ -27,7 +27,6 @@
 - $unicode:Script:Coptic
 - $unicode:Script:Cuneiform
 - $unicode:Script:Cypriot
-- $unicode:Script:Cypro_Minoan
 - $unicode:Script:Cyrillic
 - $unicode:Script:Deseret
 - $unicode:Script:Devanagari
@@ -111,7 +110,6 @@
 - $unicode:Script:Old_Sogdian
 - $unicode:Script:Old_South_Arabian
 - $unicode:Script:Old_Turkic
-- $unicode:Script:Old_Uyghur
 - $unicode:Script:Oriya
 - $unicode:Script:Osage
 - $unicode:Script:Osmanya
@@ -143,7 +141,6 @@
 - $unicode:Script:Tai_Viet
 - $unicode:Script:Takri
 - $unicode:Script:Tamil
-- $unicode:Script:Tangsa
 - $unicode:Script:Tangut
 - $unicode:Script:Telugu
 - $unicode:Script:Thaana
@@ -151,10 +148,8 @@
 - $unicode:Script:Tibetan
 - $unicode:Script:Tifinagh
 - $unicode:Script:Tirhuta
-- $unicode:Script:Toto
 - $unicode:Script:Ugaritic
 - $unicode:Script:Vai
-- $unicode:Script:Vithkuqi
 - $unicode:Script:Wancho
 - $unicode:Script:Warang_Citi
 - $unicode:Script:Yezidi

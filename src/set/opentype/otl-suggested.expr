@@ -1,0 +1,7 @@
+#label:Suggested glyphs
+#url:https://docs.microsoft.com/ja-jp/typography/develop/otdevinfo#suggested-glyphs
+$opentype:otl-suggested-complex-scripts |
+$opentype:otl-suggested-euro |
+$opentype:otl-suggested-general-punctuation-and-latin-numbers |
+$opentype:otl-suggested-microsoft-office |
+$opentype:otl-suggested-right-to-left-scripts

@@ -41,6 +41,10 @@ The file contains a JSON object with following name/value pair:
 
         The character name for the code point, if any.
 
+      tw_name [string?]
+
+        The Taiwan Chinese character name for the code point, if known.
+
     Note that character names beginning with "CJK UNIFIED IDEOGRAPH-"
     (except for CJK UNIFIED IDEOGRAPH-4EDD) and code points whose
     labels begin with "private-use-", "surrogate-", or "reserved-" are
@@ -137,6 +141,8 @@ sets for information interchange", JISC.
 
 "JIS X 0213非漢字一覧", Wikipedia,
 <https://ja.wikipedia.org/wiki/JIS_X_0213%E9%9D%9E%E6%BC%A2%E5%AD%97%E4%B8%80%E8%A6%A7>.
+
+CNS 14649, AD2002.
 
 * License
 

@@ -25,4 +25,7 @@ list-rels.html: generate.pl \
 	WITH_RELS=1 $(PERL) $< > $@
 list-rels-html-*.txt: list-rels.html
 
+perl-test:
+	cd ../../intermediate/variants && $(MAKE) perl-test
+
 ## License: Public Domain.
