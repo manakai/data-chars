@@ -17,7 +17,7 @@ sconflict 乂 義
 sconflict 谷 俗
 sconflict 亻 傳
 simplified 㝉 宣
-sconflict ⺴ 買
+sconflict \u2EB4 買
 
 jpnewstyle 厩\u{E0103} 厩
 jpnewstyle 溉 漑

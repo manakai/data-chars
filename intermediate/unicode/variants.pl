@@ -7,6 +7,8 @@ my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
 my $TempPath = $RootPath->child ('local/iuc');
 
+my $IVDVersion = $ENV{IVD_VERSION} || die "No |IVD_VERSION|";
+
 my $Data = {};
 
 my $path = $TempPath->child ('Unihan_Variants.txt');
@@ -28,7 +30,7 @@ for (split /\x0D?\x0A/, $path->slurp) {
 }
 
 {
-  my $path = $TempPath->child ('IVD_Sequences.txt');
+  my $path = $TempPath->child ($IVDVersion . '/IVD_Sequences.txt');
   for (split /\x0D?\x0A/, $path->slurp) {
     if (/^#/) {
       #
@@ -43,7 +45,7 @@ for (split /\x0D?\x0A/, $path->slurp) {
 }
 
 {
-  my $path = $TempPath->child ('IVD_Stats.txt');
+  my $path = $TempPath->child ($IVDVersion . '/IVD_Stats.txt');
   my $in_scope = 0;
   for (split /\x0D?\x0A/, $path->slurp) {
     if (/^# Duplicate Sequence Identifiers: /) {
@@ -112,7 +114,8 @@ for (
 }
 
 for (
-  ['unihan-krname.txt', 'krname', 'unihan:koreanname:variant'],
+  ['unihan-krname.txt', 'krname', undef],
+  ['unihan13-krname.txt', undef, 'unihan:koreanname:variant'],
 ) {
   my ($fname, $key, $vtype) = @$_;
   my $path = $TempPath->child ($fname);
@@ -120,8 +123,8 @@ for (
     if (/^U\+([0-9A-F]+)\s+\S+\s+([0-9]+)(?::U\+([0-9A-F]+)|)/) {
       my $c = chr hex $1;
       my $value = $2;
-      $Data->{sets}->{$key}->{$c} = 1;
-      if (defined $3) {
+      $Data->{sets}->{$key}->{$c} = 1 if defined $key;
+      if (defined $3 and defined $vtype) {
         my $c2 = chr hex $3;
         $Data->{variants}->{$c}->{$c2}->{$vtype} = 1;
       }

@@ -8,6 +8,7 @@ PERL = $(ROOT_PATH)/perl $(PERL5OPTS)
 all: ivar list.html list-rels.html
 
 ivar:
+	cd ../../intermediate/unicode && $(MAKE) all
 	cd ../../intermediate/misc && $(MAKE) all
 	cd ../../intermediate/variants && $(MAKE) all test
 
