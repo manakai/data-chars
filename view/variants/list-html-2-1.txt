@@ -1,4 +1,20 @@
-5</code></v-char> Overlapping</h1>
+v>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="    stem-tw" data-stem="T"><data>兣</data><code>U+5163</code></v-char></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+</dl><p>2 clusters, <a href="#cluster-兣-兣-rels">1 relations</a>, 3 characters</header>
+<section id="cluster-兣-兣-兣" class=" single-cluster single-char compact "><section id="cluster-兣-兣-兣-兣" class=" single-cluster single-char compact "><section id="cluster-兣-兣-兣-兣-兣" class=" single-cluster single-char compact "><section id="cluster-兣-兣-兣-兣-兣-兣" class=" single-cluster single-char compact "><section id="cluster-兣-兣-兣-兣-兣-兣-兣" class="leaf  single-char  "><v-char class="    stem-tw" data-stem="T"><data>兣</data><code>U+5163</code></v-char>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section id="cluster-兣-兣-甅" class=" single-cluster  compact "><header><h1><v-char class="    " data-stem=""><data>甅</data><code>U+7505</code></v-char> Overlapping</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
 <div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
 <div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
@@ -836,7 +852,7 @@
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-删-删-删-rels">0 relations</a>, 11 characters</header>
-<section id="cluster-删-删-删-删" class="    no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char> Covered</h1>
+<section id="cluster-删-删-删-删" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char> Covered</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
@@ -846,65 +862,41 @@
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
-</dl><p>2 clusters, <a href="#cluster-删-删-删-删-rels">6 relations</a>, 11 characters</header>
-<section id="cluster-删-删-删-删-删" class=" single-cluster  compact "><header><h1><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char> Equivalent</h1>
+</dl><p>1 clusters, <a href="#cluster-删-删-删-删-rels">0 relations</a>, 11 characters</header>
+<section id="cluster-删-删-删-删-删" class="    no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char> Equivalent</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
 <div><dt>日<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-删-删-删-删-删-rels">0 relations</a>, 3 characters</header>
+<div><dt>韓<dd lang="ko-KR"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
+</dl><p>5 clusters, <a href="#cluster-删-删-删-删-删-rels">10 relations</a>, 11 characters</header>
 <section id="cluster-删-删-删-删-删-删" class="   compact "><header><h1><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char> Unified</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
 <div><dt>日<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>3 clusters, <a href="#cluster-删-删-删-删-删-删-rels">4 relations</a>, 3 characters</header>
+<div><dt>韓<dd lang="ko-KR"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
+</dl><p>5 clusters, <a href="#cluster-删-删-删-删-删-删-rels">12 relations</a>, 5 characters</header>
 <section id="cluster-删-删-删-删-删-删-删" class="leaf  single-char  "><v-char class="  stem-cn  " data-stem="C"><data>删</data><code>U+5220</code></v-char>
 </section>
 <section id="cluster-删-删-删-删-删-删-删󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>删󠄀</data><code>U+5220 U+E0100</code></v-char>
 </section>
 <section id="cluster-删-删-删-删-删-删-删󠄁" class="leaf  single-char  "><v-char class="    " data-stem=""><data>删󠄁</data><code>U+5220 U+E0101</code></v-char>
 </section>
+<section id="cluster-删-删-删-删-删-删-刪" class="leaf  single-char  "><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char>
+</section>
+<section id="cluster-删-删-删-删-删-删-刪󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>刪󠄀</data><code>U+522A U+E0100</code></v-char>
 </section>
 </section>
-<section id="cluster-删-删-删-删-刪" class="   compact "><header><h1><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char> Equivalent</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
-<div><dt>臺<dd lang="zh-TW"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
-</dl><p>5 clusters, <a href="#cluster-删-删-删-删-刪-rels">10 relations</a>, 8 characters</header>
-<section id="cluster-删-删-删-删-刪-刪" class="   compact "><header><h1><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char> Unified</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
-<div><dt>臺<dd lang="zh-TW"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char></div>
-</dl><p>2 clusters, <a href="#cluster-删-删-删-删-刪-刪-rels">2 relations</a>, 2 characters</header>
-<section id="cluster-删-删-删-删-刪-刪-刪" class="leaf  single-char  "><v-char class="   stem-hk stem-tw" data-stem="HT"><data>刪</data><code>U+522A</code></v-char>
-</section>
-<section id="cluster-删-删-删-删-刪-刪-刪󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>刪󠄀</data><code>U+522A U+E0100</code></v-char>
-</section>
-</section>
-<section id="cluster-删-删-删-删-刪-𠛹" class="   compact "><header><h1><v-char class="    " data-stem=""><data>𠛹</data><code>U+206F9</code></v-char> Unified</h1>
+<section id="cluster-删-删-删-删-删-𠛹" class="   compact "><header><h1><v-char class="    " data-stem=""><data>𠛹</data><code>U+206F9</code></v-char> Unified</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
 <div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
 <div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
@@ -914,21 +906,21 @@
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>3 clusters, <a href="#cluster-删-删-删-删-刪-𠛹-rels">4 relations</a>, 3 characters</header>
-<section id="cluster-删-删-删-删-刪-𠛹-𠛹" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𠛹</data><code>U+206F9</code></v-char>
+</dl><p>3 clusters, <a href="#cluster-删-删-删-删-删-𠛹-rels">4 relations</a>, 3 characters</header>
+<section id="cluster-删-删-删-删-删-𠛹-𠛹" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𠛹</data><code>U+206F9</code></v-char>
 </section>
-<section id="cluster-删-删-删-删-刪-𠛹-𠛹󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𠛹󠄀</data><code>U+206F9 U+E0100</code></v-char>
+<section id="cluster-删-删-删-删-删-𠛹-𠛹󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𠛹󠄀</data><code>U+206F9 U+E0100</code></v-char>
 </section>
-<section id="cluster-删-删-删-删-刪-𠛹-𠛹󠄁" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𠛹󠄁</data><code>U+206F9 U+E0101</code></v-char>
-</section>
-</section>
-<section id="cluster-删-删-删-删-刪-𠜂" class=" single-cluster single-char compact "><section id="cluster-删-删-删-删-刪-𠜂-𠜂" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𠜂</data><code>U+20702</code></v-char>
+<section id="cluster-删-删-删-删-删-𠛹-𠛹󠄁" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𠛹󠄁</data><code>U+206F9 U+E0101</code></v-char>
 </section>
 </section>
-<section id="cluster-删-删-删-删-刪-𡬬" class=" single-cluster single-char compact "><section id="cluster-删-删-删-删-刪-𡬬-𡬬" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𡬬</data><code>U+21B2C</code></v-char>
+<section id="cluster-删-删-删-删-删-𠜂" class=" single-cluster single-char compact "><section id="cluster-删-删-删-删-删-𠜂-𠜂" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𠜂</data><code>U+20702</code></v-char>
 </section>
 </section>
-<section id="cluster-删-删-删-删-刪-𨚿" class=" single-cluster single-char compact "><section id="cluster-删-删-删-删-刪-𨚿-𨚿" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𨚿</data><code>U+286BF</code></v-char>
+<section id="cluster-删-删-删-删-删-𡬬" class=" single-cluster single-char compact "><section id="cluster-删-删-删-删-删-𡬬-𡬬" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𡬬</data><code>U+21B2C</code></v-char>
+</section>
+</section>
+<section id="cluster-删-删-删-删-删-𨚿" class=" single-cluster single-char compact "><section id="cluster-删-删-删-删-删-𨚿-𨚿" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𨚿</data><code>U+286BF</code></v-char>
 </section>
 </section>
 </section>
@@ -10319,72 +10311,6 @@
 </section>
 </section>
 </section>
-<section id="cluster-垯" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char> Linked</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-垯-rels">0 relations</a>, 2 characters</header>
-<section id="cluster-垯-垯" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char> Related</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-垯-垯-rels">0 relations</a>, 2 characters</header>
-<section id="cluster-垯-垯-垯" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char> Overlapping</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-垯-垯-垯-rels">0 relations</a>, 2 characters</header>
-<section id="cluster-垯-垯-垯-垯" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char> Covered</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-垯-垯-垯-垯-rels">0 relations</a>, 2 characters</header>
-<section id="cluster-垯-垯-垯-垯-垯" class="    no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char> Equivalent</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>2 clusters, <a href="#cluster-垯-垯-垯-垯-垯-rels">2 relations</a>, 2 characters</header>
-<section id="cluster-垯-垯-垯-垯-垯-垯" class=" single-cluster single-char compact "><section id="cluster-垯-垯-垯-垯-垯-垯-垯" class="leaf  single-char  "><v-char class="  stem-cn  " data-stem="C"><data>垯</data><code>U+57AF</code></v-char>
-</section>
-</section>
-<section id="cluster-垯-垯-垯-垯-垯-墶" class=" single-cluster single-char compact "><section id="cluster-垯-垯-垯-垯-垯-墶-墶" class="leaf  single-char  "><v-char class="    " data-stem=""><data>墶</data><code>U+58B6</code></v-char>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
 <section id="cluster-垰" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>垰</data><code>U+57B0</code></v-char> Linked</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
 <div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
@@ -11559,7 +11485,7 @@
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-塍-塍-塍-rels">0 relations</a>, 11 characters</header>
-<section id="cluster-塍-塍-塍-塍" class="    "><header><h1><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char> Covered</h1>
+<section id="cluster-塍-塍-塍-塍" class=" single-cluster  compact "><header><h1><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char> Covered</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
@@ -11569,26 +11495,8 @@
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
-</dl><p>2 clusters, <a href="#cluster-塍-塍-塍-塍-rels">2 relations</a>, 11 characters</header>
-<section id="cluster-塍-塍-塍-塍-堘" class="   compact "><header><h1><v-char class="    " data-stem=""><data>堘</data><code>U+5818</code></v-char> Equivalent</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>2 clusters, <a href="#cluster-塍-塍-塍-塍-堘-rels">1 relations</a>, 2 characters</header>
-<section id="cluster-塍-塍-塍-塍-堘-堘" class=" single-cluster single-char compact "><section id="cluster-塍-塍-塍-塍-堘-堘-堘" class="leaf  single-char  "><v-char class="    " data-stem=""><data>堘</data><code>U+5818</code></v-char>
-</section>
-</section>
-<section id="cluster-塍-塍-塍-塍-堘-塖" class=" single-cluster single-char compact "><section id="cluster-塍-塍-塍-塍-堘-塖-塖" class="leaf  single-char  "><v-char class="    " data-stem=""><data>塖</data><code>U+5856</code></v-char>
-</section>
-</section>
-</section>
-<section id="cluster-塍-塍-塍-塍-塍" class="   compact "><header><h1><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char> Equivalent</h1>
+</dl><p>1 clusters, <a href="#cluster-塍-塍-塍-塍-rels">0 relations</a>, 11 characters</header>
+<section id="cluster-塍-塍-塍-塍-塍" class="    "><header><h1><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char> Equivalent</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
@@ -11598,7 +11506,10 @@
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
-</dl><p>5 clusters, <a href="#cluster-塍-塍-塍-塍-塍-rels">4 relations</a>, 9 characters</header>
+</dl><p>7 clusters, <a href="#cluster-塍-塍-塍-塍-塍-rels">6 relations</a>, 11 characters</header>
+<section id="cluster-塍-塍-塍-塍-塍-堘" class=" single-cluster single-char compact "><section id="cluster-塍-塍-塍-塍-塍-堘-堘" class="leaf  single-char  "><v-char class="    " data-stem=""><data>堘</data><code>U+5818</code></v-char>
+</section>
+</section>
 <section id="cluster-塍-塍-塍-塍-塍-塍" class="   compact "><header><h1><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char> Unified</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>塍</data><code>U+584D</code></v-char></div>
@@ -11617,6 +11528,9 @@
 <section id="cluster-塍-塍-塍-塍-塍-塍-塍󠄁" class="leaf  single-char  "><v-char class="    " data-stem=""><data>塍󠄁</data><code>U+584D U+E0101</code></v-char>
 </section>
 <section id="cluster-塍-塍-塍-塍-塍-塍-塍󠄂" class="leaf  single-char  "><v-char class="    " data-stem=""><data>塍󠄂</data><code>U+584D U+E0102</code></v-char>
+</section>
+</section>
+<section id="cluster-塍-塍-塍-塍-塍-塖" class=" single-cluster single-char compact "><section id="cluster-塍-塍-塍-塍-塍-塖-塖" class="leaf  single-char  "><v-char class="    " data-stem=""><data>塖</data><code>U+5856</code></v-char>
 </section>
 </section>
 <section id="cluster-塍-塍-塍-塍-塍-畻" class="   compact "><header><h1><v-char class="    " data-stem=""><data>畻</data><code>U+757B</code></v-char> Unified</h1>
@@ -13168,7 +13082,7 @@
 <div><dt>旧<dd lang="ja"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-婿-婿-婿-rels">0 relations</a>, 13 characters</header>
-<section id="cluster-婿-婿-婿-婿" class="    "><header><h1><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char> Covered</h1>
+<section id="cluster-婿-婿-婿-婿" class=" single-cluster  compact "><header><h1><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char> Covered</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
@@ -13178,45 +13092,8 @@
 <div><dt>平成<dd lang="ja"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>旧<dd lang="ja"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char></div>
-</dl><p>2 clusters, <a href="#cluster-婿-婿-婿-婿-rels">6 relations</a>, 13 characters</header>
-<section id="cluster-婿-婿-婿-婿-壻" class="   compact "><header><h1><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char> Equivalent</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char></div>
-</dl><p>4 clusters, <a href="#cluster-婿-婿-婿-婿-壻-rels">6 relations</a>, 5 characters</header>
-<section id="cluster-婿-婿-婿-婿-壻-壻" class="   compact "><header><h1><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char> Unified</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char></div>
-</dl><p>2 clusters, <a href="#cluster-婿-婿-婿-婿-壻-壻-rels">2 relations</a>, 2 characters</header>
-<section id="cluster-婿-婿-婿-婿-壻-壻-壻" class="leaf  single-char  "><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char>
-</section>
-<section id="cluster-婿-婿-婿-婿-壻-壻-壻󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>壻󠄀</data><code>U+58FB U+E0100</code></v-char>
-</section>
-</section>
-<section id="cluster-婿-婿-婿-婿-壻-𡎎" class=" single-cluster single-char compact "><section id="cluster-婿-婿-婿-婿-壻-𡎎-𡎎" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𡎎</data><code>U+2138E</code></v-char>
-</section>
-</section>
-<section id="cluster-婿-婿-婿-婿-壻-𦕓" class=" single-cluster single-char compact "><section id="cluster-婿-婿-婿-婿-壻-𦕓-𦕓" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𦕓</data><code>U+26553</code></v-char>
-</section>
-</section>
-<section id="cluster-婿-婿-婿-婿-壻-𦖜" class=" single-cluster single-char compact "><section id="cluster-婿-婿-婿-婿-壻-𦖜-𦖜" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𦖜</data><code>U+2659C</code></v-char>
-</section>
-</section>
-</section>
-<section id="cluster-婿-婿-婿-婿-婿" class="   compact "><header><h1><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char> Equivalent</h1>
+</dl><p>1 clusters, <a href="#cluster-婿-婿-婿-婿-rels">0 relations</a>, 13 characters</header>
+<section id="cluster-婿-婿-婿-婿-婿" class="    "><header><h1><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char> Equivalent</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
@@ -13225,8 +13102,24 @@
 <div><dt>新<dd lang="ja"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>平成<dd lang="ja"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>旧<dd lang="ja"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
-<div><dt>韓<dd lang="ko-KR"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
-</dl><p>3 clusters, <a href="#cluster-婿-婿-婿-婿-婿-rels">4 relations</a>, 8 characters</header>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char></div>
+</dl><p>7 clusters, <a href="#cluster-婿-婿-婿-婿-婿-rels">16 relations</a>, 13 characters</header>
+<section id="cluster-婿-婿-婿-婿-婿-壻" class="   compact "><header><h1><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char> Unified</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char></div>
+</dl><p>2 clusters, <a href="#cluster-婿-婿-婿-婿-婿-壻-rels">2 relations</a>, 2 characters</header>
+<section id="cluster-婿-婿-婿-婿-婿-壻-壻" class="leaf  single-char  "><v-char class="    " data-stem=""><data>壻</data><code>U+58FB</code></v-char>
+</section>
+<section id="cluster-婿-婿-婿-婿-婿-壻-壻󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>壻󠄀</data><code>U+58FB U+E0100</code></v-char>
+</section>
+</section>
 <section id="cluster-婿-婿-婿-婿-婿-婿" class="   compact "><header><h1><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char> Unified</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="stem-jp stem-jp2 stem-cn stem-hk stem-tw" data-stem="CHJjT"><data>婿</data><code>U+5A7F</code></v-char></div>
@@ -13265,7 +13158,16 @@
 <section id="cluster-婿-婿-婿-婿-婿-聟-聟󠄃" class="leaf  single-char  "><v-char class="    " data-stem=""><data>聟󠄃</data><code>U+805F U+E0103</code></v-char>
 </section>
 </section>
+<section id="cluster-婿-婿-婿-婿-婿-𡎎" class=" single-cluster single-char compact "><section id="cluster-婿-婿-婿-婿-婿-𡎎-𡎎" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𡎎</data><code>U+2138E</code></v-char>
+</section>
+</section>
 <section id="cluster-婿-婿-婿-婿-婿-𡠸" class=" single-cluster single-char compact "><section id="cluster-婿-婿-婿-婿-婿-𡠸-𡠸" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𡠸</data><code>U+21838</code></v-char>
+</section>
+</section>
+<section id="cluster-婿-婿-婿-婿-婿-𦕓" class=" single-cluster single-char compact "><section id="cluster-婿-婿-婿-婿-婿-𦕓-𦕓" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𦕓</data><code>U+26553</code></v-char>
+</section>
+</section>
+<section id="cluster-婿-婿-婿-婿-婿-𦖜" class=" single-cluster single-char compact "><section id="cluster-婿-婿-婿-婿-婿-𦖜-𦖜" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𦖜</data><code>U+2659C</code></v-char>
 </section>
 </section>
 </section>
@@ -18642,7 +18544,7 @@
 </section>
 </section>
 </section>
-<section id="cluster-媲" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char> Linked</h1>
+<section id="cluster-媲" class="    no-compact-ancestor"><header><h1><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char> Linked</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char></div>
@@ -18652,8 +18554,8 @@
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-媲-rels">0 relations</a>, 3 characters</header>
-<section id="cluster-媲-媲" class="    no-compact-ancestor"><header><h1><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char> Related</h1>
+</dl><p>2 clusters, <a href="#cluster-媲-rels">2 relations</a>, 4 characters</header>
+<section id="cluster-媲-媲" class="   compact "><header><h1><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char> Related</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-char class="  stem-cn stem-hk stem-tw" data-stem="CHT"><data>媲</data><code>U+5AB2</code></v-char></div>
@@ -18717,6 +18619,13 @@
 </section>
 </section>
 <section id="cluster-媲-媲-嫓" class=" single-cluster single-char compact "><section id="cluster-媲-媲-嫓-嫓" class=" single-cluster single-char compact "><section id="cluster-媲-媲-嫓-嫓-嫓" class=" single-cluster single-char compact "><section id="cluster-媲-媲-嫓-嫓-嫓-嫓" class=" single-cluster single-char compact "><section id="cluster-媲-媲-嫓-嫓-嫓-嫓-嫓" class="leaf  single-char  "><v-char class="    " data-stem=""><data>嫓</data><code>U+5AD3</code></v-char>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section id="cluster-媲-𡠌" class=" single-cluster single-char compact "><section id="cluster-媲-𡠌-𡠌" class=" single-cluster single-char compact "><section id="cluster-媲-𡠌-𡠌-𡠌" class=" single-cluster single-char compact "><section id="cluster-媲-𡠌-𡠌-𡠌-𡠌" class=" single-cluster single-char compact "><section id="cluster-媲-𡠌-𡠌-𡠌-𡠌-𡠌" class=" single-cluster single-char compact "><section id="cluster-媲-𡠌-𡠌-𡠌-𡠌-𡠌-𡠌" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𡠌</data><code>U+2180C</code></v-char>
 </section>
 </section>
 </section>
@@ -25698,7 +25607,7 @@
 <div><dt>旧<dd lang="ja"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-紙-紙-紙-rels">0 relations</a>, 10 characters</header>
-<section id="cluster-紙-紙-紙-紙" class="    no-compact-ancestor"><header><h1><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char> Covered</h1>
+<section id="cluster-紙-紙-紙-紙" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char> Covered</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>纸</data><code>U+7EB8</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
@@ -25708,9 +25617,9 @@
 <div><dt>平成<dd lang="ja"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 <div><dt>旧<dd lang="ja"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
-</dl><p>2 clusters, <a href="#cluster-紙-紙-紙-紙-rels">3 relations</a>, 10 characters</header>
-<section id="cluster-紙-紙-紙-紙-紙" class="   compact "><header><h1><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char> Equivalent</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+</dl><p>1 clusters, <a href="#cluster-紙-紙-紙-紙-rels">0 relations</a>, 10 characters</header>
+<section id="cluster-紙-紙-紙-紙-紙" class="    no-compact-ancestor"><header><h1><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char> Equivalent</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>纸</data><code>U+7EB8</code></v-char></div>
 <div><dt>繁<dd lang="zh-CN"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 <div><dt>港<dd lang="zh-HK"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 <div><dt>臺<dd lang="zh-TW"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
@@ -25719,7 +25628,7 @@
 <div><dt>平成<dd lang="ja"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 <div><dt>旧<dd lang="ja"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
 <div><dt>韓<dd lang="ko-KR"><v-char class="stem-jp stem-jp2  stem-hk stem-tw" data-stem="HJjT"><data>紙</data><code>U+7D19</code></v-char></div>
-</dl><p>5 clusters, <a href="#cluster-紙-紙-紙-紙-紙-rels">8 relations</a>, 9 characters</header>
+</dl><p>6 clusters, <a href="#cluster-紙-紙-紙-紙-紙-rels">10 relations</a>, 10 characters</header>
 <section id="cluster-紙-紙-紙-紙-紙-帋" class="   compact "><header><h1><v-char class="    " data-stem=""><data>帋</data><code>U+5E0B</code></v-char> Unified</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
 <div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
@@ -25756,6 +25665,9 @@
 <section id="cluster-紙-紙-紙-紙-紙-紙-紙󠄂" class="leaf  single-char  "><v-char class="    " data-stem=""><data>紙󠄂</data><code>U+7D19 U+E0102</code></v-char>
 </section>
 </section>
+<section id="cluster-紙-紙-紙-紙-紙-纸" class=" single-cluster single-char compact "><section id="cluster-紙-紙-紙-紙-紙-纸-纸" class="leaf  single-char  "><v-char class="  stem-cn  " data-stem="C"><data>纸</data><code>U+7EB8</code></v-char>
+</section>
+</section>
 <section id="cluster-紙-紙-紙-紙-紙-𥾬" class=" single-cluster single-char compact "><section id="cluster-紙-紙-紙-紙-紙-𥾬-𥾬" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𥾬</data><code>U+25FAC</code></v-char>
 </section>
 </section>
@@ -25763,10 +25675,6 @@
 </section>
 </section>
 <section id="cluster-紙-紙-紙-紙-紙-𦀦" class=" single-cluster single-char compact "><section id="cluster-紙-紙-紙-紙-紙-𦀦-𦀦" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𦀦</data><code>U+26026</code></v-char>
-</section>
-</section>
-</section>
-<section id="cluster-紙-紙-紙-紙-纸" class=" single-cluster single-char compact "><section id="cluster-紙-紙-紙-紙-纸-纸" class=" single-cluster single-char compact "><section id="cluster-紙-紙-紙-紙-纸-纸-纸" class="leaf  single-char  "><v-char class="  stem-cn  " data-stem="C"><data>纸</data><code>U+7EB8</code></v-char>
 </section>
 </section>
 </section>
@@ -27393,85 +27301,6 @@
 </section>
 </section>
 </section>
-<section id="cluster-廔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>廔</data><code>U+5ED4</code></v-char> Linked</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-廔-rels">0 relations</a>, 3 characters</header>
-<section id="cluster-廔-廔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>廔</data><code>U+5ED4</code></v-char> Related</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-廔-廔-rels">0 relations</a>, 3 characters</header>
-<section id="cluster-廔-廔-廔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>廔</data><code>U+5ED4</code></v-char> Overlapping</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-廔-廔-廔-rels">0 relations</a>, 3 characters</header>
-<section id="cluster-廔-廔-廔-廔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>廔</data><code>U+5ED4</code></v-char> Covered</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-廔-廔-廔-廔-rels">0 relations</a>, 3 characters</header>
-<section id="cluster-廔-廔-廔-廔-廔" class="    no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>廔</data><code>U+5ED4</code></v-char> Equivalent</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>2 clusters, <a href="#cluster-廔-廔-廔-廔-廔-rels">2 relations</a>, 3 characters</header>
-<section id="cluster-廔-廔-廔-廔-廔-廔" class="   compact "><header><h1><v-char class="    " data-stem=""><data>廔</data><code>U+5ED4</code></v-char> Unified</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>2 clusters, <a href="#cluster-廔-廔-廔-廔-廔-廔-rels">2 relations</a>, 2 characters</header>
-<section id="cluster-廔-廔-廔-廔-廔-廔-廔" class="leaf  single-char  "><v-char class="    " data-stem=""><data>廔</data><code>U+5ED4</code></v-char>
-</section>
-<section id="cluster-廔-廔-廔-廔-廔-廔-廔󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>廔󠄀</data><code>U+5ED4 U+E0100</code></v-char>
-</section>
-</section>
-<section id="cluster-廔-廔-廔-廔-廔-𫷹" class=" single-cluster single-char compact "><section id="cluster-廔-廔-廔-廔-廔-𫷹-𫷹" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𫷹</data><code>U+2BDF9</code></v-char>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
 <section id="cluster-廜" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    stem-tw" data-stem="T"><data>廜</data><code>U+5EDC</code></v-char> Linked</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
 <div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
@@ -28743,99 +28572,6 @@
 <section id="cluster-弿-弿-弿-弿-弿-弿-弿" class="leaf  single-char  "><v-char class="    " data-stem=""><data>弿</data><code>U+5F3F</code></v-char>
 </section>
 <section id="cluster-弿-弿-弿-弿-弿-弿-弿󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>弿󠄀</data><code>U+5F3F U+E0100</code></v-char>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-<section id="cluster-彅" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>彅</data><code>U+5F45</code></v-char> Linked</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-彅-rels">0 relations</a>, 9 characters</header>
-<section id="cluster-彅-彅" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>彅</data><code>U+5F45</code></v-char> Related</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-彅-彅-rels">0 relations</a>, 9 characters</header>
-<section id="cluster-彅-彅-彅" class="    no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>彅</data><code>U+5F45</code></v-char> Overlapping</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>2 clusters, <a href="#cluster-彅-彅-彅-rels">1 relations</a>, 9 characters</header>
-<section id="cluster-彅-彅-彅-彅" class=" single-cluster  compact "><header><h1><v-char class="    " data-stem=""><data>彅</data><code>U+5F45</code></v-char> Covered</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-彅-彅-彅-彅-rels">0 relations</a>, 8 characters</header>
-<section id="cluster-彅-彅-彅-彅-彅" class=" single-cluster  compact "><header><h1><v-char class="    " data-stem=""><data>彅</data><code>U+5F45</code></v-char> Equivalent</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>1 clusters, <a href="#cluster-彅-彅-彅-彅-彅-rels">0 relations</a>, 8 characters</header>
-<section id="cluster-彅-彅-彅-彅-彅-彅" class="   compact "><header><h1><v-char class="    " data-stem=""><data>彅</data><code>U+5F45</code></v-char> Unified</h1>
-<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
-<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
-<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
-<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
-</dl><p>8 clusters, <a href="#cluster-彅-彅-彅-彅-彅-彅-rels">14 relations</a>, 8 characters</header>
-<section id="cluster-彅-彅-彅-彅-彅-彅-彅" class="leaf  single-char  "><v-char class="    " data-stem=""><data>彅</data><code>U+5F45</code></v-char>
-</section>
-<section id="cluster-彅-彅-彅-彅-彅-彅-彅󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>彅󠄀</data><code>U+5F45 U+E0100</code></v-char>
-</section>
-<section id="cluster-彅-彅-彅-彅-彅-彅-彅󠄁" class="leaf  single-char  "><v-char class="    " data-stem=""><data>彅󠄁</data><code>U+5F45 U+E0101</code></v-char>
-</section>
-<section id="cluster-彅-彅-彅-彅-彅-彅-彅󠄂" class="leaf  single-char  "><v-char class="    " data-stem=""><data>彅󠄂</data><code>U+5F45 U+E0102</code></v-char>
-</section>
-<section id="cluster-彅-彅-彅-彅-彅-彅-彅󠄃" class="leaf  single-char  "><v-char class="    " data-stem=""><data>彅󠄃</data><code>U+5F45 U+E0103</code></v-char>
-</section>
-<section id="cluster-彅-彅-彅-彅-彅-彅-彅󠄄" class="leaf  single-char  "><v-char class="    " data-stem=""><data>彅󠄄</data><code>U+5F45 U+E0104</code></v-char>
-</section>
-<section id="cluster-彅-彅-彅-彅-彅-彅-彅󠄅" class="leaf  single-char  "><v-char class="    " data-stem=""><data>彅󠄅</data><code>U+5F45 U+E0105</code></v-char>
-</section>
-<section id="cluster-彅-彅-彅-彅-彅-彅-彅󠄆" class="leaf  single-char  "><v-char class="    " data-stem=""><data>彅󠄆</data><code>U+5F45 U+E0106</code></v-char>
-</section>
-</section>
-</section>
-</section>
-<section id="cluster-彅-彅-彅-𭚿" class=" single-cluster single-char compact "><section id="cluster-彅-彅-彅-𭚿-𭚿" class=" single-cluster single-char compact "><section id="cluster-彅-彅-彅-𭚿-𭚿-𭚿" class=" single-cluster single-char compact "><section id="cluster-彅-彅-彅-𭚿-𭚿-𭚿-𭚿" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𭚿</data><code>U+2D6BF</code></v-char>
 </section>
 </section>
 </section>
@@ -36973,7 +36709,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>攛</data><code>U+651B</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-撺-rels">0 relations</a>, 4 characters</header>
 <section id="cluster-撺-撺" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char> Related</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char></div>
@@ -36984,7 +36720,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>攛</data><code>U+651B</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-撺-撺-rels">0 relations</a>, 4 characters</header>
 <section id="cluster-撺-撺-撺" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char> Overlapping</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char></div>
@@ -36995,7 +36731,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>攛</data><code>U+651B</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-撺-撺-撺-rels">0 relations</a>, 4 characters</header>
 <section id="cluster-撺-撺-撺-撺" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char> Covered</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char></div>
@@ -37006,7 +36742,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>攛</data><code>U+651B</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-撺-撺-撺-撺-rels">0 relations</a>, 4 characters</header>
 <section id="cluster-撺-撺-撺-撺-撺" class="    no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char> Equivalent</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char></div>
@@ -37017,7 +36753,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>攛</data><code>U+651B</code></v-char></div>
 </dl><p>3 clusters, <a href="#cluster-撺-撺-撺-撺-撺-rels">3 relations</a>, 4 characters</header>
 <section id="cluster-撺-撺-撺-撺-撺-撺" class=" single-cluster single-char compact "><section id="cluster-撺-撺-撺-撺-撺-撺-撺" class="leaf  single-char  "><v-char class="  stem-cn  " data-stem="C"><data>撺</data><code>U+64BA</code></v-char>
 </section>
@@ -37031,7 +36767,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>攛</data><code>U+651B</code></v-char></div>
 </dl><p>2 clusters, <a href="#cluster-撺-撺-撺-撺-撺-攛-rels">2 relations</a>, 2 characters</header>
 <section id="cluster-撺-撺-撺-撺-撺-攛-攛" class="leaf  single-char  "><v-char class="    stem-tw" data-stem="T"><data>攛</data><code>U+651B</code></v-char>
 </section>
@@ -37661,7 +37397,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>斕</data><code>U+6595</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-斓-rels">0 relations</a>, 11 characters</header>
 <section id="cluster-斓-斓" class="    no-compact-ancestor"><header><h1><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char> Related</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char></div>
@@ -37672,7 +37408,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>斕</data><code>U+6595</code></v-char></div>
 </dl><p>3 clusters, <a href="#cluster-斓-斓-rels">4 relations</a>, 11 characters</header>
 <section id="cluster-斓-斓-斓" class=" single-cluster  compact "><header><h1><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char> Overlapping</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char></div>
@@ -37683,7 +37419,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>斕</data><code>U+6595</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-斓-斓-斓-rels">0 relations</a>, 5 characters</header>
 <section id="cluster-斓-斓-斓-斓" class=" single-cluster  compact "><header><h1><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char> Covered</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char></div>
@@ -37694,7 +37430,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>斕</data><code>U+6595</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-斓-斓-斓-斓-rels">0 relations</a>, 5 characters</header>
 <section id="cluster-斓-斓-斓-斓-斓" class="   compact "><header><h1><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char> Equivalent</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char></div>
@@ -37705,7 +37441,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>斕</data><code>U+6595</code></v-char></div>
 </dl><p>4 clusters, <a href="#cluster-斓-斓-斓-斓-斓-rels">4 relations</a>, 5 characters</header>
 <section id="cluster-斓-斓-斓-斓-斓-斓" class=" single-cluster single-char compact "><section id="cluster-斓-斓-斓-斓-斓-斓-斓" class="leaf  single-char  "><v-char class="  stem-cn  " data-stem="C"><data>斓</data><code>U+6593</code></v-char>
 </section>
@@ -37719,7 +37455,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>斕</data><code>U+6595</code></v-char></div>
 </dl><p>2 clusters, <a href="#cluster-斓-斓-斓-斓-斓-斕-rels">2 relations</a>, 2 characters</header>
 <section id="cluster-斓-斓-斓-斓-斓-斕-斕" class="leaf  single-char  "><v-char class="    stem-tw" data-stem="T"><data>斕</data><code>U+6595</code></v-char>
 </section>
@@ -37744,7 +37480,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-斓-斓-瞵-rels">0 relations</a>, 5 characters</header>
 <section id="cluster-斓-斓-瞵-瞵" class=" single-cluster  compact "><header><h1><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char> Covered</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char></div>
@@ -37755,7 +37491,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char></div>
 </dl><p>1 clusters, <a href="#cluster-斓-斓-瞵-瞵-rels">0 relations</a>, 5 characters</header>
 <section id="cluster-斓-斓-瞵-瞵-瞵" class="   compact "><header><h1><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char> Equivalent</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char></div>
@@ -37766,7 +37502,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char></div>
 </dl><p>2 clusters, <a href="#cluster-斓-斓-瞵-瞵-瞵-rels">1 relations</a>, 5 characters</header>
 <section id="cluster-斓-斓-瞵-瞵-瞵-瞵" class="   compact "><header><h1><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char> Unified</h1>
 <dl class=leaders><div><dt>简<dd lang="zh-CN"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char></div>
@@ -37777,7 +37513,7 @@
 <div><dt>新<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
 <div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
-<div><dt>韓<dd lang="ko-KR"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char></div>
 </dl><p>4 clusters, <a href="#cluster-斓-斓-瞵-瞵-瞵-瞵-rels">6 relations</a>, 4 characters</header>
 <section id="cluster-斓-斓-瞵-瞵-瞵-瞵-瞵" class="leaf  single-char  "><v-char class="  stem-cn  stem-tw" data-stem="CT"><data>瞵</data><code>U+77B5</code></v-char>
 </section>
@@ -40322,6 +40058,170 @@
 <section id="cluster-曂-曂-曂-曂-曂-曂-曂" class="leaf  single-char  "><v-char class="    " data-stem=""><data>曂</data><code>U+66C2</code></v-char>
 </section>
 <section id="cluster-曂-曂-曂-曂-曂-曂-曂󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>曂󠄀</data><code>U+66C2 U+E0100</code></v-char>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section id="cluster-曔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char> Linked</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曔-rels">0 relations</a>, 2 characters</header>
+<section id="cluster-曔-曔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char> Related</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曔-曔-rels">0 relations</a>, 2 characters</header>
+<section id="cluster-曔-曔-曔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char> Overlapping</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曔-曔-曔-rels">0 relations</a>, 2 characters</header>
+<section id="cluster-曔-曔-曔-曔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char> Covered</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曔-曔-曔-曔-rels">0 relations</a>, 2 characters</header>
+<section id="cluster-曔-曔-曔-曔-曔" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char> Equivalent</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曔-曔-曔-曔-曔-rels">0 relations</a>, 2 characters</header>
+<section id="cluster-曔-曔-曔-曔-曔-曔" class="    no-compact-ancestor"><header><h1><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char> Unified</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-n>-</v-n></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char></div>
+</dl><p>2 clusters, <a href="#cluster-曔-曔-曔-曔-曔-曔-rels">2 relations</a>, 2 characters</header>
+<section id="cluster-曔-曔-曔-曔-曔-曔-曔" class="leaf  single-char  "><v-char class="    " data-stem=""><data>曔</data><code>U+66D4</code></v-char>
+</section>
+<section id="cluster-曔-曔-曔-曔-曔-曔-曔󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>曔󠄀</data><code>U+66D4 U+E0100</code></v-char>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section id="cluster-曚" class=" single-cluster  compact no-compact-ancestor"><header><h1><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char> Linked</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曚-rels">0 relations</a>, 6 characters</header>
+<section id="cluster-曚-曚" class="    no-compact-ancestor"><header><h1><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char> Related</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+</dl><p>2 clusters, <a href="#cluster-曚-曚-rels">1 relations</a>, 6 characters</header>
+<section id="cluster-曚-曚-曚" class=" single-cluster  compact "><header><h1><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char> Overlapping</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曚-曚-曚-rels">0 relations</a>, 5 characters</header>
+<section id="cluster-曚-曚-曚-曚" class=" single-cluster  compact "><header><h1><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char> Covered</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曚-曚-曚-曚-rels">0 relations</a>, 5 characters</header>
+<section id="cluster-曚-曚-曚-曚-曚" class=" single-cluster  compact "><header><h1><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char> Equivalent</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+</dl><p>1 clusters, <a href="#cluster-曚-曚-曚-曚-曚-rels">0 relations</a>, 5 characters</header>
+<section id="cluster-曚-曚-曚-曚-曚-曚" class="   compact "><header><h1><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char> Unified</h1>
+<dl class=leaders><div><dt>简<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>繁<dd lang="zh-CN"><v-n>-</v-n></div>
+<div><dt>港<dd lang="zh-HK"><v-n>-</v-n></div>
+<div><dt>臺<dd lang="zh-TW"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+<div><dt>日<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>新<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>平成<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>旧<dd lang="ja"><v-n>-</v-n></div>
+<div><dt>韓<dd lang="ko-KR"><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char></div>
+</dl><p>5 clusters, <a href="#cluster-曚-曚-曚-曚-曚-曚-rels">8 relations</a>, 5 characters</header>
+<section id="cluster-曚-曚-曚-曚-曚-曚-曚" class="leaf  single-char  "><v-char class="    stem-tw" data-stem="T"><data>曚</data><code>U+66DA</code></v-char>
+</section>
+<section id="cluster-曚-曚-曚-曚-曚-曚-曚󠄀" class="leaf  single-char  "><v-char class="    " data-stem=""><data>曚󠄀</data><code>U+66DA U+E0100</code></v-char>
+</section>
+<section id="cluster-曚-曚-曚-曚-曚-曚-曚󠄁" class="leaf  single-char  "><v-char class="    " data-stem=""><data>曚󠄁</data><code>U+66DA U+E0101</code></v-char>
+</section>
+<section id="cluster-曚-曚-曚-曚-曚-曚-曚󠄂" class="leaf  single-char  "><v-char class="    " data-stem=""><data>曚󠄂</data><code>U+66DA U+E0102</code></v-char>
+</section>
+<section id="cluster-曚-曚-曚-曚-曚-曚-曚󠄃" class="leaf  single-char  "><v-char class="    " data-stem=""><data>曚󠄃</data><code>U+66DA U+E0103</code></v-char>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section id="cluster-曚-曚-𣋡" class=" single-cluster single-char compact "><section id="cluster-曚-曚-𣋡-𣋡" class=" single-cluster single-char compact "><section id="cluster-曚-曚-𣋡-𣋡-𣋡" class=" single-cluster single-char compact "><section id="cluster-曚-曚-𣋡-𣋡-𣋡-𣋡" class=" single-cluster single-char compact "><section id="cluster-曚-曚-𣋡-𣋡-𣋡-𣋡-𣋡" class="leaf  single-char  "><v-char class="    " data-stem=""><data>𣋡</data><code>U+232E1</code></v-char>
 </section>
 </section>
 </section>

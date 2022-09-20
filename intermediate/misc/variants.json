@@ -2236,6 +2236,23 @@
       }
    },
    "variants" : {
+      "々" : {
+         "〻" : {
+            "manakai:equivalent" : 1,
+            "manakai:variant:conflicted" : 1
+         }
+      },
+      "〇" : {
+         "0" : {
+            "manakai:equivalent" : 1
+         },
+         "㇣" : {
+            "manakai:same" : 1
+         },
+         "０" : {
+            "manakai:equivalent" : 1
+         }
+      },
       "ヶ" : {
          "个" : {
             "manakai:related" : 1
@@ -14066,11 +14083,11 @@
          }
       },
       "䦐" : {
-         "ヿ" : {
-            "manakai:variant:simplified" : 1
-         },
          "開" : {
             "manakai:related" : 1
+         },
+         "𠃍" : {
+            "manakai:variant:simplifiedconflicted" : 1
          }
       },
       "䦑" : {
@@ -16775,6 +16792,9 @@
          "昺" : {
             "manakai:related" : 1
          },
+         "景" : {
+            "manakai:taboo" : 1
+         },
          "炳" : {
             "manakai:related" : 1
          }
@@ -16909,8 +16929,14 @@
          }
       },
       "个" : {
+         "ケ" : {
+            "manakai:equivalent" : 1,
+            "manakai:variant:conflicted" : 1
+         },
          "ヶ" : {
-            "manakai:related" : 1
+            "manakai:equivalent" : 1,
+            "manakai:related" : 1,
+            "manakai:variant:conflicted" : 1
          },
          "個" : {
             "manakai:related" : 1
@@ -18764,7 +18790,8 @@
             "manakai:related" : 1
          },
          "乍" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "做" : {
             "manakai:related" : 1
@@ -19365,6 +19392,11 @@
             "manakai:related" : 1
          }
       },
+      "俗" : {
+         "谷" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         }
+      },
       "俛" : {
          "俯" : {
             "manakai:related" : 1
@@ -19430,7 +19462,8 @@
       },
       "信" : {
          "㐰" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:conflicted" : 1
          },
          "䚱" : {
             "manakai:related" : 1
@@ -19642,7 +19675,8 @@
       },
       "倅" : {
          "伜" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:jpnewstyle" : 1
          },
          "卒" : {
             "manakai:related" : 1
@@ -19677,6 +19711,9 @@
          }
       },
       "個" : {
+         "㐰" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "个" : {
             "manakai:related" : 1
          },
@@ -20519,6 +20556,9 @@
          }
       },
       "傳" : {
+         "亻" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "伝" : {
             "manakai:related" : 1,
             "manakai:variant:simplifiedconflicted" : 1
@@ -21270,6 +21310,9 @@
          }
       },
       "充" : {
+         "宛" : {
+            "manakai:related" : 1
+         },
          "充" : {
             "manakai:related" : 1
          }
@@ -21992,6 +22035,9 @@
       "冪" : {
          "冖" : {
             "manakai:related" : 1
+         },
+         "巾" : {
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "幂" : {
             "manakai:related" : 1
@@ -25664,12 +25710,6 @@
          },
          "曆" : {
             "manakai:variant:conflicted" : 1
-         },
-         "歴" : {
-            "manakai:variant:conflicted" : 1
-         },
-         "歷" : {
-            "manakai:variant:conflicted" : 1
          }
       },
       "厰" : {
@@ -25691,6 +25731,9 @@
       "厳" : {
          "严" : {
             "manakai:related" : 1
+         },
+         "厶" : {
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "嚴" : {
             "manakai:related" : 1
@@ -30251,7 +30294,8 @@
             "manakai:related" : 1
          },
          "囗" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "囯" : {
             "manakai:related" : 1
@@ -35828,6 +35872,9 @@
          }
       },
       "宣" : {
+         "㝉" : {
+            "manakai:variant:simplified" : 1
+         },
          "㮓" : {
             "manakai:related" : 1
          },
@@ -36359,6 +36406,9 @@
          "寶" : {
             "manakai:related" : 1
          },
+         "珎" : {
+            "manakai:related" : 1
+         },
          "寳" : {
             "manakai:related" : 1
          }
@@ -36381,6 +36431,7 @@
             "manakai:related" : 1
          },
          "寳" : {
+            "manakai:equivalent" : 1,
             "manakai:related" : 1
          },
          "寳" : {
@@ -36566,6 +36617,11 @@
       },
       "導" : {
          "导" : {
+            "manakai:related" : 1
+         }
+      },
+      "少" : {
+         "小" : {
             "manakai:related" : 1
          }
       },
@@ -37171,6 +37227,11 @@
             "manakai:related" : 1
          },
          "屮" : {
+            "manakai:related" : 1
+         }
+      },
+      "屯" : {
+         "瓲" : {
             "manakai:related" : 1
          }
       },
@@ -38499,6 +38560,9 @@
          "岭" : {
             "manakai:related" : 1
          },
+         "岺" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "領" : {
             "manakai:related" : 1
          },
@@ -39539,6 +39603,10 @@
             "manakai:related" : 1
          },
          "秊" : {
+            "manakai:equivalent" : 1,
+            "manakai:related" : 1
+         },
+         "羊" : {
             "manakai:related" : 1
          },
          "年" : {
@@ -40558,6 +40626,9 @@
          }
       },
       "弗" : {
+         "厶" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "怫" : {
             "manakai:related" : 1
          }
@@ -41118,6 +41189,9 @@
       "径" : {
          "俓" : {
             "manakai:related" : 1
+         },
+         "圣" : {
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "徑" : {
             "manakai:related" : 1
@@ -43822,6 +43896,9 @@
          }
       },
       "應" : {
+         "广" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "应" : {
             "manakai:related" : 1
          },
@@ -45234,6 +45311,9 @@
          }
       },
       "拂" : {
+         "弗" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "払" : {
             "manakai:related" : 1
          }
@@ -47472,6 +47552,9 @@
          }
       },
       "摩" : {
+         "广" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "擵" : {
             "manakai:related" : 1
          },
@@ -47775,6 +47858,9 @@
       "撥" : {
          "拨" : {
             "manakai:related" : 1
+         },
+         "𫝼" : {
+            "manakai:variant:jpnewstyle" : 1
          }
       },
       "撦" : {
@@ -50094,6 +50180,11 @@
             "manakai:related" : 1
          }
       },
+      "昴" : {
+         "昂" : {
+            "manakai:alt" : 1
+         }
+      },
       "昵" : {
          "尼" : {
             "manakai:related" : 1
@@ -51030,6 +51121,10 @@
          },
          "曵" : {
             "manakai:related" : 1
+         },
+         "𠂆" : {
+            "manakai:equivalent" : 1,
+            "manakai:variant:conflicted" : 1
          }
       },
       "更" : {
@@ -53476,10 +53571,12 @@
       },
       "棧" : {
          "栈" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:conflicted" : 1
          },
          "桟" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:conflicted" : 1
          }
       },
       "棬" : {
@@ -55193,9 +55290,13 @@
             "manakai:related" : 1
          },
          "栈" : {
+            "manakai:equivalent" : 1,
+            "manakai:variant:conflicted" : 1,
             "manakai:variant:simplifiedconflicted" : 1
          },
          "桟" : {
+            "manakai:equivalent" : 1,
+            "manakai:variant:conflicted" : 1,
             "manakai:variant:simplifiedconflicted" : 1
          }
       },
@@ -55781,7 +55882,8 @@
             "manakai:related" : 1
          },
          "檪" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:jpnewstyle" : 1
          },
          "櫪" : {
             "manakai:related" : 1
@@ -56575,6 +56677,9 @@
          "嵗" : {
             "manakai:related" : 1
          },
+         "戈" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "才" : {
             "manakai:variant:simplifiedconflicted" : 1
          },
@@ -56644,6 +56749,9 @@
          },
          "歷" : {
             "manakai:related" : 1
+         },
+         "𠪱" : {
+            "manakai:equivalent" : 1
          }
       },
       "歸" : {
@@ -57343,6 +57451,9 @@
       "氐" : {
          "低" : {
             "manakai:related" : 1
+         },
+         "弖" : {
+            "manakai:equivalent" : 1
          }
       },
       "氒" : {
@@ -61556,6 +61667,9 @@
          }
       },
       "澤" : {
+         "㚖" : {
+            "manakai:equivalent" : 1
+         },
          "沢" : {
             "manakai:related" : 1
          },
@@ -66022,6 +66136,9 @@
          },
          "神" : {
             "manakai:taboo" : 1
+         },
+         "𤣥" : {
+            "manakai:variant:taboo" : 1
          }
       },
       "玅" : {
@@ -67375,15 +67492,22 @@
       },
       "瓣" : {
          "弁" : {
+            "manakai:equivalent" : 1,
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          },
          "辧" : {
             "manakai:related" : 1
          },
          "辨" : {
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          },
+         "辮" : {
+            "manakai:inset:original" : 1
+         },
          "辯" : {
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          }
       },
@@ -67415,6 +67539,11 @@
       },
       "瓯" : {
          "甌" : {
+            "manakai:related" : 1
+         }
+      },
+      "瓲" : {
+         "噸" : {
             "manakai:related" : 1
          }
       },
@@ -68090,6 +68219,7 @@
             "manakai:related" : 1
          },
          "畨" : {
+            "manakai:equivalent" : 1,
             "manakai:related" : 1
          },
          "蕃" : {
@@ -68533,6 +68663,11 @@
          },
          "靤" : {
             "manakai:related" : 1
+         }
+      },
+      "疱󠄁" : {
+         "疱󠄂" : {
+            "manakai:variant:jpnewstyle" : 1
          }
       },
       "疲" : {
@@ -69394,6 +69529,9 @@
          },
          "関" : {
             "manakai:inset:original" : 1
+         },
+         "關" : {
+            "manakai:inset:original" : 1
          }
       },
       "癹" : {
@@ -69415,6 +69553,9 @@
          },
          "蹬" : {
             "manakai:related" : 1
+         },
+         "鄧" : {
+            "manakai:alt" : 1
          }
       },
       "發" : {
@@ -71040,6 +71181,10 @@
          },
          "鉐" : {
             "manakai:related" : 1
+         },
+         "𠂆" : {
+            "manakai:equivalent" : 1,
+            "manakai:variant:conflicted" : 1
          }
       },
       "矴" : {
@@ -72110,6 +72255,9 @@
       "磨" : {
          "䃺" : {
             "manakai:related" : 1
+         },
+         "广" : {
+            "manakai:variant:simplifiedconflicted" : 1
          }
       },
       "磪" : {
@@ -77492,6 +77640,9 @@
          }
       },
       "絵" : {
+         "会" : {
+            "manakai:related" : 1
+         },
          "繢" : {
             "manakai:related" : 1
          },
@@ -80811,6 +80962,9 @@
          }
       },
       "義" : {
+         "乂" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "义" : {
             "manakai:related" : 1
          },
@@ -86981,6 +87135,9 @@
          "剃" : {
             "manakai:related" : 1
          },
+         "彅" : {
+            "manakai:alt" : 1
+         },
          "鬀" : {
             "manakai:related" : 1
          }
@@ -87834,6 +87991,9 @@
          }
       },
       "虫" : {
+         "丶" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "虺" : {
             "manakai:related" : 1
          },
@@ -91652,6 +91812,9 @@
          "峜" : {
             "manakai:related" : 1
          },
+         "斗" : {
+            "manakai:related" : 1
+         },
          "计" : {
             "manakai:related" : 1
          }
@@ -93441,6 +93604,9 @@
          }
       },
       "證" : {
+         "症" : {
+            "manakai:related" : 1
+         },
          "証" : {
             "manakai:related" : 1,
             "manakai:variant:jpnewstyle" : 1
@@ -95539,6 +95705,9 @@
          }
       },
       "買" : {
+         "⺴" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "买" : {
             "manakai:related" : 1
          }
@@ -99276,12 +99445,14 @@
       },
       "辧" : {
          "弁" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:conflicted" : 1
          },
          "瓣" : {
             "manakai:related" : 1
          },
          "辨" : {
+            "manakai:equivalent" : 1,
             "manakai:related" : 1
          },
          "辯" : {
@@ -99290,15 +99461,22 @@
       },
       "辨" : {
          "弁" : {
+            "manakai:equivalent" : 1,
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          },
          "瓣" : {
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          },
          "辧" : {
             "manakai:related" : 1
          },
+         "辮" : {
+            "manakai:inset:original" : 1
+         },
          "辯" : {
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          }
       },
@@ -99336,27 +99514,45 @@
       },
       "辮" : {
          "弁" : {
+            "manakai:equivalent" : 1,
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
+         },
+         "瓣" : {
+            "manakai:inset:original" : 1
+         },
+         "辨" : {
+            "manakai:inset:original" : 1
          },
          "辫" : {
             "manakai:related" : 1
+         },
+         "辯" : {
+            "manakai:inset:original" : 1
          }
       },
       "辯" : {
          "弁" : {
+            "manakai:equivalent" : 1,
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          },
          "瓣" : {
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          },
          "辧" : {
             "manakai:related" : 1
          },
          "辨" : {
+            "manakai:inset:original" : 1,
             "manakai:related" : 1
          },
          "辩" : {
             "manakai:related" : 1
+         },
+         "辮" : {
+            "manakai:inset:original" : 1
          }
       },
       "辰" : {
@@ -100850,6 +101046,9 @@
       "部" : {
          "郶" : {
             "manakai:related" : 1
+         },
+         "阝" : {
+            "manakai:variant:simplifiedconflicted" : 1
          }
       },
       "郫" : {
@@ -101682,6 +101881,9 @@
          }
       },
       "釈" : {
+         "尺" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "释" : {
             "manakai:related" : 1
          },
@@ -106715,17 +106917,17 @@
          }
       },
       "門" : {
-         "ヿ" : {
-            "manakai:variant:simplified" : 1
-         },
          "乛" : {
-            "manakai:variant:simplified" : 1
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "閅" : {
             "manakai:related" : 1
          },
          "门" : {
             "manakai:related" : 1
+         },
+         "𠃍" : {
+            "manakai:variant:simplifiedconflicted" : 1
          }
       },
       "閂" : {
@@ -107274,7 +107476,12 @@
       },
       "關" : {
          "关" : {
-            "manakai:related" : 1
+            "manakai:inset:original" : 1,
+            "manakai:related" : 1,
+            "manakai:variant:simplified" : 1
+         },
+         "癸" : {
+            "manakai:inset:original" : 1
          },
          "関" : {
             "manakai:related" : 1
@@ -110234,6 +110441,14 @@
          },
          "齑" : {
             "manakai:related" : 1
+         }
+      },
+      "音" : {
+         "亠" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
+         "六" : {
+            "manakai:variant:simplifiedconflicted" : 1
          }
       },
       "韵" : {
@@ -115036,6 +115251,11 @@
             "manakai:related" : 1
          }
       },
+      "魔" : {
+         "广" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         }
+      },
       "魗" : {
          "醜" : {
             "manakai:related" : 1
@@ -117075,6 +117295,9 @@
          }
       },
       "鴈" : {
+         "厂" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "贋" : {
             "manakai:related" : 1
          },
@@ -118114,6 +118337,9 @@
          "䧹" : {
             "manakai:related" : 1
          },
+         "广" : {
+            "manakai:variant:simplifiedconflicted" : 1
+         },
          "鹰" : {
             "manakai:related" : 1
          }
@@ -118867,6 +119093,9 @@
       "鹿" : {
          "䴪" : {
             "manakai:related" : 1
+         },
+         "广" : {
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "廘" : {
             "manakai:related" : 1
@@ -119947,7 +120176,8 @@
             "manakai:related" : 1
          },
          "令" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "秢" : {
             "manakai:related" : 1
@@ -122824,6 +123054,9 @@
          }
       },
       "艹" : {
+         "⻀" : {
+            "manakai:same" : 1
+         },
          "䒑" : {
             "manakai:related" : 1
          },
@@ -122836,6 +123069,9 @@
          }
       },
       "艹" : {
+         "⺿" : {
+            "manakai:same" : 1
+         },
          "艹" : {
             "manakai:related" : 1,
             "unicode:canonical-decomposition" : 1
@@ -123814,6 +124050,16 @@
             "unicode:canonical-decomposition" : 1
          }
       },
+      "０" : {
+         "0" : {
+            "manakai:same" : 1
+         }
+      },
+      "𠂆" : {
+         "⺁" : {
+            "manakai:same" : 1
+         }
+      },
       "𠄡" : {
          "五" : {
             "manakai:related" : 1
@@ -123900,12 +124146,6 @@
          },
          "曆" : {
             "manakai:inset:original" : 1,
-            "manakai:variant:conflicted" : 1
-         },
-         "歴" : {
-            "manakai:variant:conflicted" : 1
-         },
-         "歷" : {
             "manakai:variant:conflicted" : 1
          }
       },
