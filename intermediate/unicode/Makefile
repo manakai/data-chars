@@ -5,7 +5,9 @@ PERL = $(ROOT_PATH)/perl -I$(ROOT_PATH)/bin/modules/json-ps/lib
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: $(TEMP_PATH) variants.json
+all: build-nightly
+
+build-nightly: $(TEMP_PATH) variants.json namesrefs.json
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -69,5 +71,12 @@ variants.json: variants.pl \
     $(TEMP_PATH)/unihan-krname.txt \
     $(TEMP_PATH)/unihan13-krname.txt
 	IVD_VERSION=$(IVD_VERSION) $(PERL) $< > $@
+
+$(ROOT_PATH)/local/unicode/latest/NamesList.txt:
+	cd $(ROOT_PATH) && $(MAKE) local/unicode/latest/NamesList.txt
+
+namesrefs.json: namesrefs.pl \
+    $(ROOT_PATH)/local/unicode/latest/NamesList.txt
+	$(PERL) $< > $@
 
 ## License: Public Domain.
