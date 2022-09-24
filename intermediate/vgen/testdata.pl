@@ -5,6 +5,7 @@ use JSON::PS;
 use Web::Encoding;
 
 my $ThisPath = path (__FILE__)->parent;
+my $DataPath = path ('.');
 my $Data = {};
 
 sub ue ($) {
@@ -16,7 +17,7 @@ sub ue ($) {
 
 my $Levels = {};
 {
-  my $path = $ThisPath->child ('cluster-root.json');
+  my $path = $DataPath->child ('cluster-root.json');
   my $json = json_bytes2perl $path->slurp;
   for (@{$json->{cluster_levels}}) {
     $Levels->{$_->{key}} = $_;
@@ -24,7 +25,7 @@ my $Levels = {};
 }
 
 {
-  my $path = $ThisPath->child ('tests.txt');
+  my $path = $DataPath->child ('tests.txt');
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
     if (/^\s*#/) {
       #

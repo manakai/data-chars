@@ -4,8 +4,15 @@ use Path::Tiny;
 use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
+my $DataPath = path ('.');
 my $StartTime = time;
 my $Data = {};
+
+my $Input;
+{
+  my $path = $DataPath->child ('input.json');
+  $Input = json_bytes2perl $path->slurp;
+}
 
 my $Rels = {};
 my $MergeableVariants = {};
@@ -298,38 +305,12 @@ my $HasRels = {};
 my $HasRelTos = {};
 my $RevRels = [];
 for (
-  ['../unicode/variants.json', ['variants'], {
-    cn => 'cn', hk => 'hk',
-    'g1' => 'gb12345',
-    k0 => 'ksx1001',
-    krname => 'krname',
-  }, {
-    'unihan:hkglyph' => 'hk',
-  }],
-  ['../mj/variants.json', ['variants'], {
-    jouyou => 'jp',
-    jinmei => 'jp_jinmei',
-  }, {}],
-  ['../cjkvi/variants.json', ['variants'], {}, {
-    'cjkvi:joyo/variant' => 'jp',
-    'cjkvi:jinmei1/variant' => 'jp',
-    'cjkvi:jinmei2/variant' => 'jp',
-    'cjkvi:hyogai/variant' => 'jp2',
-  }],
-  ['../wikimedia/variants.json', [], {
-    tw => 'tw',
-    kredu => 'kr',
-    kredu_added => 'kr',
-    kredu_deleted => 'kr',
-    hyougai => 'jp2',
-  }, {}],
-  ['../misc/variants.json', ['variants'], {
-    jouyou_s56 => 'jp2',
-    jinmei_h9 => 'jp2',
-  }, {}],
+  map {
+    [$_->{path}, $_->{set_map} || {}, $_->{mv_map} || {}],
+  } @{$Input->{inputs}},
 ) {
-  my ($x, $keys, $setmap, $mvmap) = @$_;
-  my $path = $ThisPath->child ($x);
+  my ($x, $setmap, $mvmap) = @$_;
+  my $path = $DataPath->child ($x);
   print STDERR "\r$path...";
   my $json = json_bytes2perl $path->slurp;
   for my $c1 (keys %{$json->{variants}}) {
@@ -477,7 +458,7 @@ $Data->{chars}->{$_} = 1 for keys %$Rels;
     unless (defined $file) {
       $i++;
       print STDERR "\rWrite[1.$i]...";
-      my $path = $ThisPath->child ("merged-rels-$i.jsonl");
+      my $path = $DataPath->child ("merged-rels-$i.jsonl");
       $file = $path->openw;
     }
     my $c1 = shift @$c1s;
@@ -494,7 +475,7 @@ $Data->{chars}->{$_} = 1 for keys %$Rels;
 }
 {
   print STDERR "\rWrite[2]...";
-  my $path = $ThisPath->child ('merged-misc.json');
+  my $path = $DataPath->child ('merged-misc.json');
   $path->spew (perl2json_bytes_for_record $Data);
 }
 printf STDERR "Done (%d s)", time - $StartTime;

@@ -4,10 +4,11 @@ use Path::Tiny;
 use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
+my $DataPath = path ('.');
 
 my $Data;
 {
-  my $path = $ThisPath->child ('cluster-root.json');
+  my $path = $DataPath->child ('cluster-root.json');
   $Data = json_bytes2perl $path->slurp;
 }
 my $DataChars = [];
@@ -15,7 +16,7 @@ my $DataChars = [];
   my $i = 0;
   {
     $i++;
-    my $path = $ThisPath->child ("cluster-chars-$i.txt");
+    my $path = $DataPath->child ("cluster-chars-$i.txt");
     last unless $path->is_file;
     my $file = $path->openr;
     local $/ = "\x0A\x0A";

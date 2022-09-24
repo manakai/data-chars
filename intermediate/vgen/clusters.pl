@@ -4,6 +4,7 @@ use Path::Tiny;
 use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
+my $DataPath = path ('.');
 my $StartTime = time;
 
 sub merge ($$$) {
@@ -31,14 +32,14 @@ my $DataRels = [];
 
 my $Merged;
 {
-  my $path = $ThisPath->child ('merged-misc.json');
+  my $path = $DataPath->child ('merged-misc.json');
   $Merged = json_bytes2perl $path->slurp;
 }
 my $Rels = {};
 {
   my $i = 1;
   {
-    my $path = $ThisPath->child ("merged-rels-$i.jsonl");
+    my $path = $DataPath->child ("merged-rels-$i.jsonl");
     last unless $path->is_file;
     print STDERR "\r$path...";
     my $file = $path->openr;
@@ -293,7 +294,7 @@ my $FileList = {};
   while (@$DataChars) {
     unless (defined $file) {
       $i++;
-      my $path = $ThisPath->child ("cluster-chars-$i.txt");
+      my $path = $DataPath->child ("cluster-chars-$i.txt");
       print STDERR "\rWrite |$path|...";
       $file = $path->openw;
       push @{$FileList->{chars} ||= []}, "cluster-chars-$i.txt";
@@ -319,7 +320,7 @@ my $FileList = {};
   while (@$DataRels) {
     unless (defined $file) {
       $i++;
-      my $path = $ThisPath->child ("cluster-rels-$i.jsonl");
+      my $path = $DataPath->child ("cluster-rels-$i.jsonl");
       print STDERR "\rWrite |$path|...";
       $file = $path->openw;
       push @{$FileList->{rels} ||= []}, "cluster-chars-$i.txt";
@@ -339,7 +340,7 @@ my $FileList = {};
   }
 }
 {
-  my $path = $ThisPath->child ('cluster-root.json');
+  my $path = $DataPath->child ('cluster-root.json');
   print STDERR "\rWrite |$path|...";
   push @{$FileList->{root} ||= []}, 'cluster-root.json';
   $Data->{files} = $FileList;

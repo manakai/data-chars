@@ -4,10 +4,11 @@ use Path::Tiny;
 use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
+my $DataPath = path ('.');
 
 my $Levels = [];
 {
-  my $path = $ThisPath->child ('cluster-root.json');
+  my $path = $DataPath->child ('cluster-root.json');
   my $json = json_bytes2perl $path->slurp;
   for (@{$json->{cluster_levels}}) {
     $Levels->[$_->{index}] = $_;
@@ -15,7 +16,7 @@ my $Levels = [];
 }
 my $Chars = {};
 {
-  my $path = $ThisPath->child ('char-cluster.jsonl');
+  my $path = $DataPath->child ('char-cluster.jsonl');
   my $file = $path->openr;
   local $/ = "\x0A";
   while (<$file>) {
@@ -26,7 +27,7 @@ my $Chars = {};
 
 my $TestData;
 {
-  my $path = $ThisPath->child ('testdata.json');
+  my $path = $DataPath->child ('testdata.json');
   $TestData = json_bytes2perl $path->slurp;
 }
 
