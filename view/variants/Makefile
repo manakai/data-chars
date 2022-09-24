@@ -26,6 +26,12 @@ list-rels.html: generate.pl \
 	WITH_RELS=1 $(PERL) $< > $@
 list-rels-html-*.txt: list-rels.html
 
+table: create-table.pl  \
+    $(DATA_PATH)/cluster-root.json \
+    $(DATA_PATH)/char-cluster.jsonl \
+    $(DATA_PATH)/merged-rels-*.jsonl
+	$(PERL) $<
+
 perl-test:
 	cd ../../intermediate/variants && $(MAKE) perl-test
 
