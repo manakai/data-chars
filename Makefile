@@ -16,8 +16,12 @@ update-submodules:
 	$(GIT) add config
 	$(CURL) -sSLf https://raw.githubusercontent.com/wakaba/ciconfig/master/ciconfig | RUN_GIT=1 REMOVE_UNUSED=1 perl
 
-dataautoupdate: clean deps all
+dataautoupdate: clean deps build-nightly-iu all
 	$(GIT) add data/ src/ intermediate view
+
+build-nightly-iu: data/maps.json
+	cd intermediate/unicode && $(MAKE) build-nightly
+	cd intermediate/charrels && $(MAKE) build-nightly
 
 ## ------ Setup ------
 
@@ -71,6 +75,13 @@ local/ucd/ScriptExtensions.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/ScriptExtensions.txt
 local/ucd/PropertyValueAliases.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt
+
+local/security/latest/confusables.txt:
+	mkdir -p local/security/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/security/latest/confusables.txt
+local/security/latest/intentional.txt:
+	mkdir -p local/security/latest
+	$(SAVEURL) $@ https://www.unicode.org/Public/security/latest/intentional.txt
 
 local/tr31.html:
 	$(SAVEURL) $@ https://www.unicode.org/reports/tr31/
@@ -538,9 +549,12 @@ local/encoding-0208.txt:
 src/set/jisx0208/files: bin/jisx0208.pl \
     local/jis-0208.txt local/encoding-0208.txt
 	$(PERL) bin/jisx0208.pl
+	touch $@
 src/set/jisx4051/files: bin/jisx4051.pl \
     local/jis-0213-1.txt local/jis-0213-2.txt
 	$(PERL) bin/jisx4051.pl
+	mkdir -p src/set/jisx4051
+	touch $@
 
 data/sets.json: bin/sets.pl \
     bin/lib/Charinfo/Name.pm bin/lib/Charinfo/Set.pm \
@@ -577,8 +591,14 @@ data/maps.json: bin/maps.pl local/unicode/latest/UnicodeData.txt \
     local/unicode/latest/CaseFolding.txt \
     data/sets.json src/tn1150table.txt src/tn1150lowercase.json \
     local/map-data/uts46--mapping.json \
-    local/hentai_to_standard.json
+    local/hentai_to_standard.json \
+    src/map/*/*.expr \
+    local/security/latest/confusables.txt \
+    local/security/latest/intentional.txt
 	$(PERL) bin/maps.pl > $@
+
+src/map/unicode/hangul_decomposition.expr: bin/hangul-decompose.pl
+	$(PERL) $< > $@
 
 local/spec-numbers.html:
 	$(SAVEURL) $@ https://manakai.github.io/spec-numbers/

@@ -138,7 +138,7 @@ for (
     if (/^([0-9A-F]+) ([0-9A-F]+)\s*;\s*CJK COMPATIBILITY IDEOGRAPH-([0-9A-F]+);/) {
       my $c1 = (chr hex $1) . (chr hex $2);
       my $c2 = chr hex $3;
-      $Data->{variants}->{$c2}->{$c1}->{'unicode:svs'} = 1;
+      $Data->{variants}->{$c2}->{$c1}->{'unicode:svs:cjk'} = 1;
     }
   }
 }

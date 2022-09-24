@@ -1,0 +1,7 @@
+{
+  "inputs": [
+    {
+      "path": "../unicode/namesrefs.json"
+    }
+  ]
+}

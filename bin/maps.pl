@@ -10,6 +10,7 @@ my $unicode_version = 'latest';
 
 my $root_path = path (__FILE__)->parent->parent;
 my $input_ucd_path = $root_path->child ('local/unicode', $unicode_version);
+my $InputSrcPath = $root_path->child ('src/map');
 
 {
   my $path = $root_path->child ('local/perl-unicode', $unicode_version, 'lib');
@@ -92,6 +93,31 @@ for (0xAC00..0xD7A3) {
       $to //= $from;
       my $new = [map { hex $_ } grep { length } split / /, $2];
       $Maps->{'unicode:NFKC_Casefold'}->{$_} = $new for $from..$to;
+    }
+  }
+}
+
+{
+  my $path = $root_path->child ('local/security/latest/confusables.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^([0-9A-F][ 0-9A-F]+[0-9A-F])\s*;\s*([0-9A-F][ 0-9A-F]+[0-9A-F])\s/) {
+      my $v1 = $1;
+      my $v2 = $2;
+      my $s1 = join ' ', map { uhex $_ } split / /, $v1;
+      my $s2 = join ' ', map { uhex $_ } split / /, $v2;
+      $Data->{maps}->{'unicode:security:confusable'}->{chars}->{$s1} = $s2;
+    }
+  }
+}
+{
+  my $path = $root_path->child ('local/security/latest/intentional.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^([0-9A-F][ 0-9A-F]+[0-9A-F])\s*;\s*([0-9A-F][ 0-9A-F]+[0-9A-F])\s/) {
+      my $v1 = $1;
+      my $v2 = $2;
+      my $s1 = join ' ', map { uhex $_ } split / /, $v1;
+      my $s2 = join ' ', map { uhex $_ } split / /, $v2;
+      $Data->{maps}->{'unicode:security:intentional'}->{chars}->{$s1} = $s2;
     }
   }
 }
@@ -423,6 +449,50 @@ for (0xD800..0xDFFF) {
   $Data->{maps}->{'xml:charref'}->{chars}->{u $_} = u 0xFFFD;
 }
 ## And > U+10FFFF
+
+{
+  my $refs = {};
+for my $dir_path (($InputSrcPath->children)) {
+  if ($dir_path->is_dir) {
+    for my $file_path (($dir_path->children (qr(\.expr$)))) {
+      my $key = $file_path->relative ($InputSrcPath);
+      $key =~ s/\.expr$//g;
+      $key =~ s{/}{:}g;
+      for (split /\n/, $file_path->slurp_utf8) {
+        if (/^\s*#/) {
+          #
+        #XXX #sw:
+        #XXX #label:
+        #XXX #url:
+        } elsif (/^((?:\\u\{[0-9A-Fa-f]+\})+)\s*->\s*((?:\\u\{[0-9A-Fa-f]+\})+)$/) {
+          my $v1 = $1;
+          my $v2 = $2;
+          $v1 =~ s/\\u\{([0-9A-Fa-f]+)\}/chr hex $1/ge;
+          $v2 =~ s/\\u\{([0-9A-Fa-f]+)\}/chr hex $1/ge;
+          $v1 = join ' ', map { u ord $_ } split //, $v1;
+          $v2 = join ' ', map { u ord $_ } split //, $v2;
+          $Data->{maps}->{$key}->{chars}->{$v1} = $v2;
+        } elsif (/^([A-Za-z][A-Za-z0-9:_.-]*)$/) {
+          $refs->{$key}->{$1} = 1;
+        } elsif (/\S/) {
+          die "|$file_path|: Bad line |$_|";
+        }
+      }
+    }
+  }
+}
+  # XXX ref resolution orders
+  for my $key (keys %$refs) {
+    for my $key2 (keys %{$refs->{$key}}) {
+      die "Bad key |$key2| referenced from |$key|"
+          unless defined $Data->{maps}->{$key2};
+      my $values = $Data->{maps}->{$key2}->{chars};
+      for my $from (keys %$values) {
+        $Data->{maps}->{$key}->{chars}->{$from} = $values->{$from};
+      }
+    }
+  }
+}
 
 for my $path ($root_path->child ('local/map-data')->children (qr/\.json$/)) {
   $path =~ m{([^/]+)\.json$};
