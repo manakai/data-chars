@@ -74,10 +74,13 @@ my $PairedTypes = [];
     "mj:実装したSVS",
     "mj:対応する互換漢字",
     "mj:戸籍統一文字:同一",
-    "unicode:svs",
+    "unicode:svs:cjk",
     "ivd:duplicate",
     "cjkvi:cjkvi/duplicate",
     "manakai:same",
+    
+    "unicode:canon_composition",
+    "unicode:canon_decomposition",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
     $TypeWeight->{'rev:'.$vtype} = W 'SAME';
@@ -102,6 +105,9 @@ my $PairedTypes = [];
     "unihan:kZVariant",
     "cjkvi:ucs-scs/variant",
     "manakai:unified",
+
+    "unicode:svs",
+    "unicode:svs:obsolete",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -132,6 +138,14 @@ my $PairedTypes = [];
     "manakai:variant:wu",
     "manakai:variant:taboo",
     "manakai:equivalent",
+
+    "fwhw:normalize",
+    "fwhw:strict_normalize",
+    "kana:normalize",
+
+    "ucd:names:discouraged",
+    "ucd:names:obsoleted",
+    "ucd:names:preferred",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -233,6 +247,39 @@ my $PairedTypes = [];
     "cjkvi:cjkvi/radical-variant:top",
 
     "manakai:variant",
+
+    "irc:ascii-lowercase",
+    "irc:rfc1459-lowercase",
+    "irc:strict-rfc1459-lowercase",
+    "ucd:names:lc",
+    "ucd:names:lc-some",
+    "ucd:names:uc",
+    "ucd:names:uc-some",
+    "unicode:Case_Folding",
+    "unicode:Titlecase_Mapping",
+    "unicode:Uppercase_Mapping",
+    "unicode:Lowercase_Mapping",
+
+    "rfc3454:B.2",
+    "rfc3454:B.3",
+    "rfc5051:titlecase-canonical",
+    "unicode:NFKC_Casefold",
+    "unicode:compat_decomposition",
+    "uts46:mapping",
+    
+    "ucd:names:variant",
+    "ucd:names:preferred-some",
+    "ucd:names:prefers-some",
+
+    "kana:h2k",
+    "kana:k2h",
+    "kana:large",
+    "kana:small",
+
+    "unicode5.1:Bidi_Mirroring_Glyph",
+    "unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT",
+    "unicode:Bidi_Mirroring_Glyph",
+    "unicode:Bidi_Mirroring_Glyph-BEST-FIT",
   ) {
     $TypeWeight->{$vtype} = W 'OVERLAP';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -267,6 +314,8 @@ my $PairedTypes = [];
     "manakai:alt",
     "manakai:related",
     "manakai:taboo",
+    
+    "ucd:names:transliterated",
   ) {
     $TypeWeight->{$vtype} = W 'RELATED';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -279,6 +328,13 @@ my $PairedTypes = [];
     "cjkvi:cjkvi/non-cognate",
     "mj:新しいMJ文字図形名",
     "manakai:inset:original",
+
+    "ucd:names:confused",
+    "ucd:names:related",
+    "ucd:names:x",
+    "unicode:Bidi_Paired_Bracket",
+    "unicode:security:confusable",
+    "unicode:security:intentional",
   ) {
     $TypeWeight->{$vtype} = W 'LINKED';
     $TypeWeight->{'rev:'.$vtype} = -1;

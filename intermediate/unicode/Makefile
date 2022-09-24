@@ -74,9 +74,13 @@ variants.json: variants.pl \
 
 $(ROOT_PATH)/local/unicode/latest/NamesList.txt:
 	cd $(ROOT_PATH) && $(MAKE) local/unicode/latest/NamesList.txt
+$(ROOT_PATH)/data/maps.json:
+	cd $(ROOT_PATH) && $(MAKE) data/maps.json
 
 namesrefs.json: namesrefs.pl \
-    $(ROOT_PATH)/local/unicode/latest/NamesList.txt
+    $(ROOT_PATH)/local/unicode/latest/NamesList.txt \
+    $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
+    $(ROOT_PATH)/data/maps.json
 	$(PERL) $< > $@
 
 ## License: Public Domain.

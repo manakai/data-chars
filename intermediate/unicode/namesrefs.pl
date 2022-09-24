@@ -11,7 +11,8 @@ sub u_chr ($) {
     return sprintf ':u%x', $_[0];
   }
   my $c = chr $_[0];
-  if ($c eq ":" or $c eq "." or $c =~ /\p{Non_Character_Code_Point}/) {
+  if ($c eq ":" or $c eq "." or
+      $c =~ /\p{Non_Character_Code_Point}|\p{Surrogate}/) {
     return sprintf ':u%x', $_[0];
   } else {
     return $c;
@@ -20,9 +21,18 @@ sub u_chr ($) {
 
 sub u_hexs ($) {
   my $s = shift;
+  my $i = 0;
   return join '', map {
     my $t = u_chr hex $_;
-    die $t if 1 < length $t;
+    if ($i++ != 0) {
+      $t = '.' if $t eq ':u2e';
+      $t = ':' if $t eq ':u3a';
+    }
+    if (1 < length $t) {
+      return join '', map {
+        sprintf ':u%x', hex $_;
+      } split /\s+/, $s;
+    }
     $t;
   } split /\s+/, $s
 } # u_hexs
@@ -129,6 +139,85 @@ my $Data = {};
         my $code2 = hex $2;
         $Data->{variants}->{u_chr $code}->{u_chr $code2}->{"ucd:names:related"} = 1;
       }
+    }
+  }
+}
+
+{
+  my $path = $RootPath->child ('data/maps.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $key (qw(
+    fwhw:normalize
+    fwhw:strict_normalize
+
+    kana:h2k
+    kana:k2h
+    kana:large
+    kana:normalize
+    kana:small
+
+    irc:ascii-lowercase
+    irc:rfc1459-lowercase
+    irc:strict-rfc1459-lowercase
+
+rfc5051:titlecase-canonical
+
+rfc3454:B.1
+rfc3454:B.2
+rfc3454:B.3
+uts46:mapping
+
+unicode:Case_Folding
+unicode:Lowercase_Mapping
+unicode:NFKC_Casefold
+unicode:Titlecase_Mapping
+unicode:Uppercase_Mapping
+unicode:canon_composition
+unicode:canon_decomposition
+unicode:compat_decomposition
+
+unicode5.1:Bidi_Mirroring_Glyph
+unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT
+unicode:Bidi_Mirroring_Glyph
+unicode:Bidi_Mirroring_Glyph-BEST-FIT
+unicode:Bidi_Paired_Bracket
+
+unicode:security:confusable
+unicode:security:intentional
+  )) {
+    my $def = $json->{maps}->{$key};
+    for my $in (keys %{$def->{char_to_char} or {}}) {
+      my $out = $def->{char_to_char}->{$in};
+      $Data->{variants}->{u_hexs $in}->{u_hexs $out}->{$key} = 1;
+    }
+    for my $in (keys %{$def->{char_to_seq} or {}}) {
+      my $out = $def->{char_to_seq}->{$in};
+      $Data->{variants}->{u_hexs $in}->{u_hexs $out}->{$key} = 1;
+    }
+    for my $in (keys %{$def->{seq_to_char} or {}}) {
+      my $out = $def->{seq_to_char}->{$in};
+      $Data->{variants}->{u_hexs $in}->{u_hexs $out}->{$key} = 1;
+    }
+    for my $in (keys %{$def->{seq_to_seq} or {}}) {
+      my $out = $def->{seq_to_seq}->{$in};
+      $Data->{variants}->{u_hexs $in}->{u_hexs $out}->{$key} = 1;
+    }
+  }
+}
+
+{
+  my $path = $RootPath->child ('local/unicode/latest/StandardizedVariants.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^([0-9A-F]+) ([0-9A-F]+)\s*;\s*CJK COMPATIBILITY IDEOGRAPH-([0-9A-F]+);/) {
+      #
+    } elsif (/^([0-9A-F]+) ([0-9A-F]+)\s*;\s*/) {
+      my $c1 = (chr hex $1) . (chr hex $2);
+      my $c2 = chr hex $1;
+      $Data->{variants}->{$c1}->{$c2}->{'unicode:svs'} = 1;
+    } elsif (/^#([0-9A-F]+) ([0-9A-F]+)\s*;\s*/) {
+      my $c1 = (chr hex $1) . (chr hex $2);
+      my $c2 = chr hex $1;
+      $Data->{variants}->{$c1}->{$c2}->{'unicode:svs:obsolete'} = 1;
     }
   }
 }

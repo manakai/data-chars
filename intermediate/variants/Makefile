@@ -12,7 +12,8 @@ SAVEURL = $(WGET) -O
 all: merged-misc.json cluster-root.json cluster-props-*.txt \
     char-cluster.jsonl \
     char-leaders.jsonl \
-    testdata.json
+    testdata.json \
+    tbl-clusters.dat tbl-rels.dat tbl-root.json
 
 merged-misc.json: $(VGEN_PATH)/merged.pl \
     input.json \
@@ -42,6 +43,10 @@ char-leaders.jsonl: char-leaders.pl cluster-root.json cluster-props-*.txt
 
 testdata.json: $(VGEN_PATH)/testdata.pl cluster-root.json tests.txt
 	$(PERL) $< > $@
+
+tbl-clusters.dat tbl-rels.dat tbl-root.json:: %: $(VGEN_PATH)/tbl.pl \
+    cluster-root.json char-cluster.jsonl merged-rels-*.jsonl
+	$(PERL) $<
 
 test: $(VGEN_PATH)/test.pl cluster-root.json char-cluster.jsonl testdata.json \
     test-size

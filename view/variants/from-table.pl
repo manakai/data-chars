@@ -7,47 +7,51 @@ use Web::Encoding;
 
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
-my $DataPath = $RootPath->child ('intermediate/variants');
-my $TablePath = $RootPath->child ('local/vv-tables');
+
+my $DataSets = [
+  {key => 'char', path => $RootPath->child ('intermediate/charrels')},
+  {key => 'han', path => $RootPath->child ('intermediate/variants')},
+];
 
 binmode STDOUT, qw(:encoding(utf-8));
 binmode STDERR, qw(:encoding(utf-8));
 
-my $Data;
-{
-  my $path = $DataPath->child ('cluster-root.json');
-  $Data = json_bytes2perl $path->slurp;
+my $DataRoot = {};
+for my $ds (@$DataSets) {
+  my $path = $ds->{path}->child ('tbl-root.json');
+  $DataRoot->{$ds->{key}} = json_bytes2perl $path->slurp;
 }
-my $TableMeta;
-{
-  my $path = $TablePath->child ('meta.json');
-  $TableMeta = json_bytes2perl $path->slurp;
-}
-{
-  my $path = $TablePath->child ('clusters.tbl');
-  my $table = $path->slurp;
-  sub cluster_index_from_tbl ($$) {
-    my $def = $_[0];
 
-    my $offset = $def->{offset} + $_[1] * 3;
+{
+  my $tables = {};
+  for my $ds (@$DataSets) {
+    my $path = $ds->{path}->child ('tbl-clusters.dat');
+    $tables->{$ds->{key}} = $path->slurp;
+  }
+  sub cluster_index_from_tbl ($$$) {
+    my $ds_key = $_[0];
+    my $def = $_[1];
+
+    my $offset = $def->{offset} + $_[2] * 3;
     if ($def->{offset_next} <= $offset) {
       return undef;
     }
     
-    my $x = "\x00" . substr $table, $offset, 3;
+    my $x = "\x00" . substr $tables->{$ds_key}, $offset, 3;
     return unpack ('L>', $x);
   } # cluster_index_from_tbl
 
-  sub chars_from_tbl ($$) {
+  sub chars_from_tbl ($$$) {
+    my $ds_key = shift;
     my $level = shift;
     my $index = shift;
     my $x = substr ((pack 'L>', $index), 1);
-    my $length = length $table;
+    my $length = length $tables->{$ds_key};
     my $chars = [];
-    my @def = @{$TableMeta->{tables}};
+    my @def = @{$DataRoot->{$ds_key}->{tables}};
     my $i = 0;
     while ($i < $length) {
-      if ($x eq substr $table, $i, 3) {
+      if ($x eq substr $tables->{$ds_key}, $i, 3) {
         while (@def and $def[0]->{offset_next} <= $i) {
           shift @def;
         }
@@ -69,21 +73,25 @@ my $TableMeta;
 }
 
 {
-  my $path = $TablePath->child ('rels.tbl');
-  my $table = $path->slurp;
-  sub rels_from_tbl ($) {
+  my $tables = {};
+  for my $ds (@$DataSets) {
+    my $path = $ds->{path}->child ('tbl-rels.dat');
+    $tables->{$ds->{key}} = $path->slurp;
+  }
+  sub rels_from_tbl ($$) {
+    my $ds_key = shift;
     my $char = shift;
     return [] if $char =~ /\x00/;
     my $bchar = (encode_web_utf8 $char) . "\x01";
     my $lbchar = length $bchar;
     my $i = 0;
-    my $l = length $table;
+    my $l = length $tables->{$ds_key};
     while ($i < $l) {
-      if ((substr $table, $i, $lbchar) eq $bchar) {
+      if ((substr $tables->{$ds_key}, $i, $lbchar) eq $bchar) {
         $i += $lbchar;
-        my $x = index $table, "\x00", $i;
+        my $x = index $tables->{$ds_key}, "\x00", $i;
         return [] if $x < 0; # broken
-        my $r = substr $table, $i, $x - $i;
+        my $r = substr $tables->{$ds_key}, $i, $x - $i;
         my $y = [split /\x01/, $r, -1];
         my $rels = [];
         while (@$y) {
@@ -96,14 +104,14 @@ my $TableMeta;
           while ($i2 < $l2) {
             my $v = (((unpack 'C', substr $v2, $i2, 1) & 0b01111111) << 7) +
                      ((unpack 'C', substr $v2, $i2 + 1, 1) & 0b01111111);
-            push @$rr, $v;
+            push @$rr, [$ds_key, $v];
             $i2 += 2;
           }
           push @$rels, [(decode_web_utf8 $bc2), $rr];
         } # $y
         return $rels;
       } else { # not $bchar
-        my $x = index $table, "\x00", $i;
+        my $x = index $tables->{$ds_key}, "\x00", $i;
         last if $x < 0; # broken
         $i = $x + 1;
       }
@@ -112,12 +120,13 @@ my $TableMeta;
   } # rels_from_tbl
 }
 
-sub get_cluster ($$) {
+sub _ds_get_cluster ($$$) {
+  my $ds_key = shift;
   my $level = shift;
   if (1 == length $_[0]) {
     my $def;
     my $cc = ord $_[0];
-    for (@{$TableMeta->{tables}}) {
+    for (@{$DataRoot->{$ds_key}->{tables}}) {
       if ($_->{level_key} eq $level and
           $_->{type} eq 'unicode' and
           $_->{unicode_offset} <= $cc and $cc < $_->{unicode_offset_next}) {
@@ -127,7 +136,7 @@ sub get_cluster ($$) {
     }
 
     if (defined $def) {
-      my $index = cluster_index_from_tbl $def, $cc - $def->{unicode_offset};
+      my $index = cluster_index_from_tbl $ds_key, $def, $cc - $def->{unicode_offset};
       return $index ? {index => $index} : undef if defined $index;
     }
   }
@@ -136,7 +145,7 @@ sub get_cluster ($$) {
     my $cc1 = ord $_[0];
     my $cc2 = ord substr $_[0], 1;
     my $def;
-    for (@{$TableMeta->{tables}}) {
+    for (@{$DataRoot->{$ds_key}->{tables}}) {
       if ($_->{level_key} eq $level and
           $_->{type} eq 'unicode-suffix' and
           $_->{suffix} == $cc2 and
@@ -147,41 +156,62 @@ sub get_cluster ($$) {
     }
 
     if (defined $def) {
-      my $index = cluster_index_from_tbl $def, $cc1 - $def->{unicode_offset};
+      my $index = cluster_index_from_tbl $ds_key, $def, $cc1 - $def->{unicode_offset};
       return $index ? {index => $index} : undef if defined $index;
     }
   }
 
   {
-    my $index = $TableMeta->{others}->{$level}->{$_[0]};
+    my $index = $DataRoot->{$ds_key}->{others}->{$level}->{$_[0]};
     return undef unless $index;
 
     return {index => $index};
   }
+} # _ds_get_cluster
+
+sub get_cluster ($$) {
+  my $cluster = {indexes => {}};
+  for my $ds (@$DataSets) {
+    my $r = _ds_get_cluster ($ds->{key}, $_[0], $_[1]);
+    $cluster->{indexes}->{$ds->{key}} = $r->{index} if defined $r;
+  }
+  return $cluster;
 } # get_cluster
 
-sub get_chars ($$) {
-  my ($level, $cluster) = @_;
+sub get_chars ($$$) {
+  my ($level, $cluster, $ds_key) = @_;
 
   my $chars = [];
-  my $index = $cluster->{index} // return $chars;
+  my $index = $cluster->{indexes}->{$ds_key} // return $chars;
 
-  for (keys %{$TableMeta->{others}->{$level}}) {
-    if ($TableMeta->{others}->{$level}->{$_} == $index) {
+  for (keys %{$DataRoot->{$ds_key}->{others}->{$level}}) {
+    if ($DataRoot->{$ds_key}->{others}->{$level}->{$_} == $index) {
       push @$chars, $_;
     }
   }
 
-  push @$chars, @{chars_from_tbl $level, $index};
+  push @$chars, @{chars_from_tbl $ds_key, $level, $index};
 
   return $chars;
 } # get_chars
 
-sub get_rels ($) {
+sub get_rels ($$) {
+  return rels_from_tbl $_[0], $_[1];
+} # get_rels
+
+sub get_rels_all ($) {
   my $char = shift;
 
-  return rels_from_tbl $char;
-} # get_rels
+  my $rels = {};
+  for my $ds (@$DataSets) {
+    for (@{rels_from_tbl $ds->{key}, $char}) {
+      $rels->{$_->[0]} ||= [$_->[0], []];
+      push @{$rels->{$_->[0]}->[1]}, @{$_->[1]};
+    }
+  }
+
+  return [map { $rels->{$_} } sort { $a cmp $b } keys %$rels];
+} # get_rels_all
 
 sub parse_input_char ($) {
   my $input = shift;
@@ -219,18 +249,17 @@ sub format_char ($) {
       $char;
 } # format_char
 
-sub print_cluster ($$) {
-  my ($level, $char) = @_;
+sub print_cluster ($$$) {
+  my ($level, $cluster, $ds_key) = @_;
   
-  my $cluster = (get_cluster $level, $char) // {};
-  my $chars = get_chars $level, $cluster;
+  my $chars = get_chars $level, $cluster, $ds_key;
   my $has_char = {map { $_ => 1 } @$chars};
   my $out_rels = {};
   for my $char (sort { $a cmp $b } @$chars) {
     print format_char $char;
     print "\n";
     
-    my $rels = get_rels $char;
+    my $rels = get_rels $ds_key, $char;
     for my $rel (@$rels) {
       if (not $has_char->{$rel->[0]}) {
         push @{$out_rels->{$rel->[0]} ||= []}, [$char, $rel];
@@ -238,7 +267,7 @@ sub print_cluster ($$) {
       if (0) {
         printf "  %s\n", format_char $rel->[0];
         for (@{$rel->[1]}) {
-          my $rel_def = $TableMeta->{rels}->[$_];
+          my $rel_def = $DataRoot->{$ds_key}->{rels}->[$_];
           printf "    %s\n", $rel_def->{key};
         }
       }
@@ -252,8 +281,8 @@ sub print_cluster ($$) {
     for (@{$out_rels->{$to_char}}) {
       my $ffc = format_char $_->[0];
       for (@{$_->[1]->[1]}) {
-        my $rel_def = $TableMeta->{rels}->[$_];
-        print "  ", $ffc, "\t-> ", $rel_def->{key}, "\n";
+        my $rel_def = $DataRoot->{$_->[0]}->{rels}->[$_->[1]];
+        print "  ", $ffc, "\t-> ($_->[0])", $rel_def->{key}, "\n";
       }
     }
   }
@@ -274,7 +303,7 @@ sub print_route ($$) {
     my $next_seen = {%$current_seen};
     for my $route (@$current) {
       my $char = $route->[-1]->[0];
-      my $rels = get_rels $char;
+      my $rels = get_rels_all $char;
       for (@$rels) {
         #if ($current_seen->{$_->[0]}) {
         if ($next_seen->{$_->[0]}) {
@@ -298,12 +327,16 @@ sub print_route ($$) {
     print "----\n";
     for (@$route) {
       for (@{$_->[1]}) {
-        my $rel_def = $TableMeta->{rels}->[$_];
-        print "  ", $rel_def->{key}, "\n";
+        my $rel_def = $DataRoot->{$_->[0]}->{rels}->[$_->[1]];
+        print "  ($_->[0]) ", $rel_def->{key}, "\n";
       }
       print format_char $_->[0];
       print "\n";
     }
+  }
+
+  unless (@$found) {
+    print "None found\n";
   }
 } # print_route
 
@@ -314,7 +347,11 @@ sub main (@) {
   if (defined $char2) {
     print_route $char1, $char2;
   } else {
-    print_cluster $level, $char1;
+    for my $ds (@$DataSets) {
+      print "------ $ds->{key} ------\n";
+      my $cluster = get_cluster $level, $char1;
+      print_cluster $level, $cluster, $ds->{key};
+    }
   }
 } # main
 

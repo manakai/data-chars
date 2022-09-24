@@ -13,7 +13,6 @@ my $input_ucd_path = $root_path->child ('local/unicode', $unicode_version);
 my $uv = ($unicode_version eq 'latest' ? '' : $unicode_version);
 $uv =~ s/\.0$//;
 my $output_src_path = $root_path->child ('src/set/unicode' . $uv);
-my $output_src_map_path = $root_path->child ('src/map/unicode' . $uv);
 my $prefix = '$unicode' . $uv;
 
 my $PropDef = {
