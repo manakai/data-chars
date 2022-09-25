@@ -211,12 +211,12 @@ unicode:security:intentional
     if (/^([0-9A-F]+) ([0-9A-F]+)\s*;\s*CJK COMPATIBILITY IDEOGRAPH-([0-9A-F]+);/) {
       #
     } elsif (/^([0-9A-F]+) ([0-9A-F]+)\s*;\s*/) {
-      my $c1 = (chr hex $1) . (chr hex $2);
-      my $c2 = chr hex $1;
+      my $c1 = u_hexs "$1 $2";
+      my $c2 = u_hexs $1;
       $Data->{variants}->{$c1}->{$c2}->{'unicode:svs'} = 1;
     } elsif (/^#([0-9A-F]+) ([0-9A-F]+)\s*;\s*/) {
-      my $c1 = (chr hex $1) . (chr hex $2);
-      my $c2 = chr hex $1;
+      my $c1 = u_hexs "$1 $2";
+      my $c2 = u_hexs $1;
       $Data->{variants}->{$c1}->{$c2}->{'unicode:svs:obsolete'} = 1;
     }
   }

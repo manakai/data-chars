@@ -118,6 +118,7 @@ $TablePath->mkpath;
   my $path = $TablePath->child ('tbl-rels.dat');
   my $file = $path->openw;
 
+  print $file "\x00";
   my $rel_keys = {};
   for my $c1 (sort { $a cmp $b } keys %$Rels) {
     print $file encode_web_utf8 $c1;

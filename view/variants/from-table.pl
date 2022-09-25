@@ -82,41 +82,31 @@ for my $ds (@$DataSets) {
     my $ds_key = shift;
     my $char = shift;
     return [] if $char =~ /\x00/;
-    my $bchar = (encode_web_utf8 $char) . "\x01";
-    my $lbchar = length $bchar;
-    my $i = 0;
-    my $l = length $tables->{$ds_key};
-    while ($i < $l) {
-      if ((substr $tables->{$ds_key}, $i, $lbchar) eq $bchar) {
-        $i += $lbchar;
-        my $x = index $tables->{$ds_key}, "\x00", $i;
-        return [] if $x < 0; # broken
-        my $r = substr $tables->{$ds_key}, $i, $x - $i;
-        my $y = [split /\x01/, $r, -1];
-        my $rels = [];
-        while (@$y) {
-          my $bc2 = shift @$y;
-          next unless length $bc2; # at end or broken
-          my $v2 = shift @$y; # undef if broken
-          my $i2 = 0;
-          my $l2 = length $v2;
-          my $rr = [];
-          while ($i2 < $l2) {
-            my $v = (((unpack 'C', substr $v2, $i2, 1) & 0b01111111) << 7) +
-                     ((unpack 'C', substr $v2, $i2 + 1, 1) & 0b01111111);
-            push @$rr, [$ds_key, $v];
-            $i2 += 2;
-          }
-          push @$rels, [(decode_web_utf8 $bc2), $rr];
-        } # $y
-        return $rels;
-      } else { # not $bchar
-        my $x = index $tables->{$ds_key}, "\x00", $i;
-        last if $x < 0; # broken
-        $i = $x + 1;
+    my $bchar = "\x00" . (encode_web_utf8 $char) . "\x01";
+    my $start = index $tables->{$ds_key}, $bchar;
+    return [] if $start < 0;
+    $start += length $bchar;
+    my $end = index $tables->{$ds_key}, "\x00", $start;
+    return [] if $end < 0; # broken
+    my $r = substr $tables->{$ds_key}, $start, $end - $start;
+    my $y = [split /\x01/, $r, -1];
+    my $rels = [];
+    while (@$y) {
+      my $bc2 = shift @$y;
+      next unless length $bc2; # at end or broken
+      my $v2 = shift @$y; # undef if broken
+      my $i2 = 0;
+      my $l2 = length $v2;
+      my $rr = [];
+      while ($i2 < $l2) {
+        my $v = (((unpack 'C', substr $v2, $i2, 1) & 0b01111111) << 7) +
+                 ((unpack 'C', substr $v2, $i2 + 1, 1) & 0b01111111);
+        push @$rr, [$ds_key, $v];
+        $i2 += 2;
       }
-    }
-    return [];
+      push @$rels, [(decode_web_utf8 $bc2), $rr];
+    } # $y
+    return $rels;
   } # rels_from_tbl
 }
 
@@ -124,8 +114,8 @@ sub _ds_get_cluster ($$$) {
   my $ds_key = shift;
   my $level = shift;
   if (1 == length $_[0]) {
-    my $def;
     my $cc = ord $_[0];
+    my $def;
     for (@{$DataRoot->{$ds_key}->{tables}}) {
       if ($_->{level_key} eq $level and
           $_->{type} eq 'unicode' and
