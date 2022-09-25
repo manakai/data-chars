@@ -23,6 +23,10 @@ build-nightly-iu: data/maps.json
 	cd intermediate/unicode && $(MAKE) build-nightly
 	cd intermediate/charrels && $(MAKE) build-nightly
 
+build-tbls: deps
+	cd intermediate/charrels && $(MAKE) build-tbls
+	cd intermediate/variants && $(MAKE) build-tbls
+
 ## ------ Setup ------
 
 deps: git-submodules pmbp-install
@@ -42,7 +46,7 @@ pmbp-install: pmbp-upgrade
             --create-perl-command-shortcut perl \
             --create-perl-command-shortcut prove
 
-build-github-pages:
+build-github-pages: build-tbls
 	rm -fr ./bin/ ./modules/ ./t_deps/
 
 ## ------ Data construction ------
