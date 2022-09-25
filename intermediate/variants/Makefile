@@ -13,7 +13,7 @@ all: merged-misc.json cluster-root.json cluster-props-*.txt \
     char-cluster.jsonl \
     char-leaders.jsonl \
     testdata.json \
-    tbl-clusters.dat tbl-rels.dat tbl-root.json
+    build-tbls
 
 merged-misc.json: $(VGEN_PATH)/merged.pl \
     input.json \
@@ -44,9 +44,16 @@ char-leaders.jsonl: char-leaders.pl cluster-root.json cluster-props-*.txt
 testdata.json: $(VGEN_PATH)/testdata.pl cluster-root.json tests.txt
 	$(PERL) $< > $@
 
-tbl-clusters.dat tbl-rels.dat tbl-root.json:: %: $(VGEN_PATH)/tbl.pl \
+build-tbls: tbl-clusters.dat tbl-rels.dat tbl-root.json \
+    tbl-clusters.dat.gz tbl-rels.dat.gz tbl-root.json.gz
+
+tbl-clusters.dat tbl-rels.dat tbl-root.json \
+tbl-clusters.dat.gz tbl-rels.dat.gz tbl-root.json.gz:: %: $(VGEN_PATH)/tbl.pl \
     cluster-root.json char-cluster.jsonl merged-rels-*.jsonl
 	$(PERL) $<
+	gzip -k -f tbl-clusters.dat
+	gzip -k -f tbl-rels.dat
+	gzip -k -f tbl-root.json
 
 test: $(VGEN_PATH)/test.pl cluster-root.json char-cluster.jsonl testdata.json \
     test-size

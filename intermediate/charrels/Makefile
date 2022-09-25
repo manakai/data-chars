@@ -14,7 +14,7 @@ all: build-nightly
 build-nightly: merged-misc.json cluster-root.json \
     char-cluster.jsonl \
     testdata.json \
-    tbl-clusters.dat tbl-rels.dat tbl-root.json
+    build-tbls
 
 merged-misc.json: $(VGEN_PATH)/merged.pl input.json
 	$(PERL) $<
@@ -39,8 +39,15 @@ perl-test: $(VGEN_PATH)/test.pl cluster-root.json char-cluster.jsonl \
     testdata.json
 	$(PERL) $<
 
-tbl-clusters.dat tbl-rels.dat tbl-root.json:: %: $(VGEN_PATH)/tbl.pl \
+build-tbls: tbl-clusters.dat tbl-rels.dat tbl-root.json \
+    tbl-clusters.dat.gz tbl-rels.dat.gz tbl-root.json.gz
+
+tbl-clusters.dat tbl-rels.dat tbl-root.json \
+tbl-clusters.dat.gz tbl-rels.dat.gz tbl-root.json.gz:: %: $(VGEN_PATH)/tbl.pl \
     cluster-root.json char-cluster.jsonl merged-rels-*.jsonl
 	$(PERL) $<
+	gzip -k -f tbl-clusters.dat
+	gzip -k -f tbl-rels.dat
+	gzip -k -f tbl-root.json
 
 ## License: Public Domain.
