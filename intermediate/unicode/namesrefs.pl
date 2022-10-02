@@ -213,11 +213,11 @@ unicode:security:intentional
     } elsif (/^([0-9A-F]+) ([0-9A-F]+)\s*;\s*/) {
       my $c1 = u_hexs "$1 $2";
       my $c2 = u_hexs $1;
-      $Data->{variants}->{$c1}->{$c2}->{'unicode:svs'} = 1;
+      $Data->{variants}->{$c2}->{$c1}->{'unicode:svs'} = 1;
     } elsif (/^#([0-9A-F]+) ([0-9A-F]+)\s*;\s*/) {
       my $c1 = u_hexs "$1 $2";
       my $c2 = u_hexs $1;
-      $Data->{variants}->{$c1}->{$c2}->{'unicode:svs:obsolete'} = 1;
+      $Data->{variants}->{$c2}->{$c1}->{'unicode:svs:obsolete'} = 1;
     }
   }
 }

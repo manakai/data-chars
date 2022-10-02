@@ -81,6 +81,8 @@ my $PairedTypes = [];
     
     "unicode:canon_composition",
     "unicode:canon_decomposition",
+
+    "adobe:vs",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
     $TypeWeight->{'rev:'.$vtype} = W 'SAME';
@@ -108,6 +110,38 @@ my $PairedTypes = [];
 
     "unicode:svs",
     "unicode:svs:obsolete",
+
+    "adobe:uni",
+    "adobe:uni:v",
+    "adobe:uni:pro",
+    "adobe:uni:x0213",
+    "adobe:uni:x0213:v",
+    "adobe:uni:2004",
+    "adobe:uni:2004:v",
+    "adobe:uni:x02132004",
+    "adobe:uni:x02132004:v",
+    "adobe:expt",
+    "adobe:jis78",
+    "adobe:jisx0212",
+    "adobe:jp04",
+    "adobe:jp78",
+    "adobe:jp83",
+    "adobe:jp90",
+    "adobe:jisx0213:2000",
+    "adobe:jisx0213:2004",
+    "adobe:cns11643",
+    "adobe:cns11643:v",
+
+    "opentype:fwid",
+    "opentype:hwid",
+    "opentype:pwid",
+    "opentype:qwid",
+    "opentype:twid",
+    "opentype:pkna",
+    "opentype:ruby",
+    "opentype:ljmo:contextual",
+    "opentype:tjmo:contextual",
+    "opentype:vjmo:contextual",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -146,6 +180,22 @@ my $PairedTypes = [];
     "ucd:names:discouraged",
     "ucd:names:obsoleted",
     "ucd:names:preferred",
+
+    "opentype:zero",
+    "opentype:ital",
+    "opentype:vert",
+    "opentype:vrt2",
+    "opentype:hkna",
+    "opentype:vkna",
+    
+    "adobe:trad",
+    "opentype:trad",
+    "opentype:expt",
+    "opentype:hojo",
+    "opentype:jp04",
+    "opentype:jp78",
+    "opentype:jp83",
+    "opentype:nlck",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -316,6 +366,24 @@ my $PairedTypes = [];
     "manakai:taboo",
     
     "ucd:names:transliterated",
+
+    "opentype:ccmp",
+    "opentype:ccmp:contextual",
+    "opentype:dlig",
+    "opentype:liga",
+    "opentype:hngl",
+    "opentype:sinf",
+    "opentype:subs",
+    "opentype:sups",
+    "opentype:nalt",
+    "opentype:aalt",
+    "opentype:afrc",
+    "opentype:dnom",
+    "opentype:frac",
+    "opentype:frac:contextual",
+    "opentype:numr",
+    "opentype:calt:contextual",
+    "opentype:locl",
   ) {
     $TypeWeight->{$vtype} = W 'RELATED';
     $TypeWeight->{'rev:'.$vtype} = -1;
