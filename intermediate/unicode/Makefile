@@ -5,12 +5,17 @@ PERL = $(ROOT_PATH)/perl -I$(ROOT_PATH)/bin/modules/json-ps/lib
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: build-nightly
+all: build
 
-build-nightly: $(TEMP_PATH) variants.json namesrefs.json
+build-nightly: build
+
+build: $(TEMP_PATH) variants.json namesrefs.json maps.json
 
 $(TEMP_PATH):
 	mkdir -p $@
+
+$(TEMP_PATH)/unihan3.txt:
+	$(SAVEURL) $@ https://www.unicode.org/Public/3.0-Update/Unihan-3.txt
 
 $(TEMP_PATH)/unihan13.zip:
 	$(SAVEURL) $@ https://www.unicode.org/Public/13.0.0/ucd/Unihan.zip
@@ -27,6 +32,7 @@ $(TEMP_PATH)/unihan.zip:
 $(TEMP_PATH)/Unihan_Readings.txt \
 $(TEMP_PATH)/Unihan_DictionaryLikeData.txt \
 $(TEMP_PATH)/Unihan_Variants.txt \
+$(TEMP_PATH)/Unihan_IRGSources.txt \
 $(TEMP_PATH)/Unihan_OtherMappings.txt:: %: $(TEMP_PATH)/unihan.zip
 	cd $(TEMP_PATH) && unzip unihan.zip $(notdir $@)
 	touch $@
@@ -40,6 +46,8 @@ $(TEMP_PATH)/unihan-g1.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kGB1 > $@
 $(TEMP_PATH)/unihan-krname.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kKoreanName > $@
+$(TEMP_PATH)/unihan-irg-g.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
+	grep -v '^#' $< | grep kIRG_G > $@
 
 $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/EquivalentUnifiedIdeograph.txt
@@ -81,6 +89,10 @@ namesrefs.json: namesrefs.pl \
     $(ROOT_PATH)/local/unicode/latest/NamesList.txt \
     $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
     $(ROOT_PATH)/data/maps.json
+	$(PERL) $< > $@
+
+maps.json: maps.pl $(TEMP_PATH)/unihan3.txt \
+    $(TEMP_PATH)/unihan-irg-g.txt
 	$(PERL) $< > $@
 
 ## License: Public Domain.
