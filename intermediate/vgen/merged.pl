@@ -114,7 +114,9 @@ my $PairedTypes = [];
     "mj:X0212",
     "mj:X0213",
     "mj:X0213:2",
-
+    "mj:実装したUCS",
+    "cns:unicode",
+    
     "unihan3.0:kCNS1986",
     "unihan3.0:kCNS1992",
     "unihan3.0:kGB0",
