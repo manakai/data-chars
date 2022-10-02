@@ -111,6 +111,10 @@ my $PairedTypes = [];
     "unicode:svs",
     "unicode:svs:obsolete",
 
+    "mj:X0212",
+    "mj:X0213",
+    "mj:X0213:2",
+
     "unihan3.0:kCNS1986",
     "unihan3.0:kCNS1992",
     "unihan3.0:kGB0",
