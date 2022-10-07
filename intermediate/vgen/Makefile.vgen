@@ -11,11 +11,11 @@ VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: build-nightly-vgen
+all: build-vgen
 
-build-nightly-vgen: build-vgen
+build-vgen-nightly: build-vgen
 
-build-pages-vgen: build-vgen
+build-vgen-pages: build-vgen
 
 build-vgen: merged-misc.json merged-rels-part-0.jsonl \
     cluster-root.json \
