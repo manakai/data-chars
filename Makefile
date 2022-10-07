@@ -627,8 +627,8 @@ build-nightly: build-nigjhtly-iu1 build-nightly-iu2
 	cd view/variants && $(MAKE) build-nightly
 
 build-github-pages: build-pages-iu
-	rm -fr ./bin/ ./modules/ ./t_deps/
 	cd view/variants && $(MAKE) build-pages
+	rm -fr ./bin/ ./modules/ ./t_deps/
 
 build-nightly-iu1: data/maps.json
 	cd intermediate/unicode && $(MAKE) build-nightly
