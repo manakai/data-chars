@@ -7,7 +7,7 @@ PERL = $(ROOT_PATH)/perl $(PERL5OPTS)
 
 all: ivar build
 
-build-pages: build
+build-pages: ivar build
 build-nightly: 
 
 build: list.html list-rels.html
