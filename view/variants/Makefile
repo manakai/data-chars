@@ -12,7 +12,7 @@ build: list.html list-rels.html
 build-nightly: 
 
 build-pages: build
-	cd ../../intermediate/variants && $(MAKE) all test
+	cd ../../intermediate/variants && $(MAKE) build-pages
 
 ivar:
 	cd ../../intermediate/unicode && $(MAKE) all

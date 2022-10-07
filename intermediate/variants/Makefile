@@ -14,7 +14,8 @@ all: build-vgen \
     char-leaders.jsonl char-leaders-part-*.jsonl
 
 build-nightly: build-vgen-nightly
-build-pages: build-vgen-pages
+build-pages: build-vgen-pages \
+    cluster-chars-*.txt cluster-props-*.txt
 
 VGEN_MERGED_INPUTS = input.json \
     ../unicode/variants.json \
