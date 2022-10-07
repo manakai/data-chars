@@ -1,5 +1,11 @@
 {
    "cluster_indexes" : [
+      245685,
+      245686,
+      245687,
+      245688,
+      245689,
+      245690,
       245691,
       245692,
       245693,
@@ -5144,14 +5150,7 @@
       250832,
       250833,
       250834,
-      250835,
-      250836,
-      250837,
-      250838,
-      250839,
-      250840,
-      250841,
-      250842
+      250835
    ],
    "cluster_levels" : [
       {
@@ -5280,70 +5279,70 @@
    "stats" : {
       "clusters" : [
          90620,
-         89418,
-         58459,
-         34621,
-         30200,
-         27740,
-         5253,
-         5152
+         89417,
+         58458,
+         34620,
+         30199,
+         27739,
+         5252,
+         5151
       ],
       "construct" : {
          "100" : {
             "already" : 50,
             "check_unmergeable" : 101,
-            "input" : 5253,
+            "input" : 5252,
             "merge" : 101,
-            "output" : 5152,
+            "output" : 5151,
             "rels" : 151
          },
          "200" : {
             "already" : 21586,
             "check_unmergeable" : 22487,
-            "input" : 27740,
+            "input" : 27739,
             "merge" : 22487,
-            "output" : 5253,
+            "output" : 5252,
             "rels" : 44073
          },
          "300" : {
             "already" : 2243,
             "check_unmergeable" : 2460,
-            "input" : 30200,
+            "input" : 30199,
             "merge" : 2460,
-            "output" : 27740,
+            "output" : 27739,
             "rels" : 4703
          },
          "400" : {
             "already" : 2735,
             "check_unmergeable" : 4421,
-            "input" : 34621,
+            "input" : 34620,
             "merge" : 4421,
-            "output" : 30200,
+            "output" : 30199,
             "rels" : 7156
          },
          "500" : {
             "already" : 19091,
             "check_unmergeable" : 26667,
-            "input" : 58459,
+            "input" : 58458,
             "merge" : 23838,
-            "output" : 34621,
+            "output" : 34620,
             "rels" : 45758
          },
          "600" : {
             "already" : 31375,
             "check_unmergeable" : 31287,
-            "input" : 89418,
+            "input" : 89417,
             "merge" : 30959,
-            "output" : 58459,
+            "output" : 58458,
             "rels" : 62662
          },
          "700" : {
-            "already" : 1380,
-            "check_unmergeable" : 1224,
+            "already" : 1381,
+            "check_unmergeable" : 1225,
             "input" : 90620,
-            "merge" : 1202,
-            "output" : 89418,
-            "rels" : 2604
+            "merge" : 1203,
+            "output" : 89417,
+            "rels" : 2606
          }
       }
    }

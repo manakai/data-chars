@@ -5,7 +5,12 @@ PERL5OPTS =  \
     -I$(ROOT_PATH)/bin/modules/web-encodings/lib
 PERL = $(ROOT_PATH)/perl $(PERL5OPTS)
 
-all: ivar list.html list-rels.html
+all: ivar build
+
+build-pages: build
+build-nightly: 
+
+build: list.html list-rels.html
 
 ivar:
 	cd ../../intermediate/unicode && $(MAKE) all

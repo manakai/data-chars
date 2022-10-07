@@ -27,12 +27,42 @@ my $DataChars = [];
   }
 }
 
+my $CharClusterIndex;
+{
+  last unless $ENV{CCI};
+  $CharClusterIndex = {};
+  my $path = $DataPath->child ('char-cluster-index.jsonl');
+  my $file = $path->openr;
+  local $/ = "\x0A";
+  my $i = 0;
+  while (<$file>) {
+    my $index = $i++;
+    my $char = json_bytes2perl $_;
+    next unless defined $char;
+    $CharClusterIndex->{$char} = $index;
+  }
+}
+
+sub cci ($) {
+  my $cluster = $_[0];
+
+  my $ci = 0+"Inf";
+  for my $c (keys %{$cluster->{chars}}) {
+    my $v = $CharClusterIndex->{$c};
+    $ci = $v if $v < $ci;
+  }
+
+  return $ci;
+} # cci
+
 my $List = [];
 my $run; $run = sub ($$) {
   my ($indexes, $prefix) = @_;
 
   for my $cluster (map { $DataChars->[$_] } @$indexes) {
-    my $cis = [@$prefix, $cluster->{index}];
+    my $ci = $cluster->{index};
+    $ci = cci $cluster if defined $CharClusterIndex;
+    my $cis = [@$prefix, $ci];
     if (defined $cluster->{cluster_indexes}) {
       $run->($cluster->{cluster_indexes}, $cis);
     } else {

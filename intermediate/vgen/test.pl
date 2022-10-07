@@ -4,7 +4,7 @@ use Path::Tiny;
 use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
-my $DataPath = path ('.');
+my $DataPath = path ('.')->absolute;
 
 my $Levels = [];
 {
@@ -16,7 +16,8 @@ my $Levels = [];
 }
 my $Chars = {};
 {
-  my $path = $DataPath->child ('char-cluster.jsonl');
+  my $path = $DataPath->child ('char-cluster-indexed.jsonl');
+  print STDERR "Loading |$path|...\n";
   my $file = $path->openr;
   local $/ = "\x0A";
   while (<$file>) {

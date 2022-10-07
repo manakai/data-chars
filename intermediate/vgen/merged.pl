@@ -598,30 +598,16 @@ for (@$PairedTypes) {
   }
 }
 
-$Data->{chars}->{$_} = 1 for keys %$Rels;
-
 {
-  my $i = 0;
-  my $n = 0;
   my $c1s = [sort { $a cmp $b } keys %$Rels];
-  my $file;
-  while (@$c1s) {
-    unless (defined $file) {
-      $i++;
-      print STDERR "\rWrite[1.$i]...";
-      my $path = $DataPath->child ("merged-rels-$i.jsonl");
-      $file = $path->openw;
-    }
-    my $c1 = shift @$c1s;
+  print STDERR "\rWrite[1]...";
+  my $path = $DataPath->child ("merged-rels.jsonl");
+  my $file = $path->openw;
+  for my $c1 (@$c1s) {
     print $file perl2json_bytes_for_record $c1; # trailing \x0A
     print $file "\x0A";
     print $file perl2json_bytes_for_record $Rels->{$c1}; # trailing \x0A
     print $file "\x0A";
-    $n += 0+keys %{$Rels->{$c1}};
-    if ($n > 100000) {
-      undef $file;
-      $n = 0;
-    }
   }
 }
 {
@@ -629,6 +615,14 @@ $Data->{chars}->{$_} = 1 for keys %$Rels;
   my $path = $DataPath->child ('merged-misc.json');
   $path->spew (perl2json_bytes_for_record $Data);
 }
+{
+  print STDERR "\rWrite[3]...";
+  my $path = $DataPath->child ('merged-chars.json');
+  my $chars = {};
+  $chars->{$_} = 1 for keys %$Rels;
+  $path->spew (perl2json_bytes_for_record $chars);
+}
+
 printf STDERR "Done (%d s)", time - $StartTime;
 
 ## License: Public Domain.
