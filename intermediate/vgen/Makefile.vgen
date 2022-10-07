@@ -26,20 +26,18 @@ build-vgen: merged-misc.json merged-rels-part-0.jsonl \
 
 VGEN_MERGED_INPUTS =
 
-merged-misc.json: $(VGEN_PATH)/merged.pl $(VGEN_MERGED_INPUTS)
+merged-rels.jsonl merged-chars.json merged-misc.json:: \
+%: $(VGEN_PATH)/merged.pl $(VGEN_MERGED_INPUTS)
 	$(PERL) $<
-merged-rels.jsonl: merged-misc.json
-merged-chars.json: merged-misc.json
 
 merged-rels-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
     merged-rels.jsonl
 	$(PERL) $< merged-rels
 
-cluster-root.json: $(VGEN_PATH)/clusters.pl merged-misc.json \
+cluster-root.json cluster-chars-*.txt cluster-rels-*.jsonl:: \
+%: $(VGEN_PATH)/clusters.pl merged-misc.json \
     merged-rels.jsonl merged-chars.json
 	$(PERL) $<
-cluster-chars-*.txt: cluster-root.json
-cluster-rels-*.jsonl: cluster-root.json
 
 char-cluster.jsonl: $(VGEN_PATH)/char-cluster.pl cluster-root.json \
     cluster-chars-*.txt
