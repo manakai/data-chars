@@ -20,7 +20,7 @@ my $Others = {};
 
 {
   my $i = 0;
-  my $path = $DataPath->child ("char-cluster.jsonl");
+  my $path = $DataPath->child ("char-cluster-indexed.jsonl");
   my $file = $path->openr;
   local $/ = "\x0A";
   while (<$file>) {
@@ -62,9 +62,9 @@ my $Others = {};
 }
 
 my $Rels = {};
-while (glob $DataPath->child ('merged-rels-*.jsonl')) {
-  my $path = path ($_);
-  print STDERR "\r$path...";
+{
+  my $path = $DataPath->child ('merged-rels.jsonl');
+  print STDERR "\r|$path|...";
   my $file = $path->openr;
   local $/ = "\x0A\x0A";
   while (<$file>) {

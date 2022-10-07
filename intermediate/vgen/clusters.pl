@@ -35,22 +35,20 @@ my $Merged;
   my $path = $DataPath->child ('merged-misc.json');
   $Merged = json_bytes2perl $path->slurp;
 }
+{
+  my $path = $DataPath->child ('merged-chars.json');
+  $Merged->{chars} = json_bytes2perl $path->slurp;
+}
 my $Rels = {};
 {
-  my $i = 1;
-  {
-    my $path = $DataPath->child ("merged-rels-$i.jsonl");
-    last unless $path->is_file;
-    print STDERR "\r$path...";
-    my $file = $path->openr;
-    local $/ = "\x0A\x0A";
-    while (<$file>) {
-      my $c1 = json_bytes2perl $_;
-      my $c1v = json_bytes2perl scalar <$file>;
-      $Rels->{$c1} = $c1v;
-    }
-    $i++;
-    redo;
+  my $path = $DataPath->child ('merged-rels.jsonl');
+  print STDERR "\r|$path|...";
+  my $file = $path->openr;
+  local $/ = "\x0A\x0A";
+  while (<$file>) {
+    my $c1 = json_bytes2perl $_;
+    my $c1v = json_bytes2perl scalar <$file>;
+    $Rels->{$c1} = $c1v;
   }
 }
 

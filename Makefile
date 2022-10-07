@@ -16,16 +16,8 @@ update-submodules:
 	$(GIT) add config
 	$(CURL) -sSLf https://raw.githubusercontent.com/wakaba/ciconfig/master/ciconfig | RUN_GIT=1 REMOVE_UNUSED=1 perl
 
-dataautoupdate: clean deps build-nightly-iu all
+dataautoupdate: clean deps build-nightly all
 	$(GIT) add data/ src/ intermediate view
-
-build-nightly-iu: data/maps.json
-	cd intermediate/unicode && $(MAKE) build-nightly
-	cd intermediate/charrels && $(MAKE) build-nightly
-
-build-tbls: deps
-	cd intermediate/charrels && $(MAKE) build-tbls
-	cd intermediate/variants && $(MAKE) build-tbls
 
 ## ------ Setup ------
 
@@ -45,9 +37,6 @@ pmbp-install: pmbp-upgrade
 	perl local/bin/pmbp.pl --install \
             --create-perl-command-shortcut perl \
             --create-perl-command-shortcut prove
-
-build-github-pages: build-tbls
-	rm -fr ./bin/ ./modules/ ./t_deps/
 
 ## ------ Data construction ------
 
@@ -633,6 +622,25 @@ data/seqs.json: bin/seqs.pl \
 
 data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
+
+build-nightly: build-nigjhtly-iu1 build-nightly-iu2
+	cd view/variants && $(MAKE) build-nightly
+
+build-github-pages: build-pages-iu
+	rm -fr ./bin/ ./modules/ ./t_deps/
+	cd view/variants && $(MAKE) build-pages
+
+build-nightly-iu1: data/maps.json
+	cd intermediate/unicode && $(MAKE) build-nightly
+	cd intermediate/charrels && $(MAKE) build-nightly
+
+build-nightly-iu2: deps
+	cd intermediate/charrels && $(MAKE) build-nightly
+	cd intermediate/variants && $(MAKE) build-nightly
+
+build-pages-iu: deps
+	cd intermediate/charrels && $(MAKE) build-pages
+	cd intermediate/variants && $(MAKE) build-pages
 
 ## ------ Tests ------
 

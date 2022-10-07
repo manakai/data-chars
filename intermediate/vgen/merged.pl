@@ -81,6 +81,8 @@ my $PairedTypes = [];
     
     "unicode:canon_composition",
     "unicode:canon_decomposition",
+
+    "adobe:vs",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
     $TypeWeight->{'rev:'.$vtype} = W 'SAME';
@@ -108,6 +110,65 @@ my $PairedTypes = [];
 
     "unicode:svs",
     "unicode:svs:obsolete",
+
+    "mj:X0212",
+    "mj:X0213",
+    "mj:X0213:2",
+    "mj:実装したUCS",
+    "cns:unicode",
+    
+    "unihan3.0:kCNS1986",
+    "unihan3.0:kCNS1992",
+    "unihan3.0:kGB0",
+    "unihan3.0:kGB1",
+    "unihan3.0:kPseudoGB1",
+    "unihan3.0:kGB3",
+    "unihan3.0:kGB5",
+    "unihan3.0:kGB8",
+    "unihan3.0:kIRG_GSource:0",
+    "unihan3.0:kIRG_GSource:1",
+    "unihan3.0:kIRG_GSource:3",
+    "unihan3.0:kIRG_GSource:5",
+    "unihan3.0:kIRG_GSource:8",
+    "unihan:kIRG_GSource:0",
+    "unihan:kIRG_GSource:1",
+    "unihan:kIRG_GSource:3",
+    "unihan:kIRG_GSource:5",
+    "unihan:kIRG_GSource:8",
+    "unihan3.0:kIRG_TSource",
+    "unihan:kIRG_KSource",
+    
+    "adobe:uni",
+    "adobe:uni:v",
+    "adobe:uni:pro",
+    "adobe:uni:x0213",
+    "adobe:uni:x0213:v",
+    "adobe:uni:2004",
+    "adobe:uni:2004:v",
+    "adobe:uni:x02132004",
+    "adobe:uni:x02132004:v",
+    "adobe:expt",
+    "adobe:jis78",
+    "adobe:jisx0212",
+    "adobe:jp04",
+    "adobe:jp78",
+    "adobe:jp83",
+    "adobe:jp90",
+    "adobe:jisx0213:2000",
+    "adobe:jisx0213:2004",
+    "adobe:cns11643",
+    "adobe:cns11643:v",
+
+    "opentype:fwid",
+    "opentype:hwid",
+    "opentype:pwid",
+    "opentype:qwid",
+    "opentype:twid",
+    "opentype:pkna",
+    "opentype:ruby",
+    "opentype:ljmo:contextual",
+    "opentype:tjmo:contextual",
+    "opentype:vjmo:contextual",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -146,6 +207,22 @@ my $PairedTypes = [];
     "ucd:names:discouraged",
     "ucd:names:obsoleted",
     "ucd:names:preferred",
+
+    "opentype:zero",
+    "opentype:ital",
+    "opentype:vert",
+    "opentype:vrt2",
+    "opentype:hkna",
+    "opentype:vkna",
+    
+    "adobe:trad",
+    "opentype:trad",
+    "opentype:expt",
+    "opentype:hojo",
+    "opentype:jp04",
+    "opentype:jp78",
+    "opentype:jp83",
+    "opentype:nlck",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -316,6 +393,24 @@ my $PairedTypes = [];
     "manakai:taboo",
     
     "ucd:names:transliterated",
+
+    "opentype:ccmp",
+    "opentype:ccmp:contextual",
+    "opentype:dlig",
+    "opentype:liga",
+    "opentype:hngl",
+    "opentype:sinf",
+    "opentype:subs",
+    "opentype:sups",
+    "opentype:nalt",
+    "opentype:aalt",
+    "opentype:afrc",
+    "opentype:dnom",
+    "opentype:frac",
+    "opentype:frac:contextual",
+    "opentype:numr",
+    "opentype:calt:contextual",
+    "opentype:locl",
   ) {
     $TypeWeight->{$vtype} = W 'RELATED';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -503,30 +598,16 @@ for (@$PairedTypes) {
   }
 }
 
-$Data->{chars}->{$_} = 1 for keys %$Rels;
-
 {
-  my $i = 0;
-  my $n = 0;
   my $c1s = [sort { $a cmp $b } keys %$Rels];
-  my $file;
-  while (@$c1s) {
-    unless (defined $file) {
-      $i++;
-      print STDERR "\rWrite[1.$i]...";
-      my $path = $DataPath->child ("merged-rels-$i.jsonl");
-      $file = $path->openw;
-    }
-    my $c1 = shift @$c1s;
+  print STDERR "\rWrite[1]...";
+  my $path = $DataPath->child ("merged-rels.jsonl");
+  my $file = $path->openw;
+  for my $c1 (@$c1s) {
     print $file perl2json_bytes_for_record $c1; # trailing \x0A
     print $file "\x0A";
     print $file perl2json_bytes_for_record $Rels->{$c1}; # trailing \x0A
     print $file "\x0A";
-    $n += 0+keys %{$Rels->{$c1}};
-    if ($n > 100000) {
-      undef $file;
-      $n = 0;
-    }
   }
 }
 {
@@ -534,6 +615,14 @@ $Data->{chars}->{$_} = 1 for keys %$Rels;
   my $path = $DataPath->child ('merged-misc.json');
   $path->spew (perl2json_bytes_for_record $Data);
 }
+{
+  print STDERR "\rWrite[3]...";
+  my $path = $DataPath->child ('merged-chars.json');
+  my $chars = {};
+  $chars->{$_} = 1 for keys %$Rels;
+  $path->spew (perl2json_bytes_for_record $chars);
+}
+
 printf STDERR "Done (%d s)", time - $StartTime;
 
 ## License: Public Domain.

@@ -7,7 +7,9 @@ PERL = $(ROOT_PATH)/perl \
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: $(TEMP_PATH) variants.json
+all: build
+
+build: $(TEMP_PATH) variants.json maps.json
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -22,6 +24,9 @@ $(TEMP_PATH)/map.json:
 	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/oscdl/MJShrinkMap.1.2.0.json
 
 variants.json: variants.pl $(TEMP_PATH)/mj.json $(TEMP_PATH)/map.json
+	$(PERL) $< > $@
+
+maps.json: maps.pl $(TEMP_PATH)/mj.json
 	$(PERL) $< > $@
 
 ## License: Public Domain.

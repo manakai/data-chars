@@ -9,59 +9,33 @@ VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: merged-misc.json cluster-root.json cluster-props-*.txt \
-    char-cluster.jsonl \
-    char-leaders.jsonl \
-    testdata.json \
-    build-tbls
+all: build-vgen \
+    cluster-props-*.txt \
+    char-leaders.jsonl char-leaders-part-*.jsonl
 
-merged-misc.json: $(VGEN_PATH)/merged.pl \
-    input.json \
+build-nightly: build-vgen-nightly
+build-pages: build-vgen-pages
+
+VGEN_MERGED_INPUTS = input.json \
     ../unicode/variants.json \
     ../mj/variants.json \
     ../cjkvi/variants.json \
     ../wikimedia/variants.json \
     ../misc/variants.json
-	$(PERL) $<
-merged-rels-*.jsonl: merged-misc.json
 
-cluster-root.json: $(VGEN_PATH)/clusters.pl merged-misc.json \
-    merged-rels-*.jsonl
-	$(PERL) $<
-cluster-chars-*.txt: cluster-root.json
-cluster-rels-*.jsonl: cluster-root.json
+cluster-root.json cluster-chars-*.txt merged-misc.json \
+build-vgen build-vgen-nightly build-vgen-pages test perl-test:: %:
+	$(MAKE) -f $(VGEN_PATH)/Makefile.vgen $@ \
+	    VGEN_MERGED_INPUTS="$(VGEN_MERGED_INPUTS)"
 
 cluster-props-*.txt: cluster-props.pl cluster-chars-*.txt merged-misc.json
 	$(PERL) $<
 
-char-cluster.jsonl: $(VGEN_PATH)/char-cluster.pl cluster-root.json \
-    cluster-chars-*.txt
-	$(PERL) $< > $@
-
 char-leaders.jsonl: char-leaders.pl cluster-root.json cluster-props-*.txt
 	$(PERL) $< > $@
 
-testdata.json: $(VGEN_PATH)/testdata.pl cluster-root.json tests.txt
-	$(PERL) $< > $@
-
-build-tbls: tbl-clusters.dat tbl-rels.dat tbl-root.json \
-    tbl-clusters.dat.gz tbl-rels.dat.gz tbl-root.json.gz
-
-tbl-clusters.dat tbl-rels.dat tbl-root.json \
-tbl-clusters.dat.gz tbl-rels.dat.gz tbl-root.json.gz:: %: $(VGEN_PATH)/tbl.pl \
-    cluster-root.json char-cluster.jsonl merged-rels-*.jsonl
-	$(PERL) $<
-	gzip -k -f tbl-clusters.dat
-	gzip -k -f tbl-rels.dat
-	gzip -k -f tbl-root.json
-
-test: $(VGEN_PATH)/test.pl cluster-root.json char-cluster.jsonl testdata.json \
-    test-size
-	$(PROVE) $<
-perl-test: $(VGEN_PATH)/test.pl cluster-root.json char-cluster.jsonl \
-    testdata.json
-	$(PERL) $<
-test-size:
-	cd $(ROOT_PATH) && $(MAKE) test-size
+char-leaders-part-*.jsonl: $(VGEN_PATH)/split-jsonl.pl \
+    char-leaders.jsonl
+	$(PERL) $< char-leaders
 
 ## License: Public Domain.

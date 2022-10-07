@@ -280,13 +280,16 @@ sub print_cluster ($$$) {
 
 sub print_route ($$) {
   my ($char1, $char2) = @_;
-
   my $max_distance = 30;
 
-  my $char = $char1;
   my $found = [];
   my $current = [ [[$char1, []]] ];
   my $current_seen = {$char1 => 1};
+  if ($char1 eq $char2) {
+    push @$found, @$current;
+  } else {
+  
+  my $char = $char1;
   while (1) {
     printf STDERR "length = %d, %d routes\n", 0+@{$current->[0]}, 0+@$current;
     my $next = [];
@@ -312,6 +315,8 @@ sub print_route ($$) {
     $current = $next;
     $current_seen = $next_seen;
   }
+
+}
 
   for my $route (@$found) {
     print "----\n";

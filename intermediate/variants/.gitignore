@@ -1,3 +1,13 @@
+merged-chars.json
+merged-rels.jsonl
+merged-rels-part-*.jsonl
+cluster-chars-*.txt
+cluster-props-*.txt
+cluster-rels-*.jsonl
+char-cluster.jsonl
+char-cluster-index.jsonl
+char-cluster-indexed.jsonl
+char-leaders.jsonl
 tbl-clusters.dat
 tbl-rels.dat
 tbl-root.json
