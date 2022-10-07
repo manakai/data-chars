@@ -7,10 +7,12 @@ PERL = $(ROOT_PATH)/perl $(PERL5OPTS)
 
 all: ivar build
 
-build-pages: ivar build
+build: list.html list-rels.html
+
 build-nightly: 
 
-build: list.html list-rels.html
+build-pages: build
+	cd ../../intermediate/variants && $(MAKE) all test
 
 ivar:
 	cd ../../intermediate/unicode && $(MAKE) all
