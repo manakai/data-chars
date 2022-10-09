@@ -14,7 +14,20 @@
       }
     },
     {
+      "path": "../unicode/namesrefs.json",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/maps.json",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps.json",
+      "rels_key": "hans"
+    },
+    {
       "path": "../mj/variants.json",
+      "rels_key": "none",
       "set_map": {
         "jouyou": "jp",
         "jinmei": "jp_jinmei"

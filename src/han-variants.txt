@@ -144,6 +144,8 @@ sconflict 圣 軽
 sconflict 圣 径
 sconflict 圣 聖
 jpnewstyle 𦙾 脛
+differentiated 垩 圣
+vpairs 圣/聖 垩/垩
 
 sconflict 旺 曜
 simplified 𫞂 曜
@@ -178,6 +180,8 @@ sconflict 厶 厳
 simplified 𫟉 職
 sconflict 耺 職
 sconflict 伝 傳
+differentiated 伝 傅
+differentiated 傳 傅
 
 differentiated 世 丗
 
@@ -204,6 +208,15 @@ sconflict 并 幷
 sconflict 痳 痲
 sconflict 岺 嶺
 sconflict 令 齢
+
+vpairs 卖/賣 壳/殼
+vpairs 卖/売 壳/殻
+vpairs 売/賣 殻/殼
+
+sconflict 勋 勳
+sconflict 勋 勛
+differentiated 勳 勛
+differentiated 勲 勛
 
 sconflict 巾 幅
 sconflict 巾 冪
@@ -337,3 +350,5 @@ conflict ケ 个
 # conflict with eraser
 variant 〻 々
 conflict 〻 々
+
+same 々 𠚤

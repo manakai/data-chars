@@ -19,24 +19,23 @@ build-pages: build-vgen-pages \
 
 VGEN_MERGED_INPUTS = input.json \
     ../unicode/variants.json \
+    ../unicode/namesrefs.json \
+    ../mj/maps.json \
+    ../mj/fmaps.json \
     ../mj/variants.json \
     ../cjkvi/variants.json \
     ../wikimedia/variants.json \
     ../misc/variants.json
 
-cluster-root.json cluster-chars-*.txt merged-misc.json \
+merged-misc.json \
+cluster-root.json char-leaders.jsonl \
 build-vgen build-vgen-nightly build-vgen-pages test perl-test:: %:
 	$(MAKE) -f $(VGEN_PATH)/Makefile.vgen $@ \
 	    VGEN_MERGED_INPUTS="$(VGEN_MERGED_INPUTS)"
 
-cluster-props-*.txt: cluster-props.pl cluster-chars-*.txt merged-misc.json
-	$(PERL) $<
-
-char-leaders.jsonl: char-leaders.pl cluster-root.json cluster-props-*.txt
-	$(PERL) $< > $@
-
-char-leaders-part-*.jsonl: $(VGEN_PATH)/split-jsonl.pl \
+char-leaders-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
     char-leaders.jsonl
 	$(PERL) $< char-leaders
+char-leaders-part-*.jsonl: char-leaders-part-0.jsonl
 
 ## License: Public Domain.

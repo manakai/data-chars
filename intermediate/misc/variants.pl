@@ -112,7 +112,7 @@ my $Data;
     } elsif (m{^(vpairs)((?:\s+[\w\\\{\}\x{20000}-\x{3FFFF}]+/[\w\\\{\}\x{20000}-\x{3FFFF}]+)+)$}) {
       my $s = ue $2;
       my @s = map { [split m{/}, $_, 2] } grep { length } split /\s+/, $s;
-      my $vtype2 = 'manakai:variant:conflicted';
+      my $vtype2 = 'manakai:differentiated';
       for (@s) {
         my $c1 = $_->[0];
         for (@s) {
@@ -124,6 +124,10 @@ my $Data;
       die "Bad line |$_|";
     }
   }
+}
+
+for my $c1 (keys %{$Data->{variants}}) {
+  delete $Data->{variants}->{$c1}->{$c1};
 }
 
 print perl2json_bytes_for_record $Data;

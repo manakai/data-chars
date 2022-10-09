@@ -14,13 +14,18 @@ my $Data;
   my $path = $DataPath->child ('cluster-root.json');
   $Data = json_bytes2perl $path->slurp;
 }
+my $Merged;
+{
+  my $path = $DataPath->child ('merged-misc.json');
+  $Merged = json_bytes2perl $path->slurp;
+}
 
 my $Tables = {};
 my $Others = {};
 
 {
   my $i = 0;
-  my $path = $DataPath->child ("char-cluster-indexed.jsonl");
+  my $path = $DataPath->child ("clusters-1.jsonl");
   my $file = $path->openr;
   local $/ = "\x0A";
   while (<$file>) {
@@ -63,13 +68,30 @@ my $Others = {};
 
 my $Rels = {};
 {
-  my $path = $DataPath->child ('merged-rels.jsonl');
+  for my $c1 (keys %{$Data->{inset_pairs}}) {
+    for my $c2 (keys %{$Data->{inset_pairs}->{$c1}}) {
+      $Data->{inset_pairs}->{$c2}->{$c1} = 1;
+    }
+  }
+  my $u = $Merged->{inset_mergeable_weight};
+  
+  my $path = $DataPath->child ('merged-rels.jsonll');
   print STDERR "\r|$path|...";
   my $file = $path->openr;
   local $/ = "\x0A\x0A";
   while (<$file>) {
     my $c1 = json_bytes2perl $_;
     my $c1v = json_bytes2perl scalar <$file>;
+
+    for my $c2 (keys %{$Data->{inset_pairs}->{$c1} or {}}) {
+      $c1v->{$c2}->{'manakai:inset'} //= -1;
+      $c1v->{$c2}->{_} //= -1;
+      $c1v->{$c2}->{_u} //= $u;
+      if ($c1v->{$c2}->{_u} > $u) {
+        $c1v->{$c2}->{_u} = $u;
+      }
+    }
+    
     $Rels->{$c1} = $c1v;
   }
 }
@@ -132,6 +154,8 @@ $TablePath->mkpath;
           $rel_keys->{$key} = 0+keys %$rel_keys;
           $TableMeta->{rels}->[$rel_keys->{$key}] = {
             key => $key,
+            weight => ($Data->{rel_types}->{$key}->{weight} // die $key),
+            mergeable_weight => ($Data->{rel_types}->{$key}->{mergeable_weight} // die $key),
           };
         }
         my $x = $rel_keys->{$key};

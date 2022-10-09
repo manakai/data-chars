@@ -1,6 +1,7 @@
 ROOT_PATH = ../..
 TEMP_PATH = $(ROOT_PATH)/local/iuc
 PERL = $(ROOT_PATH)/perl -I$(ROOT_PATH)/bin/modules/json-ps/lib
+VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 
 WGET = wget
 SAVEURL = $(WGET) -O
@@ -88,7 +89,8 @@ $(ROOT_PATH)/data/maps.json:
 namesrefs.json: namesrefs.pl \
     $(ROOT_PATH)/local/unicode/latest/NamesList.txt \
     $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
-    $(ROOT_PATH)/data/maps.json
+    $(ROOT_PATH)/data/maps.json \
+    $(VGEN_PATH)/chars.pl
 	$(PERL) $< > $@
 
 maps.json: maps.pl $(TEMP_PATH)/unihan3.txt \

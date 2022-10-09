@@ -15,7 +15,6 @@ my $Input;
 }
 
 my $Rels = {};
-my $MergeableVariants = {};
 
 $Data->{cluster_levels} = [
   {key => 'SAME', label => 'Same', min_weight => 700},
@@ -36,18 +35,6 @@ for (0..$#{$Data->{cluster_levels}}) {
 }
 
 my $TypeWeight = {
-    "manakai:inset" => -1,
-    "manakai:inset:cn" => -1,
-    "manakai:inset:hk" => -1,
-    "manakai:inset:jp" => -1,
-    "manakai:inset:jp2" => -1,
-    "manakai:inset:tw" => -1,
-    "manakai:inset:cn:variant" => -1,
-    "manakai:inset:hk:variant" => -1,
-    "manakai:inset:jp:variant" => -1,
-    "manakai:inset:jp2:variant" => -1,
-    "manakai:inset:tw:variant" => -1,
-    
     "cjkvi:non-cjk/bopomofo" => -404,
     "cjkvi:non-cjk/bracketed" => -404,
     "cjkvi:non-cjk/circle" => -404,
@@ -78,9 +65,6 @@ my $PairedTypes = [];
     "ivd:duplicate",
     "cjkvi:cjkvi/duplicate",
     "manakai:same",
-    
-    "unicode:canon_composition",
-    "unicode:canon_decomposition",
 
     "adobe:vs",
   ) {
@@ -107,6 +91,9 @@ my $PairedTypes = [];
     "unihan:kZVariant",
     "cjkvi:ucs-scs/variant",
     "manakai:unified",
+    
+    "unicode:canon_composition",
+    "unicode:canon_decomposition",
 
     "unicode:svs",
     "unicode:svs:obsolete",
@@ -115,6 +102,9 @@ my $PairedTypes = [];
     "mj:X0213",
     "mj:X0213:2",
     "mj:実装したUCS",
+    "mj:住基ネット統一文字コード",
+    "mj:入管外字コード",
+    "mj:入管正字コード",
     "cns:unicode",
     
     "unihan3.0:kCNS1986",
@@ -263,7 +253,7 @@ my $PairedTypes = [];
   }
   for my $vtype (
     "manakai:variant:simplifiedconflicted",
-    "manakai:differentiated",
+    "manakai:variant:conflicted",
   ) {
     $TypeWeight->{$vtype} = W 'COVERED';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -361,13 +351,6 @@ my $PairedTypes = [];
     $TypeWeight->{$vtype} = W 'OVERLAP';
     $TypeWeight->{'rev:'.$vtype} = -1;
   }
-  for my $vtype (
-    "manakai:variant:conflicted",
-  ) {
-    $TypeWeight->{$vtype} = W 'COVERED';
-    $TypeWeight->{'rev:'.$vtype} = -1;
-    $TypeMergeableWeight->{$vtype} = W 'COVERED';
-  }
 
   ## RELATED: They share some of characteristics such that in some
   ## case a character may be replaced by another.
@@ -420,10 +403,10 @@ my $PairedTypes = [];
   ## may not have considered as "similar".
   for my $vtype (
     "unihan:kSpoofingVariant",
-    "cjkvi:cjkvi/non-cognate",
     "mj:新しいMJ文字図形名",
-    "manakai:inset:original",
 
+    "manakai:private",
+    
     "ucd:names:confused",
     "ucd:names:related",
     "ucd:names:x",
@@ -438,13 +421,42 @@ my $PairedTypes = [];
   for my $vtype (
     "cjkvi:cjkvi/non-cognate",
   ) {
+    $TypeWeight->{$vtype} = W 'LINKED';
+    $TypeWeight->{'rev:'.$vtype} = -1;
     $TypeMergeableWeight->{$vtype} = W 'COVERED';
   }
-  $TypeMergeableWeight->{'manakai:inset'} =
+  for my $vtype (
+    "manakai:differentiated",
+  ) {
+    $TypeWeight->{$vtype} = -1;
+    $TypeWeight->{'rev:'.$vtype} = -1;
+    $TypeMergeableWeight->{$vtype} = W 'COVERED';
+  }
+  for my $vtype (
+    "manakai:inset",
+    "manakai:inset:original",
+    "rev:manakai:inset:original",
+  ) {
+    $TypeWeight->{$vtype} = -1;
+    $TypeMergeableWeight->{$vtype} = W 'COVERED';
+  }
+  for my $vtype (
+    "manakai:inset:cn",
+    "manakai:inset:hk",
+    "manakai:inset:jp",
+    "manakai:inset:jp2",
+    "manakai:inset:tw",
+    "manakai:inset:cn:variant",
+    "manakai:inset:hk:variant",
+    "manakai:inset:jp:variant",
+    "manakai:inset:jp2:variant",
+    "manakai:inset:tw:variant",
+  ) {
+    $TypeWeight->{$vtype} = -1;
+  }
   $Data->{inset_mergeable_weight} = W 'COVERED';
   $Data->{min_unmergeable_weight} = W 'SAME';
   $Data->{inset_keys} = [sort { $a cmp $b } qw(cn jp jp2 tw hk)];
-  $TypeMergeableWeight->{'manakai:inset:original'} = W 'COVERED';
   for (values %$TypeMergeableWeight) {
     if ($_ < $Data->{min_unmergeable_weight}) {
       $Data->{min_unmergeable_weight} = $_;
@@ -457,18 +469,19 @@ my $HasRelTos = {};
 my $RevRels = [];
 for (
   map {
-    [$_->{path}, $_->{set_map} || {}, $_->{mv_map} || {}],
+    [$_->{path}, $_->{rels_key} || 'variants',
+     $_->{set_map} || {}, $_->{mv_map} || {}],
   } @{$Input->{inputs}},
 ) {
-  my ($x, $setmap, $mvmap) = @$_;
+  my ($x, $rels_key, $setmap, $mvmap) = @$_;
   my $path = $DataPath->child ($x);
   print STDERR "\r$path...";
   my $json = json_bytes2perl $path->slurp;
-  for my $c1 (keys %{$json->{variants}}) {
-    for my $c2 (keys %{$json->{variants}->{$c1}}) {
+  for my $c1 (keys %{$json->{$rels_key}}) {
+    for my $c2 (keys %{$json->{$rels_key}->{$c1}}) {
       next if $c1 eq $c2;
       my $has = 0;
-      for (keys %{$json->{variants}->{$c1}->{$c2}}) {
+      for (keys %{$json->{$rels_key}->{$c1}->{$c2}}) {
           my $w = $TypeWeight->{$_} || 0;
           next if $w == -404;
           $Rels->{$c1}->{$c2}->{$_} = $w;
@@ -478,8 +491,6 @@ for (
           next if $w < 0;
           my $set_key = $mvmap->{$_};
           if (defined $set_key) {
-            $MergeableVariants->{$set_key}->{$c1, $c2} = 1;
-            $MergeableVariants->{$set_key}->{$c2, $c1} = 1;
             $Rels->{$c1}->{$c2}->{'manakai:inset:'.$set_key.':variant'} = 1;
             $Rels->{$c2}->{$c1}->{'manakai:inset:'.$set_key.':variant'} = 1;
           }
@@ -556,6 +567,7 @@ for (@$PairedTypes) {
   }
 }
 
+my $HasUnmergeable = {};
 {
   printf STDERR "\rRels (%d)...", 0+keys %$Rels;
   my $UnweightedTypes = {};
@@ -572,6 +584,10 @@ for (@$PairedTypes) {
       $types->{_u} = [sort { $a <=> $b } map {
         $TypeMergeableWeight->{$_} || W 'SAME';
       } keys %$types]->[0];
+      if ($types->{_u} != W 'SAME') {
+        $HasUnmergeable->{$c1} = 1;
+        $HasUnmergeable->{$c2} = 1;
+      }
     }
   }
 
@@ -598,10 +614,15 @@ for (@$PairedTypes) {
   }
 }
 
+for (keys %$TypeWeight) {
+  $Data->{rel_types}->{$_}->{weight} = $TypeWeight->{$_};
+  $Data->{rel_types}->{$_}->{mergeable_weight} = $TypeMergeableWeight->{$_} || W 'SAME';
+}
+
 {
   my $c1s = [sort { $a cmp $b } keys %$Rels];
   print STDERR "\rWrite[1]...";
-  my $path = $DataPath->child ("merged-rels.jsonl");
+  my $path = $DataPath->child ("merged-rels.jsonll");
   my $file = $path->openw;
   for my $c1 (@$c1s) {
     print $file perl2json_bytes_for_record $c1; # trailing \x0A
@@ -619,7 +640,10 @@ for (@$PairedTypes) {
   print STDERR "\rWrite[3]...";
   my $path = $DataPath->child ('merged-chars.json');
   my $chars = {};
-  $chars->{$_} = 1 for keys %$Rels;
+  for (keys %$Rels) {
+    my $x = $chars->{$_} = {};
+    $x->{has_unmergeable} = 1 if $HasUnmergeable->{$_};
+  }
   $path->spew (perl2json_bytes_for_record $chars);
 }
 

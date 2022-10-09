@@ -32,6 +32,8 @@ my $StartTime = time;
       }
     } elsif ($c1 =~ /\A:(MJ|ac|ag|aj|ak|aj2-|ak1-|jis|cns|gb|ks|cjkvi|swc)/) {
       return $to_index->{$1} // die $1;
+    } elsif ($c1 =~ /^:u-/) {
+      return 0x4F;
     } elsif (3 <= $c1l and $c1l <= 10) {
       return 0x40 - 2 + $c1l;
     }
@@ -61,7 +63,8 @@ my $FileDef = {
 
 my $OutFiles = [];
 {
-  my $path = $DataPath->child ("$FileKey.jsonl");
+  my $ext = $FileDef->{paired} ? 'jsonll' : 'jsonl';
+  my $path = $DataPath->child ("$FileKey.$ext");
   print STDERR "\rLoading |$path|...";
   my $file = $path->openr;
   if ($FileDef->{paired}) {
@@ -88,7 +91,8 @@ my $OutFiles = [];
     }
   }
 
-  for my $path (($DataPath->children (qr/^\Q$FileKey\E-part-[0-9]+\.jsonl$/))) {
+  my $ext = $FileDef->{paired} ? 'jsonll' : 'jsonl';
+  for my $path (($DataPath->children (qr/^\Q$FileKey\E-part-[0-9]+\.\Q$ext\E$/))) {
     $path->remove;
   }
   for my $i (0..$#$OutFiles) {
@@ -96,11 +100,12 @@ my $OutFiles = [];
     next unless @{$OutFiles->[$i]};
 
     print STDERR "\rWrite[$i]...";
-    my $path = $DataPath->child ("$FileKey-part-$i.jsonl");
+    my $path = $DataPath->child ("$FileKey-part-$i.$ext");
     my $file = $path->openw;
 
     print STDERR " (@{[0+@{$OutFiles->[$i]}]})";
     if ($FileDef->{paired}) {
+      @{$OutFiles->[$i]} = sort { $a->[0] cmp $b->[0] } @{$OutFiles->[$i]};
       for (@{$OutFiles->[$i]}) {
         print $file perl2json_bytes_for_record $_->[0]; # trailing \x0A
         print $file "\x0A";
@@ -108,6 +113,7 @@ my $OutFiles = [];
         print $file "\x0A";
       }
     } else {
+      @{$OutFiles->[$i]} = sort { $a->[0] cmp $b->[0] } @{$OutFiles->[$i]};
       for (@{$OutFiles->[$i]}) {
         print $file perl2json_bytes $_;
         print $file "\x0A";

@@ -7,28 +7,34 @@ my $ThisPath = path (__FILE__)->parent;
 my $DataPath = path ('.');
 my $StartTime = time;
 
-sub merge ($$$) {
-  my ($map, $c_from, $c_to) = @_;
-  my $sc_from = $map->{$c_from};
-  my $sc_to = $map->{$c_to};
-  if ((keys %$sc_from) > (keys %$sc_to)) {
-    ($sc_from, $sc_to) = ($sc_to, $sc_from);
+sub merge ($$$$) {
+  my ($child_cluster_to_this_cluster,
+      $this_cluster_to_child_cluster_keys,
+      $child_cluster_from, $child_cluster_to) = @_;
+  my $this_cluster_from = $child_cluster_to_this_cluster->{$child_cluster_from};
+  my $this_cluster_to = $child_cluster_to_this_cluster->{$child_cluster_to};
+  if ((keys %{$this_cluster_from->{chars}}) > (keys %{$this_cluster_to->{chars}})) {
+    ($this_cluster_from, $this_cluster_to) = ($this_cluster_to, $this_cluster_from);
+    ($child_cluster_from, $child_cluster_to) = ($child_cluster_to, $child_cluster_from);
   }
-  for (keys %{$sc_from->{chars}}) {
-    $sc_to->{chars}->{$_} = 1;
-    $map->{$_} = $sc_to;
+  for (keys %{$this_cluster_from->{chars}}) {
+    $this_cluster_to->{chars}->{$_} = 1;
   }
-  if (defined $sc_from->{clusters}) {
-    push @{$sc_to->{clusters}}, @{$sc_from->{clusters}};
+  if ($this_cluster_from->{sort_key} le $this_cluster_to->{sort_key}) {
+    $this_cluster_to->{sort_key} = $this_cluster_from->{sort_key};
   }
-  if (defined $sc_from->{rels}) {
-    push @{$sc_to->{rels}}, @{$sc_from->{rels}};
+
+  for (@{$this_cluster_to_child_cluster_keys->{$this_cluster_from}}) {
+    $child_cluster_to_this_cluster->{$_} = $this_cluster_to;
   }
+  push @{$this_cluster_to_child_cluster_keys->{$this_cluster_to}},
+      @{delete $this_cluster_to_child_cluster_keys->{$this_cluster_from}};
+
+  push @{$this_cluster_to->{child_rel_lists}},
+      @{delete $this_cluster_from->{child_rel_lists}};
 } # merge
 
 my $Data = {};
-my $DataChars = [];
-my $DataRels = [];
 
 my $Merged;
 {
@@ -41,7 +47,7 @@ my $Merged;
 }
 my $Rels = {};
 {
-  my $path = $DataPath->child ('merged-rels.jsonl');
+  my $path = $DataPath->child ('merged-rels.jsonll');
   print STDERR "\r|$path|...";
   my $file = $path->openr;
   local $/ = "\x0A\x0A";
@@ -54,7 +60,6 @@ my $Rels = {};
 
 $Data->{cluster_levels} = $Merged->{cluster_levels};
 my $Levels = json_chars2perl perl2json_chars $Merged->{cluster_levels};
-$Levels->[0]->{leaf} = 1;
 for (@$Levels) {
   $_->{unmergeable} = $_->{min_weight} <= $Merged->{min_unmergeable_weight} ? sub { 0 } : \&unmergeable;
 }
@@ -109,6 +114,7 @@ for (@$Levels) {
               $Rels->{$c2}->{$c1}->{_} = $weight;
             }
             $Rels->{$c2}->{$c1}->{'manakai:inset'} //= -1;
+            $Data->{inset_pairs}->{$c1}->{$c2} = 1;
             return 1;
           }
         }
@@ -118,104 +124,132 @@ for (@$Levels) {
   } # unmergeable
 }
 
-sub construct_clusters ($$$) {
-  my ($clusters, $min_weight, $unmergeable) = @_;
+sub construct_clusters ($$$$) {
+  my ($child_clusters, $child_cluster_to_rel, $min_weight, $unmergeable) = @_;
 
-  my $map = {};
-  my $chars = {};
-  for my $cluster (@$clusters) {
-    my $x = {clusters => [$cluster], rels => []};
-    for my $c (keys %{$cluster->{chars}}) {
-      $map->{$c} = $x;
-      $x->{chars}->{$c} = 1;
-      $chars->{$c} = 1;
-    }
+  my $child_cluster_to_this_cluster = {};
+  my $this_cluster_to_child_cluster_keys = {};
+  for my $child_cluster (@$child_clusters) {
+    my $this_cluster = {#clusters => [$child_cluster],
+                        child_rel_lists => []};
+    $this_cluster->{chars} = {%{$child_cluster->{chars}}};
+    $this_cluster->{sort_key} = $child_cluster->{sort_key};
+    $child_cluster_to_this_cluster->{$child_cluster} = $this_cluster;
+    $this_cluster_to_child_cluster_keys->{$this_cluster} = [''.$child_cluster];
   }
 
-  my $rels = [];
-  for my $c1 (sort { $a cmp $b } keys %$chars) {
-    for my $c2 (sort { $a cmp $b } grep { $chars->{$_} } keys %{$Rels->{$c1}}) {
-      #if (not defined $Rels->{$c1}->{$c2}->{_}) {
-      #  die perl2json_bytes [$c1, $c2, $Rels->{$c1}->{$c2}];
-      #}
-      if ($Rels->{$c1}->{$c2}->{_} >= $min_weight) {
-        if ($map->{$c1} eq $map->{$c2}) { # internal
-          #
-        } else {
-          push @$rels, [$c1, $c2,
-                        $Rels->{$c1}->{$c2}->{_},
-                        $Rels->{$c1}->{$c2}->{_u},
-                        [sort { $a cmp $b } grep { $_ !~ /^_/ } keys %{$Rels->{$c1}->{$c2}}]];
+  my $rel_items = [];
+  for my $child_cluster (@$child_clusters) {
+    my $this_cluster = $child_cluster_to_this_cluster->{$child_cluster};
+    my $other_rels = [];
+    my $child_rels = $child_cluster_to_rel->{$child_cluster};
+    for my $rel_item (@$child_rels) {
+      if ($rel_item->[1] >= $min_weight) {
+        push @$rel_items, [$child_cluster, $rel_item];
+      } else {
+        push @$other_rels, $rel_item;
+      }
+    }
+    push @{$this_cluster->{child_rel_lists}}, $other_rels;
+  } # $child_cluster
+
+  for my $rel_item (sort { $b->[1]->[1] <=> $a->[1]->[1] } @$rel_items) {
+    my $child_cluster_1 = $rel_item->[0];
+    my $child_cluster_2 = $rel_item->[1]->[0];
+    my $this_cluster_1 = $child_cluster_to_this_cluster->{$child_cluster_1};
+    my $this_cluster_2 = $child_cluster_to_this_cluster->{$child_cluster_2};
+    if ($this_cluster_1 eq $this_cluster_2) { # already merged
+      #
+    } elsif ($unmergeable->($this_cluster_1, $this_cluster_2, $min_weight)) {
+      push @{$this_cluster_1->{child_rel_lists}}, [$rel_item->[1]];
+    } else {
+      merge
+          $child_cluster_to_this_cluster, $this_cluster_to_child_cluster_keys,
+          $child_cluster_1 => $child_cluster_2;
+    }
+  } # $rel
+  
+  # not sorted
+  my $found = {};
+  my $this_clusters = [grep { not $found->{$_}++ } values %$child_cluster_to_this_cluster];
+
+  my $this_cluster_to_rel = {};
+  for my $this_cluster (@$this_clusters) {
+    my $child_rel_lists = delete $this_cluster->{child_rel_lists};
+    my $new_rels = {};
+    my $i = 0;
+    for (@{$child_rel_lists}) {
+      for (@$_) {
+        my $this_cluster_2 = $child_cluster_to_this_cluster->{$_->[0]} // die;
+        unless ($this_cluster eq $this_cluster_2) {
+          if ($new_rels->{$this_cluster_2}) {
+            $new_rels->{$this_cluster_2}->[1] = $_->[1]
+                if $new_rels->{$this_cluster_2}->[1] < $_->[1];
+          } else {
+            $new_rels->{$this_cluster_2} = [$this_cluster_2, $_->[1], $i++];
+          }
         }
       }
     }
-  }
-  $Data->{stats}->{construct}->{$min_weight}->{rels} = 0+@$rels;
-
-  for my $rel (sort { $b->[2] <=> $a->[2] } @$rels) {
-    if ($map->{$rel->[0]} eq $map->{$rel->[1]}) { # already merged
-      $Data->{stats}->{construct}->{$min_weight}->{already}++;
-      push @{$map->{$rel->[1]}->{rels}}, $rel;
-    } elsif ($unmergeable->($map->{$rel->[0]}, $map->{$rel->[1]}, $min_weight)) {
-      #
-    } else {
-      $Data->{stats}->{construct}->{$min_weight}->{merge}++;
-      merge $map, $rel->[0] => $rel->[1];
-      push @{$map->{$rel->[1]}->{rels}}, $rel;
+    my $rels = $this_cluster_to_rel->{$this_cluster} = [];
+    for (sort { $a->[2] <=> $b->[2] } values %$new_rels) {
+      push @$rels, [$_->[0], $_->[1]];
     }
-  } # $rel
-  $Data->{stats}->{construct}->{$min_weight}->{check_unmergeable}
-      = $Data->{stats}->{construct}->{$min_weight}->{rels}
-      - $Data->{stats}->{construct}->{$min_weight}->{already};
-  
-  my $found = {};
-  my $result = [map { $map->{$_} }
-                grep { not $found->{$map->{$_}}++ }
-                sort { $a cmp $b }
-                keys %$map];
+  }
 
-  $Data->{stats}->{construct}->{$min_weight}->{input} = 0+@$clusters;
-  $Data->{stats}->{construct}->{$min_weight}->{output} = 0+@$result;
-
-  return $result;
+  return {clusters => $this_clusters, cluster_to_rel => $this_cluster_to_rel};
 } # construct_clusters
 
 sub sort_clusters ($) {
-  return [map { $_->[0] } sort { $a->[1] cmp $b->[1] } map {
-    [$_, [sort { $a cmp $b } keys %{$_->{chars}}]->[0]],
-  } @{$_[0]}];
+  return [sort { $a->{sort_key} cmp $b->{sort_key} } @{$_[0]}];
 } # sort_clusters
 
-sub set_cluster_props ($) {
-  my $cluster = shift;
+{
+  my $path = $DataPath->child ('clusters-0.jsonl');
+  my $file = $path->openw;
 
-  if (defined $cluster->{clusters}) {
-    $cluster->{clusters} = sort_clusters $cluster->{clusters};
-    $cluster->{cluster_indexes} = [map { $_->{index} } @{$cluster->{clusters}}];
+  sub write_cluster ($$) {
+    my ($level_index, $cluster) = @_;
+    print $file perl2json_bytes [$level_index, [
+      #sort { $a cmp $b }
+      keys %{$cluster->{chars}}
+    ]];
+    print $file "\x0A";
+  } # write_cluster
+}
+
+my $clusters = [];
+my $cluster_to_rel = {};
+{
+  my $char_to_cluster = {};
+  for my $c (sort { $a cmp $b } keys %{delete $Merged->{chars}}) {
+    my $cluster = {
+      chars => {$c => 1},
+      sort_key => $c,
+    };
+    $char_to_cluster->{$c} = $cluster;
+    push @$clusters, $cluster;
   }
-
-  $cluster->{index} = @$DataChars;
-  $cluster->{rel_count} = 0+@{$cluster->{rels}};
-  push @$DataChars, $cluster;
-  push @$DataRels, delete $cluster->{rels};
-} # set_cluster_props
-
-my $clusters = [map {
-  {chars => {$_ => 1}};
-} keys %{$Merged->{chars}}];
+  for my $c (keys %$char_to_cluster) {
+    my $cluster = $char_to_cluster->{$c};
+    my $rels = $cluster_to_rel->{$cluster} = [];
+    for my $c2 (sort { $a cmp $b } keys %{$Rels->{$c}}) {
+      push @$rels, [$char_to_cluster->{$c2} // die, $Rels->{$c}->{$c2}->{_}];
+    }
+  }
+}
 for my $level (@$Levels) {
   print STDERR "\r$level->{label}...";
-  $clusters = construct_clusters $clusters, $level->{min_weight}, $level->{unmergeable};
-  if ($level->{leaf}) {
-    delete $_->{clusters} for @$clusters;
+  my $r = construct_clusters $clusters, $cluster_to_rel,
+      $level->{min_weight}, $level->{unmergeable};
+  $clusters = $r->{clusters};
+  $cluster_to_rel = $r->{cluster_to_rel};
+  $clusters = sort_clusters $clusters;
+  my $level_index = @$Levels - $level->{index};
+  for my $cluster (@$clusters) {
+    write_cluster $level_index, $cluster;
   }
-  set_cluster_props $_ for @$clusters;
 }
-$clusters = [grep { 1 < keys %{$_->{chars}} } @$clusters];
-$clusters = sort_clusters $clusters;
-
-$Data->{clusters} = $clusters;
-$Data->{cluster_indexes} = [map { $_->{index} } @{$Data->{clusters}}];
 
 {
   my $i = 1;
@@ -262,86 +296,11 @@ $Data->{cluster_indexes} = [map { $_->{index} } @{$Data->{clusters}}];
   }
 }
 
-my $count; $count = sub ($) {
-  my $list = shift;
-  my $n = 0;
-  my $new_list = [];
-  for (@$list) {
-    $n += @{$_->{clusters} or []};
-    push @$new_list, @{$_->{clusters} or []};
-    delete $_->{clusters};
-  }
-  if ($n) {
-    unshift @{$Data->{stats}->{clusters}}, $n;
-    $count->($new_list);
-  } else {
-    my $n = 0;
-    for (@$list) {
-      $n += keys %{$_->{chars}};
-    }
-    unshift @{$Data->{stats}->{clusters}}, $n;
-  }
-}; # $count
-$count->([$Data]);
+$Data->{rel_types} = $Merged->{rel_types};
 
-my $FileList = {};
-{
-  my $i = 0;
-  my $n = 0;
-  my $file;
-  while (@$DataChars) {
-    unless (defined $file) {
-      $i++;
-      my $path = $DataPath->child ("cluster-chars-$i.txt");
-      print STDERR "\rWrite |$path|...";
-      $file = $path->openw;
-      push @{$FileList->{chars} ||= []}, "cluster-chars-$i.txt";
-    }
-
-    while (@$DataChars) {
-      my $v = shift @$DataChars;
-      print $file perl2json_bytes_for_record $v; # has trailing \x0A
-      print $file "\x0A";
-      $n++;
-      if ($n > 10_0000) {
-        undef $file;
-        $n = 0;
-        last;
-      }
-    }
-  }
-}
-{
-  my $i = 0;
-  my $n = 0;
-  my $file;
-  while (@$DataRels) {
-    unless (defined $file) {
-      $i++;
-      my $path = $DataPath->child ("cluster-rels-$i.jsonl");
-      print STDERR "\rWrite |$path|...";
-      $file = $path->openw;
-      push @{$FileList->{rels} ||= []}, "cluster-chars-$i.txt";
-    }
-
-    while (@$DataRels) {
-      my $v = shift @$DataRels;
-      print $file perl2json_bytes $v;
-      print $file "\x0A";
-      $n++;
-      if ($n > 10_0000) {
-        undef $file;
-        $n = 0;
-        last;
-      }
-    }
-  }
-}
 {
   my $path = $DataPath->child ('cluster-root.json');
   print STDERR "\rWrite |$path|...";
-  push @{$FileList->{root} ||= []}, 'cluster-root.json';
-  $Data->{files} = $FileList;
   $path->spew (perl2json_bytes_for_record $Data);
 }
 print STDERR "\n";

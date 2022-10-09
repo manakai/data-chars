@@ -16963,13 +16963,13 @@
       },
       "丰" : {
          "沣" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "澧" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "灃" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "豊" : {
             "manakai:related" : 1
@@ -20291,9 +20291,11 @@
       },
       "傅" : {
          "伝" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          },
          "傳" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          }
       },
@@ -24080,12 +24082,15 @@
       },
       "勛" : {
          "勋" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "勲" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          },
          "勳" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          }
       },
@@ -24227,7 +24232,8 @@
       },
       "勳" : {
          "勋" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "勛" : {
             "manakai:related" : 1
@@ -24940,9 +24946,17 @@
       },
       "卖" : {
          "売" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          },
+         "殻" : {
+            "manakai:differentiated" : 1
+         },
+         "殼" : {
+            "manakai:differentiated" : 1
+         },
          "賣" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          }
       },
@@ -25704,12 +25718,12 @@
             "manakai:inset:original" : 1
          },
          "暦" : {
+            "manakai:differentiated" : 1,
             "manakai:inset:original" : 1,
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:related" : 1
          },
          "曆" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          }
       },
       "厰" : {
@@ -30513,7 +30527,11 @@
          }
       },
       "圣" : {
+         "垩" : {
+            "manakai:differentiated" : 1
+         },
          "聖" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          }
       },
@@ -31232,6 +31250,7 @@
             "manakai:related" : 1
          },
          "聖" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          }
       },
@@ -33004,7 +33023,11 @@
          "卖" : {
             "manakai:related" : 1
          },
+         "殼" : {
+            "manakai:differentiated" : 1
+         },
          "賣" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          },
          "売" : {
@@ -33012,11 +33035,19 @@
          }
       },
       "壳" : {
+         "売" : {
+            "manakai:differentiated" : 1
+         },
          "殻" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
          },
          "殼" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
+         },
+         "賣" : {
+            "manakai:differentiated" : 1
          }
       },
       "壴" : {
@@ -57093,7 +57124,11 @@
             "manakai:related" : 1
          },
          "殼" : {
+            "manakai:differentiated" : 1,
             "manakai:related" : 1
+         },
+         "賣" : {
+            "manakai:differentiated" : 1
          },
          "殻" : {
             "manakai:related" : 1
@@ -77771,14 +77806,14 @@
             "manakai:related" : 1
          },
          "繡" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "绣" : {
             "manakai:related" : 1
          },
          "𰬩" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          }
       },
       "綋" : {
@@ -78175,19 +78210,19 @@
             "manakai:related" : 1
          },
          "捴" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "揔" : {
             "manakai:related" : 1
          },
          "搃" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "摠" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "稯" : {
             "manakai:related" : 1
@@ -78211,7 +78246,7 @@
             "manakai:related" : 1
          },
          "𢭇" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          }
       },
       "緐" : {
@@ -78514,16 +78549,16 @@
       },
       "縂" : {
          "捴" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "搃" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "摠" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "𢭇" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "縂" : {
             "manakai:related" : 1
@@ -78832,14 +78867,14 @@
             "manakai:related" : 1
          },
          "捴" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "搃" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "摠" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "総" : {
             "manakai:related" : 1
@@ -78848,7 +78883,7 @@
             "manakai:related" : 1
          },
          "𢭇" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          }
       },
       "績" : {
@@ -79787,11 +79822,11 @@
             "manakai:related" : 1
          },
          "繡" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "𰬩" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          }
       },
       "绤" : {
@@ -95069,13 +95104,13 @@
             "manakai:related" : 1
          },
          "沣" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "澧" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "灃" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "禮" : {
             "manakai:related" : 1
@@ -95108,13 +95143,13 @@
             "manakai:related" : 1
          },
          "沣" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "澧" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "灃" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "豊" : {
             "manakai:related" : 1,
@@ -102447,11 +102482,11 @@
       },
       "鈩" : {
          "炉" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "爐" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "鑪" : {
             "manakai:related" : 1
@@ -105295,12 +105330,12 @@
       },
       "鑪" : {
          "炉" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "爐" : {
-            "manakai:related" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:related" : 1
          },
          "鈩" : {
             "manakai:related" : 1,
@@ -124113,6 +124148,11 @@
             "manakai:related" : 1
          }
       },
+      "𠚤" : {
+         "々" : {
+            "manakai:same" : 1
+         }
+      },
       "𠠄" : {
          "𠠄" : {
             "manakai:related" : 1
@@ -124142,11 +124182,11 @@
             "manakai:variant:simplified" : 1
          },
          "暦" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "曆" : {
-            "manakai:inset:original" : 1,
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1,
+            "manakai:inset:original" : 1
          }
       },
       "𠭣" : {
@@ -124537,16 +124577,16 @@
       },
       "𦀙" : {
          "捴" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "搃" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "摠" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          },
          "𢭇" : {
-            "manakai:variant:conflicted" : 1
+            "manakai:differentiated" : 1
          }
       },
       "𦇚" : {

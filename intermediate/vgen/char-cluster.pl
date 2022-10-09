@@ -5,6 +5,7 @@ use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
 my $DataPath = path ('.');
+my $StartTime = time;
 
 my $Data;
 {
@@ -13,18 +14,13 @@ my $Data;
 }
 my $DataChars = [];
 {
-  my $i = 0;
-  {
-    $i++;
-    my $path = $DataPath->child ("cluster-chars-$i.txt");
-    last unless $path->is_file;
+    my $path = $DataPath->child ("cluster-chars.jsonll");
+    print STDERR "\r|$path|...";
     my $file = $path->openr;
     local $/ = "\x0A\x0A";
     while (<$file>) {
       push @$DataChars, json_bytes2perl $_;
     }
-    redo;
-  }
 }
 
 my $CharClusterIndex;
@@ -32,6 +28,7 @@ my $CharClusterIndex;
   last unless $ENV{CCI};
   $CharClusterIndex = {};
   my $path = $DataPath->child ('char-cluster-index.jsonl');
+  print STDERR "\r|$path|...";
   my $file = $path->openr;
   local $/ = "\x0A";
   my $i = 0;
@@ -55,6 +52,7 @@ sub cci ($) {
   return $ci;
 } # cci
 
+print STDERR "\rRun... ";
 my $List = [];
 my $run; $run = sub ($$) {
   my ($indexes, $prefix) = @_;
@@ -74,6 +72,7 @@ my $run; $run = sub ($$) {
 }; # $run
 $run->($Data->{cluster_indexes}, []);
 
+print STDERR "\rWrite...";
 $List = [sort { $a->[0] cmp $b->[0] } @$List];
 {
   for (@$List) {
@@ -81,5 +80,6 @@ $List = [sort { $a->[0] cmp $b->[0] } @$List];
     print "\x0A";
   }
 }
+printf STDERR "Done (%s) \n", time - $StartTime;
 
 ## License: Public Domain.

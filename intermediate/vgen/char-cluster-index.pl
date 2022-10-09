@@ -47,7 +47,11 @@ my $CharArray = [];
     } else {
       $n = $cc2 + ord $c;
     }
-  } elsif ($c =~ /\A:([A-Za-z]+)([0-9]+)\z/) {
+  } elsif ($c =~ /^:u([0-9a-f]+)/) {
+    $n = hex $1;
+  } elsif ($c =~ /^:u-[a-z]+-([0-9a-f]+)/) {
+    $n = 300000 + hex $1;
+  } elsif ($c =~ /\A:([A-Za-z]+)([0-9]+)/) {
     $n = 0+$2;
     my $i = $to_index->{$1};
     $n = ($i // 4) * 100000 + $n;

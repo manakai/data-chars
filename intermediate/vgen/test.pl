@@ -16,7 +16,7 @@ my $Levels = [];
 }
 my $Chars = {};
 {
-  my $path = $DataPath->child ('char-cluster-indexed.jsonl');
+  my $path = $DataPath->child ('clusters-1.jsonl');
   print STDERR "Loading |$path|...\n";
   my $file = $path->openr;
   local $/ = "\x0A";
@@ -34,16 +34,24 @@ my $TestData;
 
 binmode STDOUT, qw(:encoding(utf-8));
 my $Index = 0;
-sub ok ($$$) {
-  printf "ok %d\n",
-      ++$Index;
+sub ok ($$$$) {
+  if ($ENV{VERBOSE}) {
+    printf "ok %d # %s: %s |%s| |%s|\n",
+      ++$Index, $_[3], $Levels->[$_[2]]->{key}, $_[0], $_[1];
+  } else {
+    printf "ok %d\n",
+        ++$Index;
+  }
 } # ok
+my $HasNG = 0;
 sub ng ($$$$) {
   printf "not ok %d # %s: %s |%s| |%s|\n",
       ++$Index, $_[3], $Levels->[$_[2]]->{key}, $_[0], $_[1];
+  $HasNG = 1;
 } # ng
 sub end () {
   printf "1..%d\n", $Index;
+  exit $HasNG;
 }
 
 for my $c1 (sort { $a cmp $b } keys %$TestData) {
@@ -64,7 +72,7 @@ for my $c1 (sort { $a cmp $b } keys %$TestData) {
       my $cli2 = $cl2->[@$cl2 - $index];
       my $actual = $cli1 == $cli2 ? +1 : -1;
       if ($expected == $actual) {
-        ok $c1, $c2, $index;
+        ok $c1, $c2, $index, "$cli1, $cli2";
       } else {
         ng $c1, $c2, $index, "$cli1, $cli2";
       }

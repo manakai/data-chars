@@ -9,7 +9,7 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) variants.json maps.json
+build: $(TEMP_PATH) variants.json maps.json fmaps.json
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -27,6 +27,9 @@ variants.json: variants.pl $(TEMP_PATH)/mj.json $(TEMP_PATH)/map.json
 	$(PERL) $< > $@
 
 maps.json: maps.pl $(TEMP_PATH)/mj.json
+	$(PERL) $< > $@
+
+fmaps.json: fmaps.pl $(TEMP_PATH)/map.json
 	$(PERL) $< > $@
 
 ## License: Public Domain.

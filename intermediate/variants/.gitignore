@@ -1,6 +1,6 @@
 merged-chars.json
-merged-rels.jsonl
-merged-rels-part-*.jsonl
+merged-rels.jsonll
+merged-rels-part-*.jsonll
 cluster-chars-*.txt
 cluster-props-*.txt
 cluster-rels-*.jsonl
