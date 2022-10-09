@@ -1,0 +1,2370 @@
+{
+   "cluster_levels" : {
+      "COVERED" : {
+         "index" : 3,
+         "key" : "COVERED",
+         "label" : "Covered",
+         "min_weight" : 400
+      },
+      "EQUIV" : {
+         "index" : 2,
+         "key" : "EQUIV",
+         "label" : "Equivalent",
+         "min_weight" : 500
+      },
+      "LINKED" : {
+         "index" : 6,
+         "key" : "LINKED",
+         "label" : "Linked",
+         "min_weight" : 100
+      },
+      "OVERLAP" : {
+         "index" : 4,
+         "key" : "OVERLAP",
+         "label" : "Overlapping",
+         "min_weight" : 300
+      },
+      "RELATED" : {
+         "index" : 5,
+         "key" : "RELATED",
+         "label" : "Related",
+         "min_weight" : 200
+      },
+      "SAME" : {
+         "index" : 0,
+         "key" : "SAME",
+         "label" : "Same",
+         "min_weight" : 700
+      },
+      "UNIFIED" : {
+         "index" : 1,
+         "key" : "UNIFIED",
+         "label" : "Unified",
+         "min_weight" : 600
+      }
+   },
+   "inset_keys" : [
+      "cn",
+      "hk",
+      "jp",
+      "jp2",
+      "tw"
+   ],
+   "inset_mergeable_weight" : 400,
+   "leader_types" : {
+      "cn" : {
+         "index" : 1,
+         "key" : "cn",
+         "label" : "大陆(简体)",
+         "lang_tag" : "zh-CN",
+         "short_label" : "简"
+      },
+      "cn_complex" : {
+         "index" : 2,
+         "key" : "cn_complex",
+         "label" : "大陸(繁體)",
+         "lang_tag" : "zh-CN",
+         "short_label" : "繁"
+      },
+      "hk" : {
+         "index" : 3,
+         "key" : "hk",
+         "label" : "香港",
+         "lang_tag" : "zh-HK",
+         "short_label" : "港"
+      },
+      "jp" : {
+         "index" : 5,
+         "key" : "jp",
+         "label" : "日本",
+         "lang_tag" : "ja",
+         "short_label" : "日"
+      },
+      "jp_h22" : {
+         "index" : 7,
+         "key" : "jp_h22",
+         "label" : "日本(平成22年)",
+         "lang_tag" : "ja",
+         "short_label" : "平成"
+      },
+      "jp_new" : {
+         "index" : 6,
+         "key" : "jp_new",
+         "label" : "日本(新字体)",
+         "lang_tag" : "ja",
+         "short_label" : "新"
+      },
+      "jp_old" : {
+         "index" : 8,
+         "key" : "jp_old",
+         "label" : "日本(舊字體)",
+         "lang_tag" : "ja",
+         "short_label" : "旧"
+      },
+      "kr" : {
+         "index" : 9,
+         "key" : "kr",
+         "label" : "韓國",
+         "lang_tag" : "ko-KR",
+         "short_label" : "韓"
+      },
+      "tw" : {
+         "index" : 4,
+         "key" : "tw",
+         "label" : "臺灣",
+         "lang_tag" : "zh-TW",
+         "short_label" : "臺"
+      }
+   },
+   "min_unmergeable_weight" : 400,
+   "rel_types" : {
+      "1to1:cjkvi:cjkvi/numeric" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:cjkvi/pseudo-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:cjkvi/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:cjkvi/variant-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:dypytz/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:dypytz/variant/1956" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:dypytz/variant/1986" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:dypytz/variant/1988" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:dypytz/variant/1993" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:dypytz/variant/1997" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:hydzd/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:hyogai/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:jinmei1/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:jinmei2/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:joyo/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:jp-old-style" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:jp-old-style:comment" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:jp-old-style:compatibility" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:jp/borrowed" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:cjkvi:jp/borrowed:拡張新字体" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unihan:kSimplifiedVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "adobe:cns11643" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:cns11643:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:expt" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:jis78" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:jisx0212" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:jisx0213:2000" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:jisx0213:2004" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:jp04" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:jp78" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:jp83" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:jp90" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:trad" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "adobe:uni" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:uni:2004" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:uni:2004:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:uni:pro" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:uni:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:uni:x0213" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:uni:x02132004" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:uni:x02132004:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:uni:x0213:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "adobe:vs" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "cjkvi:cjkvi/duplicate" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "cjkvi:cjkvi/non-cognate" : {
+         "mergeable_weight" : 400,
+         "weight" : 100
+      },
+      "cjkvi:cjkvi/numeric" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:cjkvi/pseudo-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:cjkvi/radical-split" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/radical-variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/radical-variant-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/radical-variant-simplified:left" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/radical-variant:bottom" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/radical-variant:left" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/radical-variant:partial" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/radical-variant:right" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/radical-variant:top" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:cjkvi/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:cjkvi/traditional" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:cjkvi/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "cjkvi:cjkvi/variant-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:dypytz/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:dypytz/variant/1956" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:dypytz/variant/1986" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:dypytz/variant/1988" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:dypytz/variant/1993" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:dypytz/variant/1997" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:hydcd/borrowed" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "cjkvi:hydzd/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:hydzd/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "cjkvi:hyogai/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jinmei1/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jinmei2/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jisx0212/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:jisx0213/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "cjkvi:joyo/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jp-old-style" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jp-old-style:comment" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jp-old-style:compatibility" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jp/borrowed" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jp/borrowed:拡張新字体" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "cjkvi:jp/borrowed:文脈依存" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "cjkvi:jp/borrowed:文脈依存・拡張新字体" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "cjkvi:koseki/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "cjkvi:non-cjk/bopomofo" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "cjkvi:non-cjk/bracketed" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "cjkvi:non-cjk/circle" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "cjkvi:non-cjk/hangzhou-num" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "cjkvi:non-cjk/kanbun" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "cjkvi:non-cjk/kangxi" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "cjkvi:non-cjk/katakana" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "cjkvi:non-cjk/parenthesized" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "cjkvi:non-cjk/radical" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "cjkvi:non-cjk/square" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "cjkvi:non-cjk/strokes" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "cjkvi:sawndip/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "cjkvi:twedu/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "cjkvi:ucs-scs/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "cjkvi:variants" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "cjkvi:x0213-x0212/variants" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "cjkvi:x0213-x0212/variants:JIS-X-0213:2004" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "cns:unicode" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "fwhw:normalize" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "fwhw:strict_normalize" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "irc:ascii-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "irc:rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "irc:strict-rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "ivd:base" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "ivd:duplicate" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "kana:h2k" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "kana:k2h" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "kana:large" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "kana:normalize" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "kana:small" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "manakai:alt" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "manakai:differentiated" : {
+         "mergeable_weight" : 400,
+         "weight" : -1
+      },
+      "manakai:equivalent" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "manakai:inset" : {
+         "mergeable_weight" : 400,
+         "weight" : -1
+      },
+      "manakai:inset:cn" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:cn:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:hk" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:hk:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:jp" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:jp2" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:jp2:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:jp:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:original" : {
+         "mergeable_weight" : 400,
+         "weight" : -1
+      },
+      "manakai:inset:tw" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:inset:tw:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:private" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "manakai:related" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "manakai:same" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "manakai:taboo" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "manakai:unified" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "manakai:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "manakai:variant:conflicted" : {
+         "mergeable_weight" : 400,
+         "weight" : 400
+      },
+      "manakai:variant:jpnewstyle" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "manakai:variant:simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "manakai:variant:simplifiedconflicted" : {
+         "mergeable_weight" : 400,
+         "weight" : 400
+      },
+      "manakai:variant:taboo" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "manakai:variant:wu" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "mj:JIS包摂規準・UCS統合規則" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:X0212" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:X0213" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:X0213:2" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:住基ネット統一文字コード" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:入管外字コード" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:入管正字コード" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:実装したMoji_JohoコレクションIVS" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "mj:実装したSVS" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "mj:実装したUCS" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:対応するUCS" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "mj:対応する互換漢字" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "mj:戸籍統一文字:同一" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "mj:新しいMJ文字図形名" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "mj:法務省告示582号別表第四:一:第1順位" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "mj:法務省告示582号別表第四:一:第2順位" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "mj:法務省告示582号別表第四:二:第1順位" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "mj:法務省告示582号別表第四:二:第2順位" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:2" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:3" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:4" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:5" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "mj:法務省戸籍法関連通達・通知:民一2842号通達別表 誤字俗字・正字一覧表" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "mj:法務省戸籍法関連通達・通知:民二5202号通知別表 正字・俗字等対照表" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "mj:読み・字形による類推" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "mj:辞書類等による関連字" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "nto1:cjkvi:cjkvi/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "nto1:unihan:kSimplifiedVariant" : {
+         "mergeable_weight" : 400,
+         "weight" : -1
+      },
+      "opentype:aalt" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:afrc" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:calt:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:ccmp" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:ccmp:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:dlig" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:dnom" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:expt" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:frac" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:frac:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:fwid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:hkna" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:hngl" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:hojo" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:hwid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:ital" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:jp04" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:jp78" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:jp83" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:liga" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:ljmo:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:locl" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:nalt" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:nlck" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:numr" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:pkna" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:pwid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:qwid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:ruby" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:sinf" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:subs" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:sups" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "opentype:tjmo:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:trad" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:twid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:vert" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:vjmo:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "opentype:vkna" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:vrt2" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "opentype:zero" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "rev:adobe:cns11643" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:cns11643:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:expt" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:jis78" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:jisx0212" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:jisx0213:2000" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:jisx0213:2004" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:jp04" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:jp78" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:jp83" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:jp90" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:trad" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:adobe:uni" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:uni:2004" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:uni:2004:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:uni:pro" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:uni:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:uni:x0213" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:uni:x02132004" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:uni:x02132004:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:uni:x0213:v" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:adobe:vs" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:cjkvi:cjkvi/duplicate" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:cjkvi:cjkvi/non-cognate" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/numeric" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/pseudo-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-split" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-variant-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-variant-simplified:left" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-variant:bottom" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-variant:left" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-variant:partial" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-variant:right" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/radical-variant:top" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/traditional" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:cjkvi/variant-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:dypytz/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:dypytz/variant/1956" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:dypytz/variant/1986" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:dypytz/variant/1988" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:dypytz/variant/1993" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:dypytz/variant/1997" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:hydcd/borrowed" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:hydzd/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:hydzd/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:hyogai/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jinmei1/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jinmei2/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jisx0212/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jisx0213/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:joyo/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jp-old-style" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jp-old-style:comment" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jp-old-style:compatibility" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jp/borrowed" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jp/borrowed:拡張新字体" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jp/borrowed:文脈依存" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:jp/borrowed:文脈依存・拡張新字体" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:koseki/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:non-cjk/bopomofo" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "rev:cjkvi:non-cjk/bracketed" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "rev:cjkvi:non-cjk/circle" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "rev:cjkvi:non-cjk/hangzhou-num" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:cjkvi:non-cjk/kanbun" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:cjkvi:non-cjk/kangxi" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:cjkvi:non-cjk/katakana" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "rev:cjkvi:non-cjk/parenthesized" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "rev:cjkvi:non-cjk/radical" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:cjkvi:non-cjk/square" : {
+         "mergeable_weight" : 700,
+         "weight" : -404
+      },
+      "rev:cjkvi:non-cjk/strokes" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:cjkvi:sawndip/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:twedu/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:ucs-scs/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:cjkvi:variants" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:x0213-x0212/variants" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cjkvi:x0213-x0212/variants:JIS-X-0213:2004" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:cns:unicode" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:fwhw:normalize" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:fwhw:strict_normalize" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:irc:ascii-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:irc:rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:irc:strict-rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ivd:base" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:ivd:duplicate" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:kana:h2k" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:kana:k2h" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:kana:large" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:kana:normalize" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:kana:small" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:alt" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:differentiated" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:equivalent" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:inset:original" : {
+         "mergeable_weight" : 400,
+         "weight" : -1
+      },
+      "rev:manakai:private" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:related" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:same" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:manakai:taboo" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:unified" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:manakai:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:variant:conflicted" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:variant:jpnewstyle" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:variant:simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:variant:simplifiedconflicted" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:variant:taboo" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:variant:wu" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:JIS包摂規準・UCS統合規則" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:X0212" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:X0213" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:X0213:2" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:住基ネット統一文字コード" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:入管外字コード" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:入管正字コード" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:実装したMoji_JohoコレクションIVS" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:mj:実装したSVS" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:mj:実装したUCS" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:対応するUCS" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:mj:対応する互換漢字" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:mj:戸籍統一文字:同一" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:mj:新しいMJ文字図形名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省告示582号別表第四:一:第1順位" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省告示582号別表第四:一:第2順位" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省告示582号別表第四:二:第1順位" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省告示582号別表第四:二:第2順位" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:2" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:3" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:4" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:5" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省戸籍法関連通達・通知:民一2842号通達別表 誤字俗字・正字一覧表" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:法務省戸籍法関連通達・通知:民二5202号通知別表 正字・俗字等対照表" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:読み・字形による類推" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:辞書類等による関連字" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:aalt" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:afrc" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:calt:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:ccmp" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:ccmp:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:dlig" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:dnom" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:expt" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:frac" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:frac:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:fwid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:hkna" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:hngl" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:hojo" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:hwid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:ital" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:jp04" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:jp78" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:jp83" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:liga" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:ljmo:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:locl" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:nalt" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:nlck" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:numr" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:pkna" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:pwid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:qwid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:ruby" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:sinf" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:subs" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:sups" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:tjmo:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:trad" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:twid" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:vert" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:vjmo:contextual" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:opentype:vkna" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:vrt2" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:opentype:zero" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:rfc3454:B.2" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:rfc3454:B.3" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:rfc5051:titlecase-canonical" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:Equivalent_Unified_Ideograph" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:ucd:names:confused" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:discouraged" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:lc" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:lc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:obsoleted" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:preferred" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:preferred-some" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:prefers-some" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:related" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:transliterated" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:uc" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:uc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ucd:names:x" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode5.1:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:Bidi_Paired_Bracket" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:Case_Folding" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:Lowercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:NFKC_Casefold" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:Titlecase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:Uppercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:canon_composition" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unicode:canon_decomposition" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unicode:canonical-decomposition" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unicode:compat_decomposition" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:security:confusable" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:security:intentional" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unicode:svs" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unicode:svs:cjk" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:unicode:svs:obsolete" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kCNS1986" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kCNS1992" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kGB0" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kGB1" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kGB3" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kGB5" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kGB8" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kIRG_GSource:0" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kIRG_GSource:1" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kIRG_GSource:3" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kIRG_GSource:5" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kIRG_GSource:8" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kIRG_TSource" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan3.0:kPseudoGB1" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:hkglyph" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unihan:kIRG_GSource:0" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:kIRG_GSource:1" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:kIRG_GSource:3" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:kIRG_GSource:5" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:kIRG_GSource:8" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:kIRG_KSource" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:kSemanticVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unihan:kSimplifiedVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unihan:kSpecializedSemanticVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unihan:kSpoofingVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unihan:kTraditionalVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:unihan:kZVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:koreanname:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:uts46:mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rfc3454:B.2" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "rfc3454:B.3" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "rfc5051:titlecase-canonical" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "to1:cjkvi:cjkvi/numeric" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:cjkvi/pseudo-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:cjkvi/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:cjkvi/traditional" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:cjkvi/variant-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:dypytz/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:dypytz/variant/1956" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:dypytz/variant/1986" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:dypytz/variant/1988" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:dypytz/variant/1993" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:dypytz/variant/1997" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:hydzd/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:hyogai/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:jinmei1/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:jinmei2/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:joyo/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:jp-old-style" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:jp-old-style:comment" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:jp-old-style:compatibility" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:jp/borrowed" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:cjkvi:jp/borrowed:拡張新字体" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:cjkvi/numeric" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:cjkvi/pseudo-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:cjkvi/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:cjkvi/traditional" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:cjkvi/variant-simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:dypytz/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:dypytz/variant/1956" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:dypytz/variant/1986" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:dypytz/variant/1988" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:dypytz/variant/1993" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:dypytz/variant/1997" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:hydzd/simplified" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:hyogai/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:jinmei1/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:jinmei2/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:joyo/variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:jp-old-style" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:jp-old-style:comment" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:jp-old-style:compatibility" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:jp/borrowed" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:cjkvi:jp/borrowed:拡張新字体" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unihan:kSimplifiedVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unihan:kTraditionalVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unihan:kSimplifiedVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unihan:kTraditionalVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "ucd:Equivalent_Unified_Ideograph" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "ucd:names:confused" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "ucd:names:discouraged" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "ucd:names:lc" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "ucd:names:lc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "ucd:names:obsoleted" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "ucd:names:preferred" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "ucd:names:preferred-some" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "ucd:names:prefers-some" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "ucd:names:related" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "ucd:names:transliterated" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "ucd:names:uc" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "ucd:names:uc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "ucd:names:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "ucd:names:x" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "unicode5.1:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:Bidi_Paired_Bracket" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "unicode:Case_Folding" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:Lowercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:NFKC_Casefold" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:Titlecase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:Uppercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:canon_composition" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unicode:canon_decomposition" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unicode:canonical-decomposition" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unicode:compat_decomposition" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unicode:security:confusable" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "unicode:security:intentional" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "unicode:svs" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unicode:svs:cjk" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "unicode:svs:obsolete" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kCNS1986" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kCNS1992" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kGB0" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kGB1" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kGB3" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kGB5" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kGB8" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kIRG_GSource:0" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kIRG_GSource:1" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kIRG_GSource:3" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kIRG_GSource:5" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kIRG_GSource:8" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kIRG_TSource" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan3.0:kPseudoGB1" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:hkglyph" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "unihan:kIRG_GSource:0" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:kIRG_GSource:1" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:kIRG_GSource:3" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:kIRG_GSource:5" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:kIRG_GSource:8" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:kIRG_KSource" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:kSemanticVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      },
+      "unihan:kSimplifiedVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "unihan:kSpecializedSemanticVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 200
+      },
+      "unihan:kSpoofingVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 100
+      },
+      "unihan:kTraditionalVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "unihan:kZVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:koreanname:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "uts46:mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 300
+      }
+   }
+}

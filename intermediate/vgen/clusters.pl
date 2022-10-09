@@ -37,18 +37,24 @@ sub merge ($$$$) {
 my $Data = {};
 
 my $Merged;
+my $MergedChars;
+my $MergedSets;
+my $Rels = {};
 {
-  my $path = $DataPath->child ('merged-misc.json');
+  my $path = $DataPath->child ('merged-index.json');
   $Merged = json_bytes2perl $path->slurp;
 }
 {
   my $path = $DataPath->child ('merged-chars.json');
-  $Merged->{chars} = json_bytes2perl $path->slurp;
+  $MergedChars = json_bytes2perl $path->slurp;
 }
-my $Rels = {};
+{
+  my $path = $DataPath->child ('merged-sets.json');
+  $MergedSets = json_bytes2perl $path->slurp;
+}
 {
   my $path = $DataPath->child ('merged-rels.jsonll');
-  print STDERR "\r|$path|...";
+  print STDERR "\rLoading |$path|... ";
   my $file = $path->openr;
   local $/ = "\x0A\x0A";
   while (<$file>) {
@@ -58,10 +64,14 @@ my $Rels = {};
   }
 }
 
-$Data->{cluster_levels} = $Merged->{cluster_levels};
-my $Levels = json_chars2perl perl2json_chars $Merged->{cluster_levels};
-for (@$Levels) {
-  $_->{unmergeable} = $_->{min_weight} <= $Merged->{min_unmergeable_weight} ? sub { 0 } : \&unmergeable;
+my $Levels = [];
+{
+  for my $level (values %{$Merged->{cluster_levels}}) {
+    $Levels->[$level->{index}] = $level;
+    $Levels->[$level->{index}]->{unmergeable} =
+        $level->{min_weight} <= $Merged->{min_unmergeable_weight}
+        ? sub { 0 } : \&unmergeable;
+  } # $level
 }
 
 {
@@ -89,7 +99,7 @@ for (@$Levels) {
     }
     return 0 if $weight <= $Merged->{inset_mergeable_weight};
     for my $set_key (@{$Merged->{inset_keys}}) {
-      my $set = $Merged->{sets}->{$set_key};
+      my $set = $MergedSets->{$set_key};
       for my $c1 (sort { $a cmp $b } keys %{$cluster1->{chars}}) {
         next unless $set->{$c1};
         for my $c2 (sort { $a cmp $b } keys %{$cluster2->{chars}}) {
@@ -205,7 +215,7 @@ sub sort_clusters ($) {
 } # sort_clusters
 
 {
-  my $path = $DataPath->child ('clusters-0.jsonl');
+  my $path = $DataPath->child ('cluster-temp.jsonl');
   my $file = $path->openw;
 
   sub write_cluster ($$) {
@@ -222,7 +232,7 @@ my $clusters = [];
 my $cluster_to_rel = {};
 {
   my $char_to_cluster = {};
-  for my $c (sort { $a cmp $b } keys %{delete $Merged->{chars}}) {
+  for my $c (sort { $a cmp $b } keys %$MergedChars) {
     my $cluster = {
       chars => {$c => 1},
       sort_key => $c,
@@ -230,6 +240,7 @@ my $cluster_to_rel = {};
     $char_to_cluster->{$c} = $cluster;
     push @$clusters, $cluster;
   }
+  undef $MergedChars;
   for my $c (keys %$char_to_cluster) {
     my $cluster = $char_to_cluster->{$c};
     my $rels = $cluster_to_rel->{$cluster} = [];
@@ -239,73 +250,24 @@ my $cluster_to_rel = {};
   }
 }
 for my $level (@$Levels) {
-  print STDERR "\r$level->{label}...";
+  print STDERR qq{\rProcessing |$level->{key}|... };
   my $r = construct_clusters $clusters, $cluster_to_rel,
       $level->{min_weight}, $level->{unmergeable};
   $clusters = $r->{clusters};
   $cluster_to_rel = $r->{cluster_to_rel};
   $clusters = sort_clusters $clusters;
-  my $level_index = @$Levels - $level->{index};
+  my $level_index = $level->{index};
   for my $cluster (@$clusters) {
     write_cluster $level_index, $cluster;
   }
 }
 
 {
-  my $i = 1;
-  #0: all
-  for my $key (qw(cn cn_complex hk tw jp jp_new jp_h22 jp_old kr)) {
-    $Data->{leader_types}->{$key}->{index} = $i++;
-    $Data->{leader_types}->{$key}->{key} = $key;
-    
-    use utf8;
-    $Data->{leader_types}->{$key}->{short_label} = {
-      cn => '简',
-      cn_complex => '繁',
-      hk => '港',
-      tw => '臺',
-      jp => '日',
-      jp_new => '新',
-      jp_h22 => '平成',
-      jp_old => '旧',
-      kr => '韓',
-    }->{$key} // die $key;
-    $Data->{leader_types}->{$key}->{label} = {
-      cn => '大陆(简体)',
-      cn_complex => '大陸(繁體)',
-      hk => '香港',
-      tw => '臺灣',
-      jp => '日本',
-      jp_new => '日本(新字体)',
-      jp_h22 => '日本(平成22年)',
-      jp_old => '日本(舊字體)',
-      kr => '韓國',
-    }->{$key} // die $key;
-
-    $Data->{leader_types}->{$key}->{lang_tag} = {
-      cn => 'zh-CN',
-      cn_complex => 'zh-CN',
-      hk => 'zh-HK',
-      tw => 'zh-TW',
-      jp => 'ja',
-      jp_new => 'ja',
-      jp_h22 => 'ja',
-      jp_old => 'ja',
-      kr => 'ko-KR',
-    }->{$key} // die $key;
-  }
-}
-
-$Data->{rel_types} = $Merged->{rel_types};
-
-{
-  my $path = $DataPath->child ('cluster-root.json');
-  print STDERR "\rWrite |$path|...";
+  my $path = $DataPath->child ('cluster-index.json');
+  print STDERR "\rWriting[1/1] |$path|... ";
   $path->spew (perl2json_bytes_for_record $Data);
 }
-print STDERR "\n";
 
-printf STDERR "Done (%d s)\n",
-    time - $StartTime;
+printf STDERR "\rDone (%d s) \n", time - $StartTime;
 
 ## License: Public Domain.

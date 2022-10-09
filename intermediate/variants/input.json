@@ -59,5 +59,61 @@
         "jinmei_h9": "jp2"
       }
     }
+  ],
+  "leader_types": [
+    {
+      "key": "cn",
+      "short_label": "简",
+      "label": "大陆(简体)",
+      "lang_tag": "zh-CN"
+    },
+    {
+      "key": "cn_complex",
+      "short_label": "繁",
+      "label": "大陸(繁體)",
+      "lang_tag": "zh-CN"
+    },
+    {
+      "key": "hk",
+      "short_label": "港",
+      "label": "香港",
+      "lang_tag": "zh-HK"
+    },
+    {
+      "key": "tw",
+      "short_label": "臺",
+      "label": "臺灣",
+      "lang_tag": "zh-TW"
+    },
+    {
+      "key": "jp",
+      "short_label": "日",
+      "label": "日本",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_new",
+      "short_label": "新",
+      "label": "日本(新字体)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_h22",
+      "short_label": "平成",
+      "label": "日本(平成22年)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_old",
+      "short_label": "旧",
+      "label": "日本(舊字體)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "kr",
+      "short_label": "韓",
+      "label": "韓國",
+      "lang_tag": "ko-KR"
+    }
   ]
 }

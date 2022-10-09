@@ -9,13 +9,10 @@ VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: build-vgen \
-    cluster-props-*.txt \
-    char-leaders.jsonl char-leaders-part-*.jsonl
+all: build-vgen
 
 build-nightly: build-vgen-nightly
-build-pages: build-vgen-pages \
-    cluster-chars-*.txt cluster-props-*.txt
+build-pages: build-vgen-pages
 
 VGEN_MERGED_INPUTS = input.json \
     ../unicode/variants.json \
@@ -27,15 +24,8 @@ VGEN_MERGED_INPUTS = input.json \
     ../wikimedia/variants.json \
     ../misc/variants.json
 
-merged-misc.json \
-cluster-root.json char-leaders.jsonl \
 build-vgen build-vgen-nightly build-vgen-pages test perl-test:: %:
 	$(MAKE) -f $(VGEN_PATH)/Makefile.vgen $@ \
 	    VGEN_MERGED_INPUTS="$(VGEN_MERGED_INPUTS)"
-
-char-leaders-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
-    char-leaders.jsonl
-	$(PERL) $< char-leaders
-char-leaders-part-*.jsonl: char-leaders-part-0.jsonl
 
 ## License: Public Domain.

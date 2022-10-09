@@ -624,10 +624,8 @@ data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
 
 build-nightly: build-nigjhtly-iu1 build-nightly-iu2
-	cd view/variants && $(MAKE) build-nightly
 
 build-github-pages: build-pages-iu
-	cd view/variants && $(MAKE) build-pages
 	rm -fr ./bin/ ./modules/ ./t_deps/
 
 build-nightly-iu1: data/maps.json

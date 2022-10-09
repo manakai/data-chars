@@ -6,7 +6,6 @@ use JSON::PS;
 my $ThisPath = path (__FILE__)->parent;
 my $DataPath = path ('.');
 my $StartTime = time;
-my $Data = {};
 
 my $Input;
 {
@@ -14,23 +13,29 @@ my $Input;
   $Input = json_bytes2perl $path->slurp;
 }
 
+my $Data = {};
+my $Sets = {};
 my $Rels = {};
 
-$Data->{cluster_levels} = [
-  {key => 'SAME', label => 'Same', min_weight => 700},
-  {key => 'UNIFIED', label => 'Unified', min_weight => 600},
-  {key => 'EQUIV', label => 'Equivalent', min_weight => 500},
-  {key => 'COVERED', label => 'Covered', min_weight => 400},
-  {key => 'OVERLAP', label => 'Overlapping', min_weight => 300},
-  {key => 'RELATED', label => 'Related', min_weight => 200},
-  {key => 'LINKED', label => 'Linked', min_weight => 100},
-];
-for (0..$#{$Data->{cluster_levels}}) {
-  $Data->{cluster_levels}->[$_]->{index} = $_ + 1;
+{
+  my $levels = [
+    {key => 'SAME', label => 'Same', min_weight => 700},
+    {key => 'UNIFIED', label => 'Unified', min_weight => 600},
+    {key => 'EQUIV', label => 'Equivalent', min_weight => 500},
+    {key => 'COVERED', label => 'Covered', min_weight => 400},
+    {key => 'OVERLAP', label => 'Overlapping', min_weight => 300},
+    {key => 'RELATED', label => 'Related', min_weight => 200},
+    {key => 'LINKED', label => 'Linked', min_weight => 100},
+  ];
+  my $i = 0;
+  for my $level (@$levels) {
+    $Data->{cluster_levels}->{$level->{key}} = $level;
+    $level->{index} = $i++;
+  }
 }
 {
   my $w = {};
-  $w->{$_->{key}} = $_->{min_weight} for @{$Data->{cluster_levels}};
+  $w->{$_->{key}} = $_->{min_weight} for values %{$Data->{cluster_levels}};
   sub W ($) { $w->{$_[0]} // die $_[0] }
 }
 
@@ -475,7 +480,7 @@ for (
 ) {
   my ($x, $rels_key, $setmap, $mvmap) = @$_;
   my $path = $DataPath->child ($x);
-  print STDERR "\r$path...";
+  print STDERR "\rLoading |$path|... ";
   my $json = json_bytes2perl $path->slurp;
   for my $c1 (keys %{$json->{$rels_key}}) {
     for my $c2 (keys %{$json->{$rels_key}->{$c1}}) {
@@ -500,7 +505,7 @@ for (
   }
   for my $set_key (keys %$setmap) {
     for my $c (keys %{$json->{sets}->{$set_key}}) {
-      $Data->{sets}->{$setmap->{$set_key}}->{$c} = 1;
+      $Sets->{$setmap->{$set_key}}->{$c} = 1;
     }
   }
 }
@@ -567,7 +572,6 @@ for (@$PairedTypes) {
   }
 }
 
-my $HasUnmergeable = {};
 {
   printf STDERR "\rRels (%d)...", 0+keys %$Rels;
   my $UnweightedTypes = {};
@@ -584,10 +588,6 @@ my $HasUnmergeable = {};
       $types->{_u} = [sort { $a <=> $b } map {
         $TypeMergeableWeight->{$_} || W 'SAME';
       } keys %$types]->[0];
-      if ($types->{_u} != W 'SAME') {
-        $HasUnmergeable->{$c1} = 1;
-        $HasUnmergeable->{$c2} = 1;
-      }
     }
   }
 
@@ -602,14 +602,14 @@ my $HasUnmergeable = {};
     manakai:variant:jpnewstyle
   )) {
     for my $c1 (keys %{$HasRelTos->{$vtype}}) {
-      $Data->{sets}->{"to:$vtype"}->{$c1} = 1;
+      $Sets->{"to:$vtype"}->{$c1} = 1;
     }
   }
   for my $vtype (qw(
     cjkvi:jp-old-style
   )) {
     for my $c1 (keys %{$HasRels->{$vtype}}) {
-      $Data->{sets}->{"from:$vtype"}->{$c1} = 1;
+      $Sets->{"from:$vtype"}->{$c1} = 1;
     }
   }
 }
@@ -620,10 +620,44 @@ for (keys %$TypeWeight) {
 }
 
 {
-  my $c1s = [sort { $a cmp $b } keys %$Rels];
-  print STDERR "\rWrite[1]...";
+  my $i = 1;
+  #0: all
+  $Data->{leader_types} = {};
+  for my $in (@{$Input->{leader_types} || []}) {
+    my $key = $in->{key} // die;
+    my $lt = $Data->{leader_types}->{$key} ||= {};
+    $lt->{key} = $key;
+    $lt->{index} = $i++;
+    $lt->{short_label} = $in->{short_label} // $in->{label} // die;
+    $lt->{label} = $in->{label} // die;
+    $lt->{lang_tag} = $in->{lang_tag} // die;
+  }
+}
+
+{
+  my $path = $DataPath->child ('merged-index.json');
+  print STDERR "\rWriting[1/4] |$path|... ";
+  $path->spew (perl2json_bytes_for_record $Data);
+}
+{
+  my $path = $DataPath->child ('merged-chars.json');
+  print STDERR "\rWriting[2/4] |$path|... ";
+  my $chars = {};
+  for (keys %$Rels) {
+    $chars->{$_} = 1;
+  }
+  $path->spew (perl2json_bytes_for_record $chars);
+}
+{
+  my $path = $DataPath->child ('merged-sets.json');
+  print STDERR "\rWriting[3/4] |$path|... ";
+  $path->spew (perl2json_bytes_for_record $Sets);
+}
+{
   my $path = $DataPath->child ("merged-rels.jsonll");
+  print STDERR "\rWriting[4/4] |$path|... ";
   my $file = $path->openw;
+  my $c1s = [sort { $a cmp $b } keys %$Rels];
   for my $c1 (@$c1s) {
     print $file perl2json_bytes_for_record $c1; # trailing \x0A
     print $file "\x0A";
@@ -631,22 +665,7 @@ for (keys %$TypeWeight) {
     print $file "\x0A";
   }
 }
-{
-  print STDERR "\rWrite[2]...";
-  my $path = $DataPath->child ('merged-misc.json');
-  $path->spew (perl2json_bytes_for_record $Data);
-}
-{
-  print STDERR "\rWrite[3]...";
-  my $path = $DataPath->child ('merged-chars.json');
-  my $chars = {};
-  for (keys %$Rels) {
-    my $x = $chars->{$_} = {};
-    $x->{has_unmergeable} = 1 if $HasUnmergeable->{$_};
-  }
-  $path->spew (perl2json_bytes_for_record $chars);
-}
 
-printf STDERR "Done (%d s)", time - $StartTime;
+printf STDERR "\rDone (%d s) \n", time - $StartTime;
 
 ## License: Public Domain.

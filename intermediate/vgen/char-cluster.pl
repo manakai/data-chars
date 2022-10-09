@@ -7,28 +7,11 @@ my $ThisPath = path (__FILE__)->parent;
 my $DataPath = path ('.');
 my $StartTime = time;
 
-my $Data;
-{
-  my $path = $DataPath->child ('cluster-root.json');
-  $Data = json_bytes2perl $path->slurp;
-}
-my $DataChars = [];
-{
-    my $path = $DataPath->child ("cluster-chars.jsonll");
-    print STDERR "\r|$path|...";
-    my $file = $path->openr;
-    local $/ = "\x0A\x0A";
-    while (<$file>) {
-      push @$DataChars, json_bytes2perl $_;
-    }
-}
-
 my $CharClusterIndex;
 {
-  last unless $ENV{CCI};
   $CharClusterIndex = {};
-  my $path = $DataPath->child ('char-cluster-index.jsonl');
-  print STDERR "\r|$path|...";
+  my $path = $DataPath->child ('merged-char-index.jsonl');
+  print STDERR "\r|$path|... ";
   my $file = $path->openr;
   local $/ = "\x0A";
   my $i = 0;
@@ -41,10 +24,10 @@ my $CharClusterIndex;
 }
 
 sub cci ($) {
-  my $cluster = $_[0];
+  my $chars = $_[0];
 
   my $ci = 0+"Inf";
-  for my $c (keys %{$cluster->{chars}}) {
+  for my $c (@$chars) {
     my $v = $CharClusterIndex->{$c};
     $ci = $v if $v < $ci;
   }
@@ -52,34 +35,27 @@ sub cci ($) {
   return $ci;
 } # cci
 
-print STDERR "\rRun... ";
-my $List = [];
-my $run; $run = sub ($$) {
-  my ($indexes, $prefix) = @_;
-
-  for my $cluster (map { $DataChars->[$_] } @$indexes) {
-    my $ci = $cluster->{index};
-    $ci = cci $cluster if defined $CharClusterIndex;
-    my $cis = [@$prefix, $ci];
-    if (defined $cluster->{cluster_indexes}) {
-      $run->($cluster->{cluster_indexes}, $cis);
-    } else {
-      for my $c (keys %{$cluster->{chars}}) {
-        push @$List, [$c, $cis];
-      }
+my $Data = {};
+{
+  my $path = $DataPath->child ("cluster-temp.jsonl");
+  print STDERR "\rLoading |$path|... ";
+  my $file = $path->openr;
+  local $/ = "\x0A";
+  while (<$file>) {
+    my $v = json_bytes2perl $_; # level index, [char]
+    my $cluster_index = cci $v->[1];
+    for my $c (@{$v->[1]}) {
+      $Data->{$c}->[$v->[0]] = $cluster_index;
     }
   }
-}; # $run
-$run->($Data->{cluster_indexes}, []);
-
-print STDERR "\rWrite...";
-$List = [sort { $a->[0] cmp $b->[0] } @$List];
-{
-  for (@$List) {
-    print perl2json_bytes $_;
-    print "\x0A";
-  }
 }
-printf STDERR "Done (%s) \n", time - $StartTime;
+
+print STDERR "\rWriting [1/1]... ";
+for my $c (sort { $a cmp $b } keys %$Data) {
+  print perl2json_bytes [$c, $Data->{$c}];
+  print "\x0A";
+}
+
+printf STDERR "\rDone (%s s) \n", time - $StartTime;
 
 ## License: Public Domain.

@@ -17,9 +17,9 @@ sub ue ($) {
 
 my $Levels = {};
 {
-  my $path = $DataPath->child ('cluster-root.json');
+  my $path = $DataPath->child ('merged-index.json');
   my $json = json_bytes2perl $path->slurp;
-  for (@{$json->{cluster_levels}}) {
+  for (values %{$json->{cluster_levels}}) {
     $Levels->{$_->{key}} = $_;
   }
 }

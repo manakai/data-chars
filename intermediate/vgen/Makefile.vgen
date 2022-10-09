@@ -17,112 +17,100 @@ build-vgen-nightly: build-vgen
 
 build-vgen-pages: build-vgen
 
-build-vgen: merged-misc.json merged-rels.jsonll \
-    cluster-root.json \
-  clusters-1.jsonl char-leaders.jsonl \
-    char-cluster.jsonl char-cluster-indexed.jsonl \
-    char-cluster-indexed-part-0.jsonl \
+build-vgen: \
+    merged-index.json \
+    cluster-index.json char-cluster-part-0.jsonl char-leaders-part-0.jsonl \
     testdata.json \
-    build-vgen-tbls
+    tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz
 
 ##        +-- relations & sets source json files
-##        +-- input.json
+##        +-- input.json               list of source files
 ##        | 
-##        &     merged.pl
-##    +--++-> merged-rels.jsonll   [not in repo] list of relations
-##   +|--++-> merged-misc.json     [not in repo] defs and sets
-##   ||+-++-> merged-chars.json    [not in repo] list of characters
-##   ||| |
-##   ||| &      clusters.pl
-## +-+||++--> cluster-chars-*.txt  [not in repo]
-## +-||||+--> cluster-rels-*.jsonl [not in repo]
-## ++|+|++--> cluster-root.json
-## ||||||
-## ||&|||       cluster-props.pl
-## +++|||---> cluster-props-*.txt  [not in repo]
+##        &->    merged.pl             Generate merged set of inputs
+## ++-++-+--- merged-index.json        defs
+## || || ++-- merged-chars.json        [not in repo] characters
+## || |+-+--- merged-sets.json         [not in repo] character sets
+## || +--+--- merged-rels.jsonll       [not in repo] character relations
+## || || ||
+## || || |&->    merged-char-index.pl  Generate character indexes
+## || ||+---- merged-char-index.jsonl  [not in repo] character indexes
+## || ||||
+## || |||&-->    clusters.pl           Clusterize
+## || +|----- cluster-index.json       additional character relations
+## || |++---- cluster-temp.jsonl       [not in repo] cluster dumps
 ## || |||
-## || ||&       char-cluster.pl
-## |+-||+---> char-cluster.jsonl   [not in repo]
-## || |||
-## || |&|       char-cluster-index.pl
-## || |+----> char-cluster-index.jsonl [not in repo]
-## || |||
-## || |&&       CCI=1 char-cluster.pl
-## || +++---> char-cluster-indexed.jsonl   [not in repo]
+## || ||&--->    char-cluster.pl       Generate char-cluster mapping
+## |+-+|----- char-cluster.jsonl       [not in repo] char-cluster mapping
+## || ||         & split-jsonl.pl
+## || ||             char-cluster-part-*.jsonl
+## || ||
+## || |&---->    char-leaders.pl       Generate char-leader mapping
+## || | ----- char-leaders.jsonl       [not in repo] char-leader mapping
 ## || |          & split-jsonl.pl
-## || |          +-> char-cluster-indexed-part-*.jsonl
+## || |              char-leaders-part-*.jsonl
 ## || |
-## |& |         char-leaders.pl
-## |+-|-----> char-leaders.jsonl
-## |  |          & split-jsonl.pl
-## |  |          +-> char-leaders-part-*.jsonl
-## |  |
-## |  &         tbl.pl
-## |  +-----> tbl-root.json    [not in repo]
-## |  +-----> tbl-clusters.dat [not in repo]
-## |  +-----> tbl-rels.dat     [not in repo]
-## |
-## &            view/variants/generate.pl
-## +--------> list*            [not in repo]
+## || &          tbl.pl                Generate wire tables
+## ||         tbl-index.json           [not in repo] index of tables
+## ||         tbl-clusters.dat         [not in repo] character clusters
+## ||         tbl-rels.dat             [not in repo] character relations
+## ||
+## +--------- tests.txt                Test data source
+## &|            testdata.pl           Generate test data set
+##  +-------- testdata.json            Test data set
+##  |
+##  &            test.pl               Test runner
+##  
 
 VGEN_MERGED_INPUTS =
 
-merged-rels.jsonll merged-chars.json merged-misc.json:: \
+merged-index.json merged-sets.json merged-chars.json merged-rels.jsonll:: \
 %: $(VGEN_PATH)/merged.pl $(VGEN_MERGED_INPUTS)
 	$(PERL) $<
 
-merged-rels-part-0.jsonll: $(VGEN_PATH)/split-jsonl.pl \
-    merged-rels.jsonll
-	$(PERL) $< merged-rels
-merged-rels-part-*.jsonll: merged-rels-part-0.jsonll
-
-cluster-root.json: $(VGEN_PATH)/clusters.pl merged-misc.json \
-    merged-rels.jsonll merged-chars.json
-	$(PERL) $<
-cluster-chars-*.txt: cluster-root.json
-cluster-rels-*.jsonl: cluster-root.json
-clusters-0.jsonl: cluster-root.json
-
-clusters-1.jsonl: $(VGEN_PATH)/cc.pl clusters-0.jsonl char-cluster-index.jsonl
-	$(PERL) $< > $@
-
-char-leaders.jsonl: $(VGEN_PATH)/char-leaders.pl \
-    merged-misc.json clusters-1.jsonl
-	$(PERL) $< > $@
-
-char-cluster.jsonl: $(VGEN_PATH)/char-cluster.pl cluster-root.json \
-    cluster-chars-*.txt
-	$(PERL) $< > $@
-
-char-cluster-index.jsonl: $(VGEN_PATH)/char-cluster-index.pl \
+merged-char-index.jsonl: $(VGEN_PATH)/merged-char-index.pl \
     merged-chars.json
 	$(PERL) $< > $@
-char-cluster-indexed.jsonl: clusters-1.jsonl
-	cp $< $@
 
-char-cluster-indexed-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
-    char-cluster-indexed.jsonl
-	$(PERL) $< char-cluster-indexed
-char-cluster-indexed-part-*.jsonl: char-cluster-indexed-part-0.jsonl
-
-build-vgen-tbls: tbl-clusters.dat tbl-rels.dat tbl-root.json \
-    tbl-clusters.dat.gz tbl-rels.dat.gz tbl-root.json.gz
-
-tbl-clusters.dat tbl-rels.dat tbl-root.json:: %: $(VGEN_PATH)/tbl.pl \
-    cluster-root.json clusters-1.jsonl \
-    merged-misc.json merged-rels.jsonll
+cluster-index.json cluster-temp.jsonl:: \
+%: $(VGEN_PATH)/clusters.pl \
+    merged-index.json merged-sets.json merged-chars.json merged-rels.jsonll
 	$(PERL) $<
 
-tbl-clusters.dat.gz tbl-rels.dat.gz tbl-root.json.gz:: \
+char-cluster.jsonl: $(VGEN_PATH)/char-cluster.pl \
+    merged-char-index.jsonl cluster-temp.jsonl
+	$(PERL) $< > $@
+
+char-cluster-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
+    char-cluster.jsonl
+	$(PERL) $< char-cluster
+char-cluster-part-*.jsonl: char-cluster-part-0.jsonl
+
+char-leaders.jsonl: $(VGEN_PATH)/char-leaders.pl \
+    merged-index.json merged-sets.json cluster-temp.jsonl
+	$(PERL) $< > $@
+
+char-leaders-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
+    char-leaders.jsonl
+	$(PERL) $< char-leaders
+char-leaders-part-*.jsonl: char-leaders-part-0.jsonl
+
+tbl-index.json tbl-clusters.dat tbl-rels.dat:: %: $(VGEN_PATH)/tbl.pl \
+    merged-index.json merged-rels.jsonll \
+    cluster-index.json char-cluster.jsonl
+	$(PERL) $<
+tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz:: \
 %.gz: %
 	gzip -k -f $<
 
-testdata.json: $(VGEN_PATH)/testdata.pl cluster-root.json tests.txt
+testdata.json: $(VGEN_PATH)/testdata.pl merged-index.json tests.txt
 	$(PERL) $< > $@
 
-test: $(VGEN_PATH)/test.pl cluster-root.json clusters-1.jsonl testdata.json
+test: $(VGEN_PATH)/test.pl \
+    merged-index.json char-cluster.jsonl testdata.json
 	$(PROVE) $<
-perl-test: cluster-root.json clusters-1.jsonl testdata.json perl-test-main
+perl-test: \
+    merged-index.json char-cluster.jsonl testdata.json \
+    perl-test-main
 perl-test-main: $(VGEN_PATH)/test.pl
 	$(PERL) $<
 
