@@ -221,4 +221,9 @@
 
 乙 乚 EQUIV
 
+当 噹 COVERED !EQUIV
+当 當 COVERED !EQUIV
+當 噹 COVERED !EQUIV
+𪠽 噹 COVERED
+
 ## License: Public Domain.

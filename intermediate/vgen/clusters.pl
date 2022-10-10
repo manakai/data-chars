@@ -250,7 +250,8 @@ my $cluster_to_rel = {};
   }
 }
 for my $level (@$Levels) {
-  print STDERR qq{\rProcessing |$level->{key}|... };
+  printf STDERR qq{\rProcessing |$level->{key}| (Input: %s clusters)... },
+      0+@$clusters;
   my $r = construct_clusters $clusters, $cluster_to_rel,
       $level->{min_weight}, $level->{unmergeable};
   $clusters = $r->{clusters};

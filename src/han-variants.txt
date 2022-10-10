@@ -213,6 +213,10 @@ vpairs 卖/賣 壳/殼
 vpairs 卖/売 壳/殻
 vpairs 売/賣 殻/殼
 
+sconflict 当 當
+sconflict 当 噹
+  ## 當 噹 different in tw
+
 sconflict 勋 勳
 sconflict 勋 勛
 differentiated 勳 勛

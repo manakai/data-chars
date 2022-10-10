@@ -11,7 +11,9 @@ build-nightly: build-vgen-nightly
 build-pages: build-vgen-pages
 
 VGEN_MERGED_INPUTS = input.json \
-    ../unicode/namesrefs.json
+    ../unicode/namesrefs.json \
+    ../cns/maps.json \
+    ../adobe/maps.json
 
 build-vgen build-vgen-nightly build-vgen-pages test perl-test:: %:
 	$(MAKE) -f $(VGEN_PATH)/Makefile.vgen $@ \

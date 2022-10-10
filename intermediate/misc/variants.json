@@ -29607,7 +29607,8 @@
       },
       "噹" : {
          "当" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "當" : {
             "manakai:related" : 1
@@ -68361,7 +68362,8 @@
       },
       "當" : {
          "当" : {
-            "manakai:related" : 1
+            "manakai:related" : 1,
+            "manakai:variant:simplifiedconflicted" : 1
          },
          "𢑐" : {
             "manakai:related" : 1

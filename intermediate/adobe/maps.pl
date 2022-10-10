@@ -3,42 +3,16 @@ use warnings;
 use Path::Tiny;
 use JSON::PS;
 
+BEGIN {
+  require (path (__FILE__)->parent->parent->parent->child ('intermediate/vgen/chars.pl')->stringify);
+}
+
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
 my $TempPath = $RootPath->child ('local/iad');
 
-sub u_chr ($) {
-  if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F)) {
-    return sprintf ':u%x', $_[0];
-  }
-  my $c = chr $_[0];
-  if ($c eq ":" or $c eq "." or
-      $c =~ /\p{Non_Character_Code_Point}|\p{Surrogate}/) {
-    return sprintf ':u%x', $_[0];
-  } else {
-    return $c;
-  }
-} # u_chr
-
-sub u_hexs ($) {
-  my $s = shift;
-  my $i = 0;
-  return join '', map {
-    my $t = u_chr hex $_;
-    if ($i++ != 0) {
-      $t = '.' if $t eq ':u2e';
-      $t = ':' if $t eq ':u3a';
-    }
-    if (1 < length $t) {
-      return join '', map {
-        sprintf ':u%x', hex $_;
-      } split /\s+/, $s;
-    }
-    $t;
-  } split /\s+/, $s
-} # u_hexs
-
 my $Data = {};
+my $IsHan = {};
 
 for (
   [
@@ -51,6 +25,7 @@ for (
       [27, ':x02132004'], # UniJISX02132004
     ],
     [],
+    undef,
   ],
   [
     'aj20.txt',
@@ -61,6 +36,7 @@ for (
     [
       [2, 2, 'jisx0212', ':jis'],
     ],
+    undef,
   ],
   [
     'ac17.txt',
@@ -72,6 +48,7 @@ for (
       [6, 1, 'cns11643', ':cns'],
       [7, 2, 'cns11643', ':cns'],
     ],
+    ':u-bigfive-',
   ],
   [
     'ag15.txt',
@@ -80,6 +57,7 @@ for (
       [14, ''], 
     ],
     [],
+    ':u-gb-',
   ],
   [
     'ak9.txt',
@@ -88,6 +66,7 @@ for (
       [4, ''], 
     ],
     [],
+    undef,
   ],
   [
     'ak12.txt',
@@ -96,12 +75,14 @@ for (
       [11, ''], 
     ],
     [],
+    undef,
   ],
 ) {
   my $path = $TempPath->child ($_->[0]);
   my $prefix = $_->[1];
   my $uni_cols = $_->[2];
   my $gl_cols = $_->[3];
+  my $up_prefix = $_->[4];
   for (split /\x0D?\x0A/, $path->slurp) {
     if (/^#/) {
       #
@@ -110,6 +91,8 @@ for (
     } elsif (/\S/) {
       my @s = split /\t/, $_;
       my $cid = 0+$s[1-1];
+      my $c1 = "$prefix$cid";
+      my $key = 'variants';
 
       for (@$uni_cols) {
         my $index = $_->[0];
@@ -117,13 +100,43 @@ for (
         my $u = $s[$index-1];
         for (split /,/, $u) {
           if (/^[0-9A-Fa-f]+$/) {
-            $Data->{variants}->{"$prefix$cid"}->{u_chr hex $_}->{"adobe:uni".$suffix} = 1;
+            my $c2 = u_chr hex $_;
+            if (is_han $c2 > 0) {
+              $key = 'hans';
+              $IsHan->{$c1} = 1;
+            } else {
+              if ($key eq 'hans' and not is_han $c2) {
+                if (is_private $c2) {
+                  my $c2_0 = $c2;
+                  $c2 = ($up_prefix // die) . sprintf '%x', ord $c2;
+                  $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+                } else {
+                  die $c1;
+                }
+              }
+            }
+            $Data->{$key}->{$c1}->{$c2}->{"adobe:uni".$suffix} = 1;
           } elsif (/^([0-9A-Fa-f]+)v$/) {
-            $Data->{variants}->{"$prefix$cid"}->{u_chr hex $1}->{"adobe:uni".$suffix.":v"} = 1;
+            my $c2 = u_chr hex $1;
+            if (is_han $c2 > 0) {
+              $key = 'hans';
+              $IsHan->{$c1} = 1;
+            } else {
+              if ($key eq 'hans' and not is_han $c2) {
+                if (is_private $c2) {
+                  my $c2_0 = $c2;
+                  $c2 = ($up_prefix // die) . sprintf '%x', ord $c2;
+                  $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+                } else {
+                  die $c1;
+                }
+              }
+            }
+            $Data->{$key}->{$c1}->{$c2}->{"adobe:uni".$suffix.":v"} = 1;
           } elsif ($_ eq '*') {
             #
           } else {
-            warn $_;
+            die $_;
           }
         }
       } # $uni_cols
@@ -136,14 +149,14 @@ for (
         for (split /,/, $v) {
           if (/^([0-9A-Fa-f]{2})([0-9A-fa-f]{2})$/) {
             my $jis = sprintf '%d-%d-%d', $p, (hex $1)-0x20, (hex $2)-0x20;
-            $Data->{variants}->{"$prefix$cid"}->{"$gl_prefix$jis"}->{"adobe:".$suffix} = 1;
+            $Data->{$key}->{$c1}->{"$gl_prefix$jis"}->{"adobe:".$suffix} = 1;
           } elsif (/^([0-9A-Fa-f]{2})([0-9A-fa-f]{2})v$/) {
             my $jis = sprintf '%d-%d-%d', $p, (hex $1)-0x20, (hex $2)-0x20;
-            $Data->{variants}->{"$prefix$cid"}->{"$gl_prefix$jis"}->{"adobe:".$suffix.':v'} = 1;
+            $Data->{$key}->{$c1}->{"$gl_prefix$jis"}->{"adobe:".$suffix.':v'} = 1;
           } elsif ($_ eq '*') {
             #
           } else {
-            warn $_;
+            die $_;
           }
         }
       } # $gl_cols
@@ -184,6 +197,9 @@ for (
         [5, 1, 'jp83'],
         [6, 1, 'expt'],
         [9, 2, 'jisx0212'],
+        #[14, 1, 'kjis'],
+        [15, 1, 'ext'],
+        [16, 1, 'add'],
         [17, 1, 'jis78'],
       ) {
         my $v = $s[$_->[0]-1];
@@ -193,9 +209,9 @@ for (
           #
         } elsif ($v =~ /^([0-9]+)-([0-9]+)$/) {
           my $jis = sprintf '%d-%d-%d', $p, $1, $2;
-          $Data->{variants}->{":aj$cid"}->{":jis$jis"}->{"adobe:$t"} = 1;
+          $Data->{hans}->{":aj$cid"}->{":jis$jis"}->{"adobe:$t"} = 1;
         } else {
-          warn $v;
+          die $v;
         }
       }
       
@@ -209,18 +225,18 @@ for (
           #
         } elsif ($v =~ /^([0-9]+)-([0-9]+)-([0-9]+)$/) {
           my $jis = sprintf '%d-%d-%d', $1, $2, $3;
-          $Data->{variants}->{":aj$cid"}->{":jis$jis"}->{"adobe:$t"} = 1;
+          $Data->{hans}->{":aj$cid"}->{":jis$jis"}->{"adobe:$t"} = 1;
         } else {
-          warn $v;
+          die $v;
         }
       }
 
       if ($s[11-1] eq '*') {
         #
       } elsif ($s[11-1] =~ /^CID\+([0-9]+)$/) {
-        $Data->{variants}->{':aj'.(0+$1)}->{":aj$cid"}->{"adobe:trad"} = 1;
+        $Data->{hans}->{':aj'.(0+$1)}->{":aj$cid"}->{"adobe:trad"} = 1;
       } else {
-        warn $s[11-1];
+        die $s[11-1];
       }
 
       my $vss = $s[20-1];
@@ -228,7 +244,7 @@ for (
         if (m{^<U\+([0-9A-F]+),U\+([0-9A-F]+)>$}) {
           #$Data->{variants}->{":aj$cid"}->{u_hexs $1 . ' ' . $2}->{"adobe:vs"} = 1;
         } else {
-          warn $_;
+          die $_;
         }
       }
     }
@@ -247,7 +263,15 @@ for (
     if (/^#/) {
       #
     } elsif (/^([0-9A-F]+) ([0-9A-F]+);[^;]+; CID\+([0-9]+)$/) {
-      $Data->{variants}->{"$prefix$3"}->{u_hexs $1 . ' ' . $2}->{"adobe:vs"} = 1;
+      my $c1 = "$prefix$3";
+      my $c2_1 = u_chr hex $1;
+      my $c2 = u_hexs $1 . ' ' . $2;
+      my $key = 'variants';
+      if (is_han $c2_1 > 0) {
+        $key = 'hans';
+        $IsHan->{$c1} = 1;
+      }
+      $Data->{$key}->{$c1}->{$c2}->{"adobe:vs"} = 1;
     } elsif (/\S/) {
       die $_;
     }
@@ -469,6 +493,32 @@ for (
   } # $from_feat
   for my $feat (keys %$feat_data) {
     my $current = $feat_data->{$feat}->{items};
+    for my $c1 (keys %$current) {
+      for my $c2 (keys %{$current->{$c1}}) {
+        if ($IsHan->{$c1} and $IsHan->{$c2}) {
+          #
+        } elsif ($IsHan->{$c1} or $IsHan->{$c2}) {
+          if ({
+            jp78 => 1,
+            jp83 => 1,
+            expt => 1,
+            trad => 1,
+            hojo => 1,
+            nlck => 1,
+          }->{$feat}) {
+            $IsHan->{$c1} = $IsHan->{$c2} = 1;
+          } else {
+            warn $feat unless {
+              aalt => 1, nalt => 1,
+              ruby => 1, hngl => 1,
+            }->{$feat};
+          }
+        }
+      }
+    }
+  }
+  for my $feat (keys %$feat_data) {
+    my $current = $feat_data->{$feat}->{items};
     my $current_x = $feat_data->{$feat}->{items_x};
     my $current_i = $feat_data->{$feat}->{items_i};
     for my $c1 (keys %$current_x) {
@@ -478,11 +528,25 @@ for (
     }
     for my $c1 (keys %$current) {
       for my $c2 (keys %{$current->{$c1}}) {
+        my $key = 'variants';
+        if ($IsHan->{$c1} and $IsHan->{$c2}) {
+          $key = 'hans';
+        } else {
+          if ($IsHan->{$c1} or $IsHan->{$c2}) {
+            if ($feat eq 'hngl' or $feat eq 'aalt') {
+              #
+            } else {
+            #  warn $feat, $c1, $c2;
+            }
+          } elsif (is_han $c1) {
+            #warn $feat, $c1, $c2;
+          }
+        }
         if ($current_i->{$c1} or
             (keys %{$current_x->{$c1} or {}} and not $feat =~ /alt$/)) {
-          $Data->{variants}->{$c1}->{$c2}->{"opentype:$feat:contextual"} = 1;
+          $Data->{$key}->{$c1}->{$c2}->{"opentype:$feat:contextual"} = 1;
         } else {
-          $Data->{variants}->{$c1}->{$c2}->{"opentype:$feat"} = 1;
+          $Data->{$key}->{$c1}->{$c2}->{"opentype:$feat"} = 1;
         }
       }
     }

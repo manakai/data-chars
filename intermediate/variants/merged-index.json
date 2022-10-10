@@ -202,6 +202,10 @@
          "mergeable_weight" : 700,
          "weight" : 500
       },
+      "adobe:add" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
       "adobe:cns11643" : {
          "mergeable_weight" : 700,
          "weight" : 600
@@ -212,11 +216,15 @@
       },
       "adobe:expt" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
+      },
+      "adobe:ext" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
       },
       "adobe:jis78" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "adobe:jisx0212" : {
          "mergeable_weight" : 700,
@@ -232,19 +240,19 @@
       },
       "adobe:jp04" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "adobe:jp78" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "adobe:jp83" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "adobe:jp90" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "adobe:trad" : {
          "mergeable_weight" : 700,
@@ -954,6 +962,10 @@
          "mergeable_weight" : 700,
          "weight" : 500
       },
+      "rev:adobe:add" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "rev:adobe:cns11643" : {
          "mergeable_weight" : 700,
          "weight" : 600
@@ -964,11 +976,15 @@
       },
       "rev:adobe:expt" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
+      },
+      "rev:adobe:ext" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
       },
       "rev:adobe:jis78" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:adobe:jisx0212" : {
          "mergeable_weight" : 700,
@@ -984,19 +1000,19 @@
       },
       "rev:adobe:jp04" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:adobe:jp78" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:adobe:jp83" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:adobe:jp90" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:adobe:trad" : {
          "mergeable_weight" : 700,
@@ -1812,19 +1828,19 @@
       },
       "rev:unihan3.0:kGB0" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan3.0:kGB1" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan3.0:kGB3" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan3.0:kGB5" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan3.0:kGB8" : {
          "mergeable_weight" : 700,
@@ -1832,19 +1848,19 @@
       },
       "rev:unihan3.0:kIRG_GSource:0" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan3.0:kIRG_GSource:1" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan3.0:kIRG_GSource:3" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan3.0:kIRG_GSource:5" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan3.0:kIRG_GSource:8" : {
          "mergeable_weight" : 700,
@@ -1864,21 +1880,25 @@
       },
       "rev:unihan:kIRG_GSource:0" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan:kIRG_GSource:1" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan:kIRG_GSource:3" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan:kIRG_GSource:5" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : -1
       },
       "rev:unihan:kIRG_GSource:8" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:unihan:kIRG_KPSource" : {
          "mergeable_weight" : 700,
          "weight" : 600
       },
@@ -2260,19 +2280,19 @@
       },
       "unihan3.0:kGB0" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan3.0:kGB1" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan3.0:kGB3" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan3.0:kGB5" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan3.0:kGB8" : {
          "mergeable_weight" : 700,
@@ -2280,19 +2300,19 @@
       },
       "unihan3.0:kIRG_GSource:0" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan3.0:kIRG_GSource:1" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan3.0:kIRG_GSource:3" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan3.0:kIRG_GSource:5" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan3.0:kIRG_GSource:8" : {
          "mergeable_weight" : 700,
@@ -2312,21 +2332,25 @@
       },
       "unihan:kIRG_GSource:0" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan:kIRG_GSource:1" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan:kIRG_GSource:3" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan:kIRG_GSource:5" : {
          "mergeable_weight" : 700,
-         "weight" : 600
+         "weight" : 500
       },
       "unihan:kIRG_GSource:8" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "unihan:kIRG_KPSource" : {
          "mergeable_weight" : 700,
          "weight" : 600
       },

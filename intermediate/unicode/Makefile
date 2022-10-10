@@ -49,6 +49,8 @@ $(TEMP_PATH)/unihan-krname.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kKoreanName > $@
 $(TEMP_PATH)/unihan-irg-g.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_G > $@
+$(TEMP_PATH)/unihan-irg-kp0.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
+	grep -v '^#' $< | grep kIRG_KP > $@
 
 $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/EquivalentUnifiedIdeograph.txt
@@ -94,7 +96,10 @@ namesrefs.json: namesrefs.pl \
 	$(PERL) $< > $@
 
 maps.json: maps.pl $(TEMP_PATH)/unihan3.txt \
-    $(TEMP_PATH)/unihan-irg-g.txt
+    $(TEMP_PATH)/unihan-irg-g.txt \
+    $(TEMP_PATH)/unihan-irg-kp0.txt
 	$(PERL) $< > $@
+
+always:
 
 ## License: Public Domain.

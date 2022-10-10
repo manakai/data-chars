@@ -1,7 +1,16 @@
 {
   "inputs": [
     {
-      "path": "../unicode/namesrefs.json"
+      "path": "../unicode/namesrefs.json",
+      "rels_key": "variants"
+    },
+    {
+      "path": "../cns/maps.json",
+      "rels_key": "variants"
+    },
+    {
+      "path": "../adobe/maps.json",
+      "rels_key": "variants"
     }
   ]
 }

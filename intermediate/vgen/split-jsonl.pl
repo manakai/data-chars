@@ -12,7 +12,7 @@ my $StartTime = time;
   {
     my $x = 0x50;
     $to_index->{$_} = $x++ for qw(MJ ac ag aj ak aj2- ak1-
-                                  jis cns gb ks kps cjkvi swc);
+                                  jis cns cnsold gb ks kps cjkvi swc);
   }
 
   sub char_to_index ($) {
@@ -30,7 +30,7 @@ my $StartTime = time;
       } else {
         return 0x40;
       }
-    } elsif ($c1 =~ /\A:(MJ|ac|ag|aj|ak|aj2-|ak1-|jis|cns|gb|ks|kps|cjkvi|swc)/) {
+    } elsif ($c1 =~ /\A:(MJ|ac|ag|aj|ak|aj2-|ak1-|jis|cns|cnsold|gb|ks|kps|cjkvi|swc)/) {
       return $to_index->{$1} // die $1;
     } elsif ($c1 =~ /^:u-/) {
       return 0x4F;

@@ -17,9 +17,12 @@ build-pages: build-vgen-pages
 VGEN_MERGED_INPUTS = input.json \
     ../unicode/variants.json \
     ../unicode/namesrefs.json \
+    ../unicode/maps.json \
     ../mj/maps.json \
     ../mj/fmaps.json \
     ../mj/variants.json \
+    ../cns/maps.json \
+    ../adobe/maps.json \
     ../cjkvi/variants.json \
     ../wikimedia/variants.json \
     ../misc/variants.json

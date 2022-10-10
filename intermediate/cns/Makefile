@@ -1,6 +1,7 @@
 ROOT_PATH = ../..
 TEMP_PATH = $(ROOT_PATH)/local/icns
 PERL = $(ROOT_PATH)/perl -I$(ROOT_PATH)/bin/modules/json-ps/lib
+VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 
 WGET = wget
 SAVEURL = $(WGET) -O
@@ -29,7 +30,7 @@ $(TEMP_PATH)/cns-15.txt: $(TEMP_PATH)/cns.zip
 	mv $(TEMP_PATH)/Open_Data/MapingTables/Unicode/CNS2UNICODE_Unicode\ 15.txt $@
 	touch $@
 
-maps.json: maps.pl \
+maps.json: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/cns-0.txt $(TEMP_PATH)/cns-2.txt $(TEMP_PATH)/cns-15.txt
 	$(PERL) $< > $@
 

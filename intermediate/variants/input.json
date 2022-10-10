@@ -18,6 +18,10 @@
       "rels_key": "hans"
     },
     {
+      "path": "../unicode/maps.json",
+      "rels_key": "hans"
+    },
+    {
       "path": "../mj/maps.json",
       "rels_key": "hans"
     },
@@ -32,6 +36,14 @@
         "jouyou": "jp",
         "jinmei": "jp_jinmei"
       }
+    },
+    {
+      "path": "../cns/maps.json",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../adobe/maps.json",
+      "rels_key": "hans"
     },
     {
       "path": "../cjkvi/variants.json",

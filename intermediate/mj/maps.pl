@@ -12,37 +12,6 @@ my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
 my $TempPath = $RootPath->child ('local/imj');
 
-sub u_chr ($) {
-  if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F)) {
-    return sprintf ':u%x', $_[0];
-  }
-  my $c = chr $_[0];
-  if ($c eq ":" or $c eq "." or
-      $c =~ /\p{Non_Character_Code_Point}|\p{Surrogate}/) {
-    return sprintf ':u%x', $_[0];
-  } else {
-    return $c;
-  }
-} # u_chr
-
-sub u_hexs ($) {
-  my $s = shift;
-  my $i = 0;
-  return join '', map {
-    my $t = u_chr hex $_;
-    if ($i++ != 0) {
-      $t = '.' if $t eq ':u2e';
-      $t = ':' if $t eq ':u3a';
-    }
-    if (1 < length $t) {
-      return join '', map {
-        sprintf ':u%x', hex $_;
-      } split /\s+/, $s;
-    }
-    $t;
-  } split /\s+/, $s
-} # u_hexs
-
 sub ucs ($) {
   my $s = shift;
   if ($s =~ /^U\+([0-9A-F]+)$/) {
@@ -125,7 +94,7 @@ my $Data = {};
       my $cc2 = hex $1;
       if ((0xAA00 <= $cc2 and $cc2 <= 0xD7FF) or
           (0xFA2E <= $cc2 and $cc2 <= 0xFAFF)) {
-        my $c2 = sprintf ':u-juki-%04x', $cc2;
+        my $c2 = sprintf ':u-juki-%x', $cc2;
         $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
         insert_rel $Data,
             (u_chr $cc2), $c2, "manakai:private",
@@ -156,7 +125,7 @@ my $Data = {};
         my $c2 = u_chr hex $1;
         $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
       } else {
-        my $c2 = sprintf ':u-immi-%04x', $cc2;
+        my $c2 = sprintf ':u-immi-%x', $cc2;
         $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
         insert_rel $Data,
             (u_chr $cc2), $c2, "manakai:private",

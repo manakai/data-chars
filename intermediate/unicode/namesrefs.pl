@@ -10,37 +10,6 @@ BEGIN {
 
 my $RootPath = path (__FILE__)->parent->parent->parent;
 
-sub u_chr ($) {
-  if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F)) {
-    return sprintf ':u%x', $_[0];
-  }
-  my $c = chr $_[0];
-  if ($c eq ":" or $c eq "." or
-      $c =~ /\p{Non_Character_Code_Point}|\p{Surrogate}/) {
-    return sprintf ':u%x', $_[0];
-  } else {
-    return $c;
-  }
-} # u_chr
-
-sub u_hexs ($) {
-  my $s = shift;
-  my $i = 0;
-  return join '', map {
-    my $t = u_chr hex $_;
-    if ($i++ != 0) {
-      $t = '.' if $t eq ':u2e';
-      $t = ':' if $t eq ':u3a';
-    }
-    if (1 < length $t) {
-      return join '', map {
-        sprintf ':u%x', hex $_;
-      } split /\s+/, $s;
-    }
-    $t;
-  } split /\s+/, $s
-} # u_hexs
-
 my $Data = {};
 
 {

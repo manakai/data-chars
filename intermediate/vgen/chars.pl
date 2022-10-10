@@ -1,16 +1,74 @@
 use strict;
 use warnings;
 
+## Character prefixes
+##
+##   - <https://wiki.suikawiki.org/i/4523#anchor-149>
+##   - merged-char-index.pl
+##   - tbl.pl
+##   - split-jsonl.pl
+##   - swdata site.js
+
+sub u_chr ($) {
+  if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F)) {
+    return sprintf ':u%x', $_[0];
+  }
+  my $c = chr $_[0];
+  if ($c eq ":" or $c eq "." or
+      $c =~ /\p{Non_Character_Code_Point}|\p{Surrogate}/) {
+    return sprintf ':u%x', $_[0];
+  } else {
+    return $c;
+  }
+} # u_chr
+
+sub u_hexs ($) {
+  my $s = shift;
+  my $i = 0;
+  return join '', map {
+    my $t = u_chr hex $_;
+    if ($i++ != 0) {
+      $t = '.' if $t eq ':u2e';
+      $t = ':' if $t eq ':u3a';
+    }
+    if (1 < length $t) {
+      return join '', map {
+        sprintf ':u%x', hex $_;
+      } split /\s+/, $s;
+    }
+    $t;
+  } split /\s+/, $s
+} # u_hexs
+
+sub is_private ($) {
+  my $char = shift;
+
+  if (1 == length $char) {
+    my $cc = ord $char;
+    if (0xE000 <= $cc and $cc <= 0xF8FF) {
+      return 1;
+    } elsif (0xF0000 <= $cc and $cc <= 0xFFFFD) {
+      return 1;
+    } elsif (0x100000 <= $cc and $cc <= 0x10FFFD) {
+      return 1;
+    }
+  }
+
+  return 0;
+} # is_private
+
 sub is_han ($) {
   my $char = shift;
   if (1 == length $char) {
     my $c = ord $char;
     if (0x2E80 <= $c and $c <= 0x2FDF) {
       return 1;
-    } elsif (0x3190 <= $c and $c <= 0x319F) {
+    } elsif (0x3192 <= $c and $c <= 0x319F) {
       return 1;
     } elsif (0x31C0 <= $c and $c <= 0x31EF) {
       return 1;
+    } elsif (0x4DC0 <= $c and $c <= 0x4DFF) {
+      return 0;
     } elsif (0x3400 <= $c and $c <= 0x9FFF) {
       return 1;
     } elsif (0xF900 <= $c and $c <= 0xFAFF) {
@@ -120,6 +178,10 @@ sub insert_rel ($$$$$) {
   # $cmode auto kana private
   if ($cmode eq 'auto') {
     if (is_han $c1 and is_han $c2) {
+      $key = 'hans';
+    }
+  } elsif ($cmode eq 'private') {
+    if (is_han $c1 or is_han $c2) {
       $key = 'hans';
     }
   }

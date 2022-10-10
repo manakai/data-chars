@@ -67,7 +67,7 @@ my $Others = {};
         my $cc1 = hex $2;
         $Tables->{$level->{key} . ':' . $prefix}->[$cc1] = $cid;
         next;
-      } elsif ($c =~ /\A:(jis|cns|gb|ks|kps)([0-9]+)-([0-9]+)-([0-9]+)\z/) {
+      } elsif ($c =~ /\A:(jis|cns|cnsold|gb|ks|kps)([0-9]+)-([0-9]+)-([0-9]+)\z/) {
         my $prefix = $1;
         my $cc1 = $2*94*94 + ($3-1)*94 + ($4-1);
         $Tables->{$level->{key} . ':' . $prefix}->[$cc1] = $cid;
@@ -125,7 +125,7 @@ my $TableMeta = {others => $Others};
       $def->{type} = 'unicode-suffix';
       $def->{suffix} = 0+$2;
       $def->{code_offset} = 0;
-    } elsif ($key =~ /^([A-Z]+):(MJ|jis|cns|gb|ks|kps|aj|ac|ag|ak|aj2-|ak1-|u-[a-z]+-|swc)$/) {
+    } elsif ($key =~ /^([A-Z]+):(MJ|jis|cns|cnsold|gb|ks|kps|aj|ac|ag|ak|aj2-|ak1-|u-[a-z]+-|swc)$/) {
       $def->{level_key} = $1;
       $def->{type} = $2;
       $def->{code_offset} = 0;
