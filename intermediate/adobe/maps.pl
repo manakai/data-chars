@@ -2,10 +2,7 @@ use strict;
 use warnings;
 use Path::Tiny;
 use JSON::PS;
-
-BEGIN {
-  require (path (__FILE__)->parent->parent->parent->child ('intermediate/vgen/chars.pl')->stringify);
-}
+BEGIN { require 'chars.pl' };
 
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
@@ -48,7 +45,7 @@ for (
       [6, 1, 'cns11643', ':cns'],
       [7, 2, 'cns11643', ':cns'],
     ],
-    ':u-bigfive-',
+    ':u-hkscs-',
   ],
   [
     'ag15.txt',
@@ -56,7 +53,10 @@ for (
     [
       [14, ''], 
     ],
-    [],
+    [
+      #[2, 0, 'gb2312', ':gb'], 
+      #[5, 0, 'gb12345', ':gb'], 
+    ],
     ':u-gb-',
   ],
   [
@@ -181,6 +181,33 @@ for (
   }
 }
 
+for (
+  ['aj-vs.txt', ':aj'],
+  ['ac-vs.txt', ':ac'],
+  ['ag-vs.txt', ':ag'],
+  ['ak-vs.txt', ':ak'],
+) {
+  my $path = $TempPath->child ($_->[0]);
+  my $prefix = $_->[1];
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/^([0-9A-F]+) ([0-9A-F]+);[^;]+; CID\+([0-9]+)$/) {
+      my $c1 = "$prefix$3";
+      my $c2_1 = u_chr hex $1;
+      my $c2 = u_hexs $1 . ' ' . $2;
+      my $key = 'variants';
+      if (is_han $c2_1 > 0) {
+        $key = 'hans';
+        $IsHan->{$c1} = 1;
+      }
+      $Data->{$key}->{$c1}->{$c2}->{"adobe:vs"} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
 {
   my $path = $TempPath->child ('aj17-kanji.txt');
   for (split /\x0D?\x0A/, $path->slurp) {
@@ -209,7 +236,9 @@ for (
           #
         } elsif ($v =~ /^([0-9]+)-([0-9]+)$/) {
           my $jis = sprintf '%d-%d-%d', $p, $1, $2;
-          $Data->{hans}->{":aj$cid"}->{":jis$jis"}->{"adobe:$t"} = 1;
+          my $c1 = ":aj$cid";
+          my $key = $IsHan->{$c1} ? 'hans' : 'variants';
+          $Data->{$key}->{$c1}->{":jis$jis"}->{"adobe:$t"} = 1;
         } else {
           die $v;
         }
@@ -252,37 +281,9 @@ for (
 }
 
 for (
-  ['aj-vs.txt', ':aj'],
-  ['ac-vs.txt', ':ac'],
-  ['ag-vs.txt', ':ag'],
-  ['ak-vs.txt', ':ak'],
-) {
-  my $path = $TempPath->child ($_->[0]);
-  my $prefix = $_->[1];
-  for (split /\x0D?\x0A/, $path->slurp) {
-    if (/^#/) {
-      #
-    } elsif (/^([0-9A-F]+) ([0-9A-F]+);[^;]+; CID\+([0-9]+)$/) {
-      my $c1 = "$prefix$3";
-      my $c2_1 = u_chr hex $1;
-      my $c2 = u_hexs $1 . ' ' . $2;
-      my $key = 'variants';
-      if (is_han $c2_1 > 0) {
-        $key = 'hans';
-        $IsHan->{$c1} = 1;
-      }
-      $Data->{$key}->{$c1}->{$c2}->{"adobe:vs"} = 1;
-    } elsif (/\S/) {
-      die $_;
-    }
-  }
-}
-
-for (
   ['aj17.fea', ':aj'],
   ['ac17.fea', ':ac'],
   ['ag15.fea', ':ag'],
-  ['ak12.fea', ':ak1-'],
   ['akr9.fea', ':ak'],
 ) {
   my $path = $TempPath->child ($_->[0]);
@@ -553,6 +554,6 @@ for (
   }
 }
 
-print perl2json_bytes_for_record $Data;
+print_rel_data $Data;
 
 ## License: Public Domain.

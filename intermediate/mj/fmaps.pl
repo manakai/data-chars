@@ -3,10 +3,7 @@ use warnings;
 use utf8;
 use Path::Tiny;
 use JSON::PS;
-
-BEGIN {
-  require (path (__FILE__)->parent->parent->parent->child ('intermediate/vgen/chars.pl')->stringify);
-}
+BEGIN { require 'chars.pl' };
 
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
@@ -45,18 +42,20 @@ my $Data = {};
         $tt .= ':' . $_->{順位} if defined $_->{順位};
         $tt .= ':' . $_->{ホップ数} if defined $_->{ホップ数} and
             $_->{ホップ数} > 1;
-        $Data->{hans}->{":$mj"}->{$uc}->{$tt} = 1;
+        my $c1 = ":$mj";
+        my $key = is_han $c1 > 0 ? "hans" : "variants";
+        $Data->{$key}->{$c1}->{$uc}->{$tt} = 1;
 
         if ($_->{"JIS X 0213"} =~ m{^([0-9]+)-([0-9]+)-([0-9]+)$}) {
           my $jis = sprintf ':jis%d-%d-%d', $1, $2, $3;
-          $Data->{hans}->{":$mj"}->{$jis}->{$tt} = 1;
+          $Data->{$key}->{$c1}->{$jis}->{$tt} = 1;
         }
       }
     }
   }
 }
 
-print perl2json_bytes_for_record $Data;
+print_rel_data $Data;
 
 ## License: Public Domain.
 

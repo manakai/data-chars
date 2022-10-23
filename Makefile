@@ -623,16 +623,16 @@ data/seqs.json: bin/seqs.pl \
 data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
 
-build-nightly: build-nigjhtly-iu1 build-nightly-iu2
+build-nightly: build-nigjhtly-iu
 
 build-github-pages: build-pages-iu
 	rm -fr ./bin/ ./modules/ ./t_deps/
 
-build-nightly-iu1: data/maps.json
+build-nightly-iu: deps data/maps.json
 	cd intermediate/unicode && $(MAKE) build-nightly
-	cd intermediate/charrels && $(MAKE) build-nightly
-
-build-nightly-iu2: deps
+	cd intermediate/opencc && $(MAKE) build-nightly
+	cd intermediate/misc && $(MAKE) build-nightly
+	#
 	cd intermediate/charrels && $(MAKE) build-nightly
 	cd intermediate/variants && $(MAKE) build-nightly
 

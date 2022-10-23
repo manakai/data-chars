@@ -1,12 +1,13 @@
 use strict;
 use warnings;
+use JSON::PS;
 
 ## Character prefixes
 ##
 ##   - <https://wiki.suikawiki.org/i/4523#anchor-149>
 ##   - merged-char-index.pl
-##   - tbl.pl
 ##   - split-jsonl.pl
+##   - tbl.pl
 ##   - swdata site.js
 
 sub u_chr ($) {
@@ -57,31 +58,73 @@ sub is_private ($) {
   return 0;
 } # is_private
 
+sub is_han ($);
 sub is_han ($) {
   my $char = shift;
   if (1 == length $char) {
     my $c = ord $char;
     if (0x2E80 <= $c and $c <= 0x2FDF) {
       return 1;
-    } elsif (0x3192 <= $c and $c <= 0x319F) {
+    } elsif (0x3021 <= $c and $c <= 0x3029) { # numeral
+      return 1;
+    } elsif (0x3192 <= $c and $c <= 0x319F) { # kanbun
       return 1;
     } elsif (0x31C0 <= $c and $c <= 0x31EF) {
       return 1;
     } elsif (0x4DC0 <= $c and $c <= 0x4DFF) {
       return 0;
+    } elsif ({
+      0x4E44, 1, 0x2CF00, 1, 0x2A708, 1,0x2CEFF, 1, 0x2CF02, 1,
+    }->{$c}) {
+      return 0;
     } elsif (0x3400 <= $c and $c <= 0x9FFF) {
       return 1;
     } elsif (0xF900 <= $c and $c <= 0xFAFF) {
       return 1;
+    } elsif (0x1D372 <= $c and $c <= 0x1D376) {
+      return 1;
     } elsif (0x20000 <= $c and $c <= 0x3FFFF) {
       return 1;
     } elsif ({
-      0x3005 => 1, 0x3007 => 1, 0x3038 => 1, 0x3039 => 1, 0x393A => 1,
+      0x3005 => 1, 0x3007 => 1, 0x3038 => 1, 0x3039 => 1, 0x303A => 1,
     }->{$c}) {
       return 1;
-    } elsif ($c == 0x30B1 or $c == 0x30F6) { # ke
+    } elsif ($c == 0x30B1 or $c == 0x30F6 or # ke
+             $c == 0x3068 or # to
+             $c == 0x30BF or # ta
+             $c == 0x30F1) { # we
       return -1;
     }
+  } elsif (2 == length $char) {
+    if (is_han substr $char, 0, 1) {
+      if ((substr $char, 1) =~ /\A\p{Variation_Selector}\z/) {
+        return 1;
+      }
+    }
+  } elsif ($char =~ /^:cjkvi:/) {
+    return 1;
+  } elsif ($char =~ /^:u-(?:immi|juki)-[0-9a-f]+$/) {
+    return 1;
+  } elsif ($char =~ /^:u-arib-(e7[6-9a-f][0-9a-f]|e8[0-9a-f]{2})$/) {
+    return 1;
+  } elsif ($char =~ /^:jis-arib-1-92-([789]|10|2[6789]|3[01])$/) {
+    return 1;
+  } elsif ($char =~ /^:MJ([0-9]+)$/) {
+    my $n = 0+$1;
+    if ($n == 2 or $n == 6376 or $n == 6377 or 
+        $n == 56854 or
+        $n == 56850 or $n == 56853) {
+      return 0;
+    } else {
+      return 1;
+    }
+  }
+  
+  return 0;
+} # is_han
+
+=pod
+
   } elsif ($char =~ /^:aj([0-9]+)$/) {
     my $n = $1;
     if ($n == 658) { # shime
@@ -132,13 +175,17 @@ sub is_han ($) {
         (22428 <= $n and $n <= 29058)) {
       return 1;
     }
-  } elsif ($char =~ /^:u-(?:immi|juki)-[0-9a-f]+$/) {
-    return 1;
-  }
-  return 0;
-} # is_han
+
+=cut
 
 #is_kana
+#U+303C # kanbun re
+#U+3191 # masu
+#U+3006 U+4E44 MJ000002 MJ006376 MJ006377 # shime
+#MJ056854 U+2CF00 tame
+#U+2A708 # tomo
+#MJ056850 MJ056853 U+2CEFF U+2CF02 # nari
+#
 #ac 13749 - 13752 13757 13761 - 13929 17606 17607
 #ag 356 - 524
 # 10019 - 10026 22359 - 22397
@@ -170,6 +217,40 @@ sub is_han ($) {
 # 8020 - 8037 8053 8055 8059 - 8070 8092 - 8101 8182 8184 - 8190 8192 - 8195
 # 8225 8226 8285 - 8308 [+ 8720, ...]
 
+sub sjis_char ($$$) {
+  my ($prefix, $b1, $b2) = @_;
+
+  my $ten = $b2 < 0x7F ? $b2 - 0x40 + 1 : $b2 - 0x41 + 1;
+  my $ku = $b1 < 0xE0 ? $b1 - 0x81 : (0x9F - 0x81 + 1) + $b1 - 0xE0;
+  $ku *= 2;
+  $ku++;
+  if ($ten > 94) {
+    $ten -= 94;
+    $ku++;
+  }
+
+  if ($prefix eq ':jis-dos-1-') {
+    if ($ku < 85) {
+      $prefix = ':jis1-';
+    }
+  }
+
+  if ($prefix eq ':jis-mac-1-') {
+    if ($ku < 85 and not (9 <= $ku and $ku <= 15)) {
+      $prefix = ':jis1-';
+    }
+  }
+
+  return sprintf '%s%d-%d', $prefix, $ku, $ten;
+} # sjis_char
+
+sub is_b5_variant ($) {
+  my $c = shift;
+  return 1 if 0x8140 <= $c and $c <= 0xA0FE;
+  return 1 if 0xC8D4 <= $c and $c <= 0xC8FE;
+  return 1 if 0xFA40 <= $c and $c <= 0xFEFE;
+  return 0;
+} # is_b5_variant
 
 sub insert_rel ($$$$$) {
   my ($data, $c1, $c2, $reltype, $cmode) = @_;
@@ -206,6 +287,51 @@ sub classify_rels ($) {
     }
   }
 } # classify_rels
+
+sub _print_rel_data ($$) {
+  my $data = shift;
+  my $file = shift;
+
+  for my $key (sort { $a cmp $b } keys %$data) {
+    printf $file "*%s\x0A", $key;
+    for my $c1 (sort { $a cmp $b } keys %{$data->{$key}}) {
+      printf $file "-%s\x0A", perl2json_bytes $c1;
+      for my $c2 (sort { $a cmp $b } keys %{$data->{$key}->{$c1}}) {
+        printf $file "%s\x0A", perl2json_bytes $c2;
+        for my $rel_type (sort { $a cmp $b } keys %{$data->{$key}->{$c1}->{$c2}}) {
+          my $rt = perl2json_bytes $rel_type;
+          $rt =~ s/"//g;
+          printf $file "%s\x0A", $rt;
+        }
+      }
+    }
+  }
+} # _print_rel_data
+
+sub print_rel_data ($) { _print_rel_data $_[0] => \*STDOUT }
+sub write_rel_data ($$) { _print_rel_data $_[0] => $_[1]->openw }
+
+sub parse_rel_data_file ($$) {
+  my ($file, $data) = @_;
+  local $/ = "\x0A";
+  my $key;
+  my $c1;
+  my $c2;
+  while (<$file>) {
+    if (/^-(".*")$/) {
+      $c1 = json_bytes2perl $1;
+    } elsif (/^(".*")$/) {
+      $c2 = json_bytes2perl $1;
+    } elsif (/^\*(.+)$/) {
+      $key = $1;
+    } elsif (/^([\x20-\x5B\x5D-\x7E]+)$/) {
+      $data->{$key}->{$c1}->{$c2}->{$1} = 1;
+    } elsif (/^(.+)$/) {
+      my $rel_type = json_bytes2perl qq{"$1"};
+      $data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    }
+  }
+} # parse_rel_data_file
 
 1;
 

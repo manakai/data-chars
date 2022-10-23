@@ -57,7 +57,7 @@ my $Others = {};
         my $cc2 = ord $2;
         $Tables->{$level->{key} . ':unicode-suffix-' . $cc2}->[$cc1] = $cid;
         next;
-      } elsif ($c =~ /\A:(MJ|aj|ac|ag|ak|aj2-|ak1-|swc)([0-9]+)\z/) {
+      } elsif ($c =~ /\A:(MJ|aj|ac|ag|ak|aj2-|ak1-|UK-|swc)([0-9]+)\z/) {
         my $prefix = $1;
         my $cc1 = 0+$2;
         $Tables->{$level->{key} . ':' . $prefix}->[$cc1] = $cid;
@@ -67,9 +67,24 @@ my $Others = {};
         my $cc1 = hex $2;
         $Tables->{$level->{key} . ':' . $prefix}->[$cc1] = $cid;
         next;
-      } elsif ($c =~ /\A:(jis|cns|cnsold|gb|ks|kps)([0-9]+)-([0-9]+)-([0-9]+)\z/) {
+      } elsif ($c =~ /\A:(b5-)([0-9a-f]+)\z/) {
         my $prefix = $1;
-        my $cc1 = $2*94*94 + ($3-1)*94 + ($4-1);
+        my $cc1 = hex $2;
+        $Tables->{$level->{key} . ':' . $prefix}->[$cc1] = $cid;
+        next;
+      } elsif ($c =~ /\A:(b5-[a-z]+-)([0-9a-f]+)\z/) {
+        my $prefix = $1;
+        my $cc1 = hex $2;
+        $Tables->{$level->{key} . ':' . $prefix}->[$cc1] = $cid;
+        next;
+      } elsif ($c =~ /\A:(jis|jis-[a-z]+-)([0-9]+)-([0-9]+)-([0-9]+)\z/) {
+        my $prefix = $1;
+        my $cc1 = $2*(94+(0xFC-0xEF)*2)*94 + ($3-1)*94 + ($4-1);
+        $Tables->{$level->{key} . ':' . $prefix}->[$cc1] = $cid;
+        next;
+      } elsif ($c =~ /\A:(cns|cns-[a-z]+-|gb|ks|kps|cccii)([0-9]+)-([1-9][0-9]*)-([1-9][0-9]*)\z/) {
+        my $prefix = $1;
+        my $cc1 = $2*(94)*94 + ($3-1)*94 + ($4-1);
         $Tables->{$level->{key} . ':' . $prefix}->[$cc1] = $cid;
         next;
       }
@@ -125,7 +140,7 @@ my $TableMeta = {others => $Others};
       $def->{type} = 'unicode-suffix';
       $def->{suffix} = 0+$2;
       $def->{code_offset} = 0;
-    } elsif ($key =~ /^([A-Z]+):(MJ|jis|cns|cnsold|gb|ks|kps|aj|ac|ag|ak|aj2-|ak1-|u-[a-z]+-|swc)$/) {
+    } elsif ($key =~ /^([A-Z]+):(MJ|jis|jis-[a-z]+-|cns|cns-[a-z]+-|gb|ks|kps|aj|ac|ag|ak|aj2-|ak1-|UK-|u-[a-z]+-|b5-|b5-[a-z]+-|cccii|swc)$/) {
       $def->{level_key} = $1;
       $def->{type} = $2;
       $def->{code_offset} = 0;

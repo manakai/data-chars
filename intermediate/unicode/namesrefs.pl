@@ -3,10 +3,7 @@ use warnings;
 use Path::Tiny;
 use lib glob path (__FILE__)->parent->parent->parent->child ('bin/modules/*/lib')->stringify;
 use JSON::PS;
-
-BEGIN {
-  require (path (__FILE__)->parent->parent->parent->child ('intermediate/vgen/chars.pl')->stringify);
-}
+BEGIN { require 'chars.pl' }
 
 my $RootPath = path (__FILE__)->parent->parent->parent;
 
@@ -278,6 +275,6 @@ unicode:security:intentional
   }
 }
 
-print perl2json_bytes_for_record $Data;
+print_rel_data $Data;
 
 ## License: Public Domain.

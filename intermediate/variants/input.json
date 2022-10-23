@@ -2,6 +2,7 @@
   "inputs": [
     {
       "path": "../unicode/variants.json",
+      "rels_key": "hans",
       "set_map": {
         "cn": "cn",
         "hk": "hk",
@@ -14,19 +15,31 @@
       }
     },
     {
-      "path": "../unicode/namesrefs.json",
+      "path": "../unicode/variants2.list",
       "rels_key": "hans"
     },
     {
-      "path": "../unicode/maps.json",
+      "path": "../unicode/namesrefs.list",
       "rels_key": "hans"
     },
     {
-      "path": "../mj/maps.json",
+      "path": "../unicode/maps.list",
       "rels_key": "hans"
     },
     {
-      "path": "../mj/fmaps.json",
+      "path": "../unicode/maps2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps3.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps.list",
       "rels_key": "hans"
     },
     {
@@ -38,15 +51,44 @@
       }
     },
     {
-      "path": "../cns/maps.json",
+      "path": "../jp/variants.list",
       "rels_key": "hans"
     },
     {
-      "path": "../adobe/maps.json",
+      "path": "../cns/maps.list",
       "rels_key": "hans"
     },
     {
-      "path": "../cjkvi/variants.json",
+      "path": "../cns/maps2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mozilla/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../whatwg/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../perl/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../loc/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../adobe/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../opencc/variants.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/variants.list",
+      "rels_key": "hans",
       "mv_map": {
         "cjkvi:joyo/variant": "jp",
         "cjkvi:jinmei1/variant": "jp",
@@ -55,7 +97,7 @@
       }
     },
     {
-      "path": "../wikimedia/variants.json",
+      "path": "../wiki/variants.json",
       "set_map": {
         "tw": "tw",
         "kredu": "kr",
@@ -65,7 +107,23 @@
       }
     },
     {
-      "path": "../misc/variants.json",
+      "path": "../wiki/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../misc/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../misc/aggregated.json",
+      "rels_key": "variants"
+    },
+    {
+      "path": "../misc/variants.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../misc/sets.json",
       "set_map": {
         "jouyou_s56": "jp2",
         "jinmei_h9": "jp2"

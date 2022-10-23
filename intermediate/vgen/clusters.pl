@@ -249,6 +249,7 @@ my $cluster_to_rel = {};
     }
   }
 }
+my $level_start_time = time;
 for my $level (@$Levels) {
   printf STDERR qq{\rProcessing |$level->{key}| (Input: %s clusters)... },
       0+@$clusters;
@@ -261,6 +262,8 @@ for my $level (@$Levels) {
   for my $cluster (@$clusters) {
     write_cluster $level_index, $cluster;
   }
+  printf STDERR qq{done (%d s)\n}, time - $level_start_time;
+  $level_start_time = time;
 }
 
 {

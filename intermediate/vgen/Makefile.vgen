@@ -1,21 +1,21 @@
 # -*- Makefile -*-
 
 ROOT_PATH = ../..
+VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 PERL5OPTS =  \
     -I$(ROOT_PATH)/bin/modules/json-ps/lib \
-    -I$(ROOT_PATH)/bin/modules/web-encodings/lib
+    -I$(ROOT_PATH)/bin/modules/web-encodings/lib -I$(VGEN_PATH)
 PERL = $(ROOT_PATH)/perl $(PERL5OPTS)
 PROVE = $(ROOT_PATH)/prove $(PERL5OPTS)
-VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 
 WGET = wget
 SAVEURL = $(WGET) -O
 
 all: build-vgen
 
-build-vgen-nightly: build-vgen
+build-vgen-nightly: build-vgen test
 
-build-vgen-pages: build-vgen
+build-vgen-pages: build-vgen test
 
 build-vgen: \
     merged-index.json \

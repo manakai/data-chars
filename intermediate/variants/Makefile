@@ -16,16 +16,30 @@ build-pages: build-vgen-pages
 
 VGEN_MERGED_INPUTS = input.json \
     ../unicode/variants.json \
-    ../unicode/namesrefs.json \
-    ../unicode/maps.json \
-    ../mj/maps.json \
-    ../mj/fmaps.json \
+    ../unicode/variants2.list \
+    ../unicode/namesrefs.list \
+    ../unicode/maps.list \
+    ../unicode/maps2.list \
+    ../unicode/maps3.list \
+    ../jp/variants.list \
+    ../mj/maps.list \
+    ../mj/fmaps.list \
     ../mj/variants.json \
-    ../cns/maps.json \
-    ../adobe/maps.json \
-    ../cjkvi/variants.json \
-    ../wikimedia/variants.json \
-    ../misc/variants.json
+    ../cns/maps.list \
+    ../cns/maps2.list \
+    ../mozilla/maps.list \
+    ../whatwg/maps.list \
+    ../perl/maps.list \
+    ../loc/maps.list \
+    ../adobe/maps.list \
+    ../opencc/variants.list \
+    ../cjkvi/variants.list \
+    ../wiki/variants.json \
+    ../wiki/maps.list \
+    ../misc/variants.list \
+    ../misc/aggregated.json \
+    ../misc/maps.list \
+    ../misc/sets.json
 
 build-vgen build-vgen-nightly build-vgen-pages test perl-test:: %:
 	$(MAKE) -f $(VGEN_PATH)/Makefile.vgen $@ \

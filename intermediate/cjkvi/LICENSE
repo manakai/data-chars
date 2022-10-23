@@ -1,3 +1,7 @@
-* 漢字データファイル
+* 漢字データベースプロジェクト data files
 
-  See |../../doc/LICENSE.cjkvi|.
+Some of data in this directory derived from 漢字データベースプロジェクト
+data files.
+
+License of the 漢字データベースプロジェクト data files: See
+|../../doc/LICENSE.cjkvi|.

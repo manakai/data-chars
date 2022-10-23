@@ -180,9 +180,12 @@
 圣 聖 COVERED !EQUIV
 垩 聖 COVERED !EQUIV
 
-窗 窓 COVERED
+窗 窓 COVERED !EQUIV
 窻 窓 COVERED
-囪 窓 COVERED
+囪 窓 COVERED !EQUIV
+#囪 old singapore / second simp.
+
+氷 冰 COVERED
 
 卖 売 COVERED
 売 賣 COVERED
@@ -203,7 +206,14 @@
 亙 亘 COVERED !EQUIV !UNIFIED
 恒 恆 COVERED !EQUIV !UNIFIED
 
+現 表 RELATED !EQUIV
+現 著 RELATED !EQUIV
 元 原 RELATED !COVERED
+青 蒼 RELATED !EQUIV
+青 碧 RELATED !EQUIV
+
+## <https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/ijidokun_140221.pdf#page=6>
+預 与 RELATED !EQUIV
 
 柿 \u{676E} OVERLAP COVERED !EQUIV
 

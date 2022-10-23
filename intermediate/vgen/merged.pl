@@ -2,6 +2,7 @@ use strict;
 use warnings;
 use Path::Tiny;
 use JSON::PS;
+BEGIN { require 'chars.pl' };
 
 my $ThisPath = path (__FILE__)->parent;
 my $DataPath = path ('.');
@@ -39,22 +40,8 @@ my $Rels = {};
   sub W ($) { $w->{$_[0]} // die $_[0] }
 }
 
-my $TypeWeight = {
-    "cjkvi:non-cjk/bopomofo" => -404,
-    "cjkvi:non-cjk/bracketed" => -404,
-    "cjkvi:non-cjk/circle" => -404,
-    "cjkvi:non-cjk/katakana" => -404,
-    "cjkvi:non-cjk/parenthesized" => -404,
-    "cjkvi:non-cjk/square" => -404,
-    "rev:cjkvi:non-cjk/bopomofo" => -404,
-    "rev:cjkvi:non-cjk/bracketed" => -404,
-    "rev:cjkvi:non-cjk/circle" => -404,
-    "rev:cjkvi:non-cjk/katakana" => -404,
-    "rev:cjkvi:non-cjk/parenthesized" => -404,
-    "rev:cjkvi:non-cjk/square" => -404,
-};
+my $TypeWeight = {};
 my $TypeMergeableWeight = {};
-my $DiredTypes = [];
 my $PairedTypes = [];
 {
   use utf8;
@@ -71,6 +58,7 @@ my $PairedTypes = [];
     "cjkvi:cjkvi/duplicate",
     "manakai:same",
 
+    "uk:font-code-point",
     "adobe:vs",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
@@ -83,7 +71,6 @@ my $PairedTypes = [];
     "mj:対応するUCS",
     "ivd:base",
 
-    "unicode:canonical-decomposition",
     "ucd:Equivalent_Unified_Ideograph",
     "cjkvi:non-cjk/hangzhou-num",
     "cjkvi:non-cjk/kangxi",
@@ -114,13 +101,47 @@ my $PairedTypes = [];
     
     "unihan3.0:kCNS1986",
     "unihan3.0:kCNS1992",
+    "unihan:kIRG_TSource",
     "unihan3.0:kPseudoGB1",
     "unihan3.0:kGB8",
     "unihan3.0:kIRG_GSource:8",
     "unihan:kIRG_GSource:8",
     "unihan3.0:kIRG_TSource",
-    "unihan:kIRG_KSource",
+    "unihan:kKSC0",
+    "unihan:kKSC1",
     "unihan:kIRG_KPSource",
+    "unihan:kIRG_GSource:K",
+    "cjkvi:gb2ucs:K",
+    "unihan:kIRG_UKSource",
+    "uk:gb8",
+    "unihan:kIBMJapan",
+    "unihan:kIRG_JSource:ARIB",
+    "unicode:mapping",
+    "unicode:mapping:apple",
+    "unihan:kIRG_HSource",
+    "unihan:kIRG_MSource:MA",
+    "unihan:kIRG_MSource:MB1",
+    "unihan:kIRG_MSource:MB2",
+    "cns:big5",
+    "cns:big5:符號",
+    "cns:big5:七個倚天外字",
+    "encoding:decode:big5",
+    "moztw:Big5-1984",
+    "moztw:UAO 2.50",
+
+    "unihan:kIRG_JSource:1",
+    "unihan:kIRG_JSource:14",
+    "unihan:kIRG_JSource:4",
+    "unihan:kIRG_JSource:A4",
+    
+    "arib:duplicate",
+    "arib:isoiec10646",
+    "arib:jisx0212",
+    "arib:jisx0213",
+    "arib:jisx0213:variant",
+    "arib:jisx0221",
+    "arib:jisx0221:variant",
+    "arib:ucs",
     
     "adobe:uni",
     "adobe:uni:v",
@@ -136,6 +157,10 @@ my $PairedTypes = [];
     "adobe:jisx0213:2004",
     "adobe:cns11643",
     "adobe:cns11643:v",
+
+    "csw:mapping:gb12052",
+    "pl:mapping",
+    "marc:mapping",
 
     "opentype:fwid",
     "opentype:hwid",
@@ -172,11 +197,21 @@ my $PairedTypes = [];
     "cjkvi:x0213-x0212/variants",
     "cjkvi:x0213-x0212/variants:JIS-X-0213:2004",
 
+    "unihan3.0:kIRG_JSource",
+    "unihan:kIRG_JSource:0",
+    "unihan:kIRG_JSource:13",
+    "unihan:kIRG_JSource:3",
+    "unihan:kIRG_JSource:A3",
+    
     "manakai:variant:simplified",
     "manakai:variant:jpnewstyle",
     "manakai:variant:wu",
     "manakai:variant:taboo",
     "manakai:equivalent",
+
+    "cccii:layer",
+    "marc:variant",
+    "marc:unrelated variant",
 
     "fwhw:normalize",
     "fwhw:strict_normalize",
@@ -198,6 +233,9 @@ my $PairedTypes = [];
     "unihan:kIRG_GSource:1",
     "unihan:kIRG_GSource:3",
     "unihan:kIRG_GSource:5",
+    "cjkvi:gb2ucs:2",
+    "cjkvi:gb2ucs:4",
+    "icu:mapping:iso-ir-165",
     
     "opentype:zero",
     "opentype:ital",
@@ -247,13 +285,26 @@ my $PairedTypes = [];
     "cjkvi:dypytz/variant/1988",
     "cjkvi:dypytz/variant/1993",
     "cjkvi:dypytz/variant/1997",
+
+    "opencc:HKVariants",
+    "opencc:JPShinjitaiCharacters",
+    "opencc:JPVariants",
+    "opencc:STCharacters",
+    "opencc:TSCharacters",
+    "opencc:TWVariants",
+    "opencc:st_multi",
+    "opencc:ts_multi",
+    "opencc:variant",
     
     "cjkvi:jp/borrowed",
     "cjkvi:jp/borrowed:拡張新字体",
+
+    "wikipedia:zh:歌仔冊文字",
+    "wikipedia:zh:臺語本字列表:異用字 / 俗字",
+    "wikipedia:zh:臺閩字列表:異用字 / 俗字",
     
     "cjkvi:cjkvi/numeric",
   ) {
-    push @$DiredTypes, $vtype;
     $TypeWeight->{$vtype} = W 'COVERED';
     $TypeWeight->{'rev:'.$vtype} = -1;
     $TypeWeight->{'to1:'.$vtype} = -1,
@@ -347,10 +398,18 @@ my $PairedTypes = [];
     "ucd:names:preferred-some",
     "ucd:names:prefers-some",
 
+    "cjkvi:non-cjk/bopomofo",
+    "cjkvi:non-cjk/bracketed",
+    "cjkvi:non-cjk/circle",
+    "cjkvi:non-cjk/katakana",
+    "cjkvi:non-cjk/parenthesized",
+    "cjkvi:non-cjk/square",
+
     "kana:h2k",
     "kana:k2h",
     "kana:large",
     "kana:small",
+    "arib:70%",
 
     "unicode5.1:Bidi_Mirroring_Glyph",
     "unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT",
@@ -364,6 +423,10 @@ my $PairedTypes = [];
   ## RELATED: They share some of characteristics such that in some
   ## case a character may be replaced by another.
   for my $vtype (
+    "jp:法務省告示582号別表第四:一:第1順位",
+    "jp:法務省告示582号別表第四:二:第1順位",
+    "jp:法務省告示582号別表第四:一:第2順位",
+    "jp:法務省告示582号別表第四:二:第2順位",
     "mj:法務省告示582号別表第四:一:第1順位",
     "mj:法務省告示582号別表第四:二:第1順位",
     "mj:法務省告示582号別表第四:一:第2順位",
@@ -383,8 +446,18 @@ my $PairedTypes = [];
     "manakai:alt",
     "manakai:related",
     "manakai:taboo",
+
+    "jp:「異字同訓」の漢字の使い分け例",
+    "jp:「異字同訓」の漢字の用法",
+    "jp:「異字同訓」の漢字の用法例",
+    "wikipedia:ja:同訓異字",
+    "manakai:doukun",
     
     "ucd:names:transliterated",
+
+    "unicode:from cp",
+    "unicode:to cp",
+    "csw:mapping:ksx1002",
 
     "opentype:ccmp",
     "opentype:ccmp:contextual",
@@ -415,7 +488,8 @@ my $PairedTypes = [];
     "mj:新しいMJ文字図形名",
 
     "manakai:private",
-    
+
+    "manakai:typo",
     "ucd:names:confused",
     "ucd:names:related",
     "ucd:names:x",
@@ -441,6 +515,7 @@ my $PairedTypes = [];
     $TypeWeight->{'rev:'.$vtype} = -1;
     $TypeMergeableWeight->{$vtype} = W 'COVERED';
   }
+  
   for my $vtype (
     "manakai:inset",
     "manakai:inset:original",
@@ -478,21 +553,25 @@ my $HasRelTos = {};
 my $RevRels = [];
 for (
   map {
-    [$_->{path}, $_->{rels_key} || 'variants',
+    [$_->{path}, $_->{rels_key} || '(none)',
      $_->{set_map} || {}, $_->{mv_map} || {}],
   } @{$Input->{inputs}},
 ) {
   my ($x, $rels_key, $setmap, $mvmap) = @$_;
   my $path = $DataPath->child ($x);
   print STDERR "\rLoading |$path|... ";
-  my $json = json_bytes2perl $path->slurp;
+  my $json = {};
+  if ($path =~ /\.json$/) {
+    $json = json_bytes2perl $path->slurp;
+  } else {
+    parse_rel_data_file $path->openr => $json;
+  }
   for my $c1 (keys %{$json->{$rels_key}}) {
     for my $c2 (keys %{$json->{$rels_key}->{$c1}}) {
       next if $c1 eq $c2;
       my $has = 0;
       for (keys %{$json->{$rels_key}->{$c1}->{$c2}}) {
           my $w = $TypeWeight->{$_} || 0;
-          next if $w == -404;
           $Rels->{$c1}->{$c2}->{$_} = $w;
           push @$RevRels, [$c1, $c2, $_, $w];
           $HasRels->{$_}->{$c1} = 1;

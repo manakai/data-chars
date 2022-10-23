@@ -3,10 +3,7 @@ use warnings;
 use utf8;
 use Path::Tiny;
 use JSON::PS;
-
-BEGIN {
-  require (path (__FILE__)->parent->parent->parent->child ('intermediate/vgen/chars.pl')->stringify);
-}
+BEGIN { require 'chars.pl' };
 
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
@@ -41,10 +38,11 @@ my $Data = {};
   my $json = json_bytes2perl $path->slurp;
   for my $data (@$json) {
     my $c1 = ':' . $data->{MJ文字図形名};
+    my $key = (is_han $c1 > 0) ? "hans" : "variants";
     
     if ($data->{X0212} =~ /^([0-9]+)-([0-9]+)$/) {
       my $c2 = sprintf ':jis2-%d-%d', $1, $2;
-      $Data->{hans}->{$c1}->{$c2}->{"mj:X0212"} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{"mj:X0212"} = 1;
       ## JIS X 0212-1990 [MJ]
     }
     if ($data->{X0213} =~ /^([0-9]+)-([0-9]+)-([0-9]+)$/) {
@@ -53,38 +51,38 @@ my $Data = {};
       unless ($data->{"X0213 包摂区分"} eq "0") {
         $suffix = ':' . $data->{"X0213 包摂区分"};
       }
-      $Data->{hans}->{$c1}->{$c2}->{"mj:X0213$suffix"} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{"mj:X0213$suffix"} = 1;
       ## JIS X 0213:2012 [MJ]
     }
 
     my $ivses = vs $data->{実装したMoji_JohoコレクションIVS};
     for (@$ivses) {
       my $type = 'mj:実装したMoji_JohoコレクションIVS';
-      $Data->{hans}->{$c1}->{$_}->{$type} = 1;
+      $Data->{$key}->{$c1}->{$_}->{$type} = 1;
       ## Unicode IVD 2017-12-12 Moji_Joho [MJ]
     }
     my $svses = vs $data->{実装したSVS};
     for (@$svses) {
       my $type = 'mj:実装したSVS';
-      $Data->{hans}->{$c1}->{$_}->{$type} = 1;
+      $Data->{$key}->{$c1}->{$_}->{$type} = 1;
       ## ISO/IEC 10646:2017 SVS [MJ]
     }
     
     my $impl_ucs = $data->{実装したUCS} ? ucs $data->{実装したUCS} : undef;
     if (defined $impl_ucs) {
       my $type = 'mj:実装したUCS';
-      $Data->{hans}->{$c1}->{$impl_ucs}->{$type} = 1;
+      $Data->{$key}->{$c1}->{$impl_ucs}->{$type} = 1;
     }
     my $ucs = $data->{対応するUCS} ? ucs $data->{対応するUCS} : undef;
     if (defined $ucs) {
       my $type = 'mj:対応するUCS';
-      $Data->{hans}->{$c1}->{$ucs}->{$type} = 1;
+      $Data->{$key}->{$c1}->{$ucs}->{$type} = 1;
       ## ISO/IEC 10646:2017 [MJ]
     }
     my $compat = $data->{対応する互換漢字} ? ucs $data->{対応する互換漢字} : undef;
     if (defined $compat) {
       my $type = 'mj:対応する互換漢字';
-      $Data->{hans}->{$c1}->{$compat}->{$type} = 1;
+      $Data->{$key}->{$c1}->{$compat}->{$type} = 1;
       ## ISO/IEC 10646:2017 [MJ]
     }
 
@@ -95,13 +93,13 @@ my $Data = {};
       if ((0xAA00 <= $cc2 and $cc2 <= 0xD7FF) or
           (0xFA2E <= $cc2 and $cc2 <= 0xFAFF)) {
         my $c2 = sprintf ':u-juki-%x', $cc2;
-        $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
+        $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
         insert_rel $Data,
             (u_chr $cc2), $c2, "manakai:private",
             "private";
       } else {
         my $c2 = u_chr $cc2;
-        $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
+        $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
       }
     } elsif (length $juki) {
       die $juki;
@@ -111,7 +109,7 @@ my $Data = {};
     if ($ns =~ /^0x([0-9A-Fa-f]+)$/) {
       my $type = 'mj:入管正字コード';
       my $c2 = u_chr hex $1;
-      $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
       ## 平成23年法務省告示第582号第二項 -> JIS X 0221 [MJ]
     } elsif (length $ns) {
       die $ns;
@@ -123,10 +121,10 @@ my $Data = {};
       my $cc2 = hex $1;
       if (0x3400 <= $cc2 and $cc2 <= 0x9FFF) {
         my $c2 = u_chr hex $1;
-        $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
+        $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
       } else {
         my $c2 = sprintf ':u-immi-%x', $cc2;
-        $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
+        $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
         insert_rel $Data,
             (u_chr $cc2), $c2, "manakai:private",
             "private";
@@ -146,7 +144,7 @@ my $Data = {};
   }
 }
 
-print perl2json_bytes_for_record $Data;
+print_rel_data $Data;
 
 ## License: Public Domain.
 

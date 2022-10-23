@@ -1,15 +1,31 @@
 ROOT_PATH = ../..
+VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 PERL = $(ROOT_PATH)/perl \
     -I$(ROOT_PATH)/bin/modules/json-ps/lib \
-    -I$(ROOT_PATH)/bin/modules/web-encodings/lib
+    -I$(ROOT_PATH)/bin/modules/web-encodings/lib -I$(VGEN_PATH)
 
-all: variants.json
+all: build
 
-variants.json: variants.pl \
-    $(ROOT_PATH)/data/maps.json \
-    $(ROOT_PATH)/data/sets.json \
+build-nightly: build
+
+build: variants.list maps.list sets.json
+
+variants.list: variants.pl $(VGEN_PATH)/chars.pl \
     $(ROOT_PATH)/src/han-variants.txt \
-    aggregated.json
+    $(ROOT_PATH)/src/doukun.txt
+	$(PERL) $< > $@
+
+maps.list: maps.pl $(VGEN_PATH)/chars.pl \
+    aribchars.txt \
+    aribothers.txt \
+    hngl.txt \
+    ak1.txt \
+    b5-map-*.txt \
+    ccciiv.txt ccciim.txt
+	$(PERL) $< > $@
+
+sets.json: sets.pl $(VGEN_PATH)/chars.pl \
+    $(ROOT_PATH)/data/sets.json
 	$(PERL) $< > $@
 
 ## License: Public Domain.

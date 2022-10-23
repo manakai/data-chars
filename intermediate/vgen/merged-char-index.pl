@@ -21,19 +21,69 @@ my $CharArray = [];
   print STDERR "\rAssigning... ";
   my $offset = {};
   my $next = 0;
-  $offset->{'u-immi-'} = ($next += 0x110000) - 0xE000;
-  $offset->{'u-juki-'} = ($next += 0xF000 - 0xE000) - 0xA000;
-  $offset->{'u-cns-'} = ($next += 0xFB00 - 0xA000) - 0xF0000;
-  $offset->{'u-gb-'} = ($next += 0x100000 - 0xF0000) - 0xE000;
-  $offset->{'u-bigfive-'} = ($next += 0xF900 - 0xE000) - 0xE000;
-  $next = 100000;
-  $offset->{$_} = ($next += 100000) for qw(MJ aj aj2- ac ag ak ak1- swc);
-  $offset->{jis} = ($next += 100000) - 1*94*94;
-  $offset->{gb} = ($next += 2*94*94);
-  $offset->{ks} = ($next += 5*94*94);
-  $offset->{kps} = ($next += 2*94*94);
-  $offset->{oldcns} = ($next += 1*94*94) - 14*94*94;
-  $offset->{cns} = ($next += 1*94*94) + 1*94*94;
+  for my $x (
+    ['u',          '',  0x0000, 0x10FFFF],
+    (map {
+      [(chr $_),   '',  0x3400,  0x3FFFF],
+    } 0xE0100..0xE0104), # IVSes
+    ['u-old-',     '',  0x3400,   0x4DFF],
+    ['u-immi-',    '',  0xE000,   0xEFFF],
+    ['u-juki-',    '',  0x0000,   0xFFFF],
+    ['u-cns-',     '', 0xF0000,  0xFFFFF],
+    ['u-gb-',      '',  0xE000,   0xF8FF],
+    ['u-bigfive-', '',  0xE000,   0xF8FF],
+    ['u-uka-',     '',  0xE000,   0xF73F],
+    ['u-ukb-',     '',  0xE53B,   0xF7D5],
+    ['u-arib-',    '',  0xE000,   0xF8FF],
+    ['u-kps-',     '',  0xF000,   0xF1FF],
+    ['u-ms-',      '',  0xE000,   0xF8FF],
+    ['u-mac-',     '',  0xE000,   0xF8FF],
+    ['jis1-',      '',       1,    (94+(0xFC-0xEF)*2)*94],
+    ['jis-dos-1-', '',       1,    (94+(0xFC-0xEF)*2)*94],
+    ['jis-mac-1-', '',       1,    (94+(0xFC-0xEF)*2)*94],
+    ['jis-arib-1-','',       1,    (94+(0xFC-0xEF)*2)*94],
+    ['jis2-',      '',       1,    94*94],
+    ['gb0-',       '',       1,    94*94],
+    ['gb1-',       '',       1,    94*94],
+    ['gb2-',       '',       1,    94*94],
+    ['gb4-',       '',       1,    94*94],
+    ['gb8-',       '',       1,    94*94],
+    ['gb20-',      '',       1,    94*94], # GK
+    ['ks0-',       '',       1,    94*94],
+    ['ks1-',       '',       1,    94*94],
+    ['kps0-',      '',       1,    94*94],
+    (map {
+      ['cccii'.$_.'-',  '',       1,    94*94],
+    } 1..94),
+    ['cns-old-14-','',       1,    94*94],
+    (map {
+      ['cns'.$_.'-',  '',       1,    94*94],
+    } 1..94), # 1 - 80
+    (map {
+      ['tron'.$_.'-',  '', 0x2121, 0xFDFD],
+    } 1, 9, 'old9', 10),
+    ['MJ',         '', 0000000,   999999],
+    ['aj',         '',       0,    99999],
+    ['aj2-',       '',       0,     6067],
+    ['ac',         '',       0,    99999],
+    ['ag',         '',       0,    99999],
+    ['ak',         '',       0,    99999],
+    ['ak1-',       '',       0,    18351],
+    ['UK-',        '',   00000,    99999],
+    ['b5-',        '',  0x8140,   0xFEFE],
+    ['b5-uao-',    '',  0x8140,   0xFEFE],
+    ['b5-hkscs-',  '',  0x8140,   0xFEFE],
+    ['u-uao-',     '',  0xE000,   0xF8FF],
+    ['u-hkscs-',   '',  0xE000,   0xF8FF],
+    ['u-loc-',     '',  0xE000,   0xF8FF],
+    ['swc',        '',       0,   999999],
+  ) {
+    $offset->{$x->[0]} = $next - $x->[2];
+    $next += $x->[3] - $x->[2] + 1;
+    #warn "$x->[0]\t@{[$offset->{$x->[0]}+$x->[2]]}\n";
+  }
+  # u-old- 0x00E00000 ... 0x00FFFFFF , 0x60000000 - 0x7FFFFFFF
+  die if $next > 0x00E00000;
   
   my $all = 0+keys %$MergedChars;
   my $current = 0;
@@ -50,20 +100,33 @@ my $CharArray = [];
     $n = ord $c;
   } elsif (2 == length $c) {
     my $cc2 = ord substr $c, 1;
-    if (0xE0100 <= $cc2) {
+    if ($c =~ /^[\x{3400}-\x{3FFFF}][\x{E0100}-\x{E0104}]$/) {
+      $n = $offset->{chr $cc2} + ord $c;
+    } elsif (0xE0100 <= $cc2) {
       $n = ((($cc2 - 0xE0100) % 8) + 4) * 0x10000 + ord $c;
     } else {
       $n = $cc2 + ord $c;
     }
   } elsif ($c =~ /^:u([0-9a-f]+)/) {
     $n = hex $1;
+  } elsif ($c =~ /^:(u-old-)([0-9a-f]+)$/) {
+    my $cc = hex $2;
+    if ($cc <= 0x10FFFF) {
+      $n = ($offset->{$1} // 0xA00000) + hex $2;
+    } else {
+      $n = $cc;
+    }
   } elsif ($c =~ /^:(u-[a-z]+-)([0-9a-f]+)/) {
-    $n = $offset->{$1} + hex $2;
-  } elsif ($c =~ /\A:([A-Za-z]+|[A-Za-z]+[0-9]+-)([0-9]+)$/) {
-    $n = ($offset->{$1} // 0xD0000) + $2;
-  } elsif ($c =~ /\A:([A-Za-z]+)([0-9]+)-([0-9]+)-([0-9]+)/) {
-    $n = $2*94*94 + ($3-1)*94 + ($4-1);
-    $n = ($offset->{$1} // 0xD0000) + $n;
+    $n = ($offset->{$1} // 0xA00000) + hex $2;
+  } elsif ($c =~ /^:(b5-)([0-9a-f]+)/) {
+    $n = ($offset->{$1} // 0xA00000) + hex $2;
+  } elsif ($c =~ /^:(b5-[a-z]+-)([0-9a-f]+)/) {
+    $n = ($offset->{$1} // 0xA00000) + hex $2;
+  } elsif ($c =~ /\A:([A-Za-z]+-?|[A-Za-z]+[0-9]+-)([0-9]+)$/) {
+    $n = ($offset->{$1} // 0xA00000) + $2;
+  } elsif ($c =~ /\A:([A-Za-z]+(?:-[a-z]+-|)[0-9]+-)([0-9]+)-([0-9]+)/) {
+    $n = ($2-1)*94 + ($3-1);
+    $n = ($offset->{$1} // 0xA00000) + $n;
   } elsif ($c =~ /\A:(.)/) {
     $n = ord $1;
   } elsif (length $c) {
