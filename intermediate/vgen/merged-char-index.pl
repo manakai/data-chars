@@ -85,6 +85,11 @@ my $CharArray = [];
     ['jisx0201-ocrk-','', 0x00,     0xFF],
     ['jisx0201-ocrhk-','',0x00,     0xFF],
     ['wakan',      '',       0,(0x93-0x41)*10],
+    ['arib-30-',   '',    0x21,     0x7E],
+    ['arib-31-',   '',    0x21,     0x7E],
+    ['arib-36-',   '',    0x21,     0x7E],
+    ['arib-37-',   '',    0x21,     0x7E],
+    ['arib-38-',   '',    0x21,     0x7E],
     ['swc',        '',       0,   999999],
   ) {
     $offset->{$x->[0]} = $next - $x->[2];
@@ -108,16 +113,16 @@ my $CharArray = [];
     if (1 == length $c) {
       $n = ord $c;
     } elsif (2 == length $c) {
-    my $cc2 = ord substr $c, 1;
-    if ($c =~ /^[\x{3400}-\x{3FFFF}][\x{E0100}-\x{E0104}]$/) {
-      $n = $offset->{chr $cc2} + ord $c;
-    } elsif (0xE0100 <= $cc2) {
-      $n = ((($cc2 - 0xE0100) % 8) + 4) * 0x10000 + ord $c;
-    } else {
-      $n = $cc2 + ord $c;
-    }
-  } elsif ($c =~ /^:u([0-9a-f]+)/) {
-    $n = hex $1;
+      my $cc2 = ord substr $c, 1;
+      if ($c =~ /^[\x{3400}-\x{3FFFF}][\x{E0100}-\x{E0104}]$/) {
+        $n = $offset->{chr $cc2} + ord $c;
+      } elsif (0xE0100 <= $cc2) {
+        $n = ((($cc2 - 0xE0100) % 8) + 4) * 0x10000 + ord $c;
+      } else {
+        $n = $cc2 + ord $c;
+      }
+    } elsif ($c =~ /^:u([0-9a-f]+)/) {
+      $n = hex $1;
   } elsif ($c =~ /^:(u-old-)([0-9a-f]+)$/) {
     my $cc = hex $2;
     if ($cc <= 0x10FFFF) {
@@ -125,26 +130,44 @@ my $CharArray = [];
     } else {
       $n = $cc;
     }
-  } elsif ($c =~ /^:(u-[a-z]+-|b5-(?:[a-z]+-|)|tron[0-9]+-|jisx0201-(?:[a-z]+-|))([0-9a-f]+)/) {
+  } elsif ($c =~ /^:(u-[a-z]+-|b5-(?:[a-z]+-|)|tron[0-9]+-|jisx0201-(?:[a-z]+-|)|arib-3[01678]-)([0-9a-f]+)/) {
     $n = ($offset->{$1} // 0xA00000) + hex $2;
   } elsif ($c =~ /\A:(ninjal)([0-9]{2})([0-9]{3})([0-9]{4})\z/) {
     $n = $offset->{$1} + $2 * 100 + $3 * 10 + $4;
   } elsif ($c =~ /\A:([A-Za-z]+-?|[A-Za-z]+[0-9]+-)([0-9]+)$/) {
     $n = ($offset->{$1} // 0xA00000) + $2;
-  } elsif ($c =~ /\A:(a[a-z])([0-9]+):a[a-z]([0-9]+)$/) {
+  } elsif ($c =~ /\A:(a[a-z]|ak1-)([0-9]+):(?:a[a-z]|ak1-)([0-9]+)$/) {
     $n = ($offset->{$1} // 0xA00000) + $2 + $3;
-  } elsif ($c =~ /\A:(a[a-z])([0-9]+):a[a-z]([0-9]+):a[a-z]([0-9]+)$/) {
+  } elsif ($c =~ /\A:(a[a-z]|ak1-)([0-9]+):(?:a[a-z]|ak1-)([0-9]+):(?:a[a-z]|ak1-)([0-9]+)$/) {
     $n = ($offset->{$1} // 0xA00000) + $2 + $3 + $4;
+  } elsif ($c =~ /\A:(a[a-z]|ak1-)([0-9]+):(?:a[a-z]|ak1-)([0-9]+):(?:a[a-z]|ak1-)([0-9]+):(?:a[a-z]|ak1-)([0-9]+)/) {
+    $n = ($offset->{$1} // 0xA00000) + $2 + $3 + $4 + $5;
   } elsif ($c =~ /\A:([A-Za-z]+(?:-[a-z]+-|)[0-9]+-)([0-9]+)-([0-9]+)/) {
     $n = ($2-1)*94 + ($3-1);
     $n = ($offset->{$1} // 0xA00000) + $n;
   } elsif ($c =~ /\A:(wakan)-(\p{sc=Hiragana})(\d\d)\d\z/) {
     $n = $offset->{$1} + ((ord $2) - 0x3042) * 10 + $3;
-  } elsif ($c =~ /\A:(.)/) {
-    $n = ord $1;
-  } elsif (length $c) {
-    $n = ord $c;
-  }
+  } elsif ($c =~ /\A([\x{1100}-\x{11FF}])([\x{1100}-\x{11FF}])$/) {
+    $n = 0xA0000 + ((ord $1) - 0x1100) * 0x100 + (ord $2) - 0x1100;
+  } elsif ($c =~ /\A([\x{1100}-\x{11FF}])([\x{1100}-\x{11FF}])([\x{1100}-\x{11FF}])$/) {
+    $n = 0xA0000 + ((ord $1) - 0x1100) * 0x10000 +
+                   ((ord $2) - 0x1100) * 0x100 +
+                    (ord $3) - 0x1100;
+    } elsif ($c =~ /\A([^:])(.)$/) {
+      $n = (ord $1) + (ord $2);
+    } elsif ($c =~ /\A([^:])(.)(.)/) {
+      $n = (ord $1) + (ord $2) + (ord $3);
+    } elsif ($c =~ /\A([^:])(.)(.)(.)/) {
+      $n = (ord $1) + (ord $2) + (ord $3) + (ord $4);
+    } elsif ($c =~ /\A([^:])(.)(.)(.)(.)/) {
+      $n = (ord $1) + (ord $2) + (ord $3) + (ord $4) + (ord $5);
+    } elsif ($c =~ /\A:(?:wmc?|csw|cjkvi):(.)/) {
+      $n = 0xB0000 + ord $1;
+    } elsif ($c =~ /\A:(.)/) {
+      $n = ord $1;
+    } elsif (length $c) {
+      $n = ord $c;
+    }
 
     if (not defined $CharArray->[$n]) {
       $CharArray->[$n] = $c;

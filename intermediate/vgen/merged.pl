@@ -26,7 +26,6 @@ $Data->{key} = $Input->{key};
     {key => 'UNIFIED', label => 'Unified', min_weight => 600},
     {key => 'EQUIV', label => 'Equivalent', min_weight => 500},
     {key => 'COVERED', label => 'Covered', min_weight => 400},
-    {key => 'OVERLAP', label => 'Overlapping', min_weight => 300},
     {key => 'RELATED', label => 'Related', min_weight => 200},
     {key => 'LINKED', label => 'Linked', min_weight => 100},
   ];
@@ -447,6 +446,14 @@ my $NTypes = [];
 
   ## OVERLAP: Characters share many important characteristics such
   ## that there are many cases one can be replaced by another.
+  #for my $vtype (
+  #) {
+  #  $TypeWeight->{$vtype} = W 'OVERLAP';
+  #  $TypeWeight->{'rev:'.$vtype} = -1;
+  #}
+
+  ## RELATED: They share some of characteristics such that in some
+  ## case a character may be replaced by another.
   for my $vtype (
     "mj:辞書類等による関連字",
     "mj:読み・字形による類推",
@@ -467,14 +474,7 @@ my $NTypes = [];
     "cjkvi:cjkvi/radical-variant:top",
 
     "manakai:variant",
-  ) {
-    $TypeWeight->{$vtype} = W 'OVERLAP';
-    $TypeWeight->{'rev:'.$vtype} = -1;
-  }
-
-  ## RELATED: They share some of characteristics such that in some
-  ## case a character may be replaced by another.
-  for my $vtype (
+    
     "jp:法務省告示582号別表第四:一:第1順位",
     "jp:法務省告示582号別表第四:二:第1順位",
     "jp:法務省告示582号別表第四:一:第2順位",
