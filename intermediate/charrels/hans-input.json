@@ -186,5 +186,8 @@
       "label": "韓國",
       "lang_tag": "ko-KR"
     }
+  ],
+  "tests": [
+    "hans-tests.txt"
   ]
 }

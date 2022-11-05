@@ -7,7 +7,10 @@ GIT = git
 PERL = ./perl
 SAVEURL = curl -fL -o
 
-updatenightly: update-submodules dataautoupdate
+updatenightly: update-submodules dataautoupdate build-generated-git-commish
+
+build-generated-git-commish:
+	cd local/generated && $(MAKE) build-git-commish
 
 update-submodules:
 	$(CURL) https://gist.githubusercontent.com/motemen/667573/raw/git-submodule-track | sh
@@ -16,8 +19,13 @@ update-submodules:
 	$(GIT) add config
 	$(CURL) -sSLf https://raw.githubusercontent.com/wakaba/ciconfig/master/ciconfig | RUN_GIT=1 REMOVE_UNUSED=1 perl
 
-dataautoupdate: clean deps build-nightly all
+dataautoupdate: clean deps build-nightly all build-git-add
+
+build-git-add: build-generated-git-add
 	$(GIT) add data/ src/ intermediate view
+
+build-generated-git-add:
+	cd local/generated && $(MAKE) build-git-add
 
 ## ------ Setup ------
 
@@ -623,9 +631,9 @@ data/seqs.json: bin/seqs.pl \
 data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
 
-build-nightly: build-nigjhtly-iu
+build-nightly: local/generated build-nigjhtly-iu
 
-build-github-pages: build-pages-iu
+build-github-pages: local/generated build-pages-iu
 	rm -fr ./bin/ ./modules/ ./t_deps/
 
 build-nightly-iu: deps data/maps.json
@@ -639,6 +647,9 @@ build-nightly-iu: deps data/maps.json
 build-pages-iu: deps
 	cd intermediate/charrels && $(MAKE) build-pages
 	cd intermediate/variants && $(MAKE) build-pages
+
+local/generated:
+	$(GIT) clone https://github.com/manakai/generated-data-chars $@ || (cd $@ && $(GIT) pull)
 
 ## ------ Tests ------
 

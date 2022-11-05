@@ -4,35 +4,26 @@ PERL5OPTS =  \
     -I$(ROOT_PATH)/bin/modules/web-encodings/lib
 PERL = $(ROOT_PATH)/perl $(PERL5OPTS)
 VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
+VGEN_DATA_PATH = $(ROOT_PATH)/local/generated/charrels
 
-all: build-vgen
+all: _build-all
 
-build-nightly: build-vgen-nightly
-build-pages: build-vgen-pages
+build-nightly: _build-all
+build-pages: _build-all
 
-VGEN_MERGED_INPUTS = input.json \
-    ../unicode/variants.json \
-    ../unicode/variants2.list \
-    ../unicode/namesrefs.list \
-    ../unicode/maps.list \
-    ../unicode/maps2.list \
-    ../unicode/maps3.list \
-    ../mj/maps.list \
-    ../mj/fmaps.list \
-    ../cns/maps.list \
-    ../cns/maps2.list \
-    ../mozilla/maps.list \
-    ../whatwg/maps.list \
-    ../perl/maps.list \
-    ../loc/maps.list \
-    ../adobe/maps.list \
-    ../cjkvi/variants.list \
-    ../wiki/maps.list \
-    ../misc/maps.list \
-    ../misc/variants.list
+_build-all: build-chars build-kanas build-kchars build-hans
 
-build-vgen build-vgen-nightly build-vgen-pages test perl-test:: %:
-	$(MAKE) -f $(VGEN_PATH)/Makefile.vgen $@ \
-	    VGEN_MERGED_INPUTS="$(VGEN_MERGED_INPUTS)"
+build-chars:
+	$(PERL) $(VGEN_PATH)/generate.pl chars-input.json
+	cd $(VGEN_DATA_PATH)/chars/ && $(MAKE) all test
+build-kanas:
+	$(PERL) $(VGEN_PATH)/generate.pl kanas-input.json
+	cd $(VGEN_DATA_PATH)/kanas/ && $(MAKE) all test
+build-kchars:
+	$(PERL) $(VGEN_PATH)/generate.pl kchars-input.json
+	cd $(VGEN_DATA_PATH)/kchars/ && $(MAKE) all test
+build-hans:
+	$(PERL) $(VGEN_PATH)/generate.pl hans-input.json
+	cd $(VGEN_DATA_PATH)/hans/ && $(MAKE) all test
 
 ## License: Public Domain.

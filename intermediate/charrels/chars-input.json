@@ -1,91 +1,84 @@
 {
-  "key": "kchars",
+  "key": "chars",
   "inputs": [
     {
       "path": "../unicode/variants.json",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../unicode/variants2.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../unicode/namesrefs.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../unicode/maps.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../unicode/maps2.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../unicode/maps3.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../mj/maps.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../mj/fmaps.list",
-      "rels_key": "kchars"
-    },
-    {
-      "path": "../jp/variants.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../cns/maps.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../cns/maps2.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../mozilla/maps.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../whatwg/maps.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../perl/maps.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../loc/maps.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../adobe/maps.list",
-      "rels_key": "kchars"
-    },
-    {
-      "path": "../opencc/variants.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../cjkvi/variants.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../wiki/maps.list",
-      "rels_key": "kchars"
-    },
-    {
-      "path": "../misc/maps.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
     },
     {
       "path": "../misc/variants.list",
-      "rels_key": "kchars"
+      "rels_key": "variants"
+    },
+    {
+      "path": "../misc/maps.list",
+      "rels_key": "variants"
     }
   ],
-  "leader_types": [
+  "tests": [
+    "chars-tests.txt"
   ]
 }
