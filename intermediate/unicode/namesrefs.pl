@@ -224,7 +224,7 @@ unicode:security:intentional
       kana:h2k          kana
       kana:k2h          kana
       kana:large        kana
-      kana:normalize    kana
+      kana:normalize    autok
       kana:small        kana
     )}->{$key} || 'auto';
     for my $in (keys %{$def->{char_to_char} or {}}) {

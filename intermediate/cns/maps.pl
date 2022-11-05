@@ -12,6 +12,7 @@ my $TempPath = $RootPath->child ('local/icns');
 my $Data1 = {};
 my $Data2 = {};
 my $IsHan = {};
+my $IsKana = {};
 
 for (
   ['cns-0.txt'],
@@ -34,13 +35,20 @@ for (
         if ($plane >= 3 or
             ($c1 =~ /^:cns1-/ and $c2 =~ /^:u-cns-f[^9][0-9a-f]{3}$/)) {
           $key = 'hans';
+        } elsif (is_kana $c1 > 0) {
+          $key = 'kanas';
+          $IsKana->{$c1} = 1;
         }
         $data->{$key}->{$c1}->{$c2}->{'cns:unicode'} = 1;
         $data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       } else {
-        my $key = 'variants';
-        if (is_han $c2 > 0) {
-          $key = 'hans';
+        my $key = get_vkey $c2;
+        if (is_kana $c1 > 0) {
+          $key = 'kanas';
+        }
+        if ($key eq 'kanas') {
+          $IsKana->{$c1} = 1;
+        } elsif ($key eq 'hans') {
           $IsHan->{$c1} = 1;
         }
         $data->{$key}->{$c1}->{$c2}->{'cns:unicode'} = 1;
@@ -66,6 +74,8 @@ for (
       my $key = 'variants';
       if ($IsHan->{$c1}) {
         $key = 'hans';
+      } elsif ($IsKana->{$c1} or is_kana $c1 > 0) {
+        $key = 'kanas';
       }
       my $data = $plane >= 10 ? $Data2 : $Data1;
       $data->{$key}->{$c1}->{$c2}->{'cns:big5'.$suffix} = 1;

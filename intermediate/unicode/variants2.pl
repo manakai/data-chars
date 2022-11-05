@@ -22,7 +22,7 @@ for (split /\x0D?\x0A/, $path->slurp) {
       s/<.+//;
       if (/^U\+([0-9A-F]+)$/) {
         my $c2 = chr hex $1;
-        my $key = is_han $c1 > 0 ? 'hans' : 'variants';
+        my $key = get_vkey $c1;
         $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
       } else {
         die "Bad char |$_|";
@@ -39,7 +39,7 @@ for (split /\x0D?\x0A/, $path->slurp) {
     } elsif (/^([0-9A-F]+) ([0-9A-F]+);/) {
       my $c1 = chr hex $1;
       my $c2 = chr hex $2;
-      my $key = is_han $c1 > 0 ? 'hans' : 'variants';
+      my $key = get_vkey $c1;
       $Data->{$key}->{$c1.$c2}->{$c1}->{"ivd:base"} = 1;
     } elsif (/\S/) {
       die "Bad line |$_|";

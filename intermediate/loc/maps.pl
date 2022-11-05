@@ -37,10 +37,10 @@ my $IsHan = {};
       #$_->[0], $_->[1]+0x20, $_->[2]+0x20, $_->[3];
     } else {
       my $c1 = sprintf ":cccii%d-%d-%d", $_->[0], $_->[1], $_->[2];
-      my $c2 = chr $_->[3];
+      my $c2 = u_chr $_->[3];
       my $c2_0 = $c2;
-      my $key = 'variants';
-      $key = 'hans' if is_han $c2 > 0;
+      my $key = get_vkey $c2;
+      $key = 'kanas' if is_kana $c1 > 0;
       $IsHan->{$c1} = 1 if $key eq 'hans';
       if (is_private $c2) {
         $c2 = sprintf ':u-loc-%x', ord $c2;
@@ -55,6 +55,7 @@ my $IsHan = {};
     my $c2 = sprintf ':cccii%d-%d-%d', $_->[3], $_->[4], $_->[5];
     die if $_->[3] == 95;
     my $key = 'variants';
+      $key = 'kanas' if is_kana $c1 > 0 or is_kana $c2 > 0;
     $key = 'hans' if $IsHan->{$c1} or $IsHan->{$c2};
     $Data->{$key}->{$c1}->{$c2}->{'marc:'.$_->[6]} = 1;
   }
@@ -81,10 +82,11 @@ my $IsHan = {};
       die;
     } else {
       my $c1 = sprintf ":cccii%d-%d-%d", $_->[0], $_->[1], $_->[2];
-      my $c2 = chr $_->[3];
+      my $c2 = u_chr $_->[3];
       my $c2_0 = $c2;
-      my $key = 'variants';
-      $key = 'hans' if $IsHan->{$c1} or is_han $c2 > 0;
+      my $key = get_vkey $c2;
+      $key = 'kanas' if is_kana $c1 > 0;
+      $key = 'hans' if $IsHan->{$c1};
       $IsHan->{$c1} = 1 if $key eq 'hans';
       if (is_private $c2) {
         $c2 = sprintf ':u-loc-%x', ord $c2;

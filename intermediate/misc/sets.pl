@@ -15,6 +15,8 @@ my $Data = {};
   for (
     ['$kanji:jouyou-1981' => 'jouyou_s56'],
     ['$kanji:jimmei-1997' => 'jinmei_h9'],
+    ['$kana:kana-modern-seion' => 'kana_modern_large'],
+    ['$kana:kana-modern-small' => 'kana_modern_small'],
   ) {
     my ($key1, $key2) = @$_;
     my $chars = $json->{sets}->{$key1}->{chars};
@@ -37,6 +39,15 @@ my $Data = {};
       }
     }
     die $chars if length $chars;
+  }
+}
+for my $key (qw(
+  kana_modern_large kana_modern_small
+)) {
+  my @key = keys %{$Data->{sets}->{$key}};
+  for (@key) {
+    $Data->{sets}->{$key}->{$_ . "\x{3099}"} = 1;
+    $Data->{sets}->{$key}->{$_ . "\x{309A}"} = 1;
   }
 }
 

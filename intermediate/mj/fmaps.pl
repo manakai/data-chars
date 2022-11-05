@@ -43,7 +43,7 @@ my $Data = {};
         $tt .= ':' . $_->{ホップ数} if defined $_->{ホップ数} and
             $_->{ホップ数} > 1;
         my $c1 = ":$mj";
-        my $key = is_han $c1 > 0 ? "hans" : "variants";
+        my $key = get_vkey $c1;
         $Data->{$key}->{$c1}->{$uc}->{$tt} = 1;
 
         if ($_->{"JIS X 0213"} =~ m{^([0-9]+)-([0-9]+)-([0-9]+)$}) {

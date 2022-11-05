@@ -116,6 +116,9 @@ for (
         $c2 = sprintf ':cjkvi:u%x', ord $c2;
         $Data->{hans}->{$c1}->{$c2}->{$vtype} = 1;
         $Data->{hans}->{$c2_1}->{$c2}->{'manakai:private'} = 1;
+      } elsif ($vtype =~ /non-cjk|non-cognate/ and is_kana $c2 > 0) {
+        my $key = 'kanas';
+        $Data->{$key}->{$c1}->{$c2}->{$vtype} = 1;
       } else {
         insert_rel $Data,
             $c1, $c2, $vtype,

@@ -39,7 +39,7 @@ my $PUA = {};
       my $u = hex $2;
       my $p = $1;
       my ($b1, $b2) = p2b $p;
-      push @$B5, [$b1, $b2, chr $u];
+      push @$B5, [$b1, $b2, u_chr $u];
     } elsif (/^\s*#/) {
       #
     } elsif (/\S/) {
@@ -58,8 +58,7 @@ my $PUA = {};
     my $c1_0 = $c1;
     $c1_0 =~ s/^:b5-hkscs-/:b5-/g;
     my $c2 = $_->[2];
-    my $key = 'variants';
-    $key = 'hans' if is_han $c2 > 0;
+    my $key = get_vkey $c2;
     my $c2_0 = $c2;
     if (is_private $c2) {
       die;

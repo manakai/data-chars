@@ -7,6 +7,16 @@ License of the Wikipedia articles:
 <https://zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC>
 (CC-BY-SA).
 
+* Wiktionary data files
+
+Some of data in this director derived from Wiktionary articles.
+
+License of the Wiktionary articles:
+
+> Text is available under the Creative Commons Attribution-ShareAlike
+> License <https://creativecommons.org/licenses/by-sa/3.0/>;
+> additional terms may apply.
+
 * Charset Wiki data files
 
 Some of data in this directory derived from Character Set Wiki (문자
@@ -18,3 +28,19 @@ License of the Character Set Wiki articles:
 
 > 이 커뮤니티의 콘텐츠는 별다른 언급이 없는 한 CC-BY-SA 라이선스하에
 > 배포됩니다.
+
+* GlyphWiki data files
+
+Some of data in this directory derived from GlyphWiki articles.
+
+License of the GlyphWiki articles:
+
+<https://glyphwiki.org/wiki/GlyphWiki:%e3%83%87%e3%83%bc%e3%82%bf%e3%83%bb%e8%a8%98%e4%ba%8b%e3%81%ae%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9>:
+
+> グリフウィキに登録されているグリフデータおよび記事は、誰もが自由に利
+> 用できることとします。あらゆる改変の有無に関わらず、また商業的な利用
+> であっても、自由に利用、複製、再配布することができます。著作者表示も
+> 特に制限を設けません。新しいフォントのベースデータとして用いることや、
+> そのままコピーしたものをフォントとして著作物とすることを妨げません。
+> 記事中に引用されている部分については、グリフウィキには著作権はありま
+> せんので引用元のライセンスを確認してください。

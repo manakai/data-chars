@@ -124,7 +124,7 @@ my $Rels = {};
   }
 }
 
-my $TableMeta = {others => $Others};
+my $TableMeta = {tables => [], others => $Others};
 {
   my $path = $DataPath->child ('tbl-clusters.dat');
   my $file = $path->openw;

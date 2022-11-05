@@ -1,0 +1,91 @@
+{
+  "key": "kchars",
+  "inputs": [
+    {
+      "path": "../unicode/variants.json",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/variants2.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/namesrefs.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps2.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps3.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../jp/variants.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../cns/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../cns/maps2.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mozilla/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../whatwg/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../perl/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../loc/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../adobe/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../opencc/variants.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../cjkvi/variants.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../wiki/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../misc/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../misc/variants.list",
+      "rels_key": "kchars"
+    }
+  ],
+  "leader_types": [
+  ]
+}

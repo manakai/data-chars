@@ -35,9 +35,9 @@ my $IsHan = {};
       my $c1 = $1 ? (sprintf ':jis%d-%d-%d', $1, $2, $3) :
                     (sprintf ':jis-arib-1-%d-%d', $2, $3);
       my $c1_0 = sprintf ':jis1-%d-%d', $2, $3;
-      my $c2 = chr hex $4;
-      my $key = 'variants';
-      $key = 'hans' if is_han $c2 or $IsHan->{$1, $2, $3} or is_han $c1;
+      my $c2 = u_chr hex $4;
+      my $key = get_vkey $c2;
+      $key = 'hans' if $IsHan->{$1, $2, $3} or is_han $c1;
       my $c2_0 = $c2;
       if (is_private $c2) {
         $c2 = sprintf ':u-arib-%x', ord $c2;
@@ -60,7 +60,7 @@ my $IsHan = {};
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/^(\d+)-(\d+)\t(->|)([0-9A-F]+) # (JIS X 0221|ISO\/IEC 10646)$/) {
       my $c1 = sprintf ':jis-arib-1-%d-%d', $1, $2;
-      my $c2 = chr hex $4;
+      my $c2 = u_chr hex $4;
       my $key = 'hans';
       my $rel_type = $5 eq 'JIS X 0221' ? 'arib:jisx0221'
                                         : 'arib:isoiec10646';
@@ -69,8 +69,8 @@ my $IsHan = {};
     } elsif (/^(\d+)-(\d+)\t([0-9A-F]+)\t=\t(\d+)-(\d+)\t([0-9A-F]+)$/) {
       my $c1 = sprintf ':jis-arib-1-%d-%d', $1, $2;
       my $c2 = sprintf ':jis-arib-1-%d-%d', $4, $5;
-      my $c3 = chr hex $3;
-      my $c4 = chr hex $6;
+      my $c3 = u_chr hex $3;
+      my $c4 = u_chr hex $6;
       $c3 = sprintf ':u-arib-%x', ord $c3 if is_private $c3;
       $c4 = sprintf ':u-arib-%x', ord $c4 if is_private $c4;
       my $key = ($1 < 90 or is_han $c4 or $IsHan->{$c4}) ? 'hans' : 'variants';
@@ -89,7 +89,7 @@ my $IsHan = {};
     if (/^0-(\d+)-(\d+)\t(.+)$/) {
       my $c1 = sprintf ':jis-arib-1-%d-%d', $1, $2;
       for (split / /, $3) {
-        my $c2 = chr hex $_;
+        my $c2 = u_chr hex $_;
         my $key = 'variants';
         $key = 'hans' if $IsHan->{$c1};
         if (is_private $c2) {
@@ -101,6 +101,75 @@ my $IsHan = {};
     } elsif (/\S/) {
       die $_;
     }
+  }
+}
+{
+  ## ARIB proportional alphanumeric (F = 3/6, a variant of JIS X 0201)
+  for (0x21..0x7E) {
+    my $c1 = sprintf ':arib-%x-%x', 0x36, $_;
+    my $c2 = u_chr ($_ == 0x5C ? 0xA5 : $_); # 0x7E = U+007E
+    my $rel_type = 'arib:proportional';
+    my $key = get_vkey $c2;
+    $Data->{$key}->{$c2}->{$c1}->{$rel_type} = 1;
+  }
+
+  ## ARIB Hiragana (F = 3/0), ARIB proportional Hiragana (F = 3/7)
+  for (0x21..0x73) {
+    my $c1 = sprintf ':arib-%x-%x', 0x30, $_;
+    my $c1_2 = sprintf ':arib-%x-%x', 0x37, $_;
+    my $c2 = sprintf ':jis1-%d-%d', 4, $_ - 0x20;
+    my $rel_type = 'manakai:same';
+    my $key = 'kanas';
+    $Data->{$key}->{$c2}->{$c1}->{$rel_type} = 1;
+    $Data->{$key}->{$c1}->{$c1_2}->{'arib:proportional'} = 1;
+  }
+  for (0x77..0x7E) {
+    use utf8;
+    my $c1 = sprintf ':arib-%x-%x', 0x30, $_;
+    my $c1_2 = sprintf ':arib-%x-%x', 0x37, $_;
+    my $c2 = {
+      0x77, "ゝ",
+      0x78, "ゞ",
+      0x79, "ー",
+      0x7A, "。",
+      0x7B, "「",
+      0x7C, "」",
+      0x7D, "、",
+      0x7E, "・",
+    }->{$_};
+    my $rel_type = 'manakai:same';
+    my $key = get_vkey $c2;
+    $Data->{$key}->{$c2}->{$c1}->{$rel_type} = 1;
+    $Data->{$key}->{$c1}->{$c1_2}->{'arib:proportional'} = 1;
+  }
+  ## ARIB Katakana (F = 3/1), ARIB proportional Katakana (F = 3/8)
+  for (0x21..0x76) {
+    my $c1 = sprintf ':arib-%x-%x', 0x31, $_;
+    my $c1_2 = sprintf ':arib-%x-%x', 0x38, $_;
+    my $c2 = sprintf ':jis1-%d-%d', 5, $_ - 0x20;
+    my $rel_type = 'manakai:same';
+    my $key = 'kanas';
+    $Data->{$key}->{$c2}->{$c1}->{$rel_type} = 1;
+    $Data->{$key}->{$c1}->{$c1_2}->{'arib:proportional'} = 1;
+  }
+  for (0x77..0x7E) {
+    use utf8;
+    my $c1 = sprintf ':arib-%x-%x', 0x31, $_;
+    my $c1_2 = sprintf ':arib-%x-%x', 0x38, $_;
+    my $c2 = {
+      0x77, "ヽ",
+      0x78, "ヾ",
+      0x79, "ー",
+      0x7A, "。",
+      0x7B, "「",
+      0x7C, "」",
+      0x7D, "、",
+      0x7E, "・",
+    }->{$_};
+    my $rel_type = 'manakai:same';
+    my $key = get_vkey $c2;
+    $Data->{$key}->{$c2}->{$c1}->{$rel_type} = 1;
+    $Data->{$key}->{$c1}->{$c1_2}->{'arib:proportional'} = 1;
   }
 }
 
@@ -148,12 +217,11 @@ for (
       for (split / /, $2) {
         my $c2 = join '', map { chr hex $_ } split /:/, $_;
 
-        my $key = 'variants';
+        my $key = get_vkey $c2;
         if ($c2 =~ /^\p{Ideographic_Description_Characters}/) {
           $c2 = ":" . $c2;
           $key = 'hans';
         }
-        $key = 'hans' if is_han $c2 > 0;
         $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
       }
     } elsif (/\S/) {
@@ -168,12 +236,12 @@ for (
   for (split /\n/, $path->slurp) {
     if (/^([0-9]+)-([0-9]+)-([0-9]+)\t([0-9A-F]+(?: [0-9A-F]+)*)$/) {
       my $c1 = sprintf ':cccii%d-%d-%d', $1, $2, $3;
-      $c1 = chr ($2 * 0x100 + $3) if $1 == 95;
+      $c1 = u_chr ($2 * 0x100 + $3) if $1 == 95;
       my $cs = $4;
       for (split / /, $cs) {
-        my $c2 = chr hex $_;
-        my $key = 'variants';
-        $key = 'hans' if is_han $c2 > 0;
+        my $c2 = u_chr hex $_;
+        my $key = get_vkey $c2;
+        $key = 'kanas' if is_kana $c1 > 0;
         die if is_private $c2;
         $Data->{$key}->{$c1}->{$c2}->{'manakai:related'} = 1;
       }
@@ -187,9 +255,9 @@ for (
   for (split /\n/, $path->slurp) {
     if (/^([0-9]+)-([0-9]+)-([0-9]+)\t([0-9]+)-([0-9]+)-([0-9]+)$/) {
       my $c1 = sprintf ':cccii%d-%d-%d', $1, $2, $3;
-      $c1 = chr ($2 * 0x100 + $3) if $1 == 95;
+      $c1 = u_chr ($2 * 0x100 + $3) if $1 == 95;
       my $c2 = sprintf ':cccii%d-%d-%d', $4, $5, $6;
-      $c2 = chr ($5 * 0x100 + $6) if $4 == 95;
+      $c2 = u_chr ($5 * 0x100 + $6) if $4 == 95;
       die if is_private $c1 or is_private $c2;
       my $key = 'hans';
       my $rel_type = 'manakai:related';
@@ -199,6 +267,38 @@ for (
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/\S/) {
       die $_;
+    }
+  }
+}
+
+{
+  ## <https://wiki.suikawiki.org/n/TRON%E3%82%B3%E3%83%BC%E3%83%89>
+  my $path = $ThisPath->child ('tron-kana.txt');
+  for (split /\n/, $path->slurp_utf8) {
+    if (/^([sk]) (\S+) (\S+)$/) {
+      my $ref_type = {
+        s => 'kana:origin',
+        k => 'kana:modern',
+      }->{$1};
+      my $c1 = $2;
+      my $c2 = $3;
+      $Data->{kanas}->{$c1}->{$c2}->{$ref_type} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
+{
+  my $path = $ThisPath->child ('kana.txt');
+  for (split /\n/, decode_web_utf8 $path->slurp) {
+    my @v = split /\t/, $_;
+    if ($v[0] eq "~") {
+      $Data->{kanas}->{$v[1]}->{$v[2]}->{'manakai:unified'} = 1;
+    } elsif ($v[0] eq "<-") {
+      $Data->{kanas}->{$v[1]}->{$v[2]}->{'kana:origin'} = 1;
+    } else {
+      die $v[0];
     }
   }
 }

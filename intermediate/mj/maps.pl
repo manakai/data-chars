@@ -38,7 +38,7 @@ my $Data = {};
   my $json = json_bytes2perl $path->slurp;
   for my $data (@$json) {
     my $c1 = ':' . $data->{MJ文字図形名};
-    my $key = (is_han $c1 > 0) ? "hans" : "variants";
+    my $key = get_vkey $c1;
     
     if ($data->{X0212} =~ /^([0-9]+)-([0-9]+)$/) {
       my $c2 = sprintf ':jis2-%d-%d', $1, $2;

@@ -10,6 +10,8 @@ my $TempPath = $RootPath->child ('local/iad');
 
 my $Data = {};
 my $IsHan = {};
+my $IsKana = {};
+my $IsKChar = {};
 
 for (
   [
@@ -22,7 +24,7 @@ for (
       [27, ':x02132004'], # UniJISX02132004
     ],
     [],
-    undef,
+    ':u-mac-',
   ],
   [
     'aj20.txt',
@@ -104,28 +106,43 @@ for (
             if (is_han $c2 > 0) {
               $key = 'hans';
               $IsHan->{$c1} = 1;
+            } elsif (is_kana $c2 > 0) {
+              $key = 'kanas';
+              $IsKana->{$c1} = 1;
+            } elsif (is_kchar $c2 > 0) {
+              $key = 'kchars';
+              $IsKChar->{$c1} = 1;
             } else {
-              if ($key eq 'hans' and not is_han $c2) {
-                if (is_private $c2) {
-                  my $c2_0 = $c2;
-                  $c2 = ($up_prefix // die) . sprintf '%x', ord $c2;
-                  $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
-                } else {
-                  die $c1;
-                }
+              if (is_private $c2) {
+                my $c2_0 = $c2;
+                $c2 = ($up_prefix // die "$c1 $c2") . sprintf '%x', ord $c2;
+                $c2 =~ s{^:u-hkscs-(f6b[1-f]|f6[c-f][0-9a-f]|f7[0-9a-f]{2}|f80[0-9a-f]|f81[0-9a-d])$}{:u-bigfive-$1}g;
+                $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
               }
             }
-            $Data->{$key}->{$c1}->{$c2}->{"adobe:uni".$suffix} = 1;
+            if ($key eq 'kchars' and $c2 eq "\x{3000}") {
+              my $key = get_vkey $c2;
+              $Data->{$key}->{$c1}->{$c2}->{"adobe:uni".$suffix} = 1;
+            } else{
+              $Data->{$key}->{$c1}->{$c2}->{"adobe:uni".$suffix} = 1;
+            }
           } elsif (/^([0-9A-Fa-f]+)v$/) {
             my $c2 = u_chr hex $1;
             if (is_han $c2 > 0) {
               $key = 'hans';
               $IsHan->{$c1} = 1;
+            } elsif (is_kana $c2 > 0) {
+              $key = 'kanas';
+              $IsKana->{$c1} = 1;
+            } elsif (is_kchar $c2 > 0) {
+              $key = 'kchars';
+              $IsKChar->{$c1} = 1;
             } else {
               if ($key eq 'hans' and not is_han $c2) {
                 if (is_private $c2) {
                   my $c2_0 = $c2;
                   $c2 = ($up_prefix // die) . sprintf '%x', ord $c2;
+                  $c2 =~ s{^:u-hkscs-(f6b[1-f]|f6[c-f][0-9a-f]|f7[0-9a-f]{2}|f80[0-9a-f]|f81[0-9a-d])$}{:u-bigfive-$1}g;
                   $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
                 } else {
                   die $c1;
@@ -200,6 +217,12 @@ for (
       if (is_han $c2_1 > 0) {
         $key = 'hans';
         $IsHan->{$c1} = 1;
+      } elsif (is_kana $c2_1 > 0) {
+        $key = 'kanas';
+        $IsKana->{$c1} = 1;
+      } elsif (is_kchar $c2_1 > 0) {
+        $key = 'kchars';
+        $IsKChar->{$c1} = 1;
       }
       $Data->{$key}->{$c1}->{$c2}->{"adobe:vs"} = 1;
     } elsif (/\S/) {
@@ -237,7 +260,9 @@ for (
         } elsif ($v =~ /^([0-9]+)-([0-9]+)$/) {
           my $jis = sprintf '%d-%d-%d', $p, $1, $2;
           my $c1 = ":aj$cid";
-          my $key = $IsHan->{$c1} ? 'hans' : 'variants';
+          my $key = 'variants';
+          $key = 'hans' if $IsHan->{$c1};
+          $key = 'kchars' if $IsKChar->{$c1};
           $Data->{$key}->{$c1}->{":jis$jis"}->{"adobe:$t"} = 1;
         } else {
           die $v;
@@ -492,32 +517,86 @@ for (
       }
     }
   } # $from_feat
-  for my $feat (keys %$feat_data) {
-    my $current = $feat_data->{$feat}->{items};
-    for my $c1 (keys %$current) {
-      for my $c2 (keys %{$current->{$c1}}) {
-        if ($IsHan->{$c1} and $IsHan->{$c2}) {
-          #
-        } elsif ($IsHan->{$c1} or $IsHan->{$c2}) {
-          if ({
-            jp78 => 1,
-            jp83 => 1,
-            expt => 1,
-            trad => 1,
-            hojo => 1,
-            nlck => 1,
-          }->{$feat}) {
-            $IsHan->{$c1} = $IsHan->{$c2} = 1;
-          } else {
-            warn $feat unless {
-              aalt => 1, nalt => 1,
-              ruby => 1, hngl => 1,
-            }->{$feat};
+  L: {
+    my $found = 0;
+    for my $feat (keys %$feat_data) {
+      my $current = $feat_data->{$feat}->{items};
+      for my $c1 (keys %$current) {
+        for my $c2 (keys %{$current->{$c1}}) {
+          if ($IsHan->{$c1} and $IsHan->{$c2}) {
+            #
+          } elsif ($IsKana->{$c1} and $IsKana->{$c2}) {
+            #
+          } elsif ($IsKChar->{$c1} and $IsKChar->{$c2}) {
+            #
+          } elsif ($IsHan->{$c1} or $IsHan->{$c2}) {
+            if ({
+              jp78 => 1,
+              jp83 => 1,
+              expt => 1,
+              trad => 1,
+              hojo => 1,
+              nlck => 1,
+            }->{$feat}) {
+              $IsHan->{$c1} = $IsHan->{$c2} = 1;
+              $found = 1;
+            } else {
+              warn $feat unless {
+                aalt => 1, nalt => 1,
+                ruby => 1, hngl => 1,
+              }->{$feat};
+            }
+          } elsif ($IsKana->{$c1} or $IsKana->{$c2}) {
+            if ({
+              fwid => 1,
+              hwid => 1,
+              pwid => 1,
+              vert => 1,
+              vrt2 => 1,
+              ruby => 1,
+              pkna => 1,
+              hkna => 1,
+              vkna => 1,
+            }->{$feat}) {
+              $IsKana->{$c1} = $IsKana->{$c2} = 1;
+              $found = 1;
+            } else {
+              warn $feat unless {
+                aalt => 1, nalt => 1, dlig => 1,
+              }->{$feat};
+            }
+          } elsif ($IsKChar->{$c1} or $IsKChar->{$c2}) {
+            if ({
+              tjmo => 1,
+              vjmo => 1,
+              ljmo => 1,
+              
+              vert => 1,
+              vrt2 => 1,
+              
+              ccmp => 1,
+            }->{$feat}) {
+              $IsKChar->{$c1} = 1;
+              $IsKChar->{$c2} = 1;
+              $found = 1;
+            } else {
+              warn $feat unless {
+                aalt => 1, ccmp => 1,
+              }->{$feat};
+            }
+          }
+          if (not $IsKana->{$c1} and
+              $feat eq 'ccmp' and
+              $c1 =~ m{^(:aj[0-9]+)(:aj[0-9]+)$} and
+              $IsKana->{$1} and $IsKana->{$2}) {
+            $IsKana->{$c1} = $IsKana->{$c2} = 1;
+            $found = 1;
           }
         }
       }
     }
-  }
+    redo if $found;
+  } # L
   for my $feat (keys %$feat_data) {
     my $current = $feat_data->{$feat}->{items};
     my $current_x = $feat_data->{$feat}->{items_x};
@@ -532,6 +611,10 @@ for (
         my $key = 'variants';
         if ($IsHan->{$c1} and $IsHan->{$c2}) {
           $key = 'hans';
+        } elsif ($IsKana->{$c1} and $IsKana->{$c2}) {
+          $key = 'kanas';
+        } elsif ($IsKChar->{$c1} and $IsKChar->{$c2}) {
+          $key = 'kchars';
         } else {
           if ($IsHan->{$c1} or $IsHan->{$c2}) {
             if ($feat eq 'hngl' or $feat eq 'aalt') {
@@ -548,6 +631,39 @@ for (
           $Data->{$key}->{$c1}->{$c2}->{"opentype:$feat:contextual"} = 1;
         } else {
           $Data->{$key}->{$c1}->{$c2}->{"opentype:$feat"} = 1;
+        }
+      }
+    }
+  }
+}
+
+{
+  my $path = $TempPath->child ('akr9-hangul.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/\S/) {
+      my @s = split /\t/, $_;
+      my $cid = 0+$s[3-1];
+
+      for (
+        [5, ':ks0', 'mapping'],
+        [6, ':ks1', 'mapping'],
+        [7, ':kps0', 'mapping'],
+        [8, ':gb20', 'mapping'],
+      ) {
+        my $v = $s[$_->[0]-1];
+        my $p = $_->[1];
+        my $t = $_->[2];
+        if ($v eq '*') {
+          #
+        } elsif ($v =~ /^([0-9]+)-([0-9]+)$/) {
+          my $c2 = sprintf '%s-%d-%d', $p, $1, $2;
+          my $c1 = ":ak$cid";
+          my $key = 'kchars';
+          $Data->{$key}->{$c1}->{$c2}->{"adobe:$t"} = 1;
+        } else {
+          die $v;
         }
       }
     }

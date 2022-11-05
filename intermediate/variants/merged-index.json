@@ -51,6 +51,7 @@
       "tw"
    ],
    "inset_mergeable_weight" : 400,
+   "key" : "hans",
    "leader_types" : {
       "cn" : {
          "index" : 1,
@@ -118,6 +119,10 @@
    },
    "min_unmergeable_weight" : 400,
    "rel_types" : {
+      "1to1:arib:70%" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
       "1to1:cjkvi:cjkvi/numeric" : {
          "mergeable_weight" : 700,
          "weight" : 500
@@ -198,6 +203,86 @@
          "mergeable_weight" : 700,
          "weight" : 500
       },
+      "1to1:glyphwiki:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:glyphwiki:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:irc:ascii-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:irc:rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:irc:strict-rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:kana:h2k" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:kana:k2h" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:kana:large" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:kana:manyou" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:kana:modern" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:kana:origin" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:kana:small" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:mj:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:mj:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:mj:音価1" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:mj:音価2" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:mj:音価3" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:ninjal:備考:仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:ninjal:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:ninjal:平仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
       "1to1:opencc:HKVariants" : {
          "mergeable_weight" : 700,
          "weight" : 500
@@ -234,7 +319,95 @@
          "mergeable_weight" : 700,
          "weight" : 500
       },
+      "1to1:ucd:names:lc" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:ucd:names:lc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:ucd:names:uc" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:ucd:names:uc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unicode5.1:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unicode:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unicode:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unicode:Case_Folding" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unicode:Lowercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unicode:Titlecase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:unicode:Uppercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
       "1to1:unihan:kSimplifiedVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wakan:assoc" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wakan:assoc?" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wakan:section" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wikipedia:ja:合略仮名:合字" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wikipedia:ja:合略仮名:略体" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wikipedia:ja:合略仮名:草体" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wikipedia:ja:合略仮名:読み" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wikipedia:ja:片仮名:片仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wikipedia:ja:片仮名:省字" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "1to1:wikipedia:ja:片仮名:転化か" : {
          "mergeable_weight" : 700,
          "weight" : 500
       },
@@ -302,6 +475,10 @@
          "mergeable_weight" : 700,
          "weight" : 500
       },
+      "adobe:mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "adobe:trad" : {
          "mergeable_weight" : 700,
          "weight" : 500
@@ -346,9 +523,13 @@
          "mergeable_weight" : 700,
          "weight" : 700
       },
+      "apple:ku\u002B84" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "arib:70%" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "arib:duplicate" : {
          "mergeable_weight" : 700,
@@ -375,6 +556,10 @@
          "weight" : 600
       },
       "arib:jisx0221:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "arib:proportional" : {
          "mergeable_weight" : 700,
          "weight" : 600
       },
@@ -560,15 +745,15 @@
       },
       "cjkvi:non-cjk/bopomofo" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 100
       },
       "cjkvi:non-cjk/bracketed" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "cjkvi:non-cjk/circle" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "cjkvi:non-cjk/hangzhou-num" : {
          "mergeable_weight" : 700,
@@ -584,11 +769,11 @@
       },
       "cjkvi:non-cjk/katakana" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 100
       },
       "cjkvi:non-cjk/parenthesized" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "cjkvi:non-cjk/radical" : {
          "mergeable_weight" : 700,
@@ -596,7 +781,7 @@
       },
       "cjkvi:non-cjk/square" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "cjkvi:non-cjk/strokes" : {
          "mergeable_weight" : 700,
@@ -662,21 +847,41 @@
          "mergeable_weight" : 700,
          "weight" : 500
       },
+      "glyphwiki:alias" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "glyphwiki:juki" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "glyphwiki:ninjal" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "glyphwiki:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "glyphwiki:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
       "icu:mapping:iso-ir-165" : {
          "mergeable_weight" : 700,
          "weight" : 500
       },
       "irc:ascii-lowercase" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "irc:rfc1459-lowercase" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "irc:strict-rfc1459-lowercase" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "ivd:base" : {
          "mergeable_weight" : 700,
@@ -685,6 +890,14 @@
       "ivd:duplicate" : {
          "mergeable_weight" : 700,
          "weight" : 700
+      },
+      "jis:fullwidth" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "jis:halfwidth" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       },
       "jp:「異字同訓」の漢字の使い分け例" : {
          "mergeable_weight" : 700,
@@ -716,27 +929,51 @@
       },
       "kana:h2k" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "kana:k2h" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "kana:large" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
+      },
+      "kana:manyou" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "kana:modern" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
       },
       "kana:normalize" : {
          "mergeable_weight" : 700,
          "weight" : 500
       },
+      "kana:origin" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "kana:origin:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
       "kana:small" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
+      },
+      "kchar:Hunminjeongeum Haerye style" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
       },
       "manakai:alt" : {
          "mergeable_weight" : 700,
          "weight" : 200
+      },
+      "manakai:bold" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       },
       "manakai:differentiated" : {
          "mergeable_weight" : 400,
@@ -749,6 +986,10 @@
       "manakai:equivalent" : {
          "mergeable_weight" : 700,
          "weight" : 500
+      },
+      "manakai:hasspecialized" : {
+         "mergeable_weight" : 400,
+         "weight" : -1
       },
       "manakai:inset" : {
          "mergeable_weight" : 400,
@@ -797,6 +1038,14 @@
       "manakai:inset:tw:variant" : {
          "mergeable_weight" : 700,
          "weight" : -1
+      },
+      "manakai:ne" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "manakai:ocr" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       },
       "manakai:private" : {
          "mergeable_weight" : 700,
@@ -866,6 +1115,10 @@
          "mergeable_weight" : 700,
          "weight" : 600
       },
+      "mj:UCS" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "mj:X0212" : {
          "mergeable_weight" : 700,
          "weight" : 600
@@ -890,6 +1143,14 @@
          "mergeable_weight" : 700,
          "weight" : 600
       },
+      "mj:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "mj:学術用変体仮名番号" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
       "mj:実装したMoji_JohoコレクションIVS" : {
          "mergeable_weight" : 700,
          "weight" : 700
@@ -913,6 +1174,10 @@
       "mj:戸籍統一文字:同一" : {
          "mergeable_weight" : 700,
          "weight" : 700
+      },
+      "mj:戸籍統一文字番号" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       },
       "mj:新しいMJ文字図形名" : {
          "mergeable_weight" : 700,
@@ -962,6 +1227,10 @@
          "mergeable_weight" : 700,
          "weight" : 500
       },
+      "mj:統合" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "mj:読み・字形による類推" : {
          "mergeable_weight" : 700,
          "weight" : 300
@@ -970,6 +1239,22 @@
          "mergeable_weight" : 700,
          "weight" : 300
       },
+      "mj:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "mj:音価1" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "mj:音価2" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "mj:音価3" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
       "moztw:Big5-1984" : {
          "mergeable_weight" : 700,
          "weight" : 600
@@ -977,6 +1262,26 @@
       "moztw:UAO 2.50" : {
          "mergeable_weight" : 700,
          "weight" : 600
+      },
+      "ninjal:MJ文字図形名" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "ninjal:UNICODE" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "ninjal:備考:仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "ninjal:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "ninjal:平仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
       },
       "nto1:cjkvi:cjkvi/simplified" : {
          "mergeable_weight" : 700,
@@ -1238,6 +1543,10 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "rev:adobe:mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "rev:adobe:trad" : {
          "mergeable_weight" : 700,
          "weight" : -1
@@ -1282,6 +1591,10 @@
          "mergeable_weight" : 700,
          "weight" : 700
       },
+      "rev:apple:ku\u002B84" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "rev:arib:70%" : {
          "mergeable_weight" : 700,
          "weight" : -1
@@ -1311,6 +1624,10 @@
          "weight" : 600
       },
       "rev:arib:jisx0221:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:arib:proportional" : {
          "mergeable_weight" : 700,
          "weight" : 600
       },
@@ -1598,6 +1915,26 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "rev:glyphwiki:alias" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:glyphwiki:juki" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:glyphwiki:ninjal" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:glyphwiki:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:glyphwiki:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "rev:icu:mapping:iso-ir-165" : {
          "mergeable_weight" : 700,
          "weight" : -1
@@ -1621,6 +1958,14 @@
       "rev:ivd:duplicate" : {
          "mergeable_weight" : 700,
          "weight" : 700
+      },
+      "rev:jis:fullwidth" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:jis:halfwidth" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       },
       "rev:jp:「異字同訓」の漢字の使い分け例" : {
          "mergeable_weight" : 700,
@@ -1662,7 +2007,23 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "rev:kana:manyou" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:kana:modern" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "rev:kana:normalize" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:kana:origin" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:kana:origin:variant" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
@@ -1670,9 +2031,17 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "rev:kchar:Hunminjeongeum Haerye style" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "rev:manakai:alt" : {
          "mergeable_weight" : 700,
          "weight" : -1
+      },
+      "rev:manakai:bold" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       },
       "rev:manakai:differentiated" : {
          "mergeable_weight" : 700,
@@ -1686,9 +2055,21 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "rev:manakai:hasspecialized" : {
+         "mergeable_weight" : 400,
+         "weight" : -1
+      },
       "rev:manakai:inset:original" : {
          "mergeable_weight" : 400,
          "weight" : -1
+      },
+      "rev:manakai:ne" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:manakai:ocr" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       },
       "rev:manakai:private" : {
          "mergeable_weight" : 700,
@@ -1758,6 +2139,10 @@
          "mergeable_weight" : 700,
          "weight" : 600
       },
+      "rev:mj:UCS" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "rev:mj:X0212" : {
          "mergeable_weight" : 700,
          "weight" : 600
@@ -1782,6 +2167,14 @@
          "mergeable_weight" : 700,
          "weight" : 600
       },
+      "rev:mj:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:mj:学術用変体仮名番号" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
       "rev:mj:実装したMoji_JohoコレクションIVS" : {
          "mergeable_weight" : 700,
          "weight" : 700
@@ -1805,6 +2198,10 @@
       "rev:mj:戸籍統一文字:同一" : {
          "mergeable_weight" : 700,
          "weight" : 700
+      },
+      "rev:mj:戸籍統一文字番号" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       },
       "rev:mj:新しいMJ文字図形名" : {
          "mergeable_weight" : 700,
@@ -1854,11 +2251,31 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "rev:mj:統合" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "rev:mj:読み・字形による類推" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
       "rev:mj:辞書類等による関連字" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:音価1" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:音価2" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:mj:音価3" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
@@ -1869,6 +2286,26 @@
       "rev:moztw:UAO 2.50" : {
          "mergeable_weight" : 700,
          "weight" : 600
+      },
+      "rev:ninjal:MJ文字図形名" : {
+         "mergeable_weight" : 700,
+         "weight" : 700
+      },
+      "rev:ninjal:UNICODE" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
+      "rev:ninjal:備考:仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:ninjal:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:ninjal:平仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
       },
       "rev:opencc:HKVariants" : {
          "mergeable_weight" : 700,
@@ -2434,7 +2871,47 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "rev:wakan:assoc" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:wakan:assoc?" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:wakan:section" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:wikipedia:ja:合略仮名:合字" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:wikipedia:ja:合略仮名:略体" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:wikipedia:ja:合略仮名:草体" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:wikipedia:ja:合略仮名:読み" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "rev:wikipedia:ja:同訓異字" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:wikipedia:ja:片仮名:片仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "rev:wikipedia:ja:片仮名:省字" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "rev:wikipedia:ja:片仮名:転化か" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
@@ -2450,17 +2927,25 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "rev:wikt:mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
+      },
       "rfc3454:B.2" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "rfc3454:B.3" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "rfc5051:titlecase-canonical" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
+      },
+      "to1:arib:70%" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
       },
       "to1:cjkvi:cjkvi/numeric" : {
          "mergeable_weight" : 700,
@@ -2546,6 +3031,86 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "to1:glyphwiki:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:glyphwiki:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:irc:ascii-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:irc:rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:irc:strict-rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:kana:h2k" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:kana:k2h" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:kana:large" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:kana:manyou" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:kana:modern" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:kana:origin" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:kana:small" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:mj:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:mj:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:mj:音価1" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:mj:音価2" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:mj:音価3" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:ninjal:備考:仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:ninjal:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:ninjal:平仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "to1:opencc:HKVariants" : {
          "mergeable_weight" : 700,
          "weight" : -1
@@ -2579,6 +3144,10 @@
          "weight" : -1
       },
       "to1:opencc:variant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:arib:70%" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
@@ -2666,6 +3235,86 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "to1:rev:glyphwiki:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:glyphwiki:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:irc:ascii-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:irc:rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:irc:strict-rfc1459-lowercase" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:kana:h2k" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:kana:k2h" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:kana:large" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:kana:manyou" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:kana:modern" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:kana:origin" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:kana:small" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:mj:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:mj:音価" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:mj:音価1" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:mj:音価2" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:mj:音価3" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:ninjal:備考:仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:ninjal:字母" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:ninjal:平仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "to1:rev:opencc:HKVariants" : {
          "mergeable_weight" : 700,
          "weight" : -1
@@ -2702,11 +3351,99 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "to1:rev:ucd:names:lc" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:ucd:names:lc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:ucd:names:uc" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:ucd:names:uc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unicode5.1:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unicode:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unicode:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unicode:Case_Folding" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unicode:Lowercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unicode:Titlecase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:unicode:Uppercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "to1:rev:unihan:kSimplifiedVariant" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
       "to1:rev:unihan:kTraditionalVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:wakan:assoc" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:wakan:assoc?" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:wakan:section" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:wikipedia:ja:合略仮名:合字" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:wikipedia:ja:合略仮名:略体" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:wikipedia:ja:合略仮名:草体" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:wikipedia:ja:合略仮名:読み" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:wikipedia:ja:片仮名:片仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:rev:wikipedia:ja:片仮名:省字" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:rev:wikipedia:ja:片仮名:転化か" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
@@ -2722,11 +3459,99 @@
          "mergeable_weight" : 700,
          "weight" : -1
       },
+      "to1:ucd:names:lc" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:ucd:names:lc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:ucd:names:uc" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:ucd:names:uc-some" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unicode5.1:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unicode:Bidi_Mirroring_Glyph" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unicode:Bidi_Mirroring_Glyph-BEST-FIT" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unicode:Case_Folding" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unicode:Lowercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unicode:Titlecase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:unicode:Uppercase_Mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
       "to1:unihan:kSimplifiedVariant" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
       "to1:unihan:kTraditionalVariant" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:wakan:assoc" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:wakan:assoc?" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:wakan:section" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:wikipedia:ja:合略仮名:合字" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:wikipedia:ja:合略仮名:略体" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:wikipedia:ja:合略仮名:草体" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:wikipedia:ja:合略仮名:読み" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:wikipedia:ja:片仮名:片仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : -1
+      },
+      "to1:wikipedia:ja:片仮名:省字" : {
+         "mergeable_weight" : 700,
+         "weight" : 500
+      },
+      "to1:wikipedia:ja:片仮名:転化か" : {
          "mergeable_weight" : 700,
          "weight" : -1
       },
@@ -2756,11 +3581,11 @@
       },
       "ucd:names:lc" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "ucd:names:lc-some" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "ucd:names:obsoleted" : {
          "mergeable_weight" : 700,
@@ -2772,11 +3597,11 @@
       },
       "ucd:names:preferred-some" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "ucd:names:prefers-some" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "ucd:names:related" : {
          "mergeable_weight" : 700,
@@ -2788,15 +3613,15 @@
       },
       "ucd:names:uc" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "ucd:names:uc-some" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "ucd:names:variant" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "ucd:names:x" : {
          "mergeable_weight" : 700,
@@ -2812,19 +3637,19 @@
       },
       "unicode5.1:Bidi_Mirroring_Glyph" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "unicode:Bidi_Mirroring_Glyph" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "unicode:Bidi_Mirroring_Glyph-BEST-FIT" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "unicode:Bidi_Paired_Bracket" : {
          "mergeable_weight" : 700,
@@ -2832,23 +3657,23 @@
       },
       "unicode:Case_Folding" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "unicode:Lowercase_Mapping" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "unicode:NFKC_Casefold" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "unicode:Titlecase_Mapping" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "unicode:Uppercase_Mapping" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 400
       },
       "unicode:canon_composition" : {
          "mergeable_weight" : 700,
@@ -2860,7 +3685,7 @@
       },
       "unicode:compat_decomposition" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
       },
       "unicode:from cp" : {
          "mergeable_weight" : 700,
@@ -3092,11 +3917,51 @@
       },
       "uts46:mapping" : {
          "mergeable_weight" : 700,
-         "weight" : 300
+         "weight" : 200
+      },
+      "wakan:assoc" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "wakan:assoc?" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "wakan:section" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "wikipedia:ja:合略仮名:合字" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "wikipedia:ja:合略仮名:略体" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "wikipedia:ja:合略仮名:草体" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "wikipedia:ja:合略仮名:読み" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
       },
       "wikipedia:ja:同訓異字" : {
          "mergeable_weight" : 700,
          "weight" : 200
+      },
+      "wikipedia:ja:片仮名:片仮名" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "wikipedia:ja:片仮名:省字" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
+      },
+      "wikipedia:ja:片仮名:転化か" : {
+         "mergeable_weight" : 700,
+         "weight" : 400
       },
       "wikipedia:zh:歌仔冊文字" : {
          "mergeable_weight" : 700,
@@ -3109,6 +3974,10 @@
       "wikipedia:zh:臺閩字列表:異用字 / 俗字" : {
          "mergeable_weight" : 700,
          "weight" : 400
+      },
+      "wikt:mapping" : {
+         "mergeable_weight" : 700,
+         "weight" : 600
       }
    }
 }

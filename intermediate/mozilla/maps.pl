@@ -17,21 +17,19 @@ for (
   for (split /[\x0D\x0A]/, $path->slurp) {
     if (/^0x([0-9A-F]+)\s+(?:0x|U\+)([0-9A-F]+)\s*(?:#|$)/) {
       my $c1 = sprintf ':b5-%x', hex $1;
-      my $c2 = chr hex $2;
+      my $c2 = u_chr hex $2;
       if (is_private $c2) {
         die;
       }
-      my $key = 'variants';
-      $key = 'hans' if is_han $c2 > 0;
+      my $key = get_vkey $c2;
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/^0x([0-9A-F]+)\s+(?:0x|U\+)([0-9A-F]+)\s+(?:0x|U\+)([0-9A-F]+)\s*(?:#|$)/) {
       my $c1 = sprintf ':b5-%x', hex $1;
-      my $c2 = chr hex $3;
+      my $c2 = u_chr hex $3;
       if (is_private $c2) {
         die;
       }
-      my $key = 'variants';
-      $key = 'hans' if is_han $c2 > 0;
+      my $key = get_vkey $c2;
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/^\s*#/) {
       #
@@ -64,11 +62,10 @@ for (
       my $b5 = hex $1;
       my $c1 = is_b5_variant $b5 ? sprintf ':b5-uao-%x', $b5,
                                  : sprintf ':b5-%x', $b5;
-      my $c2 = chr hex $2;
+      my $c2 = u_chr hex $2;
       my $c1_0 = $c1;
       $c1_0 =~ s/^:b5-uao-/:b5-/g;
-      my $key = 'variants';
-      $key = 'hans' if is_han $c2 > 0;
+      my $key = get_vkey $c2;
       my $c2_0 = $c2;
       if (is_private $c2) {
         $c2 = sprintf ':u-uao-%x', ord $c2;
@@ -89,11 +86,10 @@ for (
       my $b5 = hex $1;
       my $c1 = is_b5_variant $b5 ? sprintf ':b5-uao-%x', $b5,
                                  : sprintf ':b5-%x', $b5;
-      my $c2 = chr hex $3;
+      my $c2 = u_chr hex $3;
       my $c1_0 = $c1;
       $c1_0 =~ s/^:b5-uao-/:b5-/g;
-      my $key = 'variants';
-      $key = 'hans' if is_han $c2 > 0;
+      my $key = get_vkey $c2;
       my $c2_0 = $c2;
       if (is_private $c2) {
         $c2 = sprintf ':u-uao-%x', ord $c2;

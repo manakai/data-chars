@@ -3,3 +3,32 @@
 Some of data in this directory derived from MJ data files.
 
 License of the MJ data files: See |../../doc/LICENSE.mj|.
+
+* 学術情報交換用変体仮名 data files
+
+Some of data in this directory derived from 学術情報交換用変体仮名
+data files.
+
+License of the 学術情報交換用変体仮名 data files:
+
+<https://cid.ninjal.ac.jp/kana/licence/>:
+
+> 学術情報交換用変体仮名の文字情報は、NINJAL が、 クリエイティブ・コモ
+> ンズ 表示 4.0 国際 ライセンス
+> <https://creativecommons.org/licenses/by/4.0/> によって提供します。
+> 利用に際しては NINJAL の著作物であることを明記してください。 なお、
+> 本成果物の内容を適用した結果生じたこと、また、適用できなかった結果に
+> ついて、NINJAL は一切の責任を負いませんのでご了承ください。
+
+* 和翰名苑 data files
+
+Some of data in this directory derived from 『和翰名苑』仮名字体
+データベース.
+
+License of the  『和翰名苑』仮名字体データベース:
+
+<https://kana.aa-ken.jp/wakan/>:
+
+> The database and accompanying materials are licensed under a
+> Creative Commons Attribution 4.0 International License
+> <http://creativecommons.org/licenses/by/4.0/>.

@@ -87,6 +87,7 @@ sub is_han ($) {
       return 1;
     } elsif ({
       0x3005 => 1, 0x3007 => 1, 0x3038 => 1, 0x3039 => 1, 0x303A => 1,
+      0x16FF0 => 1, 0x16FF1 => 1,
     }->{$c}) {
       return 1;
     } elsif ($c == 0x30B1 or $c == 0x30F6 or # ke
@@ -178,14 +179,6 @@ sub is_han ($) {
 
 =cut
 
-#is_kana
-#U+303C # kanbun re
-#U+3191 # masu
-#U+3006 U+4E44 MJ000002 MJ006376 MJ006377 # shime
-#MJ056854 U+2CF00 tame
-#U+2A708 # tomo
-#MJ056850 MJ056853 U+2CEFF U+2CF02 # nari
-#
 #ac 13749 - 13752 13757 13761 - 13929 17606 17607
 #ag 356 - 524
 # 10019 - 10026 22359 - 22397
@@ -217,6 +210,207 @@ sub is_han ($) {
 # 8020 - 8037 8053 8055 8059 - 8070 8092 - 8101 8182 8184 - 8190 8192 - 8195
 # 8225 8226 8285 - 8308 [+ 8720, ...]
 
+sub is_kana ($);
+sub is_kana ($) {
+  my $c = shift;
+
+  if (1 == length $c) {
+    my $cc = ord $c;
+
+    ## Kana
+    if (0x3031 <= $cc and $cc <= 0x3035) {
+      return 1;
+    } elsif (0x3041 <= $cc and $cc <= 0x3096) {
+      return 1;
+    } elsif (0x3099 <= $cc and $cc <= 0x309F) {
+      return 1;
+    } elsif (0x30A1 <= $cc and $cc <= 0x30FA) {
+      return 1;
+    } elsif (0x30FC <= $cc and $cc <= 0x30FF) {
+      return 1;
+    } elsif (0x31F0 <= $cc and $cc <= 0x31FF) {
+      return 1;
+    } elsif (0xFF66 <= $cc and $cc <= 0xFF9F) {
+      return 1;
+    } elsif (0x1B000 <= $cc and $cc <= 0x1B122) {
+      return 1;
+    } elsif (0x1B150 <= $cc and $cc <= 0x1B152) {
+      return 1;
+    } elsif (0x1B164 <= $cc and $cc <= 0x1B167) {
+      return 1;
+    } elsif ({
+      0x27B0 => 1, # ~
+      0x3030 => 1, # ~
+      
+      0x303C => 1, # re
+      0x3191 => 1, # masu
+      0x3006 => 1, 0x4E44 => 1, # shime
+      0x2CF00 => 1, # tame
+      0x2A708 => 1, # tomo
+      0x2CEFF => 1, 0x2CF02 => 1, # nari
+
+      0x3099 => 1,
+      0x309A => 1,
+      0x309B => 1,
+      0x309C => 1,
+      0x3031 => 1,
+      0x3032 => 1,
+      0x3033 => 1,
+      0x3034 => 1,
+      0x3035 => 1,
+      0x303B => 1,
+    }->{$cc}) {
+      return 1;
+    } elsif ({
+      0x301C => 1,
+      0xFF5E => 1,
+    }->{$cc}) {
+      return -1;
+
+    ## Bopomofo
+    } elsif (0x3100 <= $cc and $cc <= 0x312F) {
+      return 1;
+    } elsif (0x31A0 <= $cc and $cc <= 0x31BF) {
+      return 1;
+    } elsif ({
+      0x02EA => 1, 0x02EB => 1,
+    }->{$cc}) {
+      return 1;
+    } elsif ({
+      #0x02C9 => 1,
+      0x02CA => 1, 0x02C7 => 1, 0x02CB => 1, 0x02D9 => 1,
+    }->{$cc}) {
+      return -1;
+    }
+  }
+
+  ## Kana
+  if ($c =~ /^:MJ([0-9]+)$/) {
+    my $cc = 0+$1;
+    if ({
+      2 => 1, 6376 => 1, 6377 => 1, # shime
+      56854 => 1, # tame
+      56850 => 1, 56853 => 1, # nari
+    }->{$cc}) {
+      return 1;
+    }
+  } elsif ($c =~ /^:koseki-9[0-9]{5}$/) {
+    return 1;
+  } elsif ($c =~ /^:tron9-[8][0-9a-f]{3}$/) {
+    return 1;
+  } elsif ($c eq ':wmc:Kunten_-n.gif') {
+    return 1;
+  }
+
+  ## Bopomofo
+  if ($c =~ /^:cns1-5-(?:7[6789]|80)$/) {
+    return 1;
+  } elsif ($c =~ /^:cccii1-15-(?:4[89]|5[01])$/) {
+    return 1;
+  }
+
+  ## Gugyeol
+  if ($c =~ /^:u-hanyang-([0-9a-f]+)$/) {
+    my $cc = hex $1;
+    if (0xF67E <= $cc and $cc <= 0xF77C) {
+      return 1;
+    }
+  }
+
+  ## Kana
+  if ($c =~ /^:u([0-9a-f]+):u-mac-f87e$/) {
+    if (is_kana chr hex $1) {
+      return 1;
+    }
+  }
+
+  if ($c =~ /^[^:]./) {
+    X: {
+      for (split //, $c) {
+        if (is_kana $_) {
+          #
+        } else {
+          last X;
+        }
+      }
+      return 1;
+    }
+  }
+  
+  return 0;
+} # is_kana
+
+sub is_kchar ($);
+sub is_kchar ($) {
+  my $c = shift;
+
+  if (1 == length $c) {
+    my $cc = ord $c;
+    if (0x1100 <= $cc and $cc <= 0x11FF) {
+      return 1;
+    } elsif (0x3130 <= $cc and $cc <= 0x318F) { # fullwidth
+      return 1;
+    } elsif (0xA960 <= $cc and $cc <= 0xA97F) {
+      return 1;
+    } elsif (0xAC00 <= $cc and $cc <= 0xD7AF) { # syllable
+      return 1;
+    } elsif (0xD7B0 <= $cc and $cc <= 0xD7FF) {
+      return 1;
+    } elsif (0xFFA0 <= $cc and $cc <= 0xFFDF) { # halfwidth
+      return 1;
+    } elsif ($cc == 0x302E or $cc == 0x302F) { # combining
+      return 1;
+    }
+  } elsif ($c =~ /^[^:]/) {
+    X: {
+      for (split //, $c) {
+        if (is_kchar $_) {
+          #
+        } else {
+          last X;
+        }
+      }
+      return 1;
+    }
+  }
+
+  if ($c =~ /^:u-old-([0-9a-f]+)$/) {
+    my $cc = hex $1;
+    if (0x3400 <= $cc and $cc <= 0x4DFF) {
+      return 1;
+    }
+  }
+
+  if ($c =~ /^:u-hanyang-([0-9a-f]+)$/) {
+    my $cc = hex $1;
+    if (0xE0BC <= $cc and $cc <= 0xEFFF) { # syllable
+      return 1;
+    } elsif (0xF100 <= $cc and $cc <= 0xF66E) {
+      return 1;
+    } elsif (0xF784 <= $cc and $cc <= 0xF8F7) {
+      return 1;
+    }
+  }
+
+  if ($c =~ /^:u-jeju-([0-9a-f]+)$/) {
+    my $cc = hex $1;
+    if (0xE001 <= $cc and $cc <= 0xE0A0) { # syllable
+      return 1;
+    }
+  }
+
+  if ($c =~ /^:u-kps-([0-9a-f]+)$/) {
+    my $cc = hex $1;
+    if (0xF113 <= $cc and $cc <= 0xF118) {
+      return 1;
+    } elsif (0xF120 <= $cc and $cc <= 0xF122) {
+      return 1;
+    }
+  }
+
+  return 0;
+} # is_kchar
+
 sub sjis_char ($$$) {
   my ($prefix, $b1, $b2) = @_;
 
@@ -246,21 +440,42 @@ sub sjis_char ($$$) {
 
 sub is_b5_variant ($) {
   my $c = shift;
-  return 1 if 0x8140 <= $c and $c <= 0xA0FE;
-  return 1 if 0xC8D4 <= $c and $c <= 0xC8FE;
-  return 1 if 0xFA40 <= $c and $c <= 0xFEFE;
+  return 1 if 0x8140 <= $c and $c <= 0xA0FE; # U+EEB8 ... U+F6B0 (0x8DFE) U+E311 (0x8E40) ... U+EEB7
+  # U+F6B1 (0xC6A1) ... U+F81D
+  return 1 if 0xC8D4 <= $c and $c <= 0xC8FE; # U+F81E ... U+F848
+  return 1 if 0xFA40 <= $c and $c <= 0xFEFE; # U+E000 ... U+E310
   return 0;
 } # is_b5_variant
+
+sub get_vkey ($) {
+  my $c = shift;
+
+  return 'hans' if is_han $c > 0;
+  return 'kanas' if is_kana $c > 0;
+  return 'kchars' if is_kchar $c > 0;
+
+  return 'variants';
+} # get_vkey
 
 sub insert_rel ($$$$$) {
   my ($data, $c1, $c2, $reltype, $cmode) = @_;
   my $key = 'variants';
 
   # $cmode auto kana private
-  if ($cmode eq 'auto') {
+  if ($cmode eq 'auto' or $cmode eq 'autok') {
     if (is_han $c1 and is_han $c2) {
       $key = 'hans';
+    } elsif (is_kana $c1 and is_kana $c2) {
+      $key = 'kanas';
+    } elsif (is_kchar $c1 and is_kchar $c2) {
+      $key = 'kchars';
+    } elsif ($cmode eq 'autok' and
+             (is_kana (substr $c1, -1) or
+              is_kana (substr $c2, -1))) {
+      $key = 'kanas';
     }
+  } elsif ($cmode eq 'kana') {
+    $key = 'kanas';
   } elsif ($cmode eq 'private') {
     if (is_han $c1 or is_han $c2) {
       $key = 'hans';

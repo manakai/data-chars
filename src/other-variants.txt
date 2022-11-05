@@ -1,0 +1,222 @@
+related \u3191 レ
+related と 歩
+related の 之
+related の 乃
+related の 的
+related w 笑
+related w 草
+related w ʬ
+related \u0024 弗
+related m 米
+related M 米
+related \㎜ 粍
+related \㎝ 糎
+related \㌅ 吋
+related \㌳ 呎
+related \㍎ 碼
+related \㍄ 哩
+related \㌃ 亜
+related a \㌃
+related \㌶ 陌
+related \㌈ 噎
+related G 瓦
+related g 瓦
+related \㌘ 瓦
+related \㌕ 瓩
+related \㌧ 瓲
+related t 瓲
+related T 瓲
+related \㍀ 听
+related \㍀ 磅
+related \㌣ 仙
+related \㌺ 片
+related \㌡ 志
+related \㌵ 仏
+related \㌠ 参
+related \㍆ 馬
+related \㌸ 布
+related \㍔ 留
+related \㌷ 唖
+related \㌤ 打
+related \㌯ 担
+related \㌩ 節
+related \° 度
+related \′ 分
+related \″ 秒
+related R 尺
+related ウ 宇
+related ソ 蘇
+related ロ 露
+related \♂ 雄
+related \♀ 雌
+related \♂ 男
+related \♀ 女
+related F 階
+
+## Source: <http://code.web.idv.hk/cns11643/csic2004.php>
+T1-4244 U+006D,U+0302
+T1-4245 U+006E,U+0302
+T1-4246 U+006D,U+030C
+T1-4247 U+006D,U+0304
+T1-4248 U+006E,U+0304
+T1-4249 U+006D,U+030D
+T1-424A U+006E,U+030D
+T1-424B U+0061,U+030D
+T1-424C U+0069,U+030D
+T1-424D U+0075,U+030D
+T1-424E U+0065,U+030D
+T1-424F U+006F,U+030D
+T1-4250 U+006D,U+030B
+T1-4251 U+006E,U+030B
+T1-4252 U+0061,U+030B
+T1-4253 U+0069,U+030B
+T1-4254 U+0065,U+030B
+
+## <https://charset.fandom.com/ko/wiki/%ED%95%9C%EC%96%91_PUA>
+## <https://github.com/mete0r/hypua2jamo/blob/master/data/hypua2jamocomposed.txt>
+related :u-hanyang-e230 \u1102\u117C
+related :u-hanyang-e230 \u1102\u117A
+related :u-hanyang-e231 \u1102\u117C\u11A8
+related :u-hanyang-e231 \u1102\u117A\u11A8
+related :u-hanyang-e232 \u1102\u117C\u11C2
+related :u-hanyang-e232 \u1102\u117A\u11C2
+related :u-hanyang-e945 \u1109\u1191\u11BC
+related :u-hanyang-e945 \u1109\u1191\u11F0
+related :u-hanyang-e95c \u1109\u1173\u11F1
+related :u-hanyang-e95c \u1109\u1173\u11F2
+related :u-hanyang-ea60 \u112D\u119E\u11BC
+related :u-hanyang-ea60 \u112D\u119E\u11F0
+related :u-hanyang-f4c7 \u1112\u1165\u11F9
+related :u-hanyang-f4c7 \u1112\u117C\u11F9
+## <https://github.com/mete0r/hypua2jamo/blob/master/data/hypua2jamocomposed.txt>
+mistake :u-hanyang-e379 \u1103\u1173\u11F9
+
+alt \u302E \u00B7
+alt \u302E \u30FB
+alt \u302F \u003A
+
+related ん う
+related ん い
+related ん む
+related ん も
+related ゐ い
+related ゑ え
+related を お
+related ヰ イ
+related ヱ エ
+related ヲ オ
+related は わ
+related ひ い
+related ふ う
+related へ え
+related ほ お
+related ハ ワ
+related ヒ イ
+related フ ウ
+related ヘ エ
+related ホ オ
+related ア 阝
+related イ 亻
+related ウ 宀
+related 卫 ヱ
+related あ ー
+related ア ー
+related い ー
+related イ ー
+related う ー
+related ウ ー
+related え ー
+related エ ー
+related お ー
+related オ ー
+related ぢ じ
+related ヂ ジ
+related づ ず
+related ヅ ズ
+related う゚ う
+related う゚ ん
+related ウ゚ ウ
+related ウ゚ ン
+related \〒 テ
+related ヵ\u3099 ヶ
+related ㇾ \u3191
+related レ \u3191
+related ゎ は
+
+differentiated ゕ ゖ
+differentiated や ヤ \u{1B0DD} \u{1B0DE} :wakan-や010 :wakan-や050 :tron9-8925 / \u{2CF02} \u{2CEFF} <- 也 :jis1-44-73
+differentiated \u30FF / \u{1B046} :tron9-864b <- 事
+conflict レ <- 礼 / 武
+
+origin そ ソ <- 曽 曾
+origin ね <- 祢 禰
+
+differentiated \u{1B08B} \u{1B08C} :tron9-8753 :wakan-に020 :wakan-に030 :wakan-に060 / ン <- 尓 爾
+differentiated :wmc:Kunten_-n.gif / :wmc:Kunten_-n.gif <- \u{115BD}
+
+origin よ <- 与 與
+#origin ヨ <- 與
+
+## small kana
+related こ :aj16448
+related コ :aj16449
+
+## gothic? kana
+related ノ :aj20473
+related ハ :aj20474
+related ヒ :aj20475
+related フ :aj20476
+related ヘ :aj20477
+related ホ :aj20478
+related マ :aj20479
+related ミ :aj20480
+related ム :aj20481
+related メ :aj20482
+related モ :aj20483
+related ヤ :aj20484
+related ユ :aj20485
+related ヨ :aj20486
+related ラ :aj20487
+related リ :aj20488
+related ル :aj20489
+related レ :aj20490
+related ロ :aj20491
+related ワ :aj20492
+related ヰ :aj20493
+related ヱ :aj20494
+related ヲ :aj20495
+related ン :aj20496
+
+variant ー \u301C
+alt \u301C \uFF5E
+variant ー \u3030
+alt \u301C \u3030
+variant ー \u27B0
+mistake ー \u2014
+mistake ー \u2015
+alt \u2014 \u2015
+mistake ー \uFF0D
+variant ー \⸺
+variant ー \→
+alt \゛ \”
+alt \゛ \"
+mistake \゜ \°
+alt \u3031 \u3033\u3035
+alt \u3032 \u3034\u3035
+
+related \u2212 \▲
+related \u2212 \△
+
+differentiated \、 \uFE45
+differentiated \uFF64 \uFE45
+
+differentiated \。 \uFE46
+differentiated \uFF61 \uFE46
+
+differentiated \u3000 \u0021
+differentiated \u3000 \uFE57
+
+## <https://wiki.suikawiki.org/n/CCCII#anchor-130>
+ne 뼁 뜁
+ne 잏 왕
+ne 퓌 풔

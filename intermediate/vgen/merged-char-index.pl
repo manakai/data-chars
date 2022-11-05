@@ -8,6 +8,7 @@ my $DataPath = path ('.');
 my $StartTime = time;
 
 binmode STDERR, qw(:encoding(utf-8));
+STDERR->autoflush (1);
 
 my $MergedChars;
 {
@@ -76,6 +77,14 @@ my $CharArray = [];
     ['u-uao-',     '',  0xE000,   0xF8FF],
     ['u-hkscs-',   '',  0xE000,   0xF8FF],
     ['u-loc-',     '',  0xE000,   0xF8FF],
+    ['u-jeju-',    '',  0xE001,   0xE0A0],
+    ['koseki',     '',       0,   999999],
+    ['ninjal',     '',    0100,     4799],
+    ['jisx0201-',  '',    0x00,     0xFF],
+    ['jisx0201-mac-','',  0x00,     0xFF],
+    ['jisx0201-ocrk-','', 0x00,     0xFF],
+    ['jisx0201-ocrhk-','',0x00,     0xFF],
+    ['wakan',      '',       0,(0x93-0x41)*10],
     ['swc',        '',       0,   999999],
   ) {
     $offset->{$x->[0]} = $next - $x->[2];
@@ -96,9 +105,9 @@ my $CharArray = [];
       print STDERR "\rAssigning $current/$all [$c] ";
     }
     my $n = 0;
-  if (1 == length $c) {
-    $n = ord $c;
-  } elsif (2 == length $c) {
+    if (1 == length $c) {
+      $n = ord $c;
+    } elsif (2 == length $c) {
     my $cc2 = ord substr $c, 1;
     if ($c =~ /^[\x{3400}-\x{3FFFF}][\x{E0100}-\x{E0104}]$/) {
       $n = $offset->{chr $cc2} + ord $c;
@@ -116,58 +125,69 @@ my $CharArray = [];
     } else {
       $n = $cc;
     }
-  } elsif ($c =~ /^:(u-[a-z]+-)([0-9a-f]+)/) {
+  } elsif ($c =~ /^:(u-[a-z]+-|b5-(?:[a-z]+-|)|tron[0-9]+-|jisx0201-(?:[a-z]+-|))([0-9a-f]+)/) {
     $n = ($offset->{$1} // 0xA00000) + hex $2;
-  } elsif ($c =~ /^:(b5-)([0-9a-f]+)/) {
-    $n = ($offset->{$1} // 0xA00000) + hex $2;
-  } elsif ($c =~ /^:(b5-[a-z]+-)([0-9a-f]+)/) {
-    $n = ($offset->{$1} // 0xA00000) + hex $2;
+  } elsif ($c =~ /\A:(ninjal)([0-9]{2})([0-9]{3})([0-9]{4})\z/) {
+    $n = $offset->{$1} + $2 * 100 + $3 * 10 + $4;
   } elsif ($c =~ /\A:([A-Za-z]+-?|[A-Za-z]+[0-9]+-)([0-9]+)$/) {
     $n = ($offset->{$1} // 0xA00000) + $2;
+  } elsif ($c =~ /\A:(a[a-z])([0-9]+):a[a-z]([0-9]+)$/) {
+    $n = ($offset->{$1} // 0xA00000) + $2 + $3;
+  } elsif ($c =~ /\A:(a[a-z])([0-9]+):a[a-z]([0-9]+):a[a-z]([0-9]+)$/) {
+    $n = ($offset->{$1} // 0xA00000) + $2 + $3 + $4;
   } elsif ($c =~ /\A:([A-Za-z]+(?:-[a-z]+-|)[0-9]+-)([0-9]+)-([0-9]+)/) {
     $n = ($2-1)*94 + ($3-1);
     $n = ($offset->{$1} // 0xA00000) + $n;
+  } elsif ($c =~ /\A:(wakan)-(\p{sc=Hiragana})(\d\d)\d\z/) {
+    $n = $offset->{$1} + ((ord $2) - 0x3042) * 10 + $3;
   } elsif ($c =~ /\A:(.)/) {
     $n = ord $1;
   } elsif (length $c) {
     $n = ord $c;
   }
 
-  if (not defined $CharArray->[$n]) {
-    $CharArray->[$n] = $c;
-    next C;
-  }
+    if (not defined $CharArray->[$n]) {
+      $CharArray->[$n] = $c;
+      next C;
+    }
 
-  my $m = $n-1;
-  while ($m > 0) {
+    my $m = $n-1;
+    while ($m > 0) {
     if (not defined $CharArray->[$m]) {
-      #if ($m - $n > 100) {
-      #  warn "Too many retries for |$c|\n";
-      #}
-      
+      if ($m - $n > 100) {
+        warn "Too many retries for |$c| (1)\n";
+      }
+
       $CharArray->[$m] = $c;
       next C;
     }
     $m--;
   }
-  $m = $n+1;
+    $m = $n+1;
+    
   while (1) {
     if (not defined $CharArray->[$m]) {
-      #if ($m - $n > 100) {
-      #  warn "Too many retries for |$c|\n";
-      #}
+      if ($m - $n > 100) {
+        warn "Too many retries for |$c| (2)\n";
+      }
       
       $CharArray->[$m] = $c;
       next C;
     }
+    #if ($m - $n > 1000) {
+    #  die "Really too many retries for |$c| (2)\n";
+    #}
     $m++;
   }
-} # C
+  } # C
 }
 
 {
-  print STDERR "\rWriting [1/1]... ";
+  my $n = 0+@$CharArray;
+  print STDERR "\rWriting [0/$n]... ";
+  my $i = 0;
   for (@$CharArray) {
+    print STDERR "\rWriting [$i/$n]... " if ($i++ % 1000000) == 0;
     print perl2json_bytes $_;
     print "\x0A";
   }

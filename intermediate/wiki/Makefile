@@ -35,6 +35,34 @@ $(TEMP_PATH)/gb12052.html:
 $(TEMP_PATH)/ksx1002.html:
 	$(SAVEURL) $@ "https://charset.fandom.com/ko/wiki/KS_X_1002?action=edit&veswitched=1"
 
+$(TEMP_PATH)/jeju.html:
+	$(SAVEURL) $@ "https://en.wiktionary.org/wiki/Appendix:Unicode/Private_Use_Area/Jeju_fonts?action=edit&veswitched=1"
+$(TEMP_PATH)/hanyang.html:
+	$(SAVEURL) $@ "https://en.wiktionary.org/wiki/Appendix:Unicode/Private_Use_Area/Hanyang?action=edit&veswitched=1"
+
+$(TEMP_PATH)/0201-1.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0201_latin.tbl
+$(TEMP_PATH)/0201-2.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0201_katakana.tbl
+$(TEMP_PATH)/0201-2-hw.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/source/jisx0201_katakana_hw.tbr
+$(TEMP_PATH)/0212.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0212_1990.tbl
+$(TEMP_PATH)/0208.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0208_1997.tbl
+$(TEMP_PATH)/0213.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/source/gl-jisx0213-add.tbr
+
+$(TEMP_PATH)/gw.tar.gz:
+	$(SAVEURL) $@ https://glyphwiki.org/dump.tar.gz
+$(TEMP_PATH)/dump_newest_only.txt: $(TEMP_PATH)/gw.tar.gz
+	cd $(TEMP_PATH) && tar zxf gw.tar.gz dump_newest_only.txt
+	touch $@
+$(TEMP_PATH)/gw-tron.txt: $(TEMP_PATH)/dump_newest_only.txt
+	grep tron $< > $@
+$(TEMP_PATH)/gw-kana.txt: 
+	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:tsuruki-work-test?action=edit
+
 variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/list1.html \
     $(TEMP_PATH)/list2.html \
@@ -48,8 +76,19 @@ maps.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/nan-1.html \
     $(TEMP_PATH)/nan-2.html \
     $(TEMP_PATH)/nan-3.html \
+    $(TEMP_PATH)/hanyang.html \
+    $(TEMP_PATH)/jeju.html \
+    $(TEMP_PATH)/0201-1.txt \
+    $(TEMP_PATH)/0201-2.txt \
+    $(TEMP_PATH)/0201-2-hw.txt \
+    $(TEMP_PATH)/0212.txt \
+    $(TEMP_PATH)/0208.txt \
+    $(TEMP_PATH)/0213.txt \
+    $(TEMP_PATH)/gw-tron.txt \
+    $(TEMP_PATH)/gw-kana.txt \
     doukun.txt \
-    gbk.txt
+    gbk.txt \
+    manyou.txt
 	$(PERL) $< > $@
 
 ## License: Public Domain.

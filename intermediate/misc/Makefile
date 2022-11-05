@@ -12,6 +12,7 @@ build: variants.list maps.list sets.json
 
 variants.list: variants.pl $(VGEN_PATH)/chars.pl \
     $(ROOT_PATH)/src/han-variants.txt \
+    $(ROOT_PATH)/src/other-variants.txt \
     $(ROOT_PATH)/src/doukun.txt
 	$(PERL) $< > $@
 
@@ -21,7 +22,9 @@ maps.list: maps.pl $(VGEN_PATH)/chars.pl \
     hngl.txt \
     ak1.txt \
     b5-map-*.txt \
-    ccciiv.txt ccciim.txt
+    ccciiv.txt ccciim.txt \
+    tron-kana.txt \
+    kana.txt
 	$(PERL) $< > $@
 
 sets.json: sets.pl $(VGEN_PATH)/chars.pl \

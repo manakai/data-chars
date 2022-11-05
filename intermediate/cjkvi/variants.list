@@ -87215,8 +87215,6 @@ cjkvi:twedu/variant
 -"夕"
 "⼣"
 cjkvi:non-cjk/kangxi
-"タ"
-cjkvi:non-cjk/katakana
 "穸"
 cjkvi:hydcd/borrowed
 -"外"
@@ -301981,9 +301979,6 @@ cjkvi:cjkvi/traditional
 -"𫠣"
 "柬"
 cjkvi:cjkvi/traditional
--"𫡏"
-"ケ"
-cjkvi:non-cjk/katakana
 -"𫡬"
 "𠷏"
 cjkvi:cjkvi/traditional
@@ -305947,17 +305942,112 @@ cjkvi:twedu/variant
 -"𪄅"
 "𪄅"
 cjkvi:twedu/variant
-*variants
+*kanas
 -"㐄"
 "ヰ"
 cjkvi:non-cjk/katakana
 -"㐅"
 "メ"
 cjkvi:non-cjk/katakana
-"ㄨ"
-cjkvi:non-cjk/bopomofo
 "乄"
 cjkvi:cjkvi/non-cognate
+-"丷"
+"ソ"
+cjkvi:non-cjk/katakana
+-"丿"
+"ノ"
+cjkvi:non-cjk/katakana
+-"乀"
+"ヘ"
+cjkvi:non-cjk/katakana
+-"乂"
+"乄"
+cjkvi:cjkvi/non-cognate
+-"乇"
+"モ"
+cjkvi:non-cjk/katakana
+-"乛"
+"フ"
+cjkvi:non-cjk/katakana
+-"二"
+"ニ"
+cjkvi:non-cjk/katakana
+-"亻"
+"イ"
+cjkvi:non-cjk/katakana
+-"儿"
+"ル"
+cjkvi:non-cjk/katakana
+-"八"
+"ハ"
+cjkvi:non-cjk/katakana
+-"冖"
+"ワ"
+cjkvi:non-cjk/katakana
+-"冫"
+"ン"
+cjkvi:non-cjk/katakana
+-"力"
+"カ"
+cjkvi:non-cjk/katakana
+-"匕"
+"ヒ"
+cjkvi:non-cjk/katakana
+-"卜"
+"ト"
+cjkvi:non-cjk/katakana
+-"厶"
+"ム"
+cjkvi:non-cjk/katakana
+-"又"
+"ヌ"
+cjkvi:non-cjk/katakana
+-"口"
+"ロ"
+cjkvi:non-cjk/katakana
+-"夕"
+"タ"
+cjkvi:non-cjk/katakana
+-"工"
+"エ"
+cjkvi:non-cjk/katakana
+-"彐"
+"ヨ"
+cjkvi:non-cjk/katakana
+-"才"
+"オ"
+cjkvi:non-cjk/katakana
+-"朩"
+"ホ"
+cjkvi:non-cjk/katakana
+-"氵"
+"シ"
+cjkvi:non-cjk/katakana
+-"礻"
+"ネ"
+cjkvi:non-cjk/katakana
+-"艹"
+"サ"
+cjkvi:non-cjk/katakana
+-"龴"
+"マ"
+cjkvi:non-cjk/katakana
+-"𠂇"
+"ナ"
+cjkvi:non-cjk/katakana
+-"𠂊"
+"ク"
+cjkvi:non-cjk/katakana
+-"𠃒"
+"セ"
+cjkvi:non-cjk/katakana
+-"𫡏"
+"ケ"
+cjkvi:non-cjk/katakana
+*variants
+-"㐅"
+"ㄨ"
+cjkvi:non-cjk/bopomofo
 -"㞢"
 "ㄓ"
 cjkvi:non-cjk/bopomofo
@@ -306008,34 +306098,15 @@ cjkvi:non-cjk/bopomofo
 cjkvi:non-cjk/circle
 "🈭"
 cjkvi:non-cjk/square
--"丷"
-"ソ"
-cjkvi:non-cjk/katakana
--"丿"
-"ノ"
-cjkvi:non-cjk/katakana
 -"乀"
-"ヘ"
-cjkvi:non-cjk/katakana
 "ㄟ"
 cjkvi:non-cjk/bopomofo
--"乂"
-"乄"
-cjkvi:cjkvi/non-cognate
--"乇"
-"モ"
-cjkvi:non-cjk/katakana
--"乛"
-"フ"
-cjkvi:non-cjk/katakana
 -"九"
 "㈨"
 cjkvi:non-cjk/parenthesized
 "㊈"
 cjkvi:non-cjk/circle
 -"二"
-"ニ"
-cjkvi:non-cjk/katakana
 "㈡"
 cjkvi:non-cjk/parenthesized
 "㊁"
@@ -306052,9 +306123,6 @@ cjkvi:non-cjk/circle
 -"交"
 "🈘"
 cjkvi:non-cjk/square
--"亻"
-"イ"
-cjkvi:non-cjk/katakana
 -"代"
 "㈹"
 cjkvi:non-cjk/parenthesized
@@ -306072,13 +306140,9 @@ cjkvi:non-cjk/circle
 "㊝"
 cjkvi:non-cjk/circle
 -"儿"
-"ル"
-cjkvi:non-cjk/katakana
 "ㄦ"
 cjkvi:non-cjk/bopomofo
 -"八"
-"ハ"
-cjkvi:non-cjk/katakana
 "㈧"
 cjkvi:non-cjk/parenthesized
 "㊇"
@@ -306094,15 +306158,9 @@ cjkvi:non-cjk/bopomofo
 -"再"
 "🈞"
 cjkvi:non-cjk/square
--"冖"
-"ワ"
-cjkvi:non-cjk/katakana
 -"写"
 "㊢"
 cjkvi:non-cjk/circle
--"冫"
-"ン"
-cjkvi:non-cjk/katakana
 -"凵"
 "ㄩ"
 cjkvi:non-cjk/bopomofo
@@ -306115,9 +306173,6 @@ cjkvi:non-cjk/square
 -"割"
 "🈹"
 cjkvi:non-cjk/square
--"力"
-"カ"
-cjkvi:non-cjk/katakana
 -"労"
 "㈸"
 cjkvi:non-cjk/parenthesized
@@ -306126,9 +306181,6 @@ cjkvi:non-cjk/circle
 -"勝"
 "🉇"
 cjkvi:non-cjk/bracketed
--"匕"
-"ヒ"
-cjkvi:non-cjk/katakana
 -"匸"
 "ㄈ"
 cjkvi:non-cjk/bopomofo
@@ -306145,9 +306197,6 @@ cjkvi:non-cjk/circle
 cjkvi:non-cjk/parenthesized
 "㊯"
 cjkvi:non-cjk/circle
--"卜"
-"ト"
-cjkvi:non-cjk/katakana
 -"印"
 "㊞"
 cjkvi:non-cjk/circle
@@ -306155,21 +306204,14 @@ cjkvi:non-cjk/circle
 "ㄏ"
 cjkvi:non-cjk/bopomofo
 -"厶"
-"ム"
-cjkvi:non-cjk/katakana
 "ㄙ"
 cjkvi:non-cjk/bopomofo
 -"又"
-"ヌ"
-cjkvi:non-cjk/katakana
 "ㄡ"
 cjkvi:non-cjk/bopomofo
 -"双"
 "🈒"
 cjkvi:non-cjk/square
--"口"
-"ロ"
-cjkvi:non-cjk/katakana
 -"可"
 "🉑"
 cjkvi:non-cjk/circle
@@ -306243,9 +306285,6 @@ cjkvi:non-cjk/bopomofo
 -"巜"
 "ㄍ"
 cjkvi:non-cjk/bopomofo
--"工"
-"エ"
-cjkvi:non-cjk/katakana
 -"左"
 "㊧"
 cjkvi:non-cjk/circle
@@ -306257,9 +306296,6 @@ cjkvi:non-cjk/bopomofo
 -"幼"
 "㉅"
 cjkvi:non-cjk/circle
--"彐"
-"ヨ"
-cjkvi:non-cjk/katakana
 -"彳"
 "ㄔ"
 cjkvi:non-cjk/bopomofo
@@ -306272,9 +306308,6 @@ cjkvi:non-cjk/circle
 -"手"
 "🈐"
 cjkvi:non-cjk/square
--"才"
-"オ"
-cjkvi:non-cjk/katakana
 -"打"
 "🈱"
 cjkvi:non-cjk/square
@@ -306328,9 +306361,6 @@ cjkvi:non-cjk/square
 cjkvi:non-cjk/parenthesized
 "㊍"
 cjkvi:non-cjk/circle
--"朩"
-"ホ"
-cjkvi:non-cjk/katakana
 -"本"
 "🉀"
 cjkvi:non-cjk/bracketed
@@ -306347,9 +306377,6 @@ cjkvi:non-cjk/circle
 cjkvi:non-cjk/parenthesized
 "㊌"
 cjkvi:non-cjk/circle
--"氵"
-"シ"
-cjkvi:non-cjk/katakana
 -"注"
 "㊟"
 cjkvi:non-cjk/circle
@@ -306392,9 +306419,6 @@ cjkvi:non-cjk/bracketed
 cjkvi:non-cjk/parenthesized
 "㊬"
 cjkvi:non-cjk/circle
--"礻"
-"ネ"
-cjkvi:non-cjk/katakana
 -"社"
 "㈳"
 cjkvi:non-cjk/parenthesized
@@ -306429,9 +306453,6 @@ cjkvi:non-cjk/parenthesized
 -"至"
 "㉃"
 cjkvi:non-cjk/parenthesized
--"艹"
-"サ"
-cjkvi:non-cjk/katakana
 -"解"
 "🈖"
 cjkvi:non-cjk/square
@@ -306465,9 +306486,6 @@ cjkvi:non-cjk/circle
 -"項"
 "㊠"
 cjkvi:non-cjk/circle
--"龴"
-"マ"
-cjkvi:non-cjk/katakana
 -"𠀀"
 "ㄛ"
 cjkvi:non-cjk/bopomofo
@@ -306477,12 +306495,6 @@ cjkvi:non-cjk/bopomofo
 -"𠀅"
 "ㄞ"
 cjkvi:non-cjk/bopomofo
--"𠂇"
-"ナ"
-cjkvi:non-cjk/katakana
--"𠂊"
-"ク"
-cjkvi:non-cjk/katakana
 -"𠃋"
 "ㄥ"
 cjkvi:non-cjk/bopomofo
@@ -306490,8 +306502,6 @@ cjkvi:non-cjk/bopomofo
 "ㄣ"
 cjkvi:non-cjk/bopomofo
 -"𠃒"
-"セ"
-cjkvi:non-cjk/katakana
 "ㄝ"
 cjkvi:non-cjk/bopomofo
 -"𠄎"

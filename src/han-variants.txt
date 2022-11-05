@@ -538,3 +538,11 @@ alt 碥 扁
 mistake 暦 歴
 mistake 郡 群
 mistake 代 台
+
+mistake 視 試
+#in: 視聴/試聴
+
+## <https://github.com/adobe-type-tools/Adobe-Japan1/blob/master/README-JP.md#%E9%87%8D%E8%A4%87%E3%81%97%E3%81%9F%E6%BC%A2%E5%AD%97%E3%82%B0%E3%83%AA%E3%83%95>
+same :aj4301 :aj7983
+same :aj4411 :aj7984
+same :aj5459 :aj7994

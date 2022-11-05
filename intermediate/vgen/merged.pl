@@ -18,6 +18,8 @@ my $Data = {};
 my $Sets = {};
 my $Rels = {};
 
+$Data->{key} = $Input->{key};
+
 {
   my $levels = [
     {key => 'SAME', label => 'Same', min_weight => 700},
@@ -43,6 +45,7 @@ my $Rels = {};
 my $TypeWeight = {};
 my $TypeMergeableWeight = {};
 my $PairedTypes = [];
+my $NTypes = [];
 {
   use utf8;
   
@@ -53,6 +56,9 @@ my $PairedTypes = [];
     "mj:実装したSVS",
     "mj:対応する互換漢字",
     "mj:戸籍統一文字:同一",
+    'mj:学術用変体仮名番号',
+    'ninjal:MJ文字図形名',
+    
     "unicode:svs:cjk",
     "ivd:duplicate",
     "cjkvi:cjkvi/duplicate",
@@ -79,6 +85,8 @@ my $PairedTypes = [];
     "cjkvi:non-cjk/kanbun",
 
     "mj:JIS包摂規準・UCS統合規則",
+    "mj:戸籍統一文字番号",
+    'mj:統合',
     
     "unihan:kZVariant",
     "cjkvi:ucs-scs/variant",
@@ -133,6 +141,12 @@ my $PairedTypes = [];
     "unihan:kIRG_JSource:14",
     "unihan:kIRG_JSource:4",
     "unihan:kIRG_JSource:A4",
+    'mj:UCS',
+    'ninjal:UNICODE',
+
+    "glyphwiki:alias",
+    "glyphwiki:juki",
+    "glyphwiki:ninjal",
     
     "arib:duplicate",
     "arib:isoiec10646",
@@ -142,6 +156,7 @@ my $PairedTypes = [];
     "arib:jisx0221",
     "arib:jisx0221:variant",
     "arib:ucs",
+    "arib:proportional",
     
     "adobe:uni",
     "adobe:uni:v",
@@ -157,7 +172,9 @@ my $PairedTypes = [];
     "adobe:jisx0213:2004",
     "adobe:cns11643",
     "adobe:cns11643:v",
+    "adobe:mapping",
 
+    "wikt:mapping",
     "csw:mapping:gb12052",
     "pl:mapping",
     "marc:mapping",
@@ -172,6 +189,12 @@ my $PairedTypes = [];
     "opentype:ljmo:contextual",
     "opentype:tjmo:contextual",
     "opentype:vjmo:contextual",
+    
+    "jis:halfwidth",
+    "jis:fullwidth",
+    "apple:ku+84",
+    "manakai:bold",
+    "manakai:ocr",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -197,6 +220,8 @@ my $PairedTypes = [];
     "cjkvi:x0213-x0212/variants",
     "cjkvi:x0213-x0212/variants:JIS-X-0213:2004",
 
+    "kchar:Hunminjeongeum Haerye style",
+    
     "unihan3.0:kIRG_JSource",
     "unihan:kIRG_JSource:0",
     "unihan:kIRG_JSource:13",
@@ -260,11 +285,31 @@ my $PairedTypes = [];
     "adobe:jp78",
     "adobe:jp83",
     "adobe:jp90",
+
+    "kana:origin:variant",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
     $TypeWeight->{'rev:'.$vtype} = -1;
   }
-
+  for my $vtype (
+    "wakan:assoc",
+    "glyphwiki:字母",
+    'ninjal:字母',
+    'mj:字母',
+    'kana:origin',
+    "wikipedia:ja:合略仮名:合字",
+    "wikipedia:ja:合略仮名:略体",
+    "wikipedia:ja:合略仮名:草体",
+    "wikipedia:ja:片仮名:省字",
+  ) {
+    push @$NTypes, $vtype;
+    $TypeWeight->{$vtype} = W 'COVERED';
+    $TypeWeight->{'rev:'.$vtype} = W 'COVERED';
+    $TypeWeight->{'to1:'.$vtype} = W 'EQUIV';
+    $TypeWeight->{'to1:rev:'.$vtype} = W 'EQUIV';
+    $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
+  }
+  
   ## COVERED: A character is replaceable by another.
   for my $vtype (
     "cjkvi:joyo/variant",
@@ -304,10 +349,49 @@ my $PairedTypes = [];
     "wikipedia:zh:臺閩字列表:異用字 / 俗字",
     
     "cjkvi:cjkvi/numeric",
+    
+    "wakan:assoc?",
+    "wikipedia:ja:片仮名:転化か",
+    
+    "wakan:section",
+    'ninjal:平仮名',
+    'ninjal:備考:仮名',
+    "glyphwiki:音価",
+    'kana:modern',
+    "wikipedia:ja:合略仮名:読み",
+    "wikipedia:ja:片仮名:片仮名",
+    'mj:音価',
+      'mj:音価1',
+      'mj:音価2',
+      'mj:音価3',
+    "kana:manyou",
+    
+    "irc:ascii-lowercase",
+    "irc:rfc1459-lowercase",
+    "irc:strict-rfc1459-lowercase",
+    "ucd:names:lc",
+    "ucd:names:lc-some",
+    "ucd:names:uc",
+    "ucd:names:uc-some",
+    "unicode:Case_Folding",
+    "unicode:Titlecase_Mapping",
+    "unicode:Uppercase_Mapping",
+    "unicode:Lowercase_Mapping",
+
+    "kana:h2k",
+    "kana:k2h",
+    "kana:large",
+    "kana:small",
+    "arib:70%",
+
+    "unicode5.1:Bidi_Mirroring_Glyph",
+    "unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT",
+    "unicode:Bidi_Mirroring_Glyph",
+    "unicode:Bidi_Mirroring_Glyph-BEST-FIT",
   ) {
     $TypeWeight->{$vtype} = W 'COVERED';
     $TypeWeight->{'rev:'.$vtype} = -1;
-    $TypeWeight->{'to1:'.$vtype} = -1,
+    $TypeWeight->{'to1:'.$vtype} = -1;
     $TypeWeight->{'to1:rev:'.$vtype} = -1;
     $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
   }
@@ -351,6 +435,15 @@ my $PairedTypes = [];
       $TypeWeight->{'nto1:'.$vtype} = -1;
     }
   }
+  push @$NTypes, qw(
+    cjkvi:joyo/variant
+    cjkvi:jinmei1/variant
+    cjkvi:jinmei2/variant
+    cjkvi:hyogai/variant
+    cjkvi:jp-old-style
+    cjkvi:jp-old-style:comment
+    cjkvi:jp-old-style:compatibility
+  );
 
   ## OVERLAP: Characters share many important characteristics such
   ## that there are many cases one can be replaced by another.
@@ -374,47 +467,6 @@ my $PairedTypes = [];
     "cjkvi:cjkvi/radical-variant:top",
 
     "manakai:variant",
-
-    "irc:ascii-lowercase",
-    "irc:rfc1459-lowercase",
-    "irc:strict-rfc1459-lowercase",
-    "ucd:names:lc",
-    "ucd:names:lc-some",
-    "ucd:names:uc",
-    "ucd:names:uc-some",
-    "unicode:Case_Folding",
-    "unicode:Titlecase_Mapping",
-    "unicode:Uppercase_Mapping",
-    "unicode:Lowercase_Mapping",
-
-    "rfc3454:B.2",
-    "rfc3454:B.3",
-    "rfc5051:titlecase-canonical",
-    "unicode:NFKC_Casefold",
-    "unicode:compat_decomposition",
-    "uts46:mapping",
-    
-    "ucd:names:variant",
-    "ucd:names:preferred-some",
-    "ucd:names:prefers-some",
-
-    "cjkvi:non-cjk/bopomofo",
-    "cjkvi:non-cjk/bracketed",
-    "cjkvi:non-cjk/circle",
-    "cjkvi:non-cjk/katakana",
-    "cjkvi:non-cjk/parenthesized",
-    "cjkvi:non-cjk/square",
-
-    "kana:h2k",
-    "kana:k2h",
-    "kana:large",
-    "kana:small",
-    "arib:70%",
-
-    "unicode5.1:Bidi_Mirroring_Glyph",
-    "unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT",
-    "unicode:Bidi_Mirroring_Glyph",
-    "unicode:Bidi_Mirroring_Glyph-BEST-FIT",
   ) {
     $TypeWeight->{$vtype} = W 'OVERLAP';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -454,6 +506,22 @@ my $PairedTypes = [];
     "manakai:doukun",
     
     "ucd:names:transliterated",
+
+    "rfc3454:B.2",
+    "rfc3454:B.3",
+    "rfc5051:titlecase-canonical",
+    "unicode:NFKC_Casefold",
+    "unicode:compat_decomposition",
+    "uts46:mapping",
+    
+    "ucd:names:variant",
+    "ucd:names:preferred-some",
+    "ucd:names:prefers-some",
+
+    "cjkvi:non-cjk/bracketed",
+    "cjkvi:non-cjk/circle",
+    "cjkvi:non-cjk/parenthesized",
+    "cjkvi:non-cjk/square",
 
     "unicode:from cp",
     "unicode:to cp",
@@ -496,6 +564,11 @@ my $PairedTypes = [];
     "unicode:Bidi_Paired_Bracket",
     "unicode:security:confusable",
     "unicode:security:intentional",
+    
+    "cjkvi:non-cjk/bopomofo",
+    "cjkvi:non-cjk/katakana",
+
+    "manakai:ne",
   ) {
     $TypeWeight->{$vtype} = W 'LINKED';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -515,11 +588,21 @@ my $PairedTypes = [];
     $TypeWeight->{'rev:'.$vtype} = -1;
     $TypeMergeableWeight->{$vtype} = W 'COVERED';
   }
+  for my $vtype (
+    "manakai:ne",
+  ) {
+    $TypeWeight->{$vtype} = -1;
+    $TypeWeight->{'rev:'.$vtype} = -1;
+    $TypeMergeableWeight->{$vtype} = W 'LINKED'
+        unless $Data->{key} eq 'hans';
+  }
   
   for my $vtype (
     "manakai:inset",
     "manakai:inset:original",
     "rev:manakai:inset:original",
+    'manakai:hasspecialized',
+    'rev:manakai:hasspecialized',
   ) {
     $TypeWeight->{$vtype} = -1;
     $TypeMergeableWeight->{$vtype} = W 'COVERED';
@@ -600,16 +683,10 @@ for my $r (@$RevRels) {
     $HasRels->{'rev:'.$r->[2]}->{$r->[1]} = 1;
   }
 } # $RevRels
-for my $vtype (qw(
-  cjkvi:joyo/variant
-  cjkvi:jinmei1/variant
-  cjkvi:jinmei2/variant
-  cjkvi:hyogai/variant
-  cjkvi:jp-old-style
-  cjkvi:jp-old-style:comment
-  cjkvi:jp-old-style:compatibility
-), (map { @$_ } @$PairedTypes)) {
+for my $vtype (@$NTypes, (map { @$_ } @$PairedTypes)) {
   for my $vtype ($vtype, 'rev:'.$vtype) {
+    my $vt2 = $vtype;
+    $vt2 =~ s/\d+$//;
     C1: for my $c1 (sort { $a cmp $b } keys %{$HasRels->{$vtype}}) {
       my $n = 0;
       my $c;
@@ -617,25 +694,19 @@ for my $vtype (qw(
         next C1 if ++$n > 1;
         $c = $c2;
       }
-      $Rels->{$c1}->{$c}->{'to1:'.$vtype} = 1;
+      $Rels->{$c1}->{$c}->{'to1:'.$vt2} = 1;
     }
   } # C1
 }
-for my $vtype (qw(
-  cjkvi:joyo/variant
-  cjkvi:jinmei1/variant
-  cjkvi:jinmei2/variant
-  cjkvi:hyogai/variant
-  cjkvi:jp-old-style
-  cjkvi:jp-old-style:comment
-  cjkvi:jp-old-style:compatibility
-)) {
+for my $vtype (@$NTypes) {
+  my $vt2 = $vtype;
+  $vt2 =~ s/\d+$//;
   for my $c1 (sort { $a cmp $b } keys %{$HasRels->{$vtype}}) {
     for my $c2 (sort { $a cmp $b } keys %{$Rels->{$c1}}) {
-      if ($Rels->{$c1}->{$c2}->{'to1:'.$vtype} and
-          $Rels->{$c2}->{$c1}->{'to1:rev:'.$vtype}) {
-        $Rels->{$c1}->{$c2}->{'1to1:'.$vtype} = 1;
-        $Rels->{$c2}->{$c1}->{'1to1:'.$vtype} = 1;
+      if ($Rels->{$c1}->{$c2}->{'to1:'.$vt2} and
+          $Rels->{$c2}->{$c1}->{'to1:rev:'.$vt2}) {
+        $Rels->{$c1}->{$c2}->{'1to1:'.$vt2} = 1;
+        $Rels->{$c2}->{$c1}->{'1to1:'.$vt2} = 1;
       }
     }
   }

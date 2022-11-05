@@ -30,10 +30,10 @@ my $Data = {};
       #$_->[0], $_->[1]+0x20, $_->[2]+0x20, $_->[3];
     } else {
       my $c1 = sprintf ":cccii%d-%d-%d", $_->[0], $_->[1], $_->[2];
-      my $c2 = chr $_->[3];
+      my $c2 = u_chr $_->[3];
       die if is_private $c2;
-      my $key = 'variants';
-      $key = 'hans' if is_han $c2 > 0;
+      my $key = get_vkey $c2;
+      $key = 'kanas' if is_kana $c1 > 0;
       $Data->{$key}->{$c1}->{$c2}->{'pl:mapping'} = 1;
     }
   }

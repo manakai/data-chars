@@ -1,4 +1,5 @@
 {
+  "key": "hans",
   "inputs": [
     {
       "path": "../unicode/variants.json",

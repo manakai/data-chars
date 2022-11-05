@@ -1,0 +1,102 @@
+{
+  "key": "kanas",
+  "inputs": [
+    {
+      "path": "../unicode/variants.json",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../unicode/variants2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../unicode/namesrefs.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../unicode/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../unicode/maps2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../unicode/maps3.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/kmaps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../jp/variants.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cns/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cns/maps2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mozilla/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../whatwg/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../perl/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../loc/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../adobe/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../opencc/variants.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/variants.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../wiki/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../misc/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../misc/variants.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../misc/sets.json",
+      "set_map": {
+        "kana_modern_small": "jp",
+        "kana_modern_large": "jp"
+      }
+    }
+  ],
+  "leader_types": [
+  ]
+}
