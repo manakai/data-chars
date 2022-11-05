@@ -1,0 +1,8 @@
+* OpenCC data files
+
+Some of data in this directory derived from OpenCC data files
+available at <https://github.com/BYVoid/OpenCC>.
+
+License of the OpenCC data files: 
+<https://github.com/BYVoid/OpenCC/blob/master/LICENSE>
+(Apache License 2.0).  See |../../doc/LICENSE.apache2|.

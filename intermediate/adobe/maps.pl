@@ -2,43 +2,16 @@ use strict;
 use warnings;
 use Path::Tiny;
 use JSON::PS;
+BEGIN { require 'chars.pl' };
 
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
 my $TempPath = $RootPath->child ('local/iad');
 
-sub u_chr ($) {
-  if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F)) {
-    return sprintf ':u%x', $_[0];
-  }
-  my $c = chr $_[0];
-  if ($c eq ":" or $c eq "." or
-      $c =~ /\p{Non_Character_Code_Point}|\p{Surrogate}/) {
-    return sprintf ':u%x', $_[0];
-  } else {
-    return $c;
-  }
-} # u_chr
-
-sub u_hexs ($) {
-  my $s = shift;
-  my $i = 0;
-  return join '', map {
-    my $t = u_chr hex $_;
-    if ($i++ != 0) {
-      $t = '.' if $t eq ':u2e';
-      $t = ':' if $t eq ':u3a';
-    }
-    if (1 < length $t) {
-      return join '', map {
-        sprintf ':u%x', hex $_;
-      } split /\s+/, $s;
-    }
-    $t;
-  } split /\s+/, $s
-} # u_hexs
-
 my $Data = {};
+my $IsHan = {};
+my $IsKana = {};
+my $IsKChar = {};
 
 for (
   [
@@ -51,6 +24,7 @@ for (
       [27, ':x02132004'], # UniJISX02132004
     ],
     [],
+    ':u-mac-',
   ],
   [
     'aj20.txt',
@@ -61,6 +35,7 @@ for (
     [
       [2, 2, 'jisx0212', ':jis'],
     ],
+    undef,
   ],
   [
     'ac17.txt',
@@ -72,6 +47,7 @@ for (
       [6, 1, 'cns11643', ':cns'],
       [7, 2, 'cns11643', ':cns'],
     ],
+    ':u-hkscs-',
   ],
   [
     'ag15.txt',
@@ -79,7 +55,11 @@ for (
     [
       [14, ''], 
     ],
-    [],
+    [
+      #[2, 0, 'gb2312', ':gb'], 
+      #[5, 0, 'gb12345', ':gb'], 
+    ],
+    ':u-gb-',
   ],
   [
     'ak9.txt',
@@ -88,6 +68,7 @@ for (
       [4, ''], 
     ],
     [],
+    undef,
   ],
   [
     'ak12.txt',
@@ -96,12 +77,14 @@ for (
       [11, ''], 
     ],
     [],
+    undef,
   ],
 ) {
   my $path = $TempPath->child ($_->[0]);
   my $prefix = $_->[1];
   my $uni_cols = $_->[2];
   my $gl_cols = $_->[3];
+  my $up_prefix = $_->[4];
   for (split /\x0D?\x0A/, $path->slurp) {
     if (/^#/) {
       #
@@ -110,6 +93,8 @@ for (
     } elsif (/\S/) {
       my @s = split /\t/, $_;
       my $cid = 0+$s[1-1];
+      my $c1 = "$prefix$cid";
+      my $key = 'variants';
 
       for (@$uni_cols) {
         my $index = $_->[0];
@@ -117,13 +102,58 @@ for (
         my $u = $s[$index-1];
         for (split /,/, $u) {
           if (/^[0-9A-Fa-f]+$/) {
-            $Data->{variants}->{"$prefix$cid"}->{u_chr hex $_}->{"adobe:uni".$suffix} = 1;
+            my $c2 = u_chr hex $_;
+            if (is_han $c2 > 0) {
+              $key = 'hans';
+              $IsHan->{$c1} = 1;
+            } elsif (is_kana $c2 > 0) {
+              $key = 'kanas';
+              $IsKana->{$c1} = 1;
+            } elsif (is_kchar $c2 > 0) {
+              $key = 'kchars';
+              $IsKChar->{$c1} = 1;
+            } else {
+              if (is_private $c2) {
+                my $c2_0 = $c2;
+                $c2 = ($up_prefix // die "$c1 $c2") . sprintf '%x', ord $c2;
+                $c2 =~ s{^:u-hkscs-(f6b[1-f]|f6[c-f][0-9a-f]|f7[0-9a-f]{2}|f80[0-9a-f]|f81[0-9a-d])$}{:u-bigfive-$1}g;
+                $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+              }
+            }
+            if ($key eq 'kchars' and $c2 eq "\x{3000}") {
+              my $key = get_vkey $c2;
+              $Data->{$key}->{$c1}->{$c2}->{"adobe:uni".$suffix} = 1;
+            } else{
+              $Data->{$key}->{$c1}->{$c2}->{"adobe:uni".$suffix} = 1;
+            }
           } elsif (/^([0-9A-Fa-f]+)v$/) {
-            $Data->{variants}->{"$prefix$cid"}->{u_chr hex $1}->{"adobe:uni".$suffix.":v"} = 1;
+            my $c2 = u_chr hex $1;
+            if (is_han $c2 > 0) {
+              $key = 'hans';
+              $IsHan->{$c1} = 1;
+            } elsif (is_kana $c2 > 0) {
+              $key = 'kanas';
+              $IsKana->{$c1} = 1;
+            } elsif (is_kchar $c2 > 0) {
+              $key = 'kchars';
+              $IsKChar->{$c1} = 1;
+            } else {
+              if ($key eq 'hans' and not is_han $c2) {
+                if (is_private $c2) {
+                  my $c2_0 = $c2;
+                  $c2 = ($up_prefix // die) . sprintf '%x', ord $c2;
+                  $c2 =~ s{^:u-hkscs-(f6b[1-f]|f6[c-f][0-9a-f]|f7[0-9a-f]{2}|f80[0-9a-f]|f81[0-9a-d])$}{:u-bigfive-$1}g;
+                  $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+                } else {
+                  die $c1;
+                }
+              }
+            }
+            $Data->{$key}->{$c1}->{$c2}->{"adobe:uni".$suffix.":v"} = 1;
           } elsif ($_ eq '*') {
             #
           } else {
-            warn $_;
+            die $_;
           }
         }
       } # $uni_cols
@@ -136,14 +166,14 @@ for (
         for (split /,/, $v) {
           if (/^([0-9A-Fa-f]{2})([0-9A-fa-f]{2})$/) {
             my $jis = sprintf '%d-%d-%d', $p, (hex $1)-0x20, (hex $2)-0x20;
-            $Data->{variants}->{"$prefix$cid"}->{"$gl_prefix$jis"}->{"adobe:".$suffix} = 1;
+            $Data->{$key}->{$c1}->{"$gl_prefix$jis"}->{"adobe:".$suffix} = 1;
           } elsif (/^([0-9A-Fa-f]{2})([0-9A-fa-f]{2})v$/) {
             my $jis = sprintf '%d-%d-%d', $p, (hex $1)-0x20, (hex $2)-0x20;
-            $Data->{variants}->{"$prefix$cid"}->{"$gl_prefix$jis"}->{"adobe:".$suffix.':v'} = 1;
+            $Data->{$key}->{$c1}->{"$gl_prefix$jis"}->{"adobe:".$suffix.':v'} = 1;
           } elsif ($_ eq '*') {
             #
           } else {
-            warn $_;
+            die $_;
           }
         }
       } # $gl_cols
@@ -168,6 +198,39 @@ for (
   }
 }
 
+for (
+  ['aj-vs.txt', ':aj'],
+  ['ac-vs.txt', ':ac'],
+  ['ag-vs.txt', ':ag'],
+  ['ak-vs.txt', ':ak'],
+) {
+  my $path = $TempPath->child ($_->[0]);
+  my $prefix = $_->[1];
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/^([0-9A-F]+) ([0-9A-F]+);[^;]+; CID\+([0-9]+)$/) {
+      my $c1 = "$prefix$3";
+      my $c2_1 = u_chr hex $1;
+      my $c2 = u_hexs $1 . ' ' . $2;
+      my $key = 'variants';
+      if (is_han $c2_1 > 0) {
+        $key = 'hans';
+        $IsHan->{$c1} = 1;
+      } elsif (is_kana $c2_1 > 0) {
+        $key = 'kanas';
+        $IsKana->{$c1} = 1;
+      } elsif (is_kchar $c2_1 > 0) {
+        $key = 'kchars';
+        $IsKChar->{$c1} = 1;
+      }
+      $Data->{$key}->{$c1}->{$c2}->{"adobe:vs"} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
 {
   my $path = $TempPath->child ('aj17-kanji.txt');
   for (split /\x0D?\x0A/, $path->slurp) {
@@ -184,6 +247,9 @@ for (
         [5, 1, 'jp83'],
         [6, 1, 'expt'],
         [9, 2, 'jisx0212'],
+        #[14, 1, 'kjis'],
+        [15, 1, 'ext'],
+        [16, 1, 'add'],
         [17, 1, 'jis78'],
       ) {
         my $v = $s[$_->[0]-1];
@@ -193,9 +259,13 @@ for (
           #
         } elsif ($v =~ /^([0-9]+)-([0-9]+)$/) {
           my $jis = sprintf '%d-%d-%d', $p, $1, $2;
-          $Data->{variants}->{":aj$cid"}->{":jis$jis"}->{"adobe:$t"} = 1;
+          my $c1 = ":aj$cid";
+          my $key = 'variants';
+          $key = 'hans' if $IsHan->{$c1};
+          $key = 'kchars' if $IsKChar->{$c1};
+          $Data->{$key}->{$c1}->{":jis$jis"}->{"adobe:$t"} = 1;
         } else {
-          warn $v;
+          die $v;
         }
       }
       
@@ -209,18 +279,18 @@ for (
           #
         } elsif ($v =~ /^([0-9]+)-([0-9]+)-([0-9]+)$/) {
           my $jis = sprintf '%d-%d-%d', $1, $2, $3;
-          $Data->{variants}->{":aj$cid"}->{":jis$jis"}->{"adobe:$t"} = 1;
+          $Data->{hans}->{":aj$cid"}->{":jis$jis"}->{"adobe:$t"} = 1;
         } else {
-          warn $v;
+          die $v;
         }
       }
 
       if ($s[11-1] eq '*') {
         #
       } elsif ($s[11-1] =~ /^CID\+([0-9]+)$/) {
-        $Data->{variants}->{':aj'.(0+$1)}->{":aj$cid"}->{"adobe:trad"} = 1;
+        $Data->{hans}->{':aj'.(0+$1)}->{":aj$cid"}->{"adobe:trad"} = 1;
       } else {
-        warn $s[11-1];
+        die $s[11-1];
       }
 
       my $vss = $s[20-1];
@@ -228,28 +298,9 @@ for (
         if (m{^<U\+([0-9A-F]+),U\+([0-9A-F]+)>$}) {
           #$Data->{variants}->{":aj$cid"}->{u_hexs $1 . ' ' . $2}->{"adobe:vs"} = 1;
         } else {
-          warn $_;
+          die $_;
         }
       }
-    }
-  }
-}
-
-for (
-  ['aj-vs.txt', ':aj'],
-  ['ac-vs.txt', ':ac'],
-  ['ag-vs.txt', ':ag'],
-  ['ak-vs.txt', ':ak'],
-) {
-  my $path = $TempPath->child ($_->[0]);
-  my $prefix = $_->[1];
-  for (split /\x0D?\x0A/, $path->slurp) {
-    if (/^#/) {
-      #
-    } elsif (/^([0-9A-F]+) ([0-9A-F]+);[^;]+; CID\+([0-9]+)$/) {
-      $Data->{variants}->{"$prefix$3"}->{u_hexs $1 . ' ' . $2}->{"adobe:vs"} = 1;
-    } elsif (/\S/) {
-      die $_;
     }
   }
 }
@@ -258,7 +309,6 @@ for (
   ['aj17.fea', ':aj'],
   ['ac17.fea', ':ac'],
   ['ag15.fea', ':ag'],
-  ['ak12.fea', ':ak1-'],
   ['akr9.fea', ':ak'],
 ) {
   my $path = $TempPath->child ($_->[0]);
@@ -467,6 +517,86 @@ for (
       }
     }
   } # $from_feat
+  L: {
+    my $found = 0;
+    for my $feat (keys %$feat_data) {
+      my $current = $feat_data->{$feat}->{items};
+      for my $c1 (keys %$current) {
+        for my $c2 (keys %{$current->{$c1}}) {
+          if ($IsHan->{$c1} and $IsHan->{$c2}) {
+            #
+          } elsif ($IsKana->{$c1} and $IsKana->{$c2}) {
+            #
+          } elsif ($IsKChar->{$c1} and $IsKChar->{$c2}) {
+            #
+          } elsif ($IsHan->{$c1} or $IsHan->{$c2}) {
+            if ({
+              jp78 => 1,
+              jp83 => 1,
+              expt => 1,
+              trad => 1,
+              hojo => 1,
+              nlck => 1,
+            }->{$feat}) {
+              $IsHan->{$c1} = $IsHan->{$c2} = 1;
+              $found = 1;
+            } else {
+              warn $feat unless {
+                aalt => 1, nalt => 1,
+                ruby => 1, hngl => 1,
+              }->{$feat};
+            }
+          } elsif ($IsKana->{$c1} or $IsKana->{$c2}) {
+            if ({
+              fwid => 1,
+              hwid => 1,
+              pwid => 1,
+              vert => 1,
+              vrt2 => 1,
+              ruby => 1,
+              pkna => 1,
+              hkna => 1,
+              vkna => 1,
+            }->{$feat}) {
+              $IsKana->{$c1} = $IsKana->{$c2} = 1;
+              $found = 1;
+            } else {
+              warn $feat unless {
+                aalt => 1, nalt => 1, dlig => 1,
+              }->{$feat};
+            }
+          } elsif ($IsKChar->{$c1} or $IsKChar->{$c2}) {
+            if ({
+              tjmo => 1,
+              vjmo => 1,
+              ljmo => 1,
+              
+              vert => 1,
+              vrt2 => 1,
+              
+              ccmp => 1,
+            }->{$feat}) {
+              $IsKChar->{$c1} = 1;
+              $IsKChar->{$c2} = 1;
+              $found = 1;
+            } else {
+              warn $feat unless {
+                aalt => 1, ccmp => 1,
+              }->{$feat};
+            }
+          }
+          if (not $IsKana->{$c1} and
+              $feat eq 'ccmp' and
+              $c1 =~ m{^(:aj[0-9]+)(:aj[0-9]+)$} and
+              $IsKana->{$1} and $IsKana->{$2}) {
+            $IsKana->{$c1} = $IsKana->{$c2} = 1;
+            $found = 1;
+          }
+        }
+      }
+    }
+    redo if $found;
+  } # L
   for my $feat (keys %$feat_data) {
     my $current = $feat_data->{$feat}->{items};
     my $current_x = $feat_data->{$feat}->{items_x};
@@ -478,17 +608,68 @@ for (
     }
     for my $c1 (keys %$current) {
       for my $c2 (keys %{$current->{$c1}}) {
+        my $key = 'variants';
+        if ($IsHan->{$c1} and $IsHan->{$c2}) {
+          $key = 'hans';
+        } elsif ($IsKana->{$c1} and $IsKana->{$c2}) {
+          $key = 'kanas';
+        } elsif ($IsKChar->{$c1} and $IsKChar->{$c2}) {
+          $key = 'kchars';
+        } else {
+          if ($IsHan->{$c1} or $IsHan->{$c2}) {
+            if ($feat eq 'hngl' or $feat eq 'aalt') {
+              #
+            } else {
+            #  warn $feat, $c1, $c2;
+            }
+          } elsif (is_han $c1) {
+            #warn $feat, $c1, $c2;
+          }
+        }
         if ($current_i->{$c1} or
             (keys %{$current_x->{$c1} or {}} and not $feat =~ /alt$/)) {
-          $Data->{variants}->{$c1}->{$c2}->{"opentype:$feat:contextual"} = 1;
+          $Data->{$key}->{$c1}->{$c2}->{"opentype:$feat:contextual"} = 1;
         } else {
-          $Data->{variants}->{$c1}->{$c2}->{"opentype:$feat"} = 1;
+          $Data->{$key}->{$c1}->{$c2}->{"opentype:$feat"} = 1;
         }
       }
     }
   }
 }
 
-print perl2json_bytes_for_record $Data;
+{
+  my $path = $TempPath->child ('akr9-hangul.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/\S/) {
+      my @s = split /\t/, $_;
+      my $cid = 0+$s[3-1];
+
+      for (
+        [5, ':ks0', 'mapping'],
+        [6, ':ks1', 'mapping'],
+        [7, ':kps0', 'mapping'],
+        [8, ':gb20', 'mapping'],
+      ) {
+        my $v = $s[$_->[0]-1];
+        my $p = $_->[1];
+        my $t = $_->[2];
+        if ($v eq '*') {
+          #
+        } elsif ($v =~ /^([0-9]+)-([0-9]+)$/) {
+          my $c2 = sprintf '%s-%d-%d', $p, $1, $2;
+          my $c1 = ":ak$cid";
+          my $key = 'kchars';
+          $Data->{$key}->{$c1}->{$c2}->{"adobe:$t"} = 1;
+        } else {
+          die $v;
+        }
+      }
+    }
+  }
+}
+
+print_rel_data $Data;
 
 ## License: Public Domain.

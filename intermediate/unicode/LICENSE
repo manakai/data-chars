@@ -1,3 +1,16 @@
-* Unicode Data Files
+* Unicode data files
 
-  See |../../doc/LICENSE.unicode|.
+Some of data in this directory derived from Unicode data files.
+
+License of the Unicode data files: See |../../doc/LICENSE.unicode|.
+
+Some of data in this directory derived from UK-Source Ideographs data
+files.
+
+License of the UK-Source Ideographs repository:
+<https://github.com/unicode-org/uk-source-ideographs/blob/main/LICENSE.md>
+(Arphic Public License).
+
+Some of data in this directory derived from ICU data files.
+
+License of the ICU data files: See |../../doc/LICENSE.icu|.

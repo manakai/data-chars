@@ -1,0 +1,193 @@
+{
+  "key": "hans",
+  "inputs": [
+    {
+      "path": "../unicode/variants.json",
+      "rels_key": "hans",
+      "set_map": {
+        "cn": "cn",
+        "hk": "hk",
+        "g1": "gb12345",
+        "k0": "ksx1001",
+        "krname": "krname"
+      },
+      "mv_map": {
+        "unihan:hkglyph": "hk"
+      }
+    },
+    {
+      "path": "../unicode/variants2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/namesrefs.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps3.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/variants.json",
+      "rels_key": "none",
+      "set_map": {
+        "jouyou": "jp",
+        "jinmei": "jp_jinmei"
+      }
+    },
+    {
+      "path": "../jp/variants.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cns/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cns/maps2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mozilla/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../whatwg/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../perl/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../loc/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../adobe/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../opencc/variants.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/variants.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../wiki/variants.json",
+      "set_map": {
+        "tw": "tw",
+        "kredu": "kr",
+        "kredu_added": "kr",
+        "kredu_deleted": "kr",
+        "hyougai": "jp2"
+      }
+    },
+    {
+      "path": "../wiki/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../misc/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../misc/aggregated.json",
+      "rels_key": "variants"
+    },
+    {
+      "path": "../misc/variants.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../misc/sets.json",
+      "set_map": {
+        "jouyou_s56": "jp2",
+        "jinmei_h9": "jp2"
+      }
+    }
+  ],
+  "leader_types": [
+    {
+      "key": "cn",
+      "short_label": "简",
+      "label": "大陆(简体)",
+      "lang_tag": "zh-CN"
+    },
+    {
+      "key": "cn_complex",
+      "short_label": "繁",
+      "label": "大陸(繁體)",
+      "lang_tag": "zh-CN"
+    },
+    {
+      "key": "hk",
+      "short_label": "港",
+      "label": "香港",
+      "lang_tag": "zh-HK"
+    },
+    {
+      "key": "tw",
+      "short_label": "臺",
+      "label": "臺灣",
+      "lang_tag": "zh-TW"
+    },
+    {
+      "key": "jp",
+      "short_label": "日",
+      "label": "日本",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_new",
+      "short_label": "新",
+      "label": "日本(新字体)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_h22",
+      "short_label": "平成",
+      "label": "日本(平成22年)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_old",
+      "short_label": "旧",
+      "label": "日本(舊字體)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "kr",
+      "short_label": "韓",
+      "label": "韓國",
+      "lang_tag": "ko-KR"
+    }
+  ],
+  "tests": [
+    "hans-tests.txt"
+  ]
+}

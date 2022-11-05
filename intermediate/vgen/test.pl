@@ -8,22 +8,23 @@ my $DataPath = path ('.')->absolute;
 
 my $Levels = [];
 {
-  my $path = $DataPath->child ('cluster-root.json');
+  my $path = $DataPath->child ('merged-index.json');
   my $json = json_bytes2perl $path->slurp;
-  for (@{$json->{cluster_levels}}) {
+  for (values %{$json->{cluster_levels}}) {
     $Levels->[$_->{index}] = $_;
   }
 }
 my $Chars = {};
 {
-  my $path = $DataPath->child ('char-cluster-indexed.jsonl');
-  print STDERR "Loading |$path|...\n";
+  my $path = $DataPath->child ('char-cluster.jsonl');
+  print STDERR "\rLoading |$path|... ";
   my $file = $path->openr;
   local $/ = "\x0A";
   while (<$file>) {
     my $json = json_bytes2perl $_;
     $Chars->{$json->[0]} = $json->[1];
   }
+  print STDERR "\rLoaded\n";
 }
 
 my $TestData;
@@ -34,16 +35,24 @@ my $TestData;
 
 binmode STDOUT, qw(:encoding(utf-8));
 my $Index = 0;
-sub ok ($$$) {
-  printf "ok %d\n",
-      ++$Index;
+sub ok ($$$$) {
+  if ($ENV{VERBOSE}) {
+    printf "ok %d # %s: %s |%s| |%s|\n",
+      ++$Index, $_[3], $Levels->[$_[2]]->{key}, $_[0], $_[1];
+  } else {
+    printf "ok %d\n",
+        ++$Index;
+  }
 } # ok
+my $HasNG = 0;
 sub ng ($$$$) {
   printf "not ok %d # %s: %s |%s| |%s|\n",
       ++$Index, $_[3], $Levels->[$_[2]]->{key}, $_[0], $_[1];
+  $HasNG = 1;
 } # ng
 sub end () {
   printf "1..%d\n", $Index;
+  exit $HasNG;
 }
 
 for my $c1 (sort { $a cmp $b } keys %$TestData) {
@@ -60,11 +69,11 @@ for my $c1 (sort { $a cmp $b } keys %$TestData) {
     }
     for my $index (sort { $a <=> $b } keys %{$TestData->{$c1}->{$c2}}) {
       my $expected = $TestData->{$c1}->{$c2}->{$index};
-      my $cli1 = $cl1->[@$cl1 - $index];
-      my $cli2 = $cl2->[@$cl2 - $index];
+      my $cli1 = $cl1->[$index];
+      my $cli2 = $cl2->[$index];
       my $actual = $cli1 == $cli2 ? +1 : -1;
       if ($expected == $actual) {
-        ok $c1, $c2, $index;
+        ok $c1, $c2, $index, "$cli1, $cli2";
       } else {
         ng $c1, $c2, $index, "$cli1, $cli2";
       }

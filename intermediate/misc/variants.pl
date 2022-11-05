@@ -3,76 +3,31 @@ use warnings;
 use Path::Tiny;
 use JSON::PS;
 use Web::Encoding;
+BEGIN { require 'chars.pl' };
 
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
+my $Data = {};
 
 sub ue ($) {
   my $s = shift;
+  if ($s =~ m{^\\(.)$}) {
+    return $1;
+  }
   $s =~ s{\\u([0-9A-Fa-f]{4})}{chr hex $1}ge;
   $s =~ s{\\u\{([0-9A-Fa-f]+)\}}{chr hex $1}ge;
+  if (1 == length $s) {
+    return u_chr ord $s;
+  }
   return $s;
 } # ue
-
-my $Data;
-{
-  my $path = $ThisPath->child ('aggregated.json');
-  my $json = json_bytes2perl $path->slurp;
-  $Data = $json;
-}
-
-{
-  my $path = $RootPath->child ('data/maps.json');
-  my $json = json_bytes2perl $path->slurp;
-
-  my $vtype = 'unicode:canonical-decomposition';
-  my $map = $json->{maps}->{"unicode:canon_decomposition"};
-  for my $key (keys %{$map->{char_to_char}}) {
-    my $cc = hex $key;
-    if (0xF900 <= $cc and $cc <= 0xFAFF or
-        0x20000 <= $cc and $cc <= 0x2FFFF) {
-      $Data->{variants}->{chr $cc}->{chr hex $map->{char_to_char}->{$key}}->{$vtype} = 1;
-    }
-  }
-}
-
-{
-  my $path = $RootPath->child ('data/sets.json');
-  my $json = json_bytes2perl $path->slurp;
-  for (
-    ['$kanji:jouyou-1981' => 'jouyou_s56'],
-    ['$kanji:jimmei-1997' => 'jinmei_h9'],
-  ) {
-    my ($key1, $key2) = @$_;
-    my $chars = $json->{sets}->{$key1}->{chars};
-    $chars =~ s/^\[//;
-    $chars =~ s/\]$//;
-    while ($chars =~ s/^\\u([0-9A-F]{4}|\{[0-9A-F]+\})//) {
-      my $v1 = $1;
-      $v1 =~ s/^\{//;
-      $v1 =~ s/\}$//;
-      my $cc1 = hex $v1;
-      my $cc2 = $cc1;
-      if ($chars =~ s/^-\\u([0-9A-F]{4}|\{[0-9A-F]+\})//) {
-        my $v2 = $1;
-        $v2 =~ s/^\{//;
-        $v2 =~ s/\}$//;
-        $cc2 = hex $v2;
-      }
-      for ($cc1..$cc2) {
-        $Data->{sets}->{$key2}->{chr $_} = 1;
-      }
-    }
-    die $chars if length $chars;
-  }
-}
 
 {
   my $path = $RootPath->child ('src/han-variants.txt');
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
     if (/^\s*#/) {
       #
-    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+)\s*$/) {
+    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\p{Ideographic_Description_Characters}-]+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\p{Ideographic_Description_Characters}-]+)\s*$/) {
       my $vtype = {
         sconflict => 'manakai:variant:simplifiedconflicted',
         conflict => 'manakai:variant:conflicted',
@@ -88,8 +43,9 @@ my $Data;
         unified => 'manakai:unified',
         wu => 'manakai:variant:wu',
         alt => 'manakai:alt',
+        mistake => 'manakai:typo',
       }->{$1} // die "Bad type |$1|";
-      $Data->{variants}->{ue $3}->{ue $2}->{$vtype} = 1;
+      $Data->{hans}->{ue $3}->{ue $2}->{$vtype} = 1;
     } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+)\s+<-\s+(.+)$/) {
       my $vtype = {
         simplified => 'manakai:variant:simplified',
@@ -100,32 +56,129 @@ my $Data;
       my $c2 = ue $2;
       my @c3 = split /\s+/, ue $3;
       for my $c3 (@c3) {
-        $Data->{variants}->{$c3}->{$c2}->{$vtype} = 1;
-        $Data->{variants}->{$c3}->{$c2}->{$vtype2} = 1;
+        $Data->{hans}->{$c3}->{$c2}->{$vtype} = 1;
+        $Data->{hans}->{$c3}->{$c2}->{$vtype2} = 1;
       }
       for my $c31 (@c3) {
         for my $c32 (@c3) {
           next if $c31 eq $c32;
-          $Data->{variants}->{$c31}->{$c32}->{$vtype2} = 1;
+          $Data->{hans}->{$c31}->{$c32}->{$vtype2} = 1;
         }
       }
     } elsif (m{^(vpairs)((?:\s+[\w\\\{\}\x{20000}-\x{3FFFF}]+/[\w\\\{\}\x{20000}-\x{3FFFF}]+)+)$}) {
       my $s = ue $2;
       my @s = map { [split m{/}, $_, 2] } grep { length } split /\s+/, $s;
-      my $vtype2 = 'manakai:variant:conflicted';
+      my $vtype2 = 'manakai:differentiated';
       for (@s) {
         my $c1 = $_->[0];
         for (@s) {
           my $c2 = $_->[1];
-          $Data->{variants}->{$c1}->{$c2}->{$vtype2} = 1;
+          $Data->{hans}->{$c1}->{$c2}->{$vtype2} = 1;
         }
       }
     } elsif (/\S/) {
-      die "Bad line |$_|";
+      die "$path: Bad line |$_|";
     }
   }
 }
 
-print perl2json_bytes_for_record $Data;
+
+{
+  my $path = $RootPath->child ('src/other-variants.txt');
+  for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\p{Ideographic_Description_Characters}-]+|\\.)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\p{Ideographic_Description_Characters}-]+|\\.)\s*$/) {
+      my $vtype = {
+        related => 'manakai:related',
+        differentiated => 'manakai:differentiated',
+        variant => 'manakai:equivalent',
+        same => 'manakai:same',
+        unified => 'manakai:unified',
+        alt => 'manakai:alt',
+        mistake => 'manakai:typo',
+        ne => 'manakai:ne',
+      }->{$1} // die "Bad type |$1|";
+      my $c1 = ue $3;
+      my $c2 = ue $2;
+      my $key = get_vkey $c2;
+      $Data->{$key}->{$c1}->{$c2}->{$vtype} = 1;
+      if ($1 eq 'variant' and
+          1 == length $c1 and 1 == length $c2 and
+          is_kana $c1 > 0 and is_kana $c2 > 0) {
+        $Data->{$key}->{$c1."\x{3099}"}->{$c2."\x{3099}"}->{$vtype} = 1;
+        $Data->{$key}->{$c1."\x{309A}"}->{$c2."\x{309A}"}->{$vtype} = 1;
+      }
+    } elsif (/^T1-([0-9A-F]{2})([0-9A-F]{2})\s+U\+([0-9A-F]+),U\+([0-9A-F]+)$/) {
+      my $c1 = sprintf ':cns1-%d-%d', (hex$1)-0x20, (hex$2)-0x20;
+      my $c2 = (chr hex $3) . (chr hex $4);
+      my $key = get_vkey $c2;
+      my $vtype = 'manakai:related';
+      $Data->{$key}->{$c1}->{$c2}->{$vtype} = 1;
+    } elsif (m{^differentiated\s+(\S.+\S|\w)\s*/\s*(\S.+\S|\w)\s*<-\s*(\S.+\S|\w)\s*$}) {
+      my $_c1 = $1;
+      my $_c2 = $2;
+      my $_c3 = $3;
+      my $key;
+      my @c1 = map { ue $_ } split /\s+/, $_c1;
+      my @c2 = map { ue $_ } split /\s+/, $_c2;
+      my @c3 = map { ue $_ } split /\s+/, $_c3;
+      for my $c (@c1, @c2) {
+        $key //= get_vkey $c;
+        for my $c3 (@c3) {
+          $Data->{$key}->{$c}->{$c3}->{'manakai:hasspecialized'} = 1;
+        }
+      }
+    } elsif (m{^conflict\s+(\S.+\S|\w)\s*<-\s*(\S.+\S|\w)\s*/\s*(\S.+\S|\w)\s*$}) {
+      my $_c1 = $1;
+      my $_c2 = $2;
+      my $_c3 = $3;
+      my $key;
+      my @c1 = map { ue $_ } split /\s+/, $_c1;
+      my @c2 = map { ue $_ } split /\s+/, $_c2;
+      my @c3 = map { ue $_ } split /\s+/, $_c3;
+      for my $c (@c1) {
+        $key //= get_vkey $c;
+        for my $c3 (@c2, @c3) {
+          $Data->{$key}->{$c}->{$c3}->{'manakai:variant:conflicted'} = 1;
+        }
+      }
+    } elsif (m{^origin\s+(\S.+\S|\w)\s*<-\s*(\S.+\S|\w)\s*$}) {
+      my $_c1 = $1;
+      my $_c2 = $2;
+      my $key;
+      my @c1 = map { ue $_ } split /\s+/, $_c1;
+      my @c2 = map { ue $_ } split /\s+/, $_c2;
+      for my $c1 (@c1) {
+        $key //= get_vkey $c1;
+        for my $c2 (@c2) {
+          $Data->{$key}->{$c1}->{$c2}->{'kana:origin:variant'} = 1;
+        }
+      }
+    } elsif (/\S/) {
+      die "$path: Bad line |$_|";
+    }
+  }
+}
+
+{
+  my $path = $RootPath->child ('src/doukun.txt');
+  for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^([\p{sc=Hiragana};]+)\s+(\p{sc=Han}(?:\s+\p{sc=Han})+)$/) {
+      my @s = split /\s+/, $2;
+      for my $c1 (@s) {
+        for my $c2 (@s) {
+          $Data->{hans}->{$c1}->{$c2}->{'manakai:doukun'} = 1;
+        }
+      }
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
+print_rel_data $Data;
 
 ## License: Public Domain.

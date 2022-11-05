@@ -1,15 +1,16 @@
 ROOT_PATH = ../..
 TEMP_PATH = $(ROOT_PATH)/local/imj
+VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 PERL = $(ROOT_PATH)/perl \
     -I$(ROOT_PATH)/bin/modules/json-ps/lib \
-    -I$(ROOT_PATH)/bin/modules/web-encodings/lib
+    -I$(ROOT_PATH)/bin/modules/web-encodings/lib -I$(VGEN_PATH)
 
 WGET = wget
 SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) variants.json maps.json
+build: $(TEMP_PATH) variants.json maps.list fmaps.list kmaps.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -26,7 +27,17 @@ $(TEMP_PATH)/map.json:
 variants.json: variants.pl $(TEMP_PATH)/mj.json $(TEMP_PATH)/map.json
 	$(PERL) $< > $@
 
-maps.json: maps.pl $(TEMP_PATH)/mj.json
+maps.list: maps.pl $(VGEN_PATH)/chars.pl \
+    $(TEMP_PATH)/mj.json
+	$(PERL) $< > $@
+
+fmaps.list: fmaps.pl $(VGEN_PATH)/chars.pl \
+    $(TEMP_PATH)/map.json
+	$(PERL) $< > $@
+
+kmaps.list: kmaps.pl $(VGEN_PATH)/chars.pl \
+    wakan-kana.txt \
+    ninjal-kana.txt
 	$(PERL) $< > $@
 
 ## License: Public Domain.

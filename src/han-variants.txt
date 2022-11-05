@@ -131,6 +131,8 @@ simplified 参 <- 叄 參
 simplified 参 <- 叁 參
 jpnewstyle 渗 滲
 
+variant 窓 <- 囪 窗
+
 simplified 钟 <- 鍾 鐘
 simplified 锺 <- 鍾
 simplified 钟 <- 鐘
@@ -144,6 +146,8 @@ sconflict 圣 軽
 sconflict 圣 径
 sconflict 圣 聖
 jpnewstyle 𦙾 脛
+differentiated 垩 圣
+vpairs 圣/聖 垩/垩
 
 sconflict 旺 曜
 simplified 𫞂 曜
@@ -178,6 +182,8 @@ sconflict 厶 厳
 simplified 𫟉 職
 sconflict 耺 職
 sconflict 伝 傳
+differentiated 伝 傅
+differentiated 傳 傅
 
 differentiated 世 丗
 
@@ -205,6 +211,19 @@ sconflict 痳 痲
 sconflict 岺 嶺
 sconflict 令 齢
 
+vpairs 卖/賣 壳/殼
+vpairs 卖/売 壳/殻
+vpairs 売/賣 殻/殼
+
+sconflict 当 當
+sconflict 当 噹
+  ## 當 噹 different in tw
+
+sconflict 勋 勳
+sconflict 勋 勛
+differentiated 勳 勛
+differentiated 勲 勛
+
 sconflict 巾 幅
 sconflict 巾 冪
 
@@ -220,6 +239,7 @@ conflict 𡆥 囚
 conflict 扠 扨
 conflict 刁 寅
 conflict 負 屓
+conflict 朼 札
 
 conflict 垚 堯
 conflict 垚 喜
@@ -274,10 +294,6 @@ related 噸 瓲
 unified 死\u{E0102} \u{2DB7D}
 unified 衰\u{E0103} \u{2E569}
 unified \u8944\u{E0103} \u{2E5A0}
-
-alt 昂 昴
-alt 彅 薙
-alt 鄧 登
 
 wu 𠀑 天
 wu 𠑺 天
@@ -334,6 +350,199 @@ variant ケ 个
 conflict ヶ 个
 conflict ケ 个
 
+alt タ 夕
+
 # conflict with eraser
 variant 〻 々
 conflict 〻 々
+related 〻 二
+#
+same 々 𠚤
+
+same \u{1D376} 正
+related \u{1D376} \u{1D375}
+related \u{1D375} \u{1D374}
+related \u{1D374} \u{1D373}
+related \u{1D373} \u{1D372}
+related \u{1D376} 五
+related \u{1D375} 四
+related \u{1D374} 三
+related \u{1D373} 二
+related \u{1D372} 一
+related \u{3029} 九
+related \u{3028} 八
+related \u{3027} 七
+related \u{3026} 六
+related \u{3025} 五
+related \u{3024} 四
+related \u{3023} 三
+related \u{3022} 二
+related \u{3021} 一
+
+related 兡 銾
+related 矽 硅
+related 鎦 鑥
+related 鈹 鋍
+related 鑉 鈹
+related 硼 𥑢
+related 氧 𣱢
+related 氟 弗
+related 氙 氠
+related 氙 釰
+related 氬 :⿹气元
+related 鈉 鏀
+related 矽 釸
+related 炭 碳
+related 玻 矽
+related 畱 磂
+related 砹 砈
+related 砹 銰
+related 銰 鈪
+related 鍶 鎴
+related 鍶 䤲
+related 鋅 鉦
+related 釕 銠
+related 銠 錴
+related 銠 𨦖
+related 銻 銨
+related 銻 :⿰釒吐
+related 銫 鏭
+related 銫 鎧
+related 銫 鐦
+related 鈰 錯
+related 鈰 鍶
+related 鉈 鈶
+related 鉈 鎉
+related 鉛 䥒
+related 鉛 連
+related 銅 連
+related 錳 𨭆
+related 鈦 鐟
+related 鈧 鉰
+related 鈧 鏮
+related 鈧 錹
+related 鈧 𨨶
+related 鉀 錁
+related 釤 鏾
+related 釤 鎩
+related 釤 䥇
+related 釤 鎷
+related 銪 䥳
+related 銪 䥲
+related 鋱 𨯲
+related 鋱 鏮
+related 鋱 䥇
+related 鈥 錵
+related 钒 铝
+related 𨦗 钾
+related 鍀 鎝
+related 銩 鍉
+related 鉭 鐽
+related 鎢 鑕
+related 鋨 鐭
+related 銤 鏂
+related 銤 鋨
+related 鋨 鐚
+related 鐳 銧
+related 鐳 鈤
+related 鏷 鎃
+related 釷 鋀
+related 釷 釖
+related 鈾 𨨡
+related 鉐 钙
+related 鐇 钒
+related 錼 釢
+related 鏴 铬
+related 鎬 鈷
+related 镉 镍
+related 鍟 锌
+related 鉮 :⿱信金
+related 鋂 鎇
+related 鎇 銤
+related 鈈 鈽
+related 鈽 鐪
+related 鎇 鋂
+related 鐦 鉲
+related 鎄 鑀
+related 釾 鎄
+related 鑪 :UK-20512
+related 𨧀 :UK-20511
+related 𨭎 䤭
+related 鋊 鑉
+related 鈮 鑰
+related 鎶 鎬
+related 錀 鎬
+related 釹 釢
+related 釹 鋖
+related 𣱠 氭
+related 釓 錷
+related 釓 鈊
+related 氨 𠼞
+related 銨 錏
+related 錏 鐚
+related 肼 𨥙
+related 肽 胎
+related 糎 珊
+related 糎 拇
+related 糎 分
+related 吋 寸
+related 呎 尺
+related 哩 里
+related 鎖 鏈
+related 安 亜
+related 𡩛 𫡷
+related 𡩛 陌
+related 瓦 戔
+related 瓩 基
+related 瓲 噸
+related 瓲 屯
+related 瓲 敦
+related 瓲 頓
+related 听 磅
+related 听 封
+related 志 先
+related 連 嗹
+related 歩 坪
+related 仏 法
+related 星 新
+related 米 美
+related 支 華
+related 中 支
+related 朝 鮮
+related 倭 和
+related 日 和
+related 京 洛
+related 鮑 鰒
+related 鯎 鯏
+related 鯯 鱅
+related 鯣 鰑
+related 鱈 鰔
+related 鰊 鯡
+related 鰰 鱩
+related 鰒 鯸
+related 鰒 魨
+related 鮒 鯽
+related 鯔 鰡
+related 鮱 鯔
+
+alt 昂 昴
+alt 彅 薙
+alt 鄧 登
+
+## <https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%B7%9D%E6%96%B9%E8%A8%80%E5%AD%97#%E5%9C%B0%E5%90%8D%E7%94%A8%E5%AD%97>
+alt 嘴 :gb8-23-31
+alt 蝙 𡎚
+alt 碥 扁
+
+## Common mistakes (typographical errors, IME wrong choices, OCR errors)
+mistake 暦 歴
+mistake 郡 群
+mistake 代 台
+
+mistake 視 試
+#in: 視聴/試聴
+
+## <https://github.com/adobe-type-tools/Adobe-Japan1/blob/master/README-JP.md#%E9%87%8D%E8%A4%87%E3%81%97%E3%81%9F%E6%BC%A2%E5%AD%97%E3%82%B0%E3%83%AA%E3%83%95>
+same :aj4301 :aj7983
+same :aj4411 :aj7984
+same :aj5459 :aj7994

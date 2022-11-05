@@ -1,15 +1,16 @@
 ROOT_PATH = ../..
 TEMP_PATH = $(ROOT_PATH)/local/iad
-PERL = $(ROOT_PATH)/perl -I$(ROOT_PATH)/bin/modules/json-ps/lib
+VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
+PERL = $(ROOT_PATH)/perl -I$(ROOT_PATH)/bin/modules/json-ps/lib -I$(VGEN_PATH)
 
 WGET = wget
 SAVEURL = $(WGET) -O
 
 all: build
 
-build-nightly: build
+build-nightly:
 
-build: $(TEMP_PATH) maps.json
+build: $(TEMP_PATH) maps.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -58,17 +59,10 @@ $(TEMP_PATH)/ag15.fea:
 
 $(TEMP_PATH)/akr9.fea:
 	$(SAVEURL) $@ https://github.com/adobe-type-tools/Adobe-KR/raw/master/GSUB/akr9-gsub.fea
+$(TEMP_PATH)/akr9-hangul.txt:
+	$(SAVEURL) $@ https://github.com/adobe-type-tools/Adobe-KR/raw/master/akr9-hangul.txt
 
-$(TEMP_PATH)/gsub.tar:
-	$(SAVEURL) $@ https://ccjktype.fonts.adobe.com/wp-content/uploads/2012/03/gsub-012012.tar
-
-$(TEMP_PATH)/ak12.fea: $(TEMP_PATH)/gsub.tar
-	mkdir -p $(TEMP_PATH)/gsub
-	cd $(TEMP_PATH)/gsub && tar xf ../gsub.tar
-	cp $(TEMP_PATH)/gsub/GSUB-012012/ak12-gsub.txt $@
-	touch $@
-
-maps.json: maps.pl \
+maps.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/aj17.txt $(TEMP_PATH)/aj17-kanji.txt $(TEMP_PATH)/aj20.txt \
     $(TEMP_PATH)/ac17.txt $(TEMP_PATH)/ag15.txt \
     $(TEMP_PATH)/ak9.txt $(TEMP_PATH)/ak12.txt \
@@ -76,7 +70,8 @@ maps.json: maps.pl \
     $(TEMP_PATH)/ag-vs.txt $(TEMP_PATH)/ak-vs.txt \
     $(TEMP_PATH)/ac17.fea $(TEMP_PATH)/ag15.fea \
     $(TEMP_PATH)/aj17.fea \
-    $(TEMP_PATH)/ak12.fea $(TEMP_PATH)/akr9.fea
+    $(TEMP_PATH)/akr9.fea \
+    $(TEMP_PATH)/akr9-hangul.txt
 	$(PERL) $< > $@
 
 ## License: Public Domain.

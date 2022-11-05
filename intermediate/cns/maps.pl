@@ -3,25 +3,16 @@ use warnings;
 use utf8;
 use Path::Tiny;
 use JSON::PS;
+BEGIN { require 'chars.pl' };
 
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
 my $TempPath = $RootPath->child ('local/icns');
 
-sub u_chr ($) {
-  if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F)) {
-    return sprintf ':u%x', $_[0];
-  }
-  my $c = chr $_[0];
-  if ($c eq ":" or $c eq "." or
-      $c =~ /\p{Non_Character_Code_Point}|\p{Surrogate}/) {
-    return sprintf ':u%x', $_[0];
-  } else {
-    return $c;
-  }
-} # u_chr
-
-my $Data = {};
+my $Data1 = {};
+my $Data2 = {};
+my $IsHan = {};
+my $IsKana = {};
 
 for (
   ['cns-0.txt'],
@@ -32,14 +23,67 @@ for (
   my $path = $TempPath->child ($name);
   for (split /\x0A/, $path->slurp) {
     if (/^([0-9]+)-([0-9A-F]{2})([0-9A-F]{2})\s+([0-9A-F]+)$/) {
+      my $plane = $1;
       my $c1 = sprintf ':cns%d-%d-%d',
-          $1, (hex $2) - 0x20, (hex $3) - 0x20;
+          $plane, (hex $2) - 0x20, (hex $3) - 0x20;
       my $c2 = u_chr hex $4;
-      $Data->{variants}->{$c1}->{$c2}->{'cns:unicode'} = 1;
+      my $data = $plane >= 10 ? $Data2 : $Data1;
+      if (is_private $c2) {
+        my $c2_0 = $c2;
+        $c2 = sprintf ':u-cns-%x', ord $c2;
+        my $key = 'variants';
+        if ($plane >= 3 or
+            ($c1 =~ /^:cns1-/ and $c2 =~ /^:u-cns-f[^9][0-9a-f]{3}$/)) {
+          $key = 'hans';
+        } elsif (is_kana $c1 > 0) {
+          $key = 'kanas';
+          $IsKana->{$c1} = 1;
+        }
+        $data->{$key}->{$c1}->{$c2}->{'cns:unicode'} = 1;
+        $data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      } else {
+        my $key = get_vkey $c2;
+        if (is_kana $c1 > 0) {
+          $key = 'kanas';
+        }
+        if ($key eq 'kanas') {
+          $IsKana->{$c1} = 1;
+        } elsif ($key eq 'hans') {
+          $IsHan->{$c1} = 1;
+        }
+        $data->{$key}->{$c1}->{$c2}->{'cns:unicode'} = 1;
+      }
     }
   }
 }
 
-print perl2json_bytes_for_record $Data;
+for (
+  ['cnsb5-0.txt', ''],
+  ['cnsb5-1.txt', ':符號'],
+  ['cnsb5-2.txt', ':七個倚天外字'],
+) {
+  my $name = $_->[0];
+  my $suffix = $_->[1];
+  my $path = $TempPath->child ($name);
+  for (split /\x0A/, $path->slurp) {
+    if (/^([0-9]+)-([0-9A-F]{2})([0-9A-F]{2})\s+([0-9A-F]+)$/) {
+      my $plane = $1;
+      my $c1 = sprintf ':cns%d-%d-%d',
+          $plane, (hex $2) - 0x20, (hex $3) - 0x20;
+      my $c2 = sprintf ':b5-%x', hex $4;
+      my $key = 'variants';
+      if ($IsHan->{$c1}) {
+        $key = 'hans';
+      } elsif ($IsKana->{$c1} or is_kana $c1 > 0) {
+        $key = 'kanas';
+      }
+      my $data = $plane >= 10 ? $Data2 : $Data1;
+      $data->{$key}->{$c1}->{$c2}->{'cns:big5'.$suffix} = 1;
+    }
+  }
+}
+
+write_rel_data $Data1 => $ThisPath->child ('maps.list');
+write_rel_data $Data2 => $ThisPath->child ('maps2.list');
 
 ## License: Public Domain.
