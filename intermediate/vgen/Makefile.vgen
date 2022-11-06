@@ -21,7 +21,7 @@ build-vgen: \
     merged-index.json \
     cluster-index.json char-cluster-part-0.jsonl char-leaders-part-0.jsonl \
     testdata.json \
-    tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz
+    tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz tbl-leaders.dat.gz
 
 ##        +-- relations & sets source json files
 ##        +-- input.json               list of source files
@@ -45,7 +45,7 @@ build-vgen: \
 ## || ||             char-cluster-part-*.jsonl
 ## || ||
 ## || |&---->    char-leaders.pl       Generate char-leader mapping
-## || | ----- char-leaders.jsonl       [not in repo] char-leader mapping
+## || +------ char-leaders.jsonl       [not in repo] char-leader mapping
 ## || |          & split-jsonl.pl
 ## || |              char-leaders-part-*.jsonl
 ## || |
@@ -94,11 +94,12 @@ char-leaders-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
 	$(PERL) $< char-leaders
 char-leaders-part-*.jsonl: char-leaders-part-0.jsonl
 
-tbl-index.json tbl-clusters.dat tbl-rels.dat:: %: $(VGEN_PATH)/tbl.pl \
+tbl-index.json tbl-clusters.dat tbl-rels.dat tbl-leaders.dat:: \
+%: $(VGEN_PATH)/tbl.pl \
     merged-index.json merged-rels.jsonll \
-    cluster-index.json char-cluster.jsonl
+    cluster-index.json char-cluster.jsonl char-leaders.jsonl
 	$(PERL) $<
-tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz:: \
+tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz tbl-leaders.dat.gz:: \
 %.gz: %
 	gzip -k -f $<
 
