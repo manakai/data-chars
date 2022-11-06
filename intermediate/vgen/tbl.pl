@@ -413,6 +413,43 @@ $TableMeta->{rels} = [];
 }
 
 {
+  my $i = 0;
+  my $path = $DataPath->child ("char-leaders.jsonl");
+  my $out_path = $DataPath->child ("tbl-leaders.dat");
+  my $file = $path->openr;
+  my $wfile = $out_path->openw;
+  local $/ = "\x0A";
+  my $prev_v = "\x00";
+  while (<$file>) {
+    $i++;
+    printf STDERR "\rLeaders %d... ", $i if ($i % 10000) == 0;
+    my $json = json_bytes2perl $_;
+    my $c1 = $json->[0];
+    my $n = "\x00" . encode_char $c1;
+
+    pop @{$json->[1]} if @{$json->[1]} and not defined $json->[1]->[-1];
+    my $v = '';
+    for (@{$json->[1]}) {
+      $v .= defined $_ ? encode_char ($_) : "\x01";
+    }
+
+    unless ($prev_v eq $v) {
+      print $wfile $prev_v;
+      $prev_v = $v;
+    }
+    print $wfile $n;
+  }
+  print $wfile "\x00\x00";
+  print $wfile $prev_v;
+  print $wfile "\x00";
+}
+
+$TableMeta->{leader_types} = [];
+for (values %{$Merged->{leader_types}}) {
+  $TableMeta->{leader_types}->[$_->{index}] = $_;
+}
+
+{
   my $path = $DataPath->child ('tbl-index.json');
   $path->spew (perl2json_bytes_for_record $TableMeta);
 }
