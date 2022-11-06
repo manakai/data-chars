@@ -25,6 +25,7 @@ my $ClusterIndex;
 my $Tables = {};
 my $Others = {};
 my $TableData = {};
+my $CharPrefixes = {};
 
 {
   my $i = 0;
@@ -43,11 +44,16 @@ my $TableData = {};
       if (1 == length $c) {
         my $cc = ord $c;
         $TableData->{$level->{key}}->{unicode}->{$cc} = [$cid, $c];
+        my $cc2 = int ($cc / 0x1000);
+        $CharPrefixes->{$cc2}->{type} = 'urow';
+        $CharPrefixes->{$cc2}->{n}++;
         next;
       } elsif ($c =~ /\A(.)(\p{Variation_Selector}|[\x{3099}-\x{309C}])\z/s) {
         my $cc1 = ord $1;
         my $cc2 = ord $2;
         $TableData->{$level->{key}}->{'unicode-suffix-' . $cc2}->{$cc1} = [$cid, $c];
+        $CharPrefixes->{$cc2}->{type} = 'suffix';
+        $CharPrefixes->{$cc2}->{n}++;
         next;
       } elsif ($c =~ /\A([\x{1100}-\x{D7FF}])([\x{1160}-\x{11A7}])\z/) {
         my $cc1 = (ord $1) - 0x1100;
@@ -62,35 +68,47 @@ my $TableData = {};
         my $cc = $cc1 * (0x75-0x5F) * (0xC2-0xA7) + $cc2 * (0xC2-0xA7) + $cc3;
         $TableData->{$level->{key}}->{'unicode-hangul3'}->{$cc} = [$cid, $c];
         next;
-      } elsif ($c =~ /\A:(MJ|aj|ac|ag|ak|aj2-|ak1-|UK-|swc)([0-9]+)\z/) {
+      } elsif ($c =~ /\A:(MJ|aj|ac|ag|ak|aj2-|ak1-|UK-|koseki|swc)([0-9]+)\z/) {
         my $prefix = $1;
         my $cc = 0+$2;
         $TableData->{$level->{key}}->{$prefix}->{$cc} = [$cid, $c];
+        $CharPrefixes->{$prefix}->{type} = 'dec';
+        $CharPrefixes->{$prefix}->{n}++;
         next;
       } elsif ($c =~ /\A:(u-[a-z]+-)([0-9a-f]+)\z/) {
         my $prefix = $1;
         my $cc = hex $2;
         $TableData->{$level->{key}}->{$prefix}->{$cc} = [$cid, $c];
+        $CharPrefixes->{$prefix}->{type} = 'hex';
+        $CharPrefixes->{$prefix}->{n}++;
         next;
       } elsif ($c =~ /\A:(b5-)([0-9a-f]+)\z/) {
         my $prefix = $1;
         my $cc = hex $2;
         $TableData->{$level->{key}}->{$prefix}->{$cc} = [$cid, $c];
+        $CharPrefixes->{$prefix}->{type} = 'hex';
+        $CharPrefixes->{$prefix}->{n}++;
         next;
       } elsif ($c =~ /\A:(b5-[a-z]+-)([0-9a-f]+)\z/) {
         my $prefix = $1;
         my $cc = hex $2;
         $TableData->{$level->{key}}->{$prefix}->{$cc} = [$cid, $c];
+        $CharPrefixes->{$prefix}->{type} = 'hex';
+        $CharPrefixes->{$prefix}->{n}++;
         next;
       } elsif ($c =~ /\A:(jis|jis-[a-z]+-)([0-9]+)-([0-9]+)-([0-9]+)\z/) {
         my $prefix = $1;
         my $cc = $2*(94+(0xFC-0xEF)*2)*94 + ($3-1)*94 + ($4-1);
         $TableData->{$level->{key}}->{$prefix}->{$cc} = [$cid, $c];
+        $CharPrefixes->{$prefix.$2}->{type} = 'kt';
+        $CharPrefixes->{$prefix.$2}->{n}++;
         next;
       } elsif ($c =~ /\A:(cns|cns-[a-z]+-|gb|ks|kps|cccii)([0-9]+)-([1-9][0-9]*)-([1-9][0-9]*)\z/) {
         my $prefix = $1;
         my $cc = $2*(94)*94 + ($3-1)*94 + ($4-1);
         $TableData->{$level->{key}}->{$prefix}->{$cc} = [$cid, $c];
+        $CharPrefixes->{$prefix.$2}->{type} = 'kt';
+        $CharPrefixes->{$prefix.$2}->{n}++;
         next;
       }
 
@@ -191,7 +209,7 @@ my $TableMeta = {tables => [], others => $Others};
       $def->{level_key} = $1;
       $def->{type} = 'unicode-hangul3';
       $def->{code_offset} = 0;
-    } elsif ($key =~ /^([A-Z]+):(MJ|jis|jis-[a-z]+-|cns|cns-[a-z]+-|gb|ks|kps|aj|ac|ag|ak|aj2-|ak1-|UK-|u-[a-z]+-|b5-|b5-[a-z]+-|cccii|swc)$/) {
+    } elsif ($key =~ /^([A-Z]+):(MJ|jis|jis-[a-z]+-|cns|cns-[a-z]+-|gb|ks|kps|aj|ac|ag|ak|aj2-|ak1-|UK-|u-[a-z]+-|b5-|b5-[a-z]+-|cccii|koseki|swc)$/) {
       $def->{level_key} = $1;
       $def->{type} = $2;
       $def->{code_offset} = 0;
@@ -218,34 +236,177 @@ my $TableMeta = {tables => [], others => $Others};
   }
 }
 
+my $RelTypeToIndex = {};
+$TableMeta->{rels} = [];
+{
+  my $rel_types = {};
+  my $rel_type_sets = {};
+  for my $c1 (sort { $a cmp $b } keys %$Rels) {
+    for my $c2 (sort { $a cmp $b } keys %{$Rels->{$c1}}) {
+      my $v = $Rels->{$c1}->{$c2};
+      my @v = sort { $a cmp $b } grep { not /^_/ } keys %$v;
+      for my $key (@v) {
+        $rel_types->{$key}++;
+      }
+      $rel_type_sets->{join $;, @v}++;
+    }
+  }
+  for my $rel_type_set (sort {
+    $rel_type_sets->{$b} <=> $rel_type_sets->{$a}
+  } grep {
+    $rel_type_sets->{$_} > 100;
+  } keys %$rel_type_sets) {
+    my $types = [split /\Q$;\E/, $rel_type_set];
+    next unless @$types > 1;
+    $RelTypeToIndex->{$rel_type_set} = @{$TableMeta->{rels}};
+    push @{$TableMeta->{rels}}, {
+      rel_types => $types,
+      n => $rel_type_sets->{$rel_type_set},
+    };
+  }
+  for my $rel_type (sort { $rel_types->{$b} <=> $rel_types->{$a} } keys %$rel_types) {
+    $RelTypeToIndex->{$rel_type} = @{$TableMeta->{rels}};
+    push @{$TableMeta->{rels}}, {
+      key => $rel_type,
+      weight => ($Merged->{rel_types}->{$rel_type}->{weight} // die $rel_type),
+      mergeable_weight => ($Merged->{rel_types}->{$rel_type}->{mergeable_weight} // die $rel_type),
+      n => $rel_types->{$rel_type},
+    };
+  }
+  for (@{$TableMeta->{rels}}) {
+    if (defined $_->{rel_types}) {
+      $_->{rels} = [map {
+        $RelTypeToIndex->{$_} // die $_;
+      } @{delete $_->{rel_types}}];
+    }
+  }
+  die if @{$TableMeta->{rels}} > 2**12;
+}
+{
+  #die 0+keys %$CharPrefixes if 0x4F < keys %$CharPrefixes;
+  $TableMeta->{echars} = [];
+  my $PrefixToEChar = {};
+  my $bytes = [
+    0x02 .. 0x1F, 0x7F .. 0xC1, 0xF5 .. 0xFF,
+  ];
+  for my $prefix (sort {
+    $CharPrefixes->{$b}->{n} <=> $CharPrefixes->{$a}->{n};
+  } keys %$CharPrefixes) {
+    my $byte = (shift @$bytes) or last;
+    $PrefixToEChar->{$prefix} = [
+      $byte,
+      $CharPrefixes->{$prefix}->{type},
+    ];
+    push @{$TableMeta->{echars}}, {
+      byte => $byte,
+      prefix => $prefix,
+      type => $CharPrefixes->{$prefix}->{type},
+      n => $CharPrefixes->{$prefix}->{n},
+    };
+  }
+
+  sub _eint ($) {
+    my $v = shift;
+    my $r = '';
+    {
+      my $x = $v & 0b00111111;
+      $v = $v >> 6;
+      if ($v) {
+        $r .= pack 'C', 0b11000000 | $x;
+        redo;
+      } else {
+        $r .= pack 'C', 0b10000000 | $x;
+      }
+    }
+    return $r;
+  } # _eint
+
+  sub encode_char ($) {
+    my $c = $_[0];
+    if ($c =~ /\A:([0-9A-Za-z_-]+[A-Za-z_-])([0-9]+)\z/) {
+      my $ec = $PrefixToEChar->{$1};
+      my $v = $2;
+      if ($ec) {
+        if ($ec->[1] eq 'dec') {
+          return pack ('C', $ec->[0]) . _eint $v;
+        } else {
+          #die "$c $ec->[1]";
+        }
+      }
+    }
+    if ($c =~ /\A:([0-9A-Za-z_-]+-)([0-9a-f]{1,8})\z/) {
+      my $ec = $PrefixToEChar->{$1};
+      my $v = hex $2;
+      if ($ec) {
+        if ($ec->[1] eq 'hex') {
+          return pack ('C', $ec->[0]) . _eint $v;
+        } else {
+          #die "$c $ec->[1]";
+        }
+      }
+    }
+    if ($c =~ /\A:([A-Za-z0-9_-]+)-([1-9][0-9]*)-([1-9]|[1-8][0-9]|9[0-4])\z/) {
+      my $ec = $PrefixToEChar->{$1};
+      my $v = ($2-1)*94 + ($3-1);
+      if ($ec) {
+        if ($ec->[1] eq 'kt') {
+          return pack ('C', $ec->[0]) . _eint $v;
+        } else {
+          #die "$c $ec->[1]";
+        }
+      }
+    }
+    if ($c =~ /\A(.)\z/) {
+      my $ec = $PrefixToEChar->{int ((ord $1) / 0x1000)};
+      if ($ec) {
+        if ($ec->[1] eq 'urow') {
+          return pack ('C', $ec->[0]) . _eint ((ord $1) % 0x1000);
+        }
+      }
+    }
+    if ($c =~ /\A(.)(.)\z/) {
+      my $ec = $PrefixToEChar->{ord $2};
+      if ($ec) {
+        my $v = ord $1;
+        if ($ec->[1] eq 'suffix') {
+          return pack ('C', $ec->[0]) . _eint $v;
+        }
+      }
+    }
+    return encode_web_utf8 ($c) . "\x01";
+  } # encode_char
+}
 {
   my $path = $DataPath->child ('tbl-rels.dat');
   my $file = $path->openw;
 
+  ## file: \x00 {item} \x00 {item} \x00 ... \x00 {item} \x00
+  ## item: {char} {triple}+
+  ## triple: {char} {rel}+
+  ## char: {textchar} | {bytechar}
+  ## textchar: {utf8char}+ \x01
+  ## bytechar: {\x80-\xBF} {^\x00}+
+  ## rel: {^\x00}+
   print $file "\x00";
   my $rel_keys = {};
   for my $c1 (sort { $a cmp $b } keys %$Rels) {
-    print $file encode_web_utf8 $c1;
-    print $file "\x01";
+    print $file encode_char $c1;
+    my $has_prev;
     for my $c2 (sort { $a cmp $b } keys %{$Rels->{$c1}}) {
+      print $file "\x01" if $has_prev;
       my $v = $Rels->{$c1}->{$c2};
-      print $file encode_web_utf8 $c2;
-      print $file "\x01";
-      for my $key (sort { $a cmp $b } grep { not /^_/ } keys %$v) {
-        unless (defined $rel_keys->{$key}) {
-          $rel_keys->{$key} = 0+keys %$rel_keys;
-          $TableMeta->{rels}->[$rel_keys->{$key}] = {
-            key => $key,
-            weight => ($Merged->{rel_types}->{$key}->{weight} // die $key),
-            mergeable_weight => ($Merged->{rel_types}->{$key}->{mergeable_weight} // die $key),
-          };
+      print $file encode_char $c2;
+      my @v = sort { $a cmp $b } grep { not /^_/ } keys %$v;
+      my $rel_type_set = join $;, @v;
+      if (defined $RelTypeToIndex->{$rel_type_set}) {
+        print $file _eint $RelTypeToIndex->{$rel_type_set};
+      } else {
+        for my $key (@v) {
+          my $x = $RelTypeToIndex->{$key};
+          print $file _eint $x;
         }
-        my $x = $rel_keys->{$key};
-        print $file pack 'CC',
-            0b10000000 | ($x >> 7),
-            0b10000000 | ($x & 0b01111111);
       }
-      print $file "\x01";
+      $has_prev = 1;
     }
     print $file "\x00";
   }
