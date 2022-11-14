@@ -1,1 +1,3 @@
-[\u0900-\u0950\u0955-\u0963\u0966-\u097F\uA8E0-\uA8FF\u{11B00}-\u{11B09}]
+#label:Unicode Script=Devanagari
+#sw:Devanagari
+[\u0900-\u0950\u0955-\u0963\u0966-\u097F\uA8E0-\uA8FF]

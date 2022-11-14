@@ -72,8 +72,6 @@ prepare-ucd:
 local/ucd/touch:
 	touch $@
 
-local/ucd/ScriptExtensions.txt:
-	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/ScriptExtensions.txt
 local/ucd/PropertyValueAliases.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt
 
@@ -94,7 +92,8 @@ src/set/uax31/files: bin/uax31.pl local/tr31.json
 	touch $@
 src/set/unicode/Script/files: \
     bin/script-sets.pl data/scripts.json \
-    local/unicode/latest/Scripts.txt
+    local/unicode/latest/Scripts.txt \
+    local/unicode/latest/ScriptExtensions.txt
 	$(PERL) bin/script-sets.pl latest
 	touch $@
 
@@ -210,6 +209,8 @@ local/unicode/$(UNICODE_VERSION)/Blocks.txt:
 local/unicode/latest/Scripts.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Scripts.txt
+local/unicode/latest/ScriptExtensions.txt:
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/ScriptExtensions.txt
 local/unicode/latest/SpecialCasing.txt:
 	mkdir -p local/unicode/latest
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
