@@ -8,6 +8,8 @@ char-leaders.jsonl
 tbl-index.json
 tbl-clusters.dat
 tbl-rels.dat
+tbl-leaders.dat
 tbl-index.json.gz
 tbl-clusters.dat.gz
 tbl-rels.dat.gz
+tbl-leaders.dat.gz

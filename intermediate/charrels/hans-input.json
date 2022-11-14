@@ -64,6 +64,10 @@
       "rels_key": "hans"
     },
     {
+      "path": "../viet/maps.list",
+      "rels_key": "hans"
+    },
+    {
       "path": "../mozilla/maps.list",
       "rels_key": "hans"
     },

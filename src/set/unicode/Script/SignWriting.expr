@@ -1,1 +1,3 @@
+#label:Unicode Script=SignWriting
+#sw:SignWriting
 [\u{1D800}-\u{1DA8B}\u{1DA9B}-\u{1DA9F}\u{1DAA1}-\u{1DAAF}]

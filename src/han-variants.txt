@@ -546,3 +546,8 @@ mistake 視 試
 same :aj4301 :aj7983
 same :aj4411 :aj7984
 same :aj5459 :aj7994
+
+alt \u{16FF0} \u4E2A
+alt \u{16FF0} \u4E87
+alt \u{16FF1} \u003C
+alt \u{16FF1} \u{21FE8}

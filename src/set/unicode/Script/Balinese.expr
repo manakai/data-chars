@@ -1,1 +1,7 @@
+<<<<<<< HEAD
+#label:Unicode Script=Balinese
+#sw:Balinese
+[\u1B00-\u1B4B\u1B50-\u1B7C]
+=======
 [\u1B00-\u1B4C\u1B50-\u1B7E]
+>>>>>>> origin/master

@@ -87,7 +87,9 @@ for (0x0000..0x001F, 0x007F, 0x0080..0x009F) {
 
 {
   my $path = $RootPath->child ('src/set/unicode/Script/Han.expr');
-  $path->slurp_utf8 =~ m{^\[(.+)\]$} or die "Bad |src/set/unicode/Script/Han.expr|";
+  my $expr = $path->slurp_utf8;
+  $expr =~ s{^\s*#.*$}{}gm;
+  $expr =~ m{^\s*\[(.+)\]\s*$}s or die "Bad |src/set/unicode/Script/Han.expr|";
   my $ranges = $1;
   my $got = [[-1, -1]];
   while (length $ranges) {
