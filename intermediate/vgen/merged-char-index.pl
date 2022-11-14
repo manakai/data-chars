@@ -90,6 +90,7 @@ my $CharArray = [];
     ['arib-36-',   '',    0x21,     0x7E],
     ['arib-37-',   '',    0x21,     0x7E],
     ['arib-38-',   '',    0x21,     0x7E],
+    ['u-nom-',     '', 0xF0000,  0xFFFFF],
     ['swc',        '',       0,   999999],
   ) {
     $offset->{$x->[0]} = $next - $x->[2];
