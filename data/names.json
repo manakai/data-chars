@@ -92538,22 +92538,26 @@
       "337B" : {
          "fr_name" : "ÈRE HEISEI DISPOSÉ EN CARRÉ",
          "ja_name" : "全角元号平成",
-         "name" : "SQUARE ERA NAME HEISEI"
+         "name" : "SQUARE ERA NAME HEISEI",
+         "tw_name" : "方形紀元名稱平󠄃成"
       },
       "337C" : {
          "fr_name" : "ÈRE CHÔWA DISPOSÉ EN CARRÉ",
          "ja_name" : "全角元号昭和",
-         "name" : "SQUARE ERA NAME SYOUWA"
+         "name" : "SQUARE ERA NAME SYOUWA",
+         "tw_name" : "方形紀元名稱昭和"
       },
       "337D" : {
          "fr_name" : "ÈRE TAÏCHÔ DISPOSÉ EN CARRÉ",
          "ja_name" : "全角元号大正",
-         "name" : "SQUARE ERA NAME TAISYOU"
+         "name" : "SQUARE ERA NAME TAISYOU",
+         "tw_name" : "方形紀元名稱大正"
       },
       "337E" : {
          "fr_name" : "ÈRE MEIJI DISPOSÉ EN CARRÉ",
          "ja_name" : "全角元号明治",
-         "name" : "SQUARE ERA NAME MEIZI"
+         "name" : "SQUARE ERA NAME MEIZI",
+         "tw_name" : "方形紀元名稱明治"
       },
       "337F" : {
          "name" : "SQUARE CORPORATION"
