@@ -568,6 +568,9 @@ my $NTypes = [];
     "cjkvi:non-cjk/bopomofo",
     "cjkvi:non-cjk/katakana",
 
+    "manakai:kakekotoba",
+    "manakai:engo",
+
     "manakai:ne",
   ) {
     $TypeWeight->{$vtype} = W 'LINKED';

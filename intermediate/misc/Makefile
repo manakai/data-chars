@@ -13,7 +13,8 @@ build: variants.list maps.list sets.json
 variants.list: variants.pl $(VGEN_PATH)/chars.pl \
     $(ROOT_PATH)/src/han-variants.txt \
     $(ROOT_PATH)/src/other-variants.txt \
-    $(ROOT_PATH)/src/doukun.txt
+    $(ROOT_PATH)/src/doukun.txt \
+    kakekotoba.txt engo.txt
 	$(PERL) $< > $@
 
 maps.list: maps.pl $(VGEN_PATH)/chars.pl \

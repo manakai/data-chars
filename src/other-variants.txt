@@ -52,6 +52,7 @@ related \♀ 雌
 related \♂ 男
 related \♀ 女
 related F 階
+related T 丁
 
 ## Source: <http://code.web.idv.hk/cns11643/csic2004.php>
 T1-4244 U+006D,U+0302
