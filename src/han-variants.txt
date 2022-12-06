@@ -524,6 +524,7 @@ related 鰒 魨
 related 鮒 鯽
 related 鯔 鰡
 related 鮱 鯔
+related 頃 比
 
 alt 昂 昴
 alt 彅 薙
@@ -551,3 +552,9 @@ alt \u{16FF0} \u4E2A
 alt \u{16FF0} \u4E87
 alt \u{16FF1} \u003C
 alt \u{16FF1} \u{21FE8}
+
+related 苦 九
+related 死 四
+alt 死 4
+alt 死 ﾀﾋ
+alt 死 氏

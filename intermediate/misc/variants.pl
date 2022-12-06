@@ -178,6 +178,45 @@ sub ue ($) {
     }
   }
 }
+{
+  my $path = $ThisPath->child ('kakekotoba.txt');
+  for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^([\p{sc=Hiragana};]+)\s+(\p{sc=Han}(?:\s+\p{sc=Han})+)$/) {
+      my @s = split /\s+/, $2;
+      for my $c1 (@s) {
+        for my $c2 (@s) {
+          $Data->{hans}->{$c1}->{$c2}->{'manakai:kakekotoba'} = 1;
+        }
+      }
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
+{
+  my $path = $ThisPath->child ('engo.txt');
+  for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\p{sc=Han})\s+(\p{sc=Han})$/) {
+      $Data->{hans}->{$1}->{$2}->{'manakai:engo'} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
+for my $c1 (keys %{$Data->{variants}}) {
+  delete $Data->{variants}->{$c1}->{$c1};
+  delete $Data->{variants}->{$c1} unless keys %{$Data->{variants}->{$c1}};
+}
+for my $c1 (keys %{$Data->{hans}}) {
+  delete $Data->{hans}->{$c1}->{$c1};
+  delete $Data->{hans}->{$c1} unless keys %{$Data->{hans}->{$c1}};
+}
 
 print_rel_data $Data;
 
