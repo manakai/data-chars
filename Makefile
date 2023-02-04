@@ -643,11 +643,9 @@ build-nightly-iu: deps data/maps.json
 	cd intermediate/misc && $(MAKE) build-nightly
 	#
 	cd intermediate/charrels && $(MAKE) build-nightly
-	cd intermediate/variants && $(MAKE) build-nightly
 
 build-pages-iu: deps
 	cd intermediate/charrels && $(MAKE) build-pages
-	cd intermediate/variants && $(MAKE) build-pages
 
 local/generated:
 	$(GIT) clone https://github.com/manakai/generated-data-chars $@ || (cd $@ && $(GIT) pull)
