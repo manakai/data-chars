@@ -632,7 +632,7 @@ data/seqs.json: bin/seqs.pl \
 data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
 
-build-nightly: local/generated build-nigjhtly-iu
+build-nightly: local/generated build-nightly-iu
 
 build-github-pages: local/generated build-pages-iu
 	rm -fr ./bin/ ./modules/ ./t_deps/
