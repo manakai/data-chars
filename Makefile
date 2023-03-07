@@ -67,12 +67,13 @@ clean-data: clean-perl-unicode
 	rm -fr src/set/unicode/CompositionExclusions.expr
 
 all-ucd: prepare-ucd data/scripts.json local/ucd/touch
-prepare-ucd:
+prepare-ucd: local/ucd
+local/ucd:
 	mkdir -p local/ucd
 local/ucd/touch:
 	touch $@
 
-local/ucd/PropertyValueAliases.txt:
+local/ucd/PropertyValueAliases.txt: local/ucd
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt
 
 local/security/latest/confusables.txt:
