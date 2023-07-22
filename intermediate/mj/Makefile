@@ -10,7 +10,8 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) variants.json maps.list fmaps.list kmaps.list
+build: $(TEMP_PATH) variants.json maps-0.list fmaps-0.list kmaps.list \
+    tmaps.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -24,20 +25,43 @@ $(TEMP_PATH)/mj.json: mj.pl mji.00601.xlsx.xls.csv
 $(TEMP_PATH)/map.json:
 	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/oscdl/MJShrinkMap.1.2.0.json
 
+$(TEMP_PATH)/toukimap.json:
+	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/oscdl/ToukiShrinkMap.1.0.0.json
+
+$(TEMP_PATH)/mjsu.json:
+	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/lab/xb657/MJSU.1.2.0.json
+
+$(TEMP_PATH)/tksu.json:
+	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/lab/xb657/TKSU0930.json
+
+$(TEMP_PATH)/hikanji.txt:
+	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/lab/xb857/IPAmjMinchoHikanji.txt
+
 variants.json: variants.pl $(TEMP_PATH)/mj.json $(TEMP_PATH)/map.json
 	$(PERL) $< > $@
 
-maps.list: maps.pl $(VGEN_PATH)/chars.pl \
+maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/mj.json
-	$(PERL) $< > $@
+	$(PERL) $<
+maps-*.list: maps-0.list
 
-fmaps.list: fmaps.pl $(VGEN_PATH)/chars.pl \
-    $(TEMP_PATH)/map.json
+fmaps-0.list: fmaps.pl $(VGEN_PATH)/chars.pl \
+    $(TEMP_PATH)/map.json \
+    $(TEMP_PATH)/mjsu.json
+	$(PERL) $<
+fmaps-*.list: fmaps-0.list
+
+tmaps.list: tmaps.pl $(VGEN_PATH)/chars.pl \
+    $(TEMP_PATH)/toukimap.json \
+    $(TEMP_PATH)/tksu.json
 	$(PERL) $< > $@
 
 kmaps.list: kmaps.pl $(VGEN_PATH)/chars.pl \
     wakan-kana.txt \
-    ninjal-kana.txt
+    ninjal-kana.txt \
+    mj-kana.txt \
+    mj-voiced.txt \
+    $(TEMP_PATH)/hikanji.txt
 	$(PERL) $< > $@
 
 ## License: Public Domain.

@@ -41,6 +41,9 @@ jpnewstyle 𭞁 慫
 jpnewstyle 脍 膾
 jpnewstyle 欤\u{E0104} 歟
 jpnewstyle 疱\u{E0102} 疱\u{E0101}
+jpnewstyle 寐\u{E0102} 寐\u{E0101}
+jpnewstyle 𰋷 嬰
+jpnewstyle 𣠤 欟
 
 jpnewstyle 祚\u{E0102} 祚\u{E0101}
 jpnewstyle 祺\u{E0102} 祺\u{E0101}
@@ -70,7 +73,6 @@ jpnewstyle 𮯈 䶨
 jpnewstyle 𪘚 齬
 jpnewstyle 𪗱 齟
 
-variant 秊 年
 variant 弖 氐
 variant 畨 番
 related 症 證
@@ -261,6 +263,9 @@ conflict 栈 棧
 conflict 桟 棧
 simplified 𬌩 銭
 
+variant 囿 𧆘
+variant 囿 𧅲
+
 overlap 丁 町
 overlap 大 太
 
@@ -271,12 +276,44 @@ taboo 神 玄
 taboo 国 邦
 taboo 明 昭
 taboo 歷 曆
+taboo 歴 曆
+taboo 暦 曆
 taboo 厯 曆
 taboo 厤 曆
 taboo 甯 寧
 taboo 景 丙
+taboo 曄 燁
+taboo 允 胤
+taboo 宏 弘
+taboo 洪 弘
+taboo 談 琰
+taboo 淡 琰
+taboo 湻 淳
+taboo 恬 湉
+taboo 花 華
+taboo 丙 南
+taboo 寔 實
+taboo 豊 隆
+taboo 峻 建
+taboo 立 建
+taboo 虎 武
+taboo 武 虎
+taboo 理 治
+taboo 現 顯
+taboo 明 顯
+taboo 光 顯
+taboo 隆 昌
+taboo 盛 壽
+taboo 和 雍
+taboo 煕 雍
+taboo 昏 昬
+taboo 𦯧 葉
+taboo 高 尭
+#changed <- original
 
 taboovariant 𤣥 玄
+taboovariant 㱏 武
+taboovariant 㱐 武
 
 related 十 七
 related 咸 感
@@ -285,11 +322,16 @@ related 齎 齋
 related 令 齢
 related 斗 計
 related 宛 充
-related 羊 年
 related 小 少
 related 会 絵
 related 瓲 屯
 related 噸 瓲
+related 𭩝 枕
+related 𠤭 正
+
+related 羊 年
+variant 秊 年
+variant 禩 𰨓
 
 unified 死\u{E0102} \u{2DB7D}
 unified 衰\u{E0103} \u{2E569}
@@ -356,6 +398,7 @@ alt タ 夕
 variant 〻 々
 conflict 〻 々
 related 〻 二
+conflict 〻 亦
 #
 same 々 𠚤
 
@@ -510,6 +553,8 @@ related 支 華
 related 中 支
 related 朝 鮮
 related 倭 和
+related 委 倭
+related 俀 倭
 related 日 和
 related 京 洛
 related 鮑 鰒
@@ -525,6 +570,12 @@ related 鮒 鯽
 related 鯔 鰡
 related 鮱 鯔
 related 頃 比
+related 貫 〆
+related 于 干
+related 年 羊
+
+related 呅 鈫
+related 呅 蚊
 
 alt 昂 昴
 alt 彅 薙
@@ -542,6 +593,9 @@ mistake 代 台
 
 mistake 視 試
 #in: 視聴/試聴
+
+same 𬶤 :⿰鱼帝
+related 𩹋 鮷
 
 ## <https://github.com/adobe-type-tools/Adobe-Japan1/blob/master/README-JP.md#%E9%87%8D%E8%A4%87%E3%81%97%E3%81%9F%E6%BC%A2%E5%AD%97%E3%82%B0%E3%83%AA%E3%83%95>
 same :aj4301 :aj7983

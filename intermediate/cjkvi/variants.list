@@ -305949,8 +305949,28 @@ cjkvi:non-cjk/katakana
 -"㐅"
 "メ"
 cjkvi:non-cjk/katakana
+"ㄨ"
+cjkvi:non-cjk/bopomofo
 "乄"
 cjkvi:cjkvi/non-cognate
+-"㞢"
+"ㄓ"
+cjkvi:non-cjk/bopomofo
+-"丂"
+"ㄎ"
+cjkvi:non-cjk/bopomofo
+-"丅"
+"ㄒ"
+cjkvi:non-cjk/bopomofo
+-"丨"
+"ㄧ"
+cjkvi:non-cjk/bopomofo
+-"丩"
+"ㄐ"
+cjkvi:non-cjk/bopomofo
+-"丫"
+"ㄚ"
+cjkvi:non-cjk/bopomofo
 -"丷"
 "ソ"
 cjkvi:non-cjk/katakana
@@ -305960,6 +305980,8 @@ cjkvi:non-cjk/katakana
 -"乀"
 "ヘ"
 cjkvi:non-cjk/katakana
+"ㄟ"
+cjkvi:non-cjk/bopomofo
 -"乂"
 "乄"
 cjkvi:cjkvi/non-cognate
@@ -305978,42 +306000,72 @@ cjkvi:non-cjk/katakana
 -"儿"
 "ル"
 cjkvi:non-cjk/katakana
+"ㄦ"
+cjkvi:non-cjk/bopomofo
 -"八"
 "ハ"
 cjkvi:non-cjk/katakana
+-"冂"
+"ㄇ"
+cjkvi:non-cjk/bopomofo
 -"冖"
 "ワ"
 cjkvi:non-cjk/katakana
 -"冫"
 "ン"
 cjkvi:non-cjk/katakana
+-"凵"
+"ㄩ"
+cjkvi:non-cjk/bopomofo
 -"力"
 "カ"
 cjkvi:non-cjk/katakana
 -"匕"
 "ヒ"
 cjkvi:non-cjk/katakana
+-"匸"
+"ㄈ"
+cjkvi:non-cjk/bopomofo
 -"卜"
 "ト"
 cjkvi:non-cjk/katakana
+-"厂"
+"ㄏ"
+cjkvi:non-cjk/bopomofo
 -"厶"
 "ム"
 cjkvi:non-cjk/katakana
+"ㄙ"
+cjkvi:non-cjk/bopomofo
 -"又"
 "ヌ"
 cjkvi:non-cjk/katakana
+"ㄡ"
+cjkvi:non-cjk/bopomofo
 -"口"
 "ロ"
 cjkvi:non-cjk/katakana
 -"夕"
 "タ"
 cjkvi:non-cjk/katakana
+-"尢"
+"ㄤ"
+cjkvi:non-cjk/bopomofo
+-"巜"
+"ㄍ"
+cjkvi:non-cjk/bopomofo
 -"工"
 "エ"
 cjkvi:non-cjk/katakana
+-"幺"
+"ㄠ"
+cjkvi:non-cjk/bopomofo
 -"彐"
 "ヨ"
 cjkvi:non-cjk/katakana
+-"彳"
+"ㄔ"
+cjkvi:non-cjk/bopomofo
 -"才"
 "オ"
 cjkvi:non-cjk/katakana
@@ -306032,25 +306084,51 @@ cjkvi:non-cjk/katakana
 -"龴"
 "マ"
 cjkvi:non-cjk/katakana
+-"𠀀"
+"ㄛ"
+cjkvi:non-cjk/bopomofo
+-"𠀁"
+"ㄘ"
+cjkvi:non-cjk/bopomofo
+-"𠀅"
+"ㄞ"
+cjkvi:non-cjk/bopomofo
 -"𠂇"
 "ナ"
 cjkvi:non-cjk/katakana
 -"𠂊"
 "ク"
 cjkvi:non-cjk/katakana
+-"𠃋"
+"ㄥ"
+cjkvi:non-cjk/bopomofo
+-"𠃑"
+"ㄣ"
+cjkvi:non-cjk/bopomofo
 -"𠃒"
 "セ"
 cjkvi:non-cjk/katakana
+"ㄝ"
+cjkvi:non-cjk/bopomofo
+-"𠄎"
+"ㄋ"
+cjkvi:non-cjk/bopomofo
+-"𠫓"
+"ㄊ"
+cjkvi:non-cjk/bopomofo
+-"𠮚"
+"ㄖ"
+cjkvi:non-cjk/bopomofo
+-"𡰣"
+"ㄕ"
+cjkvi:non-cjk/bopomofo
+-"𢎘"
+"ㄢ"
+cjkvi:non-cjk/bopomofo
 -"𫡏"
 "ケ"
 cjkvi:non-cjk/katakana
 *variants
--"㐅"
-"ㄨ"
-cjkvi:non-cjk/bopomofo
--"㞢"
-"ㄓ"
-cjkvi:non-cjk/bopomofo
 -"一"
 "㈠"
 cjkvi:non-cjk/parenthesized
@@ -306058,17 +306136,11 @@ cjkvi:non-cjk/parenthesized
 cjkvi:non-cjk/circle
 "🈩"
 cjkvi:non-cjk/square
--"丂"
-"ㄎ"
-cjkvi:non-cjk/bopomofo
 -"七"
 "㈦"
 cjkvi:non-cjk/parenthesized
 "㊆"
 cjkvi:non-cjk/circle
--"丅"
-"ㄒ"
-cjkvi:non-cjk/bopomofo
 -"三"
 "㈢"
 cjkvi:non-cjk/parenthesized
@@ -306084,23 +306156,11 @@ cjkvi:non-cjk/circle
 -"下"
 "㊦"
 cjkvi:non-cjk/circle
--"丨"
-"ㄧ"
-cjkvi:non-cjk/bopomofo
--"丩"
-"ㄐ"
-cjkvi:non-cjk/bopomofo
--"丫"
-"ㄚ"
-cjkvi:non-cjk/bopomofo
 -"中"
 "㊥"
 cjkvi:non-cjk/circle
 "🈭"
 cjkvi:non-cjk/square
--"乀"
-"ㄟ"
-cjkvi:non-cjk/bopomofo
 -"九"
 "㈨"
 cjkvi:non-cjk/parenthesized
@@ -306139,9 +306199,6 @@ cjkvi:non-cjk/circle
 -"優"
 "㊝"
 cjkvi:non-cjk/circle
--"儿"
-"ㄦ"
-cjkvi:non-cjk/bopomofo
 -"八"
 "㈧"
 cjkvi:non-cjk/parenthesized
@@ -306152,18 +306209,12 @@ cjkvi:non-cjk/circle
 cjkvi:non-cjk/parenthesized
 "㊅"
 cjkvi:non-cjk/circle
--"冂"
-"ㄇ"
-cjkvi:non-cjk/bopomofo
 -"再"
 "🈞"
 cjkvi:non-cjk/square
 -"写"
 "㊢"
 cjkvi:non-cjk/circle
--"凵"
-"ㄩ"
-cjkvi:non-cjk/bopomofo
 -"初"
 "🈠"
 cjkvi:non-cjk/square
@@ -306181,9 +306232,6 @@ cjkvi:non-cjk/circle
 -"勝"
 "🉇"
 cjkvi:non-cjk/bracketed
--"匸"
-"ㄈ"
-cjkvi:non-cjk/bopomofo
 -"医"
 "㊩"
 cjkvi:non-cjk/circle
@@ -306200,15 +306248,6 @@ cjkvi:non-cjk/circle
 -"印"
 "㊞"
 cjkvi:non-cjk/circle
--"厂"
-"ㄏ"
-cjkvi:non-cjk/bopomofo
--"厶"
-"ㄙ"
-cjkvi:non-cjk/bopomofo
--"又"
-"ㄡ"
-cjkvi:non-cjk/bopomofo
 -"双"
 "🈒"
 cjkvi:non-cjk/square
@@ -306279,26 +306318,14 @@ cjkvi:non-cjk/bracketed
 -"宗"
 "㊪"
 cjkvi:non-cjk/circle
--"尢"
-"ㄤ"
-cjkvi:non-cjk/bopomofo
--"巜"
-"ㄍ"
-cjkvi:non-cjk/bopomofo
 -"左"
 "㊧"
 cjkvi:non-cjk/circle
 "🈬"
 cjkvi:non-cjk/square
--"幺"
-"ㄠ"
-cjkvi:non-cjk/bopomofo
 -"幼"
 "㉅"
 cjkvi:non-cjk/circle
--"彳"
-"ㄔ"
-cjkvi:non-cjk/bopomofo
 -"後"
 "🈝"
 cjkvi:non-cjk/square
@@ -306486,36 +306513,3 @@ cjkvi:non-cjk/circle
 -"項"
 "㊠"
 cjkvi:non-cjk/circle
--"𠀀"
-"ㄛ"
-cjkvi:non-cjk/bopomofo
--"𠀁"
-"ㄘ"
-cjkvi:non-cjk/bopomofo
--"𠀅"
-"ㄞ"
-cjkvi:non-cjk/bopomofo
--"𠃋"
-"ㄥ"
-cjkvi:non-cjk/bopomofo
--"𠃑"
-"ㄣ"
-cjkvi:non-cjk/bopomofo
--"𠃒"
-"ㄝ"
-cjkvi:non-cjk/bopomofo
--"𠄎"
-"ㄋ"
-cjkvi:non-cjk/bopomofo
--"𠫓"
-"ㄊ"
-cjkvi:non-cjk/bopomofo
--"𠮚"
-"ㄖ"
-cjkvi:non-cjk/bopomofo
--"𡰣"
-"ㄕ"
-cjkvi:non-cjk/bopomofo
--"𢎘"
-"ㄢ"
-cjkvi:non-cjk/bopomofo

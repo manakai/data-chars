@@ -26,15 +26,67 @@
       "rels_key": "kanas"
     },
     {
-      "path": "../mj/maps.list",
+      "path": "../mj/maps-0.list",
       "rels_key": "kanas"
     },
     {
-      "path": "../mj/fmaps.list",
+      "path": "../mj/maps-1.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/maps-2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/maps-3.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/maps-4.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/maps-5.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/maps-6.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-0.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-1.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-3.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-4.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-5.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-6.list",
       "rels_key": "kanas"
     },
     {
       "path": "../mj/kmaps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/tmaps.list",
       "rels_key": "kanas"
     },
     {
@@ -75,6 +127,46 @@
     },
     {
       "path": "../cjkvi/variants.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-0.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-1.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-3.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-4.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-5.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-6.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-7.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-8.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-9.list",
       "rels_key": "kanas"
     },
     {

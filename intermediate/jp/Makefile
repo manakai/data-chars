@@ -18,7 +18,8 @@ $(TEMP_PATH)/nyukanseiji.json: $(TEMP_PATH)
 
 variants.list: variants.pl $(VGEN_PATH)/chars.pl \
     doukun-*.txt \
-    $(TEMP_PATH)/nyukanseiji.json
+    $(TEMP_PATH)/nyukanseiji.json \
+    jissyukutaimap1_0_0.xslx.tsv
 	$(PERL) $< > $@
 
 ## License: Public Domain.

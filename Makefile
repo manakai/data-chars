@@ -633,6 +633,9 @@ data/seqs.json: bin/seqs.pl \
 data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
 
+# referenced from https://github.com/suikawiki/swdata
+build-swdata: build-pages-vgen build-nightly-vgen
+
 build-nightly: local/generated build-nightly-iu
 
 build-github-pages: local/generated build-pages-iu

@@ -11,7 +11,8 @@ all: _build-all
 build-nightly: _build-all
 build-pages: _build-all
 
-_build-all: build-chars build-kanas build-kchars build-hans
+_build-all: build-chars build-kanas build-kchars build-hans build-glyphs \
+   build-idses
 
 build-chars:
 	$(PERL) $(VGEN_PATH)/generate.pl chars-input.json
@@ -25,5 +26,11 @@ build-kchars:
 build-hans:
 	$(PERL) $(VGEN_PATH)/generate.pl hans-input.json
 	cd $(VGEN_DATA_PATH)/hans/ && $(MAKE) all test
+build-glyphs:
+	$(PERL) $(VGEN_PATH)/generate.pl glyphs-input.json
+	cd $(VGEN_DATA_PATH)/glyphs/ && $(MAKE) all test
+build-idses:
+	$(PERL) $(VGEN_PATH)/generate.pl idses-input.json
+	cd $(VGEN_DATA_PATH)/idses/ && $(MAKE) all test
 
 ## License: Public Domain.

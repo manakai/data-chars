@@ -133,6 +133,25 @@ my $Data = {};
     } elsif (length $ng) {
       die $ng;
     }
+    
+    my $ko = $data->{戸籍統一文字番号} // '';
+    if ($ko =~ /^([0-9]{6})$/) {
+      my $type = 'mj:戸籍統一文字番号';
+      my $c2 = ':koseki' . $1;
+      $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
+    } elsif (length $ko) {
+      die $ko;
+    }
+    my $to = $data->{'登記統一文字番号(参考)'} // '';
+    if ($to eq '00' . $ko) {
+      #
+    } elsif ($to =~ /^(01[0-9]{6})$/) {
+      my $type = 'mj:登記統一文字番号';
+      my $c2 = ':touki' . $1;
+      $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
+    } elsif (length $to) {
+      die $to;
+    }
 
     if ($data->{備考} =~ m{^(MJ[0-9]+)・(MJ[0-9]+)は、戸籍統一文字において、同一字形であり、字義も同一の内容である。$}) {
       my $type = 'mj:戸籍統一文字:同一';
@@ -144,7 +163,27 @@ my $Data = {};
   }
 }
 
-print_rel_data $Data;
+for (
+  [1, qr/^:MJ00/],
+  [2, qr/^:MJ01/],
+  [3, qr/^:MJ02/],
+  [4, qr/^:MJ03/],
+  [5, qr/^:MJ04/],
+  [6, qr/^:MJ05/],
+) {
+  my ($i, $pattern) = @$_;
+  my $path = $ThisPath->child ("maps-$i.list");
+  my $data = {};
+  my @v = grep { /^$pattern/ } keys %{$Data->{hans}};
+  for (@v) {
+    $data->{hans}->{$_} = delete $Data->{hans}->{$_};
+  }
+  write_rel_data $data => $path;
+}
+{
+  my $path = $ThisPath->child ('maps-0.list');
+  write_rel_data $Data => $path;
+}
 
 ## License: Public Domain.
 

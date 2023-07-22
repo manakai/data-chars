@@ -55,7 +55,46 @@ my $Data = {};
   }
 }
 
-print_rel_data $Data;
+{
+  my $path = $TempPath->child ('mjsu.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $data (@{$json->{content}}) {
+    my $mj = $data->{MJ文字図形名};
+    my $c1 = ':' . $mj;
+    my $key = get_vkey $c1;
+
+    $data->{変換先}->{"UCS"} =~ m{^U\+([0-9A-F]+)$} or die $data->{変換先}->{"UCS"};
+    my $ucs = chr hex $1;
+    next if $ucs eq '＿';
+    $Data->{$key}->{$c1}->{$ucs}->{'mj:縮退マップから一意な選択'} = 1;
+
+    $data->{変換先}->{"JIS X 0213"} =~ m{^([0-9]+)-([0-9]+)-([0-9]+)$} or die $data->{変換先}->{"JIS X 0213"};
+    my $jis = sprintf ':jis%d-%d-%d', $1, $2, $3;
+    $Data->{$key}->{$c1}->{$jis}->{'mj:縮退マップから一意な選択'} = 1;
+  }
+}
+
+for (
+  [1, qr/^:MJ00/],
+  [2, qr/^:MJ01/],
+  [3, qr/^:MJ02/],
+  [4, qr/^:MJ03/],
+  [5, qr/^:MJ04/],
+  [6, qr/^:MJ05/],
+) {
+  my ($i, $pattern) = @$_;
+  my $path = $ThisPath->child ("fmaps-$i.list");
+  my $data = {};
+  my @v = grep { /^$pattern/ } keys %{$Data->{hans}};
+  for (@v) {
+    $data->{hans}->{$_} = delete $Data->{hans}->{$_};
+  }
+  write_rel_data $data => $path;
+}
+{
+  my $path = $ThisPath->child ('fmaps-0.list');
+  write_rel_data $Data => $path;
+}
 
 ## License: Public Domain.
 
