@@ -53,6 +53,8 @@ related \♂ 男
 related \♀ 女
 related F 階
 related T 丁
+related \🍞 \8
+alt u μ
 
 ## Source: <http://code.web.idv.hk/cns11643/csic2004.php>
 T1-4244 U+006D,U+0302
@@ -199,11 +201,18 @@ alt \u2014 \u2015
 mistake ー \uFF0D
 variant ー \⸺
 variant ー \→
+differentiated \- \|
+
 alt \゛ \”
 alt \゛ \"
 mistake \゜ \°
 alt \u3031 \u3033\u3035
 alt \u3032 \u3034\u3035
+
+related :jis1-11-38 \u0251\u0300
+related :jis1-11-39 \u0251\u0301
+related :jis1-11-48 \u025B\u0300
+related :jis1-11-49 \u025B\u0301
 
 related \u2212 \▲
 related \u2212 \△
@@ -221,3 +230,6 @@ differentiated \u3000 \uFE57
 ne 뼁 뜁
 ne 잏 왕
 ne 퓌 풔
+
+
+ne \+ 十

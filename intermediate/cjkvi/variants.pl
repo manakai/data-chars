@@ -40,7 +40,7 @@ sub bad ($) {
 }
 
 {
-  my $path = $TempPath->child ('repo', 'jp-old-style.txt');
+  my $path = $TempPath->child ('cjkvi-variants', 'jp-old-style.txt');
   my $vtype = 'cjkvi:jp-old-style';
   for (split /\x0A/, decode_web_utf8 $path->slurp) {
     if (/^#/) {
@@ -101,7 +101,7 @@ for (
   ['cjkvi-simplified.txt'],
 ) {
   my ($fname) = @$_;
-  my $path = $TempPath->child ('repo', $fname);
+  my $path = $TempPath->child ('cjkvi-variants', $fname);
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
     if (/^#/) {
       #
@@ -158,7 +158,7 @@ for (
 }
 
 {
-  my $path = $TempPath->child ('gb2ucs.txt');
+  my $path = $TempPath->child ('cjkvi-data/gb2ucs.txt');
   my $vtype = 'cjkvi:variants';
   for (split /\x0A/, decode_web_utf8 $path->slurp) {
     if (/^G([24K])-([0-9]{2})([0-9]{2})\s+(U\+[0-9A-Fa-f]+|[\p{Ideographic_Description_Characters}\p{CJK_Radicals_Supplement}\p{Private_Use}\w]+)(?:\s*#.+|)$/) {

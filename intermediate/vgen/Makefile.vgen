@@ -19,7 +19,9 @@ build-vgen-pages: build-vgen test
 
 build-vgen: \
     merged-index.json \
-    cluster-index.json char-cluster-part-0.jsonl char-leaders-part-0.jsonl \
+    cluster-index.json char-cluster/part-0.jsonl char-leaders/part-0.jsonl \
+    cluster-chars/part-0.jsonl \
+    merged-rels/part-0.jsonll \
     testdata.json \
     tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz tbl-leaders.dat.gz
 
@@ -31,6 +33,8 @@ build-vgen: \
 ## || || ++-- merged-chars.json        [not in repo] characters
 ## || |+-+--- merged-sets.json         [not in repo] character sets
 ## || +--+--- merged-rels.jsonll       [not in repo] character relations
+## || || ||      & split-jsonl.pl
+## || || ||          merged-rels-cluster/part-*.jsonll
 ## || || ||
 ## || || |&->    merged-char-index.pl  Generate character indexes
 ## || ||+---- merged-char-index.jsonl  [not in repo] character indexes
@@ -38,16 +42,20 @@ build-vgen: \
 ## || |||&-->    clusters.pl           Clusterize
 ## || +|----- cluster-index.json       additional character relations
 ## || |++---- cluster-temp.jsonl       [not in repo] cluster dumps
+## || |||        & split-index-jsonl.pl
+## || |||            cluster/part-*.jsonl
 ## || |||
 ## || ||&--->    char-cluster.pl       Generate char-cluster mapping
 ## |+-+|----- char-cluster.jsonl       [not in repo] char-cluster mapping
 ## || ||         & split-jsonl.pl
-## || ||             char-cluster-part-*.jsonl
+## || ||             char-cluster/part-*.jsonl
+## || ||&--->    cluster-chars.pl      Generate cluster-chars mapping
+## |+-++----- cluster-chars/part-*.jsonl [not in repo] cluster-chars mapping
 ## || ||
 ## || |&---->    char-leaders.pl       Generate char-leader mapping
 ## || +------ char-leaders.jsonl       [not in repo] char-leader mapping
 ## || |          & split-jsonl.pl
-## || |              char-leaders-part-*.jsonl
+## || |              char-leaders/part-*.jsonl
 ## || |
 ## || &          tbl.pl                Generate wire tables
 ## ||         tbl-index.json           [not in repo] index of tables
@@ -67,6 +75,11 @@ merged-index.json merged-sets.json merged-chars.json merged-rels.jsonll:: \
 %: $(VGEN_PATH)/merged.pl $(VGEN_MERGED_INPUTS)
 	$(PERL) $<
 
+merged-rels/part-0.jsonll: $(VGEN_PATH)/split-jsonl.pl \
+    merged-rels.jsonll
+	$(PERL) $< merged-rels
+merged-rels/part-*.jsonll: merged-rels/part-0.jsonll
+
 merged-char-index.jsonl: $(VGEN_PATH)/merged-char-index.pl \
     merged-chars.json
 	$(PERL) $< > $@
@@ -76,23 +89,33 @@ cluster-index.json cluster-temp.jsonl:: \
     merged-index.json merged-sets.json merged-chars.json merged-rels.jsonll
 	$(PERL) $<
 
+cluster/part-0.jsonl: $(VGEN_PATH)/split-index-jsonl.pl \
+    cluster-temp.jsonl
+	$(PERL) $< cluster
+cluster/part-*.jsonl: cluster/part-0.jsonl
+
+cluster-chars/part-0.jsonl: $(VGEN_PATH)/cluster-chars.pl \
+    merged-char-index.jsonl cluster-temp.jsonl
+	$(PERL) $<
+cluster-chars/part-*.jsonl: cluster-chars/part-0.jsonl
+
 char-cluster.jsonl: $(VGEN_PATH)/char-cluster.pl \
     merged-char-index.jsonl cluster-temp.jsonl
 	$(PERL) $< > $@
 
-char-cluster-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
+char-cluster/part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
     char-cluster.jsonl
 	$(PERL) $< char-cluster
-char-cluster-part-*.jsonl: char-cluster-part-0.jsonl
+char-cluster/part-*.jsonl: char-cluster/part-0.jsonl
 
 char-leaders.jsonl: $(VGEN_PATH)/char-leaders.pl \
     merged-index.json merged-sets.json cluster-temp.jsonl
 	$(PERL) $< > $@
 
-char-leaders-part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
+char-leaders/part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
     char-leaders.jsonl
 	$(PERL) $< char-leaders
-char-leaders-part-*.jsonl: char-leaders-part-0.jsonl
+char-leaders/part-*.jsonl: char-leaders/part-0.jsonl
 
 tbl-index.json tbl-clusters.dat tbl-rels.dat tbl-leaders.dat:: \
 %: $(VGEN_PATH)/tbl.pl \

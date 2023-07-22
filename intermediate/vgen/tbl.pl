@@ -68,7 +68,7 @@ my $CharPrefixes = {};
         my $cc = $cc1 * (0x75-0x5F) * (0xC2-0xA7) + $cc2 * (0xC2-0xA7) + $cc3;
         $TableData->{$level->{key}}->{'unicode-hangul3'}->{$cc} = [$cid, $c];
         next;
-      } elsif ($c =~ /\A:(MJ|aj|ac|ag|ak|aj2-|ak1-|UK-|koseki|swc)([0-9]+)\z/) {
+      } elsif ($c =~ /\A:(MJ|aj|ac|ag|ak|aj2-|ak1-|UK-|koseki|touki|KS|TK|m|swc)([0-9]+)\z/) {
         my $prefix = $1;
         my $cc = 0+$2;
         $TableData->{$level->{key}}->{$prefix}->{$cc} = [$cid, $c];
@@ -209,7 +209,7 @@ my $TableMeta = {tables => [], others => $Others};
       $def->{level_key} = $1;
       $def->{type} = 'unicode-hangul3';
       $def->{code_offset} = 0;
-    } elsif ($key =~ /^([A-Z]+):(MJ|jis|jis-[a-z]+-|cns|cns-[a-z]+-|gb|ks|kps|aj|ac|ag|ak|aj2-|ak1-|UK-|u-[a-z]+-|b5-|b5-[a-z]+-|cccii|koseki|swc)$/) {
+    } elsif ($key =~ /^([A-Z]+):(MJ|jis|jis-[a-z]+-|cns|cns-[a-z]+-|gb|ks|kps|aj|ac|ag|ak|aj2-|ak1-|UK-|u-[a-z]+-|b5-|b5-[a-z]+-|cccii|koseki|touki|KS|TK|m|swc)$/) {
       $def->{level_key} = $1;
       $def->{type} = $2;
       $def->{code_offset} = 0;

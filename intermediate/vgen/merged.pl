@@ -65,6 +65,8 @@ my $NTypes = [];
 
     "uk:font-code-point",
     "adobe:vs",
+    
+    "cjkvi:hd2ucs:=",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
     $TypeWeight->{'rev:'.$vtype} = W 'SAME';
@@ -85,6 +87,7 @@ my $NTypes = [];
 
     "mj:JIS包摂規準・UCS統合規則",
     "mj:戸籍統一文字番号",
+    "mj:登記統一文字番号",
     'mj:統合',
     
     "unihan:kZVariant",
@@ -140,7 +143,7 @@ my $NTypes = [];
     "unihan:kIRG_JSource:14",
     "unihan:kIRG_JSource:4",
     "unihan:kIRG_JSource:A4",
-    'mj:UCS',
+    #'mj:UCS',
     'ninjal:UNICODE',
 
     "glyphwiki:alias",
@@ -178,6 +181,11 @@ my $NTypes = [];
     "pl:mapping",
     "marc:mapping",
 
+    "mj:FullWidth",
+    "mj:HalfWidth",
+    "mj:Wide",
+    "mj:Narrow",
+
     "opentype:fwid",
     "opentype:hwid",
     "opentype:pwid",
@@ -194,6 +202,17 @@ my $NTypes = [];
     "apple:ku+84",
     "manakai:bold",
     "manakai:ocr",
+
+    "cjkvi:hd2ucs",
+    "cjkvi:hd2ucs:U",
+    "cjkvi:hd2ucs:ivs",
+    'cjkvi:hducs2juki',
+    'cjkvi:hducs2koseki',
+    "cjkvi:hd2cid",
+    "cjkvi:hd2cid:subtle",
+    "cjkvi:hd2cid:related",
+    "manakai:implements",
+    "manakai:implements:juki",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -218,6 +237,12 @@ my $NTypes = [];
     "cjkvi:koseki/variant",
     "cjkvi:x0213-x0212/variants",
     "cjkvi:x0213-x0212/variants:JIS-X-0213:2004",
+    "cjkvi:hd2ucs:~",
+    'cjkvi:hducs2juki:*',
+    'cjkvi:hducs2juki:#',
+    'cjkvi:hducs2koseki:*',
+    'cjkvi:hducs2koseki:#',
+    'cjkvi:hducs2koseki:()',
 
     "kchar:Hunminjeongeum Haerye style",
     
@@ -260,6 +285,9 @@ my $NTypes = [];
     "cjkvi:gb2ucs:2",
     "cjkvi:gb2ucs:4",
     "icu:mapping:iso-ir-165",
+
+    "mj:VerticalWriting",
+    "mj:斜線入り",
     
     "opentype:zero",
     "opentype:ital",
@@ -457,6 +485,7 @@ my $NTypes = [];
   for my $vtype (
     "mj:辞書類等による関連字",
     "mj:読み・字形による類推",
+    "mj:縮退マップから一意な選択",
     
     "cjkvi:jisx0212/variant",
     "cjkvi:jisx0213/variant",
@@ -483,6 +512,12 @@ my $NTypes = [];
     "mj:法務省告示582号別表第四:二:第1順位",
     "mj:法務省告示582号別表第四:一:第2順位",
     "mj:法務省告示582号別表第四:二:第2順位",
+
+    "nta:JIS縮退マップ:コード変換",
+    "nta:JIS縮退マップ:文字列変換",
+    "nta:JIS縮退マップ:類似字形",
+
+    "mj:非漢字",
     
     "unihan:kSpecializedSemanticVariant",
     "cjkvi:jp/borrowed:文脈依存",
@@ -494,6 +529,7 @@ my $NTypes = [];
     "cjkvi:cjkvi/variant",
     "cjkvi:hydcd/borrowed",
     "cjkvi:variants",
+    "cjkvi:ids",
 
     "manakai:alt",
     "manakai:related",

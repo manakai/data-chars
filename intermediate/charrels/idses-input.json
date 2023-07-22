@@ -1,0 +1,13 @@
+{
+  "key": "idses",
+  "inputs": [
+    {
+      "path": "../cjkvi/hdids.list",
+      "rels_key": "idses"
+    }
+  ],
+  "leader_types": [
+  ],
+  "tests": [
+  ]
+}

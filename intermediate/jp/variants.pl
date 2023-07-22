@@ -173,6 +173,62 @@ my $Data = {};
   }
 }
 
+{
+  use utf8;
+  my $path = $ThisPath->child ('jissyukutaimap1_0_0.xslx.tsv');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    my @line = split /\t/, $_, -1;
+    if (length $line[1]) {
+      if ($line[0] eq $line[4]) {
+        #
+      } elsif (length $line[4] and not $line[1] eq 'Unicode') {
+        die "|$_| ($line[1])" unless $line[1] =~ /^u\+[0-9a-f]{4,5}$/;
+        die "|$_| ($line[5])" unless $line[5] =~ /^u\+[0-9a-f]{4,5}$/;
+        $line[1] =~ s/^u\+//;
+        $line[5] =~ s/^u\+//;
+        my $c1 = chr hex $line[1];
+        my $c2 = chr hex $line[5];
+        my $vkey = get_vkey $c1;
+        $Data->{$vkey}->{$c1}->{$c2}->{'nta:JIS縮退マップ:コード変換'} = 1;
+
+        $line[0] =~ /^([0-9]+)-([0-9]+)-([0-9]+)$/ or die;
+        my $c3 = sprintf ':jis%d-%d-%d', $1, $2, $3;
+        $line[4] =~ /^([0-9]+)-([0-9]+)-([0-9]+)$/ or die;
+        my $c4 = sprintf ':jis%d-%d-%d', $1, $2, $3;
+        $Data->{$vkey}->{$c3}->{$c4}->{'nta:JIS縮退マップ:コード変換'} = 1;
+      }
+      if (length $line[7] and not $line[1] eq 'Unicode') {
+        $line[1] =~ s/^u\+//;
+        my $c1 = chr hex $line[1];
+        my $c2 = join '', map { my $x = $_; die $x unless $x =~ /^u\+[0-9a-f]{4,5}$/; $x =~ s/^u\+//; chr hex $x } grep { length } $line[11], $line[12], $line[13], $line[14];
+        my $vkey = get_vkey $c1;
+        $Data->{$vkey}->{$c1}->{$c2}->{'nta:JIS縮退マップ:文字列変換'} = 1;
+
+        $line[0] =~ /^([0-9]+)-([0-9]+)-([0-9]+)$/ or die;
+        my $c3 = sprintf ':jis%d-%d-%d', $1, $2, $3;
+        my $c4 = join '', map { my $x = $_; $x =~ /^([0-9]+)-([0-9]+)-([0-9]+)$/ or die; sprintf ':jis%d-%d-%d', $1, $2, $3 } grep { length } $line[7], $line[8], $line[9], $line[10];
+        $Data->{$vkey}->{$c3}->{$c4}->{'nta:JIS縮退マップ:文字列変換'} = 1;
+      }
+
+      if ($line[1] eq 'Unicode') {
+        #
+      } elsif ($line[16] =~ /^類似字形u\+([0-9a-f]+)は本文字に変換する。$/) {
+        my $c1 = chr hex $1;
+        $line[1] =~ s/^u\+//;
+        my $c2 = chr hex $line[1];
+        my $vkey = get_vkey $c2;
+        $Data->{$vkey}->{$c1}->{$c2}->{'nta:JIS縮退マップ:類似字形'} = 1;
+      } elsif ($line[16] eq '合成文字（本システムでは取り扱わない）') {
+        #
+      } elsif ($line[16] eq '半角文字（※特に変換しない）') {
+        #
+      } elsif (length $line[16]) {
+        die $line[16];
+      }
+    } # $line[1]
+  }
+}
+
 print_rel_data $Data;
 
 ## License: Public Domain.
