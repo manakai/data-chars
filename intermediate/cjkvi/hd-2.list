@@ -120,6 +120,8 @@ cjkvi:hducs2koseki
 "丵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"丵󠄁"
+cjkvi:hducs2ivs
 -":JB1615"
 ":aj14302"
 cjkvi:hd2cid
@@ -220,6 +222,8 @@ cjkvi:hducs2koseki
 "乵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"乵󠄁"
+cjkvi:hducs2ivs
 -":JB1627"
 ":aj19143"
 cjkvi:hd2cid
@@ -351,6 +355,8 @@ cjkvi:hducs2koseki
 "仢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"仢󠄁"
+cjkvi:hducs2ivs
 -":JB1642"
 ":aj21085"
 cjkvi:hd2cid
@@ -511,6 +517,8 @@ cjkvi:hducs2koseki
 "众"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"众󠄁"
+cjkvi:hducs2ivs
 -":JB1660"
 ":aj19146"
 cjkvi:hd2cid
@@ -572,6 +580,8 @@ cjkvi:hducs2koseki
 "伵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"伵󠄁"
+cjkvi:hducs2ivs
 -":JB1666"
 ":aj17256"
 cjkvi:hd2cid
@@ -616,6 +626,8 @@ cjkvi:hducs2koseki
 "佀"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"佀󠄁"
+cjkvi:hducs2ivs
 -":JB1671"
 ":aj21095"
 cjkvi:hd2cid
@@ -835,6 +847,8 @@ cjkvi:hducs2koseki
 "侉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"侉󠄁"
+cjkvi:hducs2ivs
 -":JB1703"
 ":aj8379"
 cjkvi:hd2cid
@@ -973,6 +987,8 @@ cjkvi:hd2cid
 manakai:implements
 "侹"
 cjkvi:hducs2juki
+"侹󠄁"
+cjkvi:hducs2ivs
 -":JB1718"
 ":aj21112"
 cjkvi:hd2cid
@@ -983,6 +999,8 @@ cjkvi:hducs2koseki
 "侻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"侻󠄁"
+cjkvi:hducs2ivs
 -":JB1719"
 ":aj21113"
 cjkvi:hd2cid
@@ -1057,6 +1075,8 @@ cjkvi:hducs2koseki
 "俈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"俈󠄁"
+cjkvi:hducs2ivs
 -":JB1727"
 ":aj8364"
 cjkvi:hd2cid
@@ -1264,6 +1284,8 @@ cjkvi:hducs2koseki
 "倗"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"倗󠄁"
+cjkvi:hducs2ivs
 -":JB1751"
 ":aj16784"
 cjkvi:hd2cid
@@ -1336,6 +1358,8 @@ cjkvi:hducs2koseki
 "倰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"倰󠄁"
+cjkvi:hducs2ivs
 -":JB1760"
 ":aj21129"
 cjkvi:hd2cid
@@ -1428,6 +1452,8 @@ cjkvi:hducs2koseki
 "偌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"偌󠄁"
+cjkvi:hducs2ivs
 -":JB1770"
 ":aj17273"
 cjkvi:hd2cid
@@ -1499,6 +1525,8 @@ cjkvi:hducs2koseki
 "偠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"偠󠄁"
+cjkvi:hducs2ivs
 -":JB1778"
 ":aj19157"
 cjkvi:hd2cid
@@ -1644,6 +1672,8 @@ cjkvi:hducs2koseki
 "傎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"傎󠄁"
+cjkvi:hducs2ivs
 -":JB1793"
 ":aj14337"
 cjkvi:hd2cid
@@ -1664,6 +1694,8 @@ cjkvi:hducs2koseki
 "傐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"傐󠄁"
+cjkvi:hducs2ivs
 -":JB1801"
 ":aj17278"
 cjkvi:hd2cid
@@ -1761,6 +1793,8 @@ cjkvi:hducs2koseki
 "傢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"傢󠄁"
+cjkvi:hducs2ivs
 -":JB1812"
 ":aj17281"
 cjkvi:hd2cid
@@ -1778,6 +1812,8 @@ cjkvi:hducs2koseki
 "傯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"傯󠄁"
+cjkvi:hducs2ivs
 -":JB1814"
 ":aj21152"
 cjkvi:hd2cid
@@ -1788,6 +1824,8 @@ cjkvi:hducs2koseki
 "傰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"傰󠄁"
+cjkvi:hducs2ivs
 -":JB1815"
 ":aj21153"
 cjkvi:hd2cid
@@ -1798,6 +1836,8 @@ cjkvi:hducs2koseki
 "傹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"傹󠄁"
+cjkvi:hducs2ivs
 -":JB1816"
 ":aj17284"
 cjkvi:hd2cid
@@ -1815,6 +1855,8 @@ cjkvi:hducs2koseki
 "傽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"傽󠄁"
+cjkvi:hducs2ivs
 -":JB1818"
 ":aj21155"
 cjkvi:hd2cid
@@ -1835,6 +1877,8 @@ cjkvi:hducs2koseki
 "僃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"僃󠄁"
+cjkvi:hducs2ivs
 -":JB1820"
 ":aj17286"
 cjkvi:hd2cid
@@ -1897,6 +1941,8 @@ cjkvi:hducs2koseki
 "僘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"僘󠄁"
+cjkvi:hducs2ivs
 -":JB1828"
 ":aj21157"
 cjkvi:hd2cid
@@ -1929,6 +1975,8 @@ cjkvi:hducs2koseki
 "僟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"僟󠄁"
+cjkvi:hducs2ivs
 -":JB1831"
 ":aj21160"
 cjkvi:hd2cid
@@ -1937,6 +1985,8 @@ manakai:implements
 "僢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"僢󠄁"
+cjkvi:hducs2ivs
 -":JB1832"
 ":aj21161"
 cjkvi:hd2cid
@@ -1947,6 +1997,8 @@ cjkvi:hducs2koseki
 "僤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"僤󠄁"
+cjkvi:hducs2ivs
 -":JB1833"
 ":aj14341"
 cjkvi:hd2cid
@@ -1964,6 +2016,8 @@ cjkvi:hducs2koseki
 "僨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"僨󠄁"
+cjkvi:hducs2ivs
 -":JB1835"
 ":aj14342"
 cjkvi:hd2cid
@@ -1981,6 +2035,8 @@ cjkvi:hducs2koseki
 "僯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"僯󠄁"
+cjkvi:hducs2ivs
 -":JB1837"
 ":aj19164"
 cjkvi:hd2cid
@@ -2009,6 +2065,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "僶"
 cjkvi:hducs2juki
+"僶󠄁"
+cjkvi:hducs2ivs
 -":JB1839"
 ":aj21163"
 cjkvi:hd2cid
@@ -2087,6 +2145,8 @@ cjkvi:hducs2koseki
 "儍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"儍󠄁"
+cjkvi:hducs2ivs
 -":JB1848"
 ":aj19169"
 cjkvi:hd2cid
@@ -2110,6 +2170,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "僲󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB1850"
 ":aj14346"
 cjkvi:hd2cid
@@ -2120,6 +2181,8 @@ cjkvi:hducs2koseki
 "儐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"儐󠄁"
+cjkvi:hducs2ivs
 -":JB1851"
 ":aj17296"
 cjkvi:hd2cid
@@ -2213,6 +2276,8 @@ cjkvi:hducs2koseki
 "儬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"儬󠄁"
+cjkvi:hducs2ivs
 -":JB1861"
 ":aj21172"
 cjkvi:hd2cid
@@ -2243,6 +2308,8 @@ cjkvi:hducs2koseki
 "儱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"儱󠄁"
+cjkvi:hducs2ivs
 -":JB1864"
 ":aj19170"
 cjkvi:hd2cid
@@ -2302,6 +2369,8 @@ cjkvi:hducs2koseki
 "兂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"兂󠄁"
+cjkvi:hducs2ivs
 -":JB1870"
 ":aj8393"
 cjkvi:hd2cid
@@ -2331,6 +2400,8 @@ cjkvi:hducs2koseki
 "兓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"兓󠄁"
+cjkvi:hducs2ivs
 -":JB1873"
 ":aj16791"
 cjkvi:hd2cid
@@ -2375,6 +2446,8 @@ cjkvi:hducs2koseki
 "兤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"兤󠄁"
+cjkvi:hducs2ivs
 -":JB1878"
 ":aj21181"
 cjkvi:hd2cid
@@ -2429,6 +2502,8 @@ cjkvi:hducs2koseki
 "冎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"冎󠄁"
+cjkvi:hducs2ivs
 -":JB1884"
 ":aj17304"
 cjkvi:hd2cid
@@ -2607,6 +2682,7 @@ manakai:implements
 cjkvi:hd2ucs:U
 "凞󠄅"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB1909"
 ":aj16795"
 cjkvi:hd2cid
@@ -3167,6 +3243,8 @@ cjkvi:hducs2koseki
 "勄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"勄󠄁"
+cjkvi:hducs2ivs
 -":JB1971"
 ":aj21210"
 cjkvi:hd2cid
@@ -3177,6 +3255,8 @@ cjkvi:hducs2koseki
 "勆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"勆󠄁"
+cjkvi:hducs2ivs
 -":JB1972"
 ":aj14362"
 cjkvi:hd2cid
@@ -3266,6 +3346,8 @@ cjkvi:hducs2koseki
 "勥"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"勥󠄁"
+cjkvi:hducs2ivs
 -":JB1982"
 ":aj21215"
 cjkvi:hd2cid
@@ -3308,6 +3390,8 @@ cjkvi:hducs2koseki
 "勬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"勬󠄁"
+cjkvi:hducs2ivs
 -":JB1986"
 ":aj14363"
 cjkvi:hd2cid
@@ -3325,6 +3409,8 @@ cjkvi:hducs2koseki
 "勱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"勱󠄁"
+cjkvi:hducs2ivs
 -":JB1988"
 ":aj21218"
 cjkvi:hd2cid
@@ -3520,6 +3606,8 @@ cjkvi:hducs2koseki
 "匬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"匬󠄁"
+cjkvi:hducs2ivs
 -":JB2015"
 ":aj19204"
 cjkvi:hd2cid
@@ -3567,6 +3655,8 @@ cjkvi:hducs2koseki
 "匼"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"匼󠄁"
+cjkvi:hducs2ivs
 -":JB2020"
 ":aj19206"
 cjkvi:hd2cid
@@ -3615,6 +3705,8 @@ cjkvi:hducs2koseki
 "卋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"卋󠄁"
+cjkvi:hducs2ivs
 -":JB2025"
 ":aj21233"
 cjkvi:hd2cid
@@ -3937,6 +4029,8 @@ cjkvi:hducs2koseki
 "叓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"叓󠄁"
+cjkvi:hducs2ivs
 -":JB2060"
 ":aj17343"
 cjkvi:hd2cid
@@ -3961,6 +4055,8 @@ cjkvi:hducs2koseki
 "叝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"叝󠄁"
+cjkvi:hducs2ivs
 -":JB2063"
 ":aj21247"
 cjkvi:hd2cid
@@ -4082,6 +4178,8 @@ cjkvi:hducs2koseki
 "启"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"启󠄁"
+cjkvi:hducs2ivs
 -":JB2076"
 ":aj19222"
 cjkvi:hd2cid
@@ -4281,6 +4379,8 @@ cjkvi:hducs2koseki
 "咅"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"咅󠄁"
+cjkvi:hducs2ivs
 -":JB2104"
 ":aj16805"
 cjkvi:hd2cid
@@ -4497,6 +4597,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "哎"
 cjkvi:hducs2juki
+"哎󠄁"
+cjkvi:hducs2ivs
 -":JB2129"
 ":aj21270"
 cjkvi:hd2cid
@@ -4507,6 +4609,8 @@ cjkvi:hducs2koseki
 "哠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"哠󠄁"
+cjkvi:hducs2ivs
 -":JB2130"
 ":aj19231"
 cjkvi:hd2cid
@@ -4561,6 +4665,8 @@ cjkvi:hducs2koseki
 "哾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"哾󠄁"
+cjkvi:hducs2ivs
 -":JB2136"
 ":aj8414"
 cjkvi:hd2cid
@@ -4627,6 +4733,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "唌"
 cjkvi:hducs2juki
+"唌󠄁"
+cjkvi:hducs2ivs
 -":JB2143"
 ":aj21274"
 cjkvi:hd2cid
@@ -4803,6 +4911,8 @@ cjkvi:hducs2koseki
 "啚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"啚󠄁"
+cjkvi:hducs2ivs
 -":JB2163"
 ":aj21282"
 cjkvi:hd2cid
@@ -4908,6 +5018,8 @@ cjkvi:hducs2koseki
 "喏"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"喏󠄁"
+cjkvi:hducs2ivs
 -":JB2176"
 ":aj17376"
 cjkvi:hd2cid
@@ -4937,6 +5049,8 @@ cjkvi:hducs2koseki
 "喓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"喓󠄁"
+cjkvi:hducs2ivs
 -":JB2179"
 ":aj19243"
 cjkvi:hd2cid
@@ -5128,6 +5242,8 @@ cjkvi:hducs2koseki
 "嗞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"嗞󠄁"
+cjkvi:hducs2ivs
 -":JB2206"
 ":aj17387"
 cjkvi:hd2cid
@@ -5174,6 +5290,8 @@ cjkvi:hducs2koseki
 "嘅"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"嘅󠄂"
+cjkvi:hducs2ivs
 -":JB2211"
 ":aj14396"
 cjkvi:hd2cid
@@ -5265,6 +5383,8 @@ cjkvi:hducs2koseki
 "嘬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"嘬󠄁"
+cjkvi:hducs2ivs
 -":JB2221"
 ":aj17394"
 cjkvi:hd2cid
@@ -5377,6 +5497,8 @@ cjkvi:hducs2koseki
 "噄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"噄󠄁"
+cjkvi:hducs2ivs
 -":JB2234"
 ":aj21301"
 cjkvi:hd2cid
@@ -5387,6 +5509,8 @@ cjkvi:hducs2koseki
 "噆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"噆󠄁"
+cjkvi:hducs2ivs
 -":JB2235"
 ":aj14401"
 cjkvi:hd2cid
@@ -5545,6 +5669,8 @@ cjkvi:hducs2koseki
 "嚄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"嚄󠄁"
+cjkvi:hducs2ivs
 -":JB2253"
 ":aj19264"
 cjkvi:hd2cid
@@ -5784,6 +5910,8 @@ cjkvi:hducs2koseki
 "囌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"囌󠄁"
+cjkvi:hducs2ivs
 -":JB2281"
 ":aj17409"
 cjkvi:hd2cid
@@ -5951,6 +6079,8 @@ cjkvi:hducs2koseki
 "圂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"圂󠄁"
+cjkvi:hducs2ivs
 -":JB2305"
 ":aj19275"
 cjkvi:hd2cid
@@ -5988,6 +6118,8 @@ cjkvi:hducs2koseki
 "圑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"圑󠄁"
+cjkvi:hducs2ivs
 -":JB2309"
 ":aj14418"
 cjkvi:hd2cid
@@ -6015,6 +6147,8 @@ cjkvi:hducs2koseki
 "圛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"圛󠄁"
+cjkvi:hducs2ivs
 -":JB2312"
 ":aj19279"
 cjkvi:hd2cid
@@ -6099,6 +6233,8 @@ cjkvi:hducs2koseki
 "圬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"圬󠄁"
+cjkvi:hducs2ivs
 -":JB2321"
 ":aj19281"
 cjkvi:hd2cid
@@ -6339,6 +6475,8 @@ cjkvi:hducs2koseki
 "坺"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"坺󠄁"
+cjkvi:hducs2ivs
 -":JB2349"
 ":aj17427"
 cjkvi:hd2cid
@@ -6403,6 +6541,8 @@ cjkvi:hducs2koseki
 "垔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"垔󠄁"
+cjkvi:hducs2ivs
 -":JB2356"
 ":aj19289"
 cjkvi:hd2cid
@@ -6570,6 +6710,8 @@ cjkvi:hducs2koseki
 "埕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"埕󠄁"
+cjkvi:hducs2ivs
 -":JB2376"
 ":aj21342"
 cjkvi:hd2cid
@@ -6611,6 +6753,8 @@ cjkvi:hducs2koseki
 "埧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"埧󠄁"
+cjkvi:hducs2ivs
 -":JB2381"
 ":aj21343"
 cjkvi:hd2cid
@@ -6744,6 +6888,8 @@ cjkvi:hducs2koseki
 "堍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"堍󠄁"
+cjkvi:hducs2ivs
 -":JB2403"
 ":aj21349"
 cjkvi:hd2cid
@@ -6771,6 +6917,8 @@ cjkvi:hducs2koseki
 "堟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"堟󠄁"
+cjkvi:hducs2ivs
 -":JB2406"
 ":aj14434"
 cjkvi:hd2cid
@@ -6855,6 +7003,8 @@ cjkvi:hducs2koseki
 "塍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"塍󠄁"
+cjkvi:hducs2ivs
 -":JB2416"
 ":aj19296"
 cjkvi:hd2cid
@@ -6895,6 +7045,8 @@ cjkvi:hducs2koseki
 "塟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"塟󠄁"
+cjkvi:hducs2ivs
 -":JB2420"
 ":aj7751"
 cjkvi:hd2cid
@@ -6963,6 +7115,8 @@ cjkvi:hducs2koseki
 "墀"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"墀󠄁"
+cjkvi:hducs2ivs
 -":JB2428"
 ":aj19300"
 cjkvi:hd2cid
@@ -6973,6 +7127,8 @@ cjkvi:hducs2koseki
 "墁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"墁󠄁"
+cjkvi:hducs2ivs
 -":JB2429"
 ":aj21357"
 cjkvi:hd2cid
@@ -7138,6 +7294,8 @@ cjkvi:hducs2koseki
 "壄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"壄󠄁"
+cjkvi:hducs2ivs
 -":JB2448"
 ":aj19302"
 cjkvi:hd2cid
@@ -7194,6 +7352,8 @@ cjkvi:hducs2koseki
 "壐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"壐󠄁"
+cjkvi:hducs2ivs
 -":JB2454"
 ":aj16822"
 cjkvi:hd2cid
@@ -7237,6 +7397,8 @@ cjkvi:hducs2koseki
 "壝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"壝󠄁"
+cjkvi:hducs2ivs
 -":JB2459"
 ":aj21370"
 cjkvi:hd2cid
@@ -7308,6 +7470,8 @@ cjkvi:hducs2koseki
 "夒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"夒󠄁"
+cjkvi:hducs2ivs
 -":JB2468"
 ":aj21373"
 cjkvi:hd2cid
@@ -7318,6 +7482,8 @@ cjkvi:hducs2koseki
 "夓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"夓󠄁"
+cjkvi:hducs2ivs
 -":JB2469"
 ":aj17471"
 cjkvi:hd2cid
@@ -7476,6 +7642,8 @@ manakai:implements
 "奓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"奓󠄂"
+cjkvi:hducs2ivs
 -":JB2486"
 ":aj19305"
 cjkvi:hd2cid
@@ -7539,6 +7707,8 @@ cjkvi:hducs2koseki
 "奣"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"奣󠄁"
+cjkvi:hducs2ivs
 -":JB2493"
 ":aj21385"
 cjkvi:hd2cid
@@ -7576,6 +7746,8 @@ cjkvi:hducs2koseki
 "奲"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"奲󠄁"
+cjkvi:hducs2ivs
 -":JB2503"
 ":aj17481"
 cjkvi:hd2cid
@@ -8101,6 +8273,8 @@ cjkvi:hducs2koseki
 "婈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"婈󠄁"
+cjkvi:hducs2ivs
 -":JB2563"
 ":aj21413"
 cjkvi:hd2cid
@@ -8249,6 +8423,8 @@ cjkvi:hducs2koseki
 "媖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"媖󠄁"
+cjkvi:hducs2ivs
 -":JB2579"
 ":aj21420"
 cjkvi:hd2cid
@@ -8397,6 +8573,8 @@ cjkvi:hducs2koseki
 "嫆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"嫆󠄁"
+cjkvi:hducs2ivs
 -":JB2603"
 ":aj21423"
 cjkvi:hd2cid
@@ -8430,6 +8608,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "嫚󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB2606"
 ":aj17511"
 cjkvi:hd2cid
@@ -8763,6 +8942,8 @@ cjkvi:hducs2koseki
 "宐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"宐󠄁"
+cjkvi:hducs2ivs
 -":JB2645"
 ":aj21433"
 cjkvi:hd2cid
@@ -8834,6 +9015,8 @@ cjkvi:hducs2koseki
 "宭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"宭󠄁"
+cjkvi:hducs2ivs
 -":JB2653"
 ":aj21438"
 cjkvi:hd2cid
@@ -8864,6 +9047,8 @@ cjkvi:hducs2koseki
 "宲"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"宲󠄁"
+cjkvi:hducs2ivs
 -":JB2656"
 ":aj19321"
 cjkvi:hd2cid
@@ -8933,6 +9118,8 @@ cjkvi:hducs2koseki
 "寏"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"寏󠄁"
+cjkvi:hducs2ivs
 -":JB2663"
 ":aj17531"
 cjkvi:hd2cid
@@ -8950,6 +9137,8 @@ cjkvi:hducs2koseki
 "寗"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"寗󠄁"
+cjkvi:hducs2ivs
 -":JB2665"
 ":aj8435"
 cjkvi:hd2cid
@@ -8967,6 +9156,8 @@ cjkvi:hducs2koseki
 "寙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"寙󠄁"
+cjkvi:hducs2ivs
 -":JB2667"
 ":aj21447"
 cjkvi:hd2cid
@@ -9248,6 +9439,8 @@ cjkvi:hducs2koseki
 "屵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"屵󠄁"
+cjkvi:hducs2ivs
 -":JB2705"
 ":aj16839"
 cjkvi:hd2cid
@@ -9609,6 +9802,8 @@ cjkvi:hducs2koseki
 "崿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"崿󠄁"
+cjkvi:hducs2ivs
 -":JB2748"
 ":aj8444"
 cjkvi:hd2cid
@@ -9626,6 +9821,8 @@ cjkvi:hducs2koseki
 "嵃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"嵃󠄁"
+cjkvi:hducs2ivs
 -":JB2750"
 ":aj14488"
 cjkvi:hd2cid
@@ -9768,6 +9965,8 @@ cjkvi:hducs2koseki
 "嵺"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"嵺󠄁"
+cjkvi:hducs2ivs
 -":JB2766"
 ":aj19336"
 cjkvi:hd2cid
@@ -9949,6 +10148,8 @@ cjkvi:hducs2koseki
 "巃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"巃󠄁"
+cjkvi:hducs2ivs
 -":JB2787"
 ":aj19338"
 cjkvi:hd2cid
@@ -9986,6 +10187,8 @@ cjkvi:hducs2koseki
 "巎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"巎󠄁"
+cjkvi:hducs2ivs
 -":JB2791"
 ":aj14494"
 cjkvi:hd2cid
@@ -10003,6 +10206,8 @@ cjkvi:hducs2koseki
 "巙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"巙󠄁"
+cjkvi:hducs2ivs
 -":JB2793"
 ":aj14495"
 cjkvi:hd2cid
@@ -10036,6 +10241,8 @@ cjkvi:hducs2koseki
 "巸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"巸󠄁"
+cjkvi:hducs2ivs
 -":JB2803"
 ":aj19339"
 cjkvi:hd2cid
@@ -10137,6 +10344,8 @@ cjkvi:hducs2koseki
 "帨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"帨󠄁"
+cjkvi:hducs2ivs
 -":JB2815"
 ":aj19341"
 cjkvi:hd2cid
@@ -10227,6 +10436,8 @@ cjkvi:hducs2koseki
 "幛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"幛󠄁"
+cjkvi:hducs2ivs
 -":JB2825"
 ":aj21498"
 cjkvi:hd2cid
@@ -10262,6 +10473,8 @@ manakai:implements
 "幪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"幪󠄁"
+cjkvi:hducs2ivs
 -":JB2829"
 ":aj14504"
 cjkvi:hd2cid
@@ -10302,6 +10515,8 @@ cjkvi:hducs2koseki
 "幰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"幰󠄁"
+cjkvi:hducs2ivs
 -":JB2834"
 ":aj19347"
 cjkvi:hd2cid
@@ -10405,6 +10620,8 @@ cjkvi:hducs2koseki
 "庳"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"庳󠄁"
+cjkvi:hducs2ivs
 -":JB2845"
 ":aj19350"
 cjkvi:hd2cid
@@ -10461,6 +10678,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "廋󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB2851"
 ":aj21505"
 cjkvi:hd2cid
@@ -10481,6 +10699,8 @@ cjkvi:hducs2koseki
 "廑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"廑󠄁"
+cjkvi:hducs2ivs
 -":JB2853"
 ":aj14511"
 cjkvi:hd2cid
@@ -10622,6 +10842,8 @@ cjkvi:hducs2koseki
 "弡"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"弡󠄁"
+cjkvi:hducs2ivs
 -":JB2869"
 ":aj14516"
 cjkvi:hd2cid
@@ -10632,6 +10854,8 @@ cjkvi:hducs2koseki
 "弢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"弢󠄁"
+cjkvi:hducs2ivs
 -":JB2870"
 ":aj16856"
 cjkvi:hd2cid
@@ -10689,6 +10913,8 @@ cjkvi:hducs2koseki
 "弮"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"弮󠄁"
+cjkvi:hducs2ivs
 -":JB2876"
 ":aj21516"
 cjkvi:hd2cid
@@ -10757,6 +10983,8 @@ cjkvi:hducs2koseki
 "彄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"彄󠄁"
+cjkvi:hducs2ivs
 -":JB2884"
 ":aj8370"
 cjkvi:hd2cid
@@ -10793,6 +11021,8 @@ cjkvi:hducs2koseki
 "彐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"彐󠄂"
+cjkvi:hducs2ivs
 -":JB2888"
 ":aj16858"
 cjkvi:hd2cid
@@ -10827,6 +11057,8 @@ cjkvi:hducs2koseki
 "彠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"彠󠄁"
+cjkvi:hducs2ivs
 -":JB2892"
 ":aj17611"
 cjkvi:hd2cid
@@ -10875,6 +11107,8 @@ cjkvi:hducs2koseki
 "彴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"彴󠄁"
+cjkvi:hducs2ivs
 -":JB2904"
 ":aj21523"
 cjkvi:hd2cid
@@ -10996,6 +11230,8 @@ cjkvi:hducs2koseki
 "徫"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"徫󠄁"
+cjkvi:hducs2ivs
 -":JB2918"
 ":aj14527"
 cjkvi:hd2cid
@@ -11013,6 +11249,8 @@ cjkvi:hducs2koseki
 "徬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"徬󠄁"
+cjkvi:hducs2ivs
 -":JB2920"
 ":aj14528"
 cjkvi:hd2cid
@@ -11194,6 +11432,8 @@ cjkvi:hducs2koseki
 "忭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"忭󠄁"
+cjkvi:hducs2ivs
 -":JB2942"
 ":aj17622"
 cjkvi:hd2cid
@@ -11465,6 +11705,8 @@ cjkvi:hducs2koseki
 "恝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"恝󠄁"
+cjkvi:hducs2ivs
 -":JB2972"
 ":aj14539"
 cjkvi:hd2cid
@@ -11495,6 +11737,8 @@ cjkvi:hducs2koseki
 "恱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"恱󠄁"
+cjkvi:hducs2ivs
 -":JB2975"
 ":aj21550"
 cjkvi:hd2cid
@@ -11505,6 +11749,8 @@ cjkvi:hducs2koseki
 "恾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"恾󠄁"
+cjkvi:hducs2ivs
 -":JB2976"
 ":aj14540"
 cjkvi:hd2cid
@@ -11559,6 +11805,8 @@ cjkvi:hducs2koseki
 "悎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"悎󠄁"
+cjkvi:hducs2ivs
 -":JB2982"
 ":aj21555"
 cjkvi:hd2cid
@@ -11630,6 +11878,8 @@ cjkvi:hducs2koseki
 "悤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"悤󠄂"
+cjkvi:hducs2ivs
 -":JB2990"
 ":aj21560"
 cjkvi:hd2cid
@@ -11829,6 +12079,8 @@ cjkvi:hducs2koseki
 "惥"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"惥󠄁"
+cjkvi:hducs2ivs
 -":JB3019"
 ":aj8460"
 cjkvi:hd2cid
@@ -11890,6 +12142,8 @@ cjkvi:hducs2koseki
 "愇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"愇󠄁"
+cjkvi:hducs2ivs
 -":JB3026"
 ":aj19364"
 cjkvi:hd2cid
@@ -11910,6 +12164,8 @@ cjkvi:hducs2koseki
 "愌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"愌󠄁"
+cjkvi:hducs2ivs
 -":JB3028"
 ":aj17639"
 cjkvi:hd2cid
@@ -11927,6 +12183,8 @@ cjkvi:hducs2koseki
 "愑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"愑󠄁"
+cjkvi:hducs2ivs
 -":JB3030"
 ":aj14547"
 cjkvi:hd2cid
@@ -11951,6 +12209,8 @@ cjkvi:hducs2koseki
 "愔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"愔󠄁"
+cjkvi:hducs2ivs
 -":JB3033"
 ":aj19365"
 cjkvi:hd2cid
@@ -12119,6 +12379,8 @@ cjkvi:hducs2koseki
 "慞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"慞󠄁"
+cjkvi:hducs2ivs
 -":JB3052"
 ":aj17646"
 cjkvi:hd2cid
@@ -12156,6 +12418,8 @@ cjkvi:hducs2koseki
 "慸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"慸󠄁"
+cjkvi:hducs2ivs
 -":JB3056"
 ":aj19370"
 cjkvi:hd2cid
@@ -12183,6 +12447,8 @@ cjkvi:hducs2koseki
 "慿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"慿󠄁"
+cjkvi:hducs2ivs
 -":JB3059"
 ":aj21583"
 cjkvi:hd2cid
@@ -12205,6 +12471,8 @@ cjkvi:hducs2koseki
 "憁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"憁󠄁"
+cjkvi:hducs2ivs
 -":JB3061"
 ":aj21585"
 cjkvi:hd2cid
@@ -12397,6 +12665,8 @@ cjkvi:hducs2koseki
 "懂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"懂󠄁"
+cjkvi:hducs2ivs
 -":JB3083"
 ":aj21593"
 cjkvi:hd2cid
@@ -12453,6 +12723,8 @@ cjkvi:hducs2koseki
 "懞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"懞󠄁"
+cjkvi:hducs2ivs
 -":JB3089"
 ":aj14556"
 cjkvi:hd2cid
@@ -12500,6 +12772,8 @@ cjkvi:hducs2koseki
 "懩"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"懩󠄁"
+cjkvi:hducs2ivs
 -":JB3094"
 ":aj19377"
 cjkvi:hd2cid
@@ -12510,6 +12784,8 @@ cjkvi:hducs2koseki
 "懥"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"懥󠄁"
+cjkvi:hducs2ivs
 -":JB3101"
 ":aj21599"
 cjkvi:hd2cid
@@ -12520,6 +12796,8 @@ cjkvi:hducs2koseki
 "懬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"懬󠄁"
+cjkvi:hducs2ivs
 -":JB3102"
 ":aj21600"
 cjkvi:hd2cid
@@ -12530,6 +12808,8 @@ cjkvi:hducs2koseki
 "懭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"懭󠄁"
+cjkvi:hducs2ivs
 -":JB3103"
 ":aj21601"
 cjkvi:hd2cid
@@ -12580,6 +12860,8 @@ cjkvi:hducs2koseki
 "戇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"戇󠄁"
+cjkvi:hducs2ivs
 -":JB3108"
 ":aj8465"
 cjkvi:hd2cid
@@ -12617,6 +12899,8 @@ cjkvi:hducs2koseki
 "戠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"戠󠄁"
+cjkvi:hducs2ivs
 -":JB3112"
 ":aj16871"
 cjkvi:hd2cid
@@ -12884,6 +13168,8 @@ cjkvi:hducs2koseki
 "抨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"抨󠄁"
+cjkvi:hducs2ivs
 -":JB3143"
 ":aj21617"
 cjkvi:hd2cid
@@ -13015,6 +13301,8 @@ cjkvi:hducs2koseki
 "拴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"拴󠄁"
+cjkvi:hducs2ivs
 -":JB3157"
 ":aj14565"
 cjkvi:hd2cid
@@ -13226,6 +13514,8 @@ cjkvi:hducs2koseki
 "捊"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"捊󠄁"
+cjkvi:hducs2ivs
 -":JB3181"
 ":aj19393"
 cjkvi:hd2cid
@@ -13236,6 +13526,8 @@ cjkvi:hducs2koseki
 "捋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"捋󠄁"
+cjkvi:hducs2ivs
 -":JB3182"
 ":aj17679"
 cjkvi:hd2cid
@@ -13263,6 +13555,8 @@ cjkvi:hducs2koseki
 "捓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"捓󠄁"
+cjkvi:hducs2ivs
 -":JB3184S"
 ":jis2-31-84"
 manakai:implements
@@ -13270,6 +13564,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "捓"
 cjkvi:hd2ucs
+"捓󠄂"
+cjkvi:hducs2ivs
 -":JB3185"
 ":aj21633"
 cjkvi:hd2cid
@@ -13280,6 +13576,8 @@ cjkvi:hducs2koseki
 "捔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"捔󠄁"
+cjkvi:hducs2ivs
 -":JB3186"
 ":aj21634"
 cjkvi:hd2cid
@@ -13465,6 +13763,8 @@ cjkvi:hducs2koseki
 "掕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"掕󠄁"
+cjkvi:hducs2ivs
 -":JB3212"
 ":aj17685"
 cjkvi:hd2cid
@@ -13569,6 +13869,8 @@ cjkvi:hducs2koseki
 "揅"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"揅󠄁"
+cjkvi:hducs2ivs
 -":JB3223"
 ":aj21646"
 cjkvi:hd2cid
@@ -13599,6 +13901,8 @@ cjkvi:hducs2koseki
 "揑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"揑󠄁"
+cjkvi:hducs2ivs
 -":JB3226"
 ":aj21648"
 cjkvi:hd2cid
@@ -13682,6 +13986,8 @@ cjkvi:hducs2koseki
 "揳"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"揳󠄁"
+cjkvi:hducs2ivs
 -":JB3236"
 ":aj8467"
 cjkvi:hd2cid
@@ -13743,6 +14049,8 @@ cjkvi:hducs2koseki
 "搒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"搒󠄁"
+cjkvi:hducs2ivs
 -":JB3243"
 ":aj7724"
 cjkvi:hd2cid
@@ -13792,6 +14100,8 @@ manakai:implements
 "搤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"搤󠄁"
+cjkvi:hducs2ivs
 -":JB3249"
 ":aj17696"
 cjkvi:hd2cid
@@ -13857,6 +14167,8 @@ cjkvi:hducs2koseki
 "搽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"搽󠄁"
+cjkvi:hducs2ivs
 -":JB3256"
 ":aj19412"
 cjkvi:hd2cid
@@ -13904,6 +14216,8 @@ cjkvi:hducs2koseki
 "摒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"摒󠄁"
+cjkvi:hducs2ivs
 -":JB3261"
 ":aj21654"
 cjkvi:hd2cid
@@ -13914,6 +14228,8 @@ cjkvi:hducs2koseki
 "摓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"摓󠄁"
+cjkvi:hducs2ivs
 -":JB3262"
 ":aj14584"
 cjkvi:hd2cid
@@ -13984,6 +14300,8 @@ cjkvi:hducs2koseki
 "摡"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"摡󠄁"
+cjkvi:hducs2ivs
 -":JB3270"
 ":aj21657"
 cjkvi:hd2cid
@@ -14076,6 +14394,8 @@ cjkvi:hducs2juki
 "撐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"撐󠄁"
+cjkvi:hducs2ivs
 -":JB3280"
 ":aj17704"
 cjkvi:hd2cid
@@ -14111,6 +14431,8 @@ manakai:implements
 "撛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"撛󠄁"
+cjkvi:hducs2ivs
 -":JB3284"
 ":aj8469"
 cjkvi:hd2cid
@@ -14321,6 +14643,8 @@ cjkvi:hducs2koseki
 "擪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"擪󠄁"
+cjkvi:hducs2ivs
 -":JB3315"
 ":aj19421"
 cjkvi:hd2cid
@@ -14331,6 +14655,8 @@ cjkvi:hducs2koseki
 "擭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"擭󠄁"
+cjkvi:hducs2ivs
 -":JB3316"
 ":aj19422"
 cjkvi:hd2cid
@@ -14802,6 +15128,8 @@ cjkvi:hducs2koseki
 "斴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"斴󠄁"
+cjkvi:hducs2ivs
 -":JB3368"
 ":aj17728"
 cjkvi:hd2cid
@@ -14882,6 +15210,8 @@ cjkvi:hducs2koseki
 "旘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"旘󠄁"
+cjkvi:hducs2ivs
 -":JB3377"
 ":aj21694"
 cjkvi:hd2cid
@@ -14946,6 +15276,8 @@ cjkvi:hducs2koseki
 "旾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"旾󠄁"
+cjkvi:hducs2ivs
 -":JB3384"
 ":aj21698"
 cjkvi:hd2cid
@@ -14994,6 +15326,8 @@ cjkvi:hducs2koseki
 "昍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"昍󠄁"
+cjkvi:hducs2ivs
 -":JB3390"
 ":aj21700"
 cjkvi:hd2cid
@@ -15041,6 +15375,8 @@ cjkvi:hducs2koseki
 "昝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"昝󠄁"
+cjkvi:hducs2ivs
 -":JB3401"
 ":aj8476"
 cjkvi:hd2cid
@@ -15052,6 +15388,7 @@ cjkvi:hducs2koseki
 cjkvi:hd2ucs:U
 "昞󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB3402"
 ":aj17736"
 cjkvi:hd2cid
@@ -15095,6 +15432,8 @@ cjkvi:hducs2koseki
 "昦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"昦󠄁"
+cjkvi:hducs2ivs
 -":JB3407"
 ":aj21706"
 cjkvi:hd2cid
@@ -15129,6 +15468,8 @@ cjkvi:hducs2koseki
 "昬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"昬󠄁"
+cjkvi:hducs2ivs
 -":JB3411"
 ":aj8475"
 cjkvi:hd2cid
@@ -15376,6 +15717,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "晷󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB3440"
 ":aj16890"
 cjkvi:hd2cid
@@ -15411,6 +15753,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "暀󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB3444"
 ":aj21717"
 cjkvi:hd2cid
@@ -15481,6 +15824,8 @@ cjkvi:hducs2koseki
 "暚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"暚󠄁"
+cjkvi:hducs2ivs
 -":JB3452"
 ":aj21719"
 cjkvi:hd2cid
@@ -15501,6 +15846,8 @@ cjkvi:hducs2koseki
 "暜"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"暜󠄁"
+cjkvi:hducs2ivs
 -":JB3454"
 ":aj21721"
 cjkvi:hd2cid
@@ -15530,6 +15877,8 @@ cjkvi:hducs2koseki
 "暤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"暤󠄁"
+cjkvi:hducs2ivs
 -":JB3457"
 ":aj17753"
 cjkvi:hd2cid
@@ -15604,6 +15953,8 @@ cjkvi:hducs2koseki
 "曃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"曃󠄁"
+cjkvi:hducs2ivs
 -":JB3466"
 ":aj14611"
 cjkvi:hd2cid
@@ -15621,6 +15972,8 @@ cjkvi:hducs2koseki
 "曌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"曌󠄁"
+cjkvi:hducs2ivs
 -":JB3468"
 ":aj21726"
 cjkvi:hd2cid
@@ -15641,6 +15994,8 @@ cjkvi:hducs2koseki
 "曏"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"曏󠄁"
+cjkvi:hducs2ivs
 -":JB3470"
 ":aj21727"
 cjkvi:hd2cid
@@ -15728,6 +16083,8 @@ cjkvi:hducs2koseki
 "朇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"朇󠄁"
+cjkvi:hducs2ivs
 -":JB3480"
 ":aj8488"
 cjkvi:hd2cid
@@ -15738,6 +16095,8 @@ cjkvi:hducs2koseki
 "朎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"朎󠄁"
+cjkvi:hducs2ivs
 -":JB3481"
 ":aj14614"
 cjkvi:hd2cid
@@ -15772,6 +16131,8 @@ cjkvi:hducs2koseki
 "朠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"朠󠄁"
+cjkvi:hducs2ivs
 -":JB3485"
 ":aj21734"
 cjkvi:hd2cid
@@ -15782,6 +16143,8 @@ cjkvi:hducs2koseki
 "朢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"朢󠄁"
+cjkvi:hducs2ivs
 -":JB3486"
 ":aj14615"
 cjkvi:hd2cid
@@ -16144,6 +16507,8 @@ cjkvi:hducs2koseki
 "柜"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"柜󠄁"
+cjkvi:hducs2ivs
 -":JB3535"
 ":aj21748"
 cjkvi:hd2cid
@@ -16217,6 +16582,8 @@ cjkvi:hducs2koseki
 "栔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"栔󠄁"
+cjkvi:hducs2ivs
 -":JB3543"
 ":aj21753"
 cjkvi:hd2cid
@@ -16414,6 +16781,8 @@ cjkvi:hducs2koseki
 "桯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"桯󠄁"
+cjkvi:hducs2ivs
 -":JB3567"
 ":aj21760"
 cjkvi:hd2cid
@@ -16501,6 +16870,8 @@ cjkvi:hducs2koseki
 "梄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"梄󠄁"
+cjkvi:hducs2ivs
 -":JB3577"
 ":aj19453"
 cjkvi:hd2cid
@@ -16511,6 +16882,8 @@ cjkvi:hducs2koseki
 "梆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"梆󠄁"
+cjkvi:hducs2ivs
 -":JB3578"
 ":aj21764"
 cjkvi:hd2cid
@@ -16833,6 +17206,8 @@ cjkvi:hducs2koseki
 "椆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"椆󠄁"
+cjkvi:hducs2ivs
 -":JB3622"
 ":aj21776"
 cjkvi:hd2cid
@@ -16870,6 +17245,8 @@ cjkvi:hducs2koseki
 "椑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"椑󠄁"
+cjkvi:hducs2ivs
 -":JB3626"
 ":aj14644"
 cjkvi:hd2cid
@@ -16890,6 +17267,8 @@ cjkvi:hducs2koseki
 "椖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"椖󠄁"
+cjkvi:hducs2ivs
 -":JB3628"
 ":aj19456"
 cjkvi:hd2cid
@@ -16910,6 +17289,8 @@ cjkvi:hducs2koseki
 "椱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"椱󠄁"
+cjkvi:hducs2ivs
 -":JB3630"
 ":aj19457"
 cjkvi:hd2cid
@@ -16997,6 +17378,8 @@ cjkvi:hducs2koseki
 "楛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"楛󠄁"
+cjkvi:hducs2ivs
 -":JB3640"
 ":aj14648"
 cjkvi:hd2cid
@@ -17322,6 +17705,8 @@ cjkvi:hducs2koseki
 "槱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"槱󠄁"
+cjkvi:hducs2ivs
 -":JB3679"
 ":aj17847"
 cjkvi:hd2cid
@@ -17349,6 +17734,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "槾󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB3682"
 ":aj21792"
 cjkvi:hd2cid
@@ -17369,6 +17755,8 @@ cjkvi:hducs2koseki
 "樁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"樁󠄁"
+cjkvi:hducs2ivs
 -":JB3684"
 ":aj21793"
 cjkvi:hd2cid
@@ -17424,6 +17812,8 @@ cjkvi:hducs2koseki
 "樠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"樠󠄁"
+cjkvi:hducs2ivs
 -":JB3691"
 ":aj21795"
 cjkvi:hd2cid
@@ -17601,6 +17991,8 @@ cjkvi:hducs2koseki
 "橧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"橧󠄁"
+cjkvi:hducs2ivs
 -":JB3719"
 ":aj21798"
 cjkvi:hd2cid
@@ -17705,6 +18097,8 @@ cjkvi:hducs2koseki
 "檛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"檛󠄁"
+cjkvi:hducs2ivs
 -":JB3731"
 ":aj14671"
 cjkvi:hd2cid
@@ -17780,6 +18174,8 @@ cjkvi:hducs2koseki
 "檴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"檴󠄁"
+cjkvi:hducs2ivs
 -":JB3740"
 ":aj17869"
 cjkvi:hd2cid
@@ -17880,6 +18276,8 @@ cjkvi:hducs2koseki
 "櫖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"櫖󠄁"
+cjkvi:hducs2ivs
 -":JB3751"
 ":aj14674"
 cjkvi:hd2cid
@@ -17968,6 +18366,8 @@ cjkvi:hducs2koseki
 "欂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"欂󠄁"
+cjkvi:hducs2ivs
 -":JB3762"
 ":aj19473"
 cjkvi:hd2cid
@@ -18064,6 +18464,8 @@ cjkvi:hducs2koseki
 "欤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"欤󠄂"
+cjkvi:hducs2ivs
 -":JB3773"
 ":aj21817"
 cjkvi:hd2cid
@@ -18135,6 +18537,8 @@ cjkvi:hducs2koseki
 "欿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"欿󠄁"
+cjkvi:hducs2ivs
 -":JB3781"
 ":aj14680"
 cjkvi:hd2cid
@@ -18239,6 +18643,8 @@ cjkvi:hducs2koseki
 "歰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"歰󠄁"
+cjkvi:hducs2ivs
 -":JB3793"
 ":aj17892"
 cjkvi:hd2cid
@@ -18310,6 +18716,8 @@ cjkvi:hducs2koseki
 "殟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"殟󠄁"
+cjkvi:hducs2ivs
 -":JB3807"
 ":aj21829"
 cjkvi:hd2cid
@@ -18361,6 +18769,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "殩󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB3812"
 ":aj21833"
 cjkvi:hd2cid
@@ -18395,6 +18804,8 @@ cjkvi:hducs2koseki
 "殰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"殰󠄁"
+cjkvi:hducs2ivs
 -":JB3816"
 ":aj21834"
 cjkvi:hd2cid
@@ -18405,6 +18816,8 @@ cjkvi:hducs2koseki
 "殸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"殸󠄁"
+cjkvi:hducs2ivs
 -":JB3817"
 ":aj21835"
 cjkvi:hd2cid
@@ -18793,6 +19206,8 @@ cjkvi:hducs2koseki
 "汒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"汒󠄁"
+cjkvi:hducs2ivs
 -":JB3861"
 ":aj19487"
 cjkvi:hd2cid
@@ -18864,6 +19279,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "汴󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB3869"
 ":aj14692"
 cjkvi:hd2cid
@@ -19068,6 +19484,8 @@ manakai:implements
 "泒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"泒󠄁"
+cjkvi:hducs2ivs
 -":JB3893"
 ":aj14698"
 cjkvi:hd2cid
@@ -19234,6 +19652,8 @@ cjkvi:hducs2koseki
 "洚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"洚󠄁"
+cjkvi:hducs2ivs
 -":JB3919"
 ":aj17928"
 cjkvi:hd2cid
@@ -19549,6 +19969,8 @@ cjkvi:hducs2koseki
 "淊"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"淊󠄁"
+cjkvi:hducs2ivs
 -":JB3956"
 ":aj17952"
 cjkvi:hd2cid
@@ -19828,6 +20250,8 @@ cjkvi:hducs2koseki
 "湒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"湒󠄁"
+cjkvi:hducs2ivs
 -":JB3989"
 ":aj17964"
 cjkvi:hd2cid
@@ -19940,6 +20364,8 @@ cjkvi:hducs2koseki
 "溍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"溍󠄁"
+cjkvi:hducs2ivs
 -":JB4008"
 ":aj17969"
 cjkvi:hd2cid
@@ -20314,6 +20740,8 @@ cjkvi:hducs2koseki
 "漻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"漻󠄁"
+cjkvi:hducs2ivs
 -":JB4050"
 ":aj17982"
 cjkvi:hd2cid
@@ -20331,6 +20759,8 @@ cjkvi:hducs2koseki
 "漭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"漭󠄁"
+cjkvi:hducs2ivs
 -":JB4052"
 ":aj21904"
 cjkvi:hd2cid
@@ -20365,6 +20795,8 @@ cjkvi:hducs2koseki
 "潓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"潓󠄁"
+cjkvi:hducs2ivs
 -":JB4056"
 ":aj17985"
 cjkvi:hd2cid
@@ -20552,6 +20984,8 @@ cjkvi:hducs2koseki
 "澚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"澚󠄁"
+cjkvi:hducs2ivs
 -":JB4079"
 ":aj17991"
 cjkvi:hd2cid
@@ -20705,6 +21139,8 @@ cjkvi:hducs2koseki
 "濨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"濨󠄁"
+cjkvi:hducs2ivs
 -":JB4104"
 ":aj17997"
 cjkvi:hd2cid
@@ -20741,6 +21177,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "濹󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4108"
 ":aj17999"
 cjkvi:hd2cid
@@ -20808,6 +21245,8 @@ cjkvi:hducs2koseki
 "瀗"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瀗󠄁"
+cjkvi:hducs2ivs
 -":JB4116"
 ":aj19512"
 cjkvi:hd2cid
@@ -20855,6 +21294,8 @@ cjkvi:hducs2koseki
 "瀷"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瀷󠄁"
+cjkvi:hducs2ivs
 -":JB4121"
 ":aj14742"
 cjkvi:hd2cid
@@ -20886,6 +21327,8 @@ cjkvi:hducs2koseki
 "灄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"灄󠄁"
+cjkvi:hducs2ivs
 -":JB4125"
 ":aj21920"
 cjkvi:hd2cid
@@ -20939,6 +21382,8 @@ cjkvi:hducs2koseki
 "灕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"灕󠄁"
+cjkvi:hducs2ivs
 -":JB4131"
 ":aj14746"
 cjkvi:hd2cid
@@ -21076,6 +21521,8 @@ cjkvi:hducs2koseki
 "炘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"炘󠄁"
+cjkvi:hducs2ivs
 -":JB4149"
 ":aj21924"
 cjkvi:hd2cid
@@ -21312,6 +21759,8 @@ cjkvi:hducs2koseki
 "焭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"焭󠄁"
+cjkvi:hducs2ivs
 -":JB4178"
 ":aj18027"
 cjkvi:hd2cid
@@ -21579,6 +22028,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "熳󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4216"
 ":aj16965"
 cjkvi:hd2cid
@@ -21596,6 +22046,8 @@ cjkvi:hducs2koseki
 "熿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"熿󠄁"
+cjkvi:hducs2ivs
 -":JB4218"
 ":aj21940"
 cjkvi:hd2cid
@@ -21639,6 +22091,8 @@ cjkvi:hducs2koseki
 "燌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"燌󠄁"
+cjkvi:hducs2ivs
 -":JB4223"
 ":aj14768"
 cjkvi:hd2cid
@@ -21733,6 +22187,8 @@ cjkvi:hducs2koseki
 "爉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"爉󠄁"
+cjkvi:hducs2ivs
 -":JB4234"
 ":aj21946"
 cjkvi:hd2cid
@@ -21753,6 +22209,8 @@ cjkvi:hducs2koseki
 "爗"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"爗󠄁"
+cjkvi:hducs2ivs
 -":JB4236"
 ":aj21947"
 cjkvi:hd2cid
@@ -21783,6 +22241,8 @@ cjkvi:hducs2koseki
 "爟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"爟󠄁"
+cjkvi:hducs2ivs
 -":JB4239"
 ":aj21948"
 cjkvi:hd2cid
@@ -21793,6 +22253,8 @@ cjkvi:hducs2koseki
 "爤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"爤󠄁"
+cjkvi:hducs2ivs
 -":JB4240"
 ":aj14772"
 cjkvi:hd2cid
@@ -21810,6 +22272,8 @@ cjkvi:hducs2koseki
 "爯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"爯󠄁"
+cjkvi:hducs2ivs
 -":JB4242"
 ":aj18044"
 cjkvi:hd2cid
@@ -21898,6 +22362,8 @@ cjkvi:hducs2koseki
 "牐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"牐󠄁"
+cjkvi:hducs2ivs
 -":JB4252"
 ":aj14775"
 cjkvi:hd2cid
@@ -21931,6 +22397,8 @@ cjkvi:hducs2koseki
 "牚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"牚󠄁"
+cjkvi:hducs2ivs
 -":JB4256"
 ":aj14778"
 cjkvi:hd2cid
@@ -22493,6 +22961,8 @@ cjkvi:hducs2koseki
 "獍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"獍󠄁"
+cjkvi:hducs2ivs
 -":JB4326"
 ":aj16972"
 cjkvi:hd2cid
@@ -22549,6 +23019,8 @@ cjkvi:hducs2koseki
 "獞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"獞󠄁"
+cjkvi:hducs2ivs
 -":JB4332"
 ":aj21972"
 cjkvi:hd2cid
@@ -22731,6 +23203,8 @@ cjkvi:hducs2koseki
 "玓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"玓󠄁"
+cjkvi:hducs2ivs
 -":JB4353"
 ":aj14794"
 cjkvi:hd2cid
@@ -22814,6 +23288,8 @@ cjkvi:hducs2koseki
 "玪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"玪󠄁"
+cjkvi:hducs2ivs
 -":JB4364"
 ":aj14799"
 cjkvi:hd2cid
@@ -22976,6 +23452,8 @@ cjkvi:hducs2koseki
 "珝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"珝󠄁"
+cjkvi:hducs2ivs
 -":JB4383"
 ":aj18091"
 cjkvi:hd2cid
@@ -23000,6 +23478,8 @@ cjkvi:hducs2koseki
 "珦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"珦󠄁"
+cjkvi:hducs2ivs
 -":JB4386"
 ":aj18092"
 cjkvi:hd2cid
@@ -23034,6 +23514,8 @@ cjkvi:hducs2koseki
 "珵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"珵󠄁"
+cjkvi:hducs2ivs
 -":JB4390"
 ":aj21988"
 cjkvi:hd2cid
@@ -23070,6 +23552,8 @@ cjkvi:hducs2koseki
 "珻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"珻󠄁"
+cjkvi:hducs2ivs
 -":JB4394"
 ":aj14807"
 cjkvi:hd2cid
@@ -23323,6 +23807,8 @@ cjkvi:hducs2koseki
 "瑑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瑑󠄁"
+cjkvi:hducs2ivs
 -":JB4431"
 ":aj18100"
 cjkvi:hd2cid
@@ -23357,6 +23843,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "瑢󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4435"
 ":aj14825"
 cjkvi:hd2cid
@@ -23387,6 +23874,8 @@ cjkvi:hducs2koseki
 "瑨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瑨󠄁"
+cjkvi:hducs2ivs
 -":JB4438"
 ":aj14826"
 cjkvi:hd2cid
@@ -23411,6 +23900,8 @@ cjkvi:hducs2koseki
 "瑮"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瑮󠄁"
+cjkvi:hducs2ivs
 -":JB4441"
 ":aj14827"
 cjkvi:hd2cid
@@ -23651,6 +24142,8 @@ cjkvi:hducs2koseki
 "璲"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"璲󠄁"
+cjkvi:hducs2ivs
 -":JB4470"
 ":aj14839"
 cjkvi:hd2cid
@@ -23723,6 +24216,8 @@ cjkvi:hducs2koseki
 "瓓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瓓󠄁"
+cjkvi:hducs2ivs
 -":JB4479"
 ":aj22006"
 cjkvi:hd2cid
@@ -23736,6 +24231,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "瓘󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4480"
 ":aj14842"
 cjkvi:hd2cid
@@ -23770,6 +24266,8 @@ cjkvi:hducs2koseki
 "瓟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瓟󠄁"
+cjkvi:hducs2ivs
 -":JB4484"
 ":aj19546"
 cjkvi:hd2cid
@@ -23780,6 +24278,8 @@ cjkvi:hducs2koseki
 "瓤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瓤󠄁"
+cjkvi:hducs2ivs
 -":JB4485"
 ":aj22008"
 cjkvi:hd2cid
@@ -23820,6 +24320,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "瓯󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4489"
 ":aj19547"
 cjkvi:hd2cid
@@ -23830,6 +24331,8 @@ cjkvi:hducs2koseki
 "瓴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瓴󠄁"
+cjkvi:hducs2ivs
 -":JB4490"
 ":aj18118"
 cjkvi:hd2cid
@@ -23874,6 +24377,8 @@ cjkvi:hducs2koseki
 "甆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"甆󠄁"
+cjkvi:hducs2ivs
 -":JB4501"
 ":aj22013"
 cjkvi:hd2cid
@@ -23935,6 +24440,8 @@ cjkvi:hducs2koseki
 "甧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"甧󠄁"
+cjkvi:hducs2ivs
 -":JB4508"
 ":aj22015"
 cjkvi:hd2cid
@@ -24020,6 +24527,8 @@ cjkvi:hducs2koseki
 "畃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"畃󠄁"
+cjkvi:hducs2ivs
 -":JB4518"
 ":aj22019"
 cjkvi:hd2cid
@@ -24030,6 +24539,8 @@ cjkvi:hducs2koseki
 "畇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"畇󠄁"
+cjkvi:hducs2ivs
 -":JB4519"
 ":aj18128"
 cjkvi:hd2cid
@@ -24088,6 +24599,8 @@ cjkvi:hducs2koseki
 "畟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"畟󠄁"
+cjkvi:hducs2ivs
 -":JB4526"
 ":aj22022"
 cjkvi:hd2cid
@@ -24098,6 +24611,8 @@ cjkvi:hducs2koseki
 "畡"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"畡󠄁"
+cjkvi:hducs2ivs
 -":JB4527"
 ":aj8565"
 cjkvi:hd2cid
@@ -24358,6 +24873,8 @@ cjkvi:hducs2koseki
 "痜"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"痜󠄁"
+cjkvi:hducs2ivs
 -":JB4557"
 ":aj18148"
 cjkvi:hd2cid
@@ -24485,6 +25002,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "瘈󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4573"
 ":aj14854"
 cjkvi:hd2cid
@@ -24612,6 +25130,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "瘦󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4588"
 ":aj22031"
 cjkvi:hd2cid
@@ -24622,6 +25141,8 @@ cjkvi:hducs2koseki
 "瘩"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瘩󠄁"
+cjkvi:hducs2ivs
 -":JB4589"
 ":aj14859"
 cjkvi:hd2cid
@@ -24878,6 +25399,8 @@ cjkvi:hducs2koseki
 "皍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"皍󠄁"
+cjkvi:hducs2ivs
 -":JB4625"
 ":aj18175"
 cjkvi:hd2cid
@@ -24943,6 +25466,8 @@ cjkvi:hducs2koseki
 "皣"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"皣󠄁"
+cjkvi:hducs2ivs
 -":JB4633"
 ":aj14868"
 cjkvi:hd2cid
@@ -25072,6 +25597,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "盔󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4648"
 ":aj19572"
 cjkvi:hd2cid
@@ -25214,6 +25740,8 @@ cjkvi:hducs2koseki
 "眔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"眔󠄁"
+cjkvi:hducs2ivs
 -":JB4664"
 ":aj22051"
 cjkvi:hd2cid
@@ -25333,6 +25861,8 @@ cjkvi:hducs2koseki
 "眹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"眹󠄁"
+cjkvi:hducs2ivs
 -":JB4678"
 ":aj22054"
 cjkvi:hd2cid
@@ -25353,6 +25883,8 @@ cjkvi:hducs2koseki
 "眾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"眾󠄁"
+cjkvi:hducs2ivs
 -":JB4680"
 ":aj22055"
 cjkvi:hd2cid
@@ -25390,6 +25922,8 @@ cjkvi:hducs2koseki
 "睊"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"睊󠄁"
+cjkvi:hducs2ivs
 -":JB4684"
 ":aj16999"
 cjkvi:hd2cid
@@ -25531,6 +26065,8 @@ cjkvi:hducs2koseki
 "睰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"睰󠄁"
+cjkvi:hducs2ivs
 -":JB4706"
 ":aj14879"
 cjkvi:hd2cid
@@ -25589,6 +26125,8 @@ cjkvi:hducs2koseki
 "瞄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瞄󠄁"
+cjkvi:hducs2ivs
 -":JB4713"
 ":aj19591"
 cjkvi:hd2cid
@@ -25626,6 +26164,8 @@ cjkvi:hducs2koseki
 "瞕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瞕󠄁"
+cjkvi:hducs2ivs
 -":JB4717"
 ":aj19593"
 cjkvi:hd2cid
@@ -25663,6 +26203,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "瞢󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4721"
 ":aj19594"
 cjkvi:hd2cid
@@ -25710,6 +26251,8 @@ cjkvi:hducs2koseki
 "瞱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瞱󠄁"
+cjkvi:hducs2ivs
 -":JB4726"
 ":aj22066"
 cjkvi:hd2cid
@@ -25720,6 +26263,8 @@ cjkvi:hducs2koseki
 "瞵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"瞵󠄁"
+cjkvi:hducs2ivs
 -":JB4727"
 ":aj19597"
 cjkvi:hd2cid
@@ -25770,6 +26315,8 @@ cjkvi:hducs2koseki
 "矒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"矒󠄁"
+cjkvi:hducs2ivs
 -":JB4732"
 ":aj22069"
 cjkvi:hd2cid
@@ -25856,6 +26403,8 @@ cjkvi:hducs2koseki
 "矱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"矱󠄁"
+cjkvi:hducs2ivs
 -":JB4743"
 ":aj14885"
 cjkvi:hd2cid
@@ -25930,6 +26479,8 @@ cjkvi:hducs2koseki
 "砑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"砑󠄁"
+cjkvi:hducs2ivs
 -":JB4751S"
 ":jis2-47-51"
 manakai:implements
@@ -25937,6 +26488,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "砑"
 cjkvi:hd2ucs
+"砑󠄂"
+cjkvi:hducs2ivs
 -":JB4752"
 ":aj22073"
 cjkvi:hd2cid
@@ -26104,6 +26657,8 @@ cjkvi:hducs2koseki
 "硞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"硞󠄁"
+cjkvi:hducs2ivs
 -":JB4770"
 ":aj22080"
 cjkvi:hd2cid
@@ -26172,6 +26727,8 @@ cjkvi:hducs2koseki
 "硺"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"硺󠄁"
+cjkvi:hducs2ivs
 -":JB4778"
 ":aj19604"
 cjkvi:hd2cid
@@ -26408,6 +26965,8 @@ cjkvi:hducs2koseki
 "磓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"磓󠄁"
+cjkvi:hducs2ivs
 -":JB4811"
 ":aj18224"
 cjkvi:hd2cid
@@ -26585,6 +27144,8 @@ cjkvi:hducs2koseki
 "礚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"礚󠄁"
+cjkvi:hducs2ivs
 -":JB4832"
 ":aj17012"
 cjkvi:hd2cid
@@ -26602,6 +27163,8 @@ cjkvi:hducs2koseki
 "礞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"礞󠄁"
+cjkvi:hducs2ivs
 -":JB4834"
 ":aj19612"
 cjkvi:hd2cid
@@ -26630,6 +27193,8 @@ cjkvi:hducs2koseki
 "礠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"礠󠄁"
+cjkvi:hducs2ivs
 -":JB4836"
 ":aj18232"
 cjkvi:hd2cid
@@ -26687,6 +27252,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "礴󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB4842"
 ":aj22104"
 cjkvi:hd2cid
@@ -26714,6 +27280,8 @@ cjkvi:hducs2koseki
 "礽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"礽󠄁"
+cjkvi:hducs2ivs
 -":JB4845"
 ":aj19615"
 cjkvi:hd2cid
@@ -26724,6 +27292,8 @@ cjkvi:hducs2koseki
 "礿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"礿󠄁"
+cjkvi:hducs2ivs
 -":JB4846"
 ":aj22105"
 cjkvi:hd2cid
@@ -26734,6 +27304,8 @@ cjkvi:hducs2koseki
 "祄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祄󠄁"
+cjkvi:hducs2ivs
 -":JB4847"
 ":aj14907"
 cjkvi:hd2cid
@@ -26765,6 +27337,8 @@ cjkvi:hducs2koseki
 "祋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祋󠄁"
+cjkvi:hducs2ivs
 -":JB4851"
 ":aj22107"
 cjkvi:hd2cid
@@ -26775,6 +27349,8 @@ cjkvi:hducs2koseki
 "祏"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祏󠄁"
+cjkvi:hducs2ivs
 -":JB4852"
 ":aj22108"
 cjkvi:hd2cid
@@ -26785,6 +27361,8 @@ cjkvi:hducs2koseki
 "祑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祑󠄁"
+cjkvi:hducs2ivs
 -":JB4853"
 ":aj19617"
 cjkvi:hd2cid
@@ -26795,6 +27373,8 @@ cjkvi:hducs2koseki
 "祔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祔󠄁"
+cjkvi:hducs2ivs
 -":JB4854"
 ":aj18234"
 cjkvi:hd2cid
@@ -26849,6 +27429,8 @@ cjkvi:hducs2koseki
 "祫"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祫󠄁"
+cjkvi:hducs2ivs
 -":JB4860"
 ":aj18237"
 cjkvi:hd2cid
@@ -26873,6 +27455,8 @@ cjkvi:hducs2koseki
 "祻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祻󠄁"
+cjkvi:hducs2ivs
 -":JB4863"
 ":aj19619"
 cjkvi:hd2cid
@@ -26883,6 +27467,8 @@ cjkvi:hducs2koseki
 "祼"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祼󠄁"
+cjkvi:hducs2ivs
 -":JB4864"
 ":aj22111"
 cjkvi:hd2cid
@@ -26893,6 +27479,8 @@ cjkvi:hducs2koseki
 "祾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"祾󠄁"
+cjkvi:hducs2ivs
 -":JB4865"
 ":aj14910"
 cjkvi:hd2cid
@@ -26903,6 +27491,8 @@ cjkvi:hducs2koseki
 "禋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"禋󠄁"
+cjkvi:hducs2ivs
 -":JB4866"
 ":aj22112"
 cjkvi:hd2cid
@@ -26913,6 +27503,8 @@ cjkvi:hducs2koseki
 "禌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"禌󠄁"
+cjkvi:hducs2ivs
 -":JB4867"
 ":aj22113"
 cjkvi:hd2cid
@@ -26923,6 +27515,8 @@ cjkvi:hducs2koseki
 "禑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"禑󠄁"
+cjkvi:hducs2ivs
 -":JB4868"
 ":aj22114"
 cjkvi:hd2cid
@@ -26933,6 +27527,8 @@ cjkvi:hducs2koseki
 "禓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"禓󠄁"
+cjkvi:hducs2ivs
 -":JB4869"
 ":aj8582"
 cjkvi:hd2cid
@@ -27003,6 +27599,8 @@ cjkvi:hducs2koseki
 "禨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"禨󠄁"
+cjkvi:hducs2ivs
 -":JB4877"
 ":aj18240"
 cjkvi:hd2cid
@@ -27022,6 +27620,8 @@ cjkvi:hducs2koseki
 "禫"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"禫󠄁"
+cjkvi:hducs2ivs
 -":JB4879"
 ":aj22117"
 cjkvi:hd2cid
@@ -27032,6 +27632,8 @@ cjkvi:hducs2koseki
 "禯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"禯󠄁"
+cjkvi:hducs2ivs
 -":JB4880"
 ":aj7758"
 cjkvi:hd2cid
@@ -27347,6 +27949,8 @@ cjkvi:hducs2koseki
 "稧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"稧󠄁"
+cjkvi:hducs2ivs
 -":JB4922"
 ":aj22129"
 cjkvi:hd2cid
@@ -27404,6 +28008,8 @@ cjkvi:hducs2koseki
 "稵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"稵󠄁"
+cjkvi:hducs2ivs
 -":JB4928"
 ":aj18255"
 cjkvi:hd2cid
@@ -27465,6 +28071,8 @@ cjkvi:hducs2koseki
 "穈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"穈󠄁"
+cjkvi:hducs2ivs
 -":JB4935"
 ":aj14924"
 cjkvi:hd2cid
@@ -27756,6 +28364,8 @@ cjkvi:hducs2koseki
 "竉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"竉󠄁"
+cjkvi:hducs2ivs
 -":JB4970"
 ":aj18273"
 cjkvi:hd2cid
@@ -27833,6 +28443,8 @@ cjkvi:hducs2koseki
 "竱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"竱󠄁"
+cjkvi:hducs2ivs
 -":JB4979"
 ":aj18275"
 cjkvi:hd2cid
@@ -27969,6 +28581,8 @@ cjkvi:hducs2koseki
 "笰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"笰󠄁"
+cjkvi:hducs2ivs
 -":JB5001"
 ":aj14938"
 cjkvi:hd2cid
@@ -28149,6 +28763,8 @@ cjkvi:hducs2koseki
 "箎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"箎󠄁"
+cjkvi:hducs2ivs
 -":JB5023"
 ":aj18295"
 cjkvi:hd2cid
@@ -28199,6 +28815,8 @@ cjkvi:hducs2koseki
 "箠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"箠󠄁"
+cjkvi:hducs2ivs
 -":JB5029"
 ":aj22158"
 cjkvi:hd2cid
@@ -28219,6 +28837,8 @@ cjkvi:hducs2koseki
 "箬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"箬󠄁"
+cjkvi:hducs2ivs
 -":JB5031"
 ":aj14946"
 cjkvi:hd2cid
@@ -28416,6 +29036,8 @@ cjkvi:hducs2koseki
 "篴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"篴󠄁"
+cjkvi:hducs2ivs
 -":JB5054"
 ":aj22168"
 cjkvi:hd2cid
@@ -28476,6 +29098,8 @@ cjkvi:hducs2koseki
 "篾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"篾󠄁"
+cjkvi:hducs2ivs
 -":JB5060"
 ":aj17031"
 cjkvi:hd2cid
@@ -28530,6 +29154,8 @@ cjkvi:hducs2koseki
 "簉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"簉󠄁"
+cjkvi:hducs2ivs
 -":JB5066"
 ":aj14949"
 cjkvi:hd2cid
@@ -28649,6 +29275,8 @@ cjkvi:hducs2koseki
 "簴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"簴󠄁"
+cjkvi:hducs2ivs
 -":JB5080"
 ":aj14954"
 cjkvi:hd2cid
@@ -28686,6 +29314,8 @@ cjkvi:hducs2koseki
 "籆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"籆󠄁"
+cjkvi:hducs2ivs
 -":JB5084"
 ":aj18312"
 cjkvi:hd2cid
@@ -28767,6 +29397,8 @@ cjkvi:hducs2koseki
 "籜"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"籜󠄁"
+cjkvi:hducs2ivs
 -":JB5093"
 ":aj19652"
 cjkvi:hd2cid
@@ -28813,6 +29445,8 @@ cjkvi:hducs2koseki
 "籧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"籧󠄁"
+cjkvi:hducs2ivs
 -":JB5104"
 ":aj22186"
 cjkvi:hd2cid
@@ -28826,6 +29460,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "籩󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB5105"
 ":aj17034"
 cjkvi:hd2cid
@@ -28952,6 +29587,8 @@ cjkvi:hducs2koseki
 "粰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"粰󠄁"
+cjkvi:hducs2ivs
 -":JB5120"
 ":aj18323"
 cjkvi:hd2cid
@@ -29061,6 +29698,8 @@ cjkvi:hducs2koseki
 "糓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"糓󠄁"
+cjkvi:hducs2ivs
 -":JB5133"
 ":aj22192"
 cjkvi:hd2cid
@@ -29104,6 +29743,8 @@ cjkvi:hducs2koseki
 "糚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"糚󠄁"
+cjkvi:hducs2ivs
 -":JB5138"
 ":aj14966"
 cjkvi:hd2cid
@@ -29390,6 +30031,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "絜󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB5173"
 ":aj14977"
 cjkvi:hd2cid
@@ -29400,6 +30042,8 @@ cjkvi:hducs2koseki
 "絝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"絝󠄁"
+cjkvi:hducs2ivs
 -":JB5174"
 ":aj22202"
 cjkvi:hd2cid
@@ -29478,6 +30122,8 @@ cjkvi:hducs2koseki
 "綁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"綁󠄁"
+cjkvi:hducs2ivs
 -":JB5183"
 ":aj19663"
 cjkvi:hd2cid
@@ -29595,6 +30241,8 @@ cjkvi:hducs2koseki
 "綞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"綞󠄁"
+cjkvi:hducs2ivs
 -":JB5202"
 ":aj17043"
 cjkvi:hd2cid
@@ -29628,6 +30276,8 @@ cjkvi:hducs2koseki
 "綳"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"綳󠄁"
+cjkvi:hducs2ivs
 -":JB5206"
 ":aj18359"
 cjkvi:hd2cid
@@ -29652,6 +30302,8 @@ cjkvi:hducs2koseki
 "綹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"綹󠄁"
+cjkvi:hducs2ivs
 -":JB5209"
 ":aj17044"
 cjkvi:hd2cid
@@ -29760,6 +30412,8 @@ cjkvi:hducs2koseki
 "緢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"緢󠄁"
+cjkvi:hducs2ivs
 -":JB5221"
 ":aj19671"
 cjkvi:hd2cid
@@ -29949,6 +30603,8 @@ cjkvi:hducs2koseki
 "縭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"縭󠄁"
+cjkvi:hducs2ivs
 -":JB5243"
 ":aj19674"
 cjkvi:hd2cid
@@ -30137,6 +30793,8 @@ cjkvi:hducs2koseki
 "繸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"繸󠄁"
+cjkvi:hducs2ivs
 -":JB5263"
 ":aj18374"
 cjkvi:hd2cid
@@ -30333,6 +30991,8 @@ cjkvi:hducs2koseki
 "罛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"罛󠄁"
+cjkvi:hducs2ivs
 -":JB5287"
 ":aj22232"
 cjkvi:hd2cid
@@ -30435,6 +31095,8 @@ cjkvi:hducs2koseki
 "罿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"罿󠄁"
+cjkvi:hducs2ivs
 -":JB5305"
 ":aj22234"
 cjkvi:hd2cid
@@ -30475,6 +31137,8 @@ cjkvi:hducs2koseki
 "羏"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"羏󠄁"
+cjkvi:hducs2ivs
 -":JB5309"
 ":aj18392"
 cjkvi:hd2cid
@@ -30520,6 +31184,8 @@ cjkvi:hducs2koseki
 "羡"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"羡󠄂"
+cjkvi:hducs2ivs
 -":JB5315"
 ":aj19688"
 cjkvi:hd2cid
@@ -30596,6 +31262,8 @@ cjkvi:hducs2koseki
 "翀"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"翀󠄁"
+cjkvi:hducs2ivs
 -":JB5323"
 ":aj18399"
 cjkvi:hd2cid
@@ -30720,6 +31388,8 @@ cjkvi:hducs2koseki
 "翾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"翾󠄁"
+cjkvi:hducs2ivs
 -":JB5339"
 ":aj19691"
 cjkvi:hd2cid
@@ -30981,6 +31651,8 @@ cjkvi:hducs2koseki
 "聠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"聠󠄁"
+cjkvi:hducs2ivs
 -":JB5369"
 ":aj22254"
 cjkvi:hd2cid
@@ -31032,6 +31704,8 @@ cjkvi:hducs2koseki
 "肁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"肁󠄁"
+cjkvi:hducs2ivs
 -":JB5375"
 ":aj19696"
 cjkvi:hd2cid
@@ -31042,6 +31716,8 @@ cjkvi:hducs2koseki
 "肈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"肈󠄁"
+cjkvi:hducs2ivs
 -":JB5376"
 ":aj19697"
 cjkvi:hd2cid
@@ -31052,6 +31728,8 @@ cjkvi:hducs2koseki
 "肎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"肎󠄁"
+cjkvi:hducs2ivs
 -":JB5377"
 ":aj18412"
 cjkvi:hd2cid
@@ -31075,6 +31753,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "肞"
 cjkvi:hducs2juki
+"肞󠄂"
+cjkvi:hducs2ivs
 -":JB5379"
 ":aj15022"
 cjkvi:hd2cid
@@ -31137,6 +31817,8 @@ manakai:implements
 "胍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"胍󠄁"
+cjkvi:hducs2ivs
 -":JB5386"
 ":aj19698"
 cjkvi:hd2cid
@@ -31215,6 +31897,8 @@ cjkvi:hducs2koseki
 "胮"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"胮󠄁"
+cjkvi:hducs2ivs
 -":JB5401"
 ":aj19701"
 cjkvi:hd2cid
@@ -31235,6 +31919,8 @@ cjkvi:hducs2koseki
 "胲"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"胲󠄁"
+cjkvi:hducs2ivs
 -":JB5403"
 ":aj17052"
 cjkvi:hd2cid
@@ -31606,6 +32292,8 @@ cjkvi:hducs2koseki
 "膋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"膋󠄁"
+cjkvi:hducs2ivs
 -":JB5443"
 ":aj22275"
 cjkvi:hd2cid
@@ -31653,6 +32341,8 @@ cjkvi:hducs2koseki
 "膞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"膞󠄁"
+cjkvi:hducs2ivs
 -":JB5448"
 ":aj22277"
 cjkvi:hd2cid
@@ -31784,6 +32474,8 @@ cjkvi:hducs2koseki
 "臝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"臝󠄁"
+cjkvi:hducs2ivs
 -":JB5463"
 ":aj19718"
 cjkvi:hd2cid
@@ -31848,6 +32540,8 @@ cjkvi:hducs2koseki
 "臱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"臱󠄁"
+cjkvi:hducs2ivs
 -":JB5470"
 ":aj22284"
 cjkvi:hd2cid
@@ -31898,6 +32592,8 @@ cjkvi:hducs2koseki
 "臹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"臹󠄁"
+cjkvi:hducs2ivs
 -":JB5475"
 ":aj18448"
 cjkvi:hd2cid
@@ -31922,6 +32618,8 @@ cjkvi:hducs2koseki
 "舀"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"舀󠄂"
+cjkvi:hducs2ivs
 -":JB5478"
 ":aj15036"
 cjkvi:hd2cid
@@ -31989,6 +32687,8 @@ cjkvi:hducs2koseki
 "舝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"舝󠄁"
+cjkvi:hducs2ivs
 -":JB5485"
 ":aj15037"
 cjkvi:hd2cid
@@ -32146,6 +32846,8 @@ cjkvi:hducs2koseki
 "艧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"艧󠄁"
+cjkvi:hducs2ivs
 -":JB5510"
 ":aj19729"
 cjkvi:hd2cid
@@ -32175,6 +32877,8 @@ cjkvi:hducs2koseki
 "艻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"艻󠄁"
+cjkvi:hducs2ivs
 -":JB5513"
 ":aj18468"
 cjkvi:hd2cid
@@ -32203,6 +32907,8 @@ cjkvi:hducs2koseki
 "芀"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芀󠄁"
+cjkvi:hducs2ivs
 -":JB5516"
 ":aj22298"
 cjkvi:hd2cid
@@ -32213,6 +32919,8 @@ cjkvi:hducs2koseki
 "芁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芁󠄁"
+cjkvi:hducs2ivs
 -":JB5517"
 ":aj18470"
 cjkvi:hd2cid
@@ -32232,6 +32940,8 @@ cjkvi:hducs2koseki
 "芄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芄󠄁"
+cjkvi:hducs2ivs
 -":JB5519"
 ":aj22299"
 cjkvi:hd2cid
@@ -32242,6 +32952,8 @@ cjkvi:hducs2koseki
 "芇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芇󠄁"
+cjkvi:hducs2ivs
 -":JB5520"
 ":aj19731"
 cjkvi:hd2cid
@@ -32252,6 +32964,8 @@ cjkvi:hducs2koseki
 "芉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芉󠄁"
+cjkvi:hducs2ivs
 -":JB5521"
 ":aj18471"
 cjkvi:hd2cid
@@ -32280,6 +32994,8 @@ cjkvi:hducs2koseki
 "芑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芑󠄁"
+cjkvi:hducs2ivs
 -":JB5524"
 ":aj22300"
 cjkvi:hd2cid
@@ -32290,6 +33006,8 @@ cjkvi:hducs2koseki
 "芔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芔󠄁"
+cjkvi:hducs2ivs
 -":JB5525"
 ":aj22301"
 cjkvi:hd2cid
@@ -32300,6 +33018,8 @@ cjkvi:hducs2koseki
 "芖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芖󠄁"
+cjkvi:hducs2ivs
 -":JB5526"
 ":aj22302"
 cjkvi:hd2cid
@@ -32310,6 +33030,8 @@ cjkvi:hducs2koseki
 "芘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芘󠄁"
+cjkvi:hducs2ivs
 -":JB5527"
 ":aj22303"
 cjkvi:hd2cid
@@ -32320,6 +33042,8 @@ cjkvi:hducs2koseki
 "芚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芚󠄁"
+cjkvi:hducs2ivs
 -":JB5528"
 ":aj22304"
 cjkvi:hd2cid
@@ -32330,6 +33054,8 @@ cjkvi:hducs2koseki
 "芛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芛󠄁"
+cjkvi:hducs2ivs
 -":JB5529"
 ":aj22305"
 cjkvi:hd2cid
@@ -32348,6 +33074,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芠"
 cjkvi:hducs2juki
+"芠󠄁"
+cjkvi:hducs2ivs
 -":JB5530"
 ":aj17064"
 cjkvi:hd2cid
@@ -32410,6 +33138,8 @@ cjkvi:hducs2koseki
 "芪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芪󠄁"
+cjkvi:hducs2ivs
 -":JB5537"
 ":aj15044"
 cjkvi:hd2cid
@@ -32427,6 +33157,8 @@ cjkvi:hducs2koseki
 "芰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"芰󠄁"
+cjkvi:hducs2ivs
 -":JB5539"
 ":aj18475"
 cjkvi:hd2cid
@@ -32507,6 +33239,8 @@ cjkvi:hducs2koseki
 "苐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"苐󠄁"
+cjkvi:hducs2ivs
 -":JB5548"
 ":aj17069"
 cjkvi:hd2cid
@@ -32526,6 +33260,8 @@ cjkvi:hducs2koseki
 "苚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"苚󠄁"
+cjkvi:hducs2ivs
 -":JB5550"
 ":aj22307"
 cjkvi:hd2cid
@@ -32536,6 +33272,8 @@ cjkvi:hducs2koseki
 "苠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"苠󠄁"
+cjkvi:hducs2ivs
 -":JB5551"
 ":aj18479"
 cjkvi:hd2cid
@@ -32555,6 +33293,8 @@ cjkvi:hducs2koseki
 "苤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"苤󠄁"
+cjkvi:hducs2ivs
 -":JB5553"
 ":aj18480"
 cjkvi:hd2cid
@@ -32574,6 +33314,8 @@ cjkvi:hducs2koseki
 "苪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"苪󠄁"
+cjkvi:hducs2ivs
 -":JB5555"
 ":aj22309"
 cjkvi:hd2cid
@@ -32584,6 +33326,8 @@ cjkvi:hducs2koseki
 "苭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"苭󠄁"
+cjkvi:hducs2ivs
 -":JB5556"
 ":aj19737"
 cjkvi:hd2cid
@@ -32594,6 +33338,8 @@ cjkvi:hducs2koseki
 "苯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"苯󠄁"
+cjkvi:hducs2ivs
 -":JB5557"
 ":aj19738"
 cjkvi:hd2cid
@@ -32604,6 +33350,8 @@ cjkvi:hducs2koseki
 "苶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"苶󠄁"
+cjkvi:hducs2ivs
 -":JB5558"
 ":aj18481"
 cjkvi:hd2cid
@@ -32675,6 +33423,8 @@ cjkvi:hducs2koseki
 "茊"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茊󠄁"
+cjkvi:hducs2ivs
 -":JB5566"
 ":aj22311"
 cjkvi:hd2cid
@@ -32685,6 +33435,8 @@ cjkvi:hducs2koseki
 "茋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茋󠄁"
+cjkvi:hducs2ivs
 -":JB5567"
 ":aj18485"
 cjkvi:hd2cid
@@ -32720,6 +33472,8 @@ cjkvi:hducs2koseki
 "茞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茞󠄁"
+cjkvi:hducs2ivs
 -":JB5571"
 ":aj22313"
 cjkvi:hd2cid
@@ -32730,6 +33484,8 @@ cjkvi:hducs2koseki
 "茟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茟󠄁"
+cjkvi:hducs2ivs
 -":JB5572"
 ":aj22314"
 cjkvi:hd2cid
@@ -32740,6 +33496,8 @@ cjkvi:hducs2koseki
 "茡"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茡󠄁"
+cjkvi:hducs2ivs
 -":JB5573"
 ":aj17072"
 cjkvi:hd2cid
@@ -32759,6 +33517,8 @@ cjkvi:hducs2koseki
 "茬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茬󠄁"
+cjkvi:hducs2ivs
 -":JB5575"
 ":aj17073"
 cjkvi:hd2cid
@@ -32790,6 +33550,8 @@ cjkvi:hducs2koseki
 "茳"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茳󠄁"
+cjkvi:hducs2ivs
 -":JB5579"
 ":aj22318"
 cjkvi:hd2cid
@@ -32800,6 +33562,8 @@ cjkvi:hducs2koseki
 "茷"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茷󠄁"
+cjkvi:hducs2ivs
 -":JB5580"
 ":aj17074"
 cjkvi:hd2cid
@@ -32828,6 +33592,8 @@ cjkvi:hducs2koseki
 "茽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"茽󠄁"
+cjkvi:hducs2ivs
 -":JB5583"
 ":aj22320"
 cjkvi:hd2cid
@@ -32838,6 +33604,8 @@ cjkvi:hducs2koseki
 "荂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"荂󠄁"
+cjkvi:hducs2ivs
 -":JB5584"
 ":aj15049"
 cjkvi:hd2cid
@@ -32873,6 +33641,8 @@ cjkvi:hducs2koseki
 "荍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"荍󠄁"
+cjkvi:hducs2ivs
 -":JB5588"
 ":aj22322"
 cjkvi:hd2cid
@@ -32883,6 +33653,8 @@ cjkvi:hducs2koseki
 "荎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"荎󠄁"
+cjkvi:hducs2ivs
 -":JB5589"
 ":aj15050"
 cjkvi:hd2cid
@@ -32909,6 +33681,8 @@ cjkvi:hducs2koseki
 "荖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"荖󠄁"
+cjkvi:hducs2ivs
 -":JB5592"
 ":aj18491"
 cjkvi:hd2cid
@@ -32928,6 +33702,8 @@ cjkvi:hducs2koseki
 "荰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"荰󠄁"
+cjkvi:hducs2ivs
 -":JB5594"
 ":aj19740"
 cjkvi:hd2cid
@@ -32938,6 +33714,8 @@ cjkvi:hducs2koseki
 "荸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"荸󠄁"
+cjkvi:hducs2ivs
 -":JB5601"
 ":aj17076"
 cjkvi:hd2cid
@@ -32974,6 +33752,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "莀"
 cjkvi:hducs2juki
+"莀󠄁"
+cjkvi:hducs2ivs
 -":JB5604"
 ":aj22325"
 cjkvi:hd2cid
@@ -32984,6 +33764,8 @@ cjkvi:hducs2koseki
 "莂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"莂󠄁"
+cjkvi:hducs2ivs
 -":JB5605"
 ":aj22326"
 cjkvi:hd2cid
@@ -33002,6 +33784,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "莄"
 cjkvi:hducs2juki
+"莄󠄁"
+cjkvi:hducs2ivs
 -":JB5606"
 ":aj15052"
 cjkvi:hd2cid
@@ -33064,6 +33848,8 @@ cjkvi:hducs2koseki
 "莙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"莙󠄁"
+cjkvi:hducs2ivs
 -":JB5613"
 ":aj18497"
 cjkvi:hd2cid
@@ -33081,6 +33867,8 @@ cjkvi:hducs2koseki
 "莜"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"莜󠄁"
+cjkvi:hducs2ivs
 -":JB5615"
 ":aj18498"
 cjkvi:hd2cid
@@ -33098,6 +33886,8 @@ cjkvi:hducs2koseki
 "莦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"莦󠄁"
+cjkvi:hducs2ivs
 -":JB5617"
 ":aj17077"
 cjkvi:hd2cid
@@ -33124,6 +33914,8 @@ cjkvi:hducs2koseki
 "莬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"莬󠄁"
+cjkvi:hducs2ivs
 -":JB5620"
 ":aj22331"
 cjkvi:hd2cid
@@ -33134,6 +33926,8 @@ cjkvi:hducs2koseki
 "莾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"莾󠄁"
+cjkvi:hducs2ivs
 -":JB5621"
 ":aj15057"
 cjkvi:hd2cid
@@ -33221,6 +34015,8 @@ cjkvi:hducs2koseki
 "荓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"荓󠄁"
+cjkvi:hducs2ivs
 -":JB5631"
 ":aj22333"
 cjkvi:hd2cid
@@ -33231,6 +34027,8 @@ cjkvi:hducs2koseki
 "菨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"菨󠄁"
+cjkvi:hducs2ivs
 -":JB5632"
 ":aj15059"
 cjkvi:hd2cid
@@ -33250,6 +34048,8 @@ cjkvi:hducs2koseki
 "菶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"菶󠄁"
+cjkvi:hducs2ivs
 -":JB5634"
 ":aj19741"
 cjkvi:hd2cid
@@ -33260,6 +34060,8 @@ cjkvi:hducs2koseki
 "菸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"菸󠄁"
+cjkvi:hducs2ivs
 -":JB5635"
 ":aj18504"
 cjkvi:hd2cid
@@ -33279,6 +34081,8 @@ cjkvi:hducs2koseki
 "菼"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"菼󠄁"
+cjkvi:hducs2ivs
 -":JB5637"
 ":aj17081"
 cjkvi:hd2cid
@@ -33341,6 +34145,8 @@ cjkvi:hducs2koseki
 "萙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"萙󠄁"
+cjkvi:hducs2ivs
 -":JB5644"
 ":aj22335"
 cjkvi:hd2cid
@@ -33351,6 +34157,8 @@ cjkvi:hducs2koseki
 "莭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"莭󠄁"
+cjkvi:hducs2ivs
 -":JB5645"
 ":aj22336"
 cjkvi:hd2cid
@@ -33361,6 +34169,8 @@ cjkvi:hducs2koseki
 "萯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"萯󠄁"
+cjkvi:hducs2ivs
 -":JB5646"
 ":aj18508"
 cjkvi:hd2cid
@@ -33380,6 +34190,8 @@ cjkvi:hducs2koseki
 "葅"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葅󠄁"
+cjkvi:hducs2ivs
 -":JB5648"
 ":aj22338"
 cjkvi:hd2cid
@@ -33390,6 +34202,8 @@ cjkvi:hducs2koseki
 "葇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葇󠄁"
+cjkvi:hducs2ivs
 -":JB5649"
 ":aj8605"
 cjkvi:hd2cid
@@ -33416,6 +34230,8 @@ cjkvi:hducs2koseki
 "葍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葍󠄁"
+cjkvi:hducs2ivs
 -":JB5652"
 ":aj18509"
 cjkvi:hd2cid
@@ -33453,6 +34269,8 @@ cjkvi:hducs2koseki
 "葖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葖󠄁"
+cjkvi:hducs2ivs
 -":JB5656"
 ":aj19743"
 cjkvi:hd2cid
@@ -33463,6 +34281,8 @@ cjkvi:hducs2koseki
 "葘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葘󠄁"
+cjkvi:hducs2ivs
 -":JB5657"
 ":aj18512"
 cjkvi:hd2cid
@@ -33494,6 +34314,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "葜󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB5660"
 ":aj22342"
 cjkvi:hd2cid
@@ -33504,6 +34325,8 @@ cjkvi:hducs2koseki
 "葠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葠󠄁"
+cjkvi:hducs2ivs
 -":JB5661"
 ":aj22343"
 cjkvi:hd2cid
@@ -33514,6 +34337,8 @@ cjkvi:hducs2koseki
 "葤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葤󠄁"
+cjkvi:hducs2ivs
 -":JB5662"
 ":aj18516"
 cjkvi:hd2cid
@@ -33533,6 +34358,8 @@ cjkvi:hducs2koseki
 "葧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葧󠄁"
+cjkvi:hducs2ivs
 -":JB5664"
 ":aj22345"
 cjkvi:hd2cid
@@ -33543,6 +34370,8 @@ cjkvi:hducs2koseki
 "葪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葪󠄁"
+cjkvi:hducs2ivs
 -":JB5665"
 ":aj17084"
 cjkvi:hd2cid
@@ -33567,6 +34396,8 @@ cjkvi:hducs2koseki
 "葴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葴󠄁"
+cjkvi:hducs2ivs
 -":JB5668"
 ":aj15063"
 cjkvi:hd2cid
@@ -33602,6 +34433,8 @@ cjkvi:hducs2koseki
 "葽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"葽󠄁"
+cjkvi:hducs2ivs
 -":JB5672"
 ":aj18519"
 cjkvi:hd2cid
@@ -33630,6 +34463,8 @@ cjkvi:hducs2koseki
 "蒒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蒒󠄁"
+cjkvi:hducs2ivs
 -":JB5675"
 ":aj19744"
 cjkvi:hd2cid
@@ -33640,6 +34475,8 @@ cjkvi:hducs2koseki
 "蒓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蒓󠄁"
+cjkvi:hducs2ivs
 -":JB5676"
 ":aj22349"
 cjkvi:hd2cid
@@ -33650,6 +34487,8 @@ cjkvi:hducs2koseki
 "蒕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蒕󠄁"
+cjkvi:hducs2ivs
 -":JB5677"
 ":aj17087"
 cjkvi:hd2cid
@@ -33678,6 +34517,8 @@ cjkvi:hducs2koseki
 "蒨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蒨󠄁"
+cjkvi:hducs2ivs
 -":JB5680"
 ":aj22350"
 cjkvi:hd2cid
@@ -33688,6 +34529,8 @@ cjkvi:hducs2koseki
 "蒩"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蒩󠄁"
+cjkvi:hducs2ivs
 -":JB5681"
 ":aj22351"
 cjkvi:hd2cid
@@ -33698,6 +34541,8 @@ cjkvi:hducs2koseki
 "蒪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蒪󠄁"
+cjkvi:hducs2ivs
 -":JB5682"
 ":aj15065"
 cjkvi:hd2cid
@@ -33717,6 +34562,8 @@ cjkvi:hducs2koseki
 "蒱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蒱󠄁"
+cjkvi:hducs2ivs
 -":JB5684"
 ":aj8606"
 cjkvi:hd2cid
@@ -33745,6 +34592,8 @@ cjkvi:hducs2koseki
 "蒽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蒽󠄁"
+cjkvi:hducs2ivs
 -":JB5687"
 ":aj18523"
 cjkvi:hd2cid
@@ -33780,6 +34629,8 @@ cjkvi:hducs2koseki
 "蓇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蓇󠄁"
+cjkvi:hducs2ivs
 -":JB5691"
 ":aj22353"
 cjkvi:hd2cid
@@ -33790,6 +34641,8 @@ cjkvi:hducs2koseki
 "蓈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蓈󠄁"
+cjkvi:hducs2ivs
 -":JB5692"
 ":aj22354"
 cjkvi:hd2cid
@@ -33800,6 +34653,8 @@ cjkvi:hducs2koseki
 "蓌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蓌󠄁"
+cjkvi:hducs2ivs
 -":JB5693"
 ":aj18526"
 cjkvi:hd2cid
@@ -33876,6 +34731,8 @@ cjkvi:hducs2koseki
 "蓲"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蓲󠄁"
+cjkvi:hducs2ivs
 -":JB5708"
 ":aj22356"
 cjkvi:hd2cid
@@ -33886,6 +34743,8 @@ cjkvi:hducs2koseki
 "蓷"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蓷󠄁"
+cjkvi:hducs2ivs
 -":JB5709"
 ":aj17090"
 cjkvi:hd2cid
@@ -33912,6 +34771,8 @@ cjkvi:hducs2koseki
 "蓻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蓻󠄁"
+cjkvi:hducs2ivs
 -":JB5712"
 ":aj15069"
 cjkvi:hd2cid
@@ -33931,6 +34792,8 @@ cjkvi:hducs2koseki
 "蔂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔂󠄁"
+cjkvi:hducs2ivs
 -":JB5714"
 ":aj22358"
 cjkvi:hd2cid
@@ -33941,6 +34804,8 @@ cjkvi:hducs2koseki
 "蔃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔃󠄁"
+cjkvi:hducs2ivs
 -":JB5715"
 ":aj22359"
 cjkvi:hd2cid
@@ -33951,6 +34816,8 @@ cjkvi:hducs2koseki
 "蔇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔇󠄁"
+cjkvi:hducs2ivs
 -":JB5716"
 ":aj15070"
 cjkvi:hd2cid
@@ -33970,6 +34837,8 @@ cjkvi:hducs2koseki
 "蔎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔎󠄁"
+cjkvi:hducs2ivs
 -":JB5718"
 ":aj22361"
 cjkvi:hd2cid
@@ -33980,6 +34849,8 @@ cjkvi:hducs2koseki
 "蔐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔐󠄁"
+cjkvi:hducs2ivs
 -":JB5719"
 ":aj22362"
 cjkvi:hd2cid
@@ -33990,6 +34861,8 @@ cjkvi:hducs2koseki
 "蔜"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔜󠄁"
+cjkvi:hducs2ivs
 -":JB5720"
 ":aj17091"
 cjkvi:hd2cid
@@ -34007,6 +34880,8 @@ cjkvi:hducs2koseki
 "蔢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔢󠄁"
+cjkvi:hducs2ivs
 -":JB5722"
 ":aj7706"
 cjkvi:hd2cid
@@ -34044,6 +34919,8 @@ cjkvi:hducs2koseki
 "蔧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔧󠄁"
+cjkvi:hducs2ivs
 -":JB5726"
 ":aj22365"
 cjkvi:hd2cid
@@ -34054,6 +34931,8 @@ cjkvi:hducs2koseki
 "蔪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔪󠄁"
+cjkvi:hducs2ivs
 -":JB5727"
 ":aj18537"
 cjkvi:hd2cid
@@ -34082,6 +34961,8 @@ cjkvi:hducs2koseki
 "蔳"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔳󠄁"
+cjkvi:hducs2ivs
 -":JB5730"
 ":aj15071"
 cjkvi:hd2cid
@@ -34101,6 +34982,8 @@ cjkvi:hducs2koseki
 "蔶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔶󠄁"
+cjkvi:hducs2ivs
 -":JB5732"
 ":aj22368"
 cjkvi:hd2cid
@@ -34111,6 +34994,8 @@ cjkvi:hducs2koseki
 "蔿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蔿󠄁"
+cjkvi:hducs2ivs
 -":JB5733"
 ":aj19748"
 cjkvi:hd2cid
@@ -34121,6 +35006,8 @@ cjkvi:hducs2koseki
 "蕆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕆󠄁"
+cjkvi:hducs2ivs
 -":JB5734"
 ":aj18538"
 cjkvi:hd2cid
@@ -34140,6 +35027,8 @@ cjkvi:hducs2koseki
 "蕐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕐󠄁"
+cjkvi:hducs2ivs
 -":JB5736"
 ":aj18541"
 cjkvi:hd2cid
@@ -34157,6 +35046,8 @@ cjkvi:hducs2koseki
 "蕒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕒󠄁"
+cjkvi:hducs2ivs
 -":JB5738"
 ":aj8607"
 cjkvi:hd2cid
@@ -34174,6 +35065,8 @@ cjkvi:hducs2koseki
 "蕖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕖󠄁"
+cjkvi:hducs2ivs
 -":JB5740"
 ":aj8608"
 cjkvi:hd2cid
@@ -34193,6 +35086,8 @@ cjkvi:hducs2koseki
 "蕜"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕜󠄁"
+cjkvi:hducs2ivs
 -":JB5742"
 ":aj22372"
 cjkvi:hd2cid
@@ -34203,6 +35098,8 @@ cjkvi:hducs2koseki
 "蕝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕝󠄂"
+cjkvi:hducs2ivs
 -":JB5743"
 ":aj15072"
 cjkvi:hd2cid
@@ -34222,6 +35119,8 @@ cjkvi:hducs2koseki
 "蕟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕟󠄁"
+cjkvi:hducs2ivs
 -":JB5745"
 ":aj22374"
 cjkvi:hd2cid
@@ -34232,6 +35131,8 @@ cjkvi:hducs2koseki
 "蕠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕠󠄁"
+cjkvi:hducs2ivs
 -":JB5746"
 ":aj18542"
 cjkvi:hd2cid
@@ -34265,6 +35166,8 @@ cjkvi:hducs2koseki
 "蕫"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕫󠄁"
+cjkvi:hducs2ivs
 -":JB5750"
 ":aj18539"
 cjkvi:hd2cid
@@ -34284,6 +35187,8 @@ cjkvi:hducs2koseki
 "蕹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蕹󠄁"
+cjkvi:hducs2ivs
 -":JB5752"
 ":aj17094"
 cjkvi:hd2cid
@@ -34322,6 +35227,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕽"
 cjkvi:hducs2juki
+"蕽󠄁"
+cjkvi:hducs2ivs
 -":JB5755"
 ":aj18547"
 cjkvi:hd2cid
@@ -34352,6 +35259,8 @@ cjkvi:hducs2koseki
 "薅"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薅󠄁"
+cjkvi:hducs2ivs
 -":JB5758"
 ":aj18549"
 cjkvi:hd2cid
@@ -34371,6 +35280,8 @@ cjkvi:hducs2koseki
 "薉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薉󠄁"
+cjkvi:hducs2ivs
 -":JB5760"
 ":aj22377"
 cjkvi:hd2cid
@@ -34381,6 +35292,8 @@ cjkvi:hducs2koseki
 "薋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薋󠄁"
+cjkvi:hducs2ivs
 -":JB5761"
 ":aj17095"
 cjkvi:hd2cid
@@ -34418,6 +35331,8 @@ cjkvi:hducs2koseki
 "薘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薘󠄁"
+cjkvi:hducs2ivs
 -":JB5765"
 ":aj18551"
 cjkvi:hd2cid
@@ -34444,6 +35359,8 @@ cjkvi:hducs2koseki
 "薠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薠󠄁"
+cjkvi:hducs2ivs
 -":JB5768"
 ":aj17096"
 cjkvi:hd2cid
@@ -34463,6 +35380,8 @@ cjkvi:hducs2koseki
 "薥"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薥󠄁"
+cjkvi:hducs2ivs
 -":JB5770"
 ":aj22380"
 cjkvi:hd2cid
@@ -34473,6 +35392,8 @@ cjkvi:hducs2koseki
 "薧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薧󠄁"
+cjkvi:hducs2ivs
 -":JB5771"
 ":aj22381"
 cjkvi:hd2cid
@@ -34483,6 +35404,8 @@ cjkvi:hducs2koseki
 "薴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薴󠄁"
+cjkvi:hducs2ivs
 -":JB5772"
 ":aj22382"
 cjkvi:hd2cid
@@ -34493,6 +35416,8 @@ cjkvi:hducs2koseki
 "薶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薶󠄁"
+cjkvi:hducs2ivs
 -":JB5773"
 ":aj15074"
 cjkvi:hd2cid
@@ -34512,6 +35437,8 @@ cjkvi:hducs2koseki
 "薸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薸󠄁"
+cjkvi:hducs2ivs
 -":JB5775"
 ":aj18556"
 cjkvi:hd2cid
@@ -34531,6 +35458,8 @@ cjkvi:hducs2koseki
 "薽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薽󠄁"
+cjkvi:hducs2ivs
 -":JB5777"
 ":aj22385"
 cjkvi:hd2cid
@@ -34541,6 +35470,8 @@ cjkvi:hducs2koseki
 "薾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薾󠄁"
+cjkvi:hducs2ivs
 -":JB5778"
 ":aj22386"
 cjkvi:hd2cid
@@ -34551,6 +35482,8 @@ cjkvi:hducs2koseki
 "薿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"薿󠄁"
+cjkvi:hducs2ivs
 -":JB5779"
 ":aj22387"
 cjkvi:hd2cid
@@ -34561,6 +35494,8 @@ cjkvi:hducs2koseki
 "藂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"藂󠄁"
+cjkvi:hducs2ivs
 -":JB5780"
 ":aj18557"
 cjkvi:hd2cid
@@ -34621,6 +35556,8 @@ cjkvi:hducs2koseki
 "藚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"藚󠄁"
+cjkvi:hducs2ivs
 -":JB5787"
 ":aj18561"
 cjkvi:hd2cid
@@ -34640,6 +35577,8 @@ cjkvi:hducs2koseki
 "藠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"藠󠄁"
+cjkvi:hducs2ivs
 -":JB5789"
 ":aj18563"
 cjkvi:hd2cid
@@ -34659,6 +35598,8 @@ cjkvi:hducs2koseki
 "藨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"藨󠄁"
+cjkvi:hducs2ivs
 -":JB5791"
 ":aj17098"
 cjkvi:hd2cid
@@ -34678,6 +35619,8 @@ cjkvi:hducs2koseki
 "藳"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"藳󠄁"
+cjkvi:hducs2ivs
 -":JB5793"
 ":aj18564"
 cjkvi:hd2cid
@@ -34697,6 +35640,8 @@ cjkvi:hducs2koseki
 "藼"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"藼󠄁"
+cjkvi:hducs2ivs
 -":JB5801"
 ":aj17099"
 cjkvi:hd2cid
@@ -34741,6 +35686,8 @@ cjkvi:hducs2koseki
 "蘍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蘍󠄁"
+cjkvi:hducs2ivs
 -":JB5806"
 ":aj22394"
 cjkvi:hd2cid
@@ -34751,6 +35698,8 @@ cjkvi:hducs2koseki
 "蘎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蘎󠄁"
+cjkvi:hducs2ivs
 -":JB5807"
 ":aj17102"
 cjkvi:hd2cid
@@ -34797,6 +35746,8 @@ cjkvi:hducs2koseki
 "蘙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蘙󠄁"
+cjkvi:hducs2ivs
 -":JB5812"
 ":aj22396"
 cjkvi:hd2cid
@@ -34807,6 +35758,8 @@ cjkvi:hducs2koseki
 "蘛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蘛󠄁"
+cjkvi:hducs2ivs
 -":JB5813"
 ":aj18567"
 cjkvi:hd2cid
@@ -34847,6 +35800,8 @@ manakai:implements
 "蘶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蘶󠄁"
+cjkvi:hducs2ivs
 -":JB5818"
 ":aj17105"
 cjkvi:hd2cid
@@ -34866,6 +35821,8 @@ cjkvi:hducs2koseki
 "蘺"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蘺󠄁"
+cjkvi:hducs2ivs
 -":JB5820"
 ":aj18573"
 cjkvi:hd2cid
@@ -34883,6 +35840,8 @@ cjkvi:hducs2koseki
 "蘽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蘽󠄁"
+cjkvi:hducs2ivs
 -":JB5822"
 ":aj18575"
 cjkvi:hd2cid
@@ -34902,6 +35861,8 @@ cjkvi:hducs2koseki
 "虂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"虂󠄁"
+cjkvi:hducs2ivs
 -":JB5824"
 ":aj19754"
 cjkvi:hd2cid
@@ -34912,6 +35873,8 @@ cjkvi:hducs2koseki
 "虆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"虆󠄁"
+cjkvi:hducs2ivs
 -":JB5825"
 ":aj15079"
 cjkvi:hd2cid
@@ -34922,6 +35885,8 @@ cjkvi:hducs2koseki
 "虒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"虒󠄁"
+cjkvi:hducs2ivs
 -":JB5826"
 ":aj18576"
 cjkvi:hd2cid
@@ -35363,6 +36328,8 @@ cjkvi:hducs2koseki
 "蛧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蛧󠄁"
+cjkvi:hducs2ivs
 -":JB5877"
 ":aj22425"
 cjkvi:hd2cid
@@ -35373,6 +36340,8 @@ cjkvi:hducs2koseki
 "蚈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蚈󠄁"
+cjkvi:hducs2ivs
 -":JB5878"
 ":aj15089"
 cjkvi:hd2cid
@@ -35561,6 +36530,8 @@ cjkvi:hducs2koseki
 "蜹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蜹󠄁"
+cjkvi:hducs2ivs
 -":JB5907"
 ":aj18601"
 cjkvi:hd2cid
@@ -35639,6 +36610,8 @@ cjkvi:hducs2koseki
 "蝍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蝍󠄁"
+cjkvi:hducs2ivs
 -":JB5915"
 ":aj18605"
 cjkvi:hd2cid
@@ -35658,6 +36631,8 @@ cjkvi:hducs2koseki
 "蝝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蝝󠄁"
+cjkvi:hducs2ivs
 -":JB5917"
 ":aj22434"
 cjkvi:hd2cid
@@ -35878,6 +36853,8 @@ cjkvi:hducs2koseki
 "螣"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"螣󠄂"
+cjkvi:hducs2ivs
 -":JB5942"
 ":aj18612"
 cjkvi:hd2cid
@@ -36014,6 +36991,8 @@ cjkvi:hducs2koseki
 "蟙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蟙󠄁"
+cjkvi:hducs2ivs
 -":JB5958"
 ":aj19771"
 cjkvi:hd2cid
@@ -36253,6 +37232,8 @@ cjkvi:hducs2koseki
 "蠚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蠚󠄁"
+cjkvi:hducs2ivs
 -":JB5985"
 ":aj19773"
 cjkvi:hd2cid
@@ -36263,6 +37244,8 @@ cjkvi:hducs2koseki
 "蠛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蠛󠄁"
+cjkvi:hducs2ivs
 -":JB5986"
 ":aj15111"
 cjkvi:hd2cid
@@ -36309,6 +37292,8 @@ cjkvi:hducs2koseki
 "蠭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蠭󠄁"
+cjkvi:hducs2ivs
 -":JB5991"
 ":aj18631"
 cjkvi:hd2cid
@@ -36370,6 +37355,8 @@ cjkvi:hducs2koseki
 "衁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"衁󠄁"
+cjkvi:hducs2ivs
 -":JB6004"
 ":aj22464"
 cjkvi:hd2cid
@@ -36429,6 +37416,8 @@ cjkvi:hducs2koseki
 "衋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"衋󠄂"
+cjkvi:hducs2ivs
 -":JB6010"
 ":aj19778"
 cjkvi:hd2cid
@@ -36449,6 +37438,8 @@ cjkvi:hducs2koseki
 "衑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"衑󠄁"
+cjkvi:hducs2ivs
 -":JB6012"
 ":aj19779"
 cjkvi:hd2cid
@@ -36537,6 +37528,8 @@ cjkvi:hducs2koseki
 "衱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"衱󠄁"
+cjkvi:hducs2ivs
 -":JB6022"
 ":aj22472"
 cjkvi:hd2cid
@@ -36547,6 +37540,8 @@ cjkvi:hducs2koseki
 "衹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"衹󠄁"
+cjkvi:hducs2ivs
 -":JB6023"
 ":aj22473"
 cjkvi:hd2cid
@@ -36584,6 +37579,8 @@ cjkvi:hducs2koseki
 "袚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"袚󠄁"
+cjkvi:hducs2ivs
 -":JB6027"
 ":aj19783"
 cjkvi:hd2cid
@@ -36972,6 +37969,8 @@ cjkvi:hducs2koseki
 "褵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"褵󠄁"
+cjkvi:hducs2ivs
 -":JB6072"
 ":aj17119"
 cjkvi:hd2cid
@@ -37077,6 +38076,8 @@ cjkvi:hducs2koseki
 "襚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"襚󠄁"
+cjkvi:hducs2ivs
 -":JB6084"
 ":aj22494"
 cjkvi:hd2cid
@@ -37184,6 +38185,8 @@ cjkvi:hducs2koseki
 "襺"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"襺󠄁"
+cjkvi:hducs2ivs
 -":JB6101"
 ":aj15131"
 cjkvi:hd2cid
@@ -37204,6 +38207,8 @@ cjkvi:hducs2koseki
 "襼"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"襼󠄁"
+cjkvi:hducs2ivs
 -":JB6103"
 ":aj22501"
 cjkvi:hd2cid
@@ -37214,6 +38219,8 @@ cjkvi:hducs2koseki
 "襽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"襽󠄁"
+cjkvi:hducs2ivs
 -":JB6104"
 ":aj18658"
 cjkvi:hd2cid
@@ -37347,6 +38354,8 @@ cjkvi:hducs2koseki
 "覶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"覶󠄁"
+cjkvi:hducs2ivs
 -":JB6118"
 ":aj18662"
 cjkvi:hd2cid
@@ -37982,6 +38991,8 @@ cjkvi:hducs2koseki
 "誙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"誙󠄁"
+cjkvi:hducs2ivs
 -":JB6189"
 ":aj22540"
 cjkvi:hd2cid
@@ -38164,6 +39175,8 @@ cjkvi:hducs2koseki
 "諕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"諕󠄁"
+cjkvi:hducs2ivs
 -":JB6214"
 ":aj18682"
 cjkvi:hd2cid
@@ -38280,6 +39293,8 @@ cjkvi:hducs2koseki
 "謋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"謋󠄁"
+cjkvi:hducs2ivs
 -":JB6227"
 ":aj19815"
 cjkvi:hd2cid
@@ -38350,6 +39365,8 @@ cjkvi:hducs2koseki
 "謷"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"謷󠄁"
+cjkvi:hducs2ivs
 -":JB6235"
 ":aj22557"
 cjkvi:hd2cid
@@ -38370,6 +39387,8 @@ cjkvi:hducs2koseki
 "譂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"譂󠄁"
+cjkvi:hducs2ivs
 -":JB6237"
 ":aj15145"
 cjkvi:hd2cid
@@ -38387,6 +39406,8 @@ cjkvi:hducs2koseki
 "譄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"譄󠄁"
+cjkvi:hducs2ivs
 -":JB6239"
 ":aj19816"
 cjkvi:hd2cid
@@ -38397,6 +39418,8 @@ cjkvi:hducs2koseki
 "譅"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"譅󠄁"
+cjkvi:hducs2ivs
 -":JB6240"
 ":aj17128"
 cjkvi:hd2cid
@@ -38434,6 +39457,8 @@ cjkvi:hducs2koseki
 "譓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"譓󠄁"
+cjkvi:hducs2ivs
 -":JB6244"
 ":aj15147"
 cjkvi:hd2cid
@@ -38493,6 +39518,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "譭"
 cjkvi:hducs2juki
+"譭󠄁"
+cjkvi:hducs2ivs
 -":JB6250"
 ":aj18693"
 cjkvi:hd2cid
@@ -38670,6 +39697,8 @@ cjkvi:hducs2koseki
 "谾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"谾󠄁"
+cjkvi:hducs2ivs
 -":JB6270"
 ":aj18703"
 cjkvi:hd2cid
@@ -38784,6 +39813,8 @@ cjkvi:hducs2koseki
 "豙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"豙󠄁"
+cjkvi:hducs2ivs
 -":JB6283"
 ":aj22573"
 cjkvi:hd2cid
@@ -38814,6 +39845,8 @@ cjkvi:hducs2koseki
 "豦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"豦󠄁"
+cjkvi:hducs2ivs
 -":JB6286"
 ":aj17133"
 cjkvi:hd2cid
@@ -38862,6 +39895,8 @@ cjkvi:hducs2koseki
 "豶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"豶󠄁"
+cjkvi:hducs2ivs
 -":JB6292"
 ":aj19826"
 cjkvi:hd2cid
@@ -38958,6 +39993,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "貛󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB6308"
 ":aj22584"
 cjkvi:hd2cid
@@ -39005,6 +40041,8 @@ cjkvi:hducs2koseki
 "賅"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"賅󠄁"
+cjkvi:hducs2ivs
 -":JB6313"
 ":aj22586"
 cjkvi:hd2cid
@@ -39015,6 +40053,8 @@ cjkvi:hducs2koseki
 "賆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"賆󠄁"
+cjkvi:hducs2ivs
 -":JB6314"
 ":aj19829"
 cjkvi:hd2cid
@@ -39140,6 +40180,8 @@ cjkvi:hducs2koseki
 "賲"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"賲󠄁"
+cjkvi:hducs2ivs
 -":JB6327"
 ":aj19832"
 cjkvi:hd2cid
@@ -39294,6 +40336,8 @@ cjkvi:hducs2koseki
 "趂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"趂󠄁"
+cjkvi:hducs2ivs
 -":JB6344"
 ":aj15161"
 cjkvi:hd2cid
@@ -39633,6 +40677,8 @@ cjkvi:hducs2koseki
 "跰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"跰󠄁"
+cjkvi:hducs2ivs
 -":JB6379"
 ":aj22613"
 cjkvi:hd2cid
@@ -39643,6 +40689,8 @@ cjkvi:hducs2koseki
 "趼"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"趼󠄁"
+cjkvi:hducs2ivs
 -":JB6380"
 ":aj19845"
 cjkvi:hd2cid
@@ -39965,6 +41013,8 @@ cjkvi:hducs2koseki
 "蹞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蹞󠄁"
+cjkvi:hducs2ivs
 -":JB6422"
 ":aj19857"
 cjkvi:hd2cid
@@ -40032,6 +41082,8 @@ cjkvi:hducs2koseki
 "蹱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"蹱󠄁"
+cjkvi:hducs2ivs
 -":JB6430"
 ":aj22624"
 cjkvi:hd2cid
@@ -40089,6 +41141,8 @@ cjkvi:hducs2koseki
 "躉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"躉󠄁"
+cjkvi:hducs2ivs
 -":JB6436"
 ":aj19863"
 cjkvi:hd2cid
@@ -40129,6 +41183,8 @@ cjkvi:hducs2koseki
 "躚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"躚󠄁"
+cjkvi:hducs2ivs
 -":JB6440"
 ":aj22627"
 cjkvi:hd2cid
@@ -40273,6 +41329,8 @@ cjkvi:hducs2koseki
 "軄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"軄󠄁"
+cjkvi:hducs2ivs
 -":JB6456"
 ":aj22634"
 cjkvi:hd2cid
@@ -40319,6 +41377,8 @@ cjkvi:hducs2koseki
 "軜"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"軜󠄁"
+cjkvi:hducs2ivs
 -":JB6461"
 ":aj19869"
 cjkvi:hd2cid
@@ -40359,6 +41419,8 @@ cjkvi:hducs2koseki
 "軱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"軱󠄁"
+cjkvi:hducs2ivs
 -":JB6465"
 ":aj22638"
 cjkvi:hd2cid
@@ -40457,6 +41519,8 @@ cjkvi:hducs2koseki
 "輖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"輖󠄁"
+cjkvi:hducs2ivs
 -":JB6476"
 ":aj15180"
 cjkvi:hd2cid
@@ -40596,6 +41660,8 @@ cjkvi:hducs2koseki
 "輵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"輵󠄁"
+cjkvi:hducs2ivs
 -":JB6490"
 ":aj15181"
 cjkvi:hd2cid
@@ -40690,6 +41756,8 @@ cjkvi:hducs2koseki
 "轒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"轒󠄁"
+cjkvi:hducs2ivs
 -":JB6506"
 ":aj22654"
 cjkvi:hd2cid
@@ -40717,6 +41785,8 @@ cjkvi:hducs2koseki
 "轕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"轕󠄁"
+cjkvi:hducs2ivs
 -":JB6509"
 ":aj18753"
 cjkvi:hd2cid
@@ -40754,6 +41824,8 @@ cjkvi:hducs2koseki
 "轥"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"轥󠄁"
+cjkvi:hducs2ivs
 -":JB6513"
 ":aj22658"
 cjkvi:hd2cid
@@ -40801,6 +41873,8 @@ cjkvi:hducs2koseki
 "辥"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"辥󠄁"
+cjkvi:hducs2ivs
 -":JB6518"
 ":aj15182"
 cjkvi:hd2cid
@@ -40842,6 +41916,8 @@ cjkvi:hducs2koseki
 "达"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"达󠄁"
+cjkvi:hducs2ivs
 -":JB6523"
 ":aj22661"
 cjkvi:hd2cid
@@ -40885,6 +41961,8 @@ cjkvi:hducs2koseki
 "迋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"迋󠄁"
+cjkvi:hducs2ivs
 -":JB6528"
 ":aj18762"
 cjkvi:hd2cid
@@ -40902,6 +41980,8 @@ cjkvi:hducs2koseki
 "运"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"运󠄁"
+cjkvi:hducs2ivs
 -":JB6530"
 ":aj22664"
 cjkvi:hd2cid
@@ -40912,6 +41992,8 @@ cjkvi:hducs2koseki
 "迒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"迒󠄁"
+cjkvi:hducs2ivs
 -":JB6531"
 ":aj18763"
 cjkvi:hd2cid
@@ -40945,6 +42027,8 @@ cjkvi:hducs2koseki
 "迣"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"迣󠄁"
+cjkvi:hducs2ivs
 -":JB6535"
 ":aj15187"
 cjkvi:hd2cid
@@ -40998,6 +42082,8 @@ cjkvi:hducs2koseki
 "迶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"迶󠄂"
+cjkvi:hducs2ivs
 -":JB6541"
 ":aj18767"
 cjkvi:hd2cid
@@ -41015,6 +42101,8 @@ cjkvi:hducs2koseki
 "迾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"迾󠄁"
+cjkvi:hducs2ivs
 -":JB6543"
 ":aj15189"
 cjkvi:hd2cid
@@ -41032,6 +42120,8 @@ manakai:implements
 "逄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逄󠄁"
+cjkvi:hducs2ivs
 -":JB6545"
 ":aj17149"
 cjkvi:hd2cid
@@ -41060,6 +42150,8 @@ cjkvi:hducs2koseki
 "逘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逘󠄁"
+cjkvi:hducs2ivs
 -":JB6548"
 ":aj19887"
 cjkvi:hd2cid
@@ -41070,6 +42162,8 @@ cjkvi:hducs2koseki
 "逛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逛󠄁"
+cjkvi:hducs2ivs
 -":JB6549"
 ":aj22668"
 cjkvi:hd2cid
@@ -41080,6 +42174,8 @@ cjkvi:hducs2koseki
 "逨"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逨󠄁"
+cjkvi:hducs2ivs
 -":JB6550"
 ":aj22669"
 cjkvi:hd2cid
@@ -41090,6 +42186,8 @@ cjkvi:hducs2koseki
 "逩"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逩󠄁"
+cjkvi:hducs2ivs
 -":JB6551"
 ":aj19888"
 cjkvi:hd2cid
@@ -41100,6 +42198,8 @@ cjkvi:hducs2koseki
 "逯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逯󠄁"
+cjkvi:hducs2ivs
 -":JB6552"
 ":aj22670"
 cjkvi:hd2cid
@@ -41110,6 +42210,8 @@ cjkvi:hducs2koseki
 "逪"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逪󠄁"
+cjkvi:hducs2ivs
 -":JB6553"
 ":aj15190"
 cjkvi:hd2cid
@@ -41120,6 +42222,8 @@ cjkvi:hducs2koseki
 "逬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逬󠄁"
+cjkvi:hducs2ivs
 -":JB6554"
 ":aj17150"
 cjkvi:hd2cid
@@ -41147,6 +42251,8 @@ cjkvi:hducs2koseki
 "逴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逴󠄁"
+cjkvi:hducs2ivs
 -":JB6557"
 ":aj18769"
 cjkvi:hd2cid
@@ -41164,6 +42270,8 @@ cjkvi:hducs2koseki
 "逿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"逿󠄁"
+cjkvi:hducs2ivs
 -":JB6559"
 ":aj18771"
 cjkvi:hd2cid
@@ -41190,6 +42298,8 @@ cjkvi:hducs2koseki
 "遌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遌󠄁"
+cjkvi:hducs2ivs
 -":JB6562"
 ":aj19890"
 cjkvi:hd2cid
@@ -41200,6 +42310,8 @@ cjkvi:hducs2koseki
 "遛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遛󠄁"
+cjkvi:hducs2ivs
 -":JB6563"
 ":aj18772"
 cjkvi:hd2cid
@@ -41219,6 +42331,8 @@ cjkvi:hducs2koseki
 "遢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遢󠄁"
+cjkvi:hducs2ivs
 -":JB6565"
 ":aj22675"
 cjkvi:hd2cid
@@ -41229,6 +42343,8 @@ cjkvi:hducs2koseki
 "遦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遦󠄁"
+cjkvi:hducs2ivs
 -":JB6566"
 ":aj8634"
 cjkvi:hd2cid
@@ -41239,6 +42355,8 @@ cjkvi:hducs2koseki
 "遧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遧󠄁"
+cjkvi:hducs2ivs
 -":JB6567"
 ":aj22676"
 cjkvi:hd2cid
@@ -41249,6 +42367,8 @@ cjkvi:hducs2koseki
 "遬"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遬󠄁"
+cjkvi:hducs2ivs
 -":JB6568"
 ":aj19891"
 cjkvi:hd2cid
@@ -41259,6 +42379,8 @@ cjkvi:hducs2koseki
 "遰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遰󠄁"
+cjkvi:hducs2ivs
 -":JB6569"
 ":aj19892"
 cjkvi:hd2cid
@@ -41271,6 +42393,8 @@ cjkvi:hducs2koseki
 "遴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遴󠄁"
+cjkvi:hducs2ivs
 -":JB6570"
 ":aj19893"
 cjkvi:hd2cid
@@ -41281,6 +42405,8 @@ cjkvi:hducs2koseki
 "遹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"遹󠄁"
+cjkvi:hducs2ivs
 -":JB6571"
 ":aj18775"
 cjkvi:hd2cid
@@ -41305,6 +42431,8 @@ cjkvi:hducs2koseki
 "邋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"邋󠄁"
+cjkvi:hducs2ivs
 -":JB6574"
 ":aj18776"
 cjkvi:hd2cid
@@ -41322,6 +42450,8 @@ cjkvi:hducs2koseki
 "邎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"邎󠄁"
+cjkvi:hducs2ivs
 -":JB6576"
 ":aj18777"
 cjkvi:hd2cid
@@ -41582,6 +42712,8 @@ cjkvi:hducs2koseki
 "郒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"郒󠄁"
+cjkvi:hducs2ivs
 -":JB6614"
 ":aj18788"
 cjkvi:hd2cid
@@ -41746,6 +42878,8 @@ cjkvi:hducs2koseki
 "鄚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鄚󠄁"
+cjkvi:hducs2ivs
 -":JB6633"
 ":aj15202"
 cjkvi:hd2cid
@@ -41821,6 +42955,8 @@ cjkvi:hducs2koseki
 "鄮"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鄮󠄁"
+cjkvi:hducs2ivs
 -":JB6642"
 ":aj17162"
 cjkvi:hd2cid
@@ -42033,6 +43169,8 @@ cjkvi:hducs2koseki
 "酻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"酻󠄁"
+cjkvi:hducs2ivs
 -":JB6668"
 ":aj22699"
 cjkvi:hd2cid
@@ -42043,6 +43181,8 @@ cjkvi:hducs2koseki
 "醁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"醁󠄁"
+cjkvi:hducs2ivs
 -":JB6669"
 ":aj17164"
 cjkvi:hd2cid
@@ -42124,6 +43264,8 @@ cjkvi:hducs2koseki
 "醕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"醕󠄁"
+cjkvi:hducs2ivs
 -":JB6678"
 ":aj22703"
 cjkvi:hd2cid
@@ -42202,6 +43344,8 @@ cjkvi:hducs2koseki
 "醰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"醰󠄁"
+cjkvi:hducs2ivs
 -":JB6687"
 ":aj7777"
 cjkvi:hd2cid
@@ -42375,6 +43519,8 @@ cjkvi:hducs2koseki
 "釩"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"釩󠄁"
+cjkvi:hducs2ivs
 -":JB6713"
 ":aj22711"
 cjkvi:hd2cid
@@ -42418,6 +43564,8 @@ cjkvi:hducs2koseki
 "釯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"釯󠄁"
+cjkvi:hducs2ivs
 -":JB6718"
 ":aj15217"
 cjkvi:hd2cid
@@ -42536,6 +43684,8 @@ cjkvi:hducs2koseki
 "鈉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鈉󠄁"
+cjkvi:hducs2ivs
 -":JB6731"
 ":aj8648"
 cjkvi:hd2cid
@@ -42570,6 +43720,8 @@ cjkvi:hducs2koseki
 "鈒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鈒󠄁"
+cjkvi:hducs2ivs
 -":JB6735"
 ":aj22719"
 cjkvi:hd2cid
@@ -42580,6 +43732,8 @@ cjkvi:hducs2koseki
 "鈓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鈓󠄁"
+cjkvi:hducs2ivs
 -":JB6736"
 ":aj18815"
 cjkvi:hd2cid
@@ -43056,6 +44210,8 @@ cjkvi:hducs2koseki
 "銊"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"銊󠄁"
+cjkvi:hducs2ivs
 -":JB6791"
 ":aj18829"
 cjkvi:hd2cid
@@ -43073,6 +44229,8 @@ cjkvi:hducs2koseki
 "銎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"銎󠄁"
+cjkvi:hducs2ivs
 -":JB6793"
 ":aj22745"
 cjkvi:hd2cid
@@ -43368,6 +44526,8 @@ cjkvi:hducs2koseki
 "鋕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鋕󠄁"
+cjkvi:hducs2ivs
 -":JB6833"
 ":aj8661"
 cjkvi:hd2cid
@@ -43385,6 +44545,8 @@ cjkvi:hducs2koseki
 "鋘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鋘󠄁"
+cjkvi:hducs2ivs
 -":JB6835"
 ":aj8662"
 cjkvi:hd2cid
@@ -43412,6 +44574,8 @@ cjkvi:hducs2koseki
 "鋝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鋝󠄁"
+cjkvi:hducs2ivs
 -":JB6838"
 ":aj15231"
 cjkvi:hd2cid
@@ -43449,6 +44613,8 @@ cjkvi:hducs2koseki
 "鋣"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鋣󠄁"
+cjkvi:hducs2ivs
 -":JB6842"
 ":aj18841"
 cjkvi:hd2cid
@@ -43493,6 +44659,8 @@ cjkvi:hducs2koseki
 "鋮"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鋮󠄁"
+cjkvi:hducs2ivs
 -":JB6847"
 ":aj22764"
 cjkvi:hd2cid
@@ -43536,6 +44704,8 @@ cjkvi:hducs2koseki
 "錀"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"錀󠄁"
+cjkvi:hducs2ivs
 -":JB6852"
 ":aj8675"
 cjkvi:hd2cid
@@ -43553,6 +44723,8 @@ cjkvi:hducs2koseki
 "錈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"錈󠄁"
+cjkvi:hducs2ivs
 -":JB6854"
 ":aj15232"
 cjkvi:hd2cid
@@ -43817,6 +44989,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "鍥󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB6885"
 ":aj22775"
 cjkvi:hd2cid
@@ -43837,6 +45010,8 @@ cjkvi:hducs2koseki
 "鍩"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鍩󠄁"
+cjkvi:hducs2ivs
 -":JB6887"
 ":aj15239"
 cjkvi:hd2cid
@@ -43997,6 +45172,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "鎋󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB6910"
 ":aj22784"
 cjkvi:hd2cid
@@ -44071,6 +45247,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "鎡󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB6918"
 ":aj17169"
 cjkvi:hd2cid
@@ -44098,6 +45275,8 @@ cjkvi:hducs2koseki
 "鎦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鎦󠄁"
+cjkvi:hducs2ivs
 -":JB6921"
 ":aj22790"
 cjkvi:hd2cid
@@ -44194,6 +45373,8 @@ cjkvi:hducs2koseki
 "鏅"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鏅󠄁"
+cjkvi:hducs2ivs
 -":JB6931"
 ":aj8679"
 cjkvi:hd2cid
@@ -44248,6 +45429,8 @@ cjkvi:hducs2koseki
 "鏌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鏌󠄁"
+cjkvi:hducs2ivs
 -":JB6937"
 ":aj22799"
 cjkvi:hd2cid
@@ -44270,6 +45453,8 @@ cjkvi:hducs2koseki
 "鏓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鏓󠄁"
+cjkvi:hducs2ivs
 -":JB6939"
 ":aj22801"
 cjkvi:hd2cid
@@ -44335,6 +45520,8 @@ cjkvi:hducs2koseki
 "鏹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鏹󠄁"
+cjkvi:hducs2ivs
 -":JB6947"
 ":aj22802"
 cjkvi:hd2cid
@@ -44462,6 +45649,8 @@ manakai:implements
 "鐕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鐕󠄁"
+cjkvi:hducs2ivs
 -":JB6961"
 ":aj18869"
 cjkvi:hd2cid
@@ -44498,6 +45687,8 @@ cjkvi:hducs2koseki
 "鐮"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鐮󠄁"
+cjkvi:hducs2ivs
 -":JB6965"
 ":aj22807"
 cjkvi:hd2cid
@@ -44508,6 +45699,8 @@ cjkvi:hducs2koseki
 "鐯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鐯󠄁"
+cjkvi:hducs2ivs
 -":JB6966"
 ":aj8682"
 cjkvi:hd2cid
@@ -44614,6 +45807,8 @@ cjkvi:hducs2koseki
 "鑌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鑌󠄁"
+cjkvi:hducs2ivs
 -":JB6978"
 ":aj15252"
 cjkvi:hd2cid
@@ -44654,6 +45849,8 @@ cjkvi:hducs2koseki
 "鑟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鑟󠄁"
+cjkvi:hducs2ivs
 -":JB6982"
 ":aj22813"
 cjkvi:hd2cid
@@ -44705,6 +45902,8 @@ cjkvi:hducs2koseki
 "鑮"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鑮󠄁"
+cjkvi:hducs2ivs
 -":JB6988"
 ":aj18877"
 cjkvi:hd2cid
@@ -44736,6 +45935,8 @@ cjkvi:hducs2koseki
 "钄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"钄󠄁"
+cjkvi:hducs2ivs
 -":JB6992"
 ":aj22817"
 cjkvi:hd2cid
@@ -44848,6 +46049,8 @@ cjkvi:hducs2koseki
 "閡"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"閡󠄁"
+cjkvi:hducs2ivs
 -":JB7011"
 ":aj15256"
 cjkvi:hd2cid
@@ -44954,6 +46157,8 @@ cjkvi:hducs2koseki
 "闉"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"闉󠄁"
+cjkvi:hducs2ivs
 -":JB7023"
 ":aj17180"
 cjkvi:hd2cid
@@ -44988,6 +46193,8 @@ cjkvi:hducs2koseki
 "闒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"闒󠄁"
+cjkvi:hducs2ivs
 -":JB7027"
 ":aj17182"
 cjkvi:hd2cid
@@ -45059,6 +46266,8 @@ cjkvi:hducs2koseki
 "闤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"闤󠄁"
+cjkvi:hducs2ivs
 -":JB7035"
 ":aj19951"
 cjkvi:hd2cid
@@ -45234,6 +46443,8 @@ cjkvi:hducs2koseki
 "陔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"陔󠄁"
+cjkvi:hducs2ivs
 -":JB7054"
 ":aj22834"
 cjkvi:hd2cid
@@ -45254,6 +46465,8 @@ cjkvi:hducs2koseki
 "陗"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"陗󠄁"
+cjkvi:hducs2ivs
 -":JB7056"
 ":aj15264"
 cjkvi:hd2cid
@@ -45298,6 +46511,8 @@ cjkvi:hducs2koseki
 "陻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"陻󠄁"
+cjkvi:hducs2ivs
 -":JB7061"
 ":aj22837"
 cjkvi:hd2cid
@@ -45359,6 +46574,8 @@ cjkvi:hducs2koseki
 "隃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"隃󠄁"
+cjkvi:hducs2ivs
 -":JB7067"
 ":aj15265"
 cjkvi:hd2cid
@@ -45512,6 +46729,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "嶲󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB7085"
 ":aj18904"
 cjkvi:hd2cid
@@ -45534,6 +46752,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "雚󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB7087"
 ":aj18906"
 cjkvi:hd2cid
@@ -45672,6 +46891,8 @@ cjkvi:hducs2koseki
 "霡"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"霡󠄂"
+cjkvi:hducs2ivs
 -":JB7108"
 ":aj19968"
 cjkvi:hd2cid
@@ -45768,6 +46989,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "靕󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB7119"
 ":aj18914"
 cjkvi:hd2cid
@@ -45787,6 +47009,8 @@ cjkvi:hducs2koseki
 "靘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"靘󠄁"
+cjkvi:hducs2ivs
 -":JB7121"
 ":aj15275"
 cjkvi:hd2cid
@@ -45876,6 +47100,8 @@ cjkvi:hducs2koseki
 "靸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"靸󠄁"
+cjkvi:hducs2ivs
 -":JB7131"
 ":aj22854"
 cjkvi:hd2cid
@@ -46058,6 +47284,8 @@ manakai:implements
 "鞸"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鞸󠄁"
+cjkvi:hducs2ivs
 -":JB7151"
 ":aj19978"
 cjkvi:hd2cid
@@ -46104,6 +47332,8 @@ cjkvi:hducs2koseki
 "鞿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鞿󠄁"
+cjkvi:hducs2ivs
 -":JB7156"
 ":aj17191"
 cjkvi:hd2cid
@@ -46121,6 +47351,8 @@ cjkvi:hducs2koseki
 "韄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韄󠄁"
+cjkvi:hducs2ivs
 -":JB7158"
 ":aj22862"
 cjkvi:hd2cid
@@ -46160,6 +47392,8 @@ cjkvi:hducs2koseki
 "韊"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韊󠄁"
+cjkvi:hducs2ivs
 -":JB7162"
 ":aj18924"
 cjkvi:hd2cid
@@ -46177,6 +47411,8 @@ cjkvi:hducs2koseki
 "韍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韍󠄁"
+cjkvi:hducs2ivs
 -":JB7164"
 ":aj22865"
 cjkvi:hd2cid
@@ -46187,6 +47423,8 @@ cjkvi:hducs2koseki
 "韎"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韎󠄁"
+cjkvi:hducs2ivs
 -":JB7165"
 ":aj22866"
 cjkvi:hd2cid
@@ -46197,6 +47435,8 @@ cjkvi:hducs2koseki
 "韐"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韐󠄁"
+cjkvi:hducs2ivs
 -":JB7166"
 ":aj18925"
 cjkvi:hd2cid
@@ -46225,6 +47465,8 @@ cjkvi:hducs2koseki
 "韗"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韗󠄁"
+cjkvi:hducs2ivs
 -":JB7169"
 ":aj18927"
 cjkvi:hd2cid
@@ -46253,6 +47495,8 @@ cjkvi:hducs2koseki
 "韝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韝󠄁"
+cjkvi:hducs2ivs
 -":JB7172"
 ":aj15284"
 cjkvi:hd2cid
@@ -46272,6 +47516,8 @@ cjkvi:hducs2koseki
 "韠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韠󠄁"
+cjkvi:hducs2ivs
 -":JB7174"
 ":aj17193"
 cjkvi:hd2cid
@@ -46300,6 +47546,8 @@ cjkvi:hducs2koseki
 "韤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韤󠄁"
+cjkvi:hducs2ivs
 -":JB7177"
 ":aj19981"
 cjkvi:hd2cid
@@ -46354,6 +47602,8 @@ cjkvi:hducs2koseki
 "韺"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"韺󠄁"
+cjkvi:hducs2ivs
 -":JB7183"
 ":aj19982"
 cjkvi:hd2cid
@@ -46381,6 +47631,8 @@ cjkvi:hducs2koseki
 "頙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"頙󠄁"
+cjkvi:hducs2ivs
 -":JB7186"
 ":aj18931"
 cjkvi:hd2cid
@@ -46436,6 +47688,8 @@ cjkvi:hducs2koseki
 "頠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"頠󠄁"
+cjkvi:hducs2ivs
 -":JB7193"
 ":aj15289"
 cjkvi:hd2cid
@@ -46538,6 +47792,8 @@ cjkvi:hducs2koseki
 "顄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"顄󠄁"
+cjkvi:hducs2ivs
 -":JB7211"
 ":aj18939"
 cjkvi:hd2cid
@@ -46801,6 +48057,8 @@ cjkvi:hducs2koseki
 "飦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"飦󠄁"
+cjkvi:hducs2ivs
 -":JB7244"
 ":aj17195"
 cjkvi:hd2cid
@@ -46834,6 +48092,8 @@ cjkvi:hducs2koseki
 "飶"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"飶󠄁"
+cjkvi:hducs2ivs
 -":JB7248"
 ":aj19989"
 cjkvi:hd2cid
@@ -46844,6 +48104,8 @@ cjkvi:hducs2koseki
 "餂"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餂󠄁"
+cjkvi:hducs2ivs
 -":JB7249"
 ":aj22886"
 cjkvi:hd2cid
@@ -46871,6 +48133,8 @@ cjkvi:hducs2koseki
 "餑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餑󠄁"
+cjkvi:hducs2ivs
 -":JB7252"
 ":aj19991"
 cjkvi:hd2cid
@@ -46881,6 +48145,8 @@ cjkvi:hducs2koseki
 "餕"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餕󠄁"
+cjkvi:hducs2ivs
 -":JB7253"
 ":aj18960"
 cjkvi:hd2cid
@@ -46926,6 +48192,8 @@ cjkvi:hducs2koseki
 "餟"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餟󠄁"
+cjkvi:hducs2ivs
 -":JB7259"
 ":aj22888"
 cjkvi:hd2cid
@@ -46936,6 +48204,8 @@ cjkvi:hducs2koseki
 "餢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餢󠄁"
+cjkvi:hducs2ivs
 -":JB7260"
 ":aj22889"
 cjkvi:hd2cid
@@ -46946,6 +48216,8 @@ cjkvi:hducs2koseki
 "餦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餦󠄁"
+cjkvi:hducs2ivs
 -":JB7261"
 ":aj8701"
 cjkvi:hd2cid
@@ -46956,6 +48228,8 @@ cjkvi:hducs2koseki
 "餧"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餧󠄁"
+cjkvi:hducs2ivs
 -":JB7262"
 ":aj22890"
 cjkvi:hd2cid
@@ -46966,6 +48240,8 @@ cjkvi:hducs2koseki
 "餫"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餫󠄁"
+cjkvi:hducs2ivs
 -":JB7263"
 ":aj18967"
 cjkvi:hd2cid
@@ -46997,6 +48273,8 @@ cjkvi:hducs2koseki
 "餴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餴󠄁"
+cjkvi:hducs2ivs
 -":JB7267"
 ":aj19992"
 cjkvi:hd2cid
@@ -47017,6 +48295,8 @@ cjkvi:hducs2koseki
 "餹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"餹󠄁"
+cjkvi:hducs2ivs
 -":JB7269"
 ":aj18968"
 cjkvi:hd2cid
@@ -47071,6 +48351,8 @@ cjkvi:hducs2koseki
 "饇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"饇󠄁"
+cjkvi:hducs2ivs
 -":JB7276"
 ":aj19993"
 cjkvi:hd2cid
@@ -47081,6 +48363,8 @@ cjkvi:hducs2koseki
 "饈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"饈󠄁"
+cjkvi:hducs2ivs
 -":JB7277"
 ":aj15304"
 cjkvi:hd2cid
@@ -47124,6 +48408,8 @@ cjkvi:hducs2koseki
 "饙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"饙󠄁"
+cjkvi:hducs2ivs
 -":JB7282"
 ":aj22895"
 cjkvi:hd2cid
@@ -47134,6 +48420,8 @@ cjkvi:hducs2koseki
 "饛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"饛󠄁"
+cjkvi:hducs2ivs
 -":JB7283"
 ":aj15305"
 cjkvi:hd2cid
@@ -47151,6 +48439,8 @@ cjkvi:hducs2koseki
 "饞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"饞󠄁"
+cjkvi:hducs2ivs
 -":JB7285"
 ":aj15306"
 cjkvi:hd2cid
@@ -47212,6 +48502,8 @@ cjkvi:hducs2koseki
 "馰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"馰󠄁"
+cjkvi:hducs2ivs
 -":JB7292"
 ":aj15307"
 cjkvi:hd2cid
@@ -47259,6 +48551,8 @@ cjkvi:hducs2koseki
 "馺"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"馺󠄁"
+cjkvi:hducs2ivs
 -":JB7303"
 ":aj18977"
 cjkvi:hd2cid
@@ -47510,6 +48804,8 @@ cjkvi:hducs2koseki
 "騞"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"騞󠄁"
+cjkvi:hducs2ivs
 -":JB7332"
 ":aj18990"
 cjkvi:hd2cid
@@ -47622,6 +48918,8 @@ cjkvi:hducs2koseki
 "驁"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"驁󠄁"
+cjkvi:hducs2ivs
 -":JB7345"
 ":aj18992"
 cjkvi:hd2cid
@@ -47684,6 +48982,8 @@ cjkvi:hducs2koseki
 "驔"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"驔󠄁"
+cjkvi:hducs2ivs
 -":JB7352"
 ":aj15320"
 cjkvi:hd2cid
@@ -47694,6 +48994,8 @@ cjkvi:hducs2koseki
 "驖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"驖󠄁"
+cjkvi:hducs2ivs
 -":JB7353"
 ":aj22923"
 cjkvi:hd2cid
@@ -47825,6 +49127,8 @@ cjkvi:hducs2koseki
 "骿"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"骿󠄁"
+cjkvi:hducs2ivs
 -":JB7366"
 ":aj17198"
 cjkvi:hd2cid
@@ -47856,6 +49160,8 @@ cjkvi:hducs2koseki
 "髈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"髈󠄁"
+cjkvi:hducs2ivs
 -":JB7370"
 ":aj17200"
 cjkvi:hd2cid
@@ -48189,6 +49495,8 @@ cjkvi:hducs2koseki
 "鬛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鬛󠄁"
+cjkvi:hducs2ivs
 -":JB7414"
 ":aj19013"
 cjkvi:hd2cid
@@ -48232,6 +49540,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "鬭󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB7419"
 ":aj15326"
 cjkvi:hd2cid
@@ -48735,6 +50044,8 @@ cjkvi:hducs2koseki
 "鮼"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鮼󠄁"
+cjkvi:hducs2ivs
 -":JB7476"
 ":aj19029"
 cjkvi:hd2cid
@@ -49042,6 +50353,8 @@ cjkvi:hducs2koseki
 "鰦"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鰦󠄁"
+cjkvi:hducs2ivs
 -":JB7519"
 ":aj15340"
 cjkvi:hd2cid
@@ -49353,6 +50666,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "鳦󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB7558"
 ":aj19069"
 cjkvi:hd2cid
@@ -49605,6 +50919,8 @@ cjkvi:hducs2koseki
 "鵥"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鵥󠄁"
+cjkvi:hducs2ivs
 -":JB7588"
 ":aj15352"
 cjkvi:hd2cid
@@ -49749,6 +51065,8 @@ cjkvi:hducs2koseki
 "鶓"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鶓󠄁"
+cjkvi:hducs2ivs
 -":JB7611"
 ":aj23001"
 cjkvi:hd2cid
@@ -49866,6 +51184,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "鶿󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JB7624"
 ":aj15357"
 cjkvi:hd2cid
@@ -49897,6 +51216,8 @@ cjkvi:hducs2koseki
 "鷊"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鷊󠄁"
+cjkvi:hducs2ivs
 -":JB7628"
 ":aj23008"
 cjkvi:hd2cid
@@ -50023,6 +51344,8 @@ cjkvi:hducs2koseki
 "鷰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鷰󠄁"
+cjkvi:hducs2ivs
 -":JB7642"
 ":aj20035"
 cjkvi:hd2cid
@@ -50050,6 +51373,8 @@ cjkvi:hducs2koseki
 "鷾"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鷾󠄁"
+cjkvi:hducs2ivs
 -":JB7645"
 ":aj19100"
 cjkvi:hd2cid
@@ -50128,6 +51453,8 @@ cjkvi:hducs2koseki
 "鸖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鸖󠄁"
+cjkvi:hducs2ivs
 -":JB7654"
 ":aj8716"
 cjkvi:hd2cid
@@ -50315,6 +51642,8 @@ cjkvi:hducs2koseki
 "麮"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"麮󠄁"
+cjkvi:hducs2ivs
 -":JB7676"
 ":aj17231"
 cjkvi:hd2cid
@@ -50332,6 +51661,8 @@ cjkvi:hducs2koseki
 "麰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"麰󠄁"
+cjkvi:hducs2ivs
 -":JB7678"
 ":aj23025"
 cjkvi:hd2cid
@@ -50366,6 +51697,8 @@ cjkvi:hducs2koseki
 "黆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"黆󠄁"
+cjkvi:hducs2ivs
 -":JB7682"
 ":aj23027"
 cjkvi:hd2cid
@@ -50376,6 +51709,8 @@ cjkvi:hducs2koseki
 "黈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"黈󠄁"
+cjkvi:hducs2ivs
 -":JB7683"
 ":aj23028"
 cjkvi:hd2cid
@@ -50386,6 +51721,8 @@ cjkvi:hducs2koseki
 "黋"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"黋󠄁"
+cjkvi:hducs2ivs
 -":JB7684"
 ":aj23029"
 cjkvi:hd2cid
@@ -50540,6 +51877,8 @@ cjkvi:hducs2koseki
 "鼏"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鼏󠄁"
+cjkvi:hducs2ivs
 -":JB7707"
 ":aj15370"
 cjkvi:hd2cid
@@ -50567,6 +51906,8 @@ cjkvi:hducs2koseki
 "鼒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鼒󠄁"
+cjkvi:hducs2ivs
 -":JB7710"
 ":aj20046"
 cjkvi:hd2cid
@@ -50587,6 +51928,8 @@ cjkvi:hducs2koseki
 "鼖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鼖󠄁"
+cjkvi:hducs2ivs
 -":JB7712"
 ":aj15372"
 cjkvi:hd2cid
@@ -50621,6 +51964,8 @@ cjkvi:hducs2koseki
 "鼛"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鼛󠄁"
+cjkvi:hducs2ivs
 -":JB7716"
 ":aj23038"
 cjkvi:hd2cid
@@ -50649,6 +51994,8 @@ cjkvi:hducs2koseki
 "鼢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鼢󠄁"
+cjkvi:hducs2ivs
 -":JB7718"
 ":aj20049"
 cjkvi:hd2cid
@@ -50696,6 +52043,8 @@ cjkvi:hducs2koseki
 "鼱"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鼱󠄁"
+cjkvi:hducs2ivs
 -":JB7723"
 ":aj23040"
 cjkvi:hd2cid
@@ -50706,6 +52055,8 @@ cjkvi:hducs2koseki
 "鼲"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鼲󠄁"
+cjkvi:hducs2ivs
 -":JB7724"
 ":aj20052"
 cjkvi:hd2cid
@@ -50841,6 +52192,8 @@ cjkvi:hducs2koseki
 "齖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"齖󠄁"
+cjkvi:hducs2ivs
 -":JB7739S"
 ":jis2-77-39"
 manakai:implements
@@ -50848,6 +52201,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "齖"
 cjkvi:hd2ucs
+"齖󠄂"
+cjkvi:hducs2ivs
 -":JB7740"
 ":aj15379"
 cjkvi:hd2cid
@@ -50997,6 +52352,8 @@ cjkvi:hducs2koseki
 "龏"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"龏󠄁"
+cjkvi:hducs2ivs
 -":JB7757"
 ":aj15383"
 cjkvi:hd2cid
@@ -51016,6 +52373,8 @@ cjkvi:hducs2koseki
 "龑"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"龑󠄁"
+cjkvi:hducs2ivs
 -":JB7759"
 ":aj23054"
 cjkvi:hd2cid
@@ -51150,6 +52509,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "丒"
 cjkvi:hducs2juki
+"丒󠄁"
+cjkvi:hducs2ivs
 -":JD0105"
 ":aj17237"
 cjkvi:hd2cid
@@ -51207,6 +52568,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "乇"
 cjkvi:hducs2juki
+"乇󠄁"
+cjkvi:hducs2ivs
 -":JD0110"
 ":aj14126"
 cjkvi:hd2cid
@@ -51230,6 +52593,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𠂢󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0112"
 ":JB1619"
 cjkvi:hd2ucs:=
@@ -51306,6 +52670,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㐬"
 cjkvi:hducs2juki
+"㐬󠄁"
+cjkvi:hducs2ivs
 -":JD0119S"
 ":IA0109"
 cjkvi:hd2ucs:=
@@ -51332,6 +52698,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "亹"
 cjkvi:hducs2juki
+"亹󠄁"
+cjkvi:hducs2ivs
 -":JD0121"
 ":aj13856"
 cjkvi:hd2cid
@@ -51435,6 +52803,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "仱"
 cjkvi:hducs2juki
+"仱󠄁"
+cjkvi:hducs2ivs
 -":JD0130"
 ":JB1646"
 cjkvi:hd2ucs:=
@@ -51457,6 +52827,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "伀"
 cjkvi:hducs2juki
+"伀󠄁"
+cjkvi:hducs2ivs
 -":JD0132"
 ":JB1658"
 cjkvi:hd2ucs:=
@@ -51468,6 +52840,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "伖"
 cjkvi:hducs2juki
+"伖󠄁"
+cjkvi:hducs2ivs
 -":JD0133"
 ":aj17255"
 cjkvi:hd2cid
@@ -51566,6 +52940,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "佺"
 cjkvi:hducs2juki
+"佺󠄁"
+cjkvi:hducs2ivs
 -":JD0142"
 ":JB1690"
 cjkvi:hd2ucs:=
@@ -51577,6 +52953,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "佽"
 cjkvi:hducs2juki
+"佽󠄁"
+cjkvi:hducs2ivs
 -":JD0143S"
 ":JB1693"
 cjkvi:hd2ucs:=
@@ -51743,6 +53121,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "倐"
 cjkvi:hducs2juki
+"倐󠄁"
+cjkvi:hducs2ivs
 -":JD0158"
 ":JB1749"
 cjkvi:hd2ucs:=
@@ -51765,6 +53145,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "倜"
 cjkvi:hducs2juki
+"倜󠄁"
+cjkvi:hducs2ivs
 -":JD0160"
 ":JB1755"
 cjkvi:hd2ucs:=
@@ -51809,6 +53191,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "偂"
 cjkvi:hducs2juki
+"偂󠄁"
+cjkvi:hducs2ivs
 -":JD0164"
 ":JB1767"
 cjkvi:hd2ucs:=
@@ -51897,6 +53281,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "偰"
 cjkvi:hducs2juki
+"偰󠄁"
+cjkvi:hducs2ivs
 -":JD0172"
 ":aj17276"
 cjkvi:hd2cid
@@ -51939,6 +53325,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "傓"
 cjkvi:hducs2juki
+"傓󠄁"
+cjkvi:hducs2ivs
 -":JD0176"
 ":aj17280"
 cjkvi:hd2cid
@@ -51982,6 +53370,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "傪"
 cjkvi:hducs2juki
+"傪󠄁"
+cjkvi:hducs2ivs
 -":JD0180"
 ":aj17282"
 cjkvi:hd2cid
@@ -51993,6 +53383,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𠌫"
 cjkvi:hd2ucs:U
+"𠌫󠄁"
+cjkvi:hducs2ivs
 -":JD0181"
 ":aj17283"
 cjkvi:hd2cid
@@ -52024,6 +53416,8 @@ cjkvi:hducs2koseki
 "傻"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"傻󠄁"
+cjkvi:hducs2ivs
 -":JD0184"
 ":JB1820"
 cjkvi:hd2ucs:=
@@ -52110,6 +53504,8 @@ cjkvi:hducs2koseki
 "僙"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"僙󠄁"
+cjkvi:hducs2ivs
 -":JD0192"
 ":aj17293"
 cjkvi:hd2cid
@@ -52152,6 +53548,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "儈"
 cjkvi:hducs2juki
+"儈󠄁"
+cjkvi:hducs2ivs
 -":JD0302"
 ":aj17295"
 cjkvi:hd2cid
@@ -52163,6 +53561,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𠏹"
 cjkvi:hd2ucs:U
+"𠏹󠄁"
+cjkvi:hducs2ivs
 -":JD0303"
 ":JB1851"
 cjkvi:hd2ucs:=
@@ -52185,6 +53585,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "儛"
 cjkvi:hducs2juki
+"儛󠄁"
+cjkvi:hducs2ivs
 -":JD0305"
 ":aj17297"
 cjkvi:hd2cid
@@ -52213,6 +53615,8 @@ cjkvi:hducs2koseki
 "兠"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"兠󠄁"
+cjkvi:hducs2ivs
 -":JD0307"
 ":aj17299"
 cjkvi:hd2cid
@@ -52224,6 +53628,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𠔉"
 cjkvi:hd2ucs:U
+"𠔉󠄁"
+cjkvi:hducs2ivs
 -":JD0308"
 ":aj17300"
 cjkvi:hd2cid
@@ -52236,6 +53642,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "关󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0309"
 ":JB1880"
 cjkvi:hd2ucs:=
@@ -52269,6 +53676,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㒼"
 cjkvi:hducs2juki
+"㒼󠄁"
+cjkvi:hducs2ivs
 -":JD0312"
 ":JB1884"
 cjkvi:hd2ucs:=
@@ -52280,6 +53689,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "冘"
 cjkvi:hducs2juki
+"冘󠄁"
+cjkvi:hducs2ivs
 -":JD0313"
 ":JB1887"
 cjkvi:hd2ucs:=
@@ -52320,6 +53731,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㓇"
 cjkvi:hducs2juki
+"㓇󠄁"
+cjkvi:hducs2ivs
 -":JD0316"
 ":JB1891"
 cjkvi:hd2ucs:=
@@ -52507,6 +53920,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𠠇󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0332"
 ":JB1954"
 cjkvi:hd2ucs:=
@@ -52518,6 +53932,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "劘"
 cjkvi:hducs2juki
+"劘󠄁"
+cjkvi:hducs2ivs
 -":JD0333"
 ":aj17321"
 cjkvi:hd2cid
@@ -52529,6 +53945,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𠠺"
 cjkvi:hd2ucs:U
+"𠠺󠄁"
+cjkvi:hducs2ivs
 -":JD0334"
 ":JB1957"
 cjkvi:hd2ucs:=
@@ -52605,6 +54023,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㔟"
 cjkvi:hducs2juki
+"㔟󠄁"
+cjkvi:hducs2ivs
 -":JD0341"
 ":JB1975"
 cjkvi:hd2ucs:=
@@ -52627,6 +54047,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𠢹"
 cjkvi:hd2ucs:U
+"𠢹󠄁"
+cjkvi:hducs2ivs
 -":JD0343S"
 ":JB1990"
 cjkvi:hd2ucs:=
@@ -52670,6 +54092,8 @@ cjkvi:hducs2koseki
 "匤"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"匤󠄁"
+cjkvi:hducs2ivs
 -":JD0347"
 ":JB2018"
 cjkvi:hd2ucs:=
@@ -52679,6 +54103,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "匵"
 cjkvi:hducs2juki
+"匵󠄁"
+cjkvi:hducs2ivs
 -":JD0348"
 ":JB2021"
 cjkvi:hd2ucs:=
@@ -52688,6 +54114,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "匾"
 cjkvi:hducs2juki
+"匾󠄁"
+cjkvi:hducs2ivs
 -":JD0349"
 ":JB2022"
 cjkvi:hd2ucs:=
@@ -52781,6 +54209,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𠫓󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0358"
 ":JB2051"
 cjkvi:hd2ucs:=
@@ -52790,6 +54219,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "厷"
 cjkvi:hducs2juki
+"厷󠄁"
+cjkvi:hducs2ivs
 -":JD0359"
 ":JB2055"
 cjkvi:hd2ucs:=
@@ -52894,6 +54325,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "呕󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0369"
 ":aj17346"
 cjkvi:hd2cid
@@ -52978,6 +54410,8 @@ cjkvi:hducs2koseki
 "咊"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"咊󠄁"
+cjkvi:hducs2ivs
 -":JD0377"
 ":JB2106"
 cjkvi:hd2ucs:=
@@ -53083,6 +54517,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𠵅󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0388"
 ":JB2131"
 cjkvi:hd2ucs:=
@@ -53166,6 +54601,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "啁"
 cjkvi:hducs2juki
+"啁󠄁"
+cjkvi:hducs2ivs
 -":JD0403"
 ":aj17369"
 cjkvi:hd2cid
@@ -53185,6 +54622,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "啇"
 cjkvi:hducs2juki
+"啇󠄁"
+cjkvi:hducs2ivs
 -":JD0405"
 ":JB2157"
 cjkvi:hd2ucs:=
@@ -53242,6 +54681,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𠷡"
 cjkvi:hd2ucs:U
+"𠷡󠄁"
+cjkvi:hducs2ivs
 -":JD0411"
 ":aj17374"
 cjkvi:hd2cid
@@ -53279,6 +54720,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "喑"
 cjkvi:hducs2juki
+"喑󠄁"
+cjkvi:hducs2ivs
 -":JD0415"
 ":aj17377"
 cjkvi:hd2cid
@@ -53298,6 +54741,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嗒"
 cjkvi:hducs2juki
+"嗒󠄁"
+cjkvi:hducs2ivs
 -":JD0417"
 ":aj17379"
 cjkvi:hd2cid
@@ -53366,6 +54811,8 @@ cjkvi:hducs2koseki
 "嗝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"嗝󠄁"
+cjkvi:hducs2ivs
 -":JD0424"
 ":aj17386"
 cjkvi:hd2cid
@@ -53385,6 +54832,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嗢"
 cjkvi:hducs2juki
+"嗢󠄁"
+cjkvi:hducs2ivs
 -":JD0426"
 ":aj17388"
 cjkvi:hd2cid
@@ -53454,6 +54903,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嘰"
 cjkvi:hducs2juki
+"嘰󠄁"
+cjkvi:hducs2ivs
 -":JD0433"
 ":JB2224"
 cjkvi:hd2ucs:=
@@ -53473,6 +54924,8 @@ cjkvi:hducs2koseki
 "㗴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"㗴󠄁"
+cjkvi:hducs2ivs
 -":JD0435"
 ":JB2228"
 cjkvi:hd2ucs:=
@@ -53510,6 +54963,8 @@ cjkvi:hducs2koseki
 "噇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"噇󠄁"
+cjkvi:hducs2ivs
 -":JD0439"
 ":JB2240"
 cjkvi:hd2ucs:=
@@ -53528,6 +54983,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "噠"
 cjkvi:hducs2juki
+"噠󠄁"
+cjkvi:hducs2ivs
 -":JD0441S"
 ":JB2247"
 cjkvi:hd2ucs:=
@@ -53596,6 +55053,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嚝"
 cjkvi:hducs2juki
+"嚝󠄁"
+cjkvi:hducs2ivs
 -":JD0448"
 ":JB2265"
 cjkvi:hd2ucs:=
@@ -53605,6 +55064,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嚨"
 cjkvi:hducs2juki
+"嚨󠄁"
+cjkvi:hducs2ivs
 -":JD0449S"
 ":JB2269"
 cjkvi:hd2ucs:=
@@ -53673,6 +55134,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "囶"
 cjkvi:hducs2juki
+"囶󠄁"
+cjkvi:hducs2ivs
 -":JD0456"
 ":JB2302"
 cjkvi:hd2ucs:=
@@ -53797,6 +55260,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𡉴󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0468"
 ":JB2336"
 cjkvi:hd2ucs:=
@@ -53837,6 +55301,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "坴"
 cjkvi:hducs2juki
+"坴󠄁"
+cjkvi:hducs2ivs
 -":JD0472"
 ":JB2345"
 cjkvi:hd2ucs:=
@@ -53906,6 +55372,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "垝"
 cjkvi:hducs2juki
+"垝󠄁"
+cjkvi:hducs2ivs
 -":JD0479"
 ":JB2361"
 cjkvi:hd2ucs:=
@@ -54024,6 +55492,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "埸"
 cjkvi:hducs2juki
+"埸󠄁"
+cjkvi:hducs2ivs
 -":JD0491"
 ":aj17443"
 cjkvi:hd2cid
@@ -54090,6 +55560,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "堲"
 cjkvi:hducs2juki
+"堲󠄁"
+cjkvi:hducs2ivs
 -":JD0504"
 ":JB2411"
 cjkvi:hd2ucs:=
@@ -54110,6 +55582,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𡏄"
 cjkvi:hd2ucs:U
+"𡏄󠄁"
+cjkvi:hducs2ivs
 -":JD0506"
 ":JB2413"
 cjkvi:hd2ucs:=
@@ -54126,6 +55600,8 @@ cjkvi:hd2ucs:=
 manakai:implements
 "塌"
 cjkvi:hducs2juki
+"塌󠄁"
+cjkvi:hducs2ivs
 -":JD0508"
 ":JB2422"
 cjkvi:hd2ucs:=
@@ -54135,6 +55611,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "塧"
 cjkvi:hducs2juki
+"塧󠄁"
+cjkvi:hducs2ivs
 -":JD0509"
 ":JB2432"
 cjkvi:hd2ucs:=
@@ -54163,6 +55641,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "墍"
 cjkvi:hducs2juki
+"墍󠄁"
+cjkvi:hducs2ivs
 -":JD0512"
 ":JB2435"
 cjkvi:hd2ucs:=
@@ -54181,6 +55661,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "墐"
 cjkvi:hducs2juki
+"墐󠄁"
+cjkvi:hducs2ivs
 -":JD0514"
 ":JB2437"
 cjkvi:hd2ucs:=
@@ -54239,6 +55721,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𡑭"
 cjkvi:hd2ucs:U
+"𡑭󠄁"
+cjkvi:hducs2ivs
 -":JD0519"
 ":aj17463"
 cjkvi:hd2cid
@@ -54276,6 +55760,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "壳"
 cjkvi:hducs2juki
+"壳󠄁"
+cjkvi:hducs2ivs
 -":JD0523"
 ":aj17467"
 cjkvi:hd2cid
@@ -54286,6 +55772,8 @@ cjkvi:hducs2koseki
 "壴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"壴󠄁"
+cjkvi:hducs2ivs
 -":JD0524"
 ":JB2463"
 cjkvi:hd2ucs:=
@@ -54295,6 +55783,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "夅"
 cjkvi:hducs2juki
+"夅󠄁"
+cjkvi:hducs2ivs
 -":JD0525"
 ":JB2464"
 cjkvi:hd2ucs:=
@@ -54304,6 +55794,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "夆"
 cjkvi:hducs2juki
+"夆󠄂"
+cjkvi:hducs2ivs
 -":JD0526"
 ":JB2465"
 cjkvi:hd2ucs:=
@@ -54334,6 +55826,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "夔"
 cjkvi:hducs2juki
+"夔󠄁"
+cjkvi:hducs2ivs
 -":JD0529"
 ":JB2474"
 cjkvi:hd2ucs:=
@@ -54365,6 +55859,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㚑"
 cjkvi:hducs2juki
+"㚑󠄁"
+cjkvi:hducs2ivs
 -":JD0532"
 ":aj17474"
 cjkvi:hd2cid
@@ -54395,6 +55891,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "奆"
 cjkvi:hducs2juki
+"奆󠄁"
+cjkvi:hducs2ivs
 -":JD0535"
 ":aj17477"
 cjkvi:hd2cid
@@ -54416,6 +55914,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𦰩"
 cjkvi:hd2ucs:U
+"𦰩󠄁"
+cjkvi:hducs2ivs
 -":JD0537"
 ":JB2487"
 cjkvi:hd2ucs:=
@@ -54434,6 +55934,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "奟"
 cjkvi:hducs2juki
+"奟󠄁"
+cjkvi:hducs2ivs
 -":JD0539"
 ":aj17480"
 cjkvi:hd2cid
@@ -54521,6 +56023,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "姍"
 cjkvi:hducs2juki
+"姍󠄁"
+cjkvi:hducs2ivs
 -":JD0548"
 ":JB2533"
 cjkvi:hd2ucs:=
@@ -54585,6 +56089,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𡜆󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0554"
 ":aj17493"
 cjkvi:hd2cid
@@ -54653,6 +56158,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "娧"
 cjkvi:hducs2juki
+"娧󠄁"
+cjkvi:hducs2ivs
 -":JD0560"
 ":JB2557"
 cjkvi:hd2ucs:=
@@ -54736,6 +56243,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "媢"
 cjkvi:hducs2juki
+"媢󠄁"
+cjkvi:hducs2ivs
 -":JD0569"
 ":JB2587"
 cjkvi:hd2ucs:=
@@ -54763,6 +56272,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "媵"
 cjkvi:hducs2juki
+"媵󠄁"
+cjkvi:hducs2ivs
 -":JD0572S"
 ":JB2592"
 cjkvi:hd2ucs:=
@@ -54774,6 +56285,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "媺"
 cjkvi:hducs2juki
+"媺󠄁"
+cjkvi:hducs2ivs
 -":JD0573S"
 ":JB2594"
 cjkvi:hd2ucs:=
@@ -54785,6 +56298,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "媿"
 cjkvi:hducs2juki
+"媿󠄁"
+cjkvi:hducs2ivs
 -":JD0574"
 ":aj17510"
 cjkvi:hd2cid
@@ -54796,6 +56311,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "嫚󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0575"
 ":JB2606"
 cjkvi:hd2ucs:=
@@ -54805,6 +56321,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嫜"
 cjkvi:hducs2juki
+"嫜󠄁"
+cjkvi:hducs2ivs
 -":JD0576S"
 ":JB2607"
 cjkvi:hd2ucs:=
@@ -54889,6 +56407,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嬴"
 cjkvi:hducs2juki
+"嬴󠄁"
+cjkvi:hducs2ivs
 -":JD0585"
 ":JB2624"
 cjkvi:hd2ucs:=
@@ -54943,6 +56463,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "孼"
 cjkvi:hducs2juki
+"孼󠄂"
+cjkvi:hducs2ivs
 -":JD0591"
 ":JB2638"
 cjkvi:hd2ucs:=
@@ -55001,6 +56523,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "宬"
 cjkvi:hducs2juki
+"宬󠄁"
+cjkvi:hducs2ivs
 -":JD0803"
 ":IA0219"
 cjkvi:hd2ucs:=
@@ -55021,6 +56545,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "寀"
 cjkvi:hducs2juki
+"寀󠄁"
+cjkvi:hducs2ivs
 -":JD0805"
 ":aj17529"
 cjkvi:hd2cid
@@ -55031,6 +56557,8 @@ cjkvi:hducs2koseki
 "㝢"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"㝢󠄁"
+cjkvi:hducs2ivs
 -":JD0806"
 ":aj17530"
 cjkvi:hd2cid
@@ -55078,6 +56606,8 @@ cjkvi:hducs2koseki
 "㝫"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"㝫󠄁"
+cjkvi:hducs2ivs
 -":JD0810"
 ":JB2670"
 cjkvi:hd2ucs:=
@@ -55096,6 +56626,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "寽"
 cjkvi:hducs2juki
+"寽󠄁"
+cjkvi:hducs2ivs
 -":JD0812"
 ":aj17536"
 cjkvi:hd2cid
@@ -55270,6 +56802,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "岈"
 cjkvi:hducs2juki
+"岈󠄁"
+cjkvi:hducs2ivs
 -":JD0829"
 ":JB2711"
 cjkvi:hd2ucs:=
@@ -55290,6 +56824,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㟁"
 cjkvi:hducs2juki
+"㟁󠄁"
+cjkvi:hducs2ivs
 -":JD0831"
 ":aj17551"
 cjkvi:hd2cid
@@ -55301,6 +56837,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𡶡"
 cjkvi:hd2ucs:U
+"𡶡󠄁"
+cjkvi:hducs2ivs
 -":JD0832"
 ":aj17552"
 cjkvi:hd2cid
@@ -55312,6 +56850,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𡶜"
 cjkvi:hd2ucs:U
+"𡶜󠄁"
+cjkvi:hducs2ivs
 -":JD0833"
 ":JB2716"
 cjkvi:hd2ucs:=
@@ -55437,6 +56977,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "崆"
 cjkvi:hducs2juki
+"崆󠄁"
+cjkvi:hducs2ivs
 -":JD0845"
 ":aj17564"
 cjkvi:hd2cid
@@ -55468,6 +57010,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "崝󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0848"
 ":aj17567"
 cjkvi:hd2cid
@@ -55629,6 +57172,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嶒"
 cjkvi:hducs2juki
+"嶒󠄁"
+cjkvi:hducs2ivs
 -":JD0864"
 ":JB2774"
 cjkvi:hd2ucs:=
@@ -55657,6 +57202,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "嶙"
 cjkvi:hducs2juki
+"嶙󠄁"
+cjkvi:hducs2ivs
 -":JD0867"
 ":JB2782"
 cjkvi:hd2ucs:=
@@ -55677,6 +57224,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "嶲󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0869"
 ":JB2783"
 cjkvi:hd2ucs:=
@@ -55699,6 +57247,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𡽶󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0871"
 ":JB2785"
 cjkvi:hd2ucs:=
@@ -55783,6 +57332,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "巩"
 cjkvi:hducs2juki
+"巩󠄁"
+cjkvi:hducs2ivs
 -":JD0879"
 ":aj17588"
 cjkvi:hd2cid
@@ -55794,6 +57345,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "㠯󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0880"
 ":JB2804"
 cjkvi:hd2ucs:=
@@ -55815,6 +57367,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "㠶󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD0882"
 ":JB2807"
 cjkvi:hd2ucs:=
@@ -55871,6 +57424,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "帮"
 cjkvi:hducs2juki
+"帮󠄁"
+cjkvi:hducs2ivs
 -":JD0887S"
 ":JB2817"
 cjkvi:hd2ucs:=
@@ -55882,6 +57437,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "帾"
 cjkvi:hducs2juki
+"帾󠄁"
+cjkvi:hducs2ivs
 -":JD0888S"
 ":JB2820"
 cjkvi:hd2ucs:=
@@ -55951,6 +57508,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "幭"
 cjkvi:hducs2juki
+"幭󠄁"
+cjkvi:hducs2ivs
 -":JD1201"
 ":JB2832"
 cjkvi:hd2ucs:=
@@ -55998,6 +57557,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "庬"
 cjkvi:hducs2juki
+"庬󠄁"
+cjkvi:hducs2ivs
 -":JD1206"
 ":aj17602"
 cjkvi:hd2cid
@@ -56008,6 +57569,8 @@ cjkvi:hducs2koseki
 "庹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"庹󠄁"
+cjkvi:hducs2ivs
 -":JD1207"
 ":JB2847"
 cjkvi:hd2ucs:=
@@ -56017,6 +57580,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "庿"
 cjkvi:hducs2juki
+"庿󠄁"
+cjkvi:hducs2ivs
 -":JD1208S"
 ":JB2848"
 cjkvi:hd2ucs:=
@@ -56051,6 +57616,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "廙󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1211"
 ":aj17605"
 cjkvi:hd2cid
@@ -56107,6 +57673,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "弎"
 cjkvi:hducs2juki
+"弎󠄁"
+cjkvi:hducs2ivs
 -":JD1215"
 ":JB2866"
 cjkvi:hd2ucs:=
@@ -56186,6 +57754,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "徏"
 cjkvi:hducs2juki
+"徏󠄁"
+cjkvi:hducs2ivs
 -":JD1223"
 ":JB2915"
 cjkvi:hd2ucs:=
@@ -56337,6 +57907,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㤗"
 cjkvi:hducs2juki
+"㤗󠄁"
+cjkvi:hducs2ivs
 -":JD1239"
 ":JB2954"
 cjkvi:hd2ucs:=
@@ -56402,6 +57974,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "恿"
 cjkvi:hducs2juki
+"恿󠄁"
+cjkvi:hducs2ivs
 -":JD1245"
 ":JB2980"
 cjkvi:hd2ucs:=
@@ -56429,6 +58003,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "您"
 cjkvi:hducs2juki
+"您󠄁"
+cjkvi:hducs2ivs
 -":JD1248"
 ":aj17632"
 cjkvi:hd2cid
@@ -56440,6 +58016,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𢛳"
 cjkvi:hd2ucs:U
+"𢛳󠄁"
+cjkvi:hducs2ivs
 -":JD1249"
 ":JB2992"
 cjkvi:hd2ucs:=
@@ -56467,6 +58045,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "悾"
 cjkvi:hducs2juki
+"悾󠄁"
+cjkvi:hducs2ivs
 -":JD1252"
 ":JB3005"
 cjkvi:hd2ucs:=
@@ -56542,6 +58122,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "愒"
 cjkvi:hducs2juki
+"愒󠄁"
+cjkvi:hducs2ivs
 -":JD1260S"
 ":JB3031"
 cjkvi:hd2ucs:=
@@ -56591,6 +58173,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "愺"
 cjkvi:hducs2juki
+"愺󠄁"
+cjkvi:hducs2ivs
 -":JD1264"
 ":aj17643"
 cjkvi:hd2cid
@@ -56603,6 +58187,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "㥯󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1265"
 ":JB3047"
 cjkvi:hd2ucs:=
@@ -56672,6 +58257,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "憓"
 cjkvi:hducs2juki
+"憓󠄁"
+cjkvi:hducs2ivs
 -":JD1272S"
 ":JB3067"
 cjkvi:hd2ucs:=
@@ -56741,6 +58328,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "懕"
 cjkvi:hducs2juki
+"懕󠄁"
+cjkvi:hducs2ivs
 -":JD1279"
 ":JB3087"
 cjkvi:hd2ucs:=
@@ -56777,6 +58366,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "懵"
 cjkvi:hducs2juki
+"懵󠄁"
+cjkvi:hducs2ivs
 -":JD1282"
 ":aj17657"
 cjkvi:hd2cid
@@ -56826,6 +58417,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "扆"
 cjkvi:hducs2juki
+"扆󠄁"
+cjkvi:hducs2ivs
 -":JD1287"
 ":JB3123"
 cjkvi:hd2ucs:=
@@ -57049,6 +58642,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "挼"
 cjkvi:hducs2juki
+"挼󠄁"
+cjkvi:hducs2ivs
 -":JD1315"
 ":JB3175"
 cjkvi:hd2ucs:=
@@ -57067,6 +58662,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "捄"
 cjkvi:hducs2juki
+"捄󠄁"
+cjkvi:hducs2ivs
 -":JD1317"
 ":JB3182"
 cjkvi:hd2ucs:=
@@ -57076,6 +58673,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "捎"
 cjkvi:hducs2juki
+"捎󠄁"
+cjkvi:hducs2ivs
 -":JD1318"
 ":aj17680"
 cjkvi:hd2cid
@@ -57110,6 +58709,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𢰝󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1321"
 ":aj17683"
 cjkvi:hd2cid
@@ -57227,6 +58827,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "揠"
 cjkvi:hducs2juki
+"揠󠄁"
+cjkvi:hducs2ivs
 -":JD1333"
 ":aj17692"
 cjkvi:hd2cid
@@ -57248,6 +58850,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "揬"
 cjkvi:hducs2juki
+"揬󠄁"
+cjkvi:hducs2ivs
 -":JD1335"
 ":JB3234"
 cjkvi:hd2ucs:=
@@ -57284,6 +58888,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "搥"
 cjkvi:hducs2juki
+"搥󠄁"
+cjkvi:hducs2ivs
 -":JD1339"
 ":JB3250"
 cjkvi:hd2ucs:=
@@ -57291,6 +58897,8 @@ cjkvi:hd2ucs:=
 manakai:implements
 "搩"
 cjkvi:hducs2juki
+"搩󠄁"
+cjkvi:hducs2ivs
 -":JD1340"
 ":JB3252"
 cjkvi:hd2ucs:=
@@ -57300,6 +58908,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "搯"
 cjkvi:hducs2juki
+"搯󠄁"
+cjkvi:hducs2ivs
 -":JD1341"
 ":JB3263"
 cjkvi:hd2ucs:=
@@ -57318,6 +58928,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "摛"
 cjkvi:hducs2juki
+"摛󠄁"
+cjkvi:hducs2ivs
 -":JD1343S"
 ":JB3266"
 cjkvi:hd2ucs:=
@@ -57338,6 +58950,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "摳"
 cjkvi:hducs2juki
+"摳󠄁"
+cjkvi:hducs2ivs
 -":JD1345"
 ":JB3275"
 cjkvi:hd2ucs:=
@@ -57443,6 +59057,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "擤"
 cjkvi:hducs2juki
+"擤󠄁"
+cjkvi:hducs2ivs
 -":JD1356"
 ":JB3312"
 cjkvi:hd2ucs:=
@@ -57461,6 +59077,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "擿"
 cjkvi:hducs2juki
+"擿󠄁"
+cjkvi:hducs2ivs
 -":JD1358"
 ":JB3322"
 cjkvi:hd2ucs:=
@@ -57481,6 +59099,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㩮"
 cjkvi:hducs2juki
+"㩮󠄁"
+cjkvi:hducs2ivs
 -":JD1360"
 ":JB3326"
 cjkvi:hd2ucs:=
@@ -57490,6 +59110,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "攏"
 cjkvi:hducs2juki
+"攏󠄁"
+cjkvi:hducs2ivs
 -":JD1361"
 ":JB3328"
 cjkvi:hd2ucs:=
@@ -57499,6 +59121,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "攔"
 cjkvi:hducs2juki
+"攔󠄁"
+cjkvi:hducs2ivs
 -":JD1362"
 ":JB3329"
 cjkvi:hd2ucs:=
@@ -57596,6 +59220,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "敺"
 cjkvi:hducs2juki
+"敺󠄁"
+cjkvi:hducs2ivs
 -":JD1370S"
 ":JB3354"
 cjkvi:hd2ucs:=
@@ -57607,6 +59233,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "斁"
 cjkvi:hducs2juki
+"斁󠄁"
+cjkvi:hducs2ivs
 -":JD1371"
 ":aj17723"
 cjkvi:hd2cid
@@ -57656,6 +59284,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "斲"
 cjkvi:hducs2juki
+"斲󠄁"
+cjkvi:hducs2ivs
 -":JD1375"
 ":aj17726"
 cjkvi:hd2cid
@@ -57664,6 +59294,8 @@ manakai:implements
 "斵"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"斵󠄁"
+cjkvi:hducs2ivs
 -":JD1376"
 ":aj17727"
 cjkvi:hd2cid
@@ -57707,6 +59339,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "旉"
 cjkvi:hducs2juki
+"旉󠄁"
+cjkvi:hducs2ivs
 -":JD1380SS"
 ":JB3374"
 cjkvi:hd2ucs:=
@@ -57738,6 +59372,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "旲"
 cjkvi:hducs2juki
+"旲󠄁"
+cjkvi:hducs2ivs
 -":JD1383"
 ":JB3382"
 cjkvi:hd2ucs:=
@@ -57747,6 +59383,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "旹"
 cjkvi:hducs2juki
+"旹󠄁"
+cjkvi:hducs2ivs
 -":JD1384"
 ":aj17733"
 cjkvi:hd2cid
@@ -57781,6 +59419,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "昈"
 cjkvi:hducs2juki
+"昈󠄁"
+cjkvi:hducs2ivs
 -":JD1387"
 ":JB3402"
 cjkvi:hd2ucs:=
@@ -57790,6 +59430,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "昡"
 cjkvi:hducs2juki
+"昡󠄁"
+cjkvi:hducs2ivs
 -":JD1388"
 ":JB3408"
 cjkvi:hd2ucs:=
@@ -57848,6 +59490,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𣇃"
 cjkvi:hd2ucs:U
+"𣇃󠄁"
+cjkvi:hducs2ivs
 -":JD1394"
 ":JB3424"
 cjkvi:hd2ucs:=
@@ -57898,6 +59542,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𣆶"
 cjkvi:hd2ucs:U
+"𣆶󠄁"
+cjkvi:hducs2ivs
 -":JD1405"
 ":JB3432"
 cjkvi:hd2ucs:=
@@ -57935,6 +59581,8 @@ cjkvi:hducs2koseki
 "晭"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"晭󠄁"
+cjkvi:hducs2ivs
 -":JD1409"
 ":JB3442"
 cjkvi:hd2ucs:=
@@ -57955,6 +59603,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "暀󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1411S"
 ":JB3448"
 cjkvi:hd2ucs:=
@@ -57968,6 +59617,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2koseki
 "暐"
 cjkvi:hducs2juki
+"暐󠄁"
+cjkvi:hducs2ivs
 -":JD1412"
 ":JB3449"
 cjkvi:hd2ucs:=
@@ -58005,6 +59656,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "暭"
 cjkvi:hducs2juki
+"暭󠄁"
+cjkvi:hducs2ivs
 -":JD1416"
 ":JB3458"
 cjkvi:hd2ucs:=
@@ -58014,6 +59667,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "暱"
 cjkvi:hducs2juki
+"暱󠄁"
+cjkvi:hducs2ivs
 -":JD1417"
 ":JB3460"
 cjkvi:hd2ucs:=
@@ -58054,6 +59709,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㬜"
 cjkvi:hducs2juki
+"㬜󠄁"
+cjkvi:hducs2ivs
 -":JD1421"
 ":JB3475"
 cjkvi:hd2ucs:=
@@ -58085,6 +59742,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "朁󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1424"
 ":JB3478"
 cjkvi:hd2ucs:=
@@ -58124,6 +59782,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "朙"
 cjkvi:hducs2juki
+"朙󠄁"
+cjkvi:hducs2ivs
 -":JD1428"
 ":aj17763"
 cjkvi:hd2cid
@@ -58146,6 +59806,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𣏒"
 cjkvi:hd2ucs:U
+"𣏒󠄁"
+cjkvi:hducs2ivs
 -":JD1430"
 ":JB3491"
 cjkvi:hd2ucs:=
@@ -58266,6 +59928,8 @@ cjkvi:hducs2koseki
 "枒"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"枒󠄁"
+cjkvi:hducs2ivs
 -":JD1440S"
 ":jis2-14-40"
 manakai:implements
@@ -58273,6 +59937,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "枒"
 cjkvi:hd2ucs
+"枒󠄂"
+cjkvi:hducs2ivs
 -":JD1441"
 ":aj17774"
 cjkvi:hd2cid
@@ -58313,6 +59979,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "枰"
 cjkvi:hducs2juki
+"枰󠄁"
+cjkvi:hducs2ivs
 -":JD1445"
 ":JB3519"
 cjkvi:hd2ucs:=
@@ -58340,6 +60008,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "柈"
 cjkvi:hducs2juki
+"柈󠄁"
+cjkvi:hducs2ivs
 -":JD1448"
 ":JB3531"
 cjkvi:hd2ucs:=
@@ -58445,6 +60115,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "栟"
 cjkvi:hducs2juki
+"栟󠄂"
+cjkvi:hducs2ivs
 -":JD1458"
 ":JB3549"
 cjkvi:hd2ucs:=
@@ -58517,6 +60189,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "桅"
 cjkvi:hducs2juki
+"桅󠄁"
+cjkvi:hducs2ivs
 -":JD1465"
 ":aj17793"
 cjkvi:hd2cid
@@ -58545,6 +60219,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "桕"
 cjkvi:hducs2juki
+"桕󠄁"
+cjkvi:hducs2ivs
 -":JD1468"
 ":JB3561"
 cjkvi:hd2ucs:=
@@ -58591,6 +60267,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "桺"
 cjkvi:hducs2juki
+"桺󠄃"
+cjkvi:hducs2ivs
 -":JD1473"
 ":JB3574"
 cjkvi:hd2ucs:=
@@ -58667,6 +60345,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "梚"
 cjkvi:hducs2juki
+"梚󠄁"
+cjkvi:hducs2ivs
 -":JD1481"
 ":JB3582"
 cjkvi:hd2ucs:=
@@ -58733,6 +60413,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "棻"
 cjkvi:hducs2juki
+"棻󠄁"
+cjkvi:hducs2ivs
 -":JD1487"
 ":aj17814"
 cjkvi:hd2cid
@@ -58757,6 +60439,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𣕚󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1489"
 ":aj8497"
 cjkvi:hd2cid
@@ -58768,6 +60451,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "﨓"
 cjkvi:hd2ucs:U
+"﨓󠄁"
+cjkvi:hducs2ivs
 -":JD1490"
 ":aj17816"
 cjkvi:hd2cid
@@ -58796,6 +60481,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "棌"
 cjkvi:hducs2juki
+"棌󠄁"
+cjkvi:hducs2ivs
 -":JD1493"
 ":JB3594"
 cjkvi:hd2ucs:=
@@ -58805,6 +60492,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "棏"
 cjkvi:hducs2juki
+"棏󠄁"
+cjkvi:hducs2ivs
 -":JD1494"
 ":JB3604"
 cjkvi:hd2ucs:=
@@ -58871,6 +60560,8 @@ cjkvi:hducs2koseki
 "椃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"椃󠄁"
+cjkvi:hducs2ivs
 -":JD1507"
 ":aj17825"
 cjkvi:hd2cid
@@ -58881,6 +60572,8 @@ cjkvi:hducs2koseki
 "椇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"椇󠄁"
+cjkvi:hducs2ivs
 -":JD1508"
 ":aj17826"
 cjkvi:hd2cid
@@ -58947,6 +60640,8 @@ cjkvi:hducs2koseki
 "㮍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"㮍󠄁"
+cjkvi:hducs2ivs
 -":JD1513"
 ":aj17829"
 cjkvi:hd2cid
@@ -58957,6 +60652,8 @@ cjkvi:hducs2koseki
 "楆"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"楆󠄁"
+cjkvi:hducs2ivs
 -":JD1514S"
 ":JB3645"
 cjkvi:hd2ucs:=
@@ -59013,6 +60710,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "榒"
 cjkvi:hducs2juki
+"榒󠄁"
+cjkvi:hducs2ivs
 -":JD1520"
 ":aj17834"
 cjkvi:hd2cid
@@ -59031,6 +60730,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㮤"
 cjkvi:hducs2juki
+"㮤󠄁"
+cjkvi:hducs2ivs
 -":JD1521"
 ":JB3656"
 cjkvi:hd2ucs:=
@@ -59049,6 +60750,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "榘"
 cjkvi:hducs2juki
+"榘󠄁"
+cjkvi:hducs2ivs
 -":JD1523"
 ":JB3660"
 cjkvi:hd2ucs:=
@@ -59058,6 +60761,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "榦"
 cjkvi:hducs2juki
+"榦󠄁"
+cjkvi:hducs2ivs
 -":JD1524"
 ":aj17836"
 cjkvi:hd2cid
@@ -59086,6 +60791,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "榺"
 cjkvi:hducs2juki
+"榺󠄁"
+cjkvi:hducs2ivs
 -":JD1527"
 ":JB3668"
 cjkvi:hd2ucs:=
@@ -59169,6 +60876,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𣘸󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1535"
 ":aj15393"
 cjkvi:hd2cid
@@ -59180,6 +60888,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𣘺"
 cjkvi:hd2ucs:U
+"𣘺󠄃"
+cjkvi:hducs2ivs
 -":JD1536"
 ":aj17844"
 cjkvi:hd2cid
@@ -59237,6 +60947,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㯍"
 cjkvi:hducs2juki
+"㯍󠄁"
+cjkvi:hducs2ivs
 -":JD1541"
 ":aj17849"
 cjkvi:hd2cid
@@ -59258,6 +60970,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "槾󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1543"
 ":JB3686"
 cjkvi:hd2ucs:=
@@ -59300,6 +61013,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𣜜󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1547"
 ":JB3694"
 cjkvi:hd2ucs:=
@@ -59319,6 +61033,8 @@ cjkvi:hducs2koseki
 "樳"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"樳󠄁"
+cjkvi:hducs2ivs
 -":JD1549"
 ":JB3701"
 cjkvi:hd2ucs:=
@@ -59328,6 +61044,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "樴"
 cjkvi:hducs2juki
+"樴󠄁"
+cjkvi:hducs2ivs
 -":JD1550"
 ":JB3705"
 cjkvi:hd2ucs:=
@@ -59355,6 +61073,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "橉"
 cjkvi:hducs2juki
+"橉󠄁"
+cjkvi:hducs2ivs
 -":JD1553"
 ":aj17859"
 cjkvi:hd2cid
@@ -59484,6 +61204,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𣝤"
 cjkvi:hd2ucs:U
+"𣝤󠄁"
+cjkvi:hducs2ivs
 -":JD1566"
 ":JB3735"
 cjkvi:hd2ucs:=
@@ -59522,6 +61244,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "櫔"
 cjkvi:hducs2juki
+"櫔󠄁"
+cjkvi:hducs2ivs
 -":JD1570"
 ":JB3747"
 cjkvi:hd2ucs:=
@@ -59540,6 +61264,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "櫜"
 cjkvi:hducs2juki
+"櫜󠄁"
+cjkvi:hducs2ivs
 -":JD1572"
 ":JB3752"
 cjkvi:hd2ucs:=
@@ -59549,6 +61275,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "櫝"
 cjkvi:hducs2juki
+"櫝󠄁"
+cjkvi:hducs2ivs
 -":JD1573"
 ":aj17874"
 cjkvi:hd2cid
@@ -59573,6 +61301,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𣟧󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD1575"
 ":JB3755"
 cjkvi:hd2ucs:=
@@ -59698,6 +61427,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "欗"
 cjkvi:hducs2juki
+"欗󠄁"
+cjkvi:hducs2ivs
 -":JD1587"
 ":aj17887"
 cjkvi:hd2cid
@@ -59929,6 +61660,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "氎"
 cjkvi:hducs2juki
+"氎󠄁"
+cjkvi:hducs2ivs
 -":JD7817"
 ":JB3851"
 cjkvi:hd2ucs:=
@@ -59998,6 +61731,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "汛"
 cjkvi:hducs2juki
+"汛󠄁"
+cjkvi:hducs2ivs
 -":JD7824"
 ":JB3866"
 cjkvi:hd2ucs:=
@@ -60007,6 +61742,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "汭"
 cjkvi:hducs2juki
+"汭󠄁"
+cjkvi:hducs2ivs
 -":JD7825"
 ":aj17914"
 cjkvi:hd2cid
@@ -60023,6 +61760,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "沄"
 cjkvi:hducs2juki
+"沄󠄁"
+cjkvi:hducs2ivs
 -":JD7826"
 ":JB3876"
 cjkvi:hd2ucs:=
@@ -60072,6 +61811,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "沗"
 cjkvi:hducs2juki
+"沗󠄁"
+cjkvi:hducs2ivs
 -":JD7831"
 ":aj17919"
 cjkvi:hd2cid
@@ -60239,6 +61980,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "汧"
 cjkvi:hducs2juki
+"汧󠄁"
+cjkvi:hducs2ivs
 -":JD7848"
 ":JB3924"
 cjkvi:hd2ucs:=
@@ -60248,6 +61991,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "洯"
 cjkvi:hducs2juki
+"洯󠄁"
+cjkvi:hducs2ivs
 -":JD7849"
 ":JB3927"
 cjkvi:hd2ucs:=
@@ -60385,6 +62130,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𣷺"
 cjkvi:hd2ucs:U
+"𣷺󠄁"
+cjkvi:hducs2ivs
 -":JD7863"
 ":aj17944"
 cjkvi:hd2cid
@@ -60403,6 +62150,8 @@ manakai:implements
 cjkvi:hducs2koseki
 ":u-juki-ab18"
 cjkvi:hducs2juki
+"𣷹󠄁"
+cjkvi:hducs2ivs
 -":JD7864"
 ":aj17945"
 cjkvi:hd2cid
@@ -60414,6 +62163,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𣷓"
 cjkvi:hd2ucs:U
+"𣷓󠄁"
+cjkvi:hducs2ivs
 -":JD7865"
 ":aj17946"
 cjkvi:hd2cid
@@ -60463,6 +62214,8 @@ cjkvi:hducs2koseki
 "洴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"洴󠄁"
+cjkvi:hducs2ivs
 -":JD7870"
 ":JB3954"
 cjkvi:hd2ucs:=
@@ -60490,6 +62243,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "淏"
 cjkvi:hducs2juki
+"淏󠄁"
+cjkvi:hducs2ivs
 -":JD7873"
 ":aj15414"
 cjkvi:hd2cid
@@ -60538,6 +62293,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "渶"
 cjkvi:hducs2juki
+"渶󠄁"
+cjkvi:hducs2ivs
 -":JD7878"
 ":JB3973"
 cjkvi:hd2ucs:=
@@ -60567,6 +62324,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "渧"
 cjkvi:hducs2juki
+"渧󠄁"
+cjkvi:hducs2ivs
 -":JD7881"
 ":aj17957"
 cjkvi:hd2cid
@@ -60586,6 +62345,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "渲"
 cjkvi:hducs2juki
+"渲󠄁"
+cjkvi:hducs2ivs
 -":JD7883"
 ":JB3980"
 cjkvi:hd2ucs:=
@@ -60626,6 +62387,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "湋"
 cjkvi:hducs2juki
+"湋󠄁"
+cjkvi:hducs2ivs
 -":JD7887"
 ":aj17962"
 cjkvi:hd2cid
@@ -60701,6 +62464,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㴞"
 cjkvi:hducs2juki
+"㴞󠄁"
+cjkvi:hducs2ivs
 -":JD7901"
 ":JB4008"
 cjkvi:hd2ucs:=
@@ -60710,6 +62475,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "溓"
 cjkvi:hducs2juki
+"溓󠄁"
+cjkvi:hducs2ivs
 -":JD7902"
 ":JB4011"
 cjkvi:hd2ucs:=
@@ -60738,6 +62505,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "溿"
 cjkvi:hducs2juki
+"溿󠄁"
+cjkvi:hducs2ivs
 -":JD7905"
 ":JB4020"
 cjkvi:hd2ucs:=
@@ -60831,6 +62600,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "漌"
 cjkvi:hducs2juki
+"漌󠄁"
+cjkvi:hducs2ivs
 -":JD7914S"
 ":JB4039"
 cjkvi:hd2ucs:=
@@ -60947,6 +62718,8 @@ cjkvi:hducs2koseki
 "澘"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"澘󠄂"
+cjkvi:hducs2ivs
 -":JD7925"
 ":JB4065"
 cjkvi:hd2ucs:=
@@ -60986,6 +62759,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "澾󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD7929"
 ":JB4079"
 cjkvi:hd2ucs:=
@@ -61026,6 +62800,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㵤"
 cjkvi:hducs2juki
+"㵤󠄁"
+cjkvi:hducs2ivs
 -":JD7933S"
 ":JB4088"
 cjkvi:hd2ucs:=
@@ -61046,6 +62822,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "濈"
 cjkvi:hducs2juki
+"濈󠄁"
+cjkvi:hducs2ivs
 -":JD7935"
 ":aj17996"
 cjkvi:hd2cid
@@ -61083,6 +62861,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "濩"
 cjkvi:hducs2juki
+"濩󠄁"
+cjkvi:hducs2ivs
 -":JD7939"
 ":aj17998"
 cjkvi:hd2cid
@@ -61112,6 +62892,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "瀀"
 cjkvi:hducs2juki
+"瀀󠄁"
+cjkvi:hducs2ivs
 -":JD7942"
 ":JB4113"
 cjkvi:hd2ucs:=
@@ -61121,6 +62903,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "瀇"
 cjkvi:hducs2juki
+"瀇󠄁"
+cjkvi:hducs2ivs
 -":JD7943"
 ":aj18001"
 cjkvi:hd2cid
@@ -61151,6 +62935,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𤄃"
 cjkvi:hd2ucs:U
+"𤄃󠄁"
+cjkvi:hducs2ivs
 -":JD7946"
 ":JB4121"
 cjkvi:hd2ucs:=
@@ -61279,6 +63065,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "灮"
 cjkvi:hducs2juki
+"灮󠄁"
+cjkvi:hducs2ivs
 -":JD7958"
 ":JB4139"
 cjkvi:hd2ucs:=
@@ -61306,6 +63094,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "炁"
 cjkvi:hducs2juki
+"炁󠄁"
+cjkvi:hducs2ivs
 -":JD7961SS"
 ":JB4143"
 cjkvi:hd2ucs:=
@@ -61478,6 +63268,8 @@ cjkvi:hducs2koseki
 "焈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"焈󠄁"
+cjkvi:hducs2ivs
 -":JD7979"
 ":JB4172"
 cjkvi:hd2ucs:=
@@ -61498,6 +63290,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㷀"
 cjkvi:hducs2juki
+"㷀󠄁"
+cjkvi:hducs2ivs
 -":JD7981"
 ":JB4178"
 cjkvi:hd2ucs:=
@@ -61525,6 +63319,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "煐"
 cjkvi:hducs2juki
+"煐󠄁"
+cjkvi:hducs2ivs
 -":JD7984"
 ":JB4186"
 cjkvi:hd2ucs:=
@@ -61566,6 +63362,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "㷔"
 cjkvi:hducs2juki
+"㷔󠄁"
+cjkvi:hducs2ivs
 -":JD7988"
 ":aj18032"
 cjkvi:hd2cid
@@ -61576,6 +63374,8 @@ cjkvi:hducs2koseki
 "熖"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"熖󠄁"
+cjkvi:hducs2ivs
 -":JD7989"
 ":JB4203"
 cjkvi:hd2ucs:=
@@ -61614,6 +63414,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "熢"
 cjkvi:hducs2juki
+"熢󠄁"
+cjkvi:hducs2ivs
 -":JD7993"
 ":aj18037"
 cjkvi:hd2cid
@@ -61644,6 +63446,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "熳󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8002"
 ":aj18039"
 cjkvi:hd2cid
@@ -61702,6 +63505,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "爇"
 cjkvi:hducs2juki
+"爇󠄁"
+cjkvi:hducs2ivs
 -":JD8008"
 ":aj18043"
 cjkvi:hd2cid
@@ -61723,6 +63528,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "爫"
 cjkvi:hd2ucs
+"爫󠄂"
+cjkvi:hducs2ivs
 "爫"
 cjkvi:hd2ucs:U
 -":JD8010"
@@ -61734,6 +63541,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "爫"
 cjkvi:hducs2juki
+"爫󠄃"
+cjkvi:hducs2ivs
 -":JD8011"
 ":JB4242"
 cjkvi:hd2ucs:=
@@ -61795,6 +63604,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "牓"
 cjkvi:hducs2juki
+"牓󠄁"
+cjkvi:hducs2ivs
 -":JD8017"
 ":aj18047"
 cjkvi:hd2cid
@@ -61805,6 +63616,8 @@ cjkvi:hducs2koseki
 "牗"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"牗󠄁"
+cjkvi:hducs2ivs
 -":JD8018"
 ":JB4259"
 cjkvi:hd2ucs:=
@@ -61814,6 +63627,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "牣"
 cjkvi:hducs2juki
+"牣󠄁"
+cjkvi:hducs2ivs
 -":JD8019"
 ":aj18049"
 cjkvi:hd2cid
@@ -61861,6 +63676,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "牿"
 cjkvi:hducs2juki
+"牿󠄁"
+cjkvi:hducs2ivs
 -":JD8024"
 ":JB4273"
 cjkvi:hd2ucs:=
@@ -61899,6 +63716,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "犮"
 cjkvi:hducs2juki
+"犮󠄁"
+cjkvi:hducs2ivs
 -":JD8028"
 ":aj18057"
 cjkvi:hd2cid
@@ -62038,6 +63857,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "㺃󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8042"
 ":aj18070"
 cjkvi:hd2cid
@@ -62096,6 +63916,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "獒"
 cjkvi:hducs2juki
+"獒󠄁"
+cjkvi:hducs2ivs
 -":JD8048"
 ":aj18075"
 cjkvi:hd2cid
@@ -62222,6 +64044,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "玘"
 cjkvi:hducs2juki
+"玘󠄁"
+cjkvi:hducs2ivs
 -":JD8061S"
 ":JB4356"
 cjkvi:hd2ucs:=
@@ -62359,6 +64183,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "珹"
 cjkvi:hducs2juki
+"珹󠄁"
+cjkvi:hducs2ivs
 -":JD8075"
 ":aj18094"
 cjkvi:hd2cid
@@ -62396,6 +64222,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "琤"
 cjkvi:hducs2juki
+"琤󠄁"
+cjkvi:hducs2ivs
 -":JD8079"
 ":JB4421"
 cjkvi:hd2ucs:=
@@ -62405,6 +64233,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "琱"
 cjkvi:hducs2juki
+"琱󠄁"
+cjkvi:hducs2ivs
 -":JD8080"
 ":JB4422"
 cjkvi:hd2ucs:=
@@ -62482,6 +64312,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "瑱"
 cjkvi:hducs2juki
+"瑱󠄁"
+cjkvi:hducs2ivs
 -":JD8088"
 ":JB4444"
 cjkvi:hd2ucs:=
@@ -62493,6 +64325,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2koseki
 "璁"
 cjkvi:hducs2juki
+"璁󠄁"
+cjkvi:hducs2ivs
 -":JD8089"
 ":JB4445"
 cjkvi:hd2ucs:=
@@ -62502,6 +64336,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "璅"
 cjkvi:hducs2juki
+"璅󠄁"
+cjkvi:hducs2ivs
 -":JD8090"
 ":aj18103"
 cjkvi:hd2cid
@@ -62577,6 +64413,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "璡"
 cjkvi:hducs2juki
+"璡󠄁"
+cjkvi:hducs2ivs
 -":JD8103"
 ":aj18109"
 cjkvi:hd2cid
@@ -62597,6 +64435,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "璥"
 cjkvi:hducs2juki
+"璥󠄁"
+cjkvi:hducs2ivs
 -":JD8104"
 ":JB4464"
 cjkvi:hd2ucs:=
@@ -62664,6 +64504,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "瓘󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8111"
 ":JB4482"
 cjkvi:hd2ucs:=
@@ -62673,6 +64514,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "瓞"
 cjkvi:hducs2juki
+"瓞󠄁"
+cjkvi:hducs2ivs
 -":JD8112"
 ":aj14160"
 cjkvi:hd2cid
@@ -62684,6 +64527,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "瓯󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8113"
 ":JB4487"
 cjkvi:hd2ucs:=
@@ -62790,6 +64634,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "甾"
 cjkvi:hducs2juki
+"甾󠄁"
+cjkvi:hducs2ivs
 -":JD8124"
 ":JB4516"
 cjkvi:hd2ucs:=
@@ -63169,6 +65015,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "瘛"
 cjkvi:hducs2juki
+"瘛󠄁"
+cjkvi:hducs2ivs
 -":JD8164"
 ":JB4582"
 cjkvi:hd2ucs:=
@@ -63217,6 +65065,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "瘼"
 cjkvi:hducs2juki
+"瘼󠄁"
+cjkvi:hducs2ivs
 -":JD8169"
 ":JB4591"
 cjkvi:hd2ucs:=
@@ -63256,6 +65106,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "癁"
 cjkvi:hducs2juki
+"癁󠄁"
+cjkvi:hducs2ivs
 -":JD8173"
 ":aj18170"
 cjkvi:hd2cid
@@ -63322,6 +65174,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "皜"
 cjkvi:hducs2juki
+"皜󠄁"
+cjkvi:hducs2ivs
 -":JD8180"
 ":aj18176"
 cjkvi:hd2cid
@@ -63350,6 +65204,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "皧"
 cjkvi:hducs2juki
+"皧󠄁"
+cjkvi:hducs2ivs
 -":JD8183"
 ":JB4637"
 cjkvi:hd2ucs:=
@@ -63596,6 +65452,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𥉌󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8213"
 ":aj18198"
 cjkvi:hd2cid
@@ -63635,6 +65492,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "瞢󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8217"
 ":aj18202"
 cjkvi:hd2cid
@@ -63787,6 +65645,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "砉"
 cjkvi:hducs2juki
+"砉󠄁"
+cjkvi:hducs2ivs
 -":JD8233"
 ":JB4749"
 cjkvi:hd2ucs:=
@@ -63898,6 +65758,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "碤"
 cjkvi:hducs2juki
+"碤󠄁"
+cjkvi:hducs2ivs
 -":JD8244"
 ":JB4784"
 cjkvi:hd2ucs:=
@@ -63934,6 +65796,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "碻"
 cjkvi:hducs2juki
+"碻󠄁"
+cjkvi:hducs2ivs
 -":JD8248"
 ":JB4805"
 cjkvi:hd2ucs:=
@@ -63952,6 +65816,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "磌"
 cjkvi:hducs2juki
+"磌󠄁"
+cjkvi:hducs2ivs
 -":JD8250"
 ":JB4808"
 cjkvi:hd2ucs:=
@@ -64007,6 +65873,8 @@ cjkvi:hducs2koseki
 "磹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"磹󠄁"
+cjkvi:hducs2ivs
 -":JD8256S"
 ":JB4825"
 cjkvi:hd2ucs:=
@@ -64108,6 +65976,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "祊"
 cjkvi:hducs2juki
+"祊󠄁"
+cjkvi:hducs2ivs
 -":JD8266"
 ":JB4854"
 cjkvi:hd2ucs:=
@@ -64117,6 +65987,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "祘"
 cjkvi:hducs2juki
+"祘󠄁"
+cjkvi:hducs2ivs
 -":JD8267"
 ":JB4855"
 cjkvi:hd2ucs:=
@@ -64126,6 +65998,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "祛"
 cjkvi:hducs2juki
+"祛󠄁"
+cjkvi:hducs2ivs
 -":JD8268"
 ":aj18235"
 cjkvi:hd2cid
@@ -64137,6 +66011,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "䄅󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8269"
 ":JB4857"
 cjkvi:hd2ucs:=
@@ -64146,6 +66021,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "祧"
 cjkvi:hducs2juki
+"祧󠄁"
+cjkvi:hducs2ivs
 -":JD8270"
 ":JB4860"
 cjkvi:hd2ucs:=
@@ -64155,6 +66032,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "祲"
 cjkvi:hducs2juki
+"祲󠄁"
+cjkvi:hducs2ivs
 -":JD8271"
 ":JB4869"
 cjkvi:hd2ucs:=
@@ -64164,6 +66043,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "禔"
 cjkvi:hducs2juki
+"禔󠄁"
+cjkvi:hducs2ivs
 -":JD8272S"
 ":JB4870"
 cjkvi:hd2ucs:=
@@ -64177,6 +66058,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "禕"
 cjkvi:hducs2juki
+"禕󠄁"
+cjkvi:hducs2ivs
 -":JD8273"
 ":JB4871"
 cjkvi:hd2ucs:=
@@ -64186,6 +66069,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "禖"
 cjkvi:hducs2juki
+"禖󠄁"
+cjkvi:hducs2ivs
 -":JD8274"
 ":JB4873"
 cjkvi:hd2ucs:=
@@ -64195,6 +66080,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "禛"
 cjkvi:hducs2juki
+"禛󠄁"
+cjkvi:hducs2ivs
 -":JD8275"
 ":JB4875"
 cjkvi:hd2ucs:=
@@ -64204,6 +66091,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "禡"
 cjkvi:hducs2juki
+"禡󠄁"
+cjkvi:hducs2ivs
 -":JD8276"
 ":JB4877"
 cjkvi:hd2ucs:=
@@ -64213,6 +66102,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "禩"
 cjkvi:hducs2juki
+"禩󠄁"
+cjkvi:hducs2ivs
 -":JD8277"
 ":JB4881"
 cjkvi:hd2ucs:=
@@ -64222,6 +66113,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "禴"
 cjkvi:hducs2juki
+"禴󠄁"
+cjkvi:hducs2ivs
 -":JD8278S"
 ":JB4883"
 cjkvi:hd2ucs:=
@@ -64233,6 +66126,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "离"
 cjkvi:hducs2juki
+"离󠄁"
+cjkvi:hducs2ivs
 -":JD8279"
 ":JB4884"
 cjkvi:hd2ucs:=
@@ -64292,6 +66187,8 @@ cjkvi:hducs2koseki
 "䅈"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"䅈󠄁"
+cjkvi:hducs2ivs
 -":JD8285"
 ":aj18248"
 cjkvi:hd2cid
@@ -64305,6 +66202,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𥞩󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8286"
 ":aj18249"
 cjkvi:hd2cid
@@ -64318,6 +66216,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𥞴󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8287"
 ":IA0534"
 cjkvi:hd2ucs:=
@@ -64422,6 +66321,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "穌"
 cjkvi:hducs2juki
+"穌󠄁"
+cjkvi:hducs2ivs
 -":JD8304"
 ":JB4937"
 cjkvi:hd2ucs:=
@@ -64449,6 +66350,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "穜"
 cjkvi:hducs2juki
+"穜󠄁"
+cjkvi:hducs2ivs
 -":JD8307S"
 ":JB4941"
 cjkvi:hd2ucs:=
@@ -64460,6 +66363,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "穟"
 cjkvi:hducs2juki
+"穟󠄁"
+cjkvi:hducs2ivs
 -":JD8308"
 ":JB4942"
 cjkvi:hd2ucs:=
@@ -64531,6 +66436,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "窊"
 cjkvi:hducs2juki
+"窊󠄁"
+cjkvi:hducs2ivs
 -":JD8315S"
 ":JB4956"
 cjkvi:hd2ucs:=
@@ -64564,6 +66471,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "窬"
 cjkvi:hducs2juki
+"窬󠄁"
+cjkvi:hducs2ivs
 -":JD8318"
 ":aj18268"
 cjkvi:hd2cid
@@ -64600,6 +66509,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "䆴"
 cjkvi:hducs2juki
+"䆴󠄁"
+cjkvi:hducs2ivs
 -":JD8320S"
 ":JB4965"
 cjkvi:hd2ucs:=
@@ -64702,6 +66613,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "竴"
 cjkvi:hducs2juki
+"竴󠄁"
+cjkvi:hducs2ivs
 -":JD8329"
 ":aj18276"
 cjkvi:hd2cid
@@ -64936,6 +66849,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "箐"
 cjkvi:hducs2juki
+"箐󠄁"
+cjkvi:hducs2ivs
 -":JD8353"
 ":JB5024"
 cjkvi:hd2ucs:=
@@ -64952,6 +66867,8 @@ cjkvi:hd2ucs:=
 manakai:implements
 "箛"
 cjkvi:hducs2juki
+"箛󠄁"
+cjkvi:hducs2ivs
 -":JD8355"
 ":IA0549"
 cjkvi:hd2ucs:=
@@ -65019,6 +66936,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𥱋"
 cjkvi:hd2ucs:U
+"𥱋󠄁"
+cjkvi:hducs2ivs
 -":JD8362"
 ":aj18303"
 cjkvi:hd2cid
@@ -65162,6 +67081,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "籑"
 cjkvi:hducs2juki
+"籑󠄁"
+cjkvi:hducs2ivs
 -":JD8376"
 ":aj18313"
 cjkvi:hd2cid
@@ -65201,6 +67122,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "籩󠄄"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8380"
 ":JB5106"
 cjkvi:hd2ucs:=
@@ -65220,6 +67142,8 @@ cjkvi:hducs2koseki
 "籯"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"籯󠄁"
+cjkvi:hducs2ivs
 -":JD8382"
 ":JB5107"
 cjkvi:hd2ucs:=
@@ -65271,6 +67195,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "粦"
 cjkvi:hducs2juki
+"粦󠄁"
+cjkvi:hducs2ivs
 -":JD8387"
 ":aj18322"
 cjkvi:hd2cid
@@ -65320,6 +67246,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𥻘"
 cjkvi:hd2ucs:U
+"𥻘󠄁"
+cjkvi:hducs2ivs
 -":JD8392"
 ":JB5126"
 cjkvi:hd2ucs:=
@@ -65340,6 +67268,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𥻂"
 cjkvi:hd2ucs:U
+"𥻂󠄁"
+cjkvi:hducs2ivs
 -":JD8394"
 ":JB5128"
 cjkvi:hd2ucs:=
@@ -65429,6 +67359,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "糵"
 cjkvi:hducs2juki
+"糵󠄁"
+cjkvi:hducs2ivs
 -":JD8409"
 ":JB5143"
 cjkvi:hd2ucs:=
@@ -65447,6 +67379,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "紉"
 cjkvi:hducs2juki
+"紉󠄂"
+cjkvi:hducs2ivs
 -":JD8411"
 ":aj18335"
 cjkvi:hd2cid
@@ -65458,6 +67392,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "䋆󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8412"
 ":JB5149"
 cjkvi:hd2ucs:=
@@ -65650,6 +67585,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "綆"
 cjkvi:hducs2juki
+"綆󠄁"
+cjkvi:hducs2ivs
 -":JD8431"
 ":JB5187"
 cjkvi:hd2ucs:=
@@ -65677,6 +67614,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "綗"
 cjkvi:hducs2juki
+"綗󠄁"
+cjkvi:hducs2ivs
 -":JD8434"
 ":aj18355"
 cjkvi:hd2cid
@@ -65715,6 +67654,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "綪"
 cjkvi:hducs2juki
+"綪󠄁"
+cjkvi:hducs2ivs
 -":JD8438"
 ":JB5206"
 cjkvi:hd2ucs:=
@@ -65822,6 +67763,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "縉"
 cjkvi:hd2ucs
+"縉󠄃"
+cjkvi:hducs2ivs
 "縉"
 cjkvi:hd2ucs:U
 -":JD8449"
@@ -65851,6 +67794,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "縝"
 cjkvi:hducs2juki
+"縝󠄁"
+cjkvi:hducs2ivs
 -":JD8452"
 ":JB5238"
 cjkvi:hd2ucs:=
@@ -65871,6 +67816,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "縧"
 cjkvi:hducs2juki
+"縧󠄁"
+cjkvi:hducs2ivs
 -":JD8454"
 ":JB5241"
 cjkvi:hd2ucs:=
@@ -65891,6 +67838,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "繅"
 cjkvi:hducs2juki
+"繅󠄁"
+cjkvi:hducs2ivs
 -":JD8456"
 ":JB5261"
 cjkvi:hd2ucs:=
@@ -65919,6 +67868,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "繾"
 cjkvi:hducs2juki
+"繾󠄁"
+cjkvi:hducs2ivs
 -":JD8459"
 ":JB5265"
 cjkvi:hd2ucs:=
@@ -65928,6 +67879,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "纆"
 cjkvi:hducs2juki
+"纆󠄁"
+cjkvi:hducs2ivs
 -":JD8460"
 ":JB5266"
 cjkvi:hd2ucs:=
@@ -65987,6 +67940,8 @@ cjkvi:hducs2koseki
 "䍃"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"䍃󠄁"
+cjkvi:hducs2ivs
 -":JD8466S"
 ":JB5275"
 cjkvi:hd2ucs:=
@@ -66020,6 +67975,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "缾"
 cjkvi:hducs2juki
+"缾󠄂"
+cjkvi:hducs2ivs
 -":JD8469"
 ":JB5280"
 cjkvi:hd2ucs:=
@@ -66162,6 +68119,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "羐"
 cjkvi:hducs2juki
+"羐󠄁"
+cjkvi:hducs2ivs
 -":JD8484"
 ":aj18393"
 cjkvi:hd2cid
@@ -66172,6 +68131,8 @@ cjkvi:hducs2koseki
 "养"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"养󠄁"
+cjkvi:hducs2ivs
 -":JD8485"
 ":aj18394"
 cjkvi:hd2cid
@@ -66183,6 +68144,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𣴎"
 cjkvi:hd2ucs:U
+"𣴎󠄁"
+cjkvi:hducs2ivs
 -":JD8486"
 ":JB5311"
 cjkvi:hd2ucs:=
@@ -66210,6 +68173,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "羭"
 cjkvi:hducs2juki
+"羭󠄁"
+cjkvi:hducs2ivs
 -":JD8489"
 ":aj18398"
 cjkvi:hd2cid
@@ -66239,6 +68204,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "翏"
 cjkvi:hducs2juki
+"翏󠄁"
+cjkvi:hducs2ivs
 -":JD8492"
 ":JB5329"
 cjkvi:hd2ucs:=
@@ -66259,6 +68226,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "翥"
 cjkvi:hducs2juki
+"翥󠄁"
+cjkvi:hducs2ivs
 -":JD8494"
 ":JB5334"
 cjkvi:hd2ucs:=
@@ -66334,6 +68303,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "耖"
 cjkvi:hducs2juki
+"耖󠄁"
+cjkvi:hducs2ivs
 -":JD8508"
 ":JB5354"
 cjkvi:hd2ucs:=
@@ -66361,6 +68332,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "耰"
 cjkvi:hducs2juki
+"耰󠄁"
+cjkvi:hducs2ivs
 -":JD8511"
 ":aj18408"
 cjkvi:hd2cid
@@ -66569,6 +68542,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "脵"
 cjkvi:hducs2juki
+"脵󠄁"
+cjkvi:hducs2ivs
 -":JD8532"
 ":JB5410"
 cjkvi:hd2ucs:=
@@ -66597,6 +68572,8 @@ cjkvi:hducs2koseki
 "䏰"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"䏰󠄁"
+cjkvi:hducs2ivs
 -":JD8535"
 ":JB5416"
 cjkvi:hd2ucs:=
@@ -66716,6 +68693,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "膄"
 cjkvi:hducs2juki
+"膄󠄁"
+cjkvi:hducs2ivs
 -":JD8546"
 ":JB5440"
 cjkvi:hd2ucs:=
@@ -66851,6 +68830,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "臽"
 cjkvi:hducs2juki
+"臽󠄁"
+cjkvi:hducs2ivs
 -":JD8560"
 ":JB5476"
 cjkvi:hd2ucs:=
@@ -66860,6 +68841,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "臿"
 cjkvi:hducs2juki
+"臿󠄁"
+cjkvi:hducs2ivs
 -":JD8561"
 ":aj18450"
 cjkvi:hd2cid
@@ -66881,6 +68864,8 @@ cjkvi:hducs2koseki
 "舄"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"舄󠄁"
+cjkvi:hducs2ivs
 -":JD8563"
 ":aj18452"
 cjkvi:hd2cid
@@ -67024,6 +69009,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "䑶"
 cjkvi:hducs2juki
+"䑶󠄁"
+cjkvi:hducs2ivs
 -":JD8577"
 ":JB5503"
 cjkvi:hd2ucs:=
@@ -67054,6 +69041,8 @@ cjkvi:hducs2koseki
 "艗"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"艗󠄁"
+cjkvi:hducs2ivs
 -":JD8580"
 ":aj18463"
 cjkvi:hd2cid
@@ -67107,6 +69096,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "艹"
 cjkvi:hd2ucs
+"艹󠄃"
+cjkvi:hducs2ivs
 "艹"
 cjkvi:hd2ucs:U
 -":JD8585"
@@ -67120,6 +69111,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "艹"
 cjkvi:hd2ucs
+"艹󠄄"
+cjkvi:hducs2ivs
 "艹"
 cjkvi:hd2ucs:U
 -":JD8586"
@@ -67132,6 +69125,8 @@ cjkvi:hducs2koseki
 "艹"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"艹󠄅"
+cjkvi:hducs2ivs
 -":JD8587"
 ":IA0615"
 cjkvi:hd2ucs:=
@@ -67152,6 +69147,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "艽"
 cjkvi:hducs2juki
+"艽󠄁"
+cjkvi:hducs2ivs
 -":JD8589"
 ":JB5514"
 cjkvi:hd2ucs:=
@@ -67161,6 +69158,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "艿"
 cjkvi:hducs2juki
+"艿󠄁"
+cjkvi:hducs2ivs
 -":JD8590"
 ":JB5517"
 cjkvi:hd2ucs:=
@@ -67170,6 +69169,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芃"
 cjkvi:hducs2juki
+"芃󠄁"
+cjkvi:hducs2ivs
 -":JD8591"
 ":JB5521"
 cjkvi:hd2ucs:=
@@ -67179,6 +69180,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芊"
 cjkvi:hducs2juki
+"芊󠄁"
+cjkvi:hducs2ivs
 -":JD8592"
 ":aj18472"
 cjkvi:hd2cid
@@ -67191,6 +69194,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "芓󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8593"
 ":JB5533"
 cjkvi:hd2ucs:=
@@ -67200,6 +69204,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芧"
 cjkvi:hducs2juki
+"芧󠄁"
+cjkvi:hducs2ivs
 -":JD8594"
 ":JB5534"
 cjkvi:hd2ucs:=
@@ -67209,6 +69215,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芨"
 cjkvi:hducs2juki
+"芨󠄁"
+cjkvi:hducs2ivs
 -":JD8601"
 ":JB5539"
 cjkvi:hd2ucs:=
@@ -67218,6 +69226,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芲"
 cjkvi:hducs2juki
+"芲󠄁"
+cjkvi:hducs2ivs
 -":JD8602"
 ":JB5540"
 cjkvi:hd2ucs:=
@@ -67227,6 +69237,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芴"
 cjkvi:hducs2juki
+"芴󠄁"
+cjkvi:hducs2ivs
 -":JD8603"
 ":JB5542"
 cjkvi:hd2ucs:=
@@ -67236,6 +69248,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芺"
 cjkvi:hducs2juki
+"芺󠄁"
+cjkvi:hducs2ivs
 -":JD8604S"
 ":JB5543"
 cjkvi:hd2ucs:=
@@ -67247,6 +69261,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "芼"
 cjkvi:hducs2juki
+"芼󠄁"
+cjkvi:hducs2ivs
 -":JD8605"
 ":JB5551"
 cjkvi:hd2ucs:=
@@ -67256,6 +69272,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "苢"
 cjkvi:hducs2juki
+"苢󠄁"
+cjkvi:hducs2ivs
 -":JD8606"
 ":JB5553"
 cjkvi:hd2ucs:=
@@ -67265,6 +69283,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "苨"
 cjkvi:hducs2juki
+"苨󠄁"
+cjkvi:hducs2ivs
 -":JD8607"
 ":JB5558"
 cjkvi:hd2ucs:=
@@ -67274,6 +69294,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "苷"
 cjkvi:hducs2juki
+"苷󠄁"
+cjkvi:hducs2ivs
 -":JD8608"
 ":JB5563"
 cjkvi:hd2ucs:=
@@ -67283,6 +69305,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "茇"
 cjkvi:hducs2juki
+"茇󠄁"
+cjkvi:hducs2ivs
 -":JD8609"
 ":JB5564"
 cjkvi:hd2ucs:=
@@ -67292,6 +69316,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "茈"
 cjkvi:hducs2juki
+"茈󠄁"
+cjkvi:hducs2ivs
 -":JD8610"
 ":aj18484"
 cjkvi:hd2cid
@@ -67304,6 +69330,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "茌󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8611"
 ":JB5567"
 cjkvi:hd2ucs:=
@@ -67313,6 +69340,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "荔"
 cjkvi:hducs2juki
+"荔󠄁"
+cjkvi:hducs2ivs
 -":JD8612"
 ":JB5568"
 cjkvi:hd2ucs:=
@@ -67322,6 +69351,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "茛"
 cjkvi:hducs2juki
+"茛󠄁"
+cjkvi:hducs2ivs
 -":JD8613"
 ":JB5569"
 cjkvi:hd2ucs:=
@@ -67331,6 +69362,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "茝"
 cjkvi:hducs2juki
+"茝󠄁"
+cjkvi:hducs2ivs
 -":JD8614S"
 ":JB5577"
 cjkvi:hd2ucs:=
@@ -67342,6 +69375,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "茰"
 cjkvi:hducs2juki
+"茰󠄁"
+cjkvi:hducs2ivs
 -":JD8615"
 ":JB5581"
 cjkvi:hd2ucs:=
@@ -67351,6 +69386,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "茼"
 cjkvi:hducs2juki
+"茼󠄁"
+cjkvi:hducs2ivs
 -":JD8616"
 ":JB5585"
 cjkvi:hd2ucs:=
@@ -67360,6 +69397,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "荄"
 cjkvi:hducs2juki
+"荄󠄁"
+cjkvi:hducs2ivs
 -":JD8617"
 ":JB5592"
 cjkvi:hd2ucs:=
@@ -67369,6 +69408,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "荗"
 cjkvi:hducs2juki
+"荗󠄁"
+cjkvi:hducs2ivs
 -":JD8618"
 ":IA0624"
 cjkvi:hd2ucs:=
@@ -67380,6 +69421,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "䒾"
 cjkvi:hducs2juki
+"䒾󠄁"
+cjkvi:hducs2ivs
 -":JD8619"
 ":JB5602"
 cjkvi:hd2ucs:=
@@ -67391,6 +69434,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "荿"
 cjkvi:hducs2juki
+"荿󠄁"
+cjkvi:hducs2ivs
 -":JD8620"
 ":aj18493"
 cjkvi:hd2cid
@@ -67403,6 +69448,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "䓔󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8621"
 ":IA0621"
 cjkvi:hd2ucs:=
@@ -67414,6 +69460,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "䒳"
 cjkvi:hducs2juki
+"䒳󠄁"
+cjkvi:hducs2ivs
 -":JD8622"
 ":JB5607"
 cjkvi:hd2ucs:=
@@ -67423,6 +69471,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "莍"
 cjkvi:hducs2juki
+"莍󠄁"
+cjkvi:hducs2ivs
 -":JD8623"
 ":JB5609"
 cjkvi:hd2ucs:=
@@ -67432,6 +69482,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "莔"
 cjkvi:hducs2juki
+"莔󠄁"
+cjkvi:hducs2ivs
 -":JD8624"
 ":JB5610"
 cjkvi:hd2ucs:=
@@ -67441,6 +69493,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "莕"
 cjkvi:hducs2juki
+"莕󠄁"
+cjkvi:hducs2ivs
 -":JD8625S"
 ":JB5613"
 cjkvi:hd2ucs:=
@@ -67452,6 +69506,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "莛"
 cjkvi:hducs2juki
+"莛󠄁"
+cjkvi:hducs2ivs
 -":JD8626"
 ":JB5615"
 cjkvi:hd2ucs:=
@@ -67461,6 +69517,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "莝"
 cjkvi:hducs2juki
+"莝󠄁"
+cjkvi:hducs2ivs
 -":JD8627"
 ":JB5624"
 cjkvi:hd2ucs:=
@@ -67470,6 +69528,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "菉"
 cjkvi:hducs2juki
+"菉󠄁"
+cjkvi:hducs2ivs
 -":JD8628"
 ":JB5626"
 cjkvi:hd2ucs:=
@@ -67490,6 +69550,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "菔"
 cjkvi:hducs2juki
+"菔󠄂"
+cjkvi:hducs2ivs
 -":JD8630"
 ":JB5629"
 cjkvi:hd2ucs:=
@@ -67499,6 +69561,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "菝"
 cjkvi:hducs2juki
+"菝󠄁"
+cjkvi:hducs2ivs
 -":JD8631"
 ":aj18503"
 cjkvi:hd2cid
@@ -67511,6 +69575,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "菥󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8632"
 ":JB5635"
 cjkvi:hd2ucs:=
@@ -67520,6 +69585,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "菹"
 cjkvi:hducs2juki
+"菹󠄁"
+cjkvi:hducs2ivs
 -":JD8633"
 ":JB5640"
 cjkvi:hd2ucs:=
@@ -67529,6 +69596,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "萏"
 cjkvi:hducs2juki
+"萏󠄂"
+cjkvi:hducs2ivs
 -":JD8634"
 ":JB5641"
 cjkvi:hd2ucs:=
@@ -67538,6 +69607,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "萑"
 cjkvi:hducs2juki
+"萑󠄁"
+cjkvi:hducs2ivs
 -":JD8635SS"
 ":JB5642"
 cjkvi:hd2ucs:=
@@ -67549,6 +69620,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "萕"
 cjkvi:hducs2juki
+"萕󠄁"
+cjkvi:hducs2ivs
 -":JD8636"
 ":aj18506"
 cjkvi:hd2cid
@@ -67562,6 +69635,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𦱳󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8637"
 ":aj18507"
 cjkvi:hd2cid
@@ -67581,6 +69655,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "萹"
 cjkvi:hducs2juki
+"萹󠄁"
+cjkvi:hducs2ivs
 -":JD8639"
 ":JB5650"
 cjkvi:hd2ucs:=
@@ -67590,6 +69666,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葊"
 cjkvi:hducs2juki
+"葊󠄁"
+cjkvi:hducs2ivs
 -":JD8640"
 ":JB5652"
 cjkvi:hd2ucs:=
@@ -67599,6 +69677,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葏"
 cjkvi:hducs2juki
+"葏󠄁"
+cjkvi:hducs2ivs
 -":JD8641"
 ":JB5653"
 cjkvi:hd2ucs:=
@@ -67608,6 +69688,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葑"
 cjkvi:hducs2juki
+"葑󠄁"
+cjkvi:hducs2ivs
 -":JD8642"
 ":JB5654"
 cjkvi:hd2ucs:=
@@ -67617,6 +69699,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葒"
 cjkvi:hducs2juki
+"葒󠄁"
+cjkvi:hducs2ivs
 -":JD8643"
 ":JB5657"
 cjkvi:hd2ucs:=
@@ -67626,6 +69710,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葙"
 cjkvi:hducs2juki
+"葙󠄁"
+cjkvi:hducs2ivs
 -":JD8644"
 ":JB5658"
 cjkvi:hd2ucs:=
@@ -67635,6 +69721,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葚"
 cjkvi:hducs2juki
+"葚󠄁"
+cjkvi:hducs2ivs
 -":JD8645"
 ":aj18514"
 cjkvi:hd2cid
@@ -67646,6 +69734,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "葜󠄄"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8646"
 ":aj18515"
 cjkvi:hd2cid
@@ -67659,6 +69748,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𦳝󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8647"
 ":JB5662"
 cjkvi:hd2ucs:=
@@ -67668,6 +69758,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葥"
 cjkvi:hducs2juki
+"葥󠄁"
+cjkvi:hducs2ivs
 -":JD8648"
 ":JB5668"
 cjkvi:hd2ucs:=
@@ -67677,6 +69769,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葶"
 cjkvi:hducs2juki
+"葶󠄁"
+cjkvi:hducs2ivs
 -":JD8649"
 ":JB5669"
 cjkvi:hd2ucs:=
@@ -67686,6 +69780,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葸"
 cjkvi:hducs2juki
+"葸󠄁"
+cjkvi:hducs2ivs
 -":JD8650"
 ":JB5670"
 cjkvi:hd2ucs:=
@@ -67695,6 +69791,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "葼"
 cjkvi:hducs2juki
+"葼󠄁"
+cjkvi:hducs2ivs
 -":JD8651"
 ":JB5672"
 cjkvi:hd2ucs:=
@@ -67704,6 +69802,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蒁"
 cjkvi:hducs2juki
+"蒁󠄁"
+cjkvi:hducs2ivs
 -":JD8652"
 ":aj18520"
 cjkvi:hd2cid
@@ -67714,6 +69814,8 @@ cjkvi:hducs2koseki
 "䔍"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"䔍󠄁"
+cjkvi:hducs2ivs
 -":JD8653"
 ":JB5701"
 cjkvi:hd2ucs:=
@@ -67723,6 +69825,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓜"
 cjkvi:hducs2juki
+"蓜󠄁"
+cjkvi:hducs2ivs
 -":JD8654"
 ":aj18521"
 cjkvi:hd2cid
@@ -67735,6 +69839,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "蒗󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8655"
 ":JB5678"
 cjkvi:hd2ucs:=
@@ -67744,6 +69849,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蒦"
 cjkvi:hducs2juki
+"蒦󠄁"
+cjkvi:hducs2ivs
 -":JD8656"
 ":JB5687"
 cjkvi:hd2ucs:=
@@ -67753,6 +69860,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蒾"
 cjkvi:hducs2juki
+"蒾󠄁"
+cjkvi:hducs2ivs
 -":JD8657"
 ":IA0635"
 cjkvi:hd2ucs:=
@@ -67764,6 +69873,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "䔈"
 cjkvi:hducs2juki
+"䔈󠄁"
+cjkvi:hducs2ivs
 -":JD8658"
 ":aj18525"
 cjkvi:hd2cid
@@ -67784,6 +69895,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓎"
 cjkvi:hducs2juki
+"蓎󠄁"
+cjkvi:hducs2ivs
 -":JD8659"
 ":JB5693"
 cjkvi:hd2ucs:=
@@ -67793,6 +69906,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓏"
 cjkvi:hducs2juki
+"蓏󠄁"
+cjkvi:hducs2ivs
 -":JD8660"
 ":JB5694"
 cjkvi:hd2ucs:=
@@ -67802,6 +69917,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓓"
 cjkvi:hducs2juki
+"蓓󠄁"
+cjkvi:hducs2ivs
 -":JD8661"
 ":aj18528"
 cjkvi:hd2cid
@@ -67813,6 +69930,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𦹥"
 cjkvi:hd2ucs:U
+"𦹥󠄁"
+cjkvi:hducs2ivs
 -":JD8662"
 ":JB5702"
 cjkvi:hd2ucs:=
@@ -67822,6 +69941,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓧"
 cjkvi:hducs2juki
+"蓧󠄁"
+cjkvi:hducs2ivs
 -":JD8663"
 ":JB5703"
 cjkvi:hd2ucs:=
@@ -67831,6 +69952,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓪"
 cjkvi:hducs2juki
+"蓪󠄂"
+cjkvi:hducs2ivs
 -":JD8664"
 ":JB5704"
 cjkvi:hd2ucs:=
@@ -67840,6 +69963,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓯"
 cjkvi:hducs2juki
+"蓯󠄁"
+cjkvi:hducs2ivs
 -":JD8665"
 ":JB5705"
 cjkvi:hd2ucs:=
@@ -67849,6 +69974,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓰"
 cjkvi:hducs2juki
+"蓰󠄁"
+cjkvi:hducs2ivs
 -":JD8666"
 ":JB5706"
 cjkvi:hd2ucs:=
@@ -67858,6 +69985,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓱"
 cjkvi:hducs2juki
+"蓱󠄁"
+cjkvi:hducs2ivs
 -":JD8667"
 ":JB5710"
 cjkvi:hd2ucs:=
@@ -67876,6 +70005,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蓽"
 cjkvi:hducs2juki
+"蓽󠄁"
+cjkvi:hducs2ivs
 -":JD8669S"
 ":JB5716"
 cjkvi:hd2ucs:=
@@ -67887,6 +70018,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蔌"
 cjkvi:hducs2juki
+"蔌󠄁"
+cjkvi:hducs2ivs
 -":JD8670"
 ":aj18534"
 cjkvi:hd2cid
@@ -67899,6 +70032,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "蔛󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8671"
 ":JB5723"
 cjkvi:hd2ucs:=
@@ -67908,6 +70042,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蔤"
 cjkvi:hducs2juki
+"蔤󠄁"
+cjkvi:hducs2ivs
 -":JD8672"
 ":JB5724"
 cjkvi:hd2ucs:=
@@ -67917,6 +70053,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蔥"
 cjkvi:hducs2juki
+"蔥󠄁"
+cjkvi:hducs2ivs
 -":JD8673"
 ":JB5727"
 cjkvi:hd2ucs:=
@@ -67926,6 +70064,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蔫"
 cjkvi:hducs2juki
+"蔫󠄁"
+cjkvi:hducs2ivs
 -":JD8674"
 ":JB5730"
 cjkvi:hd2ucs:=
@@ -67935,6 +70075,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蔴"
 cjkvi:hducs2juki
+"蔴󠄁"
+cjkvi:hducs2ivs
 -":JD8675S"
 ":JB5734"
 cjkvi:hd2ucs:=
@@ -67946,6 +70088,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕏"
 cjkvi:hducs2juki
+"蕏󠄁"
+cjkvi:hducs2ivs
 -":JD8676"
 ":JB5750"
 cjkvi:hd2ucs:=
@@ -67955,6 +70099,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕯"
 cjkvi:hducs2juki
+"蕯󠄁"
+cjkvi:hducs2ivs
 -":JD8677"
 ":IA0638"
 cjkvi:hd2ucs:=
@@ -67966,6 +70112,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "䔥"
 cjkvi:hducs2juki
+"䔥󠄁"
+cjkvi:hducs2ivs
 -":JD8678"
 ":IA0641"
 cjkvi:hd2ucs:=
@@ -67977,6 +70125,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "䕃"
 cjkvi:hducs2juki
+"䕃󠄁"
+cjkvi:hducs2ivs
 -":JD8679"
 ":aj7861"
 cjkvi:hd2cid
@@ -67991,6 +70141,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "蔾󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8680"
 ":JB5736"
 cjkvi:hd2ucs:=
@@ -68000,6 +70151,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕑"
 cjkvi:hducs2juki
+"蕑󠄂"
+cjkvi:hducs2ivs
 -":JD8681"
 ":JB5738"
 cjkvi:hd2ucs:=
@@ -68009,6 +70162,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕓"
 cjkvi:hducs2juki
+"蕓󠄁"
+cjkvi:hducs2ivs
 -":JD8682"
 ":JB5743"
 cjkvi:hd2ucs:=
@@ -68018,6 +70173,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕞"
 cjkvi:hducs2juki
+"蕞󠄁"
+cjkvi:hducs2ivs
 -":JD8683S"
 ":JB5746"
 cjkvi:hd2ucs:=
@@ -68029,6 +70186,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕡"
 cjkvi:hducs2juki
+"蕡󠄁"
+cjkvi:hducs2ivs
 -":JD8684"
 ":JB5747"
 cjkvi:hd2ucs:=
@@ -68038,6 +70197,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕢"
 cjkvi:hducs2juki
+"蕢󠄁"
+cjkvi:hducs2ivs
 -":JD8685"
 ":aj18544"
 cjkvi:hd2cid
@@ -68051,6 +70212,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𦾔󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8686"
 ":JB5753"
 cjkvi:hd2ucs:=
@@ -68060,6 +70222,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕻"
 cjkvi:hducs2juki
+"蕻󠄁"
+cjkvi:hducs2ivs
 -":JD8688"
 ":JB5755"
 cjkvi:hd2ucs:=
@@ -68069,6 +70233,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蕿"
 cjkvi:hducs2juki
+"蕿󠄁"
+cjkvi:hducs2ivs
 -":JD8689"
 ":JB5756"
 cjkvi:hd2ucs:=
@@ -68080,6 +70246,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "薁"
 cjkvi:hducs2juki
+"薁󠄁"
+cjkvi:hducs2ivs
 -":JD8690"
 ":JB5758"
 cjkvi:hd2ucs:=
@@ -68089,6 +70257,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "薆"
 cjkvi:hducs2juki
+"薆󠄁"
+cjkvi:hducs2ivs
 -":JD8691S"
 ":JB5763"
 cjkvi:hd2ucs:=
@@ -68100,6 +70270,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "薓"
 cjkvi:hducs2juki
+"薓󠄁"
+cjkvi:hducs2ivs
 -":JD8692"
 ":JB5765"
 cjkvi:hd2ucs:=
@@ -68109,6 +70281,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "薝"
 cjkvi:hducs2juki
+"薝󠄁"
+cjkvi:hducs2ivs
 -":JD8693"
 ":JB5766"
 cjkvi:hd2ucs:=
@@ -68118,6 +70292,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "薟"
 cjkvi:hducs2juki
+"薟󠄁"
+cjkvi:hducs2ivs
 -":JD8694"
 ":aj18553"
 cjkvi:hd2cid
@@ -68147,6 +70323,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𦿶"
 cjkvi:hd2ucs:U
+"𦿶󠄁"
+cjkvi:hducs2ivs
 -":JD8702"
 ":aj18555"
 cjkvi:hd2cid
@@ -68167,6 +70345,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "薷"
 cjkvi:hducs2juki
+"薷󠄁"
+cjkvi:hducs2ivs
 -":JD8704"
 ":JB5775"
 cjkvi:hd2ucs:=
@@ -68176,6 +70356,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "薼"
 cjkvi:hducs2juki
+"薼󠄁"
+cjkvi:hducs2ivs
 -":JD8705S"
 ":JB5780"
 cjkvi:hd2ucs:=
@@ -68187,6 +70369,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "藇"
 cjkvi:hducs2juki
+"藇󠄁"
+cjkvi:hducs2ivs
 -":JD8706"
 ":JB5781"
 cjkvi:hd2ucs:=
@@ -68196,6 +70380,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "藊"
 cjkvi:hducs2juki
+"藊󠄁"
+cjkvi:hducs2ivs
 -":JD8707"
 ":JB5785"
 cjkvi:hd2ucs:=
@@ -68205,6 +70391,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "藘"
 cjkvi:hducs2juki
+"藘󠄁"
+cjkvi:hducs2ivs
 -":JD8708"
 ":aj18560"
 cjkvi:hd2cid
@@ -68217,6 +70405,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "藙󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8709"
 ":JB5787"
 cjkvi:hd2ucs:=
@@ -68226,6 +70415,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "藟"
 cjkvi:hducs2juki
+"藟󠄁"
+cjkvi:hducs2ivs
 -":JD8710"
 ":aj18562"
 cjkvi:hd2cid
@@ -68236,6 +70427,8 @@ cjkvi:hducs2koseki
 "藡"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"藡󠄁"
+cjkvi:hducs2ivs
 -":JD8711"
 ":JB5789"
 cjkvi:hd2ucs:=
@@ -68245,6 +70438,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "藦"
 cjkvi:hducs2juki
+"藦󠄁"
+cjkvi:hducs2ivs
 -":JD8712"
 ":JB5793"
 cjkvi:hd2ucs:=
@@ -68254,6 +70449,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "藶"
 cjkvi:hducs2juki
+"藶󠄁"
+cjkvi:hducs2ivs
 -":JD8713"
 ":JB5802"
 cjkvi:hd2ucs:=
@@ -68263,6 +70460,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蘀"
 cjkvi:hducs2juki
+"蘀󠄁"
+cjkvi:hducs2ivs
 -":JD8714"
 ":JB5808"
 cjkvi:hd2ucs:=
@@ -68272,6 +70471,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蘑"
 cjkvi:hducs2juki
+"蘑󠄁"
+cjkvi:hducs2ivs
 -":JD8715"
 ":JB5813"
 cjkvi:hd2ucs:=
@@ -68281,6 +70482,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蘞"
 cjkvi:hducs2juki
+"蘞󠄁"
+cjkvi:hducs2ivs
 -":JD8716"
 ":JB5814"
 cjkvi:hd2ucs:=
@@ -68290,6 +70493,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蘡"
 cjkvi:hducs2juki
+"蘡󠄁"
+cjkvi:hducs2ivs
 -":JD8717"
 ":aj18569"
 cjkvi:hd2cid
@@ -68302,6 +70507,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "蘤󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8718"
 ":JB5815"
 cjkvi:hd2ucs:=
@@ -68311,6 +70517,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蘧"
 cjkvi:hducs2juki
+"蘧󠄁"
+cjkvi:hducs2ivs
 -":JD8719"
 ":aj18571"
 cjkvi:hd2cid
@@ -68324,6 +70532,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𧄍󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8720"
 ":aj18572"
 cjkvi:hd2cid
@@ -68336,6 +70545,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "蘹󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8721S"
 ":JB5820"
 cjkvi:hd2ucs:=
@@ -68347,6 +70557,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蘼"
 cjkvi:hducs2juki
+"蘼󠄁"
+cjkvi:hducs2ivs
 -":JD8722"
 ":aj18574"
 cjkvi:hd2cid
@@ -68360,6 +70572,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𧄹󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8723"
 ":JB5822"
 cjkvi:hd2ucs:=
@@ -68369,6 +70582,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "虀"
 cjkvi:hducs2juki
+"虀󠄁"
+cjkvi:hducs2ivs
 -":JD8724"
 ":aj21073"
 cjkvi:hd2cid
@@ -68391,6 +70606,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 ":u-juki-fa20"
 cjkvi:hducs2juki
+"蘒󠄅"
+cjkvi:hducs2ivs
 -":JD8725S"
 ":JB5826"
 cjkvi:hd2ucs:=
@@ -68503,6 +70720,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蚜"
 cjkvi:hducs2juki
+"蚜󠄁"
+cjkvi:hducs2ivs
 -":JD8734S"
 ":jis2-87-34"
 manakai:implements
@@ -68510,6 +70729,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蚜"
 cjkvi:hd2ucs
+"蚜󠄂"
+cjkvi:hducs2ivs
 -":JD8735"
 ":aj18582"
 cjkvi:hd2cid
@@ -68667,6 +70888,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蜎"
 cjkvi:hducs2juki
+"蜎󠄁"
+cjkvi:hducs2ivs
 -":JD8751"
 ":JB5887"
 cjkvi:hd2ucs:=
@@ -68793,6 +71016,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蝘"
 cjkvi:hducs2juki
+"蝘󠄁"
+cjkvi:hducs2ivs
 -":JD8764"
 ":JB5918"
 cjkvi:hd2ucs:=
@@ -68914,6 +71139,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𧏾󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8776"
 ":aj18618"
 cjkvi:hd2cid
@@ -69001,6 +71227,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蟣"
 cjkvi:hducs2juki
+"蟣󠄁"
+cjkvi:hducs2ivs
 -":JD8785"
 ":aj18626"
 cjkvi:hd2cid
@@ -69039,6 +71267,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蟫"
 cjkvi:hducs2juki
+"蟫󠄁"
+cjkvi:hducs2ivs
 -":JD8789"
 ":JB5966"
 cjkvi:hd2ucs:=
@@ -69057,6 +71287,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蠁"
 cjkvi:hducs2juki
+"蠁󠄁"
+cjkvi:hducs2ivs
 -":JD8791"
 ":JB5973"
 cjkvi:hd2ucs:=
@@ -69066,6 +71298,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蠃"
 cjkvi:hducs2juki
+"蠃󠄂"
+cjkvi:hducs2ivs
 -":JD8792"
 ":JB5977"
 cjkvi:hd2ucs:=
@@ -69084,6 +71318,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蠓"
 cjkvi:hducs2juki
+"蠓󠄁"
+cjkvi:hducs2ivs
 -":JD8794"
 ":JB5989"
 cjkvi:hd2ucs:=
@@ -69093,6 +71329,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蠨"
 cjkvi:hducs2juki
+"蠨󠄁"
+cjkvi:hducs2ivs
 -":JD8801"
 ":JB5991"
 cjkvi:hd2ucs:=
@@ -69139,6 +71377,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "衊"
 cjkvi:hducs2juki
+"衊󠄁"
+cjkvi:hducs2ivs
 -":JD8806"
 ":JB6014"
 cjkvi:hd2ucs:=
@@ -69297,6 +71537,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "裒"
 cjkvi:hducs2juki
+"裒󠄁"
+cjkvi:hducs2ivs
 -":JD8820"
 ":aj18645"
 cjkvi:hd2cid
@@ -69509,6 +71751,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "覉"
 cjkvi:hducs2juki
+"覉󠄁"
+cjkvi:hducs2ivs
 -":JD8839S"
 ":JB6106"
 cjkvi:hd2ucs:=
@@ -69726,6 +71970,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "誮"
 cjkvi:hducs2juki
+"誮󠄁"
+cjkvi:hducs2ivs
 -":JD8862"
 ":JB6184"
 cjkvi:hd2ucs:=
@@ -69746,6 +71992,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "誷"
 cjkvi:hducs2juki
+"誷󠄁"
+cjkvi:hducs2ivs
 -":JD8864"
 ":JB6204"
 cjkvi:hd2ucs:=
@@ -69755,6 +72003,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "誾"
 cjkvi:hducs2juki
+"誾󠄁"
+cjkvi:hducs2ivs
 -":JD8865"
 ":JB6214"
 cjkvi:hd2ucs:=
@@ -69773,6 +72023,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "諼"
 cjkvi:hducs2juki
+"諼󠄁"
+cjkvi:hducs2ivs
 -":JD8867"
 ":aj18684"
 cjkvi:hd2cid
@@ -69793,6 +72045,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "謊"
 cjkvi:hducs2juki
+"謊󠄁"
+cjkvi:hducs2ivs
 -":JD8869"
 ":JB6224"
 cjkvi:hd2ucs:=
@@ -69858,6 +72112,8 @@ cjkvi:hducs2koseki
 "䜌"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"䜌󠄁"
+cjkvi:hducs2ivs
 -":JD8876"
 ":aj18691"
 cjkvi:hd2cid
@@ -69905,6 +72161,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "讁"
 cjkvi:hducs2juki
+"讁󠄁"
+cjkvi:hducs2ivs
 -":JD8881"
 ":JB6258"
 cjkvi:hd2ucs:=
@@ -69914,6 +72172,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "讋"
 cjkvi:hducs2juki
+"讋󠄁"
+cjkvi:hducs2ivs
 -":JD8882"
 ":JB6261"
 cjkvi:hd2ucs:=
@@ -69990,6 +72250,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𧮾"
 cjkvi:hd2ucs:U
+"𧮾󠄁"
+cjkvi:hducs2ivs
 -":JD8890"
 ":aj18702"
 cjkvi:hd2cid
@@ -70010,6 +72272,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "豅"
 cjkvi:hducs2juki
+"豅󠄁"
+cjkvi:hducs2ivs
 -":JD8892"
 ":JB6271"
 cjkvi:hd2ucs:=
@@ -70048,6 +72312,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "豗"
 cjkvi:hducs2juki
+"豗󠄁"
+cjkvi:hducs2ivs
 -":JD8902S"
 ":JB6287"
 cjkvi:hd2ucs:=
@@ -70101,6 +72367,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "貓"
 cjkvi:hducs2juki
+"貓󠄁"
+cjkvi:hducs2ivs
 -":JD8907"
 ":JB6304"
 cjkvi:hd2ucs:=
@@ -70140,6 +72408,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "貛󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8911"
 ":JB6309"
 cjkvi:hd2ucs:=
@@ -70226,6 +72495,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "贉"
 cjkvi:hducs2juki
+"贉󠄁"
+cjkvi:hducs2ivs
 -":JD8920"
 ":aj18720"
 cjkvi:hd2cid
@@ -70238,6 +72509,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "贎󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8921"
 ":JB6340"
 cjkvi:hd2ucs:=
@@ -70342,6 +72614,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "䟽"
 cjkvi:hducs2juki
+"䟽󠄁"
+cjkvi:hducs2ivs
 -":JD8932"
 ":JB6383"
 cjkvi:hd2ucs:=
@@ -70468,6 +72742,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蹋"
 cjkvi:hducs2juki
+"蹋󠄁"
+cjkvi:hducs2ivs
 -":JD8945"
 ":JB6417"
 cjkvi:hd2ucs:=
@@ -70486,6 +72762,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "蹢"
 cjkvi:hducs2juki
+"蹢󠄁"
+cjkvi:hducs2ivs
 -":JD8947"
 ":JB6425"
 cjkvi:hd2ucs:=
@@ -70569,6 +72847,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "躵"
 cjkvi:hducs2juki
+"躵󠄁"
+cjkvi:hducs2ivs
 -":JD8955"
 ":aj14083"
 cjkvi:hd2cid
@@ -70619,6 +72899,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "軔"
 cjkvi:hducs2juki
+"軔󠄂"
+cjkvi:hducs2ivs
 -":JD8960"
 ":aj18746"
 cjkvi:hd2cid
@@ -70630,6 +72912,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "䡎󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8961"
 ":JB6466"
 cjkvi:hd2ucs:=
@@ -70760,6 +73043,8 @@ cjkvi:hducs2koseki
 "辴"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"辴󠄁"
+cjkvi:hducs2ivs
 -":JD8973"
 ":aj15403"
 cjkvi:hd2cid
@@ -70771,6 +73056,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "辶"
 cjkvi:hd2ucs
+"辶󠄂"
+cjkvi:hducs2ivs
 "辶"
 cjkvi:hd2ucs:U
 -":JD8974"
@@ -70782,6 +73069,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "辶"
 cjkvi:hducs2juki
+"辶󠄃"
+cjkvi:hducs2ivs
 -":JD8975"
 ":aj18757"
 cjkvi:hd2cid
@@ -70795,6 +73084,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𨑕󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8976"
 ":JB6524"
 cjkvi:hd2ucs:=
@@ -70804,6 +73094,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迁"
 cjkvi:hducs2juki
+"迁󠄁"
+cjkvi:hducs2ivs
 -":JD8977"
 ":JB6525"
 cjkvi:hd2ucs:=
@@ -70813,6 +73105,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迆"
 cjkvi:hducs2juki
+"迆󠄂"
+cjkvi:hducs2ivs
 -":JD8978"
 ":aj18760"
 cjkvi:hd2cid
@@ -70831,6 +73125,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2koseki
 ":u-juki-fa24"
 cjkvi:hducs2juki
+"﨤󠄂"
+cjkvi:hducs2ivs
 -":JD8979"
 ":JB6526"
 cjkvi:hd2ucs:=
@@ -70840,6 +73136,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迊"
 cjkvi:hducs2juki
+"迊󠄁"
+cjkvi:hducs2ivs
 -":JD8980"
 ":JB6528"
 cjkvi:hd2ucs:=
@@ -70849,6 +73147,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迍"
 cjkvi:hducs2juki
+"迍󠄁"
+cjkvi:hducs2ivs
 -":JD8981"
 ":JB6531"
 cjkvi:hd2ucs:=
@@ -70858,6 +73158,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迓"
 cjkvi:hducs2juki
+"迓󠄁"
+cjkvi:hducs2ivs
 -":JD8982"
 ":JB6532"
 cjkvi:hd2ucs:=
@@ -70867,6 +73169,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迕"
 cjkvi:hducs2juki
+"迕󠄁"
+cjkvi:hducs2ivs
 -":JD8983"
 ":JB6533"
 cjkvi:hd2ucs:=
@@ -70876,6 +73180,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迠"
 cjkvi:hducs2juki
+"迠󠄁"
+cjkvi:hducs2ivs
 -":JD8984"
 ":JB6538"
 cjkvi:hd2ucs:=
@@ -70885,6 +73191,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迱"
 cjkvi:hducs2juki
+"迱󠄁"
+cjkvi:hducs2ivs
 -":JD8985"
 ":JB6539"
 cjkvi:hd2ucs:=
@@ -70894,6 +73202,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迵"
 cjkvi:hducs2juki
+"迵󠄁"
+cjkvi:hducs2ivs
 -":JD8986"
 ":JB6541"
 cjkvi:hd2ucs:=
@@ -70903,6 +73213,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "迻"
 cjkvi:hducs2juki
+"迻󠄁"
+cjkvi:hducs2ivs
 -":JD8987"
 ":JB6543"
 cjkvi:hd2ucs:=
@@ -70912,6 +73224,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "适"
 cjkvi:hducs2juki
+"适󠄁"
+cjkvi:hducs2ivs
 -":JD8988"
 ":JB6546"
 cjkvi:hd2ucs:=
@@ -70921,6 +73235,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "逌"
 cjkvi:hducs2juki
+"逌󠄁"
+cjkvi:hducs2ivs
 -":JD8989S"
 ":JB6557"
 cjkvi:hd2ucs:=
@@ -70932,6 +73248,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "逷"
 cjkvi:hducs2juki
+"逷󠄁"
+cjkvi:hducs2ivs
 -":JD8990"
 ":aj18770"
 cjkvi:hd2cid
@@ -70945,6 +73263,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𨕫󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD8991"
 ":JB6559"
 cjkvi:hd2ucs:=
@@ -70954,6 +73273,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "遃"
 cjkvi:hducs2juki
+"遃󠄁"
+cjkvi:hducs2ivs
 -":JD8992S"
 ":JB6560"
 cjkvi:hd2ucs:=
@@ -70965,6 +73286,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "遄"
 cjkvi:hducs2juki
+"遄󠄁"
+cjkvi:hducs2ivs
 -":JD8993"
 ":JB6563"
 cjkvi:hd2ucs:=
@@ -70974,6 +73297,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "遝"
 cjkvi:hducs2juki
+"遝󠄁"
+cjkvi:hducs2ivs
 -":JD8994"
 ":aj18773"
 cjkvi:hd2cid
@@ -70985,6 +73310,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𨗈"
 cjkvi:hd2ucs:U
+"𨗈󠄁"
+cjkvi:hducs2ivs
 -":JD9001"
 ":aj18774"
 cjkvi:hd2cid
@@ -71005,6 +73332,8 @@ manakai:implements
 cjkvi:hducs2koseki
 ":u-juki-ab94"
 cjkvi:hducs2juki
+"𨗉󠄁"
+cjkvi:hducs2ivs
 -":JD9002"
 ":JB6571"
 cjkvi:hd2ucs:=
@@ -71014,6 +73343,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "邅"
 cjkvi:hducs2juki
+"邅󠄁"
+cjkvi:hducs2ivs
 -":JD9003"
 ":JB6574"
 cjkvi:hd2ucs:=
@@ -71023,6 +73354,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "邌"
 cjkvi:hducs2juki
+"邌󠄁"
+cjkvi:hducs2ivs
 -":JD9004"
 ":JB6576"
 cjkvi:hd2ucs:=
@@ -71032,6 +73365,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "邐"
 cjkvi:hducs2juki
+"邐󠄁"
+cjkvi:hducs2ivs
 -":JD9005"
 ":JB7036"
 cjkvi:hd2ucs:=
@@ -71178,6 +73513,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鄀"
 cjkvi:hducs2juki
+"鄀󠄁"
+cjkvi:hducs2ivs
 -":JD9019"
 ":JB6615"
 cjkvi:hd2ucs:=
@@ -71252,6 +73589,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鄞"
 cjkvi:hducs2juki
+"鄞󠄁"
+cjkvi:hducs2ivs
 -":JD9027"
 ":JB6646"
 cjkvi:hd2ucs:=
@@ -71261,6 +73600,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鄷"
 cjkvi:hducs2juki
+"鄷󠄁"
+cjkvi:hducs2ivs
 -":JD9028"
 ":JB6647"
 cjkvi:hd2ucs:=
@@ -71379,6 +73720,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "醨"
 cjkvi:hducs2juki
+"醨󠄁"
+cjkvi:hducs2ivs
 -":JD9041"
 ":JB6685"
 cjkvi:hd2ucs:=
@@ -71486,6 +73829,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "釮"
 cjkvi:hducs2juki
+"釮󠄁"
+cjkvi:hducs2ivs
 -":JD9051S"
 ":JB6725"
 cjkvi:hd2ucs:=
@@ -71629,6 +73974,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鉡"
 cjkvi:hducs2juki
+"鉡󠄁"
+cjkvi:hducs2ivs
 -":JD9066"
 ":JB6772"
 cjkvi:hd2ucs:=
@@ -71656,6 +74003,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鉨"
 cjkvi:hducs2juki
+"鉨󠄁"
+cjkvi:hducs2ivs
 -":JD9069"
 ":aj14253"
 cjkvi:hd2cid
@@ -71687,6 +74036,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鉼"
 cjkvi:hducs2juki
+"鉼󠄁"
+cjkvi:hducs2ivs
 -":JD9072"
 ":JB6786"
 cjkvi:hd2ucs:=
@@ -71830,6 +74181,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鋆"
 cjkvi:hducs2juki
+"鋆󠄁"
+cjkvi:hducs2ivs
 -":JD9087S"
 ":JB6829"
 cjkvi:hd2ucs:=
@@ -71859,6 +74212,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鋗"
 cjkvi:hducs2juki
+"鋗󠄁"
+cjkvi:hducs2ivs
 -":JD9090"
 ":JB6835"
 cjkvi:hd2ucs:=
@@ -71962,6 +74317,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鋻"
 cjkvi:hducs2juki
+"鋻󠄁"
+cjkvi:hducs2ivs
 -":JD9105"
 ":JB6852"
 cjkvi:hd2ucs:=
@@ -71971,6 +74328,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "錂"
 cjkvi:hducs2juki
+"錂󠄁"
+cjkvi:hducs2ivs
 -":JD9106"
 ":JB6854"
 cjkvi:hd2ucs:=
@@ -72038,6 +74397,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𨩱"
 cjkvi:hd2ucs:U
+"𨩱󠄁"
+cjkvi:hducs2ivs
 -":JD9113"
 ":aj18848"
 cjkvi:hd2cid
@@ -72067,6 +74428,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鍑"
 cjkvi:hducs2juki
+"鍑󠄁"
+cjkvi:hducs2ivs
 -":JD9116"
 ":JB6879"
 cjkvi:hd2ucs:=
@@ -72113,6 +74476,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鍳"
 cjkvi:hducs2juki
+"鍳󠄁"
+cjkvi:hducs2ivs
 -":JD9121"
 ":aj18854"
 cjkvi:hd2cid
@@ -72124,6 +74489,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "鎡󠄄"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9122"
 ":aj18855"
 cjkvi:hd2cid
@@ -72166,6 +74532,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "鎋󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9126"
 ":JB6911"
 cjkvi:hd2ucs:=
@@ -72196,6 +74563,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "鏵󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9129"
 ":aj18862"
 cjkvi:hd2cid
@@ -72309,6 +74677,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鐖"
 cjkvi:hducs2juki
+"鐖󠄁"
+cjkvi:hducs2ivs
 -":JD9140"
 ":JB6962"
 cjkvi:hd2ucs:=
@@ -72327,6 +74697,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鏻"
 cjkvi:hducs2juki
+"鏻󠄁"
+cjkvi:hducs2ivs
 -":JD9142"
 ":JB6967"
 cjkvi:hd2ucs:=
@@ -72354,6 +74726,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鐻"
 cjkvi:hducs2juki
+"鐻󠄁"
+cjkvi:hducs2ivs
 -":JD9145"
 ":JB6974"
 cjkvi:hd2ucs:=
@@ -72387,6 +74761,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𨯯󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9148S"
 ":JB6986"
 cjkvi:hd2ucs:=
@@ -72506,6 +74881,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "闈"
 cjkvi:hducs2juki
+"闈󠄁"
+cjkvi:hducs2ivs
 -":JD9160"
 ":aj18885"
 cjkvi:hd2cid
@@ -72605,6 +74982,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𨺉"
 cjkvi:hd2ucs:U
+"𨺉󠄁"
+cjkvi:hducs2ivs
 -":JD9170"
 ":JB7065"
 cjkvi:hd2ucs:=
@@ -72614,6 +74993,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "隂"
 cjkvi:hducs2juki
+"隂󠄁"
+cjkvi:hducs2ivs
 -":JD9171"
 ":aj18895"
 cjkvi:hd2cid
@@ -72749,6 +75130,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "雘"
 cjkvi:hducs2juki
+"雘󠄁"
+cjkvi:hducs2ivs
 -":JD9183"
 ":aj18905"
 cjkvi:hd2cid
@@ -72760,6 +75143,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "雚󠄄"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9184"
 ":JB7087"
 cjkvi:hd2ucs:=
@@ -72821,6 +75205,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "霶󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9190"
 ":JB7113"
 cjkvi:hd2ucs:=
@@ -72840,6 +75225,8 @@ cjkvi:hducs2koseki
 "靇"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"靇󠄁"
+cjkvi:hducs2ivs
 -":JD9192"
 ":aj20314"
 cjkvi:hd2cid
@@ -72851,6 +75238,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "靕󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9193"
 ":JB7119"
 cjkvi:hd2ucs:=
@@ -72860,6 +75248,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "靗"
 cjkvi:hducs2juki
+"靗󠄁"
+cjkvi:hducs2ivs
 -":JD9194"
 ":JB7122"
 cjkvi:hd2ucs:=
@@ -72869,6 +75259,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "靛"
 cjkvi:hducs2juki
+"靛󠄁"
+cjkvi:hducs2ivs
 -":JD9201"
 ":JB7125"
 cjkvi:hd2ucs:=
@@ -72920,6 +75312,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鞚"
 cjkvi:hducs2juki
+"鞚󠄁"
+cjkvi:hducs2ivs
 -":JD9206"
 ":JB7141"
 cjkvi:hd2ucs:=
@@ -72965,6 +75359,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鞾"
 cjkvi:hducs2juki
+"鞾󠄁"
+cjkvi:hducs2ivs
 -":JD9211S"
 ":JB7162"
 cjkvi:hd2ucs:=
@@ -72974,6 +75370,8 @@ cjkvi:hd2cid
 manakai:implements
 "韌"
 cjkvi:hducs2juki
+"韌󠄁"
+cjkvi:hducs2ivs
 -":JD9212S"
 ":JB7166"
 cjkvi:hd2ucs:=
@@ -72983,6 +75381,8 @@ cjkvi:hd2cid
 manakai:implements
 "韑"
 cjkvi:hducs2juki
+"韑󠄁"
+cjkvi:hducs2ivs
 -":JD9213S"
 ":JB7167"
 cjkvi:hd2ucs:=
@@ -72994,6 +75394,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "韔"
 cjkvi:hducs2juki
+"韔󠄁"
+cjkvi:hducs2ivs
 -":JD9214S"
 ":JB7169"
 cjkvi:hd2ucs:=
@@ -73005,6 +75407,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "韘"
 cjkvi:hducs2juki
+"韘󠄁"
+cjkvi:hducs2ivs
 -":JD9215S"
 ":JB7170"
 cjkvi:hd2ucs:=
@@ -73016,6 +75420,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "韙"
 cjkvi:hducs2juki
+"韙󠄁"
+cjkvi:hducs2ivs
 -":JD9216S"
 ":JB7175"
 cjkvi:hd2ucs:=
@@ -73027,6 +75433,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "韡"
 cjkvi:hducs2juki
+"韡󠄁"
+cjkvi:hducs2ivs
 -":JD9217S"
 ":JB7178"
 cjkvi:hd2ucs:=
@@ -73038,6 +75446,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "韱"
 cjkvi:hducs2juki
+"韱󠄁"
+cjkvi:hducs2ivs
 -":JD9218"
 ":aj18930"
 cjkvi:hd2cid
@@ -73088,6 +75498,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "頖"
 cjkvi:hducs2juki
+"頖󠄁"
+cjkvi:hducs2ivs
 -":JD9223"
 ":IA0776"
 cjkvi:hd2ucs:=
@@ -73130,6 +75542,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "頲"
 cjkvi:hducs2juki
+"頲󠄁"
+cjkvi:hducs2ivs
 -":JD9227"
 ":JB7206"
 cjkvi:hd2ucs:=
@@ -73322,6 +75736,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "飣"
 cjkvi:hducs2juki
+"飣󠄁"
+cjkvi:hducs2ivs
 -":JD9247S"
 ":JB7242"
 cjkvi:hd2ucs:=
@@ -73342,6 +75758,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "飪"
 cjkvi:hducs2juki
+"飪󠄁"
+cjkvi:hducs2ivs
 -":JD9249"
 ":aj18954"
 cjkvi:hd2cid
@@ -73382,6 +75800,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餈"
 cjkvi:hducs2juki
+"餈󠄁"
+cjkvi:hducs2ivs
 -":JD9253"
 ":aj18958"
 cjkvi:hd2cid
@@ -73393,6 +75813,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "䬻󠄂"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9254"
 ":aj18959"
 cjkvi:hd2cid
@@ -73413,6 +75834,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餖"
 cjkvi:hducs2juki
+"餖󠄁"
+cjkvi:hducs2ivs
 -":JD9256"
 ":JB7254"
 cjkvi:hd2ucs:=
@@ -73422,6 +75845,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餗"
 cjkvi:hducs2juki
+"餗󠄁"
+cjkvi:hducs2ivs
 -":JD9257"
 ":aj18962"
 cjkvi:hd2cid
@@ -73435,6 +75860,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𩜙󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9258"
 ":JB7255"
 cjkvi:hd2ucs:=
@@ -73444,6 +75870,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餚"
 cjkvi:hducs2juki
+"餚󠄁"
+cjkvi:hducs2ivs
 -":JD9259"
 ":JB7256"
 cjkvi:hd2ucs:=
@@ -73453,6 +75881,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餛"
 cjkvi:hducs2juki
+"餛󠄁"
+cjkvi:hducs2ivs
 -":JD9260"
 ":JB7257"
 cjkvi:hd2ucs:=
@@ -73462,6 +75892,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餜"
 cjkvi:hducs2juki
+"餜󠄁"
+cjkvi:hducs2ivs
 -":JD9261"
 ":aj18966"
 cjkvi:hd2cid
@@ -73482,6 +75914,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餱"
 cjkvi:hducs2juki
+"餱󠄁"
+cjkvi:hducs2ivs
 -":JD9263"
 ":JB7264"
 cjkvi:hd2ucs:=
@@ -73491,6 +75925,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餲"
 cjkvi:hducs2juki
+"餲󠄁"
+cjkvi:hducs2ivs
 -":JD9264"
 ":JB7265"
 cjkvi:hd2ucs:=
@@ -73500,6 +75936,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餳"
 cjkvi:hducs2juki
+"餳󠄁"
+cjkvi:hducs2ivs
 -":JD9265"
 ":JB7269"
 cjkvi:hd2ucs:=
@@ -73509,6 +75947,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餺"
 cjkvi:hducs2juki
+"餺󠄁"
+cjkvi:hducs2ivs
 -":JD9266"
 ":JB7270"
 cjkvi:hd2ucs:=
@@ -73518,6 +75958,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餻"
 cjkvi:hducs2juki
+"餻󠄁"
+cjkvi:hducs2ivs
 -":JD9267"
 ":JB7271"
 cjkvi:hd2ucs:=
@@ -73527,6 +75969,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "餼"
 cjkvi:hducs2juki
+"餼󠄁"
+cjkvi:hducs2ivs
 -":JD9268"
 ":JB7272"
 cjkvi:hd2ucs:=
@@ -73536,6 +75980,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "饀"
 cjkvi:hducs2juki
+"饀󠄁"
+cjkvi:hducs2ivs
 -":JD9269"
 ":JB7273"
 cjkvi:hd2ucs:=
@@ -73545,6 +75991,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "饁"
 cjkvi:hducs2juki
+"饁󠄁"
+cjkvi:hducs2ivs
 -":JD9270"
 ":JB7274"
 cjkvi:hd2ucs:=
@@ -73554,6 +76002,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "饆"
 cjkvi:hducs2juki
+"饆󠄁"
+cjkvi:hducs2ivs
 -":JD9271"
 ":JB7277"
 cjkvi:hd2ucs:=
@@ -73563,6 +76013,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "饍"
 cjkvi:hducs2juki
+"饍󠄁"
+cjkvi:hducs2ivs
 -":JD9272"
 ":JB7278"
 cjkvi:hd2ucs:=
@@ -73572,6 +76024,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "饎"
 cjkvi:hducs2juki
+"饎󠄁"
+cjkvi:hducs2ivs
 -":JD9273"
 ":JB7283"
 cjkvi:hd2ucs:=
@@ -73579,6 +76033,8 @@ cjkvi:hd2ucs:=
 manakai:implements
 "饜"
 cjkvi:hducs2juki
+"饜󠄁"
+cjkvi:hducs2ivs
 -":JD9274S"
 ":JB7285"
 cjkvi:hd2ucs:=
@@ -73590,6 +76046,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "饟"
 cjkvi:hducs2juki
+"饟󠄁"
+cjkvi:hducs2ivs
 -":JD9275"
 ":JB7286"
 cjkvi:hd2ucs:=
@@ -73599,6 +76057,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "饠"
 cjkvi:hducs2juki
+"饠󠄁"
+cjkvi:hducs2ivs
 -":JD9276"
 ":aj18975"
 cjkvi:hd2cid
@@ -73769,6 +76229,8 @@ cjkvi:hducs2koseki
 "騚"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"騚󠄁"
+cjkvi:hducs2ivs
 -":JD9294"
 ":JB7332"
 cjkvi:hd2ucs:=
@@ -73808,6 +76270,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2koseki
 "驄"
 cjkvi:hducs2juki
+"驄󠄁"
+cjkvi:hducs2ivs
 -":JD9304"
 ":JB7348"
 cjkvi:hd2ucs:=
@@ -73829,6 +76293,7 @@ cjkvi:hd2ucs:U
 cjkvi:hducs2juki
 "驘󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9306"
 ":IA0789"
 cjkvi:hd2ucs:=
@@ -73928,6 +76393,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "髒"
 cjkvi:hducs2juki
+"髒󠄁"
+cjkvi:hducs2ivs
 -":JD9316S"
 ":JB7373"
 cjkvi:hd2ucs:=
@@ -73959,6 +76426,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "髜"
 cjkvi:hducs2juki
+"髜󠄁"
+cjkvi:hducs2ivs
 -":JD9319"
 ":JB7378"
 cjkvi:hd2ucs:=
@@ -74022,6 +76491,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鬒"
 cjkvi:hducs2juki
+"鬒󠄁"
+cjkvi:hducs2ivs
 -":JD9326"
 ":JB7411"
 cjkvi:hd2ucs:=
@@ -74089,6 +76560,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "魋"
 cjkvi:hducs2juki
+"魋󠄁"
+cjkvi:hducs2ivs
 -":JD9333"
 ":JB7435"
 cjkvi:hd2ucs:=
@@ -74109,6 +76582,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "魥"
 cjkvi:hducs2juki
+"魥󠄁"
+cjkvi:hducs2ivs
 -":JD9335"
 ":JB7440"
 cjkvi:hd2ucs:=
@@ -74173,6 +76648,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鮬"
 cjkvi:hducs2juki
+"鮬󠄁"
+cjkvi:hducs2ivs
 -":JD9342S"
 ":JB7470"
 cjkvi:hd2ucs:=
@@ -74184,6 +76661,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鮱"
 cjkvi:hducs2juki
+"鮱󠄁"
+cjkvi:hducs2ivs
 -":JD9343"
 ":aj19026"
 cjkvi:hd2cid
@@ -74208,6 +76687,8 @@ cjkvi:hducs2juki
 cjkvi:hducs2juki
 "𩸽"
 cjkvi:hd2ucs:U
+"𩸽󠄂"
+cjkvi:hducs2ivs
 -":JD9345"
 ":JB7471"
 cjkvi:hd2ucs:=
@@ -74360,6 +76841,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𩺊󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9360"
 ":JB7493"
 cjkvi:hd2ucs:=
@@ -74407,6 +76889,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鰙"
 cjkvi:hducs2juki
+"鰙󠄁"
+cjkvi:hducs2ivs
 -":JD9365"
 ":JB7513"
 cjkvi:hd2ucs:=
@@ -74426,6 +76910,8 @@ cjkvi:hducs2koseki
 "鰝"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鰝󠄁"
+cjkvi:hducs2ivs
 -":JD9367"
 ":JB7516"
 cjkvi:hd2ucs:=
@@ -74435,6 +76921,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鰢"
 cjkvi:hducs2juki
+"鰢󠄁"
+cjkvi:hducs2ivs
 -":JD9368"
 ":JB7519"
 cjkvi:hd2ucs:=
@@ -74444,6 +76932,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鰧"
 cjkvi:hducs2juki
+"鰧󠄁"
+cjkvi:hducs2ivs
 -":JD9369"
 ":JB7521"
 cjkvi:hd2ucs:=
@@ -74482,6 +76972,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鰱"
 cjkvi:hducs2juki
+"鰱󠄁"
+cjkvi:hducs2ivs
 -":JD9373"
 ":JB7525"
 cjkvi:hd2ucs:=
@@ -74562,6 +77054,7 @@ cjkvi:hducs2juki
 cjkvi:hd2ucs:U
 "𩻛󠄁"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9381S"
 ":JB7538"
 cjkvi:hd2ucs:=
@@ -74602,6 +77095,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鱝"
 cjkvi:hducs2juki
+"鱝󠄁"
+cjkvi:hducs2ivs
 -":JD9385"
 ":JB7544"
 cjkvi:hd2ucs:=
@@ -74707,6 +77202,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "鳦󠄃"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9402"
 ":JB7558"
 cjkvi:hd2ucs:=
@@ -74756,6 +77252,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鴑"
 cjkvi:hducs2juki
+"鴑󠄁"
+cjkvi:hducs2ivs
 -":JD9407"
 ":JB7564"
 cjkvi:hd2ucs:=
@@ -74885,6 +77383,8 @@ manakai:implements
 cjkvi:hducs2koseki
 ":u-juki-abc6"
 cjkvi:hducs2juki
+"𪃹󠄁"
+cjkvi:hducs2ivs
 -":JD9419"
 ":JB7588"
 cjkvi:hd2ucs:=
@@ -74894,6 +77394,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鵩"
 cjkvi:hducs2juki
+"鵩󠄁"
+cjkvi:hducs2ivs
 -":JD9420"
 ":JB7590"
 cjkvi:hd2ucs:=
@@ -74962,6 +77464,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鶄"
 cjkvi:hducs2juki
+"鶄󠄁"
+cjkvi:hducs2ivs
 -":JD9427S"
 ":JB7607"
 cjkvi:hd2ucs:=
@@ -74992,6 +77496,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鶡"
 cjkvi:hducs2juki
+"鶡󠄁"
+cjkvi:hducs2ivs
 -":JD9430"
 ":aj19091"
 cjkvi:hd2cid
@@ -75003,6 +77509,7 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "鶿󠄄"
 cjkvi:hd2ucs:ivs
+cjkvi:hducs2ivs
 -":JD9431"
 ":JB7620"
 cjkvi:hd2ucs:=
@@ -75021,6 +77528,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鶹"
 cjkvi:hducs2juki
+"鶹󠄁"
+cjkvi:hducs2ivs
 -":JD9433"
 ":aj19094"
 cjkvi:hd2cid
@@ -75071,6 +77580,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鷖"
 cjkvi:hducs2juki
+"鷖󠄁"
+cjkvi:hducs2ivs
 -":JD9438"
 ":JB7632"
 cjkvi:hd2ucs:=
@@ -75098,6 +77609,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鷠"
 cjkvi:hducs2juki
+"鷠󠄁"
+cjkvi:hducs2ivs
 -":JD9441"
 ":aj19098"
 cjkvi:hd2cid
@@ -75108,6 +77621,8 @@ cjkvi:hducs2koseki
 "鷣"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"鷣󠄁"
+cjkvi:hducs2ivs
 -":JD9442"
 ":JB7643"
 cjkvi:hd2ucs:=
@@ -75206,6 +77721,8 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𢈘"
 cjkvi:hd2ucs:U
+"𢈘󠄁"
+cjkvi:hducs2ivs
 -":JD9452"
 ":JB7660"
 cjkvi:hd2ucs:=
@@ -75215,6 +77732,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "麀"
 cjkvi:hducs2juki
+"麀󠄁"
+cjkvi:hducs2ivs
 -":JD9453"
 ":JB7664"
 cjkvi:hd2ucs:=
@@ -75242,6 +77761,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "麨"
 cjkvi:hducs2juki
+"麨󠄁"
+cjkvi:hducs2ivs
 -":JD9456"
 ":aj19109"
 cjkvi:hd2cid
@@ -75270,6 +77791,8 @@ cjkvi:hducs2koseki
 "麽"
 cjkvi:hd2ucs:U
 cjkvi:hducs2juki
+"麽󠄁"
+cjkvi:hducs2ivs
 -":JD9458"
 ":aj19111"
 cjkvi:hd2cid
@@ -75330,6 +77853,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鼂"
 cjkvi:hducs2juki
+"鼂󠄁"
+cjkvi:hducs2ivs
 -":JD9464"
 ":aj19115"
 cjkvi:hd2cid
@@ -75357,6 +77882,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鼃"
 cjkvi:hducs2juki
+"鼃󠄁"
+cjkvi:hducs2ivs
 -":JD9466"
 ":JB7712"
 cjkvi:hd2ucs:=
@@ -75404,6 +77931,8 @@ manakai:implements
 cjkvi:hducs2koseki
 "鼺"
 cjkvi:hducs2juki
+"鼺󠄁"
+cjkvi:hducs2ivs
 -":JD9471"
 ":JB7729"
 cjkvi:hd2ucs:=
@@ -75573,3 +78102,16 @@ cjkvi:hducs2koseki
 cjkvi:hducs2juki
 "𪚲"
 cjkvi:hd2ucs:U
+*kanas
+-":JB1617"
+":jis2-16-17"
+manakai:implements
+":koseki001320"
+cjkvi:hducs2koseki
+":koseki001370"
+cjkvi:hducs2koseki
+":u-juki-ad22"
+cjkvi:hducs2juki
+"乄"
+cjkvi:hd2ucs:U
+cjkvi:hducs2juki

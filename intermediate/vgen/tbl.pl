@@ -268,7 +268,7 @@ $TableMeta->{rels} = [];
     $RelTypeToIndex->{$rel_type} = @{$TableMeta->{rels}};
     push @{$TableMeta->{rels}}, {
       key => $rel_type,
-      weight => ($Merged->{rel_types}->{$rel_type}->{weight} // die $rel_type),
+      weight => ($Merged->{rel_types}->{$rel_type}->{weight} // die "$rel_type has no weight"),
       mergeable_weight => ($Merged->{rel_types}->{$rel_type}->{mergeable_weight} // die $rel_type),
       n => $rel_types->{$rel_type},
     };

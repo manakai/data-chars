@@ -8,7 +8,7 @@ PERL = $(ROOT_PATH)/perl \
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: variants.list
+all: variants-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -16,10 +16,15 @@ $(TEMP_PATH):
 $(TEMP_PATH)/nyukanseiji.json: $(TEMP_PATH)
 	$(SAVEURL) $@ https://raw.githubusercontent.com/mandel59/nyukanseiji/main/nyukanseiji.json
 
-variants.list: variants.pl $(VGEN_PATH)/chars.pl \
+../../local/jis-0208.txt:
+	cd ../.. && $(MAKE) local/jis-0208.txt
+
+variants-0.list: variants.pl $(VGEN_PATH)/chars.pl \
     doukun-*.txt \
     $(TEMP_PATH)/nyukanseiji.json \
-    jissyukutaimap1_0_0.xslx.tsv
-	$(PERL) $< > $@
+    jissyukutaimap1_0_0.xslx.tsv \
+    ../../local/jis-0208.txt
+	$(PERL) $<
+variants-*.list: variants-0.list
 
 ## License: Public Domain.

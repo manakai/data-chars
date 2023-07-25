@@ -153,6 +153,14 @@ my $Data = {};
       die $to;
     }
 
+    if ($data->{大漢和} =~ m{^([0-9]+)$}) {
+      my $type = 'mj:大漢和';
+      my $c2 = sprintf ':m%d', $1;
+      $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
+    } elsif (length $data->{大漢和}) {
+      die $data->{大漢和};
+    }
+
     if ($data->{備考} =~ m{^(MJ[0-9]+)・(MJ[0-9]+)は、戸籍統一文字において、同一字形であり、字義も同一の内容である。$}) {
       my $type = 'mj:戸籍統一文字:同一';
       $Data->{hans}->{":$1"}->{":$2"}->{$type} = 1;
@@ -163,27 +171,48 @@ my $Data = {};
   }
 }
 
-for (
-  [1, qr/^:MJ00/],
-  [2, qr/^:MJ01/],
-  [3, qr/^:MJ02/],
-  [4, qr/^:MJ03/],
-  [5, qr/^:MJ04/],
-  [6, qr/^:MJ05/],
-) {
-  my ($i, $pattern) = @$_;
-  my $path = $ThisPath->child ("maps-$i.list");
-  my $data = {};
-  my @v = grep { /^$pattern/ } keys %{$Data->{hans}};
-  for (@v) {
-    $data->{hans}->{$_} = delete $Data->{hans}->{$_};
-  }
-  write_rel_data $data => $path;
-}
 {
-  my $path = $ThisPath->child ('maps-0.list');
-  write_rel_data $Data => $path;
+  my $path = $TempPath->child ('daikanwa-ucs.txt');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    use utf8;
+    tr/ＵＥＦ/UEF/;
+    if (/^#/) {
+      #
+    } elsif (/^(補|)([0-9]+)('{0,2})\tU\+([0-9A-F]+)\s*$/) {
+      my $c1 = sprintf ':m%s%d%s', $1 ? 'h' : '', $2, $3;
+      my $c2 = chr hex $4;
+      my $key = get_vkey $c2;
+      $Data->{$key}->{$c1}->{$c2}->{'mj:daikanwa-ucs'} = 1;
+    } elsif (/^(補|)([0-9]+)('{0,2})\tCJKF:([0-9]+)$/) {
+      my $c1 = sprintf ':m%s%d%s', $1 ? 'h' : '', $2, $3;
+      my $c2 = sprintf ':extf%d', $4;
+      my $key = 'hans';
+      $Data->{$key}->{$c1}->{$c2}->{'mj:daikanwa-ucs'} = 1;
+    } elsif (/^(補|)([0-9]+)('{0,2})\t(\p{Ideographic_Description_Characters}[\p{Han}\p{Ideographic_Description_Characters}]+)$/) {
+      my $c1 = sprintf ':m%s%d%s', $1 ? 'h' : '', $2, $3;
+      my $c2 = (wrap_ids $4, ':XX'.'X:') // $4;
+      die if $c2 =~ /XX@{[]}X/;
+      my $key = 'idses';
+      $Data->{$key}->{$c1}->{$c2}->{'mj:daikanwa-ucs'} = 1;
+    } elsif (/^文字番号/) {
+      #
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
 }
+
+write_rel_data_sets
+    $Data => $ThisPath, 'maps',
+    [
+      qr/^:MJ00/,
+      qr/^:MJ01/,
+      qr/^:MJ02/,
+      qr/^:MJ03/,
+      qr/^:MJ04/,
+      qr/^:MJ05/,
+      qr/^:m/,
+    ];
 
 ## License: Public Domain.
 

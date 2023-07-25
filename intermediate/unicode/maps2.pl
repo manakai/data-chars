@@ -16,13 +16,14 @@ my $Data = {};
   while (<$file>) {
     if (/^\s*#/) {
       #
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+J([0134]|13|14|A3|A4)-([0-9A-F]{2})([0-9A-F]{2})$/) {
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+J([0134]|13A?|14|A3|A4)-([0-9A-F]{2})([0-9A-F]{2})$/) {
       my $prefix = {
         '0' => ':jis1',
         '1' => ':jis2',
         '3' => ':jis1',
         '4' => ':jis2',
         '13' => ':jis1',
+        '13A' => ':jis1',
         '14' => ':jis2',
         'A3' => ':jis1',
         'A4' => ':jis2',
@@ -35,6 +36,20 @@ my $Data = {};
     } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JARIB-([0-9A-F]{2})([0-9A-F]{2})$/) {
       my $c2 = sprintf ':jis-arib-1-%d-%d', (hex $3) - 0x20, (hex $4) - 0x20;
       $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2:ARIB"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JA-([0-9A-F]{2})([0-9A-F]{2})$/) {
+      #my $c2 = sprintf ':IA%02d%02d', (hex $3) - 0x20, (hex $4) - 0x20;
+      #$Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2:A"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JH-([A-Z0-9]+)$/) {
+      my $c2 = ':' . $3;
+      $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2:H"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JMJ-([0-9]+)$/) {
+      my $c2 = ':MJ' . $3;
+      $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2:MJ"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JK-([0-9]+)$/) {
+      my $c1 = u_chr hex $1;
+      my $c2 = ':m' . (0+$3);
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{"unihan:$2:K"} = 1;
     }
   }
 }
@@ -58,6 +73,11 @@ my $Data = {};
       #
     } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KPSource)\s+KP0-([A-F][0-9A-F])([A-F][0-9A-F])$/) {
       my $c2 = sprintf ':kps0-%d-%d', (hex $3) - 0xA0, (hex $4) - 0xA0;
+      my $c1 = u_chr hex $1;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{"unihan:$2"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KPSource)\s+KP1-([0-9A-F]{4})$/) {
+      my $c2 = sprintf ':kps1-%x', hex $3;
       my $c1 = u_chr hex $1;
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1}->{$c2}->{"unihan:$2"} = 1;
@@ -211,9 +231,12 @@ for (
   my $path = $TempPath->child ('unihan3.txt');
   my $file = $path->openr;
   while (<$file>) {
-    if (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+([01])-([0-9A-F]{2})([0-9A-F]{2})$/) {
+    if (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+([01A])-([0-9A-F]{2})([0-9A-F]{2})$/) {
       my $c1 = u_chr hex $1;
       my $c2 = sprintf ':jis%d-%d-%d', 1 + hex $3, (hex $4) - 0x20, (hex $5) - 0x20;
+      if ($3 eq 'A') {
+        $c2 = sprintf ':IA%02d%02d', (hex $4) - 0x20, (hex $5) - 0x20;
+      }
       my $rel_type = "unihan3.0:$2";
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;

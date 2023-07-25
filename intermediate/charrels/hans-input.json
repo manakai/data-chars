@@ -24,7 +24,55 @@
       "rels_key": "hans"
     },
     {
-      "path": "../unicode/maps.list",
+      "path": "../unicode/maps-0.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-1.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-3.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-4.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-5.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-6.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-7.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-8.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-9.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-10.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-11.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../unicode/maps-12.list",
       "rels_key": "hans"
     },
     {
@@ -61,6 +109,10 @@
     },
     {
       "path": "../mj/maps-6.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/maps-7.list",
       "rels_key": "hans"
     },
     {
@@ -107,10 +159,10 @@
         "jinmei": "jp_jinmei"
       }
     },
-    {
-      "path": "../jp/variants.list",
-      "rels_key": "hans"
-    },
+    {"path": "../jp/variants-0.list", "rels_key": "hans"},
+    {"path": "../jp/variants-1.list", "rels_key": "hans"},
+    {"path": "../jp/variants-2.list", "rels_key": "hans"},
+    {"path": "../jp/variants-3.list", "rels_key": "hans"},
     {
       "path": "../cns/maps.list",
       "rels_key": "hans"
@@ -158,6 +210,22 @@
       }
     },
     {
+      "path": "../cjkvi/maps-0.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/maps-1.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/maps-2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/maps-3.list",
+      "rels_key": "hans"
+    },
+    {
       "path": "../cjkvi/hd-0.list",
       "rels_key": "hans"
     },
@@ -195,6 +263,14 @@
     },
     {
       "path": "../cjkvi/hd-9.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-10.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-11.list",
       "rels_key": "hans"
     },
     {

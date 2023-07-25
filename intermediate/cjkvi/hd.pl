@@ -51,6 +51,8 @@ my $Types = {};
         $c3 = sprintf ':koseki%s', $3;
       } elsif ($2 eq 'TK') {
         $c3 = sprintf ':touki%s', $3;
+      } elsif ($2 eq 'JMK') {
+        $c3 = sprintf ':m%d', $3;
       }
     } elsif (/\S/) {
       die "Bad line |$_|";
@@ -164,6 +166,23 @@ my $Types = {};
 }
 
 {
+  my $path = $TempPath->child ('cjkvi-data/hducs2ivs.txt');
+  for (split /\x0A/, decode_web_utf8 $path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/^([A-Z]{2}[0-9A-F]{4,}S*)\s+U\+([0-9A-F]+)\s+\[U\+([0-9A-F]+) U\+([0-9A-F]+)\]$/) {
+      my $c1 = ':' . $1;
+      my $c2_0 = (chr hex $3);
+      my $c2 = $c2_0 . (chr hex $4);
+      my $vkey = get_vkey $c2_0;
+      $Data->{$vkey}->{$c1}->{$c2}->{'cjkvi:hducs2ivs'} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
+{
   my $path = $TempPath->child ('cjkvi-data/hducs2koseki.txt');
   for (split /\x0A/, decode_web_utf8 $path->slurp) {
     if (/^#/) {
@@ -245,15 +264,9 @@ my $Types = {};
       my $c2 = undef;
       if ($ids eq '？' or $ids eq '〓') {
         next;
-      } elsif ($ids =~ /[？〓\/\x{E000}-\x{F8FF}]/) {
-        $c2 = ':cjkvi:' . $ids;
-      } elsif ($ids =~ /^\p{Ideographic_Description_Characters}/) {
-        $c2 = ':' . $ids;
-      } elsif ($ids =~ /^[\w\x{2E00}-\x{2FFF}]$/) {
-        $c2 = $ids;
-      } else {
-        die "Bad IDS |$ids|";
       }
+      $c2 = wrap_ids $ids, ':cjkvi:';
+      die "Bad IDS |$ids|" unless defined $c2;
       $Data->{idses}->{$c1}->{$c2}->{'cjkvi:ids'} = 1;
     } elsif (/^([A-Z]{2}[0-9A-F]{4,}S*)(\*?)\t+$/) {
       #
@@ -270,29 +283,20 @@ my $Types = {};
   my $path = $ThisPath->child ('hd-ids.list');
   write_rel_data {idses => delete $Data->{idses}} => $path;
 }
-for (
-  [1, qr/^:J[AC]/],
-  [2, qr/^:J[BD]/],
-  [3, qr/^:J/],
-  [4, qr/^:KS[01]/],
-  [5, qr/^:KS[23]/],
-  [6, qr/^:K/],
-  [7, qr/^:T/],
-  [8, qr/^:[A-Z]/],
-  [9, qr/^[\x{3000}-\x{FFFF}]/],
-) {
-  my ($i, $pattern) = @$_;
-  my $path = $ThisPath->child ("hd-$i.list");
-  my $data = {};
-  my @v = grep { /^$pattern/ } keys %{$Data->{hans}};
-  for (@v) {
-    $data->{hans}->{$_} = delete $Data->{hans}->{$_};
-  }
-  write_rel_data $data => $path;
-}
-{
-  my $path = $ThisPath->child ('hd-0.list');
-  write_rel_data $Data => $path;
-}
+write_rel_data_sets
+    $Data => $ThisPath, 'hd',
+    [
+      qr/^:J[AC]/,
+      qr/^:J[BD]/,
+      qr/^:J/,
+      qr/^:KS0/,
+      qr/^:KS1/,
+      qr/^:KS2/,
+      qr/^:KS3/,
+      qr/^:K/,
+      qr/^:[A-Z]/,
+      qr/^[\x{3000}-\x{6FFF}]/,
+      qr/^[\x{7000}-\x{FFFF}]/,
+    ];
 
 ## License: Public Domain.
