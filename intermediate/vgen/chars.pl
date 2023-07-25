@@ -108,6 +108,10 @@ sub is_han ($) {
     return 1;
   } elsif ($char =~ /^:u-arib-(e7[6-9a-f][0-9a-f]|e8[0-9a-f]{2})$/) {
     return 1;
+  } elsif ($char =~ /^:jis1-(1[4-9]|[2-9][0-9])-([0-9]+)$/) {
+    return 1;
+  } elsif ($char =~ /^:jis2-(1[6-9]|[2-9][0-9])-([0-9]+)$/) { # XXX
+    return 1;
   } elsif ($char =~ /^:jis-arib-1-92-([789]|10|2[6789]|3[01])$/) {
     return 1;
   } elsif ($char =~ /^:MJ([0-9]+)$/) {
@@ -119,6 +123,8 @@ sub is_han ($) {
     } else {
       return 1;
     }
+  } elsif ($char =~ /^:[\p{Ideographic_Description_Characters}]/) {
+    return 1;
   }
   
   return 0;
@@ -447,6 +453,24 @@ sub is_b5_variant ($) {
   return 0;
 } # is_b5_variant
 
+sub is_ids_char ($) {
+  return $_[0] =~ /^:\p{Ideographic_Description_Characters}/;
+} # is_ids_char
+
+sub wrap_ids ($$) {
+  my ($s, $prefix) = @_;
+  use utf8;
+  if ($s =~ /[？?〓\/\x{303E}\x{E000}-\x{F8FF}\[\]]|CDP|&/) {
+    return $prefix . $s;
+  } elsif ($s =~ /^\p{Ideographic_Description_Characters}/) {
+    return ':' . $s;
+  } elsif ((is_han $s or is_kana $s) and not $s =~ /^:/) {
+    return $s;
+  } else {
+    return undef;
+  }
+} # wrap_ids
+
 sub get_vkey ($) {
   my $c = shift;
 
@@ -525,6 +549,33 @@ sub _print_rel_data ($$) {
 
 sub print_rel_data ($) { _print_rel_data $_[0] => \*STDOUT }
 sub write_rel_data ($$) { _print_rel_data $_[0] => $_[1]->openw }
+
+sub write_rel_data_sets ($$$$) {
+  my ($in_data, $container_path, $name_key, $patterns) = @_;
+
+  my $current_data = {};
+  for my $key (keys %$in_data) {
+    $current_data->{$key} = {%{$in_data->{$key}}};
+  }
+
+  my $i = 1;
+  for my $pattern (@$patterns) {
+    my $path = $container_path->child ("$name_key-$i.list");
+    my $data = {};
+    for my $key (keys %$current_data) {
+      my @v = grep { /^$pattern/ } keys %{$current_data->{$key}};
+      for (@v) {
+        $data->{$key}->{$_} = delete $current_data->{$key}->{$_};
+      }
+    }
+    write_rel_data $data => $path;
+    $i++;
+  }
+  {
+    my $path = $container_path->child ("$name_key-0.list");
+    write_rel_data $current_data => $path;
+  }
+} # write_rel_data_sets
 
 sub parse_rel_data_file ($$) {
   my ($file, $data) = @_;

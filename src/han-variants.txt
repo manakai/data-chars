@@ -73,6 +73,10 @@ jpnewstyle 𮯈 䶨
 jpnewstyle 𪘚 齬
 jpnewstyle 𪗱 齟
 
+jpnewstyle 𡢃 嫺
+unified 𡢃 :jis-dot16-53-38
+unified 𡢃 :jis-dot24-53-38
+
 variant 弖 氐
 variant 畨 番
 related 症 證
@@ -124,6 +128,10 @@ sconflict 广 鷹
 sconflict 乛 門
 sconflict 𠃍 門
 sconflict 𠃍 䦐
+
+conflict 乚 乙
+conflict 乚 隠
+conflict 𠃊 隠
 
 variant 弁 <- 辯 辨 瓣 辮
 variant 辨 辧
@@ -328,6 +336,7 @@ related 瓲 屯
 related 噸 瓲
 related 𭩝 枕
 related 𠤭 正
+related 耳 茸
 
 related 羊 年
 variant 秊 年

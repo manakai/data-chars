@@ -37,11 +37,15 @@ $(TEMP_PATH)/tksu.json:
 $(TEMP_PATH)/hikanji.txt:
 	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/lab/xb857/IPAmjMinchoHikanji.txt
 
+$(TEMP_PATH)/daikanwa-ucs.txt:
+	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/lab/xb3428/daikanwa-ucs.txt
+
 variants.json: variants.pl $(TEMP_PATH)/mj.json $(TEMP_PATH)/map.json
 	$(PERL) $< > $@
 
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
-    $(TEMP_PATH)/mj.json
+    $(TEMP_PATH)/mj.json \
+    $(TEMP_PATH)/daikanwa-ucs.txt
 	$(PERL) $<
 maps-*.list: maps-0.list
 

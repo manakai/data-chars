@@ -20,9 +20,18 @@ manakai:same
 -":gb8-23-31"
 "嘴"
 manakai:alt
+-":jis-dot16-53-38"
+"𡢃"
+manakai:unified
+-":jis-dot24-53-38"
+"𡢃"
+manakai:unified
 -":⿰釒吐"
 "銻"
 manakai:related
+-":⿰鱼帝"
+"𬶤"
+manakai:same
 -":⿱信金"
 "鉮"
 manakai:related
@@ -36,6 +45,9 @@ manakai:alt
 "〻"
 manakai:equivalent
 manakai:variant:conflicted
+-"〆"
+"貫"
+manakai:related
 -"〇"
 "0"
 manakai:equivalent
@@ -266,6 +278,9 @@ manakai:doukun
 manakai:doukun
 "載"
 manakai:doukun
+-"乙"
+"乚"
+manakai:variant:conflicted
 -"九"
 "〩"
 manakai:related
@@ -379,6 +394,8 @@ manakai:doukun
 "猪"
 manakai:doukun
 -"亦"
+"〻"
+manakai:variant:conflicted
 "又"
 manakai:doukun
 "複"
@@ -806,6 +823,11 @@ manakai:doukun
 manakai:doukun
 "道"
 manakai:doukun
+-"倭"
+"俀"
+manakai:related
+"委"
+manakai:related
 -"假"
 "仮"
 manakai:variant:simplifiedconflicted
@@ -1437,6 +1459,9 @@ manakai:doukun
 manakai:doukun
 "館"
 manakai:doukun
+-"勅"
+"詔"
+manakai:doukun
 -"勉"
 "努"
 manakai:doukun
@@ -1553,6 +1578,9 @@ manakai:differentiated
 manakai:differentiated
 "賣"
 manakai:differentiated
+-"南"
+"丙"
+manakai:taboo
 -"占"
 "湿"
 manakai:doukun
@@ -1880,6 +1908,9 @@ manakai:doukun
 "笑"
 manakai:doukun
 "藁"
+manakai:doukun
+-"命"
+"尊"
 manakai:doukun
 -"咄"
 "噺"
@@ -2485,6 +2516,9 @@ manakai:differentiated
 manakai:differentiated
 "賣"
 manakai:differentiated
+-"壽"
+"盛"
+manakai:taboo
 -"変"
 "代"
 manakai:doukun
@@ -2683,6 +2717,11 @@ manakai:doukun
 manakai:doukun
 "習"
 manakai:doukun
+"𡢃"
+manakai:variant:jpnewstyle
+-"嬰"
+"𰋷"
+manakai:variant:jpnewstyle
 -"子"
 "児"
 manakai:doukun
@@ -2823,6 +2862,9 @@ manakai:doukun
 manakai:variant:conflicted
 "虎"
 manakai:doukun
+-"寐󠄁"
+"寐󠄂"
+manakai:variant:jpnewstyle
 -"寝"
 "子"
 manakai:kakekotoba
@@ -2830,6 +2872,9 @@ manakai:kakekotoba
 manakai:kakekotoba
 "音"
 manakai:kakekotoba
+-"實"
+"寔"
+manakai:taboo
 -"寧"
 "安"
 manakai:doukun
@@ -2915,6 +2960,8 @@ manakai:doukun
 "閉"
 manakai:kakekotoba
 -"尊"
+"命"
+manakai:doukun
 "貴"
 manakai:doukun
 -"尋"
@@ -2932,6 +2979,9 @@ manakai:related
 manakai:doukun
 "汝"
 manakai:doukun
+-"尭"
+"高"
+manakai:taboo
 -"就"
 "付"
 manakai:doukun
@@ -3207,6 +3257,8 @@ manakai:doukun
 "旛"
 manakai:doukun
 -"干"
+"于"
+manakai:related
 "侵"
 manakai:doukun
 "冒"
@@ -3326,6 +3378,8 @@ manakai:doukun
 -"建"
 "勃"
 manakai:doukun
+"峻"
+manakai:taboo
 "断"
 manakai:doukun
 "楯"
@@ -3338,6 +3392,7 @@ manakai:doukun
 manakai:doukun
 "立"
 manakai:doukun
+manakai:taboo
 "経"
 manakai:doukun
 "絶"
@@ -3404,6 +3459,11 @@ manakai:doukun
 manakai:variant:simplifiedconflicted
 "氟"
 manakai:related
+-"弘"
+"宏"
+manakai:taboo
+"洪"
+manakai:taboo
 -"張"
 "春"
 manakai:kakekotoba
@@ -3468,6 +3528,13 @@ manakai:variant:jpnewstyle
 "型"
 manakai:doukun
 "方"
+manakai:doukun
+-"彩"
+"文"
+manakai:doukun
+"絢"
+manakai:doukun
+"綾"
 manakai:doukun
 -"彫"
 "堀"
@@ -5377,7 +5444,12 @@ manakai:doukun
 "蔵"
 manakai:doukun
 -"文"
+"彩"
+manakai:doukun
+"絢"
+manakai:doukun
 "綾"
+manakai:doukun
 manakai:kakekotoba
 "踏"
 manakai:kakekotoba
@@ -5618,6 +5690,9 @@ manakai:doukun
 manakai:doukun
 "登"
 manakai:doukun
+-"昌"
+"隆"
+manakai:taboo
 -"明"
 "哲"
 manakai:doukun
@@ -5722,6 +5797,9 @@ manakai:doukun
 manakai:doukun
 "闇"
 manakai:doukun
+-"昬"
+"昏"
+manakai:taboo
 -"昭"
 "哲"
 manakai:doukun
@@ -5918,6 +5996,10 @@ manakai:inset:original
 manakai:taboo
 "厯"
 manakai:taboo
+"暦"
+manakai:taboo
+"歴"
+manakai:taboo
 "歷"
 manakai:inset:original
 manakai:taboo
@@ -6113,6 +6195,9 @@ manakai:kakekotoba
 -"枉"
 "曲"
 manakai:doukun
+-"枕"
+"𭩝"
+manakai:related
 -"果"
 "初"
 manakai:kakekotoba
@@ -6328,6 +6413,9 @@ manakai:variant:jpnewstyle
 -"欅"
 "﨔"
 manakai:variant:jpnewstyle
+-"欟"
+"𣠤"
+manakai:variant:jpnewstyle
 -"次"
 "亜"
 manakai:doukun
@@ -6417,9 +6505,18 @@ manakai:doukun
 manakai:same
 "𠙺"
 manakai:variant:wu
+"𠤭"
+manakai:related
 -"此"
 "之"
 manakai:doukun
+-"武"
+"㱏"
+manakai:variant:taboo
+"㱐"
+manakai:variant:taboo
+"虎"
+manakai:taboo
 -"歳"
 "年"
 manakai:doukun
@@ -6599,6 +6696,7 @@ manakai:doukun
 manakai:doukun
 "理"
 manakai:doukun
+manakai:taboo
 "直"
 manakai:doukun
 "納"
@@ -6812,6 +6910,8 @@ manakai:doukun
 manakai:doukun
 "渥"
 manakai:doukun
+"湻"
+manakai:taboo
 "熱"
 manakai:doukun
 "篤"
@@ -6944,6 +7044,9 @@ manakai:doukun
 manakai:doukun
 "都"
 manakai:doukun
+-"湉"
+"恬"
+manakai:taboo
 -"湊"
 "港"
 manakai:doukun
@@ -7461,6 +7564,9 @@ manakai:doukun
 manakai:doukun
 "起"
 manakai:doukun
+-"燁"
+"曄"
+manakai:taboo
 -"燃"
 "萌"
 manakai:doukun
@@ -7609,6 +7715,10 @@ manakai:doukun
 manakai:doukun
 "球"
 manakai:doukun
+"給"
+manakai:doukun
+"賜"
+manakai:doukun
 "霊"
 manakai:doukun
 -"玊"
@@ -7683,6 +7793,11 @@ manakai:doukun
 manakai:doukun
 "蔵"
 manakai:doukun
+-"琰"
+"淡"
+manakai:taboo
+"談"
+manakai:taboo
 -"琴"
 "事"
 manakai:kakekotoba
@@ -8835,7 +8950,16 @@ manakai:doukun
 manakai:doukun
 "閉"
 manakai:doukun
+-"絢"
+"彩"
+manakai:doukun
+"文"
+manakai:doukun
+"綾"
+manakai:doukun
 -"給"
+"玉"
+manakai:doukun
 "賜"
 manakai:doukun
 -"統"
@@ -8917,8 +9041,13 @@ manakai:doukun
 "注"
 manakai:doukun
 -"綾"
+"彩"
+manakai:doukun
 "文"
+manakai:doukun
 manakai:kakekotoba
+"絢"
+manakai:doukun
 -"緋"
 "丹"
 manakai:doukun
@@ -9134,6 +9263,8 @@ manakai:inset:original
 manakai:equivalent
 manakai:inset:original
 -"羊"
+"年"
+manakai:related
 "未"
 manakai:doukun
 -"美"
@@ -9300,6 +9431,9 @@ manakai:kakekotoba
 -"胎"
 "肽"
 manakai:related
+-"胤"
+"允"
+manakai:taboo
 -"脂"
 "油"
 manakai:doukun
@@ -9504,6 +9638,9 @@ manakai:kakekotoba
 manakai:kakekotoba
 "繰"
 manakai:kakekotoba
+-"茸"
+"耳"
+manakai:related
 -"茻"
 "𦬇"
 manakai:variant:simplifiedconflicted
@@ -9520,6 +9657,7 @@ manakai:kakekotoba
 manakai:related
 "花"
 manakai:doukun
+manakai:taboo
 -"萌"
 "燃"
 manakai:doukun
@@ -9541,6 +9679,9 @@ manakai:doukun
 manakai:doukun
 "零"
 manakai:doukun
+-"葉"
+"𦯧"
+manakai:taboo
 -"葺"
 "吹"
 manakai:doukun
@@ -9715,6 +9856,8 @@ manakai:kakekotoba
 -"虎"
 "寅"
 manakai:doukun
+"武"
+manakai:taboo
 -"虚"
 "曠"
 manakai:doukun
@@ -9723,6 +9866,9 @@ manakai:doukun
 -"虫"
 "丶"
 manakai:variant:simplifiedconflicted
+-"蚊"
+"呅"
+manakai:related
 -"蚕"
 "子"
 manakai:kakekotoba
@@ -10236,6 +10382,9 @@ manakai:doukun
 manakai:doukun
 "詭"
 manakai:doukun
+-"詔"
+"勅"
+manakai:doukun
 -"評"
 "郡"
 manakai:doukun
@@ -10636,6 +10785,8 @@ manakai:doukun
 "賂"
 manakai:doukun
 -"賜"
+"玉"
+manakai:doukun
 "給"
 manakai:doukun
 -"賤"
@@ -11375,6 +11526,9 @@ manakai:differentiated
 -"鈪"
 "銰"
 manakai:related
+-"鈫"
+"呅"
+manakai:related
 -"鈴"
 "振"
 manakai:engo
@@ -11876,6 +12030,8 @@ manakai:doukun
 manakai:doukun
 "崇"
 manakai:doukun
+"豊"
+manakai:taboo
 "貴"
 manakai:doukun
 "高"
@@ -11901,6 +12057,11 @@ manakai:doukun
 -"障"
 "触"
 manakai:doukun
+-"隠"
+"乚"
+manakai:variant:conflicted
+"𠃊"
+manakai:variant:conflicted
 -"隯"
 "陦"
 manakai:variant:simplified
@@ -11910,6 +12071,11 @@ manakai:doukun
 -"雌"
 "牝"
 manakai:doukun
+-"雍"
+"和"
+manakai:taboo
+"煕"
+manakai:taboo
 -"雑"
 "交"
 manakai:doukun
@@ -12125,6 +12291,13 @@ manakai:doukun
 manakai:doukun
 "眷"
 manakai:doukun
+-"顯"
+"光"
+manakai:taboo
+"明"
+manakai:taboo
+"現"
+manakai:taboo
 -"飛"
 "翔"
 manakai:doukun
@@ -12406,6 +12579,9 @@ manakai:related
 manakai:related
 "燦"
 manakai:doukun
+-"鮷"
+"𩹋"
+manakai:related
 -"鯏"
 "鯎"
 manakai:related
@@ -12621,6 +12797,12 @@ manakai:differentiated
 manakai:differentiated
 "𢭇"
 manakai:differentiated
+-"𧅲"
+"囿"
+manakai:equivalent
+-"𧆘"
+"囿"
+manakai:equivalent
 -"𨥙"
 "肼"
 manakai:related
@@ -12654,6 +12836,9 @@ manakai:unified
 -"𮖠"
 "襄󠄃"
 manakai:unified
+-"𰨓"
+"禩"
+manakai:equivalent
 *kanas
 -"\u0022"
 "゛"
@@ -13109,6 +13294,9 @@ manakai:ne
 -"!"
 "　"
 manakai:differentiated
+-"8"
+"🍞"
+manakai:related
 -":cns1-34-36"
 "m̂"
 manakai:related
@@ -13160,12 +13348,45 @@ manakai:related
 -":cns1-34-52"
 "e̋"
 manakai:related
+-":jis1-1-3"
+":jis1-3-29"
+manakai:differentiated
+-"JIS"
+":aj273:aj272:aj282"
+manakai:related
+":aj43:aj42:aj52"
+manakai:related
+":aj799:aj798:aj808"
+manakai:related
+"〄"
+manakai:related
+-"|"
+"-"
+manakai:differentiated
+-"ɑ̀"
+":jis1-11-38"
+manakai:related
+-"ɑ́"
+":jis1-11-39"
+manakai:related
+-"ɛ̀"
+":jis1-11-48"
+manakai:related
+-"ɛ́"
+":jis1-11-49"
+manakai:related
 -"ʬ"
 "w"
 manakai:related
+-"μ"
+"u"
+manakai:alt
 -"―"
 "—"
 manakai:alt
+-"※"
+"*"
+manakai:related
 -"▲"
 "−"
 manakai:related
@@ -13196,6 +13417,9 @@ manakai:related
 -"分"
 "′"
 manakai:related
+-"十"
+"\u002B"
+manakai:ne
 -"参"
 "㌠"
 manakai:related
@@ -13286,6 +13510,8 @@ manakai:related
 "M"
 manakai:related
 "m"
+manakai:related
+"※"
 manakai:related
 -"粍"
 "㎜"

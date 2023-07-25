@@ -24350,6 +24350,8 @@ manakai:private
 -":jis1-85-82"
 ":jis-arib-1-85-82"
 manakai:private
+":u-arib-e08c"
+arib:ucs
 ":u-arib-e768"
 arib:ucs
 -":jis1-85-83"
@@ -55749,9 +55751,6 @@ manakai:private
 -":jis1-2-94"
 ":jis-arib-1-2-94"
 manakai:private
--":jis1-85-82"
-":u-arib-e08c"
-arib:ucs
 -":jis1-86-44"
 ":jis-arib-1-86-44"
 manakai:private
@@ -57531,8 +57530,6 @@ manakai:same
 manakai:same
 -""
 ":jis-arib-1-85-56"
-manakai:private
-":u-arib-e08c"
 manakai:private
 -""
 ":u-arib-e096"

@@ -43,6 +43,7 @@ $Data->{key} = $Input->{key};
 
 my $TypeWeight = {};
 my $TypeMergeableWeight = {};
+my $ImpliedTypes = {};
 my $PairedTypes = [];
 my $NTypes = [];
 {
@@ -51,34 +52,88 @@ my $NTypes = [];
   ## SAME: Same character by definition.  Characters are
   ## unconditionally replaceable.
   for my $vtype (
-    "mj:実装したMoji_JohoコレクションIVS",
-    "mj:実装したSVS",
-    "mj:対応する互換漢字",
     "mj:戸籍統一文字:同一",
     'mj:学術用変体仮名番号',
     'ninjal:MJ文字図形名',
     
     "unicode:svs:cjk",
     "ivd:duplicate",
+    "ucd:Unicode",
     "cjkvi:cjkvi/duplicate",
+    "cjkvi:dkw2ucs:重複漢字",
     "manakai:same",
+
+    "cjkvi:dkw2ucs:moved[0]",
+    "cjkvi:dkw2ucs:moved[1]",
+    "cjkvi:dkw2ucs:moved[2]",
+    "cjkvi:dkw2ucs:added[0] from",
+    "cjkvi:dkw2ucs:added[1] from",
+    "cjkvi:dkw2ucs:added[2] from",
+    "cjkvi:dkw2ucs:removed[1]",
 
     "uk:font-code-point",
     "adobe:vs",
+    "ivd:Adobe-Japan1",
     
     "cjkvi:hd2ucs:=",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
     $TypeWeight->{'rev:'.$vtype} = W 'SAME';
   }
-
+  for my $pair (
+    ['adobe:vs', 'ivd:Adobe-Japan1'],
+  ) {
+    push @$PairedTypes, $pair;
+    for my $vtype ($pair->[0]) {
+      $TypeWeight->{'to1:'.$vtype} = -2;
+      $TypeWeight->{'nto1:'.$vtype} = -2;
+      $TypeWeight->{'to1:rev:'.$vtype} = -2;
+      $TypeWeight->{'nto1:rev:'.$vtype} = -2;
+      $TypeWeight->{'1to1:'.$vtype} = -2;
+    }
+    for my $vtype ($pair->[1]) {
+      $TypeWeight->{'to1:'.$vtype} = -2;
+      $TypeWeight->{'to1:rev:'.$vtype} = -2;
+    }
+  }
+  $ImpliedTypes->{'ivd:Hanyo-Denshi'}->{'ivd:Hanyo-Denshi/ivd:Moji_Joho'} = 1;
+  $ImpliedTypes->{'ivd:Moji_Joho'}->{'ivd:Hanyo-Denshi/ivd:Moji_Joho'} = 1;
+  for my $pair (
+    ["mj:実装したMoji_JohoコレクションIVS", 'ivd:Hanyo-Denshi/ivd:Moji_Joho'],
+    ["cjkvi:hducs2ivs", 'ivd:Hanyo-Denshi/ivd:Moji_Joho'],
+  ) {
+    push @$PairedTypes, $pair;
+    my $unused = -2;
+    for my $vtype ($pair->[0]) {
+      $TypeWeight->{'to1:'.$vtype} = $unused;
+      $TypeWeight->{'nto1:'.$vtype} = $unused;
+      $TypeWeight->{'to1:rev:'.$vtype} = $unused;
+      $TypeWeight->{'nto1:rev:'.$vtype} = $unused;
+      $TypeWeight->{'1to1:'.$vtype} = W 'SAME';
+    }
+    for my $vtype ($pair->[1]) {
+      $TypeWeight->{$vtype} = $unused;
+      $TypeWeight->{'rev:'.$vtype} = $unused;
+      $TypeWeight->{'to1:'.$vtype} = $unused;
+      $TypeWeight->{'to1:rev:'.$vtype} = $unused;
+    }
+  }
+  
   ## UNIFIED: Characters unified into a single abstract character in
   ## typical coded character set standards.
   for my $vtype (
     "mj:対応するUCS",
     "ivd:base",
 
+    "mj:実装したMoji_JohoコレクションIVS",
+    "mj:実装したSVS",
+    "mj:対応する互換漢字",
+    "ivd:Hanyo-Denshi",
+    "ivd:Moji_Joho",
+
+    "ucd:source",
     "ucd:Equivalent_Unified_Ideograph",
+    "ucd:unifiable",
     "cjkvi:non-cjk/hangzhou-num",
     "cjkvi:non-cjk/kangxi",
     "cjkvi:non-cjk/radical",
@@ -116,6 +171,10 @@ my $NTypes = [];
     "unihan3.0:kGB8",
     "unihan3.0:kIRG_GSource:8",
     "unihan:kIRG_GSource:8",
+    "unihan:kIRG_GSource:7",
+    "unihan:kIRG_GSource:E",
+    "unihan:kIRG_GSource:S",
+    "unihan:kIRG_GSource:KX",
     "unihan3.0:kIRG_TSource",
     "unihan:kKSC0",
     "unihan:kKSC1",
@@ -126,6 +185,10 @@ my $NTypes = [];
     "uk:gb8",
     "unihan:kIBMJapan",
     "unihan:kIRG_JSource:ARIB",
+    #"unihan:kIRG_JSource:A",
+    "unihan:kIRG_JSource:H",
+    "unihan:kIRG_JSource:K",
+    "unihan:kIRG_JSource:MJ",
     "unicode:mapping",
     "unicode:mapping:apple",
     "unihan:kIRG_HSource",
@@ -138,6 +201,20 @@ my $NTypes = [];
     "encoding:decode:big5",
     "moztw:Big5-1984",
     "moztw:UAO 2.50",
+    "ivd:MSARG",
+
+    "unihan3.0:kAlternateKangXi",
+    "unihan:kKangXi",
+    "unihan:kIRGKangXi",
+    "unihan3.0:kKangXi",
+    "unihan3.0:kIRGKangXi",
+    "cjkvi:kx2ucs",
+    "cjkvi:kx2ucs:Unihan",
+
+    "unihan:kMorohashi",
+    "unihan3.0:kMorohashi",
+    "unihan3.0:kAlternateMorohashi",
+    "cjkvi:dkw2ucs",
 
     "unihan:kIRG_JSource:1",
     "unihan:kIRG_JSource:14",
@@ -203,6 +280,7 @@ my $NTypes = [];
     "manakai:bold",
     "manakai:ocr",
 
+    "cjkvi:hducs2ivs",
     "cjkvi:hd2ucs",
     "cjkvi:hd2ucs:U",
     "cjkvi:hd2ucs:ivs",
@@ -213,6 +291,7 @@ my $NTypes = [];
     "cjkvi:hd2cid:related",
     "manakai:implements",
     "manakai:implements:juki",
+    "manakai:implements:vertical",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -231,6 +310,22 @@ my $NTypes = [];
     "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:5",
 
     "unihan:hkglyph",
+    "ucd:y-variant",
+    "ucd:Misidentification of",
+    "ucd:variant of",
+    "ucd:incorrect of",
+    "ucd:ligature of",
+
+    'jisx0208-1997:附属書1:表1',
+    'jisx0208-1997:附属書1:表2',
+    'jisx0208-1997:附属書2:表1',
+    'jisx0208-1997:附属書2:表2',
+    'jisx0208-1997:附属書7:83入替え:入替え',
+    'jisx0208-1997:附属書7:83入替え:追加入替え',
+    'jisx0213:附属書7:2.1 a)',
+    'jisx0213:附属書7:2.1 b)',
+    'jisx0213:附属書7:2.1 d)',
+    'jisx0213:附属書7:2.2',
 
     "unihan:koreanname:variant",
 
@@ -243,12 +338,28 @@ my $NTypes = [];
     'cjkvi:hducs2koseki:*',
     'cjkvi:hducs2koseki:#',
     'cjkvi:hducs2koseki:()',
+    "cjkvi:gb2ucs:2:#",
+    "cjkvi:gb2ucs:4:#",
+    "cjkvi:gb2ucs:K:#",
+    "cjkvi:gb2ucs:2:#:3",
+    "cjkvi:gb2ucs:2:#:4",
+    "cjkvi:gb2ucs:4:#:2",
+    "cjkvi:gb2ucs:4:#:5",
+    "cjkvi:gb2ucs:K:#:1",
+    "cjkvi:gb2ucs:K:#:3",
+    "cjkvi:gb2ucs:K:#:5",
+    "cjkvi:kx2ucs:*",
+    "cjkvi:kx2ucs:#",
+    "cjkvi:dkw2ucs:#",
+    "cjkvi:dkw2ucs:本字 of",
+    "mj:daikanwa-ucs",
 
     "kchar:Hunminjeongeum Haerye style",
     
     "unihan3.0:kIRG_JSource",
     "unihan:kIRG_JSource:0",
     "unihan:kIRG_JSource:13",
+    "unihan:kIRG_JSource:13A",
     "unihan:kIRG_JSource:3",
     "unihan:kIRG_JSource:A3",
     
@@ -491,6 +602,9 @@ my $NTypes = [];
     "cjkvi:jisx0213/variant",
     
     "unihan:kSemanticVariant",
+    "ucd:IDS",
+    "ucd:Unicode:related",
+    "ucd:similar",
 
     "cjkvi:cjkvi/radical-split",
     "cjkvi:cjkvi/radical-variant",
@@ -530,6 +644,8 @@ my $NTypes = [];
     "cjkvi:hydcd/borrowed",
     "cjkvi:variants",
     "cjkvi:ids",
+    "cjkvi:dkw2ucs:changed[1]:old",
+    "cjkvi:dkw2ucs:changed[1]:new",
 
     "manakai:alt",
     "manakai:related",
@@ -591,6 +707,8 @@ my $NTypes = [];
     "unihan:kSpoofingVariant",
     "mj:新しいMJ文字図形名",
 
+    "mj:大漢和", # broken
+    
     "manakai:private",
 
     "manakai:typo",
@@ -601,11 +719,21 @@ my $NTypes = [];
     "unicode:security:confusable",
     "unicode:security:intentional",
     
+    "cjkvi:dkw2ucs:replaced[1] from",
+    "cjkvi:dkw2ucs:replaced[1] to",
+    "cjkvi:dkw2ucs:replaced[2] from",
+    "cjkvi:dkw2ucs:replaced[2] to",
+    
     "cjkvi:non-cjk/bopomofo",
     "cjkvi:non-cjk/katakana",
 
     "manakai:kakekotoba",
     "manakai:engo",
+
+    "unihan:kKangXi:virtual",
+    "unihan:kIRGKangXi:virtual",
+    "unihan3.0:kKangXi:virtual",
+    "unihan3.0:kIRGKangXi:virtual",
 
     "manakai:ne",
   ) {
@@ -615,6 +743,7 @@ my $NTypes = [];
 
   for my $vtype (
     "cjkvi:cjkvi/non-cognate",
+    "cjkvi:dkw2ucs:別字",
   ) {
     $TypeWeight->{$vtype} = W 'LINKED';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -688,30 +817,39 @@ for (
   } else {
     parse_rel_data_file $path->openr => $json;
   }
+  my $NewRels = [];
   for my $c1 (keys %{$json->{$rels_key}}) {
     for my $c2 (keys %{$json->{$rels_key}->{$c1}}) {
       next if $c1 eq $c2;
       my $has = 0;
-      for (keys %{$json->{$rels_key}->{$c1}->{$c2}}) {
-          my $w = $TypeWeight->{$_} || 0;
-          $Rels->{$c1}->{$c2}->{$_} = $w;
-          push @$RevRels, [$c1, $c2, $_, $w];
-          $HasRels->{$_}->{$c1} = 1;
-          $HasRelTos->{$_}->{$c2} = 1;
-          next if $w < 0;
-          my $set_key = $mvmap->{$_};
-          if (defined $set_key) {
-            $Rels->{$c1}->{$c2}->{'manakai:inset:'.$set_key.':variant'} = 1;
-            $Rels->{$c2}->{$c1}->{'manakai:inset:'.$set_key.':variant'} = 1;
-          }
-          $has = 1;
+      for my $rel (keys %{$json->{$rels_key}->{$c1}->{$c2}}) {
+        my $w = $TypeWeight->{$rel} || 0;
+        $Rels->{$c1}->{$c2}->{$rel} = $w;
+        push @$RevRels, [$c1, $c2, $rel, $w];
+        $HasRels->{$rel}->{$c1} = 1;
+        $HasRelTos->{$rel}->{$c2} = 1;
+        for my $rel2 (keys %{$ImpliedTypes->{$rel} or {}}) {
+          push @$NewRels, [$c1, $c2, $rel2];
+          $HasRels->{$rel2}->{$c1} = 1;
+          $HasRelTos->{$rel2}->{$c2} = 1;
         }
+        next if $w < 0;
+        my $set_key = $mvmap->{$rel};
+        if (defined $set_key) {
+          $Rels->{$c1}->{$c2}->{'manakai:inset:'.$set_key.':variant'} = 1;
+          $Rels->{$c2}->{$c1}->{'manakai:inset:'.$set_key.':variant'} = 1;
+        }
+        $has = 1;
+      } # $rel
     }
   }
   for my $set_key (keys %$setmap) {
     for my $c (keys %{$json->{sets}->{$set_key}}) {
       $Sets->{$setmap->{$set_key}}->{$c} = 1;
     }
+  }
+  for (@$NewRels) {
+    $Rels->{$_->[0]}->{$_->[1]}->{$_->[2]} = 1;
   }
 }
 for my $r (@$RevRels) {
@@ -725,7 +863,7 @@ for my $r (@$RevRels) {
 for my $vtype (@$NTypes, (map { @$_ } @$PairedTypes)) {
   for my $vtype ($vtype, 'rev:'.$vtype) {
     my $vt2 = $vtype;
-    $vt2 =~ s/\d+$//;
+    #$vt2 =~ s/\d+$//;
     C1: for my $c1 (sort { $a cmp $b } keys %{$HasRels->{$vtype}}) {
       my $n = 0;
       my $c;
@@ -739,7 +877,7 @@ for my $vtype (@$NTypes, (map { @$_ } @$PairedTypes)) {
 }
 for my $vtype (@$NTypes) {
   my $vt2 = $vtype;
-  $vt2 =~ s/\d+$//;
+  #$vt2 =~ s/\d+$//;
   for my $c1 (sort { $a cmp $b } keys %{$HasRels->{$vtype}}) {
     for my $c2 (sort { $a cmp $b } keys %{$Rels->{$c1}}) {
       if ($Rels->{$c1}->{$c2}->{'to1:'.$vt2} and
@@ -772,6 +910,8 @@ for (@$PairedTypes) {
     for my $c2 (keys %{$Rels->{$c1}}) {
       my $types = $Rels->{$c1}->{$c2};
       die perl2json_bytes [$c1, $c2, $types] if $c1 eq $c2;
+      my @remove = grep { ($TypeWeight->{$_} // die "Unweighted rel |$_|") == -2 } keys %$types;
+      delete $types->{$_} for @remove;
       $types->{_} = [sort { $b <=> $a } map {
         $TypeWeight->{$_} || do {
           $UnweightedTypes->{$_} = 1;
@@ -784,7 +924,7 @@ for (@$PairedTypes) {
     }
   }
 
-  warn "Unweighted: \n", join ("\n", sort { $a cmp $b } keys %$UnweightedTypes), "\n"
+  die "Unweighted: \n", join ("\n", sort { $a cmp $b } keys %$UnweightedTypes), "\n"
       if keys %$UnweightedTypes;
 }
 

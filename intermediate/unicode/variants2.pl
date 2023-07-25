@@ -36,11 +36,22 @@ for (split /\x0D?\x0A/, $path->slurp) {
   for (split /\x0D?\x0A/, $path->slurp) {
     if (/^#/) {
       #
-    } elsif (/^([0-9A-F]+) ([0-9A-F]+);/) {
+    } elsif (s/^([0-9A-F]+) ([0-9A-F]+);\s*//) {
       my $c1 = chr hex $1;
       my $c2 = chr hex $2;
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1.$c2}->{$c1}->{"ivd:base"} = 1;
+      if (/^Adobe-Japan1; CID\+([0-9]+)$/) {
+        $Data->{$key}->{$c1.$c2}->{':aj' . (0+$1)}->{"ivd:Adobe-Japan1"} = 1;
+      } elsif (/^Hanyo-Denshi; ([A-Z0-9]+)$/) {
+        $Data->{$key}->{$c1.$c2}->{':' . $1}->{"ivd:Hanyo-Denshi"} = 1;
+      } elsif (/^Moji_Joho; (MJ[0-9]+)$/) {
+        $Data->{$key}->{$c1.$c2}->{':' . $1}->{"ivd:Moji_Joho"} = 1;
+      } elsif (/^MSARG; MA_([0-9A-F]+)$/) {
+        $Data->{$key}->{$c1.$c2}->{sprintf ':b5-hkscs-%x', (hex $1)}->{"ivd:MSARG"} = 1;
+      } elsif (/^MSARG; MB_([0-9A-F]+)$/) {
+        $Data->{$key}->{$c1.$c2}->{sprintf ':b5-%x', (hex $1)}->{"ivd:MSARG"} = 1;
+      }
     } elsif (/\S/) {
       die "Bad line |$_|";
     }

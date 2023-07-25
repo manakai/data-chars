@@ -14,7 +14,55 @@
       "rels_key": "kchars"
     },
     {
-      "path": "../unicode/maps.list",
+      "path": "../unicode/maps-0.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-1.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-2.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-3.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-4.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-5.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-6.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-7.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-8.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-9.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-10.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-11.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../unicode/maps-12.list",
       "rels_key": "kchars"
     },
     {
@@ -49,18 +97,40 @@
       "path": "../mj/maps-5.list",
       "rels_key": "kchars"
     },
+    {"path": "../mj/maps-6.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-7.list", "rels_key": "kchars"},
     {
-      "path": "../mj/maps-6.list",
+      "path": "../mj/fmaps-0.list",
       "rels_key": "kchars"
     },
     {
-      "path": "../mj/fmaps.list",
+      "path": "../mj/fmaps-1.list",
       "rels_key": "kchars"
     },
     {
-      "path": "../jp/variants.list",
+      "path": "../mj/fmaps-2.list",
       "rels_key": "kchars"
     },
+    {
+      "path": "../mj/fmaps-3.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-4.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-5.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-6.list",
+      "rels_key": "kchars"
+    },
+    {"path": "../jp/variants-0.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-1.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-2.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-3.list", "rels_key": "kchars"},
     {
       "path": "../cns/maps.list",
       "rels_key": "kchars"
@@ -93,10 +163,11 @@
       "path": "../opencc/variants.list",
       "rels_key": "kchars"
     },
-    {
-      "path": "../cjkvi/variants.list",
-      "rels_key": "kchars"
-    },
+    {"path": "../cjkvi/variants.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/maps-0.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/maps-1.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/maps-2.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/maps-3.list", "rels_key": "kchars"},
     {
       "path": "../wiki/maps.list",
       "rels_key": "kchars"

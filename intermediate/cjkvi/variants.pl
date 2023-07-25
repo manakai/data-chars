@@ -13,9 +13,7 @@ my $Data = {};
 
 sub wrap ($) {
   my $s = shift;
-  $s = ':cjkvi:'.$s
-      if $s =~ /\p{Ideographic_Description_Characters}|\[/;
-  return $s;
+  return wrap_ids ($s, ':cjkvi:') // $s;
 } # wrap
 
 sub bad ($) {
@@ -110,7 +108,7 @@ for (
       my $c2 = wrap $3;
       next if bad $c2;
       my $vtype = "cjkvi:$2";
-      die unless is_han $c1;
+      die "Bad input |$c1|" unless is_han $c1;
       if (is_private $c2) {
         my $c2_1 = $c2;
         $c2 = sprintf ':cjkvi:u%x', ord $c2;
@@ -159,9 +157,8 @@ for (
 
 {
   my $path = $TempPath->child ('cjkvi-data/gb2ucs.txt');
-  my $vtype = 'cjkvi:variants';
   for (split /\x0A/, decode_web_utf8 $path->slurp) {
-    if (/^G([24K])-([0-9]{2})([0-9]{2})\s+(U\+[0-9A-Fa-f]+|[\p{Ideographic_Description_Characters}\p{CJK_Radicals_Supplement}\p{Private_Use}\w]+)(?:\s*#.+|)$/) {
+    if (/^G([24K])-([0-9]{2})([0-9]{2})\s+(U\+[0-9A-Fa-f]+|[\p{Ideographic_Description_Characters}\p{CJK_Radicals_Supplement}\p{Private_Use}\w]+)(?:\s*#\s*(.+)|)$/) {
       my $pp = $1;
       my $p = {
         2 => 2,
@@ -176,8 +173,38 @@ for (
       } else {
         $c2 = wrap $4;
       }
+      my $note = $5;
       my $vtype = 'cjkvi:gb2ucs:'.$pp;
-      $Data->{hans}->{$c1}->{$c2}->{$vtype} = 1;
+      my $vkey = 'hans';
+      if (is_ids_char $c2) {
+        $vkey = 'idses';
+      }
+      $Data->{$vkey}->{$c1}->{$c2}->{$vtype} = 1;
+
+      if (defined $note and length $note) {
+        use utf8;
+        if ($note =~ /^\p{Ideographic_Description_Characters}[\p{Han}\p{Ideographic_Description_Characters}\x{E000}-\x{F7FF}]+$/) {
+          my $c5 = (wrap_ids $note, ':cjkvi:') // die;
+          $Data->{idses}->{$c1}->{$c5}->{$vtype.':#'} = 1;
+        } elsif ($note =~ /^(?:(\p{Han})|整理表（(\p{Han})）)$/) {
+          my $c5 = $1 // $2;
+          $Data->{$vkey}->{$c1}->{$c5}->{$vtype.':#'} = 1;
+        } elsif ($note =~ /^G([35])-([0-9]{2})([0-9]{2}) U\+([0-9A-F]+), cf\. G([24])-([0-9]{2})([0-9]{2})$/) {
+          my $c5 = sprintf ':gb%d-%d-%d', $1-1, $2, $3;
+          my $c6 = chr hex $4;
+          my $c7 = sprintf ':gb%d-%d-%d', $5, $6, $7;
+          $Data->{$vkey}->{$c1}->{$c5}->{$vtype.':#:' . $1} = 1;
+          $Data->{$vkey}->{$c1}->{$c6}->{$vtype.':#'} = 1;
+          $Data->{$vkey}->{$c1}->{$c7}->{$vtype.':#:' . $5} = 1;
+        } elsif ($note =~ m{^(?:(\p{Han}) |)<G([135])-([0-9A-F]{2})([0-9A-F]{2})>(?:\t# <G1-[0-9]{4}>|)$}) {
+          my $c5 = $1;
+          my $c6 = sprintf ':gb%d-%d-%d', $2-1, (hex $3)-0x20, (hex $4)-0x20;
+          $Data->{$vkey}->{$c1}->{$c5}->{$vtype.':#'} = 1 if defined $c5;
+          $Data->{$vkey}->{$c1}->{$c6}->{$vtype.':#:' . $2} = 1;
+        } else {
+          die $note;
+        }
+      }
     } elsif (/\S/) {
       die "Bad line |$_|";
     }

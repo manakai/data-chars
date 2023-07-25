@@ -20,8 +20,8 @@ build-vgen-pages: build-vgen test
 build-vgen: \
     merged-index.json \
     cluster-index.json char-cluster/part-0.jsonl char-leaders/part-0.jsonl \
-    cluster-chars/part-0.jsonl \
-    merged-rels/part-0.jsonll \
+    cluster-chars/part-0-0.jsonl \
+    merged-rels/part-0.jsonl \
     testdata.json \
     tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz tbl-leaders.dat.gz
 
@@ -75,10 +75,10 @@ merged-index.json merged-sets.json merged-chars.json merged-rels.jsonll:: \
 %: $(VGEN_PATH)/merged.pl $(VGEN_MERGED_INPUTS)
 	$(PERL) $<
 
-merged-rels/part-0.jsonll: $(VGEN_PATH)/split-jsonl.pl \
+merged-rels/part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
     merged-rels.jsonll
 	$(PERL) $< merged-rels
-merged-rels/part-*.jsonll: merged-rels/part-0.jsonll
+merged-rels/part-*.jsonl: merged-rels/part-0.jsonl
 
 merged-char-index.jsonl: $(VGEN_PATH)/merged-char-index.pl \
     merged-chars.json
@@ -94,10 +94,10 @@ cluster/part-0.jsonl: $(VGEN_PATH)/split-index-jsonl.pl \
 	$(PERL) $< cluster
 cluster/part-*.jsonl: cluster/part-0.jsonl
 
-cluster-chars/part-0.jsonl: $(VGEN_PATH)/cluster-chars.pl \
+cluster-chars/part-0-0.jsonl: $(VGEN_PATH)/cluster-chars.pl \
     merged-char-index.jsonl cluster-temp.jsonl
 	$(PERL) $<
-cluster-chars/part-*.jsonl: cluster-chars/part-0.jsonl
+cluster-chars/part-*.jsonl: cluster-chars/part-0-0.jsonl
 
 char-cluster.jsonl: $(VGEN_PATH)/char-cluster.pl \
     merged-char-index.jsonl cluster-temp.jsonl
@@ -135,8 +135,9 @@ test: $(VGEN_PATH)/test.pl \
 	$(PROVE) $<
 perl-test: \
     merged-index.json char-cluster.jsonl testdata.json \
+    $(VGEN_PATH)/test.pl \
     perl-test-main
-perl-test-main: $(VGEN_PATH)/test.pl
-	$(PERL) $<
+perl-test-main: 
+	$(PERL) $(VGEN_PATH)/test.pl
 
 ## License: Public Domain.

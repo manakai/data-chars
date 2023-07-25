@@ -38,7 +38,10 @@ my $Index = {};
       b5 b5-8 b5-9 b5-a b5-b b5-c b5-d b5-e b5-f b5-hkscs b5-uao b5-cdp 
       u-bigfive u-hkscs u-uao
       cccii cccii1 cccii2 cccii3 cccii4 cccii9
-      koseki koseki0 koseki1 koseki2 koseki3 touki KS TK J I m F G I
+      koseki koseki0 koseki1 koseki2 koseki3 koseki4 koseki5 touki
+      KS KS0 KS1 KS2 KS3 TK J JA JB JC JD JT I
+      m m1 m2 m3 m4 F G I
+      kx kx0 kx1
     )];
     my $x = 0x500;
     $to_index->{$_} = $x++ for @$prefixes;
@@ -143,12 +146,12 @@ my $OutFiles = [];
 }
 
 {
-  for my $i (1..$#$OutFiles) {
-    next unless defined $OutFiles->[$i];
-    if (@{$OutFiles->[$i]} < 100) {
-      push @{$OutFiles->[0] ||= []}, @{delete $OutFiles->[$i]};
-    }
-  }
+  #for my $i (1..$#$OutFiles) {
+  #  next unless defined $OutFiles->[$i];
+  #  if (@{$OutFiles->[$i]} < 100) {
+  #    push @{$OutFiles->[0] ||= []}, @{delete $OutFiles->[$i]};
+  #  }
+  #}
 
   $DataPath->child ($FileKey)->mkpath;
   my $ext = $FileDef->{out_paired} ? 'jsonll' : 'jsonl';

@@ -13,7 +13,7 @@ build-nightly: build
 build: $(TEMP_PATH) \
     variants.json variants2.list \
     namesrefs.list \
-    maps.list maps2.list maps3.list
+    maps-0.list maps2.list maps3.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -31,10 +31,14 @@ $(TEMP_PATH)/Unihan13_OtherMappings.txt:: %: $(TEMP_PATH)/unihan13.zip
 $(TEMP_PATH)/unihan13-krname.txt: $(TEMP_PATH)/Unihan13_OtherMappings.txt
 	grep -v '^#' $< | grep kKoreanName > $@
 
+$(TEMP_PATH)/USourceData.txt:
+	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/USourceData.txt
+
 $(TEMP_PATH)/unihan.zip:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
 $(TEMP_PATH)/Unihan_Readings.txt \
 $(TEMP_PATH)/Unihan_DictionaryLikeData.txt \
+$(TEMP_PATH)/Unihan_DictionaryIndices.txt \
 $(TEMP_PATH)/Unihan_Variants.txt \
 $(TEMP_PATH)/Unihan_IRGSources.txt \
 $(TEMP_PATH)/Unihan_OtherMappings.txt:: %: $(TEMP_PATH)/unihan.zip
@@ -68,6 +72,10 @@ $(TEMP_PATH)/unihan-irg-m.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_M > $@
 $(TEMP_PATH)/unihan-irg-t.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_T > $@
+$(TEMP_PATH)/unihan-kangxi.txt: $(TEMP_PATH)/Unihan_DictionaryIndices.txt
+	grep -v '^#' $< | grep KangXi > $@
+$(TEMP_PATH)/unihan-morohashi.txt: $(TEMP_PATH)/Unihan_DictionaryIndices.txt
+	grep -v '^#' $< | grep Morohashi > $@
 
 $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/EquivalentUnifiedIdeograph.txt
@@ -142,11 +150,14 @@ namesrefs.list: namesrefs.pl \
     $(VGEN_PATH)/chars.pl
 	$(PERL) $< > $@
 
-maps.list: maps.pl $(VGEN_PATH)/chars.pl \
+maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan3.txt \
     $(TEMP_PATH)/unihan-irg-g.txt \
-    $(TEMP_PATH)/unihan-irg-t.txt
-	$(PERL) $< > $@
+    $(TEMP_PATH)/unihan-irg-t.txt \
+    $(TEMP_PATH)/unihan-kangxi.txt \
+    $(TEMP_PATH)/unihan-morohashi.txt
+	$(PERL) $<
+maps-*.list: maps-0.list
 
 maps2.list: maps2.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-irg-j.txt \
@@ -171,7 +182,8 @@ maps3.list: maps3.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-irg-h.txt \
     $(TEMP_PATH)/unihan-irg-m.txt \
     $(TEMP_PATH)/unihan-irg-uk.txt \
-    irgn2107r2-uk.tsv irgn2232r-uk.tsv
+    irgn2107r2-uk.tsv irgn2232r-uk.tsv \
+    $(TEMP_PATH)/USourceData.txt
 	$(PERL) $< > $@
 
 always:
