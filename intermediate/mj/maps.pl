@@ -91,7 +91,7 @@ my $Data = {};
       my $type = 'mj:住基ネット統一文字コード';
       my $cc2 = hex $1;
       if ((0xAA00 <= $cc2 and $cc2 <= 0xD7FF) or
-          (0xFA2E <= $cc2 and $cc2 <= 0xFAFF)) {
+          (0xFA2E <= $cc2 and $cc2 <= 0xFAFF and not (defined $compat and $compat eq chr $cc2))) {
         my $c2 = sprintf ':u-juki-%x', $cc2;
         $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
         insert_rel $Data,
@@ -108,8 +108,17 @@ my $Data = {};
     my $ns = $data->{入管正字コード} // '';
     if ($ns =~ /^0x([0-9A-Fa-f]+)$/) {
       my $type = 'mj:入管正字コード';
-      my $c2 = u_chr hex $1;
-      $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
+      my $cc2 = hex $1;
+      if (0xE000 <= $cc2 and $cc2 <= 0xF7FF) {
+        my $c2 = sprintf ':u-immi-%x', $cc2;
+        $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
+        insert_rel $Data,
+            (u_chr $cc2), $c2, "manakai:private",
+            "private";
+      } else {
+        my $c2 = u_chr hex $1;
+        $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
+      }
       ## 平成23年法務省告示第582号第二項 -> JIS X 0221 [MJ]
     } elsif (length $ns) {
       die $ns;

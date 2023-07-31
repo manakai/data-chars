@@ -26,21 +26,22 @@ my $Index = {};
       ak ak1 ak2 ak1-
       jis1 jis1-1 jis1-2 jis1-3 jis1-4 jis1-5 jis1-6 jis1-7 jis1-8 jis1-9
       jis2 jis2-1 jis2-2 jis2-3 jis2-4 jis2-5 jis2-6 jis2-7 jis2-8 jis2-9
-      jis-arib u-arib
-      cns cns-old cns1 cns1-1 cns2 cns2-1 cns3 cns3-1 cns4 cns4-1
+      jis-arib u-arib jistype jis-dot
+      c cns cns-old cns1 cns1-1 cns2 cns2-1 cns3 cns3-1 cns4 cns4-1
       cns5 cns6 cns7 cns8 cns9 cns10 cns11 cns12 cns13 cns14 cns15
       cns16 cns17 cns18 cns19 u-cns u-cns-f0 u-cns-f1 u-cns-f2 u-cns-f3
       u-cns-f6 u-cns-fd u-cns-ff
-      gb0 gb0-1 gb0-2 gb1 gb2 gb3 gb8 gb u-gb
+      cbeta cdp zihai
+      g gb0 gb0-1 gb0-2 gb1 gb2 gb3 gb8 gb u-gb
       ks kps cjkvi
-      UK u-uk
+      u UK u-uk sat u0 u1 u2 u2ff u3 u4 u5 u6 u7 u8 u9 ue uf
       swc tron
-      b5 b5-8 b5-9 b5-a b5-b b5-c b5-d b5-e b5-f b5-hkscs b5-uao b5-cdp 
+      b b5 b5-8 b5-9 b5-a b5-b b5-c b5-d b5-e b5-f b5-hkscs b5-uao b5-cdp 
       u-bigfive u-hkscs u-uao
       cccii cccii1 cccii2 cccii3 cccii4 cccii9
       koseki koseki0 koseki1 koseki2 koseki3 koseki4 koseki5 touki
       KS KS0 KS1 KS2 KS3 TK J JA JB JC JD JT I
-      m m1 m2 m3 m4 F G I
+      d dkw m m1 m2 m3 m4 F G I h s w v twedu toki supercjk
       kx kx0 kx1
     )];
     my $x = 0x500;
@@ -68,7 +69,7 @@ my $Index = {};
       } else {
         return 0xFF;
       }
-    } elsif ($c1 =~ /\A:($PrefixPattern)/o) {
+    } elsif ($c1 =~ /\A:(?:gw-(?:[a-z0-9]+_|)|)($PrefixPattern)/o) {
       return $to_index->{$1} // die $1;
     } elsif ($c1 =~ /^:u-/) {
       return 0x300;

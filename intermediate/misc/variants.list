@@ -29,9 +29,6 @@ manakai:unified
 -":⿰釒吐"
 "銻"
 manakai:related
--":⿰鱼帝"
-"𬶤"
-manakai:same
 -":⿱信金"
 "鉮"
 manakai:related
@@ -55,9 +52,21 @@ manakai:equivalent
 manakai:same
 "０"
 manakai:equivalent
+-"タヒ"
+"死"
+manakai:alt
+-"ネ申"
+"神"
+manakai:unified
 -"ヱ"
 "卫"
 manakai:related
+-"㐧"
+":jistype-simplified-第"
+manakai:unified
+-"㐬"
+"ㄊ"
+manakai:differentiated
 -"䤭"
 "𨭎"
 manakai:related
@@ -92,12 +101,19 @@ manakai:related
 -"七"
 "〧"
 manakai:related
+"ㄘ"
+manakai:differentiated
 "十"
 manakai:related
 -"三"
 "〣"
 manakai:related
 "𝍴"
+manakai:related
+-"三十"
+"丗"
+manakai:related
+"卅"
 manakai:related
 -"上"
 "守"
@@ -253,6 +269,8 @@ manakai:doukun
 "赭"
 manakai:doukun
 -"乃"
+"ㄋ"
+manakai:differentiated
 "之"
 manakai:doukun
 "則"
@@ -278,6 +296,9 @@ manakai:doukun
 manakai:doukun
 "載"
 manakai:doukun
+-"乘"
+"乗"
+geolonia:oldnew
 -"乙"
 "乚"
 manakai:variant:conflicted
@@ -305,9 +326,15 @@ manakai:doukun
 manakai:doukun
 "燥"
 manakai:doukun
+-"亂"
+"乱"
+geolonia:oldnew
 -"亇"
 "𖿰"
 manakai:alt
+-"亊"
+":jistype-simplified-事"
+manakai:unified
 -"事"
 "仕"
 manakai:doukun
@@ -332,6 +359,11 @@ manakai:related
 manakai:doukun
 "𝍳"
 manakai:related
+-"二十"
+"卄"
+manakai:related
+"廿"
+manakai:related
 -"云"
 "曰"
 manakai:doukun
@@ -350,6 +382,9 @@ manakai:kakekotoba
 "〥"
 manakai:related
 "𝍶"
+manakai:related
+-"五十"
+":gw-zihai-001820"
 manakai:related
 -"亘"
 "亙"
@@ -379,6 +414,9 @@ manakai:doukun
 manakai:doukun
 "継"
 manakai:doukun
+-"亞"
+"亜"
+geolonia:oldnew
 -"交"
 "支"
 manakai:doukun
@@ -573,6 +611,9 @@ manakai:doukun
 manakai:doukun
 "輔"
 manakai:doukun
+-"佛"
+"仏"
+geolonia:oldnew
 -"作"
 "乍"
 manakai:variant:simplifiedconflicted
@@ -609,6 +650,9 @@ manakai:doukun
 -"使"
 "遣"
 manakai:doukun
+-"來"
+"来"
+geolonia:oldnew
 -"侈"
 "倨"
 manakai:doukun
@@ -830,6 +874,7 @@ manakai:related
 manakai:related
 -"假"
 "仮"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
 -"停"
 "止"
@@ -896,6 +941,7 @@ manakai:doukun
 "亻"
 manakai:variant:simplifiedconflicted
 "伝"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
 -"傷"
 "創"
@@ -919,6 +965,18 @@ manakai:doukun
 -"働"
 "仂"
 manakai:variant:simplifiedconflicted
+-"僞"
+"偽"
+geolonia:oldnew
+-"價"
+"価"
+geolonia:oldnew
+-"儉"
+"倹"
+geolonia:oldnew
+-"儘"
+"侭"
+geolonia:oldnew
 -"優"
 "易"
 manakai:doukun
@@ -998,6 +1056,9 @@ manakai:doukun
 manakai:doukun
 "子"
 manakai:doukun
+-"兒"
+"児"
+geolonia:oldnew
 -"入"
 "冶"
 manakai:doukun
@@ -1037,6 +1098,9 @@ manakai:doukun
 manakai:doukun
 "都"
 manakai:doukun
+-"兩"
+"両"
+geolonia:oldnew
 -"八"
 "〨"
 manakai:related
@@ -1072,6 +1136,9 @@ manakai:doukun
 -"円"
 "丸"
 manakai:doukun
+-"册"
+"冊"
+geolonia:oldnew
 -"冒"
 "侵"
 manakai:doukun
@@ -1200,10 +1267,15 @@ manakai:doukun
 manakai:doukun
 "篋"
 manakai:doukun
+-"刀"
+"ㄉ"
+manakai:differentiated
 -"分"
 "判"
 manakai:doukun
 "別"
+manakai:doukun
+"理解"
 manakai:doukun
 "糎"
 manakai:related
@@ -1255,6 +1327,8 @@ manakai:doukun
 manakai:variant:wu
 -"判"
 "分"
+manakai:doukun
+"理解"
 manakai:doukun
 "解"
 manakai:doukun
@@ -1316,6 +1390,8 @@ manakai:doukun
 -"刻"
 "時"
 manakai:doukun
+"瞬間"
+manakai:doukun
 -"剃"
 "刷"
 manakai:doukun
@@ -1352,6 +1428,9 @@ manakai:doukun
 manakai:doukun
 "裂"
 manakai:doukun
+-"剩"
+"剰"
+geolonia:oldnew
 -"剪"
 "伐"
 manakai:doukun
@@ -1403,6 +1482,15 @@ manakai:doukun
 manakai:doukun
 "裂"
 manakai:doukun
+-"劍"
+"剣"
+geolonia:oldnew
+-"劑"
+"剤"
+geolonia:oldnew
+-"力"
+"ㄌ"
+manakai:differentiated
 -"助"
 "丞"
 manakai:doukun
@@ -1495,6 +1583,9 @@ manakai:doukun
 manakai:doukun
 "捷"
 manakai:doukun
+-"勞"
+"労"
+geolonia:oldnew
 -"勤"
 "努"
 manakai:doukun
@@ -1514,6 +1605,14 @@ manakai:doukun
 -"勳"
 "勋"
 manakai:variant:simplifiedconflicted
+"勲"
+geolonia:oldnew
+-"勵"
+"励"
+geolonia:oldnew
+-"勸"
+"勧"
+geolonia:oldnew
 -"匙"
 "卵"
 manakai:kakekotoba
@@ -1523,6 +1622,9 @@ manakai:kakekotoba
 manakai:kakekotoba
 "貝"
 manakai:kakekotoba
+-"匚"
+"ㄈ"
+manakai:differentiated
 -"匠"
 "巧"
 manakai:doukun
@@ -1548,6 +1650,9 @@ manakai:doukun
 manakai:doukun
 "篋"
 manakai:doukun
+-"區"
+"区"
+geolonia:oldnew
 -"午"
 "馬"
 manakai:doukun
@@ -1632,6 +1737,9 @@ manakai:kakekotoba
 manakai:kakekotoba
 "貝"
 manakai:kakekotoba
+-"卷"
+"巻"
+geolonia:oldnew
 -"厚"
 "惇"
 manakai:doukun
@@ -1688,6 +1796,7 @@ manakai:inset:original
 "叁"
 manakai:inset:original
 "参"
+geolonia:oldnew
 manakai:inset:original
 manakai:variant:simplified
 "叄"
@@ -1901,6 +2010,8 @@ manakai:doukun
 "繞"
 manakai:doukun
 -"呵"
+"ㄛ"
+manakai:differentiated
 "哂"
 manakai:doukun
 "嗤"
@@ -2090,6 +2201,9 @@ manakai:doukun
 manakai:doukun
 "高"
 manakai:doukun
+-"單"
+"単"
+geolonia:oldnew
 -"喰"
 "啖"
 manakai:doukun
@@ -2177,9 +2291,15 @@ manakai:doukun
 manakai:doukun
 "飲"
 manakai:doukun
+-"嚴"
+"厳"
+geolonia:oldnew
 -"囃"
 "𫝜"
 manakai:variant:jpnewstyle
+-"囑"
+"嘱"
+geolonia:oldnew
 -"囚"
 "捉"
 manakai:doukun
@@ -2193,6 +2313,9 @@ manakai:related
 "死"
 manakai:related
 "𝍵"
+manakai:related
+-"四十"
+"卌"
 manakai:related
 -"回"
 "周"
@@ -2263,9 +2386,27 @@ manakai:variant:simplifiedconflicted
 manakai:variant:wu
 "邦"
 manakai:doukun
+-"圈"
+"圏"
+geolonia:oldnew
+-"國"
+"国"
+geolonia:oldnew
+-"圍"
+"囲"
+geolonia:oldnew
 -"園"
 "囗"
 manakai:variant:simplifiedconflicted
+-"圓"
+"円"
+geolonia:oldnew
+-"圖"
+"図"
+geolonia:oldnew
+-"團"
+"団"
+geolonia:oldnew
 -"圣"
 "垩"
 manakai:differentiated
@@ -2491,6 +2632,12 @@ manakai:doukun
 manakai:kakekotoba
 "澄"
 manakai:kakekotoba
+-"墮"
+"堕"
+geolonia:oldnew
+-"壓"
+"圧"
+geolonia:oldnew
 -"壕"
 "堀"
 manakai:doukun
@@ -2502,6 +2649,18 @@ manakai:doukun
 manakai:doukun
 "濠"
 manakai:doukun
+-"壘"
+"塁"
+geolonia:oldnew
+-"壞"
+"壊"
+geolonia:oldnew
+-"壤"
+"壌"
+geolonia:oldnew
+-"壯"
+"壮"
+geolonia:oldnew
 -"売"
 "殼"
 manakai:differentiated
@@ -2516,7 +2675,15 @@ manakai:differentiated
 manakai:differentiated
 "賣"
 manakai:differentiated
+-"壹"
+"壱"
+geolonia:oldnew
+-"壺"
+"壷"
+geolonia:oldnew
 -"壽"
+"寿"
+geolonia:oldnew
 "盛"
 manakai:taboo
 -"変"
@@ -2565,6 +2732,8 @@ manakai:doukun
 manakai:kakekotoba
 "空"
 manakai:doukun
+"諳"
+manakai:doukun
 "雨"
 manakai:kakekotoba
 "𠀑"
@@ -2594,6 +2763,9 @@ manakai:doukun
 manakai:kakekotoba
 "起"
 manakai:kakekotoba
+-"奧"
+"奥"
+geolonia:oldnew
 -"奨"
 "侑"
 manakai:doukun
@@ -2603,6 +2775,9 @@ manakai:doukun
 manakai:doukun
 "進"
 manakai:doukun
+-"奬"
+"奨"
+geolonia:oldnew
 -"奮"
 "振"
 manakai:doukun
@@ -2722,6 +2897,9 @@ manakai:variant:jpnewstyle
 -"嬰"
 "𰋷"
 manakai:variant:jpnewstyle
+-"孃"
+"嬢"
+geolonia:oldnew
 -"子"
 "児"
 manakai:doukun
@@ -2752,6 +2930,9 @@ manakai:doukun
 manakai:doukun
 "還"
 manakai:doukun
+-"學"
+"学"
+geolonia:oldnew
 -"守"
 "上"
 manakai:doukun
@@ -2872,7 +3053,12 @@ manakai:kakekotoba
 manakai:kakekotoba
 "音"
 manakai:kakekotoba
+-"寢"
+"寝"
+geolonia:oldnew
 -"實"
+"実"
+geolonia:oldnew
 "寔"
 manakai:taboo
 -"寧"
@@ -2886,10 +3072,15 @@ manakai:doukun
 manakai:doukun
 "甯"
 manakai:taboo
+-"寫"
+"写"
+geolonia:oldnew
 -"寳"
 "珎"
 manakai:related
 -"寶"
+"宝"
+geolonia:oldnew
 "寳"
 manakai:equivalent
 -"寸"
@@ -2959,6 +3150,12 @@ manakai:doukun
 manakai:doukun
 "閉"
 manakai:kakekotoba
+-"將"
+"将"
+geolonia:oldnew
+-"專"
+"専"
+geolonia:oldnew
 -"尊"
 "命"
 manakai:doukun
@@ -2971,6 +3168,9 @@ manakai:doukun
 manakai:doukun
 "訪"
 manakai:doukun
+-"對"
+"対"
+geolonia:oldnew
 -"少"
 "小"
 manakai:related
@@ -3035,6 +3235,9 @@ manakai:doukun
 manakai:doukun
 "鋳"
 manakai:doukun
+-"屆"
+"届"
+geolonia:oldnew
 -"屓"
 "負"
 manakai:variant:conflicted
@@ -3058,6 +3261,9 @@ manakai:doukun
 manakai:doukun
 "靴"
 manakai:doukun
+-"屬"
+"属"
+geolonia:oldnew
 -"屯"
 "瓲"
 manakai:related
@@ -3097,6 +3303,9 @@ manakai:doukun
 manakai:doukun
 "高"
 manakai:doukun
+-"峽"
+"峡"
+geolonia:oldnew
 -"崇"
 "卓"
 manakai:doukun
@@ -3124,6 +3333,9 @@ manakai:doukun
 -"嶺"
 "岺"
 manakai:variant:simplifiedconflicted
+-"嶽"
+"岳"
+geolonia:oldnew
 -"巖"
 "岩"
 manakai:doukun
@@ -3224,6 +3436,9 @@ manakai:doukun
 manakai:doukun
 "還"
 manakai:doukun
+-"帶"
+"帯"
+geolonia:oldnew
 -"常"
 "恒"
 manakai:doukun
@@ -3271,6 +3486,8 @@ manakai:doukun
 "均"
 manakai:doukun
 -"年"
+"年齢"
+manakai:doukun
 "歳"
 manakai:doukun
 "秊"
@@ -3281,6 +3498,11 @@ manakai:related
 manakai:variant:wu
 "𠦚"
 manakai:variant:wu
+-"年齢"
+"年"
+manakai:doukun
+"歳"
+manakai:doukun
 -"幷"
 "并"
 manakai:variant:simplifiedconflicted
@@ -3360,9 +3582,14 @@ manakai:doukun
 manakai:doukun
 "泰"
 manakai:doukun
+-"廢"
+"廃"
+geolonia:oldnew
 -"廣"
 "广"
 manakai:variant:simplifiedconflicted
+"広"
+geolonia:oldnew
 -"廩"
 "倉"
 manakai:doukun
@@ -3370,6 +3597,9 @@ manakai:doukun
 manakai:doukun
 "蔵"
 manakai:doukun
+-"廳"
+"庁"
+geolonia:oldnew
 -"延"
 "伸"
 manakai:doukun
@@ -3506,6 +3736,12 @@ manakai:doukun
 manakai:doukun
 "霊"
 manakai:doukun
+-"彈"
+"弾"
+geolonia:oldnew
+-"彌"
+"弥"
+geolonia:oldnew
 -"彎"
 "弯"
 manakai:variant:jpnewstyle
@@ -3647,6 +3883,9 @@ manakai:doukun
 manakai:doukun
 "遅"
 manakai:doukun
+-"徑"
+"径"
+geolonia:oldnew
 -"従"
 "殉"
 manakai:doukun
@@ -3672,6 +3911,9 @@ manakai:doukun
 manakai:doukun
 "遷"
 manakai:doukun
+-"從"
+"従"
+geolonia:oldnew
 -"徠"
 "徕"
 manakai:variant:jpnewstyle
@@ -3810,6 +4052,9 @@ manakai:doukun
 manakai:doukun
 "異"
 manakai:doukun
+-"恆"
+"恒"
+geolonia:oldnew
 -"恋"
 "丐"
 manakai:doukun
@@ -4030,6 +4275,12 @@ manakai:doukun
 manakai:doukun
 "懐"
 manakai:doukun
+-"惠"
+"恵"
+geolonia:oldnew
+-"惡"
+"悪"
+geolonia:oldnew
 -"惣"
 "全"
 manakai:doukun
@@ -4061,6 +4312,9 @@ manakai:doukun
 manakai:doukun
 "懶"
 manakai:doukun
+-"惱"
+"悩"
+geolonia:oldnew
 -"想"
 "念"
 manakai:doukun
@@ -4163,6 +4417,9 @@ manakai:doukun
 -"感"
 "咸"
 manakai:related
+-"愼"
+"慎"
+geolonia:oldnew
 -"慄"
 "兇"
 manakai:doukun
@@ -4194,6 +4451,9 @@ manakai:doukun
 -"慎"
 "謹"
 manakai:doukun
+-"慘"
+"惨"
+geolonia:oldnew
 -"慢"
 "怠"
 manakai:doukun
@@ -4341,6 +4601,8 @@ manakai:doukun
 -"應"
 "广"
 manakai:variant:simplifiedconflicted
+"応"
+geolonia:oldnew
 -"懐"
 "念"
 manakai:doukun
@@ -4363,6 +4625,9 @@ manakai:doukun
 manakai:doukun
 "懈"
 manakai:doukun
+-"懷"
+"懐"
+geolonia:oldnew
 -"懸"
 "係"
 manakai:doukun
@@ -4420,6 +4685,9 @@ manakai:doukun
 manakai:doukun
 "畏"
 manakai:doukun
+-"戀"
+"恋"
+geolonia:oldnew
 -"戈"
 "矛"
 manakai:doukun
@@ -4513,6 +4781,12 @@ manakai:doukun
 manakai:doukun
 "鑽"
 manakai:doukun
+-"戰"
+"戦"
+geolonia:oldnew
+-"戲"
+"戯"
+geolonia:oldnew
 -"所"
 "処"
 manakai:doukun
@@ -4680,6 +4954,8 @@ manakai:doukun
 -"拂"
 "弗"
 manakai:variant:simplifiedconflicted
+"払"
+geolonia:oldnew
 -"拇"
 "糎"
 manakai:related
@@ -4741,6 +5017,12 @@ manakai:doukun
 manakai:doukun
 "開"
 manakai:doukun
+-"拔"
+"抜"
+geolonia:oldnew
+-"拜"
+"拝"
+geolonia:oldnew
 -"拠"
 "与"
 manakai:doukun
@@ -4847,6 +5129,9 @@ manakai:doukun
 manakai:doukun
 "退"
 manakai:doukun
+-"挾"
+"挟"
+geolonia:oldnew
 -"挿"
 "刺"
 manakai:doukun
@@ -5083,6 +5368,9 @@ manakai:doukun
 -"提"
 "下"
 manakai:doukun
+-"插"
+"挿"
+geolonia:oldnew
 -"揚"
 "上"
 manakai:doukun
@@ -5144,6 +5432,9 @@ manakai:doukun
 manakai:doukun
 "画"
 manakai:doukun
+-"搖"
+"揺"
+geolonia:oldnew
 -"搗"
 "撞"
 manakai:doukun
@@ -5153,6 +5444,9 @@ manakai:doukun
 manakai:doukun
 "衝"
 manakai:doukun
+-"搜"
+"捜"
+geolonia:oldnew
 -"搭"
 "乗"
 manakai:doukun
@@ -5283,6 +5577,15 @@ manakai:doukun
 manakai:doukun
 "磨"
 manakai:doukun
+-"擇"
+"択"
+geolonia:oldnew
+-"擔"
+"担"
+geolonia:oldnew
+-"據"
+"拠"
+geolonia:oldnew
 -"擠"
 "圧"
 manakai:doukun
@@ -5330,6 +5633,12 @@ manakai:doukun
 manakai:doukun
 "磨"
 manakai:doukun
+-"擧"
+"挙"
+geolonia:oldnew
+-"擴"
+"拡"
+geolonia:oldnew
 -"擽"
 "𭢫"
 manakai:variant:jpnewstyle
@@ -5342,6 +5651,12 @@ manakai:doukun
 manakai:doukun
 "禊"
 manakai:doukun
+-"攝"
+"摂"
+geolonia:oldnew
+-"攪"
+"撹"
+geolonia:oldnew
 -"攫"
 "拐"
 manakai:doukun
@@ -5364,6 +5679,9 @@ manakai:doukun
 manakai:doukun
 "閊"
 manakai:doukun
+-"收"
+"収"
+geolonia:oldnew
 -"改"
 "悛"
 manakai:doukun
@@ -5406,6 +5724,15 @@ manakai:kakekotoba
 manakai:kakekotoba
 "降"
 manakai:kakekotoba
+-"效"
+"効"
+geolonia:oldnew
+-"敍"
+"叙"
+geolonia:oldnew
+-"敕"
+"勅"
+geolonia:oldnew
 -"敗"
 "破"
 manakai:doukun
@@ -5426,6 +5753,9 @@ manakai:doukun
 manakai:doukun
 "藉"
 manakai:doukun
+-"數"
+"数"
+geolonia:oldnew
 -"斂"
 "修"
 manakai:doukun
@@ -5521,6 +5851,9 @@ manakai:doukun
 -"新"
 "星"
 manakai:related
+-"斷"
+"断"
+geolonia:oldnew
 -"方"
 "型"
 manakai:doukun
@@ -5824,11 +6157,16 @@ manakai:alt
 -"時"
 "刻"
 manakai:doukun
+"瞬間"
+manakai:doukun
 -"晒"
 "暴"
 manakai:doukun
 "曝"
 manakai:doukun
+-"晝"
+"昼"
+geolonia:oldnew
 -"晢"
 "哲"
 manakai:doukun
@@ -6005,6 +6343,9 @@ manakai:inset:original
 manakai:taboo
 "𠪱"
 manakai:inset:original
+-"曉"
+"暁"
+geolonia:oldnew
 -"曜"
 "旺"
 manakai:variant:simplifiedconflicted
@@ -6097,6 +6438,9 @@ manakai:doukun
 manakai:doukun
 "渝"
 manakai:doukun
+-"會"
+"会"
+geolonia:oldnew
 -"月"
 "囝"
 manakai:variant:wu
@@ -6295,6 +6639,9 @@ manakai:doukun
 manakai:doukun
 "造"
 manakai:doukun
+-"條"
+"条"
+geolonia:oldnew
 -"棄"
 "捐"
 manakai:doukun
@@ -6304,6 +6651,7 @@ manakai:doukun
 "栈"
 manakai:variant:conflicted
 "桟"
+geolonia:oldnew
 manakai:variant:conflicted
 -"森"
 "杜"
@@ -6362,6 +6710,9 @@ manakai:doukun
 manakai:doukun
 "谷"
 manakai:doukun
+-"榮"
+"栄"
+geolonia:oldnew
 -"槁"
 "嗄"
 manakai:doukun
@@ -6371,6 +6722,12 @@ manakai:doukun
 manakai:variant:conflicted
 "涸"
 manakai:doukun
+-"樂"
+"楽"
+geolonia:oldnew
+-"樓"
+"楼"
+geolonia:oldnew
 -"標"
 "印"
 manakai:doukun
@@ -6388,6 +6745,12 @@ manakai:doukun
 manakai:doukun
 "験"
 manakai:doukun
+-"樞"
+"枢"
+geolonia:oldnew
+-"樣"
+"様"
+geolonia:oldnew
 -"樹"
 "木"
 manakai:doukun
@@ -6404,15 +6767,30 @@ manakai:variant:simplifiedconflicted
 manakai:equivalent
 manakai:variant:conflicted
 manakai:variant:simplifiedconflicted
+-"檜"
+"桧"
+geolonia:oldnew
+-"檢"
+"検"
+geolonia:oldnew
+-"檮"
+"梼"
+geolonia:oldnew
 -"櫟"
 "檪"
 manakai:variant:jpnewstyle
 -"櫨"
 "枦"
 manakai:variant:jpnewstyle
+-"櫻"
+"桜"
+geolonia:oldnew
 -"欅"
 "﨔"
 manakai:variant:jpnewstyle
+-"權"
+"権"
+geolonia:oldnew
 -"欟"
 "𣠤"
 manakai:variant:jpnewstyle
@@ -6449,6 +6827,9 @@ manakai:doukun
 manakai:doukun
 "謳"
 manakai:doukun
+-"歐"
+"欧"
+geolonia:oldnew
 -"歓"
 "喜"
 manakai:doukun
@@ -6461,6 +6842,9 @@ manakai:doukun
 -"歟"
 "欤󠄄"
 manakai:variant:jpnewstyle
+-"歡"
+"歓"
+geolonia:oldnew
 -"止"
 "停"
 manakai:doukun
@@ -6520,6 +6904,8 @@ manakai:taboo
 -"歳"
 "年"
 manakai:doukun
+"年齢"
+manakai:doukun
 "戈"
 manakai:variant:simplifiedconflicted
 "才"
@@ -6542,6 +6928,9 @@ manakai:inset:original
 manakai:inset:original
 "𠪱"
 manakai:equivalent
+-"歸"
+"帰"
+geolonia:oldnew
 -"殉"
 "従"
 manakai:doukun
@@ -6557,6 +6946,9 @@ manakai:doukun
 -"殖"
 "増"
 manakai:doukun
+-"殘"
+"残"
+geolonia:oldnew
 -"殴"
 "伐"
 manakai:doukun
@@ -6596,6 +6988,12 @@ manakai:differentiated
 manakai:kakekotoba
 "賣"
 manakai:differentiated
+-"殼"
+"殻"
+geolonia:oldnew
+-"毆"
+"殴"
+geolonia:oldnew
 -"比"
 "校"
 manakai:doukun
@@ -6616,6 +7014,9 @@ manakai:equivalent
 -"氠"
 "氙"
 manakai:related
+-"氣"
+"気"
+geolonia:oldnew
 -"氭"
 "𣱠"
 manakai:related
@@ -6662,6 +7063,9 @@ manakai:doukun
 manakai:doukun
 "静"
 manakai:doukun
+-"沒"
+"没"
+geolonia:oldnew
 -"沓"
 "履"
 manakai:doukun
@@ -6892,6 +7296,9 @@ manakai:doukun
 -"淡"
 "薄"
 manakai:doukun
+-"淨"
+"浄"
+geolonia:oldnew
 -"深"
 "更"
 manakai:doukun
@@ -6925,6 +7332,9 @@ manakai:doukun
 manakai:doukun
 "雑"
 manakai:doukun
+-"淺"
+"浅"
+geolonia:oldnew
 -"添"
 "副"
 manakai:doukun
@@ -7093,6 +7503,9 @@ manakai:doukun
 manakai:doukun
 "零"
 manakai:doukun
+-"溪"
+"渓"
+geolonia:oldnew
 -"溶"
 "熔"
 manakai:doukun
@@ -7112,6 +7525,9 @@ manakai:variant:simplified
 manakai:inset:original
 "瀘"
 manakai:inset:original
+-"滯"
+"滞"
+geolonia:oldnew
 -"滲"
 "凍"
 manakai:doukun
@@ -7126,6 +7542,9 @@ manakai:variant:jpnewstyle
 -"滴"
 "雫"
 manakai:doukun
+-"滿"
+"満"
+geolonia:oldnew
 -"漉"
 "抄"
 manakai:doukun
@@ -7163,6 +7582,9 @@ manakai:doukun
 manakai:doukun
 "猥"
 manakai:doukun
+-"潛"
+"潜"
+geolonia:oldnew
 -"潟"
 "型"
 manakai:kakekotoba
@@ -7181,6 +7603,9 @@ manakai:doukun
 manakai:doukun
 "鹵"
 manakai:doukun
+-"澁"
+"渋"
+geolonia:oldnew
 -"澄"
 "住"
 manakai:kakekotoba
@@ -7189,6 +7614,14 @@ manakai:kakekotoba
 -"澤"
 "㚖"
 manakai:equivalent
+"沢"
+geolonia:oldnew
+-"濕"
+"湿"
+geolonia:oldnew
+-"濟"
+"済"
+geolonia:oldnew
 -"濠"
 "堀"
 manakai:doukun
@@ -7200,6 +7633,9 @@ manakai:doukun
 manakai:doukun
 "掘"
 manakai:doukun
+-"濤"
+"涛"
+geolonia:oldnew
 -"濫"
 "妄"
 manakai:doukun
@@ -7209,6 +7645,7 @@ manakai:doukun
 manakai:doukun
 -"濱"
 "浜"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
 -"濾"
 "沪"
@@ -7233,6 +7670,9 @@ manakai:variant:simplified
 manakai:inset:original
 "濾"
 manakai:inset:original
+-"瀧"
+"滝"
+geolonia:oldnew
 -"瀬"
 "狭"
 manakai:kakekotoba
@@ -7244,8 +7684,13 @@ manakai:variant:conflicted
 -"灌"
 "注"
 manakai:doukun
+"潅"
+geolonia:oldnew
 "雪"
 manakai:doukun
+-"灣"
+"湾"
+geolonia:oldnew
 -"火"
 "日"
 manakai:kakekotoba
@@ -7572,7 +8017,14 @@ manakai:taboo
 manakai:doukun
 -"燈"
 "灯"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
+-"燒"
+"焼"
+geolonia:oldnew
+-"營"
+"営"
+geolonia:oldnew
 -"燠"
 "暖"
 manakai:doukun
@@ -7599,6 +8051,15 @@ manakai:doukun
 manakai:doukun
 "輝"
 manakai:doukun
+-"爐"
+"炉"
+geolonia:oldnew
+-"爭"
+"争"
+geolonia:oldnew
+-"爲"
+"為"
+geolonia:oldnew
 -"牛"
 "丑"
 manakai:doukun
@@ -7630,6 +8091,9 @@ manakai:doukun
 manakai:doukun
 "退"
 manakai:doukun
+-"犧"
+"犠"
+geolonia:oldnew
 -"犬"
 "戌"
 manakai:doukun
@@ -7679,6 +8143,9 @@ manakai:doukun
 manakai:kakekotoba
 "背"
 manakai:kakekotoba
+-"狹"
+"狭"
+geolonia:oldnew
 -"猥"
 "妄"
 manakai:doukun
@@ -7692,11 +8159,23 @@ manakai:doukun
 -"猿"
 "申"
 manakai:doukun
+-"獨"
+"独"
+geolonia:oldnew
 -"獲"
 "得"
 manakai:doukun
 "選"
 manakai:doukun
+-"獵"
+"猟"
+geolonia:oldnew
+-"獸"
+"獣"
+geolonia:oldnew
+-"獻"
+"献"
+geolonia:oldnew
 -"玄"
 "元"
 manakai:taboo
@@ -7793,6 +8272,13 @@ manakai:doukun
 manakai:doukun
 "蔵"
 manakai:doukun
+-"理解"
+"分"
+manakai:doukun
+"判"
+manakai:doukun
+"解"
+manakai:doukun
 -"琰"
 "淡"
 manakai:taboo
@@ -7849,6 +8335,7 @@ manakai:doukun
 manakai:variant:jpnewstyle
 -"瓣"
 "弁"
+geolonia:oldnew
 manakai:equivalent
 manakai:inset:original
 "辨"
@@ -7999,6 +8486,9 @@ manakai:doukun
 -"番"
 "畨"
 manakai:equivalent
+-"畫"
+"画"
+geolonia:oldnew
 -"異"
 "事"
 manakai:kakekotoba
@@ -8012,6 +8502,7 @@ manakai:kakekotoba
 manakai:kakekotoba
 -"當"
 "当"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
 -"疆"
 "域"
@@ -8025,6 +8516,9 @@ manakai:doukun
 -"疇"
 "畴"
 manakai:variant:jpnewstyle
+-"疊"
+"畳"
+geolonia:oldnew
 -"疱󠄁"
 "疱󠄂"
 manakai:variant:jpnewstyle
@@ -8102,6 +8596,9 @@ manakai:doukun
 manakai:doukun
 "量"
 manakai:doukun
+-"癡"
+"痴"
+geolonia:oldnew
 -"癸"
 "关"
 manakai:inset:original
@@ -8151,6 +8648,9 @@ manakai:doukun
 manakai:doukun
 "鄧"
 manakai:alt
+-"發"
+"発"
+geolonia:oldnew
 -"白"
 "代"
 manakai:doukun
@@ -8189,6 +8689,12 @@ manakai:kakekotoba
 manakai:kakekotoba
 "漏"
 manakai:kakekotoba
+-"盜"
+"盗"
+geolonia:oldnew
+-"盡"
+"尽"
+geolonia:oldnew
 -"目"
 "布"
 manakai:kakekotoba
@@ -8244,6 +8750,9 @@ manakai:doukun
 manakai:doukun
 "診"
 manakai:doukun
+-"眞"
+"真"
+geolonia:oldnew
 -"真"
 "誠"
 manakai:doukun
@@ -8285,6 +8794,11 @@ manakai:doukun
 manakai:kakekotoba
 -"睡"
 "眠"
+manakai:doukun
+-"瞬間"
+"刻"
+manakai:doukun
+"時"
 manakai:doukun
 -"瞭"
 "哲"
@@ -8375,6 +8889,9 @@ manakai:doukun
 manakai:doukun
 "難"
 manakai:doukun
+-"碎"
+"砕"
+geolonia:oldnew
 -"碧"
 "緑"
 manakai:doukun
@@ -8441,6 +8958,12 @@ manakai:doukun
 manakai:doukun
 "擦"
 manakai:doukun
+-"礦"
+"砿"
+geolonia:oldnew
+-"礪"
+"砺"
+geolonia:oldnew
 -"祀"
 "祭"
 manakai:doukun
@@ -8453,6 +8976,9 @@ manakai:doukun
 manakai:doukun
 "禊"
 manakai:doukun
+-"祕"
+"秘"
+geolonia:oldnew
 -"祚󠄁"
 "祚󠄂"
 manakai:variant:jpnewstyle
@@ -8478,6 +9004,12 @@ manakai:doukun
 manakai:doukun
 "祓"
 manakai:doukun
+-"禪"
+"禅"
+geolonia:oldnew
+-"禮"
+"礼"
+geolonia:oldnew
 -"秋"
 "飽"
 manakai:kakekotoba
@@ -8501,6 +9033,15 @@ manakai:doukun
 manakai:doukun
 "請"
 manakai:doukun
+-"稱"
+"称"
+geolonia:oldnew
+-"稻"
+"稲"
+geolonia:oldnew
+-"穗"
+"穂"
+geolonia:oldnew
 -"穢"
 "汚"
 manakai:doukun
@@ -8508,6 +9049,9 @@ manakai:doukun
 manakai:doukun
 "黷"
 manakai:doukun
+-"穩"
+"穏"
+geolonia:oldnew
 -"究"
 "極"
 manakai:doukun
@@ -8527,6 +9071,8 @@ manakai:doukun
 "漉"
 manakai:doukun
 "虚"
+manakai:doukun
+"諳"
 manakai:doukun
 "透"
 manakai:doukun
@@ -8582,6 +9128,12 @@ manakai:doukun
 manakai:doukun
 "覘"
 manakai:doukun
+-"竈"
+"竃"
+geolonia:oldnew
+-"竊"
+"窃"
+geolonia:oldnew
 -"立"
 "勃"
 manakai:doukun
@@ -8619,6 +9171,9 @@ manakai:kakekotoba
 -"竜"
 "辰"
 manakai:doukun
+-"竝"
+"並"
+geolonia:oldnew
 -"端"
 "妻"
 manakai:kakekotoba
@@ -8792,6 +9347,8 @@ manakai:doukun
 manakai:kakekotoba
 "木"
 manakai:kakekotoba
+"篭"
+geolonia:oldnew
 "蚕"
 manakai:kakekotoba
 -"粧"
@@ -8799,6 +9356,9 @@ manakai:kakekotoba
 manakai:doukun
 "装"
 manakai:doukun
+-"粹"
+"粋"
+geolonia:oldnew
 -"精"
 "委"
 manakai:doukun
@@ -8898,6 +9458,9 @@ manakai:doukun
 manakai:doukun
 "許"
 manakai:doukun
+-"紧"
+":jistype-simplified-緊"
+manakai:unified
 -"経"
 "勃"
 manakai:doukun
@@ -8965,6 +9528,9 @@ manakai:doukun
 -"統"
 "総"
 manakai:doukun
+-"絲"
+"糸"
+geolonia:oldnew
 -"絳"
 "丹"
 manakai:doukun
@@ -9029,6 +9595,9 @@ manakai:differentiated
 -"綏󠄁"
 "綏󠄂"
 manakai:variant:jpnewstyle
+-"經"
+"経"
+geolonia:oldnew
 -"継"
 "亜"
 manakai:doukun
@@ -9141,6 +9710,7 @@ manakai:doukun
 manakai:doukun
 -"縣"
 "県"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
 -"縦"
 "勃"
@@ -9171,6 +9741,9 @@ manakai:doukun
 manakai:doukun
 "館"
 manakai:doukun
+-"縱"
+"縦"
+geolonia:oldnew
 -"總"
 "捴"
 manakai:differentiated
@@ -9178,6 +9751,8 @@ manakai:differentiated
 manakai:differentiated
 "摠"
 manakai:differentiated
+"総"
+geolonia:oldnew
 "𢭇"
 manakai:differentiated
 -"績"
@@ -9209,14 +9784,29 @@ manakai:doukun
 manakai:doukun
 "環"
 manakai:doukun
+-"繩"
+"縄"
+geolonia:oldnew
+-"繪"
+"絵"
+geolonia:oldnew
 -"繰"
 "来"
 manakai:kakekotoba
 "苦"
 manakai:kakekotoba
+-"繼"
+"継"
+geolonia:oldnew
 -"纃"
 "緕"
 manakai:variant:jpnewstyle
+-"續"
+"続"
+geolonia:oldnew
+-"纖"
+"繊"
+geolonia:oldnew
 -"绣"
 "繡"
 manakai:differentiated
@@ -9224,7 +9814,11 @@ manakai:differentiated
 manakai:differentiated
 -"缺"
 "欠"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
+-"罐"
+"缶"
+geolonia:oldnew
 -"置"
 "奥"
 manakai:kakekotoba
@@ -9355,6 +9949,9 @@ manakai:doukun
 manakai:doukun
 "絶"
 manakai:doukun
+-"耺"
+":jistype-simplified-職"
+manakai:unified
 -"耽"
 "更"
 manakai:doukun
@@ -9391,6 +9988,9 @@ manakai:variant:wu
 manakai:doukun
 "菊"
 manakai:kakekotoba
+-"聲"
+"声"
+geolonia:oldnew
 -"聴"
 "聞"
 manakai:doukun
@@ -9399,6 +9999,12 @@ manakai:doukun
 manakai:variant:simplifiedconflicted
 "𫟉"
 manakai:variant:simplified
+-"聽"
+"聴"
+geolonia:oldnew
+-"肅"
+"粛"
+geolonia:oldnew
 -"股"
 "腿"
 manakai:doukun
@@ -9472,6 +10078,9 @@ manakai:doukun
 -"腋"
 "脇"
 manakai:doukun
+-"腦"
+"脳"
+geolonia:oldnew
 -"腿"
 "股"
 manakai:doukun
@@ -9482,6 +10091,9 @@ manakai:doukun
 manakai:doukun
 "脂"
 manakai:doukun
+-"膽"
+"胆"
+geolonia:oldnew
 -"膾"
 "脍"
 manakai:variant:jpnewstyle
@@ -9501,6 +10113,9 @@ manakai:doukun
 -"臍"
 "𦜝"
 manakai:variant:jpnewstyle
+-"臟"
+"臓"
+geolonia:oldnew
 -"臣"
 "𢘑"
 manakai:variant:wu
@@ -9540,6 +10155,9 @@ manakai:doukun
 manakai:doukun
 "造"
 manakai:doukun
+-"臺"
+"台"
+geolonia:oldnew
 -"臼"
 "旧"
 manakai:inset:original
@@ -9555,6 +10173,9 @@ manakai:doukun
 manakai:doukun
 "衝"
 manakai:doukun
+-"與"
+"与"
+geolonia:oldnew
 -"興"
 "怒"
 manakai:doukun
@@ -9564,10 +10185,17 @@ manakai:doukun
 manakai:doukun
 -"舊"
 "旧"
+geolonia:oldnew
 manakai:inset:original
 manakai:variant:simplified
 "臼"
 manakai:inset:original
+-"舍"
+"舎"
+geolonia:oldnew
+-"舖"
+"舗"
+geolonia:oldnew
 -"舗"
 "布"
 manakai:doukun
@@ -9649,6 +10277,12 @@ manakai:variant:simplifiedconflicted
 manakai:engo
 "萌"
 manakai:engo
+-"莊"
+"荘"
+geolonia:oldnew
+-"莖"
+"茎"
+geolonia:oldnew
 -"菊"
 "聞"
 manakai:kakekotoba
@@ -9670,6 +10304,9 @@ manakai:kakekotoba
 manakai:kakekotoba
 "鳴"
 manakai:kakekotoba
+-"萬"
+"万"
+geolonia:oldnew
 -"落"
 "堕"
 manakai:doukun
@@ -9844,6 +10481,21 @@ manakai:doukun
 manakai:doukun
 "舗"
 manakai:doukun
+-"藏"
+"蔵"
+geolonia:oldnew
+-"藝"
+"芸"
+geolonia:oldnew
+-"藥"
+"薬"
+geolonia:oldnew
+-"藪"
+"薮"
+geolonia:oldnew
+-"蘂"
+"蕊"
+geolonia:oldnew
 -"蘆"
 "悪"
 manakai:kakekotoba
@@ -9858,11 +10510,17 @@ manakai:kakekotoba
 manakai:doukun
 "武"
 manakai:taboo
+-"處"
+"処"
+geolonia:oldnew
 -"虚"
 "曠"
 manakai:doukun
 "空"
 manakai:doukun
+-"號"
+"号"
+geolonia:oldnew
 -"虫"
 "丶"
 manakai:variant:simplifiedconflicted
@@ -9888,6 +10546,24 @@ manakai:doukun
 manakai:doukun
 "鑠"
 manakai:doukun
+-"螢"
+"蛍"
+geolonia:oldnew
+-"蟲"
+"虫"
+geolonia:oldnew
+-"蠅"
+"蝿"
+geolonia:oldnew
+-"蠣"
+"蛎"
+geolonia:oldnew
+-"蠶"
+"蚕"
+geolonia:oldnew
+-"蠻"
+"蛮"
+geolonia:oldnew
 -"衆"
 "多"
 manakai:doukun
@@ -9921,6 +10597,9 @@ manakai:doukun
 manakai:doukun
 "舂"
 manakai:doukun
+-"衞"
+"衛"
+geolonia:oldnew
 -"衢"
 "倫"
 manakai:doukun
@@ -10034,6 +10713,9 @@ manakai:doukun
 manakai:kakekotoba
 "浦"
 manakai:kakekotoba
+-"裝"
+"装"
+geolonia:oldnew
 -"褄"
 "妻"
 manakai:kakekotoba
@@ -10051,6 +10733,9 @@ manakai:doukun
 manakai:doukun
 "醒"
 manakai:doukun
+-"襃"
+"褒"
+geolonia:oldnew
 -"襌"
 "褝"
 manakai:variant:jpnewstyle
@@ -10183,6 +10868,15 @@ manakai:doukun
 manakai:doukun
 "診"
 manakai:doukun
+-"覺"
+"覚"
+geolonia:oldnew
+-"覽"
+"覧"
+geolonia:oldnew
+-"觀"
+"観"
+geolonia:oldnew
 -"角"
 "校"
 manakai:doukun
@@ -10201,6 +10895,8 @@ manakai:doukun
 manakai:doukun
 "熔"
 manakai:doukun
+"理解"
+manakai:doukun
 "融"
 manakai:doukun
 "説"
@@ -10210,6 +10906,9 @@ manakai:doukun
 -"触"
 "障"
 manakai:doukun
+-"觸"
+"触"
+geolonia:oldnew
 -"言"
 "事"
 manakai:kakekotoba
@@ -10535,6 +11234,9 @@ manakai:doukun
 manakai:doukun
 "稟"
 manakai:doukun
+-"諫"
+"諌"
+geolonia:oldnew
 -"諭"
 "喩"
 manakai:doukun
@@ -10564,6 +11266,11 @@ manakai:doukun
 "議"
 manakai:doukun
 "量"
+manakai:doukun
+-"諳"
+"天"
+manakai:doukun
+"空"
 manakai:doukun
 -"謀"
 "図"
@@ -10611,6 +11318,9 @@ manakai:doukun
 manakai:doukun
 "過"
 manakai:doukun
+-"謠"
+"謡"
+geolonia:oldnew
 -"謡"
 "吟"
 manakai:doukun
@@ -10657,6 +11367,7 @@ manakai:doukun
 "症"
 manakai:related
 "証"
+geolonia:oldnew
 manakai:variant:jpnewstyle
 "证"
 manakai:variant:simplifiedconflicted
@@ -10693,6 +11404,9 @@ manakai:doukun
 manakai:doukun
 "喩"
 manakai:doukun
+-"譯"
+"訳"
+geolonia:oldnew
 -"議"
 "図"
 manakai:doukun
@@ -10713,6 +11427,18 @@ manakai:doukun
 manakai:doukun
 "衛"
 manakai:doukun
+-"譽"
+"誉"
+geolonia:oldnew
+-"讀"
+"読"
+geolonia:oldnew
+-"變"
+"変"
+geolonia:oldnew
+-"讓"
+"譲"
+geolonia:oldnew
 -"谷"
 "極"
 manakai:doukun
@@ -10735,7 +11461,11 @@ manakai:differentiated
 "灃"
 manakai:differentiated
 "豊"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
+-"豫"
+"予"
+geolonia:oldnew
 -"貝"
 "匙"
 manakai:kakekotoba
@@ -10755,6 +11485,12 @@ manakai:doukun
 manakai:doukun
 "誅"
 manakai:doukun
+-"貭"
+":jistype-simplified-質"
+manakai:unified
+-"貳"
+"弐"
+geolonia:oldnew
 -"貴"
 "卓"
 manakai:doukun
@@ -10789,9 +11525,14 @@ manakai:doukun
 manakai:doukun
 "給"
 manakai:doukun
+-"賣"
+"売"
+geolonia:oldnew
 -"賤"
 "卑"
 manakai:doukun
+"賎"
+geolonia:oldnew
 "鄙"
 manakai:doukun
 -"質"
@@ -10827,6 +11568,9 @@ manakai:doukun
 manakai:doukun
 "饋"
 manakai:doukun
+-"贊"
+"賛"
+geolonia:oldnew
 -"赤"
 "丹"
 manakai:doukun
@@ -10986,6 +11730,9 @@ manakai:doukun
 -"踏"
 "文"
 manakai:kakekotoba
+-"踐"
+"践"
+geolonia:oldnew
 -"踰"
 "超"
 manakai:doukun
@@ -11072,6 +11819,9 @@ manakai:doukun
 manakai:doukun
 "扶"
 manakai:doukun
+-"輕"
+"軽"
+geolonia:oldnew
 -"輛"
 "輌"
 manakai:variant:jpnewstyle
@@ -11084,6 +11834,9 @@ manakai:doukun
 manakai:doukun
 "赫"
 manakai:doukun
+-"轉"
+"転"
+geolonia:oldnew
 -"轢"
 "引"
 manakai:doukun
@@ -11123,6 +11876,7 @@ manakai:variant:conflicted
 manakai:equivalent
 -"辨"
 "弁"
+geolonia:oldnew
 manakai:equivalent
 manakai:inset:original
 "瓣"
@@ -11131,6 +11885,9 @@ manakai:inset:original
 manakai:inset:original
 "辯"
 manakai:inset:original
+-"辭"
+"辞"
+geolonia:oldnew
 -"辮"
 "弁"
 manakai:equivalent
@@ -11143,6 +11900,7 @@ manakai:inset:original
 manakai:inset:original
 -"辯"
 "弁"
+geolonia:oldnew
 manakai:equivalent
 manakai:inset:original
 "瓣"
@@ -11346,6 +12104,9 @@ manakai:doukun
 manakai:doukun
 "途"
 manakai:doukun
+-"遞"
+"逓"
+geolonia:oldnew
 -"遣"
 "使"
 manakai:doukun
@@ -11353,6 +12114,9 @@ manakai:doukun
 manakai:doukun
 "演"
 manakai:doukun
+-"遲"
+"遅"
+geolonia:oldnew
 -"遵"
 "従"
 manakai:doukun
@@ -11404,6 +12168,12 @@ manakai:doukun
 manakai:doukun
 "返"
 manakai:doukun
+-"邇"
+"迩"
+geolonia:oldnew
+-"邊"
+"辺"
+geolonia:oldnew
 -"邑"
 "村"
 manakai:doukun
@@ -11455,6 +12225,9 @@ manakai:doukun
 manakai:doukun
 "汲"
 manakai:doukun
+-"醉"
+"酔"
+geolonia:oldnew
 -"醒"
 "冷"
 manakai:doukun
@@ -11464,10 +12237,17 @@ manakai:doukun
 manakai:doukun
 -"醫"
 "医"
+geolonia:oldnew
 manakai:variant:simplifiedconflicted
+-"釀"
+"醸"
+geolonia:oldnew
 -"釈"
 "尺"
 manakai:variant:simplifiedconflicted
+-"釋"
+"釈"
+geolonia:oldnew
 -"里"
 "哩"
 manakai:related
@@ -11639,6 +12419,8 @@ manakai:related
 -"錢"
 "戔"
 manakai:variant
+"銭"
+geolonia:oldnew
 -"錯"
 "鈰"
 manakai:related
@@ -11712,6 +12494,9 @@ manakai:related
 manakai:related
 "鎶"
 manakai:related
+-"鎭"
+"鎮"
+geolonia:oldnew
 -"鎮"
 "沈"
 manakai:doukun
@@ -11766,6 +12551,9 @@ manakai:related
 -"鐭"
 "鋨"
 manakai:related
+-"鐵"
+"鉄"
+geolonia:oldnew
 -"鐸"
 "鈬"
 manakai:variant:jpnewstyle
@@ -11775,12 +12563,18 @@ manakai:related
 -"鑀"
 "鎄"
 manakai:related
+-"鑄"
+"鋳"
+geolonia:oldnew
 -"鑉"
 "鋊"
 manakai:related
 -"鑕"
 "鎢"
 manakai:related
+-"鑛"
+"鉱"
+geolonia:oldnew
 -"鑠"
 "溶"
 manakai:doukun
@@ -11949,6 +12743,8 @@ manakai:inset:original
 manakai:variant:simplified
 "癸"
 manakai:inset:original
+"関"
+geolonia:oldnew
 -"阜"
 "丘"
 manakai:doukun
@@ -12007,6 +12803,9 @@ manakai:doukun
 manakai:doukun
 "陸"
 manakai:doukun
+-"陷"
+"陥"
+geolonia:oldnew
 -"陸"
 "丘"
 manakai:doukun
@@ -12062,9 +12861,21 @@ manakai:doukun
 manakai:variant:conflicted
 "𠃊"
 manakai:variant:conflicted
+-"隨"
+"随"
+geolonia:oldnew
+-"險"
+"険"
+geolonia:oldnew
 -"隯"
 "陦"
 manakai:variant:simplified
+-"隱"
+"隠"
+geolonia:oldnew
+-"隸"
+"隷"
+geolonia:oldnew
 -"雄"
 "牡"
 manakai:doukun
@@ -12085,6 +12896,12 @@ manakai:doukun
 manakai:doukun
 "糅"
 manakai:doukun
+-"雙"
+"双"
+geolonia:oldnew
+-"雜"
+"雑"
+geolonia:oldnew
 -"離"
 "借"
 manakai:kakekotoba
@@ -12205,6 +13022,12 @@ manakai:engo
 manakai:doukun
 "顕"
 manakai:doukun
+-"霸"
+"覇"
+geolonia:oldnew
+-"靈"
+"霊"
+geolonia:oldnew
 -"青"
 "碧"
 manakai:doukun
@@ -12215,6 +13038,9 @@ manakai:doukun
 manakai:doukun
 "鎮"
 manakai:doukun
+-"靜"
+"静"
+geolonia:oldnew
 -"面"
 "表"
 manakai:doukun
@@ -12227,6 +13053,9 @@ manakai:doukun
 manakai:doukun
 "皮"
 manakai:doukun
+-"靱"
+"靭"
+geolonia:oldnew
 -"靴"
 "履"
 manakai:doukun
@@ -12263,6 +13092,12 @@ manakai:doukun
 -"頓"
 "瓲"
 manakai:related
+-"頸"
+"頚"
+geolonia:oldnew
+-"顏"
+"顔"
+geolonia:oldnew
 -"顕"
 "哲"
 manakai:doukun
@@ -12298,11 +13133,16 @@ manakai:taboo
 manakai:taboo
 "現"
 manakai:taboo
+"顕"
+geolonia:oldnew
 -"飛"
 "翔"
 manakai:doukun
 "跳"
 manakai:doukun
+-"飜"
+"翻"
+geolonia:oldnew
 -"食"
 "啖"
 manakai:doukun
@@ -12317,6 +13157,9 @@ manakai:doukun
 manakai:doukun
 "饑"
 manakai:doukun
+-"飮"
+"飲"
+geolonia:oldnew
 -"飲"
 "吞"
 manakai:doukun
@@ -12355,6 +13198,9 @@ manakai:doukun
 manakai:doukun
 "饑"
 manakai:doukun
+-"餘"
+"余"
+geolonia:oldnew
 -"館"
 "勃"
 manakai:doukun
@@ -12537,6 +13383,12 @@ manakai:doukun
 manakai:doukun
 "蹻"
 manakai:doukun
+-"騷"
+"騒"
+geolonia:oldnew
+-"驅"
+"駆"
+geolonia:oldnew
 -"驕"
 "侈"
 manakai:doukun
@@ -12546,6 +13398,18 @@ manakai:doukun
 manakai:doukun
 "奢"
 manakai:doukun
+-"驗"
+"験"
+geolonia:oldnew
+-"驛"
+"駅"
+geolonia:oldnew
+-"髓"
+"髄"
+geolonia:oldnew
+-"體"
+"体"
+geolonia:oldnew
 -"高"
 "卓"
 manakai:doukun
@@ -12562,9 +13426,15 @@ manakai:doukun
 -"髭"
 "鬚"
 manakai:doukun
+-"髮"
+"髪"
+geolonia:oldnew
 -"鬚"
 "髭"
 manakai:doukun
+-"鬪"
+"闘"
+geolonia:oldnew
 -"魔"
 "广"
 manakai:variant:simplifiedconflicted
@@ -12609,6 +13479,9 @@ manakai:related
 -"鰡"
 "鯔"
 manakai:related
+-"鰺"
+"鯵"
+geolonia:oldnew
 -"鱅"
 "鯯"
 manakai:related
@@ -12652,10 +13525,14 @@ manakai:doukun
 "憂"
 manakai:kakekotoba
 "鴬"
+geolonia:oldnew
 manakai:inset:original
 manakai:variant:jpnewstyle
 "鷽"
 manakai:inset:original
+-"鷄"
+"鶏"
+geolonia:oldnew
 -"鷹"
 "广"
 manakai:variant:simplifiedconflicted
@@ -12674,17 +13551,33 @@ manakai:doukun
 manakai:doukun
 "潮"
 manakai:doukun
+-"鹽"
+"塩"
+geolonia:oldnew
 -"鹿"
 "广"
 manakai:variant:simplifiedconflicted
 "然"
 manakai:kakekotoba
+-"麥"
+"麦"
+geolonia:oldnew
 -"麩"
 "麸"
+geolonia:oldnew
 manakai:variant:jpnewstyle
 -"黒"
 "玄"
 manakai:doukun
+-"默"
+"黙"
+geolonia:oldnew
+-"點"
+"点"
+geolonia:oldnew
+-"黨"
+"党"
+geolonia:oldnew
 -"黷"
 "汚"
 manakai:doukun
@@ -12698,12 +13591,23 @@ manakai:doukun
 -"鼻"
 "花"
 manakai:kakekotoba
+-"齊"
+"斉"
+geolonia:oldnew
 -"齋"
+"斎"
+geolonia:oldnew
 "齎"
 manakai:related
+-"齒"
+"歯"
+geolonia:oldnew
 -"齟"
 "𪗱"
 manakai:variant:jpnewstyle
+-"齡"
+"齢"
+geolonia:oldnew
 -"齢"
 "令"
 manakai:related
@@ -12719,6 +13623,8 @@ manakai:variant:jpnewstyle
 manakai:kakekotoba
 "立"
 manakai:kakekotoba
+"竜"
+geolonia:oldnew
 "絶"
 manakai:kakekotoba
 "裁"
@@ -12779,6 +13685,9 @@ manakai:alt
 -"𡿨"
 "𖿱"
 manakai:alt
+-"𡿮"
+"ㄊ"
+manakai:differentiated
 -"𣱢"
 "氧"
 manakai:related
@@ -12827,6 +13736,9 @@ manakai:variant:simplifiedconflicted
 -"𫡷"
 "𡩛"
 manakai:related
+-"𭕛"
+":jistype-simplified-属"
+manakai:unified
 -"𭭽"
 "死󠄂"
 manakai:unified
@@ -12839,6 +13751,10 @@ manakai:unified
 -"𰨓"
 "禩"
 manakai:equivalent
+*idses
+-":⿰鱼帝"
+"𬶤"
+manakai:ids
 *kanas
 -"\u0022"
 "゛"
@@ -13294,9 +14210,15 @@ manakai:ne
 -"!"
 "　"
 manakai:differentiated
+-"."
+"・"
+manakai:small
 -"8"
 "🍞"
 manakai:related
+-":aj12640"
+":aj635"
+manakai:differentiated
 -":cns1-34-36"
 "m̂"
 manakai:related
@@ -13393,6 +14315,17 @@ manakai:related
 -"△"
 "−"
 manakai:related
+-"○"
+"◦"
+manakai:related
+-"、"
+"﹅"
+manakai:small
+-"。"
+"."
+manakai:differentiated
+"◦"
+manakai:small
 -"〰"
 "〜"
 manakai:alt

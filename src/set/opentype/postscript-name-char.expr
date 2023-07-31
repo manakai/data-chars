@@ -1,0 +1,4 @@
+#label:OpenType PostScript name character
+#url:https://learn.microsoft.com/ja-jp/typography/opentype/spec/name#name-ids
+#sw:name (OpenType)
+[\u0021-\u007E] - [\u005B\u005D(){}<>/%]

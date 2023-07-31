@@ -553,7 +553,112 @@ my $Data = {};
     }
   }
 }
-        
+
+{
+  my $path = $TempPath->child ('nihuINT.tsv');
+  my @line = split /\x0D?\x0A/, $path->slurp_utf8;
+  shift @line;
+  for (@line) {
+    my @item = split /\t/, $_;
+    my @c;
+    while (@item) {
+      push @c, chr hex shift @item;
+      shift @item;
+    }
+    my $c1 = shift @c;
+    while (@c) {
+      my $c2 = shift @c;
+      $Data->{hans}->{$c1}->{$c2}->{'nihuINT:variant'} = 1
+          unless $c1 eq $c2;
+    }
+  }
+}
+
+{
+  my $sets = {};
+  my $path = $RootPath->child ('data/sets.json');
+  my $json = json_bytes2perl $path->slurp;
+  for (
+    ['$kanji:touyou-1949' => 'touyou_s24'],
+    ['$kanji:jouyou-1981' => 'jouyou_s56'],
+  ) {
+    my ($key1, $key2) = @$_;
+    my $chars = $json->{sets}->{$key1}->{chars};
+    $chars =~ s/^\[//;
+    $chars =~ s/\]$//;
+    while ($chars =~ s/^\\u([0-9A-F]{4}|\{[0-9A-F]+\})//) {
+      my $v1 = $1;
+      $v1 =~ s/^\{//;
+      $v1 =~ s/\}$//;
+      my $cc1 = hex $v1;
+      my $cc2 = $cc1;
+      if ($chars =~ s/^-\\u([0-9A-F]{4}|\{[0-9A-F]+\})//) {
+        my $v2 = $1;
+        $v2 =~ s/^\{//;
+        $v2 =~ s/\}$//;
+        $cc2 = hex $v2;
+      }
+      for ($cc1..$cc2) {
+        $sets->{$key2}->{chr $_} = 1;
+      }
+    }
+    die $chars if length $chars;
+  }
+
+  use utf8;
+  for (keys %{$sets->{touyou_s24}}) {
+    my $c1 = $_;
+    my $c2 = ':jistype-touyou-' . $_;
+    $Data->{glyphs}->{$c1}->{$c2}->{'manakai:glyph'} = 1;
+    unless ($c1 eq '燈') {
+      my $c3 = ':jistype-jouyou-' . $_;
+      $Data->{glyphs}->{$c2}->{$c3}->{'manakai:unified'} = 1;
+    }
+  }
+  for (keys %{$sets->{jouyou_s56}}) {
+    my $c1 = $_;
+    my $c2 = ':jistype-jouyou-' . $_;
+    $Data->{glyphs}->{$c1}->{$c2}->{'manakai:glyph'} = 1;
+  }
+  {
+    for (qw(
+      雲 駅 監 艦 鑑 器 機
+      騎 緊 駆 繰 堅 賢 験
+      酵 酷 酢 酸 事 質 酌
+      酒 需 儒 酬 醜 襲 遵
+      醸 嘱 職 震 酔 雪 選
+      操 燥 霜 騒 藻 属 尊
+      駄 第 駐 電 曇 配 雰
+      簿 霧 猶 雷 酪 覧 濫
+      臨 零 霊 露
+    )) {
+      my $c0 = $_;
+      my $c1 = ':jistype-jouyou-' . $_;
+      my $c2 = ':jistype-simplified-' . $_;
+      $Data->{glyphs}->{$c0}->{$c2}->{'manakai:glyph'} = 1;
+      $Data->{glyphs}->{$c1}->{$c2}->{'jisz8903:annex2'} = 1;
+    }
+  }
+  {
+    for (split //, q(あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむっめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽゃゅょっ)) {
+      my $c1 = $_;
+      my $c2 = ':jistype-' . $_;
+      $Data->{glyphs}->{$c1}->{$c2}->{'manakai:glyph'} = 1;
+    }
+    for (split //, q(アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダデドバビブベボパピプペポァィゥェォャュョヮッー)) {
+      my $c1 = $_;
+      my $c2 = ':jistype-' . $_;
+      $Data->{glyphs}->{$c1}->{$c2}->{'manakai:glyph'} = 1;
+    }
+    for (split //, q(1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz)) {
+      my $c1 = $_;
+      my $c2 = ':jistype-' . $_;
+      $Data->{glyphs}->{$c1}->{$c2}->{'manakai:glyph'} = 1;
+    }
+  }
+}
+
+
 write_rel_data_sets
     $Data => $ThisPath, 'variants',
     [

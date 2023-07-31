@@ -50,7 +50,7 @@ for (
     ':u-hkscs-',
   ],
   [
-    'ag15.txt',
+    'ag16.txt',
     ':ag',
     [
       [14, ''], 
@@ -101,8 +101,8 @@ for (
         my $suffix = $_->[1];
         my $u = $s[$index-1];
         for (split /,/, $u) {
-          if (/^[0-9A-Fa-f]+$/) {
-            my $c2 = u_chr hex $_;
+          if (/^([0-9A-Fa-f]+)\s*$/) {
+            my $c2 = u_chr hex $1;
             if (is_han $c2 > 0) {
               $key = 'hans';
               $IsHan->{$c1} = 1;

@@ -1,6 +1,7 @@
 * Wikipedia data files
 
-Some of data in this directory derived from Wikipedia articles.
+Some of data in this directory are derived from Wikipedia articles,
+with or without modifications.
 
 License of the Wikipedia articles:
 <https://ja.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License>,
@@ -9,7 +10,8 @@ License of the Wikipedia articles:
 
 * Wiktionary data files
 
-Some of data in this director derived from Wiktionary articles.
+Some of data in this directory are derived from Wiktionary articles,
+with or without modifications.
 
 License of the Wiktionary articles:
 
@@ -17,10 +19,21 @@ License of the Wiktionary articles:
 > License <https://creativecommons.org/licenses/by-sa/3.0/>;
 > additional terms may apply.
 
+* Wikisource data files
+
+Some of data in this directory are derived from Wikisource articles,
+with or without modifications.
+
+License of the Wikisource articles:
+
+> テキストはクリエイティブ・コモンズ 表示-継承ライセンスのもとで利用で
+> きます。追加の条件が適用される場合があります。詳細については利用規約
+> を参照してください。
+
 * Charset Wiki data files
 
-Some of data in this directory derived from Character Set Wiki (문자
-집합 위키) articles.
+Some of data in this directory are derived from Character Set Wiki
+(문자 집합 위키) articles, with or without modifications.
 
 License of the Character Set Wiki articles:
 
@@ -31,7 +44,8 @@ License of the Character Set Wiki articles:
 
 * GlyphWiki data files
 
-Some of data in this directory derived from GlyphWiki articles.
+Some of data in this directory are derived from GlyphWiki, with or
+without modifications.
 
 License of the GlyphWiki articles:
 

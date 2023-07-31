@@ -4,7 +4,12 @@
     {"path": "../jp/variants-0.list", "rels_key": "glyphs"},
     {"path": "../jp/variants-1.list", "rels_key": "glyphs"},
     {"path": "../jp/variants-2.list", "rels_key": "glyphs"},
-    {"path": "../jp/variants-3.list", "rels_key": "glyphs"}
+    {"path": "../jp/variants-3.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps3.list", "rels_key": "glyphs"},
+    
+    {"path": "../../local/maps/gwaliases-0.list", "rels_key": "glyphs"},
+    {"path": "../../local/maps/gwrelated-0.list", "rels_key": "glyphs"},
+    {"path": "../../local/maps/gwrels-0.list", "rels_key": "glyphs"}
   ],
   "leader_types": [
   ],

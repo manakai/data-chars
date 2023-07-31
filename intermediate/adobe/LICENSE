@@ -1,15 +1,16 @@
 * Adobe data files
 
-Some of data in this directory derived from Adobe "CMap Resources"
+Some of data in this directory are derived from Adobe "CMap Resources"
 files available at
-<https://github.com/adobe-type-tools/cmap-resources>.
+<https://github.com/adobe-type-tools/cmap-resources>, with or without
+modifications.
 
 License of the "CMap Resources" files:
 <https://github.com/adobe-type-tools/cmap-resources/blob/master/LICENSE.md>
 (BSD license).  See |../../doc/LICENSE.cmap|.
 
-Some of data in this directory derived from data files of Adobe
-character collections available at:
+Some of data in this directory are derived from data files of Adobe
+character collections available at, with or without modifications:
 <https://github.com/adobe-type-tools/Adobe-CNS1/>,
 <https://github.com/adobe-type-tools/Adobe-GB1/>,
 <https://github.com/adobe-type-tools/Adobe-Japan1/>,

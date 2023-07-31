@@ -108,6 +108,16 @@ for (
       my $c2 = wrap $3;
       next if bad $c2;
       my $vtype = "cjkvi:$2";
+      if (is_ids $c1) {
+        my $c1_2 = ':' . $c1;
+        $Data->{idses}->{$c1_2}->{$c1}->{'manakai:ids'} = 1;
+        $c1 = $c1_2;
+      }
+      if (is_ids $c2) {
+        my $c2_2 = ':' . $c2;
+        $Data->{idses}->{$c2_2}->{$c2}->{'manakai:ids'} = 1;
+        $c2 = $c2_2;
+     }
       die "Bad input |$c1|" unless is_han $c1;
       if (is_private $c2) {
         my $c2_1 = $c2;
@@ -175,9 +185,11 @@ for (
       }
       my $note = $5;
       my $vtype = 'cjkvi:gb2ucs:'.$pp;
+      my $vsuffix = '';
       my $vkey = 'hans';
-      if (is_ids_char $c2) {
+      if (is_ids $c2) {
         $vkey = 'idses';
+        $vtype .= ':ids';
       }
       $Data->{$vkey}->{$c1}->{$c2}->{$vtype} = 1;
 
@@ -199,8 +211,10 @@ for (
         } elsif ($note =~ m{^(?:(\p{Han}) |)<G([135])-([0-9A-F]{2})([0-9A-F]{2})>(?:\t# <G1-[0-9]{4}>|)$}) {
           my $c5 = $1;
           my $c6 = sprintf ':gb%d-%d-%d', $2-1, (hex $3)-0x20, (hex $4)-0x20;
+          my $v2 = $2;
           $Data->{$vkey}->{$c1}->{$c5}->{$vtype.':#'} = 1 if defined $c5;
-          $Data->{$vkey}->{$c1}->{$c6}->{$vtype.':#:' . $2} = 1;
+          $vtype =~ s/:ids$//;
+          $Data->{$vkey}->{$c1}->{$c6}->{$vtype.':#:' . $v2} = 1;
         } else {
           die $note;
         }
@@ -211,6 +225,69 @@ for (
   }
 }
 
-print_rel_data $Data;
+{
+  my $path = $TempPath->child ('cjkvi-data/nom_qn.txt');
+  for (split /\x0A/, decode_web_utf8 $path->slurp) {
+    my $c3;
+    {
+      use utf8;
+      if (s/\s*# (\p{Han})の異体字.+$//) {
+        $c3 = $1;
+      }
+      s/\s*部首間違い\s*$//;
+    }
+    if (/^(\p{Ideographic_Description_Characters}[\p{Han}\p{Ideographic_Description_Characters}\x{E000}-\x{F7FF}\x{FF1F}]+|\p{Han}(?:,\p{Han})*|[\x{FF1F}\x{E000}-\x{F7FF}])\s+[^\t]+\s+# \[([^\[\]]+)\]\s*$/) {
+      my $v1 = $1;
+      my $v2 = $2;
+      next if $v1 eq "\x{FF1F}" and not $v2 =~ /,/;
+      for (split /,/, $v1) {
+        my $c1 = (wrap_ids $_, ':cjkvi:') // die;
+        for (split /,\s*/, $v2) {
+          my $c2;
+          my $rel_type1 = 'cjkvi:ids';
+          my $rel_type2 = 'cjkvi:nom_qn:#';
+          if (/^V04-([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})$/) {
+            $c2 = sprintf ':v%d-%d-%d', 3, (hex $1) - 0x20, (hex $2) - 0x20;
+            $rel_type1 .= ':V4';
+            $rel_type2 .= ':V4';
+          } elsif (/^V\+([0-9A-Fa-f]+)$/) {
+            $c2 = sprintf ':u-nom-%x', hex $1;
+            my $c2_0 = chr hex $1;
+            $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+          } else {
+            die $_;
+          }
+          if (is_ids $c1) {
+            $Data->{idses}->{$c2}->{$c1}->{$rel_type1} = 1;
+          } else {
+            my $key = get_vkey $c1;
+            $Data->{$key}->{$c1}->{$c2}->{$rel_type2} = 1;
+          }
+          $Data->{hans}->{$c1}->{$c3}->{'cjkvi:nom_qn:variant'} = 1 if defined $c3;
+        }
+      }
+    } elsif (/^(\p{Han})\t[^\t]+\t# \[V\+([0-9A-F]+)\]\s+V\+\2\w\x{3001}(\p{Ideographic_Description_Characters}\p{Han}+)$/) {
+      my $c1 = $1;
+      my $c2 = sprintf ':u-nom-%x', hex $2;
+      my $c2_0 = chr hex $2;
+      my $c4 = (wrap_ids $3, ':cjkvi:') // die;
+      $Data->{hans}->{$c1}->{$c2}->{'cjkvi:nom_qn:variant'} = 1;
+      $Data->{idses}->{$c2}->{$c4}->{'cjkvi:ids'} = 1;
+      $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+    } elsif (/.#./) {
+      die $_;
+    }
+  }
+}
+
+write_rel_data_sets
+    $Data => $ThisPath, 'variants',
+    [
+      qr/^:/,
+      qr/^[\x{3000}-\x{5FFF}]/,
+      qr/^[\x{6000}-\x{8000}]/,
+      qr/^[\x{9000}-\x{21FFF}]/,
+      qr/^[\x{22000}-\x{26FFF}]/,
+    ];
 
 ## License: Public Domain.

@@ -5,10 +5,12 @@
       "path": "../cjkvi/hd-ids.list",
       "rels_key": "idses"
     },
-    {
-      "path": "../cjkvi/variants.list",
-      "rels_key": "idses"
-    },
+    {"path": "../cjkvi/variants-0.list", "rels_key": "idses"},
+    {"path": "../cjkvi/variants-1.list", "rels_key": "idses"},
+    {"path": "../cjkvi/variants-2.list", "rels_key": "idses"},
+    {"path": "../cjkvi/variants-3.list", "rels_key": "idses"},
+    {"path": "../cjkvi/variants-4.list", "rels_key": "idses"},
+    {"path": "../cjkvi/variants-5.list", "rels_key": "idses"},
     {"path": "../cjkvi/maps-0.list", "rels_key": "idses"},
     {"path": "../cjkvi/maps-1.list", "rels_key": "idses"},
     {"path": "../cjkvi/maps-2.list", "rels_key": "idses"},
@@ -24,7 +26,8 @@
     {
       "path": "../unicode/maps3.list",
       "rels_key": "idses"
-    }
+    },
+    {"path": "../misc/maps.list", "rels_key": "idses"}
   ],
   "leader_types": [
   ],

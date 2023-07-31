@@ -7,6 +7,7 @@ BEGIN { require 'chars.pl' };
 
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
+my $TempPath = $RootPath->child ('local/iwm');
 my $Data = {};
 
 sub ue ($) {
@@ -44,8 +45,11 @@ sub ue ($) {
         wu => 'manakai:variant:wu',
         alt => 'manakai:alt',
         mistake => 'manakai:typo',
+        ids => 'manakai:ids',
       }->{$1} // die "Bad type |$1|";
-      $Data->{hans}->{ue $3}->{ue $2}->{$vtype} = 1;
+      my $key = 'hans';
+      $key = 'idses' if $vtype eq 'manakai:ids';
+      $Data->{$key}->{ue $3}->{ue $2}->{$vtype} = 1;
     } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+)\s+<-\s+(.+)$/) {
       my $vtype = {
         simplified => 'manakai:variant:simplified',
@@ -98,6 +102,7 @@ sub ue ($) {
         alt => 'manakai:alt',
         mistake => 'manakai:typo',
         ne => 'manakai:ne',
+        small => 'manakai:small',
       }->{$1} // die "Bad type |$1|";
       my $c1 = ue $3;
       my $c2 = ue $2;
@@ -166,7 +171,7 @@ sub ue ($) {
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
     if (/^\s*#/) {
       #
-    } elsif (/^([\p{sc=Hiragana};]+)\s+(\p{sc=Han}(?:\s+\p{sc=Han})+)$/) {
+    } elsif (/^([\p{sc=Hiragana};]+)\s+(\p{sc=Han}(?:\s+\p{sc=Han}+)+)$/) {
       my @s = split /\s+/, $2;
       for my $c1 (@s) {
         for my $c2 (@s) {
@@ -206,6 +211,22 @@ sub ue ($) {
     } elsif (/\S/) {
       die $_;
     }
+  }
+}
+
+{
+  my $path = $TempPath->child ('dict.ts');
+  my $text = $path->slurp_utf8;
+  $text =~ /^const JIS_OLD_KANJI = '([^']+)'/m or die;
+  my $old = $1;
+  $text =~ /^const JIS_NEW_KANJI = '([^']+)'/m or die;
+  my $new = $1;
+  my @old = split /,/, $old;
+  my @new = split /,/, $new;
+  for (0..$#old) {
+    my $c1 = $old[$_];
+    my $c2 = $new[$_];
+    $Data->{hans}->{$c1}->{$c2}->{'geolonia:oldnew'} = 1;
   }
 }
 

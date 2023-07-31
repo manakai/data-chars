@@ -453,6 +453,10 @@ sub is_b5_variant ($) {
   return 0;
 } # is_b5_variant
 
+sub is_ids ($) {
+  return $_[0] =~ /^\p{Ideographic_Description_Characters}/;
+} # is_ids
+
 sub is_ids_char ($) {
   return $_[0] =~ /^:\p{Ideographic_Description_Characters}/;
 } # is_ids_char
@@ -460,10 +464,15 @@ sub is_ids_char ($) {
 sub wrap_ids ($$) {
   my ($s, $prefix) = @_;
   use utf8;
-  if ($s =~ /[？?〓\/\x{303E}\x{E000}-\x{F8FF}\[\]]|CDP|&/) {
+  if ($prefix eq ':cjkvi:' and $s =~ /^([\x{E000}-\x{F8FF}])$/) {
+    return sprintf ':u-cdp-%x', ord $1;
+  }
+  if ($s =~ /\A[？?〓\x{FFFD}]\z/) {
+    return undef;
+  } elsif ($s =~ /[？?〓\x{FFFD}\/\x{303E}\x{E000}-\x{F8FF}\[\]\x{2FFB}]|CDP|&/) {
     return $prefix . $s;
   } elsif ($s =~ /^\p{Ideographic_Description_Characters}/) {
-    return ':' . $s;
+    return $s;
   } elsif ((is_han $s or is_kana $s) and not $s =~ /^:/) {
     return $s;
   } else {
