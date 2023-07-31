@@ -634,7 +634,7 @@ data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
 
 # referenced from https://github.com/suikawiki/swdata
-build-swdata: build-pages-vgen build-nightly-vgen
+build-swdata: build-pages build-nightly
 
 build-nightly: local/generated build-nightly-iu
 
@@ -650,6 +650,7 @@ build-nightly-iu: deps data/maps.json
 
 build-pages-iu: deps
 	cd intermediate/charrels && $(MAKE) build-pages
+	cd intermediate/wiki && $(MAKE) build-pages
 
 local/generated:
 	$(GIT) clone https://github.com/manakai/generated-data-chars $@ || (cd $@ && $(GIT) pull)

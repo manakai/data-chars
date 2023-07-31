@@ -8,7 +8,7 @@ PERL = $(ROOT_PATH)/perl \
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: $(TEMP_PATH) repos variants.list hd-0.list maps-0.list
+all: $(TEMP_PATH) repos variants-0.list hd-0.list maps-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -31,11 +31,13 @@ $(TEMP_PATH)/variants.txt:
 $(TEMP_PATH)/hd2ucs.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/cjkvi/cjkvi-data/c9b9359a46d720f5a5a81d85cb5e79e93b3efdcf/hd2ucs.txt
 
-variants.list: variants.pl $(VGEN_PATH)/chars.pl \
+variants-0.list: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/variants.txt \
     $(TEMP_PATH)/cjkvi-data/gb2ucs.txt \
+    $(TEMP_PATH)/cjkvi-data/nom_qn.txt \
     $(TEMP_PATH)/cjkvi-variants/*.txt
-	$(PERL) $< > $@
+	$(PERL) $<
+variants-*.list: variants-0.list
 
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/cjkvi-dict/kx2ucs.txt \

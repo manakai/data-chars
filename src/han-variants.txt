@@ -431,6 +431,13 @@ related \u{3023} 三
 related \u{3022} 二
 related \u{3021} 一
 
+related 廿 二十
+related 卄 二十
+related 丗 三十
+related 卅 三十
+related 卌 四十
+related :gw-zihai-001820 五十
+
 related 兡 銾
 related 矽 硅
 related 鎦 鑥
@@ -603,13 +610,21 @@ mistake 代 台
 mistake 視 試
 #in: 視聴/試聴
 
-same 𬶤 :⿰鱼帝
+ids 𬶤 :⿰鱼帝
 related 𩹋 鮷
 
 ## <https://github.com/adobe-type-tools/Adobe-Japan1/blob/master/README-JP.md#%E9%87%8D%E8%A4%87%E3%81%97%E3%81%9F%E6%BC%A2%E5%AD%97%E3%82%B0%E3%83%AA%E3%83%95>
 same :aj4301 :aj7983
 same :aj4411 :aj7984
 same :aj5459 :aj7994
+
+## <https://font.kim/kanji_vars/>
+unified :jistype-simplified-緊 \u7D27
+unified :jistype-simplified-事 \u4E8A
+unified :jistype-simplified-質 \u8CAD
+unified :jistype-simplified-職 \u803A
+unified :jistype-simplified-属 \u{2D55B}
+unified :jistype-simplified-第 \u3427
 
 alt \u{16FF0} \u4E2A
 alt \u{16FF0} \u4E87
@@ -620,4 +635,16 @@ related 苦 九
 related 死 四
 alt 死 4
 alt 死 ﾀﾋ
+alt 死 タヒ
 alt 死 氏
+
+unified 神 ネ申
+
+differentiated \u310C 力
+differentiated \u310B 乃
+differentiated \u310A \u342C
+differentiated \u310A \u{21FEE}
+differentiated \u3109 刀
+differentiated \u3108 \u531A
+differentiated \u3118 七
+differentiated \u311B \u5475

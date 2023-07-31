@@ -29,6 +29,7 @@ related T 瓲
 related \㍀ 听
 related \㍀ 磅
 related \㌣ 仙
+related \u00A2 仙
 related \㌺ 片
 related \㌡ 志
 related \㌵ 仏
@@ -220,12 +221,19 @@ related :jis1-11-49 \u025B\u0301
 related \u2212 \▲
 related \u2212 \△
 
+small \﹅ \、
 differentiated \、 \uFE45
 differentiated \uFF64 \uFE45
 
+small \◦ \。
 differentiated \。 \uFE46
 differentiated \uFF61 \uFE46
 differentiated :jis1-3-29 :jis1-1-3
+differentiated :aj635 :aj12640
+related \◦ \○
+
+small \・ \.
+differentiated \. \。
 
 differentiated \u3000 \u0021
 differentiated \u3000 \uFE57

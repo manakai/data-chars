@@ -200,7 +200,57 @@
       "rels_key": "hans"
     },
     {
-      "path": "../cjkvi/variants.list",
+      "path": "../cjkvi/variants-0.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-1.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-2.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-3.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-4.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-5.list",
       "rels_key": "hans",
       "mv_map": {
         "cjkvi:joyo/variant": "jp",
@@ -283,10 +333,11 @@
         "hyougai": "jp2"
       }
     },
-    {
-      "path": "../wiki/maps.list",
-      "rels_key": "hans"
-    },
+    {"path": "../wiki/maps-0.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-1.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-2.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-3.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-4.list", "rels_key": "hans"},
     {
       "path": "../misc/maps.list",
       "rels_key": "hans"

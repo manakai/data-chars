@@ -28,7 +28,10 @@ $(TEMP_PATH)/ac17.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-CNS1-7/cid2code.txt
 
 $(TEMP_PATH)/ag15.txt:
-	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-GB1-5/cid2code.txt
+	#$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-GB1-5/cid2code.txt
+	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/accdf06a1aee73ce53be2e0c1ff14fb2a2b96cdd/Adobe-GB1-5/cid2code.txt
+$(TEMP_PATH)/ag16.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-GB1-6/cid2code.txt
 
 $(TEMP_PATH)/ak9.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-KR-9/cid2code.txt
@@ -55,7 +58,10 @@ $(TEMP_PATH)/ac17.fea:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/Adobe-CNS1/master/GSUB/ac17-gsub.fea
 
 $(TEMP_PATH)/ag15.fea:
-	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/Adobe-GB1/master/GSUB/ag15-gsub.fea
+	#$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/Adobe-GB1/master/GSUB/ag15-gsub.fea
+	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/Adobe-GB1/463318291007e231fd9a11d0e70d657455a9a586/GSUB/ag15-gsub.fea
+$(TEMP_PATH)/ag16.fea:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/Adobe-GB1/master/GSUB/ag16-gsub.fea
 
 $(TEMP_PATH)/akr9.fea:
 	$(SAVEURL) $@ https://github.com/adobe-type-tools/Adobe-KR/raw/master/GSUB/akr9-gsub.fea
@@ -64,11 +70,11 @@ $(TEMP_PATH)/akr9-hangul.txt:
 
 maps.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/aj17.txt $(TEMP_PATH)/aj17-kanji.txt $(TEMP_PATH)/aj20.txt \
-    $(TEMP_PATH)/ac17.txt $(TEMP_PATH)/ag15.txt \
+    $(TEMP_PATH)/ac17.txt $(TEMP_PATH)/ag16.txt \
     $(TEMP_PATH)/ak9.txt $(TEMP_PATH)/ak12.txt \
     $(TEMP_PATH)/aj-vs.txt $(TEMP_PATH)/ac-vs.txt \
     $(TEMP_PATH)/ag-vs.txt $(TEMP_PATH)/ak-vs.txt \
-    $(TEMP_PATH)/ac17.fea $(TEMP_PATH)/ag15.fea \
+    $(TEMP_PATH)/ac17.fea $(TEMP_PATH)/ag16.fea \
     $(TEMP_PATH)/aj17.fea \
     $(TEMP_PATH)/akr9.fea \
     $(TEMP_PATH)/akr9-hangul.txt

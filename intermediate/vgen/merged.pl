@@ -76,6 +76,11 @@ my $NTypes = [];
     "ivd:Adobe-Japan1",
     
     "cjkvi:hd2ucs:=",
+
+    "glyphwiki:revision",
+    "glyphwiki:同字形",
+    "glyphwiki:UCS重複",
+    "glyphwiki:IVD重複",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
     $TypeWeight->{'rev:'.$vtype} = W 'SAME';
@@ -222,6 +227,15 @@ my $NTypes = [];
     "unihan:kIRG_JSource:A4",
     #'mj:UCS',
     'ninjal:UNICODE',
+    "unihan:kIRG_SSource",
+    
+    "unihan:kIRG_VSource",
+    "unihan:kIRG_VSource:1",
+    "unihan:kIRG_VSource:2",
+    "unihan:kIRG_VSource:3",
+    "unihan:kIRG_VSource:4",
+    "cjkvi:nom_qn:#",
+    "cjkvi:nom_qn:#:V4",
 
     "glyphwiki:alias",
     "glyphwiki:juki",
@@ -289,9 +303,44 @@ my $NTypes = [];
     "cjkvi:hd2cid",
     "cjkvi:hd2cid:subtle",
     "cjkvi:hd2cid:related",
+    "manakai:glyph",
     "manakai:implements",
-    "manakai:implements:juki",
     "manakai:implements:vertical",
+    "manakai:implements:juki",
+    "manakai:implements:MD",
+    "manakai:implements:HU",
+    "manakai:implements:TU",
+    "manakai:implements:GU",
+    "manakai:implements:KU",
+    "manakai:implements:KPU",
+    "manakai:implements:VN",
+    "manakai:implements:HKA",
+
+    "glyphwiki:平成23年12月26日法務省告示第582号別表第一",
+    "glyphwiki:異体字:入管正字:外字",
+
+    (map { "glyphwiki:" . $_ } qw(
+      01 02 03 04 05 06 07 08 09 10 11 14 15 24
+      var halfwidth fullwidth vert sans italic
+      g t j k v h kp u m us i ja js jv gv kv tv vv
+    )),
+    'glyphwiki:implements:j78',
+    'glyphwiki:implements:j83',
+    'glyphwiki:implements:j90',
+    'glyphwiki:implements:jx1-2000',
+    'glyphwiki:implements:jx1-2004',
+    'glyphwiki:implements:g0',
+    'glyphwiki:implements:g1',
+    'glyphwiki:implements:g2',
+    'glyphwiki:implements:g3',
+    'glyphwiki:implements:g4',
+    'glyphwiki:implements:g5',
+    'glyphwiki:implements:g8',
+    'glyphwiki:implements:gh',
+    'glyphwiki:implements:g-kx',
+    "glyphwiki:UCS互換",
+
+    "manakai:ids",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -316,6 +365,7 @@ my $NTypes = [];
     "ucd:incorrect of",
     "ucd:ligature of",
 
+    "jisz8903:annex2",
     'jisx0208-1997:附属書1:表1',
     'jisx0208-1997:附属書1:表2',
     'jisx0208-1997:附属書2:表1',
@@ -338,6 +388,9 @@ my $NTypes = [];
     'cjkvi:hducs2koseki:*',
     'cjkvi:hducs2koseki:#',
     'cjkvi:hducs2koseki:()',
+    
+    "cjkvi:gb2ucs:2",
+    "cjkvi:gb2ucs:4",
     "cjkvi:gb2ucs:2:#",
     "cjkvi:gb2ucs:4:#",
     "cjkvi:gb2ucs:K:#",
@@ -350,6 +403,8 @@ my $NTypes = [];
     "cjkvi:gb2ucs:K:#:5",
     "cjkvi:kx2ucs:*",
     "cjkvi:kx2ucs:#",
+    "cjkvi:nom_qn:variant",
+    
     "cjkvi:dkw2ucs:#",
     "cjkvi:dkw2ucs:本字 of",
     "mj:daikanwa-ucs",
@@ -393,8 +448,7 @@ my $NTypes = [];
     "unihan:kIRG_GSource:1",
     "unihan:kIRG_GSource:3",
     "unihan:kIRG_GSource:5",
-    "cjkvi:gb2ucs:2",
-    "cjkvi:gb2ucs:4",
+    "unihan:kIRG_GSource:H",
     "icu:mapping:iso-ir-165",
 
     "mj:VerticalWriting",
@@ -425,6 +479,65 @@ my $NTypes = [];
     "adobe:jp90",
 
     "kana:origin:variant",
+
+    "glyphwiki:itaiji",
+    "glyphwiki:集韻",
+    "glyphwiki:漢語大字典",
+    "glyphwiki:康熙字典",
+    "glyphwiki:中華字海",
+    "glyphwiki:漢語俗字叢考",
+    "glyphwiki:漢語俗字新考",
+    "glyphwiki:疑難字考釋與研究",
+    "glyphwiki:漢越語研究",
+    "glyphwiki:疑難字續考",
+    "glyphwiki:可洪音義研究",
+    "glyphwiki:叶典",
+    "glyphwiki:字統网",
+    "glyphwiki:龍龕手鏡研究",
+    "glyphwiki:天原發微",
+    "glyphwiki:民國教育部",
+    "glyphwiki:支那漢",
+    "glyphwiki:繁簡関係",
+    "glyphwiki:繁簡関係(二簡字)",
+    "glyphwiki:繁星関係",
+    "glyphwiki:拡張新字体",
+    "glyphwiki:拡張新旧",
+    "glyphwiki:部分簡化",
+    "glyphwiki:隸變部件",
+    "glyphwiki:戸籍異体",
+    "glyphwiki:戸籍異体 -- Ver.003.01",
+    "glyphwiki:戸籍統一文字",
+    "glyphwiki:5200号通達",
+    "glyphwiki:WS2015",
+    "glyphwiki:WS2017",
+    "glyphwiki:WS2021",
+    "glyphwiki:大正大蔵経",
+    "glyphwiki:韓国人名",
+    "glyphwiki:韓国歴史",
+    "glyphwiki:偏旁",
+    "glyphwiki:BSH",
+    "glyphwiki:IRGN2091",
+    "glyphwiki:IRGN2107",
+    "glyphwiki:IRGN2155",
+    "glyphwiki:IRGN2179",
+    "glyphwiki:IRGN2223",
+    "glyphwiki:IRGN2269",
+    "glyphwiki:IRGN2436",
+    "glyphwiki:俗字",
+    "glyphwiki:広東語",
+    "glyphwiki:UCS類似",
+
+    "kVariants:wrong!",
+    "kVariants:sem",
+    "kVariants:old",
+    "kVariants:simp",
+    "kVariants:=",
+
+    "wikisource:ja:新旧字体変換用辞書:旧字体対照常用漢字表",
+    "wikisource:ja:新旧字体変換用辞書:上記以外の互換漢字など",
+    "wikisource:ja:新旧字体変換用辞書:その他の漢字",
+    "nihuINT:variant",
+    "geolonia:oldnew",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -521,6 +634,7 @@ my $NTypes = [];
     "kana:large",
     "kana:small",
     "arib:70%",
+    "manakai:small",
 
     "unicode5.1:Bidi_Mirroring_Glyph",
     "unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT",
@@ -626,6 +740,9 @@ my $NTypes = [];
     "mj:法務省告示582号別表第四:二:第1順位",
     "mj:法務省告示582号別表第四:一:第2順位",
     "mj:法務省告示582号別表第四:二:第2順位",
+    "glyphwiki:異体字:入管正字:外字:第1順位",
+    "glyphwiki:異体字:入管正字:外字:第2順位",
+    "glyphwiki:入管正字",
 
     "nta:JIS縮退マップ:コード変換",
     "nta:JIS縮退マップ:文字列変換",
@@ -643,9 +760,18 @@ my $NTypes = [];
     "cjkvi:cjkvi/variant",
     "cjkvi:hydcd/borrowed",
     "cjkvi:variants",
-    "cjkvi:ids",
     "cjkvi:dkw2ucs:changed[1]:old",
     "cjkvi:dkw2ucs:changed[1]:new",
+    
+    "cjkvi:ids",
+    "cjkvi:ids:V4",
+    "cjkvi:gb2ucs:2:ids",
+    "cjkvi:gb2ucs:4:ids",
+    "cjkvi:gb2ucs:2:ids:#",
+    "cjkvi:gb2ucs:4:ids:#",
+    "cjkvi:gb2ucs:K:ids",
+    "cjkvi:gb2ucs:K:ids:#",
+    "cjkvi:gb2ucs:K:ids:#:1",
 
     "manakai:alt",
     "manakai:related",
@@ -696,6 +822,9 @@ my $NTypes = [];
     "opentype:numr",
     "opentype:calt:contextual",
     "opentype:locl",
+
+    "glyphwiki:その他",
+    "glyphwiki:small",
   ) {
     $TypeWeight->{$vtype} = W 'RELATED';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -736,6 +865,10 @@ my $NTypes = [];
     "unihan3.0:kIRGKangXi:virtual",
 
     "manakai:ne",
+
+    "glyphwiki:同型異字",
+    "glyphwiki:related",
+    "glyphwiki:contains",
   ) {
     $TypeWeight->{$vtype} = W 'LINKED';
     $TypeWeight->{'rev:'.$vtype} = -1;

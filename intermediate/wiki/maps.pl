@@ -22,6 +22,7 @@ sub extract_source ($) {
   $html = decode_web_utf8 $html;
   $html =~ s/&#x([0-9a-f]+);/chr hex $1/ge;
   $html =~ s/&#([0-9]+);/chr $1/ge;
+  $html =~ s/&amp;/&/g;
   return $html;
 } # extract_source
 
@@ -202,6 +203,32 @@ for (
         }
       }
     } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
+{
+  my $path = $TempPath->child ('jaconvert.html');
+  my $section;
+  for (split /\x0D?\x0A/, extract_source $path->slurp) {
+    if (/^\*\s*(\p{Han}+)g?\s*\x{2192}\s*(\p{Han})\s*/) {
+      my $c2 = $2;
+      my @c1 = split //, $1;
+      for my $c1 (@c1) {
+        next if $c1 eq $c2;
+        $Data->{hans}->{$c1}->{$c2}->{'wikisource:ja:新旧字体変換用辞書:' . $section} = 1;
+      }
+    } elsif (/^\*\s*&#x([0-9A-Fa-f]+);g?\s*\x{2192}\s*(\p{Han})\s*/) {
+      my $c2 = $2;
+      my @c1 = (chr hex $1);
+      for my $c1 (@c1) {
+        next if $c1 eq $c2;
+        $Data->{hans}->{$c1}->{$c2}->{'wikisource:ja:新旧字体変換用辞書:' . $section} = 1;
+      }
+    } elsif (/^===\s*(\S.+\S)\s*===$/) {
+      $section = $1;
+    } elsif (/^\*/) {
       die $_;
     }
   }
@@ -517,6 +544,148 @@ for (
   }
 }
 
+
+{
+  my $path = $TempPath->child ('gw-immi-1.txt');
+  for (split /\x0D?\x0A/, extract_source $path->slurp) {
+    if (/^\[\[u([0-9a-f]+) juki-([0-9a-f]+)\]\]$/) {
+      my $code1 = hex $1;
+      my $code2 = hex $2;
+      my $c1 = chr $code1;
+      if (0xE000 <= $code1 and $code1 <= 0xF7FF) {
+        $c1 = sprintf ':u-immi-%x', $code1;
+        my $cu = chr $code1;
+        $Data->{hans}->{$cu}->{$c1}->{'manakai:private'} = 1;
+      } elsif ($code1 == 0xF9A1 or $code1 == 0xF96F) {
+        #
+      } elsif (0xF800 <= $code1 and $code1 <= 0xFFFF) {
+        die $1;
+      } else {
+        #
+      }
+      my $c2 = chr $code2;
+      if (0xA000 <= $code2 and $code2 <= 0xF7FF) {
+        $c2 = sprintf ':u-juki-%x', $code2;
+        my $cu = chr $code2;
+        $Data->{hans}->{$cu}->{$c2}->{'manakai:private'} = 1;
+      } elsif (0xF800 <= $code2 and $code2 <= 0xFFFF) {
+        die $2;
+      } else {
+        #
+      }
+      if ($c1 eq $c2) {
+        #
+      } else {
+        use utf8;
+        $Data->{hans}->{$c1}->{$c2}->{'glyphwiki:平成23年12月26日法務省告示第582号別表第一'} = 1
+      }
+    } elsif (/^\[\[u([0-9a-f]+) koseki-([0-9]+)\]\]$/) {
+      my $code1 = hex $1;
+      my $c2 = sprintf ':koseki%s', $2;
+      my $c1 = chr $code1;
+      if (0xA000 <= $code1 and $code1 <= 0xF7FF) {
+        $c1 = sprintf ':u-immi-%x', $code1;
+        my $cu = chr $code1;
+        $Data->{hans}->{$cu}->{$c1}->{'manakai:private'} = 1;
+      } elsif ($code1 == 0xF9A1 or $code1 == 0xF96F) {
+        #
+      } elsif (0xF800 <= $code1 and $code1 <= 0xFFFF) {
+        die $1;
+      } else {
+        #
+      }
+      use utf8;
+      $Data->{hans}->{$c1}->{$c2}->{'glyphwiki:平成23年12月26日法務省告示第582号別表第一'} = 1
+    }
+  }
+}
+{
+  ## <https://glyphwiki.org/wiki/GlyphWiki-talk:%e7%95%b0%e4%bd%93%e5%ad%97>
+  use utf8;
+  my $path = $TempPath->child ('gw-immi-pua.txt');
+  my $current;
+  for (split /\x0D?\x0A/, extract_source $path->slurp) {
+    if (/^-\[\[u([0-9a-f]+)\]\]\[\[u([0-9a-f]+)\]\],入管正字$/) {
+      my $c1 = chr hex $1;
+      my $c2 = chr hex $2;
+      my $rel_type = 'glyphwiki:異体字:入管正字:外字';
+      if (defined $current and $current eq $c2) {
+        $rel_type .= ':第2順位';
+      } else {
+        $rel_type .= ':第1順位';
+      }
+      $Data->{hans}->{$c1}->{$c2}->{$rel_type} = 1;
+      $current = $c1;
+    } elsif (/^-\[\[irg2017-([0-9]+)\]\]\[\[u([0-9a-f]+)\]\],入管正字$/) {
+      my $c1 = sprintf ':irg2017-%d', $1;
+      my $c2 = chr hex $2;
+      my $rel_type = 'glyphwiki:異体字:入管正字:外字';
+      if (defined $current and $current eq $c2) {
+        $rel_type .= ':第2順位';
+      } else {
+        $rel_type .= ':第1順位';
+      }
+      $Data->{hans}->{$c1}->{$c2}->{$rel_type} = 1;
+      $current = $c1;
+    } elsif (/^--\[\[nyukan-([0-9a-f]+)\]\]$/) {
+      my $code1 = hex $1;
+      my $c1 = sprintf ':u-immi-%x', $code1;
+      my $c2 = $current // die "No current ($_)";
+      my $rel_type = 'glyphwiki:異体字:入管正字:外字';
+      $Data->{hans}->{$c1}->{$c2}->{$rel_type} = 1;
+
+      my $cu1 = chr $code1;
+      $Data->{hans}->{$cu1}->{$c1}->{'manakai:private'} = 1;
+      
+      undef $current;
+    } elsif (/^--\[\[nyukan-([0-9a-f]+)\]\]\[\[nyukan-([0-9a-f]+)\]\]$/) {
+      my $code1 = hex $1;
+      my $code3 = hex $2;
+      my $c1 = sprintf ':u-immi-%x', $code1;
+      my $c3 = sprintf ':u-immi-%x', $code3;
+      my $c2 = $current // die "No current ($_)";
+      my $rel_type = 'glyphwiki:異体字:入管正字:外字';
+      $Data->{hans}->{$c1}->{$c2}->{$rel_type} = 1;
+      $Data->{hans}->{$c3}->{$c2}->{$rel_type} = 1;
+
+      my $cu1 = chr $code1;
+      $Data->{hans}->{$cu1}->{$c1}->{'manakai:private'} = 1;
+      my $cu3 = chr $code3;
+      $Data->{hans}->{$cu3}->{$c3}->{'manakai:private'} = 1;
+      
+      undef $current;
+    } elsif (/^--現在無効/) {
+      #
+    } elsif (/^-/) {
+      die $_;
+    }
+  }
+}
+
+for my $path (($TempPath->children (qr/^gw-relcp-[0-9]+\.txt$/))) {
+  for (split /\x0D?\x0A/, extract_source $path->slurp) {
+    if (/^-((?:\[\[u[0-9a-f]+\]\])+),([^,]+)$/) {
+      my $v = $1;
+      my $rel_type = 'glyphwiki:' . $2;
+      {
+        use utf8;
+        $rel_type =~ s/繁簡関係\(二簡字、\w\w\)$/繁簡関係(二簡字)/;
+      }
+      $rel_type =~ s/\s+$//;
+      $v =~ s/^\[\[u//;
+      $v =~ s/\]\]$//;
+      my @v = map { u_chr hex $_ } split /\]\]\[\[u/, $v;
+      my $c1 = shift @v;
+      my $key = get_vkey $c1;
+      while (@v) {
+        my $c2 = shift @v;
+        $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        $c1 = $c2;
+      }
+    }
+  }
+}
+
 {
   use utf8;
   ## <https://ja.wikipedia.org/wiki/%E5%90%88%E7%95%A5%E4%BB%AE%E5%90%8D>
@@ -597,6 +766,13 @@ for (
   }
 }
 
-print_rel_data $Data;
+write_rel_data_sets
+    $Data => $ThisPath, 'maps',
+    [
+      qr/[\x{3000}-\x{5FFF}]/,
+      qr/[\x{6000}-\x{7FFF}]/,
+      qr/[\x{8000}-\x{FFFF}]/,
+      qr/[\x{20000}-\x{3FFFF}]/,
+    ];
 
 ## License: Public Domain.

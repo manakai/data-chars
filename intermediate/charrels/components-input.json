@@ -1,0 +1,10 @@
+{
+  "key": "components",
+  "inputs": [
+    {"path": "../../local/maps/gwcontains-0.list", "rels_key": "components"}
+  ],
+  "leader_types": [
+  ],
+  "tests": [
+  ]
+}

@@ -72,6 +72,10 @@ $(TEMP_PATH)/unihan-irg-m.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_M > $@
 $(TEMP_PATH)/unihan-irg-t.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_T > $@
+$(TEMP_PATH)/unihan-irg-s.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
+	grep -v '^#' $< | grep kIRG_S > $@
+$(TEMP_PATH)/unihan-irg-v.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
+	grep -v '^#' $< | grep kIRG_V > $@
 $(TEMP_PATH)/unihan-kangxi.txt: $(TEMP_PATH)/Unihan_DictionaryIndices.txt
 	grep -v '^#' $< | grep KangXi > $@
 $(TEMP_PATH)/unihan-morohashi.txt: $(TEMP_PATH)/Unihan_DictionaryIndices.txt
@@ -120,6 +124,9 @@ $(TEMP_PATH)/$(IVD_VERSION)/IVD_Stats.txt: $(TEMP_PATH)/$(IVD_VERSION)
 $(TEMP_PATH)/iso-ir-165.ucm:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/unicode-org/icu/main/icu4c/source/data/mappings/iso-ir-165.ucm
 
+$(TEMP_PATH)/kVariants.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/hfhchan/irg/master/kVariants.txt
+
 variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-tghz2013.txt \
     $(TEMP_PATH)/unihan-g1.txt \
@@ -154,8 +161,11 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan3.txt \
     $(TEMP_PATH)/unihan-irg-g.txt \
     $(TEMP_PATH)/unihan-irg-t.txt \
+    $(TEMP_PATH)/unihan-irg-s.txt \
+    $(TEMP_PATH)/unihan-irg-v.txt \
     $(TEMP_PATH)/unihan-kangxi.txt \
-    $(TEMP_PATH)/unihan-morohashi.txt
+    $(TEMP_PATH)/unihan-morohashi.txt \
+    $(TEMP_PATH)/kVariants.txt 
 	$(PERL) $<
 maps-*.list: maps-0.list
 

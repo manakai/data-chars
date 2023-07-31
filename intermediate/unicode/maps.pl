@@ -142,6 +142,11 @@ my $Data = {};
         }
         $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
       }
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_GSource)\s+GH-([0-9]{2})([0-9]{2})$/) {
+      my $c1 = u_chr hex $1;
+      my $c2 = sprintf ':gb%d-%d-%d', 0, $3, $4;
+      my $key = get_vkey $c1;
+      $Data->{hans}->{$c1}->{$c2}->{"unihan:$2:H"} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kIRG_GSource)\s+GKX-([0-9]+)\.([0-9]{2})$/) {
       my $c1 = u_chr hex $1;
       my $c2 = sprintf ':kx%d-%d', $3, $4;
@@ -169,6 +174,57 @@ my $Data = {};
       my $c2 = sprintf ':cns%d-%d-%d', (hex $3), (hex $4)-0x20, (hex $5)-0x20;
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('unihan-irg-s.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_SSource)\s+SAT-([0-9]+)$/) {
+      my $c1 = u_chr hex $1;
+      my $rel_type = "unihan:$2";
+      my $c2 = sprintf ':sat%d', $3;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('unihan-irg-v.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_VSource)\s+VN-([0-9A-Fa-f]+)$/) {
+      my $code2 = hex $3;
+      if ($code2 >= 0xF0000) {
+        my $c1 = u_chr hex $1;
+        my $rel_type = "unihan:$2";
+        my $c2 = sprintf ':u-nom-%x', $code2;
+        my $key = get_vkey $c1;
+        $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        my $c2_0 = chr $code2;
+        $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      }
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_VSource)\s+V([01234])-([0-9A-F]{2})([0-9A-F]{2})$/) {
+      my $c1 = u_chr hex $1;
+      my $c2 = sprintf ':v%d-%d-%d',
+          {
+            0 => 0,
+            1 => 1, 2 => 1,
+            3 => 3, 4 => 3,
+          }->{$3}, (hex $4) - 0x20, (hex $5) - 0x20;
+      my $rel_type = "unihan:$2";
+      $rel_type .= ":$3" if $3 > 0;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif (/\S/) {
+      die $_;
     }
   }
 }
@@ -211,6 +267,21 @@ my $Data = {};
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kMorohashi)\s+/) {
+      die $_;
+    }
+  }
+}
+
+{
+  my $path = $TempPath->child ('kVariants.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\S+ \(U\+([0-9A-F]+)\)\s+(\S+)\s+\S+ \(U\+([0-9A-F]+)\)$/) {
+      my $c1 = chr hex $1;
+      my $c2 = chr hex $3;
+      my $vkey = get_vkey $c1;
+      $Data->{$vkey}->{$c1}->{$c2}->{'kVariants:' . $2} = 1;
+    } elsif (/\S/) {
       die $_;
     }
   }

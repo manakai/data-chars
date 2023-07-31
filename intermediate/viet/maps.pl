@@ -38,7 +38,31 @@ my $Data = {};
 }
 
 {
-  my $path = $TempPath->child ('uvs.txt');
+  my $path = $TempPath->child ('uvs.txt.2');
+  for (split /[\x0D\x0A]/, $path->slurp_utf8) {
+    if (/^([0-9A-F]+) ([0-9A-F]+); u(?:ni|)([0-9A-F]+)$/) {
+      my $c1 = (chr hex $1) . (chr hex $2);
+      my $c1_1 = chr hex $1;
+      my $c2 = chr hex $3;
+      if ($c1_1 eq $c2) {
+        #
+      } else {
+        my $c2_0 = $c2;
+        if (is_private $c2) {
+          $c2 = sprintf ':u-nom-%x', ord $c2;
+          $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+          $Data->{hans}->{$c1_1}->{$c2}->{'manakai:unified'} = 1;
+        }
+      }
+    } elsif (/^\s*#/) {
+      #
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('uvs.txt.3');
   for (split /[\x0D\x0A]/, $path->slurp_utf8) {
     if (/^([0-9A-F]+) ([0-9A-F]+); u(?:ni|)([0-9A-F]+)$/) {
       my $c1 = (chr hex $1) . (chr hex $2);

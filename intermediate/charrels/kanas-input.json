@@ -171,10 +171,12 @@
       "path": "../opencc/variants.list",
       "rels_key": "kanas"
     },
-    {
-      "path": "../cjkvi/variants.list",
-      "rels_key": "kanas"
-    },
+    {"path": "../cjkvi/variants-0.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-1.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-2.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-3.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-4.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-5.list", "rels_key": "kanas"},
     {
       "path": "../cjkvi/hd-0.list",
       "rels_key": "kanas"
@@ -227,10 +229,11 @@
     {"path": "../cjkvi/maps-1.list", "rels_key": "kanas"},
     {"path": "../cjkvi/maps-2.list", "rels_key": "kanas"},
     {"path": "../cjkvi/maps-3.list", "rels_key": "kanas"},
-    {
-      "path": "../wiki/maps.list",
-      "rels_key": "kanas"
-    },
+    {"path": "../wiki/maps-0.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-1.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-2.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-3.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-4.list", "rels_key": "kanas"},
     {
       "path": "../misc/maps.list",
       "rels_key": "kanas"

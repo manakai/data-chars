@@ -68,16 +68,16 @@ for (
     if (/^(UK-[0-9]+)\t(?:U\+|)([0-9A-F]{4})\t?$/) {
       my $c2 = sprintf ':u-%s-%x', $up, hex $2;
       my $c2_0 = chr hex $2;
-      $Data->{hans}->{":$1"}->{$c2}->{"uk:font-code-point"} = 1;
-      die "Duplicate $c2" if $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'};
-      $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{glyphs}->{":$1"}->{$c2}->{"uk:font-code-point"} = 1;
+      die "Duplicate $c2" if $Data->{glyphs}->{$c2_0}->{$c2}->{'manakai:private'};
+      $Data->{glyphs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif (/^(UK-[0-9]+)\t(?:U\+|)([0-9A-F]{4})\t([0-9]{2})-([0-9]{2})$/) {
       my $c2 = sprintf ':u-%s-%x', $up, hex $2;
       my $c2_0 = chr hex $2;
       my $c3 = sprintf ':gb8-%d-%d', $3, $4;
-      $Data->{hans}->{":$1"}->{$c2}->{"uk:font-code-point"} = 1;
-      die "Duplicate $c2" if $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'};
-      $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{glyphs}->{":$1"}->{$c2}->{"uk:font-code-point"} = 1;
+      die "Duplicate $c2" if $Data->{glyphs}->{$c2_0}->{$c2}->{'manakai:private'};
+      $Data->{glyphs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       $Data->{hans}->{":$1"}->{$c3}->{"uk:gb8"} = 1;
       # SJ/T 11239-2001
     } elsif (/\S/) {

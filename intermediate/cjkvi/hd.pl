@@ -29,14 +29,17 @@ my $Types = {};
         $c3 = sprintf ':jis2-%d-%d', $3, $4;
       }
     } elsif (s/^((IP|JT)([0-9A-F][0-9A-F])([0-9A-F][0-9A-F])(SS?|))\*?//) {
-      $c1 = ':' . $1;
+      my $v1 = $1;
+      $c1 = ':' . $v1;
       $Types->{"$2----$5"}++;
       
       my $u = (hex $3) * 0x100 + hex $4;
       if ($2 eq 'IP') {
         $c3 = chr $u;
       } elsif ($2 eq 'JT') {
-        if ($u < 0xA000) {
+        if ($u < 0xA000 or
+            (/^\tU\+([0-9A-F]+)/ and $u == hex $1) or
+            (/^\t[=~]([A-Z0-9S]+)/ and defined $Data->{hans}->{':'.$1} and $Data->{hans}->{':'.$1}->{chr $u})) {
           $c3 = chr $u;
           $type3 .= ':juki';
         } else {
@@ -124,12 +127,13 @@ my $Types = {};
 {
   my $path = $TempPath->child ('cjkvi-data/hducs2juki.txt');
   for (split /\x0A/, decode_web_utf8 $path->slurp) {
-    if (/^([A-Z]{2}[0-9A-F]{4,}S*)\t+U\+([0-9A-F]+)([#*]?)\t+([0-9A-F]{4})$/) {
+    if (/^(([A-Z]{2})([0-9A-F]{4,})S*)\t+U\+([0-9A-F]+)([#*]?)\t+([0-9A-F]{4})$/) {
       my $c1 = ':' . $1;
-      my $c2 = chr hex $2;
-      my $code3 = hex $4;
+      my $code2 = hex $4;
+      my $c2 = chr $code2;
+      my $code3 = hex $6;
       my $c3 = sprintf ':u-juki-%x', $code3;
-      if ($code3 < 0xA000) {
+      if ($code3 < 0xA000 or $code2 == $code3) {
         $c3 = chr $code3;
       }
       my $vkey = get_vkey $c2;
@@ -137,7 +141,7 @@ my $Types = {};
       if ($c2 eq $c3) {
         #
       } else {
-        $Data->{$vkey}->{$c2}->{$c3}->{'cjkvi:hducs2juki'.(length $3 ? ':' . $3 : '')} = 1;
+        $Data->{$vkey}->{$c2}->{$c3}->{'cjkvi:hducs2juki'.(length $5 ? ':' . $5 : '')} = 1;
       }
     } elsif (/^([A-Z]{2}[0-9A-F]{4,}S*)\t+JK-([0-9A-F]+)([']?)\t+([0-9A-F]{4})$/) {
       my $c1 = ':' . $1;
@@ -145,6 +149,7 @@ my $Types = {};
       my $code3 = hex $4;
       my $c3 = sprintf ':u-juki-%x', $code3;
       if ($code3 < 0xA000) {
+        die;
         $c3 = chr $code3;
       }
       my $vkey = 'hans';
@@ -155,6 +160,7 @@ my $Types = {};
       my $code3 = hex $2;
       my $c3 = sprintf ':u-juki-%x', $code3;
       if ($code3 < 0xA000) {
+        die;
         $c3 = chr $code3;
       }
       my $vkey = 'hans';
@@ -266,7 +272,10 @@ my $Types = {};
         next;
       }
       $c2 = wrap_ids $ids, ':cjkvi:';
-      die "Bad IDS |$ids|" unless defined $c2;
+      unless (defined $c2) {
+        $ids =~ s{(.)}{sprintf q{{%04X}}, ord $1}ges;
+        die "Bad IDS |$ids|";
+      }
       $Data->{idses}->{$c1}->{$c2}->{'cjkvi:ids'} = 1;
     } elsif (/^([A-Z]{2}[0-9A-F]{4,}S*)(\*?)\t+$/) {
       #

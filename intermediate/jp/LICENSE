@@ -87,3 +87,18 @@ National Tax Agency JAPAN (国税庁), with or without modifications.
 > に規定される著作権利用許諾条件。以下「CC BY」といいます。）
 > と互換性があり、本利用ルールが適用されるコンテンツはCC BY
 > に従うことでも利用することができます。
+
+* nihuINT data files
+
+Some of data in this directory are derived from 単漢字異体字データテー
+ブル proviede by 人間文化研究機構, with or without modifications.
+
+<https://www.bridge.nihu.jp/researchdata/file/20221125_ITOBYb>,
+file "readme_221220.txt":
+
+> 2.利用について
+>
+> 本データテーブルは、CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.ja)で提供します。
+> クレジットは、「人間文化研究機構, 異体漢字対応テーブル, https://www.bridge.nihu.jp/researchdata/file/20221125_ITOBYb」を例として、提供者(人間文化研究機構)、データテーブルの名称、所在情報(URL)を適切に記載してください。
+> 
+> 本データテーブルは、研究成果の一部として公開・提供するもので、このデータの利用について、提供者はいかなる保証もしていません。正確性、完全性、有効性、安全性、第三者の知的財産権の非侵害性については利用者自身の確認と責任のもとで利用してください。 本データテーブルの利用に関連して生じた損害等についても、提供者は一切の責任を負いません。
