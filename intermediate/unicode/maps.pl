@@ -22,10 +22,17 @@ my $Data = {};
       my $type = "unihan3.0:$2";
       my $key = get_vkey $c1;
       if ($3 eq 'E') {
+        my $part1 = ((hex $4) <= 0x61 or
+                     ((hex $4) == 0x62 and (hex $5) <= 0x46));
         my $c2_0 = $c2;
         $c2 =~ s/^:cns/:cns-old-/;
         $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
         $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        if ($part1) {
+          my $c3 = $c2;
+          $c3 =~ s/^:cns-old-14/:cns3/;
+          $Data->{$key}->{$c2}->{$c3}->{'cns11643:moved'} = 1;
+        }
       } else {
         $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
       }
@@ -77,6 +84,11 @@ my $Data = {};
       my $c1 = u_chr hex $1;
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1}->{$c2}->{"unihan3.0:$2"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KSource)\s+([0123])-([0-9A-F]{2})([0-9A-F]{2})$/) {
+      my $c2 = sprintf ':ks%d-%d-%d', $3, (hex $4) - 0x20, (hex $5) - 0x20;
+      my $c1 = u_chr hex $1;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{"unihan3.0:$2"} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kAlternateKangXi)\s+([0-9]+)\.([0-9]+)$/) {
       my $c2 = sprintf ':kx%d-%d', $3, $4;
       my $c1 = u_chr hex $1;
@@ -104,7 +116,7 @@ my $Data = {};
         my $key = get_vkey $c1;
         $Data->{$key}->{$c1}->{$c2}->{"unihan3.0:$2"} = 1;
       }
-    } elsif (/^U\+([0-9A-F]+)\s+(kKangXi|kIRGKangXi)\s+/) {
+    } elsif (/^U\+([0-9A-F]+)\s+(kKangXi|kIRGKangXi|kIRG_KSource)\s+/) {
       die $_;
     }
   }
@@ -225,6 +237,27 @@ my $Data = {};
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/\S/) {
       die $_;
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('unihan-irg-k.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KSource)\s+K([0123])-([0-9A-F]{2})([0-9A-F]{2})$/) {
+      my $c1 = u_chr hex $1;
+      my $rel_type = "unihan:$2";
+      my $c2 = sprintf ':ks%d-%d-%d', $3, (hex $4)-0x20, (hex $5)-0x20;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KSource)\s+K([456])-([0-9A-F]{4})$/) {
+      my $c1 = u_chr hex $1;
+      my $rel_type = "unihan:$2";
+      my $c2 = sprintf ':ks%d-%x', $3, (hex $4);
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     }
   }
 }

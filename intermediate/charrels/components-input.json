@@ -1,6 +1,13 @@
 {
   "key": "components",
   "inputs": [
+    {"path": "../wiki/maps-0.list", "rels_key": "components"},
+    {"path": "../wiki/maps-1.list", "rels_key": "components"},
+    {"path": "../wiki/maps-2.list", "rels_key": "components"},
+    {"path": "../wiki/maps-3.list", "rels_key": "components"},
+    {"path": "../wiki/maps-4.list", "rels_key": "components"},
+    {"path": "../wiki/maps-5.list", "rels_key": "components"},
+    
     {"path": "../../local/maps/gwcontains-0.list", "rels_key": "components"}
   ],
   "leader_types": [

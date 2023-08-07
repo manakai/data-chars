@@ -1211,10 +1211,14 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦂸"
+":ks4-9e"
+unihan:kIRG_KSource
 ":kx933-6-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦂹"
+":ks4-9f"
+unihan:kIRG_KSource
 ":kx933-6-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -1887,6 +1891,8 @@ unihan:kKangXi:virtual
 ":v1-97-2"
 unihan:kIRG_VSource:2
 -"𦄟"
+":ks4-a0"
+unihan:kIRG_KSource
 ":kx938-14-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -3180,6 +3186,8 @@ unihan:kKangXi:virtual
 "變"
 kVariants:wrong!
 -"𦇦"
+":ks4-a3"
+unihan:kIRG_KSource
 ":kx943-22-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -3240,6 +3248,8 @@ unihan:kKangXi:virtual
 ":v0-33-19"
 unihan:kIRG_VSource
 -"𦇯"
+":ks4-a4"
+unihan:kIRG_KSource
 ":kx943-33-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -4019,6 +4029,8 @@ unihan:kKangXi
 -"𦉪"
 ":cns6-2-9"
 unihan:kIRG_TSource
+":ks4-a5"
+unihan:kIRG_KSource
 ":kx946-24-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -4537,6 +4549,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦊺"
+":ks4-a6"
+unihan:kIRG_KSource
 ":kx947-40-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -5695,6 +5709,8 @@ unihan:kKangXi
 -"𦍩"
 ":cns4-20-25"
 unihan:kIRG_TSource
+":ks6-1048"
+unihan:kIRG_KSource
 ":kx952-2"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -6649,6 +6665,8 @@ unihan:kKangXi
 -"𦐄"
 ":cns5-15-65"
 unihan:kIRG_TSource
+":ks6-104a"
+unihan:kIRG_KSource
 ":kx955-15"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -7262,6 +7280,8 @@ unihan:kKangXi
 -"𦑡"
 ":cns15-49-38"
 unihan:kIRG_TSource
+":ks4-a7"
+unihan:kIRG_KSource
 ":kx958-20"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -7479,6 +7499,8 @@ unihan:kKangXi:virtual
 -"𦒃"
 ":cns4-55-89"
 unihan:kIRG_TSource
+":ks4-a8"
+unihan:kIRG_KSource
 ":kx959-11"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -8331,6 +8353,8 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦔊"
+":ks4-aa"
+unihan:kIRG_KSource
 ":kx964-7-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -8777,6 +8801,8 @@ unihan:kKangXi:virtual
 -"𦕎"
 ":cns15-18-5"
 unihan:kIRG_TSource
+":ks4-ac"
+unihan:kIRG_KSource
 ":kx966-17-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -8891,6 +8917,8 @@ unihan:kIRG_VSource
 -"𦕠"
 ":cns5-27-34"
 unihan:kIRG_TSource
+":ks6-104c"
+unihan:kIRG_KSource
 ":kx967-6"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -9171,6 +9199,8 @@ unihan:kKangXi
 -"𦖋"
 ":cns4-44-48"
 unihan:kIRG_TSource
+":ks6-104d"
+unihan:kIRG_KSource
 ":kx968-4"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -9392,6 +9422,8 @@ unihan:kKangXi
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦖮"
+":ks4-ae"
+unihan:kIRG_KSource
 ":kx968-39-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -9572,6 +9604,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦗌"
+":ks4-af"
+unihan:kIRG_KSource
 ":kx969-4-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -10937,6 +10971,8 @@ unihan:kKangXi
 -"𦚞"
 ":cns4-15-30"
 unihan:kIRG_TSource
+":ks6-104f"
+unihan:kIRG_KSource
 ":kx980-20"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -11195,6 +11231,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦛈"
+":ks4-b3"
+unihan:kIRG_KSource
 ":kx982-17-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -12618,6 +12656,8 @@ unihan:kKangXi
 -"𦞦"
 ":cns4-38-26"
 unihan:kIRG_TSource
+":ks6-1050"
+unihan:kIRG_KSource
 ":kx991-17"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -14306,6 +14346,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦢲"
+":ks4-b7"
+unihan:kIRG_KSource
 ":kx998-14-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -19228,6 +19270,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦮱"
+":ks4-bc"
+unihan:kIRG_KSource
 ":kx1031-38-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -22019,6 +22063,8 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦵓"
+":ks4-c0"
+unihan:kIRG_KSource
 ":kx1047-67-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -22031,6 +22077,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦵖"
+":ks4-c1"
+unihan:kIRG_KSource
 ":kx1047-67-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -22942,6 +22990,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𦷧"
+":ks4-c3"
+unihan:kIRG_KSource
 ":kx1052-5-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -25010,6 +25060,8 @@ unihan:kKangXi
 -"𦼫"
 ":cns4-56-31"
 unihan:kIRG_TSource
+":ks6-1056"
+unihan:kIRG_KSource
 ":kx1059-32"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -25185,6 +25237,8 @@ unihan:kKangXi
 -"𦽄"
 ":cns5-61-78"
 unihan:kIRG_TSource
+":ks4-c4"
+unihan:kIRG_KSource
 ":kx1061-16"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -26458,6 +26512,8 @@ unihan:kKangXi:virtual
 "䒼"
 kVariants:sem
 -"𧀎"
+":ks4-c5"
+unihan:kIRG_KSource
 ":kx1064-42-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -26680,6 +26736,8 @@ unihan:kKangXi
 -"𧀰"
 ":cns5-77-34"
 unihan:kIRG_TSource
+":ks6-1057"
+unihan:kIRG_KSource
 ":kx1065-23"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -27710,6 +27768,8 @@ unihan:kKangXi
 -"𧃐"
 ":cns4-73-21"
 unihan:kIRG_TSource
+":ks6-1058"
+unihan:kIRG_KSource
 ":kx1069-16"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -28337,6 +28397,8 @@ kVariants:sem
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧄱"
+":ks4-c6"
+unihan:kIRG_KSource
 ":kx1071-20-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -30108,6 +30170,8 @@ unihan:kKangXi
 -"𧉅"
 ":cns4-15-78"
 unihan:kIRG_TSource
+":ks4-c8"
+unihan:kIRG_KSource
 ":kx1078-4"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -30330,6 +30394,8 @@ unihan:kKangXi
 -"𧉧"
 ":cns4-21-3"
 unihan:kIRG_TSource
+":ks6-105a"
+unihan:kIRG_KSource
 ":kx1080-6"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -32850,10 +32916,14 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧏭"
+":ks4-ce"
+unihan:kIRG_KSource
 ":kx1094-27-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧏮"
+":ks4-cf"
+unihan:kIRG_KSource
 ":kx1094-27-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -33047,6 +33117,8 @@ unihan:kKangXi
 -"𧐋"
 ":cns4-56-61"
 unihan:kIRG_TSource
+":ks6-105d"
+unihan:kIRG_KSource
 ":kx1095-22"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -33126,6 +33198,8 @@ unihan:kKangXi
 -"𧐖"
 ":cns4-56-49"
 unihan:kIRG_TSource
+":ks6-105e"
+unihan:kIRG_KSource
 ":kx1096-17"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -33411,6 +33485,8 @@ unihan:kKangXi
 -"𧑅"
 ":cns4-61-23"
 unihan:kIRG_TSource
+":ks6-105f"
+unihan:kIRG_KSource
 ":kx1096-32"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -34366,6 +34442,8 @@ unihan:kKangXi
 -"𧓕"
 ":cns5-77-50"
 unihan:kIRG_TSource
+":ks6-1060"
+unihan:kIRG_KSource
 ":kx1101-7"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -36439,6 +36517,8 @@ unihan:kKangXi
 -"𧘐"
 ":cns4-11-39"
 unihan:kIRG_TSource
+":ks6-1061"
+unihan:kIRG_KSource
 ":kx1111-18"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -37559,6 +37639,8 @@ unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
 unihan:kKangXi
 -"𧚻"
+":ks4-d2"
+unihan:kIRG_KSource
 ":kx1120-14"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -39052,6 +39134,8 @@ unihan:kKangXi:virtual
 ":v0-35-74"
 unihan:kIRG_VSource
 -"𧞤"
+":ks6-1062"
+unihan:kIRG_KSource
 ":kx1126-37-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -39369,6 +39453,8 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧟓"
+":ks4-d4"
+unihan:kIRG_KSource
 ":kx1127-37-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -41798,6 +41884,8 @@ kVariants:sem
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧥐"
+":ks4-d5"
+unihan:kIRG_KSource
 ":kx1145-23-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -44310,6 +44398,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧫎"
+":ks4-d6"
+unihan:kIRG_KSource
 ":kx1177-2-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -46414,6 +46504,8 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧰏"
+":ks4-d9"
+unihan:kIRG_KSource
 ":kx1193-22-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -47915,6 +48007,8 @@ unihan:kKangXi
 -"𧳯"
 ":cns7-19-63"
 unihan:kIRG_TSource
+":ks1-75-75"
+unihan:kIRG_KSource
 ":kx1202-34"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -48160,6 +48254,8 @@ kVariants:sem
 -"𧴖"
 ":cns5-77-77"
 unihan:kIRG_TSource
+":ks6-1063"
+unihan:kIRG_KSource
 ":kx1203-28"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -48460,6 +48556,8 @@ unihan:kKangXi:virtual
 -"𧵅"
 ":cns4-21-51"
 unihan:kIRG_TSource
+":ks6-1064"
+unihan:kIRG_KSource
 ":kx1206-6-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -48837,6 +48935,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧶁"
+":ks4-db"
+unihan:kIRG_KSource
 ":kx1208-24-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -48979,6 +49079,8 @@ unihan:kKangXi:virtual
 -"𧶘"
 ":cns15-44-44"
 unihan:kIRG_TSource
+":ks4-dc"
+unihan:kIRG_KSource
 ":kx1209-8-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -49800,6 +49902,8 @@ unihan:kKangXi
 -"𧸘"
 ":cns4-68-48"
 unihan:kIRG_TSource
+":ks6-1065"
+unihan:kIRG_KSource
 ":kx1212-32"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -52766,12 +52870,16 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𧿫"
+":ks6-1066"
+unihan:kIRG_KSource
 ":kx1222-31-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 ":v1-100-33"
 unihan:kIRG_VSource:2
 -"𧿬"
+":ks4-de"
+unihan:kIRG_KSource
 ":kx1222-31-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -59023,6 +59131,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨏃"
+":ks4-e0"
+unihan:kIRG_KSource
 ":kx1249-18-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -59107,6 +59217,8 @@ unihan:kKangXi:virtual
 "轔"
 kVariants:sem
 -"𨏐"
+":ks4-e1"
+unihan:kIRG_KSource
 ":kx1249-28-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -59242,6 +59354,8 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨏥"
+":ks4-e2"
+unihan:kIRG_KSource
 ":kx1250-8-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -60525,6 +60639,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨒷"
+":ks4-e4"
+unihan:kIRG_KSource
 ":kx1257-4-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -62337,6 +62453,8 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨗚"
+":ks4-e5"
+unihan:kIRG_KSource
 ":kx1266-6-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -65874,6 +65992,8 @@ unihan:kKangXi
 -"𨠒"
 ":cns4-27-67"
 unihan:kIRG_TSource
+":ks6-1068"
+unihan:kIRG_KSource
 ":kx1282-4"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -67777,6 +67897,8 @@ unihan:kKangXi:virtual
 "金"
 kVariants:=
 -"𨥁"
+":ks4-e6"
+unihan:kIRG_KSource
 ":kx1296-12-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -68133,6 +68255,8 @@ kVariants:=
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨥽"
+":ks4-e7"
+unihan:kIRG_KSource
 ":kx1303-10-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -68364,6 +68488,8 @@ unihan:kKangXi:virtual
 "銳"
 kVariants:=
 -"𨦤"
+":ks4-e8"
+unihan:kIRG_KSource
 ":kx1305-21-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -68800,6 +68926,8 @@ unihan:kKangXi
 -"𨧫"
 ":cns7-20-69"
 unihan:kIRG_TSource
+":ks6-106a"
+unihan:kIRG_KSource
 ":kx1310-3"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -69128,6 +69256,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨨣"
+":ks4-eb"
+unihan:kIRG_KSource
 ":kx1313-5-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -69642,10 +69772,14 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨩾"
+":ks4-ec"
+unihan:kIRG_KSource
 ":kx1316-11-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨩿"
+":ks4-ed"
+unihan:kIRG_KSource
 ":kx1316-11-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -69752,6 +69886,8 @@ unihan:kKangXi
 -"𨪏"
 ":cns5-69-46"
 unihan:kIRG_TSource
+":ks6-106b"
+unihan:kIRG_KSource
 ":kx1318-2"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -70063,6 +70199,8 @@ unihan:kKangXi:virtual
 "䤹"
 kVariants:=
 -"𨫃"
+":ks4-ee"
+unihan:kIRG_KSource
 ":kx1318-28-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -70137,6 +70275,8 @@ unihan:kKangXi:virtual
 -"𨫏"
 ":cns4-65-75"
 unihan:kIRG_TSource
+":ks6-106c"
+unihan:kIRG_KSource
 ":kx1319-11"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -70481,6 +70621,8 @@ unihan:kKangXi:virtual
 ":v1-101-91"
 unihan:kIRG_VSource:2
 -"𨬋"
+":ks6-106d"
+unihan:kIRG_KSource
 ":kx1321-7-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -70620,6 +70762,8 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨬠"
+":ks4-ef"
+unihan:kIRG_KSource
 ":kx1323-12-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -70912,6 +71056,8 @@ unihan:kIRG_TSource
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨭔"
+":ks4-a2"
+unihan:kIRG_KSource
 ":kx1323-12-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -71854,6 +72000,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨯶"
+":ks4-f0"
+unihan:kIRG_KSource
 ":kx1326-26-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -73073,6 +73221,8 @@ unihan:kKangXi:virtual
 "門"
 kVariants:=
 -"𨳈"
+":ks4-f1"
+unihan:kIRG_KSource
 ":kx1329-53-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -73524,6 +73674,8 @@ unihan:kKangXi
 -"𨴑"
 ":cns5-42-77"
 unihan:kIRG_TSource
+":ks6-1070"
+unihan:kIRG_KSource
 ":kx1334-7"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
@@ -74001,6 +74153,8 @@ unihan:kKangXi:virtual
 -"𨵢"
 ":cns7-20-86"
 unihan:kIRG_TSource
+":ks4-f2"
+unihan:kIRG_KSource
 ":kx1338-8-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -75840,6 +75994,8 @@ unihan:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"𨺗"
+":ks6-1071"
+unihan:kIRG_KSource
 ":kx1355-11-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -77483,6 +77639,8 @@ unihan:kKangXi
 -"𨾚"
 ":cns4-27-81"
 unihan:kIRG_TSource
+":ks6-1072"
+unihan:kIRG_KSource
 ":kx1365-9"
 unihan:kIRGKangXi
 unihan:kIRG_GSource:KX

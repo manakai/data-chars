@@ -137,9 +137,14 @@ sub gid ($) {
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
     } elsif ($g1 =~ /^kx-([0-9]{4})([0-9]{3})$/) {
       my $c2 = sprintf ':kx%d-%d', $1, $2;
+    } elsif ($g1 =~ /^simch-kx_t([0-9]{4})([0-9]{2})$/) {
+      my $c2 = sprintf ':kx%d-%d', $1, $2;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
     } elsif ($g1 =~ /^nyukan-([0-9a-f]+)$/) {
       my $c2 = sprintf ':u-immi-%x', hex $1;
+      $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
+    } elsif ($g1 =~ /^ninjal-([0-9]+)$/) {
+      my $c2 = sprintf ':ninjal%s', $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
     } elsif ($g1 =~ /^toki-([0-9]{8})$/) {
       my $c2 = ':touki' . $1;

@@ -338,6 +338,7 @@
     {"path": "../wiki/maps-2.list", "rels_key": "hans"},
     {"path": "../wiki/maps-3.list", "rels_key": "hans"},
     {"path": "../wiki/maps-4.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-5.list", "rels_key": "hans"},
     {
       "path": "../misc/maps.list",
       "rels_key": "hans"

@@ -177,11 +177,13 @@
     {"path": "../cjkvi/variants-3.list", "rels_key": "variants"},
     {"path": "../cjkvi/variants-4.list", "rels_key": "variants"},
     {"path": "../cjkvi/variants-5.list", "rels_key": "variants"},
+    {"path": "../emacs/maps-0.list", "rels_key": "variants"},
     {"path": "../wiki/maps-0.list", "rels_key": "variants"},
     {"path": "../wiki/maps-1.list", "rels_key": "variants"},
     {"path": "../wiki/maps-2.list", "rels_key": "variants"},
     {"path": "../wiki/maps-3.list", "rels_key": "variants"},
     {"path": "../wiki/maps-4.list", "rels_key": "variants"},
+    {"path": "../wiki/maps-5.list", "rels_key": "variants"},
     {
       "path": "../misc/variants.list",
       "rels_key": "variants"

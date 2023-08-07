@@ -11,7 +11,8 @@ all: build
 
 build-nightly: build
 
-build: variants.list maps.list sets.json
+build: variants.list maps.list sets.json \
+    $(ROOT_PATH)/local/generated/charrels/codes/codes.list
 
 $(TEMP_PATH)/dict.ts:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/geolonia/normalize-japanese-addresses/master/src/lib/dict.ts
@@ -37,6 +38,10 @@ maps.list: maps.pl $(VGEN_PATH)/chars.pl \
 
 sets.json: sets.pl $(VGEN_PATH)/chars.pl \
     $(ROOT_PATH)/data/sets.json
+	$(PERL) $< > $@
+
+$(ROOT_PATH)/local/generated/charrels/codes/codes.list: codes.pl $(VGEN_PATH)/chars.pl
+	mkdir -p $(ROOT_PATH)/local/generated/charrels/codes
 	$(PERL) $< > $@
 
 ## License: Public Domain.

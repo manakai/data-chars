@@ -60,6 +60,8 @@ $(TEMP_PATH)/unihan-ibmjapan.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kIBMJapan > $@
 $(TEMP_PATH)/unihan-irg-g.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_G > $@
+$(TEMP_PATH)/unihan-irg-k.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
+	grep -v '^#' $< | grep kIRG_KS > $@
 $(TEMP_PATH)/unihan-irg-kp.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_KP > $@
 $(TEMP_PATH)/unihan-irg-uk.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
@@ -163,6 +165,7 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-irg-t.txt \
     $(TEMP_PATH)/unihan-irg-s.txt \
     $(TEMP_PATH)/unihan-irg-v.txt \
+    $(TEMP_PATH)/unihan-irg-k.txt \
     $(TEMP_PATH)/unihan-kangxi.txt \
     $(TEMP_PATH)/unihan-morohashi.txt \
     $(TEMP_PATH)/kVariants.txt 

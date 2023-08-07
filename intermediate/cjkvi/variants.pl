@@ -210,7 +210,7 @@ for (
           $Data->{$vkey}->{$c1}->{$c7}->{$vtype.':#:' . $5} = 1;
         } elsif ($note =~ m{^(?:(\p{Han}) |)<G([135])-([0-9A-F]{2})([0-9A-F]{2})>(?:\t# <G1-[0-9]{4}>|)$}) {
           my $c5 = $1;
-          my $c6 = sprintf ':gb%d-%d-%d', $2-1, (hex $3)-0x20, (hex $4)-0x20;
+          my $c6 = sprintf ':gb%d-%d-%d', $2 == 1 ? 1 : $2-1, (hex $3)-0x20, (hex $4)-0x20;
           my $v2 = $2;
           $Data->{$vkey}->{$c1}->{$c5}->{$vtype.':#'} = 1 if defined $c5;
           $vtype =~ s/:ids$//;

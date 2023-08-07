@@ -9,7 +9,15 @@
     
     {"path": "../../local/maps/gwaliases-0.list", "rels_key": "glyphs"},
     {"path": "../../local/maps/gwrelated-0.list", "rels_key": "glyphs"},
-    {"path": "../../local/maps/gwrels-0.list", "rels_key": "glyphs"}
+    {"path": "../../local/maps/gwrels-0.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-0.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-1.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-2.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-3.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-4.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-5.list", "rels_key": "glyphs"},
+
+    {"path": "../..//local/generated/charrels/codes/codes.list", "rels_key": "glyphs"}
   ],
   "leader_types": [
   ],
