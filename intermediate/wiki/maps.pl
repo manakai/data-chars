@@ -687,6 +687,95 @@ for my $path (($TempPath->children (qr/^gw-relcp-[0-9]+\.txt$/))) {
 }
 
 {
+  my $ToVKey = {};
+  use utf8;
+  my $path = $TempPath->child ('gw-cdp-unicode.txt');
+  for (split /\x0D?\x0A/, extract_source $path->slurp) {
+    if (/^,\[\[u([0-9a-f]+) cdp-([0-9a-f]+)\]\],\[\[u([0-9a-f]+)(-(?:[0-9]+-|)var-[0-9]+|-g[0-9]*|-[0-9]+|)\]\]$/) {
+      my $c1 = sprintf ':u-cdp-%x', hex $1;
+      my $c1_0 = u_chr hex $1;
+      my $c2 = sprintf ':b5-cdp-%x', hex $2;
+      my $c2_0 = sprintf ':b5-%x', hex $2;
+      my $c3 = u_chr hex $3;
+      my $rel_type = 'glyphwiki:UCSで符号化されたCDP外字';
+      my $key = get_vkey $c3;
+      $ToVKey->{$c1} = $key;
+      my $c4 = $c3;
+      $c3 = sprintf ':gw-u%s%s', $3, $4 if defined $4;
+      $Data->{$key}->{$c1}->{$c3}->{$rel_type} = 1;
+      $Data->{$key}->{$c2}->{$c3}->{$rel_type} = 1;
+      $Data->{$key}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{'manakai:same'} = 1;
+      if (not $c3 eq $c4) {
+        #
+      }
+    } elsif (/^,\[\[u([0-9a-f]+) cdp-([0-9a-f]+)\]\],\[\[u([0-9a-f]+)-u([0-9a-f]+)\]\]$/) {
+      my $c1 = sprintf ':u-cdp-%x', hex $1;
+      my $c1_0 = u_chr hex $1;
+      my $c2 = sprintf ':b5-cdp-%x', hex $2;
+      my $c2_0 = sprintf ':b5-%x', hex $2;
+      my $c3 = u_chr hex $3;
+      $c3 .= u_chr hex $4;
+      my $rel_type = 'glyphwiki:UCSで符号化されたCDP外字';
+      my $key = get_vkey $c3;
+      $Data->{$key}->{$c1}->{$c3}->{$rel_type} = 1;
+      $Data->{$key}->{$c2}->{$c3}->{$rel_type} = 1;
+      $Data->{$key}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{'manakai:same'} = 1;
+    } elsif (/^,\[\[u([0-9a-f]+) cdp-([0-9a-f]+)\]\],\[\[koseki-([0-9]+)\]\]$/) {
+      my $c1 = sprintf ':u-cdp-%x', hex $1;
+      my $c1_0 = u_chr hex $1;
+      my $c2 = sprintf ':b5-cdp-%x', hex $2;
+      my $c2_0 = sprintf ':b5-%x', hex $2;
+      my $c3 = sprintf ':koseki%s', $3;
+      my $rel_type = 'glyphwiki:UCSで符号化されたCDP外字';
+      my $key = 'hans';
+      $Data->{$key}->{$c1}->{$c3}->{$rel_type} = 1;
+      $Data->{$key}->{$c2}->{$c3}->{$rel_type} = 1;
+      $Data->{$key}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{'manakai:same'} = 1;
+    } elsif (/^,\[\[u([0-9a-f]+) cdp-([0-9a-f]+)\]\],\[\[cdp-([0-9a-f]+)\]\]$/) {
+      my $c1 = sprintf ':u-cdp-%x', hex $1;
+      my $c1_0 = u_chr hex $1;
+      my $c2 = sprintf ':b5-cdp-%x', hex $2;
+      my $c2_0 = sprintf ':b5-%x', hex $2;
+      my $c3 = sprintf ':b5-cdp-%x', hex $3;
+      my $rel_type = 'glyphwiki:UCSで符号化されたCDP外字';
+      my $key = 'hans';
+      $Data->{$key}->{$c1}->{$c3}->{$rel_type} = 1;
+      $Data->{$key}->{$c2}->{$c3}->{$rel_type} = 1;
+      $Data->{$key}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{'manakai:same'} = 1;
+    } elsif (/^こちらの/) {
+      #
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+  
+  $path = $TempPath->child ('gw-cdp-all.txt');
+  for (split /\x0D?\x0A/, extract_source $path->slurp) {
+    if (/^\[\[u([0-9a-f]+) cdp-([0-9a-f]+)\]\]$/) {
+      my $c1 = sprintf ':u-cdp-%x', hex $1;
+      my $c1_0 = u_chr hex $1;
+      my $c2 = sprintf ':b5-cdp-%x', hex $2;
+      my $c2_0 = sprintf ':b5-%x', hex $2;
+      my $key = $ToVKey->{$c1} // 'hans';
+      $Data->{$key}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{'manakai:same'} = 1;
+    } elsif (/^\[\[/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
+
+{
   use utf8;
   ## <https://ja.wikipedia.org/wiki/%E5%90%88%E7%95%A5%E4%BB%AE%E5%90%8D>
   for (
@@ -773,6 +862,7 @@ write_rel_data_sets
       qr/[\x{6000}-\x{7FFF}]/,
       qr/[\x{8000}-\x{FFFF}]/,
       qr/[\x{20000}-\x{3FFFF}]/,
+      qr/^:u/,
     ];
 
 ## License: Public Domain.

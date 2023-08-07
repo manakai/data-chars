@@ -41,6 +41,16 @@ sub u_hexs ($) {
   } split /\s+/, $s
 } # u_hexs
 
+sub wrap_string ($) {
+  my $s = shift;
+  if ($s =~ /^[:.]/ or
+      $s =~ /[\x00-\x1F\x7F-\x9F\p{Non_Character_Code_Point}\p{Surrogate}]/) {
+    return join '', map { sprintf ':u%x', ord $_ } split //, $s;
+  } else {
+    return $s;
+  }
+} # wrap_string
+
 sub is_private ($) {
   my $char = shift;
 

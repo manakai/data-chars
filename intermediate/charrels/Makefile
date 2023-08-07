@@ -12,7 +12,7 @@ build-nightly: _build-all
 build-pages: _build-all
 
 _build-all: build-chars build-kanas build-kchars build-hans build-glyphs \
-   build-idses build-components
+   build-descs build-components
 
 build-chars:
 	$(PERL) $(VGEN_PATH)/generate.pl chars-input.json
@@ -29,9 +29,9 @@ build-hans:
 build-glyphs:
 	$(PERL) $(VGEN_PATH)/generate.pl glyphs-input.json
 	cd $(VGEN_DATA_PATH)/glyphs/ && $(MAKE) all test
-build-idses:
-	$(PERL) $(VGEN_PATH)/generate.pl idses-input.json
-	cd $(VGEN_DATA_PATH)/idses/ && $(MAKE) all test
+build-descs:
+	$(PERL) $(VGEN_PATH)/generate.pl descs-input.json
+	cd $(VGEN_DATA_PATH)/descs/ && $(MAKE) all test
 build-components:
 	$(PERL) $(VGEN_PATH)/generate.pl components-input.json
 	cd $(VGEN_DATA_PATH)/components/ && $(MAKE) all test

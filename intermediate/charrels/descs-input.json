@@ -1,5 +1,5 @@
 {
-  "key": "idses",
+  "key": "descs",
   "inputs": [
     {
       "path": "../cjkvi/hd-ids.list",
@@ -15,6 +15,7 @@
     {"path": "../cjkvi/maps-1.list", "rels_key": "idses"},
     {"path": "../cjkvi/maps-2.list", "rels_key": "idses"},
     {"path": "../cjkvi/maps-3.list", "rels_key": "idses"},
+    {"path": "../emacs/maps-0.list", "rels_key": "descs"},
     {"path": "../mj/maps-0.list", "rels_key": "idses"},
     {"path": "../mj/maps-1.list", "rels_key": "idses"},
     {"path": "../mj/maps-2.list", "rels_key": "idses"},
@@ -23,6 +24,12 @@
     {"path": "../mj/maps-5.list", "rels_key": "idses"},
     {"path": "../mj/maps-6.list", "rels_key": "idses"},
     {"path": "../mj/maps-7.list", "rels_key": "idses"},
+    {"path": "../wiki/maps-0.list", "rels_key": "descs"},
+    {"path": "../wiki/maps-1.list", "rels_key": "descs"},
+    {"path": "../wiki/maps-2.list", "rels_key": "descs"},
+    {"path": "../wiki/maps-3.list", "rels_key": "descs"},
+    {"path": "../wiki/maps-4.list", "rels_key": "descs"},
+    {"path": "../wiki/maps-5.list", "rels_key": "descs"},
     {
       "path": "../unicode/maps3.list",
       "rels_key": "idses"

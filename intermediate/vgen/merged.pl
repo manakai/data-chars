@@ -61,6 +61,7 @@ my $NTypes = [];
     "ucd:Unicode",
     "cjkvi:cjkvi/duplicate",
     "cjkvi:dkw2ucs:重複漢字",
+    "cns11643:moved",
     "manakai:same",
 
     "cjkvi:dkw2ucs:moved[0]",
@@ -183,6 +184,8 @@ my $NTypes = [];
     "unihan3.0:kIRG_TSource",
     "unihan:kKSC0",
     "unihan:kKSC1",
+    "unihan:kIRG_KSource",
+    "unihan3.0:kIRG_KSource",
     "unihan:kIRG_KPSource",
     "unihan:kIRG_GSource:K",
     "cjkvi:gb2ucs:K",
@@ -240,6 +243,7 @@ my $NTypes = [];
     "glyphwiki:alias",
     "glyphwiki:juki",
     "glyphwiki:ninjal",
+    "glyphwiki:UCSで符号化されたCDP外字",
     
     "arib:duplicate",
     "arib:isoiec10646",
@@ -271,6 +275,11 @@ my $NTypes = [];
     "csw:mapping:gb12052",
     "pl:mapping",
     "marc:mapping",
+    "emacs:reldata",
+    "emacs:reldata:;",
+    "emacs:ccl-decode-cgreek",
+    "emacs:cgreek-simple-table",
+    "emacs:greek-wingreek-to-unicode-table",
 
     "mj:FullWidth",
     "mj:HalfWidth",
@@ -315,6 +324,7 @@ my $NTypes = [];
     "manakai:implements:KPU",
     "manakai:implements:VN",
     "manakai:implements:HKA",
+    "manakai:implements:gb18030",
 
     "glyphwiki:平成23年12月26日法務省告示第582号別表第一",
     "glyphwiki:異体字:入管正字:外字",
@@ -341,6 +351,20 @@ my $NTypes = [];
     "glyphwiki:UCS互換",
 
     "manakai:ids",
+    "emacs:cgreek-to-tex-table",
+    "emacs:cgreek-latin1-to-tex-table",
+    "emacs:quail:cgreek",
+    "emacs:quail:cgreek:;",
+    "emacs:quail:greek-ibycus4",
+    "emacs:quail:latin-1-latex",
+    "emacs:robin:greek-mizuochi",
+    "emacs:robin:greek-ibycus4",
+    "emacs:robin:greek-ibycus4:;",
+    "emacs:robin:greek-babel-elot1000",
+    "emacs:robin:greek-babel-elot1000:;",
+    "emacs:robin:latin-latex2e",
+    "emacs:robin:russian-jcuken-unicode",
+    "emacs:robin:russian-jcuken-unicode-dos",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -538,6 +562,8 @@ my $NTypes = [];
     "wikisource:ja:新旧字体変換用辞書:その他の漢字",
     "nihuINT:variant",
     "geolonia:oldnew",
+    
+    "emacs:reldata:iscii",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
     $TypeWeight->{'rev:'.$vtype} = -1;

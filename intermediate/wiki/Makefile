@@ -118,6 +118,10 @@ $(TEMP_PATH)/gw-relcp-26.txt:
 	$(SAVEURL) $@ https://glyphwiki.org/wiki/GlyphWiki:%e9%96%a2%e9%80%a3%e4%bb%98%e3%81%91%e3%82%8b%e3%81%b9%e3%81%8d%e7%ac%a6%e5%8f%b7%e4%bd%8d%e7%bd%ae-%e5%85%a5%e7%ae%a1%e5%88%a5%e8%a1%a8%e7%ac%ac%e5%9b%9b%e3%81%ae%e4%ba%8c-%e3%81%9d%e3%81%ae3?action=edit
 $(TEMP_PATH)/gw-relcp-27.txt:
 	$(SAVEURL) $@ https://glyphwiki.org/wiki/GlyphWiki:%e9%96%a2%e9%80%a3%e4%bb%98%e3%81%91%e3%82%8b%e3%81%b9%e3%81%8d%e7%ac%a6%e5%8f%b7%e4%bd%8d%e7%bd%ae-%e5%85%a5%e7%ae%a1%e5%88%a5%e8%a1%a8%e7%ac%ac%e5%9b%9b%e3%81%ae%e4%ba%8c-%e3%81%9d%e3%81%ae4?action=edit
+$(TEMP_PATH)/gw-cdp-unicode.txt:
+	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:UCS%e3%81%a7%e7%ac%a6%e5%8f%b7%e5%8c%96%e3%81%95%e3%82%8c%e3%81%9fCDP%e5%a4%96%e5%ad%97?action=edit
+$(TEMP_PATH)/gw-cdp-all.txt:
+	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:CDP%e5%a4%96%e5%ad%97-ALL?action=edit
 
 variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/list1.html \
@@ -168,6 +172,8 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/gw-relcp-25.txt \
     $(TEMP_PATH)/gw-relcp-26.txt \
     $(TEMP_PATH)/gw-relcp-27.txt \
+    $(TEMP_PATH)/gw-cdp-all.txt \
+    $(TEMP_PATH)/gw-cdp-unicode.txt \
     $(TEMP_PATH)/jaconvert.html \
     doukun.txt \
     gbk.txt \
