@@ -142,7 +142,9 @@ sub gid ($) {
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
     } elsif ($g1 =~ /^nyukan-([0-9a-f]+)$/) {
       my $c2 = sprintf ':u-immi-%x', hex $1;
+      my $c2_0 = u_chr hex $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
+      $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif ($g1 =~ /^ninjal-([0-9]+)$/) {
       my $c2 = sprintf ':ninjal%s', $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
@@ -171,11 +173,15 @@ sub gid ($) {
         $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements:' . uc $1} = 1;
       } else {
         my $c2 = sprintf ':u-nom-%x', hex $2;
+        my $c2_0 = u_chr hex $2;
         $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       }
     } elsif ($g1 =~ /^vnpf-([0-9a-f]+)$/) {
       my $c2 = sprintf ':u-nom-%x', hex $1;
+      my $c2_0 = u_chr hex $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
+      $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif ($g1 =~ /^z-sat-([0-9]+)$/) {
       my $c2 = sprintf ':sat%d', $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
@@ -201,7 +207,9 @@ sub gid ($) {
         $Data->{glyphs}->{':gw-'.$g1}->{$c2}->{'manakai:implements:juki'} = 1;
       } else {
         my $c2 = sprintf ':u-juki-%x', $code1;
+        my $c2_0 = u_chr $code1;
         $Data->{glyphs}->{':gw-'.$g1}->{$c2}->{'manakai:implements'} = 1;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       }
     }
   }
@@ -232,7 +240,9 @@ sub gid ($) {
         $Data->{glyphs}->{':gw-'.$g1}->{$c2}->{'manakai:implements:juki'} = 1;
       } else {
         my $c2 = sprintf ':u-juki-%x', $code1;
+        my $c2_0 = u_chr $code1;
         $Data->{glyphs}->{':gw-'.$g1}->{$c2}->{'manakai:implements'} = 1;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       }
     }
   }

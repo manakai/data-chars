@@ -13,6 +13,14 @@ my $IsHan = {};
 my $IsKana = {};
 my $IsKChar = {};
 
+sub private ($) {
+  my $c = shift;
+  if ($c =~ /^:aj-ext-(.+)$/) {
+    my $c0 = ':aj' . $1;
+    $Data->{codes}->{$c0}->{$c}->{'manakai:private'} = 1;
+  }
+} # private
+
 for (
   [
     'aj17.txt',
@@ -116,8 +124,8 @@ for (
               if (is_private $c2) {
                 my $c2_0 = $c2;
                 $c2 = ($up_prefix // die "$c1 $c2") . sprintf '%x', ord $c2;
-                $c2 =~ s{^:u-hkscs-(f6b[1-f]|f6[c-f][0-9a-f]|f7[0-9a-f]{2}|f80[0-9a-f]|f81[0-9a-d])$}{:u-bigfive-$1}g;
-                $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+                $c2 =~ s{^:u-hkscs-(f6b[1-f]|f6[c-f][0-9a-f]|f7[0-9a-f]{2}|f80[0-9a-f]|f81[0-9a-d])$}{:u-b5-$1}g;
+                $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
               }
             }
             if ($key eq 'kchars' and $c2 eq "\x{3000}") {
@@ -142,8 +150,8 @@ for (
                 if (is_private $c2) {
                   my $c2_0 = $c2;
                   $c2 = ($up_prefix // die) . sprintf '%x', ord $c2;
-                  $c2 =~ s{^:u-hkscs-(f6b[1-f]|f6[c-f][0-9a-f]|f7[0-9a-f]{2}|f80[0-9a-f]|f81[0-9a-d])$}{:u-bigfive-$1}g;
-                  $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+                  $c2 =~ s{^:u-hkscs-(f6b[1-f]|f6[c-f][0-9a-f]|f7[0-9a-f]{2}|f80[0-9a-f]|f81[0-9a-d])$}{:u-b5-$1}g;
+                  $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
                 } else {
                   die $c1;
                 }
@@ -670,6 +678,168 @@ for (
   }
 }
 
-print_rel_data $Data;
+{
+  my $path = $TempPath->child ('KiriMinL-dump.json');
+  my $json = json_bytes2perl $path->slurp;
+
+  my $min_cid = 23059 + 1;
+  my $is_ext_cid = sub {
+    return ! ($_[0] < $min_cid and not {
+      65 => 1, 127 => 1, 128 => 1, 95 => 1, 129 => 1, 133 => 1,
+      130 => 1, 131 => 1, 132 => 1, 135 => 1, 136 => 1, 137 => 1, 15850 => 1,
+    }->{$_[0]});
+  };
+  my $aj_char = sub {
+    if (!$is_ext_cid->($_[0])) {
+      return sprintf ':aj%d', $_[0];
+    } else {
+      my $c = sprintf ':aj-ext-%d', $_[0];
+      private $c;
+      return $c;
+    }
+  };
+  
+  my $VKey = {};
+  for (@{$json->{cmap}}) {
+    for my $code (sort { $a <=> $b } keys %{$_->{glyphIndexMap}}) {
+      my $cid = $_->{glyphIndexMap}->{$code};
+      next if $cid < $min_cid and not {
+        0x01C3, 1,
+      }->{$code} and not {
+        65 => 1, 127 => 1, 128 => 1, 95 => 1, 129 => 1, 133 => 1,
+        130 => 1, 131 => 1, 132 => 1, 135 => 1, 136 => 1, 137 => 1, 15850 => 1,
+      }->{$cid};
+      my $c1 = u_chr $code;
+      if ((0xE000 <= $code and $code < 0xF800) or
+          (0xFDD0 <= $code and $code <= 0xFDEF)) {
+        my $c1_0 = $c1;
+        $c1 = sprintf ':u-aj1ext-%x', $code;
+        $Data->{codes}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
+      }
+      my $c2 = $aj_char->($cid);
+      my $key = get_vkey $c1;
+      $VKey->{$c2} = $key;
+      $Data->{$key}->{$c1}->{$c2}->{'aj1ext:cmap'} = 1;
+    }
+  }
+
+  for (@{$json->{gsubFeatures}}) {
+    my $f = $_->[0];
+    for my $i (@{$_->[1]}) {
+      my $l = $json->{gsubLookups}->[$i];
+      for my $st (@$l) {
+        if ($st->{coverage} and $st->{ligatureSets}) {
+          my @glyph;
+          if ($st->{coverage}->{glyphs}) {
+            @glyph = @{$st->{coverage}->{glyphs}};
+          } elsif ($st->{coverage}->{ranges}) {
+            for (@{$st->{coverage}->{ranges}}) {
+              push @glyph, $_->{start} .. $_->{end};
+            }
+          } else {
+            die;
+          }
+          for my $index (0..$#glyph) {
+            my $cid = $glyph[$index];
+            for my $lig (@{$st->{ligatureSets}->[$index]}) {
+              if ($is_ext_cid->($lig->{ligGlyph}) or
+                  grep { $is_ext_cid->($_) } $cid, @{$lig->{components}}) {
+                my $c2 = $aj_char->($lig->{ligGlyph});
+                my @c1 = map { $aj_char->($_) } $cid, @{$lig->{components}};
+                my $c1 = join '', @c1;
+                for (@c1) {
+                  $VKey->{$c2} ||= $VKey->{$_};
+                }
+                my $vkey = $VKey->{$c2} || get_vkey $c1;
+                $Data->{$vkey}->{$c1}->{$c2}->{'opentype:' . $f} = 1;
+              }
+            }
+          }
+        } elsif ($st->{coverage} and defined $st->{deltaGlyphId}) {
+          my @glyph;
+          if ($st->{coverage}->{glyphs}) {
+            @glyph = @{$st->{coverage}->{glyphs}};
+          } elsif ($st->{coverage}->{ranges}) {
+            for (@{$st->{coverage}->{ranges}}) {
+              push @glyph, $_->{start} .. $_->{end};
+            }
+          } else {
+            die;
+          }
+          for my $index (0..$#glyph) {
+            my $cid1 = $glyph[$index];
+            my $cid2 = $cid1 + $st->{deltaGlyphId};
+            if ($is_ext_cid->($cid1) or $is_ext_cid->($cid2)) {
+              my $c1 = $aj_char->($cid1);
+              my $c2 = $aj_char->($cid2);
+              $VKey->{$c1} ||= $VKey->{$c2};
+              $VKey->{$c2} ||= $VKey->{$c1};
+              my $vkey = $VKey->{$c1} || get_vkey $c1;
+              $Data->{$vkey}->{$c1}->{$c2}->{'opentype:' . $f} = 1;
+            }
+          }
+        } elsif ($st->{coverage} and $st->{substitute}) {
+          my @glyph;
+          if ($st->{coverage}->{glyphs}) {
+            @glyph = @{$st->{coverage}->{glyphs}};
+          } elsif ($st->{coverage}->{ranges}) {
+            for (@{$st->{coverage}->{ranges}}) {
+              push @glyph, $_->{start} .. $_->{end};
+            }
+          } else {
+            die;
+          }
+          for my $index (0..$#glyph) {
+            my $cid1 = $glyph[$index];
+            my $cid2 = $st->{substitute}->[$index];
+            if ($is_ext_cid->($cid1) or $is_ext_cid->($cid2)) {
+              my $c1 = $aj_char->($cid1);
+              my $c2 = $aj_char->($cid2);
+              $VKey->{$c1} ||= $VKey->{$c2};
+              $VKey->{$c2} ||= $VKey->{$c1};
+              my $vkey = $VKey->{$c1} || get_vkey $c1;
+              $Data->{$vkey}->{$c1}->{$c2}->{'opentype:' . $f} = 1;
+            }
+          }
+        } elsif ($st->{coverage} and $st->{alternateSets}) {
+          for my $index (0..$#{$st->{coverage}->{glyphs}}) {
+            my $cid1 = $st->{coverage}->{glyphs}->[$index];
+            for my $cid2 (@{$st->{alternateSets}->[$index]}) {
+              if ($is_ext_cid->($cid1) or $is_ext_cid->($cid2)) {
+                my $c1 = $aj_char->($cid1);
+                my $c2 = $aj_char->($cid2);
+                $VKey->{$c1} ||= $VKey->{$c2};
+                $VKey->{$c2} ||= $VKey->{$c1};
+                my $vkey = $VKey->{$c1} || get_vkey $c1;
+                $Data->{$vkey}->{$c1}->{$c2}->{'opentype:' . $f} = 1;
+              }
+            }
+          }
+        } elsif ($st->{lookupRecords}) {
+          #warn $f;
+        } else {
+          #warn join "\t", "XX", "X", $f, %{$st};
+        }
+      }
+    }
+  }
+}
+
+write_rel_data_sets
+    $Data => $ThisPath, 'maps',
+    [
+      qr/^:aj1[0-4]/,
+      qr/^:aj1/,
+      qr/^:aj2-/,
+      qr/^:aj2/,
+      qr/^:aj[3-6]/,
+      qr/^:aj/,
+      qr/^:ak1-/,
+      qr/^:ak/,
+      qr/^:ac1/,
+      qr/^:ac/,
+      qr/^:ag1/,
+      qr/^:ag/,
+    ];
 
 ## License: Public Domain.

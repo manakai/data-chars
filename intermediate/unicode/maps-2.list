@@ -40791,11 +40791,11 @@ unihan:kMorohashi
 ":cns4-2-8"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
-":gb0-12-1"
-unihan:kIRG_GSource:H
 ":gb1-92-58"
 unihan3.0:kIRG_GSource:1
 unihan3.0:kPseudoGB1
+":gb17-12-1"
+unihan:kIRG_GSource:H
 ":kx84-14-1"
 unihan3.0:kIRGKangXi:virtual
 unihan3.0:kKangXi:virtual
@@ -41016,11 +41016,11 @@ unihan3.0:kKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"乸"
-":gb0-12-2"
-unihan:kIRG_GSource:H
 ":gb1-92-32"
 unihan3.0:kIRG_GSource:1
 unihan3.0:kPseudoGB1
+":gb17-12-2"
+unihan:kIRG_GSource:H
 ":kx84-20-1"
 unihan3.0:kIRGKangXi:virtual
 unihan3.0:kKangXi:virtual

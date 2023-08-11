@@ -163,10 +163,14 @@
       "path": "../loc/maps.list",
       "rels_key": "kanas"
     },
-    {
-      "path": "../adobe/maps.list",
-      "rels_key": "kanas"
-    },
+    {"path": "../adobe/maps-0.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-1.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-2.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-3.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-4.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-5.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-6.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-7.list", "rels_key": "kanas"},
     {
       "path": "../opencc/variants.list",
       "rels_key": "kanas"

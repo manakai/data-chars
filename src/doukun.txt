@@ -321,3 +321,5 @@
 わたる 亘 亙 渉 渡
 わらう 呵 哂 嗤 笑 藁
 われ 我 吾
+
+## License: Public Domain.
