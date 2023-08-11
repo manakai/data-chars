@@ -10,7 +10,7 @@ all: build
 
 build-nightly:
 
-build: $(TEMP_PATH) maps.list
+build: $(TEMP_PATH) maps-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -68,7 +68,21 @@ $(TEMP_PATH)/akr9.fea:
 $(TEMP_PATH)/akr9-hangul.txt:
 	$(SAVEURL) $@ https://github.com/adobe-type-tools/Adobe-KR/raw/master/akr9-hangul.txt
 
-maps.list: maps.pl $(VGEN_PATH)/chars.pl \
+$(TEMP_PATH)/opentype.js:
+	$(SAVEURL) $@ https://data.suikawiki.org/js/opentype.js
+$(TEMP_PATH)/dumpotf.js: dumpotf.js
+	cp $< $@
+
+$(TEMP_PATH)/kml.zip:
+	$(SAVEURL) $@ http://www.akenotsuki.com/eyeben/fonts/files/KiriMinL4_002.zip
+$(TEMP_PATH)/KiriMinL.otf: $(TEMP_PATH)/kml.zip
+	cd $(TEMP_PATH) && unzip kml.zip
+	touch $@
+$(TEMP_PATH)/KiriMinL-dump.json: $(TEMP_PATH)/KiriMinL.otf \
+    $(TEMP_PATH)/dumpotf.js $(TEMP_PATH)/opentype.js
+	docker run -it -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotf.js /temppath/KiriMinL.otf > $@
+
+maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/aj17.txt $(TEMP_PATH)/aj17-kanji.txt $(TEMP_PATH)/aj20.txt \
     $(TEMP_PATH)/ac17.txt $(TEMP_PATH)/ag16.txt \
     $(TEMP_PATH)/ak9.txt $(TEMP_PATH)/ak12.txt \
@@ -77,7 +91,10 @@ maps.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/ac17.fea $(TEMP_PATH)/ag16.fea \
     $(TEMP_PATH)/aj17.fea \
     $(TEMP_PATH)/akr9.fea \
-    $(TEMP_PATH)/akr9-hangul.txt
+    $(TEMP_PATH)/akr9-hangul.txt \
+    $(TEMP_PATH)/KiriMinL-dump.json
 	$(PERL) $< > $@
+maps-*.list: maps-0.list
+
 
 ## License: Public Domain.

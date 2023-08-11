@@ -340,6 +340,29 @@ sub is_kana ($) {
     }
   }
 
+  if ($c =~ /^:aj([0-9]+)$/) {
+    return 1 if {
+      16326 => 1,
+      16327 => 1,
+    }->{$1};
+  } elsif ($c =~ /^:aj-ext-([0-9]+)$/) {
+    return 1 if 23110 <= $1 and $1 <= 23121;
+    return 1 if 23172 <= $1 and $1 <= 23185;
+    return 1 if 23291 <= $1 and $1 <= 23314;
+  }
+
+  return 1 if $c =~ /^:u-jitaichou-/;
+  return 1 if {
+    ':jisfusai12' => 1,
+    ':jisfusai13' => 1,
+    ':jisfusai14' => 1,
+    ':jisfusai15' => 1,
+    ':jisfusai16' => 1,
+    ':jisfusai17' => 1,
+    ':jisfusai18' => 1,
+    ':jisfusai1678' => 1,
+  }->{$c};
+
   if ($c =~ /^[^:]./) {
     X: {
       for (split //, $c) {

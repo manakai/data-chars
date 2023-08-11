@@ -124,6 +124,10 @@ sconflict 广 魔
 sconflict 广 磨
 sconflict 广 應
 sconflict 广 鷹
+sconflict 广 度
+sconflict 广 廃
+sconflict 广 庇
+sconflict 广 庁
 
 sconflict 乛 門
 sconflict 𠃍 門
@@ -648,3 +652,5 @@ differentiated \u3109 刀
 differentiated \u3108 \u531A
 differentiated \u3118 七
 differentiated \u311B \u5475
+
+## License: Public Domain.

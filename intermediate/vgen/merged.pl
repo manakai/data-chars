@@ -82,6 +82,8 @@ my $NTypes = [];
     "glyphwiki:同字形",
     "glyphwiki:UCS重複",
     "glyphwiki:IVD重複",
+
+    "manakai:revision",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
     $TypeWeight->{'rev:'.$vtype} = W 'SAME';
@@ -296,6 +298,7 @@ my $NTypes = [];
     "opentype:ljmo:contextual",
     "opentype:tjmo:contextual",
     "opentype:vjmo:contextual",
+    "aj1ext:cmap",
     
     "jis:halfwidth",
     "jis:fullwidth",
@@ -365,6 +368,8 @@ my $NTypes = [];
     "emacs:robin:latin-latex2e",
     "emacs:robin:russian-jcuken-unicode",
     "emacs:robin:russian-jcuken-unicode-dos",
+
+    "manakai:oblique",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -477,7 +482,7 @@ my $NTypes = [];
 
     "mj:VerticalWriting",
     "mj:斜線入り",
-    
+    "manakai:dotless",
     "opentype:zero",
     "opentype:ital",
     "opentype:vert",
@@ -564,6 +569,8 @@ my $NTypes = [];
     "geolonia:oldnew",
     
     "emacs:reldata:iscii",
+    
+    "manakai:ligature",
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
     $TypeWeight->{'rev:'.$vtype} = -1;

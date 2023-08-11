@@ -27,7 +27,7 @@ my $Data = {};
         my $c2_0 = $c2;
         $c2 =~ s/^:cns/:cns-old-/;
         $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
-        $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
         if ($part1) {
           my $c3 = $c2;
           $c3 =~ s/^:cns-old-14/:cns3/;
@@ -44,7 +44,7 @@ my $Data = {};
       if ($c2 =~ /^:gb0-15-(89|9[012])$/) {
         my $c2_0 = $c2;
         $c2 =~ s/^:gb0-/:gb8-/g;
-        $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       }
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kPseudoGB1)\s+(\d\d)(\d\d)$/) {
@@ -70,12 +70,12 @@ my $Data = {};
         my $c2_0 = $c2;
         $c2 =~ s/^:gb0-/:gb1-/;
         $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
-        $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       } else {
         if ($c2 =~ /^:gb0-15-(89|9[012])$/) {
           my $c2_0 = $c2;
           $c2 =~ s/^:gb0-/:gb8-/g;
-          $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+          $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
         }
         $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
       }
@@ -145,20 +145,22 @@ my $Data = {};
         my $c2_0 = $c2;
         $c2 =~ s/^:gb0-/:gb1-/;
         $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
-        $Data->{hans}->{$c2}->{$c1}->{'manakai:private'} = 1;
+        $Data->{codes}->{$c2}->{$c1}->{'manakai:private'} = 1;
       } else {
         if ($c2 =~ /^:gb0-15-(89|9[012])$/) {
           my $c2_0 = $c2;
           $c2 =~ s/^:gb0-/:gb8-/g;
-          $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+          $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
         }
         $Data->{hans}->{$c1}->{$c2}->{$type} = 1;
       }
     } elsif (/^U\+([0-9A-F]+)\s+(kIRG_GSource)\s+GH-([0-9]{2})([0-9]{2})$/) {
       my $c1 = u_chr hex $1;
-      my $c2 = sprintf ':gb%d-%d-%d', 0, $3, $4;
+      my $c2 = sprintf ':gb%d-%d-%d', 17, $3, $4;
+      my $c2_0 = sprintf ':gb%d-%d-%d', 0, $3, $4;
       my $key = get_vkey $c1;
       $Data->{hans}->{$c1}->{$c2}->{"unihan:$2:H"} = 1;
+      $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kIRG_GSource)\s+GKX-([0-9]+)\.([0-9]{2})$/) {
       my $c1 = u_chr hex $1;
       my $c2 = sprintf ':kx%d-%d', $3, $4;
@@ -221,7 +223,7 @@ my $Data = {};
         my $key = get_vkey $c1;
         $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
         my $c2_0 = chr $code2;
-        $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       }
     } elsif (/^U\+([0-9A-F]+)\s+(kIRG_VSource)\s+V([01234])-([0-9A-F]{2})([0-9A-F]{2})$/) {
       my $c1 = u_chr hex $1;

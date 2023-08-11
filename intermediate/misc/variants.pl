@@ -14,6 +14,8 @@ sub ue ($) {
   my $s = shift;
   if ($s =~ m{^\\(.)$}) {
     return $1;
+  } elsif ($s =~ m{^"([^"\\]+)"$}) {
+    return $1;
   }
   $s =~ s{\\u([0-9A-Fa-f]{4})}{chr hex $1}ge;
   $s =~ s{\\u\{([0-9A-Fa-f]+)\}}{chr hex $1}ge;
@@ -22,6 +24,14 @@ sub ue ($) {
   }
   return $s;
 } # ue
+
+sub private ($) {
+  my $c = shift;
+  if ($c =~ /^:jis-pubrev-(.+)$/) {
+    my $c0 = ':jis' . $1;
+    $Data->{codes}->{$c0}->{$c}->{'manakai:private'} = 1;
+  }
+} # private
 
 {
   my $path = $RootPath->child ('src/han-variants.txt');
@@ -92,7 +102,7 @@ sub ue ($) {
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
     if (/^\s*#/) {
       #
-    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|(?>:[\w\p{Ideographic_Description_Characters}-]+)+|\\.)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|(?>:[\w\p{Ideographic_Description_Characters}-]+)+|\\.)\s*$/) {
+    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|(?>:[\w\p{Ideographic_Description_Characters}-]+)+|\\.|"[^"]+")\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|(?>:[\w\p{Ideographic_Description_Characters}-]+)+|\\.)\s*$/) {
       my $vtype = {
         related => 'manakai:related',
         differentiated => 'manakai:differentiated',
@@ -103,12 +113,20 @@ sub ue ($) {
         mistake => 'manakai:typo',
         ne => 'manakai:ne',
         small => 'manakai:small',
+        oblique => 'manakai:oblique',
+        ligature => 'manakai:ligature',
+        rev => 'manakai:revision',
+        dotless => 'manakai:dotless',
       }->{$1} // die "Bad type |$1|";
+      my $t = $1;
       my $c1 = ue $3;
       my $c2 = ue $2;
       my $key = get_vkey $c2;
+      $key = 'kanas' if $c1 =~ /^:u-jitaichou-/;
       $Data->{$key}->{$c1}->{$c2}->{$vtype} = 1;
-      if ($1 eq 'variant' and
+      private $c1;
+      private $c2;
+      if ($t eq 'variant' and
           1 == length $c1 and 1 == length $c2 and
           is_kana $c1 > 0 and is_kana $c2 > 0) {
         $Data->{$key}->{$c1."\x{3099}"}->{$c2."\x{3099}"}->{$vtype} = 1;
