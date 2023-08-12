@@ -129,6 +129,9 @@ $(TEMP_PATH)/iso-ir-165.ucm:
 $(TEMP_PATH)/kVariants.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/hfhchan/irg/master/kVariants.txt
 
+$(TEMP_PATH)/MathClassExt.txt:
+	$(SAVEURL) $@ https://www.unicode.org/Public/math/revision-15/MathClassEx-15.txt
+
 variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-tghz2013.txt \
     $(TEMP_PATH)/unihan-g1.txt \
@@ -168,7 +171,8 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-irg-k.txt \
     $(TEMP_PATH)/unihan-kangxi.txt \
     $(TEMP_PATH)/unihan-morohashi.txt \
-    $(TEMP_PATH)/kVariants.txt 
+    $(TEMP_PATH)/kVariants.txt \
+    $(TEMP_PATH)/MathClassExt.txt
 	$(PERL) $<
 maps-*.list: maps-0.list
 

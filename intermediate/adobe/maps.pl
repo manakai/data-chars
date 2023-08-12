@@ -679,6 +679,54 @@ for (
 }
 
 {
+  my $path = $TempPath->child ('aglfn.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^([0-9A-F]+);([^;]+);/) {
+      my $c1 = u_chr hex $1;
+      my $c2 = $2;
+      $Data->{descs}->{$c1}->{$c2}->{'aglfn:glyph name'} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('glyphlist.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^([^;]+);([0-9A-F]+)(?: ([0-9A-F]+)|)(?: ([0-9A-F]+)|)(?: ([0-9A-F]+)|)$/) {
+      my $c1 = $1;
+      my $code2 = hex $2;
+      my $c2 = u_chr hex $2;
+      if (0xE000 <= $code2 and $code2 <= 0xF7FF) {
+        my $c2_0 = $c2;
+        $c2 = sprintf ':u-adobe-%x', $code2;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        die if defined $3;
+      }
+      $c2 .= u_chr hex $3 if defined $3;
+      $c2 .= u_chr hex $4 if defined $4;
+      $c2 .= u_chr hex $5 if defined $5;
+      $Data->{descs}->{$c1}->{$c2}->{'agl:Unicode'} = 1;
+      if ($c1 =~ /^afii([0-9]+)$/) {
+        my $c3 = sprintf ':afii%d', $1;
+        my $vkey = get_vkey $c2;
+        $Data->{$vkey}->{$c2}->{$c3}->{'manakai:unified'} = 1;
+        $Data->{descs}->{$c3}->{$c1}->{'manakai:coderef'} = 1;
+      }
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
+
+{
   my $path = $TempPath->child ('KiriMinL-dump.json');
   my $json = json_bytes2perl $path->slurp;
 

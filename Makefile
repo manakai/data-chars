@@ -651,6 +651,8 @@ build-nightly-iu: deps data/maps.json
 build-pages-iu: deps
 	cd intermediate/charrels && $(MAKE) build-pages
 	cd intermediate/wiki && $(MAKE) build-pages
+	cd intermediate/google && $(MAKE) build-pages
+	cd intermediate/misc && $(MAKE) build-pages
 
 local/generated:
 	$(GIT) clone https://github.com/manakai/generated-data-chars $@ || (cd $@ && $(GIT) pull)

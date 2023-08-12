@@ -1,6 +1,7 @@
 ROOT_PATH = ../..
 TEMP_PATH = $(ROOT_PATH)/local/iwm
 VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
+DATA_PATH = $(ROOT_PATH)/local/maps
 PERL = $(ROOT_PATH)/perl \
     -I$(ROOT_PATH)/bin/modules/json-ps/lib \
     -I$(ROOT_PATH)/bin/modules/web-encodings/lib -I$(VGEN_PATH)
@@ -8,7 +9,15 @@ PERL = $(ROOT_PATH)/perl \
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: $(TEMP_PATH) variants.json maps-0.list build-pages
+all: build
+
+build: $(TEMP_PATH) variants.json maps-0.list build-pages
+
+build-pages: $(TEMP_PATH) \
+    $(DATA_PATH)/gwrelated-0.list \
+    $(DATA_PATH)/gwaliases-0.list \
+    $(DATA_PATH)/gwrelated-0.list \
+    $(DATA_PATH)/gwrels-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -57,7 +66,8 @@ $(TEMP_PATH)/0213.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/source/gl-jisx0213-add.tbr
 
 $(TEMP_PATH)/gw.tar.gz:
-	$(SAVEURL) $@ https://glyphwiki.org/dump.tar.gz
+#	$(SAVEURL) $@ https://glyphwiki.org/dump.tar.gz
+	$(SAVEURL) $@ https://fonts.suikawiki.org/fonts/glyphwiki/dump-1.tar.gz
 $(TEMP_PATH)/dump_newest_only.txt: $(TEMP_PATH)/gw.tar.gz
 	cd $(TEMP_PATH) && tar zxf gw.tar.gz dump_newest_only.txt
 	touch $@
@@ -192,23 +202,14 @@ $(TEMP_PATH)/gwalias.txt: \
 $(TEMP_PATH)/gwcontains.txt: \
     $(ROOT_PATH)/local/generated/charrels/glyphs/gwglyphs/index.json
 
-build-pages: \
-    local/generated/charrels/glyphs/gwglyphs/gwrelated.txt \
-    local/generated/charrels/glyphs/gwglyphs/gwaliases.txt \
-    local/generated/charrels/glyphs/gwglyphs/gwrelated.txt \
-    local/generated/charrels/glyphs/gwglyphs/gwrels.txt
-
-local/generated/charrels/glyphs/gwglyphs/gwrelated.txt: \
+$(DATA_PATH)/gwrelated-0.list: \
     gwmaps.pl \
     $(TEMP_PATH)/gwrelated.txt \
     $(TEMP_PATH)/gwalias.txt \
     $(TEMP_PATH)/gwcontains.txt
 	$(PERL) $<
-local/generated/charrels/glyphs/gwglyphs/gwaliases.txt: \
-    local/generated/charrels/glyphs/gwglyphs/gwrelated.txt
-local/generated/charrels/glyphs/gwglyphs/gwcontains.txt: \
-    local/generated/charrels/glyphs/gwglyphs/gwrelated.txt
-local/generated/charrels/glyphs/gwglyphs/gwrels.txt: \
-    local/generated/charrels/glyphs/gwglyphs/gwrelated.txt
+$(DATA_PATH)/gwaliases-0.list: $(DATA_PATH)/gwrelated-0.list
+$(DATA_PATH)/gwcontains-0.list: $(DATA_PATH)/gwrelated-0.list
+$(DATA_PATH)/gwrels-0.list: $(DATA_PATH)/gwrelated-0.list
 
 ## License: Public Domain.

@@ -24,11 +24,13 @@ my $Data = {};
       if ($3 eq 'E') {
         my $part1 = ((hex $4) <= 0x61 or
                      ((hex $4) == 0x62 and (hex $5) <= 0x46));
+        my $part3 = (((hex $4) >= 0x65) or
+                     ((hex $4) == 0x64 and (hex $5) >= 0x36));
         my $c2_0 = $c2;
         $c2 =~ s/^:cns/:cns-old-/;
         $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
         $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
-        if ($part1) {
+        if ($part1 or $part3) {
           my $c3 = $c2;
           $c3 =~ s/^:cns-old-14/:cns3/;
           $Data->{$key}->{$c2}->{$c3}->{'cns11643:moved'} = 1;
@@ -318,6 +320,29 @@ my $Data = {};
       $Data->{$vkey}->{$c1}->{$c2}->{'kVariants:' . $2} = 1;
     } elsif (/\S/) {
       die $_;
+    }
+  }
+}
+
+{
+  my $path = $TempPath->child ('MathClassExt.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    s/^003B;P;;;/003B;P;;/;
+    if (/^\s*#/) {
+      #
+    } elsif (/\S/) {
+      my @r = split /;/, $_;
+      if (length $r[3]) {
+        my $c1;
+        if ($r[0] =~ /^([0-9A-F]+)$/) {
+          $c1 = u_chr hex $1;
+        } else {
+          die $r[0];
+        }
+        my $c2 = $r[3];
+        $Data->{descs}->{$c1}->{$c2}->{'ucd:ISO entity name'} = 1;
+      }
     }
   }
 }
