@@ -15983,6 +15983,3597 @@ manakai:private
 -"󲂗"
 ":u-nom-f2097"
 manakai:private
+*descs
+-"!"
+"excl"
+ucd:ISO entity name
+"fact"
+ucd:ISO entity name
+-"#"
+"num"
+ucd:ISO entity name
+-"$"
+"dollar"
+ucd:ISO entity name
+-"%"
+"percnt"
+ucd:ISO entity name
+-"&"
+"amp"
+ucd:ISO entity name
+-"("
+"lpar"
+ucd:ISO entity name
+-")"
+"rpar"
+ucd:ISO entity name
+-"*"
+"ast"
+ucd:ISO entity name
+-"\u002B"
+"plus"
+ucd:ISO entity name
+-","
+"comma"
+ucd:ISO entity name
+-"/"
+"sol"
+ucd:ISO entity name
+-":u2e"
+"period"
+ucd:ISO entity name
+-":u3a"
+"colon"
+ucd:ISO entity name
+-";"
+"semi"
+ucd:ISO entity name
+-"\u003C"
+"lt"
+ucd:ISO entity name
+-"="
+"equals"
+ucd:ISO entity name
+-">"
+"gt"
+ucd:ISO entity name
+-"?"
+"quest"
+ucd:ISO entity name
+-"@"
+"commat"
+ucd:ISO entity name
+-"["
+"lsqb"
+ucd:ISO entity name
+-"\u005C"
+"bsol"
+ucd:ISO entity name
+-"]"
+"rsqb"
+ucd:ISO entity name
+-"`"
+"grave"
+ucd:ISO entity name
+-"{"
+"lcub"
+ucd:ISO entity name
+-"|"
+"verbar"
+ucd:ISO entity name
+-"}"
+"rcub"
+ucd:ISO entity name
+-" "
+"nbsp"
+ucd:ISO entity name
+-"¡"
+"iexcl"
+ucd:ISO entity name
+-"¢"
+"cent"
+ucd:ISO entity name
+-"£"
+"pound"
+ucd:ISO entity name
+-"¤"
+"curren"
+ucd:ISO entity name
+-"¥"
+"yen"
+ucd:ISO entity name
+-"¦"
+"brvbar"
+ucd:ISO entity name
+-"§"
+"sect"
+ucd:ISO entity name
+-"¨"
+"Dot"
+ucd:ISO entity name
+-"¬"
+"not"
+ucd:ISO entity name
+-"¯"
+"macr"
+ucd:ISO entity name
+-"°"
+"deg"
+ucd:ISO entity name
+-"±"
+"plusmn"
+ucd:ISO entity name
+-"²"
+"sup2"
+ucd:ISO entity name
+-"³"
+"sup3"
+ucd:ISO entity name
+-"´"
+"acute"
+ucd:ISO entity name
+-"µ"
+"micro"
+ucd:ISO entity name
+-"¶"
+"para"
+ucd:ISO entity name
+-"·"
+"middot"
+ucd:ISO entity name
+-"¹"
+"sup1"
+ucd:ISO entity name
+-"¼"
+"frac14"
+ucd:ISO entity name
+-"½"
+"frac12"
+ucd:ISO entity name
+-"¾"
+"frac34"
+ucd:ISO entity name
+-"¿"
+"iquest"
+ucd:ISO entity name
+-"×"
+"times"
+ucd:ISO entity name
+-"÷"
+"divide"
+ucd:ISO entity name
+-"ı"
+"imath"
+ucd:ISO entity name
+-"ȷ"
+"jmath"
+ucd:ISO entity name
+-"ˆ"
+"circ"
+ucd:ISO entity name
+-"ˇ"
+"caron"
+ucd:ISO entity name
+-"˘"
+"breve"
+ucd:ISO entity name
+-"˙"
+"dot"
+ucd:ISO entity name
+-"˚"
+"ring"
+ucd:ISO entity name
+-"˜"
+"tilde"
+ucd:ISO entity name
+-"̳"
+"2lowbar"
+ucd:ISO entity name
+-"Α"
+"Agr"
+ucd:ISO entity name
+-"Β"
+"Bgr"
+ucd:ISO entity name
+-"Γ"
+"Gamma"
+ucd:ISO entity name
+-"Δ"
+"Delta"
+ucd:ISO entity name
+-"Ε"
+"Egr"
+ucd:ISO entity name
+-"Ζ"
+"Zgr"
+ucd:ISO entity name
+-"Η"
+"EEgr"
+ucd:ISO entity name
+-"Θ"
+"Theta"
+ucd:ISO entity name
+-"Ι"
+"Igr"
+ucd:ISO entity name
+-"Κ"
+"Kgr"
+ucd:ISO entity name
+-"Λ"
+"Lambda"
+ucd:ISO entity name
+-"Μ"
+"Mgr"
+ucd:ISO entity name
+-"Ν"
+"Ngr"
+ucd:ISO entity name
+-"Ξ"
+"Xi"
+ucd:ISO entity name
+-"Ο"
+"Ogr"
+ucd:ISO entity name
+-"Π"
+"Pi"
+ucd:ISO entity name
+-"Ρ"
+"Rgr"
+ucd:ISO entity name
+-"Σ"
+"Sigma"
+ucd:ISO entity name
+-"Τ"
+"Tgr"
+ucd:ISO entity name
+-"Φ"
+"Phi"
+ucd:ISO entity name
+-"Χ"
+"KHgr"
+ucd:ISO entity name
+-"Ψ"
+"Psi"
+ucd:ISO entity name
+-"Ω"
+"Omega"
+ucd:ISO entity name
+-"α"
+"alpha"
+ucd:ISO entity name
+-"β"
+"beta"
+ucd:ISO entity name
+-"γ"
+"gamma"
+ucd:ISO entity name
+-"δ"
+"delta"
+ucd:ISO entity name
+-"ε"
+"epsiv"
+ucd:ISO entity name
+-"ζ"
+"zeta"
+ucd:ISO entity name
+-"η"
+"eta"
+ucd:ISO entity name
+-"θ"
+"theta"
+ucd:ISO entity name
+-"ι"
+"iota"
+ucd:ISO entity name
+-"κ"
+"kappa"
+ucd:ISO entity name
+-"λ"
+"lambda"
+ucd:ISO entity name
+-"μ"
+"mu"
+ucd:ISO entity name
+-"ν"
+"nu"
+ucd:ISO entity name
+-"ξ"
+"xi"
+ucd:ISO entity name
+-"ο"
+"ogr"
+ucd:ISO entity name
+-"π"
+"pi"
+ucd:ISO entity name
+-"ρ"
+"rho"
+ucd:ISO entity name
+-"σ"
+"sigma"
+ucd:ISO entity name
+-"τ"
+"tau"
+ucd:ISO entity name
+-"υ"
+"upsi"
+ucd:ISO entity name
+-"φ"
+"phiv"
+ucd:ISO entity name
+-"χ"
+"chi"
+ucd:ISO entity name
+-"ψ"
+"psi"
+ucd:ISO entity name
+-"ω"
+"omega"
+ucd:ISO entity name
+-"ϑ"
+"thetav"
+ucd:ISO entity name
+-"ϒ"
+"Upsi"
+ucd:ISO entity name
+-"ϕ"
+"phi"
+ucd:ISO entity name
+-"ϖ"
+"piv"
+ucd:ISO entity name
+-"ϛ"
+"stigma"
+ucd:ISO entity name
+-"Ϝ"
+"Gammad"
+ucd:ISO entity name
+-"ϝ"
+"gammad"
+ucd:ISO entity name
+-"ϡ"
+"sampi"
+ucd:ISO entity name
+-"ϰ"
+"kappav"
+ucd:ISO entity name
+-"ϱ"
+"rhov"
+ucd:ISO entity name
+-"ϴ"
+"Thetav"
+ucd:ISO entity name
+-"ϵ"
+"epsi"
+ucd:ISO entity name
+-"϶"
+"bepsi"
+ucd:ISO entity name
+-"Ш"
+"Shcy"
+ucd:ISO entity name
+-" "
+"enquad"
+ucd:ISO entity name
+-" "
+"emquad"
+ucd:ISO entity name
+-" "
+"ensp"
+ucd:ISO entity name
+-" "
+"emsp"
+ucd:ISO entity name
+-"​"
+"zwsp"
+ucd:ISO entity name
+-"‐"
+"hyphen"
+ucd:ISO entity name
+-"‒"
+"dash"
+ucd:ISO entity name
+-"–"
+"ndash"
+ucd:ISO entity name
+-"—"
+"mdash"
+ucd:ISO entity name
+-"‖"
+"Verbar"
+ucd:ISO entity name
+-"†"
+"dagger"
+ucd:ISO entity name
+-"‡"
+"Dagger"
+ucd:ISO entity name
+-"•"
+"bull"
+ucd:ISO entity name
+-"…"
+"hellip"
+ucd:ISO entity name
+-"′"
+"prime"
+ucd:ISO entity name
+-"″"
+"Prime"
+ucd:ISO entity name
+-"‴"
+"tprime"
+ucd:ISO entity name
+-"‵"
+"bprime"
+ucd:ISO entity name
+-"‶"
+"bPrime"
+ucd:ISO entity name
+-"‷"
+"btprime"
+ucd:ISO entity name
+-"⁎"
+"lowast"
+ucd:ISO entity name
+-"⁏"
+"bsemi"
+ucd:ISO entity name
+-"⁐"
+"closur"
+ucd:ISO entity name
+-"⁑"
+"Ast"
+ucd:ISO entity name
+-"⁗"
+"qprime"
+ucd:ISO entity name
+-"⃛"
+"tdot"
+ucd:ISO entity name
+-"⃜"
+"DotDot"
+ucd:ISO entity name
+-"ℂ"
+"Copf"
+ucd:ISO entity name
+-"ℊ"
+"gscr"
+ucd:ISO entity name
+-"ℋ"
+"Hscr"
+ucd:ISO entity name
+-"ℌ"
+"Hfr"
+ucd:ISO entity name
+-"ℍ"
+"Hopf"
+ucd:ISO entity name
+-"ℏ"
+"plankv"
+ucd:ISO entity name
+-"ℐ"
+"Iscr"
+ucd:ISO entity name
+-"ℑ"
+"image"
+ucd:ISO entity name
+-"ℒ"
+"lagran"
+ucd:ISO entity name
+-"ℓ"
+"ell"
+ucd:ISO entity name
+-"ℕ"
+"Nopf"
+ucd:ISO entity name
+-"℘"
+"weierp"
+ucd:ISO entity name
+-"ℙ"
+"Popf"
+ucd:ISO entity name
+-"ℚ"
+"Qopf"
+ucd:ISO entity name
+-"ℛ"
+"Rscr"
+ucd:ISO entity name
+-"ℜ"
+"real"
+ucd:ISO entity name
+-"ℝ"
+"Ropf"
+ucd:ISO entity name
+-"ℤ"
+"Zopf"
+ucd:ISO entity name
+-"Ω"
+"ohm"
+ucd:ISO entity name
+-"℧"
+"mho"
+ucd:ISO entity name
+-"ℨ"
+"Zfr"
+ucd:ISO entity name
+-"℩"
+"iiota"
+ucd:ISO entity name
+-"Å"
+"angst"
+ucd:ISO entity name
+-"ℬ"
+"bernou"
+ucd:ISO entity name
+-"ℭ"
+"Cfr"
+ucd:ISO entity name
+-"ℯ"
+"escr"
+ucd:ISO entity name
+-"ℰ"
+"Escr"
+ucd:ISO entity name
+-"ℱ"
+"Fscr"
+ucd:ISO entity name
+-"ℳ"
+"phmmat"
+ucd:ISO entity name
+-"ℴ"
+"order"
+ucd:ISO entity name
+-"ℵ"
+"aleph"
+ucd:ISO entity name
+-"ℶ"
+"beth"
+ucd:ISO entity name
+-"ℷ"
+"gimel"
+ucd:ISO entity name
+-"ℸ"
+"daleth"
+ucd:ISO entity name
+-"ℽ"
+"opfgamma"
+ucd:ISO entity name
+-"ℾ"
+"opfGam"
+ucd:ISO entity name
+-"ℿ"
+"opfPi"
+ucd:ISO entity name
+-"⅀"
+"opfsum"
+ucd:ISO entity name
+-"⅁"
+"Game"
+ucd:ISO entity name
+-"⅋"
+"turnamp"
+ucd:ISO entity name
+-"←"
+"larr"
+ucd:ISO entity name
+-"↑"
+"uarr"
+ucd:ISO entity name
+-"→"
+"rarr"
+ucd:ISO entity name
+-"↓"
+"darr"
+ucd:ISO entity name
+-"↔"
+"harr"
+ucd:ISO entity name
+-"↕"
+"varr"
+ucd:ISO entity name
+-"↖"
+"nwarr"
+ucd:ISO entity name
+-"↗"
+"nearr"
+ucd:ISO entity name
+-"↘"
+"searr"
+ucd:ISO entity name
+-"↙"
+"swarr"
+ucd:ISO entity name
+-"↚"
+"nlarr"
+ucd:ISO entity name
+-"↛"
+"nrarr"
+ucd:ISO entity name
+-"↜"
+"larrw"
+ucd:ISO entity name
+-"↝"
+"rarrw"
+ucd:ISO entity name
+-"↞"
+"Larr"
+ucd:ISO entity name
+-"↟"
+"Uarr"
+ucd:ISO entity name
+-"↠"
+"Rarr"
+ucd:ISO entity name
+-"↡"
+"Darr"
+ucd:ISO entity name
+-"↢"
+"larrtl"
+ucd:ISO entity name
+-"↣"
+"rarrtl"
+ucd:ISO entity name
+-"↤"
+"mapstoleft"
+ucd:ISO entity name
+-"↥"
+"mapstoup"
+ucd:ISO entity name
+-"↦"
+"map"
+ucd:ISO entity name
+-"↧"
+"mapstodown"
+ucd:ISO entity name
+-"↨"
+"varrb"
+ucd:ISO entity name
+-"↩"
+"larrhk"
+ucd:ISO entity name
+-"↪"
+"rarrhk"
+ucd:ISO entity name
+-"↫"
+"larrlp"
+ucd:ISO entity name
+-"↬"
+"rarrlp"
+ucd:ISO entity name
+-"↭"
+"harrw"
+ucd:ISO entity name
+-"↮"
+"nharr"
+ucd:ISO entity name
+-"↯"
+"zigdarr"
+ucd:ISO entity name
+-"↰"
+"lsh"
+ucd:ISO entity name
+-"↱"
+"rsh"
+ucd:ISO entity name
+-"↲"
+"ldsh"
+ucd:ISO entity name
+-"↳"
+"rdsh"
+ucd:ISO entity name
+-"↶"
+"cularr"
+ucd:ISO entity name
+-"↷"
+"curarr"
+ucd:ISO entity name
+-"↼"
+"lharu"
+ucd:ISO entity name
+-"↽"
+"lhard"
+ucd:ISO entity name
+-"↾"
+"uharr"
+ucd:ISO entity name
+-"↿"
+"uharl"
+ucd:ISO entity name
+-"⇀"
+"rharu"
+ucd:ISO entity name
+-"⇁"
+"rhard"
+ucd:ISO entity name
+-"⇂"
+"dharr"
+ucd:ISO entity name
+-"⇃"
+"dharl"
+ucd:ISO entity name
+-"⇄"
+"rlarr"
+ucd:ISO entity name
+-"⇅"
+"udarr"
+ucd:ISO entity name
+-"⇆"
+"lrarr"
+ucd:ISO entity name
+-"⇇"
+"llarr"
+ucd:ISO entity name
+-"⇈"
+"uuarr"
+ucd:ISO entity name
+-"⇉"
+"rrarr"
+ucd:ISO entity name
+-"⇊"
+"ddarr"
+ucd:ISO entity name
+-"⇋"
+"lrhar"
+ucd:ISO entity name
+-"⇌"
+"rlhar"
+ucd:ISO entity name
+-"⇍"
+"nlArr"
+ucd:ISO entity name
+-"⇎"
+"nhArr"
+ucd:ISO entity name
+-"⇏"
+"nrArr"
+ucd:ISO entity name
+-"⇐"
+"lArr"
+ucd:ISO entity name
+-"⇑"
+"uArr"
+ucd:ISO entity name
+-"⇒"
+"rArr"
+ucd:ISO entity name
+-"⇓"
+"dArr"
+ucd:ISO entity name
+-"⇔"
+"hArr"
+ucd:ISO entity name
+-"⇕"
+"vArr"
+ucd:ISO entity name
+-"⇖"
+"nwArr"
+ucd:ISO entity name
+-"⇗"
+"neArr"
+ucd:ISO entity name
+-"⇘"
+"seArr"
+ucd:ISO entity name
+-"⇙"
+"swArr"
+ucd:ISO entity name
+-"⇚"
+"lAarr"
+ucd:ISO entity name
+-"⇛"
+"rAarr"
+ucd:ISO entity name
+-"⇜"
+"ziglarr"
+ucd:ISO entity name
+-"⇝"
+"zigrarr"
+ucd:ISO entity name
+-"⇤"
+"larrb"
+ucd:ISO entity name
+-"⇥"
+"rarrb"
+ucd:ISO entity name
+-"⇵"
+"duarr"
+ucd:ISO entity name
+-"⇶"
+"rarr3"
+ucd:ISO entity name
+-"⇷"
+"nvlarr"
+ucd:ISO entity name
+-"⇸"
+"nvrarr"
+ucd:ISO entity name
+-"⇹"
+"nvharr"
+ucd:ISO entity name
+-"⇽"
+"loarr"
+ucd:ISO entity name
+-"⇾"
+"roarr"
+ucd:ISO entity name
+-"⇿"
+"hoarr"
+ucd:ISO entity name
+-"∀"
+"forall"
+ucd:ISO entity name
+-"∁"
+"comp"
+ucd:ISO entity name
+-"∂"
+"part"
+ucd:ISO entity name
+-"∃"
+"exist"
+ucd:ISO entity name
+-"∄"
+"nexist"
+ucd:ISO entity name
+-"∅"
+"emptyv"
+ucd:ISO entity name
+-"∇"
+"nabla"
+ucd:ISO entity name
+-"∈"
+"isin"
+ucd:ISO entity name
+-"∉"
+"notin"
+ucd:ISO entity name
+-"∊"
+"isinv"
+ucd:ISO entity name
+-"∋"
+"ni"
+ucd:ISO entity name
+-"∌"
+"notni"
+ucd:ISO entity name
+-"∍"
+"niv"
+ucd:ISO entity name
+-"∎"
+"qed"
+ucd:ISO entity name
+-"∏"
+"prod"
+ucd:ISO entity name
+-"∐"
+"coprod"
+ucd:ISO entity name
+-"∑"
+"sum"
+ucd:ISO entity name
+-"−"
+"minus"
+ucd:ISO entity name
+-"∓"
+"mnplus"
+ucd:ISO entity name
+-"∔"
+"plusdo"
+ucd:ISO entity name
+-"∖"
+"ssetmn"
+ucd:ISO entity name
+-"∗"
+"midast"
+ucd:ISO entity name
+-"∘"
+"compfn"
+ucd:ISO entity name
+-"√"
+"radic"
+ucd:ISO entity name
+-"∝"
+"prop"
+ucd:ISO entity name
+-"∞"
+"infin"
+ucd:ISO entity name
+-"∟"
+"angrt"
+ucd:ISO entity name
+-"∠"
+"ang"
+ucd:ISO entity name
+-"∡"
+"angmsd"
+ucd:ISO entity name
+-"∢"
+"angsph"
+ucd:ISO entity name
+-"∣"
+"mid"
+ucd:ISO entity name
+-"∤"
+"nmid"
+ucd:ISO entity name
+-"∥"
+"par"
+ucd:ISO entity name
+-"∦"
+"npar"
+ucd:ISO entity name
+-"∧"
+"and"
+ucd:ISO entity name
+-"∨"
+"or"
+ucd:ISO entity name
+-"∩"
+"cap"
+ucd:ISO entity name
+-"∪"
+"cup"
+ucd:ISO entity name
+-"∫"
+"int"
+ucd:ISO entity name
+-"∬"
+"Int"
+ucd:ISO entity name
+-"∭"
+"tint"
+ucd:ISO entity name
+-"∮"
+"conint"
+ucd:ISO entity name
+-"∯"
+"Conint"
+ucd:ISO entity name
+-"∰"
+"Cconint"
+ucd:ISO entity name
+-"∱"
+"cwint"
+ucd:ISO entity name
+-"∲"
+"cwconint"
+ucd:ISO entity name
+-"∳"
+"awconint"
+ucd:ISO entity name
+-"∴"
+"there4"
+ucd:ISO entity name
+-"∵"
+"becaus"
+ucd:ISO entity name
+-"∶"
+"ratio"
+ucd:ISO entity name
+-"∷"
+"Colon"
+ucd:ISO entity name
+-"∸"
+"minusd"
+ucd:ISO entity name
+-"∹"
+"excess"
+ucd:ISO entity name
+-"∺"
+"mDDot"
+ucd:ISO entity name
+-"∻"
+"homtht"
+ucd:ISO entity name
+-"∼"
+"sim"
+ucd:ISO entity name
+-"∽"
+"bsim"
+ucd:ISO entity name
+-"∾"
+"ac"
+ucd:ISO entity name
+-"≀"
+"wreath"
+ucd:ISO entity name
+-"≁"
+"nsim"
+ucd:ISO entity name
+-"≂"
+"esim"
+ucd:ISO entity name
+-"≃"
+"sime"
+ucd:ISO entity name
+-"≄"
+"nsime"
+ucd:ISO entity name
+-"≅"
+"cong"
+ucd:ISO entity name
+-"≆"
+"simne"
+ucd:ISO entity name
+-"≇"
+"ncong"
+ucd:ISO entity name
+-"≈"
+"ap"
+ucd:ISO entity name
+-"≉"
+"nap"
+ucd:ISO entity name
+-"≊"
+"ape"
+ucd:ISO entity name
+-"≋"
+"apid"
+ucd:ISO entity name
+-"≌"
+"bcong"
+ucd:ISO entity name
+-"≍"
+"asymp"
+ucd:ISO entity name
+-"≎"
+"bump"
+ucd:ISO entity name
+-"≏"
+"bumpe"
+ucd:ISO entity name
+-"≐"
+"esdot"
+ucd:ISO entity name
+-"≑"
+"eDot"
+ucd:ISO entity name
+-"≒"
+"efDot"
+ucd:ISO entity name
+-"≓"
+"erDot"
+ucd:ISO entity name
+-"≔"
+"colone"
+ucd:ISO entity name
+-"≕"
+"ecolon"
+ucd:ISO entity name
+-"≖"
+"ecir"
+ucd:ISO entity name
+-"≗"
+"cire"
+ucd:ISO entity name
+-"≘"
+"arceq"
+ucd:ISO entity name
+-"≙"
+"wedgeq"
+ucd:ISO entity name
+-"≚"
+"veeeq"
+ucd:ISO entity name
+-"≜"
+"trie"
+ucd:ISO entity name
+-"≝"
+"eqdef"
+ucd:ISO entity name
+-"≞"
+"measeq"
+ucd:ISO entity name
+-"≟"
+"equest"
+ucd:ISO entity name
+-"≠"
+"ne"
+ucd:ISO entity name
+-"≡"
+"equiv"
+ucd:ISO entity name
+-"≢"
+"nequiv"
+ucd:ISO entity name
+-"≣"
+"Equiv"
+ucd:ISO entity name
+-"≤"
+"le"
+ucd:ISO entity name
+-"≥"
+"ge"
+ucd:ISO entity name
+-"≦"
+"lE"
+ucd:ISO entity name
+-"≧"
+"gE"
+ucd:ISO entity name
+-"≨"
+"lnE"
+ucd:ISO entity name
+-"≩"
+"gnE"
+ucd:ISO entity name
+-"≪"
+"Lt"
+ucd:ISO entity name
+-"≫"
+"Gt"
+ucd:ISO entity name
+-"≬"
+"twixt"
+ucd:ISO entity name
+-"≭"
+"nasymp"
+ucd:ISO entity name
+-"≮"
+"nlt"
+ucd:ISO entity name
+-"≯"
+"ngt"
+ucd:ISO entity name
+-"≰"
+"nle"
+ucd:ISO entity name
+-"≱"
+"nge"
+ucd:ISO entity name
+-"≲"
+"lsim"
+ucd:ISO entity name
+-"≳"
+"gsim"
+ucd:ISO entity name
+-"≴"
+"nlsim"
+ucd:ISO entity name
+-"≵"
+"ngsim"
+ucd:ISO entity name
+-"≶"
+"lg"
+ucd:ISO entity name
+-"≷"
+"gl"
+ucd:ISO entity name
+-"≸"
+"ntlg"
+ucd:ISO entity name
+-"≹"
+"ntgl"
+ucd:ISO entity name
+-"≺"
+"pr"
+ucd:ISO entity name
+-"≻"
+"sc"
+ucd:ISO entity name
+-"≼"
+"prcue"
+ucd:ISO entity name
+-"≽"
+"sccue"
+ucd:ISO entity name
+-"≾"
+"prsim"
+ucd:ISO entity name
+-"≿"
+"scsim"
+ucd:ISO entity name
+-"⊀"
+"npr"
+ucd:ISO entity name
+-"⊁"
+"nsc"
+ucd:ISO entity name
+-"⊂"
+"sub"
+ucd:ISO entity name
+-"⊃"
+"sup"
+ucd:ISO entity name
+-"⊄"
+"nsub"
+ucd:ISO entity name
+-"⊅"
+"nsup"
+ucd:ISO entity name
+-"⊆"
+"sube"
+ucd:ISO entity name
+-"⊇"
+"supe"
+ucd:ISO entity name
+-"⊈"
+"nsube"
+ucd:ISO entity name
+-"⊉"
+"nsupe"
+ucd:ISO entity name
+-"⊊"
+"subne"
+ucd:ISO entity name
+-"⊋"
+"supne"
+ucd:ISO entity name
+-"⊍"
+"cupdot"
+ucd:ISO entity name
+-"⊎"
+"uplus"
+ucd:ISO entity name
+-"⊏"
+"sqsub"
+ucd:ISO entity name
+-"⊐"
+"sqsup"
+ucd:ISO entity name
+-"⊑"
+"sqsube"
+ucd:ISO entity name
+-"⊒"
+"sqsupe"
+ucd:ISO entity name
+-"⊓"
+"sqcap"
+ucd:ISO entity name
+-"⊔"
+"sqcup"
+ucd:ISO entity name
+-"⊕"
+"oplus"
+ucd:ISO entity name
+-"⊖"
+"ominus"
+ucd:ISO entity name
+-"⊗"
+"otimes"
+ucd:ISO entity name
+-"⊘"
+"osol"
+ucd:ISO entity name
+-"⊙"
+"odot"
+ucd:ISO entity name
+-"⊚"
+"ocir"
+ucd:ISO entity name
+-"⊛"
+"oast"
+ucd:ISO entity name
+-"⊜"
+"oeq"
+ucd:ISO entity name
+-"⊝"
+"odash"
+ucd:ISO entity name
+-"⊞"
+"plusb"
+ucd:ISO entity name
+-"⊟"
+"minusb"
+ucd:ISO entity name
+-"⊠"
+"timesb"
+ucd:ISO entity name
+-"⊡"
+"sdotb"
+ucd:ISO entity name
+-"⊢"
+"vdash"
+ucd:ISO entity name
+-"⊣"
+"dashv"
+ucd:ISO entity name
+-"⊤"
+"top"
+ucd:ISO entity name
+-"⊥"
+"bottom"
+ucd:ISO entity name
+-"⊧"
+"models"
+ucd:ISO entity name
+-"⊨"
+"vDash"
+ucd:ISO entity name
+-"⊩"
+"Vdash"
+ucd:ISO entity name
+-"⊪"
+"Vvdash"
+ucd:ISO entity name
+-"⊫"
+"VDash"
+ucd:ISO entity name
+-"⊬"
+"nvdash"
+ucd:ISO entity name
+-"⊭"
+"nvDash"
+ucd:ISO entity name
+-"⊮"
+"nVdash"
+ucd:ISO entity name
+-"⊯"
+"nVDash"
+ucd:ISO entity name
+-"⊰"
+"prurel"
+ucd:ISO entity name
+-"⊱"
+"scurel"
+ucd:ISO entity name
+-"⊲"
+"vltri"
+ucd:ISO entity name
+-"⊳"
+"vrtri"
+ucd:ISO entity name
+-"⊴"
+"ltrie"
+ucd:ISO entity name
+-"⊵"
+"rtrie"
+ucd:ISO entity name
+-"⊶"
+"origof"
+ucd:ISO entity name
+-"⊷"
+"imof"
+ucd:ISO entity name
+-"⊸"
+"mumap"
+ucd:ISO entity name
+-"⊹"
+"hercon"
+ucd:ISO entity name
+-"⊺"
+"intcal"
+ucd:ISO entity name
+-"⊻"
+"veebar"
+ucd:ISO entity name
+-"⊼"
+"barwed"
+ucd:ISO entity name
+-"⊾"
+"angrtvb"
+ucd:ISO entity name
+-"⋀"
+"xwedge"
+ucd:ISO entity name
+-"⋁"
+"xvee"
+ucd:ISO entity name
+-"⋂"
+"xcap"
+ucd:ISO entity name
+-"⋃"
+"xcup"
+ucd:ISO entity name
+-"⋄"
+"diam"
+ucd:ISO entity name
+-"⋅"
+"sdot"
+ucd:ISO entity name
+-"⋆"
+"sstarf"
+ucd:ISO entity name
+-"⋇"
+"divonx"
+ucd:ISO entity name
+-"⋈"
+"bowtie"
+ucd:ISO entity name
+-"⋉"
+"ltimes"
+ucd:ISO entity name
+-"⋊"
+"rtimes"
+ucd:ISO entity name
+-"⋋"
+"lthree"
+ucd:ISO entity name
+-"⋌"
+"rthree"
+ucd:ISO entity name
+-"⋍"
+"bsime"
+ucd:ISO entity name
+-"⋎"
+"cuvee"
+ucd:ISO entity name
+-"⋏"
+"cuwed"
+ucd:ISO entity name
+-"⋐"
+"Sub"
+ucd:ISO entity name
+-"⋑"
+"Sup"
+ucd:ISO entity name
+-"⋒"
+"Cap"
+ucd:ISO entity name
+-"⋓"
+"Cup"
+ucd:ISO entity name
+-"⋔"
+"fork"
+ucd:ISO entity name
+-"⋕"
+"epar"
+ucd:ISO entity name
+-"⋖"
+"ltdot"
+ucd:ISO entity name
+-"⋗"
+"gtdot"
+ucd:ISO entity name
+-"⋘"
+"Ll"
+ucd:ISO entity name
+-"⋙"
+"Gg"
+ucd:ISO entity name
+-"⋚"
+"leg"
+ucd:ISO entity name
+-"⋛"
+"gel"
+ucd:ISO entity name
+-"⋜"
+"el"
+ucd:ISO entity name
+-"⋝"
+"eg"
+ucd:ISO entity name
+-"⋞"
+"cuepr"
+ucd:ISO entity name
+-"⋟"
+"cuesc"
+ucd:ISO entity name
+-"⋠"
+"nprcue"
+ucd:ISO entity name
+-"⋡"
+"nsccue"
+ucd:ISO entity name
+-"⋢"
+"nsqsube"
+ucd:ISO entity name
+-"⋣"
+"nsqsupe"
+ucd:ISO entity name
+-"⋤"
+"sqsubne"
+ucd:ISO entity name
+-"⋥"
+"sqsupne"
+ucd:ISO entity name
+-"⋦"
+"lnsim"
+ucd:ISO entity name
+-"⋧"
+"gnsim"
+ucd:ISO entity name
+-"⋨"
+"prnsim"
+ucd:ISO entity name
+-"⋩"
+"scnsim"
+ucd:ISO entity name
+-"⋪"
+"nltri"
+ucd:ISO entity name
+-"⋫"
+"nrtri"
+ucd:ISO entity name
+-"⋬"
+"nltrie"
+ucd:ISO entity name
+-"⋭"
+"nrtrie"
+ucd:ISO entity name
+-"⋮"
+"vellip"
+ucd:ISO entity name
+-"⋯"
+"ctdot"
+ucd:ISO entity name
+-"⋰"
+"utdot"
+ucd:ISO entity name
+-"⋱"
+"dtdot"
+ucd:ISO entity name
+-"⋲"
+"disin"
+ucd:ISO entity name
+-"⋳"
+"isinsv"
+ucd:ISO entity name
+-"⋴"
+"isins"
+ucd:ISO entity name
+-"⋵"
+"isindot"
+ucd:ISO entity name
+-"⋶"
+"notinvc"
+ucd:ISO entity name
+-"⋷"
+"notinvb"
+ucd:ISO entity name
+-"⋸"
+"isinvb"
+ucd:ISO entity name
+-"⋹"
+"isinE"
+ucd:ISO entity name
+-"⋺"
+"nisd"
+ucd:ISO entity name
+-"⋻"
+"xnis"
+ucd:ISO entity name
+-"⋼"
+"nis"
+ucd:ISO entity name
+-"⋽"
+"notnivc"
+ucd:ISO entity name
+-"⋾"
+"notnivb"
+ucd:ISO entity name
+-"⌀"
+"diameter"
+ucd:ISO entity name
+-"⌈"
+"lceil"
+ucd:ISO entity name
+-"⌉"
+"rceil"
+ucd:ISO entity name
+-"⌊"
+"lfloor"
+ucd:ISO entity name
+-"⌋"
+"rfloor"
+ucd:ISO entity name
+-"⌐"
+"bnot"
+ucd:ISO entity name
+-"⌜"
+"ulcorn"
+ucd:ISO entity name
+-"⌝"
+"urcorn"
+ucd:ISO entity name
+-"⌞"
+"dlcorn"
+ucd:ISO entity name
+-"⌟"
+"drcorn"
+ucd:ISO entity name
+-"⌢"
+"frown"
+ucd:ISO entity name
+-"⌣"
+"smile"
+ucd:ISO entity name
+-"⌶"
+"topbot"
+ucd:ISO entity name
+-"⌽"
+"ovbar"
+ucd:ISO entity name
+-"⌿"
+"solbar"
+ucd:ISO entity name
+-"⎔"
+"hbenzen"
+ucd:ISO entity name
+-"⎰"
+"lmoust"
+ucd:ISO entity name
+-"⎱"
+"rmoust"
+ucd:ISO entity name
+-"⎴"
+"tbrk"
+ucd:ISO entity name
+-"⎵"
+"bbrk"
+ucd:ISO entity name
+-"⎶"
+"bbrktbrk"
+ucd:ISO entity name
+-"⏜"
+"ovrpar"
+ucd:ISO entity name
+-"⏝"
+"udrpar"
+ucd:ISO entity name
+-"⏞"
+"ovrcub"
+ucd:ISO entity name
+-"⏟"
+"udrcub"
+ucd:ISO entity name
+-"Ⓢ"
+"oS"
+ucd:ISO entity name
+-"■"
+"squarf"
+ucd:ISO entity name
+-"□"
+"square"
+ucd:ISO entity name
+-"▪"
+"squf"
+ucd:ISO entity name
+-"▭"
+"rect"
+ucd:ISO entity name
+-"▮"
+"marker"
+ucd:ISO entity name
+-"△"
+"xutri"
+ucd:ISO entity name
+-"▴"
+"utrif"
+ucd:ISO entity name
+-"▵"
+"utri"
+ucd:ISO entity name
+-"▶"
+"vrtrif"
+ucd:ISO entity name
+-"▷"
+"vrtri"
+ucd:ISO entity name
+-"▸"
+"rtrif"
+ucd:ISO entity name
+-"▹"
+"rtri"
+ucd:ISO entity name
+-"▽"
+"xdtri"
+ucd:ISO entity name
+-"▾"
+"dtrif"
+ucd:ISO entity name
+-"▿"
+"dtri"
+ucd:ISO entity name
+-"◀"
+"vltrif"
+ucd:ISO entity name
+-"◁"
+"vltri"
+ucd:ISO entity name
+-"◂"
+"ltrif"
+ucd:ISO entity name
+-"◃"
+"ltri"
+ucd:ISO entity name
+-"◆"
+"diamondf"
+ucd:ISO entity name
+-"◊"
+"loz"
+ucd:ISO entity name
+-"●"
+"circlef"
+ucd:ISO entity name
+-"◢"
+"lrtrif"
+ucd:ISO entity name
+-"◣"
+"lltrif"
+ucd:ISO entity name
+-"◤"
+"ultrif"
+ucd:ISO entity name
+-"◥"
+"urtrif"
+ucd:ISO entity name
+-"◫"
+"midb"
+ucd:ISO entity name
+-"◬"
+"tridot"
+ucd:ISO entity name
+-"◯"
+"xcirc"
+ucd:ISO entity name
+-"◸"
+"ultri"
+ucd:ISO entity name
+-"◹"
+"urtri"
+ucd:ISO entity name
+-"◺"
+"lltri"
+ucd:ISO entity name
+-"◻"
+"xsqu"
+ucd:ISO entity name
+-"◼"
+"xsquf"
+ucd:ISO entity name
+-"◽"
+"vssqu"
+ucd:ISO entity name
+-"◾"
+"vssquf"
+ucd:ISO entity name
+-"◿"
+"lrtri"
+ucd:ISO entity name
+-"★"
+"starf"
+ucd:ISO entity name
+-"☆"
+"star"
+ucd:ISO entity name
+-"♀"
+"female"
+ucd:ISO entity name
+-"♂"
+"male"
+ucd:ISO entity name
+-"♠"
+"spades"
+ucd:ISO entity name
+-"♡"
+"hearts"
+ucd:ISO entity name
+-"♢"
+"diams"
+ucd:ISO entity name
+-"♣"
+"clubs"
+ucd:ISO entity name
+-"♤"
+"spadeso"
+ucd:ISO entity name
+-"♥"
+"heartsf"
+ucd:ISO entity name
+-"♦"
+"diamsf"
+ucd:ISO entity name
+-"♧"
+"clubso"
+ucd:ISO entity name
+-"♩"
+"sung"
+ucd:ISO entity name
+-"♭"
+"flat"
+ucd:ISO entity name
+-"♮"
+"natur"
+ucd:ISO entity name
+-"♯"
+"sharp"
+ucd:ISO entity name
+-"✓"
+"check"
+ucd:ISO entity name
+-"✗"
+"cross"
+ucd:ISO entity name
+-"✠"
+"malt"
+ucd:ISO entity name
+-"✶"
+"sext"
+ucd:ISO entity name
+-"❲"
+"lbbrk"
+ucd:ISO entity name
+-"❳"
+"rbbrk"
+ucd:ISO entity name
+-"⟂"
+"perp"
+ucd:ISO entity name
+-"⟈"
+"bsolsub"
+ucd:ISO entity name
+-"⟉"
+"subsol"
+ucd:ISO entity name
+-"⟋"
+"diagup"
+ucd:ISO entity name
+-"⟍"
+"diagdown"
+ucd:ISO entity name
+-"⟐"
+"diamdot"
+ucd:ISO entity name
+-"⟦"
+"lobrk"
+ucd:ISO entity name
+-"⟧"
+"robrk"
+ucd:ISO entity name
+-"⟨"
+"lang"
+ucd:ISO entity name
+-"⟩"
+"rang"
+ucd:ISO entity name
+-"⟪"
+"Lang"
+ucd:ISO entity name
+-"⟫"
+"Rang"
+ucd:ISO entity name
+-"⟬"
+"loang"
+ucd:ISO entity name
+-"⟭"
+"roang"
+ucd:ISO entity name
+-"⟵"
+"xlarr"
+ucd:ISO entity name
+-"⟶"
+"xrarr"
+ucd:ISO entity name
+-"⟷"
+"xharr"
+ucd:ISO entity name
+-"⟸"
+"xlArr"
+ucd:ISO entity name
+-"⟹"
+"xrArr"
+ucd:ISO entity name
+-"⟺"
+"xhArr"
+ucd:ISO entity name
+-"⟻"
+"xmapfrom"
+ucd:ISO entity name
+-"⟼"
+"xmap"
+ucd:ISO entity name
+-"⟽"
+"xMapfrom"
+ucd:ISO entity name
+-"⟾"
+"xMapto"
+ucd:ISO entity name
+-"⟿"
+"xzigrarr"
+ucd:ISO entity name
+-"⤂"
+"nvlArr"
+ucd:ISO entity name
+-"⤃"
+"nvrArr"
+ucd:ISO entity name
+-"⤄"
+"nvhArr"
+ucd:ISO entity name
+-"⤅"
+"Map"
+ucd:ISO entity name
+-"⤆"
+"Mapfrom"
+ucd:ISO entity name
+-"⤇"
+"Mapto"
+ucd:ISO entity name
+-"⤈"
+"darrln"
+ucd:ISO entity name
+-"⤉"
+"uarrln"
+ucd:ISO entity name
+-"⤊"
+"uAarr"
+ucd:ISO entity name
+-"⤋"
+"dAarr"
+ucd:ISO entity name
+-"⤌"
+"lbarr"
+ucd:ISO entity name
+-"⤍"
+"rbarr"
+ucd:ISO entity name
+-"⤎"
+"lBarr"
+ucd:ISO entity name
+-"⤏"
+"rBarr"
+ucd:ISO entity name
+-"⤐"
+"RBarr"
+ucd:ISO entity name
+-"⤑"
+"DDotrahd"
+ucd:ISO entity name
+-"⤒"
+"uarrb"
+ucd:ISO entity name
+-"⤓"
+"darrb"
+ucd:ISO entity name
+-"⤖"
+"Rarrtl"
+ucd:ISO entity name
+-"⤙"
+"latail"
+ucd:ISO entity name
+-"⤚"
+"ratail"
+ucd:ISO entity name
+-"⤛"
+"lAtail"
+ucd:ISO entity name
+-"⤜"
+"rAtail"
+ucd:ISO entity name
+-"⤝"
+"larrfs"
+ucd:ISO entity name
+-"⤞"
+"rarrfs"
+ucd:ISO entity name
+-"⤟"
+"larrbfs"
+ucd:ISO entity name
+-"⤠"
+"rarrbfs"
+ucd:ISO entity name
+-"⤡"
+"nwsesarr"
+ucd:ISO entity name
+-"⤢"
+"neswsarr"
+ucd:ISO entity name
+-"⤣"
+"nwarhk"
+ucd:ISO entity name
+-"⤤"
+"nearhk"
+ucd:ISO entity name
+-"⤥"
+"searhk"
+ucd:ISO entity name
+-"⤦"
+"swarhk"
+ucd:ISO entity name
+-"⤧"
+"nwnear"
+ucd:ISO entity name
+-"⤨"
+"nesear"
+ucd:ISO entity name
+-"⤩"
+"seswar"
+ucd:ISO entity name
+-"⤪"
+"swnwar"
+ucd:ISO entity name
+-"⤫"
+"rdiofdi"
+ucd:ISO entity name
+-"⤬"
+"fdiordi"
+ucd:ISO entity name
+-"⤭"
+"seonearr"
+ucd:ISO entity name
+-"⤮"
+"neosearr"
+ucd:ISO entity name
+-"⤯"
+"fdonearr"
+ucd:ISO entity name
+-"⤰"
+"rdosearr"
+ucd:ISO entity name
+-"⤱"
+"neonwarr"
+ucd:ISO entity name
+-"⤲"
+"nwonearr"
+ucd:ISO entity name
+-"⤳"
+"rarrc"
+ucd:ISO entity name
+-"⤶"
+"ldca"
+ucd:ISO entity name
+-"⤷"
+"rdca"
+ucd:ISO entity name
+-"⤸"
+"cudarrl"
+ucd:ISO entity name
+-"⤹"
+"cudarrr"
+ucd:ISO entity name
+-"⤼"
+"curarrm"
+ucd:ISO entity name
+-"⤽"
+"cularrp"
+ucd:ISO entity name
+-"⥀"
+"olarr"
+ucd:ISO entity name
+-"⥁"
+"orarr"
+ucd:ISO entity name
+-"⥂"
+"arrlrsl"
+ucd:ISO entity name
+-"⥃"
+"arrllsr"
+ucd:ISO entity name
+-"⥄"
+"arrsrll"
+ucd:ISO entity name
+-"⥅"
+"rarrpl"
+ucd:ISO entity name
+-"⥆"
+"larrpl"
+ucd:ISO entity name
+-"⥇"
+"rarrx"
+ucd:ISO entity name
+-"⥈"
+"harrcir"
+ucd:ISO entity name
+-"⥉"
+"Uarrocir"
+ucd:ISO entity name
+-"⥊"
+"lurdshar"
+ucd:ISO entity name
+-"⥋"
+"ldrushar"
+ucd:ISO entity name
+-"⥌"
+"urdlshar"
+ucd:ISO entity name
+-"⥍"
+"uldrshar"
+ucd:ISO entity name
+-"⥎"
+"lurushar"
+ucd:ISO entity name
+-"⥏"
+"urdrshar"
+ucd:ISO entity name
+-"⥐"
+"ldrdshar"
+ucd:ISO entity name
+-"⥑"
+"uldlshar"
+ucd:ISO entity name
+-"⥒"
+"luharb"
+ucd:ISO entity name
+-"⥓"
+"ruharb"
+ucd:ISO entity name
+-"⥔"
+"urharb"
+ucd:ISO entity name
+-"⥕"
+"drharb"
+ucd:ISO entity name
+-"⥖"
+"ldharb"
+ucd:ISO entity name
+-"⥗"
+"rdharb"
+ucd:ISO entity name
+-"⥘"
+"ulharb"
+ucd:ISO entity name
+-"⥙"
+"dlharb"
+ucd:ISO entity name
+-"⥚"
+"bluhar"
+ucd:ISO entity name
+-"⥛"
+"bruhar"
+ucd:ISO entity name
+-"⥜"
+"burhar"
+ucd:ISO entity name
+-"⥝"
+"bdrhar"
+ucd:ISO entity name
+-"⥞"
+"bldhar"
+ucd:ISO entity name
+-"⥟"
+"brdhar"
+ucd:ISO entity name
+-"⥠"
+"bulhar"
+ucd:ISO entity name
+-"⥡"
+"bdlhar"
+ucd:ISO entity name
+-"⥢"
+"lHar"
+ucd:ISO entity name
+-"⥣"
+"uHar"
+ucd:ISO entity name
+-"⥤"
+"rHar"
+ucd:ISO entity name
+-"⥥"
+"dHar"
+ucd:ISO entity name
+-"⥦"
+"luruhar"
+ucd:ISO entity name
+-"⥧"
+"ldrdhar"
+ucd:ISO entity name
+-"⥨"
+"ruluhar"
+ucd:ISO entity name
+-"⥩"
+"rdldhar"
+ucd:ISO entity name
+-"⥪"
+"lharul"
+ucd:ISO entity name
+-"⥫"
+"llhard"
+ucd:ISO entity name
+-"⥬"
+"rharul"
+ucd:ISO entity name
+-"⥭"
+"lrhard"
+ucd:ISO entity name
+-"⥮"
+"udhar"
+ucd:ISO entity name
+-"⥯"
+"duhar"
+ucd:ISO entity name
+-"⥰"
+"rimply"
+ucd:ISO entity name
+-"⥱"
+"erarr"
+ucd:ISO entity name
+-"⥲"
+"simrarr"
+ucd:ISO entity name
+-"⥳"
+"larrsim"
+ucd:ISO entity name
+-"⥴"
+"rarrsim"
+ucd:ISO entity name
+-"⥵"
+"rarrap"
+ucd:ISO entity name
+-"⥶"
+"ltlarr"
+ucd:ISO entity name
+-"⥸"
+"gtrarr"
+ucd:ISO entity name
+-"⥹"
+"subrarr"
+ucd:ISO entity name
+-"⥻"
+"suplarr"
+ucd:ISO entity name
+-"⥼"
+"lfisht"
+ucd:ISO entity name
+-"⥽"
+"rfisht"
+ucd:ISO entity name
+-"⥾"
+"ufisht"
+ucd:ISO entity name
+-"⥿"
+"dfisht"
+ucd:ISO entity name
+-"⦀"
+"tverbar"
+ucd:ISO entity name
+-"⦁"
+"scirclef"
+ucd:ISO entity name
+-"⦃"
+"locub"
+ucd:ISO entity name
+-"⦄"
+"rocub"
+ucd:ISO entity name
+-"⦅"
+"lopar"
+ucd:ISO entity name
+-"⦆"
+"ropar"
+ucd:ISO entity name
+-"⦋"
+"lbrke"
+ucd:ISO entity name
+-"⦌"
+"rbrke"
+ucd:ISO entity name
+-"⦍"
+"lbrkslu"
+ucd:ISO entity name
+-"⦎"
+"rbrksld"
+ucd:ISO entity name
+-"⦏"
+"lbrksld"
+ucd:ISO entity name
+-"⦐"
+"rbrkslu"
+ucd:ISO entity name
+-"⦑"
+"langd"
+ucd:ISO entity name
+-"⦒"
+"rangd"
+ucd:ISO entity name
+-"⦓"
+"lparlt"
+ucd:ISO entity name
+-"⦔"
+"rpargt"
+ucd:ISO entity name
+-"⦕"
+"gtlPar"
+ucd:ISO entity name
+-"⦖"
+"ltrPar"
+ucd:ISO entity name
+-"⦙"
+"vellip4"
+ucd:ISO entity name
+-"⦚"
+"vzigzag"
+ucd:ISO entity name
+-"⦜"
+"vangrt"
+ucd:ISO entity name
+-"⦝"
+"angrtvbd"
+ucd:ISO entity name
+-"⦞"
+"angles"
+ucd:ISO entity name
+-"⦟"
+"angdnr"
+ucd:ISO entity name
+-"⦠"
+"gtlpar"
+ucd:ISO entity name
+-"⦢"
+"angdnl"
+ucd:ISO entity name
+-"⦣"
+"angupl"
+ucd:ISO entity name
+-"⦤"
+"ange"
+ucd:ISO entity name
+-"⦥"
+"range"
+ucd:ISO entity name
+-"⦦"
+"dwangle"
+ucd:ISO entity name
+-"⦧"
+"uwangle"
+ucd:ISO entity name
+-"⦨"
+"angmsdaa"
+ucd:ISO entity name
+-"⦩"
+"angmsdab"
+ucd:ISO entity name
+-"⦪"
+"angmsdac"
+ucd:ISO entity name
+-"⦫"
+"angmsdad"
+ucd:ISO entity name
+-"⦬"
+"angmsdae"
+ucd:ISO entity name
+-"⦭"
+"angmsdaf"
+ucd:ISO entity name
+-"⦮"
+"angmsdag"
+ucd:ISO entity name
+-"⦯"
+"angmsdah"
+ucd:ISO entity name
+-"⦰"
+"bemptyv"
+ucd:ISO entity name
+-"⦱"
+"demptyv"
+ucd:ISO entity name
+-"⦲"
+"cemptyv"
+ucd:ISO entity name
+-"⦳"
+"raemptyv"
+ucd:ISO entity name
+-"⦴"
+"laemptyv"
+ucd:ISO entity name
+-"⦵"
+"ohbar"
+ucd:ISO entity name
+-"⦶"
+"omid"
+ucd:ISO entity name
+-"⦷"
+"opar"
+ucd:ISO entity name
+-"⦸"
+"obsol"
+ucd:ISO entity name
+-"⦹"
+"operp"
+ucd:ISO entity name
+-"⦻"
+"olcross"
+ucd:ISO entity name
+-"⦼"
+"odsold"
+ucd:ISO entity name
+-"⦽"
+"oxuarr"
+ucd:ISO entity name
+-"⦾"
+"olcir"
+ucd:ISO entity name
+-"⦿"
+"ofcir"
+ucd:ISO entity name
+-"⧀"
+"olt"
+ucd:ISO entity name
+-"⧁"
+"ogt"
+ucd:ISO entity name
+-"⧂"
+"cirscir"
+ucd:ISO entity name
+-"⧃"
+"cirE"
+ucd:ISO entity name
+-"⧄"
+"solb"
+ucd:ISO entity name
+-"⧅"
+"bsolb"
+ucd:ISO entity name
+-"⧆"
+"astb"
+ucd:ISO entity name
+-"⧇"
+"cirb"
+ucd:ISO entity name
+-"⧈"
+"squb"
+ucd:ISO entity name
+-"⧉"
+"boxbox"
+ucd:ISO entity name
+-"⧊"
+"tridoto"
+ucd:ISO entity name
+-"⧋"
+"tribar"
+ucd:ISO entity name
+-"⧌"
+"triS"
+ucd:ISO entity name
+-"⧍"
+"trisb"
+ucd:ISO entity name
+-"⧎"
+"rtriltri"
+ucd:ISO entity name
+-"⧏"
+"ltrivb"
+ucd:ISO entity name
+-"⧐"
+"vbrtri"
+ucd:ISO entity name
+-"⧑"
+"lfbowtie"
+ucd:ISO entity name
+-"⧒"
+"rfbowtie"
+ucd:ISO entity name
+-"⧓"
+"fbowtie"
+ucd:ISO entity name
+-"⧔"
+"lftimes"
+ucd:ISO entity name
+-"⧕"
+"rftimes"
+ucd:ISO entity name
+-"⧖"
+"hrglass"
+ucd:ISO entity name
+-"⧗"
+"fhrglass"
+ucd:ISO entity name
+-"⧜"
+"iinfin"
+ucd:ISO entity name
+-"⧝"
+"infintie"
+ucd:ISO entity name
+-"⧞"
+"nvinfin"
+ucd:ISO entity name
+-"⧟"
+"dumap"
+ucd:ISO entity name
+-"⧠"
+"dalembrt"
+ucd:ISO entity name
+-"⧡"
+"lrtrieq"
+ucd:ISO entity name
+-"⧢"
+"shuffle"
+ucd:ISO entity name
+-"⧣"
+"eparsl"
+ucd:ISO entity name
+-"⧤"
+"smeparsl"
+ucd:ISO entity name
+-"⧥"
+"eqvparsl"
+ucd:ISO entity name
+-"⧧"
+"thermod"
+ucd:ISO entity name
+-"⧨"
+"dtrilf"
+ucd:ISO entity name
+-"⧩"
+"dtrirf"
+ucd:ISO entity name
+-"⧪"
+"diamdarr"
+ucd:ISO entity name
+-"⧫"
+"lozf"
+ucd:ISO entity name
+-"⧬"
+"cirdarr"
+ucd:ISO entity name
+-"⧭"
+"cirfdarr"
+ucd:ISO entity name
+-"⧮"
+"squerr"
+ucd:ISO entity name
+-"⧯"
+"squferr"
+ucd:ISO entity name
+-"⧰"
+"diamerr"
+ucd:ISO entity name
+-"⧱"
+"diamerrf"
+ucd:ISO entity name
+-"⧲"
+"cirerr"
+ucd:ISO entity name
+-"⧳"
+"cirferr"
+ucd:ISO entity name
+-"⧶"
+"dsol"
+ucd:ISO entity name
+-"⧷"
+"rsolbar"
+ucd:ISO entity name
+-"⧸"
+"xsol"
+ucd:ISO entity name
+-"⧹"
+"xbsol"
+ucd:ISO entity name
+-"⨀"
+"xodot"
+ucd:ISO entity name
+-"⨁"
+"xoplus"
+ucd:ISO entity name
+-"⨂"
+"xotime"
+ucd:ISO entity name
+-"⨃"
+"xcupdot"
+ucd:ISO entity name
+-"⨄"
+"xuplus"
+ucd:ISO entity name
+-"⨅"
+"xsqcap"
+ucd:ISO entity name
+-"⨆"
+"xsqcup"
+ucd:ISO entity name
+-"⨇"
+"xandand"
+ucd:ISO entity name
+-"⨈"
+"xoror"
+ucd:ISO entity name
+-"⨉"
+"xtimes"
+ucd:ISO entity name
+-"⨋"
+"sumint"
+ucd:ISO entity name
+-"⨌"
+"qint"
+ucd:ISO entity name
+-"⨍"
+"fpartint"
+ucd:ISO entity name
+-"⨎"
+"Barint"
+ucd:ISO entity name
+-"⨏"
+"slint"
+ucd:ISO entity name
+-"⨐"
+"cirfnint"
+ucd:ISO entity name
+-"⨑"
+"awint"
+ucd:ISO entity name
+-"⨒"
+"rppolint"
+ucd:ISO entity name
+-"⨓"
+"scpolint"
+ucd:ISO entity name
+-"⨔"
+"npolint"
+ucd:ISO entity name
+-"⨕"
+"pointint"
+ucd:ISO entity name
+-"⨖"
+"quatint"
+ucd:ISO entity name
+-"⨗"
+"intlarhk"
+ucd:ISO entity name
+-"⨘"
+"timeint"
+ucd:ISO entity name
+-"⨙"
+"capint"
+ucd:ISO entity name
+-"⨚"
+"cupint"
+ucd:ISO entity name
+-"⨛"
+"upint"
+ucd:ISO entity name
+-"⨜"
+"lowint"
+ucd:ISO entity name
+-"⨝"
+"Join"
+ucd:ISO entity name
+-"⨞"
+"xltri"
+ucd:ISO entity name
+-"⨢"
+"pluscir"
+ucd:ISO entity name
+-"⨣"
+"plusacir"
+ucd:ISO entity name
+-"⨤"
+"simplus"
+ucd:ISO entity name
+-"⨥"
+"plusdu"
+ucd:ISO entity name
+-"⨦"
+"plussim"
+ucd:ISO entity name
+-"⨧"
+"plustwo"
+ucd:ISO entity name
+-"⨨"
+"plustrif"
+ucd:ISO entity name
+-"⨩"
+"mcomma"
+ucd:ISO entity name
+-"⨪"
+"minusdu"
+ucd:ISO entity name
+-"⨭"
+"loplus"
+ucd:ISO entity name
+-"⨮"
+"roplus"
+ucd:ISO entity name
+-"⨯"
+"htimes"
+ucd:ISO entity name
+-"⨰"
+"timesd"
+ucd:ISO entity name
+-"⨱"
+"timesbar"
+ucd:ISO entity name
+-"⨲"
+"btimes"
+ucd:ISO entity name
+-"⨳"
+"smashp"
+ucd:ISO entity name
+-"⨴"
+"lotimes"
+ucd:ISO entity name
+-"⨵"
+"rotimes"
+ucd:ISO entity name
+-"⨶"
+"otimesas"
+ucd:ISO entity name
+-"⨷"
+"Otimes"
+ucd:ISO entity name
+-"⨸"
+"odiv"
+ucd:ISO entity name
+-"⨹"
+"triplus"
+ucd:ISO entity name
+-"⨺"
+"triminus"
+ucd:ISO entity name
+-"⨻"
+"tritime"
+ucd:ISO entity name
+-"⨼"
+"iprod"
+ucd:ISO entity name
+-"⨽"
+"iprodr"
+ucd:ISO entity name
+-"⨿"
+"amalg"
+ucd:ISO entity name
+-"⩀"
+"capdot"
+ucd:ISO entity name
+-"⩂"
+"ncup"
+ucd:ISO entity name
+-"⩃"
+"ncap"
+ucd:ISO entity name
+-"⩄"
+"capand"
+ucd:ISO entity name
+-"⩅"
+"cupor"
+ucd:ISO entity name
+-"⩆"
+"cupcap"
+ucd:ISO entity name
+-"⩇"
+"capcup"
+ucd:ISO entity name
+-"⩈"
+"cupbrcap"
+ucd:ISO entity name
+-"⩉"
+"capbrcup"
+ucd:ISO entity name
+-"⩊"
+"cupcup"
+ucd:ISO entity name
+-"⩋"
+"capcap"
+ucd:ISO entity name
+-"⩌"
+"ccups"
+ucd:ISO entity name
+-"⩍"
+"ccaps"
+ucd:ISO entity name
+-"⩐"
+"ccupssm"
+ucd:ISO entity name
+-"⩑"
+"anddot"
+ucd:ISO entity name
+-"⩒"
+"ordot"
+ucd:ISO entity name
+-"⩓"
+"And"
+ucd:ISO entity name
+-"⩔"
+"Or"
+ucd:ISO entity name
+-"⩕"
+"andand"
+ucd:ISO entity name
+-"⩖"
+"oror"
+ucd:ISO entity name
+-"⩗"
+"orslope"
+ucd:ISO entity name
+-"⩘"
+"andslope"
+ucd:ISO entity name
+-"⩚"
+"andv"
+ucd:ISO entity name
+-"⩛"
+"orv"
+ucd:ISO entity name
+-"⩜"
+"andd"
+ucd:ISO entity name
+-"⩝"
+"ord"
+ucd:ISO entity name
+-"⩞"
+"Barwed"
+ucd:ISO entity name
+-"⩟"
+"wedbar"
+ucd:ISO entity name
+-"⩠"
+"wedBar"
+ucd:ISO entity name
+-"⩢"
+"Barvee"
+ucd:ISO entity name
+-"⩣"
+"veeBar"
+ucd:ISO entity name
+-"⩦"
+"sdote"
+ucd:ISO entity name
+-"⩪"
+"simdot"
+ucd:ISO entity name
+-"⩭"
+"congdot"
+ucd:ISO entity name
+-"⩮"
+"easter"
+ucd:ISO entity name
+-"⩯"
+"apacir"
+ucd:ISO entity name
+-"⩰"
+"apE"
+ucd:ISO entity name
+-"⩱"
+"eplus"
+ucd:ISO entity name
+-"⩲"
+"pluse"
+ucd:ISO entity name
+-"⩳"
+"Esim"
+ucd:ISO entity name
+-"⩴"
+"Colone"
+ucd:ISO entity name
+-"⩵"
+"eqeq"
+ucd:ISO entity name
+-"⩷"
+"eDDot"
+ucd:ISO entity name
+-"⩸"
+"equivDD"
+ucd:ISO entity name
+-"⩹"
+"ltcir"
+ucd:ISO entity name
+-"⩺"
+"gtcir"
+ucd:ISO entity name
+-"⩻"
+"ltquest"
+ucd:ISO entity name
+-"⩼"
+"gtquest"
+ucd:ISO entity name
+-"⩽"
+"les"
+ucd:ISO entity name
+-"⩾"
+"ges"
+ucd:ISO entity name
+-"⩿"
+"lesdot"
+ucd:ISO entity name
+-"⪀"
+"gesdot"
+ucd:ISO entity name
+-"⪁"
+"lesdoto"
+ucd:ISO entity name
+-"⪂"
+"gesdoto"
+ucd:ISO entity name
+-"⪃"
+"lesdotor"
+ucd:ISO entity name
+-"⪄"
+"gesdotol"
+ucd:ISO entity name
+-"⪅"
+"lap"
+ucd:ISO entity name
+-"⪆"
+"gap"
+ucd:ISO entity name
+-"⪇"
+"lne"
+ucd:ISO entity name
+-"⪈"
+"gne"
+ucd:ISO entity name
+-"⪉"
+"lnap"
+ucd:ISO entity name
+-"⪊"
+"gnap"
+ucd:ISO entity name
+-"⪋"
+"lEg"
+ucd:ISO entity name
+-"⪌"
+"gEl"
+ucd:ISO entity name
+-"⪍"
+"lsime"
+ucd:ISO entity name
+-"⪎"
+"gsime"
+ucd:ISO entity name
+-"⪏"
+"lsimg"
+ucd:ISO entity name
+-"⪐"
+"gsiml"
+ucd:ISO entity name
+-"⪑"
+"lgE"
+ucd:ISO entity name
+-"⪒"
+"glE"
+ucd:ISO entity name
+-"⪓"
+"lesges"
+ucd:ISO entity name
+-"⪔"
+"gesles"
+ucd:ISO entity name
+-"⪕"
+"els"
+ucd:ISO entity name
+-"⪖"
+"egs"
+ucd:ISO entity name
+-"⪗"
+"elsdot"
+ucd:ISO entity name
+-"⪘"
+"egsdot"
+ucd:ISO entity name
+-"⪝"
+"siml"
+ucd:ISO entity name
+-"⪞"
+"simg"
+ucd:ISO entity name
+-"⪟"
+"simlE"
+ucd:ISO entity name
+-"⪠"
+"simgE"
+ucd:ISO entity name
+-"⪣"
+"Ltbar"
+ucd:ISO entity name
+-"⪤"
+"glj"
+ucd:ISO entity name
+-"⪥"
+"gla"
+ucd:ISO entity name
+-"⪦"
+"ltcc"
+ucd:ISO entity name
+-"⪧"
+"gtcc"
+ucd:ISO entity name
+-"⪨"
+"lescc"
+ucd:ISO entity name
+-"⪩"
+"gescc"
+ucd:ISO entity name
+-"⪪"
+"smt"
+ucd:ISO entity name
+-"⪫"
+"lat"
+ucd:ISO entity name
+-"⪬"
+"smte"
+ucd:ISO entity name
+-"⪭"
+"late"
+ucd:ISO entity name
+-"⪮"
+"bumpE"
+ucd:ISO entity name
+-"⪯"
+"pre"
+ucd:ISO entity name
+-"⪰"
+"sce"
+ucd:ISO entity name
+-"⪳"
+"prE"
+ucd:ISO entity name
+-"⪴"
+"scE"
+ucd:ISO entity name
+-"⪵"
+"prnE"
+ucd:ISO entity name
+-"⪶"
+"scnE"
+ucd:ISO entity name
+-"⪷"
+"prap"
+ucd:ISO entity name
+-"⪸"
+"scap"
+ucd:ISO entity name
+-"⪹"
+"prnap"
+ucd:ISO entity name
+-"⪺"
+"scnap"
+ucd:ISO entity name
+-"⪻"
+"Pr"
+ucd:ISO entity name
+-"⪼"
+"Sc"
+ucd:ISO entity name
+-"⪽"
+"subdot"
+ucd:ISO entity name
+-"⪾"
+"supdot"
+ucd:ISO entity name
+-"⪿"
+"subplus"
+ucd:ISO entity name
+-"⫀"
+"supplus"
+ucd:ISO entity name
+-"⫁"
+"submult"
+ucd:ISO entity name
+-"⫂"
+"supmult"
+ucd:ISO entity name
+-"⫃"
+"subedot"
+ucd:ISO entity name
+-"⫄"
+"supedot"
+ucd:ISO entity name
+-"⫅"
+"subE"
+ucd:ISO entity name
+-"⫆"
+"supE"
+ucd:ISO entity name
+-"⫇"
+"subsim"
+ucd:ISO entity name
+-"⫈"
+"supsim"
+ucd:ISO entity name
+-"⫋"
+"subnE"
+ucd:ISO entity name
+-"⫌"
+"supnE"
+ucd:ISO entity name
+-"⫏"
+"csub"
+ucd:ISO entity name
+-"⫐"
+"csup"
+ucd:ISO entity name
+-"⫑"
+"csube"
+ucd:ISO entity name
+-"⫒"
+"csupe"
+ucd:ISO entity name
+-"⫓"
+"subsup"
+ucd:ISO entity name
+-"⫔"
+"supsub"
+ucd:ISO entity name
+-"⫕"
+"subsub"
+ucd:ISO entity name
+-"⫖"
+"supsup"
+ucd:ISO entity name
+-"⫗"
+"suphsub"
+ucd:ISO entity name
+-"⫘"
+"supdsub"
+ucd:ISO entity name
+-"⫙"
+"forkv"
+ucd:ISO entity name
+-"⫚"
+"topfork"
+ucd:ISO entity name
+-"⫛"
+"mlcp"
+ucd:ISO entity name
+-"⫢"
+"vDdash"
+ucd:ISO entity name
+-"⫣"
+"dashV"
+ucd:ISO entity name
+-"⫤"
+"Dashv"
+ucd:ISO entity name
+-"⫦"
+"Vdashl"
+ucd:ISO entity name
+-"⫧"
+"Barv"
+ucd:ISO entity name
+-"⫨"
+"vBar"
+ucd:ISO entity name
+-"⫩"
+"vBarv"
+ucd:ISO entity name
+-"⫪"
+"barV"
+ucd:ISO entity name
+-"⫫"
+"Vbar"
+ucd:ISO entity name
+-"⫬"
+"Not"
+ucd:ISO entity name
+-"⫭"
+"bNot"
+ucd:ISO entity name
+-"⫮"
+"rnmid"
+ucd:ISO entity name
+-"⫯"
+"cirmid"
+ucd:ISO entity name
+-"⫰"
+"midcir"
+ucd:ISO entity name
+-"⫱"
+"topcir"
+ucd:ISO entity name
+-"⫲"
+"nhpar"
+ucd:ISO entity name
+-"⫳"
+"parsim"
+ucd:ISO entity name
+-"⫴"
+"vert3"
+ucd:ISO entity name
+-"⫶"
+"vellipv"
+ucd:ISO entity name
+-"⫽"
+"parsl"
+ucd:ISO entity name
+-"⬒"
+"squarft?"
+ucd:ISO entity name
+-"⬓"
+"squarfb?"
+ucd:ISO entity name
+-"⬔"
+"squarftr"
+ucd:ISO entity name
+-"⬕"
+"squarfbl"
+ucd:ISO entity name
+-"⬖"
+"diamonfl"
+ucd:ISO entity name
+-"⬗"
+"diamonfr"
+ucd:ISO entity name
+-"⬘"
+"diamonft"
+ucd:ISO entity name
+-"⬙"
+"diamonfb"
+ucd:ISO entity name
+-"⬡"
+"benzen"
+ucd:ISO entity name
+-"𝒜"
+"Ascr"
+ucd:ISO entity name
+-"𝒞"
+"Cscr"
+ucd:ISO entity name
+-"𝒟"
+"Dscr"
+ucd:ISO entity name
+-"𝒢"
+"Gscr"
+ucd:ISO entity name
+-"𝒥"
+"Jscr"
+ucd:ISO entity name
+-"𝒦"
+"Kscr"
+ucd:ISO entity name
+-"𝒩"
+"Nscr"
+ucd:ISO entity name
+-"𝒪"
+"Oscr"
+ucd:ISO entity name
+-"𝒫"
+"Pscr"
+ucd:ISO entity name
+-"𝒬"
+"Qscr"
+ucd:ISO entity name
+-"𝒮"
+"Sscr"
+ucd:ISO entity name
+-"𝒯"
+"Tscr"
+ucd:ISO entity name
+-"𝒰"
+"Uscr"
+ucd:ISO entity name
+-"𝒱"
+"Vscr"
+ucd:ISO entity name
+-"𝒲"
+"Wscr"
+ucd:ISO entity name
+-"𝒳"
+"Xscr"
+ucd:ISO entity name
+-"𝒴"
+"Yscr"
+ucd:ISO entity name
+-"𝒵"
+"Zscr"
+ucd:ISO entity name
+-"𝒶"
+"ascr"
+ucd:ISO entity name
+-"𝒷"
+"bscr"
+ucd:ISO entity name
+-"𝒸"
+"cscr"
+ucd:ISO entity name
+-"𝒹"
+"dscr"
+ucd:ISO entity name
+-"𝒻"
+"fscr"
+ucd:ISO entity name
+-"𝒽"
+"hscr"
+ucd:ISO entity name
+-"𝒾"
+"iscr"
+ucd:ISO entity name
+-"𝒿"
+"jscr"
+ucd:ISO entity name
+-"𝓀"
+"kscr"
+ucd:ISO entity name
+-"𝓁"
+"lscr"
+ucd:ISO entity name
+-"𝓂"
+"mscr"
+ucd:ISO entity name
+-"𝓃"
+"nscr"
+ucd:ISO entity name
+-"𝓅"
+"pscr"
+ucd:ISO entity name
+-"𝓆"
+"qscr"
+ucd:ISO entity name
+-"𝓇"
+"rscr"
+ucd:ISO entity name
+-"𝓈"
+"sscr"
+ucd:ISO entity name
+-"𝓉"
+"tscr"
+ucd:ISO entity name
+-"𝓊"
+"uscr"
+ucd:ISO entity name
+-"𝓋"
+"vscr"
+ucd:ISO entity name
+-"𝓌"
+"wscr"
+ucd:ISO entity name
+-"𝓍"
+"xscr"
+ucd:ISO entity name
+-"𝓎"
+"yscr"
+ucd:ISO entity name
+-"𝓏"
+"zscr"
+ucd:ISO entity name
+-"𝔄"
+"Afr"
+ucd:ISO entity name
+-"𝔅"
+"Bfr"
+ucd:ISO entity name
+-"𝔇"
+"Dfr"
+ucd:ISO entity name
+-"𝔈"
+"Efr"
+ucd:ISO entity name
+-"𝔉"
+"Ffr"
+ucd:ISO entity name
+-"𝔊"
+"Gfr"
+ucd:ISO entity name
+-"𝔍"
+"Jfr"
+ucd:ISO entity name
+-"𝔎"
+"Kfr"
+ucd:ISO entity name
+-"𝔏"
+"Lfr"
+ucd:ISO entity name
+-"𝔐"
+"Mfr"
+ucd:ISO entity name
+-"𝔑"
+"Nfr"
+ucd:ISO entity name
+-"𝔒"
+"Ofr"
+ucd:ISO entity name
+-"𝔓"
+"Pfr"
+ucd:ISO entity name
+-"𝔔"
+"Qfr"
+ucd:ISO entity name
+-"𝔖"
+"Sfr"
+ucd:ISO entity name
+-"𝔗"
+"Tfr"
+ucd:ISO entity name
+-"𝔘"
+"Ufr"
+ucd:ISO entity name
+-"𝔙"
+"Vfr"
+ucd:ISO entity name
+-"𝔚"
+"Wfr"
+ucd:ISO entity name
+-"𝔛"
+"Xfr"
+ucd:ISO entity name
+-"𝔜"
+"Yfr"
+ucd:ISO entity name
+-"𝔞"
+"afr"
+ucd:ISO entity name
+-"𝔟"
+"bfr"
+ucd:ISO entity name
+-"𝔠"
+"cfr"
+ucd:ISO entity name
+-"𝔡"
+"dfr"
+ucd:ISO entity name
+-"𝔢"
+"efr"
+ucd:ISO entity name
+-"𝔣"
+"ffr"
+ucd:ISO entity name
+-"𝔤"
+"gfr"
+ucd:ISO entity name
+-"𝔥"
+"hfr"
+ucd:ISO entity name
+-"𝔦"
+"ifr"
+ucd:ISO entity name
+-"𝔧"
+"jfr"
+ucd:ISO entity name
+-"𝔨"
+"kfr"
+ucd:ISO entity name
+-"𝔩"
+"lfr"
+ucd:ISO entity name
+-"𝔪"
+"mfr"
+ucd:ISO entity name
+-"𝔫"
+"nfr"
+ucd:ISO entity name
+-"𝔬"
+"ofr"
+ucd:ISO entity name
+-"𝔭"
+"pfr"
+ucd:ISO entity name
+-"𝔮"
+"qfr"
+ucd:ISO entity name
+-"𝔯"
+"rfr"
+ucd:ISO entity name
+-"𝔰"
+"sfr"
+ucd:ISO entity name
+-"𝔱"
+"tfr"
+ucd:ISO entity name
+-"𝔲"
+"ufr"
+ucd:ISO entity name
+-"𝔳"
+"vfr"
+ucd:ISO entity name
+-"𝔴"
+"wfr"
+ucd:ISO entity name
+-"𝔵"
+"xfr"
+ucd:ISO entity name
+-"𝔶"
+"yfr"
+ucd:ISO entity name
+-"𝔷"
+"zfr"
+ucd:ISO entity name
+-"𝔸"
+"Aopf"
+ucd:ISO entity name
+-"𝔹"
+"Bopf"
+ucd:ISO entity name
+-"𝔻"
+"Dopf"
+ucd:ISO entity name
+-"𝔼"
+"Eopf"
+ucd:ISO entity name
+-"𝔽"
+"Fopf"
+ucd:ISO entity name
+-"𝔾"
+"Gopf"
+ucd:ISO entity name
+-"𝕀"
+"Iopf"
+ucd:ISO entity name
+-"𝕁"
+"Jopf"
+ucd:ISO entity name
+-"𝕂"
+"Kopf"
+ucd:ISO entity name
+-"𝕃"
+"Lopf"
+ucd:ISO entity name
+-"𝕄"
+"Mopf"
+ucd:ISO entity name
+-"𝕆"
+"Oopf"
+ucd:ISO entity name
+-"𝕊"
+"Sopf"
+ucd:ISO entity name
+-"𝕋"
+"Topf"
+ucd:ISO entity name
+-"𝕌"
+"Uopf"
+ucd:ISO entity name
+-"𝕍"
+"Vopf"
+ucd:ISO entity name
+-"𝕎"
+"Wopf"
+ucd:ISO entity name
+-"𝕏"
+"Xopf"
+ucd:ISO entity name
+-"𝕐"
+"Yopf"
+ucd:ISO entity name
+-"𝕒"
+"aopf"
+ucd:ISO entity name
+-"𝕓"
+"bopf"
+ucd:ISO entity name
+-"𝕔"
+"copf"
+ucd:ISO entity name
+-"𝕕"
+"dopf"
+ucd:ISO entity name
+-"𝕖"
+"eopf"
+ucd:ISO entity name
+-"𝕗"
+"fopf"
+ucd:ISO entity name
+-"𝕘"
+"gopf"
+ucd:ISO entity name
+-"𝕙"
+"hopf"
+ucd:ISO entity name
+-"𝕚"
+"iopf"
+ucd:ISO entity name
+-"𝕛"
+"jopf"
+ucd:ISO entity name
+-"𝕜"
+"kopf"
+ucd:ISO entity name
+-"𝕝"
+"lopf"
+ucd:ISO entity name
+-"𝕞"
+"mopf"
+ucd:ISO entity name
+-"𝕟"
+"nopf"
+ucd:ISO entity name
+-"𝕠"
+"oopf"
+ucd:ISO entity name
+-"𝕡"
+"popf"
+ucd:ISO entity name
+-"𝕢"
+"qopf"
+ucd:ISO entity name
+-"𝕣"
+"ropf"
+ucd:ISO entity name
+-"𝕤"
+"sopf"
+ucd:ISO entity name
+-"𝕥"
+"topf"
+ucd:ISO entity name
+-"𝕦"
+"uopf"
+ucd:ISO entity name
+-"𝕧"
+"vopf"
+ucd:ISO entity name
+-"𝕨"
+"wopf"
+ucd:ISO entity name
+-"𝕩"
+"xopf"
+ucd:ISO entity name
+-"𝕪"
+"yopf"
+ucd:ISO entity name
+-"𝕫"
+"zopf"
+ucd:ISO entity name
+-"𝟊"
+"b.Gammad"
+ucd:ISO entity name
+-"𝟋"
+"b.gammad"
+ucd:ISO entity name
 *hans
 -":cns-old-14-1-1"
 ":cns3-1-1"
@@ -27102,6 +30693,450 @@ cns11643:moved
 -":cns-old-14-66-9"
 ":cns3-66-9"
 cns11643:moved
+-":cns-old-14-68-40"
+":cns3-68-40"
+cns11643:moved
+-":cns-old-14-68-41"
+":cns3-68-41"
+cns11643:moved
+-":cns-old-14-68-42"
+":cns3-68-42"
+cns11643:moved
+-":cns-old-14-68-43"
+":cns3-68-43"
+cns11643:moved
+-":cns-old-14-68-45"
+":cns3-68-45"
+cns11643:moved
+-":cns-old-14-68-46"
+":cns3-68-46"
+cns11643:moved
+-":cns-old-14-68-47"
+":cns3-68-47"
+cns11643:moved
+-":cns-old-14-68-48"
+":cns3-68-48"
+cns11643:moved
+-":cns-old-14-68-49"
+":cns3-68-49"
+cns11643:moved
+-":cns-old-14-68-50"
+":cns3-68-50"
+cns11643:moved
+-":cns-old-14-68-51"
+":cns3-68-51"
+cns11643:moved
+-":cns-old-14-68-52"
+":cns3-68-52"
+cns11643:moved
+-":cns-old-14-68-53"
+":cns3-68-53"
+cns11643:moved
+-":cns-old-14-68-54"
+":cns3-68-54"
+cns11643:moved
+-":cns-old-14-68-55"
+":cns3-68-55"
+cns11643:moved
+-":cns-old-14-68-56"
+":cns3-68-56"
+cns11643:moved
+-":cns-old-14-68-57"
+":cns3-68-57"
+cns11643:moved
+-":cns-old-14-68-58"
+":cns3-68-58"
+cns11643:moved
+-":cns-old-14-68-59"
+":cns3-68-59"
+cns11643:moved
+-":cns-old-14-68-60"
+":cns3-68-60"
+cns11643:moved
+-":cns-old-14-68-61"
+":cns3-68-61"
+cns11643:moved
+-":cns-old-14-68-62"
+":cns3-68-62"
+cns11643:moved
+-":cns-old-14-68-63"
+":cns3-68-63"
+cns11643:moved
+-":cns-old-14-68-64"
+":cns3-68-64"
+cns11643:moved
+-":cns-old-14-68-65"
+":cns3-68-65"
+cns11643:moved
+-":cns-old-14-68-66"
+":cns3-68-66"
+cns11643:moved
+-":cns-old-14-68-67"
+":cns3-68-67"
+cns11643:moved
+-":cns-old-14-68-68"
+":cns3-68-68"
+cns11643:moved
+-":cns-old-14-68-69"
+":cns3-68-69"
+cns11643:moved
+-":cns-old-14-68-70"
+":cns3-68-70"
+cns11643:moved
+-":cns-old-14-68-71"
+":cns3-68-71"
+cns11643:moved
+-":cns-old-14-68-72"
+":cns3-68-72"
+cns11643:moved
+-":cns-old-14-68-73"
+":cns3-68-73"
+cns11643:moved
+-":cns-old-14-68-74"
+":cns3-68-74"
+cns11643:moved
+-":cns-old-14-68-75"
+":cns3-68-75"
+cns11643:moved
+-":cns-old-14-68-76"
+":cns3-68-76"
+cns11643:moved
+-":cns-old-14-68-77"
+":cns3-68-77"
+cns11643:moved
+-":cns-old-14-68-78"
+":cns3-68-78"
+cns11643:moved
+-":cns-old-14-68-79"
+":cns3-68-79"
+cns11643:moved
+-":cns-old-14-68-80"
+":cns3-68-80"
+cns11643:moved
+-":cns-old-14-68-81"
+":cns3-68-81"
+cns11643:moved
+-":cns-old-14-68-82"
+":cns3-68-82"
+cns11643:moved
+-":cns-old-14-68-83"
+":cns3-68-83"
+cns11643:moved
+-":cns-old-14-68-84"
+":cns3-68-84"
+cns11643:moved
+-":cns-old-14-68-85"
+":cns3-68-85"
+cns11643:moved
+-":cns-old-14-68-86"
+":cns3-68-86"
+cns11643:moved
+-":cns-old-14-68-87"
+":cns3-68-87"
+cns11643:moved
+-":cns-old-14-68-88"
+":cns3-68-88"
+cns11643:moved
+-":cns-old-14-68-89"
+":cns3-68-89"
+cns11643:moved
+-":cns-old-14-68-90"
+":cns3-68-90"
+cns11643:moved
+-":cns-old-14-68-91"
+":cns3-68-91"
+cns11643:moved
+-":cns-old-14-68-92"
+":cns3-68-92"
+cns11643:moved
+-":cns-old-14-68-93"
+":cns3-68-93"
+cns11643:moved
+-":cns-old-14-68-94"
+":cns3-68-94"
+cns11643:moved
+-":cns-old-14-69-1"
+":cns3-69-1"
+cns11643:moved
+-":cns-old-14-69-10"
+":cns3-69-10"
+cns11643:moved
+-":cns-old-14-69-11"
+":cns3-69-11"
+cns11643:moved
+-":cns-old-14-69-12"
+":cns3-69-12"
+cns11643:moved
+-":cns-old-14-69-13"
+":cns3-69-13"
+cns11643:moved
+-":cns-old-14-69-14"
+":cns3-69-14"
+cns11643:moved
+-":cns-old-14-69-15"
+":cns3-69-15"
+cns11643:moved
+-":cns-old-14-69-16"
+":cns3-69-16"
+cns11643:moved
+-":cns-old-14-69-17"
+":cns3-69-17"
+cns11643:moved
+-":cns-old-14-69-18"
+":cns3-69-18"
+cns11643:moved
+-":cns-old-14-69-19"
+":cns3-69-19"
+cns11643:moved
+-":cns-old-14-69-2"
+":cns3-69-2"
+cns11643:moved
+-":cns-old-14-69-20"
+":cns3-69-20"
+cns11643:moved
+-":cns-old-14-69-21"
+":cns3-69-21"
+cns11643:moved
+-":cns-old-14-69-22"
+":cns3-69-22"
+cns11643:moved
+-":cns-old-14-69-23"
+":cns3-69-23"
+cns11643:moved
+-":cns-old-14-69-24"
+":cns3-69-24"
+cns11643:moved
+-":cns-old-14-69-25"
+":cns3-69-25"
+cns11643:moved
+-":cns-old-14-69-26"
+":cns3-69-26"
+cns11643:moved
+-":cns-old-14-69-27"
+":cns3-69-27"
+cns11643:moved
+-":cns-old-14-69-28"
+":cns3-69-28"
+cns11643:moved
+-":cns-old-14-69-29"
+":cns3-69-29"
+cns11643:moved
+-":cns-old-14-69-3"
+":cns3-69-3"
+cns11643:moved
+-":cns-old-14-69-30"
+":cns3-69-30"
+cns11643:moved
+-":cns-old-14-69-31"
+":cns3-69-31"
+cns11643:moved
+-":cns-old-14-69-32"
+":cns3-69-32"
+cns11643:moved
+-":cns-old-14-69-33"
+":cns3-69-33"
+cns11643:moved
+-":cns-old-14-69-34"
+":cns3-69-34"
+cns11643:moved
+-":cns-old-14-69-35"
+":cns3-69-35"
+cns11643:moved
+-":cns-old-14-69-36"
+":cns3-69-36"
+cns11643:moved
+-":cns-old-14-69-37"
+":cns3-69-37"
+cns11643:moved
+-":cns-old-14-69-38"
+":cns3-69-38"
+cns11643:moved
+-":cns-old-14-69-39"
+":cns3-69-39"
+cns11643:moved
+-":cns-old-14-69-4"
+":cns3-69-4"
+cns11643:moved
+-":cns-old-14-69-40"
+":cns3-69-40"
+cns11643:moved
+-":cns-old-14-69-41"
+":cns3-69-41"
+cns11643:moved
+-":cns-old-14-69-42"
+":cns3-69-42"
+cns11643:moved
+-":cns-old-14-69-43"
+":cns3-69-43"
+cns11643:moved
+-":cns-old-14-69-44"
+":cns3-69-44"
+cns11643:moved
+-":cns-old-14-69-45"
+":cns3-69-45"
+cns11643:moved
+-":cns-old-14-69-46"
+":cns3-69-46"
+cns11643:moved
+-":cns-old-14-69-47"
+":cns3-69-47"
+cns11643:moved
+-":cns-old-14-69-48"
+":cns3-69-48"
+cns11643:moved
+-":cns-old-14-69-49"
+":cns3-69-49"
+cns11643:moved
+-":cns-old-14-69-5"
+":cns3-69-5"
+cns11643:moved
+-":cns-old-14-69-50"
+":cns3-69-50"
+cns11643:moved
+-":cns-old-14-69-51"
+":cns3-69-51"
+cns11643:moved
+-":cns-old-14-69-52"
+":cns3-69-52"
+cns11643:moved
+-":cns-old-14-69-53"
+":cns3-69-53"
+cns11643:moved
+-":cns-old-14-69-54"
+":cns3-69-54"
+cns11643:moved
+-":cns-old-14-69-55"
+":cns3-69-55"
+cns11643:moved
+-":cns-old-14-69-56"
+":cns3-69-56"
+cns11643:moved
+-":cns-old-14-69-57"
+":cns3-69-57"
+cns11643:moved
+-":cns-old-14-69-58"
+":cns3-69-58"
+cns11643:moved
+-":cns-old-14-69-59"
+":cns3-69-59"
+cns11643:moved
+-":cns-old-14-69-6"
+":cns3-69-6"
+cns11643:moved
+-":cns-old-14-69-60"
+":cns3-69-60"
+cns11643:moved
+-":cns-old-14-69-61"
+":cns3-69-61"
+cns11643:moved
+-":cns-old-14-69-62"
+":cns3-69-62"
+cns11643:moved
+-":cns-old-14-69-63"
+":cns3-69-63"
+cns11643:moved
+-":cns-old-14-69-64"
+":cns3-69-64"
+cns11643:moved
+-":cns-old-14-69-65"
+":cns3-69-65"
+cns11643:moved
+-":cns-old-14-69-66"
+":cns3-69-66"
+cns11643:moved
+-":cns-old-14-69-67"
+":cns3-69-67"
+cns11643:moved
+-":cns-old-14-69-68"
+":cns3-69-68"
+cns11643:moved
+-":cns-old-14-69-69"
+":cns3-69-69"
+cns11643:moved
+-":cns-old-14-69-7"
+":cns3-69-7"
+cns11643:moved
+-":cns-old-14-69-70"
+":cns3-69-70"
+cns11643:moved
+-":cns-old-14-69-71"
+":cns3-69-71"
+cns11643:moved
+-":cns-old-14-69-72"
+":cns3-69-72"
+cns11643:moved
+-":cns-old-14-69-73"
+":cns3-69-73"
+cns11643:moved
+-":cns-old-14-69-74"
+":cns3-69-74"
+cns11643:moved
+-":cns-old-14-69-75"
+":cns3-69-75"
+cns11643:moved
+-":cns-old-14-69-76"
+":cns3-69-76"
+cns11643:moved
+-":cns-old-14-69-77"
+":cns3-69-77"
+cns11643:moved
+-":cns-old-14-69-78"
+":cns3-69-78"
+cns11643:moved
+-":cns-old-14-69-79"
+":cns3-69-79"
+cns11643:moved
+-":cns-old-14-69-8"
+":cns3-69-8"
+cns11643:moved
+-":cns-old-14-69-80"
+":cns3-69-80"
+cns11643:moved
+-":cns-old-14-69-81"
+":cns3-69-81"
+cns11643:moved
+-":cns-old-14-69-82"
+":cns3-69-82"
+cns11643:moved
+-":cns-old-14-69-83"
+":cns3-69-83"
+cns11643:moved
+-":cns-old-14-69-84"
+":cns3-69-84"
+cns11643:moved
+-":cns-old-14-69-85"
+":cns3-69-85"
+cns11643:moved
+-":cns-old-14-69-86"
+":cns3-69-86"
+cns11643:moved
+-":cns-old-14-69-87"
+":cns3-69-87"
+cns11643:moved
+-":cns-old-14-69-88"
+":cns3-69-88"
+cns11643:moved
+-":cns-old-14-69-89"
+":cns3-69-89"
+cns11643:moved
+-":cns-old-14-69-9"
+":cns3-69-9"
+cns11643:moved
+-":cns-old-14-69-90"
+":cns3-69-90"
+cns11643:moved
+-":cns-old-14-69-91"
+":cns3-69-91"
+cns11643:moved
+-":cns-old-14-69-92"
+":cns3-69-92"
+cns11643:moved
+-":cns-old-14-69-93"
+":cns3-69-93"
+cns11643:moved
+-":cns-old-14-69-94"
+":cns3-69-94"
+cns11643:moved
 -":cns-old-14-7-1"
 ":cns3-7-1"
 cns11643:moved
@@ -27308,6 +31343,303 @@ cns11643:moved
 cns11643:moved
 -":cns-old-14-7-93"
 ":cns3-7-93"
+cns11643:moved
+-":cns-old-14-70-1"
+":cns3-70-1"
+cns11643:moved
+-":cns-old-14-70-10"
+":cns3-70-10"
+cns11643:moved
+-":cns-old-14-70-11"
+":cns3-70-11"
+cns11643:moved
+-":cns-old-14-70-12"
+":cns3-70-12"
+cns11643:moved
+-":cns-old-14-70-13"
+":cns3-70-13"
+cns11643:moved
+-":cns-old-14-70-15"
+":cns3-70-15"
+cns11643:moved
+-":cns-old-14-70-16"
+":cns3-70-16"
+cns11643:moved
+-":cns-old-14-70-17"
+":cns3-70-17"
+cns11643:moved
+-":cns-old-14-70-18"
+":cns3-70-18"
+cns11643:moved
+-":cns-old-14-70-19"
+":cns3-70-19"
+cns11643:moved
+-":cns-old-14-70-2"
+":cns3-70-2"
+cns11643:moved
+-":cns-old-14-70-20"
+":cns3-70-20"
+cns11643:moved
+-":cns-old-14-70-21"
+":cns3-70-21"
+cns11643:moved
+-":cns-old-14-70-22"
+":cns3-70-22"
+cns11643:moved
+-":cns-old-14-70-23"
+":cns3-70-23"
+cns11643:moved
+-":cns-old-14-70-24"
+":cns3-70-24"
+cns11643:moved
+-":cns-old-14-70-25"
+":cns3-70-25"
+cns11643:moved
+-":cns-old-14-70-26"
+":cns3-70-26"
+cns11643:moved
+-":cns-old-14-70-27"
+":cns3-70-27"
+cns11643:moved
+-":cns-old-14-70-28"
+":cns3-70-28"
+cns11643:moved
+-":cns-old-14-70-29"
+":cns3-70-29"
+cns11643:moved
+-":cns-old-14-70-3"
+":cns3-70-3"
+cns11643:moved
+-":cns-old-14-70-30"
+":cns3-70-30"
+cns11643:moved
+-":cns-old-14-70-31"
+":cns3-70-31"
+cns11643:moved
+-":cns-old-14-70-32"
+":cns3-70-32"
+cns11643:moved
+-":cns-old-14-70-33"
+":cns3-70-33"
+cns11643:moved
+-":cns-old-14-70-34"
+":cns3-70-34"
+cns11643:moved
+-":cns-old-14-70-35"
+":cns3-70-35"
+cns11643:moved
+-":cns-old-14-70-36"
+":cns3-70-36"
+cns11643:moved
+-":cns-old-14-70-37"
+":cns3-70-37"
+cns11643:moved
+-":cns-old-14-70-38"
+":cns3-70-38"
+cns11643:moved
+-":cns-old-14-70-39"
+":cns3-70-39"
+cns11643:moved
+-":cns-old-14-70-4"
+":cns3-70-4"
+cns11643:moved
+-":cns-old-14-70-40"
+":cns3-70-40"
+cns11643:moved
+-":cns-old-14-70-41"
+":cns3-70-41"
+cns11643:moved
+-":cns-old-14-70-42"
+":cns3-70-42"
+cns11643:moved
+-":cns-old-14-70-43"
+":cns3-70-43"
+cns11643:moved
+-":cns-old-14-70-44"
+":cns3-70-44"
+cns11643:moved
+-":cns-old-14-70-45"
+":cns3-70-45"
+cns11643:moved
+-":cns-old-14-70-46"
+":cns3-70-46"
+cns11643:moved
+-":cns-old-14-70-47"
+":cns3-70-47"
+cns11643:moved
+-":cns-old-14-70-48"
+":cns3-70-48"
+cns11643:moved
+-":cns-old-14-70-49"
+":cns3-70-49"
+cns11643:moved
+-":cns-old-14-70-5"
+":cns3-70-5"
+cns11643:moved
+-":cns-old-14-70-50"
+":cns3-70-50"
+cns11643:moved
+-":cns-old-14-70-51"
+":cns3-70-51"
+cns11643:moved
+-":cns-old-14-70-52"
+":cns3-70-52"
+cns11643:moved
+-":cns-old-14-70-53"
+":cns3-70-53"
+cns11643:moved
+-":cns-old-14-70-55"
+":cns3-70-55"
+cns11643:moved
+-":cns-old-14-70-56"
+":cns3-70-56"
+cns11643:moved
+-":cns-old-14-70-57"
+":cns3-70-57"
+cns11643:moved
+-":cns-old-14-70-58"
+":cns3-70-58"
+cns11643:moved
+-":cns-old-14-70-59"
+":cns3-70-59"
+cns11643:moved
+-":cns-old-14-70-6"
+":cns3-70-6"
+cns11643:moved
+-":cns-old-14-70-60"
+":cns3-70-60"
+cns11643:moved
+-":cns-old-14-70-61"
+":cns3-70-61"
+cns11643:moved
+-":cns-old-14-70-62"
+":cns3-70-62"
+cns11643:moved
+-":cns-old-14-70-63"
+":cns3-70-63"
+cns11643:moved
+-":cns-old-14-70-64"
+":cns3-70-64"
+cns11643:moved
+-":cns-old-14-70-65"
+":cns3-70-65"
+cns11643:moved
+-":cns-old-14-70-66"
+":cns3-70-66"
+cns11643:moved
+-":cns-old-14-70-67"
+":cns3-70-67"
+cns11643:moved
+-":cns-old-14-70-68"
+":cns3-70-68"
+cns11643:moved
+-":cns-old-14-70-69"
+":cns3-70-69"
+cns11643:moved
+-":cns-old-14-70-7"
+":cns3-70-7"
+cns11643:moved
+-":cns-old-14-70-70"
+":cns3-70-70"
+cns11643:moved
+-":cns-old-14-70-71"
+":cns3-70-71"
+cns11643:moved
+-":cns-old-14-70-72"
+":cns3-70-72"
+cns11643:moved
+-":cns-old-14-70-73"
+":cns3-70-73"
+cns11643:moved
+-":cns-old-14-70-74"
+":cns3-70-74"
+cns11643:moved
+-":cns-old-14-70-75"
+":cns3-70-75"
+cns11643:moved
+-":cns-old-14-70-76"
+":cns3-70-76"
+cns11643:moved
+-":cns-old-14-70-77"
+":cns3-70-77"
+cns11643:moved
+-":cns-old-14-70-78"
+":cns3-70-78"
+cns11643:moved
+-":cns-old-14-70-79"
+":cns3-70-79"
+cns11643:moved
+-":cns-old-14-70-8"
+":cns3-70-8"
+cns11643:moved
+-":cns-old-14-70-80"
+":cns3-70-80"
+cns11643:moved
+-":cns-old-14-70-81"
+":cns3-70-81"
+cns11643:moved
+-":cns-old-14-70-82"
+":cns3-70-82"
+cns11643:moved
+-":cns-old-14-70-83"
+":cns3-70-83"
+cns11643:moved
+-":cns-old-14-70-85"
+":cns3-70-85"
+cns11643:moved
+-":cns-old-14-70-86"
+":cns3-70-86"
+cns11643:moved
+-":cns-old-14-70-87"
+":cns3-70-87"
+cns11643:moved
+-":cns-old-14-70-88"
+":cns3-70-88"
+cns11643:moved
+-":cns-old-14-70-89"
+":cns3-70-89"
+cns11643:moved
+-":cns-old-14-70-9"
+":cns3-70-9"
+cns11643:moved
+-":cns-old-14-70-90"
+":cns3-70-90"
+cns11643:moved
+-":cns-old-14-70-91"
+":cns3-70-91"
+cns11643:moved
+-":cns-old-14-70-92"
+":cns3-70-92"
+cns11643:moved
+-":cns-old-14-71-1"
+":cns3-71-1"
+cns11643:moved
+-":cns-old-14-71-10"
+":cns3-71-10"
+cns11643:moved
+-":cns-old-14-71-2"
+":cns3-71-2"
+cns11643:moved
+-":cns-old-14-71-3"
+":cns3-71-3"
+cns11643:moved
+-":cns-old-14-71-4"
+":cns3-71-4"
+cns11643:moved
+-":cns-old-14-71-5"
+":cns3-71-5"
+cns11643:moved
+-":cns-old-14-71-6"
+":cns3-71-6"
+cns11643:moved
+-":cns-old-14-71-7"
+":cns3-71-7"
+cns11643:moved
+-":cns-old-14-71-8"
+":cns3-71-8"
+cns11643:moved
+-":cns-old-14-71-9"
+":cns3-71-9"
 cns11643:moved
 -":cns-old-14-8-1"
 ":cns3-8-1"

@@ -17,7 +17,7 @@
     {"path": "../wiki/maps-4.list", "rels_key": "glyphs"},
     {"path": "../wiki/maps-5.list", "rels_key": "glyphs"},
 
-    {"path": "../..//local/generated/charrels/codes/codes.list", "rels_key": "glyphs"}
+    {"path": "../../local/maps/codes.list", "rels_key": "glyphs"}
   ],
   "leader_types": [
   ],

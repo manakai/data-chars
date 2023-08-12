@@ -1,6 +1,7 @@
 ROOT_PATH = ../..
 VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 TEMP_PATH = $(ROOT_PATH)/local/iwm
+DATA_PATH = $(ROOT_PATH)/local/maps
 PERL = $(ROOT_PATH)/perl \
     -I$(ROOT_PATH)/bin/modules/json-ps/lib \
     -I$(ROOT_PATH)/bin/modules/web-encodings/lib -I$(VGEN_PATH)
@@ -9,10 +10,15 @@ SAVEURL = $(WGET) -O
 
 all: build
 
+build: $(TEMP_PATH) variants.list maps.list sets.json build-pages
+
 build-nightly: build
 
-build: variants.list maps.list sets.json \
-    $(ROOT_PATH)/local/generated/charrels/codes/codes.list
+build-pages: $(TEMP_PATH) \
+    $(DATA_PATH)/codes.list
+
+$(TEMP_PATH):
+	mkdir -p $@
 
 $(TEMP_PATH)/dict.ts:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/geolonia/normalize-japanese-addresses/master/src/lib/dict.ts
@@ -40,8 +46,8 @@ sets.json: sets.pl $(VGEN_PATH)/chars.pl \
     $(ROOT_PATH)/data/sets.json
 	$(PERL) $< > $@
 
-$(ROOT_PATH)/local/generated/charrels/codes/codes.list: codes.pl $(VGEN_PATH)/chars.pl
-	mkdir -p $(ROOT_PATH)/local/generated/charrels/codes
+$(DATA_PATH)/codes.list: codes.pl $(VGEN_PATH)/chars.pl
+	mkdir -p $(DATA_PATH)
 	$(PERL) $< > $@
 
 ## License: Public Domain.

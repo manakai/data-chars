@@ -68,6 +68,11 @@ $(TEMP_PATH)/akr9.fea:
 $(TEMP_PATH)/akr9-hangul.txt:
 	$(SAVEURL) $@ https://github.com/adobe-type-tools/Adobe-KR/raw/master/akr9-hangul.txt
 
+$(TEMP_PATH)/aglfn.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/agl-aglfn/master/aglfn.txt
+$(TEMP_PATH)/glyphlist.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/agl-aglfn/master/glyphlist.txt
+
 $(TEMP_PATH)/opentype.js:
 	$(SAVEURL) $@ https://data.suikawiki.org/js/opentype.js
 $(TEMP_PATH)/dumpotf.js: dumpotf.js
@@ -92,8 +97,10 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/aj17.fea \
     $(TEMP_PATH)/akr9.fea \
     $(TEMP_PATH)/akr9-hangul.txt \
+    $(TEMP_PATH)/aglfn.txt \
+    $(TEMP_PATH)/glyphlist.txt \
     $(TEMP_PATH)/KiriMinL-dump.json
-	$(PERL) $< > $@
+	$(PERL) $<
 maps-*.list: maps-0.list
 
 

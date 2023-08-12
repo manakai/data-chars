@@ -1,0 +1,13 @@
+* Droid Sans data files
+
+Some of data in this directory are derived from Droid Sans, with or
+without modifications.
+
+<https://github.com/aosp-mirror/platform_frameworks_base/tree/master/data/fonts>:
+
+> This directory contains the fonts for the platform. They are licensed
+> under the Apache 2 license.
+
+<https://github.com/jenskutilek/free-fonts/tree/master>:
+
+> Free fonts available under the Apache license

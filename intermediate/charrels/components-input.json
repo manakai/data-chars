@@ -7,7 +7,10 @@
     {"path": "../wiki/maps-3.list", "rels_key": "components"},
     {"path": "../wiki/maps-4.list", "rels_key": "components"},
     {"path": "../wiki/maps-5.list", "rels_key": "components"},
+    {"path": "../whatwg/entities-0.list", "rels_key": "components"},
+    {"path": "../fonts/components-0.list", "rels_key": "components"},
     
+    {"path": "../../local/maps/dsf-0.list", "rels_key": "components"},
     {"path": "../../local/maps/gwcontains-0.list", "rels_key": "components"}
   ],
   "leader_types": [

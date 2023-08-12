@@ -51,6 +51,24 @@ sub wrap_string ($) {
   }
 } # wrap_string
 
+sub normalize_char ($) {
+  my $c = shift;
+  if ($c =~ /^:u([0-9a-f]+)$/) {
+    return u_chr hex $1;
+  } else {
+    return $c;
+  }
+} # normalize_char
+
+sub split_char ($) {
+  my $s = shift;
+  if ($s =~ /^:/) {
+    return map { normalize_char $_ } grep { length } split /(?=:)/, $s;
+  } else {
+    return map { wrap_string $_ } split //, $s;
+  }
+} # split_char
+
 sub is_private ($) {
   my $char = shift;
 

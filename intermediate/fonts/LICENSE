@@ -1,0 +1,25 @@
+* Wadalab data files
+
+Some of data in this directory are derived from wadalabfont-kit files,
+with or without modifications.
+
+License of the wadalabfont-kit files
+<https://gps.tanaka.ecc.u-tokyo.ac.jp/wadalabfont/index.php?%A5%E9%A5%A4%A5%BB%A5%F3%A5%B9>:
+
+> フォント本体のライセンスは， README.htmlの
+> 
+>     フォントをそのまま, あるいはフォーマット変換して使用, 配布する場合, 個
+> 
+>     人, 会社を問わず, こちらの許可は必要ありません. ただ, 配布する場合はそ
+> 
+>     のフォントが ftp.ipl.t.u-tokyo.ac.jp に由来すること, どのような変換を
+> 
+>     したかを付記して下さい. フォントはこれからも, バージョンアップする予定
+> 
+>     なので, 末端ユーザが最新のバージョンを自分で手に入れられるようにしたい
+> 
+>     ためです. 漢字の字形の誤りや, あまりにデザインのひどい字など御指摘があっ
+> 
+>     たら, ktanaka at tanaka.ecc.u-tokyo.ac.jp まで御連絡下さい.
+> 
+> のように BSDライセンス風のものになっていますが，このシステムに関しても， それに準じた形になります．なお，システムに関しは，「どのような変換をし たかを付記して下さい」というのは意味がないので必要ありません．公開した データに関する改善はこちらに送っていただくよりも，データを利用するコミュ ニティ内でフィードバックしていただいた方が役に立つと思います．

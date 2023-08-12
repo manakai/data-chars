@@ -111,6 +111,9 @@ my $CharArray = [];
     ['jis-dot16-1-','',      1,    84*94],
     ['jis-dot24-1-','',      1,    84*94],
     ['sat',        '',       0,    99999],
+    ['dsf',        '',       0,    49999],
+    ['dsffull',    '',       0,    49999],
+    ['dsfff',      '',       0,    49999],
     ['swc',        '',       0,   999999],
   ) {
     $offset->{$x->[0]} = $next - $x->[2];
@@ -213,10 +216,8 @@ my $CharArray = [];
       $n = 0x200000 + (hex $1) * 0x10 + (defined $2 ? ord $2 : 0x60);
     } elsif ($c =~ /\A:.+([0-9a-f]+)/) {
       $n = 0x80000 + hex $1;
-    } elsif ($c =~ /\A:(.)/) {
-      $n = ord $1;
-    } elsif (length $c) {
-      $n = ord $c;
+    } elsif ($c =~ /\A[:\\\{]*(.)(.?)(.?)/) {
+      $n = (ord $1) + (defined $2 ? 0x100 * ord $2 : 0) + (defined $3 ? 0x100 * ord $3 : 0);
     }
 
     if (not defined $CharArray->[$n]) {
