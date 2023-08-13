@@ -33,7 +33,7 @@ my $Index = {};
       u-cns-f6 u-cns-fd u-cns-ff
       cbeta cdp zihai
       g gb0 gb0-1 gb0-2 gb1 gb2 gb3 gb8 gb u-gb
-      ks kps cjkvi
+      ke ks kps cjkvi
       u UK u-uk sat u0 u1 u2 u2ff u3 u4 u5 u6 u7 u8 u9 ue uf
       swc tron
       b b5 b5-8 b5-9 b5-a b5-b b5-c b5-d b5-e b5-f b5-hkscs b5-uao b5-cdp 
@@ -41,7 +41,7 @@ my $Index = {};
       cccii cccii1 cccii2 cccii3 cccii4 cccii9
       koseki koseki0 koseki1 koseki2 koseki3 koseki4 koseki5 touki
       KS KS0 KS1 KS2 KS3 TK J JA JB JC JD JT I
-      d dkw m m1 m2 m3 m4 F G I h s w v twedu toki supercjk
+      d di dot dsf dkw m m1 m2 m3 m4 F G I h s w v twedu toki supercjk
       kx kx0 kx1
     )];
     my $x = 0x500;

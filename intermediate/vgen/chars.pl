@@ -60,12 +60,16 @@ sub normalize_char ($) {
   }
 } # normalize_char
 
-sub split_char ($) {
+sub is_not_ivs_char ($) {
+  return $_[0] !~ /^[\x{E0100}-\x{E01EF}]$/;
+}
+
+sub split_for_string_contains ($) {
   my $s = shift;
   if ($s =~ /^:/) {
-    return map { normalize_char $_ } grep { length } split /(?=:)/, $s;
+    return grep { is_not_ivs_char $_ } map { normalize_char $_ } grep { length } split /(?=:)/, $s;
   } else {
-    return map { wrap_string $_ } split //, $s;
+    return map { wrap_string $_ } grep { is_not_ivs_char $_ } split //, $s;
   }
 } # split_char
 
@@ -520,7 +524,7 @@ sub wrap_ids ($$) {
   }
   if ($s =~ /\A[？?〓\x{FFFD}]\z/) {
     return undef;
-  } elsif ($s =~ /[？?〓\x{FFFD}\/\x{303E}\x{E000}-\x{F8FF}\[\]\x{2FFB}]|CDP|&/) {
+  } elsif ($s =~ /[\x21-\x7E？〓\x{FFFD}\x{303E}\x{E000}-\x{F7FF}\x{2FFB}\x{2194}\x{21B7}\x{2296}①-⑳（－]|CDP|&/) {
     return $prefix . $s;
   } elsif ($s =~ /^\p{Ideographic_Description_Characters}/) {
     return $s;
@@ -530,6 +534,136 @@ sub wrap_ids ($$) {
     return undef;
   }
 } # wrap_ids
+
+sub split_ids ($) {
+  my $s = shift;
+  if ($s =~ /^:/) {
+    use utf8;
+    if ($s =~ /^:cjkvi:(.+)$/) {
+      my $t = $1;
+      my @c;
+
+      $t =~ s{([\x{E000}-\x{F7FF}])}{
+        my $c = sprintf ':u-cdp-%x', ord $1;
+        push @c, $c;
+        '';
+      }ge;
+      
+      $t =~ s{&CDP-([0-9A-F]+);}{
+        my $c = sprintf ':b5-cdp-%x', hex $1;
+        push @c, $c;
+        '';
+      }ge;
+      
+      $t =~ s{(（\w+）)}{
+        my $c = ':cjkvi:' . $1;
+        push @c, $c;
+        '';
+      }ge;
+      
+      $t =~ s{^(\w－\w)$}{
+        my $c = ':cjkvi:' . $1;
+        push @c, $c;
+        '';
+      }ge;
+      
+      die $s if $t =~ /[\x21-\x7E]/;
+
+      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}？〓\x{FFFD}①-⑳]$/ } split //, $t;
+      
+      return @c;
+    } elsif ($s =~ /^:(yaids|radically):(.+)$/) {
+      my $key = $1;
+      my $t = $2;
+      my @c;
+
+      $t =~ s{(#\((?>[^()#]|#\([A-Za-z]+\))+\))}{
+        my $c = ':'.$key.':' . $1;
+        push @c, $c;
+        '';
+      }ge;
+      $t =~ s{(\{[^()]+\})}{
+        my $c = ':'.$key.':' . $1;
+        push @c, $c;
+        '';
+      }ge;
+
+      $t =~ s{[⿻⿴⿷⿶⿹]\[[^\[\]]+\]}{}g;
+
+      if ($key eq 'yaids') {
+        $t =~ s{([\p{Han}\p{Hiragana}\p{Katakana}\x{9000}-\x{9FFF}\x{30000}-\x{3FFFF}])([A-Za-z0-9.]+)}{
+          my $c = ':' . $key . ':' . $1 . $2;
+          push @c, $c;
+          '';
+        }ge;
+      }
+
+      die $t if $t =~ /[\x21-\x7E]/;
+      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}\x{2194}\x{21B7}〓]$/ } split //, $t;
+      
+      return @c;
+    } elsif ($s =~ /:hkcs-(.+)$/) {
+      my $t = $1;
+      my @c;
+
+      $t =~ s{\{(?:hkc[ds]-([0-9A-Za-z-]+)|(5202-v01))\}}{
+        my $c = ':hkcs-' . ($1 // $2);
+        push @c, $c;
+        '';
+      }ge;
+      
+      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？〓]$/ } split //, $t;
+
+      die $t if $t =~ /[\x21-\x7E]/;
+
+      return @c;
+    } elsif ($s =~ /:utc:(.+)$/) {
+      my $t = $1;
+      my @c;
+
+      $t =~ s{\[([0-9A-Z-]+)\]}{
+        my $c = sprintf ':irg-' . $1;
+        push @c, $c;
+        '';
+      }ge;
+      
+      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？]$/ } split //, $t;
+
+      die $t if $t =~ /[\x21-\x7E]/;
+
+      return @c;
+    } elsif ($s =~ /:babel:(.+)$/) {
+      my $t = $1;
+      my @c;
+
+      $t =~ s{(\{[0-9A-Z-]+\})}{
+        my $c = sprintf ':babel:' . $1;
+        push @c, $c;
+        '';
+      }ge;
+      
+      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？\x{2194}\x{21B7}\x{2296}]$/ } split //, $t;
+
+      die $t if $t =~ /[\x21-\x7E]/;
+
+      return @c;
+    } elsif ($s =~ /:gw-(.+)$/) {
+      my $t = join '', map { s/^u//; chr hex $_ } split /-/, $1;
+      my @c;
+
+      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？]$/ } split //, $t;
+
+      return @c;
+    } elsif ($s =~ /^:(?:u-cdp-|gb[0-9]+)[0-9a-f-]+$/) {
+      return ($s);
+    } else {
+      die $s;
+    }
+  } else {
+    die $s if $s =~ /[\x{E000}-\x{F7FF}]/;
+    return grep { not /^\p{Ideographic_Description_Characters}$/ } split //, $s;
+  }
+} # split_ids
 
 sub get_vkey ($) {
   my $c = shift;

@@ -10,9 +10,10 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build-nightly: build
-
 build: $(TEMP_PATH) variants.list
+
+build-nightly: $(TEMP_PATH)
+	$(MAKE) variants.list
 
 $(TEMP_PATH):
 	mkdir -p $@

@@ -6063,7 +6063,9 @@ cjkvi:ids
 "⿱⿰彐彐日"
 cjkvi:ids
 -":KS320620"
-":cjkvi:⿱⿰彐彐𠇍/⿱羽𠇍"
+"⿱⿰彐彐𠇍"
+cjkvi:ids
+"⿱羽𠇍"
 cjkvi:ids
 -":KS320630"
 ":cjkvi:⿱⿰彐彐⿱𠆢？"

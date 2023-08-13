@@ -41,6 +41,19 @@
     {"path": "../cjkvi/maps-1.list", "rels_key": "idses"},
     {"path": "../cjkvi/maps-2.list", "rels_key": "idses"},
     {"path": "../cjkvi/maps-3.list", "rels_key": "idses"},
+    {"path": "../cjkvi/variants-ids.list", "rels_key": "idses"},
+    {"path": "../cjkvi/hd-ids.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-0.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-1.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-2.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-3.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-4.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-5.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-6.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-7.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-8.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-9.list", "rels_key": "idses"},
+    {"path": "../cjkvi/ids-10.list", "rels_key": "idses"},
     {"path": "../emacs/maps-0.list", "rels_key": "descs"},
     {"path": "../mj/maps-0.list", "rels_key": "idses"},
     {"path": "../mj/maps-1.list", "rels_key": "idses"},
@@ -90,7 +103,7 @@
     {"path": "../misc/maps.list", "rels_key": "idses"},
     {"path": "../misc/variants.list", "rels_key": "codes"},
 
-    {"path": "../../local/maps/gwrels-0.list", "rels_key": "codes"},
+    {"path": "../../local/maps/gwrels-0.list", "rels_key": "descs"},
     {"path": "../../local/maps/codes.list", "rels_key": "codes"}
   ],
   "leader_types": [

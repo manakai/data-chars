@@ -53,7 +53,7 @@ my $Data = {};
         $Data->{$vkey}->{$c1}->{$c2}->{$rel_type} = 1;
       }
       if (length $c1) {
-        my @c = split_char $c1;
+        my @c = split_for_string_contains $c1;
         if (@c > 1) {
           for my $c2 (@c) {
             $Data->{components}->{$c1}->{$c2}->{'string:contains'} = 1;

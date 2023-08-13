@@ -11,8 +11,11 @@ all: _build-all
 build-nightly: _build-all
 build-pages: _build-all
 
-_build-all: build-chars build-kanas build-kchars build-hans build-glyphs \
-   build-descs build-components
+_build-all: \
+    build-components \
+    build-descs \
+    build-glyphs \
+    build-chars build-kanas build-kchars build-hans
 
 build-chars:
 	$(PERL) $(VGEN_PATH)/generate.pl chars-input.json

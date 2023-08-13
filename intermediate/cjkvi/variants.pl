@@ -280,6 +280,10 @@ for (
   }
 }
 
+{
+  my $path = $ThisPath->child ('variants-ids.list');
+  write_rel_data {idses => delete $Data->{idses}} => $path;
+}
 write_rel_data_sets
     $Data => $ThisPath, 'variants',
     [

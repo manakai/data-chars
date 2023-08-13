@@ -137,6 +137,10 @@ for (
         }
         die $line[5] unless defined $c5;
         $Data->{idses}->{$c1}->{$c5}->{'ucd:IDS'} = 1;
+        my @c = split_ids $c5;
+        for my $c6 (@c) {
+          $Data->{components}->{$c1}->{$c6}->{'ucd:IDS:contains'} = 1;
+        }
       }
 
       for my $line (split /[:*]/, $line[6]) {

@@ -266,17 +266,22 @@ my $Types = {};
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
     if (/^([A-Z]{2}[0-9A-F]{4,}S*)\*?\t+([\x{2E00}-\x{FFFF}\w\/]+)\s*$/) {
       my $c1 = ':' . $1;
-      my $ids = $2;
-      my $c2 = undef;
-      if ($ids eq '？' or $ids eq '〓') {
-        next;
-      }
-      $c2 = wrap_ids $ids, ':cjkvi:';
-      unless (defined $c2) {
-        $ids =~ s{(.)}{sprintf q{{%04X}}, ord $1}ges;
-        die "Bad IDS |$ids|";
-      }
-      $Data->{idses}->{$c1}->{$c2}->{'cjkvi:ids'} = 1;
+      for my $ids (split m{/}, $2) {
+        my $c2 = undef;
+        if ($ids eq '？' or $ids eq '〓') {
+          next;
+        }
+        $c2 = wrap_ids $ids, ':cjkvi:';
+        unless (defined $c2) {
+          $ids =~ s{(.)}{sprintf q{{%04X}}, ord $1}ges;
+          die "Bad IDS |$ids|";
+        }
+        $Data->{idses}->{$c1}->{$c2}->{'cjkvi:ids'} = 1;
+        my @c = split_ids $c2;
+        for my $c3 (@c) {
+          $Data->{components}->{$c1}->{$c3}->{'cjkvi:ids:contains'} = 1;
+        }
+      } # $ids
     } elsif (/^([A-Z]{2}[0-9A-F]{4,}S*)(\*?)\t+$/) {
       #
     } elsif (/\S/) {
@@ -291,6 +296,10 @@ my $Types = {};
 {
   my $path = $ThisPath->child ('hd-ids.list');
   write_rel_data {idses => delete $Data->{idses}} => $path;
+}
+{
+  my $path = $ThisPath->child ('hd-components.list');
+  write_rel_data {components => delete $Data->{components}} => $path;
 }
 write_rel_data_sets
     $Data => $ThisPath, 'hd',

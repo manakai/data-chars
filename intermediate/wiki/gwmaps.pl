@@ -50,11 +50,24 @@ sub gid ($) {
 
   if ($impl) {
     if ($g1 =~ /^u[0-9a-f]+(?:-u[0-9a-f]+)*$/) {
-      my $c2 = join '', map { s/^u//; u_chr hex $_ } split /-/, $g1;
-      if ($c2 =~ /[\x{2FFB}\x{FF1F}]/) {
-        $c2 = ':gw-' . $g1;
+      my $c2 = wrap_string join '', map { s/^u//; chr hex $_ } split /-/, $g1;
+      if ($c2 =~ /^\p{Ideographic_Description_Characters}./) {
+        $c2 = wrap_ids $c2, ':gw-';
+        $c2 = ':gw-' . $g1 if $c2 =~ /^:gw-/;
+        $Data->{descs}->{':gw-'.$g0}->{$c2}->{'glyphwiki:ids'} = 1;
+        my @c = split_ids $c2;
+        for my $c3 (@c) {
+          $Data->{components}->{':gw-'.$g0}->{$c3}->{'glyphwiki:ids:contains'} = 1;
+        }
+      } else {
+        $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
+        my @c = split_for_string_contains $c2;
+        if (@c > 1) {
+          for my $c3 (@c) {
+            $Data->{components}->{$c2}->{$c3}->{'string:contains'} = 1;
+          }
+        }
       }
-      $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
     } elsif ($g1 =~ /^aj1-([0-9]+)$/) {
       my $c2 = sprintf ':aj%d', $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
@@ -144,7 +157,7 @@ sub gid ($) {
       my $c2 = sprintf ':u-immi-%x', hex $1;
       my $c2_0 = u_chr hex $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
-      $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{descs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif ($g1 =~ /^ninjal-([0-9]+)$/) {
       my $c2 = sprintf ':ninjal%s', $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
@@ -175,15 +188,18 @@ sub gid ($) {
         my $c2 = sprintf ':u-nom-%x', hex $2;
         my $c2_0 = u_chr hex $2;
         $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
-        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        $Data->{descs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       }
     } elsif ($g1 =~ /^vnpf-([0-9a-f]+)$/) {
       my $c2 = sprintf ':u-nom-%x', hex $1;
       my $c2_0 = u_chr hex $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
-      $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{descs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif ($g1 =~ /^z-sat-([0-9]+)$/) {
       my $c2 = sprintf ':sat%d', $1;
+      $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
+    } elsif ($g1 =~ /^waseikanji-no-jiten-([0-9]+)([a-z]*)$/) {
+      my $c2 = sprintf ':wasei%d%s', $1, $2;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
     }
   } # $impl
@@ -209,7 +225,7 @@ sub gid ($) {
         my $c2 = sprintf ':u-juki-%x', $code1;
         my $c2_0 = u_chr $code1;
         $Data->{glyphs}->{':gw-'.$g1}->{$c2}->{'manakai:implements'} = 1;
-        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        $Data->{descs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       }
     }
   }
@@ -242,7 +258,7 @@ sub gid ($) {
         my $c2 = sprintf ':u-juki-%x', $code1;
         my $c2_0 = u_chr $code1;
         $Data->{glyphs}->{':gw-'.$g1}->{$c2}->{'manakai:implements'} = 1;
-        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+        $Data->{descs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
       }
     }
   }

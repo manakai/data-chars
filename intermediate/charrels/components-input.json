@@ -1,6 +1,7 @@
 {
   "key": "components",
   "inputs": [
+    {"path": "../unicode/maps3.list", "rels_key": "components"},
     {"path": "../wiki/maps-0.list", "rels_key": "components"},
     {"path": "../wiki/maps-1.list", "rels_key": "components"},
     {"path": "../wiki/maps-2.list", "rels_key": "components"},
@@ -9,9 +10,13 @@
     {"path": "../wiki/maps-5.list", "rels_key": "components"},
     {"path": "../whatwg/entities-0.list", "rels_key": "components"},
     {"path": "../fonts/components-0.list", "rels_key": "components"},
+    {"path": "../cjkvi/ids-0.list", "rels_key": "components"},
+    {"path": "../cjkvi/hd-components.list", "rels_key": "components"},
     
+    {"path": "../../local/maps/idsc-0.list", "rels_key": "components"},
     {"path": "../../local/maps/dsf-0.list", "rels_key": "components"},
-    {"path": "../../local/maps/gwcontains-0.list", "rels_key": "components"}
+    {"path": "../../local/maps/gwcontains-0.list", "rels_key": "components"},
+    {"path": "../../local/maps/gwrels-0.list", "rels_key": "components"}
   ],
   "leader_types": [
   ],

@@ -5,3 +5,53 @@ Some of data in this directory are derived from 漢字データベース
 
 License of the 漢字データベースプロジェクト data files: See
 |../../doc/LICENSE.cjkvi|.
+
+* Transfusion/cjkvi-ids-unicode data files
+
+Some of data in this directory are derived from
+<https://github.com/Transfusion/cjkvi-ids-unicode> data files, with or
+without modifications.
+
+<https://github.com/Transfusion/cjkvi-ids-unicode#licenses>:
+> Licenses
+> 
+> SPDX-License-Identifier: MIT OR GPL-2.0-or-later
+> 
+> -  The products of this repository (*IDS*.txt and *IDS*.json) are licensed under the GNU General Public License v2.0 or later.
+>   - They are derived from CHISE and the Kanji Database Project, which use the GPLv2.
+> - The code written by me is dual-licensed under the GNU General Public License v2.0 or later, and the MIT license.
+>   - If you adapt and use it for its evident intended purpose (fetching and processing IDSs from CHISE and the Kanji Database Project), you must release your changes under the GPLv2+.
+>   - I do not see how it is very useful for anything other than its evident intended purpose, but if, say, you take the lookup table logic and the HTML generation logic on their own stackoverflow-style with no relation to the aforementioned sources, you may use such snippets under the MIT license. I'd still like to know how you find it useful, in such cases.
+
+* yi-bai/ids data files
+
+Some of data in this directory are derived from
+<https://github.com/yi-bai/ids> data files, with or without
+modifications.
+
+Yet another IDS (Ideographic Description Sequences) lists with MIT license
+<https://github.com/yi-bai/ids>
+
+License:
+<https://github.com/yi-bai/ids/blob/main/LICENSE>
+(The MIT license).
+
+* hfhchan/ids data files
+
+Some of data in this directory are derived from
+<https://github.com/hfhchan/ids> data files, with or without
+modifications.
+
+License:
+<https://github.com/hfhchan/ids/blob/main/LICENSE>
+(The MIT license).
+
+* BabelStone IDS files
+
+Some of data in this directory are derived from
+<https://www.babelstone.co.uk/CJK/IDS.TXT> data files, with or without
+modifications.
+
+From <https://www.babelstone.co.uk/CJK/IDS.TXT>:
+
+> # 2. Under U.S. copyright law, data (i.e. a collection of facts) is not eligible to copyright protection (see https://sco.library.emory.edu/research-data-management/publishing/copyright-data.html), and as IDS descriptions for CJK ideographs are facts not original creative compositions, IDS sequences in themselves are not eligible for copyright protection (that is to say, you could no more copyright 彼 = ⿰彳皮 than you could copyright 1 + 1 = 2). Therefore, anyone is free to make use of the IDS data provided in this file for personal or commercial purposes without asking permission or providing attribution. I furthermore waive any copyright claims to the presentation format of the IDS data used in this file, so anyone is free to fork the file, or use it as the basis for a new IDS data set.

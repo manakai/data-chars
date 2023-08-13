@@ -198,6 +198,13 @@ my $CharArray = [];
     $n = 0xA0000 + ((ord $1) - 0x1100) * 0x10000 +
                    ((ord $2) - 0x1100) * 0x100 +
                     (ord $3) - 0x1100;
+    } elsif ($c =~ /\A(?::[^:]+:|)\p{Ideographic_Description_Characters}/) {
+      $n = $next_random++;
+    } elsif ($c =~ /\A(?::[^:]+:|[\\\{]+)(.)(.?)(.?)/) {
+      $n = (ord $1) + (defined $2 ? 0x100 * ord $2 : 0) + (defined $3 ? 0x100 * ord $3 : 0);
+    } elsif ($c =~ /\A([A-Za-z0-9][\x20-\x7E]+)\z/) {
+      $n = 0;
+      $n += $_ for map { ord $_ } split //, $1;
     } elsif ($c =~ /\A([^:])(.)$/) {
       $n = (ord $1) + (ord $2);
     } elsif ($c =~ /\A([^:])(.)(.)/) {
@@ -206,18 +213,14 @@ my $CharArray = [];
       $n = (ord $1) + (ord $2) + (ord $3) + (ord $4);
     } elsif ($c =~ /\A([^:])(.)(.)(.)(.)/) {
       $n = (ord $1) + (ord $2) + (ord $3) + (ord $4) + (ord $5);
-    } elsif ($c =~ /\A:(?:wmc?|csw|cjkvi):(.)/) {
-      $n = 0xB0000 + ord $1;
     } elsif ($c =~ /\A:gw-/) {
       $n = $next_random++;
     } elsif ($c =~ /\A:gw-u([0-9a-f]+)-u([0-9a-f]+)/) {
       $n = 0xC0000 + (hex $1) + (hex $2) * 0x10;
     } elsif ($c =~ /\A:gw-u([0-9a-f]+)(?:-(.))/) {
-      $n = 0x200000 + (hex $1) * 0x10 + (defined $2 ? ord $2 : 0x60);
+      $n = 0x200000 + (hex $1) * 0x100 + (defined $2 ? ord $2 : 0x60);
     } elsif ($c =~ /\A:.+([0-9a-f]+)/) {
       $n = 0x80000 + hex $1;
-    } elsif ($c =~ /\A[:\\\{]*(.)(.?)(.?)/) {
-      $n = (ord $1) + (defined $2 ? 0x100 * ord $2 : 0) + (defined $3 ? 0x100 * ord $3 : 0);
     }
 
     if (not defined $CharArray->[$n]) {
@@ -242,7 +245,7 @@ my $CharArray = [];
   while (1) {
     if (not defined $CharArray->[$m]) {
       if ($m - $n > 100) {
-        warn "Too many retries for |$c| (2)\n";
+        warn "Too many retries for |$c| (2), $m\n";
       }
       
       $CharArray->[$m] = $c;
