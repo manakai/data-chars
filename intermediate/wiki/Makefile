@@ -67,7 +67,7 @@ $(TEMP_PATH)/0213.txt:
 
 $(TEMP_PATH)/gw.tar.gz:
 #	$(SAVEURL) $@ https://glyphwiki.org/dump.tar.gz
-	$(SAVEURL) $@ https://fonts.suikawiki.org/fonts/glyphwiki/dump-1.tar.gz
+	$(SAVEURL) $@ https://fonts.suikawiki.org/glyphwiki/dump-1.tar.gz
 $(TEMP_PATH)/dump_newest_only.txt: $(TEMP_PATH)/gw.tar.gz
 	cd $(TEMP_PATH) && tar zxf gw.tar.gz dump_newest_only.txt
 	touch $@

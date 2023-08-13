@@ -1,8 +1,23 @@
 {
   "github": {
-    "pages": true,
+    "build": [
+      "make deps build-for-docker",
+      {"docker_build": "quay.io/manakai/data-chars:pages"},
+
+      "make test-deps"
+    ],
+    "tests": {
+      "1_tests": [
+        "make test"
+      ],
+      "2_deploy": [
+        {"docker_push": "quay.io/manakai/data-chars:pages"}
+      ]
+    },
+    
+    "# pages": true,
     "merger": true,
-    "pmbp": "latest",
+    "# pmbp": "latest",
     "gaa": true
   },
   "circleci": {

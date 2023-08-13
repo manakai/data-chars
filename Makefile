@@ -641,6 +641,9 @@ build-nightly: local/generated build-nightly-iu
 build-github-pages: local/generated build-pages-iu
 	rm -fr ./bin/ ./modules/ ./t_deps/
 
+build-for-docker: local/generated build-pages-iu
+	cp config/Dockerfile.pages ./Dockerfile
+
 build-nightly-iu: deps data/maps.json
 	cd intermediate/unicode && $(MAKE) build-nightly
 	cd intermediate/opencc && $(MAKE) build-nightly

@@ -1,0 +1,5 @@
+FROM quay.io/wakaba/base:sid
+
+ADD . /app/
+
+## License: Public Domain.
