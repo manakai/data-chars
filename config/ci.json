@@ -1,8 +1,9 @@
 {
   "github": {
     "build": [
-      "make deps build-for-docker",
-      {"docker_build": "quay.io/manakai/data-chars:pages"},
+      {"run": "make deps build-for-docker", "branch": "master"},
+      {"docker_build": "quay.io/manakai/data-chars:pages",
+       "branch": "master"},
 
       "make test-deps"
     ],
@@ -11,7 +12,8 @@
         "make test"
       ],
       "2_deploy": [
-        {"docker_push": "quay.io/manakai/data-chars:pages"}
+        {"docker_push": "quay.io/manakai/data-chars:pages",
+         "branch": "master"}
       ]
     },
     

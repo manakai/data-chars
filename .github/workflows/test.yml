@@ -83,10 +83,12 @@
                "run" : "mkdir -p $CIRCLE_ARTIFACTS"
             },
             {
+               "if" : "${{ github.ref == 'refs/heads/master' }}",
                "run" : "make deps build-for-docker"
             },
             {
-               "run" : "docker build -t quay\u005C.io\u005C/manakai\u005C/data\u005C-chars \u005C."
+               "if" : "${{ github.ref == 'refs/heads/master' }}",
+               "run" : "docker build -t quay\u005C.io\u005C/manakai\u005C/data\u005C-chars\u005C:pages \u005C."
             },
             {
                "run" : "make test-deps"
@@ -104,14 +106,14 @@
             },
             {
                "if" : "${{ github.ref == 'refs/heads/master' }}",
-               "run" : "docker push quay\u005C.io\u005C/manakai\u005C/data\u005C-chars"
+               "run" : "docker push quay\u005C.io\u005C/manakai\u005C/data\u005C-chars\u005C:pages"
             },
             {
                "env" : {
                   "BWALLER_URL" : "${{ secrets.BWALLER_URL }}"
                },
                "if" : "${{ github.ref == 'refs/heads/master' }}",
-               "run" : "curl -sSf $BWALLER_URL | BWALL_GROUP=docker BWALL_NAME=quay.io/manakai/data-chars bash"
+               "run" : "curl -sSf $BWALLER_URL | BWALL_GROUP=docker BWALL_NAME=quay.io/manakai/data-chars:pages bash"
             },
             {
                "uses" : "actions/upload-artifact@v3",
