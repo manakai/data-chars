@@ -85,7 +85,7 @@ $(TEMP_PATH)/KiriMinL.otf: $(TEMP_PATH)/kml.zip
 	touch $@
 $(TEMP_PATH)/KiriMinL-dump.json: $(TEMP_PATH)/KiriMinL.otf \
     $(TEMP_PATH)/dumpotf.js $(TEMP_PATH)/opentype.js
-	docker run -it -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotf.js /temppath/KiriMinL.otf > $@
+	docker run -i -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotf.js /temppath/KiriMinL.otf > $@
 
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/aj17.txt $(TEMP_PATH)/aj17-kanji.txt $(TEMP_PATH)/aj20.txt \

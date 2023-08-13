@@ -28,21 +28,21 @@ $(TEMP_PATH)/DroidSansFallback-ff.ttf:
 $(TEMP_PATH)/DroidSansFallback-ff-dump.json: \
     $(TEMP_PATH)/DroidSansFallback-ff.ttf \
     $(TEMP_PATH)/dumpotfg.js $(TEMP_PATH)/opentype.js
-	docker run -it -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotfg.js /temppath/DroidSansFallback-ff.ttf > $@
+	docker run -i -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotfg.js /temppath/DroidSansFallback-ff.ttf > $@
 
 $(TEMP_PATH)/DroidSansFallback-aosp.ttf:
 	$(SAVEURL) $@ https://fonts.suikawiki.org/opentype/DroidSansFallback/DroidSansFallback-aosp.ttf
 $(TEMP_PATH)/DroidSansFallback-aosp-dump.json: \
     $(TEMP_PATH)/DroidSansFallback-aosp.ttf \
     $(TEMP_PATH)/dumpotfg.js $(TEMP_PATH)/opentype.js
-	docker run -it -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotfg.js /temppath/DroidSansFallback-aosp.ttf > $@
+	docker run -i -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotfg.js /temppath/DroidSansFallback-aosp.ttf > $@
 
 $(TEMP_PATH)/DroidSansFallbackFull-aosp.ttf:
 	$(SAVEURL) $@ https://fonts.suikawiki.org/opentype/DroidSansFallback/DroidSansFallbackFull-aosp.ttf
 $(TEMP_PATH)/DroidSansFallbackFull-aosp-dump.json: \
     $(TEMP_PATH)/DroidSansFallbackFull-aosp.ttf \
     $(TEMP_PATH)/dumpotfg.js $(TEMP_PATH)/opentype.js
-	docker run -it -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotfg.js /temppath/DroidSansFallbackFull-aosp.ttf > $@
+	docker run -i -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotfg.js /temppath/DroidSansFallbackFull-aosp.ttf > $@
 
 $(DATA_PATH)/dsf-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/DroidSansFallback-ff-dump.json \
