@@ -29,10 +29,10 @@ clean-vgen-pages:
 	rm -fr ./merged-char-index.jsonl cluster-temp.jsonl
 	rm -fr merged-chars.json merged-sets.json
 	gzip char-cluster.jsonl char-leaders.jsonl merged-rels.jsonll
-	gzip char-cluster/*
-	gzip char-leaders/*
-	gzip cluster-chars/*
-	gzip merged-rels/*
+	#gzip char-cluster/*
+	#gzip char-leaders/*
+	#gzip cluster-chars/*
+	#gzip merged-rels/*
 
 ##        +-- relations & sets source json files
 ##        +-- input.json               list of source files
