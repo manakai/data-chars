@@ -654,7 +654,7 @@ build-github-pages: local/generated build-pages-iu
 
 	ls -l generated.tar.gz
 
-	rm -fr local/
+	rm -fr local/ config perl prove
 
 build-for-docker: local/generated build-pages-iu
 	cp config/Dockerfile.pages ./Dockerfile
