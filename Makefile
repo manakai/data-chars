@@ -640,11 +640,14 @@ build-nightly: local/generated build-nightly-iu
 
 build-github-pages: local/generated build-pages-iu
 	cd intermediate/charrels && $(MAKE) clean-pages
-	rm -fr ./bin/ ./modules/ ./t_deps/
+	rm -fr ./bin/ ./modules/ ./t_deps/ intermediate src data deps
 	mv local/generated generated
 	rm -fr ./local
 	mkdir local
 	mv generated local/
+
+	#XXX
+	ls -lR local > list.txt
 
 build-for-docker: local/generated build-pages-iu
 	cp config/Dockerfile.pages ./Dockerfile
