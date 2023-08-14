@@ -11,6 +11,8 @@ all: _build-all
 build-nightly: _build-all
 build-pages: _build-all
 
+clean-pages: _clean-pages
+
 _build-all: \
     build-components \
     build-descs \
@@ -38,5 +40,14 @@ build-descs:
 build-components:
 	$(PERL) $(VGEN_PATH)/generate.pl components-input.json
 	cd $(VGEN_DATA_PATH)/components/ && $(MAKE) all test
+
+_clean-pages:
+	cd $(VGEN_DATA_PATH)/chars/ && $(MAKE) clean-vgen-pages
+	cd $(VGEN_DATA_PATH)/kanas/ && $(MAKE) clean-vgen-pages
+	cd $(VGEN_DATA_PATH)/kchars/ && $(MAKE) clean-vgen-pages
+	cd $(VGEN_DATA_PATH)/hans/ && $(MAKE) clean-vgen-pages
+	cd $(VGEN_DATA_PATH)/glyphs/ && $(MAKE) clean-vgen-pages
+	cd $(VGEN_DATA_PATH)/descs/ && $(MAKE) clean-vgen-pages
+	cd $(VGEN_DATA_PATH)/components/ && $(MAKE) clean-vgen-pages
 
 ## License: Public Domain.

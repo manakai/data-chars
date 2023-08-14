@@ -8,7 +8,7 @@
          "runs-on" : "ubuntu-latest",
          "steps" : [
             {
-               "uses" : "actions/checkout@v3",
+               "uses" : "actions/checkout@v2",
                "with" : {
                   "fetch-depth" : 0,
                   "ref" : "master",
@@ -43,7 +43,7 @@
          "runs-on" : "ubuntu-latest",
          "steps" : [
             {
-               "uses" : "actions/checkout@v3",
+               "uses" : "actions/checkout@v2",
                "with" : {
                   "fetch-depth" : 0,
                   "ref" : "master",
@@ -71,24 +71,18 @@
          ]
       },
       "test" : {
+         "continue-on-error" : "${{ matrix.experimental }}",
          "env" : {
-            "CIRCLE_ARTIFACTS" : "/tmp/circle-artifacts/test"
+            "CIRCLE_ARTIFACTS" : "/tmp/circle-artifacts/test",
+            "PMBP_PERL_VERSION" : "${{ matrix.perl_version }}"
          },
          "runs-on" : "ubuntu-latest",
          "steps" : [
             {
-               "uses" : "actions/checkout@v3"
+               "uses" : "actions/checkout@v2"
             },
             {
                "run" : "mkdir -p $CIRCLE_ARTIFACTS"
-            },
-            {
-               "if" : "${{ github.ref == 'refs/heads/master' }}",
-               "run" : "make deps build-for-docker"
-            },
-            {
-               "if" : "${{ github.ref == 'refs/heads/master' }}",
-               "run" : "docker build -t quay\u005C.io\u005C/manakai\u005C/data\u005C-chars\u005C:pages \u005C."
             },
             {
                "run" : "make test-deps"
@@ -97,31 +91,23 @@
                "run" : "make test"
             },
             {
-               "env" : {
-                  "DOCKER_PASS" : "${{ secrets.DOCKER_PASS }}",
-                  "DOCKER_USER" : "${{ secrets.DOCKER_USER }}"
-               },
-               "if" : "${{ github.ref == 'refs/heads/master' }}",
-               "run" : "docker login -u $DOCKER_USER -p $DOCKER_PASS quay\u005C.io"
-            },
-            {
-               "if" : "${{ github.ref == 'refs/heads/master' }}",
-               "run" : "docker push quay\u005C.io\u005C/manakai\u005C/data\u005C-chars\u005C:pages"
-            },
-            {
-               "env" : {
-                  "BWALLER_URL" : "${{ secrets.BWALLER_URL }}"
-               },
-               "if" : "${{ github.ref == 'refs/heads/master' }}",
-               "run" : "curl -sSf $BWALLER_URL | BWALL_GROUP=docker BWALL_NAME=quay.io/manakai/data-chars:pages bash"
-            },
-            {
                "uses" : "actions/upload-artifact@v3",
                "with" : {
                   "path" : "/tmp/circle-artifacts/test"
                }
             }
-         ]
+         ],
+         "strategy" : {
+            "fail-fast" : false,
+            "matrix" : {
+               "include" : [
+                  {
+                     "experimental" : false,
+                     "perl_version" : "latest"
+                  }
+               ]
+            }
+         }
       }
    },
    "name" : "test",

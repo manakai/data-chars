@@ -639,7 +639,12 @@ build-swdata: build-pages build-nightly
 build-nightly: local/generated build-nightly-iu
 
 build-github-pages: local/generated build-pages-iu
+	cd intermediate/charrels && $(MAKE) clean-pages
 	rm -fr ./bin/ ./modules/ ./t_deps/
+	mv local/generated generated
+	rm -fr ./local
+	mkdir local
+	mv generated local/
 
 build-for-docker: local/generated build-pages-iu
 	cp config/Dockerfile.pages ./Dockerfile

@@ -34,15 +34,17 @@ my $Index = {};
       cbeta cdp zihai
       g gb0 gb0-1 gb0-2 gb1 gb2 gb3 gb8 gb u-gb
       ke ks kps cjkvi
-      u UK u-uk sat u0 u1 u2 u2ff u3 u4 u5 u6 u7 u8 u9 ue uf
+      u UK u-uk sat u0 u1 u2 u20 u21 u22 u23 u24 u25 u26 u27 u28 u29
+      u2a u2b u2c u2d u2e u2f u2ff u2ff0 u2ff1 u2ff2 u3 u4 u5 u6 u7 u8 u9 ue uf
       swc tron
       b b5 b5-8 b5-9 b5-a b5-b b5-c b5-d b5-e b5-f b5-hkscs b5-uao b5-cdp 
       u-bigfive u-hkscs u-uao
       cccii cccii1 cccii2 cccii3 cccii4 cccii9
       koseki koseki0 koseki1 koseki2 koseki3 koseki4 koseki5 touki
       KS KS0 KS1 KS2 KS3 TK J JA JB JC JD JT I
-      d di dot dsf dkw m m1 m2 m3 m4 F G I h s w v twedu toki supercjk
-      kx kx0 kx1
+      d di dot dsf dsff dsfull dkw
+      m m1 m2 m3 m4 F G I h r s s0 s1 sa si w v twedu toki supercjk
+      kx kx0 kx1 y
     )];
     my $x = 0x500;
     $to_index->{$_} = $x++ for @$prefixes;

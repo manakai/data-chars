@@ -22,8 +22,13 @@ build-vgen: \
     cluster-index.json char-cluster/part-0.jsonl char-leaders/part-0.jsonl \
     cluster-chars/part-0-0.jsonl \
     merged-rels/part-0.jsonl \
-    testdata.json \
-    tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz tbl-leaders.dat.gz
+    testdata.json
+#    tbl-index.json.gz tbl-clusters.dat.gz tbl-rels.dat.gz tbl-leaders.dat.gz
+
+clean-vgen-pages:
+	rm -fr ./merged-char-index.jsonl cluster-temp.jsonl
+	rm -fr merged-chars.json merged-sets.json
+	gzip char-cluster.jsonl char-leaders.jsonl merged-rels.jsonll
 
 ##        +-- relations & sets source json files
 ##        +-- input.json               list of source files

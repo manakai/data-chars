@@ -1,13 +1,13 @@
 {
   "github": {
-    "build": [
+    "#build": [
       {"run": "make deps build-for-docker", "branch": "master"},
       {"docker_build": "quay.io/manakai/data-chars:pages",
        "branch": "master"},
 
       "make test-deps"
     ],
-    "tests": {
+    "#tests": {
       "1_tests": [
         "make test"
       ],
@@ -17,9 +17,9 @@
       ]
     },
     
-    "# pages": true,
+    "pages": true,
     "merger": true,
-    "# pmbp": "latest",
+    "pmbp": "latest",
     "gaa": true
   },
   "circleci": {
