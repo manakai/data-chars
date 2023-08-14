@@ -16,7 +16,7 @@ VGEN_MERGED_INPUTS = @@INPUTS@@
 VGEN_TEST_INPUTS = @@TESTINPUTS@@
 
 build-vgen build-vgen-nightly build-vgen-pages test perl-test \
-perl-test-main:: %:
+perl-test-main clean-vgen-pages:: %:
 	$(MAKE) -f $(VGEN_PATH)/Makefile.vgen $@ \
 	    ROOT_PATH="$(ROOT_PATH)" \
 	    VGEN_MERGED_INPUTS="$(VGEN_MERGED_INPUTS)"
