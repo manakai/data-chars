@@ -649,6 +649,13 @@ build-github-pages: local/generated build-pages-iu
 	#XXX
 	ls -lR local > list.txt
 
+	tar -cf generated.tar local/generated
+	gzip generated.tar
+
+	ls -l generated.tar.gz
+
+	rm -fr local/
+
 build-for-docker: local/generated build-pages-iu
 	cp config/Dockerfile.pages ./Dockerfile
 
