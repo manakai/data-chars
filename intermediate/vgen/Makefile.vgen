@@ -31,7 +31,7 @@ clean-vgen-pages:
 	gzip char-cluster.jsonl char-leaders.jsonl merged-rels.jsonll
 	gzip char-cluster/*
 	gzip char-leaders/*
-	gzip char-chars/*
+	gzip cluster-chars/*
 	gzip merged-rels/*
 
 ##        +-- relations & sets source json files
