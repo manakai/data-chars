@@ -586,6 +586,8 @@ my $NTypes = [];
     "geolonia:oldnew",
     
     "emacs:reldata:iscii",
+
+    "codh:Unicode",
     
     "manakai:ligature",
   ) {
@@ -1014,6 +1016,7 @@ my $NTypes = [];
     "yaids:lv1:alternative:contains",
     "yaids:lv2:primary:contains",
     "yaids:lv2:alternative:contains",
+    "mj:ids:contains",
     "manakai:ids:contains",
   ) {
     $TypeWeight->{$vtype} = W 'LINKED';

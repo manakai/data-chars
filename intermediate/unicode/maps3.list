@@ -359,8 +359,6 @@ ucd:IDS:contains
 -":UK-01373"
 "戈"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UK-01374"
 "戍"
 ucd:IDS:contains
@@ -477,8 +475,6 @@ ucd:IDS:contains
 -":UK-01397"
 "示"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UK-01398"
 "火"
 ucd:IDS:contains
@@ -558,8 +554,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UK-01411"
 "虎"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UK-01412"
 "亍"
@@ -826,8 +820,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UK-01462"
 "凹"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UK-01463"
 "㲋"
@@ -1202,8 +1194,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UK-01532"
 "虫"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UK-01533"
 "丿"
@@ -1601,8 +1591,6 @@ ucd:IDS:contains
 -":UK-01600"
 "分"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UK-01601"
 "女"
 ucd:IDS:contains
@@ -1909,8 +1897,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UK-01653"
 "貝"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UK-01654"
 "之"
@@ -7965,8 +7951,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 "殳"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UK-02848"
 "队"
 ucd:IDS:contains
@@ -8125,8 +8109,6 @@ ucd:IDS:contains
 "土"
 ucd:IDS:contains
 "疒"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UK-02879"
 "单"
@@ -13257,8 +13239,6 @@ ucd:IDS:contains
 -":UTC-00972"
 "争"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-00973"
 "亻"
 ucd:IDS:contains
@@ -13267,12 +13247,8 @@ ucd:IDS:contains
 -":UTC-00974"
 "亻"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-00975"
 "亻"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-00976"
 "光"
@@ -13296,8 +13272,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UTC-00983"
 "双"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-00985"
 "元"
@@ -13331,8 +13305,6 @@ ucd:IDS:contains
 -":UTC-00990"
 "土"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-00992"
 "大"
 ucd:IDS:contains
@@ -13365,8 +13337,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UTC-00999"
 "定"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01000"
 "一"
@@ -13416,12 +13386,8 @@ ucd:IDS:contains
 -":UTC-01009"
 "忄"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01010"
 "忄"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01011"
 "兰"
@@ -13430,8 +13396,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UTC-01012"
 "忄"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01013"
 "干"
@@ -13443,12 +13407,8 @@ ucd:IDS:contains
 -":UTC-01014"
 "扌"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01015"
 "扌"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01016"
 "叉"
@@ -13474,8 +13434,6 @@ ucd:IDS:contains
 -":UTC-01019"
 "日"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01020"
 "又"
 ucd:IDS:contains
@@ -13484,8 +13442,6 @@ ucd:IDS:contains
 -":UTC-01021"
 "木"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01022"
 "木"
 ucd:IDS:contains
@@ -13493,8 +13449,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UTC-01023"
 "歹"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01024"
 "圼"
@@ -13509,12 +13463,8 @@ ucd:IDS:contains
 -":UTC-01026"
 "氵"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01027"
 "氵"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01028"
 "氵"
@@ -13534,12 +13484,8 @@ ucd:IDS:contains
 -":UTC-01031"
 "牜"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01032"
 "犭"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01033"
 "畄"
@@ -13553,8 +13499,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UTC-01035"
 "目"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01036"
 "专"
@@ -13593,8 +13537,6 @@ ucd:IDS:contains
 -":UTC-01042"
 "立"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01043"
 "广"
 ucd:IDS:contains
@@ -13602,8 +13544,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UTC-01044"
 "米"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01045"
 "元"
@@ -13635,8 +13575,6 @@ ucd:IDS:contains
 -":UTC-01050"
 "罒"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01051"
 "一"
 ucd:IDS:contains
@@ -13656,8 +13594,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UTC-01054"
 "艹"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01055"
 "一"
@@ -13680,8 +13616,6 @@ ucd:IDS:contains
 ucd:IDS:contains
 -":UTC-01058"
 "讠"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01059"
 "兰"
@@ -13741,12 +13675,8 @@ ucd:IDS:contains
 -":UTC-01070"
 "钅"
 ucd:IDS:contains
-"？"
-ucd:IDS:contains
 -":UTC-01071"
 "页"
-ucd:IDS:contains
-"？"
 ucd:IDS:contains
 -":UTC-01072"
 "丠"

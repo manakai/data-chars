@@ -101,3 +101,14 @@ License of the  『和翰名苑』仮名字体データベース:
 > The database and accompanying materials are licensed under a
 > Creative Commons Attribution 4.0 International License
 > <http://creativecommons.org/licenses/by/4.0/>.
+
+* 篆書字体データセット data files
+
+Some of data in this directory are derived from 篆書字体データセット,
+with or without modifications.
+
+<http://codh.rois.ac.jp/tensho/>:
+
+> 『篆書字体データセット』（国文学研究資料館<https://www.nijl.ac.jp/>が複数の機関から収集／情報・システム研究機構 データサイエンス共同利用基盤施設 人文学オープンデータ共同利用センター<http://codh.rois.ac.jp/>・一般財団法人 人文情報学研究所<https://www.dhii.jp/>加工）はクリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス（CC BY-SA）<http://creativecommons.org/licenses/by-sa/4.0/>の下に提供されています。
+
+Note that CC BY-NC-SA data files are not used.

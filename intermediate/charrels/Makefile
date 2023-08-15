@@ -14,9 +14,9 @@ build-pages: _build-all
 clean-pages: _clean-pages
 
 _build-all: \
+    build-glyphs \
     build-components \
     build-descs \
-    build-glyphs \
     build-chars build-kanas build-kchars build-hans
 
 build-chars:

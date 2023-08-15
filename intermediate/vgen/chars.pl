@@ -626,10 +626,10 @@ sub split_ids ($) {
         push @c, $c;
         '';
       }ge;
-      
-      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？]$/ } split //, $t;
 
+      $t =~ s{[\p{Ideographic_Description_Characters}\x{303E}?？]}{}g;
       die $t if $t =~ /[\x21-\x7E]/;
+      push @c, split //, $t;
 
       return @c;
     } elsif ($s =~ /:babel:(.+)$/) {
@@ -652,6 +652,15 @@ sub split_ids ($) {
       my @c;
 
       push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？]$/ } split //, $t;
+
+      return @c;
+    } elsif ($s =~ /:mj:(.+)$/) {
+      my $t = $1;
+      my @c;
+
+      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}]$/ } split //, $t;
+
+      die $t if $t =~ /[\x21-\x7E？]/;
 
       return @c;
     } elsif ($s =~ /^:(?:u-cdp-|gb[0-9]+)[0-9a-f-]+$/) {

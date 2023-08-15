@@ -1,6 +1,7 @@
 ROOT_PATH = ../..
 TEMP_PATH = $(ROOT_PATH)/local/imj
 VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
+DATA_PATH = $(ROOT_PATH)/local/maps
 PERL = $(ROOT_PATH)/perl \
     -I$(ROOT_PATH)/bin/modules/json-ps/lib \
     -I$(ROOT_PATH)/bin/modules/web-encodings/lib -I$(VGEN_PATH)
@@ -11,7 +12,10 @@ SAVEURL = $(WGET) -O
 all: build
 
 build: $(TEMP_PATH) variants.json maps-0.list fmaps-0.list kmaps.list \
-    tmaps.list
+    tmaps.list $(DATA_PATH)/imaps-0.list
+
+build-pages: $(TEMP_PATH) \
+    $(DATA_PATH)/imaps-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -67,5 +71,9 @@ kmaps.list: kmaps.pl $(VGEN_PATH)/chars.pl \
     mj-voiced.txt \
     $(TEMP_PATH)/hikanji.txt
 	$(PERL) $< > $@
+
+$(DATA_PATH)/imaps-0.list: imaps.pl $(VGEN_PATH)/chars.pl \
+    tensho-chars.txt
+	$(PERL) $<
 
 ## License: Public Domain.

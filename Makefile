@@ -670,6 +670,7 @@ build-pages-iu: deps
 	cd intermediate/wiki && $(MAKE) build-pages
 	cd intermediate/google && $(MAKE) build-pages
 	cd intermediate/cjkvi && $(MAKE) build-pages
+	cd intermediate/mj && $(MAKE) build-pages
 	cd intermediate/misc && $(MAKE) build-pages
 	#
 	cd intermediate/charrels && $(MAKE) build-pages

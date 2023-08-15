@@ -199,10 +199,13 @@ my $Data = {};
       $Data->{$key}->{$c1}->{$c2}->{'mj:daikanwa-ucs'} = 1;
     } elsif (/^(補|)([0-9]+)('{0,2})\t(\p{Ideographic_Description_Characters}[\p{Han}\p{Ideographic_Description_Characters}]+)$/) {
       my $c1 = sprintf ':m%s%d%s', $1 ? 'h' : '', $2, $3;
-      my $c2 = (wrap_ids $4, ':XX'.'X:') // $4;
-      die if $c2 =~ /XX@{[]}X/;
+      my $c2 = (wrap_ids $4, ':mj:') // $4;
       my $key = 'idses';
       $Data->{$key}->{$c1}->{$c2}->{'mj:daikanwa-ucs'} = 1;
+      my @c = split_ids $c2;
+      for my $c6 (@c) {
+        $Data->{components}->{$c1}->{$c6}->{'mj:ids:contains'} = 1;
+      }
     } elsif (/^文字番号/) {
       #
     } elsif (/\S/) {
