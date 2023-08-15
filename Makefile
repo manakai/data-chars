@@ -10,7 +10,7 @@ SAVEURL = curl -fL -o
 updatenightly: update-submodules dataautoupdate build-generated-git-commish
 
 build-generated-git-commish:
-	cd local/generated && $(MAKE) build-git-commish
+	#cd local/generated && $(MAKE) build-git-commish
 
 update-submodules:
 	$(CURL) https://gist.githubusercontent.com/motemen/667573/raw/git-submodule-track | sh
@@ -676,7 +676,8 @@ build-pages-iu: deps
 	cd intermediate/charrels && $(MAKE) build-pages
 
 local/generated:
-	$(GIT) clone https://github.com/manakai/generated-data-chars $@ || (cd $@ && $(GIT) pull)
+	#$(GIT) clone https://github.com/manakai/generated-data-chars $@ || (cd $@ && $(GIT) pull)
+	mkdir -p local/generated
 
 ## ------ Tests ------
 
