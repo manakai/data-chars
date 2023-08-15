@@ -123,6 +123,7 @@ sub is_han ($) {
     }->{$c}) {
       return 1;
     } elsif ($c == 0x30B1 or $c == 0x30F6 or # ke
+             $c == 0x303B or # ditto
              $c == 0x3068 or # to
              $c == 0x30BF or # ta
              $c == 0x30F1) { # we
@@ -148,7 +149,8 @@ sub is_han ($) {
     return 1;
   } elsif ($char =~ /^:MJ([0-9]+)$/) {
     my $n = 0+$1;
-    if ($n == 2 or $n == 6376 or $n == 6377 or 
+    if ($n == 2 or $n == 6376 or $n == 6377 or
+        $n == 3 or
         $n == 56854 or
         $n == 56850 or $n == 56853) {
       return 0;
@@ -327,6 +329,7 @@ sub is_kana ($) {
     my $cc = 0+$1;
     if ({
       2 => 1, 6376 => 1, 6377 => 1, # shime
+      3 => 1, # ditto
       56854 => 1, # tame
       56850 => 1, 56853 => 1, # nari
     }->{$cc}) {

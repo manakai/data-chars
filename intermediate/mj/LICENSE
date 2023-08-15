@@ -104,7 +104,8 @@ License of the  『和翰名苑』仮名字体データベース:
 
 * 篆書字体データセット data files
 
-Some of data in this directory are derived from 篆書字体データセット,
+Some of data in this directory, as well as image file collections
+pointing this documentation, are derived from 篆書字体データセット,
 with or without modifications.
 
 <http://codh.rois.ac.jp/tensho/>:
@@ -112,3 +113,21 @@ with or without modifications.
 > 『篆書字体データセット』（国文学研究資料館<https://www.nijl.ac.jp/>が複数の機関から収集／情報・システム研究機構 データサイエンス共同利用基盤施設 人文学オープンデータ共同利用センター<http://codh.rois.ac.jp/>・一般財団法人 人文情報学研究所<https://www.dhii.jp/>加工）はクリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス（CC BY-SA）<http://creativecommons.org/licenses/by-sa/4.0/>の下に提供されています。
 
 Note that CC BY-NC-SA data files are not used.
+
+* 近代雑誌OCR学習用データセット data files
+
+Some of data in this directory, as well as image file collections
+pointing this documentation, are derived from 近代雑誌OCR学習用データ
+セット, with or without modifications.
+
+<http://codh.rois.ac.jp/modern-magazine/dataset/>:
+
+> 『近代雑誌OCR学習用データセット』（国立国語研究所<http://dglb01.ninjal.ac.jp/ninjaldl/>蔵／情報・システム研究機構 データサイエンス共同利用基盤施設 人文学オープンデータ共同利用センター<http://codh.rois.ac.jp/>・国立国語研究所作成）はクリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY）<http://creativecommons.org/licenses/by/4.0/>の下に提供されています。
+> 
+> データセットをご利用の際には、以下のような表示をお願いします。
+> 
+> > 『近代雑誌OCR学習用データセット』（CODH・国語研作成） doi:10.20676/00000415
+> 
+> また可能な場合は、データ提供元であるROIS-DS人文学オープンデータ共同利用センターへのリンクをお願いします。
+> 
+> > 提供：ROIS-DS人文学オープンデータ共同利用センター<http://codh.rois.ac.jp/>

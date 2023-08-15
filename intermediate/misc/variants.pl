@@ -16,6 +16,8 @@ sub ue ($) {
     return $1;
   } elsif ($s =~ m{^"([^"\\]+)"$}) {
     return $1;
+  } elsif ($s =~ m{^'([^'\\]+)'$}) {
+    return $1;
   }
   $s =~ s{\\u([0-9A-Fa-f]{4})}{chr hex $1}ge;
   $s =~ s{\\u\{([0-9A-Fa-f]+)\}}{chr hex $1}ge;
@@ -102,7 +104,7 @@ sub private ($) {
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
     if (/^\s*#/) {
       #
-    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|(?>:[\w\p{Ideographic_Description_Characters}-]+)+|\\.|"[^"]+")\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|(?>:[\w\p{Ideographic_Description_Characters}-]+)+|\\.)\s*$/) {
+    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|(?>:[\w\p{Ideographic_Description_Characters}-]+)+|\\.|"[^"]+"|'[^']+')\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|(?>:[\w\p{Ideographic_Description_Characters}-]+)+|\\.|"[^"]+"|'[^']+')\s*$/) {
       my $vtype = {
         related => 'manakai:related',
         differentiated => 'manakai:differentiated',
@@ -117,6 +119,7 @@ sub private ($) {
         ligature => 'manakai:ligature',
         rev => 'manakai:revision',
         dotless => 'manakai:dotless',
+        lookslike => 'manakai:lookslike',
       }->{$1} // die "Bad type |$1|";
       my $t = $1;
       my $c1 = ue $3;
