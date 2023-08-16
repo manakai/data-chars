@@ -646,15 +646,14 @@ build-github-pages: local/generated build-pages-iu
 	mkdir local
 	mv generated local/
 
-	#XXX
-	ls -lR local > list.txt
-
 	tar -cf generated.tar local/generated
 	gzip generated.tar
-
 	ls -l generated.tar.gz
 
 	rm -fr local/ config perl prove
+
+deployed-github-pages:
+	$(CURL) -X POST -d "{}" $$HOOK_NEXT_STEP_URL
 
 build-for-docker: local/generated build-pages-iu
 	cp config/Dockerfile.pages ./Dockerfile

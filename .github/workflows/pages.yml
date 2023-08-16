@@ -37,6 +37,12 @@
                "id" : "deployment",
                "name" : "Deploy",
                "uses" : "actions/deploy-pages@main"
+            },
+            {
+               "env" : {
+                  "HOOK_NEXT_STEP_URL" : "${{ secrets.HOOK_NEXT_STEP_URL }}"
+               },
+               "run" : "make deployed-github-pages"
             }
          ]
       }
