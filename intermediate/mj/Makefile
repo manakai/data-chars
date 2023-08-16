@@ -73,7 +73,9 @@ kmaps.list: kmaps.pl $(VGEN_PATH)/chars.pl \
 	$(PERL) $< > $@
 
 $(DATA_PATH)/imaps-0.list: imaps.pl $(VGEN_PATH)/chars.pl \
-    tensho-chars.txt
+    tensho-chars.txt \
+    modmag-chars.txt \
+    kuzushiji-chars.txt
 	$(PERL) $<
 
 ## License: Public Domain.

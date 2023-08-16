@@ -114,6 +114,26 @@ with or without modifications.
 
 Note that CC BY-NC-SA data files are not used.
 
+* 日本古典籍くずし字データセット data files
+
+Some of data in this directory, as well as image file collections
+pointing this documentation, are derived from 日本古典籍くずし字データセット,
+with or without modifications.
+
+<http://codh.rois.ac.jp/char-shape/>:
+
+> 『日本古典籍くずし字データセット』（国文学研究資料館<https://www.nijl.ac.jp/pages/cijproject/>ほか所蔵／情報・システム研究機構 データサイエンス共同利用基盤施設 人文学オープンデータ共同利用センター<http://codh.rois.ac.jp/>加工）はクリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス（CC BY-SA）<http://creativecommons.org/licenses/by-sa/4.0/>の下に提供されています。
+> 
+> データセット全体をご利用の際には、例えば以下のような表示をお願いします。個別の古典籍のみをご利用の場合には、それぞれのページをご覧下さい。
+> 
+> > 『日本古典籍くずし字データセット』（国文研ほか所蔵／CODH加工） doi:10.20676/00000340
+> 
+> ここで、データセットのDOI（doi:10.20676/00000340<http://doi.org/10.20676/00000340>）は、データセットを特定するために重要な情報ですので、引用の際にはできるだけ含めて下さい。なお、このDOIはデータセットの更新にかかわらず不変のIDとし、データセットのバージョン管理は行いません。
+> 
+> また可能な場合には、データ提供元であるROIS-DS人文学オープンデータ共同利用センターへのリンクをお願いします。
+> 
+> > 提供：ROIS-DS人文学オープンデータ共同利用センター<http://codh.rois.ac.jp/>
+
 * 近代雑誌OCR学習用データセット data files
 
 Some of data in this directory, as well as image file collections

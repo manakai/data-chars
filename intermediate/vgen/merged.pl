@@ -997,6 +997,7 @@ my $NTypes = [];
     "unihan3.0:kKangXi:virtual",
     "unihan3.0:kIRGKangXi:virtual",
 
+    "manakai:lookslike",
     "manakai:ne",
 
     "glyphwiki:同型異字",

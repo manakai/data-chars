@@ -14,6 +14,7 @@ my $Data = {};
 for (
   ['tensho-chars.txt', ':tensho-'],
   ['modmag-chars.txt', ':modmag-'],
+  ['kuzushiji-chars.txt', ':kuzushiji-'],
 ) {
   my $prefix = $_->[1];
   my $path = $ThisPath->child ($_->[0]);
