@@ -86,6 +86,36 @@ my $Data = {};
   }
 }
 
-print_rel_data $Data;
+sub u_rcv ($) {
+  my $s = shift;
+  if (2 == length $s) {
+    my $c1 = sprintf ':u-rcv-%x-%x',
+        (ord substr $s, 0, 1),
+        (ord substr $s, 1, 1);
+    my $c2 = chr ord substr $s, 0, 1;
+    $Data->{codes}->{$c2}->{$c1}->{'hannom-rcv:ivs'} = 1;
+    return $c1;
+  } else {
+    return $s;
+  }
+} # u_rcv
+
+{
+  my $path = $ThisPath->child ('rcv.json');
+  my $json = json_bytes2perl $path->slurp;
+  for (map { @$_ } $json->{1}, $json->{2}, $json->{html}) {
+    if (@$_ > 1) {
+      my $c1 = u_rcv $_->[0];
+      my $c2 = u_rcv $_->[1];
+
+      use utf8;
+      $Data->{hans}->{$c1}->{$c2}->{'hannom-rcv:𡨸漢喃簡體'} = 1;
+    }
+  }
+}
+
+write_rel_data_sets
+    $Data => $ThisPath, 'maps',
+    [];
 
 ## License: Public Domain.

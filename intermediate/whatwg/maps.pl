@@ -63,16 +63,16 @@ my $PUA = {};
     if (is_private $c2) {
       die;
       $c2 = sprintf ':u-hkscs-%x', ord $c2;
-      $Data->{$key}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     }
     my $rel_type = 'encoding:decode:big5';
     $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     unless ($c1 eq $c1_0) {
-      $Data->{$key}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
+      $Data->{codes}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
     }
 
     if ($PUA->{$b5}) {
-      my $c2_p0 = sprintf ':u-bigfive-%x', $PUA->{$b5};
+      my $c2_p0 = sprintf ':u-b5-%x', $PUA->{$b5};
       if ($c1 eq $c1_0) {
         $Data->{$key}->{$c1_0}->{$c2_p0}->{'manakai:same'} = 1;
       } else {
@@ -87,7 +87,7 @@ my $PUA = {};
 
 for my $b5 (keys %$PUA) {
   my $c1 = sprintf ':b5-%x', $b5;
-  my $c2 = sprintf ':u-bigfive-%x', $PUA->{$b5};
+  my $c2 = sprintf ':u-b5-%x', $PUA->{$b5};
   my $key = 'variants';
   $Data->{$key}->{$c1}->{$c2}->{'manakai:same'} = 1;
 }

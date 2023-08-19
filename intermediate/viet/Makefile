@@ -1,6 +1,7 @@
 ROOT_PATH = ../..
 TEMP_PATH = $(ROOT_PATH)/local/ivn
 VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
+DATA_PATH = $(ROOT_PATH)/local/maps
 PERL = $(ROOT_PATH)/perl -I$(ROOT_PATH)/bin/modules/json-ps/lib -I$(VGEN_PATH)
 
 WGET = wget
@@ -10,7 +11,10 @@ all: build
 
 build-nightly:
 
-build: $(TEMP_PATH) maps.list
+build: $(TEMP_PATH) maps-0.list build-pages
+
+build-pages: $(TEMP_PATH) \
+    $(DATA_PATH)/vietglyphs-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -25,11 +29,17 @@ $(TEMP_PATH)/uvs.txt.2:
 $(TEMP_PATH)/uvs.txt.3:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/nomfoundation/font/10c78eaadc898794687213cf1127c73f86a1c5a4/src/UnicodeVariationSequences.txt
 
-maps.list: maps.pl $(VGEN_PATH)/chars.pl \
+
+maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/features.txt \
     $(TEMP_PATH)/uvs.txt.2 \
     $(TEMP_PATH)/uvs.txt.3 \
-    ca.txt
-	$(PERL) $< > $@
+    ca.txt \
+    rcv.json
+	$(PERL) $<
+
+$(DATA_PATH)/vietglyphs-0.list: glyphs.pl $(VGEN_PATH)/chars.pl \
+    rcv.json
+	$(PERL) $<
 
 ## License: Public Domain.

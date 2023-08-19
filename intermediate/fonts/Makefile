@@ -9,7 +9,7 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) components-0.list
+build: $(TEMP_PATH) components-0.list maps-0.list
 
 build-nightly:
 
@@ -34,5 +34,9 @@ components-0.list: components.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/wadalabfont-kit/jointdata/jis3-*.l
 	$(PERL) $<
 components-*.list: components-0.list
+
+maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
+    inherited-tables.json
+	$(PERL) $<
 
 ## License: Public Domain.

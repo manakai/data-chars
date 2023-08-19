@@ -23,3 +23,12 @@ License of the wadalabfont-kit files
 >     たら, ktanaka at tanaka.ecc.u-tokyo.ac.jp まで御連絡下さい.
 > 
 > のように BSDライセンス風のものになっていますが，このシステムに関しても， それに準じた形になります．なお，システムに関しは，「どのような変換をし たかを付記して下さい」というのは意味がないので必要ありません．公開した データに関する改善はこちらに送っていただくよりも，データを利用するコミュ ニティ内でフィードバックしていただいた方が役に立つと思います．
+
+* 傳承字形 (Inherited Glyphs) 標準化文件 data files
+
+Some of data in this directory are derived from 傳承字形 (Inherited
+Glyphs) 標準化文件, with or without modifications.
+
+<https://github.com/ichitenfont/inheritedglyphs>:
+
+> 本作品以共享創意-署名4.0授權協議<https://creativecommons.org/licenses/by/4.0/>授權。

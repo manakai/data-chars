@@ -242,6 +242,9 @@ my $NTypes = [];
     "cjkvi:nom_qn:#",
     "cjkvi:nom_qn:#:V4",
 
+    "inherited:Big5",
+    "inherited:Unicode",
+
     "glyphwiki:alias",
     "glyphwiki:juki",
     "glyphwiki:ninjal",
@@ -410,6 +413,9 @@ my $NTypes = [];
     "ucd:variant of",
     "ucd:incorrect of",
     "ucd:ligature of",
+
+    "hannom-rcv:ivs",
+    "hannom-rcv:𡨸漢喃簡體",
 
     "jisz8903:annex2",
     'jisx0208-1997:附属書1:表1',

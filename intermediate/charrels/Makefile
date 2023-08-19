@@ -14,10 +14,11 @@ build-pages: _build-all
 clean-pages: _clean-pages
 
 _build-all: \
-    build-glyphs \
-    build-components \
+    build-hans \
     build-descs \
-    build-chars build-kanas build-kchars build-hans
+    build-glyphs \
+    build-chars build-kanas build-kchars \
+    build-components
 
 build-chars:
 	$(PERL) $(VGEN_PATH)/generate.pl chars-input.json

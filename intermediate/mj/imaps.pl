@@ -22,7 +22,15 @@ for (
     if (/^(\S)$/) {
       my $c1 = u_chr ord $1;
       my $c3 = sprintf '%s%s', $prefix, $1;
-      $Data->{glyphs}->{$c3}->{$c1}->{'codh:Unicode'} = 1;
+      if ($c1 eq "\x{3031}") {
+        $Data->{glyphs}->{$c3}->{"\x{3033}"}->{'codh:Unicode'} = 1;
+        $Data->{glyphs}->{$c3}->{"\x{3034}"}->{'codh:Unicode'} = 1;
+      } elsif ($c1 eq "\x{3032}") {
+        $Data->{glyphs}->{$c3}->{"\x{3033}"}->{'codh:Unicode'} = 1;
+        $Data->{glyphs}->{$c3}->{"\x{3035}"}->{'codh:Unicode'} = 1;
+      } else {
+        $Data->{glyphs}->{$c3}->{$c1}->{'codh:Unicode'} = 1;
+      }
     } elsif (/^(\S) (\S)$/) {
       my $c1 = u_chr ord $1;
       my $c2 = u_chr ord $2;

@@ -10,9 +10,10 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) variants.list
+build: $(TEMP_PATH) repo
+	$(MAKE) variants.list
 
-build-nightly: $(TEMP_PATH)
+build-nightly: $(TEMP_PATH) repo
 	$(MAKE) variants.list
 
 $(TEMP_PATH):
@@ -24,7 +25,6 @@ repo:
 	(cd repo && git pull))
 
 variants.list: variants.pl $(VGEN_PATH)/chars.pl \
-    repo \
     $(TEMP_PATH)/repo/data/dictionary/*.txt \
     $(TEMP_PATH)/repo/data/scheme/*.txt
 	$(PERL) $< > $@

@@ -132,10 +132,7 @@
       "path": "../cns/maps2.list",
       "rels_key": "hans"
     },
-    {
-      "path": "../viet/maps.list",
-      "rels_key": "hans"
-    },
+    {"path": "../viet/maps-0.list", "rels_key": "hans"},
     {
       "path": "../mozilla/maps.list",
       "rels_key": "hans"
@@ -320,6 +317,7 @@
     {"path": "../wiki/maps-3.list", "rels_key": "hans"},
     {"path": "../wiki/maps-4.list", "rels_key": "hans"},
     {"path": "../wiki/maps-5.list", "rels_key": "hans"},
+    {"path": "../fonts/maps-0.list", "rels_key": "hans"},
     {
       "path": "../misc/maps.list",
       "rels_key": "hans"

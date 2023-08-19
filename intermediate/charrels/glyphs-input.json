@@ -17,6 +17,7 @@
     {"path": "../wiki/maps-4.list", "rels_key": "glyphs"},
     {"path": "../wiki/maps-5.list", "rels_key": "glyphs"},
 
+    {"path": "../../local/maps/vietglyphs-0.list", "rels_key": "glyphs"},
     {"path": "../../local/maps/codes.list", "rels_key": "glyphs"},
     {"path": "../../local/maps/imaps-0.list", "rels_key": "glyphs"}
   ],
