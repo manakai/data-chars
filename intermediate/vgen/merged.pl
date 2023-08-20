@@ -674,6 +674,7 @@ my $NTypes = [];
       'mj:音価2',
       'mj:音価3',
     "kana:manyou",
+    "kana:jinmeikana",
     
     "irc:ascii-lowercase",
     "irc:rfc1459-lowercase",

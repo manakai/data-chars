@@ -10,7 +10,8 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) variants.list maps.list sets.json build-pages
+build: $(TEMP_PATH) variants.list maps.list sets.json swc-0.list \
+    build-pages
 
 build-nightly: build
 
@@ -22,6 +23,13 @@ $(TEMP_PATH):
 
 $(TEMP_PATH)/dict.ts:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/geolonia/normalize-japanese-addresses/master/src/lib/dict.ts
+
+$(TEMP_PATH)/swglyphs.json:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/suikawiki/extracted/master/data/extracted/data-glyph-.json
+$(TEMP_PATH)/swchars.json:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/suikawiki/extracted/master/data/extracted/data-p8sx0v.json
+$(TEMP_PATH)/swjinmeikana.json:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/suikawiki/extracted/8433de52e653498c99769612c7e05d6f9db511b7/data/extracted/data-gmqueu7nba.json
 
 variants.list: variants.pl $(VGEN_PATH)/chars.pl \
     $(ROOT_PATH)/src/han-variants.txt \
@@ -49,5 +57,11 @@ sets.json: sets.pl $(VGEN_PATH)/chars.pl \
 $(DATA_PATH)/codes.list: codes.pl $(VGEN_PATH)/chars.pl
 	mkdir -p $(DATA_PATH)
 	$(PERL) $< > $@
+
+swc-0.list: swc.pl \
+    $(TEMP_PATH)/swglyphs.json \
+    $(TEMP_PATH)/swchars.json \
+    $(TEMP_PATH)/swjinmeikana.json
+	$(PERL) $<
 
 ## License: Public Domain.

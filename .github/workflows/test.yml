@@ -22,10 +22,10 @@
                "run" : "git config --global user.email \u0022temp@github.test\u0022"
             },
             {
-               "run" : "git fetch --unshallow origin master"
+               "run" : "git fetch --unshallow origin master || git fetch origin master"
             },
             {
-               "run" : "git checkout origin master"
+               "run" : "git checkout master || git checkout -b master origin/master"
             },
             {
                "run" : "git merge -m \u0022auto-merge $GITHUB_REF ($GITHUB_SHA) into master\u0022 $GITHUB_SHA"
@@ -63,10 +63,10 @@
                "run" : "git config --global user.email \u0022temp@github.test\u0022"
             },
             {
-               "run" : "git fetch --unshallow origin master"
+               "run" : "git fetch --unshallow origin master || git fetch origin master"
             },
             {
-               "run" : "git checkout origin master"
+               "run" : "git checkout master || git checkout -b master origin/master"
             },
             {
                "run" : "git merge -m \u0022auto-merge $GITHUB_REF ($GITHUB_SHA) into master\u0022 $GITHUB_SHA"

@@ -248,6 +248,7 @@
       "path": "../misc/variants.list",
       "rels_key": "kanas"
     },
+    {"path": "../misc/swc-0.list", "rels_key": "kanas"},
     {
       "path": "../misc/sets.json",
       "set_map": {

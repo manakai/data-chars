@@ -195,7 +195,8 @@
     {
       "path": "../misc/variants.list",
       "rels_key": "kchars"
-    }
+    },
+    {"path": "../misc/swc-0.list", "rels_key": "kchars"}
   ],
   "leader_types": [
   ],

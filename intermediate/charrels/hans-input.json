@@ -336,6 +336,7 @@
       "path": "../misc/variants.list",
       "rels_key": "hans"
     },
+    {"path": "../misc/swc-0.list", "rels_key": "hans"},
     {
       "path": "../misc/sets.json",
       "set_map": {

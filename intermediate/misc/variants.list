@@ -10323,6 +10323,9 @@ manakai:doukun
 -"臍"
 "𦜝"
 manakai:variant:jpnewstyle
+-"臘"
+"𫞇"
+manakai:variant:jpnewstyle
 -"臟"
 "臓"
 geolonia:oldnew
@@ -15109,6 +15112,9 @@ manakai:ne
 -"!"
 "　"
 manakai:differentiated
+-"\u002B"
+"t"
+manakai:lookslike
 -"."
 "・"
 manakai:small
@@ -15996,6 +16002,9 @@ manakai:related
 manakai:related
 "〄"
 manakai:related
+-"L"
+"∟"
+manakai:lookslike
 -"Y̆"
 ":aj-ext-23066"
 manakai:unified
@@ -16092,6 +16101,9 @@ manakai:related
 -"‿"
 "͜"
 manakai:related
+-"∞"
+"8"
+manakai:related
 -"⌬"
 ":jis-pubrev-1-6-77"
 manakai:unified
@@ -16129,7 +16141,7 @@ manakai:related
 manakai:related
 -"丁"
 "T"
-manakai:related
+manakai:lookslike
 -"亜"
 "㌃"
 manakai:related
@@ -16146,7 +16158,7 @@ manakai:related
 manakai:related
 -"十"
 "\u002B"
-manakai:ne
+manakai:lookslike
 -"卄"
 "⧺"
 manakai:related
