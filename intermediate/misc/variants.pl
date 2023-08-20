@@ -31,7 +31,7 @@ sub private ($) {
   my $c = shift;
   if ($c =~ /^:jis-pubrev-(.+)$/) {
     my $c0 = ':jis' . $1;
-    $Data->{codes}->{$c0}->{$c}->{'manakai:private'} = 1;
+    $Data->{descs}->{$c0}->{$c}->{'manakai:private'} = 1;
   }
 } # private
 
@@ -81,7 +81,7 @@ sub private ($) {
           $Data->{hans}->{$c31}->{$c32}->{$vtype2} = 1;
         }
       }
-    } elsif (m{^(vpairs)((?:\s+[\w\\\{\}\x{20000}-\x{3FFFF}]+/[\w\\\{\}\x{20000}-\x{3FFFF}]+)+)$}) {
+    } elsif (m{^(vpairs)((?:\s+(?:[\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\x{2FF0}-\x{2FFF}-]+)/(?:[\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\x{2FF0}-\x{2FFF}-]+))+)$}) {
       my $s = ue $2;
       my @s = map { [split m{/}, $_, 2] } grep { length } split /\s+/, $s;
       my $vtype2 = 'manakai:differentiated';
@@ -248,6 +248,25 @@ sub private ($) {
     my $c1 = $old[$_];
     my $c2 = $new[$_];
     $Data->{hans}->{$c1}->{$c2}->{'geolonia:oldnew'} = 1;
+  }
+}
+
+sub expand ($) {
+  my $c = shift;
+  if ($c =~ /^:(\p{Ideographic_Description_Characters})/) {
+    my $c2 = substr $c, 1;
+    $Data->{descs}->{$c}->{$c2}->{'manakai:ids'} = 1;
+    my @c = split_ids $c2;
+    for my $c3 (@c) {
+      $Data->{components}->{$c}->{$c3}->{'manakai:ids:contains'} = 1;
+    }
+  }
+}
+
+for my $c1 (keys %{$Data->{hans}}) {
+  expand $c1;
+  for my $c2 (keys %{$Data->{hans}->{$c1}}) {
+    expand $c2;
   }
 }
 

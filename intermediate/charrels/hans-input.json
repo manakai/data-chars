@@ -132,7 +132,13 @@
       "path": "../cns/maps2.list",
       "rels_key": "hans"
     },
-    {"path": "../viet/maps-0.list", "rels_key": "hans"},
+    {
+      "path": "../viet/maps-0.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "hannom-rcv:𡨸漢喃簡體": "vi"
+      }
+    },
     {
       "path": "../mozilla/maps.list",
       "rels_key": "hans"
@@ -338,6 +344,23 @@
       }
     },
     
+    {
+      "path": "../../local/maps/vietsets.json",
+      "rels_key": "none",
+      "set_map": {
+        "rcv_simplified": "vi",
+        "rcv_standard": "vi"
+      }
+    },
+    {
+      "path": "../../local/maps/fontssets.json",
+      "rels_key": "none",
+      "set_map": {
+        "inherited1": "inherited1",
+        "inherited2": "inherited2",
+        "inherited3": "inherited3"
+      }
+    },
     {"path": "../../local/maps/idsc-0.list", "rels_key": "hans"}
   ],
   "leader_types": [
@@ -358,6 +381,12 @@
       "short_label": "港",
       "label": "香港",
       "lang_tag": "zh-HK"
+    },
+    {
+      "key": "inherited",
+      "short_label": "傳",
+      "label": "傳承",
+      "lang_tag": "zh-Hant"
     },
     {
       "key": "tw",
@@ -394,6 +423,12 @@
       "short_label": "韓",
       "label": "韓國",
       "lang_tag": "ko-KR"
+    },
+    {
+      "key": "vi",
+      "short_label": "越",
+      "label": "越南",
+      "lang_tag": "vi-Hani"
     }
   ],
   "tests": [

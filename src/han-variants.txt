@@ -59,6 +59,7 @@ jpnewstyle 𧦅 謳
 jpnewstyle 瓯 甌
 
 jpnewstyle 𫝼 撥
+jpnewstyle 𫞇 臘
 
 jpnewstyle 𠡠 勑
 jpnewstyle 俫 倈
@@ -67,6 +68,7 @@ jpnewstyle 徕 徠
 jpnewstyle 𮝩 轢
 jpnewstyle 𭢫 擽
 jpnewstyle 檪 櫟
+vpairs 楽/:⿰忄楽 樂/㦡
 
 jpnewstyle 𪘂 齧
 jpnewstyle 𮯈 䶨
@@ -643,6 +645,13 @@ alt 死 タヒ
 alt 死 氏
 
 unified 神 ネ申
+
+related 𣎃 月
+related 𢆥 年
+related 𡨸 字
+related 士 師
+unified :u-rcv-7ac9-e0101 :⿱穴竜
+jpnewstyle :⿱穴竜 \u7AC9
 
 differentiated \u310C 力
 differentiated \u310B 乃

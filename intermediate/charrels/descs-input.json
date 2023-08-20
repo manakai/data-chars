@@ -104,7 +104,7 @@
     {"path": "../whatwg/entities-0.list", "rels_key": "descs"},
     {"path": "../fonts/maps-0.list", "rels_key": "codes"},
     {"path": "../misc/maps.list", "rels_key": "idses"},
-    {"path": "../misc/variants.list", "rels_key": "codes"},
+    {"path": "../misc/variants.list", "rels_key": "descs"},
 
     {"path": "../../local/maps/vietglyphs-0.list", "rels_key": "codes"},
     {"path": "../../local/maps/gwrels-0.list", "rels_key": "descs"},

@@ -45,7 +45,9 @@ $GetLeader->{kanas} = sub ($) {
                  $x->[2] <  0xFFFF ? 4 : # han
                  $x->[2] < 0x1FFFF ? 2 : # kana
                                      5): # han
-                ($x->[0] =~ /^:wmc?:/ ? 7 : 8);
+              ($x->[0] =~ /^:u-jitaichou/ ? 7 :
+               $x->[0] =~ /^:u-rcv/ ? 7 :
+                                     9);
     $x;
   } @{$_[0]}];
   return $sorted->[0]; # or undef
@@ -89,7 +91,7 @@ sub get_cluster_leaders ($) {
       get_leader [grep { $props->{stems}->{all}->{$_} } @$chars]
    // get_leader $chars;
 
-  for (qw(cn hk tw)) {
+  for (qw(cn hk tw vi)) {
     $props->{leaders}->{$_} = get_leader [keys %{$props->{stems}->{$_}}]; # or undef
   }
 
@@ -130,6 +132,11 @@ sub get_cluster_leaders ($) {
       get_leader [grep { $MergedSets->{'to:manakai:variant:jpnewstyle'}->{$_} } @$chars]
    // get_leader [grep { $MergedSets->{'from:cjkvi:jp-old-style'}->{$_} } @$chars]
    // $props->{leaders}->{jp};
+
+  $props->{leaders}->{inherited} =
+      get_leader [grep { $MergedSets->{inherited1}->{$_} } @$chars]
+   // get_leader [grep { $MergedSets->{inherited2}->{$_} } @$chars]
+   // get_leader [grep { $MergedSets->{inherited3}->{$_} } @$chars];
   
   for (keys %{$props->{leaders}}) {
     delete $props->{leaders}->{$_} if not defined $props->{leaders}->{$_};

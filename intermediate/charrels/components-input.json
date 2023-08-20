@@ -12,6 +12,7 @@
     {"path": "../fonts/components-0.list", "rels_key": "components"},
     {"path": "../cjkvi/ids-0.list", "rels_key": "components"},
     {"path": "../cjkvi/hd-components.list", "rels_key": "components"},
+    {"path": "../misc/variants.list", "rels_key": "components"},
     
     {"path": "../../local/maps/idsc-0.list", "rels_key": "components"},
     {"path": "../../local/maps/dsf-0.list", "rels_key": "components"},

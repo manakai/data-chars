@@ -1071,17 +1071,19 @@ my $NTypes = [];
     "manakai:inset:jp",
     "manakai:inset:jp2",
     "manakai:inset:tw",
+    "manakai:inset:vi",
     "manakai:inset:cn:variant",
     "manakai:inset:hk:variant",
     "manakai:inset:jp:variant",
     "manakai:inset:jp2:variant",
     "manakai:inset:tw:variant",
+    "manakai:inset:vi:variant",
   ) {
     $TypeWeight->{$vtype} = -1;
   }
   $Data->{inset_mergeable_weight} = W 'COVERED';
   $Data->{min_unmergeable_weight} = W 'SAME';
-  $Data->{inset_keys} = [sort { $a cmp $b } qw(cn jp jp2 tw hk)];
+  $Data->{inset_keys} = [sort { $a cmp $b } qw(cn jp jp2 tw hk vi)];
   for (values %$TypeMergeableWeight) {
     if ($_ < $Data->{min_unmergeable_weight}) {
       $Data->{min_unmergeable_weight} = $_;

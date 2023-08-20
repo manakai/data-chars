@@ -44,7 +44,6 @@ related \㌩ 節
 related \° 度
 related \′ 分
 related \″ 秒
-related R 尺
 related ウ 宇
 related ソ 蘇
 related ロ 露
@@ -53,9 +52,18 @@ related \♀ 雌
 related \♂ 男
 related \♀ 女
 related F 階
-related T 丁
 related \🍞 \8
+
+related R 尺
 alt u μ
+lookslike り 刂
+lookslike \❬ \<
+lookslike \< く
+related 8 \∞
+lookslike T 丁
+lookslike \∟ L
+lookslike \+ 十
+lookslike t \+
 
 ## Source: <http://code.web.idv.hk/cns11643/csic2004.php>
 T1-4244 U+006D,U+0302
@@ -204,6 +212,27 @@ variant ー \⸺
 variant ー \→
 differentiated \- \|
 
+related \〱 々
+related \〱 \〻
+related \〱 \ー
+variant ゝ 〻
+variant ヽ 〻
+alt 〱 "／＼"
+alt \〱 "＼／"
+alt \〲 '／"＼'
+related 〱 〲
+lookslike 〱 く
+lookslike 〲 ぐ
+related 〱 \²
+related 〲 "²゙"
+related 々 \²
+alt 〱 "〳〵"
+alt 〲 "〴〵"
+related ゝ ゞ
+related ゝ ゝ゚
+related ヽ ヾ
+related ヽ ヽ゚
+
 alt \゛ \”
 alt \゛ \"
 mistake \゜ \°
@@ -242,9 +271,6 @@ differentiated \u3000 \uFE57
 ne 뼁 뜁
 ne 잏 왕
 ne 퓌 풔
-
-
-ne \+ 十
 
 related \u3004 JIS
 related :aj273:aj272:aj282 JIS
@@ -831,6 +857,5 @@ related \u29FB 卅
 related :jisfusai1406 卌
 
 small ン :jisfusai1678
-
 
 ## License: Public Domain.

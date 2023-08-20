@@ -671,6 +671,7 @@ build-pages-iu: deps
 	cd intermediate/cjkvi && $(MAKE) build-pages
 	cd intermediate/mj && $(MAKE) build-pages
 	cd intermediate/viet && $(MAKE) build-pages
+	cd intermediate/fonts && $(MAKE) build-pages
 	cd intermediate/misc && $(MAKE) build-pages
 	#
 	cd intermediate/charrels && $(MAKE) build-pages

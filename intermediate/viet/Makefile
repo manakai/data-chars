@@ -13,10 +13,14 @@ build-nightly:
 
 build: $(TEMP_PATH) maps-0.list build-pages
 
-build-pages: $(TEMP_PATH) \
-    $(DATA_PATH)/vietglyphs-0.list
+build-pages: $(DATA_PATH) \
+    $(DATA_PATH)/vietglyphs-0.list \
+    $(DATA_PATH)/vietsets.json
 
 $(TEMP_PATH):
+	mkdir -p $@
+
+$(DATA_PATH):
 	mkdir -p $@
 
 $(TEMP_PATH)/features.txt:
@@ -41,5 +45,8 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
 $(DATA_PATH)/vietglyphs-0.list: glyphs.pl $(VGEN_PATH)/chars.pl \
     rcv.json
 	$(PERL) $<
+
+$(DATA_PATH)/vietsets.json: sets.pl rcv.json
+	$(PERL) $< > $@
 
 ## License: Public Domain.
