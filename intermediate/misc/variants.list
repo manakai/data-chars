@@ -14732,6 +14732,15 @@ manakai:alt
 -"→"
 "ー"
 manakai:equivalent
+-"✔"
+"っ"
+manakai:related
+"ん"
+manakai:related
+"ッ"
+manakai:related
+"ン"
+manakai:related
 -"➰"
 "ー"
 manakai:equivalent
@@ -14904,6 +14913,9 @@ manakai:related
 kana:origin:variant
 "曾"
 kana:origin:variant
+-"ム"
+"ン"
+manakai:related
 -"ヤ"
 ":jis1-44-73"
 manakai:hasspecialized

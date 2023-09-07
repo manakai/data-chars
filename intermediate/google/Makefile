@@ -19,7 +19,7 @@ $(TEMP_PATH):
 	mkdir -p $@
 
 $(TEMP_PATH)/opentype.js:
-	$(SAVEURL) $@ https://data.suikawiki.org/js/opentype.js
+	$(SAVEURL) $@ https://raw.githubusercontent.com/manakai/opentypejs/master/dist/opentype.js
 $(TEMP_PATH)/dumpotfg.js: dumpotfg.js
 	cp $< $@
 

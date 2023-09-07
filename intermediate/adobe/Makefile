@@ -74,7 +74,7 @@ $(TEMP_PATH)/glyphlist.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/agl-aglfn/master/glyphlist.txt
 
 $(TEMP_PATH)/opentype.js:
-	$(SAVEURL) $@ https://data.suikawiki.org/js/opentype.js
+	$(SAVEURL) $@ https://raw.githubusercontent.com/manakai/opentypejs/master/dist/opentype.js
 $(TEMP_PATH)/dumpotf.js: dumpotf.js
 	cp $< $@
 

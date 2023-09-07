@@ -52,13 +52,39 @@ my $VKey = {};
   }
 }
 
+sub value_to_char ($) {
+  my $value = shift;
+  return undef unless defined $value;
+
+  if ($value->{xml} =~ m{^<sw-tate xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:"><anchor>([^<>&:.]+)</anchor></sw-tate>$}) {
+    return sprintf ':tate-%s', $1;
+  } elsif ($value->{xml} =~ m{^<anchor xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:"><sw-tate>([^<>&:.]+)</sw-tate></anchor>$}) {
+    return sprintf ':tate-%s', $1;
+  }
+
+  if ($value->{xml} =~ m{^<sub xmlns="http://www.w3.org/1999/xhtml"><anchor xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:">([^<>&:.]+)</anchor></sub>$}) {
+    return sprintf ':sub-%s', $1;
+  } elsif ($value->{xml} =~ m{^<anchor xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:"><sub xmlns="http://www.w3.org/1999/xhtml">([^<>&:.]+)</sub></anchor>$}) {
+    return sprintf ':sub-%s', $1;
+  }
+
+  if ($value->{xml} =~ m{^<sup xmlns="http://www.w3.org/1999/xhtml"><anchor xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:">([^<>&:.]+)</anchor></sup>$}) {
+    return sprintf ':sup-%s', $1;
+  } elsif ($value->{xml} =~ m{^<anchor xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:"><sup xmlns="http://www.w3.org/1999/xhtml">([^<>&:.]+)</sup></anchor>$}) {
+    return sprintf ':sup-%s', $1;
+  }
+
+  return $value->{text} if length $value->{text};
+  return undef;
+} # value_to_char
+
 {
   my $path = $TempPath->child ('swchars.json');
   my $json = json_bytes2perl $path->slurp;
   use utf8;
   for my $item (@$json) {
-    my $c1 = $item->{文字}->[0]->{text} // '';
-    next unless length $c1;
+    my $c1 = value_to_char $item->{文字}->[0];
+    next unless defined $c1;
     my $key = $VKey->{$c1} || get_vkey $c1;
     for (
       [略字 => 'manakai:variant:simplified'],
@@ -68,13 +94,21 @@ my $VKey = {};
       [欠画 => 'manakai:taboovariant'],
       [同訓異字 => 'manakai:doukun'],
       [代替表現 => 'manakai:alt'],
+      [小書き => 'manakai:small'],
       [関連 => 'manakai:related'],
       [字形類似 => 'manakai:lookslike'],
+      [左右反転類似 => 'manakai:左右反転類似'],
+      [上下反転類似 => 'manakai:上下反転類似'],
+      [半回転類似 => 'manakai:回転類似'],
+      [四半回転類似 => 'manakai:四半回転類似'],
+      ["3四半回転類似" => 'manakai:3四半回転類似'],
+      [類義 => "manakai:類義"],
+      [対義 => "manakai:対義"],
     ) {
       my ($k, $rel_type) = @$_;
       for my $value (@{$item->{$k}}) {
-        my $c2 = $value->{text};
-        next unless length $c2;
+        my $c2 = value_to_char $value;
+        next unless defined $c2;
         $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
       }
     }

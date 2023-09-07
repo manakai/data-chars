@@ -162,6 +162,7 @@ my $NTypes = [];
 
     "unicode:svs",
     "unicode:svs:obsolete",
+    "unicode:svs:base",
 
     "mj:X0212",
     "mj:X0213",
@@ -674,7 +675,7 @@ my $NTypes = [];
       'mj:音価2',
       'mj:音価3',
     "kana:manyou",
-    "kana:jinmeikana",
+    "manakai:jinmeikana",
     
     "irc:ascii-lowercase",
     "irc:rfc1459-lowercase",
@@ -824,6 +825,7 @@ my $NTypes = [];
 
     "manakai:alt",
     "manakai:related",
+    "manakai:類義",
     "manakai:taboo",
 
     "jp:「異字同訓」の漢字の使い分け例",
@@ -1005,6 +1007,12 @@ my $NTypes = [];
     "unihan3.0:kIRGKangXi:virtual",
 
     "manakai:lookslike",
+    "manakai:左右反転類似",
+    "manakai:上下反転類似",
+    "manakai:半回転類似",
+    "manakai:四半回転類似",
+    "manakai:3四半回転類似",
+    "manakai:対義",
     "manakai:ne",
 
     "glyphwiki:同型異字",

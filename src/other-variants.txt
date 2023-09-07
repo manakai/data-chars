@@ -110,6 +110,11 @@ alt \u302F \u003A
 related ん う
 related ん い
 related ん む
+related ン ム
+related ん \✔
+related ン \✔
+related っ \✔
+related ッ \✔
 related ん も
 related ゐ い
 related ゑ え

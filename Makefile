@@ -663,7 +663,7 @@ build-nightly-iu: deps data/maps.json
 	cd intermediate/opencc && $(MAKE) build-nightly
 	cd intermediate/misc && $(MAKE) build-nightly
 	#
-	cd intermediate/charrels && $(MAKE) build-nightly
+	#cd intermediate/charrels && $(MAKE) build-nightly
 
 build-pages-iu: deps
 	cd intermediate/wiki && $(MAKE) build-pages

@@ -710,6 +710,8 @@ sub insert_rel ($$$$$) {
     if (is_han $c1 or is_han $c2) {
       $key = 'hans';
     }
+  } elsif ($cmode eq 'desc') {
+    $key = 'descs';
   }
 
   $data->{$key}->{$c1}->{$c2}->{$reltype} = 1;
