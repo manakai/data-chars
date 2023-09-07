@@ -21,11 +21,8 @@ update-submodules:
 
 dataautoupdate: clean deps build-nightly all build-git-add
 
-build-git-add: build-generated-git-add
+build-git-add:
 	$(GIT) add data/ src/ intermediate view
-
-build-generated-git-add:
-	cd local/generated && $(MAKE) build-git-add
 
 ## ------ Setup ------
 
