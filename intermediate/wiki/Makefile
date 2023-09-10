@@ -199,6 +199,8 @@ $(TEMP_PATH)/gwrelated.txt: \
     $(ROOT_PATH)/local/generated/charrels/glyphs/gwglyphs/index.json
 $(TEMP_PATH)/gwalias.txt: \
     $(ROOT_PATH)/local/generated/charrels/glyphs/gwglyphs/index.json
+$(TEMP_PATH)/gwothers.txt: \
+    $(ROOT_PATH)/local/generated/charrels/glyphs/gwglyphs/index.json
 $(TEMP_PATH)/gwcontains.txt: \
     $(ROOT_PATH)/local/generated/charrels/glyphs/gwglyphs/index.json
 
@@ -206,7 +208,8 @@ $(DATA_PATH)/gwrelated-0.list: \
     gwmaps.pl \
     $(TEMP_PATH)/gwrelated.txt \
     $(TEMP_PATH)/gwalias.txt \
-    $(TEMP_PATH)/gwcontains.txt
+    $(TEMP_PATH)/gwcontains.txt \
+    $(TEMP_PATH)/gwothers.txt
 	$(PERL) $<
 $(DATA_PATH)/gwaliases-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwcontains-0.list: $(DATA_PATH)/gwrelated-0.list

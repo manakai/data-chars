@@ -70,6 +70,8 @@ my $OutFiles = [];
   my $related_file = $related_path->openw;
   my $alias_path = $TempPath->child ('gwalias.txt');
   my $alias_file = $alias_path->openw;
+  my $others_path = $TempPath->child ('gwothers.txt');
+  my $others_file = $others_path->openw;
   my $contains_path = $TempPath->child ('gwcontains.txt');
   my $contains_file = $contains_path->openw;
   
@@ -90,9 +92,11 @@ my $OutFiles = [];
         $value->{$header[0]} = $v1;
         $value->{$header[1]} = $v2;
         $value->{$header[2]} = $v3;
+        my $added;
 
         if ($value->{data} =~ /^99:0:0:0:0:200:200:([^:]+)$/) {
           print $alias_file "$value->{name}\t$1\n";
+          $added = 1;
         } else {
           insert $value->{name}, [$value->{name} => $value->{data}] => $OutFiles;
           for (grep { not /^-?[0-9]+(?:\$[0-9]+|)$/ } split /:/, $value->{data}) {
@@ -104,6 +108,11 @@ my $OutFiles = [];
         
         if (not ($value->{related} eq 'u3013')) {
           print $related_file "$value->{name}\t$value->{related}\n";
+          $added = 1;
+        }
+
+        if (not $added) {
+          print $others_file "$value->{name}\n";
         }
       } else {
         push @header, $v1, $v2, $v3;

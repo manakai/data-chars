@@ -80,6 +80,18 @@ my $Data = {};
   }
 }
 
+{
+  my $path = $ThisPath->child ('mj-old.txt');
+  for (split /\n/, $path->slurp) {
+    if (/^(\S+)\s(\S+)$/) {
+      my $key = get_vkey $1;
+      $Data->{$key}->{$1}->{$2}->{'mj:version'} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
 print_rel_data $Data;
 
 ## License: Public Domain.

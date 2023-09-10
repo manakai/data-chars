@@ -61,7 +61,8 @@ fmaps-*.list: fmaps-0.list
 
 tmaps.list: tmaps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/toukimap.json \
-    $(TEMP_PATH)/tksu.json
+    $(TEMP_PATH)/tksu.json \
+    mj-old.txt
 	$(PERL) $< > $@
 
 kmaps.list: kmaps.pl $(VGEN_PATH)/chars.pl \

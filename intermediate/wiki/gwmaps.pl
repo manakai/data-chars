@@ -268,6 +268,14 @@ sub gid ($) {
       [];
 }
 {
+  my $path = $TempPath->child ('gwothers.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    my ($g1) = split /\s+/, $_;
+    gid $g1;
+  }
+}
+{
   my $data = {};
   my $path = $TempPath->child ('gwcontains.txt');
   my $file = $path->openr;

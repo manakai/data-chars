@@ -138,6 +138,7 @@ my $NTypes = [];
     "mj:対応する互換漢字",
     "ivd:Hanyo-Denshi",
     "ivd:Moji_Joho",
+    "mj:version",
 
     "ucd:source",
     "ucd:Equivalent_Unified_Ideograph",
