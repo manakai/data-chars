@@ -63,6 +63,7 @@
 - $unicode:Script_Extensions:Kaithi
 - $unicode:Script_Extensions:Kannada
 - $unicode:Script_Extensions:Katakana
+- $unicode:Script_Extensions:Kawi
 - $unicode:Script_Extensions:Kayah_Li
 - $unicode:Script_Extensions:Kharoshthi
 - $unicode:Script_Extensions:Khitan_Small_Script
@@ -97,6 +98,7 @@
 - $unicode:Script_Extensions:Multani
 - $unicode:Script_Extensions:Myanmar
 - $unicode:Script_Extensions:Nabataean
+- $unicode:Script_Extensions:Nag_Mundari
 - $unicode:Script_Extensions:Nandinagari
 - $unicode:Script_Extensions:New_Tai_Lue
 - $unicode:Script_Extensions:Newa
@@ -145,6 +147,7 @@
 - $unicode:Script_Extensions:Tai_Viet
 - $unicode:Script_Extensions:Takri
 - $unicode:Script_Extensions:Tamil
+- $unicode:Script_Extensions:Tangsa
 - $unicode:Script_Extensions:Tangut
 - $unicode:Script_Extensions:Telugu
 - $unicode:Script_Extensions:Thaana
@@ -152,8 +155,10 @@
 - $unicode:Script_Extensions:Tibetan
 - $unicode:Script_Extensions:Tifinagh
 - $unicode:Script_Extensions:Tirhuta
+- $unicode:Script_Extensions:Toto
 - $unicode:Script_Extensions:Ugaritic
 - $unicode:Script_Extensions:Vai
+- $unicode:Script_Extensions:Vithkuqi
 - $unicode:Script_Extensions:Wancho
 - $unicode:Script_Extensions:Warang_Citi
 - $unicode:Script_Extensions:Yezidi
