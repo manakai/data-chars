@@ -12,7 +12,7 @@ SAVEURL = $(WGET) -O
 all: build
 
 build: $(TEMP_PATH) variants.json maps-0.list fmaps-0.list kmaps.list \
-    tmaps.list $(DATA_PATH)/imaps-0.list
+    $(DATA_PATH)/imaps-0.list
 
 build-pages: $(TEMP_PATH) \
     $(DATA_PATH)/imaps-0.list
@@ -44,12 +44,40 @@ $(TEMP_PATH)/hikanji.txt:
 $(TEMP_PATH)/daikanwa-ucs.txt:
 	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/lab/xb3428/daikanwa-ucs.txt
 
+$(TEMP_PATH)/MJMojiJouhouIchiranhyou00101.zip:
+	$(SAVEURL) $@ https://warp.ndl.go.jp/info:ndljp/pid/3488806/ossipedia.ipa.go.jp/ipamjfont/mjmojiichiran/MJMojiJouhouIchiranhyou00101.zip
+$(TEMP_PATH)/mj00101.csv: $(TEMP_PATH)/MJMojiJouhouIchiranhyou00101.zip
+	mkdir $(TEMP_PATH)/mj00101
+	-cd $(TEMP_PATH)/mj00101 && unzip ../MJMojiJouhouIchiranhyou00101.zip
+	cd $(TEMP_PATH)/mj00101 && mv MJ*/*.csv ../mj00101.csv
+	touch $@
+$(TEMP_PATH)/mji00501.zip:
+	$(SAVEURL) $@ https://moji.or.jp/wp-content/mojikiban/oscdl/mji.00501.zip
+$(TEMP_PATH)/mji00501: $(TEMP_PATH)/mji00501.zip
+	mkdir -p $@
+	cd $@ && unzip ../mji00501.zip
+$(TEMP_PATH)/mjheisei-00101.txt: mjheisei-00101.pl $(TEMP_PATH)/mj00101.csv
+	$(PERL) $< $(TEMP_PATH)/mj00101.csv > $@
+$(TEMP_PATH)/mjheisei-00501.txt: mjheisei-00501.pl $(TEMP_PATH)/mji00501
+	$(PERL) $< $(TEMP_PATH)/mji00501/mji.00501.xml > $@
+$(TEMP_PATH)/mjivs-00501.txt: mjivs-00501.pl $(TEMP_PATH)/mji00501
+	$(PERL) $< $(TEMP_PATH)/mji00501/mji.00501.xml > $@
+$(TEMP_PATH)/mjdkw-00101.txt: mjdkw-00101.pl $(TEMP_PATH)/mj00101.csv
+	$(PERL) $< $(TEMP_PATH)/mj00101.csv > $@
+
 variants.json: variants.pl $(TEMP_PATH)/mj.json $(TEMP_PATH)/map.json
 	$(PERL) $< > $@
 
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/mj.json \
-    $(TEMP_PATH)/daikanwa-ucs.txt
+    $(TEMP_PATH)/daikanwa-ucs.txt \
+    $(TEMP_PATH)/mjheisei-00101.txt \
+    $(TEMP_PATH)/mjheisei-00501.txt \
+    $(TEMP_PATH)/mjivs-00501.txt \
+    $(TEMP_PATH)/mjdkw-00101.txt \
+    mj-old.txt \
+    $(TEMP_PATH)/toukimap.json \
+    $(TEMP_PATH)/tksu.json
 	$(PERL) $<
 maps-*.list: maps-0.list
 
@@ -58,12 +86,6 @@ fmaps-0.list: fmaps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/mjsu.json
 	$(PERL) $<
 fmaps-*.list: fmaps-0.list
-
-tmaps.list: tmaps.pl $(VGEN_PATH)/chars.pl \
-    $(TEMP_PATH)/toukimap.json \
-    $(TEMP_PATH)/tksu.json \
-    mj-old.txt
-	$(PERL) $< > $@
 
 kmaps.list: kmaps.pl $(VGEN_PATH)/chars.pl \
     wakan-kana.txt \

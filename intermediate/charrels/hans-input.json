@@ -15,14 +15,6 @@
         "unihan:hkglyph": "hk"
       }
     },
-    {
-      "path": "../unicode/variants2.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../unicode/namesrefs.list",
-      "rels_key": "hans"
-    },
     {"path": "../unicode/maps-0.list", "rels_key": "hans"},
     {"path": "../unicode/maps-1.list", "rels_key": "hans"},
     {"path": "../unicode/maps-2.list", "rels_key": "hans"},
@@ -36,46 +28,43 @@
     {"path": "../unicode/maps-10.list", "rels_key": "hans"},
     {"path": "../unicode/maps-11.list", "rels_key": "hans"},
     {"path": "../unicode/maps-12.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-13.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-14.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-15.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-16.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-17.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-18.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-19.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-20.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-21.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-22.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-23.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-24.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-25.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-26.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-27.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-28.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-29.list", "rels_key": "hans"},
     {
       "path": "../unicode/maps2.list",
       "rels_key": "hans"
     },
-    {
-      "path": "../unicode/maps3.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/maps-0.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/maps-1.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/maps-2.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/maps-3.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/maps-4.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/maps-5.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/maps-6.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/maps-7.list",
-      "rels_key": "hans"
-    },
+    {"path": "../mj/maps-0.list", "rels_key": "hans"},
+    {"path": "../mj/maps-1.list", "rels_key": "hans"},
+    {"path": "../mj/maps-2.list", "rels_key": "hans"},
+    {"path": "../mj/maps-3.list", "rels_key": "hans"},
+    {"path": "../mj/maps-4.list", "rels_key": "hans"},
+    {"path": "../mj/maps-5.list", "rels_key": "hans"},
+    {"path": "../mj/maps-6.list", "rels_key": "hans"},
+    {"path": "../mj/maps-7.list", "rels_key": "hans"},
+    {"path": "../mj/maps-8.list", "rels_key": "hans"},
+    {"path": "../mj/maps-9.list", "rels_key": "hans"},
+    {"path": "../mj/maps-10.list", "rels_key": "hans"},
+    {"path": "../mj/maps-11.list", "rels_key": "hans"},
+    {"path": "../mj/maps-12.list", "rels_key": "hans"},
+    {"path": "../mj/maps-13.list", "rels_key": "hans"},
+    {"path": "../mj/maps-14.list", "rels_key": "hans"},
+    {"path": "../mj/maps-15.list", "rels_key": "hans"},
     {
       "path": "../mj/fmaps-0.list",
       "rels_key": "hans"
@@ -106,10 +95,6 @@
     },
     {
       "path": "../mj/kmaps.list",
-      "rels_key": "hans"
-    },
-    {
-      "path": "../mj/tmaps.list",
       "rels_key": "hans"
     },
     {

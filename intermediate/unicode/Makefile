@@ -11,9 +11,8 @@ all: build
 build-nightly: build
 
 build: $(TEMP_PATH) \
-    variants.json variants2.list \
-    namesrefs.list \
-    maps-0.list maps2.list maps3.list
+    variants.json \
+    maps-0.list maps2.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -141,26 +140,10 @@ variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan13-krname.txt
 	$(PERL) $< > $@
 
-variants2.list: variants2.pl $(VGEN_PATH)/chars.pl \
-    $(TEMP_PATH)/Unihan_Variants.txt \
-    $(TEMP_PATH)/$(IVD_VERSION)/IVD_Sequences.txt \
-    $(TEMP_PATH)/$(IVD_VERSION)/IVD_Stats.txt \
-    $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt \
-    $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
-    $(TEMP_PATH)/unihan-k1.txt
-	IVD_VERSION=$(IVD_VERSION) $(PERL) $< > $@
-
 $(ROOT_PATH)/local/unicode/latest/NamesList.txt:
 	cd $(ROOT_PATH) && $(MAKE) local/unicode/latest/NamesList.txt
 $(ROOT_PATH)/data/maps.json:
 	cd $(ROOT_PATH) && $(MAKE) data/maps.json
-
-namesrefs.list: namesrefs.pl \
-    $(ROOT_PATH)/local/unicode/latest/NamesList.txt \
-    $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
-    $(ROOT_PATH)/data/maps.json \
-    $(VGEN_PATH)/chars.pl
-	$(PERL) $< > $@
 
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan3.txt \
@@ -169,11 +152,24 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-irg-s.txt \
     $(TEMP_PATH)/unihan-irg-v.txt \
     $(TEMP_PATH)/unihan-irg-k.txt \
+    $(TEMP_PATH)/unihan-irg-h.txt \
+    $(TEMP_PATH)/unihan-irg-m.txt \
+    $(TEMP_PATH)/unihan-irg-uk.txt \
     $(TEMP_PATH)/unihan-kangxi.txt \
     $(TEMP_PATH)/unihan-morohashi.txt \
     $(TEMP_PATH)/kVariants.txt \
-    $(TEMP_PATH)/MathClassExt.txt
-	$(PERL) $<
+    $(TEMP_PATH)/MathClassExt.txt \
+    irgn2107r2-uk.tsv irgn2232r-uk.tsv \
+    $(TEMP_PATH)/USourceData.txt \
+    $(TEMP_PATH)/Unihan_Variants.txt \
+    $(TEMP_PATH)/$(IVD_VERSION)/IVD_Sequences.txt \
+    $(TEMP_PATH)/$(IVD_VERSION)/IVD_Stats.txt \
+    $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt \
+    $(ROOT_PATH)/local/unicode/latest/NamesList.txt \
+    $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
+    $(ROOT_PATH)/data/maps.json \
+    $(TEMP_PATH)/unihan-k1.txt
+	IVD_VERSION=$(IVD_VERSION) $(PERL) $<
 maps-*.list: maps-0.list
 
 maps2.list: maps2.pl $(VGEN_PATH)/chars.pl \
@@ -194,14 +190,6 @@ maps2.list: maps2.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/iso-ir-165.ucm
 	$(PERL) $< > $@
 #    $(TEMP_PATH)/JIS0212.txt 
-
-maps3.list: maps3.pl $(VGEN_PATH)/chars.pl \
-    $(TEMP_PATH)/unihan-irg-h.txt \
-    $(TEMP_PATH)/unihan-irg-m.txt \
-    $(TEMP_PATH)/unihan-irg-uk.txt \
-    irgn2107r2-uk.tsv irgn2232r-uk.tsv \
-    $(TEMP_PATH)/USourceData.txt
-	$(PERL) $< > $@
 
 always:
 

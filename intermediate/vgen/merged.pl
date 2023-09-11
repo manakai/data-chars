@@ -77,7 +77,9 @@ my $NTypes = [];
     "ivd:Adobe-Japan1",
     
     "cjkvi:hd2ucs:=",
-
+    "mj00501:対応するHanyo-DenshiコレクションIVS",
+    'mj00501:実装したMoji_JohoコレクションIVS',
+    
     "glyphwiki:revision",
     "glyphwiki:同字形",
     "glyphwiki:UCS重複",
@@ -139,6 +141,8 @@ my $NTypes = [];
     "ivd:Hanyo-Denshi",
     "ivd:Moji_Joho",
     "mj:version",
+    "mj00101:平成明朝",
+    "mj00501:平成明朝",
 
     "ucd:source",
     "ucd:Equivalent_Unified_Ideograph",
@@ -462,6 +466,8 @@ my $NTypes = [];
     "cjkvi:dkw2ucs:#",
     "cjkvi:dkw2ucs:本字 of",
     "mj:daikanwa-ucs",
+    "mj00101:大漢和",
+    "mj00101:大漢和:#",
 
     "kchar:Hunminjeongeum Haerye style",
     
