@@ -70,6 +70,8 @@ jpnewstyle 𭢫 擽
 jpnewstyle 檪 櫟
 vpairs 楽/:⿰忄楽 樂/㦡
 
+vpairs 亘/恒 亙/恆
+
 jpnewstyle 𪘂 齧
 jpnewstyle 𮯈 䶨
 jpnewstyle 𪘚 齬
@@ -130,6 +132,8 @@ sconflict 广 度
 sconflict 广 廃
 sconflict 广 庇
 sconflict 广 庁
+sconflict 广 麼
+sconflict 广 庚
 
 sconflict 乛 門
 sconflict 𠃍 門
@@ -367,12 +371,6 @@ wu 𠦚 年
 wu 𨭻 証
 wu 𤪉 証
 
-wu 曌 照 
-wu 瞾 照
-
-wu 囝 月
-wu 𠥱 月
-
 wu 𠺞 君
 wu 𠁈 君
 wu 𠱰 君
@@ -380,7 +378,6 @@ wu 𠱰 君
 wu 𡔈 初
 wu 𨲢 聖
 wu 埊 地
-wu 𡆠 日
 wu 圀 国
 wu 𢘑 臣
 wu 𠀺 除
@@ -389,6 +386,15 @@ wu 𤯔 人
 wu 𢈗 幼
 wu 𠤵 生
 wu 𠩍 応
+
+wu 曌 照 
+wu 瞾 照
+
+wu 囝 月
+wu 𠥱 月
+
+wu 𡆠 日
+unified :MJ013152 :cjkvi:☆日󠄀
 
 wu 〇 星
 conflict 〇 星
@@ -416,6 +422,9 @@ related 〻 二
 conflict 〻 亦
 #
 same 々 𠚤
+
+same 𮬞 :⿱𣦼鱼
+related :gb2-88-7 𮬞
 
 same \u{1D376} 正
 related \u{1D376} \u{1D375}

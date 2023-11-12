@@ -1,5 +1,6 @@
 ROOT_PATH = ../..
 TEMP_PATH = $(ROOT_PATH)/local/iwm
+TEMPUC_PATH = $(ROOT_PATH)/local/iuc
 VGEN_PATH = $(ROOT_PATH)/intermediate/vgen
 DATA_PATH = $(ROOT_PATH)/local/maps
 PERL = $(ROOT_PATH)/perl \
@@ -66,8 +67,7 @@ $(TEMP_PATH)/0213.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/source/gl-jisx0213-add.tbr
 
 $(TEMP_PATH)/gw.tar.gz:
-#	$(SAVEURL) $@ https://glyphwiki.org/dump.tar.gz
-	$(SAVEURL) $@ https://fonts.suikawiki.org/glyphwiki/dump-1.tar.gz
+	$(SAVEURL) $@ https://fonts.suikawiki.org/glyphwiki/dump-2.tar.gz
 $(TEMP_PATH)/dump_newest_only.txt: $(TEMP_PATH)/gw.tar.gz
 	cd $(TEMP_PATH) && tar zxf gw.tar.gz dump_newest_only.txt
 	touch $@
@@ -132,6 +132,20 @@ $(TEMP_PATH)/gw-cdp-unicode.txt:
 	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:UCS%e3%81%a7%e7%ac%a6%e5%8f%b7%e5%8c%96%e3%81%95%e3%82%8c%e3%81%9fCDP%e5%a4%96%e5%ad%97?action=edit
 $(TEMP_PATH)/gw-cdp-all.txt:
 	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:CDP%e5%a4%96%e5%ad%97-ALL?action=edit
+$(TEMP_PATH)/gw-cjkeunified.txt:
+	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:ziyang_sandbox@43?action=edit
+$(TEMP_PATH)/gw-jouyoukoseki.txt: 
+	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:ziyang_sandbox@77?action=edit
+$(TEMP_PATH)/gw-jouyouoldmj.txt: 
+	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:%e5%b8%b8%e7%94%a8%e6%bc%a2%e5%ad%97%e3%81%ae%e6%97%a7%e5%ad%97%e4%bd%93-%e5%ad%97%e5%bd%a2?action=edit
+$(TEMPWM_PATH)/gw-jinmeikoseki.txt: 
+	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:%e4%ba%ba%e5%90%8d%e7%94%a8%e6%bc%a2%e5%ad%97-%e5%ad%97%e5%bd%a2?action=edit
+
+../jp/jouyouh22-table.json:
+	cd ../jp && $(MAKE) jouyouh22-table.json
+
+$(TEMPUC_PATH)/unihan3.txt:
+	cd ../unicode && $(MAKE) $(TEMPUC_PATH)/unihan3.txt
 
 variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/list1.html \
@@ -184,10 +198,17 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/gw-relcp-27.txt \
     $(TEMP_PATH)/gw-cdp-all.txt \
     $(TEMP_PATH)/gw-cdp-unicode.txt \
+    $(TEMP_PATH)/gw-cjkeunified.txt \
+    $(TEMP_PATH)/gw-jouyoukoseki.txt \
+    $(TEMP_PATH)/gw-jouyouoldmj.txt \
+    $(TEMP_PATH)/gw-jinmeikoseki.txt \
     $(TEMP_PATH)/jaconvert.html \
     doukun.txt \
     gbk.txt \
-    manyou.txt
+    manyou.txt \
+    ../jp/jouyouh22-table.json \
+    ../misc/gmap.json \
+    $(TEMPUC_PATH)/unihan3.txt
 	$(PERL) $<
 maps-*.list: maps-0.list
 

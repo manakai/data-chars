@@ -58,6 +58,9 @@ $(DATA_PATH)/codes.list: codes.pl $(VGEN_PATH)/chars.pl
 	mkdir -p $(DATA_PATH)
 	$(PERL) $< > $@
 
+gmap.json: gmap.pl gmap.txt
+	$(PERL) $< > $@
+
 swc-0.list: swc.pl \
     $(TEMP_PATH)/swglyphs.json \
     $(TEMP_PATH)/swchars.json \

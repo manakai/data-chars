@@ -76,15 +76,22 @@ my $NTypes = [];
     "adobe:vs",
     "ivd:Adobe-Japan1",
     
-    "cjkvi:hd2ucs:=",
+    "jis:1983:moved",
+    "jis:2000:moved",
+    "jis:2004:moved",
+    "mj:moved",
     "mj00501:対応するHanyo-DenshiコレクションIVS",
     'mj00501:実装したMoji_JohoコレクションIVS',
+    "mj:shared:equiv",
     
     "glyphwiki:revision",
     "glyphwiki:同字形",
     "glyphwiki:UCS重複",
     "glyphwiki:IVD重複",
 
+    "manakai:equivglyph",
+    
+    "manakai:newrevision",
     "manakai:revision",
   ) {
     $TypeWeight->{$vtype} = W 'SAME';
@@ -143,6 +150,8 @@ my $NTypes = [];
     "mj:version",
     "mj00101:平成明朝",
     "mj00501:平成明朝",
+    "mj:ipaex",
+    "mj:shared:similar",
 
     "ucd:source",
     "ucd:Equivalent_Unified_Ideograph",
@@ -153,14 +162,61 @@ my $NTypes = [];
     "cjkvi:non-cjk/strokes",
     "cjkvi:non-cjk/kanbun",
 
+    "hyougai:個別デザイン差字形",
+    "jcsh13:(1):jisx0213",
+    "jcsh13:(2):jisx0213",
+    "jcsh13:(3):jisx0213",
+    "jcsh13:(4):jisx0213",
+    "jcsh13:(5):jisx0213",
+    "jcsh13:(6):jisx0213",
+    "jcsh13:(7):jisx0213",
+    "jcsh13:(8):jisx0213",
+    "jcsh13:(9):jisx0213",
+    "jcsh13:(1):ucs",
+    "jcsh13:(2):ucs",
+    "jcsh13:(3):ucs",
+    "jcsh13:(4):ucs",
+    "jcsh13:(4):ucs",
+    "jcsh13:(5):ucs",
+    "jcsh13:(6):ucs",
+    "jcsh13:(7):ucs",
+    "jcsh13:(8):ucs",
+    "jcsh13:(9):ucs",
+    "jcsh13:jisx0212",
+    "jisx0213:2004:33:hyougai",
+    "jisx0213:2004:33:related",
     "mj:JIS包摂規準・UCS統合規則",
     "mj:戸籍統一文字番号",
     "mj:登記統一文字番号",
     'mj:統合',
+    "unicode:j:glyph",
+    "iso10646:1993:j:glyph:equiv",
+"iso10646:1993:j:glyph:similar",
+"iso10646:2000:j:glyph:equiv",
+"iso10646:2000:j:glyph:similar",
+"iso10646:2003:j:glyph:equiv",
+"iso10646:2003:j:glyph:similar",
+"iso10646:2008:j:glyph:equiv",
+"iso10646:2008:j:glyph:similar",
+"iso10646:2010:j:glyph:equiv",
+"iso10646:2020:j:glyph:equiv",
+"iso10646:2023:j:glyph:equiv",
+"iso10646:2023:j:glyph:similar",
+"unicode13:j:glyph:equiv",
+"unicode15.1:j:glyph:equiv",
+"unicode15.1:j:glyph:similar",
+"unicode15:j:glyph:equiv",
+"unicode15:j:glyph:similar",
+"unicode5.2:j:glyph:equiv",
+"unicode5.2:j:glyph:similar",
+"unicode6.1:j:glyph:equiv",
+"unicode6.1:j:glyph:similar",
+"unicode6.2:j:glyph:equiv",
+"unicode6.2:j:glyph:similar",
     
     "unihan:kZVariant",
     "cjkvi:ucs-scs/variant",
-    "manakai:unified",
+    "iso10646:annexp:withoutposition",
     
     "unicode:canon_composition",
     "unicode:canon_decomposition",
@@ -195,6 +251,7 @@ my $NTypes = [];
     "unihan:kIRG_KSource",
     "unihan3.0:kIRG_KSource",
     "unihan:kIRG_KPSource",
+    "unihan15:kIRG_KPSource",
     "unihan:kIRG_GSource:K",
     "cjkvi:gb2ucs:K",
     "unihan:kIRG_UKSource",
@@ -228,6 +285,8 @@ my $NTypes = [];
     "cjkvi:kx2ucs:Unihan",
 
     "unihan:kMorohashi",
+    "unihan15:kMorohashi",
+    "unihan15:kIRGDaiKanwaZiten",
     "unihan3.0:kMorohashi",
     "unihan3.0:kAlternateMorohashi",
     "cjkvi:dkw2ucs",
@@ -238,6 +297,16 @@ my $NTypes = [];
     "unihan:kIRG_JSource:A4",
     #'mj:UCS',
     'ninjal:UNICODE',
+    "jisx0212:ucs",
+    "jisx0213:2000:ucs",
+    "jisx0213:2000:fullwidth:ucs",
+    "jisx0213:2000:ucs:()",
+    "jisx0213:2000:annex11",
+    "jisx0213:2000:annex11:()",
+    "jisx0213:2000cor:ucs",
+    "jisx0213:2000cor:ucs:()",
+    "jisx0213:2004:ucs",
+
     "unihan:kIRG_SSource",
     
     "unihan:kIRG_VSource",
@@ -245,8 +314,21 @@ my $NTypes = [];
     "unihan:kIRG_VSource:2",
     "unihan:kIRG_VSource:3",
     "unihan:kIRG_VSource:4",
+    "unihan15:kIRG_VSource",
+    "unihan15:kIRG_VSource:1",
+    "unihan15:kIRG_VSource:2",
+    "unihan15:kIRG_VSource:3",
+    "unihan15:kIRG_VSource:4",
+    "unihan3.0:kIRG_VSource:0",
     "cjkvi:nom_qn:#",
     "cjkvi:nom_qn:#:V4",
+
+    "unicode5.2:u:glyph:equiv",
+    "unicode6.1:u:glyph:equiv",
+    "unicode6.2:u:glyph:equiv",
+    "unicode15:u:glyph:equiv",
+    "unicode15.1:u:glyph:equiv",
+    "iso10646:2023:u:glyph:equiv",
 
     "inherited:Big5",
     "inherited:Unicode",
@@ -255,6 +337,7 @@ my $NTypes = [];
     "glyphwiki:juki",
     "glyphwiki:ninjal",
     "glyphwiki:UCSで符号化されたCDP外字",
+    "glyphwiki:unified",
     
     "arib:duplicate",
     "arib:isoiec10646",
@@ -281,7 +364,38 @@ my $NTypes = [];
     "adobe:cns11643",
     "adobe:cns11643:v",
     "adobe:mapping",
+    "adobe:ibm",
+    "adobe:kjis",
+    "adobe:aj1",
 
+    "mj:常用漢字",
+    "mj:人名用漢字",
+    "unihan:kJoyoKanji",
+    "unihan:kJinmeiyoKanji",
+    "adobe:nlc",
+    "adobe:joyo",
+    "adobe:jinmei",
+    "glyphwiki:koseki",
+    "jish16:3.3:jisx0213",
+    "jish16:3.3:ucs",
+    "jish22:jisx0208",
+    "jish22:jisx0213",
+    "jish22:ucs:jisx0213",
+    "jish22:jisx0208:許容字体",
+    "glyphwiki:mj",
+    "jisx0213:annex7:2.1 b):常用漢字表:いわゆる康煕字典体",
+    "jisx0213:annex7:2.1 b):人名用漢字許容字体表",
+    "jisx0213:annex7:2.1 b):jinmei",
+    "jisx0208:touyou",
+    "jish16:3.1:jisx0208",
+    "jish16:3.1:jisx0213",
+    "jish16:3.1:ucs",
+    "jish16:3.2:jisx0208",
+    "jish16:3.2:jisx0213",
+    "jish16:3.2:ucs",
+    "jisx0208:2012:annex12",
+    "jisx0213:2012:annex12",
+    
     "wikt:mapping",
     "csw:mapping:gb12052",
     "pl:mapping",
@@ -396,6 +510,102 @@ my $NTypes = [];
     "babel:=",
 
     "yaids:variant",
+
+    "pdf:char",
+
+    "manakai:hasglyph",
+    "jis:1990:ir:glyph",
+    "jis:1990:ir:glyph:equiv",
+    "jis:1990:ir:glyph:similar",
+    "jis:1990:glyph",
+    "jis:1990:glyph:equiv",
+    "jis:1990:glyph:similar",
+    "jisx0213:fdis:glyph",
+    "jisx0213:fdis:glyph:equiv",
+    "jisx0213:fdis:glyph:similar",
+    "jisx0213:ir:glyph",
+    "jisx0213:2000:glyph",
+    "jisx0213:ir:glyph:equiv",
+    "jisx0213:ir:glyph:similar",
+    "jisx0213:2004:glyph",
+    "jisx0208:1983:glyph:equiv",
+    "jisx0208:1983:pr1:glyph:equiv",
+    "jisx0208:1983:pr5:glyph:equiv",
+"jisx0208:1997:78-83",
+"jisx0208:1997:78-83:equiv",
+"jisx0208:1997:83",
+"jisx0208:1997:83:equiv",
+"jisx0213:2000:cor:correct",
+"jisx0213:2000:cor:wrong:similar",
+    "jisx0213:fdis:cor:correct",
+    "unicode14:glyph",
+
+    qw(
+manakai:equivglyph:jisx0208:1978:pr1cor:correct
+manakai:equivglyph:jisx0208:1978:pr2-4cor:correct
+manakai:equivglyph:jisx0208:1978:pr2-4cor:index:correct
+manakai:equivglyph:jisx0208:1978:pr2-4cor:index:wrong
+manakai:equivglyph:jisx0208:1978:pr2-4cor:wrong
+manakai:equivglyph:jisx0208:1983:pr1:glyph
+manakai:equivglyph:jisx0208:1983:pr5:glyph
+manakai:equivglyph:jisx0208:1997:-78/4
+manakai:equivglyph:jisx0208:1997:-78/4X
+manakai:equivglyph:jisx0208:1997:78
+manakai:equivglyph:jisx0208:1997:78-83
+manakai:equivglyph:jisx0208:1997:78/1
+manakai:equivglyph:jisx0208:1997:78/2-
+manakai:equivglyph:jisx0208:1997:78/4-
+manakai:equivglyph:jisx0208:1997:78:wrong
+manakai:equivglyph:jisx0208:1997:83
+manakai:equivglyph:jisx0208:1997:annex7:ed1:draft
+manakai:equivglyph:jisx0208:1997:annex7:ed1:pr1
+manakai:equivglyph:jisx0208:1997:annex7:ed1:pr2-4
+manakai:equivglyph:jisx0208:1997:annex7:ed1:pr4cor:wrong
+manakai:equivglyph:jisx0208:1997:annex7:ed1:pr7-
+manakai:unified:jisx0208:1978:pr1cor:wrong
+manakai:unified:jisx0208:1978:pr2-4cor:correct
+manakai:unified:jisx0208:1978:pr2-4cor:index:correct
+manakai:unified:jisx0208:1978:pr2-4cor:index:wrong
+manakai:unified:jisx0208:1978:pr2-4cor:wrong
+manakai:unified:jisx0208:1997:-78/4
+manakai:unified:jisx0208:1997:-78/4X
+manakai:unified:jisx0208:1997:78
+manakai:unified:jisx0208:1997:78-83
+manakai:unified:jisx0208:1997:78/1
+manakai:unified:jisx0208:1997:78/4-
+manakai:unified:jisx0208:1997:78/4:correct
+manakai:unified:jisx0208:1997:78/5
+manakai:unified:jisx0208:1997:78:wrong
+manakai:unified:jisx0208:1997:83
+manakai:unified:jisx0208:1997:annex7:ed1:pr1
+manakai:unified:jisx0208:1997:annex7:ed1:pr1:table1
+manakai:unified:jisx0208:1997:annex7:ed1:pr4cor:correct
+manakai:unified:jisx0208:1997:annex7:ed1:pr5
+manakai:unified:jisx0208:1997:jisdictaug:78:wrong
+manakai:equivglyph:jisx0208:1978:pr1cor:wrong
+manakai:equivglyph:jisx0208:1978:glyph
+manakai:equivglyph:jis:1990:glyph
+manakai:equivglyph:jis:1990:ir:glyph
+manakai:equivglyph:jisx0208:1983:glyph
+manakai:equivglyph:jisx0213:fdis:glyph
+manakai:equivglyph:jisx0213:2000:glyph
+manakai:equivglyph:jisx0213:ir:glyph
+manakai:equivglyph:jisx9051:glyph
+manakai:equivglyph:jisx9052:glyph
+manakai:unified:jisx0208:1978:glyph
+manakai:unified:jis:1990:glyph
+manakai:unified:jis:1990:ir:glyph
+manakai:unified:jisx0208:1983:glyph
+manakai:unified:jisx0213:fdis:glyph
+manakai:unified:jisx0213:2000:glyph
+manakai:unified:jisx0213:ir:glyph
+manakai:unified:jisx9051:glyph
+manakai:unified:jisx9052:glyph
+
+    ),
+
+    "manakai:similarglyph",
+    "manakai:unified",
   ) {
     $TypeWeight->{$vtype} = W 'UNIFIED';
     $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
@@ -412,6 +622,29 @@ my $NTypes = [];
     "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:3",
     "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:4",
     "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:5",
+
+    "jouyou:いわゆる康熙字典体",
+    "jouyou:許容字体",
+    "jish22:jisx0208:other",
+    "jish22:jisx0208:異体の関係にある同字",
+    "jish22:ucs:jisx0208",
+    "jisx0208:2012:annex12:JIS X 0213常用漢字",
+    'jisx0213:2012:annex12:異体の関係にある同字',
+    "jinmeih16:同一の字種",
+    "jinmeih16:つながり",
+    "jinmei:同一の字種",
+    "jinmei:つながり",
+    "unihan:kJinmeiyoKanji:standard",
+    "jis:1990:forkedjis1978",
+    "jis:2000:forkedjis1978",
+    "jis:2004:forkedjis1978",
+    "jis:1990:forkedjis1978w",
+    "jis:2000:forkedjis1978w",
+    "jis:1983:movechanged",
+    "jis:2000:movechanged",
+    "jis:2000:variantadded",
+    "jis:2004:movechanged",
+    "jis:2000:merged",
 
     "unihan:hkglyph",
     "ucd:y-variant",
@@ -434,12 +667,50 @@ my $NTypes = [];
     'jisx0213:附属書7:2.1 b)',
     'jisx0213:附属書7:2.1 d)',
     'jisx0213:附属書7:2.2',
+"jisx0208:1978:glyph:equiv",
+"jisx0208:1978:pr1cor:correct:equiv",
+"jisx0208:1978:pr1cor:wrong:equiv",
+"jisx0208:1978:pr2-4cor:correct:equiv",
+"jisx0208:1978:pr2-4cor:index:correct:equiv",
+"jisx0208:1978:pr2-4cor:index:wrong:equiv",
+"jisx0208:1978:pr2-4cor:wrong:equiv",
+"jisx0208:1997:-78/4",
+"jisx0208:1997:-78/4:equiv",
+"jisx0208:1997:-78/4X",
+"jisx0208:1997:78",
+    "jisx0208:1997:78/1",
+    "jisx0208:1997:78/1:equiv",
+"jisx0208:1997:78/2-",
+"jisx0208:1997:78/4-",
+    "jisx0208:1997:78/4-:equiv",
+    "jisx0208:1997:78/4:correct:equiv",
+"jisx0208:1997:78/5:equiv",
+"jisx0208:1997:78:equiv",
+"jisx0208:1997:78:wrong",
+"jisx0208:1997:78:wrong:equiv",
+    "jisx0208:1997:annex7:ed1:draft:equiv",
+    "jisx0208:1997:annex7:ed1:pr1",
+"jisx0208:1997:annex7:ed1:pr1:table1:equiv",
+"jisx0208:1997:annex7:ed1:pr1:annex1:equiv",
+"jisx0208:1997:annex7:ed1:pr1:equiv",
+    "jisx0208:1997:annex7:ed1:pr2-4",
+    "jisx0208:1997:annex7:ed1:pr4cor:correct",
+    "jisx0208:1997:annex7:ed1:pr4cor:wrong",
+    "jisx0208:1997:annex7:ed1:pr5",
+    "jisx0208:1997:annex7:ed1:pr5:equiv",
+"jisx0208:1997:annex7:ed1:pr7-",
+"jisx0208:1997:jisdictaug:78:wrong:equiv",
+"jisx9051:glyph:equiv",
+"jisx9051:glyph:similar",
+"jisx9052:glyph:equiv",
+"jisx9052:glyph:similar",
 
     "unihan:koreanname:variant",
 
     "cjkvi:koseki/variant",
     "cjkvi:x0213-x0212/variants",
     "cjkvi:x0213-x0212/variants:JIS-X-0213:2004",
+    "cjkvi:hd2ucs:=",
     "cjkvi:hd2ucs:~",
     'cjkvi:hducs2juki:*',
     'cjkvi:hducs2juki:#',
@@ -483,6 +754,11 @@ my $NTypes = [];
     "manakai:variant:wu",
     "manakai:variant:taboo",
     "manakai:equivalent",
+"manakai:equivalent:jisx0208:1997:78-83",
+"manakai:equivalent:jisx0208:1997:78:wrong",
+"manakai:equivalent:jis:1990:ir:glyph",
+"manakai:equivalent:jisx9051:glyph",
+"manakai:equivalent:jisx9052:glyph",
 
     "cccii:layer",
     "marc:variant",
@@ -537,7 +813,7 @@ my $NTypes = [];
     "adobe:jp78",
     "adobe:jp83",
     "adobe:jp90",
-
+    
     "kana:origin:variant",
 
     "glyphwiki:itaiji",
@@ -607,6 +883,22 @@ my $NTypes = [];
   ) {
     $TypeWeight->{$vtype} = W 'EQUIV';
     $TypeWeight->{'rev:'.$vtype} = -1;
+  }
+  for my $pair (
+    ["hyougai:印刷標準字体", "hyougai:簡易慣用字体"],
+  ) {
+    my $unused = -2;
+    push @$PairedTypes, $pair;
+    for my $vtype (@$pair) {
+      $TypeWeight->{$vtype} = W 'COVERED';
+      $TypeWeight->{'rev:'.$vtype} = $unused;
+      $TypeWeight->{'to1:'.$vtype} = $unused;
+      $TypeWeight->{'to1:rev:'.$vtype} = $unused;
+    }
+    for my $vtype ($pair->[0]) {
+      $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
+      $TypeWeight->{'nto1:'.$vtype} = $unused;
+    }
   }
   for my $vtype (
     "wakan:assoc",
@@ -835,6 +1127,9 @@ my $NTypes = [];
     "manakai:類義",
     "manakai:taboo",
 
+    "jcsh13:(2):confusing",
+    "jcsh13:(7):confusing",
+    
     "jp:「異字同訓」の漢字の使い分け例",
     "jp:「異字同訓」の漢字の用法",
     "jp:「異字同訓」の漢字の用法例",
@@ -988,6 +1283,7 @@ my $NTypes = [];
     "mj:大漢和", # broken
     
     "manakai:private",
+    "jisx0213:fdis:cor:wrong",
 
     "manakai:typo",
     "ucd:names:confused",
@@ -1016,6 +1312,7 @@ my $NTypes = [];
     "manakai:lookslike",
     "manakai:左右反転類似",
     "manakai:上下反転類似",
+    "manakai:回転類似",
     "manakai:半回転類似",
     "manakai:四半回転類似",
     "manakai:3四半回転類似",

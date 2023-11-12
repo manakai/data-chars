@@ -70,6 +70,8 @@ unihan:kTraditionalVariant
 ":sat5451"
 unihan:kIRG_SSource
 -"𮀸"
+":m24372"
+unihan:kMorohashi
 "𥔮"
 kVariants:sem
 -"𮀼"
@@ -145,6 +147,9 @@ unihan:kIRG_SSource
 -"𮁭"
 ":sat1873"
 unihan:kIRG_SSource
+-"𮁳"
+":m24702"
+unihan:kMorohashi
 -"𮁶"
 "齋"
 kVariants:simp
@@ -187,6 +192,9 @@ unihan:kIRG_SSource
 -"𮂈"
 ":sat1018"
 unihan:kIRG_SSource
+-"𮂊"
+":m24806"
+unihan:kMorohashi
 -"𮂌"
 ":sat5137"
 unihan:kIRG_SSource
@@ -283,6 +291,9 @@ unihan:kIRG_SSource
 -"𮃀"
 ":sat3934"
 unihan:kIRG_SSource
+-"𮃄"
+":m25032"
+unihan:kMorohashi
 -"𮃅"
 ":sat2899"
 unihan:kIRG_SSource
@@ -304,6 +315,9 @@ kVariants:=
 -"𮃏"
 ":sat1396"
 unihan:kIRG_SSource
+-"𮃖"
+":m49408"
+unihan:kMorohashi
 -"𮃘"
 ":sat2356"
 unihan:kIRG_SSource
@@ -471,6 +485,8 @@ kVariants:sem
 ":sat179"
 unihan:kIRG_SSource
 -"𮅙"
+":m26191"
+unihan:kMorohashi
 ":sat60248"
 unihan:kIRG_SSource
 -"𮅚"
@@ -595,12 +611,18 @@ unihan:kIRG_SSource
 -"𮆱"
 ":sat3304"
 unihan:kIRG_SSource
+-"𮆴"
+":mh467"
+unihan:kMorohashi
 -"𮆵"
 ":sat311"
 unihan:kIRG_SSource
 -"𮆹"
 ":sat49"
 unihan:kIRG_SSource
+-"𮆽"
+":m49448"
+unihan:kMorohashi
 -"𮇆"
 ":sat611"
 unihan:kIRG_SSource
@@ -667,6 +689,9 @@ unihan:kIRG_SSource
 -"𮇸"
 ":sat5366"
 unihan:kIRG_SSource
+-"𮇻"
+":m27139"
+unihan:kMorohashi
 -"𮇼"
 ":sat80633"
 unihan:kIRG_SSource
@@ -685,6 +710,9 @@ unihan:kIRG_SSource
 -"𮈈"
 ":sat1334"
 unihan:kIRG_SSource
+-"𮈋"
+":m27463"
+unihan:kMorohashi
 -"𮈍"
 ":sat2135"
 unihan:kIRG_SSource
@@ -754,6 +782,8 @@ unihan:kIRG_SSource
 ":sat5805"
 unihan:kIRG_SSource
 -"𮈱"
+":m49478"
+unihan:kMorohashi
 "綽"
 kVariants:sem
 -"𮈲"
@@ -766,6 +796,8 @@ unihan:kIRG_SSource
 ":sat3002"
 unihan:kIRG_SSource
 -"𮈷"
+":m49479"
+unihan:kMorohashi
 "䋨"
 kVariants:sem
 -"𮈸"
@@ -894,6 +926,8 @@ kVariants:sem
 "缺"
 kVariants:sem
 -"𮉵"
+":m49498"
+unihan:kMorohashi
 "䍌"
 kVariants:sem
 -"𮉸"
@@ -962,15 +996,21 @@ kVariants:sem
 "罷"
 kVariants:sem
 -"𮊔"
+":m28363"
+unihan:kMorohashi
 "罹"
 kVariants:sem
 -"𮊕"
 ":sat4348"
 unihan:kIRG_SSource
 -"𮊖"
+":m49502"
+unihan:kMorohashi
 "罻"
 kVariants:sem
 -"𮊘"
+":m28360"
+unihan:kMorohashi
 "罻"
 kVariants:sem
 -"𮊙"
@@ -1043,6 +1083,8 @@ unihan:kIRG_SSource
 "羸"
 kVariants:sem
 -"𮊶"
+":m28597"
+unihan:kMorohashi
 "𡅖"
 kVariants:sem
 -"𮊷"
@@ -1181,6 +1223,8 @@ ivd:base
 ":sat2333"
 unihan:kIRG_SSource
 -"𮌋"
+":m29344"
+unihan:kMorohashi
 ":sat60289"
 unihan:kIRG_SSource
 "肞"
@@ -1315,6 +1359,9 @@ kVariants:=
 -"𮍍"
 "臤"
 kVariants:=
+-"𮍎"
+":m49556"
+unihan:kMorohashi
 -"𮍏"
 ":sat60125"
 unihan:kIRG_SSource
@@ -1554,6 +1601,9 @@ kVariants:=
 -"𮏒"
 "蕭"
 kVariants:sem
+-"𮏓"
+":m49589"
+unihan:kMorohashi
 -"𮏖"
 "菐"
 kVariants:=
@@ -1647,6 +1697,9 @@ unihan:kIRG_SSource
 -"𮐊"
 ":sat2260"
 unihan:kIRG_SSource
+-"𮐓"
+":m31689"
+unihan:kMorohashi
 -"𮐔"
 ":sat4191"
 unihan:kIRG_SSource
@@ -1720,6 +1773,9 @@ unihan:kIRG_SSource
 -"𮐻"
 "藏"
 kVariants:sem
+-"𮐼"
+":mh531"
+unihan:kMorohashi
 -"𮐼󠄀"
 ":MJ058533"
 ivd:Moji_Joho
@@ -1925,6 +1981,9 @@ unihan:kIRG_SSource
 -"𮒪"
 ":sat6293"
 unihan:kIRG_SSource
+-"𮒫"
+":m49655"
+unihan:kMorohashi
 -"𮒯"
 ":sat975"
 unihan:kIRG_SSource
@@ -1997,6 +2056,8 @@ unihan:kIRG_SSource
 ":sat2027"
 unihan:kIRG_SSource
 -"𮓖"
+":m32646"
+unihan:kMorohashi
 "𩼻"
 kVariants:=
 -"𮓘"
@@ -2196,6 +2257,9 @@ unihan:kIRG_SSource
 -"𮕎"
 ":sat2504"
 unihan:kIRG_SSource
+-"𮕒"
+":m33856"
+unihan:kMorohashi
 -"𮕓"
 ":sat336"
 unihan:kIRG_SSource
@@ -2242,6 +2306,9 @@ kVariants:=
 ivd:Adobe-Japan1
 "𮕩"
 ivd:base
+-"𮕪"
+":mh552"
+unihan:kMorohashi
 -"𮕫"
 "衰"
 kVariants:=
@@ -2604,6 +2671,9 @@ unihan:kIRG_SSource
 -"𮙅"
 "𫍔"
 kVariants:sem
+-"𮙆"
+":m36078"
+unihan:kMorohashi
 -"𮙇"
 ":sat3744"
 unihan:kIRG_SSource
@@ -2647,6 +2717,9 @@ kVariants:sem
 -"𮙡"
 ":sat3338"
 unihan:kIRG_SSource
+-"𮙣"
+":m49731"
+unihan:kMorohashi
 -"𮙥"
 ":sat2861"
 unihan:kIRG_SSource
@@ -2781,6 +2854,9 @@ kVariants:wrong!
 -"𮚶"
 "趁"
 kVariants:sem
+-"𮚸"
+":m37147"
+unihan:kMorohashi
 -"𮚺"
 ":sat1521"
 unihan:kIRG_SSource
@@ -2911,6 +2987,8 @@ unihan:kIRG_SSource
 ":sat2363"
 unihan:kIRG_SSource
 -"𮜒"
+":m37836"
+unihan:kMorohashi
 ":sat60355"
 unihan:kIRG_SSource
 "躁"
@@ -3044,6 +3122,9 @@ unihan:kIRG_SSource
 -"𮝜"
 ":sat3083"
 unihan:kIRG_SSource
+-"𮝝"
+":m49757'"
+unihan:kMorohashi
 -"𮝟"
 ":sat1917"
 unihan:kIRG_SSource
@@ -3312,6 +3393,8 @@ unihan:kIRG_SSource
 ":sat3406"
 unihan:kIRG_SSource
 -"𮟝"
+":m15808"
+unihan:kMorohashi
 "㰈"
 kVariants:sem
 -"𮟞"
@@ -3367,6 +3450,9 @@ unihan:kIRG_SSource
 -"𮟽"
 "𰻨"
 unihan:kSimplifiedVariant
+-"𮟾"
+":m39494"
+unihan:kMorohashi
 -"𮟿"
 ":sat263"
 unihan:kIRG_SSource
@@ -3546,6 +3632,8 @@ unihan:kIRG_SSource
 "鉚"
 kVariants:=
 -"𮡱"
+":m40373"
+unihan:kMorohashi
 "銏"
 kVariants:=
 -"𮡳"
@@ -3790,6 +3878,9 @@ unihan:kIRG_SSource
 -"𮤆"
 ":sat2107"
 unihan:kIRG_SSource
+-"𮤇"
+":m41227"
+unihan:kMorohashi
 -"𮤈"
 ":sat3837"
 unihan:kIRG_SSource
@@ -3857,6 +3948,8 @@ unihan:kIRG_SSource
 ":sat6548"
 unihan:kIRG_SSource
 -"𮤨"
+":m49842"
+unihan:kMorohashi
 "闥"
 kVariants:sem
 -"𮤪"
@@ -3914,6 +4007,8 @@ unihan:kIRG_SSource
 ":sat5552"
 unihan:kIRG_SSource
 -"𮥃"
+":m49847"
+unihan:kMorohashi
 "降"
 kVariants:old
 -"𮥄"
@@ -4061,6 +4156,9 @@ unihan:kIRG_SSource
 -"𮦝"
 ":sat4424"
 unihan:kIRG_SSource
+-"𮦟"
+":m42379"
+unihan:kMorohashi
 -"𮦠"
 ":sat2272"
 unihan:kIRG_SSource
@@ -4340,6 +4438,9 @@ unihan:kTraditionalVariant
 "飂"
 kVariants:simp
 unihan:kTraditionalVariant
+-"𮨷"
+":m49896"
+unihan:kMorohashi
 -"𮨹"
 ":sat3999"
 unihan:kIRG_SSource
@@ -4456,6 +4557,9 @@ unihan:kIRG_SSource
 -"𮪅"
 ":sat2099"
 unihan:kIRG_SSource
+-"𮪇"
+":m49904"
+unihan:kMorohashi
 -"𮪈"
 "驍"
 kVariants:=
@@ -4466,6 +4570,8 @@ unihan:kIRG_SSource
 ":sat4651"
 unihan:kIRG_SSource
 -"𮪍"
+":mh729"
+unihan:kMorohashi
 "騎"
 kVariants:=
 -"𮪎"
@@ -4501,6 +4607,9 @@ unihan:kIRG_SSource
 -"𮪞"
 ":sat3092"
 unihan:kIRG_SSource
+-"𮪠"
+":m49908"
+unihan:kMorohashi
 -"𮪡"
 "駹"
 kVariants:simp
@@ -4521,6 +4630,9 @@ unihan:kTraditionalVariant
 "驐"
 kVariants:simp
 unihan:kTraditionalVariant
+-"𮪦"
+":m45104"
+unihan:kMorohashi
 -"𮪫"
 ":sat19"
 unihan:kIRG_SSource
@@ -4574,6 +4686,8 @@ unihan:kIRG_SSource
 kVariants:simp
 unihan:kTraditionalVariant
 -"𮫄"
+":m45440"
+unihan:kMorohashi
 "𩬻"
 kVariants:sem
 -"𮫅"
@@ -4592,6 +4706,8 @@ unihan:kIRG_SSource
 ":sat5258"
 unihan:kIRG_SSource
 -"𮫗"
+":m49915"
+unihan:kMorohashi
 "𩰦"
 kVariants:sem
 -"𮫘"
@@ -4722,6 +4838,7 @@ unihan:kIRG_SSource
 kVariants:sem
 -"𮬩"
 ":v0-22-29"
+unihan15:kIRG_VSource
 unihan:kIRG_VSource
 -"𮬪"
 ":sat3074"
@@ -4810,6 +4927,8 @@ unihan:kIRG_SSource
 ":sat2266"
 unihan:kIRG_SSource
 -"𮭟"
+":m49940"
+unihan:kMorohashi
 "鳳"
 kVariants:old
 -"𮭠"
@@ -4868,6 +4987,8 @@ ivd:Moji_Joho
 "𮭱"
 ivd:base
 -"𮭴"
+":m34559"
+unihan:kMorohashi
 "表"
 kVariants:sem
 -"𮭵"
@@ -5132,6 +5253,9 @@ unicode:svs:cjk
 -"你"
 ":cns6-5-82"
 unihan:kIRG_TSource
+":kps1-34ee"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "你"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -5144,6 +5268,9 @@ unicode:svs:cjk
 -"侮"
 ":cns4-5-29"
 unihan:kIRG_TSource
+":kps1-3534"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "侮"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -5706,6 +5833,9 @@ unicode:svs:cjk
 -"卿"
 ":cns3-26-6"
 unihan:kIRG_TSource
+":kps1-38cf"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "卿"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -5730,6 +5860,9 @@ unicode:svs:cjk
 -"灰"
 ":cns3-4-9"
 unihan:kIRG_TSource
+":kps1-54b7"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "灰"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -6007,6 +6140,9 @@ unicode:svs:cjk
 -"嘆"
 ":cns6-49-22"
 unihan:kIRG_TSource
+":kps1-3a92"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "嘆"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -6043,6 +6179,9 @@ unicode:svs:cjk
 -"噴"
 ":cns7-12-69"
 unihan:kIRG_TSource
+":kps1-3ad2"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "噴"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -6079,6 +6218,9 @@ unicode:svs:cjk
 -"城"
 ":cns6-22-21"
 unihan:kIRG_TSource
+":kps1-3baf"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "城"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -6115,6 +6257,9 @@ unicode:svs:cjk
 -"型"
 ":cns3-20-80"
 unihan:kIRG_TSource
+":kps1-3bd5"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "型"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -6723,6 +6868,9 @@ unicode:svs:cjk
 -"幩"
 ":cns7-13-51"
 unihan:kIRG_TSource
+":kps1-40d3"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "幩"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -6771,6 +6919,9 @@ unicode:svs:cjk
 -"庰"
 ":cns6-31-38"
 unihan:kIRG_TSource
+":kps1-412c"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "庰"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -6939,6 +7090,9 @@ unicode:svs:cjk
 -"形"
 ":cns3-12-49"
 unihan:kIRG_TSource
+":kps1-41f8"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "形"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7023,6 +7177,9 @@ unicode:svs:cjk
 -"悁"
 ":cns6-17-22"
 unihan:kIRG_TSource
+":kps1-42c8"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "悁"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7095,6 +7252,9 @@ unicode:svs:cjk
 unihan:kIRG_HSource
 ":cns3-38-80"
 unihan:kIRG_TSource
+":kps1-43c1"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "慈"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7107,6 +7267,9 @@ unicode:svs:cjk
 -"慌"
 ":cns6-50-76"
 unihan:kIRG_TSource
+":kps1-43d2"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "慌"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7179,6 +7342,9 @@ unicode:svs:cjk
 -"憤"
 ":cns7-13-89"
 unihan:kIRG_TSource
+":kps1-4462"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "憤"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7227,6 +7393,9 @@ unicode:svs:cjk
 -"懶"
 ":cns7-39-8"
 unihan:kIRG_TSource
+":kps1-44a4"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "懶"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7263,6 +7432,9 @@ unicode:svs:cjk
 -"扝"
 ":cns5-2-78"
 unihan:kIRG_TSource
+":kps1-4539"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "扝"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7299,6 +7471,9 @@ unicode:svs:cjk
 -"捐"
 ":cns6-17-47"
 unihan:kIRG_TSource
+":kps1-45d5"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "捐"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7335,6 +7510,9 @@ unicode:svs:cjk
 -"拼"
 ":cns3-22-8"
 unihan:kIRG_TSource
+":kps1-462a"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "拼"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7599,6 +7777,9 @@ unicode:svs:cjk
 -"㬈"
 ":cns5-38-33"
 unihan:kIRG_TSource
+":kps1-49c3"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "㬈"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7786,6 +7967,9 @@ unicode:svs:cjk
 -"枅"
 ":cns6-24-42"
 unihan:kIRG_TSource
+":kps1-4b46"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "枅"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7798,6 +7982,9 @@ unicode:svs:cjk
 -"桒"
 ":cns3-17-60"
 unihan:kIRG_TSource
+":kps1-4b5d"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "桒"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7810,6 +7997,9 @@ unicode:svs:cjk
 -"梅"
 ":cns4-13-60"
 unihan:kIRG_TSource
+":kps1-4b57"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "梅"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7846,6 +8036,9 @@ unicode:svs:cjk
 -"栟"
 ":cns3-28-26"
 unihan:kIRG_TSource
+":kps1-4bf7"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "栟"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -7858,6 +8051,9 @@ unicode:svs:cjk
 -"椔"
 ":cns6-51-62"
 unihan:kIRG_TSource
+":kps1-4c6c"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "椔"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -8148,6 +8344,9 @@ ucd:names:x
 -"汧"
 ":cns3-13-50"
 unihan:kIRG_TSource
+":kps1-511e"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "汧"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -8172,6 +8371,9 @@ unicode:svs:cjk
 -"派"
 ":cns6-18-34"
 unihan:kIRG_TSource
+":kps1-5145"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "派"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -8184,6 +8386,9 @@ unicode:svs:cjk
 -"海"
 ":cns4-10-5"
 unihan:kIRG_TSource
+":kps1-5150"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "海"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -8258,6 +8463,9 @@ unicode:svs:cjk
 -"洴"
 ":cns3-22-85"
 unihan:kIRG_TSource
+":kps1-51c4"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "洴"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -8393,6 +8601,9 @@ unicode:svs:cjk
 -"濆"
 ":cns7-15-34"
 unihan:kIRG_TSource
+":kps1-53b8"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "濆"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -8586,6 +8797,9 @@ unicode:svs:cjk
 -"牐"
 ":cns6-33-65"
 unihan:kIRG_TSource
+":kps1-56a8"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "牐"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -8634,6 +8848,9 @@ unicode:svs:cjk
 -"𤜵"
 ":cns6-18-66"
 unihan:kIRG_TSource
+":kps1-57d0"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "𤜵"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -8850,6 +9067,9 @@ unicode:svs:cjk
 -"異"
 ":cns6-43-54"
 unihan:kIRG_TSource
+":kps1-5af0"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "異"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -9116,6 +9336,9 @@ unicode:svs:cjk
 -"硎"
 ":cns3-35-19"
 unihan:kIRG_TSource
+":kps1-6043"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "硎"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -9248,6 +9471,9 @@ unicode:svs:cjk
 -"穀"
 ":cns4-37-63"
 unihan:kIRG_TSource
+":kps1-6246"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "穀"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -9320,6 +9546,9 @@ unicode:svs:cjk
 -"竮"
 ":cns7-16-83"
 unihan:kIRG_TSource
+":kps1-639a"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "竮"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -9475,6 +9704,9 @@ unicode:svs:cjk
 -"絣"
 ":cns3-40-74"
 unihan:kIRG_TSource
+":kps1-6725"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "絣"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -10085,6 +10317,9 @@ unicode:svs:cjk
 -"著"
 ":cns6-36-27"
 unihan:kIRG_TSource
+":kps1-6e4b"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "著"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -10391,6 +10626,9 @@ unicode:svs:cjk
 -"蚈"
 ":cns4-26-85"
 unihan:kIRG_TSource
+":kps1-7168"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "蚈"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -10415,6 +10653,9 @@ unicode:svs:cjk
 -"蛢"
 ":cns4-38-92"
 unihan:kIRG_TSource
+":kps1-71cd"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "蛢"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -10718,6 +10959,9 @@ unicode:svs:cjk
 -"𧲨"
 ":cns6-56-48"
 unihan:kIRG_TSource
+":kps1-78ac"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "𧲨"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -10816,6 +11060,9 @@ unicode:svs:cjk
 -"趼"
 ":cns3-36-77"
 unihan:kIRG_TSource
+":kps1-7aad"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "趼"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -10828,6 +11075,9 @@ unicode:svs:cjk
 -"跰"
 ":cns7-9-36"
 unihan:kIRG_TSource
+":kps1-7b04"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "跰"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -10972,6 +11222,9 @@ unicode:svs:cjk
 -"鋗"
 ":cns6-67-51"
 unihan:kIRG_TSource
+":kps1-8054"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "鋗"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -10996,6 +11249,9 @@ unicode:svs:cjk
 -"鉼"
 ":cns4-52-42"
 unihan:kIRG_TSource
+":kps1-80ad"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "鉼"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -11044,6 +11300,9 @@ unicode:svs:cjk
 -"開"
 ":cns6-67-56"
 unihan:kIRG_TSource
+":kps1-8255"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "開"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -11260,6 +11519,9 @@ unicode:svs:cjk
 -"頩"
 ":cns4-57-86"
 unihan:kIRG_TSource
+":kps1-8703"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "頩"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -11414,6 +11676,9 @@ unicode:svs:cjk
 -"䳎"
 ":cns7-37-69"
 unihan:kIRG_TSource
+":kps1-8e7e"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "䳎"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -11582,6 +11847,9 @@ unicode:svs:cjk
 -"鼖"
 ":cns7-45-8"
 unihan:kIRG_TSource
+":kps1-9190"
+unihan15:kIRG_KPSource
+unihan:kIRG_KPSource
 "鼖"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold

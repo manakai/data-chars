@@ -23,6 +23,10 @@ $(TEMP_PATH)/aj17-kanji.txt:
 
 $(TEMP_PATH)/aj20.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/deprecated/Adobe-Japan2-0/cid2code.txt
+$(TEMP_PATH)/jisx0212-jp90.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-Japan1-7/jisx0212-jp90.txt
+$(TEMP_PATH)/jisx0212-jp04.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-Japan1-7/jisx0212-jp04.txt
 
 $(TEMP_PATH)/ac17.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-CNS1-7/cid2code.txt
@@ -87,6 +91,9 @@ $(TEMP_PATH)/KiriMinL-dump.json: $(TEMP_PATH)/KiriMinL.otf \
     $(TEMP_PATH)/dumpotf.js $(TEMP_PATH)/opentype.js
 	docker run -i -v `cd $(TEMP_PATH) && pwd`:/temppath node temppath/dumpotf.js /temppath/KiriMinL.otf > $@
 
+../jp/jouyouh22-table.json:
+	cd ../jp && $(MAKE) jouyouh22-table.json
+
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/aj17.txt $(TEMP_PATH)/aj17-kanji.txt $(TEMP_PATH)/aj20.txt \
     $(TEMP_PATH)/ac17.txt $(TEMP_PATH)/ag16.txt \
@@ -99,7 +106,10 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/akr9-hangul.txt \
     $(TEMP_PATH)/aglfn.txt \
     $(TEMP_PATH)/glyphlist.txt \
-    $(TEMP_PATH)/KiriMinL-dump.json
+    $(TEMP_PATH)/KiriMinL-dump.json \
+    ../jp/jouyouh22-table.json \
+    $(TEMP_PATH)/jisx0212-jp90.txt \
+    ivd-fallback.txt
 	$(PERL) $<
 maps-*.list: maps-0.list
 

@@ -67,7 +67,7 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
 	$(PERL) $<
 maps-*.list: maps-0.list
 
-ahd-0.list: hd.pl $(VGEN_PATH)/chars.pl \
+hd-0.list: hd.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/hd2ucs.txt \
     $(TEMP_PATH)/cjkvi-data/hducs2ivs.txt \
     $(TEMP_PATH)/cjkvi-data/hducs2juki.txt \

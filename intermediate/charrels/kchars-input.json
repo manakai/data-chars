@@ -35,6 +35,9 @@
     {"path": "../unicode/maps-27.list", "rels_key": "kchars"},
     {"path": "../unicode/maps-28.list", "rels_key": "kchars"},
     {"path": "../unicode/maps-29.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-30.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-31.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-32.list", "rels_key": "kchars"},
     {
       "path": "../unicode/maps2.list",
       "rels_key": "kchars"
@@ -87,6 +90,16 @@
     {"path": "../jp/variants-1.list", "rels_key": "kchars"},
     {"path": "../jp/variants-2.list", "rels_key": "kchars"},
     {"path": "../jp/variants-3.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-4.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-5.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-6.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-7.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-8.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-9.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-10.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-11.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-12.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-13.list", "rels_key": "kchars"},
     {
       "path": "../cns/maps.list",
       "rels_key": "kchars"
@@ -124,6 +137,10 @@
     {"path": "../adobe/maps-10.list", "rels_key": "kchars"},
     {"path": "../adobe/maps-11.list", "rels_key": "kchars"},
     {"path": "../adobe/maps-12.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-13.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-14.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-15.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-16.list", "rels_key": "kchars"},
     {
       "path": "../opencc/variants.list",
       "rels_key": "kchars"
@@ -144,6 +161,8 @@
     {"path": "../wiki/maps-3.list", "rels_key": "kchars"},
     {"path": "../wiki/maps-4.list", "rels_key": "kchars"},
     {"path": "../wiki/maps-5.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-6.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-7.list", "rels_key": "kchars"},
     {
       "path": "../misc/maps.list",
       "rels_key": "kchars"

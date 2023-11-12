@@ -27,6 +27,9 @@ my $VKey = {};
         $VKey->{$c1} //= $key;
       }
       my $c2 = $value->{text};
+      if ($value->{xml} =~ m{^<replace xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:" by="(swc[1-9][0-9]*)"></replace>$}) {
+        $c2 = ':' . $1;
+      }
       unless (length $c2) {
         warn "Bad value: |$value->{xml}|";
         next;
@@ -99,7 +102,8 @@ sub value_to_char ($) {
       [字形類似 => 'manakai:lookslike'],
       [左右反転類似 => 'manakai:左右反転類似'],
       [上下反転類似 => 'manakai:上下反転類似'],
-      [半回転類似 => 'manakai:回転類似'],
+      [回転類似 => 'manakai:回転類似'],
+      [半回転類似 => 'manakai:半回転類似'],
       [四半回転類似 => 'manakai:四半回転類似'],
       ["3四半回転類似" => 'manakai:3四半回転類似'],
       [類義 => "manakai:類義"],

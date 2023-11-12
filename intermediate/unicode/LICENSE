@@ -12,6 +12,13 @@ License of the UK-Source Ideographs repository:
 <https://github.com/unicode-org/uk-source-ideographs/blob/main/LICENSE.md>
 (Arphic Public License).
 
+Some of data in this directory are derived from CJK Symbols data
+files, with or without modifications.
+
+License of ths CJK Symbols repository:
+<https://github.com/unicode-org/cjk-symbols/blob/main/LICENSE> (SIL
+OFL 1.1).
+
 Some of data in this directory are derived from ICU data files, with
 or without modifications.
 

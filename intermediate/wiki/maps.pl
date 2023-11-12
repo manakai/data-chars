@@ -9,6 +9,7 @@ BEGIN { require 'chars.pl' };
 my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
 my $TempPath = $RootPath->child ('local/iwm');
+my $TempUCPath = $RootPath->child ('local/iuc');
 
 my $Data = {};
 
@@ -776,6 +777,132 @@ for my $path (($TempPath->children (qr/^gw-relcp-[0-9]+\.txt$/))) {
 
 
 {
+  my $path = $TempPath->child ('gw-cjkeunified.txt');
+  for (split /\x0D?\x0A/, extract_source $path->slurp) {
+    if (/^,\s*[0-9]+\s*,\s*\[\[(?:u([0-9a-f]+)|extd-([0-9]+))\]\]\s*,\s*\[\[extd-([0-9]+)\]\]\s*,(.+?)\s*$/) {
+      my $c1 = (defined $1 ? chr hex $1 : sprintf ':extd%d', $2);
+      my $key = defined $1 ? get_vkey $c1 : 'hans';
+      my $c2 = sprintf ':extd%d', $3;
+      $Data->{$key}->{$c1}->{$c2}->{'glyphwiki:unified'} = 1;
+      my @s3 = split /,/, $4;
+      for my $s3 (@s3) {
+        if ($s3 =~ /^T([0-9A-F]+)-([0-9A-F]{2})([0-9A-F]{2})$/) {
+          my $c3 = sprintf ':cns%d-%d-%d',
+              hex $1,
+              (hex $2) - 0x20,
+              (hex $3) - 0x20;
+          $Data->{$key}->{$c1}->{$c3}->{'glyphwiki:unified'} = 1;
+        } elsif ($s3 =~ /^V04-([0-9A-F]{2})([0-9A-F]{2})$/) {
+          my $c3 = sprintf ':v3-%d-%d',
+              (hex $1) - 0x20,
+              (hex $2) - 0x20;
+          $Data->{$key}->{$c1}->{$c3}->{'glyphwiki:unified'} = 1;
+        } elsif ($s3 =~ /^UTC([0-9]+)$/) {
+          my $c3 = sprintf ':UTC-%s', $1;
+          $Data->{$key}->{$c1}->{$c3}->{'glyphwiki:unified'} = 1;
+        } elsif ($s3 =~ /^MAC([0-9]+)$/) {
+          #
+        } elsif ($s3 =~ /^G/) {
+          #
+        } elsif ($s3 =~ /^JK-([0-9]+)$/) {
+          my $c3 = sprintf ':m%d', $1;
+          $Data->{$key}->{$c1}->{$c3}->{'glyphwiki:unified'} = 1;
+        } elsif ($s3 =~ /^KP1-([0-9A-F]+)$/) {
+          my $c3 = sprintf ':kp1%x', hex $1;
+          $Data->{$key}->{$c1}->{$c3}->{'glyphwiki:unified'} = 1;
+        } elsif ($s3 =~ /\S/) {
+          die "Bad value |$s3|";
+        }
+      }
+    }
+  }
+}
+
+my $Jouyou = {};
+my $JouyouOld = {};
+{
+  my $path = $ThisPath->parent->child ('jp/jouyouh22-table.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $char (keys %{$json->{jouyou}}) {
+    my $in = $json->{jouyou}->{$char};
+    $Jouyou->{$char} = $in->{index};
+    for (@{$in->{old} or []}) {
+      $JouyouOld->{$_} = $in->{index};
+    }
+    if ($in->{old_image}) {
+      use utf8;
+      $JouyouOld->{"龜"} = $in->{index};
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('gw-jouyoukoseki.txt');
+  for (split /\n/, extract_source $path->slurp) {
+    if (m{^\[\[(\w) koseki-([0-9]+)\]\]\s*$}) {
+      my $char = $1;
+      my $jouyou = $Jouyou->{$char} or die $_;
+      my $c1 = sprintf ':jouyou-h22-%d', $jouyou;
+      my $c2 = sprintf ':koseki%s', $2;
+      $Data->{hans}->{$c1}->{$c2}->{'glyphwiki:koseki'} = 1;
+
+      use utf8;
+      if ({map { $_ => 1 } qw(串 伎 侶 俺 僅 冥 冶 凄 刹 勃 勾 匂 呂 唄 埼 堆 塞 塡 奈 妖 媛 宛 岡 崖 嵐 巾 弥 憧 戚 戴 拶 拭 挨 拳 捉 捻 斑 旦 旺 昧 曖 曽 枕 柵 柿 栃 桁 梗 梨 椅 椎 汎 沙 汰 湧 煎 熊 爪 爽 牙 玩 瑠 璃 瓦 畏 畿 眉 睦 瞳 瞭 稽 窟 箸 羨 肘 脇 腎 膳 臆 臼 舷 艶 芯 茨 葛 蓋 蔽 藤 藍 虎 虹 蜂 蜜 袖 裾 詣 詮 誰 諦 謎 貌 貼 蹴 遡 遜 那 酎 醒 采 釜 錦 鍋 鍵 鎌 闇 阜 阪 隙 韓 頃 須 頓 頰 餅 駒 鶴 鹿 麓 亀)}->{$char}) {
+        my $c3 = sprintf ':jinmei-%s', $char;
+        $Data->{hans}->{$c3}->{$c2}->{'glyphwiki:koseki'} = 1;
+        $Data->{hans}->{$c3}->{$c1}->{'manakai:newrevision'} = 1;
+      }
+    }
+  }
+}
+{
+  use utf8;
+  my $char;
+  my $connected;
+  my $path = $TempPath->child ('gw-jinmeikoseki.txt');
+  for (split /\n/, extract_source $path->slurp) {
+    if (m{^\[\[(\w) koseki-([0-9]+)\]\]\s*$}) {
+      my $c = $1;
+      my $c1 = sprintf ':jinmei-%s', $c;
+      my $c2 = sprintf ':koseki%s', $2;
+      $Data->{hans}->{$c1}->{$c2}->{'glyphwiki:koseki'} = 1;
+      if ($connected) {
+        my $c3 = sprintf ':jinmei-%s', $char;
+        $Data->{hans}->{$c3}->{$c1}->{'jinmei:同一の字種'} = 1;
+        $Data->{hans}->{$c3}->{$c1}->{'jinmeih16:同一の字種'} = 1
+            unless $char eq "禱" or $char eq "祷";
+        $connected = 0;
+      }
+      $char = $c;
+    } elsif (m{^\((\p{Han})\)\s*$}) {
+      my $c3 = sprintf ':jinmei-%s', $char;
+      my $jouyou = $Jouyou->{$1} or die $_;
+      my $c4 = sprintf ':jouyou-h22-%d', $jouyou;
+      $Data->{hans}->{$c3}->{$c4}->{'jinmei:つながり'} = 1;
+      if ($1 eq "曽" or $1 eq "弥") {
+        my $c5 = sprintf ':jinmei-%s', $1;
+        $Data->{hans}->{$c3}->{$c5}->{'jinmeih16:同一の字種'} = 1
+      } else {
+        $Data->{hans}->{$c3}->{$c4}->{'jinmeih16:つながり'} = 1
+      }
+    } elsif (m{^―\s*$}) {
+      $connected = 1;
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('gw-jouyouoldmj.txt');
+  for (split /\n/, extract_source $path->slurp) {
+    if (m{^\[\[(\w) jmj-([0-9]+)\]\]\s*$}) {
+      my $char = $1;
+      my $jouyou = $JouyouOld->{$char} or die $char;
+      my $c1 = sprintf ':jouyou-h22old-%d', $jouyou;
+      my $c2 = sprintf ':MJ%s', $2;
+      $Data->{hans}->{$c1}->{$c2}->{'glyphwiki:mj'} = 1;
+    }
+  }
+}
+
+{
   use utf8;
   ## <https://ja.wikipedia.org/wiki/%E5%90%88%E7%95%A5%E4%BB%AE%E5%90%8D>
   for (
@@ -855,6 +982,195 @@ for my $path (($TempPath->children (qr/^gw-relcp-[0-9]+\.txt$/))) {
   }
 }
 
+my $JA2Char = {};
+{
+  my $path = $TempUCPath->child ('unihan3.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+([A])-([0-9A-F]{2})([0-9A-F]{2})$/) {
+      my $c1 = u_chr hex $1;
+      my $jis = sprintf '%d-%d-%d', hex $3, (hex $4) - 0x20, (hex $5) - 0x20;
+      $JA2Char->{$jis} = $c1;
+    }
+  }
+  $JA2Char->{"10-6-43"} = "\x{FA1F}";
+}
+
+{
+  my $UnicodeRelTypes = {
+    1993 => 'iso10646:1993:j:glyph',
+    2000 => 'iso10646:2000:j:glyph',
+          2003 => 'iso10646:2003:j:glyph',
+          2008 => 'iso10646:2008:j:glyph',
+          2010 => 'iso10646:2010:j:glyph',
+          2020 => 'iso10646:2020:j:glyph',
+          2023 => 'iso10646:2023:j:glyph',
+          U51 => 'unicode5.1:j:glyph',
+          U52 => 'unicode5.2:j:glyph',
+          U61 => 'unicode6.1:j:glyph',
+          U62 => 'unicode6.2:j:glyph',
+          U13 => 'unicode13:j:glyph',
+          U14 => 'unicode14:j:glyph',
+          U15 => 'unicode15:j:glyph',
+          U151 => 'unicode15.1:j:glyph',
+        };
+  
+  my $path = $ThisPath->parent->child ('misc/gmap.json');
+  my $json = json_bytes2perl $path->slurp;
+    my $sel = sub {
+    my $x = shift;
+    return undef unless defined $x;
+    if ($x->[0] eq 'mj' or $x->[0] eq 'gw' or $x->[0] eq 'g') {
+      return $x->[1];
+    } elsif ($x->[0] eq 'aj' and $x->[2] eq 'shs') {
+      my $v = $x->[1];
+      $v =~ s/^aj/shs/;
+      return $v;
+    } elsif ($x->[0] eq 'ucsT' and $x->[2] eq '') {
+      return 'cns' . $x->[1];
+    } else {
+      die perl2json_bytes $x;
+    }
+  };
+  my $prev_group_c;
+  for my $group (map { @$_ } @{$json->{groups}}) {
+    for (
+      ['jistype', 'simplified', ':jistype-simplified-%s', ''],
+      ['koseki', '', ':koseki%s', ''],
+      ['touki', '', ':touki%s', ''],
+      ['juuki', '', ':u-juki-%x', 'x'],
+      ['UTC', '', ':UTC-%s', ''],
+      ['UCI', '', ':UCI-%s', ''],
+    ) {
+      my ($k1, $k2, $f, $cnv) = @$_;
+      for (keys %{$group->{$k1}->{$k2} or {}}) {
+        my $v = $_;
+        $v = hex $v if $cnv eq 'x';
+        my $c1 = sprintf $f, $v;
+        if (defined $group->{selected}) {
+          my $glyph = $sel->($group->{selected});
+          my $c2 = glyph_to_char $glyph;
+          $Data->{hans}->{$c1}->{$c2}->{'manakai:equivglyph'} = 1;
+        } elsif (defined $group->{selected_similar}) {
+          my $glyph = $sel->($group->{selected_similar});
+          my $c2 = glyph_to_char $glyph;
+          $Data->{hans}->{$c1}->{$c2}->{'manakai:similarglyph'} = 1;
+        } else {
+          warn "No glyph for |$c1|";
+        }
+      }
+    }
+    for my $c (keys %{$group->{jouyou}->{kyoyou} or {}}) {
+      my $jouyou = $Jouyou->{$c} or die $_;
+      my $c1 = sprintf ':jouyou-h22kyoyou-%d', $jouyou;
+      if (defined $group->{selected}) {
+        my $glyph = $sel->($group->{selected});
+        die "Bad glyph for |$c1| ($glyph)" unless $glyph =~ /^MJ/;
+        my $c2 = glyph_to_char $glyph;
+        $Data->{hans}->{$c1}->{$c2}->{'manakai:hasglyph'} = 1;
+      } else {
+        warn "No glyph for |$c1|";
+      }
+    }
+    for my $k2 (keys %{$group->{jis} or {}}) {
+      for my $jis (keys %{$group->{jis}->{$k2} or {}}) {
+        next unless $jis =~ /^10-/;
+        next if {
+          2011 => 1,
+          2016 => 1,
+        }->{$k2};
+        my $rel_type = $UnicodeRelTypes->{$k2} // die "Bad key2 |$k2|";
+        my $c1 = $JA2Char->{$jis};
+        #$c1 = ':jis' . $jis if not defined $c1;
+        die "Bad JA |$jis|" unless defined $c1;
+        if (defined $group->{selected}) {
+          my $glyph = $sel->($group->{selected});
+          my $c2 = glyph_to_char $glyph;
+          $Data->{hans}->{$c1}->{$c2}->{$rel_type.':equiv'} = 1;
+        } elsif (defined $group->{selected_similar}) {
+          my $glyph = $sel->($group->{selected_similar});
+          my $c2 = glyph_to_char $glyph;
+          $Data->{hans}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
+        } else {
+          warn "No glyph for |$c1|";
+        }
+      }
+    }
+    for (
+      ['ucs', ':j:'],
+      ['ucsU', ':u:'],
+    ) {
+      my ($k1, $type) = @$_;
+      for my $k2 (keys %{$group->{$k1}}) {
+        next if {
+          2011 => 1,
+          2016 => 1,
+          ipa1 => 1,
+          ipa3 => 1,
+          ex => 1,
+          SWC => 1,
+        }->{$k2};
+        my $rel_type = $UnicodeRelTypes->{$k2} // die $k2;
+        $rel_type =~ s/:j:/$type/;
+        for (keys %{$group->{$k1}->{$k2} or {}}) {
+          my $c1 = chr hex $_;
+          if (defined $group->{selected}) {
+            my $glyph = $sel->($group->{selected});
+            my $c2 = glyph_to_char $glyph;
+            $Data->{hans}->{$c1}->{$c2}->{$rel_type.':equiv'} = 1;
+          } elsif (defined $group->{selected_similar}) {
+            my $glyph = $sel->($group->{selected_similar});
+            my $c2 = glyph_to_char $glyph;
+            $Data->{hans}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
+          } else {
+            warn "No glyph for |$c1|";
+          }
+        }
+      }
+    }
+
+    my @c1;
+    for (sort { $a cmp $b } keys %{$group->{mj}->{''} or {}}) {
+      push @c1, ':' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{heisei}->{''} or {}}) {
+      push @c1, ':' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{aj}->{''} or {}}) {
+      push @c1, ':' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{aj}->{shs} or {}}) {
+      my $x = $_;
+      $x =~ s/^aj/shs/;
+      push @c1, ':' . $x;
+    }
+    for (sort { $a cmp $b } keys %{$group->{gw}->{''} or {}}) {
+      push @c1, ':gw-' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{g}->{''} or {}}) {
+      push @c1, ':swg' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{jis}->{16} or {}}) {
+      push @c1, ':jis-dot16-' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{jis}->{24} or {}}) {
+      push @c1, ':jis-dot16-' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{jisrev}->{''} or {}}) {
+      push @c1, ':jis-pubrev-' . $_;
+    }
+    next unless @c1;
+    my $c1 = shift @c1;
+    for my $c2 (@c1) {
+      $Data->{glyphs}->{$c1}->{$c2}->{'manakai:equivglyph'} = 1;
+    }
+    if (defined $prev_group_c) {
+      $Data->{glyphs}->{$prev_group_c}->{$c1}->{'manakai:similarglyph'} = 1;
+    }
+    $prev_group_c = $c1;
+  } # $group
+}
+
 write_rel_data_sets
     $Data => $ThisPath, 'maps',
     [
@@ -863,6 +1179,8 @@ write_rel_data_sets
       qr/[\x{8000}-\x{FFFF}]/,
       qr/[\x{20000}-\x{3FFFF}]/,
       qr/^:u/,
+      qr/^:[kt]/,
+      qr/^:[a-z]/,
     ];
 
 ## License: Public Domain.

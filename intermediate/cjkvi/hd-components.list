@@ -2489,7 +2489,7 @@ cjkvi:ids:contains
 "戊"
 cjkvi:ids:contains
 -":JTB1DA"
-"JTB1DA\u0009"
+":u-cdp-f417"
 cjkvi:ids:contains
 -":JTB1F4"
 "扌"
@@ -6370,7 +6370,7 @@ cjkvi:ids:contains
 "廿"
 cjkvi:ids:contains
 -":KS000570"
-"KS000570\u0009"
+":u-cdp-f37c"
 cjkvi:ids:contains
 -":KS000680"
 "サ"
@@ -6390,7 +6390,7 @@ cjkvi:ids:contains
 "一"
 cjkvi:ids:contains
 -":KS000880"
-"KS000880\u0009"
+":u-cdp-f1e1"
 cjkvi:ids:contains
 -":KS000890"
 "一"
@@ -6956,7 +6956,7 @@ cjkvi:ids:contains
 "𠈌"
 cjkvi:ids:contains
 -":KS017950"
-"KS017950\u0009"
+":u-cdp-f2a4"
 cjkvi:ids:contains
 -":KS018030"
 "一"
@@ -12031,7 +12031,7 @@ cjkvi:ids:contains
 "肉"
 cjkvi:ids:contains
 -":KS335550"
-"KS335550\u0009"
+":u-cdp-f31d"
 cjkvi:ids:contains
 -":KS335590"
 ":u-cdp-f31d"
@@ -15389,7 +15389,7 @@ cjkvi:ids:contains
 "久"
 cjkvi:ids:contains
 -":TK01000570"
-"TK01000570\u0009"
+":u-cdp-f5ca"
 cjkvi:ids:contains
 -":TK01000580"
 "㐅"
@@ -16278,7 +16278,7 @@ cjkvi:ids:contains
 "亻"
 cjkvi:ids:contains
 -":TK01002490"
-"TK01002490\u0009"
+":u-cdp-f61e"
 cjkvi:ids:contains
 -":TK01002500"
 "⺄"
@@ -17918,7 +17918,7 @@ cjkvi:ids:contains
 "巖"
 cjkvi:ids:contains
 -":TK01006520"
-"TK01006520\u0009"
+":u-cdp-f43b"
 cjkvi:ids:contains
 -":TK01006530"
 "儿"
@@ -20704,7 +20704,7 @@ cjkvi:ids:contains
 "取"
 cjkvi:ids:contains
 -":TK01013680"
-"TK01013680\u0009"
+":u-cdp-f556"
 cjkvi:ids:contains
 -":TK01013690"
 "口"
@@ -26802,7 +26802,7 @@ cjkvi:ids:contains
 "𠂇"
 cjkvi:ids:contains
 -":TK01029110"
-"TK01029110\u0009"
+":u-cdp-f5cd"
 cjkvi:ids:contains
 -":TK01029120"
 "丅"
@@ -30372,7 +30372,7 @@ cjkvi:ids:contains
 "𠃊"
 cjkvi:ids:contains
 -":TK01038120"
-"TK01038120\u0009"
+":u-cdp-f41e"
 cjkvi:ids:contains
 -":TK01038130"
 "久"
@@ -45083,7 +45083,7 @@ cjkvi:ids:contains
 "丶"
 cjkvi:ids:contains
 -":TK01075060"
-"TK01075060\u0009"
+":u-cdp-f67d"
 cjkvi:ids:contains
 -":TK01075070"
 "口"

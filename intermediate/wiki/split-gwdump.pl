@@ -99,9 +99,8 @@ my $OutFiles = [];
           $added = 1;
         } else {
           insert $value->{name}, [$value->{name} => $value->{data}] => $OutFiles;
-          for (grep { not /^-?[0-9]+(?:\$[0-9]+|)$/ } split /:/, $value->{data}) {
+          for (grep { not /^-?[0-9]+$/ } split /[:\$]/, $value->{data}) {
             my $x = $_;
-            $x =~ s/\$[0-9]+$//;
             print $contains_file "$value->{name}\t$x\n";
           }
         }
