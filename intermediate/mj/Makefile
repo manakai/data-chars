@@ -65,6 +65,9 @@ $(TEMP_PATH)/mjivs-00501.txt: mjivs-00501.pl $(TEMP_PATH)/mji00501
 $(TEMP_PATH)/mjdkw-00101.txt: mjdkw-00101.pl $(TEMP_PATH)/mj00101.csv
 	$(PERL) $< $(TEMP_PATH)/mj00101.csv > $@
 
+$(TEMP_PATH)/mjucssvs.txt: $(TEMP_PATH)/mj.json mjucssvs.pl
+	$(PERL) mjucssvs.pl $< > $@
+
 variants.json: variants.pl $(TEMP_PATH)/mj.json $(TEMP_PATH)/map.json
 	$(PERL) $< > $@
 
