@@ -88,11 +88,37 @@ my $Data = {};
       my $c1 = u_chr hex $1;
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1}->{$c2}->{"unihan3.0:$2"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+([01A])-([0-9A-F]{2})([0-9A-F]{2})$/) {
+      my $c1 = u_chr hex $1;
+      my $c2 = sprintf ':jis%d-%d-%d', 1 + hex $3, (hex $4) - 0x20, (hex $5) - 0x20;
+      if ($3 eq 'A') {
+        $c2 = sprintf ':jis%d-%d-%d', hex $3, (hex $4) - 0x20, (hex $5) - 0x20;
+      }
+      my $rel_type = "unihan3.0:$2";
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KSource)\s+([0123])-([0-9A-F]{2})([0-9A-F]{2})$/) {
       my $c2 = sprintf ':ks%d-%d-%d', $3, (hex $4) - 0x20, (hex $5) - 0x20;
       my $c1 = u_chr hex $1;
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1}->{$c2}->{"unihan3.0:$2"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_VSource)\s+([0])-([0-9A-F]{2})([0-9A-F]{2})$/) {
+      my $code1 = hex $1;
+      my $c1 = u_chr $code1;
+      my $c2 = sprintf ':v%d-%d-%d', $3, (hex $4) - 0x20, (hex $5) - 0x20;
+      if ($3) {
+        my $ten = (hex $5) - 0x20 - 9;
+        my $ku = (hex $4) - 0x20 + 41;
+        if ($ten < 1) {
+          $ten += 94;
+          $ku--;
+        }
+        $c2 = sprintf ':v%d-%d-%d', $3, $ku, $ten;
+      } elsif ($code1 >= 0x4E00) {
+        $c2 = sprintf ':v%d-%d-%d', $3, (hex $4) - 0x20 + 15, (hex $5) - 0x20;
+      }
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{"unihan3.0:$2:$3"} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kAlternateKangXi)\s+([0-9]+)\.([0-9]+)$/) {
       my $c2 = sprintf ':kx%d-%d', $3, $4;
       my $c1 = u_chr hex $1;
@@ -216,6 +242,41 @@ my $Data = {};
     }
   }
 }
+
+{
+  my $path = $TempPath->child ('unihan15-irg-v.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_VSource)\s+VN-([0-9A-Fa-f]+)$/) {
+      my $code2 = hex $3;
+      if ($code2 >= 0xF0000) {
+        my $c1 = u_chr hex $1;
+        my $rel_type = "unihan15:$2";
+        my $c2 = sprintf ':u-nom-%x', $code2;
+        my $key = get_vkey $c1;
+        $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        my $c2_0 = chr $code2;
+        $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      }
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_VSource)\s+V([01234])-([0-9A-F]{2})([0-9A-F]{2})$/) {
+      my $c1 = u_chr hex $1;
+      my $c2 = sprintf ':v%d-%d-%d',
+          {
+            0 => 0,
+            1 => 1, 2 => 1,
+            3 => 3, 4 => 3,
+          }->{$3}, (hex $4) - 0x20, (hex $5) - 0x20;
+      my $rel_type = "unihan15:$2";
+      $rel_type .= ":$3" if $3 > 0;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
 {
   my $path = $TempPath->child ('unihan-irg-v.txt');
   my $file = $path->openr;
@@ -250,6 +311,7 @@ my $Data = {};
     }
   }
 }
+
 {
   my $path = $TempPath->child ('unihan-irg-k.txt');
   my $file = $path->openr;
@@ -268,6 +330,45 @@ my $Data = {};
       my $c2 = sprintf ':ks%d-%x', $3, (hex $4);
       my $key = get_vkey $c1;
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    }
+  }
+}
+
+{
+  my $path = $TempPath->child ('unihan15-irg-kp.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KPSource)\s+KP0-([A-F][0-9A-F])([A-F][0-9A-F])$/) {
+      my $c2 = sprintf ':kps0-%d-%d', (hex $3) - 0xA0, (hex $4) - 0xA0;
+      my $c1 = u_chr hex $1;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{"unihan15:$2"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KPSource)\s+KP1-([0-9A-F]{4})$/) {
+      my $c2 = sprintf ':kps1-%x', hex $3;
+      my $c1 = u_chr hex $1;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{"unihan15:$2"} = 1;
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('unihan-irg-kp.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KPSource)\s+KP0-([A-F][0-9A-F])([A-F][0-9A-F])$/) {
+      my $c2 = sprintf ':kps0-%d-%d', (hex $3) - 0xA0, (hex $4) - 0xA0;
+      my $c1 = u_chr hex $1;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{"unihan:$2"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KPSource)\s+KP1-([0-9A-F]{4})$/) {
+      my $c2 = sprintf ':kps1-%x', hex $3;
+      my $c1 = u_chr hex $1;
+      my $key = get_vkey $c1;
+      $Data->{$key}->{$c1}->{$c2}->{"unihan:$2"} = 1;
     }
   }
 }
@@ -297,20 +398,40 @@ my $Data = {};
   }
 }
 
-{
-  my $path = $TempPath->child ('unihan-morohashi.txt');
+for (
+  ['unihan15-morohashi.txt', 'unihan15'],
+  ['unihan15-irg-daikanwa.txt', 'unihan15'],
+  ['unihan-morohashi.txt', 'unihan'],
+) {
+  my $path = $TempPath->child ($_->[0]);
+  my $prefix = $_->[1];
   my $file = $path->openr;
   while (<$file>) {
     if (/^\s*#/) {
       #
-    } elsif (/^U\+([0-9A-F]+)\s+(kMorohashi)\s+([0-9]+)('|)$/) {
+    } elsif (s/^U\+([0-9A-F]+)\t(kMorohashi|kIRGDaiKanwaZiten)\t//) {
       my $c1 = u_chr hex $1;
-      my $rel_type = "unihan:$2";
-      my $c2 = sprintf ':m%d%s', $3, $4;
+      my $rel_type = "$prefix:$2";
       my $key = get_vkey $c1;
-      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
-    } elsif (/^U\+([0-9A-F]+)\s+(kMorohashi)\s+/) {
-      die $_;
+      for (split / /, $_) {
+        if (m{^([0-9]+)(''?|)$}) {
+          my $c2 = sprintf ':m%d%s', $1, $2;
+          $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        } elsif (m{^([0-9]+)(''?|):([0-9A-F]+)$}) {
+          my $c3 = $c1 . chr hex $3;
+          my $c2 = sprintf ':m%d%s', $1, $2;
+          $Data->{$key}->{$c3}->{$c2}->{$rel_type} = 1;
+        } elsif (m{^H([0-9]+)$}) {
+          my $c2 = sprintf ':mh%d', $1;
+          $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        } elsif (m{^H([0-9]+):([0-9A-F]+)$}) {
+          my $c3 = $c1 . chr hex $2;
+          my $c2 = sprintf ':mh%d', $1;
+          $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        } else {
+          die $_;
+        }
+      }
     }
   }
 }
@@ -671,7 +792,7 @@ for (
     if (/^([0-9A-F]+) ([0-9A-F]+)\s*;\s*CJK COMPATIBILITY IDEOGRAPH-([0-9A-F]+);/) {
       my $c1 = (chr hex $1) . (chr hex $2);
       my $c2 = chr hex $3;
-      my $c3 = chr hex $3;
+      my $c3 = chr hex $1;
       $Data->{hans}->{$c2}->{$c1}->{'unicode:svs:cjk'} = 1;
       $Data->{hans}->{$c1}->{$c3}->{'unicode:svs:base'} = 1;
     }
@@ -950,10 +1071,116 @@ unicode:security:intentional
   }
 }
 
+my $Jouyou = {};
+{
+  my $path = $ThisPath->parent->child ('jp/jouyouh22-table.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $char (keys %{$json->{jouyou}}) {
+    my $in = $json->{jouyou}->{$char};
+    $Jouyou->{$char} = $in->{index};
+  }
+}
+{
+  my $path = $TempPath->child ('unihan-joyo.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^U\+([0-9A-F]+)\s+(kJoyoKanji)\s+2010$/) {
+      my $jouyou = $Jouyou->{chr hex $1};
+      my $c2 = sprintf ':jouyou-h22-%d', $jouyou;
+      $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kJoyoKanji)\s+U\+([0-9A-F]+)$/) {
+      my $c2 = chr hex $3;
+      $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2"} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+{
+  my $path = $TempPath->child ('unihan-jinmei.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^U\+([0-9A-F]+)\s+(kJinmeiyoKanji)\s+[0-9]+$/) {
+      my $c1 = chr hex $1;
+      my $c2 = sprintf ':jinmei-%s', $c1;
+      $Data->{hans}->{$c1}->{$c2}->{"unihan:$2"} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(kJinmeiyoKanji)\s+[0-9]+:U\+([0-9A-F]+)$/) {
+      my $c1 = chr hex $1;
+      my $c2 = sprintf ':jinmei-%s', $c1;
+      $Data->{hans}->{$c1}->{$c2}->{"unihan:$2"} = 1;
+      my $c3 = chr hex $3;
+      $Data->{hans}->{$c1}->{$c3}->{"unihan:$2:standard"} = 1;
+    } elsif (/\S/) {
+      die $_;
+    }
+  }
+}
+
+{
+  my $path = $TempPath->child ('cjk-symbols-map.txt');
+  my $file = $path->openr;
+  while (<$file>) {
+    if (/^\d+\tu(?:ni|)([0-9a-f]+)$/) {
+      my $code = hex $1;
+      next unless $code > 0x7F;
+      my $c1 = u_chr $code;
+      my $c2 = sprintf ':u-cjksym-%x', $code;
+      $Data->{glyphs}->{$c2}->{$c1}->{'manakai:implements'} = 1;
+    }
+  }
+
+  ## <https://github.com/unicode-org/cjk-symbols>
+  ## <https://www.unicode.org/charts/PDF/Unicode-14.0/#GlyphChanges>
+  for my $code (
+    0x2460..0x24FF,
+    0x2776..0x2793,
+    0x3001..0x3029, 0x3030..0x303D, 0x303F,
+    0x31C0..0x31E3,
+    0x31F0..0x31FF,
+    0x3200..0x321E, 0x3220..0x32FF,
+    0x3300..0x33FF,
+    0xFE10..0xFE19,
+    0xFE30..0xFE4F,
+    0xFE50..0xFE52, 0xFE54..0xFE66, 0xFE68..0xFE6B,
+    0xFF01..0xFF9F, 0xFFA1..0xFFBE, 0xFFC2..0xFFC7, 0xFFCA..0xFFCF,
+    0xFFD2..0xFFD7, 0xFFDA..0xFFDC, 0xFFE0..0xFFE6, 0xFFE8..0xFFEE,
+    0x1F100..0x1F1AD, 0x1F1E6..0x1F1FF,
+    0x1F200..0x1F202, 0x1F210..0x1F23B, 0x1F240..0x1F248,
+    0x1F250..0x1F251, 0x1F260..0x1F265,
+  ) {
+    my $c1 = u_chr $code;
+    my $c2 = sprintf ':u-cjksym-%x', $code;
+    $Data->{glyphs}->{$c1}->{$c2}->{'unicode14:glyph'} = 1;
+  }
+}
+
+{
+  my $path = $ThisPath->child ('ucsj-heisei.txt');
+  for (split /\n/, $path->slurp) {
+    my @line = split /\t/, $_;
+    my $c1 = chr hex $line[0];
+    my $c2 = ':' . $line[2];
+    next if $line[1] eq 'b';
+    my $rel_type = {
+      a => 'unicode:j:glyph',
+    }->{$line[1]} // die $line[1];
+    my $key = get_vkey $c1;
+    $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+  }
+}
+
+$Data->{hans}->{"\x{9FB9}"}->{"\x{20509}"}->{"iso10646:annexp:withoutposition"} = 1;
+$Data->{hans}->{"\x{9FBA}"}->{"\x{2099D}"}->{"iso10646:annexp:withoutposition"} = 1;
+$Data->{hans}->{"\x{9FBB}"}->{"\x{470C}"}->{"iso10646:annexp:withoutposition"} = 1;
+
 write_rel_data_sets
     $Data => $ThisPath, 'maps',
     [
-      qr/^[\x{0000}-\x{0FFF}]/,
+      qr/^[\x{0080}-\x{0FFF}]/,
       qr/^[\x{1000}-\x{1FFF}]/,
       qr/^[\x{2000}-\x{2FFF}]/,
       qr/^[\x{3000}-\x{37FF}]/,
@@ -970,7 +1197,7 @@ write_rel_data_sets
       qr/^[\x{8800}-\x{8FFF}]/,
       qr/^[\x{9000}-\x{97FF}]/,
       qr/^[\x{9800}-\x{9FFF}]/,
-      qr/^[\x{A000}-\x{FFFF}]/,
+      qr/^[\x{A000}-\x{DFFF}]/,
       qr/^[\x{10000}-\x{17FFF}]/,
       qr/^[\x{18000}-\x{1FFFF}]/,
       qr/^[\x{20000}-\x{21FFF}]/,
@@ -982,6 +1209,9 @@ write_rel_data_sets
       qr/^[\x{2C000}-\x{2DFFF}]/,
       qr/^[\x{2E000}-\x{2FFFF}]/,
       qr/^[\x{30000}-\x{3FFFF}]/,
+      qr/^[\x{E000}-\x{FFFF}]/,
+      qr/^:[Uu]/,
+      qr/^:/,
     ];
 
 ## License: Public Domain.

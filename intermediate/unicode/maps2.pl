@@ -65,25 +65,6 @@ my $Data = {};
     }
   }
 }
-{
-  my $path = $TempPath->child ('unihan-irg-kp.txt');
-  my $file = $path->openr;
-  while (<$file>) {
-    if (/^\s*#/) {
-      #
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KPSource)\s+KP0-([A-F][0-9A-F])([A-F][0-9A-F])$/) {
-      my $c2 = sprintf ':kps0-%d-%d', (hex $3) - 0xA0, (hex $4) - 0xA0;
-      my $c1 = u_chr hex $1;
-      my $key = get_vkey $c1;
-      $Data->{$key}->{$c1}->{$c2}->{"unihan:$2"} = 1;
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_KPSource)\s+KP1-([0-9A-F]{4})$/) {
-      my $c2 = sprintf ':kps1-%x', hex $3;
-      my $c1 = u_chr hex $1;
-      my $key = get_vkey $c1;
-      $Data->{$key}->{$c1}->{$c2}->{"unihan:$2"} = 1;
-    }
-  }
-}
 
 for (
   ['bestfit932.txt', 1, undef, ':u-ms'],
@@ -227,23 +208,6 @@ for (
   }
 }
 
-{
-  my $path = $TempPath->child ('unihan3.txt');
-  my $file = $path->openr;
-  while (<$file>) {
-    if (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+([01A])-([0-9A-F]{2})([0-9A-F]{2})$/) {
-      my $c1 = u_chr hex $1;
-      my $c2 = sprintf ':jis%d-%d-%d', 1 + hex $3, (hex $4) - 0x20, (hex $5) - 0x20;
-      if ($3 eq 'A') {
-        $c2 = sprintf ':IA%02d%02d', (hex $4) - 0x20, (hex $5) - 0x20;
-      }
-      my $rel_type = "unihan3.0:$2";
-      my $key = get_vkey $c1;
-      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
-    }
-  }
-}
-    
 if (0) {
   my $path = $TempPath->child ('JIS0212.txt');
   for (split /\x0D?\x0A/, $path->slurp) {

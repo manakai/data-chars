@@ -41,6 +41,52 @@ sub ucsvs ($) {
   }
 } # ucsvs
 
+my $TouyouS24;
+my $JouyouS56;
+{
+  my $sets = {};
+  my $path = $RootPath->child ('data/sets.json');
+  my $json = json_bytes2perl $path->slurp;
+  for (
+    ['$kanji:touyou-1949' => 'touyou_s24'],
+    ['$kanji:jouyou-1981' => 'jouyou_s56'],
+  ) {
+    my ($key1, $key2) = @$_;
+    my $chars = $json->{sets}->{$key1}->{chars};
+    $chars =~ s/^\[//;
+    $chars =~ s/\]$//;
+    while ($chars =~ s/^\\u([0-9A-F]{4}|\{[0-9A-F]+\})//) {
+      my $v1 = $1;
+      $v1 =~ s/^\{//;
+      $v1 =~ s/\}$//;
+      my $cc1 = hex $v1;
+      my $cc2 = $cc1;
+      if ($chars =~ s/^-\\u([0-9A-F]{4}|\{[0-9A-F]+\})//) {
+        my $v2 = $1;
+        $v2 =~ s/^\{//;
+        $v2 =~ s/\}$//;
+        $cc2 = hex $v2;
+      }
+      for ($cc1..$cc2) {
+        $sets->{$key2}->{chr $_} = 1;
+      }
+    }
+    die $chars if length $chars;
+  }
+  $TouyouS24 = $sets->{touyou_s24};
+  $JouyouS56 = $sets->{jouyou_s56};
+}
+
+my $Jouyou = {};
+{
+  my $path = $ThisPath->parent->child ('jp/jouyouh22-table.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $char (keys %{$json->{jouyou}}) {
+    my $in = $json->{jouyou}->{$char};
+    $Jouyou->{$char} = $in->{index};
+  }
+}
+
 my $Data = {};
 
 ## [MJ] <https://moji.or.jp/mojikiban/mjlist/>
@@ -56,8 +102,9 @@ my $Data = {};
       $Data->{$key}->{$c1}->{$c2}->{"mj:X0212"} = 1;
       ## JIS X 0212-1990 [MJ]
     }
+    my $c2;
     if ($data->{X0213} =~ /^([0-9]+)-([0-9]+)-([0-9]+)$/) {
-      my $c2 = sprintf ':jis%d-%d-%d', $1, $2, $3;
+      $c2 = sprintf ':jis%d-%d-%d', $1, $2, $3;
       my $suffix = '';
       unless ($data->{"X0213 包摂区分"} eq "0") {
         $suffix = ':' . $data->{"X0213 包摂区分"};
@@ -179,6 +226,29 @@ my $Data = {};
       $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
     } elsif (length $data->{大漢和}) {
       die $data->{大漢和};
+    }
+
+    if ($data->{"漢字施策"} eq "常用漢字") {
+      my $jouyou = $Jouyou->{$ucs // die $c1};
+      my $c4 = sprintf ':jouyou-h22-%d', $jouyou;
+      $Data->{$key}->{$c1}->{$c4}->{'mj:常用漢字'} = 1;
+      $Data->{$key}->{$c4}->{$c2}->{'jisx0213:2012:annex12'} = 1;
+      if (defined $ucs and $JouyouS56->{$ucs}) {
+        my $c3 = sprintf ':jouyou-s56-%s', $ucs;
+        $Data->{$key}->{$c3}->{$c2}->{'jish16:3.3:jisx0213'} = 1;
+        $Data->{$key}->{$c3}->{$c2}->{'jisx0208:2012:annex12'} = 1;
+      }
+      if (defined $ucs and $TouyouS24->{$ucs}) {
+        my $c3 = sprintf ':touyou-%s', $ucs;
+        $Data->{$key}->{$c2}->{$c3}->{'jisx0208:touyou'} = 1;
+      }
+    } elsif ($data->{"漢字施策"} eq "人名用漢字") {
+      my $c4 = sprintf ':jinmei-%s', $ucs // die $c1;
+      $Data->{$key}->{$c1}->{$c4}->{'mj:人名用漢字'} = 1;
+      if (defined $ucs and $JouyouS56->{$ucs}) {
+        my $c3 = sprintf ':jouyou-s56-%s', $ucs;
+        $Data->{$key}->{$c3}->{$c2}->{'jish16:3.3:jisx0213'} = 1;
+      }
     }
 
     if ($data->{備考} =~ m{^(MJ[0-9]+)・(MJ[0-9]+)は、戸籍統一文字において、同一字形であり、字義も同一の内容である。$}) {
@@ -377,6 +447,18 @@ my $ToMJOld = {};
     $data->{変換先}->{"JIS X 0213"} =~ m{^([0-9]+)-([0-9]+)-([0-9]+)$} or die $data->{変換先}->{"JIS X 0213"};
     my $jis = sprintf ':jis%d-%d-%d', $1, $2, $3;
     $Data->{$key}->{$c1}->{$jis}->{'mj:縮退マップから一意な選択'} = 1;
+  }
+}
+
+{
+  my $path = $ThisPath->child ('ipamjex.txt');
+  for (split /\n/, $path->slurp) {
+    next unless length;
+    my @line = split /\t/, $_;
+    my $c1 = ':' . $line[0];
+    my $c2 = ':' . uc $line[1];
+    my $key = get_vkey $c2;
+    $Data->{$key}->{$c2}->{$c1}->{'mj:ipaex'} = 1;
   }
 }
 

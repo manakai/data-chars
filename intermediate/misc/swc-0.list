@@ -151,11 +151,20 @@ manakai:equivalent
 -"仇"
 "敵"
 manakai:doukun
+-"今"
+"令"
+manakai:lookslike
+-"会"
+"金"
+manakai:lookslike
 -"体"
 "休"
 manakai:lookslike
 "身体"
 manakai:doukun
+-"何"
+"伺"
+manakai:lookslike
 -"卵"
 "玉子"
 manakai:doukun
@@ -163,6 +172,9 @@ manakai:doukun
 manakai:related
 "🥚"
 manakai:related
+-"新"
+"改"
+manakai:doukun
 -"日"
 "θ"
 manakai:lookslike
@@ -174,6 +186,9 @@ manakai:lookslike
 manakai:lookslike
 "陽"
 manakai:doukun
+-"會"
+"曾"
+manakai:lookslike
 -"本"
 "元"
 manakai:doukun
@@ -183,6 +198,11 @@ manakai:lookslike
 manakai:doukun
 "📕"
 manakai:related
+-"死"
+"タヒ"
+manakai:alt
+"氏"
+manakai:alt
 -"油"
 "⛽"
 manakai:related
@@ -212,6 +232,15 @@ manakai:related
 manakai:related
 "🧉"
 manakai:related
+-"𠀀"
+"ㄛ"
+manakai:related
+-"𠀀󠄁"
+"ㄜ"
+manakai:related
+-"𠀀󠄂"
+"ㄮ"
+manakai:related
 *kanas
 -":swc42"
 "り"
@@ -240,6 +269,8 @@ manakai:lookslike
 "乚"
 manakai:lookslike
 -"と"
+"ヒ"
+manakai:lookslike
 "歩"
 manakai:related
 -"ね"
@@ -413,6 +444,13 @@ manakai:related
 manakai:related
 "?!"
 manakai:related
+-"\u002B"
+"×"
+manakai:回転類似
+"†"
+manakai:lookslike
+"十"
+manakai:lookslike
 -":sub-○"
 "○"
 manakai:related

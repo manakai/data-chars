@@ -64,6 +64,10 @@ sub is_not_ivs_char ($) {
   return $_[0] !~ /^[\x{E0100}-\x{E01EF}]$/;
 }
 
+sub is_heisei_char ($) {
+  return $_[0] =~ /^:(?:J[A-FT]|FT|HG|I[ABP]|JMK|KS|TK|AR)[0-9A-F]+S*$/;
+} # is_heisei_char
+
 sub split_for_string_contains ($) {
   my $s = shift;
   if ($s =~ /^:/) {
@@ -157,15 +161,6 @@ sub is_han ($) {
     } else {
       return 1;
     }
-  } elsif ($char =~ /^:[\p{Ideographic_Description_Characters}]/) {
-    return 1;
-  }
-  
-  return 0;
-} # is_han
-
-=pod
-
   } elsif ($char =~ /^:aj([0-9]+)$/) {
     my $n = $1;
     if ($n == 658) { # shime
@@ -191,6 +186,17 @@ sub is_han ($) {
     if ((267 <= $n and $n <= 6067)) {
       return 1;
     }
+  } elsif (is_heisei_char $char) {
+    return 1;
+  } elsif ($char =~ /^:[\p{Ideographic_Description_Characters}]/) {
+    return 1;
+  }
+  
+  return 0;
+} # is_han
+
+=pod
+
   } elsif ($char =~ /^:ac([0-9]+)$/) {
     my $n = $1;
     if ((281 <= $n and $n <= 289) or
@@ -386,6 +392,7 @@ sub is_kana ($) {
     ':jisfusai17' => 1,
     ':jisfusai18' => 1,
     ':jisfusai1678' => 1,
+    ':UTC-03396' => 1,
   }->{$c};
 
   if ($c =~ /^[^:]./) {
@@ -676,6 +683,25 @@ sub split_ids ($) {
     return grep { not /^\p{Ideographic_Description_Characters}$/ } split //, $s;
   }
 } # split_ids
+
+sub glyph_to_char ($) {
+  my $g = shift;
+  if ($g =~ /^MJ/) {
+    return ":" . $g;
+  #} elsif ($g =~ /^aj([0-9]+)$/) {
+  #  return sprintf ':aj%d', $1;
+  } elsif ($g =~ /^shs([0-9]+)$/) {
+    return sprintf ':aj-shs-%d', $1;
+  } elsif ($g =~ /^g([0-9]+)$/) {
+    return sprintf ':swg%d', $1;
+  } elsif ($g =~ /^[a-z][0-9a-z_-]+$/) {
+    return ':gw-' . $g;
+  } elsif (is_heisei_char ':' . $g) {
+    return ':' . $g;
+  } else {
+    die "Bad glyph |$g|";
+  }
+} # glyph_to_char
 
 sub get_vkey ($) {
   my $c = shift;

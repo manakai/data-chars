@@ -239,6 +239,16 @@ for (
   }
 }
 
+my $Jouyou = {};
+{
+  my $path = $ThisPath->parent->child ('jp/jouyouh22-table.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $char (keys %{$json->{jouyou}}) {
+    my $in = $json->{jouyou}->{$char};
+    $Jouyou->{$char} = $in->{index};
+  }
+}
+
 {
   my $path = $TempPath->child ('aj17-kanji.txt');
   for (split /\x0D?\x0A/, $path->slurp) {
@@ -255,7 +265,7 @@ for (
         [5, 1, 'jp83'],
         [6, 1, 'expt'],
         [9, 2, 'jisx0212'],
-        #[14, 1, 'kjis'],
+        [14, 1, 'kjis', ':jis-kjis-'],
         [15, 1, 'ext'],
         [16, 1, 'add'],
         [17, 1, 'jis78'],
@@ -263,15 +273,24 @@ for (
         my $v = $s[$_->[0]-1];
         my $p = $_->[1];
         my $t = $_->[2];
+        my $prefix = $_->[3];
         if ($v eq '*') {
           #
         } elsif ($v =~ /^([0-9]+)-([0-9]+)$/) {
-          my $jis = sprintf '%d-%d-%d', $p, $1, $2;
+          my $jis = sprintf '%s%d-%d-%d',
+              $prefix // ':jis',
+              $p, $1, $2;
           my $c1 = ":aj$cid";
           my $key = 'variants';
           $key = 'hans' if $IsHan->{$c1};
           $key = 'kchars' if $IsKChar->{$c1};
-          $Data->{$key}->{$c1}->{":jis$jis"}->{"adobe:$t"} = 1;
+          $Data->{$key}->{$c1}->{$jis}->{"adobe:$t"} = 1;
+          if (defined $prefix) {
+            my $jis0 = sprintf '%s%d-%d-%d',
+                ':jis',
+                $p, $1, $2;
+            $Data->{codes}->{$jis0}->{$jis}->{'manakai:private'} = 1;
+          }
         } else {
           die $v;
         }
@@ -292,6 +311,36 @@ for (
           die $v;
         }
       }
+      
+      for (
+        [13, 'ibm'],
+      ) {
+        my $v = $s[$_->[0]-1];
+        my $t = $_->[1];
+        if ($v eq '*') {
+          #
+        } elsif ($v =~ /^0x([0-9A-F]{2})([0-9A-F]{2})$/) {
+          my $jis = sjis_char ':jis-dos-', hex $1, hex $2;
+          $Data->{hans}->{":aj$cid"}->{$jis}->{"adobe:$t"} = 1;
+        } else {
+          die $v;
+        }
+      }
+
+      if ($s[10-1] eq '*') {
+        #
+      } elsif ($s[10-1] =~ /^Joyo$/) {
+        [grep { not /^U\+2...$/ } split /:/, $s[19-1]]->[0] =~ /^U\+([0-9A-F]+)$/ or die $s[19-1];
+        my $jouyou = $Jouyou->{chr hex $1} or die $s[19-1];
+        my $c2 = sprintf ':jouyou-h22-%d', $jouyou;
+        $Data->{hans}->{':aj'.$cid}->{$c2}->{"adobe:joyo"} = 1;
+      } elsif ($s[10-1] =~ /^Jinmei$/) {
+        [grep { not /^U\+2...$/ } split /:/, $s[19-1]]->[0] =~ /^U\+([0-9A-F]+)$/ or die $s[19-1];
+        my $c2 = sprintf ':jinmei-%s', chr hex $1 or die $s[19-1];
+        $Data->{hans}->{':aj'.$cid}->{$c2}->{"adobe:jinmei"} = 1;
+      } else {
+        die $s[10-1];
+      }
 
       if ($s[11-1] eq '*') {
         #
@@ -301,6 +350,14 @@ for (
         die $s[11-1];
       }
 
+      if ($s[12-1] eq '*') {
+        #
+      } elsif ($s[12-1] =~ /^([0-9]+)$/) {
+        $Data->{hans}->{':aj'.$cid}->{sprintf ":hyougai%d", $1}->{"adobe:nlc"} = 1;
+      } else {
+        die $s[12-1];
+      }
+
       my $vss = $s[20-1];
       for (split /:/, $vss) {
         if (m{^<U\+([0-9A-F]+),U\+([0-9A-F]+)>$}) {
@@ -308,6 +365,46 @@ for (
         } else {
           die $_;
         }
+      }
+    }
+  }
+}
+
+{
+  my $path = $TempPath->child ('jisx0212-jp90.txt');
+  for (split /\x0D?\x0A/, $path->slurp) {
+    if (/^#/) {
+      #
+    } elsif (/^KuTen/) {
+      #
+    } elsif (/\S/) {
+      my @s = split /\t/, $_;
+
+      my $u = $s[3];
+      $u =~ /^U\+([0-9A-F]+)$/ or die $u;
+      my $c0 = chr hex $1;
+      my $key = get_vkey $c0;
+
+      my $aj1 = $s[4];
+      if ($aj1 =~ /^\d+ \((\d+)\)$/) {
+        $aj1 = $1;
+      }
+      my $aj2 = $s[5];
+
+      my $c1 = sprintf ':aj%d', $aj1;
+      my $c2 = sprintf ':aj2-%d', $aj2;
+      $Data->{$key}->{$c2}->{$c1}->{'adobe:aj1'} = 1;
+
+      $s[0] =~ /^([0-9][0-9])([0-9][0-9])$/ or die $s[0];
+      my $c4 = sprintf ':jis2-%d-%d', $1, $2;
+      if ($1 < 16) {
+        my $c3 = sprintf ':jis1-%d-%d', $1, $2;
+        $Data->{codes}->{$c3}->{$c4}->{'manakai:private'} = 1;
+        my $c5 = sprintf ':jis-heisei-2-%d-%d', $1, $2;
+        $Data->{$key}->{$c2}->{$c5}->{'manakai:hasglyph'} = 1;
+      } else {
+        my $c5 = sprintf ':JB%02d%02d', $1, $2;
+        $Data->{$key}->{$c2}->{$c5}->{'manakai:hasglyph'} = 1;
       }
     }
   }
@@ -873,14 +970,38 @@ for (
   }
 }
 
+{
+  my $path = $ThisPath->child ('ivd-fallback.txt');
+  for (split /\n/, $path->slurp) {
+    my @line = split /\t/, $_, -1;
+    if (@line == 3) {
+      my $c1 = sprintf ':aj%d', $line[0];
+      my $c2 = glyph_to_char $line[1];
+      my $key = get_vkey $c1;
+      my $rel_type = $line[2] ? 'manakai:similarglyph' : 'manakai:equivglyph';
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif (@line == 4) {
+      my $c1 = (chr hex $line[0]) . (chr hex $line[1]);
+      my $c2 = glyph_to_char $line[2];
+      my $key = get_vkey $c1;
+      my $rel_type = $line[3] ? 'manakai:similarglyph' : 'manakai:equivglyph';
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    }
+  }
+}
+
 write_rel_data_sets
     $Data => $ThisPath, 'maps',
     [
-      qr/^:aj1[0-4]/,
+      qr/^:aj1[01]/,
+      qr/^:aj1[23]/,
+      qr/^:aj1[45]/,
+      qr/^:aj1[67]/,
       qr/^:aj1/,
       qr/^:aj2-/,
       qr/^:aj2/,
-      qr/^:aj[3-6]/,
+      qr/^:aj[34]/,
+      qr/^:aj[56]/,
       qr/^:aj/,
       qr/^:ak1-/,
       qr/^:ak/,

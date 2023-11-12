@@ -1,0 +1,5724 @@
+[
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "唖",
+      "no" : 1,
+      "onkun" : "ア"
+   },
+   {
+      "inhyou" : "蛙",
+      "no" : 2,
+      "onkun" : "ア"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 3,
+      "onkun" : "ア"
+   },
+   {
+      "inhyou" : "埃",
+      "no" : 4,
+      "onkun" : "アイ"
+   },
+   {
+      "inhyou" : "挨",
+      "no" : 5,
+      "onkun" : "アイ"
+   },
+   {
+      "inhyou" : "曖",
+      "no" : 6,
+      "onkun" : "アイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 7,
+      "onkun" : "アイ"
+   },
+   {
+      "inhyou" : "軋",
+      "no" : 8,
+      "onkun" : "アツ"
+   },
+   {
+      "inhyou" : "斡",
+      "no" : 9,
+      "onkun" : "アツ"
+   },
+   {
+      "inhyou" : "按",
+      "no" : 10,
+      "onkun" : "アン"
+   },
+   {
+      "inhyou" : "庵",
+      "no" : 11,
+      "onkun" : "アン"
+   },
+   {
+      "inhyou" : "鞍",
+      "no" : 12,
+      "onkun" : "アン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "闇",
+      "no" : 13,
+      "onkun" : "アン"
+   },
+   {
+      "inhyou" : "已",
+      "no" : 14,
+      "onkun" : "イ"
+   },
+   {
+      "inhyou" : "夷",
+      "no" : 15,
+      "onkun" : "イ"
+   },
+   {
+      "inhyou" : "畏",
+      "no" : 16,
+      "onkun" : "イ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "韋",
+      "no" : 17,
+      "onkun" : "イ"
+   },
+   {
+      "inhyou" : "帷",
+      "no" : 18,
+      "onkun" : "イ"
+   },
+   {
+      "inhyou" : "萎",
+      "no" : 19,
+      "onkun" : "イ"
+   },
+   {
+      "inhyou" : "椅",
+      "no" : 20,
+      "onkun" : "イ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "葦",
+      "no" : 21,
+      "onkun" : "イ"
+   },
+   {
+      "inhyou" : "彙",
+      "no" : 22,
+      "onkun" : "イ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 23,
+      "onkun" : "イ"
+   },
+   {
+      "inhyou" : "謂",
+      "no" : 24,
+      "onkun" : "イ"
+   },
+   {
+      "inhyou" : "閾",
+      "no" : 25,
+      "onkun" : "イキ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 26,
+      "onkun" : "イツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 27,
+      "onkun" : "いわし"
+   },
+   {
+      "inhyou" : "尹",
+      "no" : 28,
+      "onkun" : "イン"
+   },
+   {
+      "inhyou" : "咽",
+      "no" : 29,
+      "onkun" : "イン"
+   },
+   {
+      "inhyou" : "殷",
+      "no" : 30,
+      "onkun" : "イン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 31,
+      "onkun" : "イン"
+   },
+   {
+      "inhyou" : "隕",
+      "no" : 32,
+      "onkun" : "イン"
+   },
+   {
+      "inhyou" : "蔭",
+      "no" : 33,
+      "onkun" : "イン"
+   },
+   {
+      "inhyou" : "于",
+      "no" : 34,
+      "onkun" : "ウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 35,
+      "onkun" : "ウ"
+   },
+   {
+      "inhyou" : "盂",
+      "no" : 36,
+      "onkun" : "ウ"
+   },
+   {
+      "inhyou" : "烏",
+      "no" : 37,
+      "onkun" : "ウ"
+   },
+   {
+      "inhyou" : "鬱",
+      "no" : 38,
+      "onkun" : "ウツ"
+   },
+   {
+      "inhyou" : "云",
+      "no" : 39,
+      "onkun" : "ウン"
+   },
+   {
+      "inhyou" : "暈",
+      "no" : 40,
+      "onkun" : "ウン"
+   },
+   {
+      "inhyou" : "穢",
+      "no" : 41,
+      "onkun" : "エ"
+   },
+   {
+      "inhyou" : "曳",
+      "no" : 42,
+      "onkun" : "エイ"
+   },
+   {
+      "inhyou" : "洩",
+      "no" : 43,
+      "onkun" : "エイ"
+   },
+   {
+      "inhyou" : "裔",
+      "no" : 44,
+      "onkun" : "エイ"
+   },
+   {
+      "inhyou" : "穎",
+      "kankan" : "頴",
+      "no" : 45,
+      "onkun" : "エイ"
+   },
+   {
+      "inhyou" : "嬰",
+      "no" : 46,
+      "onkun" : "エイ"
+   },
+   {
+      "inhyou" : "翳",
+      "no" : 47,
+      "onkun" : "エイ"
+   },
+   {
+      "inhyou" : "腋",
+      "no" : 48,
+      "onkun" : "エキ"
+   },
+   {
+      "inhyou" : "曰",
+      "no" : 49,
+      "onkun" : "エツ"
+   },
+   {
+      "inhyou" : "奄",
+      "no" : 50,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "宛",
+      "no" : 51,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "怨",
+      "no" : 52,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "俺",
+      "no" : 53,
+      "onkun" : "エン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 54,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "袁",
+      "no" : 55,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "婉",
+      "no" : 56,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "焉",
+      "no" : 57,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "堰",
+      "no" : 58,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "淵",
+      "no" : 59,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 60,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 61,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "厭",
+      "no" : 62,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "鳶",
+      "no" : 63,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "燕",
+      "no" : 64,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "閻",
+      "no" : 65,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "嚥",
+      "no" : 66,
+      "onkun" : "エン"
+   },
+   {
+      "inhyou" : "嗚",
+      "no" : 67,
+      "onkun" : "オ"
+   },
+   {
+      "inhyou" : "凰",
+      "no" : 68,
+      "onkun" : "オウ"
+   },
+   {
+      "inhyou" : "嘔",
+      "no" : 69,
+      "onkun" : "オウ"
+   },
+   {
+      "inhyou" : "鴨",
+      "no" : 70,
+      "onkun" : "オウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 71,
+      "onkun" : "オウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 72,
+      "onkun" : "オウ"
+   },
+   {
+      "inhyou" : "謳",
+      "no" : 73,
+      "onkun" : "オウ"
+   },
+   {
+      "inhyou" : "鶯",
+      "no" : 74,
+      "onkun" : "オウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "鴎",
+      "no" : 75,
+      "onkun" : "オウ"
+   },
+   {
+      "inhyou" : "鸚",
+      "no" : 76,
+      "onkun" : "オウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "臆",
+      "no" : 77,
+      "onkun" : "オク"
+   },
+   {
+      "inhyou" : "俤",
+      "no" : 78,
+      "onkun" : "おもかげ"
+   },
+   {
+      "inhyou" : "瓜",
+      "no" : 79,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "呵",
+      "no" : 80,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "苛",
+      "no" : 81,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "珂",
+      "no" : 82,
+      "onkun" : "カ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 83,
+      "onkun" : "カ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "訛",
+      "no" : 84,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "訶",
+      "no" : 85,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "跏",
+      "no" : 86,
+      "onkun" : "カ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "嘩",
+      "no" : 87,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "瑕",
+      "no" : 88,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "榎",
+      "no" : 89,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "窩",
+      "no" : 90,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "蝦",
+      "no" : 91,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "蝸",
+      "no" : 92,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "鍋",
+      "no" : 93,
+      "onkun" : "カ"
+   },
+   {
+      "inhyou" : "顆",
+      "no" : 94,
+      "onkun" : "カ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 95,
+      "onkun" : "ガ"
+   },
+   {
+      "inhyou" : "瓦",
+      "no" : 96,
+      "onkun" : "ガ"
+   },
+   {
+      "inhyou" : "臥",
+      "no" : 97,
+      "onkun" : "ガ"
+   },
+   {
+      "inhyou" : "俄",
+      "no" : 98,
+      "onkun" : "ガ"
+   },
+   {
+      "inhyou" : "峨",
+      "no" : 99,
+      "onkun" : "ガ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 100,
+      "onkun" : "ガ"
+   },
+   {
+      "inhyou" : "蛾",
+      "no" : 101,
+      "onkun" : "ガ"
+   },
+   {
+      "inhyou" : "衙",
+      "no" : 102,
+      "onkun" : "ガ"
+   },
+   {
+      "inhyou" : "駕",
+      "no" : 103,
+      "onkun" : "ガ"
+   },
+   {
+      "inhyou" : "芥",
+      "no" : 104,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : "乖",
+      "no" : 105,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 106,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : "徊",
+      "no" : 107,
+      "onkun" : "カイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 108,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 109,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : "堺",
+      "no" : 110,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : "潰",
+      "no" : 111,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : "鞋",
+      "no" : 112,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : "諧",
+      "no" : 113,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : "檜",
+      "no" : 114,
+      "onkun" : "カイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 115,
+      "onkun" : "カイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "咳",
+      "no" : 116,
+      "onkun" : "ガイ"
+   },
+   {
+      "inhyou" : "崖",
+      "no" : 117,
+      "onkun" : "ガイ"
+   },
+   {
+      "inhyou" : "蓋",
+      "no" : 118,
+      "onkun" : "ガイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "漑",
+      "no" : 119,
+      "onkun" : "ガイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "骸",
+      "no" : 120,
+      "onkun" : "ガイ"
+   },
+   {
+      "inhyou" : "鎧",
+      "no" : 121,
+      "onkun" : "ガイ"
+   },
+   {
+      "inhyou" : "喀",
+      "no" : 122,
+      "onkun" : "カク"
+   },
+   {
+      "inhyou" : "廓",
+      "no" : 123,
+      "onkun" : "カク"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 124,
+      "onkun" : "カク"
+   },
+   {
+      "inhyou" : "攪",
+      "kankan" : "撹",
+      "no" : 125,
+      "onkun" : "カク"
+   },
+   {
+      "inhyou" : "愕",
+      "no" : 126,
+      "onkun" : "ガク"
+   },
+   {
+      "inhyou" : "萼",
+      "no" : 127,
+      "onkun" : "ガク"
+   },
+   {
+      "inhyou" : "諤",
+      "no" : 128,
+      "onkun" : "ガク"
+   },
+   {
+      "inhyou" : "顎",
+      "no" : 129,
+      "onkun" : "ガク"
+   },
+   {
+      "inhyou" : "鰐",
+      "no" : 130,
+      "onkun" : "ガク"
+   },
+   {
+      "inhyou" : "樫",
+      "no" : 131,
+      "onkun" : "かし"
+   },
+   {
+      "inhyou" : "絣",
+      "no" : 132,
+      "onkun" : "かすり"
+   },
+   {
+      "inhyou" : "筈",
+      "no" : 133,
+      "onkun" : "カツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 134,
+      "onkun" : "カツ"
+   },
+   {
+      "inhyou" : "闊",
+      "no" : 135,
+      "onkun" : "カツ"
+   },
+   {
+      "inhyou" : "鰹",
+      "no" : 136,
+      "onkun" : "かつお"
+   },
+   {
+      "inhyou" : "萱",
+      "no" : 137,
+      "onkun" : "かや"
+   },
+   {
+      "inhyou" : "奸",
+      "no" : 138,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "串",
+      "no" : 139,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "旱",
+      "no" : 140,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "函",
+      "no" : 141,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "咸",
+      "no" : 142,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "姦",
+      "no" : 143,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "宦",
+      "no" : 144,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "柑",
+      "no" : 145,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "竿",
+      "no" : 146,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "悍",
+      "no" : 147,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "桓",
+      "no" : 148,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "涵",
+      "no" : 149,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "菅",
+      "no" : 150,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "嵌",
+      "no" : 151,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "鉗",
+      "no" : 152,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "澗",
+      "no" : 153,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 154,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "諫",
+      "no" : 155,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "瞰",
+      "no" : 156,
+      "onkun" : "カン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "韓",
+      "no" : 157,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "檻",
+      "no" : 158,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "灌",
+      "no" : 159,
+      "onkun" : "カン"
+   },
+   {
+      "inhyou" : "玩",
+      "no" : 160,
+      "onkun" : "ガン"
+   },
+   {
+      "inhyou" : "雁",
+      "no" : 161,
+      "onkun" : "ガン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 162,
+      "onkun" : "ガン"
+   },
+   {
+      "inhyou" : "頷",
+      "no" : 163,
+      "onkun" : "ガン"
+   },
+   {
+      "inhyou" : "癌",
+      "no" : 164,
+      "onkun" : "ガン"
+   },
+   {
+      "inhyou" : "贋",
+      "no" : 165,
+      "onkun" : "ガン"
+   },
+   {
+      "inhyou" : "几",
+      "no" : 166,
+      "onkun" : "キ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "卉",
+      "kobetsu_designsa" : {
+         "font" : 1
+      },
+      "no" : 167,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "其",
+      "no" : 168,
+      "onkun" : "キ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 169,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "耆",
+      "no" : 170,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "埼",
+      "no" : 171,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "悸",
+      "no" : 172,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "揆",
+      "no" : 173,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "毀",
+      "no" : 174,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "箕",
+      "no" : 175,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "畿",
+      "no" : 176,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "窺",
+      "no" : 177,
+      "onkun" : "キ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "諱",
+      "no" : 178,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 179,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "櫃",
+      "no" : 180,
+      "onkun" : "キ"
+   },
+   {
+      "inhyou" : "妓",
+      "no" : 181,
+      "onkun" : "ギ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 182,
+      "onkun" : "ギ"
+   },
+   {
+      "inhyou" : "魏",
+      "no" : 183,
+      "onkun" : "ギ"
+   },
+   {
+      "inhyou" : "蟻",
+      "no" : 184,
+      "onkun" : "ギ"
+   },
+   {
+      "inhyou" : "掬",
+      "no" : 185,
+      "onkun" : "キク"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "麹",
+      "no" : 186,
+      "onkun" : "キク"
+   },
+   {
+      "inhyou" : "吃",
+      "no" : 187,
+      "onkun" : "キツ"
+   },
+   {
+      "inhyou" : "屹",
+      "no" : 188,
+      "onkun" : "キツ"
+   },
+   {
+      "inhyou" : "拮",
+      "no" : 189,
+      "onkun" : "キツ"
+   },
+   {
+      "inhyou" : "謔",
+      "no" : 190,
+      "onkun" : "ギャク"
+   },
+   {
+      "inhyou" : "仇",
+      "no" : 191,
+      "onkun" : "キュウ"
+   },
+   {
+      "inhyou" : "臼",
+      "no" : 192,
+      "onkun" : "キュウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 193,
+      "onkun" : "キュウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 194,
+      "onkun" : "キュウ"
+   },
+   {
+      "inhyou" : "咎",
+      "no" : 195,
+      "onkun" : "キュウ"
+   },
+   {
+      "inhyou" : "邱",
+      "no" : 196,
+      "onkun" : "キュウ"
+   },
+   {
+      "inhyou" : "柩",
+      "no" : 197,
+      "onkun" : "キュウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 198,
+      "onkun" : "キュウ"
+   },
+   {
+      "inhyou" : "躬",
+      "no" : 199,
+      "onkun" : "キュウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 200,
+      "onkun" : "キュウ"
+   },
+   {
+      "inhyou" : "嗅",
+      "no" : 201,
+      "onkun" : "キュウ"
+   },
+   {
+      "inhyou" : "舅",
+      "no" : 202,
+      "onkun" : "キュウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "炬",
+      "no" : 203,
+      "onkun" : "キョ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "渠",
+      "no" : 204,
+      "onkun" : "キョ"
+   },
+   {
+      "inhyou" : "裾",
+      "no" : 205,
+      "onkun" : "キョ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 206,
+      "onkun" : "キョ"
+   },
+   {
+      "inhyou" : "墟",
+      "no" : 207,
+      "onkun" : "キョ"
+   },
+   {
+      "inhyou" : "鋸",
+      "no" : 208,
+      "onkun" : "キョ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "遽",
+      "no" : 209,
+      "onkun" : "キョ"
+   },
+   {
+      "inhyou" : "欅",
+      "no" : 210,
+      "onkun" : "キョ"
+   },
+   {
+      "inhyou" : "匈",
+      "no" : 211,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "怯",
+      "no" : 212,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 213,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "脇",
+      "no" : 214,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "莢",
+      "no" : 215,
+      "onkun" : "キョウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "竟",
+      "no" : 216,
+      "onkun" : "キョウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 217,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "僑",
+      "no" : 218,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "嬌",
+      "no" : 219,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "蕎",
+      "no" : 220,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "鋏",
+      "no" : 221,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 222,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "橿",
+      "no" : 223,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : "疆",
+      "no" : 224,
+      "onkun" : "キョウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 225,
+      "onkun" : "キョウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 226,
+      "onkun" : "キョク"
+   },
+   {
+      "inhyou" : "髷",
+      "no" : 227,
+      "onkun" : "キョク"
+   },
+   {
+      "inhyou" : "巾",
+      "no" : 228,
+      "onkun" : "キン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 229,
+      "onkun" : "キン"
+   },
+   {
+      "inhyou" : "禽",
+      "no" : 230,
+      "onkun" : "キン"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "饉",
+      "no" : 231,
+      "onkun" : "キン"
+   },
+   {
+      "inhyou" : "狗",
+      "no" : 232,
+      "onkun" : "ク"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "惧",
+      "no" : 233,
+      "onkun" : "ク"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 234,
+      "onkun" : "ク"
+   },
+   {
+      "bikou_betsuji_atsukai" : 233,
+      "inhyou" : "懼",
+      "no" : 235,
+      "onkun" : "ク"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 236,
+      "onkun" : "グ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 237,
+      "onkun" : "くう"
+   },
+   {
+      "inhyou" : "寓",
+      "no" : 238,
+      "onkun" : "グウ"
+   },
+   {
+      "inhyou" : "窟",
+      "no" : 239,
+      "onkun" : "クツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 240,
+      "onkun" : "くめ"
+   },
+   {
+      "inhyou" : "偈",
+      "no" : 241,
+      "onkun" : "ゲ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "荊",
+      "kobetsu_designsa" : {
+         "font" : 1
+      },
+      "no" : 242,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "珪",
+      "no" : 243,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "畦",
+      "no" : 244,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "脛",
+      "no" : 245,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "頃",
+      "no" : 246,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "痙",
+      "no" : 247,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "詣",
+      "no" : 248,
+      "onkun" : "ケイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "禊",
+      "no" : 249,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "閨",
+      "no" : 250,
+      "onkun" : "ケイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "稽",
+      "kobetsu_designsa" : {
+         "font" : 1
+      },
+      "no" : 251,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "頸",
+      "no" : 252,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "髻",
+      "no" : 253,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "蹊",
+      "no" : 254,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "鮭",
+      "no" : 255,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 256,
+      "onkun" : "ケイ"
+   },
+   {
+      "inhyou" : "睨",
+      "no" : 257,
+      "onkun" : "ゲイ"
+   },
+   {
+      "inhyou" : "戟",
+      "no" : 258,
+      "onkun" : "ゲキ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 259,
+      "onkun" : "ゲキ"
+   },
+   {
+      "inhyou" : "抉",
+      "no" : 260,
+      "onkun" : "ケツ"
+   },
+   {
+      "inhyou" : "頁",
+      "no" : 261,
+      "onkun" : "ケツ"
+   },
+   {
+      "inhyou" : "訣",
+      "no" : 262,
+      "onkun" : "ケツ"
+   },
+   {
+      "inhyou" : "蕨",
+      "no" : 263,
+      "onkun" : "ケツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 264,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 265,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 266,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 267,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 268,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : "喧",
+      "no" : 269,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : "硯",
+      "no" : 270,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 271,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 272,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : "瞼",
+      "no" : 273,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "鹸",
+      "no" : 274,
+      "onkun" : "ケン"
+   },
+   {
+      "inhyou" : "呟",
+      "no" : 275,
+      "onkun" : "ゲン"
+   },
+   {
+      "inhyou" : "眩",
+      "no" : 276,
+      "onkun" : "ゲン"
+   },
+   {
+      "inhyou" : "舷",
+      "no" : 277,
+      "onkun" : "ゲン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 278,
+      "onkun" : "ゲン"
+   },
+   {
+      "inhyou" : "乎",
+      "no" : 279,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "姑",
+      "no" : 280,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "狐",
+      "no" : 281,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "股",
+      "no" : 282,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "涸",
+      "no" : 283,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "菰",
+      "no" : 284,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "袴",
+      "no" : 285,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "壺",
+      "no" : 286,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "跨",
+      "no" : 287,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "糊",
+      "no" : 288,
+      "onkun" : "コ"
+   },
+   {
+      "inhyou" : "醐",
+      "no" : 289,
+      "onkun" : "ゴ"
+   },
+   {
+      "inhyou" : "齬",
+      "no" : 290,
+      "onkun" : "ゴ"
+   },
+   {
+      "inhyou" : "亢",
+      "no" : 291,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "勾",
+      "no" : 292,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "叩",
+      "no" : 293,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "尻",
+      "no" : 294,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "吼",
+      "no" : 295,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "肛",
+      "no" : 296,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "岡",
+      "no" : 297,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "庚",
+      "no" : 298,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "杭",
+      "no" : 299,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "肴",
+      "no" : 300,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 301,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "垢",
+      "no" : 302,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 303,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "恍",
+      "no" : 304,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "恰",
+      "no" : 305,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 306,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "桁",
+      "no" : 307,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "胱",
+      "no" : 308,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "崗",
+      "no" : 309,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 310,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "喉",
+      "no" : 311,
+      "onkun" : "コウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "腔",
+      "kobetsu_designsa" : {
+         "font" : 1
+      },
+      "no" : 312,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "蛤",
+      "no" : 313,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "幌",
+      "no" : 314,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "煌",
+      "no" : 315,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "鉤",
+      "no" : 316,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "敲",
+      "no" : 317,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "睾",
+      "no" : 318,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 319,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "閤",
+      "no" : 320,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "膠",
+      "no" : 321,
+      "onkun" : "コウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 322,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "縞",
+      "no" : 323,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "薨",
+      "no" : 324,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "糠",
+      "no" : 325,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "藁",
+      "no" : 326,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 327,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "壙",
+      "no" : 328,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "曠",
+      "no" : 329,
+      "onkun" : "コウ"
+   },
+   {
+      "inhyou" : "劫",
+      "no" : 330,
+      "onkun" : "ゴウ"
+   },
+   {
+      "inhyou" : "毫",
+      "no" : 331,
+      "onkun" : "ゴウ"
+   },
+   {
+      "inhyou" : "傲",
+      "no" : 332,
+      "onkun" : "ゴウ"
+   },
+   {
+      "inhyou" : "壕",
+      "no" : 333,
+      "onkun" : "ゴウ"
+   },
+   {
+      "inhyou" : "濠",
+      "no" : 334,
+      "onkun" : "ゴウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "噛",
+      "no" : 335,
+      "onkun" : "ゴウ"
+   },
+   {
+      "inhyou" : "轟",
+      "no" : 336,
+      "onkun" : "ゴウ"
+   },
+   {
+      "inhyou" : "剋",
+      "no" : 337,
+      "onkun" : "コク"
+   },
+   {
+      "inhyou" : "哭",
+      "no" : 338,
+      "onkun" : "コク"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 339,
+      "onkun" : "コク"
+   },
+   {
+      "inhyou" : "乞",
+      "no" : 340,
+      "onkun" : "コツ"
+   },
+   {
+      "inhyou" : "忽",
+      "no" : 341,
+      "onkun" : "コツ"
+   },
+   {
+      "inhyou" : "惚",
+      "no" : 342,
+      "onkun" : "コツ"
+   },
+   {
+      "inhyou" : "昏",
+      "no" : 343,
+      "onkun" : "コン"
+   },
+   {
+      "inhyou" : "痕",
+      "no" : 344,
+      "onkun" : "コン"
+   },
+   {
+      "inhyou" : "渾",
+      "no" : 345,
+      "onkun" : "コン"
+   },
+   {
+      "inhyou" : "褌",
+      "no" : 346,
+      "onkun" : "コン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 347,
+      "onkun" : "サ"
+   },
+   {
+      "inhyou" : "些",
+      "no" : 348,
+      "onkun" : "サ"
+   },
+   {
+      "inhyou" : "嗟",
+      "no" : 349,
+      "onkun" : "サ"
+   },
+   {
+      "inhyou" : "蓑",
+      "no" : 350,
+      "onkun" : "サ"
+   },
+   {
+      "inhyou" : "磋",
+      "no" : 351,
+      "onkun" : "サ"
+   },
+   {
+      "inhyou" : "坐",
+      "no" : 352,
+      "onkun" : "ザ"
+   },
+   {
+      "inhyou" : "挫",
+      "no" : 353,
+      "onkun" : "ザ"
+   },
+   {
+      "inhyou" : "晒",
+      "no" : 354,
+      "onkun" : "サイ"
+   },
+   {
+      "inhyou" : "柴",
+      "no" : 355,
+      "onkun" : "サイ"
+   },
+   {
+      "inhyou" : "砦",
+      "no" : 356,
+      "onkun" : "サイ"
+   },
+   {
+      "inhyou" : "犀",
+      "no" : 357,
+      "onkun" : "サイ"
+   },
+   {
+      "inhyou" : "賽",
+      "no" : 358,
+      "onkun" : "サイ"
+   },
+   {
+      "inhyou" : "鰓",
+      "no" : 359,
+      "onkun" : "サイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 360,
+      "onkun" : "さかき"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "柵",
+      "no" : 361,
+      "onkun" : "サク"
+   },
+   {
+      "inhyou" : "炸",
+      "no" : 362,
+      "onkun" : "サク"
+   },
+   {
+      "inhyou" : "窄",
+      "no" : 363,
+      "onkun" : "サク"
+   },
+   {
+      "inhyou" : "簀",
+      "no" : 364,
+      "onkun" : "サク"
+   },
+   {
+      "inhyou" : "刹",
+      "no" : 365,
+      "onkun" : "サツ"
+   },
+   {
+      "inhyou" : "拶",
+      "no" : 366,
+      "onkun" : "サツ"
+   },
+   {
+      "inhyou" : "紮",
+      "no" : 367,
+      "onkun" : "サツ"
+   },
+   {
+      "inhyou" : "撒",
+      "no" : 368,
+      "onkun" : "サツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 369,
+      "onkun" : "サツ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "珊",
+      "no" : 370,
+      "onkun" : "サン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 371,
+      "onkun" : "サン"
+   },
+   {
+      "inhyou" : "纂",
+      "no" : 372,
+      "onkun" : "サン"
+   },
+   {
+      "inhyou" : "霰",
+      "no" : 373,
+      "onkun" : "サン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 374,
+      "onkun" : "サン"
+   },
+   {
+      "inhyou" : "讃",
+      "no" : 375,
+      "onkun" : "サン"
+   },
+   {
+      "inhyou" : "斬",
+      "no" : 376,
+      "onkun" : "ザン"
+   },
+   {
+      "inhyou" : "懺",
+      "no" : 377,
+      "onkun" : "ザン"
+   },
+   {
+      "inhyou" : "仔",
+      "no" : 378,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "弛",
+      "no" : 379,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "此",
+      "no" : 380,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "址",
+      "no" : 381,
+      "onkun" : "シ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "祀",
+      "no" : 382,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "屍",
+      "no" : 383,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "屎",
+      "no" : 384,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "柿",
+      "no" : 385,
+      "onkun" : "シ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 386,
+      "onkun" : "シ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "恣",
+      "no" : 387,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "砥",
+      "no" : 388,
+      "onkun" : "シ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "祠",
+      "no" : 389,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "翅",
+      "no" : 390,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "舐",
+      "no" : 391,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "疵",
+      "no" : 392,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "趾",
+      "no" : 393,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "斯",
+      "no" : 394,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "覗",
+      "no" : 395,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "嗜",
+      "no" : 396,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "滓",
+      "no" : 397,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "獅",
+      "no" : 398,
+      "onkun" : "シ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "幟",
+      "no" : 399,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "摯",
+      "no" : 400,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "嘴",
+      "no" : 401,
+      "onkun" : "シ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "熾",
+      "no" : 402,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "髭",
+      "no" : 403,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "贄",
+      "no" : 404,
+      "onkun" : "シ"
+   },
+   {
+      "inhyou" : "而",
+      "no" : 405,
+      "onkun" : "ジ"
+   },
+   {
+      "inhyou" : "峙",
+      "no" : 406,
+      "onkun" : "ジ"
+   },
+   {
+      "inhyou" : "痔",
+      "no" : 407,
+      "onkun" : "ジ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 408,
+      "onkun" : "ジ"
+   },
+   {
+      "inhyou" : "竺",
+      "no" : 409,
+      "onkun" : "ジク"
+   },
+   {
+      "inhyou" : "雫",
+      "no" : 410,
+      "onkun" : "しずく"
+   },
+   {
+      "has_designsa" : "叱",
+      "inhyou" : {
+         "font" : 1
+      },
+      "kobetsu_designsa" : "叱",
+      "no" : 411,
+      "onkun" : "シツ"
+   },
+   {
+      "inhyou" : "悉",
+      "no" : 412,
+      "onkun" : "シツ"
+   },
+   {
+      "inhyou" : "蛭",
+      "no" : 413,
+      "onkun" : "シツ"
+   },
+   {
+      "inhyou" : "嫉",
+      "no" : 414,
+      "onkun" : "シツ"
+   },
+   {
+      "inhyou" : "膝",
+      "no" : 415,
+      "onkun" : "シツ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 416,
+      "onkun" : "シツ"
+   },
+   {
+      "inhyou" : "柘",
+      "no" : 417,
+      "onkun" : "シャ"
+   },
+   {
+      "inhyou" : "洒",
+      "no" : 418,
+      "onkun" : "シャ"
+   },
+   {
+      "inhyou" : "娑",
+      "no" : 419,
+      "onkun" : "シャ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 420,
+      "onkun" : "シャ"
+   },
+   {
+      "inhyou" : "奢",
+      "no" : 421,
+      "onkun" : "シャ"
+   },
+   {
+      "inhyou" : "闍",
+      "no" : 422,
+      "onkun" : "ジャ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 423,
+      "onkun" : "シャク"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 424,
+      "onkun" : "シャク"
+   },
+   {
+      "inhyou" : "綽",
+      "no" : 425,
+      "onkun" : "シャク"
+   },
+   {
+      "inhyou" : "錫",
+      "no" : 426,
+      "onkun" : "シャク"
+   },
+   {
+      "inhyou" : "雀",
+      "no" : 427,
+      "onkun" : "ジャク"
+   },
+   {
+      "inhyou" : "惹",
+      "no" : 428,
+      "onkun" : "ジャク"
+   },
+   {
+      "inhyou" : "娶",
+      "no" : 429,
+      "onkun" : "シュ"
+   },
+   {
+      "inhyou" : "腫",
+      "no" : 430,
+      "onkun" : "シュ"
+   },
+   {
+      "inhyou" : "諏",
+      "no" : 431,
+      "onkun" : "シュ"
+   },
+   {
+      "inhyou" : "鬚",
+      "no" : 432,
+      "onkun" : "シュ"
+   },
+   {
+      "inhyou" : "呪",
+      "no" : 433,
+      "onkun" : "ジュ"
+   },
+   {
+      "inhyou" : "竪",
+      "no" : 434,
+      "onkun" : "ジュ"
+   },
+   {
+      "inhyou" : "綬",
+      "no" : 435,
+      "onkun" : "ジュ"
+   },
+   {
+      "inhyou" : "聚",
+      "no" : 436,
+      "onkun" : "ジュ"
+   },
+   {
+      "inhyou" : "濡",
+      "no" : 437,
+      "onkun" : "ジュ"
+   },
+   {
+      "inhyou" : "襦",
+      "no" : 438,
+      "onkun" : "ジュ"
+   },
+   {
+      "inhyou" : "帚",
+      "no" : 439,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 440,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "袖",
+      "no" : 441,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "羞",
+      "no" : 442,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "葺",
+      "no" : 443,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "蒐",
+      "no" : 444,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "箒",
+      "no" : 445,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "皺",
+      "no" : 446,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "輯",
+      "no" : 447,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "鍬",
+      "no" : 448,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "繍",
+      "no" : 449,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "蹴",
+      "no" : 450,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "讐",
+      "no" : 451,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "鷲",
+      "no" : 452,
+      "onkun" : "シュウ"
+   },
+   {
+      "inhyou" : "廿",
+      "no" : 453,
+      "onkun" : "ジュウ"
+   },
+   {
+      "inhyou" : "揉",
+      "no" : 454,
+      "onkun" : "ジュウ"
+   },
+   {
+      "inhyou" : "絨",
+      "no" : 455,
+      "onkun" : "ジュウ"
+   },
+   {
+      "inhyou" : "粥",
+      "no" : 456,
+      "onkun" : "シュク"
+   },
+   {
+      "bikou_betsuji" : "戍",
+      "inhyou" : "戌",
+      "no" : 457,
+      "onkun" : "シュツ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "閏",
+      "no" : 458,
+      "onkun" : "ジュン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 459,
+      "onkun" : "ジュン"
+   },
+   {
+      "inhyou" : "馴",
+      "no" : 460,
+      "onkun" : "ジュン"
+   },
+   {
+      "inhyou" : "杵",
+      "no" : 461,
+      "onkun" : "ショ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 462,
+      "onkun" : "ショ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 463,
+      "onkun" : "ショ"
+   },
+   {
+      "inhyou" : "汝",
+      "no" : 464,
+      "onkun" : "ジョ"
+   },
+   {
+      "inhyou" : "抒",
+      "no" : 465,
+      "onkun" : "ジョ"
+   },
+   {
+      "inhyou" : "鋤",
+      "no" : 466,
+      "onkun" : "ジョ"
+   },
+   {
+      "inhyou" : "妾",
+      "no" : 467,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 468,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 469,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "娼",
+      "no" : 470,
+      "onkun" : "ショウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "逍",
+      "no" : 471,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "廂",
+      "no" : 472,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "椒",
+      "no" : 473,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "湘",
+      "no" : 474,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "竦",
+      "no" : 475,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "鈔",
+      "no" : 476,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "睫",
+      "no" : 477,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 478,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "鉦",
+      "no" : 479,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 480,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "蒋",
+      "no" : 481,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "裳",
+      "no" : 482,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "誦",
+      "no" : 483,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "漿",
+      "no" : 484,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "蕭",
+      "no" : 485,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "踵",
+      "no" : 486,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 487,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "篠",
+      "no" : 488,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "聳",
+      "no" : 489,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "鍾",
+      "no" : 490,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "醤",
+      "no" : 491,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : "囁",
+      "no" : 492,
+      "onkun" : "ショウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 493,
+      "onkun" : "ジョウ"
+   },
+   {
+      "inhyou" : "茸",
+      "no" : 494,
+      "onkun" : "ジョウ"
+   },
+   {
+      "inhyou" : "嘗",
+      "no" : 495,
+      "onkun" : "ジョウ"
+   },
+   {
+      "inhyou" : "擾",
+      "no" : 496,
+      "onkun" : "ジョウ"
+   },
+   {
+      "inhyou" : "攘",
+      "no" : 497,
+      "onkun" : "ジョウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "饒",
+      "no" : 498,
+      "onkun" : "ジョウ"
+   },
+   {
+      "inhyou" : "拭",
+      "no" : 499,
+      "onkun" : "ショク"
+   },
+   {
+      "inhyou" : "埴",
+      "no" : 500,
+      "onkun" : "ショク"
+   },
+   {
+      "inhyou" : "蜀",
+      "no" : 501,
+      "onkun" : "ショク"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 502,
+      "onkun" : "ショク"
+   },
+   {
+      "inhyou" : "燭",
+      "no" : 503,
+      "onkun" : "ショク"
+   },
+   {
+      "inhyou" : "褥",
+      "no" : 504,
+      "onkun" : "ジョク"
+   },
+   {
+      "inhyou" : "沁",
+      "no" : 505,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : "芯",
+      "no" : 506,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : "呻",
+      "no" : 507,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : "宸",
+      "no" : 508,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : "疹",
+      "no" : 509,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 510,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : "滲",
+      "no" : 511,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : "賑",
+      "no" : 512,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : "鍼",
+      "no" : 513,
+      "onkun" : "シン"
+   },
+   {
+      "inhyou" : "壬",
+      "no" : 514,
+      "onkun" : "ジン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 515,
+      "onkun" : "ジン"
+   },
+   {
+      "inhyou" : "腎",
+      "no" : 516,
+      "onkun" : "ジン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "kobetsu_designsa1" : "靭",
+      "kobetsu_designsa2" : {
+         "font" : 1
+      },
+      "no" : 517,
+      "onkun" : "ジン"
+   },
+   {
+      "inhyou" : "塵",
+      "no" : 518,
+      "onkun" : "ジン"
+   },
+   {
+      "inhyou" : "儘",
+      "no" : 519,
+      "onkun" : "ジン"
+   },
+   {
+      "inhyou" : "笥",
+      "no" : 520,
+      "onkun" : "ス"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 521,
+      "onkun" : "スイ"
+   },
+   {
+      "inhyou" : "膵",
+      "no" : 522,
+      "onkun" : "スイ"
+   },
+   {
+      "inhyou" : "誰",
+      "no" : 523,
+      "onkun" : "スイ"
+   },
+   {
+      "inhyou" : "錐",
+      "no" : 524,
+      "onkun" : "スイ"
+   },
+   {
+      "inhyou" : "雖",
+      "no" : 525,
+      "onkun" : "スイ"
+   },
+   {
+      "inhyou" : "隋",
+      "no" : 526,
+      "onkun" : "ズイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "隧",
+      "no" : 527,
+      "onkun" : "ズイ"
+   },
+   {
+      "inhyou" : "芻",
+      "no" : 528,
+      "onkun" : "スウ"
+   },
+   {
+      "inhyou" : "趨",
+      "no" : 529,
+      "onkun" : "スウ"
+   },
+   {
+      "inhyou" : "鮨",
+      "no" : 530,
+      "onkun" : "すし"
+   },
+   {
+      "inhyou" : "丼",
+      "no" : 531,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : "凄",
+      "no" : 532,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : "栖",
+      "no" : 533,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : "棲",
+      "no" : 534,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : "甥",
+      "no" : 535,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : "貰",
+      "no" : 536,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : "蜻",
+      "no" : 537,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : "醒",
+      "no" : 538,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 539,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : "臍",
+      "no" : 540,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 541,
+      "onkun" : "セイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 542,
+      "onkun" : "セイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "脆",
+      "kobetsu_designsa" : {
+         "font" : 1
+      },
+      "no" : 543,
+      "onkun" : "ゼイ"
+   },
+   {
+      "inhyou" : "贅",
+      "no" : 544,
+      "onkun" : "ゼイ"
+   },
+   {
+      "inhyou" : "脊",
+      "no" : 545,
+      "onkun" : "セキ"
+   },
+   {
+      "inhyou" : "戚",
+      "no" : 546,
+      "onkun" : "セキ"
+   },
+   {
+      "inhyou" : "晰",
+      "no" : 547,
+      "onkun" : "セキ"
+   },
+   {
+      "inhyou" : "蹟",
+      "no" : 548,
+      "onkun" : "セキ"
+   },
+   {
+      "inhyou" : "泄",
+      "no" : 549,
+      "onkun" : "セツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 550,
+      "onkun" : "セツ"
+   },
+   {
+      "inhyou" : "浙",
+      "no" : 551,
+      "onkun" : "セツ"
+   },
+   {
+      "inhyou" : "啜",
+      "no" : 552,
+      "onkun" : "セツ"
+   },
+   {
+      "inhyou" : "楔",
+      "no" : 553,
+      "onkun" : "セツ"
+   },
+   {
+      "inhyou" : "截",
+      "no" : 554,
+      "onkun" : "セツ"
+   },
+   {
+      "inhyou" : "尖",
+      "no" : 555,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "苫",
+      "no" : 556,
+      "onkun" : "セン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 557,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "閃",
+      "no" : 558,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "陝",
+      "no" : 559,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "釧",
+      "no" : 560,
+      "onkun" : "セン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 561,
+      "onkun" : "セン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 562,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "羨",
+      "no" : 563,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "腺",
+      "no" : 564,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 565,
+      "onkun" : "セン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 566,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "箋",
+      "no" : 567,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 568,
+      "onkun" : "セン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 569,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "賤",
+      "no" : 570,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 571,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "癬",
+      "no" : 572,
+      "onkun" : "セン"
+   },
+   {
+      "inhyou" : "喘",
+      "no" : 573,
+      "onkun" : "ゼン"
+   },
+   {
+      "inhyou" : "膳",
+      "no" : 574,
+      "onkun" : "ゼン"
+   },
+   {
+      "inhyou" : "狙",
+      "no" : 575,
+      "onkun" : "ソ"
+   },
+   {
+      "inhyou" : "疽",
+      "no" : 576,
+      "onkun" : "ソ"
+   },
+   {
+      "inhyou" : "疏",
+      "no" : 577,
+      "onkun" : "ソ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 578,
+      "onkun" : "ソ"
+   },
+   {
+      "inhyou" : "楚",
+      "no" : 579,
+      "onkun" : "ソ"
+   },
+   {
+      "inhyou" : "鼠",
+      "no" : 580,
+      "onkun" : "ソ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 581,
+      "onkun" : "ソ"
+   },
+   {
+      "inhyou" : "蘇",
+      "no" : 582,
+      "onkun" : "ソ"
+   },
+   {
+      "inhyou" : "齟",
+      "no" : 583,
+      "onkun" : "ソ"
+   },
+   {
+      "inhyou" : "爪",
+      "no" : 584,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "宋",
+      "no" : 585,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "炒",
+      "no" : 586,
+      "onkun" : "ソウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 587,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "蚤",
+      "no" : 588,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "曾",
+      "kankan" : "曽",
+      "no" : 589,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "湊",
+      "no" : 590,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "葱",
+      "no" : 591,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "掻",
+      "no" : 592,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "槍",
+      "no" : 593,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "漕",
+      "no" : 594,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "箏",
+      "no" : 595,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 596,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "瘡",
+      "no" : 597,
+      "onkun" : "ソウ"
+   },
+   {
+      "has_designsa_inhyou" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "痩",
+      "no" : 598,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "踪",
+      "no" : 599,
+      "onkun" : "ソウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 600,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "薔",
+      "no" : 601,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 602,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "叢",
+      "no" : 603,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "藪",
+      "no" : 604,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "躁",
+      "no" : 605,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "囃",
+      "no" : 606,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 607,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "鰺",
+      "no" : 608,
+      "onkun" : "ソウ"
+   },
+   {
+      "inhyou" : "仄",
+      "no" : 609,
+      "onkun" : "ソク"
+   },
+   {
+      "inhyou" : "捉",
+      "no" : 610,
+      "onkun" : "ソク"
+   },
+   {
+      "inhyou" : "塞",
+      "no" : 611,
+      "onkun" : "ソク"
+   },
+   {
+      "inhyou" : "粟",
+      "no" : 612,
+      "onkun" : "ゾク"
+   },
+   {
+      "inhyou" : "杣",
+      "no" : 613,
+      "onkun" : "そま"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 614,
+      "onkun" : "ソン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 615,
+      "onkun" : "ソン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 616,
+      "onkun" : "ソン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 617,
+      "onkun" : "ソン"
+   },
+   {
+      "inhyou" : "侘",
+      "no" : 618,
+      "onkun" : "タ"
+   },
+   {
+      "inhyou" : "咤",
+      "no" : 619,
+      "onkun" : "タ"
+   },
+   {
+      "inhyou" : "詫",
+      "no" : 620,
+      "onkun" : "タ"
+   },
+   {
+      "inhyou" : "陀",
+      "no" : 621,
+      "onkun" : "ダ"
+   },
+   {
+      "inhyou" : "拿",
+      "no" : 622,
+      "onkun" : "ダ"
+   },
+   {
+      "inhyou" : "荼",
+      "no" : 623,
+      "onkun" : "ダ"
+   },
+   {
+      "inhyou" : "唾",
+      "no" : 624,
+      "onkun" : "ダ"
+   },
+   {
+      "inhyou" : "舵",
+      "no" : 625,
+      "onkun" : "ダ"
+   },
+   {
+      "inhyou" : "楕",
+      "no" : 626,
+      "onkun" : "ダ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 627,
+      "onkun" : "ダ"
+   },
+   {
+      "inhyou" : "苔",
+      "no" : 628,
+      "onkun" : "タイ"
+   },
+   {
+      "inhyou" : "殆",
+      "no" : 629,
+      "onkun" : "タイ"
+   },
+   {
+      "inhyou" : "堆",
+      "no" : 630,
+      "onkun" : "タイ"
+   },
+   {
+      "inhyou" : "碓",
+      "no" : 631,
+      "onkun" : "タイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 632,
+      "onkun" : "タイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "頽",
+      "no" : 633,
+      "onkun" : "タイ"
+   },
+   {
+      "inhyou" : "戴",
+      "no" : 634,
+      "onkun" : "タイ"
+   },
+   {
+      "inhyou" : "醍",
+      "no" : 635,
+      "onkun" : "ダイ"
+   },
+   {
+      "inhyou" : "托",
+      "no" : 636,
+      "onkun" : "タク"
+   },
+   {
+      "inhyou" : "鐸",
+      "no" : 637,
+      "onkun" : "タク"
+   },
+   {
+      "inhyou" : "凧",
+      "no" : 638,
+      "onkun" : "たこ"
+   },
+   {
+      "inhyou" : "襷",
+      "no" : 639,
+      "onkun" : "たすき"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "燵",
+      "no" : 640,
+      "onkun" : "タツ"
+   },
+   {
+      "inhyou" : "坦",
+      "no" : 641,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "疸",
+      "no" : 642,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "耽",
+      "no" : 643,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "啖",
+      "no" : 644,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "蛋",
+      "no" : 645,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "毯",
+      "no" : 646,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "湛",
+      "no" : 647,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "痰",
+      "no" : 648,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "綻",
+      "no" : 649,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "憚",
+      "no" : 650,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 651,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 652,
+      "onkun" : "タン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "譚",
+      "no" : 653,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 654,
+      "onkun" : "タン"
+   },
+   {
+      "inhyou" : "雉",
+      "no" : 655,
+      "onkun" : "チ"
+   },
+   {
+      "inhyou" : "馳",
+      "no" : 656,
+      "onkun" : "チ"
+   },
+   {
+      "inhyou" : "蜘",
+      "no" : 657,
+      "onkun" : "チ"
+   },
+   {
+      "inhyou" : "緻",
+      "no" : 658,
+      "onkun" : "チ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "筑",
+      "no" : 659,
+      "onkun" : "チク"
+   },
+   {
+      "inhyou" : "膣",
+      "no" : 660,
+      "onkun" : "チツ"
+   },
+   {
+      "inhyou" : "肘",
+      "no" : 661,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "冑",
+      "no" : 662,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "紐",
+      "no" : 663,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "酎",
+      "no" : 664,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "厨",
+      "no" : 665,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "蛛",
+      "no" : 666,
+      "onkun" : "チュウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 667,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "誅",
+      "no" : 668,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "疇",
+      "no" : 669,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "躊",
+      "no" : 670,
+      "onkun" : "チュウ"
+   },
+   {
+      "inhyou" : "佇",
+      "no" : 671,
+      "onkun" : "チョ"
+   },
+   {
+      "inhyou" : "楮",
+      "no" : 672,
+      "onkun" : "チョ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 673,
+      "onkun" : "チョ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 674,
+      "onkun" : "チョ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 675,
+      "onkun" : "チョ"
+   },
+   {
+      "inhyou" : "躇",
+      "no" : 676,
+      "onkun" : "チョ"
+   },
+   {
+      "inhyou" : "吊",
+      "no" : 677,
+      "onkun" : "チョウ"
+   },
+   {
+      "inhyou" : "帖",
+      "no" : 678,
+      "onkun" : "チョウ"
+   },
+   {
+      "inhyou" : "喋",
+      "no" : 679,
+      "onkun" : "チョウ"
+   },
+   {
+      "inhyou" : "貼",
+      "no" : 680,
+      "onkun" : "チョウ"
+   },
+   {
+      "inhyou" : "牒",
+      "no" : 681,
+      "onkun" : "チョウ"
+   },
+   {
+      "inhyou" : "趙",
+      "no" : 682,
+      "onkun" : "チョウ"
+   },
+   {
+      "inhyou" : "銚",
+      "no" : 683,
+      "onkun" : "チョウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 684,
+      "onkun" : "チョウ"
+   },
+   {
+      "inhyou" : "諜",
+      "no" : 685,
+      "onkun" : "チョウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "寵",
+      "no" : 686,
+      "onkun" : "チョウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 687,
+      "onkun" : "チョク"
+   },
+   {
+      "inhyou" : "枕",
+      "no" : 688,
+      "onkun" : "チン"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 689,
+      "onkun" : "ツイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 690,
+      "onkun" : "ツイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 691,
+      "onkun" : "つじ"
+   },
+   {
+      "inhyou" : "剃",
+      "no" : 692,
+      "onkun" : "テイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 693,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "釘",
+      "no" : 694,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "掟",
+      "no" : 695,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "梯",
+      "no" : 696,
+      "onkun" : "テイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "has_designsa" : 1,
+      "inhyou" : "逞",
+      "no" : 697,
+      "onkun" : "テイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "啼",
+      "no" : 698,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "碇",
+      "no" : 699,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "鼎",
+      "no" : 700,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "綴",
+      "no" : 701,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 702,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "薙",
+      "no" : 703,
+      "onkun" : "テイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "諦",
+      "no" : 704,
+      "onkun" : "テイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "蹄",
+      "no" : 705,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "鵜",
+      "no" : 706,
+      "onkun" : "テイ"
+   },
+   {
+      "inhyou" : "荻",
+      "no" : 707,
+      "onkun" : "テキ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 708,
+      "onkun" : "テキ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 709,
+      "onkun" : "デキ"
+   },
+   {
+      "inhyou" : "姪",
+      "no" : 710,
+      "onkun" : "テツ"
+   },
+   {
+      "inhyou" : "轍",
+      "no" : 711,
+      "onkun" : "テツ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 712,
+      "onkun" : "テン"
+   },
+   {
+      "inhyou" : "唸",
+      "no" : 713,
+      "onkun" : "テン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 714,
+      "onkun" : "テン"
+   },
+   {
+      "inhyou" : "篆",
+      "no" : 715,
+      "onkun" : "テン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 716,
+      "onkun" : "テン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 717,
+      "onkun" : "テン"
+   },
+   {
+      "inhyou" : "纏",
+      "no" : 718,
+      "onkun" : "テン"
+   },
+   {
+      "inhyou" : "佃",
+      "no" : 719,
+      "onkun" : "デン"
+   },
+   {
+      "inhyou" : "淀",
+      "no" : 720,
+      "onkun" : "デン"
+   },
+   {
+      "inhyou" : "澱",
+      "no" : 721,
+      "onkun" : "デン"
+   },
+   {
+      "inhyou" : "臀",
+      "no" : 722,
+      "onkun" : "デン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 723,
+      "onkun" : "ト"
+   },
+   {
+      "inhyou" : "妬",
+      "no" : 724,
+      "onkun" : "ト"
+   },
+   {
+      "inhyou" : "兜",
+      "no" : 725,
+      "onkun" : "ト"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 726,
+      "onkun" : "ト"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 727,
+      "onkun" : "ト"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 728,
+      "onkun" : "ト"
+   },
+   {
+      "inhyou" : "宕",
+      "no" : 729,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "沓",
+      "no" : 730,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "套",
+      "no" : 731,
+      "onkun" : "トウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 732,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "桶",
+      "no" : 733,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "淘",
+      "no" : 734,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "萄",
+      "no" : 735,
+      "onkun" : "トウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 736,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "棹",
+      "no" : 737,
+      "onkun" : "トウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 738,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "蕩",
+      "no" : 739,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 740,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 741,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "濤",
+      "no" : 742,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "檮",
+      "no" : 743,
+      "onkun" : "トウ"
+   },
+   {
+      "inhyou" : "櫂",
+      "no" : 744,
+      "onkun" : "トウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "祷",
+      "no" : 745,
+      "onkun" : "トウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "撞",
+      "no" : 746,
+      "onkun" : "ドウ"
+   },
+   {
+      "inhyou" : "禿",
+      "no" : 747,
+      "onkun" : "トク"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 748,
+      "onkun" : "トク"
+   },
+   {
+      "inhyou" : "栃",
+      "no" : 749,
+      "onkun" : "とち"
+   },
+   {
+      "inhyou" : "咄",
+      "no" : 750,
+      "onkun" : "トツ"
+   },
+   {
+      "inhyou" : "沌",
+      "no" : 751,
+      "onkun" : "トン"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 752,
+      "onkun" : "トン"
+   },
+   {
+      "inhyou" : "頓",
+      "no" : 753,
+      "onkun" : "トン"
+   },
+   {
+      "has_designsa" : "呑",
+      "inhyou" : {
+         "font" : 1
+      },
+      "kobetsu_designsa" : "呑",
+      "no" : 754,
+      "onkun" : "ドン"
+   },
+   {
+      "inhyou" : "貪",
+      "no" : 755,
+      "onkun" : "ドン"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "邇",
+      "no" : 756,
+      "onkun" : "ニ"
+   },
+   {
+      "inhyou" : "匂",
+      "no" : 757,
+      "onkun" : "におう"
+   },
+   {
+      "inhyou" : "韮",
+      "no" : 758,
+      "onkun" : "にら"
+   },
+   {
+      "inhyou" : "涅",
+      "no" : 759,
+      "onkun" : "ネ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 760,
+      "onkun" : "ネ"
+   },
+   {
+      "inhyou" : "捏",
+      "no" : 761,
+      "onkun" : "ネツ"
+   },
+   {
+      "inhyou" : "捻",
+      "no" : 762,
+      "onkun" : "ネン"
+   },
+   {
+      "inhyou" : "撚",
+      "no" : 763,
+      "onkun" : "ネン"
+   },
+   {
+      "inhyou" : "膿",
+      "no" : 764,
+      "onkun" : "ノウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 765,
+      "onkun" : "ノウ"
+   },
+   {
+      "inhyou" : "杷",
+      "no" : 766,
+      "onkun" : "ハ"
+   },
+   {
+      "inhyou" : "爬",
+      "no" : 767,
+      "onkun" : "ハ"
+   },
+   {
+      "inhyou" : "琶",
+      "no" : 768,
+      "onkun" : "ハ"
+   },
+   {
+      "inhyou" : "頗",
+      "no" : 769,
+      "onkun" : "ハ"
+   },
+   {
+      "inhyou" : "播",
+      "no" : 770,
+      "onkun" : "ハ"
+   },
+   {
+      "inhyou" : "芭",
+      "no" : 771,
+      "onkun" : "バ"
+   },
+   {
+      "inhyou" : "罵",
+      "no" : 772,
+      "onkun" : "バ"
+   },
+   {
+      "inhyou" : "蟇",
+      "no" : 773,
+      "onkun" : "バ"
+   },
+   {
+      "inhyou" : "胚",
+      "no" : 774,
+      "onkun" : "ハイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 775,
+      "onkun" : "ハイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 776,
+      "onkun" : "ハイ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 777,
+      "onkun" : "ハイ"
+   },
+   {
+      "inhyou" : "狽",
+      "no" : 778,
+      "onkun" : "バイ"
+   },
+   {
+      "inhyou" : "煤",
+      "no" : 779,
+      "onkun" : "バイ"
+   },
+   {
+      "inhyou" : "帛",
+      "no" : 780,
+      "onkun" : "ハク"
+   },
+   {
+      "inhyou" : "柏",
+      "no" : 781,
+      "onkun" : "ハク"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 782,
+      "onkun" : "ハク"
+   },
+   {
+      "inhyou" : "粕",
+      "no" : 783,
+      "onkun" : "ハク"
+   },
+   {
+      "inhyou" : "箔",
+      "no" : 784,
+      "onkun" : "ハク"
+   },
+   {
+      "inhyou" : "莫",
+      "no" : 785,
+      "onkun" : "バク"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 786,
+      "onkun" : "バク"
+   },
+   {
+      "inhyou" : "瀑",
+      "no" : 787,
+      "onkun" : "バク"
+   },
+   {
+      "inhyou" : "曝",
+      "no" : 788,
+      "onkun" : "バク"
+   },
+   {
+      "inhyou" : "畠",
+      "no" : 789,
+      "onkun" : "はたけ"
+   },
+   {
+      "inhyou" : "捌",
+      "no" : 790,
+      "onkun" : "ハツ"
+   },
+   {
+      "inhyou" : "撥",
+      "no" : 791,
+      "onkun" : "ハツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 792,
+      "onkun" : "ハツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 793,
+      "onkun" : "ハツ"
+   },
+   {
+      "inhyou" : "筏",
+      "no" : 794,
+      "onkun" : "バツ"
+   },
+   {
+      "inhyou" : "跋",
+      "no" : 795,
+      "onkun" : "バツ"
+   },
+   {
+      "inhyou" : "噺",
+      "no" : 796,
+      "onkun" : "はなし"
+   },
+   {
+      "inhyou" : "氾",
+      "no" : 797,
+      "onkun" : "ハン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "汎",
+      "no" : 798,
+      "onkun" : "ハン"
+   },
+   {
+      "inhyou" : "阪",
+      "no" : 799,
+      "onkun" : "ハン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 800,
+      "onkun" : "ハン"
+   },
+   {
+      "inhyou" : "袢",
+      "no" : 801,
+      "onkun" : "ハン"
+   },
+   {
+      "inhyou" : "絆",
+      "no" : 802,
+      "onkun" : "ハン"
+   },
+   {
+      "inhyou" : "斑",
+      "no" : 803,
+      "onkun" : "ハン"
+   },
+   {
+      "inhyou" : "槃",
+      "no" : 804,
+      "onkun" : "ハン"
+   },
+   {
+      "inhyou" : "幡",
+      "no" : 805,
+      "onkun" : "ハン"
+   },
+   {
+      "inhyou" : "攀",
+      "no" : 806,
+      "onkun" : "ハン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 807,
+      "onkun" : "バン"
+   },
+   {
+      "inhyou" : "磐",
+      "no" : 808,
+      "onkun" : "バン"
+   },
+   {
+      "inhyou" : "蕃",
+      "no" : 809,
+      "onkun" : "バン"
+   },
+   {
+      "inhyou" : "屁",
+      "no" : 810,
+      "onkun" : "ヒ"
+   },
+   {
+      "inhyou" : "庇",
+      "no" : 811,
+      "onkun" : "ヒ"
+   },
+   {
+      "inhyou" : "砒",
+      "no" : 812,
+      "onkun" : "ヒ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "脾",
+      "no" : 813,
+      "onkun" : "ヒ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "痺",
+      "no" : 814,
+      "onkun" : "ヒ"
+   },
+   {
+      "inhyou" : "鄙",
+      "no" : 815,
+      "onkun" : "ヒ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 816,
+      "onkun" : "ヒ"
+   },
+   {
+      "inhyou" : "臂",
+      "no" : 817,
+      "onkun" : "ヒ"
+   },
+   {
+      "inhyou" : "枇",
+      "no" : 818,
+      "onkun" : "ビ"
+   },
+   {
+      "inhyou" : "毘",
+      "no" : 819,
+      "onkun" : "ビ"
+   },
+   {
+      "inhyou" : "梶",
+      "no" : 820,
+      "onkun" : "ビ"
+   },
+   {
+      "inhyou" : "媚",
+      "no" : 821,
+      "onkun" : "ビ"
+   },
+   {
+      "inhyou" : "琵",
+      "no" : 822,
+      "onkun" : "ビ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "薇",
+      "no" : 823,
+      "onkun" : "ビ"
+   },
+   {
+      "inhyou" : "靡",
+      "no" : 824,
+      "onkun" : "ビ"
+   },
+   {
+      "inhyou" : "疋",
+      "no" : 825,
+      "onkun" : "ヒツ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "畢",
+      "no" : 826,
+      "onkun" : "ヒツ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 827,
+      "onkun" : "ヒツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 828,
+      "onkun" : "ビュウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 829,
+      "onkun" : "ヒョウ"
+   },
+   {
+      "inhyou" : "憑",
+      "no" : 830,
+      "onkun" : "ヒョウ"
+   },
+   {
+      "inhyou" : "瓢",
+      "no" : 831,
+      "onkun" : "ヒョウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "屏",
+      "no" : 832,
+      "onkun" : "ビョウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 833,
+      "onkun" : "ビョウ"
+   },
+   {
+      "inhyou" : "牝",
+      "no" : 834,
+      "onkun" : "ヒン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 835,
+      "onkun" : "ヒン"
+   },
+   {
+      "inhyou" : "憫",
+      "no" : 836,
+      "onkun" : "ビン"
+   },
+   {
+      "inhyou" : "鬢",
+      "no" : 837,
+      "onkun" : "ビン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 838,
+      "onkun" : "フ"
+   },
+   {
+      "inhyou" : "阜",
+      "no" : 839,
+      "onkun" : "フ"
+   },
+   {
+      "inhyou" : "訃",
+      "no" : 840,
+      "onkun" : "フ"
+   },
+   {
+      "inhyou" : "俯",
+      "no" : 841,
+      "onkun" : "フ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 842,
+      "onkun" : "フ"
+   },
+   {
+      "inhyou" : "腑",
+      "no" : 843,
+      "onkun" : "フ"
+   },
+   {
+      "inhyou" : "孵",
+      "no" : 844,
+      "onkun" : "フ"
+   },
+   {
+      "inhyou" : "鮒",
+      "no" : 845,
+      "onkun" : "フ"
+   },
+   {
+      "inhyou" : "巫",
+      "no" : 846,
+      "onkun" : "ブ"
+   },
+   {
+      "inhyou" : "葡",
+      "no" : 847,
+      "onkun" : "ブ"
+   },
+   {
+      "inhyou" : "撫",
+      "no" : 848,
+      "onkun" : "ブ"
+   },
+   {
+      "inhyou" : "蕪",
+      "no" : 849,
+      "onkun" : "ブ"
+   },
+   {
+      "inhyou" : "諷",
+      "no" : 850,
+      "onkun" : "フウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "祓",
+      "no" : 851,
+      "onkun" : "フツ"
+   },
+   {
+      "inhyou" : "吻",
+      "no" : 852,
+      "onkun" : "フン"
+   },
+   {
+      "inhyou" : "扮",
+      "no" : 853,
+      "onkun" : "フン"
+   },
+   {
+      "inhyou" : "焚",
+      "no" : 854,
+      "onkun" : "フン"
+   },
+   {
+      "inhyou" : "糞",
+      "no" : 855,
+      "onkun" : "フン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "并",
+      "no" : 856,
+      "onkun" : "ヘイ"
+   },
+   {
+      "inhyou" : "聘",
+      "no" : 857,
+      "onkun" : "ヘイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 858,
+      "onkun" : "ヘイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 859,
+      "onkun" : "ヘイ"
+   },
+   {
+      "inhyou" : "斃",
+      "no" : 860,
+      "onkun" : "ヘイ"
+   },
+   {
+      "inhyou" : "袂",
+      "no" : 861,
+      "onkun" : "ベイ"
+   },
+   {
+      "inhyou" : "僻",
+      "no" : 862,
+      "onkun" : "ヘキ"
+   },
+   {
+      "inhyou" : "璧",
+      "no" : 863,
+      "onkun" : "ヘキ"
+   },
+   {
+      "inhyou" : "襞",
+      "no" : 864,
+      "onkun" : "ヘキ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 865,
+      "onkun" : "ベツ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 866,
+      "onkun" : "ベツ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 867,
+      "onkun" : "ヘン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 868,
+      "onkun" : "ヘン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 869,
+      "onkun" : "ヘン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 870,
+      "onkun" : "ベン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 871,
+      "onkun" : "ベン"
+   },
+   {
+      "inhyou" : "哺",
+      "no" : 872,
+      "onkun" : "ホ"
+   },
+   {
+      "inhyou" : "圃",
+      "no" : 873,
+      "onkun" : "ホ"
+   },
+   {
+      "inhyou" : "蒲",
+      "no" : 874,
+      "onkun" : "ホ"
+   },
+   {
+      "inhyou" : "戊",
+      "no" : 875,
+      "onkun" : "ボ"
+   },
+   {
+      "inhyou" : "牡",
+      "no" : 876,
+      "onkun" : "ボ"
+   },
+   {
+      "inhyou" : "姥",
+      "no" : 877,
+      "onkun" : "ボ"
+   },
+   {
+      "inhyou" : "菩",
+      "no" : 878,
+      "onkun" : "ボ"
+   },
+   {
+      "inhyou" : "呆",
+      "no" : 879,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : "彷",
+      "no" : 880,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 881,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : "苞",
+      "no" : 882,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : "疱",
+      "no" : 883,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : "捧",
+      "no" : 884,
+      "onkun" : "ホウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 885,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : "蜂",
+      "no" : 886,
+      "onkun" : "ホウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 887,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 888,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : "鋒",
+      "no" : 889,
+      "onkun" : "ホウ"
+   },
+   {
+      "inhyou" : "牟",
+      "no" : 890,
+      "onkun" : "ボウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 891,
+      "onkun" : "ボウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "茫",
+      "no" : 892,
+      "onkun" : "ボウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "虻",
+      "no" : 893,
+      "onkun" : "ボウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "榜",
+      "no" : 894,
+      "onkun" : "ボウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "膀",
+      "no" : 895,
+      "onkun" : "ボウ"
+   },
+   {
+      "inhyou" : "貌",
+      "no" : 896,
+      "onkun" : "ボウ"
+   },
+   {
+      "inhyou" : "鉾",
+      "no" : 897,
+      "onkun" : "ボウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "謗",
+      "no" : 898,
+      "onkun" : "ボウ"
+   },
+   {
+      "inhyou" : "吠",
+      "no" : 899,
+      "onkun" : "ほえる"
+   },
+   {
+      "inhyou" : "卜",
+      "no" : 900,
+      "onkun" : "ボク"
+   },
+   {
+      "inhyou" : "勃",
+      "no" : 901,
+      "onkun" : "ボツ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "梵",
+      "no" : 902,
+      "onkun" : "ボン"
+   },
+   {
+      "inhyou" : "昧",
+      "no" : 903,
+      "onkun" : "マイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "邁",
+      "no" : 904,
+      "onkun" : "マイ"
+   },
+   {
+      "has_designsa_kankan" : 1,
+      "inhyou" : "枡",
+      "kankan" : "桝",
+      "no" : 905,
+      "onkun" : "ます"
+   },
+   {
+      "inhyou" : "俣",
+      "no" : 906,
+      "onkun" : "また"
+   },
+   {
+      "inhyou" : "沫",
+      "no" : 907,
+      "onkun" : "マツ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 908,
+      "onkun" : "まで"
+   },
+   {
+      "inhyou" : "曼",
+      "no" : 909,
+      "onkun" : "マン"
+   },
+   {
+      "inhyou" : "蔓",
+      "no" : 910,
+      "onkun" : "マン"
+   },
+   {
+      "inhyou" : "瞞",
+      "no" : 911,
+      "onkun" : "マン"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "饅",
+      "no" : 912,
+      "onkun" : "マン"
+   },
+   {
+      "inhyou" : "鬘",
+      "no" : 913,
+      "onkun" : "マン"
+   },
+   {
+      "inhyou" : "鰻",
+      "no" : 914,
+      "onkun" : "マン"
+   },
+   {
+      "inhyou" : "蜜",
+      "no" : 915,
+      "onkun" : "ミツ"
+   },
+   {
+      "inhyou" : "鵡",
+      "no" : 916,
+      "onkun" : "ム"
+   },
+   {
+      "inhyou" : "冥",
+      "no" : 917,
+      "onkun" : "メイ"
+   },
+   {
+      "inhyou" : "瞑",
+      "no" : 918,
+      "onkun" : "メイ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 919,
+      "onkun" : "メイ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "麺",
+      "no" : 920,
+      "onkun" : "メン"
+   },
+   {
+      "inhyou" : "蒙",
+      "no" : 921,
+      "onkun" : "モウ"
+   },
+   {
+      "inhyou" : "朦",
+      "no" : 922,
+      "onkun" : "モウ"
+   },
+   {
+      "inhyou" : "勿",
+      "no" : 923,
+      "onkun" : "モチ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 924,
+      "onkun" : "もみ"
+   },
+   {
+      "inhyou" : "悶",
+      "no" : 925,
+      "onkun" : "モン"
+   },
+   {
+      "inhyou" : "揶",
+      "no" : 926,
+      "onkun" : "ヤ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 927,
+      "onkun" : "ヤ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 928,
+      "onkun" : "やり"
+   },
+   {
+      "inhyou" : "喩",
+      "no" : 929,
+      "onkun" : "ユ"
+   },
+   {
+      "inhyou" : "揄",
+      "no" : 930,
+      "onkun" : "ユ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 931,
+      "onkun" : "ユ"
+   },
+   {
+      "inhyou" : "楡",
+      "no" : 932,
+      "onkun" : "ユ"
+   },
+   {
+      "inhyou" : "尤",
+      "no" : 933,
+      "onkun" : "ユウ"
+   },
+   {
+      "inhyou" : "釉",
+      "no" : 934,
+      "onkun" : "ユウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 935,
+      "onkun" : "ユウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 936,
+      "onkun" : "ユウ"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : "飫",
+      "no" : 937,
+      "onkun" : "ヨ"
+   },
+   {
+      "inhyou" : "輿",
+      "no" : 938,
+      "onkun" : "ヨ"
+   },
+   {
+      "inhyou" : "孕",
+      "no" : 939,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : "妖",
+      "no" : 940,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : "拗",
+      "no" : 941,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : "涌",
+      "no" : 942,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : "痒",
+      "no" : 943,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : "傭",
+      "no" : 944,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : "熔",
+      "no" : 945,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : "瘍",
+      "no" : 946,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 947,
+      "onkun" : "ヨウ"
+   },
+   {
+      "inhyou" : "沃",
+      "no" : 948,
+      "onkun" : "ヨク"
+   },
+   {
+      "inhyou" : "螺",
+      "no" : 949,
+      "onkun" : "ラ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 950,
+      "onkun" : "ライ"
+   },
+   {
+      "inhyou" : "蕾",
+      "no" : 951,
+      "onkun" : "ライ"
+   },
+   {
+      "inhyou" : "洛",
+      "no" : 952,
+      "onkun" : "ラク"
+   },
+   {
+      "inhyou" : "埒",
+      "no" : 953,
+      "onkun" : "ラチ"
+   },
+   {
+      "inhyou" : "拉",
+      "no" : 954,
+      "onkun" : "ラツ"
+   },
+   {
+      "inhyou" : "辣",
+      "no" : 955,
+      "onkun" : "ラツ"
+   },
+   {
+      "inhyou" : "瀾",
+      "no" : 956,
+      "onkun" : "ラン"
+   },
+   {
+      "inhyou" : "爛",
+      "no" : 957,
+      "onkun" : "ラン"
+   },
+   {
+      "inhyou" : "鸞",
+      "no" : 958,
+      "onkun" : "ラン"
+   },
+   {
+      "inhyou" : "狸",
+      "no" : 959,
+      "onkun" : "リ"
+   },
+   {
+      "inhyou" : "裡",
+      "no" : 960,
+      "onkun" : "リ"
+   },
+   {
+      "inhyou" : "罹",
+      "no" : 961,
+      "onkun" : "リ"
+   },
+   {
+      "inhyou" : "籬",
+      "no" : 962,
+      "onkun" : "リ"
+   },
+   {
+      "inhyou" : "戮",
+      "no" : 963,
+      "onkun" : "リク"
+   },
+   {
+      "inhyou" : "慄",
+      "no" : 964,
+      "onkun" : "リツ"
+   },
+   {
+      "inhyou" : "掠",
+      "no" : 965,
+      "onkun" : "リャク"
+   },
+   {
+      "inhyou" : "笠",
+      "no" : 966,
+      "onkun" : "リュウ"
+   },
+   {
+      "inhyou" : "溜",
+      "no" : 967,
+      "onkun" : "リュウ"
+   },
+   {
+      "inhyou" : "榴",
+      "no" : 968,
+      "onkun" : "リュウ"
+   },
+   {
+      "inhyou" : "劉",
+      "no" : 969,
+      "onkun" : "リュウ"
+   },
+   {
+      "inhyou" : "瘤",
+      "no" : 970,
+      "onkun" : "リュウ"
+   },
+   {
+      "inhyou" : "侶",
+      "no" : 971,
+      "onkun" : "リョ"
+   },
+   {
+      "inhyou" : "梁",
+      "no" : 972,
+      "onkun" : "リョウ"
+   },
+   {
+      "inhyou" : "聊",
+      "no" : 973,
+      "onkun" : "リョウ"
+   },
+   {
+      "inhyou" : "菱",
+      "no" : 974,
+      "onkun" : "リョウ"
+   },
+   {
+      "inhyou" : "寥",
+      "no" : 975,
+      "onkun" : "リョウ"
+   },
+   {
+      "inhyou" : "蓼",
+      "no" : 976,
+      "onkun" : "リョウ"
+   },
+   {
+      "inhyou" : "淋",
+      "no" : 977,
+      "onkun" : "リン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "燐",
+      "no" : 978,
+      "onkun" : "リン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "鱗",
+      "no" : 979,
+      "onkun" : "リン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 980,
+      "onkun" : "ル"
+   },
+   {
+      "inhyou" : "蛉",
+      "no" : 981,
+      "onkun" : "レイ"
+   },
+   {
+      "inhyou" : "蠣",
+      "no" : 982,
+      "onkun" : "レイ"
+   },
+   {
+      "inhyou" : "櫟",
+      "no" : 983,
+      "onkun" : "レキ"
+   },
+   {
+      "inhyou" : "礫",
+      "no" : 984,
+      "onkun" : "レキ"
+   },
+   {
+      "inhyou" : "轢",
+      "no" : 985,
+      "onkun" : "レキ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 986,
+      "onkun" : "レン"
+   },
+   {
+      "bikou_3bushu" : 1,
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 987,
+      "onkun" : "レン"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "憐",
+      "no" : 988,
+      "onkun" : "レン"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 989,
+      "onkun" : "レン"
+   },
+   {
+      "inhyou" : "鰊",
+      "no" : 990,
+      "onkun" : "レン"
+   },
+   {
+      "inhyou" : "攣",
+      "no" : 991,
+      "onkun" : "レン"
+   },
+   {
+      "inhyou" : "賂",
+      "no" : 992,
+      "onkun" : "ロ"
+   },
+   {
+      "inhyou" : "魯",
+      "no" : 993,
+      "onkun" : "ロ"
+   },
+   {
+      "has_designsa_kankan" : 1,
+      "inhyou" : "濾",
+      "kankan" : {
+         "font" : 1
+      },
+      "no" : 994,
+      "onkun" : "ロ"
+   },
+   {
+      "inhyou" : "廬",
+      "no" : 995,
+      "onkun" : "ロ"
+   },
+   {
+      "inhyou" : "櫓",
+      "no" : 996,
+      "onkun" : "ロ"
+   },
+   {
+      "has_designsa_kankan" : 1,
+      "inhyou" : "蘆",
+      "kankan" : {
+         "font" : 1
+      },
+      "no" : 997,
+      "onkun" : "ロ"
+   },
+   {
+      "inhyou" : "鷺",
+      "no" : 998,
+      "onkun" : "ロ"
+   },
+   {
+      "inhyou" : "弄",
+      "no" : 999,
+      "onkun" : "ロウ"
+   },
+   {
+      "inhyou" : "牢",
+      "no" : 1000,
+      "onkun" : "ロウ"
+   },
+   {
+      "inhyou" : "狼",
+      "no" : 1001,
+      "onkun" : "ロウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "no" : 1002,
+      "onkun" : "ロウ"
+   },
+   {
+      "inhyou" : "瘻",
+      "no" : 1003,
+      "onkun" : "ロウ"
+   },
+   {
+      "has_designsa" : "臈",
+      "inhyou" : {
+         "font" : 1
+      },
+      "kobetsu_designsa" : "臈",
+      "no" : 1004,
+      "onkun" : "ロウ"
+   },
+   {
+      "bikou_betsuji_atsukai" : 1004,
+      "inhyou" : "臘",
+      "no" : 1005,
+      "onkun" : "ロウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "朧",
+      "no" : 1006,
+      "onkun" : "ロウ"
+   },
+   {
+      "inhyou" : {
+         "font" : 1
+      },
+      "kankan" : "蝋",
+      "no" : 1007,
+      "onkun" : "ロウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "籠",
+      "no" : 1008,
+      "onkun" : "ロウ"
+   },
+   {
+      "has_designsa" : 1,
+      "inhyou" : "聾",
+      "no" : 1009,
+      "onkun" : "ロウ"
+   },
+   {
+      "inhyou" : "肋",
+      "no" : 1010,
+      "onkun" : "ロク"
+   },
+   {
+      "inhyou" : "勒",
+      "no" : 1011,
+      "onkun" : "ロク"
+   },
+   {
+      "inhyou" : "漉",
+      "no" : 1012,
+      "onkun" : "ロク"
+   },
+   {
+      "inhyou" : "麓",
+      "no" : 1013,
+      "onkun" : "ロク"
+   },
+   {
+      "inhyou" : "窪",
+      "no" : 1014,
+      "onkun" : "ワ"
+   },
+   {
+      "inhyou" : "歪",
+      "no" : 1015,
+      "onkun" : "ワイ"
+   },
+   {
+      "inhyou" : "猥",
+      "no" : 1016,
+      "onkun" : "ワイ"
+   },
+   {
+      "inhyou" : "隈",
+      "no" : 1017,
+      "onkun" : "ワイ"
+   },
+   {
+      "inhyou" : "或",
+      "no" : 1018,
+      "onkun" : "ワク"
+   },
+   {
+      "inhyou" : "罠",
+      "no" : 1019,
+      "onkun" : "わな"
+   },
+   {
+      "inhyou" : "椀",
+      "no" : 1020,
+      "onkun" : "ワン"
+   },
+   {
+      "inhyou" : "碗",
+      "no" : 1021,
+      "onkun" : "ワン"
+   },
+   {
+      "inhyou" : "彎",
+      "kankan" : "弯",
+      "no" : 1022,
+      "onkun" : "ワン"
+   }
+]

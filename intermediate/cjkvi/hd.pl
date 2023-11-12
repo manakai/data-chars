@@ -27,6 +27,8 @@ my $Types = {};
         $c3 = sprintf ':jis1-%d-%d', $3, $4;
       } elsif ($2 eq 'JB' or $2 eq 'JD') {
         $c3 = sprintf ':jis2-%d-%d', $3, $4;
+      } elsif ($2 eq 'IA') {
+        $c3 = sprintf ':jis10-%d-%d', $3, $4;
       }
     } elsif (s/^((IP|JT)([0-9A-F][0-9A-F])([0-9A-F][0-9A-F])(SS?|))\*?//) {
       my $v1 = $1;
@@ -312,6 +314,8 @@ write_rel_data_sets
       qr/^:KS2/,
       qr/^:KS3/,
       qr/^:K/,
+      qr/^:I/,
+      qr/^:T/,
       qr/^:[A-Z]/,
       qr/^[\x{3000}-\x{6FFF}]/,
       qr/^[\x{7000}-\x{FFFF}]/,

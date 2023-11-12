@@ -68,6 +68,9 @@ $(TEMP_PATH)/mjdkw-00101.txt: mjdkw-00101.pl $(TEMP_PATH)/mj00101.csv
 variants.json: variants.pl $(TEMP_PATH)/mj.json $(TEMP_PATH)/map.json
 	$(PERL) $< > $@
 
+../jp/jouyouh22-table.json:
+	cd ../jp && $(MAKE) jouyouh22-table.json
+
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/mj.json \
     $(TEMP_PATH)/daikanwa-ucs.txt \
@@ -77,7 +80,10 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/mjdkw-00101.txt \
     mj-old.txt \
     $(TEMP_PATH)/toukimap.json \
-    $(TEMP_PATH)/tksu.json
+    $(TEMP_PATH)/tksu.json \
+    ../jp/jouyouh22-table.json \
+    $(ROOT_PATH)/data/sets.json \
+    ipamjex.txt
 	$(PERL) $<
 maps-*.list: maps-0.list
 

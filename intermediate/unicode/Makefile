@@ -33,9 +33,17 @@ $(TEMP_PATH)/unihan13-krname.txt: $(TEMP_PATH)/Unihan13_OtherMappings.txt
 $(TEMP_PATH)/USourceData.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/USourceData.txt
 
+$(TEMP_PATH)/15/unihan.zip:
+	mkdir -p $(TEMP_PATH)/15
+	$(SAVEURL) $@ https://www.unicode.org/Public/15.0.0/ucd/Unihan.zip
 $(TEMP_PATH)/unihan.zip:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
+$(TEMP_PATH)/15/Unihan_DictionaryIndices.txt \
+$(TEMP_PATH)/15/Unihan_OtherMappings.txt:: %: $(TEMP_PATH)/15/unihan.zip
+	cd $(TEMP_PATH)/15 && unzip unihan.zip $(notdir $@)
+	touch $@
 $(TEMP_PATH)/Unihan_Readings.txt \
+$(TEMP_PATH)/Unihan_RadicalStrokeCounts.txt \
 $(TEMP_PATH)/Unihan_DictionaryLikeData.txt \
 $(TEMP_PATH)/Unihan_DictionaryIndices.txt \
 $(TEMP_PATH)/Unihan_Variants.txt \
@@ -47,9 +55,9 @@ $(TEMP_PATH)/unihan-tghz2013.txt: $(TEMP_PATH)/Unihan_Readings.txt
 	grep -v '^#' $< | grep kTGHZ2013 > $@
 $(TEMP_PATH)/unihan-hkg.txt: $(TEMP_PATH)/Unihan_DictionaryLikeData.txt
 	grep -v '^#' $< | grep kHKGlyph > $@
-$(TEMP_PATH)/unihan-k0.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
+$(TEMP_PATH)/unihan-k0.txt: $(TEMP_PATH)/15/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kKSC0 > $@
-$(TEMP_PATH)/unihan-k1.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
+$(TEMP_PATH)/unihan-k1.txt: $(TEMP_PATH)/15/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kKSC1 > $@
 $(TEMP_PATH)/unihan-g1.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kGB1 > $@
@@ -57,11 +65,17 @@ $(TEMP_PATH)/unihan-krname.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kKoreanName > $@
 $(TEMP_PATH)/unihan-ibmjapan.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
 	grep -v '^#' $< | grep kIBMJapan > $@
+$(TEMP_PATH)/unihan-joyo.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
+	grep -v '^#' $< | grep kJoyoKanji > $@
+$(TEMP_PATH)/unihan-jinmei.txt: $(TEMP_PATH)/Unihan_OtherMappings.txt
+	grep -v '^#' $< | grep kJinmei > $@
 $(TEMP_PATH)/unihan-irg-g.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_G > $@
 $(TEMP_PATH)/unihan-irg-k.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_KS > $@
 $(TEMP_PATH)/unihan-irg-kp.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
+	grep -v '^#' $< | grep kIRG_KP > $@
+$(TEMP_PATH)/unihan15-irg-kp.txt: $(TEMP_PATH)/15/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_KP > $@
 $(TEMP_PATH)/unihan-irg-uk.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_UK > $@
@@ -77,10 +91,22 @@ $(TEMP_PATH)/unihan-irg-s.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_S > $@
 $(TEMP_PATH)/unihan-irg-v.txt: $(TEMP_PATH)/Unihan_IRGSources.txt
 	grep -v '^#' $< | grep kIRG_V > $@
+$(TEMP_PATH)/unihan15-irg-v.txt: $(TEMP_PATH)/15/Unihan_IRGSources.txt
+	grep -v '^#' $< | grep kIRG_V > $@
 $(TEMP_PATH)/unihan-kangxi.txt: $(TEMP_PATH)/Unihan_DictionaryIndices.txt
 	grep -v '^#' $< | grep KangXi > $@
-$(TEMP_PATH)/unihan-morohashi.txt: $(TEMP_PATH)/Unihan_DictionaryIndices.txt
+$(TEMP_PATH)/unihan-morohashi.txt: \
+    $(TEMP_PATH)/Unihan_DictionaryIndices.txt
 	grep -v '^#' $< | grep Morohashi > $@
+$(TEMP_PATH)/unihan15-morohashi.txt: \
+    $(TEMP_PATH)/15/Unihan_DictionaryIndices.txt
+	grep -v '^#' $< | grep Morohashi > $@
+$(TEMP_PATH)/unihan15-irg-daikanwa.txt: \
+    $(TEMP_PATH)/15/Unihan_DictionaryIndices.txt
+	grep -v '^#' $< | grep IRGDaiKanwa > $@
+$(TEMP_PATH)/unihan-aj.txt: \
+    $(TEMP_PATH)/Unihan_RadicalStrokeCounts.txt
+	grep -v '^#' $< | grep Adobe_Japan > $@
 
 $(TEMP_PATH)/EquivalentUnifiedIdeograph.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UNIDATA/EquivalentUnifiedIdeograph.txt
@@ -131,6 +157,9 @@ $(TEMP_PATH)/kVariants.txt:
 $(TEMP_PATH)/MathClassExt.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/math/revision-15/MathClassEx-15.txt
 
+$(TEMP_PATH)/cjk-symbols-map.txt:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/unicode-org/cjk-symbols/main/map.txt
+
 variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-tghz2013.txt \
     $(TEMP_PATH)/unihan-g1.txt \
@@ -145,18 +174,26 @@ $(ROOT_PATH)/local/unicode/latest/NamesList.txt:
 $(ROOT_PATH)/data/maps.json:
 	cd $(ROOT_PATH) && $(MAKE) data/maps.json
 
+../jp/jouyouh22-table.json:
+	cd ../jp && $(MAKE) jouyouh22-table.json
+
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan3.txt \
     $(TEMP_PATH)/unihan-irg-g.txt \
     $(TEMP_PATH)/unihan-irg-t.txt \
     $(TEMP_PATH)/unihan-irg-s.txt \
     $(TEMP_PATH)/unihan-irg-v.txt \
+    $(TEMP_PATH)/unihan15-irg-v.txt \
     $(TEMP_PATH)/unihan-irg-k.txt \
+    $(TEMP_PATH)/unihan-irg-kp.txt \
+    $(TEMP_PATH)/unihan15-irg-kp.txt \
     $(TEMP_PATH)/unihan-irg-h.txt \
     $(TEMP_PATH)/unihan-irg-m.txt \
     $(TEMP_PATH)/unihan-irg-uk.txt \
     $(TEMP_PATH)/unihan-kangxi.txt \
+    $(TEMP_PATH)/unihan15-morohashi.txt \
     $(TEMP_PATH)/unihan-morohashi.txt \
+    $(TEMP_PATH)/unihan15-irg-daikanwa.txt \
     $(TEMP_PATH)/kVariants.txt \
     $(TEMP_PATH)/MathClassExt.txt \
     irgn2107r2-uk.tsv irgn2232r-uk.tsv \
@@ -168,19 +205,22 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(ROOT_PATH)/local/unicode/latest/NamesList.txt \
     $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
     $(ROOT_PATH)/data/maps.json \
-    $(TEMP_PATH)/unihan-k1.txt
+    $(TEMP_PATH)/unihan-k1.txt \
+    $(TEMP_PATH)/unihan-joyo.txt \
+    $(TEMP_PATH)/unihan-jinmei.txt \
+    ../jp/jouyouh22-table.json \
+    ucsj-heisei.txt \
+    $(TEMP_PATH)/cjk-symbols-map.txt
 	IVD_VERSION=$(IVD_VERSION) $(PERL) $<
 maps-*.list: maps-0.list
 
 maps2.list: maps2.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-irg-j.txt \
-    $(TEMP_PATH)/unihan3.txt \
     $(TEMP_PATH)/unihan-ibmjapan.txt \
     $(TEMP_PATH)/bestfit932.txt \
     $(TEMP_PATH)/bestfit936.txt \
     $(TEMP_PATH)/bestfit949.txt \
     $(TEMP_PATH)/bestfit950.txt \
-    $(TEMP_PATH)/unihan-irg-kp.txt \
     $(TEMP_PATH)/KPS9566.txt \
     $(TEMP_PATH)/CHINSIMP.txt \
     $(TEMP_PATH)/CHINTRAD.txt \

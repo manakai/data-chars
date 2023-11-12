@@ -27,13 +27,37 @@ $(TEMP_PATH)/nihuINT.tsv: $(TEMP_PATH)/nihuINT
 ../../local/jis-0208.txt:
 	cd ../.. && $(MAKE) local/jis-0208.txt
 
+$(TEMP_PATH)/hyougai.pdf:
+	$(SAVEURL) $@ https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/22/pdf/jitaihyo.pdf
+$(TEMP_PATH)/hyougai.xml: $(TEMP_PATH)/hyougai.pdf
+	pdftohtml $< $@ -xml
+hyougai-table.json: hyougai-table.pl $(TEMP_PATH)/hyougai.xml
+	$(PERL) $< > $@
+
+$(TEMP_PATH)/jouyouh22.pdf:
+	$(SAVEURL) $@ https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
+$(TEMP_PATH)/jouyouh22.xml: $(TEMP_PATH)/jouyouh22.pdf
+	pdftohtml $< $@ -xml
+jouyouh22-table.json: jouyouh22-table.pl $(TEMP_PATH)/jouyouh22.xml
+	$(PERL) $< > $@
+
 variants-0.list: variants.pl $(VGEN_PATH)/chars.pl \
     doukun-*.txt \
     $(TEMP_PATH)/nyukanseiji.json \
     jissyukutaimap1_0_0.xslx.tsv \
     ../../local/jis-0208.txt \
     $(TEMP_PATH)/nihuINT.tsv \
-    $(ROOT_PATH)/data/sets.json
+    $(ROOT_PATH)/data/sets.json \
+    hyougai-table.json \
+    hyougai-mapping.txt \
+    jouyouh22-table.json \
+    jouyouh22-mapping.txt \
+    jiskouki-mapping.txt \
+    jinmeih16-mapping.txt \
+    heisei-fallback.txt \
+    jis-heisei.txt \
+    jisucs.txt \
+    jismoved.txt
 	$(PERL) $<
 variants-*.list: variants-0.list
 

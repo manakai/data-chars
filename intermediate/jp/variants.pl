@@ -574,6 +574,77 @@ my $Data = {};
   }
 }
 
+my $Jouyou = {};
+{
+  use utf8;
+  my $path = $ThisPath->child ('jouyouh22-table.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $char (keys %{$json->{jouyou}}) {
+    my $in = $json->{jouyou}->{$char};
+    $Jouyou->{$char} = $in->{index};
+    my $c1 = sprintf ':jouyou-h22-%d', $in->{index};
+    $Data->{hans}->{$c1}->{$char}->{'pdf:char'} = 1;
+    for my $c3 (@{$in->{old} or []}) {
+      my $c2 = sprintf ':jouyou-h22kouki-%d', $in->{index};
+      $Data->{hans}->{$c1}->{$c2}->{"jouyou:いわゆる康熙字典体"} = 1;
+      $Data->{hans}->{$c2}->{$c3}->{'pdf:char'} = 1;
+    }
+    if ($in->{old_image}) {
+      my $c2 = sprintf ':jouyou-h22kouki-%d', $in->{index};
+      $Data->{hans}->{$c1}->{$c2}->{"jouyou:いわゆる康熙字典体"} = 1;
+    }
+    for (@{$in->{kyoyou} or []}) {
+      my $c3 = sprintf ':jouyou-h22kyoyou-%d', $in->{index};
+      $Data->{hans}->{$c1}->{$c3}->{"jouyou:許容字体"} = 1;
+      my $c4 = $_->{text};
+      $Data->{hans}->{$c3}->{$c4}->{'pdf:char'} = 1;
+    }
+  }
+}
+
+{
+  use utf8;
+  my $path = $ThisPath->child ('jouyouh22-mapping.txt');
+  for (split /\x0A/, $path->slurp) {
+    my @line = split /\t/, $_, -1;
+    my $c1 = sprintf ':jouyou-h22-%d', $line[0];
+    if (length $line[1]) {
+      my $c3 = ':jis' . $line[1];
+      $Data->{hans}->{$c1}->{$c3}->{'jish22:jisx0213'} = 1;
+    }
+    if (length $line[3]) {
+      my $c3 = chr hex $line[3];
+      $Data->{hans}->{$c1}->{$c3}->{'jish22:ucs:jisx0213'} = 1;
+    }
+    if (length $line[2]) {
+      my $c3 = ':jis' . $line[2];
+      if ($line[5] eq 'other') {
+        $Data->{hans}->{$c1}->{$c3}->{'jish22:jisx0208:other'} = 1;
+      } elsif ($line[5] eq 'kyoyou') {
+        $Data->{hans}->{$c1}->{$c3}->{'jish22:jisx0208:許容字体'} = 1;
+      } elsif ($line[5] eq 'itai_douji') {
+        $Data->{hans}->{$c1}->{$c3}->{'jish22:jisx0208:異体の関係にある同字'} = 1;
+      } elsif (length $line[5]) {
+        die $line[5];
+      } else {
+        $Data->{hans}->{$c1}->{$c3}->{'jish22:jisx0208'} = 1;
+      }
+      if (length $line[6]) {
+        my $c4 = ':jis' . $line[6];
+        $Data->{hans}->{$c3}->{$c4}->{'jisx0208:2012:annex12:JIS X 0213常用漢字'} = 1;
+      }
+      my $c4 = chr hex $line[4];
+      $Data->{hans}->{$c1}->{$c4}->{'jish22:ucs:jisx0208'} = 1;
+      $Data->{hans}->{$c1}->{$c3}->{'jisx0208:2012:annex12'} = 1;
+    } elsif (length $line[4] or length $line[5] or length $line[6]) {
+      die $_;
+    }
+  }
+  $Data->{hans}->{':jis1-47-52'}->{':jis1-28-24'}->{'jisx0213:2012:annex12:異体の関係にある同字'} = 1;
+  #$Data->{hans}->{':jis1-28-24'}->{':jis1-47-52'}->{'jisx0213:2012:annex12:通用字体'} = 1;
+}
+
+my $JouyouS56;
 {
   my $sets = {};
   my $path = $RootPath->child ('data/sets.json');
@@ -604,21 +675,40 @@ my $Data = {};
     }
     die $chars if length $chars;
   }
+  $JouyouS56 = $sets->{jouyou_s56};
 
   use utf8;
   for (keys %{$sets->{touyou_s24}}) {
     my $c1 = $_;
     my $c2 = ':jistype-touyou-' . $_;
     $Data->{glyphs}->{$c1}->{$c2}->{'manakai:glyph'} = 1;
+    my $c4 = sprintf ':touyou-%s', $_;
+    $Data->{hans}->{$c2}->{$c4}->{'manakai:implements'} = 1;
     unless ($c1 eq '燈') {
       my $c3 = ':jistype-jouyou-' . $_;
       $Data->{glyphs}->{$c2}->{$c3}->{'manakai:unified'} = 1;
+      my $c5 = sprintf ':jouyou-s56-%s', $_;
+      $Data->{hans}->{$c4}->{$c5}->{'manakai:newrevision'} = 1;
     }
   }
   for (keys %{$sets->{jouyou_s56}}) {
     my $c1 = $_;
     my $c2 = ':jistype-jouyou-' . $_;
     $Data->{glyphs}->{$c1}->{$c2}->{'manakai:glyph'} = 1;
+    my $c4 = sprintf ':jouyou-s56-%s', $_;
+    $Data->{hans}->{$c2}->{$c4}->{'manakai:implements'} = 1;
+    if ({qw(勺 1 匁 1 脹 1 銑 1 錘 1)}->{$c1}) {
+      my $c5 = sprintf ':jinmei-%s', $c1;
+      $Data->{hans}->{$c4}->{$c5}->{'manakai:newrevision'} = 1;
+    } else {
+      my $c5 = sprintf ':jouyou-h22-%s', $Jouyou->{$c1} // die $c1;
+      $Data->{hans}->{$c4}->{$c5}->{'manakai:newrevision'} = 1;
+    }
+
+    ## <https://www.moj.go.jp/content/000011775.pdf>
+    ## <https://warp.ndl.go.jp/info:ndljp/pid/10217941/www.jisc.go.jp/newstopics/2004/jinmeicode.pdf>
+    #$Data->{hans}->{$c4}->{$c1}->{'pdf:char'} = 1;
+    $Data->{hans}->{$c4}->{$c1}->{'jish16:3.3:ucs'} = 1;
   }
   {
     for (qw(
@@ -636,7 +726,7 @@ my $Data = {};
       my $c1 = ':jistype-jouyou-' . $_;
       my $c2 = ':jistype-simplified-' . $_;
       $Data->{glyphs}->{$c0}->{$c2}->{'manakai:glyph'} = 1;
-      $Data->{glyphs}->{$c1}->{$c2}->{'jisz8903:annex2'} = 1;
+      $Data->{hans}->{$c1}->{$c2}->{'jisz8903:annex2'} = 1;
     }
   }
   {
@@ -658,13 +748,327 @@ my $Data = {};
   }
 }
 
+{
+  use utf8;
+  my $path = $ThisPath->child ('hyougai-table.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $in (@{$json}) {
+    my $c1 = sprintf ':hyougai%d', $in->{no};
+    if (defined $in->{kankan}) {
+      my $c2 = $c1 . 'k';
+      $Data->{hans}->{$c1}->{$c2}->{'hyougai:簡易慣用字体'} = 1;
+      $Data->{hans}->{$c2}->{$c1}->{'hyougai:印刷標準字体'} = 1;
+    }
+    if (defined $in->{kobetsu_designsa}) {
+      my $c2 = $c1 . 'd';
+      $Data->{hans}->{$c1}->{$c2}->{'hyougai:個別デザイン差字形'} = 1;
+    }
+    if (defined $in->{kobetsu_designsa1}) {
+      my $c2 = $c1 . 'd1';
+      $Data->{hans}->{$c1}->{$c2}->{'hyougai:個別デザイン差字形'} = 1;
+    }
+    if (defined $in->{kobetsu_designsa2}) {
+      my $c2 = $c1 . 'd2';
+      $Data->{hans}->{$c1}->{$c2}->{'hyougai:個別デザイン差字形'} = 1;
+    }
+  }
+}
+
+{
+  use utf8;
+  my $path = $ThisPath->child ('hyougai-mapping.txt');
+  for (split /\x0A/, $path->slurp) {
+    my @line = split /\t/, $_, -1;
+    my $c1 = sprintf ':hyougai%s', $line[0];
+    if (length $line[1]) {
+      my $c2 = ':' . $line[1];
+      $Data->{hans}->{$c1}->{$c2}->{'manakai:hasglyph'} = 1;
+    }
+    my $c3;
+    if (length $line[3]) {
+      $c3 = ':jis' . $line[3];
+      $Data->{hans}->{$c1}->{$c3}->{'jcsh13:'.$line[2].':jisx0213'} = 1;
+    }
+    if (length $line[4]) {
+      my $c4 = chr hex $line[4];
+      $Data->{hans}->{$c1}->{$c4}->{'jcsh13:'.$line[2].':ucs'} = 1;
+    }
+    if (length $line[5]) {
+      my $c5 = ':jis' . $line[5];
+      $Data->{hans}->{$c1}->{$c5}->{'jcsh13:jisx0212'} = 1;
+    }
+    if (length $line[6]) {
+      my $c6 = ':jis' . $line[6];
+      $Data->{hans}->{$c1}->{$c6}->{'jcsh13:'.$line[2].':confusing'} = 1;
+    }
+    if (length $line[7]) {
+      my $c7 = ':jis' . $line[7];
+      $Data->{hans}->{$c1}->{$c7}->{'jcsh13:'.$line[2].':confusing'} = 1;
+    }
+    if (length $line[8]) {
+      my $c8 = ':jis' . $line[8];
+      $Data->{hans}->{$c8}->{$c1}->{'jisx0213:2004:33:hyougai'} = 1;
+      $Data->{hans}->{$c8}->{$c3}->{'jisx0213:2004:33:related'} = 1;
+      my $c2 = ':' . $line[1];
+      $Data->{hans}->{$c8}->{$c2}->{'jisx0213:2004:glyph'} = 1;
+    } elsif ($line[0] =~ /^[0-9]+k?$/ and not $line[1] =~ /^J[AC]/) {
+      my $c2 = ':' . $line[1];
+      $c3 = ':jis' . $line[3];
+      $Data->{hans}->{$c3}->{$c2}->{'jisx0213:2004:glyph'} = 1;
+    }
+  }
+}
+
+{
+  use utf8;
+  my $path = $ThisPath->child ('jiskouki-mapping.txt');
+  for (split /\x0A/, $path->slurp_utf8) {
+    my @line = split /\t/, $_, -1;
+    my $c2 = sprintf ':jis%s', $line[2];
+    if ($JouyouS56->{$line[0]}) {
+      my $c1 = sprintf ':jouyou-s56kouki-%s', $line[0];
+      $Data->{hans}->{$c2}->{$c1}->{"jisx0213:annex7:2.1 b):常用漢字表:いわゆる康煕字典体"} = 1;
+      my $c4 = sprintf ':jouyou-s56-%s', $line[0];
+      $Data->{hans}->{$c4}->{$c1}->{"jouyou:いわゆる康熙字典体"} = 1;
+    }
+    if (length $line[1]) {
+      my $c3 = sprintf ':jinmei-%s', $line[1];
+      $Data->{hans}->{$c2}->{$c3}->{"jisx0213:annex7:2.1 b):人名用漢字許容字体表"} = 1;
+      unless ($JouyouS56->{$line[0]}) {
+        my $c5 = sprintf ':jinmei-%s', $line[0];
+        $Data->{hans}->{$c2}->{$c5}->{"jisx0213:annex7:2.1 b):jinmei"} = 1;
+      }
+    }
+  }
+  $Data->{hans}->{":jis1-94-31"}->{":jouyou-s56kouki-闘"}->{'jisx0213:annex7:2.1 b):常用漢字表:いわゆる康煕字典体'} = 1;
+}
+
+{
+  use utf8;
+  my $path = $ThisPath->child ('jinmeih16-mapping.txt');
+  for (split /\x0A/, $path->slurp_utf8) {
+    my @line = split /\t/, $_, -1;
+    my $c1 = sprintf ':jinmei-%s', $line[0];
+    my $c2 = sprintf ':jis%s', $line[2];
+    my $c3 = sprintf ':jis%s', $line[3];
+    my $c4 = chr hex $line[4];
+    $Data->{hans}->{$c1}->{$c2}->{'jish16:3.' .$line[1]. ':jisx0208'} = 1;
+    $Data->{hans}->{$c1}->{$c3}->{'jish16:3.' .$line[1]. ':jisx0213'} = 1;
+    $Data->{hans}->{$c1}->{$c4}->{'jish16:3.' .$line[1]. ':ucs'} = 1;
+  }
+}
+
+my $Version2Key = {
+      1 => "jisx0208:1978:glyph",
+      2 => "jisx0208:1983:glyph",
+      3 => "jisx9051:glyph",
+      4 => "jisx9052:glyph",
+      5 => 'jis:1990:ir:glyph',
+      6 => 'jis:1990:glyph',
+      7 => 'jisx0213:fdis:glyph',
+      8 => 'jisx0213:2000:glyph',
+      9 => 'jisx0213:ir:glyph',
+
+      "1978cor1w" => "jisx0208:1978:pr1cor:wrong",
+      "1978cor1c" => "jisx0208:1978:pr1cor:correct",
+      "1978cor24w" => "jisx0208:1978:pr2-4cor:wrong",
+      "1978cor24c" => "jisx0208:1978:pr2-4cor:correct",
+      "1978cor24xw" => "jisx0208:1978:pr2-4cor:index:wrong",
+      "1978cor24xc" => "jisx0208:1978:pr2-4cor:index:correct",
+      "1983r1" => "jisx0208:1983:pr1:glyph",
+      "1983r5" => "jisx0208:1983:pr5:glyph",
+      "1997a7e1draft" => "jisx0208:1997:annex7:ed1:draft",
+      "1997a7e1"   => "jisx0208:1997:annex7:ed1:pr1",
+      "1997a7e1r1" => "jisx0208:1997:annex7:ed1:pr1",
+      "1997a7e1a1" => "jisx0208:1997:annex7:ed1:pr1:annex1",
+      "1997a7e1t1" => "jisx0208:1997:annex7:ed1:pr1:table1",
+      "1997a7e1r4corw" => "jisx0208:1997:annex7:ed1:pr4cor:wrong",
+      "1997a7e1r4corc" => "jisx0208:1997:annex7:ed1:pr4cor:correct",
+      "1997a7e1r7-" => "jisx0208:1997:annex7:ed1:pr7-",
+      "1997a7e1r5" => "jisx0208:1997:annex7:ed1:pr5",
+      "1997a7e1r2-4" => "jisx0208:1997:annex7:ed1:pr2-4",
+      "78" => "jisx0208:1997:78",
+      "78w" => "jisx0208:1997:78:wrong",
+      "dict78w" => "jisx0208:1997:jisdictaug:78:wrong",
+      "78/1" => "jisx0208:1997:78/1",
+      "78/2-" => "jisx0208:1997:78/2-",
+      "78/4c" => "jisx0208:1997:78/4:correct",
+      "78/4-" => "jisx0208:1997:78/4-",
+      "-78/4" => "jisx0208:1997:-78/4",
+      "-78/4X" => "jisx0208:1997:-78/4X",
+      "78/4X-" => "jisx0208:1997:78/4X-",
+      "78/5" => "jisx0208:1997:78/5",
+      "78-83" => "jisx0208:1997:78-83",
+      "83" => "jisx0208:1997:83",
+      "fdiscorw" => "jisx0213:fdis:cor:wrong",
+      "fdiscorc" => "jisx0213:fdis:cor:correct",
+      "2000corw" => "jisx0213:2000:cor:wrong",
+      "2000corc" => "jisx0213:2000:cor:correct",
+};
+{
+  my $path = $ThisPath->child ('heisei-fallback.txt');
+  for (split /\x0A/, $path->slurp) {
+    my @line = split /\t/, $_, -1;
+    my $c1 = ':' . $line[0];
+    my $c2 = glyph_to_char $line[1];
+    my $key = get_vkey $c1;
+    my $rel_type = $line[2] ? 'manakai:similarglyph' : 'manakai:equivglyph';
+    $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+  }
+}
+{
+  my $path = $ThisPath->child ('jis-heisei.txt');
+  for (split /\x0A/, $path->slurp) {
+    my @line = split /\t/, $_, -1;
+    my $c1 = ':jis' . $line[0];
+    my $c2 = glyph_to_char $line[2];
+    my $key = get_vkey $c1;
+    my $rel_type = $Version2Key->{$line[1]} // die;
+    if (not is_heisei_char $c2) {
+      if ($line[3] eq "~") {
+        $rel_type .= ":similar";
+      } else {
+        $rel_type .= ":equiv";
+      }
+    }
+    $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+
+    my $rel_type_2 = {
+      "jisx9051:glyph:equiv" => 'manakai:equivglyph',
+      "jisx9051:glyph:similar" => 'manakai:similarglyph',
+      "jisx9052:glyph:equiv" => 'manakai:equivglyph',
+      "jisx9052:glyph:similar" => 'manakai:similarglyph',
+    }->{$rel_type};
+    if (defined $rel_type_2) {
+      my $c3 = $c1;
+      $c3 =~ s/^:jis/:jis-dot16-/ if $rel_type =~ /^jisx9051/;
+      $c3 =~ s/^:jis/:jis-dot24-/ if $rel_type =~ /^jisx9052/;
+      $Data->{glyphs}->{$c3}->{$c2}->{$rel_type_2} = 1;
+    }
+  }
+}
+{
+  my $path = $ThisPath->child ('jisucs.txt');
+  for (split /\x0A/, $path->slurp_utf8) {
+    my @line = split /\t/, $_, -1;
+    if ($line[0] eq '#') {
+      #
+    } elsif ($line[0] =~ /^[12]-/) {
+      my $c1 = ':jis' . $line[0];
+      my $c2 = join '', map { chr hex $_ } split / /, $line[2];
+      my $key = get_vkey $c1;
+      my $rel_type = {
+        1 => "jisx0212:ucs",
+        2 => "jisx0213:2000:ucs",
+        "2f" => "jisx0213:2000:fullwidth:ucs",
+        "2p" => "jisx0213:2000:ucs:()",
+        "2x" => "jisx0213:2000:annex11",
+        "2xp" => "jisx0213:2000:annex11:()",
+        "2c" => "jisx0213:2000cor:ucs",
+        "2cp" => "jisx0213:2000cor:ucs:()",
+        3 => "jisx0213:2004:ucs",
+        o => "manakai:related",
+      }->{$line[1]} // die $line[1];
+      if ($rel_type =~ /\(\)$/) {
+        my $c2_2 = sprintf ':u-juki-%x', ord $c2;
+        $Data->{$key}->{$c1}->{$c2_2}->{$rel_type} = 1;
+        $Data->{codes}->{$c2}->{$c2_2}->{'manakai:private'} = 1;
+      } else {
+        $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+      }
+    } elsif ($line[0] eq 'j') {
+      my $c1 = sprintf ':jis%s', $line[2];
+      $c1 = sprintf ':jis-dot16-%s', $line[2] if $line[1] eq 3;
+      $c1 = sprintf ':jis-dot24-%s', $line[2] if $line[1] eq 4;
+      my $c2 = sprintf ':jis%s', $line[3];
+      my $rel_type = {
+        1 => 'jis:1990:forkedjis1978w',
+        2 => 'jis:2000:forkedjis1978w',
+        3 => 'jis:2000:moved',
+        4 => 'jis:2000:moved',
+      }->{$line[1]};
+      my $key = get_vkey $c2;
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif ($line[0] =~ /^g(.+)$/) {
+      my $c1 = ':jis' . $1;
+      for my $i (1..9) {
+        for (split /,/, $line[$i]) {
+          my @v = split / /, $_;
+          my $t = shift @v;
+          my $c1 = $c1;
+          $c1 = sprintf ':jis-dot16-%s', $1 if $i == 3;
+          $c1 = sprintf ':jis-dot24-%s', $1 if $i == 4;
+          my $rel_type = {
+            e => 'manakai:equivglyph',
+            u => 'manakai:unified',
+            f => 'manakai:equivalent',
+          }->{$t} // die $t;
+          $rel_type .= ":" . ($Version2Key->{$i} // die "Bad version |$i|");
+          my $c2 = join '', map { chr hex $_ } @v;
+          my $key = get_vkey $c2;
+          $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        }
+      }
+    } elsif ($line[0] =~ m{^-?\w[\w/-]*$}) {
+      my $c1 = $line[0] eq 's' ? ':jistype-simplified-' . $line[1] : ':jis' . $line[1];
+      my $c2 = join '', map { chr hex $_ } split / /, $line[3];
+      my $key = get_vkey $c2;
+      my $rel_type = {
+        e => ($line[0] eq 's' ? 'manakai:unified' : 'manakai:equivglyph'),
+        u => 'manakai:unified',
+        f => 'manakai:equivalent',
+      }->{$line[2]} // die $line[2];
+      $rel_type .= ":" . ($Version2Key->{$line[0]} // die "Bad version |$line[0]|")
+          unless $line[0] eq 's';
+      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+    } else {
+      die "Bad line |$_|";
+    }
+  }
+}
+{
+  my $path = $ThisPath->child ('jismoved.txt');
+  for (split /\x0A/, $path->slurp) {
+    my @line = split /\t/, $_, -1;
+    my $c1 = $line[0] =~ /^:/ ? $line[0] : $line[0] =~ / / ? join '', map { chr hex $_ } split / /, $line[0] : ':jis' . $line[0];
+    my $c2 = $line[2] =~ /^:/ ? $line[2] : $line[2] =~ / / ? join '', map { chr hex $_ } split / /, $line[2] : ':jis' . $line[2];
+    my $key = get_vkey $c1;
+    my $rel_type = {
+      f2 => "jis:1990:forkedjis1978",
+      f3 => "jis:2000:forkedjis1978",
+      f4 => "jis:2004:forkedjis1978",
+      m1 => "jis:1983:moved",
+      mc1 => "jis:1983:movechanged",
+      m3 => "jis:2000:moved",
+      mc3 => "jis:2000:movechanged",
+      mc3x => "jis:2000:variantadded",
+      m4 => "jis:2004:moved",
+      mc4 => "jis:2004:movechanged",
+      e3 => "jis:2000:merged",
+      m5 => "mj:moved",
+      r5 => 'mj:shared:equiv',
+      c5 => 'mj:shared:similar',
+    }->{$line[1]} // die $line[1];
+    $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+  }
+}
 
 write_rel_data_sets
     $Data => $ThisPath, 'variants',
     [
+      qr/^:jis1/,
+      qr/^:jis2/,
+      qr/^:jis-/,
       qr/^:jis/,
       qr/^:u/,
       qr/^[\x{3000}-\x{6FFF}]/,
+      qr/^:J/,
+      qr/^:I/,
+      qr/^:KS[012]/,
+      qr/^:K/,
+      qr/^:T/,
+      qr/^:[a-z]/,
+      qr/^:[A-Z]/,
     ];
 
 ## License: Public Domain.

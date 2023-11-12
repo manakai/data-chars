@@ -32,3 +32,11 @@ Glyphs) 標準化文件, with or without modifications.
 <https://github.com/ichitenfont/inheritedglyphs>:
 
 > 本作品以共享創意-署名4.0授權協議<https://creativecommons.org/licenses/by/4.0/>授權。
+
+* BabelStone Han data files
+
+Some of data in this directory are derived from BabelStone Han, with or without modifications.
+
+<https://www.babelstone.co.uk/Fonts/Han.html>:
+
+> BabelStone Han is released under the original Arphic Public License<http://ftp.gnu.org/non-gnu/chinese-fonts-truetype/LICENSE>, and may be used and distributed freely for personal or commercial purposes. The license also allows you to modify the font in any way you like (e.g. add/remove/modify glyphs or change the character mappings) without seeking my permission, as long as the modified font retains the Arphic Public License. If you do intend to distribute a modified version of BabelStone Han, please ensure that the font name (and all relevant fields in the name table) is changed to something different, so as not to cause confusion between my font and your modified font. In particular, please do not use "BabelStone" in the font name.

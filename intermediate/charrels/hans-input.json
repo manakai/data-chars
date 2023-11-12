@@ -45,6 +45,9 @@
     {"path": "../unicode/maps-27.list", "rels_key": "hans"},
     {"path": "../unicode/maps-28.list", "rels_key": "hans"},
     {"path": "../unicode/maps-29.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-30.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-31.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-32.list", "rels_key": "hans"},
     {
       "path": "../unicode/maps2.list",
       "rels_key": "hans"
@@ -109,6 +112,16 @@
     {"path": "../jp/variants-1.list", "rels_key": "hans"},
     {"path": "../jp/variants-2.list", "rels_key": "hans"},
     {"path": "../jp/variants-3.list", "rels_key": "hans"},
+    {"path": "../jp/variants-4.list", "rels_key": "hans"},
+    {"path": "../jp/variants-5.list", "rels_key": "hans"},
+    {"path": "../jp/variants-6.list", "rels_key": "hans"},
+    {"path": "../jp/variants-7.list", "rels_key": "hans"},
+    {"path": "../jp/variants-8.list", "rels_key": "hans"},
+    {"path": "../jp/variants-9.list", "rels_key": "hans"},
+    {"path": "../jp/variants-10.list", "rels_key": "hans"},
+    {"path": "../jp/variants-11.list", "rels_key": "hans"},
+    {"path": "../jp/variants-12.list", "rels_key": "hans"},
+    {"path": "../jp/variants-13.list", "rels_key": "hans"},
     {
       "path": "../cns/maps.list",
       "rels_key": "hans"
@@ -153,6 +166,10 @@
     {"path": "../adobe/maps-10.list", "rels_key": "hans"},
     {"path": "../adobe/maps-11.list", "rels_key": "hans"},
     {"path": "../adobe/maps-12.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-13.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-14.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-15.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-16.list", "rels_key": "hans"},
     {
       "path": "../opencc/variants.list",
       "rels_key": "hans"
@@ -277,10 +294,9 @@
       "path": "../cjkvi/hd-10.list",
       "rels_key": "hans"
     },
-    {
-      "path": "../cjkvi/hd-11.list",
-      "rels_key": "hans"
-    },
+    {"path": "../cjkvi/hd-11.list", "rels_key": "hans"},
+    {"path": "../cjkvi/hd-12.list", "rels_key": "hans"},
+    {"path": "../cjkvi/hd-13.list", "rels_key": "hans"},
     {"path": "../cjkvi/ids-0.list", "rels_key": "hans"},
     {"path": "../cjkvi/ids-1.list", "rels_key": "hans"},
     {"path": "../cjkvi/ids-2.list", "rels_key": "hans"},
@@ -308,6 +324,8 @@
     {"path": "../wiki/maps-3.list", "rels_key": "hans"},
     {"path": "../wiki/maps-4.list", "rels_key": "hans"},
     {"path": "../wiki/maps-5.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-6.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-7.list", "rels_key": "hans"},
     {"path": "../fonts/maps-0.list", "rels_key": "hans"},
     {
       "path": "../misc/maps.list",
