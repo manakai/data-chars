@@ -144,6 +144,9 @@ $(TEMPWM_PATH)/gw-jinmeikoseki.txt:
 ../jp/jouyouh22-table.json:
 	cd ../jp && $(MAKE) jouyouh22-table.json
 
+../misc/gmap.json:
+	cd ../misc && $(MAKE) gmap.json
+
 $(TEMPUC_PATH)/unihan3.txt:
 	cd ../unicode && $(MAKE) $(TEMPUC_PATH)/unihan3.txt
 
