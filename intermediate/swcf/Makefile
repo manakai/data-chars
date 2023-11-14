@@ -27,9 +27,9 @@ $(TEMPUC_PATH)/unihan-irg-t.txt \
 $(TEMPUC_PATH)/unihan-irg-v.txt \
 $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt:: %:
 	cd ../unicode && $(MAKE) $@
-$(TEMPCNS_PATH)/cns-0.txt \
-$(TEMPCNS_PATH)/cns-2.txt \
-$(TEMPCNS_PATH)/cns-15.txt:: %:
+$(TEMPCNS_PATH)/cns-0-swcf.txt \
+$(TEMPCNS_PATH)/cns-2-swcf.txt \
+$(TEMPCNS_PATH)/cns-15-swcf.txt:: %:
 	cd ../cns && $(MAKE) $@
 $(TEMPWM_PATH)/gwrelated.txt \
 $(TEMPWM_PATH)/gwalias.txt \
@@ -56,9 +56,9 @@ $(TEMPAD_PATH)/swcf-hanmin-mapping.json: swcf-hanmin-mapping.pl \
     $(TEMPUC_PATH)/unihan-irg-v.txt \
     $(TEMPUC_PATH)/nnt-dump.json \
     $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
-    $(TEMPCNS_PATH)/cns-0.txt \
-    $(TEMPCNS_PATH)/cns-2.txt \
-    $(TEMPCNS_PATH)/cns-15.txt \
+    $(TEMPCNS_PATH)/cns-0-swcf.txt \
+    $(TEMPCNS_PATH)/cns-2-swcf.txt \
+    $(TEMPCNS_PATH)/cns-15-swcf.txt \
     $(TEMPWM_PATH)/gwrelated.txt \
     $(TEMPWM_PATH)/gwalias.txt \
     $(TEMPWM_PATH)/gwothers.txt \
