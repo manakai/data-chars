@@ -35,9 +35,9 @@ $(TEMP_PATH)/uvs.txt.2:
 $(TEMP_PATH)/uvs.txt.3:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/nomfoundation/font/10c78eaadc898794687213cf1127c73f86a1c5a4/src/UnicodeVariationSequences.txt
 
-$(TEMPAD_PATH)/opentype.js:
+$(TEMPUC_PATH)/opentype.js:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/manakai/opentypejs/master/dist/opentype.js
-$(TEMPAD_PATH)/dumpotf.js: ../adobe/dumpotf.js
+$(TEMPUC_PATH)/dumpotf.js: ../adobe/dumpotf.js
 	cp $< $@
 $(TEMPUC_PATH)/nnt.ttf:
 	$(SAVEURL) $@ https://fonts.suikawiki.org/opentype/nom-506/NomNaTong-Regular.ttf
