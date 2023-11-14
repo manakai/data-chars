@@ -631,7 +631,7 @@ data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
 	$(PERL) $< > $@
 
 # referenced from https://github.com/suikawiki/swdata
-build-swdata: build-pages build-nightly
+build-swdata: build-pages-iu build-nightly
 
 build-nightly: local/generated build-nightly-iu
 
@@ -650,7 +650,7 @@ build-github-pages: local/generated build-pages-iu
 	rm -fr local/ config perl prove
 
 deployed-github-pages:
-	$(CURL) -X POST -d "{}" $$HOOK_NEXT_STEP_URL
+	$(CURL) -f -X POST -d "{}" $$HOOK_NEXT_STEP_URL
 
 build-for-docker: local/generated build-pages-iu
 	cp config/Dockerfile.pages ./Dockerfile
@@ -670,6 +670,7 @@ build-pages-iu: deps
 	cd intermediate/viet && $(MAKE) build-pages
 	cd intermediate/fonts && $(MAKE) build-pages
 	cd intermediate/misc && $(MAKE) build-pages
+	cd intermediate/swcf && $(MAKE) build-pages
 	#
 	cd intermediate/charrels && $(MAKE) build-pages
 
