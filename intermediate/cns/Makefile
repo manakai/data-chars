@@ -30,10 +30,13 @@ $(TEMP_PATH)/cns-15.txt: $(TEMP_PATH)/cns.zip
 	mv $(TEMP_PATH)/Open_Data/MapingTables/Unicode/CNS2UNICODE_Unicode\ 15.txt $@
 	touch $@
 $(TEMP_PATH)/cns-0-swcf.txt:
+	mkdir -p $(TEMP_PATH)
 	$(SAVEURL) $@ https://fonts.suikawiki.org/opentype/cns11643-20221114/cns-0.txt
 $(TEMP_PATH)/cns-2-swcf.txt:
+	mkdir -p $(TEMP_PATH)
 	$(SAVEURL) $@ https://fonts.suikawiki.org/opentype/cns11643-20221114/cns-2.txt
 $(TEMP_PATH)/cns-15-swcf.txt:
+	mkdir -p $(TEMP_PATH)
 	$(SAVEURL) $@ https://fonts.suikawiki.org/opentype/cns11643-20221114/cns-15.txt
 $(TEMP_PATH)/cnsb5-0.txt: $(TEMP_PATH)/cns.zip
 	cd $(TEMP_PATH) && unzip cns.zip Open_Data/MapingTables/Big5/CNS2BIG5.txt
