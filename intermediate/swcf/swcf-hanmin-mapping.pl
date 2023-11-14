@@ -131,8 +131,8 @@ my $Heisei = {};
 my $CNS = {};
 my $UCNS = {};
 for my $path (
-  $TempCNSPath->child ('cns-0.txt'),
-  $TempCNSPath->child ('cns-2.txt'),
+  $TempCNSPath->child ('cns-0-swcf.txt'),
+  $TempCNSPath->child ('cns-2-swcf.txt'),
 ) {
   for (split /\x0D?\x0A/, $path->slurp) {
     if (/^([0-9]+)-([0-9A-F]+)\t([0-9A-F]+)$/) {
@@ -147,7 +147,7 @@ for my $path (
   }
 }
 for my $path (
-  $TempCNSPath->child ('cns-15.txt'),
+  $TempCNSPath->child ('cns-15-swcf.txt'),
 ) {
   for (split /\x0D?\x0A/, $path->slurp) {
     if (/^([0-9]+)-([0-9A-F]+)\t([0-9A-F]+)$/) {
