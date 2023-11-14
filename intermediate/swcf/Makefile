@@ -15,6 +15,8 @@ all: build
 
 build: swcf-hanmin-mapping.txt $(TEMPAD_PATH)/swcf-hanmin-mapping.json
 
+build-pages: build
+
 IVD_VERSION = 2022-09-13
 $(TEMPUC_PATH)/$(IVD_VERSION)/IVD_Sequences.txt \
 $(TEMPUC_PATH)/unihan-irg-s.txt \
