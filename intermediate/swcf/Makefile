@@ -14,6 +14,8 @@ SAVEURL = $(WGET) -O
 all: build
 
 build: swcf-hanmin-mapping.txt $(TEMPAD_PATH)/swcf-hanmin-mapping.json
+	mkdir -p $(ROOT_PATH)/tmp
+	cp $(TEMPAD_PATH)/swcf-hanmin-mapping.json $(ROOT_PATH)/tmp/
 
 build-pages: build
 
