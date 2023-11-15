@@ -637,7 +637,7 @@ build-nightly: local/generated build-nightly-iu
 
 build-github-pages: local/generated build-pages-iu
 	cd intermediate/charrels && $(MAKE) clean-pages
-	rm -fr ./bin/ ./modules/ ./t_deps/ intermediate src data deps
+	rm -fr ./bin/ ./modules/ ./t_deps/ deps
 	mv local/generated generated
 	rm -fr ./local
 	mkdir local
