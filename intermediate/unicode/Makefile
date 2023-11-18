@@ -39,6 +39,7 @@ $(TEMP_PATH)/15/unihan.zip:
 $(TEMP_PATH)/unihan.zip:
 	$(SAVEURL) $@ https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
 $(TEMP_PATH)/15/Unihan_DictionaryIndices.txt \
+$(TEMP_PATH)/15/Unihan_IRGSources.txt \
 $(TEMP_PATH)/15/Unihan_OtherMappings.txt:: %: $(TEMP_PATH)/15/unihan.zip
 	cd $(TEMP_PATH)/15 && unzip unihan.zip $(notdir $@)
 	touch $@
