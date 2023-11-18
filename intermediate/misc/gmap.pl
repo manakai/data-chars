@@ -95,6 +95,8 @@ my $Data = {};
             push @item, [$1, $2, ''];
           } elsif (/^:u-juki-([0-9a-f]+)$/) {
             push @item, ['juuki', (sprintf '%04X', hex $1), ''];
+          } elsif (/^:cns-(kai|sung)-([0-9]+)-([0-9]+)-([0-9]+)$/) {
+            push @item, ['cns', (sprintf '%d-%d-%d', $2, $3, $4), $1];
           } else {
             die "Bad value |$_|";
           }

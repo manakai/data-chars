@@ -24,6 +24,8 @@ $(TEMPUC_PATH)/$(IVD_VERSION)/IVD_Sequences.txt \
 $(TEMPUC_PATH)/unihan-irg-s.txt \
 $(TEMPUC_PATH)/unihan-irg-g.txt \
 $(TEMPUC_PATH)/unihan-irg-h.txt \
+$(TEMPUC_PATH)/unihan-irg-k.txt \
+$(TEMPUC_PATH)/unihan-irg-m.txt \
 $(TEMPUC_PATH)/unihan-irg-uk.txt \
 $(TEMPUC_PATH)/unihan-irg-t.txt \
 $(TEMPUC_PATH)/unihan-irg-v.txt \

@@ -108,8 +108,10 @@ sub value_to_char ($) {
       ["3四半回転類似" => 'manakai:3四半回転類似'],
       [類義 => "manakai:類義"],
       [対義 => "manakai:対義"],
+      [IDS => "manakai:ids", 'descs'],
     ) {
       my ($k, $rel_type) = @$_;
+      my $key = $_->[2] // $key;
       for my $value (@{$item->{$k}}) {
         my $c2 = value_to_char $value;
         next unless defined $c2;

@@ -207,6 +207,26 @@ my $HasH = {};
     }
   }
 }
+my $HasK = {};
+{
+  my $path = $TempUCPath->child ('unihan-irg-k.txt');
+  for (split /\x0A/, $path->slurp) {
+    if (/^U\+([0-9A-F]+)\tkIRG_KSource\t/) {
+      my $ucs = sprintf '%04X', hex $1;
+      $HasK->{$ucs} = 1;
+    }
+  }
+}
+my $HasM = {};
+{
+  my $path = $TempUCPath->child ('unihan-irg-m.txt');
+  for (split /\x0A/, $path->slurp) {
+    if (/^U\+([0-9A-F]+)\tkIRG_MSource\t/) {
+      my $ucs = sprintf '%04X', hex $1;
+      $HasM->{$ucs} = 1;
+    }
+  }
+}
 my $HasV = {};
 {
   my $path = $TempUCPath->child ('unihan-irg-v.txt');
@@ -677,6 +697,12 @@ for my $code (@UnicodeRange) {
     $Data->{_counts}->{gw_byname}++;
   } elsif ($GW->{$ucs} and $GW->{$ucs}->{gidc}) {
     $Data->{chars}->{$ucs}->{default} = $GW->{$ucs}->{gidc};
+    $Data->{_counts}->{gw_byname}++;
+  } elsif ($GW->{$ucs} and $GW->{$ucs}->{k} and $HasK->{$ucs}) {
+    $Data->{chars}->{$ucs}->{default} = $GW->{$ucs}->{k};
+    $Data->{_counts}->{gw_byname}++;
+  } elsif ($GW->{$ucs} and $GW->{$ucs}->{m} and $HasM->{$ucs}) {
+    $Data->{chars}->{$ucs}->{default} = $GW->{$ucs}->{m};
     $Data->{_counts}->{gw_byname}++;
   } elsif ($GW->{$ucs} and $GW->{$ucs}->{''}) {
     $Data->{chars}->{$ucs}->{default} = $GW->{$ucs}->{''};
