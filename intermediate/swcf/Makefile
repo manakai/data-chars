@@ -58,6 +58,8 @@ $(TEMPAD_PATH)/swcf-hanmin-mapping.json: swcf-hanmin-mapping.pl \
     $(TEMPUC_PATH)/unihan-irg-uk.txt \
     $(TEMPUC_PATH)/unihan-irg-t.txt \
     $(TEMPUC_PATH)/unihan-irg-v.txt \
+    $(TEMPUC_PATH)/unihan-irg-k.txt \
+    $(TEMPUC_PATH)/unihan-irg-m.txt \
     $(TEMPUC_PATH)/nnt-dump.json \
     $(ROOT_PATH)/local/unicode/latest/StandardizedVariants.txt \
     $(TEMPCNS_PATH)/cns-0-swcf.txt \
