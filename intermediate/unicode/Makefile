@@ -159,7 +159,7 @@ $(TEMP_PATH)/MathClassExt.txt:
 	$(SAVEURL) $@ https://www.unicode.org/Public/math/revision-15/MathClassEx-15.txt
 
 $(TEMP_PATH)/cjk-symbols-map.txt:
-	$(SAVEURL) $@ https://raw.githubusercontent.com/unicode-org/cjk-symbols/main/map.txt
+	$(SAVEURL) $@ https://raw.githubusercontent.com/unicode-org/cjk-symbols/6c005bd8bf808bca65b9d87b770f40e2b71a9a03/map.txt
 
 variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-tghz2013.txt \
