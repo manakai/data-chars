@@ -582,10 +582,14 @@ for (
       } elsif ($line[2] =~ m{^U\+([0-9A-F]+) U\+([0-9A-F]+)$}) {
         push @c2, chr hex $1;
         push @c2, chr hex $2;
+      } elsif ($line[2] =~ m{^U\+([0-9A-F]+) U\+([0-9A-F]+) U\+([0-9A-F]+)$}) {
+        push @c2, chr hex $1;
+        push @c2, chr hex $2;
+        push @c2, chr hex $3;
       } elsif ($line[2] =~ m{^(UTC-[0-9]+)$}) {
         push @c2, ':' . $1;
       } elsif (length $line[2]) {
-        die $line[2];
+        die "Bad line |$_| ($line[2])";
       }
       my $key = 'hans';
       if (@c2) {
@@ -1153,8 +1157,9 @@ my $Jouyou = {};
     0x1F250..0x1F251, 0x1F260..0x1F265,
   ) {
     my $c1 = u_chr $code;
-    my $c2 = sprintf ':u-cjksym-%x', $code;
+    my $c2 = sprintf ':u-cjksym-%x', $code; # version 1.001
     $Data->{glyphs}->{$c1}->{$c2}->{'unicode14:glyph'} = 1;
+    ## version 2.000 (Unicode 16.0): U+31E4, U+31E5, U+3029, U+31D2
   }
 }
 
