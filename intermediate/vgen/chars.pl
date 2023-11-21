@@ -10,6 +10,8 @@ use JSON::PS;
 ##   - tbl.pl
 ##   - swdata site.js
 
+my $IDC = q/\x{2FF0}-\x{2FFF}\x{31EF}/;
+
 sub u_chr ($) {
   if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F)) {
     return sprintf ':u%x', $_[0];
@@ -188,7 +190,7 @@ sub is_han ($) {
     }
   } elsif (is_heisei_char $char) {
     return 1;
-  } elsif ($char =~ /^:[\p{Ideographic_Description_Characters}]/) {
+  } elsif ($char =~ /^:[$IDC]/o) {
     return 1;
   }
   
@@ -519,11 +521,11 @@ sub is_b5_variant ($) {
 } # is_b5_variant
 
 sub is_ids ($) {
-  return $_[0] =~ /^\p{Ideographic_Description_Characters}/;
+  return $_[0] =~ /^[$IDC]/o;
 } # is_ids
 
 sub is_ids_char ($) {
-  return $_[0] =~ /^:\p{Ideographic_Description_Characters}/;
+  return $_[0] =~ /^:[$IDC]/o;
 } # is_ids_char
 
 sub wrap_ids ($$) {
@@ -536,7 +538,7 @@ sub wrap_ids ($$) {
     return undef;
   } elsif ($s =~ /[\x21-\x7E？〓\x{FFFD}\x{303E}\x{E000}-\x{F7FF}\x{2FFB}\x{2194}\x{21B7}\x{2296}①-⑳（－]|CDP|&/) {
     return $prefix . $s;
-  } elsif ($s =~ /^\p{Ideographic_Description_Characters}/) {
+  } elsif ($s =~ /^[$IDC]/o) {
     return $s;
   } elsif ((is_han $s or is_kana $s) and not $s =~ /^:/) {
     return $s;
@@ -579,7 +581,7 @@ sub split_ids ($) {
       
       die $s if $t =~ /[\x21-\x7E]/;
 
-      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}？〓\x{FFFD}①-⑳]$/ } split //, $t;
+      push @c, grep { not /^[$IDC\x{303E}？〓\x{FFFD}①-⑳]$/o } split //, $t;
       
       return @c;
     } elsif ($s =~ /^:(yaids|radically):(.+)$/) {
@@ -609,7 +611,7 @@ sub split_ids ($) {
       }
 
       die $t if $t =~ /[\x21-\x7E]/;
-      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}\x{2194}\x{21B7}〓]$/ } split //, $t;
+      push @c, grep { not /^[$IDC\x{303E}\x{2194}\x{21B7}〓]$/o } split //, $t;
       
       return @c;
     } elsif ($s =~ /:hkcs-(.+)$/) {
@@ -622,7 +624,7 @@ sub split_ids ($) {
         '';
       }ge;
       
-      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？〓]$/ } split //, $t;
+      push @c, grep { not /^[$IDC\x{303E}?？〓]$/o } split //, $t;
 
       die $t if $t =~ /[\x21-\x7E]/;
 
@@ -637,7 +639,7 @@ sub split_ids ($) {
         '';
       }ge;
 
-      $t =~ s{[\p{Ideographic_Description_Characters}\x{303E}?？]}{}g;
+      $t =~ s{[$IDC\x{303E}?？]}{}go;
       die $t if $t =~ /[\x21-\x7E]/;
       push @c, split //, $t;
 
@@ -652,7 +654,7 @@ sub split_ids ($) {
         '';
       }ge;
       
-      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？\x{2194}\x{21B7}\x{2296}]$/ } split //, $t;
+      push @c, grep { not /^[$IDC\x{303E}?？\x{2194}\x{21B7}\x{2296}]$/o } split //, $t;
 
       die $t if $t =~ /[\x21-\x7E]/;
 
@@ -661,14 +663,14 @@ sub split_ids ($) {
       my $t = join '', map { s/^u//; chr hex $_ } split /-/, $1;
       my @c;
 
-      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}?？]$/ } split //, $t;
+      push @c, grep { not /^[$IDC\x{303E}?？]$/o } split //, $t;
 
       return @c;
     } elsif ($s =~ /:mj:(.+)$/) {
       my $t = $1;
       my @c;
 
-      push @c, grep { not /^[\p{Ideographic_Description_Characters}\x{303E}]$/ } split //, $t;
+      push @c, grep { not /^[$IDC\x{303E}]$/o } split //, $t;
 
       die $t if $t =~ /[\x21-\x7E？]/;
 
@@ -680,7 +682,7 @@ sub split_ids ($) {
     }
   } else {
     die $s if $s =~ /[\x{E000}-\x{F7FF}]/;
-    return grep { not /^\p{Ideographic_Description_Characters}$/ } split //, $s;
+    return grep { not /^[$IDC]$/o } split //, $s;
   }
 } # split_ids
 

@@ -1159,6 +1159,20 @@ my $JA2Char = {};
     for (sort { $a cmp $b } keys %{$group->{jisrev}->{''} or {}}) {
       push @c1, ':jis-pubrev-' . $_;
     }
+    for (sort { $a cmp $b } keys %{$group->{cns}->{kai} or {}}) {
+      push @c1, ':cns-kai-' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{cns}->{sung} or {}}) {
+      push @c1, ':cns-sung-' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{gb}->{''} or {}}) {
+      if (/^20-/ or /^1-93-/) { # GK
+        push @c1, ':gb' . $_;
+      }
+    }
+    for (sort { $a cmp $b } keys %{$group->{ks}->{''} or {}}) {
+      push @c1, ':ks' . $_;
+    }
     next unless @c1;
     my $c1 = shift @c1;
     for my $c2 (@c1) {
