@@ -53,7 +53,9 @@ my $Data = {};
       $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kPseudoGB1)\s+(\d\d)(\d\d)$/) {
       my $c2 = sprintf ':gb%d-%d-%d', 1, $3, $4;
+      my $c2_0 = sprintf ':gb%d-%d-%d', 0, $3, $4;
       $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan3.0:$2"} = 1;
+      $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif (/^U\+([0-9A-F]+)\s+(kGB3)\s+(\d\d)(\d\d)$/) {
       my $c2 = sprintf ':gb%d-%d-%d', 2, $3, $4;
       $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan3.0:$2"} = 1;

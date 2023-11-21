@@ -173,7 +173,7 @@ sub gid ($) {
     } elsif ($g1 =~ /^tron-([0-9]+)-([0-9a-f]+)$/) {
       my $c2 = sprintf ':tron%d-%x', $1, hex $2;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
-    } elsif ($g1 =~ /^(uci|utc|uk-[0-9]+)$/) {
+    } elsif ($g1 =~ /^((?:uci|utc|uk)-[0-9]+)$/) {
       my $c2 = ':'.uc $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
     } elsif ($g1 =~ /^(md|hu|tu|gu|ku|kpu)-([0-9a-f]+)$/) {

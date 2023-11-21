@@ -123,7 +123,7 @@ for (
         my $c2_1 = $c2;
         $c2 = sprintf ':cjkvi:u%x', ord $c2;
         $Data->{hans}->{$c1}->{$c2}->{$vtype} = 1;
-        $Data->{hans}->{$c2_1}->{$c2}->{'manakai:private'} = 1;
+        $Data->{codes}->{$c2_1}->{$c2}->{'manakai:private'} = 1;
       } elsif ($vtype =~ /non-cjk|non-cognate/ and is_kana $c2 > 0) {
         my $key = 'kanas';
         $Data->{$key}->{$c1}->{$c2}->{$vtype} = 1;
@@ -215,6 +215,9 @@ for (
           $Data->{$vkey}->{$c1}->{$c5}->{$vtype.':#'} = 1 if defined $c5;
           $vtype =~ s/:ids$//;
           $Data->{$vkey}->{$c1}->{$c6}->{$vtype.':#:' . $v2} = 1;
+          my $c6_2 = $c6;
+          $c6_2 =~ s/^:gb1-/:gb0-/;
+          $Data->{codes}->{$c6_0}->{$c6}->{'manakai:private'} = 1;
         } else {
           die $note;
         }
@@ -253,7 +256,7 @@ for (
           } elsif (/^V\+([0-9A-Fa-f]+)$/) {
             $c2 = sprintf ':u-nom-%x', hex $1;
             my $c2_0 = chr hex $1;
-            $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+            $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
           } else {
             die $_;
           }
@@ -273,7 +276,7 @@ for (
       my $c4 = (wrap_ids $3, ':cjkvi:') // die;
       $Data->{hans}->{$c1}->{$c2}->{'cjkvi:nom_qn:variant'} = 1;
       $Data->{idses}->{$c2}->{$c4}->{'cjkvi:ids'} = 1;
-      $Data->{hans}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+      $Data->{codes}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif (/.#./) {
       die $_;
     }
