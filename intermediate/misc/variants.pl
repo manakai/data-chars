@@ -40,7 +40,7 @@ sub private ($) {
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
     if (/^\s*#/) {
       #
-    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\p{Ideographic_Description_Characters}-]+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\p{Ideographic_Description_Characters}-]+)\s*$/) {
+    } elsif (/^(\w+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\p{Ideographic_Description_Characters}\x{2606}:-]+)\s+([\w\\\{\}\x{20000}-\x{3FFFF}]+|:[\w\p{Ideographic_Description_Characters}\x{2606}:-]+)\s*$/) {
       my $vtype = {
         sconflict => 'manakai:variant:simplifiedconflicted',
         conflict => 'manakai:variant:conflicted',
