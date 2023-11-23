@@ -1173,6 +1173,9 @@ my $JA2Char = {};
     for (sort { $a cmp $b } keys %{$group->{ks}->{''} or {}}) {
       push @c1, ':ks' . $_;
     }
+    for (sort { $a cmp $b } keys %{$group->{inherited}->{''} or {}}) {
+      push @c1, ':inherited-' . $_;
+    }
     next unless @c1;
     my $c1 = shift @c1;
     for my $c2 (@c1) {
