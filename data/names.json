@@ -89607,6 +89607,18 @@
       "2FFB" : {
          "name" : "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID"
       },
+      "2FFC" : {
+         "name" : "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM RIGHT"
+      },
+      "2FFD" : {
+         "name" : "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT"
+      },
+      "2FFE" : {
+         "name" : "IDEOGRAPHIC DESCRIPTION CHARACTER HORIZONTAL REFLECTION"
+      },
+      "2FFF" : {
+         "name" : "IDEOGRAPHIC DESCRIPTION CHARACTER ROTATION"
+      },
       "2FFFE" : {
          "label" : "noncharacter-2FFFE"
       },
@@ -91256,6 +91268,9 @@
       },
       "31E3" : {
          "name" : "CJK STROKE Q"
+      },
+      "31EF" : {
+         "name" : "IDEOGRAPHIC DESCRIPTION CHARACTER SUBTRACTION"
       },
       "31F0" : {
          "ja_name" : "小書き片仮名ク",
@@ -142411,6 +142426,9 @@
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
       "2CEB0 2EBE0" : {
+         "name" : "CJK UNIFIED IDEOGRAPH-"
+      },
+      "2EBF0 2EE5D" : {
          "name" : "CJK UNIFIED IDEOGRAPH-"
       },
       "30000 3134A" : {

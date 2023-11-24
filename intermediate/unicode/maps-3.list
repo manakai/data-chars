@@ -3519,6 +3519,9 @@ unicode:security:confusable
 ucd:Equivalent_Unified_Ideograph
 ucd:names:x
 unicode:security:confusable
+-"⺚"
+"⽆"
+ucd:names:x
 -"⺛"
 "旡"
 ucd:Equivalent_Unified_Ideograph
@@ -6536,6 +6539,9 @@ ucd:names:x
 -"₡"
 "C⃫"
 unicode:security:confusable
+-"₣"
+"Ꞙ"
+ucd:names:x
 -"₤"
 "£"
 ucd:names:preferred-some
@@ -6985,6 +6991,8 @@ uts46:mapping
 "ʒ"
 ucd:names:x
 "🝳"
+ucd:names:x
+"𬼄"
 ucd:names:x
 -"Ω"
 "Ω"
@@ -8427,6 +8435,8 @@ unicode5.1:Bidi_Mirroring_Glyph
 unicode5.1:Bidi_Mirroring_Glyph-BEST-FIT
 unicode:Bidi_Mirroring_Glyph
 unicode:Bidi_Mirroring_Glyph-BEST-FIT
+"⪇"
+ucd:names:x
 -"≨︀"
 "≨"
 unicode:svs:base
@@ -8438,6 +8448,8 @@ unicode:Bidi_Mirroring_Glyph
 unicode:Bidi_Mirroring_Glyph-BEST-FIT
 "≩︀"
 unicode:svs
+"⪈"
+ucd:names:x
 -"≩︀"
 "≩"
 unicode:svs:base
@@ -14739,17 +14751,25 @@ rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
 -"Ⱡ"
+"Ƚ"
+ucd:names:x
 "ⱡ"
 unicode:Case_Folding
 unicode:Lowercase_Mapping
 unicode:NFKC_Casefold
 uts46:mapping
 -"ⱡ"
+"ƚ"
+ucd:names:x
 "Ⱡ"
 rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
+"ꬸ"
+ucd:names:x
 -"Ɫ"
+"Ł"
+ucd:names:x
 "ɫ"
 ucd:names:lc
 unicode:Case_Folding
@@ -14786,6 +14806,7 @@ unicode:Uppercase_Mapping
 "H̩"
 unicode:security:confusable
 "Ң"
+ucd:names:x
 unicode:security:intentional
 "ⱨ"
 unicode:Case_Folding
@@ -14801,6 +14822,7 @@ unicode:Uppercase_Mapping
 "K̩"
 unicode:security:confusable
 "Қ"
+ucd:names:x
 unicode:security:intentional
 "ⱪ"
 unicode:Case_Folding
@@ -14813,6 +14835,8 @@ rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
 -"Ⱬ"
+"Ȥ"
+ucd:names:x
 "ⱬ"
 unicode:Case_Folding
 unicode:Lowercase_Mapping
@@ -14844,6 +14868,8 @@ unicode:Case_Folding
 unicode:Lowercase_Mapping
 unicode:NFKC_Casefold
 uts46:mapping
+"∀"
+ucd:names:x
 -"Ɒ"
 "ɒ"
 ucd:names:lc
@@ -14883,6 +14909,14 @@ ucd:names:x
 rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
+"ꟶ"
+ucd:names:x
+-"ⱷ"
+"φ"
+ucd:names:x
+-"ⱻ"
+"Ǝ"
+ucd:names:x
 -"ⱼ"
 "J"
 rfc5051:titlecase-canonical
@@ -14904,6 +14938,8 @@ unicode:Case_Folding
 unicode:Lowercase_Mapping
 unicode:NFKC_Casefold
 uts46:mapping
+"Ʂ"
+ucd:names:x
 -"Ɀ"
 "ɀ"
 ucd:names:lc

@@ -2976,6 +2976,8 @@ unicode:Bidi_Paired_Bracket
 -"*"
 "٭"
 ucd:names:x
+"※"
+ucd:names:x
 "⁂"
 ucd:names:x
 "⁎"
@@ -3011,6 +3013,8 @@ ucd:names:x
 "٫"
 ucd:names:x
 "‚"
+ucd:names:x
+"⸒"
 ucd:names:x
 "⹁"
 ucd:names:x
@@ -3063,6 +3067,22 @@ unicode:svs:base
 -"1"
 "l"
 unicode:security:confusable
+-"2"
+"ƻ"
+ucd:names:x
+"↊"
+ucd:names:x
+-"3"
+"↋"
+ucd:names:x
+"Ɜ"
+ucd:names:x
+-"4"
+"Ꜭ"
+ucd:names:x
+-"5"
+"Ƽ"
+ucd:names:x
 -";"
 ";"
 ucd:names:x
@@ -3103,6 +3123,8 @@ ucd:names:x
 "゠"
 ucd:names:x
 "꞊"
+ucd:names:x
+"﹦"
 ucd:names:x
 "𐆐"
 ucd:names:x
@@ -3148,6 +3170,9 @@ ucd:names:x
 "⹔"
 ucd:names:x
 "�"
+ucd:names:x
+-"@"
+"ⓐ"
 ucd:names:x
 -"A"
 "a"
@@ -3284,6 +3309,8 @@ unicode:Case_Folding
 unicode:Lowercase_Mapping
 unicode:NFKC_Casefold
 uts46:mapping
+"Ϲ"
+ucd:names:x
 "С"
 unicode:security:intentional
 "ℂ"
@@ -3354,6 +3381,8 @@ unicode:Case_Folding
 unicode:Lowercase_Mapping
 unicode:NFKC_Casefold
 uts46:mapping
+"Ɛ"
+ucd:names:x
 "Ε"
 unicode:security:intentional
 "ℇ"
@@ -3897,6 +3926,8 @@ unicode:Case_Folding
 unicode:Lowercase_Mapping
 unicode:NFKC_Casefold
 uts46:mapping
+"Ԛ"
+ucd:names:x
 "ℚ"
 ucd:names:x
 "℺"
@@ -4153,6 +4184,8 @@ unicode:Case_Folding
 unicode:Lowercase_Mapping
 unicode:NFKC_Casefold
 uts46:mapping
+"Ԝ"
+ucd:names:x
 -"Ẁ"
 "Ẁ"
 unicode:canon_composition
@@ -4306,6 +4339,8 @@ ucd:names:x
 ucd:names:x
 "‸"
 ucd:names:x
+"∧"
+ucd:names:x
 "⌃"
 ucd:names:x
 -"_"
@@ -4322,9 +4357,15 @@ ucd:names:x
 -"`"
 "'"
 unicode:security:confusable
+"´"
+ucd:names:x
 "ˋ"
 ucd:names:x
 "̀"
+ucd:names:x
+"`"
+ucd:names:x
+"‘"
 ucd:names:x
 "‵"
 ucd:names:x
@@ -4333,6 +4374,8 @@ ucd:names:x
 rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
+"ɑ"
+ucd:names:x
 "а"
 unicode:security:intentional
 -"à"
@@ -4441,8 +4484,12 @@ unicode:canon_composition
 rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
+"ϲ"
+ucd:names:x
 "с"
 unicode:security:intentional
+"ᴄ"
+ucd:names:x
 -"ć"
 "ć"
 unicode:canon_composition
@@ -4467,6 +4514,7 @@ rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
 "ԁ"
+ucd:names:x
 unicode:security:intentional
 -"ḋ"
 "ḋ"
@@ -4579,6 +4627,10 @@ unicode:canon_composition
 rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
+"ƒ"
+ucd:names:x
+"ꬵ"
+ucd:names:x
 -"ḟ"
 "ḟ"
 unicode:canon_composition
@@ -4712,6 +4764,7 @@ unicode:Uppercase_Mapping
 "ȷ"
 ucd:names:x
 "ϳ"
+ucd:names:x
 unicode:security:intentional
 "𝚥"
 ucd:names:x
@@ -4828,6 +4881,8 @@ unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
 "ο"
 unicode:security:intentional
+"ᴏ"
+ucd:names:x
 "ℴ"
 ucd:names:x
 "ꬽ"
@@ -4952,6 +5007,8 @@ unicode:canon_composition
 rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
+"ԛ"
+ucd:names:x
 -"r"
 "R"
 rfc5051:titlecase-canonical
@@ -4993,6 +5050,8 @@ unicode:Uppercase_Mapping
 ucd:names:x
 "ѕ"
 unicode:security:intentional
+"ꜱ"
+ucd:names:x
 -"ś"
 "ś"
 unicode:canon_composition
@@ -5163,6 +5222,10 @@ unicode:canon_composition
 rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
+"ԝ"
+ucd:names:x
+"ᴡ"
+ucd:names:x
 -"ẁ"
 "ẁ"
 unicode:canon_composition
@@ -5242,6 +5305,8 @@ rfc5051:titlecase-canonical
 unicode:Titlecase_Mapping
 unicode:Uppercase_Mapping
 "ƶ"
+ucd:names:x
+"ᴢ"
 ucd:names:x
 -"ź"
 "ź"

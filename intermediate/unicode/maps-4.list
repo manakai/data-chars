@@ -2568,6 +2568,8 @@ unihan:kMorohashi
 "凶"
 unihan:kSemanticVariant
 -"㐬"
+":JD0118"
+unicode:j:glyph
 ":cns4-3-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4799,6 +4801,8 @@ ivd:Hanyo-Denshi
 "㒻"
 ivd:base
 -"㒼"
+":JD0311"
+unicode:j:glyph
 ":b5-hkscs-8ada"
 unihan:kIRG_HSource
 ":cns5-17-6"
