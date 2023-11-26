@@ -1,4 +1,7 @@
 *chars
+-":swc163"
+":gw-u5eff-itaiji-001"
+manakai:unified
 -":swc563"
 ":gw-u662d-itaiji-001"
 manakai:unified
@@ -14,6 +17,12 @@ manakai:unified
 -":swc570"
 ":gw-u4ea1-g"
 manakai:unified
+-":swc575"
+"⿸广永"
+manakai:alt
+-":swc576"
+"⿸广永"
+manakai:alt
 *descs
 -"卄󠄁"
 "⿰十十"
@@ -27,6 +36,9 @@ manakai:equivalent
 manakai:alt
 -":swc15"
 "䄵"
+manakai:equivalent
+-":swc163"
+"卄"
 manakai:equivalent
 -":swc301"
 "年"
