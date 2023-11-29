@@ -8,7 +8,7 @@ Path::Class~0.37
 Path::Tiny~0.144
 Scalar::Util~1.63
 Test::Differences~0.71
-Test::More~1.302195
+Test::More~1.302197
 Test::NoWarnings~1.06
 Text::Diff~1.45
 Types::Serialiser~1.01
