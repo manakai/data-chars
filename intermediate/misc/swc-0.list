@@ -198,6 +198,9 @@ manakai:equivalent
 -":swc573"
 "公󠄂"
 manakai:alt
+-":swc578"
+"曼"
+manakai:equivalent
 -":swc82"
 "年"
 manakai:equivalent
@@ -207,6 +210,9 @@ manakai:equivalent
 -"㇯"
 "⊖"
 manakai:alt
+-"丑"
+"刄󠄂"
+manakai:equivalent
 -"仇"
 "敵"
 manakai:doukun
@@ -271,6 +277,11 @@ manakai:lookslike
 manakai:lookslike
 -"好"
 "女子"
+manakai:lookslike
+-"工"
+"エ"
+manakai:lookslike
+"ユ"
 manakai:lookslike
 -"影"
 "陰"
