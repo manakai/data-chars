@@ -481,6 +481,11 @@ manakai:lookslike
 -"ん"
 "h"
 manakai:lookslike
+-"゙"
+"\u0022"
+manakai:alt
+"”"
+manakai:alt
 -"ウ"
 "ム"
 manakai:related
