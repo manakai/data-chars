@@ -949,6 +949,16 @@ manakai:unified:jisx9052:glyph
     "opencc:st_multi",
     "opencc:ts_multi",
     "opencc:variant",
+    "starcc:CNTradVariants",
+    "starcc:CNTradVariantsRev",
+    "starcc:HKVariants",
+    "starcc:HKVariantsRev",
+    "starcc:JPVariants",
+    "starcc:JPVariantsRev",
+    "starcc:TWVariants",
+    "starcc:TWVariantsRev",
+    "gujicc:SGCharacters",
+    "gujicc:GSCharacters",
     
     "cjkvi:jp/borrowed",
     "cjkvi:jp/borrowed:拡張新字体",
@@ -1044,6 +1054,31 @@ manakai:unified:jisx9052:glyph
     for my $vtype ($pair->[0]) {
       $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
       $TypeWeight->{'nto1:'.$vtype} = -1;
+    }
+  }
+  for my $pair (
+    ["opencc:STCharacters", "opencc:TSCharacters"],
+    ["opencc:st_multi", "opencc:ts_multi"],
+    ["starcc:CNTradVariants", "starcc:CNTradVariantsRev"],
+    ["starcc:HKVariants", "starcc:HKVariantsRev"],
+    ["starcc:JPVariants", "starcc:JPVariantsRev"],
+    ["starcc:TWVariants", "starcc:TWVariantsRev"],
+    ["gujicc:SGCharacters", "gujicc:GSCharacters"],
+  ) {
+    push @$PairedTypes, $pair;
+    my $unused = -2;
+    for my $vtype ($pair->[0]) {
+      $TypeWeight->{'to1:'.$vtype} = $unused;
+      $TypeWeight->{'nto1:'.$vtype} = $unused;
+      $TypeWeight->{'to1:rev:'.$vtype} = $unused;
+      $TypeWeight->{'nto1:rev:'.$vtype} = $unused;
+      $TypeWeight->{'1to1:'.$vtype} = W 'SAME';
+    }
+    for my $vtype ($pair->[1]) {
+      $TypeWeight->{$vtype} = $unused;
+      $TypeWeight->{'rev:'.$vtype} = $unused;
+      $TypeWeight->{'to1:'.$vtype} = $unused;
+      $TypeWeight->{'to1:rev:'.$vtype} = $unused;
     }
   }
   push @$NTypes, qw(
