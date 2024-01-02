@@ -1,8 +1,22 @@
 * OpenCC data files
 
-Some of data in this directory derived from OpenCC data files
-available at <https://github.com/BYVoid/OpenCC>.
+Some of data in this directory are derived from OpenCC data files
+<https://github.com/BYVoid/OpenCC>, with or without modifications.
 
-License of the OpenCC data files: 
-<https://github.com/BYVoid/OpenCC/blob/master/LICENSE>
-(Apache License 2.0).  See |../../doc/LICENSE.apache2|.
+License of the OpenCC data files:
+<https://github.com/BYVoid/OpenCC/blob/master/LICENSE> (Apache License
+2.0).  See |../../doc/LICENSE.apache2|.
+
+Some of data in this directory are derived from StarCC data files
+<https://github.com/StarCC0/dict>, with or without modifications.
+
+License of the OpenCC data files:
+<https://github.com/StarCC0/dict/blob/main/LICENSE> (Apache License
+2.0).  See |../../doc/LICENSE.apache2|.
+
+Some of data in this directory are derived from GujiCC data files
+<https://github.com/forFudan/GujiCC>, with or without modifications.
+
+License of the GujiCC data files:
+<https://github.com/forFudan/GujiCC/blob/main/LICENSE.txt> (Apache
+License 2.0).  See |../../doc/LICENSE.apache2|.
