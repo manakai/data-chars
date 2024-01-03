@@ -34,9 +34,6 @@
                }
             },
             {
-              "run": "sleep 120",
-            },
-            {
                "id" : "deployment",
                "name" : "Deploy",
                "uses" : "actions/deploy-pages@main"
