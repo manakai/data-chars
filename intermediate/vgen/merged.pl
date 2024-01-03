@@ -1072,7 +1072,7 @@ manakai:unified:jisx9052:glyph
       $TypeWeight->{'nto1:'.$vtype} = $unused;
       $TypeWeight->{'to1:rev:'.$vtype} = $unused;
       $TypeWeight->{'nto1:rev:'.$vtype} = $unused;
-      $TypeWeight->{'1to1:'.$vtype} = W 'SAME';
+      $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
     }
     for my $vtype ($pair->[1]) {
       $TypeWeight->{$vtype} = $unused;
