@@ -28,12 +28,11 @@
             },
             {
                "name" : "Upload artifact",
-               "uses" : "actions/upload-pages-artifact@v1",
+               "uses" : "actions/upload-pages-artifact@main",
                "with" : {
                   "path" : "."
                }
             },
-            {"run": "sleep 120"},
             {
                "id" : "deployment",
                "name" : "Deploy",
