@@ -441,6 +441,11 @@ manakai:lookslike
 manakai:lookslike
 "キ"
 manakai:lookslike
+-"こ"
+"い"
+manakai:四半回転類似
+"乙"
+manakai:lookslike
 -"さ"
 "き"
 manakai:lookslike
@@ -514,6 +519,15 @@ manakai:lookslike
 -"ク"
 "ワ"
 manakai:lookslike
+-"コ"
+"ユ"
+manakai:lookslike
+"冂"
+manakai:3四半回転類似
+"凵"
+manakai:四半回転類似
+"匚"
+manakai:左右反転類似
 -"シ"
 "ソ"
 manakai:lookslike
