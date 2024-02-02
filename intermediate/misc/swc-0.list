@@ -216,6 +216,19 @@ manakai:alt
 -"丑"
 "刄󠄂"
 manakai:equivalent
+-"二"
+"こ"
+manakai:lookslike
+"ニ"
+manakai:lookslike
+"一"
+manakai:lookslike
+"一一"
+manakai:lookslike
+"三"
+manakai:lookslike
+"乙"
+manakai:lookslike
 -"仇"
 "敵"
 manakai:doukun
@@ -325,6 +338,9 @@ manakai:lookslike
 -"會"
 "曾"
 manakai:lookslike
+-"未"
+"末"
+manakai:lookslike
 -"本"
 "元"
 manakai:doukun
@@ -349,6 +365,11 @@ manakai:related
 manakai:doukun
 "🛢"
 manakai:related
+-"田"
+"由"
+manakai:lookslike
+"甲"
+manakai:lookslike
 -"白"
 "臼"
 manakai:lookslike
@@ -363,6 +384,9 @@ manakai:lookslike
 manakai:related
 "🇺🇸"
 manakai:related
+-"細"
+"紬"
+manakai:lookslike
 -"終"
 "了"
 manakai:doukun
@@ -804,6 +828,8 @@ manakai:lookslike
 manakai:related
 "O"
 manakai:lookslike
+"級"
+manakai:related
 -"R"
 "P"
 manakai:lookslike
@@ -851,6 +877,9 @@ manakai:lookslike
 "9"
 manakai:lookslike
 "g"
+manakai:lookslike
+-"r"
+"v"
 manakai:lookslike
 -"|"
 "│"
