@@ -931,6 +931,11 @@ manakai:lookslike
 manakai:related
 "階"
 manakai:related
+-"G"
+"㌘"
+manakai:related
+"令"
+manakai:lookslike
 -"L"
 "し"
 manakai:lookslike
@@ -1014,6 +1019,11 @@ manakai:lookslike
 -"f"
 "t"
 manakai:lookslike
+-"g"
+"q"
+manakai:lookslike
+"㌘"
+manakai:related
 -"m"
 "3"
 manakai:四半回転類似
