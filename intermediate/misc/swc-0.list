@@ -287,6 +287,11 @@ manakai:lookslike
 -"公"
 "ハム"
 manakai:lookslike
+-"六"
+"元"
+manakai:lookslike
+"大"
+manakai:lookslike
 -"力"
 "カ"
 manakai:lookslike
@@ -321,6 +326,15 @@ manakai:doukun
 "十一"
 manakai:lookslike
 "土"
+manakai:lookslike
+-"大"
+"元"
+manakai:lookslike
+"六"
+manakai:lookslike
+"太"
+manakai:lookslike
+"犬"
 manakai:lookslike
 -"好"
 "女子"
@@ -924,6 +938,8 @@ manakai:lookslike
 manakai:lookslike
 "l3"
 manakai:lookslike
+"阝"
+manakai:lookslike
 -"F"
 "E"
 manakai:lookslike
@@ -1078,6 +1094,15 @@ manakai:回転類似
 -"þ"
 "y"
 manakai:related
+-"β"
+"8"
+manakai:lookslike
+"B"
+manakai:lookslike
+"阝"
+manakai:lookslike
+"👂"
+manakai:lookslike
 -"∞"
 "8"
 manakai:四半回転類似
