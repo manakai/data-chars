@@ -846,6 +846,9 @@ manakai:related
 manakai:related
 "?!"
 manakai:related
+-"(21)"
+"ロリ"
+manakai:lookslike
 -"*"
 "※"
 manakai:related
@@ -1028,6 +1031,8 @@ manakai:lookslike
 manakai:lookslike
 "∽"
 manakai:四半回転類似
+"〜"
+manakai:lookslike
 -"V"
 "5"
 manakai:related
