@@ -212,7 +212,9 @@ my $NTypes = [];
 "unicode6.1:j:glyph:equiv",
 "unicode6.1:j:glyph:similar",
 "unicode6.2:j:glyph:equiv",
-"unicode6.2:j:glyph:similar",
+    "unicode6.2:j:glyph:similar",
+    "unicode6.1:u:glyph:similar",
+    "unicode6.2:u:glyph:similar",
     
     "unihan:kZVariant",
     "cjkvi:ucs-scs/variant",
@@ -623,6 +625,7 @@ manakai:unified:jisx9052:glyph
     "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:4",
     "mj:法務省戸籍法関連通達・通知:戸籍統一文字情報 親字・正字:5",
 
+    "gsi:地名情報で取り扱う漢字:異体字セレクタで表現される漢字",
     "jouyou:いわゆる康熙字典体",
     "jouyou:許容字体",
     "jish22:jisx0208:other",
@@ -985,6 +988,7 @@ manakai:unified:jisx9052:glyph
       'mj:音価3',
     "kana:manyou",
     "manakai:jinmeikana",
+    "manakai:idu",
     
     "irc:ascii-lowercase",
     "irc:rfc1459-lowercase",
@@ -1141,6 +1145,9 @@ manakai:unified:jisx9052:glyph
     "nta:JIS縮退マップ:コード変換",
     "nta:JIS縮退マップ:文字列変換",
     "nta:JIS縮退マップ:類似字形",
+
+    "gsi:地名情報で取り扱う漢字:JIS X 0213（第 1～第 4 水準漢字）の範囲外の漢字",
+    "gsi:地名情報で取り扱う漢字:JIS X 0221 の追加面で表現される漢字",
 
     "mj:非漢字",
     

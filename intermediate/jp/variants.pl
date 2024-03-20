@@ -1053,6 +1053,31 @@ my $Version2Key = {
   }
 }
 
+{
+  use utf8;
+  my $path = $ThisPath->child ('gsi-r060301.txt');
+  my $rel_type;
+  for (split /\x0A/, $path->slurp_utf8) {
+    if (/^\*\s*(\S.+\S)\s*$/) {
+      $rel_type = 'gsi:地名情報で取り扱う漢字:' . $1;
+    } elsif (/^U\+([0-9A-F]+)\s+U\+([0-9A-F]+)$/) {
+      my $c1 = u_chr hex $1;
+      my $c2 = u_chr hex $2;
+      $Data->{hans}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif (/^U\+([0-9A-F]+) ([0-9A-F]+)\s+U\+([0-9A-F]+) ([0-9A-F]+)$/) {
+      my $c1 = (u_chr hex $1) . (u_chr hex $2);
+      my $c2 = (u_chr hex $3) . (u_chr hex $4);
+      $Data->{hans}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif (/^U\+([0-9A-F]+)\s+(\p{Hiragana}+)\s*$/) {
+      my $c1 = u_chr hex $1;
+      my $c2 = $2;
+      $Data->{hans}->{$c1}->{$c2}->{$rel_type} = 1;
+    } elsif (/\S/) {
+      die "Bad line: |$_|";
+    }
+  }
+}
+
 write_rel_data_sets
     $Data => $ThisPath, 'variants',
     [

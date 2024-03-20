@@ -207,6 +207,10 @@ differentiated 傳 傅
 
 differentiated 世 丗
 
+conflict 燗 爛
+conflict 燗 間
+related 燗 間
+
 variant 𠂆 石
 variant 𠂆 曳
 conflict 𠂆 石

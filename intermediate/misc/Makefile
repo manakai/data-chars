@@ -10,7 +10,7 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) variants.list maps.list sets.json swc-0.list \
+build: $(TEMP_PATH) variants.list maps.list sets.json swc-0.list gmap.json \
     build-pages
 
 build-nightly: build

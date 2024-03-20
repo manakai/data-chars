@@ -8,7 +8,9 @@ PERL = $(ROOT_PATH)/perl \
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: variants-0.list
+all: build
+
+build: variants-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -57,7 +59,8 @@ variants-0.list: variants.pl $(VGEN_PATH)/chars.pl \
     heisei-fallback.txt \
     jis-heisei.txt \
     jisucs.txt \
-    jismoved.txt
+    jismoved.txt \
+    gsi-r060301.txt
 	$(PERL) $<
 variants-*.list: variants-0.list
 

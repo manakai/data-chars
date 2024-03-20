@@ -973,11 +973,14 @@ my $JouyouOld = {};
   for (split /\n/, decode_web_utf8 $path->slurp) {
     my @v = split /\s+/, $_;
     my $c1 = shift @v;
+    my $key = get_vkey $c1;
+    my $type = 'kana:manyou';
+    $type = 'manakai:idu' if $key eq 'kchars';
     for my $c2 (@v) {
-      $Data->{kanas}->{$c1}->{$c2}->{'kana:manyou'} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
     }
     if ($c1 =~ /^:(.)/) {
-      $Data->{kanas}->{$1}->{$c1}->{'manakai:unified'} = 1;
+      $Data->{$key}->{$1}->{$c1}->{'manakai:unified'} = 1;
     }
   }
 }
@@ -1108,6 +1111,7 @@ my $JA2Char = {};
           ipa1 => 1,
           ipa3 => 1,
           ex => 1,
+          mj => 1,
           SWC => 1,
         }->{$k2};
         my $rel_type = $UnicodeRelTypes->{$k2} // die $k2;

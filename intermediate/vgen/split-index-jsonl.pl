@@ -21,7 +21,7 @@ my $FileDef = {
   }
 
   my $level = -1;
-  my $limit = 5000;
+  my $limit = 1000; # see also: |site.js|'s |cPartSize|
   my $file_index = 0;
   my $i = 0;
   my $out_file;

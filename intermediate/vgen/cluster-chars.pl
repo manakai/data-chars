@@ -37,7 +37,7 @@ sub cci ($) {
 
 my $Data = [];
 {
-  my $PartSize = 5000;
+  my $PartSize = 1000; # see also: |site.js|'s |cPartSize|
   my $path = $DataPath->child ("cluster-temp.jsonl");
   print STDERR "\rLoading |$path|... ";
   my $file = $path->openr;

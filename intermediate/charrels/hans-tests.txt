@@ -241,4 +241,8 @@
 當 噹 COVERED !EQUIV
 𪠽 噹 COVERED
 
+燗 爛 COVERED !EQUIV
+燗 間 RELATED !EQUIV
+𤏐 燗 COVERED 
+
 ## License: Public Domain.
