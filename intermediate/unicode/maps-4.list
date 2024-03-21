@@ -6353,6 +6353,8 @@ unihan:kKangXi
 ":m2377"
 unihan:kMorohashi
 -"㔟"
+":JD0340"
+unicode:j:glyph
 ":jis10-1-48"
 unihan3.0:kIRG_JSource
 ":kx147-38-1"

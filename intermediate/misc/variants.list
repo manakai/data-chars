@@ -8275,6 +8275,9 @@ manakai:doukun
 -"爐"
 "炉"
 geolonia:oldnew
+-"爛"
+"燗"
+manakai:variant:conflicted
 -"爭"
 "争"
 geolonia:oldnew
@@ -12956,6 +12959,10 @@ manakai:kakekotoba
 manakai:doukun
 "飽"
 manakai:doukun
+-"間"
+"燗"
+manakai:related
+manakai:variant:conflicted
 -"関"
 "关"
 manakai:inset:original
