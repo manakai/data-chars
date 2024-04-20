@@ -639,6 +639,11 @@ manakai:doukun
 manakai:doukun
 "馘首"
 manakai:doukun
+-"魂"
+"塊"
+manakai:lookslike
+"魄"
+manakai:lookslike
 -"鳥"
 "島"
 manakai:lookslike
@@ -1286,6 +1291,11 @@ manakai:lookslike
 manakai:related
 -"f"
 "t"
+manakai:lookslike
+-"fi"
+"h̑"
+manakai:lookslike
+"ɦ"
 manakai:lookslike
 -"g"
 "q"
