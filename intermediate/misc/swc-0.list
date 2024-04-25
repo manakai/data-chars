@@ -748,9 +748,11 @@ manakai:左右反転類似
 -"し"
 "1"
 manakai:lookslike
-":tate-ー"
+"C"
 manakai:lookslike
 "レ"
+manakai:lookslike
+"ー"
 manakai:lookslike
 "乚"
 manakai:lookslike
@@ -816,6 +818,8 @@ manakai:lookslike
 "I"
 manakai:lookslike
 "T"
+manakai:lookslike
+"ユ"
 manakai:lookslike
 "工"
 manakai:lookslike
