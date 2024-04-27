@@ -675,6 +675,13 @@ manakai:lookslike
 manakai:lookslike
 "烏"
 manakai:lookslike
+-"𖿱"
+"⚡️"
+manakai:lookslike
+"く"
+manakai:lookslike
+"ㄅ"
+manakai:lookslike
 -"𠀀"
 "ㄛ"
 manakai:related
@@ -714,6 +721,9 @@ manakai:equivalent
 -"𭥇"
 "彌"
 manakai:equivalent
+-"𱣗"
+"𱣗𖿱"
+manakai:related
 *kanas
 -":swc42"
 "り"
