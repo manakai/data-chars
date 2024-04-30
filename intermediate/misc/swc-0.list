@@ -300,6 +300,9 @@ manakai:lookslike
 manakai:related
 "重"
 manakai:related
+-"仂"
+"イカ"
+manakai:lookslike
 -"仇"
 "敵"
 manakai:doukun
@@ -358,6 +361,9 @@ manakai:related
 "○"
 manakai:lookslike
 "回"
+manakai:lookslike
+-"古"
+"占"
 manakai:lookslike
 -"右"
 "→"
@@ -434,6 +440,9 @@ manakai:lookslike
 -"字"
 "学"
 manakai:lookslike
+-"守"
+"守護"
+manakai:doukun
 -"工"
 "I"
 manakai:lookslike
