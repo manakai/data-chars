@@ -1147,6 +1147,17 @@ manakai:lookslike
 manakai:半回転類似
 "b"
 manakai:lookslike
+-"7"
+"1"
+manakai:lookslike
+"9"
+manakai:lookslike
+"ク"
+manakai:lookslike
+"フ"
+manakai:lookslike
+"ワ"
+manakai:lookslike
 -"8"
 "B"
 manakai:lookslike
@@ -1345,6 +1356,8 @@ manakai:回転類似
 "×"
 manakai:lookslike
 "✗"
+manakai:lookslike
+"メ"
 manakai:lookslike
 "十"
 manakai:related
