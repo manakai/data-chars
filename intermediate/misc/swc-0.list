@@ -443,6 +443,10 @@ manakai:lookslike
 -"守"
 "守護"
 manakai:doukun
+-"完"
+"宍"
+manakai:lookslike
+manakai:related
 -"工"
 "I"
 manakai:lookslike
@@ -1098,7 +1102,11 @@ manakai:lookslike
 -"*"
 "※"
 manakai:related
+"★"
+manakai:related
 "☆"
+manakai:related
+"尻"
 manakai:related
 "星"
 manakai:related
