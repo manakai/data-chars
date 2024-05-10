@@ -5997,6 +5997,7 @@ starcc:CNTradVariantsRev
 starcc:CNTradVariantsRev
 -"幷"
 "并"
+gujicc:SGCharacters
 opencc:variant
 starcc:CNTradVariants
 -"幸"
@@ -7263,7 +7264,6 @@ gujicc:SGCharacters
 opencc:STCharacters
 -"抬"
 "擡"
-gujicc:SGCharacters
 starcc:HKVariantsRev
 starcc:TWVariantsRev
 -"抵"
@@ -7914,6 +7914,7 @@ gujicc:GSCharacters
 opencc:TSCharacters
 -"擡"
 "抬"
+gujicc:GSCharacters
 opencc:HKVariants
 opencc:TWVariants
 opencc:variant
