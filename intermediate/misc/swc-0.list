@@ -397,6 +397,13 @@ manakai:related
 -"員"
 "盲"
 manakai:lookslike
+-"回"
+"周"
+manakai:doukun
+"廻"
+manakai:related
+"輪姦"
+manakai:doukun
 -"士"
 "±"
 manakai:lookslike
@@ -481,6 +488,9 @@ manakai:lookslike
 manakai:related
 "受"
 manakai:lookslike
+-"成"
+"為"
+manakai:doukun
 -"損"
 "捐"
 manakai:lookslike
@@ -559,6 +569,9 @@ manakai:lookslike
 manakai:alt
 "氏"
 manakai:alt
+-"殺"
+"演"
+manakai:doukun
 -"水"
 "木"
 manakai:lookslike
@@ -575,6 +588,9 @@ manakai:related
 "脂"
 manakai:doukun
 "🛢"
+manakai:related
+-"炎"
+"涅槃"
 manakai:related
 -"王"
 "主"
@@ -1785,6 +1801,9 @@ manakai:related
 "฿"
 manakai:related
 "バーツ"
+manakai:related
+-"華厳"
+"花ム"
 manakai:related
 -"﷼"
 "R"
