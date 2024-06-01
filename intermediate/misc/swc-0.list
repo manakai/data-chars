@@ -414,11 +414,15 @@ manakai:lookslike
 "土"
 manakai:lookslike
 -"大"
+"丈"
+manakai:lookslike
 "元"
 manakai:lookslike
 "六"
 manakai:lookslike
 "太"
+manakai:lookslike
+"夫"
 manakai:lookslike
 "犬"
 manakai:lookslike
@@ -623,6 +627,9 @@ manakai:lookslike
 manakai:related
 "一白"
 manakai:lookslike
+-"硬"
+"軟"
+manakai:半回転類似
 -"第"
 "弟"
 manakai:lookslike
@@ -1351,6 +1358,8 @@ manakai:lookslike
 "し"
 manakai:lookslike
 "レ"
+manakai:lookslike
+"ㄱ"
 manakai:lookslike
 "乚"
 manakai:lookslike
