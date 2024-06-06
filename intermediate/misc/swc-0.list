@@ -270,6 +270,15 @@ manakai:related
 -"丑"
 "刄󠄂"
 manakai:equivalent
+-"丸"
+"○"
+manakai:related
+"●"
+manakai:related
+"◯"
+manakai:related
+"。"
+manakai:related
 -"九"
 "丸"
 manakai:lookslike
@@ -632,6 +641,8 @@ manakai:lookslike
 manakai:lookslike
 "畑"
 manakai:related
+"龱"
+manakai:equivalent
 -"白"
 "日"
 manakai:lookslike
@@ -750,6 +761,11 @@ manakai:lookslike
 manakai:lookslike
 "烏"
 manakai:lookslike
+-"龱"
+"区|"
+manakai:lookslike
+"図"
+manakai:lookslike
 -"𖿱"
 "⚡️"
 manakai:lookslike
@@ -775,6 +791,11 @@ manakai:lookslike
 manakai:lookslike
 "𖿣"
 manakai:related
+-"𡆥"
+"ト⃞"
+manakai:lookslike
+"圕"
+manakai:equivalent
 -"𣃥"
 "㢱"
 manakai:equivalent
@@ -855,6 +876,8 @@ manakai:四半回転類似
 manakai:lookslike
 -"さ"
 "き"
+manakai:lookslike
+"け"
 manakai:lookslike
 "ち"
 manakai:左右反転類似
@@ -992,6 +1015,8 @@ manakai:lookslike
 manakai:lookslike
 -"ト"
 "┣"
+manakai:lookslike
+"⺊"
 manakai:lookslike
 "卜"
 manakai:lookslike
@@ -1704,6 +1729,9 @@ manakai:related
 "○"
 manakai:related
 "⛺️"
+manakai:related
+"厶"
+manakai:lookslike
 manakai:related
 "🏕️"
 manakai:related
