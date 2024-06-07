@@ -387,6 +387,11 @@ manakai:related
 manakai:lookslike
 "石"
 manakai:lookslike
+-"否"
+"¬"
+manakai:related
+"杏"
+manakai:lookslike
 -"味"
 "昧"
 manakai:lookslike
@@ -1602,6 +1607,13 @@ manakai:alt
 manakai:related
 "ⓒ"
 manakai:related
+-"¬"
+"!"
+manakai:related
+"¯"
+manakai:related
+"「"
+manakai:lookslike
 -"®"
 "(R)"
 manakai:alt
