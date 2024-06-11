@@ -648,6 +648,9 @@ manakai:lookslike
 manakai:related
 "龱"
 manakai:equivalent
+-"畠"
+"畑"
+manakai:doukun
 -"白"
 "日"
 manakai:lookslike
@@ -683,7 +686,25 @@ manakai:related
 "紬"
 manakai:lookslike
 -"終"
+"\u0004"
+manakai:related
+"\u001A"
+manakai:related
+"//"
+manakai:related
+"∎"
+manakai:related
+"■"
+manakai:related
+"□"
+manakai:related
+"▨"
+manakai:related
+"〼"
+manakai:related
 "了"
+manakai:doukun
+"畢"
 manakai:doukun
 -"給"
 "玉"
@@ -956,6 +977,8 @@ manakai:alt
 "P"
 manakai:lookslike
 "フノ"
+manakai:lookslike
+"了"
 manakai:lookslike
 -"ウ"
 "ム"
@@ -1371,6 +1394,20 @@ manakai:lookslike
 manakai:lookslike
 "阝"
 manakai:lookslike
+-"C"
+"\u003C"
+manakai:lookslike
+"O"
+manakai:lookslike
+"Ɔ"
+manakai:半回転類似
+manakai:左右反転類似
+"く"
+manakai:lookslike
+"し"
+manakai:lookslike
+"匚"
+manakai:lookslike
 -"D"
 "P"
 manakai:lookslike
@@ -1411,6 +1448,8 @@ manakai:lookslike
 "工"
 manakai:lookslike
 -"L"
+"7"
+manakai:半回転類似
 "し"
 manakai:lookslike
 "レ"
@@ -1512,6 +1551,10 @@ manakai:lookslike
 manakai:lookslike
 "👍"
 manakai:lookslike
+-"c"
+"ɔ"
+manakai:半回転類似
+manakai:左右反転類似
 -"e"
 "o"
 manakai:lookslike
