@@ -1072,6 +1072,9 @@ manakai:lookslike
 -"ホ"
 "木"
 manakai:lookslike
+-"ボ"
+"朮"
+manakai:lookslike
 -"ワ"
 "ウ"
 manakai:lookslike
@@ -1538,6 +1541,12 @@ manakai:related
 manakai:lookslike
 "S"
 manakai:左右反転類似
+"ロ"
+manakai:related
+"露"
+manakai:related
+"🇷🇺"
+manakai:related
 -"b"
 "6"
 manakai:lookslike
