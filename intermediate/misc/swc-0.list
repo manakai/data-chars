@@ -605,6 +605,11 @@ manakai:related
 -"李"
 "季"
 manakai:lookslike
+-"次"
+"→"
+manakai:related
+"継"
+manakai:doukun
 -"武"
 "式"
 manakai:lookslike
@@ -1779,6 +1784,13 @@ manakai:lookslike
 manakai:lookslike
 "🛇"
 manakai:lookslike
+-"←"
+"\u003C-"
+manakai:lookslike
+"前"
+manakai:related
+"戻"
+manakai:related
 -"↑"
 "^"
 manakai:related
