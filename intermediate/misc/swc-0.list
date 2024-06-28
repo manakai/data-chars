@@ -623,6 +623,8 @@ manakai:alt
 -"殺"
 "演"
 manakai:doukun
+"遣"
+manakai:doukun
 -"水"
 "木"
 manakai:lookslike
@@ -1033,6 +1035,9 @@ manakai:3四半回転類似
 manakai:四半回転類似
 "匚"
 manakai:左右反転類似
+-"サ"
+":UTC-03396"
+manakai:lookslike
 -"シ"
 "ソ"
 manakai:lookslike
@@ -1094,6 +1099,9 @@ manakai:lookslike
 manakai:lookslike
 -"ボ"
 "朮"
+manakai:lookslike
+-"ユ"
+":UTC-0337"
 manakai:lookslike
 -"ワ"
 "ウ"
