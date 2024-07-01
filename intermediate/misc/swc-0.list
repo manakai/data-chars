@@ -980,6 +980,11 @@ manakai:related
 -"も"
 "₺"
 manakai:lookslike
+-"ら"
+"5"
+manakai:lookslike
+"ち"
+manakai:lookslike
 -"わ"
 "ね"
 manakai:lookslike
@@ -1102,6 +1107,11 @@ manakai:lookslike
 manakai:lookslike
 -"ボ"
 "朮"
+manakai:lookslike
+-"マ"
+"フヽ"
+manakai:lookslike
+"ㄗ"
 manakai:lookslike
 -"ユ"
 ":UTC-0337"
@@ -1467,6 +1477,8 @@ manakai:related
 "階"
 manakai:related
 -"G"
+"C"
+manakai:lookslike
 "㌘"
 manakai:related
 "令"
@@ -1924,6 +1936,9 @@ manakai:related
 manakai:related
 "⛧"
 manakai:related
+-"⛩️"
+"开"
+manakai:lookslike
 -"⤴"
 "↑"
 manakai:related
