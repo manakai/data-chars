@@ -4,6 +4,7 @@ use utf8;
 use Path::Tiny;
 use lib glob path (__FILE__)->parent->child ('modules/*/lib');
 use JSON::PS;
+use Math::BigInt;
 
 my @data = qw(
   0           0
@@ -245,6 +246,13 @@ my @data = qw(
   三・五億    350000000
   3・5億      350000000
   1,234兆5,678億9,012万3,456 1234567890123456
+  六垓五京    600050000000000000000
+  六穣五𥝱    60005000000000000000000000000
+  六穰五秭    60005000000000000000000000000
+  五秭六穰    error
+  七千八穰    70080000000000000000000000000000
+  四百又三    403
+  四又        error
 );
 push @data,
     '4 222千' => '4222000',
@@ -261,7 +269,16 @@ my $Data = {'' => undef};
 while (@data) {
   my $input = shift @data;
   my $expected = shift @data;
-  $Data->{$input} = $expected eq 'error' ? undef : 0+$expected;
+  if ($expected eq 'error') {
+      $Data->{$input} = undef;
+  } else {
+    my $v = Math::BigInt->new ($expected);
+    if ($v < 2**32 or $expected =~ /\./) {
+      $Data->{$input} = 0+$expected;
+    } else {
+      $Data->{$input} = $v;
+    }
+  }
 }
 
 print perl2json_bytes_for_record $Data;
