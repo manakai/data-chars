@@ -238,15 +238,9 @@ sub private ($) {
 {
   my $path = $TempPath->child ('dict.ts');
   my $text = $path->slurp_utf8;
-  $text =~ /^const JIS_OLD_KANJI = '([^']+)'/m or die;
-  my $old = $1;
-  $text =~ /^const JIS_NEW_KANJI = '([^']+)'/m or die;
-  my $new = $1;
-  my @old = split /,/, $old;
-  my @new = split /,/, $new;
-  for (0..$#old) {
-    my $c1 = $old[$_];
-    my $c2 = $new[$_];
+  while ($text =~ /src\s*:\s*'([^']+)'\s*,\s*,dst\s*:\s*'([^']+)'/g) {
+    my $c1 = $1;
+    my $c2 = $2;
     $Data->{hans}->{$c1}->{$c2}->{'geolonia:oldnew'} = 1;
   }
 }

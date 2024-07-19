@@ -22,7 +22,7 @@ $(TEMP_PATH):
 	mkdir -p $@
 
 $(TEMP_PATH)/dict.ts:
-	$(SAVEURL) $@ https://raw.githubusercontent.com/geolonia/normalize-japanese-addresses/master/src/lib/dict.ts
+	$(SAVEURL) $@ https://raw.githubusercontent.com/geolonia/normalize-japanese-addresses/master/src/lib/dictionaries/jisDai2.ts
 
 $(TEMP_PATH)/swglyphs.json:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/suikawiki/extracted/master/data/extracted/data-glyph-.json
