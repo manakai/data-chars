@@ -14,7 +14,7 @@ my $Data = {};
     $cp =~ s/^U\+//;
     my $char = chr hex $cp;
     my $value = $input->{value}->[0];
-    $Data->{$char}->{cjk_numeral} = 0+$value if defined $value;;
+    $Data->{$char}->{cjk_numeral} = 0+$value if defined $value and $value < 2**32;
   }
 }
 
