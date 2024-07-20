@@ -382,7 +382,11 @@ manakai:related
 "🤐"
 manakai:related
 -"古"
+"十口"
+manakai:lookslike
 "占"
+manakai:lookslike
+"吉"
 manakai:lookslike
 -"右"
 "→"
@@ -478,6 +482,9 @@ manakai:lookslike
 -"季"
 "李"
 manakai:lookslike
+-"学"
+"楽"
+manakai:related
 -"守"
 "守護"
 manakai:doukun
@@ -485,6 +492,9 @@ manakai:doukun
 "宍"
 manakai:lookslike
 manakai:related
+-"川"
+"小"
+manakai:lookslike
 -"工"
 "I"
 manakai:lookslike
@@ -526,6 +536,11 @@ manakai:equivalent
 -"影"
 "陰"
 manakai:doukun
+-"思"
+"想"
+manakai:doukun
+"欲"
+manakai:doukun
 -"恋"
 "変"
 manakai:lookslike
@@ -544,6 +559,8 @@ manakai:lookslike
 "改"
 manakai:doukun
 -"方"
+"弓"
+manakai:lookslike
 "法"
 manakai:related
 -"旀"
@@ -580,6 +597,9 @@ manakai:lookslike
 manakai:doukun
 -"旧"
 "1日"
+manakai:lookslike
+-"旬"
+"句"
 manakai:lookslike
 -"晴"
 "☀"
@@ -668,6 +688,11 @@ manakai:lookslike
 manakai:related
 "龱"
 manakai:equivalent
+-"男"
+"♂"
+manakai:related
+"雄"
+manakai:doukun
 -"畠"
 "畑"
 manakai:doukun
@@ -856,6 +881,9 @@ manakai:equivalent
 "旀"
 manakai:equivalent
 "𭥇"
+manakai:equivalent
+-"𥝱"
+"秭"
 manakai:equivalent
 -"𫞙"
 ":touki01050710"
@@ -1125,6 +1153,13 @@ manakai:lookslike
 manakai:lookslike
 "冖"
 manakai:lookslike
+-"ヱ"
+"ア一"
+manakai:lookslike
+"卫"
+manakai:lookslike
+"𠀄"
+manakai:lookslike
 -"ヴ"
 "ブ"
 manakai:related
@@ -1259,11 +1294,17 @@ manakai:related
 "ロリ"
 manakai:lookslike
 -"*"
+"×"
+manakai:related
+"•"
+manakai:related
 "※"
 manakai:related
 "★"
 manakai:related
 "☆"
+manakai:related
+"・"
 manakai:related
 "尻"
 manakai:related
@@ -1423,6 +1464,10 @@ manakai:alt
 manakai:related
 "at"
 manakai:related
+"の"
+manakai:左右反転類似
+"🌀"
+manakai:lookslike
 "🍥"
 manakai:lookslike
 -"A"
@@ -1492,6 +1537,8 @@ manakai:lookslike
 manakai:lookslike
 "|"
 manakai:lookslike
+"İ"
+manakai:related
 "エ"
 manakai:lookslike
 "工"
@@ -1518,6 +1565,11 @@ manakai:related
 manakai:related
 "米"
 manakai:related
+-"N"
+"Z"
+manakai:四半回転類似
+"И"
+manakai:左右反転類似
 -"Q"
 "2"
 manakai:lookslike
@@ -1530,6 +1582,8 @@ manakai:related
 -"R"
 "P"
 manakai:lookslike
+"㋿"
+manakai:related
 "尺"
 manakai:lookslike
 -"S"
@@ -1555,12 +1609,23 @@ manakai:lookslike
 manakai:related
 "Y"
 manakai:lookslike
+"^"
+manakai:上下反転類似
+manakai:半回転類似
 "↓"
 manakai:lookslike
 "∨"
 manakai:lookslike
 "✌"
 manakai:lookslike
+"ソ"
+manakai:lookslike
+"レ"
+manakai:lookslike
+"越"
+manakai:related
+"🇻🇳"
+manakai:related
 -"X"
 "\u002B"
 manakai:回転類似
@@ -1595,6 +1660,13 @@ manakai:related
 manakai:related
 "🇷🇺"
 manakai:related
+-"^"
+"**"
+manakai:related
+"v"
+manakai:半回転類似
+"↑"
+manakai:related
 -"b"
 "6"
 manakai:lookslike
@@ -1603,6 +1675,8 @@ manakai:lookslike
 "d"
 manakai:左右反転類似
 "p"
+manakai:lookslike
+"ℓ"
 manakai:lookslike
 "♭"
 manakai:lookslike
@@ -1637,6 +1711,8 @@ manakai:半回転類似
 manakai:related
 "¡"
 manakai:lookslike
+"ı"
+manakai:related
 -"m"
 "3"
 manakai:四半回転類似
@@ -1652,6 +1728,13 @@ manakai:lookslike
 manakai:半回転類似
 "米"
 manakai:related
+-"n"
+"u"
+manakai:半回転類似
+"∩"
+manakai:lookslike
+"ん"
+manakai:lookslike
 -"q"
 "9"
 manakai:lookslike
@@ -1659,6 +1742,8 @@ manakai:lookslike
 manakai:lookslike
 -"r"
 "v"
+manakai:lookslike
+"Γ"
 manakai:lookslike
 -"t"
 "\u002B"
@@ -1755,6 +1840,9 @@ manakai:回転類似
 -"þ"
 "y"
 manakai:related
+-"ĸ"
+"Kʼ"
+manakai:related
 -"Θ"
 "0⃓"
 manakai:lookslike
@@ -1763,6 +1851,9 @@ manakai:lookslike
 "⦵"
 manakai:lookslike
 "日"
+manakai:lookslike
+-"Φ"
+"中"
 manakai:lookslike
 -"β"
 "8"

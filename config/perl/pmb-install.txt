@@ -4,6 +4,7 @@ Carp~1.50
 Data::Dumper~2.183
 Encode~3.21
 JSON::XS~4.03
+Math::BigInt~2.003003
 Path::Class~0.37
 Path::Tiny~0.146
 Scalar::Util~1.63

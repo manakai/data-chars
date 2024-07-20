@@ -4267,7 +4267,7 @@
          "url" : "http://kb.mozillazine.org/Network.IDN.blacklist_chars"
       },
       "$numbers:CJK-and-separator" : {
-         "chars" : "[\\u6709]",
+         "chars" : "[\\u53C8\\u6709]",
          "label" : "CJK and separator",
          "suikawiki_name" : "CJK and separator",
          "url" : "https://manakai.github.io/spec-numbers/#cjk-and-separator"
@@ -4302,6 +4302,12 @@
          "suikawiki_name" : "CJK hundred million",
          "url" : "https://manakai.github.io/spec-numbers/#cjk-hundred-million"
       },
+      "$numbers:CJK-hundred-quintillion" : {
+         "chars" : "[\\u5793]",
+         "label" : "CJK hundred quintillion",
+         "suikawiki_name" : "CJK hundred quintillion",
+         "url" : "https://manakai.github.io/spec-numbers/#cjk-hundred-quintillion"
+      },
       "$numbers:CJK-multiple-hundreds" : {
          "chars" : "[\\u7695]",
          "label" : "CJK multiple hundreds",
@@ -4326,11 +4332,23 @@
          "suikawiki_name" : "漢数字",
          "url" : "https://manakai.github.io/spec-numbers/#digits"
       },
+      "$numbers:CJK-septillion" : {
+         "chars" : "[\\u79ED\\u{25771}]",
+         "label" : "CJK septillion",
+         "suikawiki_name" : "CJK septillion",
+         "url" : "https://manakai.github.io/spec-numbers/#cjk-septillion"
+      },
       "$numbers:CJK-ten" : {
          "chars" : "[\\u5341\\u62FE]",
          "label" : "CJK ten",
          "suikawiki_name" : "CJK ten",
          "url" : "https://manakai.github.io/spec-numbers/#cjk-ten"
+      },
+      "$numbers:CJK-ten-octillion" : {
+         "chars" : "[\\u7A63\\u7A70]",
+         "label" : "CJK ten octillion",
+         "suikawiki_name" : "CJK ten octillion",
+         "url" : "https://manakai.github.io/spec-numbers/#cjk-ten-octillion"
       },
       "$numbers:CJK-ten-quadrillion" : {
          "chars" : "[\\u4EAC]",
