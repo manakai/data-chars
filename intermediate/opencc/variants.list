@@ -2394,6 +2394,9 @@ opencc:st_multi
 "馮"
 gujicc:SGCharacters
 opencc:STCharacters
+-"冰"
+"氷"
+opencc:JPVariants
 -"冲"
 "沖"
 gujicc:SGCharacters
@@ -13091,6 +13094,7 @@ opencc:TSCharacters
 -"礪"
 "砺"
 gujicc:GSCharacters
+opencc:JPVariants
 opencc:TSCharacters
 -"礫"
 "砾"
@@ -16815,6 +16819,7 @@ starcc:CNTradVariantsRev
 -"莊"
 "庄"
 gujicc:GSCharacters
+opencc:JPVariants
 opencc:TSCharacters
 "荘"
 opencc:JPVariants
