@@ -1139,6 +1139,8 @@ manakai:related
 manakai:related
 "ノシ"
 manakai:related
+"丿"
+manakai:lookslike
 "🙋"
 manakai:related
 -"ハ"
@@ -1343,6 +1345,11 @@ manakai:lookslike
 -"-"
 "㆐"
 manakai:related
+-"/"
+"\u005C"
+manakai:左右反転類似
+"丿"
+manakai:lookslike
 -"0"
 "8"
 manakai:lookslike
@@ -1684,6 +1691,11 @@ manakai:related
 manakai:related
 "🇷🇺"
 manakai:related
+-"\u005C"
+"/"
+manakai:左右反転類似
+"乀"
+manakai:lookslike
 -"^"
 "**"
 manakai:related
