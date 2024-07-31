@@ -356,6 +356,10 @@ manakai:lookslike
 manakai:lookslike
 "t"
 manakai:lookslike
+"×"
+manakai:lookslike
+"ナ"
+manakai:lookslike
 "𬂛"
 manakai:lookslike
 -"卄󠄁"
@@ -1403,10 +1407,14 @@ manakai:左右反転類似
 "S"
 manakai:lookslike
 -"6"
+"8"
+manakai:lookslike
 "9"
 manakai:半回転類似
 "b"
 manakai:lookslike
+"六"
+manakai:related
 -"7"
 "1"
 manakai:lookslike
@@ -1611,6 +1619,8 @@ manakai:lookslike
 "級"
 manakai:related
 -"R"
+"A"
+manakai:lookslike
 "P"
 manakai:lookslike
 "㋿"
