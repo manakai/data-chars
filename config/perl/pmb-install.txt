@@ -7,8 +7,8 @@ JSON::XS~4.03
 Math::BigInt~2.003003
 Path::Class~0.37
 Path::Tiny~0.146
-Scalar::Util~1.64
-Term::Table~0.020
+Scalar::Util~1.65
+Term::Table~0.022
 Test::Differences~0.71
 Test::More~1.302200
 Test::NoWarnings~1.06
