@@ -705,6 +705,13 @@ manakai:lookslike
 manakai:related
 "龱"
 manakai:equivalent
+-"申"
+"Φ"
+manakai:lookslike
+"田"
+manakai:lookslike
+"甲"
+manakai:lookslike
 -"男"
 "♂"
 manakai:related
@@ -825,6 +832,9 @@ manakai:related
 manakai:lookslike
 -"間"
 "問"
+manakai:lookslike
+-"陸"
+"陛"
 manakai:lookslike
 -"隹"
 "佳"
@@ -1151,6 +1161,8 @@ manakai:lookslike
 "🙋"
 manakai:related
 -"ハ"
+"ヘ"
+manakai:lookslike
 "八"
 manakai:lookslike
 -"フ"
