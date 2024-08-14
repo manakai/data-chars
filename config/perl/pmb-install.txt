@@ -10,7 +10,7 @@ Path::Tiny~0.146
 Scalar::Util~1.65
 Term::Table~0.022
 Test::Differences~0.71
-Test::More~1.302200
+Test::More~1.302201
 Test::NoWarnings~1.06
 Text::Diff~1.45
 Types::Serialiser~1.01
