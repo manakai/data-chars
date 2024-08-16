@@ -366,6 +366,8 @@ manakai:lookslike
 "𠥼"
 manakai:equivalent
 -"卵"
+"卯"
+manakai:lookslike
 "玉子"
 manakai:doukun
 "🐣"
@@ -617,6 +619,9 @@ manakai:doukun
 manakai:lookslike
 -"旬"
 "句"
+manakai:lookslike
+-"昇"
+"昴"
 manakai:lookslike
 -"晴"
 "☀"
@@ -2247,6 +2252,9 @@ manakai:related
 "🍸"
 manakai:related
 "🍹"
+manakai:related
+-"🐙"
+"蛸"
 manakai:related
 -"🐡"
 "🐟"
