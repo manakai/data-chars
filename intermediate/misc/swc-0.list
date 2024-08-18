@@ -725,6 +725,9 @@ manakai:doukun
 -"畠"
 "畑"
 manakai:doukun
+-"畳"
+"J"
+manakai:related
 -"白"
 "日"
 manakai:lookslike
@@ -1398,6 +1401,8 @@ manakai:related
 manakai:lookslike
 "7"
 manakai:lookslike
+"A"
+manakai:related
 "l"
 manakai:lookslike
 "|"
@@ -1530,8 +1535,12 @@ manakai:lookslike
 "🍥"
 manakai:lookslike
 -"A"
+"1"
+manakai:related
 "4"
 manakai:lookslike
+"J"
+manakai:related
 "V"
 manakai:上下反転類似
 "∧"
@@ -1541,6 +1550,8 @@ manakai:lookslike
 manakai:lookslike
 "8"
 manakai:lookslike
+"Q"
+manakai:related
 "l3"
 manakai:lookslike
 "阝"
@@ -1548,6 +1559,8 @@ manakai:lookslike
 -"C"
 "\u003C"
 manakai:lookslike
+"K"
+manakai:related
 "O"
 manakai:lookslike
 "Ɔ"
