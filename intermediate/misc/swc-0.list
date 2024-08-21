@@ -351,6 +351,9 @@ manakai:lookslike
 manakai:lookslike
 "刀"
 manakai:lookslike
+-"北"
+"比"
+manakai:lookslike
 -"十"
 "\u002B"
 manakai:lookslike
@@ -649,6 +652,9 @@ manakai:doukun
 manakai:related
 -"李"
 "季"
+manakai:lookslike
+-"村"
+"材"
 manakai:lookslike
 -"次"
 "→"
@@ -1221,6 +1227,13 @@ manakai:lookslike
 manakai:lookslike
 -"ヴ"
 "ブ"
+manakai:related
+-"ヶ"
+"か"
+manakai:related
+"が"
+manakai:related
+"こ"
 manakai:related
 -"久"
 "く"
