@@ -331,6 +331,11 @@ manakai:doukun
 manakai:lookslike
 "向"
 manakai:lookslike
+-"値"
+"価"
+manakai:doukun
+"直"
+manakai:related
 -"八"
 "/\u005C"
 manakai:lookslike
