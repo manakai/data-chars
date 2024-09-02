@@ -533,6 +533,13 @@ manakai:lookslike
 manakai:lookslike
 "👈️"
 manakai:related
+-"帖"
+"J"
+manakai:related
+"j"
+manakai:related
+"畳"
+manakai:related
 -"干"
 "∓"
 manakai:lookslike
@@ -609,6 +616,8 @@ manakai:equivalent
 "θ"
 manakai:lookslike
 "⊖"
+manakai:lookslike
+"◉"
 manakai:lookslike
 "☀"
 manakai:related
@@ -740,6 +749,8 @@ manakai:doukun
 "J"
 manakai:related
 "j"
+manakai:related
+"帖"
 manakai:related
 -"白"
 "日"
@@ -1031,6 +1042,9 @@ manakai:lookslike
 manakai:lookslike
 -"ず"
 "お"
+manakai:lookslike
+-"せ"
+"ㄝ"
 manakai:lookslike
 -"ち"
 "さ"
