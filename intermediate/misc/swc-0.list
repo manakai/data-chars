@@ -309,6 +309,9 @@ manakai:lookslike
 manakai:related
 "重"
 manakai:related
+-"人"
+"他人"
+manakai:doukun
 -"仂"
 "イカ"
 manakai:lookslike
@@ -443,6 +446,11 @@ manakai:doukun
 "廻"
 manakai:related
 "輪姦"
+manakai:doukun
+-"国"
+"クニ"
+manakai:doukun
+"邦"
 manakai:doukun
 -"士"
 "±"
@@ -675,6 +683,8 @@ manakai:related
 "季"
 manakai:lookslike
 -"村"
+"ムラ"
+manakai:doukun
 "材"
 manakai:lookslike
 -"次"
