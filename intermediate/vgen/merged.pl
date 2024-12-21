@@ -203,6 +203,7 @@ my $NTypes = [];
       
       iso10646:2000:g:glyph:equiv
       iso10646:2000:g:glyph:similar
+      iso10646:2000:j:glyph:equiv
       iso10646:2000:j:glyph:similar
       iso10646:2000:k:glyph:equiv
       iso10646:2000:k:glyph:similar

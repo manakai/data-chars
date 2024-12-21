@@ -52,7 +52,8 @@ all-data: all-ucd unicode-general-category-latest \
     data/maps.json data/number-values.json \
     data/tests/cjk-numbers.json data/seqs.json data/keys.json \
     data/perl/unicore-CombiningClass.pl data/perl/unicore-Decomposition.pl \
-    data/tests/kana-tokana.json data/tests/kana-normalize.json
+    data/tests/kana-tokana.json data/tests/kana-normalize.json \
+    data/controls.json
 
 clean-data: clean-perl-unicode
 	rm -fr local/ucd/touch local/langtags.json local/tr31.html
@@ -628,6 +629,9 @@ data/seqs.json: bin/seqs.pl \
 	$(PERL) $< > $@
 
 data/keys.json: bin/keys.pl src/key/*.txt local/html-charrefs.json
+	$(PERL) $< > $@
+
+data/controls.json: bin/controls.pl
 	$(PERL) $< > $@
 
 # referenced from https://github.com/suikawiki/swdata

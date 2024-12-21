@@ -1,0 +1,62 @@
+controls.json
+~~~~~~~~~~~~~
+
+This file contains data on control characters and control functions.
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+controls [object]
+
+  The value is a JSON object whose names are control character names
+  or control function names and values are JSON objects with following
+  name/value pairs:
+
+    abbr [string?]
+
+      The abbreviation of the control function, with three or more
+      letters, if any.
+
+    abbr2 [string?]
+
+      The abbreviation of the control function, with two letters, if
+      any.
+
+    name [string]
+
+      The name of the control function.
+
+sets [object]
+
+  The value is a JSON object whose names are opaque strings
+  identifying control character sets and values are JSON arrays.
+
+  There are these names:
+
+    |ESC+|
+
+      The set of single control functions.
+
+    |IR/[0-9]{3}/| ("IR" followed by three digits)
+
+      A control character set in ISO-IR.
+
+    |UCS|
+
+      Some version of ISO/IEC 10646.
+
+* Sources
+
+SuikaWiki:制御文字
+<https://wiki.suikawiki.org/n/%E5%88%B6%E5%BE%A1%E6%96%87%E5%AD%97>.
+
+* License
+
+You are granted a license to use, reproduce, and create derivative
+works of the JSON file and this document.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.
