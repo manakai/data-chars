@@ -190,31 +190,150 @@ my $NTypes = [];
     "mj:登記統一文字番号",
     'mj:統合',
     "unicode:j:glyph",
-    "iso10646:1993:j:glyph:equiv",
-"iso10646:1993:j:glyph:similar",
-"iso10646:2000:j:glyph:equiv",
-"iso10646:2000:j:glyph:similar",
-"iso10646:2003:j:glyph:equiv",
-"iso10646:2003:j:glyph:similar",
-"iso10646:2008:j:glyph:equiv",
-"iso10646:2008:j:glyph:similar",
-"iso10646:2010:j:glyph:equiv",
-"iso10646:2020:j:glyph:equiv",
-"iso10646:2023:j:glyph:equiv",
-"iso10646:2023:j:glyph:similar",
-"unicode13:j:glyph:equiv",
-"unicode15.1:j:glyph:equiv",
-"unicode15.1:j:glyph:similar",
-"unicode15:j:glyph:equiv",
-"unicode15:j:glyph:similar",
-"unicode5.2:j:glyph:equiv",
-"unicode5.2:j:glyph:similar",
-"unicode6.1:j:glyph:equiv",
-"unicode6.1:j:glyph:similar",
-"unicode6.2:j:glyph:equiv",
-    "unicode6.2:j:glyph:similar",
-    "unicode6.1:u:glyph:similar",
-    "unicode6.2:u:glyph:similar",
+
+    qw(
+      iso10646:1993:g:glyph:equiv
+      iso10646:1993:g:glyph:similar
+      iso10646:1993:j:glyph:equiv
+      iso10646:1993:j:glyph:similar
+      iso10646:1993:k:glyph:equiv
+      iso10646:1993:k:glyph:similar
+      iso10646:1993:t:glyph:equiv
+      iso10646:1993:t:glyph:similar
+      
+      iso10646:2000:g:glyph:equiv
+      iso10646:2000:g:glyph:similar
+      iso10646:2000:j:glyph:similar
+      iso10646:2000:k:glyph:equiv
+      iso10646:2000:k:glyph:similar
+      iso10646:2000:t:glyph:equiv
+      iso10646:2000:t:glyph:similar
+      iso10646:2000:v:glyph:equiv
+      iso10646:2000:v:glyph:similar
+
+      iso10646:2003:g:glyph:equiv
+      iso10646:2003:g:glyph:similar
+      iso10646:2003:j:glyph:equiv
+      iso10646:2003:j:glyph:similar
+      iso10646:2003:k:glyph:equiv
+      iso10646:2003:k:glyph:equiv
+      iso10646:2003:k:glyph:similar
+      iso10646:2003:t:glyph:equiv
+      iso10646:2003:t:glyph:similar
+      iso10646:2003:v:glyph:equiv
+      iso10646:2003:v:glyph:similar
+
+      iso10646:2008:j:glyph:equiv
+      iso10646:2008:j:glyph:similar
+      iso10646:2010:j:glyph:equiv
+      iso10646:2020:j:glyph:equiv
+
+      iso10646:2023:g:glyph:equiv
+      iso10646:2023:g:glyph:similar
+      iso10646:2023:h:glyph:equiv
+      iso10646:2023:h:glyph:similar
+      iso10646:2023:j:glyph:equiv
+      iso10646:2023:j:glyph:similar
+iso10646:2023:k:glyph:equiv
+iso10646:2023:k:glyph:similar
+iso10646:2023:kp:glyph:equiv
+iso10646:2023:kp:glyph:similar
+iso10646:2023:m:glyph:equiv
+iso10646:2023:m:glyph:similar
+iso10646:2023:s:glyph:equiv
+iso10646:2023:t:glyph:equiv
+iso10646:2023:t:glyph:similar
+iso10646:2023:u:glyph:equiv
+iso10646:2023:u:glyph:similar
+iso10646:2023:uk:glyph:equiv
+iso10646:2023:uk:glyph:similar
+iso10646:2023:v:glyph:equiv
+iso10646:2023:v:glyph:similar
+
+unicode5.2:g:glyph:equiv
+unicode5.2:g:glyph:similar
+unicode5.2:h:glyph:equiv
+unicode5.2:h:glyph:similar
+unicode5.2:j:glyph:equiv
+unicode5.2:j:glyph:similar
+unicode5.2:k:glyph:equiv
+unicode5.2:k:glyph:similar
+unicode5.2:kp:glyph:equiv
+unicode5.2:m:glyph:equiv
+unicode5.2:t:glyph:equiv
+unicode5.2:t:glyph:similar
+unicode5.2:u:glyph:equiv
+unicode5.2:v:glyph:equiv
+unicode5.2:v:glyph:similar
+
+unicode6.1:h:glyph:equiv
+unicode6.1:j:glyph:equiv
+unicode6.1:j:glyph:similar
+unicode6.1:k:glyph:equiv
+unicode6.1:k:glyph:similar
+unicode6.1:kp:glyph:equiv
+unicode6.1:u:glyph:equiv
+unicode6.1:u:glyph:similar
+
+unicode6.2:h:glyph:equiv
+unicode6.2:j:glyph:equiv
+unicode6.2:j:glyph:similar
+unicode6.2:k:glyph:equiv
+unicode6.2:k:glyph:similar
+unicode6.2:kp:glyph:equiv
+unicode6.2:u:glyph:equiv
+unicode6.2:u:glyph:similar
+
+unicode9:g:glyph:equiv
+unicode9:t:glyph:equiv
+unicode9:ucs2003:glyph:equiv
+unicode9:v:glyph:equiv
+unicode10:s:glyph:equiv
+
+unicode13:g:glyph:equiv
+unicode13:g:glyph:similar
+unicode13:h:glyph:equiv
+unicode13:h:glyph:similar
+unicode13:j:glyph:equiv
+unicode13:k:glyph:equiv
+unicode13:t:glyph:equiv
+unicode13:t:glyph:similar
+unicode13:ucs2003:glyph:equiv
+unicode13:ucs2003:glyph:similar
+unicode13:v:glyph:equiv
+unicode13:v:glyph:similar
+
+unicode15:g:glyph:equiv
+unicode15:g:glyph:similar
+unicode15:h:glyph:equiv
+unicode15:h:glyph:similar
+unicode15:j:glyph:equiv
+unicode15:j:glyph:similar
+unicode15:k:glyph:equiv
+unicode15:k:glyph:similar
+unicode15:kp:glyph:equiv
+unicode15:m:glyph:equiv
+unicode15:m:glyph:similar
+unicode15:s:glyph:equiv
+unicode15:t:glyph:equiv
+unicode15:t:glyph:similar
+unicode15:u:glyph:equiv
+unicode15:u:glyph:similar
+unicode15:ucs2003:glyph:equiv
+unicode15:uk:glyph:equiv
+unicode15:uk:glyph:similar
+unicode15:v:glyph:equiv
+unicode15:v:glyph:similar
+
+unicode15.1:g:glyph:equiv
+unicode15.1:h:glyph:equiv
+unicode15.1:j:glyph:equiv
+unicode15.1:j:glyph:similar
+unicode15.1:k:glyph:equiv
+unicode15.1:k:glyph:similar
+unicode15.1:kp:glyph:equiv
+unicode15.1:u:glyph:equiv
+    ),
     
     "unihan:kZVariant",
     "cjkvi:ucs-scs/variant",

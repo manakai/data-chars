@@ -1373,8 +1373,9 @@ jis:1990:glyph
 ":JB1807"
 jis:1990:glyph
 -":jis2-18-70"
-":JC1447"
+":JB1870"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis1-14-47"
 jis:2000:moved
 -":jis2-18-71"
@@ -1386,6 +1387,7 @@ jis:1990:glyph
 -":jis2-18-73"
 ":JB1873"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis1-14-49"
 jis:2000:moved
 -":jis2-18-74"
@@ -3694,6 +3696,7 @@ jis:1990:glyph
 -":jis2-25-23"
 ":JB2523"
 jis:1990:glyph
+jis:1990:ir:glyph
 -":jis2-25-24"
 ":JB2524"
 jis:1990:glyph
@@ -4357,6 +4360,7 @@ jis:1990:glyph
 -":jis2-26-90"
 ":JB2690"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis1-47-64"
 jis:2000:moved
 -":jis2-26-91"
@@ -4848,6 +4852,8 @@ jis:2000:moved
 jis:1990:glyph
 ":jis2-3-54"
 jis:2000:moved
+":swg341"
+jis:1990:ir:glyph:equiv
 -":jis2-28-30"
 ":JB2830"
 jis:1990:glyph
@@ -5013,6 +5019,7 @@ jis:1990:glyph
 -":jis2-28-69"
 ":JB2869"
 jis:1990:glyph
+jis:1990:ir:glyph
 -":jis2-28-7"
 ":JB2807"
 jis:1990:glyph
@@ -7028,6 +7035,7 @@ jis:1990:glyph
 -":jis2-34-16"
 ":JB3416"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis2-81-87"
 jis:2000:moved
 -":jis2-34-17"
@@ -7099,7 +7107,7 @@ jis:1990:glyph
 ":jis1-85-29"
 jis:2000:moved
 -":jis2-34-31"
-":JC8523"
+":JB3431"
 jis:1990:glyph
 ":jis1-85-23"
 jis:2000:moved
@@ -7532,10 +7540,12 @@ jis:1990:glyph
 ":jis2-14-52"
 jis:2000:moved
 -":jis2-35-41"
-":JC8562"
+":JB3541"
 jis:1990:glyph
 ":jis1-85-62"
 jis:2000:moved
+":swg615"
+jis:1990:ir:glyph:equiv
 -":jis2-35-42"
 ":JB3542"
 jis:1990:glyph
@@ -8273,6 +8283,8 @@ jis:1990:glyph
 -":jis2-37-31"
 ":JB3731"
 jis:1990:glyph
+":JC8621S"
+jis:1990:ir:glyph
 ":jis1-86-21"
 jis:2000:moved
 -":jis2-37-32"
@@ -8376,6 +8388,7 @@ jis:2000:moved
 -":jis2-37-54"
 ":JB3754"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis1-86-25"
 jis:2000:moved
 -":jis2-37-55"
@@ -9108,6 +9121,7 @@ jis:2000:moved
 -":jis2-39-47"
 ":JB3947"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis1-86-79"
 jis:2000:moved
 -":jis2-39-48"
@@ -11144,6 +11158,7 @@ jis:2000:moved
 -":jis2-44-53"
 ":JB4453"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis1-88-25"
 jis:2000:moved
 -":jis2-44-54"
@@ -12739,10 +12754,12 @@ jis:1990:glyph
 ":jis2-82-49"
 jis:2000:moved
 -":jis2-48-70"
-":JD8272"
+":JB4870"
 jis:1990:glyph
 ":jis2-82-72"
 jis:2000:moved
+":swg624"
+jis:1990:ir:glyph:equiv
 -":jis2-48-71"
 ":JB4871"
 jis:1990:glyph
@@ -13524,6 +13541,7 @@ jis:1990:glyph
 -":jis2-50-64"
 ":JB5064"
 jis:1990:glyph
+jis:1990:ir:glyph
 -":jis2-50-65"
 ":JB5065"
 jis:1990:glyph
@@ -14003,8 +14021,9 @@ jis:2000:moved
 ":JB5185"
 jis:1990:glyph
 -":jis2-51-86"
-":JD8430"
+":JB5186"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis2-84-30"
 jis:2000:moved
 -":jis2-51-87"
@@ -15285,6 +15304,8 @@ jis:1990:glyph
 -":jis2-55-39"
 ":JB5539"
 jis:1990:glyph
+":KS343500"
+jis:1990:ir:glyph
 ":jis2-86-1"
 jis:2000:moved
 -":jis2-55-4"
@@ -15460,8 +15481,9 @@ jis:2000:moved
 ":JB5576"
 jis:1990:glyph
 -":jis2-55-77"
-":JD8614"
+":JB5577"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis2-86-14"
 jis:2000:moved
 -":jis2-55-78"
@@ -15589,8 +15611,9 @@ jis:2000:moved
 ":JB5619"
 jis:1990:glyph
 -":jis2-56-2"
-":JD8619"
+":JB5602"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis2-86-19"
 jis:2000:moved
 -":jis2-56-20"
@@ -15614,6 +15637,7 @@ jis:2000:moved
 -":jis2-56-24"
 ":JB5624"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis2-86-27"
 jis:2000:moved
 -":jis2-56-25"
@@ -16150,8 +16174,9 @@ jis:1990:glyph
 ":jis2-86-88"
 jis:2000:moved
 -":jis2-57-56"
-":JD8689"
+":JB5756"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis2-86-89"
 jis:2000:moved
 -":jis2-57-57"
@@ -20386,6 +20411,7 @@ jis:1990:glyph
 -":jis2-69-22"
 ":JB6922"
 jis:1990:glyph
+jis:1990:ir:glyph
 -":jis2-69-23"
 ":JB6923"
 jis:1990:glyph
@@ -20620,6 +20646,7 @@ jis:1990:glyph
 -":jis2-69-79"
 ":JB6979"
 jis:1990:glyph
+jis:1990:ir:glyph
 -":jis2-69-8"
 ":JB6908"
 jis:1990:glyph
@@ -20757,8 +20784,9 @@ jis:1990:glyph
 ":jis1-93-53"
 jis:2000:moved
 -":jis2-70-24"
-":JC9354"
+":JB7024"
 jis:1990:glyph
+jis:1990:ir:glyph
 ":jis1-93-54"
 jis:2000:moved
 -":jis2-70-25"
@@ -21010,10 +21038,12 @@ jis:1990:glyph
 ":jis2-8-68"
 jis:2000:variantadded
 -":jis2-70-85"
-":JD9182"
+":JB7085"
 jis:1990:glyph
 ":jis2-91-82"
 jis:2000:moved
+":swg626"
+jis:1990:ir:glyph:equiv
 -":jis2-70-86"
 ":JB7086"
 jis:1990:glyph
@@ -23970,6 +24000,9 @@ jisx0213:2000:glyph
 -":jis2-78-94"
 ":IA0443"
 jisx0213:2000:glyph
+":JD7894"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":jis1-62-77"
 nta:JIS縮退マップ:コード変換
 -":jis2-79-1"
@@ -24282,6 +24315,9 @@ jisx0213:2000:glyph
 -":jis2-79-80"
 ":IA0461"
 jisx0213:2000:glyph
+":JD7980"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":jis1-63-73"
 nta:JIS縮退マップ:コード変換
 -":jis2-79-81"
@@ -24309,6 +24345,9 @@ nta:JIS縮退マップ:コード変換
 -":jis2-79-87"
 ":IA0463"
 jisx0213:2000:glyph
+":JD7987"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":jis1-17-75"
 nta:JIS縮退マップ:コード変換
 -":jis2-79-88"
@@ -25103,6 +25142,8 @@ jisx0213:2000:glyph
 -":jis2-81-87"
 ":JD8187"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":u-juki-ab2e"
 jisx0213:2000:ucs:()
 ""
@@ -25422,6 +25463,8 @@ jisx0213:2000:glyph
 -":jis2-82-72"
 ":JB4870"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-82-73"
 ":JB4871"
 jisx0213:2000:glyph
@@ -26040,6 +26083,8 @@ jisx0213:2000:glyph
 -":jis2-84-30"
 ":JB5186"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-84-31"
 ":JD8431"
 jisx0213:2000:glyph
@@ -26762,6 +26807,7 @@ jisx0213:2000:glyph
 -":jis2-86-1"
 ":JB5539"
 jisx0213:2000:glyph
+jisx0213:ir:glyph
 ":jis1-18-54"
 nta:JIS縮退マップ:コード変換
 -":jis2-86-10"
@@ -26781,6 +26827,8 @@ jisx0213:2000:glyph
 -":jis2-86-14"
 ":JB5577"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":jis1-72-48"
 nta:JIS縮退マップ:コード変換
 -":jis2-86-15"
@@ -26795,9 +26843,15 @@ jisx0213:2000:glyph
 -":jis2-86-18"
 ":IA0624"
 jisx0213:2000:glyph
+":JD8618"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-86-19"
 ":JB5602"
 jisx0213:2000:glyph
+":JD8619"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-86-2"
 ":JB5540"
 jisx0213:2000:glyph
@@ -26807,6 +26861,9 @@ jisx0213:2000:glyph
 -":jis2-86-21"
 ":IA0621"
 jisx0213:2000:glyph
+":JD8621"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":jis1-59-20"
 nta:JIS縮退マップ:コード変換
 -":jis2-86-22"
@@ -26827,6 +26884,9 @@ jisx0213:2000:glyph
 -":jis2-86-27"
 ":JB5624"
 jisx0213:2000:glyph
+":JD8627"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-86-28"
 ":JD8628"
 jisx0213:2000:glyph
@@ -26950,6 +27010,9 @@ jisx0213:2000:glyph
 -":jis2-86-57"
 ":IA0635"
 jisx0213:2000:glyph
+":JD8657"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-86-58"
 ":JD8658"
 jisx0213:2000:glyph
@@ -27035,11 +27098,17 @@ jisx0213:2000:glyph
 -":jis2-86-77"
 ":IA0638"
 jisx0213:2000:glyph
+":JD8677"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":jis1-73-11"
 nta:JIS縮退マップ:コード変換
 -":jis2-86-78"
 ":IA0641"
 jisx0213:2000:glyph
+":JD8678"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":jis1-16-94"
 nta:JIS縮退マップ:コード変換
 -":jis2-86-79"
@@ -27091,6 +27160,9 @@ nta:JIS縮退マップ:コード変換
 -":jis2-86-89"
 ":JB5756"
 jisx0213:2000:glyph
+":JD8689"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-86-9"
 ":JB5564"
 jisx0213:2000:glyph
@@ -29064,6 +29136,9 @@ jisx0213:2004:ucs
 -":jis2-91-82"
 ":JB7085"
 jisx0213:2000:glyph
+":JD9182"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-91-83"
 ":JD9183"
 jisx0213:2000:glyph
@@ -30270,13 +30345,17 @@ jisx0213:2000:glyph
 ":JD0117"
 jisx0213:2000:glyph
 -":jis2-1-18"
-":IA0107"
+":JD0118"
 jisx0213:2000:glyph
+":swg367"
+jisx0213:fdis:glyph:equiv
+jisx0213:ir:glyph:equiv
 -":jis2-1-19"
 ":IA0109"
 jisx0213:2000:glyph
 ":MJ000028"
 jisx0213:fdis:glyph:equiv
+jisx0213:ir:glyph:equiv
 -":jis2-1-2"
 ":JD0102"
 jisx0213:2000:glyph
@@ -31455,6 +31534,9 @@ jisx0213:2000:glyph
 -":jis2-12-38"
 ":IA0290"
 jisx0213:2000:glyph
+":JD1238"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-12-39"
 ":JD1239"
 jisx0213:2000:glyph
@@ -31873,6 +31955,8 @@ jisx0213:2000:glyph
 -":jis2-13-59"
 ":IA0341"
 jisx0213:2000:glyph
+":JD1359"
+jisx0213:ir:glyph
 -":jis2-13-6"
 ":JD1306"
 jisx0213:2000:glyph
@@ -31959,6 +32043,9 @@ jisx0213:2000:glyph
 -":jis2-13-84"
 ":JD1384"
 jisx0213:2000:glyph
+":JD1384SS"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-13-85"
 ":JD1385"
 jisx0213:2000:glyph
@@ -32375,6 +32462,8 @@ jisx0213:2004:ucs
 -":jis2-14-89"
 ":JD1489"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-14-9"
 ":JD1409"
 jisx0213:2000:glyph
@@ -32860,8 +32949,11 @@ jisx0213:2000:glyph
 ":JD0310"
 jisx0213:2000:glyph
 -":jis2-3-11"
-":IA0133"
+":JD0311"
 jisx0213:2000:glyph
+":swg361"
+jisx0213:fdis:glyph:equiv
+jisx0213:ir:glyph:equiv
 -":jis2-3-12"
 ":JB1884"
 jisx0213:2000:glyph
@@ -32943,6 +33035,8 @@ jisx0213:2000:glyph
 -":jis2-3-29"
 ":JD0329"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-3-3"
 ":JD0303"
 jisx0213:2000:glyph
@@ -32992,8 +33086,10 @@ jisx0213:2000:glyph
 ":JB1853"
 jisx0213:2000:glyph
 -":jis2-3-40"
-":IA0148"
+":JD0340"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-3-41"
 ":JD0341"
 jisx0213:2000:glyph
@@ -33039,6 +33135,8 @@ jisx0213:2004:ucs
 -":jis2-3-50"
 ":JD0350"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":u-juki-aab3"
 jisx0213:2000:ucs:()
 ""
@@ -33063,6 +33161,8 @@ jisx0213:2000:glyph
 -":jis2-3-54"
 ":JD0354"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-3-55"
 ":JD0355"
 jisx0213:2000:glyph
@@ -33130,6 +33230,8 @@ jisx0213:2000:glyph
 -":jis2-3-7"
 ":JD0307"
 jisx0213:2000:glyph
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 ":u-juki-aaac"
 jisx0213:2000:ucs:()
 ""
@@ -33142,6 +33244,9 @@ jisx0213:2000:glyph
 -":jis2-3-71"
 ":JD0371"
 jisx0213:2000:glyph
+":JD0371S"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-3-72"
 ":JD0372"
 jisx0213:2000:glyph
@@ -33682,6 +33787,9 @@ jisx0213:2004:ucs
 -":jis2-5-31"
 ":IA0204"
 jisx0213:2000:glyph
+":JD0531"
+jisx0213:fdis:glyph
+jisx0213:ir:glyph
 -":jis2-5-32"
 ":JD0532"
 jisx0213:2000:glyph
@@ -34368,6 +34476,9 @@ jisx0213:2000:glyph
 -":jis2-8-73"
 ":JD0873"
 jisx0213:2000:glyph
+":swg332"
+jisx0213:fdis:glyph:equiv
+jisx0213:ir:glyph:equiv
 -":jis2-8-74"
 ":JD0874"
 jisx0213:2000:glyph

@@ -30616,8 +30616,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":KS472040"
 ":MJ027574"
+mj:shared:similar
+":swg497"
 manakai:equivglyph
-mj:shared:equiv
 -":KS472080"
 ":MJ052320"
 manakai:equivglyph
@@ -30725,8 +30726,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":KS472960"
 ":MJ027616"
+mj:shared:similar
+":swg478"
 manakai:equivglyph
-mj:shared:equiv
 -":KS472980"
 ":MJ052354"
 manakai:equivglyph
@@ -45456,8 +45458,9 @@ mj:shared:equiv
 manakai:equivglyph
 -":KS551930"
 ":MJ030154"
+mj:shared:similar
+":gw-u9f9c-ue0104"
 manakai:equivglyph
-mj:shared:equiv
 -":KS551950"
 ":MJ056778"
 manakai:equivglyph

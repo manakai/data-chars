@@ -207,7 +207,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1136"
 ":aj-shs-1136"
-manakai:similarglyph
+manakai:equivglyph
 ":aj18244"
 opentype:aalt
 ":aj2355"
@@ -231,7 +231,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1137"
 ":aj-shs-1137"
-manakai:similarglyph
+manakai:equivglyph
 ":aj4849"
 adobe:trad
 opentype:aalt
@@ -253,7 +253,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1138"
 ":aj-shs-1138"
-manakai:similarglyph
+manakai:equivglyph
 ":jis1-16-14"
 adobe:expt
 adobe:jp04
@@ -271,7 +271,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1139"
 ":aj-shs-1139"
-manakai:similarglyph
+manakai:equivglyph
 ":jinmei-渥"
 adobe:jinmei
 ":jis1-16-15"
@@ -289,7 +289,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1140"
 ":aj-shs-1140"
-manakai:similarglyph
+manakai:equivglyph
 ":jinmei-旭"
 adobe:jinmei
 ":jis1-16-16"
@@ -386,7 +386,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1145"
 ":aj-shs-1145"
-manakai:similarglyph
+manakai:equivglyph
 ":aj4523"
 adobe:trad
 opentype:aalt
@@ -408,7 +408,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1146"
 ":aj-shs-1146"
-manakai:similarglyph
+manakai:equivglyph
 ":hyougai9"
 adobe:nlc
 ":jinmei-斡"
@@ -468,7 +468,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1149"
 ":aj-shs-1149"
-manakai:similarglyph
+manakai:equivglyph
 ":jis1-16-25"
 adobe:expt
 adobe:jp04
@@ -536,8 +536,8 @@ adobe:uni:x02132004
 "絢󠄀"
 adobe:vs
 -":aj1153"
-":aj-shs-1153"
-manakai:similarglyph
+":gw-koseki-308680"
+manakai:equivglyph
 ":jinmei-綾"
 adobe:jinmei
 ":jis1-16-29"

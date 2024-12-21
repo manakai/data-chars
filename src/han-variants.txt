@@ -217,6 +217,22 @@ conflict 𠂆 石
 conflict 𠂆 曳
 same \u2E81 𠂆
 
+variant 𡆥 圕
+variant 𡆥 囚
+conflict 𡆥 圕
+conflict 𡆥 囚
+
+variant 龱 田
+variant 龱 四
+variant 龱 囟
+variant 龱 囚
+variant 龱 圖
+conflict 龱 田
+conflict 龱 四
+conflict 龱 囟
+conflict 龱 囚
+conflict 龱 圖
+
 sconflict 付 附
 sconflict 医 醫
 sconflict 仮 假
@@ -674,5 +690,12 @@ differentiated \u3109 刀
 differentiated \u3108 \u531A
 differentiated \u3118 七
 differentiated \u311B \u5475
+
+differentiated 𢎗 弓
+differentiated :MJ035569 :MJ011149
+differentiated :KS109600 :KS109590
+
+## <https://wiki.suikawiki.org/n/ARIB%E3%81%AE%E6%96%87%E5%AD%97%E3%82%B3%E3%83%BC%E3%83%89$28198#anchor-138>
+differentiated :jis1-47-52 :jis2-81-61
 
 ## License: Public Domain.

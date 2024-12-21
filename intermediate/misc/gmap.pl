@@ -43,7 +43,7 @@ my $Data = {};
           } elsif (/^U\+([0-9A-F]+)J:(U52|U61|U62|U13|U151|U15)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['ucs', $ucs, $2];
-          } elsif (/^U\+([0-9A-F]+)([GTHUMKVS]|UK|KP|UCS2003):(U52|U61|U62|U10|U13|U151|U15)$/) {
+          } elsif (/^U\+([0-9A-F]+)([GTHUMKVS]|UK|KP|UCS2003):(U52|U61|U62|U9|U10|U13|U151|U15)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['ucs' . $2, $ucs, $3];
           } elsif (/^U\+([0-9A-F]+):(ipa1|ipa3|ex|mj|SWC)$/) {
@@ -103,10 +103,16 @@ my $Data = {};
             push @item, ['juuki', (sprintf '%04X', hex $1), ''];
           } elsif (/^:cns-(kai|sung)-([0-9]+)-([0-9]+)-([0-9]+)$/) {
             push @item, ['cns', (sprintf '%d-%d-%d', $2, $3, $4), $1];
+          } elsif (/^:cns-(kai|sung)-([0-9]+)-([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})$/) {
+            push @item, ['cns', (sprintf '%d-%d-%d', $2, -0x20 + hex $3, -0x20 + hex $4), $1];
           } elsif (/^:cns-(kai|sung)-T([0-9A-F])-([0-9A-F]{2})([0-9A-F]{2})$/) {
             push @item, ['cns', (sprintf '%d-%d-%d', hex $2, -0x20 + hex $3, -0x20 + hex $4), $1];
           } elsif (/^:inherited-(\w)$/) {
             push @item, ['inherited', $1, ''];
+          } elsif (/^:m([0-9]+)$/) {
+            push @item, ['m', 0+$1, ''];
+          } elsif (/^:irg2021-([0-9]+)$/) {
+            push @item, ['irg2021', 0+$1, ''];
           } else {
             die "Bad value |$_|";
           }

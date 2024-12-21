@@ -1011,12 +1011,14 @@ my $JA2Char = {};
           U51 => 'unicode5.1:j:glyph',
           U52 => 'unicode5.2:j:glyph',
           U61 => 'unicode6.1:j:glyph',
-          U62 => 'unicode6.2:j:glyph',
-          U13 => 'unicode13:j:glyph',
-          U14 => 'unicode14:j:glyph',
-          U15 => 'unicode15:j:glyph',
-          U151 => 'unicode15.1:j:glyph',
-        };
+    U62 => 'unicode6.2:j:glyph',
+    U9 => 'unicode9:j:glyph',
+    U10 => 'unicode10:j:glyph',
+    U13 => 'unicode13:j:glyph',
+    U14 => 'unicode14:j:glyph',
+    U15 => 'unicode15:j:glyph',
+    U151 => 'unicode15.1:j:glyph',
+  };
   
   my $path = $ThisPath->parent->child ('misc/gmap.json');
   my $json = json_bytes2perl $path->slurp;
@@ -1035,8 +1037,9 @@ my $JA2Char = {};
       die perl2json_bytes $x;
     }
   };
-  my $prev_group_c;
-  for my $group (map { @$_ } @{$json->{groups}}) {
+  for my $group_list (@{$json->{groups}}) {
+    my $prev_group_c;
+    for my $group (@$group_list) {
     for (
       ['jistype', 'simplified', ':jistype-simplified-%s', ''],
       ['koseki', '', ':koseki%s', ''],
@@ -1059,7 +1062,7 @@ my $JA2Char = {};
           my $c2 = glyph_to_char $glyph;
           $Data->{hans}->{$c1}->{$c2}->{'manakai:similarglyph'} = 1;
         } else {
-          warn "No glyph for |$c1|";
+          #warn "No glyph for |$c1|";
         }
       }
     }
@@ -1072,7 +1075,7 @@ my $JA2Char = {};
         my $c2 = glyph_to_char $glyph;
         $Data->{hans}->{$c1}->{$c2}->{'manakai:hasglyph'} = 1;
       } else {
-        warn "No glyph for |$c1|";
+        #warn "No glyph for |$c1|";
       }
     }
     for my $k2 (keys %{$group->{jis} or {}}) {
@@ -1095,13 +1098,23 @@ my $JA2Char = {};
           my $c2 = glyph_to_char $glyph;
           $Data->{hans}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
         } else {
-          warn "No glyph for |$c1|";
+          #warn "No glyph for |$c1|";
         }
       }
     }
     for (
+      ['ucsG', ':g:'],
+      ['ucsH', ':h:'],
+      ['ucsM', ':m:'],
+      ['ucsT', ':t:'],
       ['ucs', ':j:'],
+      ['ucsK', ':k:'],
+      ['ucsKP', ':kp:'],
+      ['ucsV', ':v:'],
       ['ucsU', ':u:'],
+      ['ucsS', ':s:'],
+      ['ucsUK', ':uk:'],
+      ['ucsUCS2003', ':ucs2003:'],
     ) {
       my ($k1, $type) = @$_;
       for my $k2 (keys %{$group->{$k1}}) {
@@ -1127,7 +1140,7 @@ my $JA2Char = {};
             my $c2 = glyph_to_char $glyph;
             $Data->{hans}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
           } else {
-            warn "No glyph for |$c1|";
+            #warn "No glyph for |$c1|";
           }
         }
       }
@@ -1152,7 +1165,7 @@ my $JA2Char = {};
       push @c1, ':gw-' . $_;
     }
     for (sort { $a cmp $b } keys %{$group->{g}->{''} or {}}) {
-      push @c1, ':swg' . $_;
+      push @c1, ':sw' . $_; # :swg{d}
     }
     for (sort { $a cmp $b } keys %{$group->{jis}->{16} or {}}) {
       push @c1, ':jis-dot16-' . $_;
@@ -1180,6 +1193,12 @@ my $JA2Char = {};
     for (sort { $a cmp $b } keys %{$group->{inherited}->{''} or {}}) {
       push @c1, ':inherited-' . $_;
     }
+    for (sort { $a cmp $b } keys %{$group->{m}->{''} or {}}) {
+      push @c1, ':m' . $_;
+    }
+    for (sort { $a cmp $b } keys %{$group->{irg2021}->{''} or {}}) {
+      push @c1, ':irg2021-' . $_;
+    }
     next unless @c1;
     my $c1 = shift @c1;
     for my $c2 (@c1) {
@@ -1188,8 +1207,9 @@ my $JA2Char = {};
     if (defined $prev_group_c) {
       $Data->{glyphs}->{$prev_group_c}->{$c1}->{'manakai:similarglyph'} = 1;
     }
-    $prev_group_c = $c1;
-  } # $group
+      $prev_group_c = $c1;
+    } # $group
+  } # $group_list
 }
 
 write_rel_data_sets

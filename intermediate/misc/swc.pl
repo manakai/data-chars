@@ -90,6 +90,7 @@ sub value_to_char ($) {
     next unless defined $c1;
     my $key = $VKey->{$c1} || get_vkey $c1;
     for (
+      [統合可能 => 'manakai:unified'],
       [略字 => 'manakai:variant:simplified'],
       [新字体 => 'manakai:variant:jpnewstyle'],
       [異体字 => 'manakai:equivalent'],
@@ -108,6 +109,7 @@ sub value_to_char ($) {
       ["3四半回転類似" => 'manakai:3四半回転類似'],
       [類義 => "manakai:類義"],
       [対義 => "manakai:対義"],
+      [違う => "manakai:differentiated"],
       [IDS => "manakai:ids", 'descs'],
     ) {
       my ($k, $rel_type) = @$_;

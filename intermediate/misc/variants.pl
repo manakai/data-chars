@@ -238,7 +238,7 @@ sub private ($) {
 {
   my $path = $TempPath->child ('dict.ts');
   my $text = $path->slurp_utf8;
-  while ($text =~ /src\s*:\s*'([^']+)'\s*,\s*,dst\s*:\s*'([^']+)'/g) {
+  while ($text =~ /src\s*:\s*'([^']+)'\s*,\s*dst\s*:\s*'([^']+)'/g) {
     my $c1 = $1;
     my $c2 = $2;
     $Data->{hans}->{$c1}->{$c2}->{'geolonia:oldnew'} = 1;

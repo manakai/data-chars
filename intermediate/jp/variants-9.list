@@ -2166,8 +2166,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":KS015850S"
 ":MJ007229"
+mj:shared:similar
+":swg330"
 manakai:equivglyph
-mj:shared:equiv
 -":KS015870"
 ":MJ056969"
 manakai:equivglyph
@@ -2952,8 +2953,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":KS019870"
 ":MJ007395"
+mj:shared:similar
+":swg473"
 manakai:equivglyph
-mj:shared:equiv
 -":KS019890"
 ":MJ031115"
 manakai:equivglyph
@@ -6831,8 +6833,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":KS041750"
 ":MJ008218"
+mj:shared:similar
+":swg462"
 manakai:equivglyph
-mj:shared:equiv
 -":KS041760"
 ":MJ008240"
 manakai:equivglyph
@@ -10896,7 +10899,7 @@ manakai:equivglyph
 ":MJ033420"
 manakai:equivglyph
 -":KS067130"
-":MJ006392"
+":swg447"
 manakai:equivglyph
 -":KS067140"
 ":MJ030331"
@@ -14502,7 +14505,7 @@ manakai:equivglyph
 ":MJ034452"
 manakai:equivglyph
 -":KS089090"
-":MJ034453"
+":gw-u21d15-ue0100"
 manakai:equivglyph
 -":KS089100"
 ":MJ034455"
@@ -20680,8 +20683,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":KS125900"
 ":MJ011872"
+mj:shared:similar
+":swg344"
 manakai:equivglyph
-mj:shared:equiv
 -":KS125930"
 ":MJ036300"
 manakai:equivglyph
@@ -37206,7 +37210,7 @@ manakai:equivglyph
 ":MJ058051"
 manakai:equivglyph
 -":KS238930"
-":MJ058052"
+":gw-koseki-238930"
 manakai:equivglyph
 -":KS238940"
 ":MJ041103"
@@ -44272,8 +44276,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":KS281260"
 ":MJ019094"
+mj:shared:similar
+":swg476"
 manakai:equivglyph
-mj:shared:equiv
 -":KS281310"
 ":MJ043201"
 manakai:equivglyph

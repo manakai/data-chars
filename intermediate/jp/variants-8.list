@@ -20,8 +20,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":IA0107"
 ":MJ000025"
+mj:shared:similar
+":aj-shs-17246"
 manakai:equivglyph
-mj:shared:equiv
 -":IA0108"
 ":MJ000026"
 manakai:equivglyph
@@ -103,8 +104,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":IA0133"
 ":MJ000150"
+mj:shared:similar
+":swg363"
 manakai:equivglyph
-mj:shared:equiv
 -":IA0135"
 ":MJ000156"
 manakai:equivglyph
@@ -711,8 +713,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":IA0341"
 ":MJ001487"
+mj:shared:similar
+":swg368"
 manakai:equivglyph
-mj:shared:equiv
 -":IA0342"
 ":MJ001500"
 manakai:equivglyph
@@ -1790,7 +1793,7 @@ manakai:equivglyph
 ":MJ004745"
 manakai:equivglyph
 -":IA0708"
-":MJ030227"
+":aj-shs-8630"
 manakai:equivglyph
 -":IA0709"
 ":MJ004787"
@@ -16890,8 +16893,9 @@ mj:shared:equiv
 manakai:equivglyph
 -":IB0676"
 ":MJ011016"
+mj:shared:similar
+":swg577"
 manakai:equivglyph
-mj:shared:equiv
 -":IB0677"
 ":MJ011051"
 manakai:equivglyph
@@ -17235,9 +17239,8 @@ mj:shared:equiv
 manakai:equivglyph
 mj:shared:equiv
 -":IB0807S"
-":MJ018909"
-manakai:similarglyph
 ":MJ018913"
+manakai:equivglyph
 mj:shared:equiv
 -":IB0808S"
 ":MJ018914"
@@ -18709,9 +18712,8 @@ manakai:equivglyph
 mj:shared:equiv
 -":IB1603"
 ":MJ030195"
-mj:shared:equiv
-":gw-heisei-ib1603"
 manakai:equivglyph
+mj:shared:equiv
 -":IB1608"
 ":MJ009257"
 manakai:equivglyph
@@ -19202,8 +19204,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":IB2266"
 ":MJ029889"
+mj:shared:similar
+":swg486"
 manakai:equivglyph
-mj:shared:equiv
 -":IB2280"
 ":MJ059835"
 manakai:equivglyph
@@ -24181,8 +24184,9 @@ manakai:equivglyph
 manakai:equivglyph
 -":IP6511"
 ":MJ001486"
+mj:shared:similar
+":gw-koseki-145730"
 manakai:equivglyph
-mj:shared:equiv
 -":IP6515"
 ":MJ012911"
 manakai:equivglyph
@@ -25338,9 +25342,8 @@ manakai:equivglyph
 ":MJ014840"
 manakai:equivglyph
 -":IP6B72"
-":MJ014841"
-manakai:similarglyph
 ":MJ014842"
+manakai:equivglyph
 mj:shared:equiv
 -":IP6B88"
 ":MJ014864"

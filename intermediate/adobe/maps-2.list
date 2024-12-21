@@ -1276,7 +1276,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1260"
 ":aj-shs-1260"
-manakai:similarglyph
+manakai:equivglyph
 ":aj20154"
 opentype:aalt
 ":jis1-17-42"
@@ -1595,7 +1595,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1276"
 ":aj-shs-1276"
-manakai:similarglyph
+manakai:equivglyph
 ":aj13321"
 adobe:trad
 opentype:aalt
@@ -2188,7 +2188,7 @@ adobe:uni:x02132004
 "塩󠄀"
 adobe:vs
 -":aj1305"
-":aj-shs-1305"
+":MJ013102"
 manakai:similarglyph
 ":aj13660"
 opentype:aalt
@@ -2390,8 +2390,6 @@ adobe:uni:x02132004
 "旺󠄀"
 adobe:vs
 -":aj1315"
-":MJ014455"
-manakai:similarglyph
 ":aj8503"
 adobe:trad
 opentype:aalt
@@ -2404,6 +2402,8 @@ adobe:jp83
 adobe:jp90
 ":jouyou-h22-117"
 adobe:joyo
+":swg516"
+manakai:equivglyph
 "横"
 adobe:uni
 adobe:uni:2004
@@ -2789,7 +2789,7 @@ adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13321"
 ":aj-shs-13321"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1276"
 opentype:aalt
 ":jinmei-謁"
@@ -2971,7 +2971,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1333"
 ":aj-shs-1333"
-manakai:similarglyph
+manakai:equivglyph
 ":aj16293"
 opentype:aalt
 ":jis1-18-21"
@@ -2996,7 +2996,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13330"
 ":aj-shs-13330"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1479"
 opentype:aalt
 ":jinmei-渴"
@@ -3013,7 +3013,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13331"
 ":aj-shs-13331"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1482"
 opentype:aalt
 ":jis1-91-79"
@@ -3049,7 +3049,7 @@ adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13333"
 ":aj-shs-13333"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1579"
 opentype:aalt
 ":aj4429"
@@ -3321,8 +3321,6 @@ adobe:uni:2004
 adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13346"
-":aj-shs-13346"
-manakai:similarglyph
 ":aj19577"
 opentype:aalt
 ":aj2233"
@@ -3332,6 +3330,8 @@ adobe:jinmei
 ":jis1-91-89"
 adobe:jisx0213:2000
 adobe:jisx0213:2004
+":swg501"
+manakai:equivglyph
 "視︀"
 adobe:vs
 "視󠄁"
@@ -3422,7 +3422,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13350"
 ":aj-shs-13350"
-manakai:similarglyph
+manakai:equivglyph
 ":aj22282"
 opentype:aalt
 ":aj2359"
@@ -3500,7 +3500,7 @@ adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13354"
 ":aj-shs-13354"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2476"
 opentype:aalt
 ":jinmei-涉"
@@ -3517,7 +3517,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13355"
 ":aj-shs-13355"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2525"
 opentype:aalt
 ":jinmei-狀"
@@ -3853,7 +3853,7 @@ adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13372"
 ":aj-shs-13372"
-manakai:similarglyph
+manakai:equivglyph
 ":aj17205"
 opentype:aalt
 ":aj20298"
@@ -4094,7 +4094,7 @@ adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13383"
 ":aj-shs-13383"
-manakai:similarglyph
+manakai:equivglyph
 ":aj20299"
 opentype:aalt
 ":aj3595"
@@ -4192,7 +4192,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13389"
 ":aj-shs-13389"
-manakai:similarglyph
+manakai:equivglyph
 ":aj3796"
 opentype:aalt
 ":jis1-14-48"
@@ -4251,7 +4251,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13391"
 ":aj-shs-13391"
-manakai:similarglyph
+manakai:equivglyph
 ":aj3870"
 opentype:aalt
 ":jinmei-祐"
@@ -4309,12 +4309,12 @@ adobe:uni:2004
 adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13394"
-":aj-shs-13394"
-manakai:similarglyph
 ":aj16878"
 opentype:aalt
 ":aj3970"
 opentype:aalt
+":gw-u865c-k"
+manakai:equivglyph
 ":jinmei-虜"
 adobe:jinmei
 ":jis1-91-47"
@@ -4331,7 +4331,7 @@ adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13395"
 ":aj-shs-13395"
-manakai:similarglyph
+manakai:equivglyph
 ":aj4006"
 opentype:aalt
 ":aj5410"
@@ -4407,7 +4407,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13399"
 ":aj-shs-13399"
-manakai:similarglyph
+manakai:equivglyph
 ":aj4037"
 opentype:aalt
 ":jinmei-練"
@@ -4465,7 +4465,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13401"
 ":aj-shs-13401"
-manakai:similarglyph
+manakai:equivglyph
 ":aj20303"
 opentype:aalt
 ":aj4051"
@@ -4873,7 +4873,7 @@ adobe:jp83
 adobe:vs
 -":aj13424"
 ":aj-shs-13424"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1450"
 opentype:aalt
 ":aj17466"
@@ -4897,7 +4897,7 @@ adobe:jp83
 adobe:vs
 -":aj13426"
 ":aj-shs-13426"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1551"
 opentype:aalt
 ":jis1-20-51"
@@ -5095,7 +5095,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13440"
 ":aj-shs-13440"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1964"
 opentype:aalt
 ":jis1-24-88"
@@ -5169,7 +5169,7 @@ adobe:jp83
 adobe:vs
 -":aj13447"
 ":aj-shs-13447"
-manakai:similarglyph
+manakai:equivglyph
 ":aj17468"
 opentype:aalt
 ":aj2033"
@@ -6052,12 +6052,12 @@ adobe:jp83
 "耶󠄁"
 adobe:vs
 -":aj13512"
-":aj-shs-13512"
-manakai:similarglyph
 ":aj14082"
 opentype:aalt
 ":aj3917"
 opentype:aalt
+":gw-u7ffc-ue0101"
+manakai:equivglyph
 ":jis1-45-67"
 adobe:jp78
 adobe:jp83
@@ -6075,7 +6075,7 @@ adobe:jp83
 adobe:vs
 -":aj13514"
 ":aj-shs-13514"
-manakai:similarglyph
+manakai:equivglyph
 ":aj13609"
 opentype:aalt
 ":aj14091"
@@ -6093,7 +6093,7 @@ adobe:jp83
 adobe:vs
 -":aj13515"
 ":aj-shs-13515"
-manakai:similarglyph
+manakai:equivglyph
 ":aj14093"
 opentype:aalt
 ":aj4003"
@@ -6104,10 +6104,10 @@ adobe:jp83
 "麟󠄁"
 adobe:vs
 -":aj13516"
-":aj-shs-13516"
-manakai:similarglyph
 ":aj4023"
 opentype:aalt
+":gw-u9e97-ue0101"
+manakai:equivglyph
 ":jis1-46-79"
 adobe:jp78
 adobe:jp83
@@ -6244,7 +6244,7 @@ adobe:jp83
 adobe:vs
 -":aj13526"
 ":aj-shs-13526"
-manakai:similarglyph
+manakai:equivglyph
 ":aj4411"
 opentype:aalt
 ":aj7984"
@@ -6277,10 +6277,10 @@ adobe:jp83
 "圍󠄁"
 adobe:vs
 -":aj13529"
-":aj-shs-13529"
-manakai:similarglyph
 ":aj4516"
 opentype:aalt
+":gw-j83-5453"
+manakai:equivglyph
 ":jis1-52-51"
 adobe:jp78
 adobe:jp83
@@ -6666,7 +6666,7 @@ adobe:jp83
 adobe:vs
 -":aj13558"
 ":aj-shs-13558"
-manakai:similarglyph
+manakai:equivglyph
 ":aj5459"
 opentype:aalt
 ":aj7994"
@@ -6678,7 +6678,7 @@ adobe:jp83
 adobe:vs
 -":aj13559"
 ":aj-shs-13559"
-manakai:similarglyph
+manakai:equivglyph
 ":aj14149"
 opentype:aalt
 ":aj19500"
@@ -6775,7 +6775,7 @@ adobe:jp83
 "瑟󠄁"
 adobe:vs
 -":aj13566"
-":aj-shs-13566"
+":MJ017530"
 manakai:equivglyph
 ":aj5688"
 opentype:aalt
@@ -6800,7 +6800,7 @@ adobe:jp83
 adobe:vs
 -":aj13568"
 ":aj-shs-13568"
-manakai:similarglyph
+manakai:equivglyph
 ":aj5782"
 opentype:aalt
 ":jis1-66-1"
@@ -7309,8 +7309,6 @@ adobe:jp83
 "躡󠄁"
 adobe:vs
 -":aj13607"
-":MJ026054"
-manakai:equivglyph
 ":aj13608"
 opentype:aalt
 ":aj6913"
@@ -7320,6 +7318,8 @@ opentype:aalt
 ":jis1-78-4"
 adobe:jp78
 adobe:jp83
+":swg306"
+manakai:equivglyph
 "遒󠄁"
 adobe:vs
 -":aj13608"
@@ -7840,7 +7840,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13647"
 ":aj-shs-13647"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1243"
 opentype:aalt
 ":aj13412"
@@ -8041,10 +8041,10 @@ adobe:uni:x02132004
 "花󠄀"
 adobe:vs
 -":aj13660"
-":aj-shs-13660"
-manakai:similarglyph
 ":aj1305"
 opentype:aalt
+":gw-u65bc-ue0101"
+manakai:equivglyph
 "於󠄁"
 adobe:vs
 -":aj13661"
@@ -8308,7 +8308,7 @@ opentype:aalt
 adobe:vs
 -":aj13681"
 ":aj-shs-13681"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1439"
 opentype:aalt
 ":aj14622"
@@ -8997,7 +8997,7 @@ opentype:aalt
 adobe:vs
 -":aj13737"
 ":aj-shs-13737"
-manakai:similarglyph
+manakai:equivglyph
 ":aj1779"
 opentype:aalt
 ":aj7665"
@@ -9555,7 +9555,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13783"
 ":aj-shs-13783"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2108"
 opentype:aalt
 "彩󠄁"
@@ -9569,7 +9569,7 @@ opentype:aalt
 adobe:vs
 -":aj13785"
 ":aj-shs-13785"
-manakai:similarglyph
+manakai:equivglyph
 ":aj21081"
 opentype:aalt
 ":aj2112"
@@ -9983,7 +9983,7 @@ opentype:aalt
 adobe:vs
 -":aj13819"
 ":aj-shs-13819"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2367"
 opentype:aalt
 "週󠄁"
@@ -10082,7 +10082,7 @@ opentype:aalt
 adobe:vs
 -":aj1383"
 ":aj-shs-1383"
-manakai:similarglyph
+manakai:equivglyph
 ":aj7965"
 opentype:aalt
 opentype:expt
@@ -10507,7 +10507,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj13858"
 ":aj-shs-13858"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2581"
 opentype:aalt
 ":aj4250"
@@ -10604,7 +10604,7 @@ opentype:aalt
 adobe:vs
 -":aj13865"
 ":aj-shs-13865"
-manakai:similarglyph
+manakai:equivglyph
 ":aj13866"
 opentype:aalt
 ":aj2638"
@@ -10815,10 +10815,10 @@ adobe:uni:x02132004
 "賀󠄀"
 adobe:vs
 -":aj13880"
-":aj-shs-13880"
-manakai:similarglyph
 ":aj2694"
 opentype:aalt
+":gw-u8aaa-ue0100"
+manakai:equivglyph
 "說"
 adobe:uni
 adobe:uni:2004
@@ -11142,7 +11142,7 @@ opentype:aalt
 adobe:vs
 -":aj13907"
 ":aj-shs-13907"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2882"
 opentype:aalt
 "隊󠄁"
@@ -11206,7 +11206,7 @@ opentype:aalt
 adobe:vs
 -":aj13912"
 ":aj-shs-13912"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2913"
 opentype:aalt
 ":aj6908"
@@ -11357,7 +11357,7 @@ opentype:aalt
 adobe:vs
 -":aj13926"
 ":aj-shs-13926"
-manakai:similarglyph
+manakai:equivglyph
 ":aj12869"
 opentype:aalt
 ":aj2987"
@@ -11706,7 +11706,7 @@ adobe:uni:x0213
 adobe:uni:x02132004
 -":aj13955"
 ":aj-shs-13955"
-manakai:similarglyph
+manakai:equivglyph
 ":aj3164"
 opentype:aalt
 "唐󠄁"
@@ -11955,7 +11955,7 @@ opentype:aalt
 adobe:vs
 -":aj13976"
 ":aj-shs-13976"
-manakai:similarglyph
+manakai:equivglyph
 ":aj13540"
 opentype:aalt
 ":aj3364"
@@ -26015,8 +26015,8 @@ opentype:aalt
 ":aj9504"
 opentype:aalt
 -":aj12869"
-":aj-shs-12869"
-manakai:similarglyph
+":aj-shs-2987"
+manakai:equivglyph
 -":aj129"
 ":aj16268"
 opentype:aalt
