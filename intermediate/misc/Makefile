@@ -10,7 +10,8 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) variants.list maps.list sets.json swc-0.list gmap.json \
+build: $(TEMP_PATH) variants.list maps.list sets.json swc-0.list \
+    gmap.json kana-gmap.json \
     build-pages
 
 build-nightly: build
@@ -59,7 +60,9 @@ $(DATA_PATH)/codes.list: codes.pl $(VGEN_PATH)/chars.pl
 	$(PERL) $< > $@
 
 gmap.json: gmap.pl gmap.txt
-	$(PERL) $< > $@
+	$(PERL) $< gmap.txt > $@
+kana-gmap.json: gmap.pl kana-gmap.txt
+	$(PERL) $< kana-gmap.txt > $@
 
 swc-0.list: swc.pl \
     $(TEMP_PATH)/swglyphs.json \

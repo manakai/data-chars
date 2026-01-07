@@ -999,7 +999,13 @@ my $JA2Char = {};
   $JA2Char->{"10-6-43"} = "\x{FA1F}";
 }
 
-{
+for (
+  ['gmap.json', 'hans'],
+  ['kana-gmap.json', 'kanas'],
+) {
+  my $path = $ThisPath->parent->child ('misc/' . $_->[0]);
+  my $key = $_->[1];
+  
   my $UnicodeRelTypes = {
     1993 => 'iso10646:1993:j:glyph',
     2000 => 'iso10646:2000:j:glyph',
@@ -1020,7 +1026,6 @@ my $JA2Char = {};
     U151 => 'unicode15.1:j:glyph',
   };
   
-  my $path = $ThisPath->parent->child ('misc/gmap.json');
   my $json = json_bytes2perl $path->slurp;
     my $sel = sub {
     my $x = shift;
@@ -1056,11 +1061,11 @@ my $JA2Char = {};
         if (defined $group->{selected}) {
           my $glyph = $sel->($group->{selected});
           my $c2 = glyph_to_char $glyph;
-          $Data->{hans}->{$c1}->{$c2}->{'manakai:equivglyph'} = 1;
+          $Data->{$key}->{$c1}->{$c2}->{'manakai:equivglyph'} = 1;
         } elsif (defined $group->{selected_similar}) {
           my $glyph = $sel->($group->{selected_similar});
           my $c2 = glyph_to_char $glyph;
-          $Data->{hans}->{$c1}->{$c2}->{'manakai:similarglyph'} = 1;
+          $Data->{$key}->{$c1}->{$c2}->{'manakai:similarglyph'} = 1;
         } else {
           #warn "No glyph for |$c1|";
         }
@@ -1073,7 +1078,7 @@ my $JA2Char = {};
         my $glyph = $sel->($group->{selected});
         die "Bad glyph for |$c1| ($glyph)" unless $glyph =~ /^MJ/;
         my $c2 = glyph_to_char $glyph;
-        $Data->{hans}->{$c1}->{$c2}->{'manakai:hasglyph'} = 1;
+        $Data->{$key}->{$c1}->{$c2}->{'manakai:hasglyph'} = 1;
       } else {
         #warn "No glyph for |$c1|";
       }
@@ -1092,11 +1097,11 @@ my $JA2Char = {};
         if (defined $group->{selected}) {
           my $glyph = $sel->($group->{selected});
           my $c2 = glyph_to_char $glyph;
-          $Data->{hans}->{$c1}->{$c2}->{$rel_type.':equiv'} = 1;
+          $Data->{$key}->{$c1}->{$c2}->{$rel_type.':equiv'} = 1;
         } elsif (defined $group->{selected_similar}) {
           my $glyph = $sel->($group->{selected_similar});
           my $c2 = glyph_to_char $glyph;
-          $Data->{hans}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
+          $Data->{$key}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
         } else {
           #warn "No glyph for |$c1|";
         }
@@ -1134,11 +1139,11 @@ my $JA2Char = {};
           if (defined $group->{selected}) {
             my $glyph = $sel->($group->{selected});
             my $c2 = glyph_to_char $glyph;
-            $Data->{hans}->{$c1}->{$c2}->{$rel_type.':equiv'} = 1;
+            $Data->{$key}->{$c1}->{$c2}->{$rel_type.':equiv'} = 1;
           } elsif (defined $group->{selected_similar}) {
             my $glyph = $sel->($group->{selected_similar});
             my $c2 = glyph_to_char $glyph;
-            $Data->{hans}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
+            $Data->{$key}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
           } else {
             #warn "No glyph for |$c1|";
           }
@@ -1202,10 +1207,10 @@ my $JA2Char = {};
     next unless @c1;
     my $c1 = shift @c1;
     for my $c2 (@c1) {
-      $Data->{glyphs}->{$c1}->{$c2}->{'manakai:equivglyph'} = 1;
+      $Data->{$key}->{$c1}->{$c2}->{'manakai:equivglyph'} = 1;
     }
     if (defined $prev_group_c) {
-      $Data->{glyphs}->{$prev_group_c}->{$c1}->{'manakai:similarglyph'} = 1;
+      $Data->{$key}->{$prev_group_c}->{$c1}->{'manakai:similarglyph'} = 1;
     }
       $prev_group_c = $c1;
     } # $group

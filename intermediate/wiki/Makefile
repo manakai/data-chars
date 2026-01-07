@@ -211,6 +211,7 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     manyou.txt \
     ../jp/jouyouh22-table.json \
     ../misc/gmap.json \
+    ../misc/kana-gmap.json \
     $(TEMPUC_PATH)/unihan3.txt
 	$(PERL) $<
 maps-*.list: maps-0.list

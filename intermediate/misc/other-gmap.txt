@@ -1,0 +1,152 @@
+:ocrhh-、
+  # right bottom
+
+:ocrhh-。
+  # right bottom
+
+# middle dot with voiced
+:u-dakuten-e0da U+E11B:glnm
+
+# middle dot with semi-voiced
+U+E14B:glnm
+
+## Logos
+
+# JIS mark (old)
+U+3004:U15 U+E001:glnm :jis-kjis-1-97-81
+# JIS mark (new)
+U+3004:glnm
+
+# Other logos
+U+E000:glnm
+
+#!!
+U+E002:glnm
+#!? italic
+U+E012:glnm
+U+E022:glnm
+#!?
+U+E003:glnm
+#!? italic
+U+E013:glnm
+U+E023:glnm
+#?!
+U+E004:glnm
+#?! italic
+U+E014:glnm
+U+E024:glnm
+#??
+U+E005:glnm
+#?? italic
+U+E015:glnm
+U+E025:glnm
+#!!!
+U+E006:glnm
+#!!! italic
+U+E016:glnm
+U+E026:glnm
+#!!?
+U+E007:glnm
+#!!? italic
+U+E017:glnm
+#!?!
+U+E008:glnm
+#!?! italic
+U+E018:glnm
+#?!!
+U+E009:glnm
+#?!! italic
+U+E019:glnm
+#!!!!
+U+E00A:glnm
+#!!!! italic
+U+E01A:glnm
+#! p
+U+E00B:glnm 
+#! italic
+U+E010:glnm
+U+E020:glnm
+#! p italic
+U+E01B:glnm
+U+E029:glnm
+#? p
+U+E00C:glnm U+003F:U15
+#? italic
+U+E011:glnm
+U+E021:glnm
+#? p italic
+U+E01C:glnm
+U+E02A:glnm
+
+#♠ bold
+U+E040:glnm
+#♤ b
+U+E044:glnm
+#◆ b
+U+E046:glnm
+#◇ b
+U+E042:glnm
+#♣ b
+U+E043:glnm
+#♧ b
+U+E047:glnm
+#♥ b
+U+E041:glnm
+#♡ b
+U+E045:glnm
+#♥ broken
+U+E048:glnm U+1F494:glnm
+#♡ broken
+U+E049:glnm
+# black heart with voiced
+:u-dakuten-e0dd U+E04B:glnm
+#bold
+U+E04D:glnm
+# white heart with voiced
+:u-dakuten-e0dc U+E04A:glnm
+#bold
+U+E04C:glnm
+
+#face white
+U+E053:glnm U+1F31D:glnm
+#black
+U+E050:glnm U+1F31A:glnm
+#moon face left
+U+E051:glnm U+1F31B:glnm
+#right
+U+E052:glnm U+1F31C:glnm
+
+#water white
+U+E055:glnm U+1F4A7:glnm
+#black
+U+E054:glnm U+1F322:glnm
+#bold
+U+E057:glnm
+U+E056:glnm
+#voiced
+U+E05B:glnm
+U+E05C:glnm
+#voiced bold
+U+E05E:glnm
+U+E06D:glnm
+
+#angry
+U+E058:glnm U+1F4A2:glnm
+
+#light topright bottomleft
+U+E059:glnm
+#bottomright topleft
+U+E05A:glnm
+#topright
+U+E060:glnm
+#bottomleft
+U+E061:glnm
+#bottomright
+U+E062:glnm
+#topleft
+U+E063:glnm
+
+#spiral right
+U+E064:glnm
+#left
+U+E065:glnm

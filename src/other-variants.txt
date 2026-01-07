@@ -850,6 +850,8 @@ same \u00B5 :jis-pubrev-1-9-13
 same \u3031 :jisfusai12
 same \u3032 :jisfusai13
 
+related "参せ候" :jisfusai14
+related "参せ候" :jisfusai15
 related "まいらせ候" :jisfusai14
 related "まいらせ候" :jisfusai15
 unified :u-jitaichou-f034 :jisfusai14:jisfusai15
@@ -990,5 +992,30 @@ related \u{E0058} \u{E0078}
 related \u{E0059} \u{E0079}
 related \u{E005A} \u{E007A}
 
+related :jisfusai739 "(ア)"
+related :jisfusai740 "(イ)"
+related :jisfusai741 "(ウ)"
+related :jisfusai742 "(エ)"
+related :jisfusai743 "(オ)"
+related :jisfusai744 "(カ)"
+related :jisfusai745 "(キ)"
+related :jisfusai746 "(ク)"
+related :jisfusai747 "(ケ)"
+related :jisfusai748 "(ケ)"
+related :jisfusai749 "(コ)"
+related :jisfusai750 "(サ)"
+related :jisfusai751 "(シ)"
+related :jisfusai752 "(ス)"
+related :jisfusai753 "(セ)"
+related :jisfusai754 "(チ)"
+related :jisfusai755 "(ニ)"
+related :jisfusai756 "(ヌ)"
+related :jisfusai757 "(ハ)"
+related :jisfusai758 "(ヘ)"
+related :jisfusai759 "(ホ)"
+related :jisfusai760 "(リ)"
+related :jisfusai761 "(ル)"
+related :jisfusai762 "(ロ)"
+related :jisfusai763 "(ヲ)"
 
 ## License: Public Domain.
