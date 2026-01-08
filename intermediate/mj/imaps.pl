@@ -8,6 +8,7 @@ my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent->parent;
 my $TempPath = $RootPath->child ('local/iuc');
 my $DataPath = $RootPath->child ('local/maps');
+$DataPath->mkpath;
 
 my $Data = {};
 

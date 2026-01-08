@@ -14,10 +14,10 @@ SAVEURL = $(WGET) -O
 all: build
 
 build: swcf-hanmin-mapping.txt $(TEMPAD_PATH)/swcf-hanmin-mapping.json
-	mkdir -p $(ROOT_PATH)/tmp
-	cp $(TEMPAD_PATH)/swcf-hanmin-mapping.json $(ROOT_PATH)/tmp/
 
 build-pages: build
+	mkdir -p $(ROOT_PATH)/tmp
+	cp $(TEMPAD_PATH)/swcf-hanmin-mapping.json $(ROOT_PATH)/tmp/
 
 IVD_VERSION = 2022-09-13
 $(TEMPUC_PATH)/$(IVD_VERSION)/IVD_Sequences.txt \

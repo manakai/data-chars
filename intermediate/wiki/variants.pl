@@ -53,7 +53,11 @@ for (
     if (/^\|\s*\p{sc=Hangul}\s*\|\|(.+)$/) {
       my $s = $1;
       for my $c (grep { length } split /[|,\s]/, $s) {
-        $Data->{sets}->{kredu}->{$c} = 1;
+        my $d = $c;
+        $d =~ s<\{\{.+?\}\}><>g;
+        for (split //, $d) {
+          $Data->{sets}->{kredu}->{$_} = 1;
+        }
       }
     }
   }

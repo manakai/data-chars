@@ -9,7 +9,9 @@ PERL = $(ROOT_PATH)/perl \
 WGET = wget
 SAVEURL = $(WGET) -O
 
-all: $(TEMP_PATH) repos variants-0.list hd-0.list maps-0.list \
+all: build
+
+build: $(TEMP_PATH) repos variants-0.list hd-0.list maps-0.list \
     ids-0.list build-pages
 
 build-nightly:

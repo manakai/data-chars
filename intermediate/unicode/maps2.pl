@@ -10,62 +10,6 @@ my $TempPath = $RootPath->child ('local/iuc');
 
 my $Data = {};
 
-{
-  my $path = $TempPath->child ('unihan-irg-j.txt');
-  my $file = $path->openr;
-  while (<$file>) {
-    if (/^\s*#/) {
-      #
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+J([0134]|13A?|14|A3|A4)-([0-9A-F]{2})([0-9A-F]{2})$/) {
-      my $prefix = {
-        '0' => ':jis1',
-        '1' => ':jis2',
-        '3' => ':jis1',
-        '4' => ':jis2',
-        '13' => ':jis1',
-        '13A' => ':jis1',
-        '14' => ':jis2',
-        'A3' => ':jis1',
-        'A4' => ':jis2',
-      }->{$3} // die $3;
-      my $c1 = u_chr hex $1;
-      my $c2 = sprintf '%s-%d-%d', $prefix, (hex $4) - 0x20, (hex $5) - 0x20;
-      my $rel_type = "unihan:$2:$3";
-      my $key = get_vkey $c1;
-      $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JARIB-([0-9A-F]{2})([0-9A-F]{2})$/) {
-      my $c2 = sprintf ':jis-arib-1-%d-%d', (hex $3) - 0x20, (hex $4) - 0x20;
-      $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2:ARIB"} = 1;
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JA-([0-9A-F]{2})([0-9A-F]{2})$/) {
-      #my $c2 = sprintf ':IA%02d%02d', (hex $3) - 0x20, (hex $4) - 0x20;
-      #$Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2:A"} = 1;
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JH-([A-Z0-9]+)$/) {
-      my $c2 = ':' . $3;
-      $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2:H"} = 1;
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JMJ-([0-9]+)$/) {
-      my $c2 = ':MJ' . $3;
-      $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2:MJ"} = 1;
-    } elsif (/^U\+([0-9A-F]+)\s+(kIRG_JSource)\s+JK-([0-9]+)$/) {
-      my $c1 = u_chr hex $1;
-      my $c2 = ':m' . (0+$3);
-      my $key = get_vkey $c1;
-      $Data->{$key}->{$c1}->{$c2}->{"unihan:$2:K"} = 1;
-    }
-  }
-}
-{
-  my $path = $TempPath->child ('unihan-ibmjapan.txt');
-  my $file = $path->openr;
-  while (<$file>) {
-    if (/^\s*#/) {
-      #
-    } elsif (/^U\+([0-9A-F]+)\s+(kIBMJapan)\s+([0-9A-F]{2})([0-9A-F]{2})$/) {
-      my $c2 = sjis_char ':jis-dos-1-', (hex $3), (hex $4);
-      $Data->{hans}->{u_chr hex $1}->{$c2}->{"unihan:$2"} = 1;
-    }
-  }
-}
-
 for (
   ['bestfit932.txt', 1, undef, ':u-ms'],
   ['bestfit936.txt', 0, ':gb0', ':u-gb'],

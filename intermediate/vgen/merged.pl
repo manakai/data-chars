@@ -192,14 +192,26 @@ my $NTypes = [];
     "unicode:j:glyph",
 
     qw(
-      iso10646:1993:g:glyph:equiv
-      iso10646:1993:g:glyph:similar
-      iso10646:1993:j:glyph:equiv
-      iso10646:1993:j:glyph:similar
-      iso10646:1993:k:glyph:equiv
-      iso10646:1993:k:glyph:similar
-      iso10646:1993:t:glyph:equiv
-      iso10646:1993:t:glyph:similar
+
+iso10646:1992:g:glyph:equiv
+iso10646:1992:g:glyph:similar
+iso10646:1992:j:glyph:equiv
+iso10646:1992:j:glyph:similar
+iso10646:1992:k:glyph:equiv
+iso10646:1992:k:glyph:similar
+iso10646:1992:t:glyph:equiv
+iso10646:1992:t:glyph:similar
+iso10646:1992:u:glyph:equiv
+iso10646:1992:u:glyph:similar
+
+iso10646:1993:g:glyph:equiv
+iso10646:1993:g:glyph:similar
+iso10646:1993:j:glyph:equiv
+iso10646:1993:j:glyph:similar
+iso10646:1993:k:glyph:equiv
+iso10646:1993:k:glyph:similar
+iso10646:1993:t:glyph:equiv
+iso10646:1993:t:glyph:similar
       
       iso10646:2000:g:glyph:equiv
       iso10646:2000:g:glyph:similar
@@ -251,6 +263,15 @@ iso10646:2023:uk:glyph:similar
 iso10646:2023:v:glyph:equiv
 iso10646:2023:v:glyph:similar
 
+unicode2:u:glyph:equiv
+unicode2:u:glyph:similar
+
+unicode3.1:u:glyph:equiv
+unicode3.1:u:glyph:similar
+
+unicode3.2:u:glyph:equiv
+unicode3.2:u:glyph:similar
+
 unicode5.2:g:glyph:equiv
 unicode5.2:g:glyph:similar
 unicode5.2:h:glyph:equiv
@@ -266,6 +287,9 @@ unicode5.2:t:glyph:similar
 unicode5.2:u:glyph:equiv
 unicode5.2:v:glyph:equiv
 unicode5.2:v:glyph:similar
+
+unicode6:u:glyph:equiv
+unicode6:u:glyph:similar
 
 unicode6.1:h:glyph:equiv
 unicode6.1:j:glyph:equiv
@@ -287,6 +311,7 @@ unicode6.2:u:glyph:similar
 
 unicode9:g:glyph:equiv
 unicode9:t:glyph:equiv
+unicode9:t:glyph:similar
 unicode9:ucs2003:glyph:equiv
 unicode9:v:glyph:equiv
 unicode10:s:glyph:equiv
@@ -334,6 +359,9 @@ unicode15.1:k:glyph:equiv
 unicode15.1:k:glyph:similar
 unicode15.1:kp:glyph:equiv
 unicode15.1:u:glyph:equiv
+
+gb18030:2022:glyph:equiv
+gb18030:2022:glyph:similar
     ),
     
     "unihan:kZVariant",
@@ -444,13 +472,6 @@ unicode15.1:u:glyph:equiv
     "unihan3.0:kIRG_VSource:0",
     "cjkvi:nom_qn:#",
     "cjkvi:nom_qn:#:V4",
-
-    "unicode5.2:u:glyph:equiv",
-    "unicode6.1:u:glyph:equiv",
-    "unicode6.2:u:glyph:equiv",
-    "unicode15:u:glyph:equiv",
-    "unicode15.1:u:glyph:equiv",
-    "iso10646:2023:u:glyph:equiv",
 
     "inherited:Big5",
     "inherited:Unicode",
@@ -1338,6 +1359,29 @@ manakai:unified:jisx9052:glyph
     "opentype:calt:contextual",
     "opentype:locl",
 
+    "glyphwiki:住基辞典",
+    "glyphwiki:MJ縮退",
+    "glyphwiki:韓国古典DB",
+    "glyphwiki:老君古字碑",
+    "glyphwiki:篇韻疑難字考釋",
+    "glyphwiki:国字",
+    "glyphwiki:誤字俗字・正字一覧表",
+    "glyphwiki:民國教育",
+    "glyphwiki:和製漢字の辞典",
+    "glyphwiki:和名類聚抄",
+    "glyphwiki:KCソース",
+    "glyphwiki:學生字典",
+    "glyphwiki:IRGN1519",
+    "glyphwiki:IRGN1553R",
+    "glyphwiki:IRGN2545",
+    "glyphwiki:IRGN2429R",
+    "glyphwiki:IRGN2864",
+    "glyphwiki:IRGN2798",
+    "glyphwiki:IRGN2674",
+    "glyphwiki:IRGN2918",
+    "glyphwiki:IRGN2616",
+    "glyphwiki:IRGN2741",
+
     "glyphwiki:その他",
     "glyphwiki:small",
 
@@ -1389,6 +1433,7 @@ manakai:unified:jisx9052:glyph
     "babel:ids:[J]",
     "babel:ids:[K]",
     "babel:ids:[M]",
+    "babel:ids:[P]",
     "babel:ids:[S]",
     "babel:ids:[T]",
     "babel:ids:[U]",
@@ -1482,6 +1527,7 @@ manakai:unified:jisx9052:glyph
     "manakai:ne",
 
     "glyphwiki:同型異字",
+    "glyphwiki:字形類似",
     "glyphwiki:related",
     "glyphwiki:contains",
     "opentype:component",

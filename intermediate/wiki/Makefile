@@ -12,13 +12,15 @@ SAVEURL = $(WGET) -O
 
 all: build
 
-build: $(TEMP_PATH) variants.json maps-0.list build-pages
+build: $(TEMP_PATH) variants.json maps-0.list \
+    build-pages 
 
 build-pages: $(TEMP_PATH) \
     $(DATA_PATH)/gwrelated-0.list \
     $(DATA_PATH)/gwaliases-0.list \
     $(DATA_PATH)/gwrelated-0.list \
-    $(DATA_PATH)/gwrels-0.list
+    $(DATA_PATH)/gwrels-0.list \
+    $(TEMP_PATH)/gwreltypes.json
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -41,7 +43,7 @@ $(TEMP_PATH)/nan-3.html:
 	$(SAVEURL) $@ "https://zh.wikipedia.org/wiki/%E6%AD%8C%E4%BB%94%E5%86%8A%E6%96%87%E5%AD%97?action=edit&veswitched=1"
 
 $(TEMP_PATH)/jaconvert.html:
-	$(SAVEURL) $@ https://ja.wikisource.org/wiki/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88:%E6%96%B0%E6%97%A7%E5%AD%97%E4%BD%93%E5%A4%89%E6%8F%9B%E7%94%A8%E8%BE%9E%E6%9B%B8?action=edit&veswitched=1
+	$(SAVEURL) $@ "https://ja.wikisource.org/wiki/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88:%E6%96%B0%E6%97%A7%E5%AD%97%E4%BD%93%E5%A4%89%E6%8F%9B%E7%94%A8%E8%BE%9E%E6%9B%B8?action=edit&veswitched=1"
 
 $(TEMP_PATH)/gb12052.html:
 	$(SAVEURL) $@ "https://charset.fandom.com/ko/wiki/GB_12052?action=edit&veswitched=1"
@@ -138,7 +140,7 @@ $(TEMP_PATH)/gw-jouyoukoseki.txt:
 	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:ziyang_sandbox@77?action=edit
 $(TEMP_PATH)/gw-jouyouoldmj.txt: 
 	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:%e5%b8%b8%e7%94%a8%e6%bc%a2%e5%ad%97%e3%81%ae%e6%97%a7%e5%ad%97%e4%bd%93-%e5%ad%97%e5%bd%a2?action=edit
-$(TEMPWM_PATH)/gw-jinmeikoseki.txt: 
+$(TEMP_PATH)/gw-jinmeikoseki.txt: 
 	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:%e4%ba%ba%e5%90%8d%e7%94%a8%e6%bc%a2%e5%ad%97-%e5%ad%97%e5%bd%a2?action=edit
 
 ../jp/jouyouh22-table.json:
@@ -215,6 +217,7 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMPUC_PATH)/unihan3.txt
 	$(PERL) $<
 maps-*.list: maps-0.list
+$(TEMP_PATH)/gwreltypes.json: maps-0.list
 
 $(ROOT_PATH)/local/generated/charrels/glyphs/gwglyphs/index.json: \
     split-gwdump.pl \

@@ -12,6 +12,7 @@ my $TempPath = $RootPath->child ('local/iwm');
 my $TempUCPath = $RootPath->child ('local/iuc');
 
 my $Data = {};
+my $GWRels = {};
 
 sub extract_source ($) {
   my $html = $_[0];
@@ -681,6 +682,7 @@ for my $path (($TempPath->children (qr/^gw-relcp-[0-9]+\.txt$/))) {
       while (@v) {
         my $c2 = shift @v;
         $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        $GWRels->{$rel_type}++;
         $c1 = $c2;
       }
     }
@@ -1007,23 +1009,29 @@ for (
   my $key = $_->[1];
   
   my $UnicodeRelTypes = {
-    1993 => 'iso10646:1993:j:glyph',
-    2000 => 'iso10646:2000:j:glyph',
-          2003 => 'iso10646:2003:j:glyph',
-          2008 => 'iso10646:2008:j:glyph',
-          2010 => 'iso10646:2010:j:glyph',
-          2020 => 'iso10646:2020:j:glyph',
-          2023 => 'iso10646:2023:j:glyph',
-          U51 => 'unicode5.1:j:glyph',
-          U52 => 'unicode5.2:j:glyph',
-          U61 => 'unicode6.1:j:glyph',
-    U62 => 'unicode6.2:j:glyph',
-    U9 => 'unicode9:j:glyph',
-    U10 => 'unicode10:j:glyph',
-    U13 => 'unicode13:j:glyph',
-    U14 => 'unicode14:j:glyph',
-    U15 => 'unicode15:j:glyph',
-    U151 => 'unicode15.1:j:glyph',
+    DIS12 => 'iso10646:1992:X:glyph',
+    1993 => 'iso10646:1993:X:glyph',
+    2000 => 'iso10646:2000:X:glyph',
+    2003 => 'iso10646:2003:X:glyph',
+    2008 => 'iso10646:2008:X:glyph',
+    2010 => 'iso10646:2010:X:glyph',
+    2020 => 'iso10646:2020:X:glyph',
+    2023 => 'iso10646:2023:X:glyph',
+    U2 => 'unicode2:X:glyph',
+    U31 => 'unicode3.1:X:glyph',
+    U32 => 'unicode3.2:X:glyph',
+    U51 => 'unicode5.1:X:glyph',
+    U52 => 'unicode5.2:X:glyph',
+    U6 => 'unicode6:X:glyph',
+    U61 => 'unicode6.1:X:glyph',
+    U62 => 'unicode6.2:X:glyph',
+    U9 => 'unicode9:X:glyph',
+    U10 => 'unicode10:X:glyph',
+    U13 => 'unicode13:X:glyph',
+    U14 => 'unicode14:X:glyph',
+    U15 => 'unicode15:X:glyph',
+    U151 => 'unicode15.1:X:glyph',
+    "18030-2022" => 'gb18030:2022:glyph',
   };
   
   my $json = json_bytes2perl $path->slurp;
@@ -1091,6 +1099,7 @@ for (
           2016 => 1,
         }->{$k2};
         my $rel_type = $UnicodeRelTypes->{$k2} // die "Bad key2 |$k2|";
+        $rel_type =~ s/:X:/:j:/;
         my $c1 = $JA2Char->{$jis};
         #$c1 = ':jis' . $jis if not defined $c1;
         die "Bad JA |$jis|" unless defined $c1;
@@ -1128,12 +1137,39 @@ for (
           2016 => 1,
           ipa1 => 1,
           ipa3 => 1,
+          ipa1v => 1,
+          ipa3v => 1,
           ex => 1,
+          exv => 1,
           mj => 1,
+          mjv => 1,
           SWC => 1,
         }->{$k2};
         my $rel_type = $UnicodeRelTypes->{$k2} // die $k2;
-        $rel_type =~ s/:j:/$type/;
+        $rel_type =~ s/:X:/$type/;
+        for (keys %{$group->{$k1}->{$k2} or {}}) {
+          my $c1 = chr hex $_;
+          if (defined $group->{selected}) {
+            my $glyph = $sel->($group->{selected});
+            my $c2 = glyph_to_char $glyph;
+            $Data->{$key}->{$c1}->{$c2}->{$rel_type.':equiv'} = 1;
+          } elsif (defined $group->{selected_similar}) {
+            my $glyph = $sel->($group->{selected_similar});
+            my $c2 = glyph_to_char $glyph;
+            $Data->{$key}->{$c1}->{$c2}->{$rel_type.':similar'} = 1;
+          } else {
+            #warn "No glyph for |$c1|";
+          }
+        }
+      }
+    }
+    {
+      my $k1 = 'uni';
+      for my $k2 (keys %{$group->{$k1}}) {
+        my $rel_type = $UnicodeRelTypes->{$k2};
+        next unless defined $rel_type;
+        $rel_type =~ s/:X:/:u:/;
+        
         for (keys %{$group->{$k1}->{$k2} or {}}) {
           my $c1 = chr hex $_;
           if (defined $group->{selected}) {
@@ -1228,5 +1264,10 @@ write_rel_data_sets
       qr/^:[kt]/,
       qr/^:[a-z]/,
     ];
+
+{
+  my $path = $TempPath->child ('gwreltypes.json');
+  $path->spew (perl2json_bytes [sort { $a cmp $b } keys %$GWRels]);
+}
 
 ## License: Public Domain.

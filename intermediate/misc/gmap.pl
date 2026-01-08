@@ -75,13 +75,23 @@ my $Data = {};
           } elsif (/^U\+([0-9A-F]+)J:(U52|U61|U62|U13|U151|U15|DIS12)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['ucs', $ucs, $2];
+            ## For historical reasons, |ucs| is UCS for J column.
           } elsif (/^U\+([0-9A-F]+)([GTHUMKVS]|UK|KP|UCS2003):(U52|U61|U62|U9|U10|U13|U151|U15|DIS12)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['ucs' . $2, $ucs, $3];
-          } elsif (/^U\+([0-9A-F]+):(U2|Uv|Uh1|Uh2|ipa1v?|ipa3v?|exv?|mjv?|SWC|refv?|refsmallv?|twkana)$/) {
+          } elsif (/^U\+([0-9A-F]+):(ipa1v?|ipa3v?|exv?|mjv?|SWC)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['ucs', $ucs, $2];
-          } elsif ($is_kana and /^U\+([0-9A-F]+):(U15|U6|shsv?|bshv?|kai|sung|shgv?|kleev?|notohentai|shokaki)$/) {
+          } elsif (/^U\+(F[0-9A-F]{3}):(DIS12)$/) {
+            my $ucs = sprintf '%04X', hex $1;
+            push @item, ['ucsU', $ucs, $2];
+          } elsif (/^U\+([0-9A-F]+):(U2|U31|U32|18030-2022)$/) {
+            my $ucs = sprintf '%04X', hex $1;
+            push @item, ['ucsU', $ucs, $2];
+          } elsif (/^U\+([0-9A-F]+):(18030-2022)$/) {
+            my $ucs = sprintf '%04X', hex $1;
+            push @item, ['ucsG', $ucs, $2];
+          } elsif ($is_kana and /^U\+([0-9A-F]+):(Uv|Uh1|Uh2|U15|U6|shsv?|bshv?|kai|sung|shgv?|kleev?|notohentai|shokaki|refv?|refsmallv?|twkana|18030-2022)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['uni', $ucs, $2];
           } elsif (/^(GL[1-5])"(.)"(v?)$/) {
@@ -210,6 +220,8 @@ my $Data = {};
             push @item, [$1, $2, ''];
           } elsif (/^:gb([0-9]+)-([0-9]+)-([0-9]+)$/) {
             push @item, ['gb', (sprintf '%d-%d-%d', $1, $2, $3), ''];
+          } elsif (/^:G([0-9]+)-([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})$/) {
+            push @item, ['gb', (sprintf '%d-%d-%d', $1, -0x20 + hex $2, -0x20 + hex $3), ''];
           } elsif (/^:ks([0-9]+)-([0-9]+)-([0-9]+)$/) {
             push @item, ['ks', (sprintf '%d-%d-%d', $1, $2, $3), ''];
           } elsif (/^:(UTC|UCI)-([0-9]+)$/) {

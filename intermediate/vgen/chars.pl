@@ -610,6 +610,10 @@ sub split_ids ($) {
         }ge;
       }
 
+      # [:-1] [1]
+      $t =~ s{\[[0-9]+\]}{}g;
+      $t =~ s{\[:-[0-9]+\]}{}g;
+
       die $t if $t =~ /[\x21-\x7E]/;
       push @c, grep { not /^[$IDC\x{303E}\x{2194}\x{21B7}〓]$/o } split //, $t;
       

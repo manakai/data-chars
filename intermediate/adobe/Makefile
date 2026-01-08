@@ -83,7 +83,9 @@ $(TEMP_PATH)/dumpotf.js: dumpotf.js
 	cp $< $@
 
 $(TEMP_PATH)/kml.zip:
-	$(SAVEURL) $@ http://www.akenotsuki.com/eyeben/fonts/files/KiriMinL4_002.zip
+	#$(SAVEURL) $@ http://www.akenotsuki.com/eyeben/fonts/files/KiriMinL4_002.zip
+	$(SAVEURL) $@ https://www.akenotsuki.com/eyeben/fonts/files/KiriMinL4_01.zip
+
 $(TEMP_PATH)/KiriMinL.otf: $(TEMP_PATH)/kml.zip
 	cd $(TEMP_PATH) && unzip kml.zip
 	touch $@
@@ -96,11 +98,11 @@ $(TEMP_PATH)/KiriMinL-dump.json: $(TEMP_PATH)/KiriMinL.otf \
 
 maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/aj17.txt $(TEMP_PATH)/aj17-kanji.txt $(TEMP_PATH)/aj20.txt \
-    $(TEMP_PATH)/ac17.txt $(TEMP_PATH)/ag16.txt \
+    $(TEMP_PATH)/ac17.txt $(TEMP_PATH)/ag15.txt $(TEMP_PATH)/ag16.txt \
     $(TEMP_PATH)/ak9.txt $(TEMP_PATH)/ak12.txt \
     $(TEMP_PATH)/aj-vs.txt $(TEMP_PATH)/ac-vs.txt \
     $(TEMP_PATH)/ag-vs.txt $(TEMP_PATH)/ak-vs.txt \
-    $(TEMP_PATH)/ac17.fea $(TEMP_PATH)/ag16.fea \
+    $(TEMP_PATH)/ac17.fea $(TEMP_PATH)/ag15.fea $(TEMP_PATH)/ag16.fea \
     $(TEMP_PATH)/aj17.fea \
     $(TEMP_PATH)/akr9.fea \
     $(TEMP_PATH)/akr9-hangul.txt \
@@ -113,5 +115,6 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
 	$(PERL) $<
 maps-*.list: maps-0.list
 
+always:
 
 ## License: Public Domain.

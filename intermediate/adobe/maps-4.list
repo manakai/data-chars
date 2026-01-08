@@ -230,7 +230,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1612"
 ":aj-shs-1612"
-manakai:similarglyph
+manakai:equivglyph
 ":aj13705"
 opentype:aalt
 ":jis1-21-18"
@@ -267,7 +267,7 @@ adobe:uni:x02132004
 "騎󠄀"
 adobe:vs
 -":aj1614"
-":aj-shs-1614"
+":MJ029013"
 manakai:similarglyph
 ":jis1-21-20"
 adobe:expt
@@ -824,7 +824,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj1634"
 ":aj-shs-1634"
-manakai:similarglyph
+manakai:equivglyph
 ":aj13706"
 opentype:aalt
 ":jis1-21-40"
@@ -2741,7 +2741,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj16837"
 ":aj-shs-16837"
-manakai:similarglyph
+manakai:equivglyph
 ":aj4658"
 opentype:aalt
 ":jis1-47-66"
@@ -3119,8 +3119,8 @@ adobe:uni:x02132004
 "彔󠄀"
 adobe:vs
 -":aj16859"
-":aj-shs-16859"
-manakai:similarglyph
+":gw-u5f7d-ue0100"
+manakai:equivglyph
 ":jis1-84-31"
 adobe:jisx0213:2000
 adobe:jisx0213:2004
@@ -4041,7 +4041,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj16912"
 ":aj-shs-16912"
-manakai:similarglyph
+manakai:equivglyph
 ":aj13329"
 opentype:aalt
 ":aj13403"
@@ -8214,7 +8214,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj17151"
 ":aj-shs-17151"
-manakai:similarglyph
+manakai:equivglyph
 ":jis1-92-60"
 adobe:jisx0213:2000
 adobe:jisx0213:2004
@@ -10435,7 +10435,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj17279"
 ":aj-shs-17279"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2718"
 opentype:aalt
 ":aj7719"
@@ -11361,7 +11361,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj17332"
 ":aj-shs-17332"
-manakai:similarglyph
+manakai:equivglyph
 ":jis2-3-51"
 adobe:jisx0213:2000
 adobe:jisx0213:2004
@@ -12621,7 +12621,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj17409"
 ":aj-shs-17409"
-manakai:similarglyph
+manakai:equivglyph
 ":jis2-22-81"
 adobe:jisx0212
 ":jis2-4-52"
@@ -13667,7 +13667,7 @@ adobe:uni:x0213
 adobe:vs
 -":aj1747"
 ":aj-shs-1747"
-manakai:similarglyph
+manakai:equivglyph
 ":jis1-22-59"
 adobe:expt
 adobe:jp04

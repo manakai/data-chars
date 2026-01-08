@@ -191,6 +191,8 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/unihan-irg-h.txt \
     $(TEMP_PATH)/unihan-irg-m.txt \
     $(TEMP_PATH)/unihan-irg-uk.txt \
+    $(TEMP_PATH)/unihan-irg-j.txt \
+    $(TEMP_PATH)/unihan-ibmjapan.txt \
     $(TEMP_PATH)/unihan-kangxi.txt \
     $(TEMP_PATH)/unihan15-morohashi.txt \
     $(TEMP_PATH)/unihan-morohashi.txt \
@@ -216,8 +218,6 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
 maps-*.list: maps-0.list
 
 maps2.list: maps2.pl $(VGEN_PATH)/chars.pl \
-    $(TEMP_PATH)/unihan-irg-j.txt \
-    $(TEMP_PATH)/unihan-ibmjapan.txt \
     $(TEMP_PATH)/bestfit932.txt \
     $(TEMP_PATH)/bestfit936.txt \
     $(TEMP_PATH)/bestfit949.txt \

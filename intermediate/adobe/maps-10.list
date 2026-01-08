@@ -7385,7 +7385,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj7421"
 ":aj-shs-7421"
-manakai:similarglyph
+manakai:equivglyph
 ":jinmei-麒"
 adobe:jinmei
 ":jis1-83-42"
@@ -7434,8 +7434,8 @@ adobe:uni:x02132004
 "麑󠄀"
 adobe:vs
 -":aj7424"
-":aj-shs-7424"
-manakai:similarglyph
+":gw-u9e9d-ue0100"
+manakai:equivglyph
 ":jis1-83-45"
 adobe:expt
 adobe:jp04
@@ -10277,7 +10277,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj7734"
 ":aj-shs-7734"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2917"
 opentype:aalt
 ":jis1-35-7"
@@ -17719,7 +17719,7 @@ adobe:uni:x02132004
 adobe:vs
 -":aj8595"
 ":aj-shs-8595"
-manakai:similarglyph
+manakai:equivglyph
 ":aj2425"
 opentype:aalt
 ":jinmei-緖"

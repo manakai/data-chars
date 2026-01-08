@@ -217,7 +217,7 @@ for (
           $Data->{$vkey}->{$c1}->{$c6}->{$vtype.':#:' . $v2} = 1;
           my $c6_2 = $c6;
           $c6_2 =~ s/^:gb1-/:gb0-/;
-          $Data->{codes}->{$c6_0}->{$c6}->{'manakai:private'} = 1;
+          $Data->{codes}->{$c6_2}->{$c6}->{'manakai:private'} = 1;
         } else {
           die $note;
         }

@@ -265,7 +265,7 @@ my $UUK = {};
   for (split /\x0A/, $path->slurp) {
     if (/^U\+([0-9A-F]+)\tkIRG_UKSource\t(UK-[0-9]+)$/) {
       my $ucs = sprintf '%04X', hex $1;
-      $UUK->{$ucs} = $UK->{$2} or die $_;
+      $UUK->{$ucs} = $UK->{$2} if defined $UK->{$2};
     } elsif (/\S/) {
       die $_;
     }
@@ -474,9 +474,9 @@ my $USAT = {};
 {
   my $path = $TempUCPath->child ('unihan-irg-s.txt');
   for (split /\x0A/, $path->slurp) {
-    if (/^U\+([0-9A-F]+)\tkIRG_SSource\tSAT-([0-9]+)$/) {
+    if (/^U\+([0-9A-F]+)\tkIRG_SSource\tSATM?-([0-9]+)$/) {
       my $ucs = sprintf '%04X', hex $1;
-      $USAT->{$ucs} = $GW->{'sat', $2} or die $_;
+      $USAT->{$ucs} = $GW->{'sat', $2} or die "SAT Not defined: |$_|\n";
     } elsif (/\S/) {
       die $_;
     }
@@ -598,8 +598,9 @@ for (@UnicodeRange) {
 my $UV2SO = {};
 {
   my $i = 0;
+  # <- not preferred        preferred glyph ->
   $UV2SO->{$_} = $i++ for qw(
-    1993 2000 2003 U51 U52 U61 U62 U10 U13 U15 U151 2023
+    1993 2000 2003 U51 U52 U61 U62 U9 U10 U13 U15 U151 2023
   );
   
   my $path = $RootPath->child ('intermediate/misc/gmap.json');
@@ -640,6 +641,7 @@ my $UV2SO = {};
       } grep { not {
         ipa1 => 1, ipa3 => 1, ex => 1, jinmei => 1, SWC => 1,
         2008 => 1, 2009 => 1, 2010 => 1, 2011 => 1, 2016 => 1, 2020 => 1,
+        DIS12 => 1, U2 => 1, U31 => 1, U32 => 1,
       }->{$_} } keys %{($group->{$key} or {})}) {
         for my $ucs (keys %{($group->{$key} or {})->{$key2} or {}}) {
           if (not defined $Data->{chars}->{$ucs}->{default}) {

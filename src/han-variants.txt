@@ -353,10 +353,14 @@ taboovariant 𤣥 玄
 taboovariant 㱏 武
 taboovariant 㱐 武
 
+related 齎 齋
+conflict 齋 粂
+variant 夈 粂
+##   <https://ja.wiktionary.org/wiki/%E5%A4%88>
+
 related 十 七
 related 咸 感
 related 彗 慧
-related 齎 齋
 related 令 齢
 related 斗 計
 related 宛 充
