@@ -22,6 +22,17 @@ my @dep_path;
 }
 
 {
+  my $out_path = $DestDirPath->child ('weights.pl')->realpath;
+  my $in_path = $InBasePath->child ($Input->{key} . '-weights.pl');
+  if ($in_path->is_file) {
+    $out_path->spew ($in_path->slurp);
+  } else {
+    my $in_path = $InBasePath->child ('weights.pl');
+    $out_path->spew ($in_path->slurp);
+  }
+}
+
+{
   my $in_path = $VGenPath->child ('.gitignore.template');
   my $out_path = $DestDirPath->child ('.gitignore');
   $out_path->spew ($in_path->slurp);

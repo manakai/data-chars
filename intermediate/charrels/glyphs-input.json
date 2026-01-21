@@ -63,7 +63,8 @@
 
     {"path": "../../local/maps/vietglyphs-0.list", "rels_key": "glyphs"},
     {"path": "../../local/maps/codes.list", "rels_key": "glyphs"},
-    {"path": "../../local/maps/imaps-0.list", "rels_key": "glyphs"}
+    {"path": "../../local/maps/imaps-0.list", "rels_key": "glyphs"},
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "glyphs"}
   ],
   "leader_types": [
   ],

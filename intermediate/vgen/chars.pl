@@ -190,6 +190,15 @@ sub is_han ($) {
     }
   } elsif (is_heisei_char $char) {
     return 1;
+  } elsif ($char =~ /^:(?:gt|mh)[0-9]+$/) {
+    return 1;
+  } elsif ($char =~ /^:tron[238]-/) {
+    return 1;
+  } elsif ($char =~ /^:tron9-[2-7].[2-7]./) {
+    return 1;
+  } elsif ($char =~ /^:m([0-9]+)'*$/ and
+           $1 < 50000) {
+    return 1;
   } elsif ($char =~ /^:[$IDC]/o) {
     return 1;
   }
@@ -348,6 +357,11 @@ sub is_kana ($) {
   } elsif ($c =~ /^:tron9-[8][0-9a-f]{3}$/) {
     return 1;
   } elsif ($c eq ':wmc:Kunten_-n.gif') {
+    return 1;
+  }
+
+  ## Kamiyo
+  if ($c =~ /^:tron9-[9][45][0-9a-f]{2}$/) {
     return 1;
   }
 

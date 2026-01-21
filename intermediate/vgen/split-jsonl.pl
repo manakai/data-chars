@@ -54,7 +54,8 @@ my $Index = {};
       ko koseki koseki0 koseki1 koseki2 koseki3 koseki4 koseki5
       koseki-0 koseki-1 koseki-2 koseki-3 koseki-4 koseki-5 koseki-9
       n ni ny
-      t touki twedu toki tron t0
+      t touki twedu toki tron t0 tron1 tron2 tron3 tron4 tron5 tron6 tron7
+      tron8 tron9 tron10 tron11 tron12 tron16 tron17
       KS KS0 KS1 KS2 KS3 TK J JA JB JC JD JT I
       d d0 d1 di dot dsf dsff dsfull dsfff dsfff1 dsfff2 dsfff3 dsfff4 dsfff5
       dsffull dsffull1 dsffull2 dsffull3 dsffull4 dsffull5 dsffull6
@@ -149,7 +150,9 @@ my $OutFiles = [];
   my $file = $path->openr;
   if ($FileDef->{paired}) {
     local $/ = "\x0A\x0A";
+    my $i = 0;
     while (<$file>) {
+      print STDERR "\rLoading |$path| ($i)... " if $i++ % 1000 == 0;
       my $c1 = json_bytes2perl $_;
       my $c1v = json_bytes2perl scalar <$file>;
 
@@ -192,7 +195,8 @@ my $OutFiles = [];
     next unless defined $OutFiles->[$i];
     next unless @{$OutFiles->[$i]};
 
-    print STDERR "\rWriting[$i/$all] (@{[0+@{$OutFiles->[$i]}]})... ";
+    print STDERR "\rWriting[$i/$all] (@{[0+@{$OutFiles->[$i]}]})... "
+        if $i % 100 == 0;
     my $path = $DataPath->child ("$FileKey/part-$i.$ext");
     my $file = $path->openw;
     

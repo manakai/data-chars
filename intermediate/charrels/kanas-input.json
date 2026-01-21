@@ -230,7 +230,8 @@
         "kana_modern_small": "jp",
         "kana_modern_large": "jp"
       }
-    }
+    },
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "kanas"}
   ],
   "leader_types": [
   ],

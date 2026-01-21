@@ -52,7 +52,8 @@
     {"path": "../../local/maps/idsc-0.list", "rels_key": "components"},
     {"path": "../../local/maps/dsf-0.list", "rels_key": "components"},
     {"path": "../../local/maps/gwcontains-0.list", "rels_key": "components"},
-    {"path": "../../local/maps/gwrels-0.list", "rels_key": "components"}
+    {"path": "../../local/maps/gwrels-0.list", "rels_key": "components"},
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "components"}
   ],
   "leader_types": [
   ],

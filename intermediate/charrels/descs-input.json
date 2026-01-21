@@ -213,7 +213,8 @@
 
     {"path": "../../local/maps/vietglyphs-0.list", "rels_key": "codes"},
     {"path": "../../local/maps/gwrels-0.list", "rels_key": "descs"},
-    {"path": "../../local/maps/codes.list", "rels_key": "codes"}
+    {"path": "../../local/maps/codes.list", "rels_key": "codes"},
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "codes"}
   ],
   "leader_types": [
   ],

@@ -20,7 +20,8 @@ build-pages: $(TEMP_PATH) \
     $(DATA_PATH)/gwaliases-0.list \
     $(DATA_PATH)/gwrelated-0.list \
     $(DATA_PATH)/gwrels-0.list \
-    $(TEMP_PATH)/gwreltypes.json
+    $(TEMP_PATH)/gwreltypes.json \
+    $(TEMP_PATH)/imported-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -67,6 +68,8 @@ $(TEMP_PATH)/0208.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/generated/jisx0208_1997.tbl
 $(TEMP_PATH)/0213.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/source/gl-jisx0213-add.tbr
+$(TEMP_PATH)/repos/data-chartables:
+	git clone https://github.com/manakai/data-chartables $@ || (cd $@ && git pull)
 
 $(TEMP_PATH)/gw.tar.gz:
 	$(SAVEURL) $@ https://fonts.suikawiki.org/glyphwiki/dump-2.tar.gz
@@ -242,5 +245,8 @@ $(DATA_PATH)/gwrelated-0.list: \
 $(DATA_PATH)/gwaliases-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwcontains-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwrels-0.list: $(DATA_PATH)/gwrelated-0.list
+
+$(TEMP_PATH)/imported-0.list: imported.pl $(TEMP_PATH)/repos/data-chartables
+	$(PERL) $<
 
 ## License: Public Domain.
