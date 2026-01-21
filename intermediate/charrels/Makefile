@@ -44,6 +44,9 @@ build-components:
 
 perl-test-hans:
 	cd $(VGEN_DATA_PATH)/hans/ && $(MAKE) perl-test
+perl-test-kanas:
+	$(PERL) $(VGEN_PATH)/generate.pl kanas-input.json
+	cd $(VGEN_DATA_PATH)/kanas/ && $(MAKE) perl-test
 
 _clean-pages:
 	cd $(VGEN_DATA_PATH)/chars/ && $(MAKE) clean-vgen-pages

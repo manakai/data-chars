@@ -27,7 +27,7 @@ build-vgen: \
 
 clean-vgen-pages:
 	rm -fr ./merged-char-index.jsonl cluster-temp.jsonl
-	rm -fr merged-chars.json merged-sets.json
+	rm -fr merged-chars.jsonl merged-sets.json
 	gzip char-cluster.jsonl char-leaders.jsonl merged-rels.jsonll
 	#gzip char-cluster/*
 	#gzip char-leaders/*
@@ -36,10 +36,11 @@ clean-vgen-pages:
 
 ##        +-- relations & sets source json files
 ##        +-- input.json               list of source files
+##        +-- weights.pl               Relation types
 ##        | 
 ##        &->    merged.pl             Generate merged set of inputs
 ## ++-++-+--- merged-index.json        defs
-## || || ++-- merged-chars.json        [not in repo] characters
+## || || ++-- merged-chars.jsonl       [not in repo] characters
 ## || |+-+--- merged-sets.json         [not in repo] character sets
 ## || +--+--- merged-rels.jsonll       [not in repo] character relations
 ## || || ||      & split-jsonl.pl
@@ -80,7 +81,7 @@ clean-vgen-pages:
 
 VGEN_MERGED_INPUTS =
 
-merged-index.json merged-sets.json merged-chars.json merged-rels.jsonll:: \
+merged-index.json merged-sets.json merged-chars.jsonl merged-rels.jsonll:: \
 %: $(VGEN_PATH)/merged.pl $(VGEN_MERGED_INPUTS)
 	$(PERL) $<
 
@@ -90,12 +91,12 @@ merged-rels/part-0.jsonl: $(VGEN_PATH)/split-jsonl.pl \
 merged-rels/part-*.jsonl: merged-rels/part-0.jsonl
 
 merged-char-index.jsonl: $(VGEN_PATH)/merged-char-index.pl \
-    merged-chars.json
+    merged-chars.jsonl
 	$(PERL) $< > $@
 
 cluster-index.json cluster-temp.jsonl:: \
 %: $(VGEN_PATH)/clusters.pl \
-    merged-index.json merged-sets.json merged-chars.json merged-rels.jsonll
+    merged-index.json merged-sets.json merged-chars.jsonl merged-rels.jsonll
 	$(PERL) $<
 
 cluster/part-0.jsonl: $(VGEN_PATH)/split-index-jsonl.pl \

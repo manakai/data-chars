@@ -56,7 +56,7 @@ my $Data = [];
     $path->remove;
   }
   for my $cluster_level_index (0..$#$Data) {
-    my $part_count = keys %{$Data->[$cluster_level_index] or []};
+    my $part_count = keys %{$Data->[$cluster_level_index] or {}};
     for my $part (sort { $a <=> $b } keys %{$Data->[$cluster_level_index] or {}}) {
       print STDERR "\rWriting [$cluster_level_index][$part/$part_count]... " if ($part % 10) == 0;
       my $path = $dir_path->child ('part-' . $cluster_level_index . '-' . $part . '.jsonl');

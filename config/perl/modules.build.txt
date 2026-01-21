@@ -3,3 +3,7 @@ Path::Class
 Path::Tiny
 Unicode::Stringprep::Mapping
 Math::BigInt
+
+List::Util
+DBI
+DBD::SQLite

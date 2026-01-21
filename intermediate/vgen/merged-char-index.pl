@@ -10,14 +10,32 @@ my $StartTime = time;
 binmode STDERR, qw(:encoding(utf-8));
 STDERR->autoflush (1);
 
-my $MergedChars;
+my $MergedChars = [];
 {
-  my $path = $DataPath->child ('merged-chars.json');
+  my $path = $DataPath->child ('merged-chars.jsonl');
   print STDERR "\rLoading |$path|... ";
-  $MergedChars = json_bytes2perl $path->slurp;
+  my $file = $path->openr;
+  while (<$file>) {
+    push @$MergedChars, json_bytes2perl $_;
+  }
 }
 
-my $CharArray = [];
+{
+  C: for my $c (sort {
+    (length $a) <=> (length $b) ||
+    $a cmp $b
+  } @$MergedChars) {
+    print perl2json_bytes $c;
+    print "\x0A";
+  }
+}
+
+__END__
+
+
+
+my $CharArray = {};
+my $CharArrayMax = -1;
 {
   print STDERR "\rAssigning... ";
   my $offset = {};
@@ -125,13 +143,13 @@ my $CharArray = [];
   # u-old- 0x00E00000 ... 0x00FFFFFF , 0x60000000 - 0x7FFFFFFF
   die if $next > 0x00E00000;
   
-  my $all = 0+keys %$MergedChars;
+  my $all = 0+@$MergedChars;
   my $current = 0;
 
   C: for my $c (sort {
     (length $a) <=> (length $b) ||
     $a cmp $b
-  } keys %$MergedChars) {
+  } @$MergedChars) {
     if (not ($current++ % 1000)) {
       print STDERR "\rAssigning $current/$all [$c] ";
     }
@@ -223,19 +241,21 @@ my $CharArray = [];
       $n = 0x80000 + hex $1;
     }
 
-    if (not defined $CharArray->[$n]) {
-      $CharArray->[$n] = $c;
+    if (not defined $CharArray->{$n}) {
+      $CharArray->{$n} = $c;
+      $CharArrayMax = $n if $CharArrayMax < $n;
       next C;
     }
 
     my $m = $n-1;
     while ($m > 0) {
-    if (not defined $CharArray->[$m]) {
+    if (not defined $CharArray->{$m}) {
       if ($m - $n > 100) {
         warn "Too many retries for |$c| (1)\n";
       }
 
-      $CharArray->[$m] = $c;
+      $CharArray->{$m} = $c;
+      $CharArrayMax = $m if $CharArrayMax < $m;
       next C;
     }
     $m--;
@@ -243,12 +263,13 @@ my $CharArray = [];
     $m = $n+1;
     
   while (1) {
-    if (not defined $CharArray->[$m]) {
+    if (not defined $CharArray->{$m}) {
       if ($m - $n > 100) {
         warn "Too many retries for |$c| (2), $m\n";
       }
       
-      $CharArray->[$m] = $c;
+      $CharArray->{$m} = $c;
+      $CharArrayMax = $m if $CharArrayMax < $m;
       next C;
     }
     #if ($m - $n > 1000) {
@@ -260,12 +281,12 @@ my $CharArray = [];
 }
 
 {
-  my $n = 0+@$CharArray;
+  my $n = $CharArrayMax+1;
   print STDERR "\rWriting [0/$n]... ";
   my $i = 0;
-  for (@$CharArray) {
+  for (0..$CharArrayMax) {
     print STDERR "\rWriting [$i/$n]... " if ($i++ % 1000000) == 0;
-    print perl2json_bytes $_;
+    print perl2json_bytes $CharArray->{$_};
     print "\x0A";
   }
 }
