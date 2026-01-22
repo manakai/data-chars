@@ -3,6 +3,444 @@
   "inputs": [
     {
       "path": "../unicode/variants.json",
+      "rels_key": "hans",
+      "set_map": {
+        "cn": "cn",
+        "hk": "hk",
+        "g1": "gb12345",
+        "k0": "ksx1001",
+        "krname": "krname"
+      },
+      "mv_map": {
+        "unihan:hkglyph": "hk"
+      }
+    },
+    {"path": "../unicode/maps-0.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-1.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-2.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-3.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-4.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-5.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-6.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-7.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-8.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-9.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-10.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-11.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-12.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-13.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-14.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-15.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-16.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-17.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-18.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-19.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-20.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-21.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-22.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-23.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-24.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-25.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-26.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-27.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-28.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-29.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-30.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-31.list", "rels_key": "hans"},
+    {"path": "../unicode/maps-32.list", "rels_key": "hans"},
+    {
+      "path": "../unicode/maps2.list",
+      "rels_key": "hans"
+    },
+    {"path": "../mj/maps-0.list", "rels_key": "hans"},
+    {"path": "../mj/maps-1.list", "rels_key": "hans"},
+    {"path": "../mj/maps-2.list", "rels_key": "hans"},
+    {"path": "../mj/maps-3.list", "rels_key": "hans"},
+    {"path": "../mj/maps-4.list", "rels_key": "hans"},
+    {"path": "../mj/maps-5.list", "rels_key": "hans"},
+    {"path": "../mj/maps-6.list", "rels_key": "hans"},
+    {"path": "../mj/maps-7.list", "rels_key": "hans"},
+    {"path": "../mj/maps-8.list", "rels_key": "hans"},
+    {"path": "../mj/maps-9.list", "rels_key": "hans"},
+    {"path": "../mj/maps-10.list", "rels_key": "hans"},
+    {"path": "../mj/maps-11.list", "rels_key": "hans"},
+    {"path": "../mj/maps-12.list", "rels_key": "hans"},
+    {"path": "../mj/maps-13.list", "rels_key": "hans"},
+    {"path": "../mj/maps-14.list", "rels_key": "hans"},
+    {"path": "../mj/maps-15.list", "rels_key": "hans"},
+    {
+      "path": "../mj/fmaps-0.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps-1.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps-2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps-3.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps-4.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps-5.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/fmaps-6.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/kmaps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../mj/variants.json",
+      "rels_key": "none",
+      "set_map": {
+        "jouyou": "jp",
+        "jinmei": "jp_jinmei"
+      }
+    },
+    {"path": "../jp/variants-0.list", "rels_key": "hans"},
+    {"path": "../jp/variants-1.list", "rels_key": "hans"},
+    {"path": "../jp/variants-2.list", "rels_key": "hans"},
+    {"path": "../jp/variants-3.list", "rels_key": "hans"},
+    {"path": "../jp/variants-4.list", "rels_key": "hans"},
+    {"path": "../jp/variants-5.list", "rels_key": "hans"},
+    {"path": "../jp/variants-6.list", "rels_key": "hans"},
+    {"path": "../jp/variants-7.list", "rels_key": "hans"},
+    {"path": "../jp/variants-8.list", "rels_key": "hans"},
+    {"path": "../jp/variants-9.list", "rels_key": "hans"},
+    {"path": "../jp/variants-10.list", "rels_key": "hans"},
+    {"path": "../jp/variants-11.list", "rels_key": "hans"},
+    {"path": "../jp/variants-12.list", "rels_key": "hans"},
+    {"path": "../jp/variants-13.list", "rels_key": "hans"},
+    {
+      "path": "../cns/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cns/maps2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../viet/maps-0.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "hannom-rcv:𡨸漢喃簡體": "vi"
+      }
+    },
+    {
+      "path": "../mozilla/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../whatwg/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../perl/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../loc/maps.list",
+      "rels_key": "hans"
+    },
+    {"path": "../adobe/maps-0.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-1.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-2.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-3.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-4.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-5.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-6.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-7.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-8.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-9.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-10.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-11.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-12.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-13.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-14.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-15.list", "rels_key": "hans"},
+    {"path": "../adobe/maps-16.list", "rels_key": "hans"},
+    {
+      "path": "../opencc/variants.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/variants-0.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-1.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-2.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-3.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-4.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/variants-5.list",
+      "rels_key": "hans",
+      "mv_map": {
+        "cjkvi:joyo/variant": "jp",
+        "cjkvi:jinmei1/variant": "jp",
+        "cjkvi:jinmei2/variant": "jp",
+        "cjkvi:hyogai/variant": "jp2"
+      }
+    },
+    {
+      "path": "../cjkvi/maps-0.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/maps-1.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/maps-2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/maps-3.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-0.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-1.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-2.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-3.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-4.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-5.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-6.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-7.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-8.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-9.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../cjkvi/hd-10.list",
+      "rels_key": "hans"
+    },
+    {"path": "../cjkvi/hd-11.list", "rels_key": "hans"},
+    {"path": "../cjkvi/hd-12.list", "rels_key": "hans"},
+    {"path": "../cjkvi/hd-13.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-0.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-1.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-2.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-3.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-4.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-5.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-6.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-7.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-8.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-9.list", "rels_key": "hans"},
+    {"path": "../cjkvi/ids-10.list", "rels_key": "hans"},
+    {
+      "path": "../wiki/variants.json",
+      "set_map": {
+        "tw": "tw",
+        "kredu": "kr",
+        "kredu_added": "kr",
+        "kredu_deleted": "kr",
+        "hyougai": "jp2"
+      }
+    },
+    {"path": "../wiki/maps-0.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-1.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-2.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-3.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-4.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-5.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-6.list", "rels_key": "hans"},
+    {"path": "../wiki/maps-7.list", "rels_key": "hans"},
+    {"path": "../fonts/maps-0.list", "rels_key": "hans"},
+    {
+      "path": "../misc/maps.list",
+      "rels_key": "hans"
+    },
+    {
+      "path": "../misc/aggregated.json",
+      "rels_key": "variants"
+    },
+    {
+      "path": "../misc/variants.list",
+      "rels_key": "hans"
+    },
+    {"path": "../misc/swc-0.list", "rels_key": "hans"},
+    {
+      "path": "../misc/sets.json",
+      "set_map": {
+        "jouyou_s56": "jp2",
+        "jinmei_h9": "jp2"
+      }
+    },
+    
+    {
+      "path": "../../local/maps/vietsets.json",
+      "rels_key": "none",
+      "set_map": {
+        "rcv_simplified": "vi",
+        "rcv_standard": "vi"
+      }
+    },
+    {
+      "path": "../../local/maps/fontssets.json",
+      "rels_key": "none",
+      "set_map": {
+        "inherited1": "inherited1",
+        "inherited2": "inherited2",
+        "inherited3": "inherited3"
+      }
+    },
+    {"path": "../../local/maps/idsc-0.list", "rels_key": "hans"},
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "hans"}
+
+
+    ,
+    {"path": "../jp/variants-0.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-1.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-2.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-3.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-4.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-5.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-6.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-7.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-8.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-9.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-10.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-11.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-12.list", "rels_key": "glyphs"},
+    {"path": "../jp/variants-13.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-0.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-1.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-2.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-3.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-4.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-5.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-6.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-7.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-8.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-9.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-10.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-11.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-12.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-13.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-14.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-15.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-16.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-17.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-18.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-19.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-20.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-21.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-22.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-23.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-24.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-25.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-26.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-27.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-28.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-29.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-30.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-31.list", "rels_key": "glyphs"},
+    {"path": "../unicode/maps-32.list", "rels_key": "glyphs"},
+    
+    {"path": "../../local/maps/gwaliases-0.list", "rels_key": "glyphs"},
+    {"path": "../../local/maps/gwrelated-0.list", "rels_key": "glyphs"},
+    {"path": "../../local/maps/gwrels-0.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-0.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-1.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-2.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-3.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-4.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-5.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-6.list", "rels_key": "glyphs"},
+    {"path": "../wiki/maps-7.list", "rels_key": "glyphs"},
+
+    {"path": "../../local/maps/vietglyphs-0.list", "rels_key": "glyphs"},
+    {"path": "../../local/maps/codes.list", "rels_key": "glyphs"},
+    {"path": "../../local/maps/imaps-0.list", "rels_key": "glyphs"},
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "glyphs"}
+
+    ,
+
+
+
+    {
+      "path": "../unicode/variants.json",
       "rels_key": "variants"
     },
     {"path": "../unicode/maps-0.list", "rels_key": "variants"},
@@ -175,8 +613,571 @@
     },
     {"path": "../misc/swc-0.list", "rels_key": "variants"},
     {"path": "../../local/iwm/imported-0.list", "rels_key": "variants"}
+
+
+    ,
+
+    
+    {
+      "path": "../unicode/variants.json",
+      "rels_key": "kchars"
+    },
+    {"path": "../unicode/maps-0.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-1.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-2.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-3.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-4.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-5.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-6.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-7.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-8.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-9.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-10.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-11.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-12.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-13.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-14.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-15.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-16.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-17.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-18.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-19.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-20.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-21.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-22.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-23.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-24.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-25.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-26.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-27.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-28.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-29.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-30.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-31.list", "rels_key": "kchars"},
+    {"path": "../unicode/maps-32.list", "rels_key": "kchars"},
+    {
+      "path": "../unicode/maps2.list",
+      "rels_key": "kchars"
+    },
+    {"path": "../mj/maps-0.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-1.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-2.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-3.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-4.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-5.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-6.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-7.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-8.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-9.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-10.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-11.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-12.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-13.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-14.list", "rels_key": "kchars"},
+    {"path": "../mj/maps-15.list", "rels_key": "kchars"},
+    {
+      "path": "../mj/fmaps-0.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-1.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-2.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-3.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-4.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-5.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mj/fmaps-6.list",
+      "rels_key": "kchars"
+    },
+    {"path": "../jp/variants-0.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-1.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-2.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-3.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-4.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-5.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-6.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-7.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-8.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-9.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-10.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-11.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-12.list", "rels_key": "kchars"},
+    {"path": "../jp/variants-13.list", "rels_key": "kchars"},
+    {
+      "path": "../cns/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../cns/maps2.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../mozilla/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../whatwg/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../perl/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../loc/maps.list",
+      "rels_key": "kchars"
+    },
+    {"path": "../adobe/maps-0.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-1.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-2.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-3.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-4.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-5.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-6.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-7.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-8.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-9.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-10.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-11.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-12.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-13.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-14.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-15.list", "rels_key": "kchars"},
+    {"path": "../adobe/maps-16.list", "rels_key": "kchars"},
+    {
+      "path": "../opencc/variants.list",
+      "rels_key": "kchars"
+    },
+    {"path": "../cjkvi/variants-0.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/variants-1.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/variants-2.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/variants-3.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/variants-4.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/variants-5.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/maps-0.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/maps-1.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/maps-2.list", "rels_key": "kchars"},
+    {"path": "../cjkvi/maps-3.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-0.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-1.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-2.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-3.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-4.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-5.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-6.list", "rels_key": "kchars"},
+    {"path": "../wiki/maps-7.list", "rels_key": "kchars"},
+    {
+      "path": "../misc/maps.list",
+      "rels_key": "kchars"
+    },
+    {
+      "path": "../misc/variants.list",
+      "rels_key": "kchars"
+    },
+    {"path": "../misc/swc-0.list", "rels_key": "kchars"},
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "kchars"}
+
+    ,
+
+
+        {
+      "path": "../unicode/variants.json",
+      "rels_key": "kanas"
+    },
+    {"path": "../unicode/maps-0.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-1.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-2.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-3.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-4.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-5.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-6.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-7.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-8.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-9.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-10.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-11.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-12.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-13.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-14.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-15.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-16.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-17.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-18.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-19.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-20.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-21.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-22.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-23.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-24.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-25.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-26.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-27.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-28.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-29.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-30.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-31.list", "rels_key": "kanas"},
+    {"path": "../unicode/maps-32.list", "rels_key": "kanas"},
+    {
+      "path": "../unicode/maps2.list",
+      "rels_key": "kanas"
+    },
+    {"path": "../mj/maps-0.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-1.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-2.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-3.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-4.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-5.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-6.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-7.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-8.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-9.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-10.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-11.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-12.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-13.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-14.list", "rels_key": "kanas"},
+    {"path": "../mj/maps-15.list", "rels_key": "kanas"},
+    {
+      "path": "../mj/fmaps-0.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-1.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-3.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-4.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-5.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/fmaps-6.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mj/kmaps.list",
+      "rels_key": "kanas"
+    },
+    {"path": "../jp/variants-0.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-1.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-2.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-3.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-4.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-5.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-6.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-7.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-8.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-9.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-10.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-11.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-12.list", "rels_key": "kanas"},
+    {"path": "../jp/variants-13.list", "rels_key": "kanas"},
+    {
+      "path": "../cns/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cns/maps2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../mozilla/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../whatwg/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../perl/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../loc/maps.list",
+      "rels_key": "kanas"
+    },
+    {"path": "../adobe/maps-0.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-1.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-2.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-3.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-4.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-5.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-6.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-7.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-8.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-9.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-10.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-11.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-12.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-13.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-14.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-15.list", "rels_key": "kanas"},
+    {"path": "../adobe/maps-16.list", "rels_key": "kanas"},
+    {
+      "path": "../opencc/variants.list",
+      "rels_key": "kanas"
+    },
+    {"path": "../cjkvi/variants-0.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-1.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-2.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-3.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-4.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/variants-5.list", "rels_key": "kanas"},
+    {
+      "path": "../cjkvi/hd-0.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-1.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-2.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-3.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-4.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-5.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-6.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-7.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-8.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-9.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../cjkvi/hd-10.list",
+      "rels_key": "kanas"
+    },
+    {"path": "../cjkvi/hd-11.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/hd-12.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/hd-13.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/maps-0.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/maps-1.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/maps-2.list", "rels_key": "kanas"},
+    {"path": "../cjkvi/maps-3.list", "rels_key": "kanas"},
+    {"path": "../emacs/maps-0.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-0.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-1.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-2.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-3.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-4.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-5.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-6.list", "rels_key": "kanas"},
+    {"path": "../wiki/maps-7.list", "rels_key": "kanas"},
+    {
+      "path": "../misc/maps.list",
+      "rels_key": "kanas"
+    },
+    {
+      "path": "../misc/variants.list",
+      "rels_key": "kanas"
+    },
+    {"path": "../misc/swc-0.list", "rels_key": "kanas"},
+    {
+      "path": "../misc/sets.json",
+      "set_map": {
+        "kana_modern_small": "jp",
+        "kana_modern_large": "jp"
+      }
+    },
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "kanas"}
+
+    ,
+
+
+    
+    {"path": "../adobe/maps-0.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-1.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-2.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-3.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-4.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-5.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-6.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-7.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-8.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-9.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-10.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-11.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-12.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-13.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-14.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-15.list", "rels_key": "codes"},
+    {"path": "../adobe/maps-16.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-0.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-1.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-2.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-3.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-4.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-5.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-6.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-7.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-8.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-9.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-10.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-11.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-12.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-13.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-14.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-15.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-16.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-17.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-18.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-19.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-20.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-21.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-22.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-23.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-24.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-25.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-26.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-27.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-28.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-29.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-30.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-31.list", "rels_key": "codes"},
+    {"path": "../unicode/maps-32.list", "rels_key": "codes"},
+    {"path": "../jp/variants-0.list", "rels_key": "codes"},
+    {"path": "../jp/variants-1.list", "rels_key": "codes"},
+    {"path": "../jp/variants-2.list", "rels_key": "codes"},
+    {"path": "../jp/variants-3.list", "rels_key": "codes"},
+    {"path": "../jp/variants-4.list", "rels_key": "codes"},
+    {"path": "../jp/variants-5.list", "rels_key": "codes"},
+    {"path": "../jp/variants-6.list", "rels_key": "codes"},
+    {"path": "../jp/variants-7.list", "rels_key": "codes"},
+    {"path": "../jp/variants-8.list", "rels_key": "codes"},
+    {"path": "../jp/variants-9.list", "rels_key": "codes"},
+    {"path": "../jp/variants-10.list", "rels_key": "codes"},
+    {"path": "../jp/variants-11.list", "rels_key": "codes"},
+    {"path": "../jp/variants-12.list", "rels_key": "codes"},
+    {"path": "../jp/variants-13.list", "rels_key": "codes"},
+    {"path": "../viet/maps-0.list", "rels_key": "codes"},
+    {"path": "../whatwg/maps.list", "rels_key": "codes"},
+    {"path": "../fonts/maps-0.list", "rels_key": "codes"},
+    {"path": "../../local/maps/vietglyphs-0.list", "rels_key": "codes"},
+    {"path": "../../local/maps/gwrels-0.list", "rels_key": "descs"},
+    {"path": "../../local/maps/codes.list", "rels_key": "codes"},
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "codes"}
+
+    
+    
+    
+  ],
+  "leader_types": [
+    {
+      "key": "cn",
+      "short_label": "简",
+      "label": "大陆(简体)",
+      "lang_tag": "zh-CN"
+    },
+    {
+      "key": "cn_complex",
+      "short_label": "繁",
+      "label": "大陸(繁體)",
+      "lang_tag": "zh-CN"
+    },
+    {
+      "key": "hk",
+      "short_label": "港",
+      "label": "香港",
+      "lang_tag": "zh-HK"
+    },
+    {
+      "key": "inherited",
+      "short_label": "傳",
+      "label": "傳承",
+      "lang_tag": "zh-Hant"
+    },
+    {
+      "key": "tw",
+      "short_label": "臺",
+      "label": "臺灣",
+      "lang_tag": "zh-TW"
+    },
+    {
+      "key": "jp",
+      "short_label": "日",
+      "label": "日本",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_new",
+      "short_label": "新",
+      "label": "日本(新字体)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_h22",
+      "short_label": "平成",
+      "label": "日本(平成22年)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "jp_old",
+      "short_label": "旧",
+      "label": "日本(舊字體)",
+      "lang_tag": "ja"
+    },
+    {
+      "key": "kr",
+      "short_label": "韓",
+      "label": "韓國",
+      "lang_tag": "ko-KR"
+    },
+    {
+      "key": "vi",
+      "short_label": "越",
+      "label": "越南",
+      "lang_tag": "vi-Hani"
+    }
   ],
   "tests": [
+    "hans-tests.txt",
+    "kchars-tests.txt",
+    "kanas-tests.txt",
     "chars-tests.txt"
   ]
 }

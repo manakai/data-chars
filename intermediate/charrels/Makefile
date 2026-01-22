@@ -14,15 +14,17 @@ build-pages: _build-all
 clean-pages: _clean-pages
 
 _build-all: \
-    build-hans \
-    build-descs \
-    build-glyphs \
-    build-chars build-kanas build-kchars \
-    build-components
+    build-chars build-components \
+    build-hans build-descs build-glyphs build-kanas build-kchars
 
 build-chars:
 	$(PERL) $(VGEN_PATH)/generate.pl chars-input.json
 	cd $(VGEN_DATA_PATH)/chars/ && $(MAKE) all test
+build-components:
+	$(PERL) $(VGEN_PATH)/generate.pl components-input.json
+	cd $(VGEN_DATA_PATH)/components/ && $(MAKE) all test
+
+## OBSOLETE
 build-kanas:
 	$(PERL) $(VGEN_PATH)/generate.pl kanas-input.json
 	cd $(VGEN_DATA_PATH)/kanas/ && $(MAKE) all test
@@ -38,15 +40,10 @@ build-glyphs:
 build-descs:
 	$(PERL) $(VGEN_PATH)/generate.pl descs-input.json
 	cd $(VGEN_DATA_PATH)/descs/ && $(MAKE) all test
-build-components:
-	$(PERL) $(VGEN_PATH)/generate.pl components-input.json
-	cd $(VGEN_DATA_PATH)/components/ && $(MAKE) all test
 
-perl-test-hans:
-	cd $(VGEN_DATA_PATH)/hans/ && $(MAKE) perl-test
-perl-test-kanas:
-	$(PERL) $(VGEN_PATH)/generate.pl kanas-input.json
-	cd $(VGEN_DATA_PATH)/kanas/ && $(MAKE) perl-test
+perl-test-chars:
+	$(PERL) $(VGEN_PATH)/generate.pl chars-input.json
+	cd $(VGEN_DATA_PATH)/chars/ && $(MAKE) perl-test
 
 _clean-pages:
 	cd $(VGEN_DATA_PATH)/chars/ && $(MAKE) clean-vgen-pages

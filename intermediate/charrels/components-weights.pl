@@ -7,17 +7,10 @@ our $TypeMergeableWeight = {};
 our $ImpliedTypes = {};
 our $PairedTypes = [];
 our $NTypes = [];
-our $SetsToRelTypes = [];
-our $SetsFromRelTypes = [];
 
 {
   my $levels = [
-    {key => 'SAME', label => 'Same', min_weight => 700},
-    {key => 'UNIFIED', label => 'Unified', min_weight => 600},
     {key => 'EQUIV', label => 'Equivalent', min_weight => 500},
-    {key => 'COVERED', label => 'Covered', min_weight => 400},
-    {key => 'RELATED', label => 'Related', min_weight => 200},
-    {key => 'LINKED', label => 'Linked', min_weight => 100},
   ];
   my $i = 0;
   for my $level (@$levels) {
@@ -27,7 +20,13 @@ our $SetsFromRelTypes = [];
 }
 {
   my $w = {};
-  $w->{$_->{key}} = $_->{min_weight} for values %{$Data->{cluster_levels}};
+  $w->{$_->{key}} = $_->{min_weight} for values %{$Data->{cluster_levels}},
+    {key => 'SAME', label => 'Same', min_weight => 700},
+    {key => 'UNIFIED', label => 'Unified', min_weight => 600},
+    {key => 'COVERED', label => 'Covered', min_weight => 400},
+    {key => 'RELATED', label => 'Related', min_weight => 200},
+    {key => 'LINKED', label => 'Linked', min_weight => 100},
+  ;
   sub W ($) { $w->{$_[0]} // die $_[0] }
 }
 
@@ -1649,26 +1648,6 @@ manakai:unified:jisx9052:glyph
     }
   }
 }
-
-{
-  our $RootPath;
-  my $path = $RootPath->child ('local/iwm/gwreltypes.json');
-  my $json = json_bytes2perl $path->slurp;
-  for my $vtype (@$json) {
-    $TypeWeight->{$vtype} //= W 'RELATED';
-    $TypeWeight->{"rev:$vtype"} //= -1;
-  }
-}
-
-$SetsToRelTypes = [qw(
-    cjkvi:jp-old-style
-    cjkvi:jp-old-style:compatibility
-    manakai:variant:jpnewstyle
-  )];
-$SetsFromRelTypes = [qw(
-    cjkvi:jp-old-style
-  )];
-
 
 1;
 

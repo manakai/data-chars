@@ -17,16 +17,28 @@ my $MergedSets;
   my $path = $DataPath->child ('merged-sets.json');
   $MergedSets = json_bytes2perl $path->slurp;
 }
-my $LevelIndex = $Merged->{cluster_levels}->{EQUIV}->{index} // die;
+my $LevelIndex = $Merged->{cluster_levels}->{EQUIV}->{index} // $Merged->{cluster_levels}->{LINKED}->{index} // die;
 my $LeaderTypes = [sort { $a->{index} <=> $b->{index} } values %{$Merged->{leader_types}}];
 
 my $GetLeader = {};
 $GetLeader->{_default} = sub ($) {
   my $sorted = [map { $_->[0] } sort {
     $a->[1] <=> $b->[1] || # single char is preferred
+    $a->[3] <=> $b->[3] || # URO is preferred to Ext.A
+    $a->[2] <=> $b->[2] || # code point order of first char
     $a->[0] cmp $b->[0]; # string order
   } map {
-    my $x = [$_, length $_];
+    my $x = [$_, length $_, ord $_];
+    $x->[3] = $x->[1] == 1 ?
+                ($x->[2] <  0x3000 ? 6 :
+                 $x->[2] <  0x3040 ? 3 : # cjk
+                 $x->[2] <  0x3400 ? 1 : # kana
+                 $x->[2] <  0xFFFF ? 4 : # han
+                 $x->[2] < 0x1FFFF ? 2 : # kana
+                                     5): # han
+              ($x->[0] =~ /^:u-jitaichou/ ? 7 :
+               $x->[0] =~ /^:u-rcv/ ? 7 :
+                                     9);
     $x;
   } @{$_[0]}];
   return $sorted->[0]; # or undef
@@ -76,7 +88,7 @@ sub get_cluster_leaders ($) {
   my $chars = shift;
   my $props = {};
 
-  if ($Merged->{key} eq 'hans') {
+  if ($Merged->{key} eq 'chars' or $Merged->{key} eq 'hans') {
 
   for my $set_key (@{$Merged->{inset_keys}}) {
     for my $c (@$chars) {

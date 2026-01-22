@@ -365,7 +365,8 @@
         "inherited3": "inherited3"
       }
     },
-    {"path": "../../local/maps/idsc-0.list", "rels_key": "hans"}
+    {"path": "../../local/maps/idsc-0.list", "rels_key": "hans"},
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "hans"}
   ],
   "leader_types": [
     {
