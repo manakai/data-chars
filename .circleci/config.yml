@@ -5,7 +5,7 @@
             "CIRCLE_ARTIFACTS" : "/tmp/circle-artifacts/build"
          },
          "machine" : {
-            "image" : "ubuntu-2004:202101-01"
+            "image" : "default"
          },
          "steps" : [
             "checkout",

@@ -198,6 +198,15 @@
          },
          "xforms" : "Bengali"
       },
+      "Berf" : {
+         "unicode" : "Beria_Erfe",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Berf" : 1,
+            "Beria_Erfe" : 1
+         },
+         "xforms" : "BeriaErfe"
+      },
       "Bhks" : {
          "desc" : [
             "Bhaiksuki"
@@ -222,14 +231,13 @@
          "iso" : "Blis"
       },
       "Bopo" : {
-         "collation_reorder" : "Bopo",
          "desc" : [
             "Bopomofo"
          ],
          "ianareg" : "2005-10-16",
          "iso" : "Bopo",
          "unicode" : "Bopomofo",
-         "unicode_id" : "recommended",
+         "unicode_id" : "limited",
          "unicode_names" : {
             "Bopo" : 1,
             "Bopomofo" : 1
@@ -607,6 +615,15 @@
          },
          "xforms" : "Ethiopic"
       },
+      "Gara" : {
+         "unicode" : "Garay",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Gara" : 1,
+            "Garay" : 1
+         },
+         "xforms" : "Garay"
+      },
       "Geok" : {
          "desc" : [
             "Khutsuri (Asomtavruli and Nuskhuri)"
@@ -738,6 +755,15 @@
             "Gujr" : 1
          },
          "xforms" : "Gujarati"
+      },
+      "Gukh" : {
+         "unicode" : "Gurung_Khema",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Gukh" : 1,
+            "Gurung_Khema" : 1
+         },
+         "xforms" : "GurungKhema"
       },
       "Guru" : {
          "collation_reorder" : "Guru",
@@ -1047,6 +1073,13 @@
          "xforms" : "Katakana"
       },
       "Kawi" : {
+         "desc" : [
+            "Kawi"
+         ],
+         "ianareg" : "2021-12-24",
+         "iso" : "Kawi",
+         "u_nu" : "kawi",
+         "u_nu_desc" : "Kawi digits",
          "unicode" : "Kawi",
          "unicode_id" : "excluded",
          "unicode_names" : {
@@ -1150,6 +1183,15 @@
          ],
          "ianareg" : "2010-04-10",
          "iso" : "Kpel"
+      },
+      "Krai" : {
+         "unicode" : "Kirat_Rai",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Kirat_Rai" : 1,
+            "Krai" : 1
+         },
+         "xforms" : "KiratRai"
       },
       "Kthi" : {
          "desc" : [
@@ -1610,6 +1652,13 @@
          "xforms" : "Myanmar"
       },
       "Nagm" : {
+         "desc" : [
+            "Nag Mundari"
+         ],
+         "ianareg" : "2021-12-24",
+         "iso" : "Nagm",
+         "u_nu" : "nagm",
+         "u_nu_desc" : "Nag Mundari digits",
          "unicode" : "Nag_Mundari",
          "unicode_id" : "excluded",
          "unicode_names" : {
@@ -1762,6 +1811,15 @@
          },
          "xforms" : "OlChiki"
       },
+      "Onao" : {
+         "unicode" : "Ol_Onal",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Ol_Onal" : 1,
+            "Onao" : 1
+         },
+         "xforms" : "OlOnal"
+      },
       "Orkh" : {
          "desc" : [
             "Old Turkic",
@@ -1826,6 +1884,11 @@
          "xforms" : "Osmanya"
       },
       "Ougr" : {
+         "desc" : [
+            "Old Uyghur"
+         ],
+         "ianareg" : "2021-02-12",
+         "iso" : "Ougr",
          "unicode" : "Old_Uyghur",
          "unicode_id" : "excluded",
          "unicode_names" : {
@@ -1861,6 +1924,20 @@
             "Pauc" : 1
          },
          "xforms" : "PauCinHau"
+      },
+      "Pcun" : {
+         "desc" : [
+            "Proto-Cuneiform"
+         ],
+         "ianareg" : "2021-02-12",
+         "iso" : "Pcun"
+      },
+      "Pelm" : {
+         "desc" : [
+            "Proto-Elamite"
+         ],
+         "ianareg" : "2021-02-12",
+         "iso" : "Pelm"
       },
       "Perm" : {
          "desc" : [
@@ -1974,6 +2051,13 @@
             "Prti" : 1
          },
          "xforms" : "InscriptionalParthian"
+      },
+      "Psin" : {
+         "desc" : [
+            "Proto-Sinaitic"
+         ],
+         "ianareg" : "2021-02-12",
+         "iso" : "Psin"
       },
       "Qaaa" : {
          "ianareg" : "2005-10-16",
@@ -2231,6 +2315,13 @@
          "iso" : "Qabx",
          "private" : 1
       },
+      "Ranj" : {
+         "desc" : [
+            "Ranjana"
+         ],
+         "ianareg" : "2021-02-12",
+         "iso" : "Ranj"
+      },
       "Rjng" : {
          "desc" : [
             "Rejang",
@@ -2404,6 +2495,15 @@
          },
          "xforms" : "Siddham"
       },
+      "Sidt" : {
+         "unicode" : "Sidetic",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Sidetic" : 1,
+            "Sidt" : 1
+         },
+         "xforms" : "Sidetic"
+      },
       "Sind" : {
          "desc" : [
             "Khudawadi",
@@ -2511,6 +2611,20 @@
             "Sundanese" : 1
          },
          "xforms" : "Sundanese"
+      },
+      "Sunu" : {
+         "desc" : [
+            "Sunuwar"
+         ],
+         "ianareg" : "2021-12-24",
+         "iso" : "Sunu",
+         "unicode" : "Sunuwar",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Sunu" : 1,
+            "Sunuwar" : 1
+         },
+         "xforms" : "Sunuwar"
       },
       "Sylo" : {
          "desc" : [
@@ -2668,6 +2782,15 @@
          },
          "xforms" : "TaiViet"
       },
+      "Tayo" : {
+         "unicode" : "Tai_Yo",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Tai_Yo" : 1,
+            "Tayo" : 1
+         },
+         "xforms" : "TaiYo"
+      },
       "Telu" : {
          "collation_reorder" : "Telu",
          "desc" : [
@@ -2788,6 +2911,13 @@
          "xforms" : "Tirhuta"
       },
       "Tnsa" : {
+         "desc" : [
+            "Tangsa"
+         ],
+         "ianareg" : "2021-03-05",
+         "iso" : "Tnsa",
+         "u_nu" : "tnsa",
+         "u_nu_desc" : "Tangsa digits",
          "unicode" : "Tangsa",
          "unicode_id" : "excluded",
          "unicode_names" : {
@@ -2796,13 +2926,45 @@
          },
          "xforms" : "Tangsa"
       },
+      "Todr" : {
+         "unicode" : "Todhri",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Todhri" : 1,
+            "Todr" : 1
+         },
+         "xforms" : "Todhri"
+      },
+      "Tols" : {
+         "unicode" : "Tolong_Siki",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Tolong_Siki" : 1,
+            "Tols" : 1
+         },
+         "xforms" : "TolongSiki"
+      },
       "Toto" : {
+         "desc" : [
+            "Toto"
+         ],
+         "ianareg" : "2020-05-12",
+         "iso" : "Toto",
          "unicode" : "Toto",
          "unicode_id" : "excluded",
          "unicode_names" : {
             "Toto" : 1
          },
          "xforms" : "Toto"
+      },
+      "Tutg" : {
+         "unicode" : "Tulu_Tigalari",
+         "unicode_id" : "excluded",
+         "unicode_names" : {
+            "Tulu_Tigalari" : 1,
+            "Tutg" : 1
+         },
+         "xforms" : "TuluTigalari"
       },
       "Ugar" : {
          "desc" : [
@@ -2842,6 +3004,11 @@
          "iso" : "Visp"
       },
       "Vith" : {
+         "desc" : [
+            "Vithkuqi"
+         ],
+         "ianareg" : "2021-03-05",
+         "iso" : "Vith",
          "unicode" : "Vithkuqi",
          "unicode_id" : "excluded",
          "unicode_names" : {

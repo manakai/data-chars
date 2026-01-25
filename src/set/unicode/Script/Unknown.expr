@@ -12,6 +12,7 @@
 - $unicode:Script:Bassa_Vah
 - $unicode:Script:Batak
 - $unicode:Script:Bengali
+- $unicode:Script:Beria_Erfe
 - $unicode:Script:Bhaiksuki
 - $unicode:Script:Bopomofo
 - $unicode:Script:Brahmi
@@ -40,6 +41,7 @@
 - $unicode:Script:Elbasan
 - $unicode:Script:Elymaic
 - $unicode:Script:Ethiopic
+- $unicode:Script:Garay
 - $unicode:Script:Georgian
 - $unicode:Script:Glagolitic
 - $unicode:Script:Gothic
@@ -48,6 +50,7 @@
 - $unicode:Script:Gujarati
 - $unicode:Script:Gunjala_Gondi
 - $unicode:Script:Gurmukhi
+- $unicode:Script:Gurung_Khema
 - $unicode:Script:Han
 - $unicode:Script:Hangul
 - $unicode:Script:Hanifi_Rohingya
@@ -70,6 +73,7 @@
 - $unicode:Script:Khmer
 - $unicode:Script:Khojki
 - $unicode:Script:Khudawadi
+- $unicode:Script:Kirat_Rai
 - $unicode:Script:Lao
 - $unicode:Script:Latin
 - $unicode:Script:Lepcha
@@ -107,6 +111,7 @@
 - $unicode:Script:Nyiakeng_Puachue_Hmong
 - $unicode:Script:Ogham
 - $unicode:Script:Ol_Chiki
+- $unicode:Script:Ol_Onal
 - $unicode:Script:Old_Hungarian
 - $unicode:Script:Old_Italic
 - $unicode:Script:Old_North_Arabian
@@ -132,12 +137,14 @@
 - $unicode:Script:Sharada
 - $unicode:Script:Shavian
 - $unicode:Script:Siddham
+- $unicode:Script:Sidetic
 - $unicode:Script:SignWriting
 - $unicode:Script:Sinhala
 - $unicode:Script:Sogdian
 - $unicode:Script:Sora_Sompeng
 - $unicode:Script:Soyombo
 - $unicode:Script:Sundanese
+- $unicode:Script:Sunuwar
 - $unicode:Script:Syloti_Nagri
 - $unicode:Script:Syriac
 - $unicode:Script:Tagalog
@@ -145,6 +152,7 @@
 - $unicode:Script:Tai_Le
 - $unicode:Script:Tai_Tham
 - $unicode:Script:Tai_Viet
+- $unicode:Script:Tai_Yo
 - $unicode:Script:Takri
 - $unicode:Script:Tamil
 - $unicode:Script:Tangsa
@@ -155,7 +163,10 @@
 - $unicode:Script:Tibetan
 - $unicode:Script:Tifinagh
 - $unicode:Script:Tirhuta
+- $unicode:Script:Todhri
+- $unicode:Script:Tolong_Siki
 - $unicode:Script:Toto
+- $unicode:Script:Tulu_Tigalari
 - $unicode:Script:Ugaritic
 - $unicode:Script:Vai
 - $unicode:Script:Vithkuqi

@@ -9241,6 +9241,8 @@ unicode:svs:cjk
 -"欄"
 ":jinmei-欄"
 unihan:kJinmeiyoKanji
+":jis1-86-27"
+unihan:kIRG_JSource:3
 ":ks0-49-77"
 unihan:kIRG_KSource
 unihan:kKSC0
@@ -9411,6 +9413,8 @@ unicode:svs:cjk
 -"廊"
 ":jinmei-廊"
 unihan:kJinmeiyoKanji
+":jis1-84-14"
+unihan:kIRG_JSource:3
 ":ks0-50-7"
 unihan:kIRG_KSource
 unihan:kKSC0
@@ -9429,6 +9433,10 @@ unicode:svs:cjk
 -"朗"
 ":jinmei-朗"
 unihan:kJinmeiyoKanji
+":jis-dos-1-116-66"
+unihan:kIBMJapan
+":jis1-85-46"
+unihan:kIRG_JSource:3
 ":ks0-50-8"
 unihan:kIRG_KSource
 unihan:kKSC0
@@ -9640,6 +9648,8 @@ unicode:svs:cjk
 -"虜"
 ":jinmei-虜"
 unihan:kJinmeiyoKanji
+":jis1-91-47"
+unihan:kIRG_JSource:3
 ":kps1-70dc"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -10518,6 +10528,8 @@ uts46:mapping
 "說︀"
 unicode:svs:cjk
 -"殺"
+":jis1-86-41"
+unihan:kIRG_JSource:3
 ":ks0-65-77"
 unihan:kIRG_KSource
 unihan:kKSC0
@@ -11969,6 +11981,8 @@ unicode:svs:cjk
 -"類"
 ":jinmei-類"
 unihan:kJinmeiyoKanji
+":jis1-94-4"
+unihan:kIRG_JSource:3
 ":ks0-75-26"
 unihan:kIRG_KSource
 unihan:kKSC0
@@ -12150,6 +12164,10 @@ uts46:mapping
 "率︁"
 unicode:svs:cjk
 -"隆"
+":jis-dos-1-118-75"
+unihan:kIBMJapan
+":jis1-93-61"
+unihan:kIRG_JSource:3
 ":ks0-75-56"
 unihan:kIRG_KSource
 unihan:kKSC0
@@ -12902,6 +12920,10 @@ uts46:mapping
 "嗀︀"
 unicode:svs:cjk
 -"﨎"
+":MJ030192"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-115-80"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx167-1-1"
@@ -12923,6 +12945,10 @@ ivd:Moji_Joho
 "﨎"
 ivd:base
 -"﨏"
+":jis-dos-1-115-91"
+unihan:kIBMJapan
+":jis1-15-43"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx230-12-1"
@@ -12939,6 +12965,10 @@ ivd:Adobe-Japan1
 "﨏"
 ivd:base
 -"塚"
+":jis-dos-1-115-92"
+unihan:kIBMJapan
+":jis1-15-55"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 "塚"
@@ -12951,6 +12981,10 @@ uts46:mapping
 "塚︀"
 unicode:svs:cjk
 -"﨑"
+":jis-dos-1-116-19"
+unihan:kIBMJapan
+":jis1-47-82"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx316-38-1"
@@ -13002,6 +13036,10 @@ ivd:Hanyo-Denshi
 "﨑"
 ivd:base
 -"晴"
+":MJ030199"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-116-58"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx496-39"
@@ -13018,6 +13056,10 @@ uts46:mapping
 "晴︀"
 unicode:svs:cjk
 -"﨓"
+":jis-dos-1-116-74"
+unihan:kIBMJapan
+":jis2-14-89"
+unihan:kIRG_JSource:4
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx542-19-1"
@@ -13043,6 +13085,10 @@ ivd:Moji_Joho
 "﨓"
 ivd:base
 -"﨔"
+":jis-dos-1-116-76"
+unihan:kIBMJapan
+":jis1-85-90"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx546-25-1"
@@ -13054,6 +13100,10 @@ ivd:Adobe-Japan1
 "﨔"
 ivd:base
 -"凞"
+":jis-dos-1-117-25"
+unihan:kIBMJapan
+":jis1-87-58"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 "凞"
@@ -13068,6 +13118,10 @@ unicode:svs:cjk
 -"猪"
 ":jinmei-猪"
 unihan:kJinmeiyoKanji
+":jis-dos-1-117-31"
+unihan:kIBMJapan
+":jis1-87-79"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":m20534"
@@ -13082,6 +13136,10 @@ uts46:mapping
 "猪︀"
 unicode:svs:cjk
 -"益"
+":MJ030209"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-117-54"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx793-18"
@@ -13099,6 +13157,10 @@ uts46:mapping
 "益︀"
 unicode:svs:cjk
 -"礼"
+":MJ030210"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-117-62"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":m24626"
@@ -13118,6 +13180,10 @@ unihan:kSemanticVariant
 -"神"
 ":jinmei-神"
 unihan:kJinmeiyoKanji
+":jis-dos-1-117-63"
+unihan:kIBMJapan
+":jis1-89-28"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx842-3"
@@ -13137,6 +13203,10 @@ unicode:svs:cjk
 -"祥"
 ":jinmei-祥"
 unihan:kJinmeiyoKanji
+":jis-dos-1-117-64"
+unihan:kIBMJapan
+":jis1-89-29"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx842-16"
@@ -13156,6 +13226,10 @@ unicode:svs:cjk
 -"福"
 ":jinmei-福"
 unihan:kJinmeiyoKanji
+":jis-dos-1-117-66"
+unihan:kIBMJapan
+":jis1-89-33"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx845-2"
@@ -13173,6 +13247,10 @@ uts46:mapping
 "福︀"
 unicode:svs:cjk
 -"靖"
+":MJ030214"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-117-70"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1381-28"
@@ -13189,6 +13267,10 @@ uts46:mapping
 "靖︀"
 unicode:svs:cjk
 -"精"
+":MJ030215"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-117-73"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx910-10"
@@ -13205,6 +13287,10 @@ uts46:mapping
 "精︀"
 unicode:svs:cjk
 -"羽"
+":MJ030216"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-117-82"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx955-1"
@@ -13221,6 +13307,10 @@ uts46:mapping
 "羽︀"
 unicode:svs:cjk
 -"﨟"
+":jis-dos-1-117-93"
+unihan:kIBMJapan
+":jis1-91-26"
+unihan:kIRG_JSource:A3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":mh533"
@@ -13252,6 +13342,10 @@ ivd:Moji_Joho
 "﨟"
 ivd:base
 -"蘒"
+":jis-dos-1-118-1"
+unihan:kIBMJapan
+":jis2-87-24"
+unihan:kIRG_JSource:4
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 "蘒"
@@ -13264,6 +13358,10 @@ uts46:mapping
 "蘒︀"
 unicode:svs:cjk
 -"﨡"
+":jis-dos-1-118-2"
+unihan:kIBMJapan
+":jis2-87-37"
+unihan:kIRG_JSource:4
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1081-11-1"
@@ -13282,6 +13380,10 @@ ivd:base
 -"諸"
 ":jinmei-諸"
 unihan:kJinmeiyoKanji
+":jis-dos-1-118-11"
+unihan:kIBMJapan
+":jis1-92-14"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1172-4"
@@ -13299,6 +13401,8 @@ uts46:mapping
 "諸︀"
 unicode:svs:cjk
 -"﨣"
+":jis-dos-1-118-19"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 -"﨣󠄀"
@@ -13307,6 +13411,10 @@ ivd:Adobe-Japan1
 "﨣"
 ivd:base
 -"﨤"
+":jis-dos-1-118-21"
+unihan:kIBMJapan
+":jis2-89-78"
+unihan:kIRG_JSource:4
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1254-17-1"
@@ -13366,6 +13474,10 @@ ivd:Moji_Joho
 "﨤"
 ivd:base
 -"逸"
+":MJ030234"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-118-22"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1260-8"
@@ -13384,6 +13496,10 @@ unicode:svs:cjk
 -"都"
 ":jinmei-都"
 unihan:kJinmeiyoKanji
+":jis-dos-1-118-25"
+unihan:kIBMJapan
+":jis1-92-74"
+unihan:kIRG_JSource:3
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1274-90"
@@ -13401,6 +13517,10 @@ uts46:mapping
 "都︀"
 unicode:svs:cjk
 -"﨧"
+":MJ030237"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-118-53"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1308-26-1"
@@ -13422,8 +13542,12 @@ ivd:Moji_Joho
 "﨧"
 ivd:base
 -"﨨"
+":MJ030238"
+unihan:kIRG_JSource:MJ
 ":cns15-56-44"
 unihan:kIRG_TSource
+":jis-dos-1-118-60"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1313-5-1"
@@ -13435,6 +13559,10 @@ ivd:Adobe-Japan1
 "﨨"
 ivd:base
 -"﨩"
+":MJ030239"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-118-76"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1359-10-1"
@@ -13446,6 +13574,10 @@ ivd:Adobe-Japan1
 "﨩"
 ivd:base
 -"飯"
+":MJ030240"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-118-88"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1417-27"
@@ -13462,6 +13594,10 @@ uts46:mapping
 "飯︀"
 unicode:svs:cjk
 -"飼"
+":MJ030241"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-118-89"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1418-36"
@@ -13478,6 +13614,10 @@ uts46:mapping
 "飼︀"
 unicode:svs:cjk
 -"館"
+":MJ030242"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-118-91"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 ":kx1422-14"
@@ -13494,6 +13634,10 @@ uts46:mapping
 "館︀"
 unicode:svs:cjk
 -"鶴"
+":MJ030243"
+unihan:kIRG_JSource:MJ
+":jis-dos-1-119-10"
+unihan:kIBMJapan
 ":kx0-0"
 unihan3.0:kKangXi:virtual
 "鶴"
@@ -13533,6 +13677,8 @@ unicode:svs:cjk
 -"侮"
 ":jinmei-侮"
 unihan:kJinmeiyoKanji
+":jis1-14-24"
+unihan:kIRG_JSource:3
 "侮"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13546,6 +13692,8 @@ unicode:svs:cjk
 -"僧"
 ":jinmei-僧"
 unihan:kJinmeiyoKanji
+":jis1-14-41"
+unihan:kIRG_JSource:3
 "僧"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13557,6 +13705,8 @@ uts46:mapping
 "僧︀"
 unicode:svs:cjk
 -"免"
+":jis1-14-48"
+unihan:kIRG_JSource:3
 "免"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13569,6 +13719,8 @@ unicode:svs:cjk
 -"勉"
 ":jinmei-勉"
 unihan:kJinmeiyoKanji
+":jis1-14-67"
+unihan:kIRG_JSource:3
 "勉"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13582,6 +13734,8 @@ unicode:svs:cjk
 -"勤"
 ":jinmei-勤"
 unihan:kJinmeiyoKanji
+":jis1-14-72"
+unihan:kIRG_JSource:3
 "勤"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13595,6 +13749,8 @@ unicode:svs:cjk
 -"卑"
 ":jinmei-卑"
 unihan:kJinmeiyoKanji
+":jis1-14-78"
+unihan:kIRG_JSource:3
 "卑"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13606,6 +13762,8 @@ uts46:mapping
 "卑︀"
 unicode:svs:cjk
 -"喝"
+":jis1-15-12"
+unihan:kIRG_JSource:3
 "喝"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13618,6 +13776,8 @@ unicode:svs:cjk
 -"嘆"
 ":jinmei-嘆"
 unihan:kJinmeiyoKanji
+":jis1-15-15"
+unihan:kIRG_JSource:3
 "嘆"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13631,6 +13791,8 @@ unicode:svs:cjk
 -"器"
 ":jinmei-器"
 unihan:kJinmeiyoKanji
+":jis1-15-22"
+unihan:kIRG_JSource:3
 "器"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13642,6 +13804,8 @@ uts46:mapping
 "器︀"
 unicode:svs:cjk
 -"塀"
+":jis1-15-58"
+unihan:kIRG_JSource:3
 "塀"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13654,6 +13818,8 @@ unicode:svs:cjk
 -"墨"
 ":jinmei-墨"
 unihan:kJinmeiyoKanji
+":jis1-15-62"
+unihan:kIRG_JSource:3
 "墨"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13667,6 +13833,8 @@ unicode:svs:cjk
 -"層"
 ":jinmei-層"
 unihan:kJinmeiyoKanji
+":jis1-47-65"
+unihan:kIRG_JSource:3
 "層"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13678,6 +13846,8 @@ uts46:mapping
 "層︀"
 unicode:svs:cjk
 -"屮"
+":jis1-47-66"
+unihan:kIRG_JSource:3
 "屮"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13690,6 +13860,8 @@ unicode:svs:cjk
 -"悔"
 ":jinmei-悔"
 unihan:kJinmeiyoKanji
+":jis1-84-48"
+unihan:kIRG_JSource:3
 "悔"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13701,6 +13873,8 @@ uts46:mapping
 "悔︀"
 unicode:svs:cjk
 -"慨"
+":jis1-84-60"
+unihan:kIRG_JSource:3
 "慨"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13713,6 +13887,8 @@ unicode:svs:cjk
 -"憎"
 ":jinmei-憎"
 unihan:kJinmeiyoKanji
+":jis1-84-62"
+unihan:kIRG_JSource:3
 "憎"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13726,6 +13902,8 @@ unicode:svs:cjk
 -"懲"
 ":jinmei-懲"
 unihan:kJinmeiyoKanji
+":jis1-84-65"
+unihan:kIRG_JSource:3
 "懲"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13739,6 +13917,8 @@ unicode:svs:cjk
 -"敏"
 ":jinmei-敏"
 unihan:kJinmeiyoKanji
+":jis1-85-8"
+unihan:kIRG_JSource:3
 "敏"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13750,6 +13930,8 @@ uts46:mapping
 "敏︀"
 unicode:svs:cjk
 -"既"
+":jis1-85-11"
+unihan:kIRG_JSource:3
 "既"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13762,6 +13944,8 @@ unicode:svs:cjk
 -"暑"
 ":jinmei-暑"
 unihan:kJinmeiyoKanji
+":jis1-85-35"
+unihan:kIRG_JSource:3
 "暑"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13775,6 +13959,8 @@ unicode:svs:cjk
 -"梅"
 ":jinmei-梅"
 unihan:kJinmeiyoKanji
+":jis1-85-69"
+unihan:kIRG_JSource:3
 "梅"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13788,6 +13974,8 @@ unicode:svs:cjk
 -"海"
 ":jinmei-海"
 unihan:kJinmeiyoKanji
+":jis1-86-73"
+unihan:kIRG_JSource:3
 "海"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13801,6 +13989,8 @@ unicode:svs:cjk
 -"渚"
 ":jinmei-渚"
 unihan:kJinmeiyoKanji
+":jis1-86-87"
+unihan:kIRG_JSource:3
 "渚"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13813,6 +14003,8 @@ unicode:svs:cjk
 -"漢"
 ":jinmei-漢"
 unihan:kJinmeiyoKanji
+":jis1-87-5"
+unihan:kIRG_JSource:3
 "漢"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13826,6 +14018,8 @@ unicode:svs:cjk
 -"煮"
 ":jinmei-煮"
 unihan:kJinmeiyoKanji
+":jis1-87-53"
+unihan:kIRG_JSource:3
 "煮"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13837,6 +14031,8 @@ uts46:mapping
 "煮︀"
 unicode:svs:cjk
 -"爫"
+":jis2-80-9"
+unihan:kIRG_JSource:4
 "爫"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13849,6 +14045,8 @@ unicode:svs:cjk
 -"琢"
 ":jinmei-琢"
 unihan:kJinmeiyoKanji
+":jis1-88-5"
+unihan:kIRG_JSource:3
 "琢"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13861,6 +14059,8 @@ unicode:svs:cjk
 -"碑"
 ":jinmei-碑"
 unihan:kJinmeiyoKanji
+":jis1-89-7"
+unihan:kIRG_JSource:3
 "碑"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13874,6 +14074,8 @@ unicode:svs:cjk
 -"社"
 ":jinmei-社"
 unihan:kJinmeiyoKanji
+":jis1-89-19"
+unihan:kIRG_JSource:3
 "社"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13887,6 +14089,8 @@ unicode:svs:cjk
 -"祉"
 ":jinmei-祉"
 unihan:kJinmeiyoKanji
+":jis1-89-20"
+unihan:kIRG_JSource:3
 "祉"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13900,6 +14104,8 @@ unicode:svs:cjk
 -"祈"
 ":jinmei-祈"
 unihan:kJinmeiyoKanji
+":jis1-89-23"
+unihan:kIRG_JSource:3
 "祈"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13913,6 +14119,8 @@ unicode:svs:cjk
 -"祐"
 ":jinmei-祐"
 unihan:kJinmeiyoKanji
+":jis1-89-24"
+unihan:kIRG_JSource:3
 "祐"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13925,6 +14133,8 @@ unicode:svs:cjk
 -"祖"
 ":jinmei-祖"
 unihan:kJinmeiyoKanji
+":jis1-89-25"
+unihan:kIRG_JSource:3
 "祖"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13938,6 +14148,8 @@ unicode:svs:cjk
 -"祝"
 ":jinmei-祝"
 unihan:kJinmeiyoKanji
+":jis1-89-27"
+unihan:kIRG_JSource:3
 "祝"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13951,6 +14163,8 @@ unicode:svs:cjk
 -"禍"
 ":jinmei-禍"
 unihan:kJinmeiyoKanji
+":jis1-89-31"
+unihan:kIRG_JSource:3
 "禍"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13964,6 +14178,8 @@ unicode:svs:cjk
 -"禎"
 ":jinmei-禎"
 unihan:kJinmeiyoKanji
+":jis1-89-32"
+unihan:kIRG_JSource:3
 "禎"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13976,6 +14192,8 @@ unicode:svs:cjk
 -"穀"
 ":jinmei-穀"
 unihan:kJinmeiyoKanji
+":jis1-89-45"
+unihan:kIRG_JSource:3
 "穀"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -13989,6 +14207,8 @@ unicode:svs:cjk
 -"突"
 ":jinmei-突"
 unihan:kJinmeiyoKanji
+":jis1-89-49"
+unihan:kIRG_JSource:3
 "突"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14002,6 +14222,8 @@ unicode:svs:cjk
 -"節"
 ":jinmei-節"
 unihan:kJinmeiyoKanji
+":jis1-89-68"
+unihan:kIRG_JSource:3
 "節"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14015,6 +14237,8 @@ unicode:svs:cjk
 -"練"
 ":jinmei-練"
 unihan:kJinmeiyoKanji
+":jis1-90-14"
+unihan:kIRG_JSource:3
 "練"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14026,6 +14250,8 @@ uts46:mapping
 "練︁"
 unicode:svs:cjk
 -"縉"
+":jis2-84-48"
+unihan:kIRG_JSource:4
 "縉"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14038,6 +14264,8 @@ unicode:svs:cjk
 -"繁"
 ":jinmei-繁"
 unihan:kJinmeiyoKanji
+":jis1-90-19"
+unihan:kIRG_JSource:3
 "繁"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14051,6 +14279,8 @@ unicode:svs:cjk
 -"署"
 ":jinmei-署"
 unihan:kJinmeiyoKanji
+":jis1-90-26"
+unihan:kIRG_JSource:3
 "署"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14064,6 +14294,8 @@ unicode:svs:cjk
 -"者"
 ":jinmei-者"
 unihan:kJinmeiyoKanji
+":jis1-90-36"
+unihan:kIRG_JSource:3
 "者"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14077,6 +14309,8 @@ unicode:svs:cjk
 -"臭"
 ":jinmei-臭"
 unihan:kJinmeiyoKanji
+":jis1-90-56"
+unihan:kIRG_JSource:3
 "臭"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14088,6 +14322,8 @@ uts46:mapping
 "臭︀"
 unicode:svs:cjk
 -"艹"
+":jis2-85-84"
+unihan:kIRG_JSource:4
 "艹"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14098,6 +14334,8 @@ uts46:mapping
 "艹︀"
 unicode:svs:cjk
 -"艹"
+":jis2-85-85"
+unihan:kIRG_JSource:4
 "艹"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14110,6 +14348,8 @@ unicode:svs:cjk
 -"著"
 ":jinmei-著"
 unihan:kJinmeiyoKanji
+":jis1-91-7"
+unihan:kIRG_JSource:3
 "著"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14121,6 +14361,8 @@ uts46:mapping
 "著︀"
 unicode:svs:cjk
 -"褐"
+":jis1-91-79"
+unihan:kIRG_JSource:3
 "褐"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14133,6 +14375,8 @@ unicode:svs:cjk
 -"視"
 ":jinmei-視"
 unihan:kJinmeiyoKanji
+":jis1-91-89"
+unihan:kIRG_JSource:3
 "視"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14146,6 +14390,8 @@ unicode:svs:cjk
 -"謁"
 ":jinmei-謁"
 unihan:kJinmeiyoKanji
+":jis1-92-15"
+unihan:kIRG_JSource:3
 "謁"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14159,6 +14405,8 @@ unicode:svs:cjk
 -"謹"
 ":jinmei-謹"
 unihan:kJinmeiyoKanji
+":jis1-92-16"
+unihan:kIRG_JSource:3
 "謹"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14172,6 +14420,8 @@ unicode:svs:cjk
 -"賓"
 ":jinmei-賓"
 unihan:kJinmeiyoKanji
+":jis1-92-24"
+unihan:kIRG_JSource:3
 "賓"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14185,6 +14435,8 @@ unicode:svs:cjk
 -"贈"
 ":jinmei-贈"
 unihan:kJinmeiyoKanji
+":jis1-92-29"
+unihan:kIRG_JSource:3
 "贈"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14196,6 +14448,8 @@ uts46:mapping
 "贈︀"
 unicode:svs:cjk
 -"辶"
+":jis2-89-73"
+unihan:kIRG_JSource:4
 "辶"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14208,6 +14462,8 @@ unicode:svs:cjk
 -"逸"
 ":jinmei-逸"
 unihan:kJinmeiyoKanji
+":jis1-92-57"
+unihan:kIRG_JSource:3
 "逸"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14221,6 +14477,8 @@ unicode:svs:cjk
 -"難"
 ":jinmei-難"
 unihan:kJinmeiyoKanji
+":jis1-93-67"
+unihan:kIRG_JSource:3
 "難"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14234,6 +14492,8 @@ unicode:svs:cjk
 -"響"
 ":jinmei-響"
 unihan:kJinmeiyoKanji
+":jis1-93-86"
+unihan:kIRG_JSource:3
 "響"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14245,6 +14505,8 @@ uts46:mapping
 "響︀"
 unicode:svs:cjk
 -"頻"
+":jis1-93-91"
+unihan:kIRG_JSource:3
 "頻"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14255,6 +14517,8 @@ uts46:mapping
 "頻︀"
 unicode:svs:cjk
 -"恵"
+":jis-arib-1-85-39"
+unihan:kIRG_JSource:ARIB
 "恵"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14265,6 +14529,8 @@ uts46:mapping
 "恵︀"
 unicode:svs:cjk
 -"𤋮"
+":jis-arib-1-85-67"
+unihan:kIRG_JSource:ARIB
 "𤋮"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -14275,6 +14541,8 @@ uts46:mapping
 "𤋮︀"
 unicode:svs:cjk
 -"舘"
+":jis-arib-1-86-11"
+unihan:kIRG_JSource:ARIB
 "舘"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
@@ -18162,32 +18430,36 @@ unicode:compat_decomposition
 unicode:security:confusable
 uts46:mapping
 -"ﭞ"
+"ت"
+unicode:security:confusable
 "ٺ"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
 unicode:compat_decomposition
-unicode:security:confusable
 uts46:mapping
 -"ﭟ"
+"ت"
+unicode:security:confusable
 "ٺ"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
 unicode:compat_decomposition
-unicode:security:confusable
 uts46:mapping
 -"ﭠ"
+"ت"
+unicode:security:confusable
 "ٺ"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
 unicode:compat_decomposition
-unicode:security:confusable
 uts46:mapping
 -"ﭡ"
+"ت"
+unicode:security:confusable
 "ٺ"
 rfc5051:titlecase-canonical
 unicode:NFKC_Casefold
 unicode:compat_decomposition
-unicode:security:confusable
 uts46:mapping
 -"ﭢ"
 "ٿ"
@@ -19116,6 +19388,8 @@ unicode:security:confusable
 "ئى"
 rfc5051:titlecase-canonical
 unicode:compat_decomposition
+"ﰃ"
+ucd:names:x
 -"ﯺ"
 "ئى"
 unicode:NFKC_Casefold
@@ -19125,6 +19399,8 @@ unicode:security:confusable
 "ئى"
 rfc5051:titlecase-canonical
 unicode:compat_decomposition
+"ﱨ"
+ucd:names:x
 -"ﯻ"
 "ئى"
 unicode:NFKC_Casefold
@@ -19202,6 +19478,8 @@ unicode:security:confusable
 "ئى"
 rfc5051:titlecase-canonical
 unicode:compat_decomposition
+"ﯹ"
+ucd:names:x
 -"ﰄ"
 "ئي"
 unicode:NFKC_Casefold
@@ -19951,6 +20229,8 @@ unicode:security:confusable
 "ئى"
 rfc5051:titlecase-canonical
 unicode:compat_decomposition
+"ﯺ"
+ucd:names:x
 -"ﱩ"
 "ئي"
 unicode:NFKC_Casefold

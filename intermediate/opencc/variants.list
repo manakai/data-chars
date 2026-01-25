@@ -2275,6 +2275,9 @@ opencc:TSCharacters
 "児"
 opencc:JPVariants
 starcc:JPVariants
+-"兔"
+"兎"
+opencc:JPVariants
 -"兖"
 "兗"
 gujicc:SGCharacters
@@ -4795,7 +4798,6 @@ opencc:TSCharacters
 gujicc:GSCharacters
 opencc:TSCharacters
 "奨"
-opencc:JPVariants
 starcc:JPVariants
 "獎"
 starcc:CNTradVariantsRev
@@ -11786,6 +11788,8 @@ opencc:variant
 "奖"
 gujicc:GSCharacters
 opencc:TSCharacters
+"奨"
+opencc:JPVariants
 "奬"
 opencc:variant
 starcc:CNTradVariants
@@ -25702,9 +25706,10 @@ gujicc:GSCharacters
 opencc:TSCharacters
 -"面"
 "麪"
-gujicc:SGCharacters
 opencc:STCharacters
 opencc:st_multi
+"麵"
+gujicc:SGCharacters
 -"靥"
 "靨"
 gujicc:SGCharacters
@@ -29946,6 +29951,7 @@ opencc:TSCharacters
 gujicc:GSCharacters
 opencc:TSCharacters
 "麵"
+gujicc:SGCharacters
 opencc:TWVariants
 opencc:variant
 starcc:CNTradVariants
@@ -30011,9 +30017,10 @@ opencc:STCharacters
 starcc:JPVariantsRev
 -"麺"
 "麪"
-gujicc:SGCharacters
 opencc:STCharacters
 starcc:JPVariantsRev
+"麵"
+gujicc:SGCharacters
 -"麻"
 "痲"
 starcc:CNTradVariantsRev

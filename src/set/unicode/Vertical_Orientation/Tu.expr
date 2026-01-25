@@ -1,6 +1,10 @@
 #label:Unicode Vertical_Orientation=Tu
 #sw:Vertical_Orientation
-[\u{1F200}-\u{1F201}
+[\u{1B132}
+\u{1B150}-\u{1B152}
+\u{1B155}
+\u{1B164}-\u{1B167}
+\u{1F200}-\u{1F201}
 \u{3001}-\u{3002}
 \u{3041}
 \u{3043}
@@ -26,6 +30,8 @@
 \u{30EE}
 \u{30F5}-\u{30F6}
 \u{3127}
+\u{31B4}-\u{31B7}
+\u{31BB}
 \u{31F0}-\u{31FF}
 \u{32FF}
 \u{3300}-\u{3357}

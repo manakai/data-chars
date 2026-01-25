@@ -12,6 +12,7 @@
 - $unicode:Script_Extensions:Bassa_Vah
 - $unicode:Script_Extensions:Batak
 - $unicode:Script_Extensions:Bengali
+- $unicode:Script_Extensions:Beria_Erfe
 - $unicode:Script_Extensions:Bhaiksuki
 - $unicode:Script_Extensions:Bopomofo
 - $unicode:Script_Extensions:Brahmi
@@ -40,6 +41,7 @@
 - $unicode:Script_Extensions:Elbasan
 - $unicode:Script_Extensions:Elymaic
 - $unicode:Script_Extensions:Ethiopic
+- $unicode:Script_Extensions:Garay
 - $unicode:Script_Extensions:Georgian
 - $unicode:Script_Extensions:Glagolitic
 - $unicode:Script_Extensions:Gothic
@@ -48,6 +50,7 @@
 - $unicode:Script_Extensions:Gujarati
 - $unicode:Script_Extensions:Gunjala_Gondi
 - $unicode:Script_Extensions:Gurmukhi
+- $unicode:Script_Extensions:Gurung_Khema
 - $unicode:Script_Extensions:Han
 - $unicode:Script_Extensions:Hangul
 - $unicode:Script_Extensions:Hanifi_Rohingya
@@ -70,6 +73,7 @@
 - $unicode:Script_Extensions:Khmer
 - $unicode:Script_Extensions:Khojki
 - $unicode:Script_Extensions:Khudawadi
+- $unicode:Script_Extensions:Kirat_Rai
 - $unicode:Script_Extensions:Lao
 - $unicode:Script_Extensions:Latin
 - $unicode:Script_Extensions:Lepcha
@@ -107,6 +111,7 @@
 - $unicode:Script_Extensions:Nyiakeng_Puachue_Hmong
 - $unicode:Script_Extensions:Ogham
 - $unicode:Script_Extensions:Ol_Chiki
+- $unicode:Script_Extensions:Ol_Onal
 - $unicode:Script_Extensions:Old_Hungarian
 - $unicode:Script_Extensions:Old_Italic
 - $unicode:Script_Extensions:Old_North_Arabian
@@ -132,12 +137,14 @@
 - $unicode:Script_Extensions:Sharada
 - $unicode:Script_Extensions:Shavian
 - $unicode:Script_Extensions:Siddham
+- $unicode:Script_Extensions:Sidetic
 - $unicode:Script_Extensions:SignWriting
 - $unicode:Script_Extensions:Sinhala
 - $unicode:Script_Extensions:Sogdian
 - $unicode:Script_Extensions:Sora_Sompeng
 - $unicode:Script_Extensions:Soyombo
 - $unicode:Script_Extensions:Sundanese
+- $unicode:Script_Extensions:Sunuwar
 - $unicode:Script_Extensions:Syloti_Nagri
 - $unicode:Script_Extensions:Syriac
 - $unicode:Script_Extensions:Tagalog
@@ -145,6 +152,7 @@
 - $unicode:Script_Extensions:Tai_Le
 - $unicode:Script_Extensions:Tai_Tham
 - $unicode:Script_Extensions:Tai_Viet
+- $unicode:Script_Extensions:Tai_Yo
 - $unicode:Script_Extensions:Takri
 - $unicode:Script_Extensions:Tamil
 - $unicode:Script_Extensions:Tangsa
@@ -155,7 +163,10 @@
 - $unicode:Script_Extensions:Tibetan
 - $unicode:Script_Extensions:Tifinagh
 - $unicode:Script_Extensions:Tirhuta
+- $unicode:Script_Extensions:Todhri
+- $unicode:Script_Extensions:Tolong_Siki
 - $unicode:Script_Extensions:Toto
+- $unicode:Script_Extensions:Tulu_Tigalari
 - $unicode:Script_Extensions:Ugaritic
 - $unicode:Script_Extensions:Vai
 - $unicode:Script_Extensions:Vithkuqi

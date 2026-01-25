@@ -1,6 +1,10 @@
 #label:Unicode Vertical_Orientation=Tr
 #sw:Vertical_Orientation
-[\u{2329}
+[\u{2018}
+\u{2019}
+\u{201C}
+\u{201D}
+\u{2329}
 \u{232A}
 \u{3008}
 \u{3009}

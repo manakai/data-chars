@@ -26,6 +26,7 @@
 - $unicode:Block:Bassa_Vah
 - $unicode:Block:Batak
 - $unicode:Block:Bengali
+- $unicode:Block:Beria_Erfe
 - $unicode:Block:Bhaiksuki
 - $unicode:Block:Block_Elements
 - $unicode:Block:Bopomofo
@@ -53,6 +54,7 @@
 - $unicode:Block:CJK_Unified_Ideographs_Extension_G
 - $unicode:Block:CJK_Unified_Ideographs_Extension_H
 - $unicode:Block:CJK_Unified_Ideographs_Extension_I
+- $unicode:Block:CJK_Unified_Ideographs_Extension_J
 - $unicode:Block:Carian
 - $unicode:Block:Caucasian_Albanian
 - $unicode:Block:Chakma
@@ -94,6 +96,7 @@
 - $unicode:Block:Early_Dynastic_Cuneiform
 - $unicode:Block:Egyptian_Hieroglyph_Format_Controls
 - $unicode:Block:Egyptian_Hieroglyphs
+- $unicode:Block:Egyptian_Hieroglyphs_Extended-A
 - $unicode:Block:Elbasan
 - $unicode:Block:Elymaic
 - $unicode:Block:Emoticons
@@ -106,6 +109,7 @@
 - $unicode:Block:Ethiopic_Extended-A
 - $unicode:Block:Ethiopic_Extended-B
 - $unicode:Block:Ethiopic_Supplement
+- $unicode:Block:Garay
 - $unicode:Block:General_Punctuation
 - $unicode:Block:Geometric_Shapes
 - $unicode:Block:Geometric_Shapes_Extended
@@ -121,6 +125,7 @@
 - $unicode:Block:Gujarati
 - $unicode:Block:Gunjala_Gondi
 - $unicode:Block:Gurmukhi
+- $unicode:Block:Gurung_Khema
 - $unicode:Block:Halfwidth_and_Fullwidth_Forms
 - $unicode:Block:Hangul_Compatibility_Jamo
 - $unicode:Block:Hangul_Jamo
@@ -160,6 +165,7 @@
 - $unicode:Block:Khmer_Symbols
 - $unicode:Block:Khojki
 - $unicode:Block:Khudawadi
+- $unicode:Block:Kirat_Rai
 - $unicode:Block:Lao
 - $unicode:Block:Latin-1_Supplement
 - $unicode:Block:Latin_Extended-A
@@ -202,6 +208,7 @@
 - $unicode:Block:Miscellaneous_Mathematical_Symbols-A
 - $unicode:Block:Miscellaneous_Mathematical_Symbols-B
 - $unicode:Block:Miscellaneous_Symbols
+- $unicode:Block:Miscellaneous_Symbols_Supplement
 - $unicode:Block:Miscellaneous_Symbols_and_Arrows
 - $unicode:Block:Miscellaneous_Symbols_and_Pictographs
 - $unicode:Block:Miscellaneous_Technical
@@ -215,6 +222,7 @@
 - $unicode:Block:Myanmar
 - $unicode:Block:Myanmar_Extended-A
 - $unicode:Block:Myanmar_Extended-B
+- $unicode:Block:Myanmar_Extended-C
 - $unicode:Block:NKo
 - $unicode:Block:Nabataean
 - $unicode:Block:Nag_Mundari
@@ -226,6 +234,7 @@
 - $unicode:Block:Nyiakeng_Puachue_Hmong
 - $unicode:Block:Ogham
 - $unicode:Block:Ol_Chiki
+- $unicode:Block:Ol_Onal
 - $unicode:Block:Old_Hungarian
 - $unicode:Block:Old_Italic
 - $unicode:Block:Old_North_Arabian
@@ -258,9 +267,11 @@
 - $unicode:Block:Samaritan
 - $unicode:Block:Saurashtra
 - $unicode:Block:Sharada
+- $unicode:Block:Sharada_Supplement
 - $unicode:Block:Shavian
 - $unicode:Block:Shorthand_Format_Controls
 - $unicode:Block:Siddham
+- $unicode:Block:Sidetic
 - $unicode:Block:Sinhala
 - $unicode:Block:Sinhala_Archaic_Numbers
 - $unicode:Block:Small_Form_Variants
@@ -272,6 +283,7 @@
 - $unicode:Block:Specials
 - $unicode:Block:Sundanese
 - $unicode:Block:Sundanese_Supplement
+- $unicode:Block:Sunuwar
 - $unicode:Block:Superscripts_and_Subscripts
 - $unicode:Block:Supplemental_Arrows-A
 - $unicode:Block:Supplemental_Arrows-B
@@ -285,6 +297,7 @@
 - $unicode:Block:Syloti_Nagri
 - $unicode:Block:Symbols_and_Pictographs_Extended-A
 - $unicode:Block:Symbols_for_Legacy_Computing
+- $unicode:Block:Symbols_for_Legacy_Computing_Supplement
 - $unicode:Block:Syriac
 - $unicode:Block:Syriac_Supplement
 - $unicode:Block:Tagalog
@@ -294,12 +307,14 @@
 - $unicode:Block:Tai_Tham
 - $unicode:Block:Tai_Viet
 - $unicode:Block:Tai_Xuan_Jing_Symbols
+- $unicode:Block:Tai_Yo
 - $unicode:Block:Takri
 - $unicode:Block:Tamil
 - $unicode:Block:Tamil_Supplement
 - $unicode:Block:Tangsa
 - $unicode:Block:Tangut
 - $unicode:Block:Tangut_Components
+- $unicode:Block:Tangut_Components_Supplement
 - $unicode:Block:Tangut_Supplement
 - $unicode:Block:Telugu
 - $unicode:Block:Thaana
@@ -307,8 +322,11 @@
 - $unicode:Block:Tibetan
 - $unicode:Block:Tifinagh
 - $unicode:Block:Tirhuta
+- $unicode:Block:Todhri
+- $unicode:Block:Tolong_Siki
 - $unicode:Block:Toto
 - $unicode:Block:Transport_and_Map_Symbols
+- $unicode:Block:Tulu-Tigalari
 - $unicode:Block:Ugaritic
 - $unicode:Block:Unified_Canadian_Aboriginal_Syllabics
 - $unicode:Block:Unified_Canadian_Aboriginal_Syllabics_Extended

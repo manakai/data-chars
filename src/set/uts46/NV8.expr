@@ -2,7 +2,12 @@
 #label:IDNA Mapping Table NV8
 #sw:IDNA Mapping Table
 #url:http://www.unicode.org/reports/tr46/#IDNA_Mapping_Table
-  [\u{00A1}-\u{00A7}
+  [\u{0000}-\u{002C}
+\u{002F}
+\u{003A}-\u{0040}
+\u{005B}-\u{0060}
+\u{007B}-\u{007F}
+\u{00A1}-\u{00A7}
 \u{00A9}
 \u{00AB}-\u{00AC}
 \u{00AE}
@@ -111,8 +116,7 @@
 \u{17D4}-\u{17D6}
 \u{17D8}-\u{17DB}
 \u{17F0}-\u{17F9}
-\u{1800}-\u{1805}
-\u{1807}-\u{180A}
+\u{1800}-\u{180A}
 \u{1940}
 \u{1944}-\u{1945}
 \u{19DE}-\u{19DF}
@@ -121,9 +125,11 @@
 \u{1AA0}-\u{1AA6}
 \u{1AA8}-\u{1AAD}
 \u{1ABE}
+\u{1B4E}-\u{1B4F}
 \u{1B5A}-\u{1B6A}
 \u{1B74}-\u{1B7C}
 \u{1B7D}-\u{1B7E}
+\u{1B7F}
 \u{1BFC}-\u{1BFF}
 \u{1C3B}-\u{1C3F}
 \u{1C7E}-\u{1C7F}
@@ -157,6 +163,7 @@
 \u{20BE}
 \u{20BF}
 \u{20C0}
+\u{20C1}
 \u{20D0}-\u{20E1}
 \u{20E2}-\u{20E3}
 \u{20E4}-\u{20EA}
@@ -207,6 +214,7 @@
 \u{23FF}
 \u{2400}-\u{2424}
 \u{2425}-\u{2426}
+\u{2427}-\u{2429}
 \u{2440}-\u{244A}
 \u{24EB}-\u{24FE}
 \u{24FF}
@@ -292,6 +300,7 @@
 \u{2B55}-\u{2B59}
 \u{2B5A}-\u{2B73}
 \u{2B76}-\u{2B95}
+\u{2B96}
 \u{2B97}
 \u{2B98}-\u{2BB9}
 \u{2BBA}-\u{2BBC}
@@ -336,6 +345,7 @@
 \u{3190}-\u{3191}
 \u{31C0}-\u{31CF}
 \u{31D0}-\u{31E3}
+\u{31E4}-\u{31E5}
 \u{3248}-\u{324F}
 \u{327F}
 \u{4DC0}-\u{4DFF}
@@ -379,8 +389,11 @@
 \u{D7CB}-\u{D7FB}
 \u{FBB2}-\u{FBC1}
 \u{FBC2}
+\u{FBC3}-\u{FBD2}
 \u{FD3E}-\u{FD3F}
 \u{FD40}-\u{FD4F}
+\u{FD90}-\u{FD91}
+\u{FDC8}-\u{FDCE}
 \u{FDCF}
 \u{FDFD}
 \u{FDFE}-\u{FDFF}
@@ -426,8 +439,11 @@
 \u{10B99}-\u{10B9C}
 \u{10BA9}-\u{10BAF}
 \u{10CFA}-\u{10CFF}
+\u{10D6E}
+\u{10D8E}-\u{10D8F}
 \u{10E60}-\u{10E7E}
 \u{10EAD}
+\u{10ED0}-\u{10ED8}
 \u{10F1D}-\u{10F26}
 \u{10F51}-\u{10F59}
 \u{10F86}-\u{10F89}
@@ -445,6 +461,8 @@
 \u{111E1}-\u{111F4}
 \u{11238}-\u{1123D}
 \u{112A9}
+\u{113D4}-\u{113D5}
+\u{113D7}-\u{113D8}
 \u{1144B}-\u{1144F}
 \u{1145A}
 \u{1145B}
@@ -464,6 +482,7 @@
 \u{11A9A}-\u{11A9C}
 \u{11A9E}-\u{11AA2}
 \u{11B00}-\u{11B09}
+\u{11BE1}
 \u{11C41}-\u{11C45}
 \u{11C5A}-\u{11C6C}
 \u{11C70}-\u{11C71}
@@ -481,10 +500,17 @@
 \u{16B37}-\u{16B3F}
 \u{16B44}-\u{16B45}
 \u{16B5B}-\u{16B61}
+\u{16D6D}-\u{16D6F}
 \u{16E80}-\u{16E9A}
 \u{16FE2}
+\u{16FF4}-\u{16FF6}
 \u{1BC9C}
 \u{1BC9F}
+\u{1CC00}-\u{1CCD5}
+\u{1CCFA}-\u{1CCFC}
+\u{1CD00}-\u{1CEB3}
+\u{1CEBA}-\u{1CED0}
+\u{1CEE0}-\u{1CEF0}
 \u{1CF50}-\u{1CFC3}
 \u{1D000}-\u{1D0F5}
 \u{1D100}-\u{1D126}
@@ -508,6 +534,7 @@
 \u{1DA85}-\u{1DA8B}
 \u{1E14F}
 \u{1E2FF}
+\u{1E5FF}
 \u{1E8C7}-\u{1E8CF}
 \u{1E95E}-\u{1E95F}
 \u{1EC71}-\u{1ECB4}
@@ -617,6 +644,7 @@
 \u{1F6D3}-\u{1F6D4}
 \u{1F6D5}
 \u{1F6D6}-\u{1F6D7}
+\u{1F6D8}
 \u{1F6DC}
 \u{1F6DD}-\u{1F6DF}
 \u{1F6E0}-\u{1F6EC}
@@ -628,6 +656,7 @@
 \u{1F6FB}-\u{1F6FC}
 \u{1F700}-\u{1F773}
 \u{1F774}-\u{1F776}
+\u{1F777}-\u{1F77A}
 \u{1F77B}-\u{1F77F}
 \u{1F780}-\u{1F7D4}
 \u{1F7D5}-\u{1F7D8}
@@ -640,6 +669,9 @@
 \u{1F860}-\u{1F887}
 \u{1F890}-\u{1F8AD}
 \u{1F8B0}-\u{1F8B1}
+\u{1F8B2}-\u{1F8BB}
+\u{1F8C0}-\u{1F8C1}
+\u{1F8D0}-\u{1F8D8}
 \u{1F900}-\u{1F90B}
 \u{1F90C}
 \u{1F90D}-\u{1F90F}
@@ -685,6 +717,7 @@
 \u{1F9D0}-\u{1F9E6}
 \u{1F9E7}-\u{1F9FF}
 \u{1FA00}-\u{1FA53}
+\u{1FA54}-\u{1FA57}
 \u{1FA60}-\u{1FA6D}
 \u{1FA70}-\u{1FA73}
 \u{1FA74}
@@ -694,6 +727,10 @@
 \u{1FA80}-\u{1FA82}
 \u{1FA83}-\u{1FA86}
 \u{1FA87}-\u{1FA88}
+\u{1FA89}
+\u{1FA8A}
+\u{1FA8E}
+\u{1FA8F}
 \u{1FA90}-\u{1FA95}
 \u{1FA96}-\u{1FAA8}
 \u{1FAA9}-\u{1FAAC}
@@ -701,16 +738,27 @@
 \u{1FAB0}-\u{1FAB6}
 \u{1FAB7}-\u{1FABA}
 \u{1FABB}-\u{1FABD}
+\u{1FABE}
 \u{1FABF}
 \u{1FAC0}-\u{1FAC2}
 \u{1FAC3}-\u{1FAC5}
+\u{1FAC6}
+\u{1FAC8}
+\u{1FACD}
 \u{1FACE}-\u{1FACF}
 \u{1FAD0}-\u{1FAD6}
 \u{1FAD7}-\u{1FAD9}
 \u{1FADA}-\u{1FADB}
+\u{1FADC}
+\u{1FADF}
 \u{1FAE0}-\u{1FAE7}
 \u{1FAE8}
+\u{1FAE9}
+\u{1FAEA}
+\u{1FAEF}
 \u{1FAF0}-\u{1FAF6}
 \u{1FAF7}-\u{1FAF8}
 \u{1FB00}-\u{1FB92}
-\u{1FB94}-\u{1FBCA}]
+\u{1FB94}-\u{1FBCA}
+\u{1FBCB}-\u{1FBEF}
+\u{1FBFA}]

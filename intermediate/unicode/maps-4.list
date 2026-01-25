@@ -2050,6 +2050,8 @@ unihan:kMorohashi
 kVariants:=
 unihan:kSemanticVariant
 -"㐁"
+":MJ000005"
+unihan:kIRG_JSource:MJ
 ":cns4-2-4"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2068,6 +2070,8 @@ unihan:kMorohashi
 -"㐂"
 ":JC1403"
 unicode:j:glyph
+":jis1-14-3"
+unihan:kIRG_JSource:A3
 ":jis10-1-2"
 unihan3.0:kIRG_JSource
 ":kx78-10-1"
@@ -2167,6 +2171,8 @@ unihan:kIRG_TSource
 ":gb4-16-86"
 unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
+":jis2-1-13"
+unihan:kIRG_JSource:4
 ":kx82-16"
 unihan3.0:kIRGKangXi
 ":kx83-1-1"
@@ -2178,6 +2184,8 @@ ivd:Adobe-Japan1
 "㐆"
 ivd:base
 -"㐇"
+":MJ067953"
+unihan:kIRG_JSource:MJ
 ":ks3-1-3"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2186,6 +2194,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐈"
+":MJ067954"
+unihan:kIRG_JSource:MJ
 ":ks3-1-4"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2194,6 +2204,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐉"
+":MJ067955"
+unihan:kIRG_JSource:MJ
 ":ks3-1-5"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2202,6 +2214,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐊"
+":MJ067956"
+unihan:kIRG_JSource:MJ
 ":ks3-1-6"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2212,6 +2226,8 @@ unihan:kKangXi:virtual
 "㐋"
 unihan:kSpoofingVariant
 -"㐋"
+":MJ067957"
+unihan:kIRG_JSource:MJ
 ":ks3-1-7"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2222,6 +2238,8 @@ unihan:kKangXi:virtual
 "㐊"
 unihan:kSpoofingVariant
 -"㐌"
+":MJ000011"
+unihan:kIRG_JSource:MJ
 ":cns4-1-55"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2243,6 +2261,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㐍"
+":MJ067958"
+unihan:kIRG_JSource:MJ
 ":ks3-1-8"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2251,6 +2271,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐎"
+":MJ067959"
+unihan:kIRG_JSource:MJ
 ":ks3-1-9"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2259,6 +2281,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐏"
+":MJ067960"
+unihan:kIRG_JSource:MJ
 ":ks3-1-10"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2267,6 +2291,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐐"
+":MJ067961"
+unihan:kIRG_JSource:MJ
 ":ks3-1-11"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2275,6 +2301,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐑"
+":MJ067962"
+unihan:kIRG_JSource:MJ
 ":ks3-1-12"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2283,6 +2311,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐒"
+":MJ067963"
+unihan:kIRG_JSource:MJ
 ":ks3-1-13"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2291,6 +2321,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐓"
+":MJ067964"
+unihan:kIRG_JSource:MJ
 ":ks3-1-14"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2299,6 +2331,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐔"
+":MJ067965"
+unihan:kIRG_JSource:MJ
 ":ks3-1-15"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2307,6 +2341,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐕"
+":MJ067966"
+unihan:kIRG_JSource:MJ
 ":ks3-1-16"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2315,6 +2351,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐖"
+":MJ000013"
+unihan:kIRG_JSource:MJ
 ":cns4-3-22"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2328,6 +2366,8 @@ unihan:kKangXi
 ":m188"
 unihan:kMorohashi
 -"㐗"
+":MJ067967"
+unihan:kIRG_JSource:MJ
 ":ks3-1-17"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2336,6 +2376,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐘"
+":MJ067968"
+unihan:kIRG_JSource:MJ
 ":ks3-1-18"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2344,6 +2386,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐙"
+":MJ067969"
+unihan:kIRG_JSource:MJ
 ":ks3-1-19"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2352,6 +2396,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐚"
+":MJ067970"
+unihan:kIRG_JSource:MJ
 ":ks3-1-20"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2360,6 +2406,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐛"
+":MJ067971"
+unihan:kIRG_JSource:MJ
 ":ks3-1-21"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2368,6 +2416,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐜"
+":MJ000015"
+unihan:kIRG_JSource:MJ
 ":cns4-8-21"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2387,6 +2437,8 @@ unihan:kKangXi
 ":m195"
 unihan:kMorohashi
 -"㐝"
+":MJ067972"
+unihan:kIRG_JSource:MJ
 ":ks3-1-23"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2395,6 +2447,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐞"
+":MJ067973"
+unihan:kIRG_JSource:MJ
 ":ks3-1-24"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2403,6 +2457,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐟"
+":MJ067974"
+unihan:kIRG_JSource:MJ
 ":ks3-1-25"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2411,6 +2467,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐠"
+":MJ067975"
+unihan:kIRG_JSource:MJ
 ":ks3-1-26"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2419,6 +2477,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐡"
+":MJ000016"
+unihan:kIRG_JSource:MJ
 ":cns3-20-27"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2430,6 +2490,8 @@ unihan:kKangXi
 ":m208"
 unihan:kMorohashi
 -"㐢"
+":MJ067976"
+unihan:kIRG_JSource:MJ
 ":ks3-1-28"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2438,6 +2500,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐣"
+":MJ067977"
+unihan:kIRG_JSource:MJ
 ":ks3-1-27"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2446,6 +2510,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐤"
+":MJ000017"
+unihan:kIRG_JSource:MJ
 ":cns3-25-77"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2457,6 +2523,8 @@ unihan:kKangXi:virtual
 ":m211"
 unihan:kMorohashi
 -"㐥"
+":MJ067978"
+unihan:kIRG_JSource:MJ
 ":kps1-346a"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -2468,6 +2536,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㐦"
+":MJ067979"
+unihan:kIRG_JSource:MJ
 ":ks3-1-30"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -2500,6 +2570,8 @@ ivd:Hanyo-Denshi
 "㐧"
 ivd:base
 -"㐨"
+":MJ000020"
+unihan:kIRG_JSource:MJ
 ":cns3-7-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2513,6 +2585,8 @@ unihan:kKangXi
 ":m240"
 unihan:kMorohashi
 -"㐩"
+":MJ000021"
+unihan:kIRG_JSource:MJ
 ":cns3-8-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2555,6 +2629,8 @@ ivd:Moji_Joho
 "㐪"
 ivd:base
 -"㐫"
+":MJ057038"
+unihan:kIRG_JSource:MJ
 ":cns3-3-3"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2578,6 +2654,8 @@ unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
 ":jis10-1-7"
 unihan3.0:kIRG_JSource
+":jis2-1-18"
+unihan:kIRG_JSource:A4
 ":kx88-15"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -2627,6 +2705,8 @@ unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
 ":jis10-1-9"
 unihan3.0:kIRG_JSource
+":jis2-1-19"
+unihan:kIRG_JSource:A4
 ":kx89-20-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -2681,6 +2761,8 @@ unihan:kKangXi
 ":m369"
 unihan:kMorohashi
 -"㐱"
+":MJ000032"
+unihan:kIRG_JSource:MJ
 ":cns3-1-85"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2702,6 +2784,8 @@ unihan:kIRG_VSource:2
 "鬒"
 unihan:kSemanticVariant
 -"㐲"
+":MJ000033"
+unihan:kIRG_JSource:MJ
 ":cns3-1-78"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2716,6 +2800,8 @@ unihan:kKangXi
 ":m383"
 unihan:kMorohashi
 -"㐳"
+":MJ000034"
+unihan:kIRG_JSource:MJ
 ":cns3-1-81"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2727,6 +2813,8 @@ unihan:kKangXi
 ":m389"
 unihan:kMorohashi
 -"㐴"
+":MJ000035"
+unihan:kIRG_JSource:MJ
 ":cns3-1-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2785,6 +2873,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㐸"
+":MJ000038"
+unihan:kIRG_JSource:MJ
 ":cns6-3-46"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2797,6 +2887,8 @@ unihan:kKangXi
 ":m402"
 unihan:kMorohashi
 -"㐹"
+":MJ000039"
+unihan:kIRG_JSource:MJ
 ":cns3-2-81"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2826,6 +2918,8 @@ unihan:kKangXi
 ":m437"
 unihan:kMorohashi
 -"㐻"
+":MJ000041"
+unihan:kIRG_JSource:MJ
 ":cns3-2-73"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2841,6 +2935,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㐼"
+":MJ000042"
+unihan:kIRG_JSource:MJ
 ":cns3-2-74"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2949,6 +3045,8 @@ ivd:Moji_Joho
 "㑂"
 ivd:base
 -"㑃"
+":MJ000049"
+unihan:kIRG_JSource:MJ
 ":cns3-4-39"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2965,6 +3063,8 @@ unihan:kKangXi
 ":m480"
 unihan:kMorohashi
 -"㑄"
+":MJ000050"
+unihan:kIRG_JSource:MJ
 ":cns3-4-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -2998,6 +3098,8 @@ unihan:kMorohashi
 "作"
 kVariants:sem
 -"㑆"
+":MJ000052"
+unihan:kIRG_JSource:MJ
 ":gb28-2-72"
 unihan:kIRG_GSource:S
 ":kx100-2-1"
@@ -3025,6 +3127,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㑉"
+":MJ000053"
+unihan:kIRG_JSource:MJ
 ":cns3-7-38"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3036,6 +3140,8 @@ unihan:kKangXi
 ":m544"
 unihan:kMorohashi
 -"㑊"
+":MJ000054"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8cf4"
 unihan:kIRG_HSource
 ":cns5-5-5"
@@ -3055,6 +3161,8 @@ unihan:kKangXi
 ":m559"
 unihan:kMorohashi
 -"㑋"
+":MJ000055"
+unihan:kIRG_JSource:MJ
 ":cns4-5-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3071,6 +3179,8 @@ unihan:kKangXi
 ":m565"
 unihan:kMorohashi
 -"㑌"
+":MJ000056"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89d5"
 unihan:kIRG_HSource
 ":cns4-5-28"
@@ -3094,6 +3204,8 @@ unihan:kMorohashi
 "尩"
 unihan:kSemanticVariant
 -"㑍"
+":MJ000057"
+unihan:kIRG_JSource:MJ
 ":cns3-7-37"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3118,6 +3230,8 @@ ivd:Hanyo-Denshi
 "㑍"
 ivd:base
 -"㑎"
+":MJ000059"
+unihan:kIRG_JSource:MJ
 ":cns5-5-11"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3157,6 +3271,8 @@ unihan:kKangXi:virtual
 ":m620"
 unihan:kMorohashi
 -"㑑"
+":MJ000061"
+unihan:kIRG_JSource:MJ
 ":cns3-7-48"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3213,6 +3329,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㑗"
+":MJ000064"
+unihan:kIRG_JSource:MJ
 ":cns3-11-17"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3242,6 +3360,8 @@ unihan:kKangXi
 ":m638"
 unihan:kMorohashi
 -"㑙"
+":MJ000066"
+unihan:kIRG_JSource:MJ
 ":cns4-8-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3258,6 +3378,8 @@ unihan:kKangXi
 ":m651"
 unihan:kMorohashi
 -"㑚"
+":MJ000067"
+unihan:kIRG_JSource:MJ
 ":cns3-11-16"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3269,6 +3391,8 @@ unihan:kKangXi
 ":m656"
 unihan:kMorohashi
 -"㑛"
+":MJ000068"
+unihan:kIRG_JSource:MJ
 ":cns5-8-1"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3284,6 +3408,8 @@ unihan:kKangXi
 ":m671"
 unihan:kMorohashi
 -"㑜"
+":MJ000069"
+unihan:kIRG_JSource:MJ
 ":cns4-8-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3329,6 +3455,8 @@ unihan:kKangXi
 ":m693"
 unihan:kMorohashi
 -"㑟"
+":MJ000071"
+unihan:kIRG_JSource:MJ
 ":cns4-8-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3366,6 +3494,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㑣"
+":MJ000072"
+unihan:kIRG_JSource:MJ
 ":cns5-11-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3413,6 +3543,8 @@ unihan:kMorohashi
 "㑤"
 ivd:base
 -"㑥"
+":MJ000075"
+unihan:kIRG_JSource:MJ
 ":cns3-15-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3469,6 +3601,8 @@ unihan:kMorohashi
 unicode:j:glyph
 ":jis10-1-24"
 unihan3.0:kIRG_JSource
+":jis2-1-62"
+unihan:kIRG_JSource:A4
 ":kx109-17-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -3497,6 +3631,8 @@ unihan:kTraditionalVariant
 unicode:j:glyph
 ":jis10-1-25"
 unihan3.0:kIRG_JSource
+":jis2-1-54"
+unihan:kIRG_JSource:A4
 ":kx109-17-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -3536,6 +3672,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㑮"
+":MJ000080"
+unihan:kIRG_JSource:MJ
 ":cns4-16-37"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3551,6 +3689,8 @@ unihan:kMorohashi
 "𫝈"
 unihan:kSimplifiedVariant
 -"㑯"
+":MJ000081"
+unihan:kIRG_JSource:MJ
 ":cns3-20-30"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3573,6 +3713,8 @@ unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
 unihan:kKangXi
 -"㑱"
+":MJ000082"
+unihan:kIRG_JSource:MJ
 ":cns4-16-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3594,6 +3736,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㑳"
+":MJ000083"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9bdf"
 unihan:kIRG_HSource
 ":cns4-22-24"
@@ -3617,6 +3761,8 @@ unihan:kMorohashi
 "㑇"
 unihan:kSimplifiedVariant
 -"㑴"
+":MJ000084"
+unihan:kIRG_JSource:MJ
 ":cns3-25-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3635,6 +3781,8 @@ unihan:kMorohashi
 "侵"
 kVariants:sem
 -"㑵"
+":MJ000085"
+unihan:kIRG_JSource:MJ
 ":cns4-22-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3651,6 +3799,8 @@ unihan:kKangXi
 ":m949"
 unihan:kMorohashi
 -"㑶"
+":MJ000086"
+unihan:kIRG_JSource:MJ
 ":cns4-22-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3669,6 +3819,8 @@ unihan:kMorohashi
 "㐹"
 unihan:kSimplifiedVariant
 -"㑷"
+":MJ000087"
+unihan:kIRG_JSource:MJ
 ":cns6-38-53"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3748,6 +3900,8 @@ unihan:kKangXi:virtual
 kVariants:=
 unihan:kTraditionalVariant
 -"㑻"
+":MJ000090"
+unihan:kIRG_JSource:MJ
 ":cns3-32-21"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3762,6 +3916,8 @@ unihan:kKangXi
 ":m1009"
 unihan:kMorohashi
 -"㑼"
+":MJ000091"
+unihan:kIRG_JSource:MJ
 ":cns3-32-24"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3773,6 +3929,8 @@ unihan:kKangXi
 ":m1017"
 unihan:kMorohashi
 -"㑽"
+":MJ000092"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89da"
 unihan:kIRG_HSource
 ":cns3-32-27"
@@ -3787,6 +3945,8 @@ unihan:kKangXi
 ":m1023"
 unihan:kMorohashi
 -"㑾"
+":MJ000093"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8f59"
 unihan:kIRG_HSource
 ":cns4-28-12"
@@ -3808,6 +3968,8 @@ unihan:kKangXi
 ":m1025"
 unihan:kMorohashi
 -"㑿"
+":MJ000094"
+unihan:kIRG_JSource:MJ
 ":cns4-28-13"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3824,6 +3986,8 @@ unihan:kKangXi
 ":m1041"
 unihan:kMorohashi
 -"㒀"
+":MJ000095"
+unihan:kIRG_JSource:MJ
 ":cns4-28-8"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3843,6 +4007,8 @@ unihan:kKangXi
 ":m1043"
 unihan:kMorohashi
 -"㒁"
+":MJ000096"
+unihan:kIRG_JSource:MJ
 ":cns4-28-10"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3862,6 +4028,8 @@ unihan:kKangXi
 ":m1050"
 unihan:kMorohashi
 -"㒂"
+":MJ000097"
+unihan:kIRG_JSource:MJ
 ":cns5-36-55"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3874,6 +4042,8 @@ unihan:kKangXi
 ":m1174"
 unihan:kMorohashi
 -"㒃"
+":MJ000098"
+unihan:kIRG_JSource:MJ
 ":cns4-34-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3888,6 +4058,8 @@ unihan:kKangXi
 ":m1085"
 unihan:kMorohashi
 -"㒄"
+":MJ000099"
+unihan:kIRG_JSource:MJ
 ":cns4-34-19"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3904,6 +4076,8 @@ unihan:kKangXi
 ":m1099"
 unihan:kMorohashi
 -"㒅"
+":MJ000100"
+unihan:kIRG_JSource:MJ
 ":cns4-34-14"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3923,6 +4097,8 @@ unihan:kKangXi
 ":m1109"
 unihan:kMorohashi
 -"㒆"
+":MJ000101"
+unihan:kIRG_JSource:MJ
 ":cns3-37-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3936,6 +4112,8 @@ unihan:kKangXi
 ":m1114"
 unihan:kMorohashi
 -"㒇"
+":MJ000102"
+unihan:kIRG_JSource:MJ
 ":cns6-58-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3952,6 +4130,8 @@ unihan:kMorohashi
 "儛"
 unihan:kSemanticVariant
 -"㒈"
+":MJ000103"
+unihan:kIRG_JSource:MJ
 ":cns4-34-15"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3970,6 +4150,8 @@ ivd:Adobe-Japan1
 "㒈"
 ivd:base
 -"㒉"
+":MJ000104"
+unihan:kIRG_JSource:MJ
 ":cns3-37-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -3981,6 +4163,8 @@ unihan:kKangXi
 ":m1125"
 unihan:kMorohashi
 -"㒊"
+":MJ000105"
+unihan:kIRG_JSource:MJ
 ":cns4-47-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4013,6 +4197,8 @@ unihan:kMorohashi
 "㒊"
 ivd:base
 -"㒋"
+":MJ000107"
+unihan:kIRG_JSource:MJ
 ":cns3-37-82"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4028,6 +4214,8 @@ unihan:kSemanticVariant
 "廝"
 unihan:kSemanticVariant
 -"㒌"
+":MJ000108"
+unihan:kIRG_JSource:MJ
 ":cns3-37-79"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4041,6 +4229,8 @@ unihan:kMorohashi
 "𠎽"
 kVariants:=
 -"㒍"
+":MJ000109"
+unihan:kIRG_JSource:MJ
 ":cns3-37-87"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4057,6 +4247,8 @@ unihan:kKangXi:virtual
 ":m1153"
 unihan:kMorohashi
 -"㒎"
+":MJ000110"
+unihan:kIRG_JSource:MJ
 ":cns4-34-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4086,6 +4278,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㒑"
+":MJ000111"
+unihan:kIRG_JSource:MJ
 ":cns4-40-91"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4108,6 +4302,8 @@ unihan:kIRG_TSource
 ":gb4-17-69"
 unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
+":jis2-1-94"
+unihan:kIRG_JSource:4
 ":kps1-36bc"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -4123,6 +4319,8 @@ ivd:Adobe-Japan1
 "㒒"
 ivd:base
 -"㒓"
+":MJ000113"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89db"
 unihan:kIRG_HSource
 ":cns3-43-5"
@@ -4146,6 +4344,8 @@ unihan:kMorohashi
 "𠉂"
 unihan:kSimplifiedVariant
 -"㒔"
+":MJ000114"
+unihan:kIRG_JSource:MJ
 ":cns4-40-93"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4165,6 +4365,8 @@ unihan:kKangXi
 ":m1185"
 unihan:kMorohashi
 -"㒕"
+":MJ000115"
+unihan:kIRG_JSource:MJ
 ":cns3-43-4"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4179,6 +4381,8 @@ unihan:kKangXi
 ":m1191"
 unihan:kMorohashi
 -"㒖"
+":MJ000116"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8f5d"
 unihan:kIRG_HSource
 ":cns3-43-8"
@@ -4191,6 +4395,8 @@ unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 ":m1207"
 unihan:kMorohashi
+"𮯵"
+unihan:kSimplifiedVariant
 -"㒖󠄀"
 ":KS013950"
 ivd:Hanyo-Denshi
@@ -4220,6 +4426,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㒙"
+":MJ000117"
+unihan:kIRG_JSource:MJ
 ":cns3-48-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4237,6 +4445,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㒚"
+":MJ000118"
+unihan:kIRG_JSource:MJ
 ":cns4-47-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4257,6 +4467,8 @@ unihan:kSpecializedSemanticVariant
 "穩"
 unihan:kSemanticVariant
 -"㒛"
+":MJ000119"
+unihan:kIRG_JSource:MJ
 ":cns5-51-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4274,6 +4486,8 @@ unihan:kKangXi
 ":m1225"
 unihan:kMorohashi
 -"㒜"
+":MJ000120"
+unihan:kIRG_JSource:MJ
 ":cns4-47-59"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4295,6 +4509,8 @@ unihan:kMorohashi
 "𠇐"
 unihan:kSimplifiedVariant
 -"㒝"
+":MJ000121"
+unihan:kIRG_JSource:MJ
 ":cns3-52-31"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4311,6 +4527,8 @@ unihan:kKangXi
 ":m1248"
 unihan:kMorohashi
 -"㒞"
+":MJ000122"
+unihan:kIRG_JSource:MJ
 ":cns3-55-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4328,6 +4546,8 @@ unihan:kSemanticVariant
 "㒞"
 unicode:svs:base
 -"㒟"
+":MJ000123"
+unihan:kIRG_JSource:MJ
 ":cns4-58-71"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4347,6 +4567,8 @@ unihan:kKangXi
 ":m1271"
 unihan:kMorohashi
 -"㒠"
+":MJ000124"
+unihan:kIRG_JSource:MJ
 ":cns4-58-72"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4363,6 +4585,8 @@ unihan:kKangXi
 ":m1278"
 unihan:kMorohashi
 -"㒡"
+":MJ000125"
+unihan:kIRG_JSource:MJ
 ":cns4-63-41"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4394,6 +4618,8 @@ unihan:kKangXi:virtual
 "𬾖"
 unihan:kSimplifiedVariant
 -"㒤"
+":MJ000126"
+unihan:kIRG_JSource:MJ
 ":cns4-67-15"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4413,6 +4639,8 @@ unihan:kKangXi
 ":m1303"
 unihan:kMorohashi
 -"㒥"
+":MJ000127"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89dc"
 unihan:kIRG_HSource
 ":cns3-60-19"
@@ -4426,6 +4654,8 @@ unihan:kKangXi
 ":m1305"
 unihan:kMorohashi
 -"㒦"
+":MJ000128"
+unihan:kIRG_JSource:MJ
 ":cns3-60-17"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4442,6 +4672,8 @@ unihan:kKangXi
 ":m1306"
 unihan:kMorohashi
 -"㒧"
+":MJ000129"
+unihan:kIRG_JSource:MJ
 ":cns7-50-84"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4474,6 +4706,8 @@ ivd:Moji_Joho
 "㒧"
 ivd:base
 -"㒨"
+":MJ000131"
+unihan:kIRG_JSource:MJ
 ":cns7-55-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4491,6 +4725,8 @@ unihan:kMorohashi
 kVariants:wrong!
 unihan:kSpoofingVariant
 -"㒩"
+":MJ000132"
+unihan:kIRG_JSource:MJ
 ":cns4-74-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4510,6 +4746,8 @@ unihan:kKangXi
 ":m1330"
 unihan:kMorohashi
 -"㒪"
+":MJ000133"
+unihan:kIRG_JSource:MJ
 ":cns3-65-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4548,6 +4786,8 @@ unihan:kKangXi:virtual
 "尪"
 kVariants:wrong!
 -"㒭"
+":MJ000135"
+unihan:kIRG_JSource:MJ
 ":cns4-11-73"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4568,6 +4808,8 @@ unihan:kKangXi:virtual
 "豗"
 kVariants:wrong!
 -"㒯"
+":MJ000136"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-96f7"
 unihan:kIRG_HSource
 ":cns3-55-52"
@@ -4583,6 +4825,8 @@ unihan:kKangXi:virtual
 ":m48929"
 unihan:kMorohashi
 -"㒰"
+":MJ000137"
+unihan:kIRG_JSource:MJ
 ":cns3-1-86"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4604,6 +4848,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㒲"
+":MJ000138"
+unihan:kIRG_JSource:MJ
 ":cns3-2-89"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4620,6 +4866,8 @@ unihan:kMorohashi
 "財"
 unihan:kSemanticVariant
 -"㒳"
+":MJ000139"
+unihan:kIRG_JSource:MJ
 ":cns3-4-53"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4654,6 +4902,8 @@ unicode:j:glyph
 ":cns6-5-91"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis1-14-51"
+unihan:kIRG_JSource:A3
 ":jis10-1-32"
 unihan3.0:kIRG_JSource
 ":kx127-16"
@@ -4700,6 +4950,8 @@ unihan:kIRG_VSource:2
 unihan:kSemanticVariant
 unihan:kSpecializedSemanticVariant
 -"㒸"
+":MJ000144"
+unihan:kIRG_JSource:MJ
 ":cns3-11-24"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4727,6 +4979,8 @@ ivd:Moji_Joho
 "㒸"
 ivd:base
 -"㒹"
+":MJ000145"
+unihan:kIRG_JSource:MJ
 ":cns7-45-29"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4765,6 +5019,8 @@ unihan:kMorohashi
 "㒹"
 ivd:base
 -"㒺"
+":MJ000147"
+unihan:kIRG_JSource:MJ
 ":cns3-10-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4775,6 +5031,8 @@ unihan:kKangXi:virtual
 "罔"
 kVariants:=
 -"㒻"
+":MJ000148"
+unihan:kIRG_JSource:MJ
 ":cns4-16-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4810,6 +5068,8 @@ unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
 ":jis10-1-33"
 unihan3.0:kIRG_JSource
+":jis2-3-11"
+unihan:kIRG_JSource:A4
 ":ks3-1-76"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -4842,6 +5102,8 @@ ivd:Moji_Joho
 "㒼"
 ivd:base
 -"㒽"
+":MJ000151"
+unihan:kIRG_JSource:MJ
 ":cns4-22-29"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4865,6 +5127,8 @@ ivd:Hanyo-Denshi
 "㒽"
 ivd:base
 -"㒾"
+":MJ000152"
+unihan:kIRG_JSource:MJ
 ":cns4-28-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4878,6 +5142,8 @@ unihan:kKangXi
 ":m1553"
 unihan:kMorohashi
 -"㒿"
+":MJ000153"
+unihan:kIRG_JSource:MJ
 ":cns4-74-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4908,6 +5174,8 @@ unihan:kKangXi:virtual
 unihan:kIRG_HSource
 ":jis10-1-34"
 unihan3.0:kIRG_JSource
+":jis2-84-72"
+unihan:kIRG_JSource:A4
 ":ks6-1003"
 unihan:kIRG_KSource
 ":kx130-15-1"
@@ -4922,6 +5190,8 @@ ivd:Adobe-Japan1
 "㓁"
 ivd:base
 -"㓂"
+":MJ000155"
+unihan:kIRG_JSource:MJ
 ":cns3-11-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4968,6 +5238,8 @@ ivd:Moji_Joho
 "㓃"
 ivd:base
 -"㓄"
+":MJ000158"
+unihan:kIRG_JSource:MJ
 ":cns4-41-2"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -4983,6 +5255,8 @@ unihan:kMorohashi
 "𪠟"
 unihan:kSimplifiedVariant
 -"㓅"
+":MJ000159"
+unihan:kIRG_JSource:MJ
 ":cns3-1-48"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5006,6 +5280,8 @@ kVariants:simp
 ":cns3-3-1"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis2-3-15"
+unihan:kIRG_JSource:4
 ":kx131-29-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -5026,6 +5302,8 @@ ivd:Hanyo-Denshi
 "㓇"
 ivd:base
 -"㓈"
+":MJ000162"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-97db"
 unihan:kIRG_HSource
 ":cns3-4-56"
@@ -5039,6 +5317,8 @@ unihan:kKangXi
 ":m1625"
 unihan:kMorohashi
 -"㓉"
+":MJ000163"
+unihan:kIRG_JSource:MJ
 ":cns5-5-14"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5053,6 +5333,8 @@ unihan:kKangXi
 ":m1630"
 unihan:kMorohashi
 -"㓊"
+":MJ000164"
+unihan:kIRG_JSource:MJ
 ":cns3-7-55"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5064,6 +5346,8 @@ unihan:kKangXi
 ":m1631"
 unihan:kMorohashi
 -"㓋"
+":MJ000165"
+unihan:kIRG_JSource:MJ
 ":cns3-7-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5075,6 +5359,8 @@ unihan:kKangXi
 ":m1635"
 unihan:kMorohashi
 -"㓌"
+":MJ000166"
+unihan:kIRG_JSource:MJ
 ":cns3-7-56"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5104,6 +5390,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㓎"
+":MJ000167"
+unihan:kIRG_JSource:MJ
 ":cns4-8-35"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5117,6 +5405,8 @@ unihan:kKangXi
 ":m1644"
 unihan:kMorohashi
 -"㓏"
+":MJ000168"
+unihan:kIRG_JSource:MJ
 ":cns3-11-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5131,6 +5421,8 @@ unihan:kKangXi
 ":m1651"
 unihan:kMorohashi
 -"㓐"
+":MJ000169"
+unihan:kIRG_JSource:MJ
 ":cns3-15-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5142,6 +5434,8 @@ unihan:kKangXi
 ":m1658"
 unihan:kMorohashi
 -"㓑"
+":MJ000170"
+unihan:kIRG_JSource:MJ
 ":cns3-15-60"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5169,6 +5463,8 @@ unihan:kKangXi:virtual
 "漆"
 kVariants:sem
 -"㓓"
+":MJ000171"
+unihan:kIRG_JSource:MJ
 ":cns4-16-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5182,6 +5478,8 @@ unihan:kMorohashi
 "湳"
 unihan:kSpoofingVariant
 -"㓔"
+":MJ000172"
+unihan:kIRG_JSource:MJ
 ":cns3-25-91"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5193,6 +5491,8 @@ unihan:kKangXi
 ":m1686"
 unihan:kMorohashi
 -"㓕"
+":MJ000173"
+unihan:kIRG_JSource:MJ
 ":cns3-25-92"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5203,6 +5503,8 @@ unihan:kKangXi:virtual
 "滅"
 unihan:kSpoofingVariant
 -"㓖"
+":MJ000174"
+unihan:kIRG_JSource:MJ
 ":cns4-28-20"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5255,19 +5557,24 @@ unihan:kMorohashi
 "㓗"
 ivd:base
 -"㓘"
+":MJ000177"
+unihan:kIRG_JSource:MJ
 ":cns5-17-9"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
 ":gb2-18-51"
 unihan3.0:kIRG_GSource:3
 unihan:kIRG_GSource:3
+":kx134-29"
+unihan:kKangXi
 ":kx134-30-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
-unihan:kKangXi:virtual
 ":m1786"
 unihan:kMorohashi
 -"㓙"
+":MJ000178"
+unihan:kIRG_JSource:MJ
 ":ks3-1-84"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -5278,6 +5585,8 @@ unihan:kKangXi:virtual
 ":m1822"
 unihan:kMorohashi
 -"㓚"
+":MJ000179"
+unihan:kIRG_JSource:MJ
 ":cns4-1-65"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5299,6 +5608,8 @@ unicode:j:glyph
 ":cns6-2-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis1-14-59"
+unihan:kIRG_JSource:A3
 ":jis10-1-37"
 unihan3.0:kIRG_JSource
 ":kx137-2-1"
@@ -5340,6 +5651,8 @@ unihan:kKangXi
 ":m1887"
 unihan:kMorohashi
 -"㓞"
+":MJ000185"
+unihan:kIRG_JSource:MJ
 ":cns5-2-16"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5379,6 +5692,8 @@ ivd:Moji_Joho
 "㓞"
 ivd:base
 -"㓟"
+":MJ000186"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9e53"
 unihan:kIRG_HSource
 ":cns4-3-30"
@@ -5403,6 +5718,8 @@ unihan:kSpecializedSemanticVariant
 "㓟"
 unicode:svs:base
 -"㓠"
+":MJ000187"
+unihan:kIRG_JSource:MJ
 ":cns4-3-31"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5423,6 +5740,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㓡"
+":MJ000188"
+unihan:kIRG_JSource:MJ
 ":cns4-5-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5436,6 +5755,8 @@ unihan:kKangXi
 ":m1952"
 unihan:kMorohashi
 -"㓢"
+":MJ000189"
+unihan:kIRG_JSource:MJ
 ":cns4-5-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5452,6 +5773,8 @@ unihan:kKangXi
 ":m1959"
 unihan:kMorohashi
 -"㓣"
+":MJ000190"
+unihan:kIRG_JSource:MJ
 ":cns4-5-40"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5465,6 +5788,8 @@ unihan:kKangXi
 ":m1963"
 unihan:kMorohashi
 -"㓤"
+":MJ000191"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9daa"
 unihan:kIRG_HSource
 ":cns4-5-39"
@@ -5503,6 +5828,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㓧"
+":MJ000192"
+unihan:kIRG_JSource:MJ
 ":cns3-11-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5514,6 +5841,8 @@ unihan:kKangXi
 ":m2015"
 unihan:kMorohashi
 -"㓨"
+":MJ000193"
+unihan:kIRG_JSource:MJ
 ":cns3-11-37"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5532,6 +5861,8 @@ unihan:kMorohashi
 "刾"
 unihan:kSimplifiedVariant
 -"㓩"
+":MJ000194"
+unihan:kIRG_JSource:MJ
 ":cns3-11-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5576,6 +5907,8 @@ unihan:kKangXi
 ":m2043"
 unihan:kMorohashi
 -"㓭"
+":MJ000197"
+unihan:kIRG_JSource:MJ
 ":cns4-16-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5591,6 +5924,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㓮"
+":MJ000198"
+unihan:kIRG_JSource:MJ
 ":cns3-15-71"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5616,6 +5951,8 @@ ivd:Hanyo-Denshi
 "㓮"
 ivd:base
 -"㓯"
+":MJ000200"
+unihan:kIRG_JSource:MJ
 ":cns3-15-73"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5637,6 +5974,8 @@ unihan:kKangXi:virtual
 "劃"
 kVariants:simp
 -"㓱"
+":MJ000201"
+unihan:kIRG_JSource:MJ
 ":cns4-16-55"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5678,6 +6017,8 @@ ivd:Hanyo-Denshi
 "㓲"
 ivd:base
 -"㓳"
+":MJ000204"
+unihan:kIRG_JSource:MJ
 ":cns4-16-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5691,6 +6032,8 @@ unihan:kKangXi
 ":m2085"
 unihan:kMorohashi
 -"㓴"
+":MJ000205"
+unihan:kIRG_JSource:MJ
 ":cns5-17-12"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5704,6 +6047,8 @@ unihan:kKangXi
 ":m2087"
 unihan:kMorohashi
 -"㓵"
+":MJ000206"
+unihan:kIRG_JSource:MJ
 ":cns4-16-52"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5736,6 +6081,8 @@ ivd:Moji_Joho
 "㓵"
 ivd:base
 -"㓶"
+":MJ000208"
+unihan:kIRG_JSource:MJ
 ":cns4-16-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5772,6 +6119,8 @@ ivd:Moji_Joho
 "㓶"
 ivd:base
 -"㓷"
+":MJ000210"
+unihan:kIRG_JSource:MJ
 ":cns3-26-4"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5787,6 +6136,8 @@ unihan:kMorohashi
 "劓"
 unihan:kSemanticVariant
 -"㓸"
+":MJ000211"
+unihan:kIRG_JSource:MJ
 ":cns6-48-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5803,6 +6154,8 @@ unihan:kMorohashi
 "斲"
 unihan:kSemanticVariant
 -"㓹"
+":MJ000212"
+unihan:kIRG_JSource:MJ
 ":cns4-22-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5816,6 +6169,8 @@ unihan:kKangXi
 ":m2116"
 unihan:kMorohashi
 -"㓺"
+":MJ000213"
+unihan:kIRG_JSource:MJ
 ":cns4-22-37"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5832,6 +6187,8 @@ unihan:kKangXi
 ":m2118"
 unihan:kMorohashi
 -"㓻"
+":MJ000214"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9bea"
 unihan:kIRG_HSource
 ":cns3-26-2"
@@ -5855,6 +6212,8 @@ unihan:kMorohashi
 "剛"
 kVariants:sem
 -"㓼"
+":MJ000215"
+unihan:kIRG_JSource:MJ
 ":cns5-29-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5871,6 +6230,8 @@ unihan:kKangXi
 ":m2144"
 unihan:kMorohashi
 -"㓽"
+":MJ000216"
+unihan:kIRG_JSource:MJ
 ":cns3-32-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5884,6 +6245,8 @@ unihan:kKangXi
 ":m2150"
 unihan:kMorohashi
 -"㓾"
+":MJ000217"
+unihan:kIRG_JSource:MJ
 ":cns4-34-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5905,6 +6268,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㔀"
+":MJ000218"
+unihan:kIRG_JSource:MJ
 ":cns4-34-35"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5934,6 +6299,8 @@ unihan:kKangXi
 ":m2175"
 unihan:kMorohashi
 -"㔂"
+":MJ000220"
+unihan:kIRG_JSource:MJ
 ":cns4-34-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5947,6 +6314,8 @@ unihan:kKangXi
 ":m2176"
 unihan:kMorohashi
 -"㔃"
+":MJ000221"
+unihan:kIRG_JSource:MJ
 ":cns3-37-93"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5962,6 +6331,8 @@ unihan:kMorohashi
 "𫦌"
 unihan:kSimplifiedVariant
 -"㔄"
+":MJ000222"
+unihan:kIRG_JSource:MJ
 ":cns3-37-91"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5976,6 +6347,8 @@ unihan:kKangXi
 ":m2178"
 unihan:kMorohashi
 -"㔅"
+":MJ000223"
+unihan:kIRG_JSource:MJ
 ":cns4-34-31"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -5991,6 +6364,8 @@ unihan:kMorohashi
 "𫦅"
 unihan:kSimplifiedVariant
 -"㔆"
+":MJ000224"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8a6e"
 unihan:kIRG_HSource
 ":cns4-34-30"
@@ -6009,6 +6384,8 @@ unihan:kKangXi
 ":m2185"
 unihan:kMorohashi
 -"㔇"
+":MJ000225"
+unihan:kIRG_JSource:MJ
 ":cns3-37-92"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6039,6 +6416,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㔊"
+":MJ000226"
+unihan:kIRG_JSource:MJ
 ":cns4-41-3"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6052,6 +6431,8 @@ unihan:kKangXi
 ":m2221"
 unihan:kMorohashi
 -"㔋"
+":MJ000227"
+unihan:kIRG_JSource:MJ
 ":cns4-47-66"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6070,6 +6451,8 @@ unihan:kMorohashi
 "𪟎"
 unihan:kSimplifiedVariant
 -"㔌"
+":MJ000228"
+unihan:kIRG_JSource:MJ
 ":cns4-47-65"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6086,6 +6469,8 @@ unihan:kKangXi
 ":m2238"
 unihan:kMorohashi
 -"㔍"
+":MJ000229"
+unihan:kIRG_JSource:MJ
 ":cns4-47-67"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6101,6 +6486,8 @@ unihan:kMorohashi
 "䥷"
 unihan:kSemanticVariant
 -"㔎"
+":MJ000230"
+unihan:kIRG_JSource:MJ
 ":cns5-65-27"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6115,6 +6502,8 @@ unihan:kKangXi
 ":m2265"
 unihan:kMorohashi
 -"㔏"
+":MJ000231"
+unihan:kIRG_JSource:MJ
 ":cns4-53-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6145,6 +6534,8 @@ unihan:kKangXi
 "𠠃"
 kVariants:sem
 -"㔑"
+":MJ000232"
+unihan:kIRG_JSource:MJ
 ":cns4-63-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6158,6 +6549,8 @@ unihan:kKangXi
 ":m2270"
 unihan:kMorohashi
 -"㔒"
+":MJ000233"
+unihan:kIRG_JSource:MJ
 ":cns4-67-16"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6189,6 +6582,8 @@ unihan:kKangXi
 ":m2298"
 unihan:kMorohashi
 -"㔔"
+":MJ067980"
+unihan:kIRG_JSource:MJ
 ":ks3-2-12"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -6224,6 +6619,8 @@ ivd:Hanyo-Denshi
 "㔕"
 ivd:base
 -"㔖"
+":MJ067981"
+unihan:kIRG_JSource:MJ
 ":ks3-2-11"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -6247,6 +6644,8 @@ unihan:kKangXi
 ":m2311"
 unihan:kMorohashi
 -"㔘"
+":MJ000238"
+unihan:kIRG_JSource:MJ
 ":cns3-4-68"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6257,6 +6656,8 @@ unihan:kKangXi:virtual
 ":m48942"
 unihan:kMorohashi
 -"㔙"
+":MJ000239"
+unihan:kIRG_JSource:MJ
 ":cns4-5-47"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6322,6 +6723,8 @@ unihan:kMorohashi
 "㔜"
 ivd:base
 -"㔝"
+":MJ000243"
+unihan:kIRG_JSource:MJ
 ":cns4-11-85"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6340,6 +6743,8 @@ unihan:kMorohashi
 "𫦩"
 unihan:kSimplifiedVariant
 -"㔞"
+":MJ000244"
+unihan:kIRG_JSource:MJ
 ":cns3-15-75"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6357,6 +6762,8 @@ unihan:kMorohashi
 unicode:j:glyph
 ":jis10-1-48"
 unihan3.0:kIRG_JSource
+":jis2-3-40"
+unihan:kIRG_JSource:A4
 ":kx147-38-1"
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
@@ -6384,6 +6791,8 @@ ivd:Moji_Joho
 "㔟"
 ivd:base
 -"㔠"
+":MJ000246"
+unihan:kIRG_JSource:MJ
 ":cns4-16-58"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6415,6 +6824,8 @@ ivd:Hanyo-Denshi
 "㔠"
 ivd:base
 -"㔡"
+":MJ000249"
+unihan:kIRG_JSource:MJ
 ":cns4-22-43"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6441,6 +6852,8 @@ unihan:kKangXi
 "𫦳"
 unihan:kSimplifiedVariant
 -"㔣"
+":MJ000250"
+unihan:kIRG_JSource:MJ
 ":cns4-53-79"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6454,6 +6867,8 @@ unihan:kKangXi
 ":m2468"
 unihan:kMorohashi
 -"㔤"
+":MJ000251"
+unihan:kIRG_JSource:MJ
 ":cns3-52-35"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6465,6 +6880,8 @@ unihan:kKangXi
 ":m2470"
 unihan:kMorohashi
 -"㔥"
+":MJ000252"
+unihan:kIRG_JSource:MJ
 ":cns4-53-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6509,6 +6926,8 @@ ivd:Hanyo-Denshi
 "㔦"
 ivd:base
 -"㔧"
+":MJ000255"
+unihan:kIRG_JSource:MJ
 ":cns4-58-78"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6528,6 +6947,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㔨"
+":MJ000256"
+unihan:kIRG_JSource:MJ
 ":cns4-16-60"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6541,6 +6962,8 @@ unihan:kKangXi
 ":m2546"
 unihan:kMorohashi
 -"㔩"
+":MJ000257"
+unihan:kIRG_JSource:MJ
 ":cns4-22-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6560,6 +6983,8 @@ unihan:kKangXi
 ":m2550"
 unihan:kMorohashi
 -"㔪"
+":MJ000258"
+unihan:kIRG_JSource:MJ
 ":cns5-29-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6597,6 +7022,8 @@ unihan:kKangXi
 ":m2580"
 unihan:kMorohashi
 -"㔭"
+":MJ000261"
+unihan:kIRG_JSource:MJ
 ":cns3-20-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6608,6 +7035,8 @@ unihan:kKangXi
 ":m2591"
 unihan:kMorohashi
 -"㔮"
+":MJ000262"
+unihan:kIRG_JSource:MJ
 ":cns5-80-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6621,6 +7050,8 @@ unihan:kKangXi
 ":m30037"
 unihan:kMorohashi
 -"㔯"
+":MJ000263"
+unihan:kIRG_JSource:MJ
 ":cns4-3-43"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6762,6 +7193,8 @@ unihan:kKangXi
 ":m2649"
 unihan:kMorohashi
 -"㔶"
+":MJ000272"
+unihan:kIRG_JSource:MJ
 ":cns4-77-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6778,6 +7211,8 @@ unihan:kKangXi
 ":m2670"
 unihan:kMorohashi
 -"㔷"
+":MJ000273"
+unihan:kIRG_JSource:MJ
 ":cns6-6-22"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6791,6 +7226,8 @@ unihan:kKangXi
 ":m2678"
 unihan:kMorohashi
 -"㔸"
+":MJ000274"
+unihan:kIRG_JSource:MJ
 ":cns4-22-48"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6807,6 +7244,8 @@ unihan:kKangXi
 ":m2692"
 unihan:kMorohashi
 -"㔹"
+":MJ000275"
+unihan:kIRG_JSource:MJ
 ":cns3-1-56"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6854,6 +7293,8 @@ unihan:kMorohashi
 "㔺"
 ivd:base
 -"㔻"
+":MJ000279"
+unihan:kIRG_JSource:MJ
 ":cns3-3-12"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6880,6 +7321,8 @@ unihan:kKangXi
 ":m2762"
 unihan:kMorohashi
 -"㔽"
+":MJ000281"
+unihan:kIRG_JSource:MJ
 ":cns3-7-68"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6929,6 +7372,8 @@ ivd:Hanyo-Denshi
 "㔾"
 ivd:base
 -"㔿"
+":MJ000284"
+unihan:kIRG_JSource:MJ
 ":cns6-1-27"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6957,6 +7402,8 @@ unihan:kKangXi:virtual
 "㽕"
 kVariants:sem
 -"㕁"
+":MJ000285"
+unihan:kIRG_JSource:MJ
 ":cns4-5-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6973,6 +7420,8 @@ unihan:kMorohashi
 "卻"
 kVariants:sem
 -"㕂"
+":MJ000286"
+unihan:kIRG_JSource:MJ
 ":cns3-3-16"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -6999,6 +7448,8 @@ unihan:kKangXi
 ":m2905"
 unihan:kMorohashi
 -"㕄"
+":MJ000288"
+unihan:kIRG_JSource:MJ
 ":cns3-3-14"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7010,6 +7461,8 @@ unihan:kKangXi
 ":m2913"
 unihan:kMorohashi
 -"㕅"
+":MJ000289"
+unihan:kIRG_JSource:MJ
 ":cns3-4-74"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7021,6 +7474,8 @@ unihan:kKangXi
 ":m2917"
 unihan:kMorohashi
 -"㕆"
+":MJ000290"
+unihan:kIRG_JSource:MJ
 ":cns3-4-73"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7034,6 +7489,8 @@ unihan:kKangXi
 ":m2920"
 unihan:kMorohashi
 -"㕇"
+":MJ000291"
+unihan:kIRG_JSource:MJ
 ":cns3-4-72"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7050,6 +7507,8 @@ unihan:kKangXi
 ":m2921"
 unihan:kMorohashi
 -"㕈"
+":MJ000292"
+unihan:kIRG_JSource:MJ
 ":cns3-7-72"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7063,6 +7522,8 @@ unihan:kKangXi
 ":m2931"
 unihan:kMorohashi
 -"㕉"
+":MJ000293"
+unihan:kIRG_JSource:MJ
 ":cns6-10-10"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7076,6 +7537,8 @@ unihan:kKangXi
 ":m2936"
 unihan:kMorohashi
 -"㕊"
+":MJ000294"
+unihan:kIRG_JSource:MJ
 ":cns3-11-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7089,6 +7552,8 @@ unihan:kKangXi
 ":m2947"
 unihan:kMorohashi
 -"㕋"
+":MJ000295"
+unihan:kIRG_JSource:MJ
 ":cns3-15-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7102,6 +7567,8 @@ unihan:kKangXi
 ":m2962"
 unihan:kMorohashi
 -"㕌"
+":MJ000296"
+unihan:kIRG_JSource:MJ
 ":cns4-11-90"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7118,6 +7585,8 @@ unihan:kKangXi
 ":m2965"
 unihan:kMorohashi
 -"㕍"
+":MJ000297"
+unihan:kIRG_JSource:MJ
 ":cns3-15-81"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7129,6 +7598,8 @@ unihan:kKangXi
 ":m2972"
 unihan:kMorohashi
 -"㕎"
+":MJ000298"
+unihan:kIRG_JSource:MJ
 ":cns4-22-49"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7156,6 +7627,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㕐"
+":MJ000299"
+unihan:kIRG_JSource:MJ
 ":cns5-44-17"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7170,6 +7643,8 @@ unihan:kKangXi
 ":m3024"
 unihan:kMorohashi
 -"㕑"
+":MJ000300"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89e8"
 unihan:kIRG_HSource
 ":cns3-38-4"
@@ -7191,6 +7666,8 @@ kVariants:sem
 "𢊍"
 unihan:kSemanticVariant
 -"㕒"
+":MJ000301"
+unihan:kIRG_JSource:MJ
 ":cns4-41-7"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7248,6 +7725,8 @@ unihan:kKangXi:virtual
 "廳"
 kVariants:=
 -"㕕"
+":MJ000304"
+unihan:kIRG_JSource:MJ
 ":cns3-1-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7259,6 +7738,8 @@ unihan:kKangXi
 ":m3063"
 unihan:kMorohashi
 -"㕖"
+":MJ000305"
+unihan:kIRG_JSource:MJ
 ":cns3-15-82"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7270,6 +7751,8 @@ unihan:kKangXi
 ":m3096"
 unihan:kMorohashi
 -"㕗"
+":MJ000306"
+unihan:kIRG_JSource:MJ
 ":cns6-29-65"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7294,6 +7777,8 @@ unihan:kKangXi:virtual
 "參"
 kVariants:sem
 -"㕙"
+":MJ000307"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8c4b"
 unihan:kIRG_HSource
 ":cns4-41-9"
@@ -7390,6 +7875,8 @@ ivd:base
 unicode:j:glyph
 ":jis10-1-65"
 unihan3.0:kIRG_JSource
+":jis2-3-61"
+unihan:kIRG_JSource:A4
 ":kx165-39-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -7412,6 +7899,8 @@ unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
 ":jis10-1-66"
 unihan3.0:kIRG_JSource
+":jis2-3-62"
+unihan:kIRG_JSource:A4
 ":kx166-2"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -7426,6 +7915,8 @@ ivd:Adobe-Japan1
 "㕞"
 ivd:base
 -"㕟"
+":MJ000315"
+unihan:kIRG_JSource:MJ
 ":cns4-8-55"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7442,6 +7933,8 @@ unihan:kKangXi
 ":m3162"
 unihan:kMorohashi
 -"㕠"
+":MJ000316"
+unihan:kIRG_JSource:MJ
 ":cns3-31-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7452,6 +7945,8 @@ unihan:kKangXi:virtual
 ":m41981"
 unihan:kMorohashi
 -"㕡"
+":MJ000317"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fb70"
 unihan:kIRG_HSource
 ":cns3-38-7"
@@ -7477,6 +7972,8 @@ ivd:Moji_Joho
 "㕡"
 ivd:base
 -"㕢"
+":MJ000319"
+unihan:kIRG_JSource:MJ
 ":cns4-39-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7505,6 +8002,8 @@ unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
 ":jis10-1-67"
 unihan3.0:kIRG_JSource
+":jis2-3-65"
+unihan:kIRG_JSource:A4
 ":kx172-9"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -7517,6 +8016,8 @@ ivd:Adobe-Japan1
 "㕣"
 ivd:base
 -"㕤"
+":MJ000321"
+unihan:kIRG_JSource:MJ
 ":cns3-2-16"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7530,6 +8031,8 @@ unihan:kKangXi
 ":m3253"
 unihan:kMorohashi
 -"㕥"
+":MJ000322"
+unihan:kIRG_JSource:MJ
 ":cns3-2-12"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7581,6 +8084,8 @@ unihan:kKangXi
 ":m3296"
 unihan:kMorohashi
 -"㕨"
+":MJ000325"
+unihan:kIRG_JSource:MJ
 ":gb2-21-48"
 unihan3.0:kIRG_GSource:3
 unihan:kIRG_GSource:3
@@ -7591,6 +8096,8 @@ unihan:kKangXi:virtual
 ":m3314"
 unihan:kMorohashi
 -"㕩"
+":MJ000326"
+unihan:kIRG_JSource:MJ
 ":cns3-4-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7604,6 +8111,8 @@ unihan:kKangXi
 ":m3325"
 unihan:kMorohashi
 -"㕪"
+":MJ000327"
+unihan:kIRG_JSource:MJ
 ":cns4-3-49"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7623,6 +8132,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:4
 unihan:kIRG_VSource:4
 -"㕫"
+":MJ000328"
+unihan:kIRG_JSource:MJ
 ":cns3-4-75"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7634,6 +8145,8 @@ unihan:kKangXi
 ":m3332"
 unihan:kMorohashi
 -"㕬"
+":MJ000329"
+unihan:kIRG_JSource:MJ
 ":cns3-4-81"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7647,6 +8160,8 @@ unihan:kKangXi
 ":m3346"
 unihan:kMorohashi
 -"㕭"
+":MJ000330"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89ed"
 unihan:kIRG_HSource
 ":cns4-3-52"
@@ -7678,6 +8193,8 @@ unihan:kIRG_TSource
 ":gb2-21-61"
 unihan3.0:kIRG_GSource:3
 unihan:kIRG_GSource:3
+":jis2-3-71"
+unihan:kIRG_JSource:4
 ":kps1-394e"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -7724,6 +8241,8 @@ ivd:Moji_Joho
 "㕯"
 ivd:base
 -"㕰"
+":MJ000334"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-94dd"
 unihan:kIRG_HSource
 ":cns4-3-51"
@@ -7743,6 +8262,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㕱"
+":MJ000335"
+unihan:kIRG_JSource:MJ
 ":cns3-4-79"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7757,6 +8278,8 @@ unihan:kKangXi
 ":m3390"
 unihan:kMorohashi
 -"㕲"
+":MJ000336"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89ee"
 unihan:kIRG_HSource
 ":cns3-4-78"
@@ -7772,6 +8295,8 @@ unihan:kKangXi
 ":m3397"
 unihan:kMorohashi
 -"㕳"
+":MJ000337"
+unihan:kIRG_JSource:MJ
 ":cns3-4-90"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7788,6 +8313,8 @@ unihan:kKangXi
 ":m3403"
 unihan:kMorohashi
 -"㕴"
+":MJ000338"
+unihan:kIRG_JSource:MJ
 ":gb28-3-49"
 unihan:kIRG_GSource:S
 ":kx181-19-1"
@@ -7813,6 +8340,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㕶"
+":MJ000340"
+unihan:kIRG_JSource:MJ
 ":cns3-5-5"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7839,6 +8368,8 @@ unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
 unihan:kKangXi
 -"㕸"
+":MJ000341"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8ad3"
 unihan:kIRG_HSource
 ":cns3-7-77"
@@ -7876,6 +8407,8 @@ unihan:kKangXi
 ":m3458"
 unihan:kMorohashi
 -"㕺"
+":MJ000343"
+unihan:kIRG_JSource:MJ
 ":cns3-7-86"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7887,6 +8420,8 @@ unihan:kKangXi
 ":m3467"
 unihan:kMorohashi
 -"㕻"
+":MJ000344"
+unihan:kIRG_JSource:MJ
 ":cns5-5-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7903,6 +8438,8 @@ unihan:kMorohashi
 "咅"
 kVariants:sem
 -"㕼"
+":MJ000345"
+unihan:kIRG_JSource:MJ
 ":cns6-10-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7932,6 +8469,8 @@ unihan:kKangXi:virtual
 ":m3519"
 unihan:kMorohashi
 -"㕾"
+":MJ067982"
+unihan:kIRG_JSource:MJ
 ":ks3-2-39"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -7948,6 +8487,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖀"
+":MJ000348"
+unihan:kIRG_JSource:MJ
 ":cns3-11-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7961,6 +8502,8 @@ unihan:kKangXi
 ":m3537"
 unihan:kMorohashi
 -"㖁"
+":MJ000349"
+unihan:kIRG_JSource:MJ
 ":cns3-11-64"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7979,6 +8522,8 @@ unihan:kMorohashi
 "𠳺"
 kVariants:sem
 -"㖂"
+":MJ000350"
+unihan:kIRG_JSource:MJ
 ":cns3-11-63"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -7992,6 +8537,8 @@ unihan:kKangXi
 ":m3547"
 unihan:kMorohashi
 -"㖃"
+":MJ000351"
+unihan:kIRG_JSource:MJ
 ":cns3-11-66"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8011,6 +8558,8 @@ unihan:kKangXi
 ":m3553"
 unihan:kMorohashi
 -"㖄"
+":MJ000352"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-92db"
 unihan:kIRG_HSource
 ":cns3-11-58"
@@ -8027,6 +8576,8 @@ unihan:kKangXi
 ":m3566"
 unihan:kMorohashi
 -"㖅"
+":MJ000353"
+unihan:kIRG_JSource:MJ
 ":cns4-8-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8043,6 +8594,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㖆"
+":MJ000354"
+unihan:kIRG_JSource:MJ
 ":cns4-8-60"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8056,6 +8609,8 @@ unihan:kKangXi
 ":m3586"
 unihan:kMorohashi
 -"㖇"
+":MJ000355"
+unihan:kIRG_JSource:MJ
 ":cns3-11-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8101,6 +8656,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㖋"
+":MJ067983"
+unihan:kIRG_JSource:MJ
 ":ks3-2-42"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8109,6 +8666,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖌"
+":MJ067984"
+unihan:kIRG_JSource:MJ
 ":ks3-2-43"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8117,6 +8676,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖍"
+":MJ067985"
+unihan:kIRG_JSource:MJ
 ":ks3-2-45"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8125,6 +8686,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖎"
+":MJ067986"
+unihan:kIRG_JSource:MJ
 ":ks3-2-46"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8133,6 +8696,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖏"
+":MJ000356"
+unihan:kIRG_JSource:MJ
 ":cns4-12-5"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8146,6 +8711,8 @@ unihan:kKangXi
 ":m3631"
 unihan:kMorohashi
 -"㖐"
+":MJ000357"
+unihan:kIRG_JSource:MJ
 ":cns3-15-93"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8157,6 +8724,8 @@ unihan:kKangXi
 ":m3639"
 unihan:kMorohashi
 -"㖑"
+":MJ000358"
+unihan:kIRG_JSource:MJ
 ":cns4-11-94"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8174,6 +8743,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㖒"
+":MJ000359"
+unihan:kIRG_JSource:MJ
 ":cns3-15-85"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8185,6 +8756,8 @@ unihan:kKangXi
 ":m3648"
 unihan:kMorohashi
 -"㖓"
+":MJ000360"
+unihan:kIRG_JSource:MJ
 ":cns3-15-92"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8196,6 +8769,8 @@ unihan:kKangXi
 ":m3677"
 unihan:kMorohashi
 -"㖔"
+":MJ000361"
+unihan:kIRG_JSource:MJ
 ":cns4-12-1"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8212,6 +8787,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㖕"
+":MJ000362"
+unihan:kIRG_JSource:MJ
 ":cns4-11-93"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8238,6 +8815,8 @@ unihan:kKangXi
 ":m3687"
 unihan:kMorohashi
 -"㖗"
+":MJ000364"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-94db"
 unihan:kIRG_HSource
 ":cns3-16-4"
@@ -8254,6 +8833,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㖘"
+":MJ000365"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89f9"
 unihan:kIRG_HSource
 ":cns5-12-35"
@@ -8268,6 +8849,8 @@ unihan:kKangXi:virtual
 ":m3728"
 unihan:kMorohashi
 -"㖙"
+":MJ067987"
+unihan:kIRG_JSource:MJ
 ":ks3-2-48"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8276,6 +8859,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖚"
+":MJ067988"
+unihan:kIRG_JSource:MJ
 ":ks3-2-49"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8284,6 +8869,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖛"
+":MJ067989"
+unihan:kIRG_JSource:MJ
 ":ks3-2-50"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8292,6 +8879,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖜"
+":MJ067990"
+unihan:kIRG_JSource:MJ
 ":ks3-2-51"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8300,6 +8889,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖝"
+":MJ067991"
+unihan:kIRG_JSource:MJ
 ":ks3-2-52"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8318,6 +8909,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㖟"
+":MJ000366"
+unihan:kIRG_JSource:MJ
 ":cns3-20-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8332,6 +8925,8 @@ unihan:kKangXi
 ":m3752"
 unihan:kMorohashi
 -"㖠"
+":MJ000367"
+unihan:kIRG_JSource:MJ
 ":cns3-20-69"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8349,6 +8944,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㖡"
+":MJ000368"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fb7a"
 unihan:kIRG_HSource
 ":cns4-16-74"
@@ -8383,6 +8980,8 @@ unihan:kKangXi
 ":m3776"
 unihan:kMorohashi
 -"㖣"
+":MJ000370"
+unihan:kIRG_JSource:MJ
 ":cns3-20-67"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8400,6 +8999,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㖤"
+":MJ000371"
+unihan:kIRG_JSource:MJ
 ":cns3-20-60"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8411,6 +9012,8 @@ unihan:kKangXi
 ":m3784"
 unihan:kMorohashi
 -"㖥"
+":MJ000372"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89fb"
 unihan:kIRG_HSource
 ":cns4-16-80"
@@ -8429,6 +9032,8 @@ unihan:kMorohashi
 ":cns3-20-58"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis2-4-3"
+unihan:kIRG_JSource:4
 ":kx194-26"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -8444,6 +9049,8 @@ ivd:Adobe-Japan1
 "㖦"
 ivd:base
 -"㖧"
+":MJ000374"
+unihan:kIRG_JSource:MJ
 ":cns4-16-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8473,6 +9080,8 @@ unihan:kIRG_TSource
 ":gb2-22-63"
 unihan3.0:kIRG_GSource:3
 unihan:kIRG_GSource:3
+":jis2-4-6"
+unihan:kIRG_JSource:4
 ":kx195-14"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -8485,6 +9094,8 @@ ivd:Adobe-Japan1
 "㖨"
 ivd:base
 -"㖩"
+":MJ000376"
+unihan:kIRG_JSource:MJ
 ":cns4-16-77"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8501,6 +9112,8 @@ unihan:kKangXi
 ":m3834"
 unihan:kMorohashi
 -"㖪"
+":MJ000377"
+unihan:kIRG_JSource:MJ
 ":cns4-16-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8562,6 +9175,8 @@ unihan:kKangXi:virtual
 "𪠵"
 unihan:kSimplifiedVariant
 -"㖯"
+":MJ067992"
+unihan:kIRG_JSource:MJ
 ":ks3-2-58"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8570,6 +9185,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖰"
+":MJ067993"
+unihan:kIRG_JSource:MJ
 ":ks3-2-59"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8586,6 +9203,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖲"
+":MJ067994"
+unihan:kIRG_JSource:MJ
 ":ks3-2-61"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8594,6 +9213,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㖳"
+":MJ067995"
+unihan:kIRG_JSource:MJ
 ":ks3-2-62"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -8650,6 +9271,8 @@ unihan:kMorohashi
 "㖶"
 ivd:base
 -"㖷"
+":MJ000382"
+unihan:kIRG_JSource:MJ
 ":cns3-26-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8663,6 +9286,8 @@ unihan:kKangXi
 ":m3888"
 unihan:kMorohashi
 -"㖸"
+":MJ000383"
+unihan:kIRG_JSource:MJ
 ":cns4-22-71"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8679,6 +9304,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㖹"
+":MJ000384"
+unihan:kIRG_JSource:MJ
 ":cns3-26-21"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8699,6 +9326,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㖺"
+":MJ000385"
+unihan:kIRG_JSource:MJ
 ":cns3-26-12"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8718,6 +9347,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㖻"
+":MJ000386"
+unihan:kIRG_JSource:MJ
 ":cns4-22-62"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8737,6 +9368,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㖼"
+":MJ000387"
+unihan:kIRG_JSource:MJ
 ":cns4-22-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8767,6 +9400,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㖾"
+":MJ000388"
+unihan:kIRG_JSource:MJ
 ":cns3-26-30"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8780,6 +9415,8 @@ unihan:kMorohashi
 "咢"
 kVariants:=
 -"㖿"
+":MJ000389"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89fc"
 unihan:kIRG_HSource
 ":cns3-26-13"
@@ -8795,6 +9432,8 @@ unihan:kKangXi
 ":m3929"
 unihan:kMorohashi
 -"㗀"
+":MJ000390"
+unihan:kIRG_JSource:MJ
 ":cns4-22-64"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8843,6 +9482,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㗂"
+":MJ000392"
+unihan:kIRG_JSource:MJ
 ":cns4-22-63"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8858,6 +9499,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㗃"
+":MJ000393"
+unihan:kIRG_JSource:MJ
 ":cns3-26-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8874,6 +9517,8 @@ unihan:kKangXi
 ":m3950"
 unihan:kMorohashi
 -"㗄"
+":MJ000394"
+unihan:kIRG_JSource:MJ
 ":cns6-39-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8894,6 +9539,8 @@ unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
 ":gb28-3-54"
 unihan:kIRG_GSource:S
+":jis2-4-15"
+unihan:kIRG_JSource:4
 ":kps1-3a39"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -8955,6 +9602,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㗉"
+":MJ000398"
+unihan:kIRG_JSource:MJ
 ":cns4-22-69"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -8971,6 +9620,8 @@ unihan:kKangXi
 ":m3983"
 unihan:kMorohashi
 -"㗊"
+":MJ000399"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9d46"
 unihan:kIRG_HSource
 ":cns4-22-67"
@@ -8986,6 +9637,8 @@ unihan:kKangXi
 ":m3989"
 unihan:kMorohashi
 -"㗋"
+":MJ000400"
+unihan:kIRG_JSource:MJ
 ":cns3-26-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9002,6 +9655,8 @@ unihan:kMorohashi
 "喉"
 kVariants:sem
 -"㗌"
+":MJ000401"
+unihan:kIRG_JSource:MJ
 ":cns5-22-78"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9016,6 +9671,8 @@ unihan:kKangXi
 ":m3931"
 unihan:kMorohashi
 -"㗍"
+":MJ000402"
+unihan:kIRG_JSource:MJ
 ":cns3-26-31"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9043,6 +9700,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㗐"
+":MJ000403"
+unihan:kIRG_JSource:MJ
 ":cns3-26-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9075,6 +9734,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㗓"
+":MJ000404"
+unihan:kIRG_JSource:MJ
 ":cns5-30-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9115,6 +9776,8 @@ ivd:Moji_Joho
 "㗔"
 ivd:base
 -"㗕"
+":MJ000407"
+unihan:kIRG_JSource:MJ
 ":cns4-28-38"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9175,6 +9838,8 @@ ivd:Moji_Joho
 "㗖"
 ivd:base
 -"㗗"
+":MJ000410"
+unihan:kIRG_JSource:MJ
 ":cns5-30-29"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9191,6 +9856,8 @@ unihan:kKangXi
 ":m4082"
 unihan:kMorohashi
 -"㗘"
+":MJ000411"
+unihan:kIRG_JSource:MJ
 ":cns4-28-39"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9207,6 +9874,8 @@ unihan:kKangXi
 ":m4085"
 unihan:kMorohashi
 -"㗙"
+":MJ000412"
+unihan:kIRG_JSource:MJ
 ":cns4-28-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9229,6 +9898,8 @@ unihan:kSimplifiedVariant
 ":cns3-32-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis2-4-24"
+unihan:kIRG_JSource:4
 ":kx203-20"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -9263,6 +9934,8 @@ unihan:kKangXi
 ":m4113"
 unihan:kMorohashi
 -"㗜"
+":MJ000415"
+unihan:kIRG_JSource:MJ
 ":cns6-49-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9293,6 +9966,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㗞"
+":MJ000416"
+unihan:kIRG_JSource:MJ
 ":gb28-3-42"
 unihan:kIRG_GSource:S
 ":kx204-11-1"
@@ -9308,6 +9983,8 @@ ivd:Adobe-Japan1
 "㗞"
 ivd:base
 -"㗟"
+":MJ067996"
+unihan:kIRG_JSource:MJ
 ":ks3-2-69"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -9316,6 +9993,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㗠"
+":MJ067997"
+unihan:kIRG_JSource:MJ
 ":ks3-2-70"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -9324,6 +10003,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㗡"
+":MJ067998"
+unihan:kIRG_JSource:MJ
 ":ks3-2-76"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -9332,6 +10013,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㗢"
+":MJ000417"
+unihan:kIRG_JSource:MJ
 ":cns4-34-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9354,6 +10037,8 @@ unihan:kIRG_VSource
 "𰇖"
 unihan:kSimplifiedVariant
 -"㗣"
+":MJ000418"
+unihan:kIRG_JSource:MJ
 ":cns3-38-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9385,6 +10070,8 @@ unihan:kKangXi
 ":m4163"
 unihan:kMorohashi
 -"㗥"
+":MJ000420"
+unihan:kIRG_JSource:MJ
 ":cns3-38-13"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9401,6 +10088,8 @@ unihan:kKangXi
 ":m4173"
 unihan:kMorohashi
 -"㗦"
+":MJ000421"
+unihan:kIRG_JSource:MJ
 ":cns4-34-47"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9420,6 +10109,8 @@ unihan:kKangXi
 ":m4177"
 unihan:kMorohashi
 -"㗧"
+":MJ000422"
+unihan:kIRG_JSource:MJ
 ":cns4-34-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9436,6 +10127,8 @@ unihan:kKangXi
 ":m4181"
 unihan:kMorohashi
 -"㗨"
+":MJ000423"
+unihan:kIRG_JSource:MJ
 ":cns4-34-53"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9449,6 +10142,8 @@ unihan:kKangXi
 ":m4188"
 unihan:kMorohashi
 -"㗩"
+":MJ000424"
+unihan:kIRG_JSource:MJ
 ":cns3-38-11"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9466,6 +10161,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㗪"
+":MJ000425"
+unihan:kIRG_JSource:MJ
 ":cns3-43-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9495,6 +10192,8 @@ unihan:kKangXi
 ":m4198"
 unihan:kMorohashi
 -"㗬"
+":MJ000427"
+unihan:kIRG_JSource:MJ
 ":cns4-34-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9514,6 +10213,8 @@ unihan:kKangXi
 ":m4207"
 unihan:kMorohashi
 -"㗭"
+":MJ000428"
+unihan:kIRG_JSource:MJ
 ":cns4-34-49"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9535,6 +10236,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㗯"
+":MJ067999"
+unihan:kIRG_JSource:MJ
 ":ks3-2-77"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -9556,6 +10259,8 @@ unihan:kKangXi:virtual
 "𫩛"
 unihan:kSimplifiedVariant
 -"㗱"
+":MJ000429"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8dfd"
 unihan:kIRG_HSource
 ":cns4-41-16"
@@ -9577,6 +10282,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㗲"
+":MJ000430"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8bbe"
 unihan:kIRG_HSource
 ":cns4-41-12"
@@ -9600,6 +10307,8 @@ unihan:kMorohashi
 "𠵾"
 unihan:kSimplifiedVariant
 -"㗳"
+":MJ000431"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9fd9"
 unihan:kIRG_HSource
 ":cns3-43-34"
@@ -9624,6 +10333,8 @@ unihan:kIRG_TSource
 ":gb4-24-54"
 unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
+":jis2-4-34"
+unihan:kIRG_JSource:4
 ":ks3-2-79"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -9657,6 +10368,8 @@ unihan:kMorohashi
 "㗴"
 ivd:base
 -"㗵"
+":MJ000434"
+unihan:kIRG_JSource:MJ
 ":cns3-43-22"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9670,6 +10383,8 @@ unihan:kKangXi
 ":m4295"
 unihan:kMorohashi
 -"㗶"
+":MJ000435"
+unihan:kIRG_JSource:MJ
 ":cns7-1-46"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9722,6 +10437,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㗻"
+":MJ000437"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8aeb"
 unihan:kIRG_HSource
 ":cns4-47-75"
@@ -9758,6 +10475,8 @@ ivd:Moji_Joho
 "㗻"
 ivd:base
 -"㗼"
+":MJ000438"
+unihan:kIRG_JSource:MJ
 ":cns4-47-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9773,6 +10492,8 @@ unihan:kMorohashi
 "𫩤"
 unihan:kSimplifiedVariant
 -"㗽"
+":MJ000439"
+unihan:kIRG_JSource:MJ
 ":cns3-48-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9785,6 +10506,8 @@ unihan:kKangXi
 ":m4371"
 unihan:kMorohashi
 -"㗾"
+":MJ000440"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9fd7"
 unihan:kIRG_HSource
 ":cns4-47-71"
@@ -9800,6 +10523,8 @@ unihan:kKangXi
 ":m4385"
 unihan:kMorohashi
 -"㗿"
+":MJ000441"
+unihan:kIRG_JSource:MJ
 ":cns4-47-74"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9818,6 +10543,8 @@ unihan:kMorohashi
 "𪡛"
 unihan:kSimplifiedVariant
 -"㘀"
+":MJ000442"
+unihan:kIRG_JSource:MJ
 ":cns4-47-79"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9831,6 +10558,8 @@ unihan:kKangXi
 ":m4397"
 unihan:kMorohashi
 -"㘁"
+":MJ000443"
+unihan:kIRG_JSource:MJ
 ":cns3-48-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9842,6 +10571,8 @@ unihan:kKangXi
 ":m4404"
 unihan:kMorohashi
 -"㘂"
+":MJ000444"
+unihan:kIRG_JSource:MJ
 ":cns3-48-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9878,6 +10609,8 @@ unihan:kKangXi:virtual
 ":cns7-23-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis2-4-42"
+unihan:kIRG_JSource:4
 ":kps1-3aed"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -9901,6 +10634,8 @@ ivd:Adobe-Japan1
 "㘅"
 ivd:base
 -"㘆"
+":MJ000446"
+unihan:kIRG_JSource:MJ
 ":cns4-53-82"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9914,6 +10649,8 @@ unihan:kKangXi
 ":m4450"
 unihan:kMorohashi
 -"㘇"
+":MJ000447"
+unihan:kIRG_JSource:MJ
 ":cns3-52-38"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9929,6 +10666,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㘈"
+":MJ000448"
+unihan:kIRG_JSource:MJ
 ":cns4-53-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9948,6 +10687,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㘉"
+":MJ000449"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8b6a"
 unihan:kIRG_HSource
 ":cns4-47-77"
@@ -9969,6 +10710,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㘊"
+":MJ000450"
+unihan:kIRG_JSource:MJ
 ":cns5-65-32"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -9985,6 +10728,8 @@ unihan:kKangXi
 ":m4503"
 unihan:kMorohashi
 -"㘋"
+":MJ000451"
+unihan:kIRG_JSource:MJ
 ":cns4-58-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10002,6 +10747,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㘌"
+":MJ000452"
+unihan:kIRG_JSource:MJ
 ":cns3-55-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10015,6 +10762,8 @@ unihan:kKangXi
 ":m4508"
 unihan:kMorohashi
 -"㘍"
+":MJ000453"
+unihan:kIRG_JSource:MJ
 ":cns5-65-37"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10041,6 +10790,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㘏"
+":MJ068000"
+unihan:kIRG_JSource:MJ
 ":ks3-2-86"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -10049,6 +10800,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㘐"
+":MJ000454"
+unihan:kIRG_JSource:MJ
 ":cns4-63-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10062,6 +10815,8 @@ unihan:kKangXi
 ":m4547"
 unihan:kMorohashi
 -"㘑"
+":MJ000455"
+unihan:kIRG_JSource:MJ
 ":cns5-71-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10076,6 +10831,8 @@ unihan:kKangXi
 ":m4549"
 unihan:kMorohashi
 -"㘒"
+":MJ068001"
+unihan:kIRG_JSource:MJ
 ":ks3-2-88"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -10084,6 +10841,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㘓"
+":MJ000456"
+unihan:kIRG_JSource:MJ
 ":cns5-75-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10123,6 +10882,8 @@ ivd:Adobe-Japan1
 "㘔"
 ivd:base
 -"㘕"
+":MJ000457"
+unihan:kIRG_JSource:MJ
 ":cns3-62-7"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10134,6 +10895,8 @@ unihan:kKangXi
 ":m4603"
 unihan:kMorohashi
 -"㘖"
+":MJ000458"
+unihan:kIRG_JSource:MJ
 ":cns4-70-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10179,6 +10942,8 @@ unihan:kKangXi:virtual
 "轡"
 kVariants:sem
 -"㘙"
+":MJ000459"
+unihan:kIRG_JSource:MJ
 ":cns3-64-14"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10219,6 +10984,8 @@ unihan:kKangXi:virtual
 "㘎"
 unihan:kSimplifiedVariant
 -"㘛"
+":MJ000460"
+unihan:kIRG_JSource:MJ
 ":cns4-76-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10245,6 +11012,8 @@ unihan:kKangXi
 ":m4671"
 unihan:kMorohashi
 -"㘝"
+":MJ000462"
+unihan:kIRG_JSource:MJ
 ":cns3-2-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10273,6 +11042,8 @@ ivd:Moji_Joho
 "㘝"
 ivd:base
 -"㘞"
+":MJ000464"
+unihan:kIRG_JSource:MJ
 ":cns3-2-1"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10297,6 +11068,8 @@ unihan:kKangXi:virtual
 "囪"
 kVariants:sem
 -"㘠"
+":MJ000466"
+unihan:kIRG_JSource:MJ
 ":cns5-5-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10311,6 +11084,8 @@ unihan:kKangXi
 ":m4739"
 unihan:kMorohashi
 -"㘡"
+":MJ000467"
+unihan:kIRG_JSource:MJ
 ":cns3-7-94"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10338,6 +11113,8 @@ unihan:kKangXi
 ":m4754"
 unihan:kMorohashi
 -"㘣"
+":MJ000469"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fb5e"
 unihan:kIRG_HSource
 ":cns3-16-6"
@@ -10353,6 +11130,8 @@ unihan:kKangXi
 ":m4770"
 unihan:kMorohashi
 -"㘤"
+":MJ000470"
+unihan:kIRG_JSource:MJ
 ":cns4-34-56"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10371,6 +11150,8 @@ unihan:kMorohashi
 "𡈛"
 unihan:kSimplifiedVariant
 -"㘥"
+":MJ000471"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8770"
 unihan:kIRG_HSource
 ":cns4-67-18"
@@ -10386,6 +11167,8 @@ unihan:kKangXi
 ":m4861"
 unihan:kMorohashi
 -"㘦"
+":MJ000472"
+unihan:kIRG_JSource:MJ
 ":cns3-2-19"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10397,6 +11180,8 @@ unihan:kKangXi
 ":m4875"
 unihan:kMorohashi
 -"㘧"
+":MJ000473"
+unihan:kIRG_JSource:MJ
 ":cns3-5-14"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10410,6 +11195,8 @@ unihan:kKangXi
 ":m4919"
 unihan:kMorohashi
 -"㘨"
+":MJ000474"
+unihan:kIRG_JSource:MJ
 ":cns4-3-63"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10437,6 +11224,8 @@ ivd:Hanyo-Denshi
 "㘨"
 ivd:base
 -"㘩"
+":MJ000476"
+unihan:kIRG_JSource:MJ
 ":cns3-5-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10450,6 +11239,8 @@ unihan:kKangXi
 ":m4934"
 unihan:kMorohashi
 -"㘪"
+":MJ000477"
+unihan:kIRG_JSource:MJ
 ":cns3-5-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10484,6 +11275,8 @@ unihan:kKangXi:virtual
 ":m4938"
 unihan:kMorohashi
 -"㘬"
+":MJ000479"
+unihan:kIRG_JSource:MJ
 ":cns3-5-29"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10494,6 +11287,8 @@ unihan:kKangXi:virtual
 ":m4960"
 unihan:kMorohashi
 -"㘭"
+":MJ000480"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9df3"
 unihan:kIRG_HSource
 ":cns3-5-31"
@@ -10523,6 +11318,8 @@ unihan:kKangXi:virtual
 "塲"
 kVariants:simp
 -"㘰"
+":MJ000481"
+unihan:kIRG_JSource:MJ
 ":cns3-5-20"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10533,6 +11330,8 @@ unihan:kKangXi:virtual
 ":m4936"
 unihan:kMorohashi
 -"㘱"
+":MJ000482"
+unihan:kIRG_JSource:MJ
 ":cns3-8-7"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10559,6 +11358,8 @@ unihan:kKangXi
 ":m4992"
 unihan:kMorohashi
 -"㘳"
+":MJ000484"
+unihan:kIRG_JSource:MJ
 ":cns3-8-11"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10609,6 +11410,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㘶"
+":MJ000487"
+unihan:kIRG_JSource:MJ
 ":cns3-11-86"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10620,6 +11423,8 @@ unihan:kKangXi
 ":m5046"
 unihan:kMorohashi
 -"㘷"
+":MJ000488"
+unihan:kIRG_JSource:MJ
 ":cns6-15-69"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10632,6 +11437,8 @@ unihan:kKangXi
 ":m5062"
 unihan:kMorohashi
 -"㘸"
+":MJ000489"
+unihan:kIRG_JSource:MJ
 ":cns3-11-84"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10643,6 +11450,8 @@ unihan:kKangXi
 ":m5069"
 unihan:kMorohashi
 -"㘹"
+":MJ000490"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fc66"
 unihan:kIRG_HSource
 ":cns3-11-85"
@@ -10655,6 +11464,8 @@ unihan:kKangXi:virtual
 ":m5021"
 unihan:kMorohashi
 -"㘺"
+":MJ000491"
+unihan:kIRG_JSource:MJ
 ":cns3-11-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10665,6 +11476,8 @@ unihan:kKangXi:virtual
 ":m5057"
 unihan:kMorohashi
 -"㘻"
+":MJ000492"
+unihan:kIRG_JSource:MJ
 ":cns3-11-79"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10707,6 +11520,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㘿"
+":MJ000493"
+unihan:kIRG_JSource:MJ
 ":cns3-16-9"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10723,6 +11538,8 @@ unihan:kKangXi
 ":m5087"
 unihan:kMorohashi
 -"㙀"
+":MJ000494"
+unihan:kIRG_JSource:MJ
 ":cns4-12-15"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10736,6 +11553,8 @@ unihan:kKangXi
 ":m5091"
 unihan:kMorohashi
 -"㙁"
+":MJ000495"
+unihan:kIRG_JSource:MJ
 ":cns4-12-17"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10752,6 +11571,8 @@ unihan:kMorohashi
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㙂"
+":MJ000496"
+unihan:kIRG_JSource:MJ
 ":cns3-16-13"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10775,6 +11596,8 @@ ivd:Hanyo-Denshi
 "㙂"
 ivd:base
 -"㙃"
+":MJ000498"
+unihan:kIRG_JSource:MJ
 ":cns3-16-12"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10817,6 +11640,8 @@ ivd:Moji_Joho
 "㙄"
 ivd:base
 -"㙅"
+":MJ000501"
+unihan:kIRG_JSource:MJ
 ":cns3-16-17"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10835,6 +11660,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㙇"
+":MJ000502"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9aec"
 unihan:kIRG_HSource
 ":cns3-20-76"
@@ -10851,6 +11678,8 @@ unihan:kKangXi
 ":m5160"
 unihan:kMorohashi
 -"㙈"
+":MJ000503"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8fab"
 unihan:kIRG_HSource
 ":cns3-20-77"
@@ -10865,6 +11694,8 @@ unihan:kKangXi
 ":m5163"
 unihan:kMorohashi
 -"㙉"
+":MJ000504"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fa48"
 unihan:kIRG_HSource
 ":cns3-20-83"
@@ -10884,6 +11715,8 @@ unihan:kMorohashi
 ":cns3-20-74"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis2-4-89"
+unihan:kIRG_JSource:4
 ":ks3-3-5"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -10928,6 +11761,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㙎"
+":MJ000506"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8e45"
 unihan:kIRG_HSource
 ":cns4-22-75"
@@ -10941,6 +11776,8 @@ unihan:kKangXi
 ":m5249"
 unihan:kMorohashi
 -"㙏"
+":MJ000507"
+unihan:kIRG_JSource:MJ
 ":cns3-26-38"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10967,6 +11804,8 @@ ivd:Hanyo-Denshi
 "㙏"
 ivd:base
 -"㙐"
+":MJ000508"
+unihan:kIRG_JSource:MJ
 ":cns4-22-78"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -10983,6 +11822,8 @@ unihan:kKangXi
 ":m5262"
 unihan:kMorohashi
 -"㙑"
+":MJ000509"
+unihan:kIRG_JSource:MJ
 ":cns3-26-49"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11004,6 +11845,8 @@ ivd:Hanyo-Denshi
 "㙑"
 ivd:base
 -"㙒"
+":MJ000511"
+unihan:kIRG_JSource:MJ
 ":cns6-39-46"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11018,6 +11861,8 @@ unihan:kKangXi
 ":m5290"
 unihan:kMorohashi
 -"㙓"
+":MJ000513"
+unihan:kIRG_JSource:MJ
 ":cns3-26-40"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11028,6 +11873,8 @@ unihan:kKangXi:virtual
 ":m5299"
 unihan:kMorohashi
 -"㙔"
+":MJ000514"
+unihan:kIRG_JSource:MJ
 ":gb2-19-68"
 unihan3.0:kIRG_GSource:3
 unihan:kIRG_GSource:3
@@ -11043,6 +11890,8 @@ unihan:kMorohashi
 "𰉘"
 unihan:kSimplifiedVariant
 -"㙕"
+":MJ000515"
+unihan:kIRG_JSource:MJ
 ":cns3-26-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11080,6 +11929,8 @@ unihan:kKangXi:virtual
 unihan15:kIRG_VSource:3
 unihan:kIRG_VSource:3
 -"㙙"
+":MJ000517"
+unihan:kIRG_JSource:MJ
 ":cns4-28-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11093,6 +11944,8 @@ unihan:kKangXi
 ":m5318"
 unihan:kMorohashi
 -"㙚"
+":MJ000518"
+unihan:kIRG_JSource:MJ
 ":cns4-28-59"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11106,6 +11959,8 @@ unihan:kKangXi
 ":m5321"
 unihan:kMorohashi
 -"㙛"
+":MJ000519"
+unihan:kIRG_JSource:MJ
 ":cns3-32-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11150,6 +12005,8 @@ unihan3.0:kIRGKangXi
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㙝"
+":MJ000522"
+unihan:kIRG_JSource:MJ
 ":cns4-28-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11166,6 +12023,8 @@ unihan:kKangXi
 ":m5351"
 unihan:kMorohashi
 -"㙞"
+":MJ000523"
+unihan:kIRG_JSource:MJ
 ":cns4-28-56"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11188,6 +12047,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㙠"
+":MJ000524"
+unihan:kIRG_JSource:MJ
 ":cns4-34-62"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11204,6 +12065,8 @@ unihan:kKangXi
 ":m5392"
 unihan:kMorohashi
 -"㙡"
+":MJ000525"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8d5c"
 unihan:kIRG_HSource
 ":cns4-34-61"
@@ -11224,6 +12087,8 @@ unihan:kMorohashi
 "𭎂"
 unihan:kSimplifiedVariant
 -"㙢"
+":MJ000526"
+unihan:kIRG_JSource:MJ
 ":cns4-34-59"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11242,6 +12107,8 @@ unihan:kMorohashi
 "𰊟"
 unihan:kSimplifiedVariant
 -"㙣"
+":MJ000527"
+unihan:kIRG_JSource:MJ
 ":cns3-38-27"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11253,6 +12120,8 @@ unihan:kKangXi
 ":m5411"
 unihan:kMorohashi
 -"㙤"
+":MJ000528"
+unihan:kIRG_JSource:MJ
 ":cns4-34-63"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11273,6 +12142,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㙥"
+":MJ000529"
+unihan:kIRG_JSource:MJ
 ":cns3-38-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11292,6 +12163,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㙧"
+":MJ000530"
+unihan:kIRG_JSource:MJ
 ":cns7-1-74"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11311,6 +12184,8 @@ unihan:kMorohashi
 "塯"
 kVariants:=
 -"㙨"
+":MJ000531"
+unihan:kIRG_JSource:MJ
 ":cns3-43-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11322,6 +12197,8 @@ unihan:kKangXi
 ":m5453"
 unihan:kMorohashi
 -"㙩"
+":MJ000532"
+unihan:kIRG_JSource:MJ
 ":cns3-43-40"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11348,6 +12225,8 @@ ivd:Hanyo-Denshi
 "㙩"
 ivd:base
 -"㙪"
+":MJ000533"
+unihan:kIRG_JSource:MJ
 ":cns4-41-19"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11364,6 +12243,8 @@ unihan:kKangXi
 ":m5459"
 unihan:kMorohashi
 -"㙫"
+":MJ000534"
+unihan:kIRG_JSource:MJ
 ":cns3-43-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11380,6 +12261,8 @@ unihan:kKangXi
 ":m5479"
 unihan:kMorohashi
 -"㙬"
+":MJ000535"
+unihan:kIRG_JSource:MJ
 ":cns3-43-46"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11423,6 +12306,8 @@ unihan:kIRG_VSource
 "塔"
 unihan:kSemanticVariant
 -"㙯"
+":MJ000536"
+unihan:kIRG_JSource:MJ
 ":cns4-41-10"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11433,6 +12318,8 @@ unihan:kKangXi:virtual
 ":m48958"
 unihan:kMorohashi
 -"㙰"
+":MJ000537"
+unihan:kIRG_JSource:MJ
 ":cns3-48-36"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11444,6 +12331,8 @@ unihan:kKangXi
 ":m5512"
 unihan:kMorohashi
 -"㙱"
+":MJ000538"
+unihan:kIRG_JSource:MJ
 ":cns4-47-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11457,6 +12346,8 @@ unihan:kKangXi
 ":m5514"
 unihan:kMorohashi
 -"㙲"
+":MJ000539"
+unihan:kIRG_JSource:MJ
 ":cns3-48-39"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11470,6 +12361,8 @@ unihan:kKangXi
 ":m5525"
 unihan:kMorohashi
 -"㙳"
+":MJ000540"
+unihan:kIRG_JSource:MJ
 ":cns3-48-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11485,6 +12378,8 @@ unihan:kMorohashi
 "轗"
 unihan:kSemanticVariant
 -"㙴"
+":MJ000541"
+unihan:kIRG_JSource:MJ
 ":cns3-48-35"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11500,6 +12395,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㙵"
+":MJ000542"
+unihan:kIRG_JSource:MJ
 ":cns3-48-38"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11511,6 +12408,8 @@ unihan:kKangXi
 ":m5533"
 unihan:kMorohashi
 -"㙶"
+":MJ000543"
+unihan:kIRG_JSource:MJ
 ":cns3-48-37"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11524,6 +12423,8 @@ unihan:kKangXi
 ":m5534"
 unihan:kMorohashi
 -"㙷"
+":MJ000544"
+unihan:kIRG_JSource:MJ
 ":cns4-53-92"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11540,6 +12441,8 @@ unihan:kKangXi
 ":m5543"
 unihan:kMorohashi
 -"㙸"
+":MJ000545"
+unihan:kIRG_JSource:MJ
 ":cns3-52-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11551,6 +12454,8 @@ unihan:kKangXi
 ":m5548"
 unihan:kMorohashi
 -"㙹"
+":MJ000546"
+unihan:kIRG_JSource:MJ
 ":cns3-52-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11562,6 +12467,8 @@ unihan:kKangXi
 ":m5562"
 unihan:kMorohashi
 -"㙺"
+":MJ000547"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9ede"
 unihan:kIRG_HSource
 ":cns4-53-91"
@@ -11595,6 +12502,8 @@ unihan:kKangXi
 ":m5572"
 unihan:kMorohashi
 -"㙼"
+":MJ000549"
+unihan:kIRG_JSource:MJ
 ":cns3-55-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11613,6 +12522,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㙾"
+":MJ000550"
+unihan:kIRG_JSource:MJ
 ":cns7-38-36"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11640,6 +12551,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㚀"
+":MJ000551"
+unihan:kIRG_JSource:MJ
 ":cns5-75-86"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11654,6 +12567,8 @@ unihan:kKangXi
 ":m5606"
 unihan:kMorohashi
 -"㚁"
+":MJ000552"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-89ef"
 unihan:kIRG_HSource
 ":cns3-64-82"
@@ -11669,6 +12584,8 @@ unihan:kKangXi
 ":m5632"
 unihan:kMorohashi
 -"㚂"
+":MJ000553"
+unihan:kIRG_JSource:MJ
 ":cns4-76-78"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11685,6 +12602,8 @@ unihan:kKangXi
 ":m5634"
 unihan:kMorohashi
 -"㚃"
+":MJ000554"
+unihan:kIRG_JSource:MJ
 ":cns5-23-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11708,6 +12627,8 @@ unihan:kKangXi:virtual
 "疐"
 kVariants:=
 -"㚅"
+":MJ000555"
+unihan:kIRG_JSource:MJ
 ":cns3-11-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11741,6 +12662,8 @@ unihan:kMorohashi
 "复"
 kVariants:=
 -"㚇"
+":MJ057255"
+unihan:kIRG_JSource:MJ
 ":cns4-8-65"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11823,6 +12746,8 @@ ivd:Hanyo-Denshi
 "㚉"
 ivd:base
 -"㚊"
+":MJ000562"
+unihan:kIRG_JSource:MJ
 ":cns4-22-87"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11836,6 +12761,8 @@ unihan:kKangXi
 ":m5786"
 unihan:kMorohashi
 -"㚋"
+":MJ000563"
+unihan:kIRG_JSource:MJ
 ":cns4-34-64"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11849,6 +12776,8 @@ unihan:kKangXi
 ":m5807"
 unihan:kMorohashi
 -"㚌"
+":MJ000564"
+unihan:kIRG_JSource:MJ
 ":cns3-38-39"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11860,6 +12789,8 @@ unihan:kKangXi
 ":m5809"
 unihan:kMorohashi
 -"㚍"
+":MJ000565"
+unihan:kIRG_JSource:MJ
 ":cns4-58-90"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11892,6 +12823,8 @@ unihan:kKangXi
 "夰"
 kVariants:sem
 -"㚐"
+":MJ000566"
+unihan:kIRG_JSource:MJ
 ":cns3-3-40"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11904,6 +12837,8 @@ unihan:kMorohashi
 -"㚑"
 ":jis10-2-4"
 unihan3.0:kIRG_JSource
+":jis2-5-31"
+unihan:kIRG_JSource:A4
 ":kx250-7-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -11930,6 +12865,8 @@ ivd:Moji_Joho
 "㚑"
 ivd:base
 -"㚒"
+":MJ000569"
+unihan:kIRG_JSource:MJ
 ":cns4-3-69"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11943,6 +12880,8 @@ unihan:kKangXi
 ":m5868"
 unihan:kMorohashi
 -"㚓"
+":MJ000570"
+unihan:kIRG_JSource:MJ
 ":cns3-5-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11957,6 +12896,8 @@ unihan:kKangXi
 ":m5869"
 unihan:kMorohashi
 -"㚔"
+":MJ000571"
+unihan:kIRG_JSource:MJ
 ":cns4-5-81"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -11992,6 +12933,8 @@ unihan:kIRG_TSource
 ":gb2-60-53"
 unihan3.0:kIRG_GSource:3
 unihan:kIRG_GSource:3
+":jis2-5-35"
+unihan:kIRG_JSource:4
 ":kx250-28"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -12004,6 +12947,8 @@ ivd:Adobe-Japan1
 "㚖"
 ivd:base
 -"㚗"
+":MJ000574"
+unihan:kIRG_JSource:MJ
 ":cns4-5-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12017,6 +12962,8 @@ unihan:kKangXi
 ":m5890"
 unihan:kMorohashi
 -"㚘"
+":MJ000575"
+unihan:kIRG_JSource:MJ
 ":cns4-5-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12037,6 +12984,8 @@ unihan:kMorohashi
 unicode:j:glyph
 ":jis10-2-6"
 unihan3.0:kIRG_JSource
+":jis2-5-33"
+unihan:kIRG_JSource:A4
 ":kx251-9-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -12049,6 +12998,8 @@ ivd:Adobe-Japan1
 "㚙"
 ivd:base
 -"㚚"
+":MJ000577"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-96e9"
 unihan:kIRG_HSource
 ":cns3-11-93"
@@ -12070,6 +13021,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㚜"
+":MJ000578"
+unihan:kIRG_JSource:MJ
 ":cns4-17-5"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12083,6 +13036,8 @@ unihan:kKangXi
 ":m5946"
 unihan:kMorohashi
 -"㚝"
+":MJ000579"
+unihan:kIRG_JSource:MJ
 ":cns6-30-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12100,6 +13055,8 @@ unihan:kSemanticVariant
 "奞"
 unihan:kSemanticVariant
 -"㚞"
+":MJ000580"
+unihan:kIRG_JSource:MJ
 ":cns3-20-90"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12140,6 +13097,8 @@ unihan:kKangXi
 ":m5982"
 unihan:kMorohashi
 -"㚡"
+":MJ000582"
+unihan:kIRG_JSource:MJ
 ":cns3-48-30"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12150,6 +13109,8 @@ unihan:kKangXi:virtual
 ":m4418"
 unihan:kMorohashi
 -"㚢"
+":MJ000584"
+unihan:kIRG_JSource:MJ
 ":cns3-1-84"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12177,6 +13138,8 @@ unihan:kMorohashi
 "㚢"
 ivd:base
 -"㚣"
+":MJ000585"
+unihan:kIRG_JSource:MJ
 ":cns3-3-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12190,6 +13153,8 @@ unihan:kMorohashi
 "姣"
 unihan:kSemanticVariant
 -"㚤"
+":MJ000586"
+unihan:kIRG_JSource:MJ
 ":cns3-3-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12206,6 +13171,8 @@ unihan:kKangXi
 ":m6052"
 unihan:kMorohashi
 -"㚥"
+":MJ000587"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9ebb"
 unihan:kIRG_HSource
 ":cns4-2-54"
@@ -12219,6 +13186,8 @@ unihan:kKangXi
 ":m6059"
 unihan:kMorohashi
 -"㚦"
+":MJ000588"
+unihan:kIRG_JSource:MJ
 ":cns4-2-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12230,6 +13199,8 @@ unihan:kKangXi
 ":m6065"
 unihan:kMorohashi
 -"㚧"
+":MJ000589"
+unihan:kIRG_JSource:MJ
 ":cns4-2-53"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12254,6 +13225,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㚩"
+":MJ000590"
+unihan:kIRG_JSource:MJ
 ":cns3-5-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12270,6 +13243,8 @@ unihan:kMorohashi
 "姌"
 kVariants:sem
 -"㚪"
+":MJ000591"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-94de"
 unihan:kIRG_HSource
 ":cns3-5-55"
@@ -12283,6 +13258,8 @@ unihan:kKangXi
 ":m6079"
 unihan:kMorohashi
 -"㚫"
+":MJ000592"
+unihan:kIRG_JSource:MJ
 ":cns3-5-48"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12304,6 +13281,8 @@ ivd:Hanyo-Denshi
 "㚫"
 ivd:base
 -"㚬"
+":MJ000594"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9eb8"
 unihan:kIRG_HSource
 ":cns3-5-47"
@@ -12317,6 +13296,8 @@ unihan:kKangXi
 ":m6106"
 unihan:kMorohashi
 -"㚭"
+":MJ000595"
+unihan:kIRG_JSource:MJ
 ":cns3-5-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12327,6 +13308,8 @@ unihan:kKangXi:virtual
 ":m6112"
 unihan:kMorohashi
 -"㚮"
+":MJ000596"
+unihan:kIRG_JSource:MJ
 ":cns3-5-52"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12346,7 +13329,11 @@ unihan:kKangXi:virtual
 "㜄"
 kVariants:simp
 unihan:kTraditionalVariant
+"𮰻"
+unihan:kSpoofingVariant
 -"㚰"
+":MJ000597"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-97ba"
 unihan:kIRG_HSource
 ":cns3-8-17"
@@ -12365,6 +13352,8 @@ unihan:kKangXi
 ":m6120"
 unihan:kMorohashi
 -"㚱"
+":MJ000598"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fb65"
 unihan:kIRG_HSource
 ":cns3-8-27"
@@ -12381,6 +13370,8 @@ unihan:kKangXi
 ":m6136"
 unihan:kMorohashi
 -"㚲"
+":MJ000599"
+unihan:kIRG_JSource:MJ
 ":cns4-5-91"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12397,6 +13388,8 @@ unihan:kKangXi
 ":m6146"
 unihan:kMorohashi
 -"㚳"
+":MJ000600"
+unihan:kIRG_JSource:MJ
 ":cns3-8-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12411,6 +13404,8 @@ unihan:kKangXi
 ":m6149"
 unihan:kMorohashi
 -"㚴"
+":MJ000601"
+unihan:kIRG_JSource:MJ
 ":cns3-8-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12422,6 +13417,8 @@ unihan:kKangXi
 ":m6156"
 unihan:kMorohashi
 -"㚵"
+":MJ000602"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-95d6"
 unihan:kIRG_HSource
 ":cns3-8-26"
@@ -12435,6 +13432,8 @@ unihan:kKangXi
 ":m6158"
 unihan:kMorohashi
 -"㚶"
+":MJ000603"
+unihan:kIRG_JSource:MJ
 ":cns3-8-35"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12446,6 +13445,8 @@ unihan:kKangXi
 ":m6160"
 unihan:kMorohashi
 -"㚷"
+":MJ000604"
+unihan:kIRG_JSource:MJ
 ":cns3-8-39"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12462,6 +13463,8 @@ unihan:kMorohashi
 "妳"
 kVariants:=
 -"㚸"
+":MJ000605"
+unihan:kIRG_JSource:MJ
 ":cns3-8-20"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12476,6 +13479,8 @@ unihan:kKangXi
 ":m6175"
 unihan:kMorohashi
 -"㚹"
+":MJ000606"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9cbb"
 unihan:kIRG_HSource
 ":cns4-6-1"
@@ -12489,6 +13494,8 @@ unihan:kKangXi
 ":m6180"
 unihan:kMorohashi
 -"㚺"
+":MJ000607"
+unihan:kIRG_JSource:MJ
 ":cns3-8-36"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12518,6 +13525,8 @@ unihan:kKangXi
 ":m6186"
 unihan:kMorohashi
 -"㚼"
+":MJ000609"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-97da"
 unihan:kIRG_HSource
 ":cns3-8-22"
@@ -12530,6 +13539,8 @@ unihan:kKangXi:virtual
 ":m6187"
 unihan:kMorohashi
 -"㚽"
+":MJ000610"
+unihan:kIRG_JSource:MJ
 ":cns3-8-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12540,6 +13551,8 @@ unihan:kKangXi:virtual
 ":m6190"
 unihan:kMorohashi
 -"㚾"
+":MJ000611"
+unihan:kIRG_JSource:MJ
 ":cns5-5-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12555,6 +13568,8 @@ unihan:kKangXi:virtual
 ":m6193"
 unihan:kMorohashi
 -"㚿"
+":MJ000612"
+unihan:kIRG_JSource:MJ
 ":cns3-8-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12577,6 +13592,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㛁"
+":MJ000613"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8f45"
 unihan:kIRG_HSource
 ":cns3-8-16"
@@ -12589,6 +13606,8 @@ unihan:kKangXi:virtual
 ":m6188"
 unihan:kMorohashi
 -"㛂"
+":MJ000614"
+unihan:kIRG_JSource:MJ
 ":cns4-8-77"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12610,6 +13629,8 @@ unihan:kMorohashi
 "𡛖"
 kVariants:=
 -"㛃"
+":MJ000615"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fb7d"
 unihan:kIRG_HSource
 ":cns4-8-73"
@@ -12640,6 +13661,8 @@ ivd:Hanyo-Denshi
 "㛃"
 ivd:base
 -"㛄"
+":MJ000618"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9158"
 unihan:kIRG_HSource
 ":cns3-11-94"
@@ -12658,6 +13681,8 @@ unihan:kKangXi
 ":m6223"
 unihan:kMorohashi
 -"㛅"
+":MJ000619"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fe64"
 unihan:kIRG_HSource
 ":cns3-12-2"
@@ -12676,6 +13701,8 @@ unihan:kKangXi
 ":m6240"
 unihan:kMorohashi
 -"㛆"
+":MJ000620"
+unihan:kIRG_JSource:MJ
 ":ks3-3-36"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -12758,6 +13785,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㛍"
+":MJ000621"
+unihan:kIRG_JSource:MJ
 ":cns3-16-31"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12770,7 +13799,11 @@ unihan:kIRGKangXi
 unihan:kKangXi
 ":m6280"
 unihan:kMorohashi
+"𮰿"
+unihan:kSimplifiedVariant
 -"㛎"
+":MJ000622"
+unihan:kIRG_JSource:MJ
 ":cns3-16-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12788,6 +13821,8 @@ unihan:kIRG_VSource:2
 ":cns3-16-29"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis2-5-55"
+unihan:kIRG_JSource:4
 ":kx261-39"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -12801,6 +13836,8 @@ ivd:Adobe-Japan1
 "㛏"
 ivd:base
 -"㛐"
+":MJ000624"
+unihan:kIRG_JSource:MJ
 ":cns3-16-41"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12815,6 +13852,8 @@ unihan:kKangXi
 ":m6293"
 unihan:kMorohashi
 -"㛑"
+":MJ000625"
+unihan:kIRG_JSource:MJ
 ":cns3-16-39"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12846,6 +13885,8 @@ unihan:kKangXi
 ":m6300"
 unihan:kMorohashi
 -"㛓"
+":MJ000627"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-935b"
 unihan:kIRG_HSource
 ":cns3-16-35"
@@ -12859,6 +13900,8 @@ unihan:kKangXi
 ":m6308"
 unihan:kMorohashi
 -"㛔"
+":MJ000628"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-95c7"
 unihan:kIRG_HSource
 ":cns3-16-48"
@@ -12872,6 +13915,8 @@ unihan:kKangXi
 ":m6310"
 unihan:kMorohashi
 -"㛕"
+":MJ000629"
+unihan:kIRG_JSource:MJ
 ":cns3-16-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12883,6 +13928,8 @@ unihan:kKangXi
 ":m6312"
 unihan:kMorohashi
 -"㛖"
+":MJ000630"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-97e7"
 unihan:kIRG_HSource
 ":cns3-16-36"
@@ -12896,6 +13943,8 @@ unihan:kKangXi
 ":m6313"
 unihan:kMorohashi
 -"㛗"
+":MJ000631"
+unihan:kIRG_JSource:MJ
 ":cns4-12-31"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12909,6 +13958,8 @@ unihan:kKangXi
 ":m6316"
 unihan:kMorohashi
 -"㛘"
+":MJ000632"
+unihan:kIRG_JSource:MJ
 ":cns4-12-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12925,6 +13976,8 @@ unihan:kKangXi
 ":m6318"
 unihan:kMorohashi
 -"㛙"
+":MJ000633"
+unihan:kIRG_JSource:MJ
 ":cns3-16-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12936,6 +13989,8 @@ unihan:kKangXi
 ":m6319"
 unihan:kMorohashi
 -"㛚"
+":MJ000634"
+unihan:kIRG_JSource:MJ
 ":cns4-12-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12949,6 +14004,8 @@ unihan:kKangXi
 ":m6320"
 unihan:kMorohashi
 -"㛛"
+":MJ000635"
+unihan:kIRG_JSource:MJ
 ":cns3-16-49"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12963,6 +14020,8 @@ unihan:kMorohashi
 unihan:kSemanticVariant
 unihan:kSpecializedSemanticVariant
 -"㛜"
+":MJ000636"
+unihan:kIRG_JSource:MJ
 ":cns3-16-38"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -12974,6 +14033,8 @@ unihan:kKangXi
 ":m6324"
 unihan:kMorohashi
 -"㛝"
+":MJ000637"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9359"
 unihan:kIRG_HSource
 ":cns3-16-33"
@@ -12989,6 +14050,8 @@ unihan:kMorohashi
 "𫝦"
 unihan:kSimplifiedVariant
 -"㛞"
+":MJ000638"
+unihan:kIRG_JSource:MJ
 ":cns3-16-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13064,6 +14127,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㛥"
+":MJ000639"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fda2"
 unihan:kIRG_HSource
 ":cns4-17-9"
@@ -13079,6 +14144,8 @@ unihan:kKangXi
 ":m6363"
 unihan:kMorohashi
 -"㛦"
+":MJ000640"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fbb6"
 unihan:kIRG_HSource
 ":cns3-21-6"
@@ -13092,6 +14159,8 @@ unihan:kKangXi
 ":m6437"
 unihan:kMorohashi
 -"㛧"
+":MJ000641"
+unihan:kIRG_JSource:MJ
 ":cns3-21-13"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13103,6 +14172,8 @@ unihan:kKangXi
 ":m6377"
 unihan:kMorohashi
 -"㛨"
+":MJ000642"
+unihan:kIRG_JSource:MJ
 ":cns3-21-1"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13114,6 +14185,8 @@ unihan:kKangXi
 ":m6393"
 unihan:kMorohashi
 -"㛩"
+":MJ000643"
+unihan:kIRG_JSource:MJ
 ":cns3-21-22"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13125,6 +14198,8 @@ unihan:kKangXi
 ":m6394"
 unihan:kMorohashi
 -"㛪"
+":MJ000644"
+unihan:kIRG_JSource:MJ
 ":cns4-17-8"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13145,6 +14220,8 @@ unihan15:kIRG_VSource
 unihan3.0:kIRG_VSource:0
 unihan:kIRG_VSource
 -"㛫"
+":MJ000645"
+unihan:kIRG_JSource:MJ
 ":cns3-21-12"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13158,6 +14235,8 @@ unihan:kKangXi
 ":m6439"
 unihan:kMorohashi
 -"㛬"
+":MJ000646"
+unihan:kIRG_JSource:MJ
 ":cns3-21-3"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13169,6 +14248,8 @@ unihan:kKangXi
 ":m6442"
 unihan:kMorohashi
 -"㛭"
+":MJ000647"
+unihan:kIRG_JSource:MJ
 ":cns3-21-5"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13180,6 +14261,8 @@ unihan:kKangXi
 ":m6446"
 unihan:kMorohashi
 -"㛮"
+":MJ000648"
+unihan:kIRG_JSource:MJ
 ":cns3-26-81"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13209,6 +14292,8 @@ ivd:Moji_Joho
 "㛮"
 ivd:base
 -"㛯"
+":MJ000650"
+unihan:kIRG_JSource:MJ
 ":cns3-26-71"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13225,6 +14310,8 @@ unihan:kKangXi
 ":m6465"
 unihan:kMorohashi
 -"㛰"
+":MJ000651"
+unihan:kIRG_JSource:MJ
 ":cns3-26-84"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13241,6 +14328,8 @@ unihan:kKangXi
 ":m6466"
 unihan:kMorohashi
 -"㛱"
+":MJ000652"
+unihan:kIRG_JSource:MJ
 ":cns3-26-68"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13263,6 +14352,8 @@ unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
 unihan:kKangXi
 -"㛳"
+":MJ000653"
+unihan:kIRG_JSource:MJ
 ":cns3-26-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13276,6 +14367,8 @@ unihan:kKangXi
 ":m6476"
 unihan:kMorohashi
 -"㛴"
+":MJ000654"
+unihan:kIRG_JSource:MJ
 ":cns3-26-74"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13292,6 +14385,8 @@ unihan:kKangXi
 ":m6480"
 unihan:kMorohashi
 -"㛵"
+":MJ000655"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-92fa"
 unihan:kIRG_HSource
 ":cns3-26-69"
@@ -13305,6 +14400,8 @@ unihan:kKangXi
 ":m6481"
 unihan:kMorohashi
 -"㛶"
+":MJ000656"
+unihan:kIRG_JSource:MJ
 ":cns5-23-46"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13332,6 +14429,8 @@ unihan:kKangXi
 ":m6503"
 unihan:kMorohashi
 -"㛸"
+":MJ000658"
+unihan:kIRG_JSource:MJ
 ":cns5-23-38"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13345,6 +14444,8 @@ unihan:kKangXi
 ":m6504"
 unihan:kMorohashi
 -"㛹"
+":MJ000659"
+unihan:kIRG_JSource:MJ
 ":cns4-22-94"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13361,6 +14462,8 @@ unihan:kKangXi
 ":m6517"
 unihan:kMorohashi
 -"㛺"
+":MJ000660"
+unihan:kIRG_JSource:MJ
 ":cns3-26-79"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13393,6 +14496,8 @@ ivd:Moji_Joho
 "㛺"
 ivd:base
 -"㛻"
+":MJ000662"
+unihan:kIRG_JSource:MJ
 ":cns3-26-63"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13404,6 +14509,8 @@ unihan:kKangXi
 ":m6523"
 unihan:kMorohashi
 -"㛼"
+":MJ000663"
+unihan:kIRG_JSource:MJ
 ":cns4-22-93"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13438,6 +14545,8 @@ unihan:kMorohashi
 "㛼"
 ivd:base
 -"㛽"
+":MJ000665"
+unihan:kIRG_JSource:MJ
 ":cns3-26-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13449,6 +14558,8 @@ unihan:kKangXi
 ":m6535"
 unihan:kMorohashi
 -"㛾"
+":MJ000666"
+unihan:kIRG_JSource:MJ
 ":cns3-26-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13488,6 +14599,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㜂"
+":MJ000667"
+unihan:kIRG_JSource:MJ
 ":cns3-26-77"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13498,6 +14611,8 @@ unihan:kKangXi:virtual
 ":m6549"
 unihan:kMorohashi
 -"㜃"
+":MJ000668"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8ba6"
 unihan:kIRG_HSource
 ":cns3-26-73"
@@ -13510,6 +14625,8 @@ unihan:kKangXi:virtual
 ":m6551"
 unihan:kMorohashi
 -"㜄"
+":MJ000669"
+unihan:kIRG_JSource:MJ
 ":cns3-26-72"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13522,6 +14639,8 @@ unihan:kMorohashi
 "㚯"
 unihan:kSimplifiedVariant
 -"㜅"
+":MJ000670"
+unihan:kIRG_JSource:MJ
 ":cns4-28-63"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13535,6 +14654,8 @@ unihan:kKangXi
 ":m6567"
 unihan:kMorohashi
 -"㜆"
+":MJ000671"
+unihan:kIRG_JSource:MJ
 ":cns3-32-66"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13546,6 +14667,8 @@ unihan:kKangXi
 ":m6569"
 unihan:kMorohashi
 -"㜇"
+":MJ000672"
+unihan:kIRG_JSource:MJ
 ":cns4-28-65"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13559,6 +14682,8 @@ unihan:kKangXi
 ":m6570"
 unihan:kMorohashi
 -"㜈"
+":MJ000673"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fbb9"
 unihan:kIRG_HSource
 ":cns3-32-78"
@@ -13575,6 +14700,8 @@ unihan:kKangXi
 ":m6572"
 unihan:kMorohashi
 -"㜉"
+":MJ000674"
+unihan:kIRG_JSource:MJ
 ":cns3-32-77"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13586,6 +14713,8 @@ unihan:kKangXi
 ":m6581"
 unihan:kMorohashi
 -"㜊"
+":MJ000675"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-97b0"
 unihan:kIRG_HSource
 ":cns3-32-72"
@@ -13599,6 +14728,8 @@ unihan:kKangXi
 ":m6593"
 unihan:kMorohashi
 -"㜋"
+":MJ000676"
+unihan:kIRG_JSource:MJ
 ":cns3-32-67"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13610,6 +14741,8 @@ unihan:kKangXi
 ":m6599"
 unihan:kMorohashi
 -"㜌"
+":MJ000677"
+unihan:kIRG_JSource:MJ
 ":cns4-28-68"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13623,6 +14756,8 @@ unihan:kKangXi
 ":m6612"
 unihan:kMorohashi
 -"㜍"
+":MJ000678"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fdc4"
 unihan:kIRG_HSource
 ":cns3-32-69"
@@ -13638,6 +14773,8 @@ unihan:kKangXi
 ":m6616"
 unihan:kMorohashi
 -"㜎"
+":MJ000679"
+unihan:kIRG_JSource:MJ
 ":cns4-28-67"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13657,6 +14794,8 @@ unihan:kKangXi
 ":m6617"
 unihan:kMorohashi
 -"㜏"
+":MJ000680"
+unihan:kIRG_JSource:MJ
 ":cns3-32-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13675,6 +14814,8 @@ unihan:kMorohashi
 "㛣"
 unihan:kSimplifiedVariant
 -"㜐"
+":MJ000681"
+unihan:kIRG_JSource:MJ
 ":cns3-32-75"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13688,6 +14829,8 @@ unihan:kMorohashi
 "𫝧"
 unihan:kSimplifiedVariant
 -"㜑"
+":MJ000682"
+unihan:kIRG_JSource:MJ
 ":cns3-32-79"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13704,6 +14847,8 @@ unihan:kKangXi
 ":m6622"
 unihan:kMorohashi
 -"㜒"
+":MJ000683"
+unihan:kIRG_JSource:MJ
 ":cns3-32-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13715,6 +14860,8 @@ unihan:kKangXi
 ":m6627"
 unihan:kMorohashi
 -"㜓"
+":MJ000684"
+unihan:kIRG_JSource:MJ
 ":cns3-32-73"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13739,7 +14886,11 @@ unihan:kIRG_TSource
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
+"𮱇"
+unihan:kSimplifiedVariant
 -"㜖"
+":MJ000685"
+unihan:kIRG_JSource:MJ
 ":cns4-34-71"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13756,6 +14907,8 @@ unihan:kKangXi
 ":m6648"
 unihan:kMorohashi
 -"㜗"
+":MJ000686"
+unihan:kIRG_JSource:MJ
 ":cns4-34-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13774,6 +14927,8 @@ unihan:kMorohashi
 "𡞋"
 unihan:kSimplifiedVariant
 -"㜘"
+":MJ000687"
+unihan:kIRG_JSource:MJ
 ":cns4-34-72"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13793,6 +14948,8 @@ unihan:kKangXi
 ":m6657"
 unihan:kMorohashi
 -"㜙"
+":MJ000688"
+unihan:kIRG_JSource:MJ
 ":cns4-34-70"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13814,6 +14971,8 @@ ivd:Hanyo-Denshi
 "㜙"
 ivd:base
 -"㜚"
+":MJ000689"
+unihan:kIRG_JSource:MJ
 ":cns3-38-41"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13825,6 +14984,8 @@ unihan:kKangXi
 ":m6671"
 unihan:kMorohashi
 -"㜛"
+":MJ000690"
+unihan:kIRG_JSource:MJ
 ":cns3-38-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13836,6 +14997,8 @@ unihan:kKangXi
 ":m6676"
 unihan:kMorohashi
 -"㜜"
+":MJ000691"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9ca1"
 unihan:kIRG_HSource
 ":cns3-38-49"
@@ -13849,6 +15012,8 @@ unihan:kKangXi
 ":m6682"
 unihan:kMorohashi
 -"㜝"
+":MJ000692"
+unihan:kIRG_JSource:MJ
 ":cns4-34-75"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13865,6 +15030,8 @@ unihan:kKangXi
 ":m6683"
 unihan:kMorohashi
 -"㜞"
+":MJ000693"
+unihan:kIRG_JSource:MJ
 ":cns4-34-77"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13890,6 +15057,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㜠"
+":MJ000694"
+unihan:kIRG_JSource:MJ
 ":cns3-38-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13900,6 +15069,8 @@ unihan:kKangXi:virtual
 ":m6689"
 unihan:kMorohashi
 -"㜡"
+":MJ000695"
+unihan:kIRG_JSource:MJ
 ":cns3-38-46"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13910,6 +15081,8 @@ unihan:kKangXi:virtual
 ":m6690"
 unihan:kMorohashi
 -"㜢"
+":MJ000696"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-91f2"
 unihan:kIRG_HSource
 ":cns4-34-73"
@@ -13927,6 +15100,8 @@ unihan:kMorohashi
 "𡞱"
 unihan:kSimplifiedVariant
 -"㜣"
+":MJ000697"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-91f9"
 unihan:kIRG_HSource
 ":cns4-41-28"
@@ -13945,6 +15120,8 @@ unihan:kKangXi
 ":m6703"
 unihan:kMorohashi
 -"㜤"
+":MJ000698"
+unihan:kIRG_JSource:MJ
 ":cns4-41-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13958,6 +15135,8 @@ unihan:kKangXi
 ":m6704"
 unihan:kMorohashi
 -"㜥"
+":MJ000699"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8ff1"
 unihan:kIRG_HSource
 ":cns3-43-57"
@@ -13976,6 +15155,8 @@ unihan:kIRG_VSource:2
 "𫰨"
 unihan:kSimplifiedVariant
 -"㜦"
+":MJ000700"
+unihan:kIRG_JSource:MJ
 ":cns3-43-55"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -13987,6 +15168,8 @@ unihan:kKangXi
 ":m6731"
 unihan:kMorohashi
 -"㜧"
+":MJ000701"
+unihan:kIRG_JSource:MJ
 ":cns4-41-32"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14008,6 +15191,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㜩"
+":MJ000702"
+unihan:kIRG_JSource:MJ
 ":cns3-48-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14019,6 +15204,8 @@ unihan:kKangXi
 ":m6763"
 unihan:kMorohashi
 -"㜪"
+":MJ000703"
+unihan:kIRG_JSource:MJ
 ":cns3-48-53"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14035,6 +15222,8 @@ unihan:kKangXi
 ":m6781"
 unihan:kMorohashi
 -"㜫"
+":MJ000704"
+unihan:kIRG_JSource:MJ
 ":cns4-48-1"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14071,6 +15260,8 @@ unihan:kKangXi:virtual
 "𫰠"
 unihan:kSimplifiedVariant
 -"㜮"
+":MJ000705"
+unihan:kIRG_JSource:MJ
 ":cns4-54-2"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14092,6 +15283,8 @@ unihan:kIRG_VSource:2
 "𫱕"
 unihan:kSimplifiedVariant
 -"㜯"
+":MJ000706"
+unihan:kIRG_JSource:MJ
 ":cns4-54-4"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14126,6 +15319,8 @@ ivd:Hanyo-Denshi
 "㜯"
 ivd:base
 -"㜰"
+":MJ000709"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fe78"
 unihan:kIRG_HSource
 ":cns3-55-63"
@@ -14140,7 +15335,11 @@ unihan:kIRGKangXi
 unihan:kKangXi
 ":m6854"
 unihan:kMorohashi
+"𮰽"
+unihan:kSimplifiedVariant
 -"㜱"
+":MJ000710"
+unihan:kIRG_JSource:MJ
 ":cns3-55-64"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14152,6 +15351,8 @@ unihan:kKangXi
 ":m6861"
 unihan:kMorohashi
 -"㜲"
+":MJ000711"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fbc1"
 unihan:kIRG_HSource
 ":cns4-63-52"
@@ -14183,6 +15384,8 @@ ivd:Moji_Joho
 "㜲"
 ivd:base
 -"㜳"
+":MJ000713"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9251"
 unihan:kIRG_HSource
 ":cns5-71-62"
@@ -14199,6 +15402,8 @@ unihan:kKangXi
 ":m6871"
 unihan:kMorohashi
 -"㜴"
+":MJ000714"
+unihan:kIRG_JSource:MJ
 ":cns3-58-16"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14210,6 +15415,8 @@ unihan:kKangXi
 ":m6876"
 unihan:kMorohashi
 -"㜵"
+":MJ000715"
+unihan:kIRG_JSource:MJ
 ":cns3-58-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14223,6 +15430,8 @@ unihan:kKangXi:virtual
 ":m6882"
 unihan:kMorohashi
 -"㜶"
+":MJ000716"
+unihan:kIRG_JSource:MJ
 ":cns3-60-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14234,6 +15443,8 @@ unihan:kKangXi:virtual
 ":m6884"
 unihan:kMorohashi
 -"㜷"
+":MJ000717"
+unihan:kIRG_JSource:MJ
 ":cns4-67-21"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14255,6 +15466,8 @@ unihan:kMorohashi
 "𡝠"
 unihan:kSimplifiedVariant
 -"㜸"
+":MJ000718"
+unihan:kIRG_JSource:MJ
 ":cns3-60-24"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14274,6 +15487,8 @@ unihan:kKangXi
 ":m6890"
 unihan:kMorohashi
 -"㜹"
+":MJ000719"
+unihan:kIRG_JSource:MJ
 ":cns4-70-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14287,6 +15502,8 @@ unihan:kKangXi
 ":m6903"
 unihan:kMorohashi
 -"㜺"
+":MJ000720"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9dad"
 unihan:kIRG_HSource
 ":cns4-72-69"
@@ -14307,6 +15524,8 @@ unihan:kMorohashi
 "𫲗"
 unihan:kSimplifiedVariant
 -"㜻"
+":MJ000721"
+unihan:kIRG_JSource:MJ
 ":cns3-65-66"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14318,6 +15537,8 @@ unihan:kKangXi
 ":m6925"
 unihan:kMorohashi
 -"㜼"
+":MJ000722"
+unihan:kIRG_JSource:MJ
 ":cns3-65-67"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14331,6 +15552,8 @@ unihan:kKangXi
 ":m6926"
 unihan:kMorohashi
 -"㜽"
+":MJ000723"
+unihan:kIRG_JSource:MJ
 ":cns3-3-46"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14368,6 +15591,8 @@ unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
 unihan:kKangXi
 -"㝀"
+":MJ000725"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fd6c"
 unihan:kIRG_HSource
 ":cns3-8-41"
@@ -14383,6 +15608,8 @@ unihan:kKangXi:virtual
 ":m6972"
 unihan:kMorohashi
 -"㝁"
+":MJ000726"
+unihan:kIRG_JSource:MJ
 ":cns4-8-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14399,6 +15626,8 @@ unihan:kKangXi
 ":m6979"
 unihan:kMorohashi
 -"㝂"
+":MJ000727"
+unihan:kIRG_JSource:MJ
 ":cns4-12-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14415,6 +15644,8 @@ unihan:kKangXi
 ":m6986"
 unihan:kMorohashi
 -"㝃"
+":MJ000728"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fa6b"
 unihan:kIRG_HSource
 ":cns3-16-52"
@@ -14435,6 +15666,8 @@ unihan:kMorohashi
 "娩"
 unihan:kSemanticVariant
 -"㝄"
+":MJ000729"
+unihan:kIRG_JSource:MJ
 ":cns3-26-93"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14446,6 +15679,8 @@ unihan:kKangXi
 ":m7002"
 unihan:kMorohashi
 -"㝅"
+":MJ000730"
+unihan:kIRG_JSource:MJ
 ":cns4-28-71"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14485,6 +15720,8 @@ unihan:kKangXi:virtual
 ":m7039"
 unihan:kMorohashi
 -"㝈"
+":MJ000732"
+unihan:kIRG_JSource:MJ
 ":cns3-65-29"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14509,6 +15746,8 @@ unihan:kKangXi:virtual
 "宁"
 kVariants:simp
 -"㝊"
+":MJ000733"
+unihan:kIRG_JSource:MJ
 ":cns3-2-28"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14529,6 +15768,8 @@ unihan:kKangXi:virtual
 ":m7062"
 unihan:kMorohashi
 -"㝌"
+":MJ000735"
+unihan:kIRG_JSource:MJ
 ":cns3-3-47"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14542,6 +15783,8 @@ unihan:kKangXi
 ":m7065"
 unihan:kMorohashi
 -"㝍"
+":MJ000736"
+unihan:kIRG_JSource:MJ
 ":cns6-6-89"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14558,6 +15801,8 @@ unihan:kKangXi:virtual
 ":m7076"
 unihan:kMorohashi
 -"㝎"
+":MJ000737"
+unihan:kIRG_JSource:MJ
 ":cns3-5-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14574,6 +15819,8 @@ unihan:kKangXi:virtual
 ":m7097"
 unihan:kMorohashi
 -"㝏"
+":MJ000738"
+unihan:kIRG_JSource:MJ
 ":cns4-3-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14593,6 +15840,8 @@ unihan:kKangXi
 ":m7081"
 unihan:kMorohashi
 -"㝐"
+":MJ000739"
+unihan:kIRG_JSource:MJ
 ":cns3-5-59"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14620,6 +15869,8 @@ unihan:kKangXi
 ":m7087"
 unihan:kMorohashi
 -"㝒"
+":MJ000741"
+unihan:kIRG_JSource:MJ
 ":cns3-8-47"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14631,6 +15882,8 @@ unihan:kKangXi
 ":m7113"
 unihan:kMorohashi
 -"㝓"
+":MJ000742"
+unihan:kIRG_JSource:MJ
 ":cns5-8-78"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14645,6 +15898,8 @@ unihan:kKangXi
 ":m7126"
 unihan:kMorohashi
 -"㝔"
+":MJ000743"
+unihan:kIRG_JSource:MJ
 ":cns3-12-16"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14664,6 +15919,8 @@ unihan:kKangXi
 ":m7134"
 unihan:kMorohashi
 -"㝕"
+":MJ000744"
+unihan:kIRG_JSource:MJ
 ":cns3-12-17"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14675,6 +15932,8 @@ unihan:kKangXi
 ":m7142"
 unihan:kMorohashi
 -"㝖"
+":MJ000745"
+unihan:kIRG_JSource:MJ
 ":cns3-12-19"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14686,6 +15945,8 @@ unihan:kKangXi
 ":m7144"
 unihan:kMorohashi
 -"㝗"
+":MJ000746"
+unihan:kIRG_JSource:MJ
 ":cns4-12-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14730,6 +15991,8 @@ unihan:kMorohashi
 "寅"
 kVariants:sem
 -"㝚"
+":MJ000749"
+unihan:kIRG_JSource:MJ
 ":ks3-3-65"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -14740,6 +16003,8 @@ unihan:kKangXi:virtual
 ":m7189"
 unihan:kMorohashi
 -"㝛"
+":MJ000750"
+unihan:kIRG_JSource:MJ
 ":cns3-21-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14756,6 +16021,8 @@ unihan:kMorohashi
 "宿"
 unihan:kSemanticVariant
 -"㝜"
+":MJ000751"
+unihan:kIRG_JSource:MJ
 ":cns3-21-29"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14770,6 +16037,8 @@ unihan:kKangXi
 ":m7197"
 unihan:kMorohashi
 -"㝝"
+":MJ000752"
+unihan:kIRG_JSource:MJ
 ":cns3-21-30"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14781,6 +16050,8 @@ unihan:kKangXi
 ":m7206"
 unihan:kMorohashi
 -"㝞"
+":MJ000753"
+unihan:kIRG_JSource:MJ
 ":cns4-17-14"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14836,6 +16107,8 @@ kVariants:sem
 unicode:j:glyph
 ":jis10-2-19"
 unihan3.0:kIRG_JSource
+":jis2-8-3"
+unihan:kIRG_JSource:A4
 ":kps1-3e7d"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -14864,6 +16137,8 @@ unihan:kIRG_TSource
 ":gb4-30-14"
 unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
+":jis2-8-5"
+unihan:kIRG_JSource:4
 ":kps1-3e8b"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -14892,6 +16167,8 @@ ivd:Hanyo-Denshi
 "㝢"
 ivd:base
 -"㝣"
+":MJ000758"
+unihan:kIRG_JSource:MJ
 ":cns4-23-2"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14921,6 +16198,8 @@ ivd:Hanyo-Denshi
 "㝣"
 ivd:base
 -"㝤"
+":MJ000760"
+unihan:kIRG_JSource:MJ
 ":cns4-28-74"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14937,6 +16216,8 @@ unihan:kKangXi
 ":m7262"
 unihan:kMorohashi
 -"㝥"
+":MJ000761"
+unihan:kIRG_JSource:MJ
 ":cns4-28-76"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14950,6 +16231,8 @@ unihan:kKangXi
 ":m7264"
 unihan:kMorohashi
 -"㝦"
+":MJ000762"
+unihan:kIRG_JSource:MJ
 ":cns4-28-79"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14964,8 +16247,13 @@ unihan:kKangXi
 unihan:kMorohashi
 "寯"
 kVariants:=
+unihan:kSemanticVariant
 unihan:kTraditionalVariant
+"𮱠"
+unihan:kSemanticVariant
 -"㝧"
+":MJ000763"
+unihan:kIRG_JSource:MJ
 ":cns3-32-87"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -14985,6 +16273,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㝩"
+":MJ000764"
+unihan:kIRG_JSource:MJ
 ":cns4-34-84"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15008,6 +16298,8 @@ ivd:Hanyo-Denshi
 "㝩"
 ivd:base
 -"㝪"
+":MJ000765"
+unihan:kIRG_JSource:MJ
 ":cns4-34-85"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15027,6 +16319,8 @@ unihan:kMorohashi
 ":cns3-43-64"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis2-8-9"
+unihan:kIRG_JSource:4
 ":ks3-3-73"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -15059,6 +16353,8 @@ unihan:kIRG_TSource
 ":gb2-27-38"
 unihan3.0:kIRG_GSource:3
 unihan:kIRG_GSource:3
+":jis2-8-8"
+unihan:kIRG_JSource:4
 ":kx291-18-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -15084,6 +16380,8 @@ unihan:kKangXi
 ":m7314"
 unihan:kMorohashi
 -"㝮"
+":MJ000770"
+unihan:kIRG_JSource:MJ
 ":cns4-41-37"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15097,6 +16395,8 @@ unihan:kKangXi
 ":m7317"
 unihan:kMorohashi
 -"㝯"
+":MJ000771"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9a7b"
 unihan:kIRG_HSource
 ":cns4-41-38"
@@ -15115,6 +16415,8 @@ unihan:kKangXi
 ":m7318"
 unihan:kMorohashi
 -"㝰"
+":MJ000772"
+unihan:kIRG_JSource:MJ
 ":cns4-58-93"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15131,6 +16433,8 @@ unihan:kKangXi
 ":m7359"
 unihan:kMorohashi
 -"㝱"
+":MJ000773"
+unihan:kIRG_JSource:MJ
 ":cns3-62-11"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15147,6 +16451,8 @@ unihan:kKangXi
 ":m7383"
 unihan:kMorohashi
 -"㝲"
+":MJ000774"
+unihan:kIRG_JSource:MJ
 ":cns7-66-21"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15169,6 +16475,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㝴"
+":MJ000775"
+unihan:kIRG_JSource:MJ
 ":cns4-3-81"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15186,6 +16494,8 @@ unihan:kIRG_TSource
 ":gb4-42-24"
 unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
+":jis2-8-12"
+unihan:kIRG_JSource:4
 ":ks3-3-77"
 unihan3.0:kIRG_KSource
 unihan:kIRG_KSource
@@ -15208,6 +16518,8 @@ ivd:Adobe-Japan1
 "㝵"
 ivd:base
 -"㝶"
+":MJ000777"
+unihan:kIRG_JSource:MJ
 ":cns6-22-72"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15233,6 +16545,8 @@ unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 "尋"
 kVariants:=
+"𡬶"
+unihan:kSemanticVariant
 -"㝸"
 ":cns4-12-44"
 unihan3.0:kIRG_TSource
@@ -15282,6 +16596,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan15:kIRG_VSource:2
 unihan:kIRG_VSource:2
 -"㝺"
+":MJ000779"
+unihan:kIRG_JSource:MJ
 ":cns4-34-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15301,6 +16617,8 @@ unihan:kKangXi
 ":m7527"
 unihan:kMorohashi
 -"㝻"
+":MJ000780"
+unihan:kIRG_JSource:MJ
 ":cns5-44-67"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15315,6 +16633,8 @@ unihan:kKangXi
 ":m7530"
 unihan:kMorohashi
 -"㝼"
+":MJ000781"
+unihan:kIRG_JSource:MJ
 ":cns4-2-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15342,6 +16662,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㝾"
+":MJ000783"
+unihan:kIRG_JSource:MJ
 ":cns4-6-8"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15358,6 +16680,8 @@ unihan:kKangXi:virtual
 ":m49033"
 unihan:kMorohashi
 -"㝿"
+":MJ000784"
+unihan:kIRG_JSource:MJ
 ":cns4-6-7"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15377,6 +16701,8 @@ unihan:kKangXi
 ":m7570"
 unihan:kMorohashi
 -"㞀"
+":MJ000785"
+unihan:kIRG_JSource:MJ
 ":cns4-8-84"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15393,6 +16719,8 @@ unihan:kKangXi
 ":m7576"
 unihan:kMorohashi
 -"㞁"
+":MJ000786"
+unihan:kIRG_JSource:MJ
 ":cns4-8-85"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15409,6 +16737,8 @@ unihan:kMorohashi
 "㞁"
 unicode:svs:base
 -"㞂"
+":MJ000787"
+unihan:kIRG_JSource:MJ
 ":cns4-12-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15425,6 +16755,8 @@ unihan:kKangXi
 ":m7580"
 unihan:kMorohashi
 -"㞃"
+":MJ000788"
+unihan:kIRG_JSource:MJ
 ":cns5-17-85"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15442,6 +16774,8 @@ unihan:kKangXi
 ":m7585"
 unihan:kMorohashi
 -"㞄"
+":MJ000789"
+unihan:kIRG_JSource:MJ
 ":cns4-17-19"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15455,6 +16789,8 @@ unihan:kKangXi
 ":m7586"
 unihan:kMorohashi
 -"㞅"
+":MJ000790"
+unihan:kIRG_JSource:MJ
 ":cns5-17-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15469,6 +16805,8 @@ unihan:kKangXi
 ":m7588"
 unihan:kMorohashi
 -"㞆"
+":MJ000791"
+unihan:kIRG_JSource:MJ
 ":cns4-17-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15485,6 +16823,8 @@ unihan:kKangXi
 ":m7591"
 unihan:kMorohashi
 -"㞇"
+":MJ000792"
+unihan:kIRG_JSource:MJ
 ":cns4-23-8"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15501,6 +16841,8 @@ unihan:kKangXi:virtual
 ":m7595"
 unihan:kMorohashi
 -"㞈"
+":MJ000793"
+unihan:kIRG_JSource:MJ
 ":cns4-23-9"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15514,6 +16856,8 @@ unihan:kKangXi
 ":m7600"
 unihan:kMorohashi
 -"㞉"
+":MJ000794"
+unihan:kIRG_JSource:MJ
 ":cns4-28-81"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15527,6 +16871,8 @@ unihan:kKangXi
 ":m7605"
 unihan:kMorohashi
 -"㞊"
+":MJ000795"
+unihan:kIRG_JSource:MJ
 ":cns4-34-89"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15540,6 +16886,8 @@ unihan:kKangXi
 ":m7612"
 unihan:kMorohashi
 -"㞋"
+":MJ000796"
+unihan:kIRG_JSource:MJ
 ":cns3-2-32"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15553,6 +16901,8 @@ unihan:kKangXi
 ":m7637"
 unihan:kMorohashi
 -"㞌"
+":MJ000797"
+unihan:kIRG_JSource:MJ
 ":cns3-3-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15566,6 +16916,8 @@ unihan:kMorohashi
 -"㞍"
 ":JC4763"
 unicode:j:glyph
+":jis1-47-63"
+unihan:kIRG_JSource:A3
 ":jis10-2-22"
 unihan3.0:kIRG_JSource
 ":kx300-15-1"
@@ -15586,6 +16938,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㞏"
+":MJ000799"
+unihan:kIRG_JSource:MJ
 ":cns4-6-10"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15599,6 +16953,8 @@ unihan:kKangXi
 ":m7659"
 unihan:kMorohashi
 -"㞐"
+":MJ000800"
+unihan:kIRG_JSource:MJ
 ":cns3-8-50"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15617,6 +16973,8 @@ unihan:kMorohashi
 "居"
 unihan:kSemanticVariant
 -"㞑"
+":MJ000801"
+unihan:kIRG_JSource:MJ
 ":cns3-8-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15630,6 +16988,8 @@ unihan:kMorohashi
 "尾"
 kVariants:sem
 -"㞒"
+":MJ000802"
+unihan:kIRG_JSource:MJ
 ":cns4-8-89"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15643,6 +17003,8 @@ unihan:kKangXi
 ":m7683"
 unihan:kMorohashi
 -"㞓"
+":MJ000803"
+unihan:kIRG_JSource:MJ
 ":cns4-8-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15667,6 +17029,8 @@ unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
 unihan:kKangXi
 -"㞕"
+":MJ000804"
+unihan:kIRG_JSource:MJ
 ":cns3-12-24"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15683,6 +17047,8 @@ unihan:kKangXi
 ":m7694"
 unihan:kMorohashi
 -"㞖"
+":MJ000805"
+unihan:kIRG_JSource:MJ
 ":cns3-12-22"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15696,6 +17062,8 @@ unihan:kKangXi
 ":m7695"
 unihan:kMorohashi
 -"㞗"
+":MJ000806"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-8b60"
 unihan:kIRG_HSource
 ":cns4-12-46"
@@ -15714,6 +17082,8 @@ unihan:kKangXi
 ":m7712"
 unihan:kMorohashi
 -"㞘"
+":MJ000807"
+unihan:kIRG_JSource:MJ
 ":cns6-30-75"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15727,6 +17097,8 @@ unihan:kKangXi
 ":m7732"
 unihan:kMorohashi
 -"㞙"
+":MJ000808"
+unihan:kIRG_JSource:MJ
 ":cns3-21-37"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15737,6 +17109,8 @@ unihan:kKangXi:virtual
 ":m7748"
 unihan:kMorohashi
 -"㞚"
+":MJ000809"
+unihan:kIRG_JSource:MJ
 ":cns4-23-11"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15750,6 +17124,8 @@ unihan:kKangXi
 ":m7749"
 unihan:kMorohashi
 -"㞛"
+":MJ000810"
+unihan:kIRG_JSource:MJ
 ":cns5-23-70"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15763,6 +17139,8 @@ unihan:kKangXi
 ":m7760"
 unihan:kMorohashi
 -"㞜"
+":MJ000811"
+unihan:kIRG_JSource:MJ
 ":cns4-34-93"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15797,6 +17175,8 @@ unihan:kKangXi:virtual
 "𪨊"
 unihan:kSimplifiedVariant
 -"㞟"
+":MJ000812"
+unihan:kIRG_JSource:MJ
 ":cns4-41-42"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15823,6 +17203,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㞡"
+":MJ000813"
+unihan:kIRG_JSource:MJ
 ":cns3-58-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15836,6 +17218,8 @@ unihan:kMorohashi
 "展"
 kVariants:=
 -"㞢"
+":MJ000814"
+unihan:kIRG_JSource:MJ
 ":cns3-1-66"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15849,6 +17233,8 @@ unihan:kKangXi
 ":m7829"
 unihan:kMorohashi
 -"㞣"
+":MJ000815"
+unihan:kIRG_JSource:MJ
 ":cns4-3-87"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15863,6 +17249,8 @@ unihan:kKangXi
 ":m7838"
 unihan:kMorohashi
 -"㞤"
+":MJ000816"
+unihan:kIRG_JSource:MJ
 ":cns3-2-34"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15884,6 +17272,8 @@ ivd:Hanyo-Denshi
 "㞤"
 ivd:base
 -"㞥"
+":MJ000818"
+unihan:kIRG_JSource:MJ
 ":cns3-2-35"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15897,6 +17287,8 @@ unihan:kKangXi
 ":m7875"
 unihan:kMorohashi
 -"㞦"
+":MJ000819"
+unihan:kIRG_JSource:MJ
 ":cns3-2-33"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15910,6 +17302,8 @@ unihan:kKangXi
 ":m7877"
 unihan:kMorohashi
 -"㞧"
+":MJ000820"
+unihan:kIRG_JSource:MJ
 ":cns3-2-36"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15923,6 +17317,8 @@ unihan:kKangXi
 ":m7879"
 unihan:kMorohashi
 -"㞨"
+":MJ000821"
+unihan:kIRG_JSource:MJ
 ":cns3-3-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15934,6 +17330,8 @@ unihan:kKangXi
 ":m7890"
 unihan:kMorohashi
 -"㞩"
+":MJ000822"
+unihan:kIRG_JSource:MJ
 ":cns4-2-65"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15958,6 +17356,8 @@ unihan:kKangXi
 ":m7895"
 unihan:kMorohashi
 -"㞫"
+":MJ000824"
+unihan:kIRG_JSource:MJ
 ":cns4-3-91"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -15981,6 +17381,8 @@ unihan:kKangXi:virtual
 ":m7888"
 unihan:kMorohashi
 -"㞭"
+":MJ000826"
+unihan:kIRG_JSource:MJ
 ":cns3-3-55"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16000,6 +17402,8 @@ unihan:kKangXi:virtual
 "出"
 kVariants:simp
 -"㞯"
+":MJ000828"
+unihan:kIRG_JSource:MJ
 ":cns3-3-56"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16013,6 +17417,8 @@ unihan:kKangXi:virtual
 ":m7892"
 unihan:kMorohashi
 -"㞰"
+":MJ000829"
+unihan:kIRG_JSource:MJ
 ":cns4-3-88"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16026,6 +17432,8 @@ unihan:kKangXi
 ":m7907"
 unihan:kMorohashi
 -"㞱"
+":MJ000830"
+unihan:kIRG_JSource:MJ
 ":cns4-3-89"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16042,6 +17450,8 @@ unihan:kKangXi
 ":m7910"
 unihan:kMorohashi
 -"㞲"
+":MJ000831"
+unihan:kIRG_JSource:MJ
 ":cns3-5-64"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16053,6 +17463,8 @@ unihan:kKangXi
 ":m7912"
 unihan:kMorohashi
 -"㞳"
+":MJ000832"
+unihan:kIRG_JSource:MJ
 ":cns5-3-80"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16089,6 +17501,8 @@ unihan:kIRGKangXi
 unihan:kIRG_GSource:KX
 unihan:kKangXi
 -"㞶"
+":MJ000834"
+unihan:kIRG_JSource:MJ
 ":cns3-5-69"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16135,6 +17549,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㞹"
+":MJ000837"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-9abd"
 unihan:kIRG_HSource
 ":cns3-8-59"
@@ -16192,6 +17608,8 @@ unihan:kKangXi
 ":m7978"
 unihan:kMorohashi
 -"㞽"
+":MJ000841"
+unihan:kIRG_JSource:MJ
 ":cns4-6-14"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16205,6 +17623,8 @@ unihan:kKangXi
 ":m7980"
 unihan:kMorohashi
 -"㞾"
+":MJ000842"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-91b7"
 unihan:kIRG_HSource
 ":cns3-8-54"
@@ -16232,6 +17652,8 @@ unihan:kKangXi:virtual
 ":m8012"
 unihan:kMorohashi
 -"㟀"
+":MJ000844"
+unihan:kIRG_JSource:MJ
 ":cns3-8-57"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16249,6 +17671,8 @@ unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
 ":jis10-2-32"
 unihan3.0:kIRG_JSource
+":jis2-8-30"
+unihan:kIRG_JSource:A4
 ":kx310-7-1"
 unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
@@ -16282,6 +17706,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㟃"
+":MJ000847"
+unihan:kIRG_JSource:MJ
 ":cns5-5-78"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16295,6 +17721,8 @@ unihan:kKangXi:virtual
 ":m8018"
 unihan:kMorohashi
 -"㟄"
+":MJ000848"
+unihan:kIRG_JSource:MJ
 ":cns3-12-26"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16306,6 +17734,8 @@ unihan:kKangXi
 ":m8027"
 unihan:kMorohashi
 -"㟅"
+":MJ000849"
+unihan:kIRG_JSource:MJ
 ":cns4-8-91"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16332,6 +17762,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㟇"
+":MJ000850"
+unihan:kIRG_JSource:MJ
 ":cns4-12-59"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16345,6 +17777,8 @@ unihan:kKangXi
 ":m8069"
 unihan:kMorohashi
 -"㟈"
+":MJ000851"
+unihan:kIRG_JSource:MJ
 ":cns4-12-51"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16358,6 +17792,8 @@ unihan:kKangXi
 ":m8084"
 unihan:kMorohashi
 -"㟉"
+":MJ000852"
+unihan:kIRG_JSource:MJ
 ":cns4-12-49"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16371,6 +17807,8 @@ unihan:kKangXi
 ":m8088"
 unihan:kMorohashi
 -"㟊"
+":MJ000853"
+unihan:kIRG_JSource:MJ
 ":cns3-16-64"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16382,6 +17820,8 @@ unihan:kKangXi
 ":m8090"
 unihan:kMorohashi
 -"㟋"
+":MJ000854"
+unihan:kIRG_JSource:MJ
 ":cns4-12-63"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16395,6 +17835,8 @@ unihan:kKangXi
 ":m8092"
 unihan:kMorohashi
 -"㟌"
+":MJ000855"
+unihan:kIRG_JSource:MJ
 ":cns4-12-53"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16408,6 +17850,8 @@ unihan:kKangXi
 ":m8102"
 unihan:kMorohashi
 -"㟍"
+":MJ000856"
+unihan:kIRG_JSource:MJ
 ":cns3-16-60"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16419,6 +17863,8 @@ unihan:kKangXi
 ":m8104"
 unihan:kMorohashi
 -"㟎"
+":MJ000857"
+unihan:kIRG_JSource:MJ
 ":cns4-12-58"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16432,6 +17878,8 @@ unihan:kKangXi
 ":m8113"
 unihan:kMorohashi
 -"㟏"
+":MJ000858"
+unihan:kIRG_JSource:MJ
 ":cns4-12-62"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16445,6 +17893,8 @@ unihan:kKangXi
 ":m8121"
 unihan:kMorohashi
 -"㟐"
+":MJ000859"
+unihan:kIRG_JSource:MJ
 ":cns4-12-55"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16474,6 +17924,8 @@ ivd:Moji_Joho
 "㟐"
 ivd:base
 -"㟑"
+":MJ000861"
+unihan:kIRG_JSource:MJ
 ":cns3-16-61"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16497,6 +17949,8 @@ unihan:kKangXi:virtual
 ":m8087"
 unihan:kMorohashi
 -"㟓"
+":MJ000863"
+unihan:kIRG_JSource:MJ
 ":cns5-13-14"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16511,6 +17965,8 @@ unihan:kKangXi
 ":m8095"
 unihan:kMorohashi
 -"㟔"
+":MJ000864"
+unihan:kIRG_JSource:MJ
 ":cns3-16-69"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16542,6 +17998,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㟗"
+":MJ000865"
+unihan:kIRG_JSource:MJ
 ":cns3-21-54"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16557,6 +18015,8 @@ unihan:kSemanticVariant
 "邠"
 unihan:kSemanticVariant
 -"㟘"
+":MJ000866"
+unihan:kIRG_JSource:MJ
 ":cns3-21-41"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16568,6 +18028,8 @@ unihan:kKangXi
 ":m8148"
 unihan:kMorohashi
 -"㟙"
+":MJ000867"
+unihan:kIRG_JSource:MJ
 ":cns4-17-23"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16581,6 +18043,8 @@ unihan:kKangXi
 ":m8158"
 unihan:kMorohashi
 -"㟚"
+":MJ000868"
+unihan:kIRG_JSource:MJ
 ":cns3-21-44"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16622,6 +18086,8 @@ unihan:kMorohashi
 "𡾱"
 unihan:kTraditionalVariant
 -"㟝"
+":MJ000871"
+unihan:kIRG_JSource:MJ
 ":cns3-21-45"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16633,6 +18099,8 @@ unihan:kKangXi
 ":m8195"
 unihan:kMorohashi
 -"㟞"
+":MJ000872"
+unihan:kIRG_JSource:MJ
 ":cns4-17-25"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16675,6 +18143,8 @@ ivd:Moji_Joho
 "㟟"
 ivd:base
 -"㟠"
+":MJ000875"
+unihan:kIRG_JSource:MJ
 ":cns3-21-48"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16698,6 +18168,8 @@ unicode:j:glyph
 ":cns15-20-31"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis1-47-79"
+unihan:kIRG_JSource:A3
 ":jis10-2-38"
 unihan3.0:kIRG_JSource
 ":kx315-15-1"
@@ -16753,6 +18225,8 @@ unihan:kKangXi:virtual
 kVariants:simp
 unihan:kTraditionalVariant
 -"㟦"
+":MJ000878"
+unihan:kIRG_JSource:MJ
 ":cns3-27-15"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16765,6 +18239,8 @@ unihan:kIRGKangXi
 unihan:kKangXi
 ":m8247"
 unihan:kMorohashi
+"𮱩"
+unihan:kSimplifiedVariant
 -"㟧"
 ":cns3-27-18"
 unihan3.0:kIRG_TSource
@@ -16800,6 +18276,8 @@ ivd:base
 ":cns3-27-9"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
+":jis2-8-54"
+unihan:kIRG_JSource:4
 ":kx316-11"
 unihan3.0:kIRGKangXi
 unihan:kIRGKangXi
@@ -16813,6 +18291,8 @@ ivd:Adobe-Japan1
 "㟨"
 ivd:base
 -"㟩"
+":MJ000882"
+unihan:kIRG_JSource:MJ
 ":cns4-23-18"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16824,6 +18304,8 @@ unihan:kKangXi
 ":m8290"
 unihan:kMorohashi
 -"㟪"
+":MJ000883"
+unihan:kIRG_JSource:MJ
 ":cns4-23-20"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16840,6 +18322,8 @@ unihan:kKangXi
 ":m8292"
 unihan:kMorohashi
 -"㟫"
+":MJ000884"
+unihan:kIRG_JSource:MJ
 ":cns3-27-21"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16851,6 +18335,8 @@ unihan:kKangXi
 ":m8298"
 unihan:kMorohashi
 -"㟬"
+":MJ000885"
+unihan:kIRG_JSource:MJ
 ":cns4-28-82"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16868,6 +18354,8 @@ unihan:kKangXi:virtual
 ":m8315"
 unihan:kMorohashi
 -"㟭"
+":MJ000886"
+unihan:kIRG_JSource:MJ
 ":cns3-27-16"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16897,6 +18385,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㟰"
+":MJ000887"
+unihan:kIRG_JSource:MJ
 ":cns4-28-86"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16916,6 +18406,8 @@ unihan:kKangXi
 ":m8326"
 unihan:kMorohashi
 -"㟱"
+":MJ000888"
+unihan:kIRG_JSource:MJ
 ":cns4-28-83"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16942,6 +18434,8 @@ ivd:Hanyo-Denshi
 "㟱"
 ivd:base
 -"㟲"
+":MJ000890"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-95b4"
 unihan:kIRG_HSource
 ":cns4-28-94"
@@ -16957,6 +18451,8 @@ unihan:kKangXi
 ":m49054"
 unihan:kMorohashi
 -"㟳"
+":MJ000891"
+unihan:kIRG_JSource:MJ
 ":cns5-30-77"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -16977,6 +18473,8 @@ unihan:kIRG_TSource
 ":gb4-27-47"
 unihan3.0:kIRG_GSource:5
 unihan:kIRG_GSource:5
+":jis2-8-57"
+unihan:kIRG_JSource:4
 ":kps1-3fc0"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -17013,6 +18511,8 @@ unihan:kMorohashi
 "㟠"
 kVariants:sem
 -"㟶"
+":MJ000894"
+unihan:kIRG_JSource:MJ
 ":cns3-32-91"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -17034,6 +18534,8 @@ unihan3.0:kIRGKangXi:virtual
 unihan:kIRGKangXi:virtual
 unihan:kKangXi:virtual
 -"㟸"
+":MJ000895"
+unihan:kIRG_JSource:MJ
 ":b5-hkscs-fec5"
 unihan:kIRG_HSource
 ":cns4-28-87"
@@ -17049,6 +18551,8 @@ unihan:kKangXi:virtual
 ":m8376"
 unihan:kMorohashi
 -"㟹"
+":MJ000896"
+unihan:kIRG_JSource:MJ
 ":cns4-35-2"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -17065,6 +18569,8 @@ unihan:kKangXi
 ":m8390"
 unihan:kMorohashi
 -"㟺"
+":MJ000897"
+unihan:kIRG_JSource:MJ
 ":cns6-60-36"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -17101,6 +18607,8 @@ unihan:kKangXi
 ":m8411"
 unihan:kMorohashi
 -"㟼"
+":MJ000899"
+unihan:kIRG_JSource:MJ
 ":cns4-35-10"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -17127,6 +18635,8 @@ unihan3.0:kIRG_GSource:3
 unihan:kIRG_GSource:3
 ":jis10-2-43"
 unihan3.0:kIRG_JSource
+":jis2-8-60"
+unihan:kIRG_JSource:A4
 ":kps1-3fd6"
 unihan15:kIRG_KPSource
 unihan:kIRG_KPSource
@@ -17145,6 +18655,8 @@ ivd:Adobe-Japan1
 "㟽"
 ivd:base
 -"㟾"
+":MJ000901"
+unihan:kIRG_JSource:MJ
 ":cns3-38-53"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -17156,6 +18668,8 @@ unihan:kKangXi
 ":m8421"
 unihan:kMorohashi
 -"㟿"
+":MJ000902"
+unihan:kIRG_JSource:MJ
 ":cns4-35-4"
 unihan3.0:kIRG_TSource
 unihan:kIRG_TSource
@@ -21090,6 +22604,9 @@ ucd:names:x
 ucd:names:x
 "〟"
 ucd:names:preferred-some
+-"〦"
+"𖿴"
+ucd:names:x
 -"〬"
 "̉"
 unicode:security:confusable
@@ -21170,6 +22687,9 @@ unicode:security:confusable
 -"ー"
 "—"
 ucd:names:x
+-"ㄦ"
+"儿"
+unicode:security:confusable
 -"ㅐ"
 "ᅡ丨"
 unicode:security:confusable
