@@ -200,9 +200,8 @@
     {"path": "../unicode/maps-29.list", "rels_key": "descs"},
     {"path": "../whatwg/entities-0.list", "rels_key": "descs"},
     {"path": "../misc/variants.list", "rels_key": "descs"},
-    {"path": "../misc/swc-0.list", "rels_key": "descs"}
-
-    
+    {"path": "../misc/swc-0.list", "rels_key": "descs"},
+    {"path": "../../local/iwm/chise-0.list", "rels_key": "components"}    
   ],
   "leader_types": [
   ],

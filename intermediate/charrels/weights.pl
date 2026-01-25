@@ -74,6 +74,38 @@ our $DefaultTypeMergeableWeight = W 'SAME';
     "tron:definition",
     "tron:fixed",
     "tron:removed",
+
+    qw(
+      chise:=>ucs
+      chise:=>jis-x0208
+      chise:=>jis-x0212
+      chise:=>jis-x0213-1
+      chise:=>jis-x0213-2
+      chise:==adobe-japan1
+      chise:==adobe-japan1-base
+      chise:==adobe-japan1-0
+      chise:==adobe-japan1-1
+      chise:==adobe-japan1-2
+      chise:==adobe-japan1-3
+      chise:==adobe-japan1-4
+      chise:==adobe-japan1-5
+      chise:==adobe-japan1-6
+      chise:==hanyo-denshi/ip
+      chise:==hanyo-denshi/jt
+      chise:==hanyo-denshi/ks
+      chise:==hanyo-denshi/tk
+      chise:==hanyo-denshi/ja
+      chise:==hanyo-denshi/jb
+      chise:==hanyo-denshi/jc
+      chise:==hanyo-denshi/jd
+      chise:==hanyo-denshi/je
+      chise:==hanyo-denshi/jf
+      chise:==hanyo-denshi/ft
+      chise:==hanyo-denshi/ia
+      chise:==hanyo-denshi/ib
+      chise:==hanyo-denshi/hg
+      chise:==mj
+    ),
     
     "glyphwiki:revision",
     "glyphwiki:同字形",
@@ -1585,6 +1617,8 @@ manakai:unified:jisx9052:glyph
     "yaids:lv2:alternative:contains",
     "mj:ids:contains",
     "manakai:ids:contains",
+
+    "test",
   ) {
     $TypeWeight->{$vtype} = W 'LINKED';
     $TypeWeight->{'rev:'.$vtype} = -1;
@@ -1657,6 +1691,39 @@ manakai:unified:jisx9052:glyph
   for my $vtype (@$json) {
     $TypeWeight->{$vtype} //= W 'RELATED';
     $TypeWeight->{"rev:$vtype"} //= -1;
+  }
+}
+
+{
+  our $RootPath;
+  my $path = $RootPath->child ('local/iwm/chisereltypes.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $vtype (@$json) {
+    if ($vtype =~ /^chise:===\w/) {
+      $TypeWeight->{$vtype} = W 'UNIFIED';
+      $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
+    } elsif ($vtype =~ /^chise:(?:<=|=>)(?:decomposition\@square)/) {
+      $TypeWeight->{$vtype} //= W 'RELATED';
+      $TypeWeight->{"rev:$vtype"} //= -1;
+    } elsif ($vtype =~ /^chise:==?>/ or
+             $vtype =~ /^chise:(?:<-|->)(?:Bopomofo)/) {
+      $TypeWeight->{$vtype} = W 'COVERED';
+      $TypeWeight->{'rev:'.$vtype} = -1;
+      $TypeWeight->{'to1:'.$vtype} = -1;
+      $TypeWeight->{'to1:rev:'.$vtype} = -1;
+      $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
+    } elsif ($vtype =~ /^chise:=/ or
+             $vtype =~ /^chise:(?:<-|->)(?:denotational|subsumptive|formed|same|simplified|vulgar|wrong|original|ancient|Small-Seal|mistalable|Large-Seal|Oracle-Bones|Qizi|Zhouwen|avoiding-taboo|canonical|fullwidth|ideographic-variants|lowercase|synonyms|titlecase|uppercase|wrong|Caoshu|HNG|Ideograph|Suzhou-Numerals|antonym|error|font|halfwidth|identical|kangxi|noBreak|radical|small|subscript|superscript|vertical)/ or
+             $vtype =~ /^chise:(?:chinese-|ethiopic|latin-|katakana-|hebrew-|greek-|arabic-|thai-|lao|ipa|ascii|control)/) {
+      $TypeWeight->{$vtype} = W 'EQUIV';
+      $TypeWeight->{'rev:'.$vtype} = W 'EQUIV';
+    } elsif ($vtype =~ /^chise:(?:<-|->)(?:interchangeable)$/) {
+      $TypeWeight->{$vtype} //= W 'LINKED';
+      $TypeWeight->{"rev:$vtype"} //= -1;
+    } else {
+      $TypeWeight->{$vtype} //= W 'LINKED';
+      $TypeWeight->{"rev:$vtype"} //= -1;
+    }
   }
 }
 

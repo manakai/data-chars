@@ -16,7 +16,7 @@ my @dep_path;
   push @dep_path, $InputPath;
   $Input = json_bytes2perl $InputPath->slurp;
   my $key = $Input->{key};
-  die "Bad key |$key|" unless $key =~ /\A[a-z]+\z/;
+  die "Bad key |$key|" unless $key =~ /\A[a-z]+[0-9]*\z/;
   $DestDirPath = $DestPath->child ($key);
   $DestDirPath->mkpath;
 }

@@ -35,16 +35,19 @@ my $Rels = {};
 my $HasRels = {};
 my $HasRelTos = {};
 my $RevRels = [];
-for (
-  map {
-    [$_->{path}, $_->{rels_key} || '(none)',
-     $_->{set_map} || {}, $_->{mv_map} || {}],
-  } @{$Input->{inputs}},
-) {
-  my ($x, $rels_key, $setmap, $mvmap) = @$_;
-  my $path = $DataPath->child ($x);
-  print STDERR "\rLoading |$path|... ";
-  my $json = {};
+{
+  my $all = @{$Input->{inputs}};
+  my $n = 0;
+  for (
+    map {
+      [$_->{path}, $_->{rels_key} || '(none)',
+       $_->{set_map} || {}, $_->{mv_map} || {}],
+    } @{$Input->{inputs}},
+  ) {
+    my ($x, $rels_key, $setmap, $mvmap) = @$_;
+    my $path = $DataPath->child ($x);
+    print STDERR "\rLoading ($n/$all) |$path|... "; $n++;
+    my $json = {};
   if ($path =~ /\.json$/) {
     $json = json_bytes2perl $path->slurp;
   } else {
@@ -85,6 +88,7 @@ for (
     $Rels->{$_->[0]}->{$_->[1]}->{$_->[2]} = 1;
   }
 }
+}
 for my $r (@$RevRels) {
   if (exists $Rels->{$r->[1]}->{$r->[0]}->{$r->[2]}) {
     #
@@ -107,7 +111,7 @@ for my $vtype (@$NTypes, (map { @$_ } @$PairedTypes)) {
       $Rels->{$c1}->{$c}->{'to1:'.$vt2} = 1;
     }
   } # C1
-}
+} # $vtype
 for my $vtype (@$NTypes) {
   my $vt2 = $vtype;
   #$vt2 =~ s/\d+$//;
@@ -137,9 +141,33 @@ for (@$PairedTypes) {
 }
 
 {
-  printf STDERR "\rRels (%d)...", 0+keys %$Rels;
+  my $path = $DataPath->child ('merged-chars.jsonl');
+  #print STDERR "\rWriting[2/4] |$path|... ";
+  my $file = $path->openw;
+  sub write_merged_char ($) {
+    print $file perl2json_bytes $_[0];
+    print $file "\x0A";
+  } # write_merged_char
+}
+{
+  my $path = $DataPath->child ("merged-rels.jsonll");
+  #print STDERR "\rWriting[4/4] |$path|... ";
+  my $file = $path->openw;
+  #my $c1s = [sort { $a cmp $b } keys %$Rels];
+  sub write_merged_rels ($$) {
+    print $file perl2json_bytes_for_record $_[0]; # trailing \x0A
+    print $file "\x0A";
+    print $file perl2json_bytes_for_record $_[1]; # trailing \x0A
+    print $file "\x0A";
+  }
+}
+
+{
+  my $all = 0+keys %$Rels;
+  my $n = 0;
   my $UnweightedTypes = {};
   for my $c1 (keys %$Rels) {
+    print STDERR "\rRels ($n/$all)..." if $n++ % 10000 == 0;
     for my $c2 (keys %{$Rels->{$c1}}) {
       my $types = $Rels->{$c1}->{$c2};
       die perl2json_bytes [$c1, $c2, $types] if $c1 eq $c2;
@@ -155,7 +183,9 @@ for (@$PairedTypes) {
         $TypeMergeableWeight->{$_} || $DefaultTypeMergeableWeight;
       } keys %$types]->[0];
     }
-  }
+    write_merged_char $c1;
+    write_merged_rels $c1, delete $Rels->{$c1};
+  } # $c1
 
   die "Unweighted: \n", join ("\n", sort { $a cmp $b } keys %$UnweightedTypes), "\n"
       if keys %$UnweightedTypes;
@@ -200,30 +230,9 @@ for (keys %$TypeWeight) {
   $path->spew (perl2json_bytes_for_record $Data);
 }
 {
-  my $path = $DataPath->child ('merged-chars.jsonl');
-  print STDERR "\rWriting[2/4] |$path|... ";
-  my $file = $path->openw;
-  for (keys %$Rels) {
-    print $file perl2json_bytes $_;
-    print $file "\x0A";
-  }
-}
-{
   my $path = $DataPath->child ('merged-sets.json');
   print STDERR "\rWriting[3/4] |$path|... ";
   $path->spew (perl2json_bytes_for_record $Sets);
-}
-{
-  my $path = $DataPath->child ("merged-rels.jsonll");
-  print STDERR "\rWriting[4/4] |$path|... ";
-  my $file = $path->openw;
-  my $c1s = [sort { $a cmp $b } keys %$Rels];
-  for my $c1 (@$c1s) {
-    print $file perl2json_bytes_for_record $c1; # trailing \x0A
-    print $file "\x0A";
-    print $file perl2json_bytes_for_record $Rels->{$c1}; # trailing \x0A
-    print $file "\x0A";
-  }
 }
 
 printf STDERR "\rDone (%d s) \n", time - $StartTime;

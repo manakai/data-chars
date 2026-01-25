@@ -1,0 +1,10 @@
+{
+  "key": "tc2",
+  "inputs": [
+    {"path": "../../local/iwm/chise-0.list", "rels_key": "components"}
+  ],
+  "leader_types": [
+  ],
+  "tests": [
+  ]
+}

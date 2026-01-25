@@ -21,6 +21,7 @@ build-pages: $(TEMP_PATH) \
     $(DATA_PATH)/gwrelated-0.list \
     $(DATA_PATH)/gwrels-0.list \
     $(TEMP_PATH)/gwreltypes.json \
+    $(TEMP_PATH)/chise-0.list \
     $(TEMP_PATH)/imported-0.list
 
 $(TEMP_PATH):
@@ -70,6 +71,16 @@ $(TEMP_PATH)/0213.txt:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/wakaba/data-chartables/master/source/gl-jisx0213-add.tbr
 $(TEMP_PATH)/repos/data-chartables:
 	git clone https://github.com/manakai/data-chartables $@ || (cd $@ && git pull)
+
+$(TEMP_PATH)/utf2000:
+	git clone https://github.com/chise/xemacs-chise $@ || (cd $@ && git pull)
+$(TEMP_PATH)/u2k-rev: $(TEMP_PATH)/utf2000
+	cd $< && git rev-parse HEAD > ../u2k-rev
+$(TEMP_PATH)/u2k.jsonl: u2k.pl $(TEMP_PATH)/utf2000
+	$(PERL) $< $(TEMP_PATH)/utf2000/lisp/utf-2000 > $@
+$(TEMP_PATH)/chise-0.list: $(TEMP_PATH)/u2k.jsonl chise.pl \
+    $(TEMP_PATH)/u2k-rev
+	$(PERL) chise.pl `cat $(TEMP_PATH)/u2k-rev` $<
 
 $(TEMP_PATH)/gw.tar.gz:
 	$(SAVEURL) $@ https://fonts.suikawiki.org/glyphwiki/dump-2.tar.gz
@@ -246,7 +257,8 @@ $(DATA_PATH)/gwaliases-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwcontains-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwrels-0.list: $(DATA_PATH)/gwrelated-0.list
 
-$(TEMP_PATH)/imported-0.list: imported.pl $(TEMP_PATH)/repos/data-chartables
+$(TEMP_PATH)/imported-0.list: imported.pl $(TEMP_PATH)/repos/data-chartables \
+    $(TEMP_PATH)/utf2000.pl
 	$(PERL) $<
 
 ## License: Public Domain.

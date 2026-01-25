@@ -58,3 +58,14 @@ License of the GlyphWiki articles:
 > そのままコピーしたものをフォントとして著作物とすることを妨げません。
 > 記事中に引用されている部分については、グリフウィキには著作権はありま
 > せんので引用元のライセンスを確認してください。
+
+* CHISE data files
+
+Some of data in this directory are derived from CHISE, with or without
+modifications.
+
+License of the CHISE database:
+
+<https://github.com/chise/xemacs-chise/blob/master/COPYING>
+
+GPL2.

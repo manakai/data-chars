@@ -15,6 +15,7 @@ clean-pages: _clean-pages
 
 _build-all: \
     build-chars build-components \
+    build-tc1 build-tc2 \
     build-hans build-descs build-glyphs build-kanas build-kchars
 
 build-chars:
@@ -23,6 +24,12 @@ build-chars:
 build-components:
 	$(PERL) $(VGEN_PATH)/generate.pl components-input.json
 	cd $(VGEN_DATA_PATH)/components/ && $(MAKE) all test
+build-tc1:
+	$(PERL) $(VGEN_PATH)/generate.pl tc1-input.json
+	cd $(VGEN_DATA_PATH)/tc1/ && $(MAKE) all test
+build-tc2:
+	$(PERL) $(VGEN_PATH)/generate.pl tc2-input.json
+	cd $(VGEN_DATA_PATH)/tc2/ && $(MAKE) all test
 
 ## OBSOLETE
 build-kanas:

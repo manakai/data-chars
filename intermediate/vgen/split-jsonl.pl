@@ -13,6 +13,32 @@ my $Index = {};
   my $PrefixPattern;
   {
     my $prefixes = [qw(
+      ac ac1 ac2 ag ag1 ag2
+      aj1 aj11 aj12 aj13 aj14 aj15 aj16 aj17 aj18 aj19
+      aj2 aj3 aj4 aj5 aj6 aj7 aj8 aj9 aj aj2-1 aj2-
+      ak ak1 ak2 ak1-
+      c cns cns-old cns1 cns1-1 cns2 cns2-1 cns3 cns3-1 cns4 cns4-1
+      cns5 cns6 cns7 cns8 cns9 cns10 cns11 cns12 cns13 cns14 cns15
+      cns16 cns17 cns18 cns19 u-cns u-cns-f0 u-cns-f1 u-cns-f2 u-cns-f3
+      u-cns-f6 u-cns-fd u-cns-ff
+      cbeta cdp 
+      chise- chise-a. chise-g2. chise-o. chise-g.
+      chise-a2. chise-a.ucs
+      chise-repi. chise-repi.ucs chise-repi.a chise-repi.d chise-repi.c
+      chise-repi.j chise-repi.s
+      chise-g.ucs chise-g2.ucs chise-g2.ucs@u chise-g2.ucs@i
+      chise-rep. chise-rep.d chise-rep.ucs chise-rep.ucs= chise-rep.c
+      chise-rep.j chise-rep.s chise-rep.a chise-rep.ucs=1 chise-rep.ucs=2
+      chise-rep.ucs=3 chise-rep.ucs@c chise-rep.ucs@i chise-rep.ucs@u
+      chise-rep.z
+      g gb0 gb0-1 gb0-2 gb1 gb2 gb3 gb4 gb8 gb u-gb gbk
+      J JA JB JC JD JT I
+      j jmj jmj-01 jmj-02 jmj-03 jmj-04 jmj-05 jsp
+      ju juc juki-3 juki-4 juki-5 juki-6 juki-7 juki-8 juki-9 juki-a juki-f
+      jis1 jis1-1 jis1-2 jis1-3 jis1-4 jis1-5 jis1-6 jis1-7 jis1-8 jis1-9
+      jis2 jis2-1 jis2-2 jis2-3 jis2-4 jis2-5 jis2-6 jis2-7 jis2-8 jis2-9
+      jis-arib u-arib jistype jis-dot
+      KS KS0 KS1 KS2 KS3 KS4 KS5 KS00
       MJ MJ00 MJ000 MJ001 MJ002 MJ003 MJ004 MJ005 MJ006
       MJ01 MJ010 MJ011 MJ012 MJ013 MJ014 MJ015
       MJ02 MJ020 MJ021 MJ022 MJ023 MJ024 MJ025
@@ -20,21 +46,15 @@ my $Index = {};
       MJ04 MJ040 MJ041 MJ042 MJ043 MJ044
       MJ05 MJ050 MJ051 MJ052 MJ053 MJ054
       MJ06
-      ac ac1 ac2 ag ag1 ag2
-      aj1 aj11 aj12 aj13 aj14 aj15 aj16 aj17 aj18 aj19
-      aj2 aj3 aj4 aj5 aj6 aj7 aj8 aj9 aj aj2-1 aj2-
-      ak ak1 ak2 ak1-
-      j jmj jmj-01 jmj-02 jmj-03 jmj-04 jmj-05 jsp
-      ju juc juki-3 juki-4 juki-5 juki-6 juki-7 juki-8 juki-9 juki-a juki-f
-      jis1 jis1-1 jis1-2 jis1-3 jis1-4 jis1-5 jis1-6 jis1-7 jis1-8 jis1-9
-      jis2 jis2-1 jis2-2 jis2-3 jis2-4 jis2-5 jis2-6 jis2-7 jis2-8 jis2-9
-      jis-arib u-arib jistype jis-dot
-      c cns cns-old cns1 cns1-1 cns2 cns2-1 cns3 cns3-1 cns4 cns4-1
-      cns5 cns6 cns7 cns8 cns9 cns10 cns11 cns12 cns13 cns14 cns15
-      cns16 cns17 cns18 cns19 u-cns u-cns-f0 u-cns-f1 u-cns-f2 u-cns-f3
-      u-cns-f6 u-cns-fd u-cns-ff
-      cbeta cdp 
-      g gb0 gb0-1 gb0-2 gb1 gb2 gb3 gb8 gb u-gb
+      m m1 m10 m2 m20 m21 m22 m23 m24 m2a m2b m2c m2d m2e m2f
+      m3 m4 m5 m6 m7 m8 m9 F G I r w v
+      TK 
+      swc supercjk s s0 s1 sa si
+      t touki twedu toki touyou t0 tensho t1 
+      tron tron1 tron2 tron3 tron4 tron5 tron6 tron7
+      tron8 tron9 tron10 tron11 tron12 tron16 tron17 tron22 tron23 tron13
+      tron1-2 tron1-3 tron1-4 tron1-5 tron1-6 tron1-7 tron1-f tron1-e
+      tron1-d tron1-c tron1-b tron1-a
       u UK u-uk sat u0
       u1 u10 u11 u12 u13 u1a u1b u1c u1d u1e u1f
       u2 u20 u21 u22 u23 u24 u25 u26 u27 u28 u29
@@ -46,7 +66,6 @@ my $Index = {};
       u6 u60 u61 u62 u63 u64 u65 u66 u67 u68 u69 u6a u6b u6c u6d u6e u6f
       u7 u70 u71 u72 u73 u74 u75 u8 u80 u81 u82 u83 u84 u85 u86 u87 u88 u89
       u9 u90 u91 u92 u93 u94 u95 u96 u97 u98 u99 ua ub uc ud ue uf un u-
-      swc
       b b5 b5-8 b5-9 b5-a b5-b b5-c b5-d b5-e b5-f b5-hkscs b5-uao b5-cdp 
       u-bigfive u-hkscs u-uao
       cccii cccii1 cccii2 cccii3 cccii4 cccii9
@@ -54,14 +73,9 @@ my $Index = {};
       ko koseki koseki0 koseki1 koseki2 koseki3 koseki4 koseki5
       koseki-0 koseki-1 koseki-2 koseki-3 koseki-4 koseki-5 koseki-9
       n ni ny
-      t touki twedu toki tron t0 tron1 tron2 tron3 tron4 tron5 tron6 tron7
-      tron8 tron9 tron10 tron11 tron12 tron16 tron17
-      KS KS0 KS1 KS2 KS3 TK J JA JB JC JD JT I
       d d0 d1 di dot dsf dsff dsfull dsfff dsfff1 dsfff2 dsfff3 dsfff4 dsfff5
       dsffull dsffull1 dsffull2 dsffull3 dsffull4 dsffull5 dsffull6
       dkw dkw-h dkw-0 dkw-1 dkw-2 dkw-3 dkw-4
-      m m1 m2 m20 m21 m22 m23 m24 m2a m2b m2c m2d m2e m2f
-      m3 m4 m5 m6 m7 m8 m9 F G I r s s0 s1 sa si w v supercjk
       kx kx0 kx1 y
       h hk hkrm-01 hkrm-02 hkrm-03 hkrm-04 hkrm-05 hkrm-06 hi he
       g gt gt1 gt2 gt3 gt4 gt5 gt6 gt7 gt8 gt9 g9
@@ -95,7 +109,8 @@ my $Index = {};
         return 0xFF;
       }
     } elsif ($c1 =~ /([\x{2FF0}-\x{2FFF}])/) {
-      return 0x300 - 0x30 - 0x2FF0 + (ord $1) + (ord substr $c1, -2, 1) % 0x10 + (ord substr $c1, -1, 1) % 0x10;
+      my $x = (ord substr $c1, -2, 1) % 0x10 + (ord substr $c1, -1, 1) % 0x10;
+      return 0x300 - 0x30 - 0x2FF0 + (ord $1) + $x;
     } elsif ($c1 =~ /\A:(?:gw-(?:[a-z0-9-]+_|heisei-|)|)($PrefixPattern)/o) {
       ## see also: |site.js|'s |index.prefixPattern|
       return $to_index->{$1} // die $1;

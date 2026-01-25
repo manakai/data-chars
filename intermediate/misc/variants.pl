@@ -125,6 +125,9 @@ sub private ($) {
       my $c1 = ue $3;
       my $c2 = ue $2;
       my $key = get_vkey $c2;
+      if ($1 eq "oblique") {
+        ($c1, $c2) = ($c2, $c1);
+      }
       $key = 'kanas' if $c1 =~ /^:u-jitaichou-/;
       $Data->{$key}->{$c1}->{$c2}->{$vtype} = 1;
       private $c1;

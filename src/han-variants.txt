@@ -122,6 +122,7 @@ vpairs 𠪱/曆 厯/暦
 sconflict 厂 鴈
 
 sconflict 广 廣
+sconflict 广 広
 sconflict 广 鹿
 sconflict 广 摩
 sconflict 广 魔

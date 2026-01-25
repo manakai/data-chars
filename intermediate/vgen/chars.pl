@@ -539,11 +539,21 @@ sub is_ids ($) {
 } # is_ids
 
 sub is_ids_char ($) {
-  return $_[0] =~ /^:[$IDC]/o;
+  return $_[0] =~ /^:[$IDC]|^:idch:/o;
 } # is_ids_char
+
+sub to_ids_char ($) {
+  ## Assert: $_[0] is a |:|-prefixed IDS or a real IDS
+  if ($_[0] =~ /^:/) {
+    return ':idch' . $_[0];
+  } else {
+    return ':' . $_[0];
+  }
+} # to_ids_char
 
 sub wrap_ids ($$) {
   my ($s, $prefix) = @_;
+  return undef unless defined $s;
   use utf8;
   if ($prefix eq ':cjkvi:' and $s =~ /^([\x{E000}-\x{F8FF}])$/) {
     return sprintf ':u-cdp-%x', ord $1;

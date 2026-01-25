@@ -612,11 +612,8 @@
       "rels_key": "variants"
     },
     {"path": "../misc/swc-0.list", "rels_key": "variants"},
-    {"path": "../../local/iwm/imported-0.list", "rels_key": "variants"}
-
-
-    ,
-
+    {"path": "../../local/iwm/imported-0.list", "rels_key": "variants"},
+    {"path": "../../local/iwm/chise-0.list", "rels_key": "rels"},
     
     {
       "path": "../unicode/variants.json",
