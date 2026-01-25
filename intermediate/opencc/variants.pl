@@ -44,7 +44,9 @@ for (
   }
   $rel_type =~ s/\.txt$//;
   for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
-    if (/^([\w\x{30000}-\x{3FFFC}])\t((?:[\w\x{30000}-\x{3FFFC}])(?:\s+[\w\x{30000}-\x{3FFFC}])*)(?:$|\t)/) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^([\w\x{30000}-\x{3FFFC}])\t((?:[\w\x{30000}-\x{3FFFC}])(?:\s+[\w\x{30000}-\x{3FFFC}])*)(?:$|\t)/) {
       my $c1 = $1;
       my $c2s = [split /\s+/, $2];
       die $c1 if not is_han $c1;
