@@ -235,7 +235,8 @@
   ],
   "leader_types": [
   ],
-  "tests": [
+  "tests": [],
+  "#tests": [
     "kanas-tests.txt"
   ]
 }

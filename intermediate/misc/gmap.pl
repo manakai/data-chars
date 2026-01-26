@@ -94,6 +94,9 @@ my $Data = {};
           } elsif ($is_kana and /^U\+([0-9A-F]+):(Uv|Uh1|Uh2|U15|U6|shsv?|bshv?|kai|sung|shgv?|kleev?|notohentai|shokaki|refv?|refsmallv?|twkana|18030-2022)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['uni', $ucs, $2];
+          } elsif (/^:u-(hannomkhai)-([0-9a-f]+)$/) {
+            my $ucs = sprintf '%04X', hex $2;
+            push @item, ['uni', $ucs, $1];
           } elsif (/^(GL[1-5])"(.)"(v?)$/) {
             my $ucs = sprintf '%04X', ord $2;
             push @item, ['uni', $ucs, $1.$3];

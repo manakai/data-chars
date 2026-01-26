@@ -1032,6 +1032,7 @@ manakai:unified:jisx9052:glyph
     "wikisource:ja:新旧字体変換用辞書:その他の漢字",
     "nihuINT:variant",
     "geolonia:oldnew",
+    "KanjiChineseConverter:JaZhCn",
 
     "wenjian:日本基本補助→中国基本",
     "wenjian:各国漢字→旧字体",

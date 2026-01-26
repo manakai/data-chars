@@ -157,6 +157,12 @@ $(TEMP_PATH)/gw-jouyouoldmj.txt:
 $(TEMP_PATH)/gw-jinmeikoseki.txt: 
 	$(SAVEURL) $@ https://glyphwiki.org/wiki/Group:%e4%ba%ba%e5%90%8d%e7%94%a8%e6%bc%a2%e5%ad%97-%e5%ad%97%e5%bd%a2?action=edit
 
+$(TEMP_PATH)/dict.ts:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/geolonia/normalize-japanese-addresses/master/src/lib/dictionaries/jisDai2.ts
+
+$(TEMP_PATH)/ja_zh_cn.rb:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/takp/kanji_chinese_converter/refs/heads/master/lib/kanji_chinese_converter/ja_zh_cn.rb
+
 ../jp/jouyouh22-table.json:
 	cd ../jp && $(MAKE) jouyouh22-table.json
 
@@ -222,6 +228,8 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/gw-jouyouoldmj.txt \
     $(TEMP_PATH)/gw-jinmeikoseki.txt \
     $(TEMP_PATH)/jaconvert.html \
+    $(TEMP_PATH)/dict.ts \
+    $(TEMP_PATH)/ja_zh_cn.rb \
     doukun.txt \
     gbk.txt \
     manyou.txt \
@@ -257,8 +265,7 @@ $(DATA_PATH)/gwaliases-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwcontains-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwrels-0.list: $(DATA_PATH)/gwrelated-0.list
 
-$(TEMP_PATH)/imported-0.list: imported.pl $(TEMP_PATH)/repos/data-chartables \
-    $(TEMP_PATH)/utf2000.pl
+$(TEMP_PATH)/imported-0.list: imported.pl $(TEMP_PATH)/repos/data-chartables
 	$(PERL) $<
 
 ## License: Public Domain.

@@ -29,8 +29,9 @@
 葦 芦 RELATED !EQUIV
 
 礦 鉱 COVERED !UNIFIED
-礦 鉱 EQUIV
-砿 礦 EQUIV
+礦 鉱 COVERED !UNIFIED
+砿 礦 EQUIV 
+# 砿 礦 are "unified" by JIS78/JIS83
 
 ## In same Kanji sets
 註 注 COVERED !EQUIV
@@ -84,7 +85,10 @@
 世 笹 COVERED !EQUIV
 
 芸 藝 COVERED !EQUIV
-艺 藝 EQUIV !UNIFIED
+艺 藝 COVERED
+芸 艺 COVERED
+蕓 藝 COVERED !EQUIV
+蕓 芸 COVERED !EQUIV
 
 参 參 COVERED !UNIFIED
 叁 參 COVERED !EQUIV

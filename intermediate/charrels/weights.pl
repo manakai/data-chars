@@ -111,6 +111,7 @@ our $DefaultTypeMergeableWeight = W 'SAME';
     "glyphwiki:同字形",
     "glyphwiki:UCS重複",
     "glyphwiki:IVD重複",
+    "glyphwiki:alias",
 
     "manakai:equivglyph",
     
@@ -503,7 +504,6 @@ gb18030:2022:glyph:similar
     "inherited:Big5",
     "inherited:Unicode",
 
-    "glyphwiki:alias",
     "glyphwiki:juki",
     "glyphwiki:ninjal",
     "glyphwiki:UCSで符号化されたCDP外字",
@@ -1064,6 +1064,7 @@ manakai:unified:jisx9052:glyph
     "wikisource:ja:新旧字体変換用辞書:その他の漢字",
     "nihuINT:variant",
     "geolonia:oldnew",
+    "KanjiChineseConverter:JaZhCn",
 
     "wenjian:日本基本補助→中国基本",
     "wenjian:各国漢字→旧字体",

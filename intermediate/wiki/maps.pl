@@ -237,6 +237,28 @@ for (
 }
 
 {
+  my $path = $TempPath->child ('dict.ts');
+  my $text = $path->slurp_utf8;
+  while ($text =~ /src\s*:\s*'([^']+)'\s*,\s*dst\s*:\s*'([^']+)'/g) {
+    my $c1 = $1;
+    my $c2 = $2;
+    $Data->{hans}->{$c1}->{$c2}->{'geolonia:oldnew'} = 1;
+  }
+}
+
+{
+  my $path = $TempPath->child ('ja_zh_cn.rb');
+  my $text = $path->slurp_utf8;
+  for (split /\x0A/, $text) {
+    if (m{^\s*'(\w+)'\s*=>\s*'(\w+)',\s*$}) {
+      my $c1 = $1;
+      my $c2 = $2;
+      $Data->{hans}->{$c1}->{$c2}->{'KanjiChineseConverter:JaZhCn'} = 1;
+    }
+  }
+}
+
+{
   my $path = $ThisPath->child ('gbk.txt');
   my $text = decode_web_utf8 $path->slurp;
   $text =~ s{^#.*}{}gm;
@@ -1199,7 +1221,7 @@ for (
     }
     for (sort { $a cmp $b } keys %{$group->{aj}->{shs} or {}}) {
       my $x = $_;
-      $x =~ s/^aj/shs/;
+      $x =~ s/^aj/aj-shs-/;
       push @c1, ':' . $x;
     }
     for (sort { $a cmp $b } keys %{$group->{gw}->{''} or {}}) {
