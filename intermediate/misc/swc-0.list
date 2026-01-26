@@ -223,6 +223,10 @@ manakai:equivalent
 "12"
 manakai:lookslike
 -"〇"
+"E"
+manakai:related
+"G"
+manakai:related
 "□"
 manakai:related
 -"㇣"
@@ -554,6 +558,8 @@ manakai:related
 "盲"
 manakai:lookslike
 -"四"
+"F"
+manakai:related
 "䦉"
 manakai:equivalent
 "死"
@@ -584,6 +590,9 @@ manakai:doukun
 "𡆮"
 manakai:related
 "𡈁"
+manakai:related
+-"地"
+"B"
 manakai:related
 -"士"
 "±"
@@ -1216,6 +1225,9 @@ manakai:lookslike
 -"陸"
 "陛"
 manakai:lookslike
+-"階"
+"F"
+manakai:related
 -"隹"
 "佳"
 manakai:lookslike
