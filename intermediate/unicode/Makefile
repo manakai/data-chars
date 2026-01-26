@@ -17,10 +17,10 @@ build: $(TEMP_PATH) \
 $(TEMP_PATH):
 	mkdir -p $@
 
-$(TEMP_PATH)/unihan3.txt:
+$(TEMP_PATH)/unihan3.txt: $(TEMP_PATH)
 	$(SAVEURL) $@ https://www.unicode.org/Public/3.0-Update/Unihan-3.txt
 
-$(TEMP_PATH)/unihan13.zip:
+$(TEMP_PATH)/unihan13.zip: $(TEMP_PATH)
 	$(SAVEURL) $@ https://www.unicode.org/Public/13.0.0/ucd/Unihan.zip
 $(TEMP_PATH)/Unihan13_OtherMappings.txt:: %: $(TEMP_PATH)/unihan13.zip
 	mkdir -p $(TEMP_PATH)/temp13
