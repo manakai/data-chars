@@ -48,7 +48,7 @@ for (
                 (hex $1), (hex $2) - 0x20, (hex $3) - 0x20;
           } elsif (/^T(13)-([0-9A-F]{2})([0-9A-F]{2})$/) {
             push @c1, sprintf ':cns%d-%d-%d',
-                $1, (hex $2) - 0x20, (hex $3) - 0x20;
+                (hex $1), (hex $2) - 0x20, (hex $3) - 0x20;
           } elsif (/^CDP-([0-9A-F]+)$/) {
             push @c1, sprintf ':b5-cdp-%x', hex $1;
           } else {

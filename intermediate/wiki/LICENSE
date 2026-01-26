@@ -69,3 +69,30 @@ License of the CHISE database:
 <https://github.com/chise/xemacs-chise/blob/master/COPYING>
 
 GPL2.
+
+* Geolonia data files
+
+Some of data in this directory are derived from Geolonia source files,
+with or without modifications.
+
+<https://github.com/geolonia/normalize-japanese-addresses/tree/master>:
+
+> ライセンス、利用規約
+> - ソースコードのライセンスは MIT ライセンスです。
+> - ご利用に際しましては、できればソーシャルでのシェア、
+>   Geolonia <https://geolonia.com/> へのリンクの設置
+>   などをしていただけると、開発者たちのモチベーションが
+>   上がると思います。
+
+<https://github.com/geolonia/normalize-japanese-addresses/blob/master/LICENSE.txt>
+(The MIT License.)
+
+* KanjiChineseConverter data files
+
+Some of data in this directory are derived from KanjiChineseConverter
+source files, with or without modifications.
+
+<https://github.com/takp/kanji_chinese_converter?tab=readme-ov-file#license>
+
+> The gem is available as open source under the terms of the MIT
+> License<http://opensource.org/licenses/MIT>.

@@ -1649,6 +1649,39 @@ manakai:unified:jisx9052:glyph
   }
 }
 
+{
+  our $RootPath;
+  my $path = $RootPath->child ('local/iwm/chisereltypes.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $vtype (@$json) {
+    if ($vtype =~ /^chise:===\w/) {
+      $TypeWeight->{$vtype} = W 'UNIFIED';
+      $TypeWeight->{'rev:'.$vtype} = W 'UNIFIED';
+    } elsif ($vtype =~ /^chise:(?:<=|=>)(?:decomposition\@square)/) {
+      $TypeWeight->{$vtype} //= W 'RELATED';
+      $TypeWeight->{"rev:$vtype"} //= -1;
+    } elsif ($vtype =~ /^chise:==?>/ or
+             $vtype =~ /^chise:(?:<-|->)(?:ideographic-structure)/) {
+      $TypeWeight->{$vtype} = W 'COVERED';
+      $TypeWeight->{'rev:'.$vtype} = -1;
+      $TypeWeight->{'to1:'.$vtype} = -1;
+      $TypeWeight->{'to1:rev:'.$vtype} = -1;
+      $TypeWeight->{'1to1:'.$vtype} = W 'EQUIV';
+    } elsif ($vtype =~ /^chise:=/ or
+             $vtype =~ /^chise:(?:<-|->)(?:denotational|subsumptive|formed|same|simplified|vulgar|wrong|original|ancient|Small-Seal|mistalable|Large-Seal|Oracle-Bones|Qizi|Zhouwen|avoiding-taboo|canonical|fullwidth|ideographic-variants|lowercase|synonyms|titlecase|uppercase|wrong|Caoshu|HNG|Ideograph|Suzhou-Numerals|antonym|error|font|halfwidth|identical|kangxi|noBreak|radical|small|subscript|superscript|vertical)/ or
+             $vtype =~ /^chise:(?:chinese-|ethiopic|latin-|katakana-|hebrew-|greek-|arabic-|thai-|lao|ipa|ascii|control)/) {
+      $TypeWeight->{$vtype} = W 'EQUIV';
+      $TypeWeight->{'rev:'.$vtype} = W 'EQUIV';
+    } elsif ($vtype =~ /^chise:(?:<-|->)(?:interchangeable)$/) {
+      $TypeWeight->{$vtype} //= W 'LINKED';
+      $TypeWeight->{"rev:$vtype"} //= -1;
+    } else {
+      $TypeWeight->{$vtype} //= W 'LINKED';
+      $TypeWeight->{"rev:$vtype"} //= -1;
+    }
+  }
+}
+
 1;
 
 ## License: Public Domain.

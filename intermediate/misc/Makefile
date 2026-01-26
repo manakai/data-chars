@@ -22,9 +22,6 @@ build-pages: $(TEMP_PATH) \
 $(TEMP_PATH):
 	mkdir -p $@
 
-$(TEMP_PATH)/dict.ts:
-	$(SAVEURL) $@ https://raw.githubusercontent.com/geolonia/normalize-japanese-addresses/master/src/lib/dictionaries/jisDai2.ts
-
 $(TEMP_PATH)/swglyphs.json:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/suikawiki/extracted/master/data/extracted/data-glyph-.json
 $(TEMP_PATH)/swchars.json:
@@ -36,8 +33,7 @@ variants.list: variants.pl $(VGEN_PATH)/chars.pl \
     $(ROOT_PATH)/src/han-variants.txt \
     $(ROOT_PATH)/src/other-variants.txt \
     $(ROOT_PATH)/src/doukun.txt \
-    kakekotoba.txt engo.txt \
-    $(TEMP_PATH)/dict.ts
+    kakekotoba.txt engo.txt
 	$(PERL) $< > $@
 
 maps.list: maps.pl $(VGEN_PATH)/chars.pl \

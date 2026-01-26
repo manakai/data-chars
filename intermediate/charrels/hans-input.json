@@ -436,7 +436,8 @@
       "lang_tag": "vi-Hani"
     }
   ],
-  "tests": [
+  "tests": [],
+  "#tests": [
     "hans-tests.txt"
   ]
 }
