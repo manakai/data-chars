@@ -22,7 +22,8 @@ build-pages: $(TEMP_PATH) \
     $(DATA_PATH)/gwrels-0.list \
     $(TEMP_PATH)/gwreltypes.json \
     $(TEMP_PATH)/chise-0.list \
-    $(TEMP_PATH)/imported-0.list
+    $(TEMP_PATH)/imported-0.list \
+    $(TEMP_PATH)/generated-0.list
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -233,10 +234,7 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     doukun.txt \
     gbk.txt \
     manyou.txt \
-    ../jp/jouyouh22-table.json \
-    ../misc/gmap.json \
-    ../misc/kana-gmap.json \
-    $(TEMPUC_PATH)/unihan3.txt
+    ../jp/jouyouh22-table.json
 	$(PERL) $<
 maps-*.list: maps-0.list
 $(TEMP_PATH)/gwreltypes.json: maps-0.list
@@ -266,6 +264,13 @@ $(DATA_PATH)/gwcontains-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwrels-0.list: $(DATA_PATH)/gwrelated-0.list
 
 $(TEMP_PATH)/imported-0.list: imported.pl $(TEMP_PATH)/repos/data-chartables
+	$(PERL) $<
+
+$(TEMP_PATH)/generated-0.list: generated.pl \
+    ../misc/gmap.json \
+    ../misc/kana-gmap.json \
+    ../jp/jouyouh22-table.json \
+    $(TEMPUC_PATH)/unihan3.txt
 	$(PERL) $<
 
 ## License: Public Domain.
