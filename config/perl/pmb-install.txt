@@ -6,10 +6,10 @@ DBI~1.647
 Data::Dumper~2.183
 Encode~3.21
 JSON::XS~4.04
+List::Util~1.70
 Math::BigInt~2.005003
 Path::Class~0.37
 Path::Tiny~0.150
-Scalar::Util~1.70
 Term::Table~0.028
 Test::Differences~0.72
 Test::More~1.302219
