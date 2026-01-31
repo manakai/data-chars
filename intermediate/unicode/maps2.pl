@@ -14,7 +14,7 @@ for (
   ['bestfit932.txt', 1, undef, ':u-ms'],
   ['bestfit936.txt', 0, ':gb0', ':u-gb'],
   ['bestfit949.txt', 0, ':ks0', ':u-ms'],
-  ['bestfit950.txt', 2, undef, ':u-bigfive'],
+  ['bestfit950.txt', 2, undef, ':u-b5'],
 ) {
   my $path = $TempPath->child ($_->[0]);
   my $is_sjis = $_->[1] == 1;

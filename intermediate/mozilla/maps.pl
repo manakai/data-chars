@@ -76,7 +76,6 @@ for (
         $Data->{$key}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
       }
       if ($PUA->{$b5}) {
-        my $c2_p0 = sprintf ':u-bigfive-%x', $PUA->{$b5};
         unless ($c1 eq $c1_0) {
           my $c2_p = sprintf ':u-uao-%x', $PUA->{$b5};
           $Data->{$key}->{$c1}->{$c2_p}->{'manakai:same'} = 1;
@@ -100,7 +99,6 @@ for (
         $Data->{$key}->{$c1_0}->{$c1}->{'manakai:private'} = 1;
       }
       if ($PUA->{$b5}) {
-        my $c2_p0 = sprintf ':u-bigfive-%x', $PUA->{$b5};
         unless ($c1 eq $c1_0) {
           my $c2_p = sprintf ':u-uao-%x', $PUA->{$b5};
           $Data->{$key}->{$c1}->{$c2_p}->{'manakai:same'} = 1;
