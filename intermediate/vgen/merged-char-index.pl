@@ -51,7 +51,7 @@ my $CharArrayMax = -1;
     ['u-juki-',    '',  0x0000,   0xFFFF],
     ['u-cns-',     '', 0xF0000,  0xFFFFF],
     ['u-gb-',      '',  0xE000,   0xF8FF],
-    ['u-bigfive-', '',  0xE000,   0xF8FF],
+    ['u-b5-', '',  0xE000,   0xF8FF],
     ['u-uka-',     '',  0xE000,   0xF73F],
     ['u-ukb-',     '',  0xE53B,   0xF7D5],
     ['u-arib-',    '',  0xE000,   0xF8FF],
@@ -174,7 +174,7 @@ my $CharArrayMax = -1;
     } else {
       $n = $cc;
     }
-  } elsif ($c =~ /^:(u-[a-z]+-|b5-(?:[a-z]+-|)|tron[0-9]+-|jisx0201-(?:[a-z]+-|)|arib-3[01678]-)([0-9a-f]+)/) {
+  } elsif ($c =~ /^:(u-[a-z]+[0-9]*-|b5-(?:[a-z]+-|)|tron[0-9]+-|jisx0201-(?:[a-z]+-|)|arib-3[01678]-)([0-9a-f]+)/) {
     $n = ($offset->{$1} // 0xA00000) + hex $2;
   } elsif ($c =~ /\A:(ninjal)([0-9]{2})([0-9]{3})([0-9]{4})\z/) {
     $n = $offset->{$1} + $2 * 100 + $3 * 10 + $4;

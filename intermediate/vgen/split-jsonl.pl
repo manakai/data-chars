@@ -67,7 +67,7 @@ my $Index = {};
       u7 u70 u71 u72 u73 u74 u75 u8 u80 u81 u82 u83 u84 u85 u86 u87 u88 u89
       u9 u90 u91 u92 u93 u94 u95 u96 u97 u98 u99 ua ub uc ud ue uf un u-
       b b5 b5-8 b5-9 b5-a b5-b b5-c b5-d b5-e b5-f b5-hkscs b5-uao b5-cdp 
-      u-bigfive u-hkscs u-uao
+      u-b5 u-hkscs u-uao
       cccii cccii1 cccii2 cccii3 cccii4 cccii9
       k k0 k5 ka ke ks kps cjkvi
       ko koseki koseki0 koseki1 koseki2 koseki3 koseki4 koseki5
