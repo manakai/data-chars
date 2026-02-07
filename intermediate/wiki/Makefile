@@ -23,7 +23,8 @@ build-pages: $(TEMP_PATH) \
     $(TEMP_PATH)/gwreltypes.json \
     $(TEMP_PATH)/chise-0.list \
     $(TEMP_PATH)/imported-0.list \
-    $(TEMP_PATH)/generated-0.list
+    $(TEMP_PATH)/generated-0.list \
+    $(ROOT_PATH)/local/generated/charrels/glyphs/gwglyphs/index.json
 
 $(TEMP_PATH):
 	mkdir -p $@
