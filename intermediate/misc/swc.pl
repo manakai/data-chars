@@ -59,6 +59,21 @@ sub value_to_char ($) {
   my $value = shift;
   return undef unless defined $value;
 
+  if ($value->{xml} =~ m{^<sw-ch xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:"><replace by="([^&]+)">([^<>]+)</replace></sw-ch>$}) {
+    my $text = $2;
+    my $features = $1;
+    for ($text, $features) {
+      s/&apos;/'/g;
+      s/&quot;/"/g;
+      s/&lt;/</g;
+      s/&gt;/>/g;
+      s/&amp;/&/g;
+    }
+    return join '-', ':u-swk',
+        (map { sprintf '%04X', ord $_ } split //, $text),
+        (split /\./, $features);
+  }
+
   if ($value->{xml} =~ m{^<sw-tate xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:"><anchor>([^<>&:.]+)</anchor></sw-tate>$}) {
     return sprintf ':tate-%s', $1;
   } elsif ($value->{xml} =~ m{^<anchor xmlns="urn:x-suika-fam-cx:markup:suikawiki:0:9:"><sw-tate>([^<>&:.]+)</sw-tate></anchor>$}) {
