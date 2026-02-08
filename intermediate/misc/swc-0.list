@@ -447,6 +447,11 @@ manakai:related
 manakai:lookslike
 "刀"
 manakai:lookslike
+-"匁"
+"㦮"
+manakai:equivalent
+"文メ"
+manakai:related
 -"北"
 "比"
 manakai:lookslike
@@ -803,6 +808,13 @@ manakai:taboo
 -"成"
 "為"
 manakai:doukun
+-"戔"
+"㦮"
+manakai:variant:jpnewstyle
+"匁"
+manakai:equivalent
+"銭"
+manakai:equivalent
 -"拾"
 "捨"
 manakai:lookslike
