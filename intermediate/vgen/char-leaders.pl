@@ -88,16 +88,16 @@ sub get_cluster_leaders ($) {
   my $chars = shift;
   my $props = {};
 
-  if ($Merged->{key} eq 'chars' or $Merged->{key} eq 'hans') {
-
-  for my $set_key (@{$Merged->{inset_keys}}) {
-    for my $c (@$chars) {
-      if ($MergedSets->{$set_key}->{$c}) {
-        $props->{stems}->{$set_key}->{$c} = 1;
-        $props->{stems}->{all}->{$c} = 1;
-      }
-    }
-  }
+  if ($Merged->{key} eq 'chars' or $Merged->{key} eq 'hans' or
+      $Merged->{key} eq 'kanas') {
+    #for my $set_key (@{$Merged->{inset_keys}}) {
+    #  for my $c (@$chars) {
+    #    if ($MergedSets->{$set_key}->{$c}) {
+    #      $props->{stems}->{$set_key}->{$c} = 1;
+    #      $props->{stems}->{all}->{$c} = 1;
+    #    }
+    #  }
+    #}
 
   $props->{leaders}->{all} =
       get_leader [grep { $props->{stems}->{all}->{$_} } @$chars]
