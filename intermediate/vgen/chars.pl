@@ -13,7 +13,8 @@ use JSON::PS;
 my $IDC = q/\x{2FF0}-\x{2FFF}\x{31EF}/;
 
 sub u_chr ($) {
-  if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F)) {
+  if ($_[0] <= 0x1F or (0x7F <= $_[0] and $_[0] <= 0x9F) or
+      $_[0] > 0x10FFFF) {
     return sprintf ':u%x', $_[0];
   }
   my $c = chr $_[0];
@@ -79,6 +80,7 @@ sub split_for_string_contains ($) {
   }
 } # split_char
 
+# PUA
 sub is_private ($) {
   my $char = shift;
 
