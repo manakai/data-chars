@@ -1,7 +1,7 @@
 {
   "key": "tc2",
   "inputs": [
-    {"path": "../../local/iwm/chise-0.list", "rels_key": "components"}
+    {"path": "../../local/iwm/generated-0.list", "rels_key": "components"}
   ],
   "leader_types": [
   ],

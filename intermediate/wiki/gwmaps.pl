@@ -163,6 +163,11 @@ sub gid ($) {
       my $c2_0 = u_chr hex $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
       $Data->{descs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
+    } elsif ($g1 =~ /^unstable-nishiki-([0-9a-f]+)$/) {
+      my $c2 = sprintf ':u-nishikiteki-%x', hex $1;
+      my $c2_0 = u_chr hex $1;
+      $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;
+      $Data->{descs}->{$c2_0}->{$c2}->{'manakai:private'} = 1;
     } elsif ($g1 =~ /^ninjal-([0-9]+)$/) {
       my $c2 = sprintf ':ninjal%s', $1;
       $Data->{glyphs}->{':gw-'.$g0}->{$c2}->{'manakai:implements'} = 1;

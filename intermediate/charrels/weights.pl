@@ -236,6 +236,8 @@ iso10646:1993:k:glyph:equiv
 iso10646:1993:k:glyph:similar
 iso10646:1993:t:glyph:equiv
 iso10646:1993:t:glyph:similar
+iso10646:1993:u:glyph:equiv
+iso10646:1993:u:glyph:similar
       
       iso10646:2000:g:glyph:equiv
       iso10646:2000:g:glyph:similar
@@ -247,6 +249,8 @@ iso10646:1993:t:glyph:similar
       iso10646:2000:t:glyph:similar
       iso10646:2000:v:glyph:equiv
       iso10646:2000:v:glyph:similar
+iso10646:2000:u:glyph:equiv
+iso10646:2000:u:glyph:similar
 
       iso10646:2003:g:glyph:equiv
       iso10646:2003:g:glyph:similar
@@ -259,11 +263,21 @@ iso10646:1993:t:glyph:similar
       iso10646:2003:t:glyph:similar
       iso10646:2003:v:glyph:equiv
       iso10646:2003:v:glyph:similar
+iso10646:2003:u:glyph:equiv
+iso10646:2003:u:glyph:similar
 
       iso10646:2008:j:glyph:equiv
       iso10646:2008:j:glyph:similar
-      iso10646:2010:j:glyph:equiv
-      iso10646:2020:j:glyph:equiv
+iso10646:2008:u:glyph:equiv
+iso10646:2008:u:glyph:similar
+
+iso10646:2010:j:glyph:equiv
+iso10646:2010:u:glyph:equiv
+iso10646:2010:u:glyph:similar
+
+iso10646:2020:j:glyph:equiv
+iso10646:2020:u:glyph:equiv
+iso10646:2020:u:glyph:similar
 
       iso10646:2023:g:glyph:equiv
       iso10646:2023:g:glyph:similar
@@ -296,6 +310,9 @@ unicode3.1:u:glyph:similar
 unicode3.2:u:glyph:equiv
 unicode3.2:u:glyph:similar
 
+unicode15.1:u:glyph:equiv
+unicode15.1:u:glyph:similar
+
 unicode5.2:g:glyph:equiv
 unicode5.2:g:glyph:similar
 unicode5.2:h:glyph:equiv
@@ -311,6 +328,8 @@ unicode5.2:t:glyph:similar
 unicode5.2:u:glyph:equiv
 unicode5.2:v:glyph:equiv
 unicode5.2:v:glyph:similar
+unicode5.2:u:glyph:equiv
+unicode5.2:u:glyph:similar
 
 unicode6:u:glyph:equiv
 unicode6:u:glyph:similar
@@ -337,7 +356,9 @@ unicode9:g:glyph:equiv
 unicode9:t:glyph:equiv
 unicode9:t:glyph:similar
 unicode9:ucs2003:glyph:equiv
+unicode9:ucs2003:glyph:similar
 unicode9:v:glyph:equiv
+
 unicode10:s:glyph:equiv
 
 unicode13:g:glyph:equiv
@@ -352,6 +373,10 @@ unicode13:ucs2003:glyph:equiv
 unicode13:ucs2003:glyph:similar
 unicode13:v:glyph:equiv
 unicode13:v:glyph:similar
+unicode13:u:glyph:equiv
+unicode13:u:glyph:similar
+unicode13:uk:glyph:equiv
+unicode13:uk:glyph:similar
 
 unicode15:g:glyph:equiv
 unicode15:g:glyph:similar
@@ -386,6 +411,11 @@ unicode15.1:u:glyph:equiv
 
 gb18030:2022:glyph:equiv
 gb18030:2022:glyph:similar
+
+uax44:horizontal:equiv
+uax44:horizontal:similar
+uax44:vertical:equiv
+uax44:vertical:similar
     ),
 
     "ss:glyph-shared",
@@ -580,6 +610,14 @@ gb18030:2022:glyph:similar
     "mj:HalfWidth",
     "mj:Wide",
     "mj:Narrow",
+    "opentype:fwid",
+    "opentype:hwid",
+    "opentype:pwid",
+    "opentype:qwid",
+    "opentype:twid",
+    "opentype:pkna",
+    "opentype:ruby",
+    "swk:hwid",
 
     "wenjian:JIS3・4→各国",
     "wenjian:台湾→各国",
@@ -600,13 +638,6 @@ gb18030:2022:glyph:similar
     "btron:iso-2022-jp",
     "btron:big5", 
 
-    "opentype:fwid",
-    "opentype:hwid",
-    "opentype:pwid",
-    "opentype:qwid",
-    "opentype:twid",
-    "opentype:pkna",
-    "opentype:ruby",
     "opentype:ljmo:contextual",
     "opentype:tjmo:contextual",
     "opentype:vjmo:contextual",
@@ -790,6 +821,8 @@ manakai:unified:jisx0213:2000:glyph
 manakai:unified:jisx0213:ir:glyph
 manakai:unified:jisx9051:glyph
 manakai:unified:jisx9052:glyph
+manakai:equivglyph:jisx0208:1997:vert
+manakai:equivglyph:jisx0213:2000:vert
 
     ),
 
@@ -1003,6 +1036,9 @@ manakai:unified:jisx9052:glyph
     "adobe:jp78",
     "adobe:jp83",
     "adobe:jp90",
+
+    "swk:vert",
+    "swk:vrt2",
     
     "kana:origin:variant",
 
@@ -1692,6 +1728,21 @@ manakai:unified:jisx9052:glyph
   for my $vtype (@$json) {
     $TypeWeight->{$vtype} //= W 'RELATED';
     $TypeWeight->{"rev:$vtype"} //= -1;
+  }
+}
+
+{
+  our $RootPath;
+  my $path = $RootPath->child ('local/iwm/generatedreltypes.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $vtype (@$json) {
+    if ($vtype =~ /^swk:[a-z0-9-]+$/) {
+      $TypeWeight->{$vtype} //= W 'UNIFIED';
+      $TypeWeight->{"rev:$vtype"} //= W 'UNIFIED';
+    } else {
+      $TypeWeight->{$vtype} //= W 'RELATED';
+      $TypeWeight->{"rev:$vtype"} //= -1;
+    }
   }
 }
 

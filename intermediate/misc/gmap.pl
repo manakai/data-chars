@@ -9,7 +9,7 @@ my $Data = {};
 {
   my $name = shift;
   my $path = $ThisPath->child ($name);
-  my $is_kana = $name =~ /kana/;
+  my $is_kana = $name =~ /kana|ryuukyuu/;
   my $ScriptFeatPattern = qr/HIRA|KATA|KRTR|KNNA|MRTN|AHIR|HTMA|KTDM|ANIT|TYKN|TYKO|HSMI|IZMO|KIBI|TATU|AHKS|NKTM|IRHO|NANC|UMAS|TUSM|TNKS|AWAM|KIBK|KAMI|RUKU|HNDE|TAYM|MROK/;
   for (split /\n/, $path->slurp_utf8) {
     if (/^\s*#/) {
@@ -91,7 +91,10 @@ my $Data = {};
           } elsif (/^U\+([0-9A-F]+):(18030-2022)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['ucsG', $ucs, $2];
-          } elsif ($is_kana and /^U\+([0-9A-F]+):(Uv|Uh1|Uh2|U15|U6|shsv?|bshv?|kai|sung|shgv?|kleev?|notohentai|shokaki|refv?|refsmallv?|twkana|18030-2022)$/) {
+          } elsif ($is_kana and /^U\+([0-9A-F]+):(Uv|Uh1|Uh2|U15|U6)$/) {
+            my $ucs = sprintf '%04X', hex $1;
+            push @item, ['ucsU', $ucs, $2];
+          } elsif ($is_kana and /^U\+([0-9A-F]+):(shsv?|bshv?|kai|sung|shgv?|kleev?|notohentai|shokaki|refv?|refsmallv?|twkana)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['uni', $ucs, $2];
           } elsif (/^:u-(hannomkhai)-([0-9a-f]+)$/) {
@@ -118,7 +121,7 @@ my $Data = {};
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['pua', $ucs, $2];
           } elsif (/^U[+-]([0-9A-Fa-f]+):(antenna)$/) {
-            push @item, ['private', hex $1, $2];
+            push @item, ['pua', (sprintf '%08X', hex $1), $2];
           } elsif (/^(SMAL|LARG|w2|w3|w4|h2|h3|h4|bsquared|rsquared|rbsquared)<U\+([0-9A-F]+):(mj|jitaichou)>(v?)$/) {
             my $ucs = sprintf '%04X', hex $2;
             push @item, [$1.'of', $ucs, $3.$4];
@@ -179,7 +182,7 @@ my $Data = {};
             if ($key eq 'ivs') {
               push @item, [$key, (sprintf '%04X %04X', hex $1, $code2), ''];
             } else {
-              push @item, [$key, (sprintf '%04X', hex $1), ''];
+              push @item, [$key, (sprintf '%04X', hex $1), 'ref'];
             }
           } elsif (/^U\+([0-9A-F]+),U\+([0-9A-F]+):(ipa1|ipa3|ex|mj|notohentai)$/) {
             my $code2 = hex $2;
