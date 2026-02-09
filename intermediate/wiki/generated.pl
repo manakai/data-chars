@@ -137,7 +137,6 @@ my $JouyouOld = {};
   for (
     ['gmap.json', 'hans'],
     ['kana-gmap.json', 'kanas'],
-    ['kami-gmap.json', 'kanas'],
   ) {
     my $path = $ThisPath->parent->child ('misc/' . $_->[0]);
     my $key = 'rels'; #$_->[1];
