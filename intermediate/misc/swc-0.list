@@ -682,6 +682,10 @@ manakai:lookslike
 manakai:lookslike
 "III"
 manakai:lookslike
+"IIJ"
+manakai:lookslike
+"JII"
+manakai:lookslike
 "lll"
 manakai:lookslike
 "|||"
@@ -2113,6 +2117,14 @@ manakai:related
 -":swc732"
 ":swc733"
 manakai:equivalent
+-":u-swk-3031-HIRA1-o0"
+"へ"
+manakai:lookslike
+-":u-swk-3031-HIRA1-o1"
+"^"
+manakai:lookslike
+"へ"
+manakai:lookslike
 -":u7f"
 "■"
 manakai:related
