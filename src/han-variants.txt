@@ -359,6 +359,11 @@ conflict 齋 粂
 variant 夈 粂
 ##   <https://ja.wiktionary.org/wiki/%E5%A4%88>
 
+conflict 価󠄂 価
+unified 価󠄂 :gw-zihai-007120
+unified :gw-zihai-007120 :KS007450
+unified :gw-u2ff0-u4ebb-u897f-var-001 :KS007450
+
 related 十 七
 related 咸 感
 related 彗 慧
@@ -702,5 +707,10 @@ differentiated :KS109600 :KS109590
 
 ## <https://wiki.suikawiki.org/n/ARIB%E3%81%AE%E6%96%87%E5%AD%97%E3%82%B3%E3%83%BC%E3%83%89$28198#anchor-138>
 differentiated :jis1-47-52 :jis2-81-61
+
+related 洞 零
+related 幺 一
+related 两 二
+related 拐 七
 
 ## License: Public Domain.

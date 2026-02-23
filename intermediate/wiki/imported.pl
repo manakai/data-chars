@@ -496,6 +496,19 @@ for (
   }
 }
 
+{
+  my $path = $TempPath->child ('swir-list.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $group (values %{$json->{groups}}) {
+    next unless defined $group->{features};
+    my $ff = [split /\./, $group->{features}];
+    my $vv = [map { sprintf '%x', ord $_ } split //, $group->{value}];
+    my $c1 = join '-', ':u-swk', @$vv, @$ff;
+    my $c2 = $group->{value};
+    $Data->{rels}->{$c1}->{$c2}->{'manakai:related'} = 1;
+  }
+}
+
 write_rel_data_sets
     $Data => $TempPath, 'imported',
     [];

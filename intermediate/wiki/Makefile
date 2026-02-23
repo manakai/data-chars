@@ -165,6 +165,9 @@ $(TEMP_PATH)/dict.ts:
 $(TEMP_PATH)/ja_zh_cn.rb:
 	$(SAVEURL) $@ https://raw.githubusercontent.com/takp/kanji_chinese_converter/refs/heads/master/lib/kanji_chinese_converter/ja_zh_cn.rb
 
+$(TEMP_PATH)/swir-list.json:
+	$(SAVEURL) $@ https://suikawiki.github.io/swcf/current/swir/list.json
+
 ../jp/jouyouh22-table.json:
 	cd ../jp && $(MAKE) jouyouh22-table.json
 
@@ -264,7 +267,8 @@ $(DATA_PATH)/gwaliases-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwcontains-0.list: $(DATA_PATH)/gwrelated-0.list
 $(DATA_PATH)/gwrels-0.list: $(DATA_PATH)/gwrelated-0.list
 
-$(TEMP_PATH)/imported-0.list: imported.pl $(TEMP_PATH)/repos/data-chartables
+$(TEMP_PATH)/imported-0.list: imported.pl $(TEMP_PATH)/repos/data-chartables \
+    $(TEMP_PATH)/swir-list.json
 	$(PERL) $<
 
 $(TEMP_PATH)/generated-0.list: generated.pl \
