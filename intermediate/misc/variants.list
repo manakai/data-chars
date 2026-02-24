@@ -109,6 +109,11 @@ manakai:ids
 -"4"
 "死"
 manakai:alt
+-":KS007450"
+":gw-u2ff0-u4ebb-u897f-var-001"
+manakai:unified
+":gw-zihai-007120"
+manakai:unified
 -":KS109590"
 ":KS109600"
 manakai:differentiated
@@ -136,6 +141,9 @@ manakai:unified
 -":gb8-23-31"
 "嘴"
 manakai:alt
+-":gw-zihai-007120"
+"価󠄂"
+manakai:unified
 -":jis-dot16-53-38"
 "𡢃"
 manakai:unified
@@ -224,6 +232,8 @@ manakai:variant:jpnewstyle
 -"一"
 "〡"
 manakai:related
+"幺"
+manakai:related
 "𝍲"
 manakai:related
 -"七"
@@ -232,6 +242,8 @@ manakai:related
 "ㄘ"
 manakai:differentiated
 "十"
+manakai:related
+"拐"
 manakai:related
 -"三"
 "〣"
@@ -476,6 +488,8 @@ manakai:doukun
 "〢"
 manakai:related
 "〻"
+manakai:related
+"两"
 manakai:related
 "双"
 manakai:doukun
@@ -839,6 +853,8 @@ manakai:doukun
 "自"
 manakai:doukun
 -"価"
+"価󠄂"
+manakai:variant:conflicted
 "値"
 manakai:doukun
 -"侵"
@@ -12534,6 +12550,8 @@ manakai:variant:conflicted
 manakai:doukun
 "墜"
 manakai:doukun
+"洞"
+manakai:related
 "溢"
 manakai:doukun
 "翻"
