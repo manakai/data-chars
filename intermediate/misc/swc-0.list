@@ -378,6 +378,9 @@ manakai:related
 manakai:lookslike
 "音"
 manakai:related
+-"享"
+"亨"
+manakai:lookslike
 -"人"
 ":touki01002280"
 manakai:equivalent
@@ -416,6 +419,9 @@ manakai:lookslike
 manakai:doukun
 "直"
 manakai:related
+-"倦"
+"捲"
+manakai:lookslike
 -"儲"
 "信者"
 manakai:related
@@ -608,6 +614,9 @@ manakai:doukun
 manakai:lookslike
 "土"
 manakai:lookslike
+-"壺"
+"壺"
+manakai:lookslike
 -"大"
 "丈"
 manakai:lookslike
@@ -768,6 +777,9 @@ manakai:lookslike
 -"弁"
 "弇"
 manakai:related
+-"弊"
+"幣"
+manakai:lookslike
 -"弥"
 "彌"
 manakai:equivalent
@@ -802,6 +814,11 @@ manakai:lookslike
 manakai:equivalent
 "𢟻"
 manakai:taboo
+-"憶"
+"憧"
+manakai:lookslike
+"臆"
+manakai:lookslike
 -"戊"
 "戌"
 manakai:lookslike
@@ -819,6 +836,9 @@ manakai:variant:jpnewstyle
 manakai:equivalent
 "銭"
 manakai:equivalent
+-"戳"
+"戮"
+manakai:lookslike
 -"拾"
 "捨"
 manakai:lookslike
@@ -829,6 +849,12 @@ manakai:equivalent
 manakai:lookslike
 -"故"
 "枚"
+manakai:lookslike
+-"数"
+"類"
+manakai:lookslike
+-"斬"
+"漸"
 manakai:lookslike
 -"新"
 "改"
@@ -899,6 +925,9 @@ manakai:doukun
 manakai:doukun
 "瞬間"
 manakai:doukun
+-"晧"
+"皓"
+manakai:lookslike
 -"晴"
 "☀"
 manakai:related
@@ -1020,6 +1049,9 @@ manakai:lookslike
 -"炎"
 "涅槃"
 manakai:related
+-"狭"
+"挟"
+manakai:lookslike
 -"王"
 "主"
 manakai:lookslike
@@ -1127,6 +1159,9 @@ manakai:lookslike
 manakai:related
 "🇺🇸"
 manakai:related
+-"粉"
+"紛"
+manakai:lookslike
 -"細"
 "紬"
 manakai:lookslike
@@ -1224,6 +1259,9 @@ manakai:lookslike
 -"賢"
 "𫯝"
 manakai:equivalent
+-"車"
+"東"
+manakai:lookslike
 -"載"
 "哉"
 manakai:related
@@ -1262,6 +1300,9 @@ manakai:related
 manakai:doukun
 "鳥"
 manakai:doukun
+-"靨"
+"黶"
+manakai:lookslike
 -"音"
 "昔"
 manakai:lookslike
