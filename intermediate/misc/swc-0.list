@@ -1015,6 +1015,8 @@ manakai:alt
 -"殺"
 "演"
 manakai:doukun
+"犯"
+manakai:doukun
 "遣"
 manakai:doukun
 -"毖"
@@ -3202,6 +3204,15 @@ manakai:related
 -"🇷🇴"
 "🇹🇩"
 manakai:lookslike
+-"🇷🇺"
+"Z"
+manakai:related
+"ロ"
+manakai:related
+"露"
+manakai:related
+"魯"
+manakai:related
 -"🇺🇸"
 "米"
 manakai:related
