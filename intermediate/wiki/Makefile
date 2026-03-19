@@ -281,4 +281,7 @@ $(TEMP_PATH)/generated-0.list: generated.pl \
     $(TEMPUC_PATH)/unihan3.txt
 	$(PERL) $<
 
+	# XXX
+	cat $@
+
 ## License: Public Domain.
