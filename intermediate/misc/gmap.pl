@@ -3,14 +3,13 @@ use warnings;
 use Path::Tiny;
 use JSON::PS;
 
-my $ThisPath = path (__FILE__)->parent;
 my $Data = {};
 
 {
   my $name = shift;
-  my $path = $ThisPath->child ($name);
+  my $path = path ($name);
   my $is_kana = $name =~ /kana|ryuukyuu/;
-  my $ScriptFeatPattern = qr/HIRA|KATA|KRTR|KNNA|MRTN|AHIR|HTMA|KTDM|ANIT|TYKN|TYKO|HSMI|IZMO|KIBI|TATU|AHKS|NKTM|IRHO|NANC|UMAS|TUSM|TNKS|AWAM|KIBK|KAMI|RUKU|HNDE|TAYM|MROK/;
+  my $ScriptFeatPattern = qr/HIRA|KATA|KRTR|KNNA|MRTN|AHIR|HTMA|KTDM|ANIT|TYKN|TYKO|HSMI|IZMO|KIBI|TATU|AHKS|NKTM|IRHO|NANC|UMAS|TUSM|TNKS|AWAM|KIBK|KAMI|RUKU|HNDE|NHSJ|TAYM|MROK/;
   for (split /\n/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
@@ -97,7 +96,7 @@ my $Data = {};
           } elsif ($is_kana and /^U\+([0-9A-F]+):(shsv?|bshv?|kai|sung|shgv?|kleev?|notohentai|shokaki|refv?|refsmallv?|twkana)$/) {
             my $ucs = sprintf '%04X', hex $1;
             push @item, ['uni', $ucs, $2];
-          } elsif (/^:u-(hannomkhai)-([0-9a-f]+)$/) {
+          } elsif (/^:u-(hannomkhai|minhnguyen|gothicnguyen|nom|cjksym|unifont|exg)-([0-9a-f]+)$/) {
             my $ucs = sprintf '%04X', hex $2;
             push @item, ['uni', $ucs, $1];
           } elsif (/^(GL[1-5])"(.)"(v?)$/) {
@@ -167,7 +166,7 @@ my $Data = {};
             push @item, ['g', $1, 'eg'];
           } elsif (/^(ex[1-9][0-9]*)$/) {
             push @item, ['g', $1, 'ex'];
-          } elsif (/^(:ep-[0-9a-z_-]+-[0-9a-f]+)$/) {
+          } elsif (/^(:ep-[0-9A-Za-z_-]+-[0-9a-f]+)$/) {
             push @item, ['g', $1, 'ep'];
           } elsif (/^([a-z][0-9a-z_-]+)$/) {
             push @item, ['gw', $1, ''];
