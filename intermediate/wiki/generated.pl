@@ -287,6 +287,17 @@ my $JouyouOld = {};
             }
           }
         }
+        if ($group->{tags}->{''}->{hw} or $group->{tags}->{''}->{hh}) {
+          push @$feats, 'hwid';
+        }
+        for (
+          'SMLB', 'SMCB', 'SMRB', 'SMLM', 'SMCM', 'SMRM', 'SMLT', 'SMCT',
+          'SMRT', 'SMPB', 'SMPM', 'SMPT', 'SMLP', 'SMCP', 'SMRP',
+        ) {
+          if ($group->{tags}->{''}->{lc $_}) {
+            push @$feats, $_;
+          }
+        }
         last G if $matched;
         
         for my $k1 (grep { /^(?:ucs|uni|voiced|semivoiced)/ } sort { $a cmp $b } keys %{$group}) {

@@ -11,7 +11,8 @@ SAVEURL = $(WGET) -O
 all: build
 
 build: $(TEMP_PATH) variants.list maps.list sets.json swc-0.list \
-    gmap.json kana-gmap.json \
+    gmap.json kana-gmap.json kami-gmap.json ryuukyuu-gmap.json \
+    kanamarks-gmap.json \
     build-pages
 
 build-nightly: build
@@ -59,6 +60,12 @@ gmap.json: gmap.pl gmap.txt
 	$(PERL) $< gmap.txt > $@
 kana-gmap.json: gmap.pl kana-gmap.txt
 	$(PERL) $< kana-gmap.txt > $@
+kanamarks-gmap.json: gmap.pl kanamarks-gmap.txt
+	$(PERL) $< kanamarks-gmap.txt > $@
+kami-gmap.json: gmap.pl kami-gmap.txt
+	$(PERL) $< kami-gmap.txt > $@
+ryuukyuu-gmap.json: gmap.pl ryuukyuu-gmap.txt
+	$(PERL) $< ryuukyuu-gmap.txt > $@
 
 swc-0.list: swc.pl \
     $(TEMP_PATH)/swglyphs.json \

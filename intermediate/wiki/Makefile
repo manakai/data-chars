@@ -184,7 +184,8 @@ variants.json: variants.pl $(VGEN_PATH)/chars.pl \
     hyougai.txt
 	$(PERL) $< > $@
 
-maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
+maps-0.list: # build disabled for now
+X-maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     $(TEMP_PATH)/gb12052.html \
     $(TEMP_PATH)/ksx1002.html \
     $(TEMP_PATH)/nan-1.html \
@@ -241,7 +242,9 @@ maps-0.list: maps.pl $(VGEN_PATH)/chars.pl \
     ../jp/jouyouh22-table.json
 	$(PERL) $<
 maps-*.list: maps-0.list
-$(TEMP_PATH)/gwreltypes.json: maps-0.list
+#$(TEMP_PATH)/gwreltypes.json: maps-0.list
+$(TEMP_PATH)/gwreltypes.json: gwreltypes.json
+	cp $< $@
 
 $(ROOT_PATH)/local/generated/charrels/glyphs/gwglyphs/index.json: \
     split-gwdump.pl \
