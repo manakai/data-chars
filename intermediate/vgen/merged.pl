@@ -171,7 +171,7 @@ for (@$PairedTypes) {
     for my $c2 (keys %{$Rels->{$c1}}) {
       my $types = $Rels->{$c1}->{$c2};
       die perl2json_bytes [$c1, $c2, $types] if $c1 eq $c2;
-      my @remove = grep { ($TypeWeight->{$_} // die "Unweighted rel |$_|") == -2 } keys %$types;
+      my @remove = grep { ($TypeWeight->{$_} // die "Unweighted rel |$_| (|$c1| |$c2|)") == -2 } keys %$types;
       delete $types->{$_} for @remove;
       $types->{_} = [sort { $b <=> $a } map {
         $TypeWeight->{$_} || do {
