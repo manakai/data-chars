@@ -1,0 +1,374 @@
+
+## Kamiyo
+
+KNNA1"二" eg342
+KNNA1"三" eg343
+KNNA1"四" eg344
+KNNA1"五" eg345
+
+AHIR7"は" eg346
+AHIR7"ひ" eg347
+AHIR7"ふ" eg348
+AHIR7"へ" eg349
+AHIR7"ほ" eg350
+
+AHIR9"ハ" eg360
+AHIR9"は" eg361
+AHIR9"ひ" eg362
+AHIR9"ふ" eg363
+AHIR9"へ" eg364
+AHIR9"ほ" eg365
+
+AHIR5"ア" eg352
+AHIR5"あ" eg357 %u1
+AHIR5"い" eg355
+AHIR5"う" eg353
+AHIR5"え" eg356 %u1
+AHIR5"お" eg354
+AHIR0"へ" eg359 %u1 %o0
+AHIR0"わ" eg358 %u1 %o0
+
+%nofont kami8add :tron9-9476
+HTMA1"イ" eg366
+HTMA2"イ" eg798 :tron9-9477
+%nofont kami8ac3 :tron9-9478
+HTMA1"エ" eg367
+HTMA2"エ" eg799 :tron9-9479
+%nofont kami8ada :tron9-947a
+%nofont kami8ae7 :tron9-947b
+%nofont kami8ad1 :tron9-947c
+%nofont kami8ae3 :tron9-947d
+HTMA1"ナ" eg800 :tron9-947e
+%nofont kami8ad2 :tron9-9521
+%nofont kami8ae5 :tron9-9522
+%nofont kami8ae6 :tron9-9523
+%nofont kami8acb :tron9-9524
+%nofont kami8ad4 :tron9-9525
+%nofont kami8aec :tron9-9526
+HTMA4"は" eg368
+HTMA3"へ" eg369
+HTMA3"ほ" eg370
+#HTMA3"る" eg371
+HTMA4"る" eg395 :tron9-9545
+HTMA6"を" eg372 :tron9-9452
+
+HTMA0"か"U+20E5,MKCM32 eg373
+HTMA0"き"U+20E5,MKCM32 eg374
+HTMA0"こ"U+20E5,MKCM1 eg376
+HTMA3"く" eg379
+HTMA3"く"U+20E5,MKCM31 eg377
+HTMA3"り" eg393
+HTMA4"り" eg394
+HTMA0"か"U+20E5,MKCM1 eg920 :tron9-9554
+HTMA0"が"U+20E5,MKCM1 eg921 :woshite-8cc0
+HTMA0"か"U+20E5,MKCM33 eg922 :woshite-30ac
+HTMA0"が" %d1 eg923 :woshite-86fe
+HTMA0"が"MKRT1  eg924 :woshite-753b
+HTMA0"が"MKRT34 eg925 :woshite-6211
+HTMA3"ぎ"U+20E5,MKCM1  eg926 :tron9-9555
+HTMA4"き"  eg927 :woshite-304d
+HTMA5"き"  eg928 :woshite-30ad
+HTMA4"き"U+20E5,MKCM1  eg929 :woshite-303e
+HTMA4"ぎ"U+20E5,MKCM1  eg930 :woshite-5100
+HTMA4"ぎ"  eg931 :woshite-7fa9
+HTMA4"ぎ"MKRT1  eg932 :woshite-9b4f
+HTMA4"き"MKCM33  eg933 :woshite-30ae
+HTMA3"く"U+20E5,MKCM1  eg934 :tron9-9556
+HTMA3"け"U+20E5,MKCM1  eg935 :tron9-9557
+HTMA0"こ"U+20E5,MKCM1  eg936 :tron9-9558 :woshite-3054
+HTMA0"ご"U+20E5,MKCM1  eg937 :woshite-5f8c
+%nofont kami8979 :woshite-8aa4
+HTMA0"ご"MKRT1  eg938 :woshite-30b4
+HTMA0"こ"U+20E5,MKCM33  eg939 :woshite-8a9e
+HTMA3"こ"  eg940 :woshite-6545
+
+%nofont kami8940 :tron9-9421
+HTMA3"い" eg801 :tron9-9422
+%nofont kami8942 :tron9-9423
+HTMA3"え" eg808 :tron9-9424
+%nofont :hotukk-304a :tron9-9425
+%nofont kami8945 :tron9-9426
+HTMA3"き" eg802 :tron9-9427
+%nofont kami8947 :tron9-9428
+HTMA3"け" eg809 :tron9-9429
+%nofont kami8949 :tron9-942a
+HTMA5"は" eg810 :tron9-942b
+HTMA6"ひ" eg811 :tron9-942c
+%nofont kami895c :tron9-942d
+HTMA3"へ" eg812 :tron9-942e
+HTMA0"ほ" %c2 eg813 :tron9-942f
+%nofont kami8955 :tron9-9430
+HTMA3"に"  eg803 :tron9-9431
+HTMA3"ぬ"  eg814 :tron9-9432
+HTMA3"ね"  eg815 :tron9-9433
+%nofont kami8959 :tron9-9434
+%nofont kami8960 :tron9-9435
+HTMA3"み" eg804 :tron9-9436
+%nofont kami8962 :tron9-9437
+HTMA3"め" eg816 :tron9-9438
+%nofont :hotukk-3082 :tron9-9439
+%nofont kami8950 :tron9-943a
+HTMA3"ち" eg817 :tron9-943b eg805
+%nofont :hotukk-3064 :tron9-943c
+HTMA3"て" eg818 :tron9-943d
+HTMA3"と" eg819 :tron9-943e
+%nofont kami896a :tron9-943f
+HTMA3"り" eg820 :tron9-9440
+HTMA3"る" eg821 :tron9-9441
+HTMA3"れ" eg822 :tron9-9442
+HTMA3"ろ" eg823 :tron9-9443
+%nofont kami894a :tron9-9444
+HTMA3"し" eg806 :tron9-9445
+%nofont :hotukk-3059 :tron9-9446
+HTMA3"せ" eg824 :tron9-9447
+%nofont :hotukk-305d :tron9-9448
+%nofont kami8965 :tron9-9449
+U+1B120:HTMA3 eg807 :tron9-944a
+HTMA3"ゆ" eg825 :tron9-944b
+U+1B121:HTMA3 eg826 :tron9-944c
+HTMA3"よ" eg827 :tron9-944d
+HTMA4"わ" eg828 :tron9-944e
+%nofont kami8972 :tron9-9450
+
+%nofont kami8975 :tron9-9453
+HTMA3"ぎ" eg829 :tron9-9454
+%nofont kami8977 :tron9-9455
+HTMA3"げ" eg830 :tron9-9456
+%nofont kami8979 :tron9-9457
+HTMA5"ば" eg831 :tron9-9458
+HTMA6"び" eg832 :tron9-9459
+%nofont kami8987 :tron9-95a
+HTMA3"べ" eg833 :tron9-945b
+HTMA0"ぼ" %c2 eg834 :tron9-945c
+%nofont kami8980 :tron9-945d
+HTMA3"ぢ" eg835 :tron9-945e
+HTMA2"づ" eg836 :tron9-945f
+HTMA3"で" eg837 :tron9-9460
+HTMA3"ど" eg838 :tron9-9461
+%nofont kami897a :tron9-9462
+HTMA3"じ" eg839 :tron9-9463
+HTMA3"ず" eg840 :tron9-9464
+HTMA3"ぜ" eg841 :tron9-9465
+HTMA3"ぞ" eg842 :tron9-9466
+
+HTMA1"一" eg843 :tron9-9467
+%nofont kami89a2 :tron9-9468
+HTMA1"三" eg844 :tron9-9469
+HTMA1"四" eg846 :tron9-946a
+HTMA1"五" eg845  :tron9-946b
+%nofont kami89a6 :tron9-946c
+%nofont kami89a7 :tron9-946d
+HTMA1"八" eg847  :tron9-946e
+%nofont kami89a9 :tron9-946f
+HTMA1"十" eg848  :tron9-9470
+HTMA1"百" eg849  :tron9-9471
+HTMA1"千" eg850  :tron9-9472
+HTMA2"万" eg851  :tron9-9473
+HTMA0"億" eg852  :tron9-9474
+
+HTMA4"あ" eg853  :tron9-9527
+HTMA5"あ" eg854  :woshite-4e9c
+HTMA6"あ" eg855  :woshite-4f1a :tron9-9528
+HTMA7"あ" eg856  :woshite-543e
+HTMA3"い" eg857  :tron9-9529
+HTMA3"う" eg880  :tron9-952a
+HTMA4"う" eg879  :tron9-952b
+HTMA5"う" eg878  :tron9-952c :woshite-30a6
+HTMA3"こ" eg872 :tron9-952d :woshite-500b
+HTMA4"こ" eg873 :tron9-952e :woshite-30b3
+%nofont %c4 kami8992 :tron9-952f :woshite-6d3e
+HTMA3"は" %c2 eg864  :tron9-9530
+HTMA3"ば" %c2 eg916  :tron9-955a
+HTMA3"ば" %c4 eg917  :tron9-9559
+HTMA6"は" eg866 :woshite-6ce2
+HTMA7"は" %c0 eg865  :tron9-9531 ~ %c1 %u1 eg874 :woshite-7834 ~ %c1 %u0 eg875 :woshite-30cf
+HTMA7"ば"MKRT1 %c1 %u0 eg876
+HTMA7"ば" %c1 %u0 eg877 ~ %c0 eg913 :tron9-955b
+HTMA8"ひ" eg860  :tron9-9532
+HTMA8"び" eg914  :tron9-955c
+HTMA9"ひ" eg859  :tron9-9533
+HTMA10"ひ" eg858  :tron9-9534
+HTMA10"び" eg915  :tron9-955d
+HTMA11"ひ" eg861  :tron9-9535
+HTMA12"ひ" eg862  :tron9-9536
+HTMA13"ひ" eg863  :tron9-9537
+HTMA3"ふ" eg881  :tron9-9538
+HTMA4"ふ" eg882  :tron9-9539
+HTMA4"ぶ" eg918  :tron9-955e
+HTMA5"ふ" eg883  :tron9-953a
+%nofont kami8996 :tron9-953b :woshite-5e06
+HTMA3"ほ" eg884  :tron9-953c :woshite-30db
+HTMA4"ほ" eg885  :woshite-6355
+HTMA5"ほ" eg886  :tron9-953d :woshite-88dc
+HTMA3"な" eg887  :tron9-953e :woshite-30ca
+HTMA3"ぬ" eg888  :tron9-953f
+HTMA3"め" eg889  :tron9-9540
+HTMA4"め" eg890  :tron9-9541
+HTMA3"も" eg891  :tron9-9542 :woshite-88f3
+HTMA3"た" eg892  :tron9-9543 :woshite-30bf
+HTMA3"だ" eg893  :woshite-6253
+HTMA0"だ"MKRT1 eg894  :woshite-30c0
+HTMA0"た"U+20E5:MKCM1 eg895  :woshite-3060
+HTMA0"だ"U+20E5:MKCM1 eg896  :woshite-5815
+HTMA0"た"U+20E5:MKCM33 eg897  :woshite-9640
+HTMA3"ち" eg898  :tron9-9544
+
+HTMA3"る" eg899  :tron9-9546
+HTMA3"ろ" eg900  :tron9-9547
+HTMA4"ろ" eg901  :woshite-30ed
+HTMA5"ろ" eg902  :woshite-5442
+HTMA3"す" eg903 :tron9-9548
+HTMA3"よ" %c2 eg904 :tron9-9549
+HTMA4"よ"  eg905 :woshite-30e8
+HTMA4"わ"  eg906 :tron9-954a
+HTMA5"わ"  eg907 :woshite-548c
+HTMA6"わ"  eg908 :woshite-30ef
+HTMA7"わ"  eg909 :woshite-8f2a
+HTMA8"わ"  eg910 :woshite-8a71
+%nofont kami8974 :tron9-954b
+%nofont kami8999 :tron9-954c
+%nofont kami899a :tron9-954d
+HTMA9"を" eg870 :tron9-954e
+HTMA8"を" eg869 :tron9-954f
+HTMA3"お" eg868 :tron9-9550
+HTMA7"を" eg867 :tron9-9551
+HTMA3"ぞ" eg919 :tron9-955f
+
+
+
+HTMA1"七" eg381
+HTMA1"十" eg382
+HTMA1"百" eg383
+#HTMA0"万" eg385
+HTMA1"万" eg384
+HTMA2"万" eg386
+HTMA3"万" eg387
+HTMA0"はかり" eg388
+HTMA1"はかり" eg389
+HTMA2"はかり" eg390
+HTMA0"ます" eg392
+HTMA1"ます" eg391
+
+HTMA0"ぁ" XXXnoglyph
+HTMA0"ぃ" XXXnoglyph
+HTMA0"ぅ" XXXnoglyph
+HTMA0"ぇ" XXXnoglyph
+HTMA0"ぉ" XXXnoglyph
+HTMA0"ゃ" XXXnoglyph
+HTMA0"ゅ" XXXnoglyph
+HTMA0"ょ" XXXnoglyph
+HTMA0"っ" XXXnoglyph
+HTMA0"ゎ" XXXnoglyph
+U+3095:HTMA0 XXXnoglyph
+U+3096:HTMA0 XXXnoglyph
+
+
+HTMA0"〻" %h0 %o0 u303b
+
+U+303B,U+3039:HTMA0 %o0 %h0 u303b-u3099
+
+HTMA1"〻" eg397
+HTMA2"〻" eg911 :tron9-9552
+HTMA2"〻"U+3099 eg912 :tron9-9553
+
+
+
+
+KAMI0"み" eg398
+KAMI0"の" eg399
+KAMI1"み" eg400
+KAMI0"な" eg401
+KAMI0"つ" eg402
+KAMI0"き" eg403
+KAMI0"も" eg404
+KAMI0"ち" eg405
+KAMI1"の" eg406
+KAMI2"ひ" eg407
+KAMI2"み" eg408
+KAMI2"の" eg409
+KAMI3"み" eg410
+KAMI1"な" eg411
+KAMI1"つ" eg412
+KAMI1"き" eg413
+KAMI1"も" eg414
+KAMI1"ち" eg415
+KAMI3"の" eg416
+KAMI1"ひ" eg417
+
+TYKN2"き" eg418
+TYKN2"と" eg419
+TYKN2"ぢ" %c2 eg420
+TYKN2"ぼ" %h0 eg421
+
+TYKN1"き" eg422
+U+1B121:TYKN1 eg423
+
+IZMO0"一" u4e00
+IZMO0"二" u4e8c
+IZMO0"三" u4e09
+IZMO0"四" eg424
+IZMO0"五" u3007
+IZMO0"六" eg425
+IZMO0"七" eg428
+IZMO0"八" eg427
+IZMO0"九" eg426
+IZMO0"十" eg429
+IZMO1"十" eg433
+IZMO0"百" eg430
+IZMO0"千" eg431 
+IZMO0"万" eg432
+
+# 熊野宝剣古字
+KAMI0"子" %o0 eg434 ~ %o1 eg435
+KAMI0"丑" eg436
+KAMI0"寅" eg437
+KAMI0"卯" eg440
+KAMI0"辰" eg439
+KAMI0"未" eg438
+KAMI0"午" eg441 
+KAMI0"未" eg442 
+KAMI0"申" %c1 eg444 ~ %c0 eg443
+KAMI0"酉" eg445
+KAMI0"戌" eg446
+KAMI0"亥" eg447
+
+#上宮太子御圧尺銘
+KAMI0"北" eg448
+KAMI1"北" eg449
+KAMI0"艮" eg450
+KAMI1"艮" eg451
+KAMI0"東" eg452
+KAMI1"東" eg453
+KAMI0"巽" eg454
+KAMI1"巽" eg455
+KAMI0"南" eg456
+KAMI1"南" eg457
+KAMI0"坤" eg458
+KAMI1"坤" eg459
+KAMI0"西" eg460
+KAMI1"西" eg461
+KAMI0"乾" eg462
+KAMI1"乾" eg463
+
+#十干古字
+KAMI0"甲" eg464
+KAMI0"乙" eg465
+KAMI0"丙" eg466
+KAMI0"丁" eg467
+KAMI0"戊" eg468
+KAMI0"己" eg469
+KAMI0"庚" eg470
+KAMI0"辛" eg471 
+KAMI0"壬" eg472 
+KAMI0"癸" eg473
+
+# 五行仮字
+KRTR1"火" eg474
+KRTR1"金" eg475
+KRTR1"水" eg476
+IZMO0"あ" %o0 eg479
+IZMO0"う" %o1 eg480
+IZMO0"金" eg481
+IZMO0"水" eg482
+
+## License: Public Domain.
