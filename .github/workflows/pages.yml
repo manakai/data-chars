@@ -23,13 +23,6 @@
                "run" : "make build-github-pages"
             },
             {
-              "if": "failure()",
-               "uses": "actions/upload-artifact@v4",
-               "with": {
-          "name": "all-files-on-failure",
-          "path": "./local/*"
-           }},
-            {
                "name" : "Setup pages",
                "uses" : "actions/configure-pages@v3"
             },
