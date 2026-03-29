@@ -142,7 +142,7 @@ testdata.json: $(VGEN_PATH)/testdata.pl merged-index.json $(VGEN_TEST_INPUTS)
 
 test: $(VGEN_PATH)/test.pl \
     merged-index.json char-cluster.jsonl testdata.json
-	$(PROVE) $<
+	$(PROVE) $< || $(PERL) $<
 perl-test: \
     merged-index.json char-cluster.jsonl testdata.json \
     $(VGEN_PATH)/test.pl \
