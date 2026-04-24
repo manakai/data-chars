@@ -2106,6 +2106,8 @@ manakai:左右反転類似
 "S"
 manakai:lookslike
 -"6"
+"4"
+manakai:lookslike
 "8"
 manakai:lookslike
 "9"
@@ -3242,6 +3244,8 @@ manakai:related
 manakai:related
 "美"
 manakai:related
+"🇱🇷"
+manakai:lookslike
 "𤝸"
 manakai:related
 "𪻄"
