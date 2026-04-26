@@ -4,7 +4,7 @@ Carp~1.50
 DBD::SQLite~1.78
 DBI~1.647
 Data::Dumper~2.183
-Encode~3.21
+Encode~3.22
 JSON::XS~4.04
 List::Util~1.70
 Math::BigInt~2.005003
