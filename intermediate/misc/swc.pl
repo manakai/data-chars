@@ -112,12 +112,15 @@ sub value_to_char ($) {
       [略字 => 'manakai:variant:simplified'],
       [新字体 => 'manakai:variant:jpnewstyle'],
       [異体字 => 'manakai:equivalent'],
+      [用法の異体字 => 'manakai:variant:conflicted'],
       [避諱 => 'manakai:taboo'],
       [欠画 => 'manakai:taboovariant'],
       [同訓異字 => 'manakai:doukun'],
       [代替表現 => 'manakai:alt'],
       [小書き => 'manakai:small'],
       [関連 => 'manakai:related'],
+      [違う => "manakai:differentiated"],
+      [類形異字 => ["manakai:differentiated", 'manakai:lookslike']],
       [字形類似 => 'manakai:lookslike'],
       [左右反転類似 => 'manakai:左右反転類似'],
       [上下反転類似 => 'manakai:上下反転類似'],
@@ -127,15 +130,15 @@ sub value_to_char ($) {
       ["3四半回転類似" => 'manakai:3四半回転類似'],
       [類義 => "manakai:類義"],
       [対義 => "manakai:対義"],
-      [違う => "manakai:differentiated"],
       [IDS => "manakai:ids", 'descs'],
     ) {
-      my ($k, $rel_type) = @$_;
+      my ($k, undef) = @$_;
+      my $rel_types = ref $_->[1] ? $_->[1] : [$_->[1]];
       my $key = $_->[2] // $key;
       for my $value (@{$item->{$k}}) {
         my $c2 = value_to_char $value;
         next unless defined $c2;
-        $Data->{$key}->{$c1}->{$c2}->{$rel_type} = 1;
+        $Data->{$key}->{$c1}->{$c2}->{$_} = 1 for @$rel_types;
       }
     }
   }
