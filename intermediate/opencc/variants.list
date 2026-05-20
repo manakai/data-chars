@@ -4235,6 +4235,8 @@ opencc:STCharacters
 gujicc:SGCharacters
 opencc:STCharacters
 -"坏"
+"坯"
+opencc:TSCharacters
 "壞"
 gujicc:SGCharacters
 opencc:STCharacters
@@ -4277,6 +4279,9 @@ opencc:STCharacters
 -"坠"
 "墜"
 gujicc:SGCharacters
+opencc:STCharacters
+-"坯"
+"坏"
 opencc:STCharacters
 -"垄"
 "壟"
