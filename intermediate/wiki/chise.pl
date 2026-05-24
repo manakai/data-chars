@@ -251,9 +251,9 @@ sub process_ids ($) {
         'shinjigen@rev' => ':shinjigen%d',
         'shinjigen/+p@rev' => ":shinjigen%d'",
         'shuowen-jiguge' => ':chise-shuowen-jiguge-%d',
-        'shuowen-jiguge4' => ':chise-shuowen-jiguge-%d',
-        'shuowen-jiguge5' => ':chise-shuowen-jiguge-%d',
-        'shuowen-jiguge-A30' => ':chise-shuowen-jiguge-%d',
+        'shuowen-jiguge4' => ':chise-shuowen-jiguge4-%d',
+        'shuowen-jiguge5' => ':chise-shuowen-jiguge5-%d',
+        'shuowen-jiguge-A30' => ':chise-shuowen-jiguge-a30-%d',
         'zinbun-oracle' => ':zinbunoracle%d',
         
         "cns11643-1" => ':cns1-%d-%d',
