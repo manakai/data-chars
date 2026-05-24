@@ -19,20 +19,33 @@ for (
   ["cho5-bbb-euckr.txt", "btron:euc-kr", ":ascii-%x"],
   ["cho5-bbb-sjis.txt", "btron:shift_jis", ":jisx0201-%x"],
   ["cho5-bbb-sjis-imode.txt", "btron:shift_jis-imode", undef],
-  ["cho5-bbb-iso88591.txt", "btron:iso-8859-1", ":isolatin1-%x"],
+  ["cho5-bbb-iso88591.txt", "btron:iso-8859-1", undef, ":isolatin1-%x"],
   ["cho5-bbb-iso2022jp.txt", "btron:iso-2022-jp", undef],
   ["cho5-bbb-big5.txt", "btron:big5", ":b5-%x"],
 ) {
   my $path = $RepoPath->child ('tron/' . $_->[0]);
   my $type = $_->[1];
   my $cpattern = $_->[2];
+  my $dpattern = $_->[3];
   my $section;
   for (split /\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
     } elsif (/^\*\s*(\S.*\S)\s*$/) {
       $section = $1;
-    } elsif (/^0x([0-9A-F]{2})\t([0-9]+)-([0-9A-F]+)$/) {
+    } elsif (/^0x([89A-F][0-9A-F])\t([0-9]+)-([0-9A-F]+)$/) {
+      if (defined $dpattern) {
+        my $c1 = sprintf $dpattern, -0x80 + hex $1;
+        my $c2 = sprintf ":tron%d-%x", $2, hex $3;
+        my $key = $Type->{$c2} = get_vkey $c1;
+        $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
+      } elsif (defined $cpattern) {
+        my $c1 = sprintf $cpattern, hex $1;
+        my $c2 = sprintf ":tron%d-%x", $2, hex $3;
+        my $key = $Type->{$c2} = get_vkey $c1;
+        $Data->{$key}->{$c1}->{$c2}->{$type} = 1;
+      }
+    } elsif (/^0x([0-7][0-9A-F])\t([0-9]+)-([0-9A-F]+)$/) {
       if (defined $cpattern) {
         my $c1 = sprintf $cpattern, hex $1;
         my $c2 = sprintf ":tron%d-%x", $2, hex $3;
