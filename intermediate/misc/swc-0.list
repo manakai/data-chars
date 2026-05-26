@@ -1258,6 +1258,9 @@ manakai:doukun
 -"縫"
 "𦂩"
 manakai:lookslike
+-"肋"
+"助"
+manakai:lookslike
 -"芝"
 "柴"
 manakai:doukun
@@ -1876,6 +1879,9 @@ manakai:回転類似
 manakai:左右反転類似
 -"ユ"
 ":UTC-0337"
+manakai:lookslike
+-"レ"
+"✓"
 manakai:lookslike
 -"ワ"
 "ウ"
