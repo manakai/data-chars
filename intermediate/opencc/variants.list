@@ -36451,6 +36451,12 @@ opencc:STCharacters
 "譅"
 gujicc:SGCharacters
 opencc:STCharacters
+-"𰻝"
+"𰻞"
+opencc:STCharacters
+-"𰻞"
+"𰻝"
+opencc:TSCharacters
 -"𰾄"
 "鋂"
 gujicc:SGCharacters
