@@ -676,6 +676,7 @@ manakai:lookslike
 "一大"
 manakai:lookslike
 "大"
+manakai:equivalent
 manakai:lookslike
 "夭"
 manakai:lookslike
@@ -1101,7 +1102,9 @@ manakai:doukun
 manakai:related
 -"泰"
 "太"
-manakai:related
+manakai:equivalent
+"秦"
+manakai:lookslike
 -"涅"
 "捏"
 manakai:equivalent

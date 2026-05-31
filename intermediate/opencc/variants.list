@@ -20066,6 +20066,7 @@ gujicc:GSCharacters
 opencc:TSCharacters
 -"貍"
 "狸"
+opencc:TSCharacters
 starcc:CNTradVariants
 -"貓"
 "猫"
