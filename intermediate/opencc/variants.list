@@ -7925,8 +7925,7 @@ opencc:TSCharacters
 -"擡"
 "抬"
 gujicc:GSCharacters
-opencc:HKVariants
-opencc:TWVariants
+opencc:TSCharacters
 opencc:variant
 starcc:HKVariants
 starcc:TWVariants
